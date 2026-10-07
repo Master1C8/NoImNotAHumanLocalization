@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T20:56:20.578570+00:00",
+  "updatedAt": "2026-10-07T21:52:45.667797+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -27,7 +27,7 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "Canonical Russian source glossary remains ready and published. Standalone translations authorized for all 14 target locales; Thai has a complete 201-entry draft, pending two consecutive clean full audits. Other target glossaries not started; no game text translation or target publication.",
+  "summary": "Standalone glossary translations are in parallel work. Czech and Bulgarian are independently accepted and integrated in the canonical export, 201 entries each. Other target locales remain in authoring or final review. Source unchanged; game text translation and target publication not performed.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -647,7 +647,7 @@
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "draft-complete-needs-review",
+      "glossary": "independent-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -658,7 +658,7 @@
       "runtimeLocale": "th",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": "7d5611756dfa5159b7318596c3ae6dfc91572a53a97f28e92a3af96c329f1cfe",
+      "glossaryFingerprint": "22da29d7efd2efd1e2029585a61d7d317a0d017c902629dc279637bb9bcd6281",
       "requirements": [
         "Thai marks above/below, stacking, spacing, wrapping and dialogue advancement"
       ],
@@ -690,17 +690,20 @@
       "glossaryProgress": {
         "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "needs-review"
+        "consecutiveCleanFullAudits": 1,
+        "status": "independent-review-pending"
       },
-      "glossaryReview": "Documentation/glossary-translations/th/review.json"
+      "glossaryReview": "Documentation/glossary-translations/th/review.json",
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 1
     },
     {
       "locale": "id",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "final-cold-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -711,7 +714,7 @@
       "runtimeLocale": "id",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "12a39c424c4a0c9f8f69cd1d11230bc17b150243e278df4d0d28428ea73f5b60",
       "requirements": [
         "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
       ],
@@ -825,18 +828,22 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 2,
+        "status": "final-cold-review-pending"
+      },
+      "glossaryReview": "Documentation/glossary-translations/id/review.json",
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 2
     },
     {
       "locale": "cs",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "passed; canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -847,7 +854,7 @@
       "runtimeLocale": "cs",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "a4b35e541491c8fb9489a9ae4f486875890a99b698914d8b9c451c229c8f4386",
       "requirements": [
         "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
       ],
@@ -919,18 +926,24 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 3,
+        "status": "passed; canonical-integrated"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 3,
+      "glossaryReview": "Documentation/glossary-translations/cs/review.json",
+      "independentGlossaryReview": "Documentation/glossary-translations/independent-reviews/cs/review-v1.json",
+      "glossaryCanonicalReview": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translation-reviews/cs.json"
     },
     {
       "locale": "hu",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "independent-findings-returned; correction-and-full-reviews-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -941,7 +954,7 @@
       "runtimeLocale": "hu",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "f3ad6ed6af6fef26872f374ddb74e69ace688b56d8840122d918443f93b5aa4b",
       "requirements": [
         "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
       ],
@@ -1013,18 +1026,23 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "status": "independent-findings-returned; correction-and-full-reviews-pending"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 0,
+      "glossaryReview": "Documentation/glossary-translations/hu/review.json",
+      "independentGlossaryReview": "Documentation/glossary-translations/independent-reviews/hu/review-v1.json"
     },
     {
       "locale": "nl",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "final-cold-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1035,7 +1053,7 @@
       "runtimeLocale": "nl",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "025a8cf39f2a3d424eee8ff3e4ced47300818cc4b89c425a44ad221acc809d93",
       "requirements": [
         "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
       ],
@@ -1149,18 +1167,22 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 2,
+        "status": "final-cold-review-pending"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 2,
+      "glossaryReview": "Documentation/glossary-translations/nl/review.json"
     },
     {
       "locale": "fa",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "final-cold-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1171,7 +1193,7 @@
       "runtimeLocale": "fa",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "4d7bac988876a35241af2c9fd01a2dda3ba4dec6ac8036cf66960829d16e2461",
       "requirements": [
         "Persian joining, ZWNJ, bidi mixed with Latin/numbers/tags and dialogue advancement"
       ],
@@ -1202,18 +1224,23 @@
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "rendererEvidence": "Documentation/runtime-renderer-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 2,
+        "status": "final-cold-review-pending"
+      },
+      "glossaryReview": "Documentation/glossary-translations/fa/review.json",
+      "independentGlossaryReview": "Documentation/glossary-translations/independent-reviews/fa/correction-closure-v2.json",
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 2
     },
     {
       "locale": "ro",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "final-cold-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1224,7 +1251,7 @@
       "runtimeLocale": "ro",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "a7edcbe50a0fccb0ffe223d0e819bfb23e223b735c563636eb8fd46de42a86e9",
       "requirements": [
         "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
       ],
@@ -1296,18 +1323,22 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 2,
+        "status": "final-cold-review-pending"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 2,
+      "glossaryReview": "Documentation/glossary-translations/ro/review.json"
     },
     {
       "locale": "hi",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "assigned-in-progress",
       "editorial": "not-started",
       "fonts": "three-Hindi-roles-bound-to-owned-HarfBuzz-glyph-font; final-style-unverified",
       "textures": "not-started",
@@ -1352,7 +1383,7 @@
         "translated": 0,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
+        "status": "assigned-in-progress"
       }
     },
     {
@@ -1360,7 +1391,7 @@
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "assigned-in-progress",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1488,7 +1519,7 @@
         "translated": 0,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
+        "status": "assigned-in-progress"
       }
     },
     {
@@ -1496,7 +1527,7 @@
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "final-cold-review-pending",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1507,7 +1538,7 @@
       "runtimeLocale": "el",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "a91610abc3c8e4d3c7e40e4220c567a748349da2a4b479dcdcc6d007baecec8d",
       "requirements": [
         "Greek diacritics, metrics, wrapping and dialogue advancement"
       ],
@@ -1561,18 +1592,22 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 2,
+        "status": "final-cold-review-pending"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 2,
+      "glossaryReview": "Documentation/glossary-translations/el/review.json"
     },
     {
       "locale": "bg",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "passed; canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1583,7 +1618,7 @@
       "runtimeLocale": "bg",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
-      "glossaryFingerprint": null,
+      "glossaryFingerprint": "28d7eb651d95b56a72a5a4acefcba5f434dcbe6925a2233126655e13b0e01cab",
       "requirements": [
         "Cyrillic-specific glyphs, metrics, wrapping and dialogue advancement"
       ],
@@ -1679,18 +1714,24 @@
       },
       "nativeEvidence": "Documentation/native-locale-evidence.json",
       "glossaryProgress": {
-        "translated": 0,
+        "translated": 201,
         "total": 201,
-        "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
-      }
+        "consecutiveCleanFullAudits": 3,
+        "status": "passed; canonical-integrated"
+      },
+      "glossaryTranslated": 201,
+      "glossaryTotal": 201,
+      "glossaryConsecutiveCleanFullAudits": 3,
+      "glossaryReview": "Documentation/glossary-translations/bg/review.json",
+      "independentGlossaryReview": "Documentation/glossary-translations/independent-reviews/bg/review-v1.json",
+      "glossaryCanonicalReview": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translation-reviews/bg.json"
     },
     {
       "locale": "sr",
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "assigned-in-progress",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1764,7 +1805,7 @@
         "translated": 0,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
+        "status": "assigned-in-progress"
       }
     },
     {
@@ -1772,7 +1813,7 @@
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "assigned-in-progress",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1900,7 +1941,7 @@
         "translated": 0,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
+        "status": "assigned-in-progress"
       }
     },
     {
@@ -1908,7 +1949,7 @@
       "phase": "probe",
       "translated": 0,
       "total": null,
-      "glossary": "not-started",
+      "glossary": "assigned-in-progress",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
@@ -1953,7 +1994,7 @@
         "translated": 0,
         "total": 201,
         "consecutiveCleanFullAudits": 0,
-        "status": "not-started"
+        "status": "assigned-in-progress"
       }
     }
   ],
@@ -2160,11 +2201,10 @@
     "standard": "standard",
     "canonicalPath": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translations.json",
     "snapshotPath": "Documentation/glossary-translations/glossary-translations.json",
-    "activeLocale": "th",
+    "activeLocale": null,
     "queue": [
       "th",
       "id",
-      "cs",
       "hu",
       "nl",
       "fa",
@@ -2172,21 +2212,64 @@
       "hi",
       "fil",
       "el",
-      "bg",
       "sr",
       "sw",
       "he"
     ],
-    "completedLocales": [],
+    "completedLocales": [
+      "cs",
+      "bg"
+    ],
     "publication": "not-authorized",
     "rendererReadiness": "unverified; standalone glossary scope",
     "reviewGate": "Two consecutive clean full-entry audits per unchanged locale after corrections.",
-    "canonicalExportRawSha256": "f99308ff4e21ef4e07ba2250f96f910e57e44157bf704b30d0ed904316fa2a67",
-    "structuralValidation": "passed; exact 201 IDs/order; source raw and CLI fingerprints unchanged",
+    "canonicalExportRawSha256": "2ce81b19bdd159d7394e57d9c08e8971e423f60f50ed91017d35469fcb7fd204",
+    "structuralValidation": "Passed canonical CLI glossary check on th prior draft plus newly accepted cs/bg layers; source parsed fingerprint unchanged.",
     "focusedTests": {
       "passed": 39,
-      "failed": 0
+      "failed": 0,
+      "artifactScope": "Canonical export raw SHA256 2ce81b19bdd159d7394e57d9c08e8971e423f60f50ed91017d35469fcb7fd204; loader/schema and publication guard regressions only, not semantic proof."
     },
-    "canonicalProgressCommit": "cb4e8546c1370534a18e66a3fd58e6dfa9b4c347"
+    "canonicalProgressCommit": "d6ad10edf37edd842d8ebf8a3826dce092cde3ac",
+    "parallelAuthorization": "Owner: remaining locales in parallel, 2026-10-08",
+    "activeAssignments": [
+      {
+        "agent": "/root/glossary_group_a",
+        "locales": [
+          "id",
+          "cs",
+          "hu",
+          "nl"
+        ],
+        "activeLocale": "nl"
+      },
+      {
+        "agent": "/root/glossary_group_b",
+        "locales": [
+          "fa",
+          "ro",
+          "hi",
+          "fil"
+        ],
+        "activeLocale": "hi"
+      },
+      {
+        "agent": "/root/glossary_group_c",
+        "locales": [
+          "el",
+          "bg",
+          "sr",
+          "sw",
+          "he"
+        ],
+        "activeLocale": "sr"
+      }
+    ],
+    "integrationCoordinator": "/root",
+    "nextAction": "Complete each assigned locale and full review gate, independently review frozen layers, then validate and integrate canonical layers.",
+    "editorialAcceptedLocales": [
+      "cs",
+      "bg"
+    ]
   }
 }

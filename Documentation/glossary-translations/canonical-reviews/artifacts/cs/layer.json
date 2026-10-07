@@ -1,0 +1,806 @@
+{
+  "player": {
+    "term": "Hlavní hrdina",
+    "meaning": "Majitel domu, kterého ovládá hráč; přijímá noční návštěvníky a ve dne prohlíží obyvatele domu. V odpovědích o sobě mluví jako o synovi; oslovení jsou v mužském rodě. Nepřenášet pohlaví člověka s ovladačem na postavu. Osobní informace odhalovat pouze tam, kde je sděluje původní scéna. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "neighbour": {
+    "term": "Soused",
+    "meaning": "Známý hlavního hrdiny, otec dívky Daughter; jako první varuje před nebezpečím samoty a později mluví po telefonu. Mluví po sousedsku a tyká. Nezaměňovat ho s libovolným obyvatelem sousedního domu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "neighbours-daughter": {
+    "term": "Sousedova dcera",
+    "meaning": "Dítě, Sousedova dcera; žádá o úkryt, pláče, vzpomíná na otce a kamarádku. Zachovat dětskou řeč, zadrhávání a emotivní protahování; nedělat z ní dospělou ženu ani vymýšlet přesný věk. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cashier": {
+    "term": "Pokladní",
+    "meaning": "Bývalá pokladní, úzkostná dívka; rozhraní ji popisuje jako «dívku se skoliózou». Mluví váhavě a nervózně se směje; její strach a pozdější změny chování závisí na scéně. Interní kód Anxiety není osobní jméno. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "amogus-shirt-man": {
+    "term": "Kluk v tričku amogus",
+    "meaning": "Nabízí pochybné způsoby výdělku, oslovuje důvěrně a hrubě. Zachovat slang, chvástání a agresivní reakci na posměch; amogus je nápis na tričku, nikoli jeho jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "widow": {
+    "term": "Vdova",
+    "meaning": "Přichází s tělem manžela, truchlí a vypráví o jeho smrti. Nezaměňovat manželovo tělo s živým návštěvníkem ani se samotnou ženou. Řeč je tichá, unavená, s pauzami. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "tall-bar-man": {
+    "term": "Dlouhán",
+    "meaning": "Velmi vysoký muž, kterému nevyhovovali lidé v předchozím úkrytu; rád pije a povídá si. Interní kód Esenin nedokazuje, že jde o Sergeje Jesenina, a neopravňuje k přidání tohoto jména. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "husband-and-wife": {
+    "term": "Manželský pár",
+    "meaning": "Dvě postavy: manžel a manželka. Při vstupu mluví manžel o manželce; denní scény obsahují jeho repliky a vyprávění o jednání páru. Jednotné číslo vztahovat ke konkrétnímu účastníkovi, množné k páru. Nedělat z manželky věc ani jí připisovat manželova slova. Pár tvoří muž a žena; shodu určovat podle konkrétního účastníka, pro oba zachovat množné číslo."
+  },
+  "surgeon": {
+    "term": "Chirurg",
+    "meaning": "Lékař, který výslovně uvádí chirurgii jako svou specializaci; dříve pracoval s KČS a pomáhal lidem. Mluví zdrženlivě a soucitně. Rozlišovat tohoto obyvatele domu a lékaře na telefonní lince KČS; interní název assetu Doc označuje stejnou postavu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "naked-fat-man": {
+    "term": "Nahý tlusťoch",
+    "meaning": "Návštěvník s hrubou, těžkopádnou, přerývanou řečí; nabízí dárek nebo platbu za úkryt. Rozlišovat Fatman, rozzuřeného tlusťocha Anger a nahého muže Experienced. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "babushka": {
+    "term": "Strašidelná bába",
+    "meaning": "Starší žena, která o sobě mluví jako o babičce; vypráví příběhy a oslovuje laskavě: «zlatíčko», «kamaráde». Její vlastní přiznání ke lhaní nepřetvářet na spolehlivé historické informace. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "jerky-man": {
+    "term": "Cukavý muž",
+    "meaning": "Návštěvník s prudkými přechody, smíchem, hrubým slangem a vyprávěním o podivných zábavách. Nezaměňovat s úzkostnou pokladní ani s podivným klukem Nervous; kód není lékařská diagnóza. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "ex-con": {
+    "term": "Nahý muž",
+    "meaning": "Postava s kriminálním slangem, která zmiňuje bývalou manželku a život po vězení. Oslovení «frajere», «klučino» zachovávají jeho způsob řeči; neplést s Fatman a nepřekládat kód Experienced jako osobní jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "seductive-woman": {
+    "term": "Svůdná žena",
+    "meaning": "Žena nabízející intimitu a rozhovor o hrdinových pocitech. Řeč je jemná a důvěrná; v samostatné větvi rozebírá domnělé těhotenství a Dítě z vidění. Fanouškovský článek s ní spojuje dámu v závěru s dítětem a mlhou. Zachovat podmínky scén a neodhalovat je předem; FatalDame je interní kód, nikoli osobní jméno. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "bearded-hunter": {
+    "term": "Obrovský vousatý chlap",
+    "meaning": "Hrubý, sebejistý návštěvník, který vypráví o pronásledování a setkáních s Hosty. Neztotožňovat ho s Bledým Hostem podle výšky ani nepřidávat povolání dřevorubce pouze z popisu vzhledu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "best-son": {
+    "term": "Kluk v tričku s číslem",
+    "meaning": "Mladá postava závislá na rodičích, která se dozvídá o dříve zatajované sestře; kontakt je označen jako sestra «nejlepšího syna». Zachovat nejistou řeč a příbuzenský vztah; Bestson je technický kód, nikoli osobní jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "suit-bandit": {
+    "term": "Plešatý bandita v obleku",
+    "meaning": "Muž uvažující o síle a podřízenosti; jeho klidná sebejistota se pojí s výhrůžkami a násilím. Asset/UI používá WolfHound, repliky Wolfhound; jde o varianty kódu jedné postavy. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "angry-wounded-man": {
+    "term": "Rozzuřený tlusťoch s ranami",
+    "meaning": "Muž přiznávající, že udeřil manželku poté, co oznámila odchod do kultu. Zachovat zuřivost, hrubost a sebeobviňování; rozlišovat jeho rány a újmu, kterou způsobil ostatním. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "kindergarten-teacher": {
+    "term": "Žena v pleteném svetru a brýlích",
+    "meaning": "Vychovatelka, která přijala opuštěné děti v bývalé školce a přišla o ně. Její traumatické vzpomínky nepřetvářet na lhostejné převyprávění; nepřidávat přesný věk ani jméno. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "former-fema": {
+    "term": "Muž v obleku KČS",
+    "meaning": "Muž v uniformě KČS: při vstupu popírá službu a nabízí různá vysvětlení, později mluví o své práci, plnění rozkazů a ukončení služby. Zachovat okamžik odhalení i jeho pokusy o ospravedlnění; nepokládat počáteční verze za neměnný životopis. Rozlišovat od aktivního pracovníka Gasmask; přítomnost obleku neznamená pokračující službu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "immortal-man": {
+    "term": "Nesmrtelný",
+    "meaning": "Hledá pohřešovanou dceru a tvrdí, že nemůže zemřít; sděluje, že po něm pátrá KČS. Tvrzení o podstatě Hostů a nesmrtelnosti podávat jako jeho slova, dokud scéna nestanoví více. Jacob je interní kód; samotný kód neurčuje ruský zápis osobního jména. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "big-momma": {
+    "term": "Obrovská žena s ofinou",
+    "meaning": "Žena mluvící o svých děťátkách a novém domově. Řeč je rázná, někdy posměšná; její «děťátka» nemusí být běžné lidské děti. Nezaměňovat s Mother. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "stoner": {
+    "term": "Rastaman s dredy",
+    "meaning": "Důvěrně mluvící postava používající «brácho», «kámo», herní a drogový slovník. Jeho vysvětlení a vtipy zachovat jako řeč postavy, nikoli informace autora o světě. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "tough-woman": {
+    "term": "Žena v topu",
+    "meaning": "Odhodlaná žena trvající na boji o život a na jednání během katastrofy. Technický kód Fighter v některých klíčích nemění ženské tvary postavy. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cat-lady": {
+    "term": "Žena s kocourem",
+    "meaning": "Přichází s kocourem, mluví stručně, nezvykle a někdy dvojsmyslně. Kocour je samostatná postava a domácí zvíře; kód Ballerina nedokazuje povolání baletky. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cold-man": {
+    "term": "Zimomřivec v bundě",
+    "meaning": "Postava neustále pociťující chlad i za katastrofického vedra; bojí se žít vedle ostatních. Rozlišovat od kluka Jacket, který má samostatný příběh o bundě a bratrovi. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "armchair-lawyer": {
+    "term": "Agresivní týpek s obrovskou hlavou",
+    "meaning": "Požaduje nájem a smlouvu, hádá se o právech, licenci a právních normách. Zachovat sebejistý úřednický tón; jeho odkazy na zákony jsou repliky fiktivní postavy, nikoli ověřená právní fakta. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "stand-up-guy": {
+    "term": "Chlupatý obr",
+    "meaning": "Návštěvník, který se i během katastrofy snaží vidět něco směšného a příjemného; mluví o hypotéce a dřívějších strastech. Veselý tón nepopírá tíživé události v jeho příbězích. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "wounded-fugitive": {
+    "term": "Muž s ranou v břiše",
+    "meaning": "Uprchlík hledající úkryt a pomoc s ranou; bojí se udání a KČS. Zachovat naléhavost proseb a hrubou hovorovou řeč, neplést s Anger. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "taxi-driver": {
+    "term": "Taxikář v čepici",
+    "meaning": "Taxikář vyprávějící o cestujících a své rodině. Mluví hovorově, s přeřeknutími a nadávkami; domnělé souvislosti jeho příběhů s jinými obyvateli domu nepodávat jako prokázané bez konkrétní scény. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cheerful-man": {
+    "term": "Muž v zelené čepici",
+    "meaning": "Dobrosrdečný muž mluvící o přijetí, odpuštění a těžké minulosti. Лука/Luka je interní označení; v extrahovaném ruském dialogu se takto nepředstavuje. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "sleepless-man": {
+    "term": "Muž v černé mikině s kapucí",
+    "meaning": "Obyvatel domu, který dlouho nespí a rozebírá sny, odpočinek a to, co viděl hrdina. Neplést technický název Intruder s Bledým Hostem, kterého fanouškovské materiály rovněž mohou označovat jako intruder. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "bar-teenager": {
+    "term": "Dospívající v čepici",
+    "meaning": "Dospívající dívka, která odešla z předchozího domova; ráda mluví o anime a filmech. Rozhraní používá slovo «dospívající», ale vlastní tvary «myslela», «vzala», «sama pletla» jsou ženské. Vstupní repliky nemusí pohlaví odhalit hned; nepřidávat odhalení dříve než originál. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fortune-teller": {
+    "term": "Žena s tarotovými kartami",
+    "meaning": "Věštkyně používající ezoterický slovník o auře, energii, učitelce a vnitřním světle. Její vysvětlení jsou přesvědčení postavy; číslo «Od věštkyně» vede k jinému hlasu. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "blind-man": {
+    "term": "Bezoký",
+    "meaning": "Slepý muž mluvící o strašlivém tvorovi, kterého viděl, a vlastních pocitech. Nenahrazovat absenci zraku hluchotou; popis pocitů nepřetvářet na objektivní důkaz statusu ostatních obyvatel domu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "nun": {
+    "term": "Věřící",
+    "meaning": "Starší nábožensky založená žena požadující ticho, ikony a uctivou řeč. Zachovat výčitky a modlitební slovník; neplést s kultisty Smrti ani s uctívačem Sluneční tváře. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "pale-visitor": {
+    "term": "Bledý Host",
+    "meaning": "Vysoký bledý nelidský návštěvník, který se ptá, zda je hrdina doma sám. Televizní identikit jej výslovně popisuje jako muže středního věku; nejde o běžného obyvatele domu. Neztotožňovat s Esenin ani Sleepless Man; kód Super označuje také staré souhrnné řádky, nikoli samostatné osobní jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "bandana-man": {
+    "term": "Kluk ve fialovém šátku",
+    "meaning": "Mladý muž, který se chce naučit zabíjet Hosty a bránit se. Zachovat nejistotu, prosby a změny jeho vztahu k násilí. Raskolnikov neznamená kanonickou souvislost s Dostojevského hrdinou. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "wheelchair-man": {
+    "term": "Kluk bez nohou",
+    "meaning": "Používá vozík, miluje rychlost a Eneržeku. Původní dialog obsahuje variantu, kde vstane a vysvětlí, že se mu vozík prostě líbil; nepřetvářet původní absenci nohou na bezpodmínečný životopis ve všech variantách. WheelChair a Wheelchair odkazují na stejnou postavu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "creepy-man": {
+    "term": "Podivný kluk v tílku",
+    "meaning": "Mluví s nepříjemným smíchem a vypráví o deseti letech v léčebně. Nestanovovat diagnózu podle kódu Nervous ani neplést s Unstable; faktická tvrzení zachovat jako jeho vyprávění. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fema-wife": {
+    "term": "Rázná ženská s výrazným líčením",
+    "meaning": "Manželka pracovníka KČS, která sama chce nastoupit do služby; dříve pracovala na hranici. Mluví ostře a sebejistě, dává číslo přijímací komise. Nepovažovat člověka odpovídajícího na tomto čísle za jejího manžela. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "firefighter": {
+    "term": "Hasič",
+    "meaning": "Popálený hasič, unavený požáry a mající obavy o kamarády a děti. V řeči zachovat kašel «kh-kh» a pauzy; předává dokument «Předvolání ke KČS». Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "homeless-man": {
+    "term": "Bezdomovec",
+    "meaning": "Sbírá věci zemřelých, vypráví o putování a ujišťuje, že živým neubližuje. Technický kód Marauder neopravňuje k nahrazení všech oslovení obviněním «bandita». Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "punk-girl": {
+    "term": "Dívka s tetováním",
+    "meaning": "Dívka, která dříve pracovala v rádiu; mluví přímo a současným jazykem, vypráví o ztrátě blízkého člověka. Neplést s odhodlanou Tough; tetování jsou popis, nikoli jméno. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "theater-man": {
+    "term": "Plešoun",
+    "meaning": "Muž, který žil s maminkou a babičkou a vypráví o divadelní rodině. Mluví důvěrně, «brácho», vtipkuje a nadává. Rozlišovat od plešatého bandity Wolfhound a Proroka. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fema-agent": {
+    "term": "Pracovník KČS v plynové masce",
+    "meaning": "Aktivní pracovník, který obchází čtvrť, odvádí lidi na vyšetření a později nabízí službu. Fanouškovský článek uvádí mužské pohlaví; nepřipisovat všem pracovníkům KČS jednu totožnost ani neprokázanou souvislost s Wifefema. Totožnost pracovníků při všech návštěvách není stanovena. Fanouškovská wiki uvádí mužské pohlaví; používat mužské tvary, neodvozovat pohlaví z povolání."
+  },
+  "gravedigger": {
+    "term": "Hrbatý chlap",
+    "meaning": "Hrobník, který viděl neobvyklé události u hrobů a hledá bezpečný úkryt. Řeč je hrubá, vyděšená, hovorová; rozlišovat pohřeb a opětovné objevení těla od potvrzeného vzkříšení konkrétní postavy. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "tourist": {
+    "term": "Opálený kluk",
+    "meaning": "Návštěvník, kterému po pobytu v hotelu nezbyly peníze a hledá přístřeší. Mluví zdvořile, «vážený pane», «mnohokrát děkuji». Neplést s Foreigner ani určovat národnost podle opálení. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "jacket-man": {
+    "term": "Mladík v bundě",
+    "meaning": "Mladý muž, který přijel studovat; bundu mu daroval bratr námořník, kterého později násilně odvedli do služby KČS. Postava výslovně upřesňuje, že bratra neodvedli do karanténní zóny. Bojí se, že bratrovi přikážou jej zadržet nebo zabít. Zachovat pořadí odhalování a rozlišovat tuto bundu od chladu postavy Cold. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "morbid-romantic": {
+    "term": "Upravený muž s gangrénou",
+    "meaning": "Muž mluvící o kráse smrti a zachování vlastního těla. Zachovat melancholickou, obraznou řeč; Edgar je interní kód, nikoli potvrzené ruské jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "leper": {
+    "term": "Chlap s kožními problémy",
+    "meaning": "Postava ponižovaná kvůli vzhledu, která nechce žít vedle člověka, jenž jí ubližoval. Nepřetvářet kód Leper na potvrzenou lékařskou diagnózu lepry. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "conspiracy-theorist": {
+    "term": "Ten s brýlemi a knírem",
+    "meaning": "Sebejistý zastánce konspiračních teorií slibující odhalit pravdu a hádající se s těmi, kdo nesouhlasí. Jeho teorie zachovat jako jeho verze, nikoli jako autorovo vysvětlení původu Hostů. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fairytale-enjoyer": {
+    "term": "Zasněný studentík",
+    "meaning": "Čerstvý absolvent univerzity, který si přivydělával v kavárně a miluje pohádky. Zachovat zdvořilost a pohádkový styl tam, kde vypráví pohádku; neurčovat konkrétní věk. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "rock-musician": {
+    "term": "Nějaký muzikant",
+    "meaning": "Rockový hudebník mluvící o zkouškách, kapele, kytaře a vyhoření. Zachovat hudební slang a hrubou hovorovost; Rocker je role, nikoli osobní jméno. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "twin-alkonost": {
+    "term": "Kouřící sestra",
+    "meaning": "Jedna ze dvou sester, která hledá manžela a stará se o druhou; rozhraní ji označuje jako «kouřící ženu». V průběhu jejího příběhu může být manžel nalezen mrtvý. Алконост je interní označení; nepřetvářet člověka na mytického ptáka. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "twin-sirin": {
+    "term": "Sestra v depresi",
+    "meaning": "Druhá sestra, která trpí těžkým duševním stavem; později se může starat o první. Zachovat vzájemné příbuzenství a změny rolí v konkrétní scéně. Сирин je technické označení, nikoli druh tvora. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "mushroom-eater": {
+    "term": "Houbař",
+    "meaning": "Návštěvník spojený se Zemí hub, myceliem, festivalem a «Učebnicí úsměvů». Oslovuje «dobrý příteli», «mladíku», mluví slavnostně a nezvykle. Jeho předpovědi podávat s původní mírou jistoty. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "stitched-mouth-man": {
+    "term": "Kluk se zašitými ústy",
+    "meaning": "Cizinec komunikující gesty, přikyvováním a nesrozumitelnými zvuky; hrdina často vidí popis jednání místo běžné repliky. Nepřetvářet autorův popis na vyslovená slova ani určovat zemi původu bez textového podkladu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "mother-with-child": {
+    "term": "Žena s dítětem",
+    "meaning": "Matka, která ztratila děti a přichází s jedním dítětem; dává číslo manžela. Zachovat její vlastní přiznání a nespolehlivost vyprávění, rozlišovat matku, dítě a manžela; neplést s Greatmother. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cultist-one": {
+    "term": "První kultista",
+    "meaning": "Jeden ze tří učedníků učitele, připravujících se na příchod Smrti. Cultist1 odpovídá assetu CultistOne. Zachovat samostatného mluvčího a nespojovat všechny učedníky v jednu postavu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cultist-two": {
+    "term": "Druhý kultista",
+    "meaning": "Učedník učitele, kterého znepokojuje blížící se rituál; strach se pojí s touhou naplnit učitelovy naděje. Cultist2 odpovídá CultistTwo. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cultist-three": {
+    "term": "Třetí kultista",
+    "meaning": "Třetí učedník mluvící o přípravě a klidu. Cultist3 odpovídá CultistThree. «Bratři» v náboženské řeči nedokazují pokrevní příbuzenství těchto tří. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cult-leader": {
+    "term": "Učitel kultistů",
+    "meaning": "Vůdce skupiny, který slibuje spásu skrze příchod Smrti a odvádí učedníky. V původní scéně říká «rád». Jeho slib klidu nepovažovat za záruku bezpečí obyvatel domu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "prophet": {
+    "term": "Prorok",
+    "meaning": "Přicházející muž s útržkovitou pamětí a předtuchami; spojený s knihou, skokem a možnými rozhodnutími hrdiny. Nepřidávat jméno skutečného člověka podle podobnosti nebo fanouškovské přezdívky. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "courier": {
+    "term": "Kurýr For Rest",
+    "meaning": "Muž doručující objednávky následující noc; vypráví o práci a smrti známého. Rozlišovat doručujícího kurýra od operátora telefonických objednávek. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "miner": {
+    "term": "Horník",
+    "meaning": "Návštěvník, který hrdinovi nabízí sestup a slibuje jej jistit shora. Mužské tvary vlastních replik jsou potvrzené; jeho sliby nenahrazovat zárukou bezpečného výsledku. V UI jde o character_Podvalny. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "sisters-together": {
+    "term": "Dvě sestry",
+    "meaning": "Společný příchod Alkonost a Sirin. Jsou to dvě ženy, nikoli třetí sestra ani dva muži-dvojčata. U jednotného «já» se řídit mluvčí ve scéně, u «my/nás» zachovat dvojici. Skupina dvou žen; ženská shoda pro každou, množné číslo pro obě."
+  },
+  "raincoat-boy": {
+    "term": "Chlapec v pláštěnce",
+    "meaning": "Krátce se objevující chlapec opakující, že si spletl dům. Nepřidávat podrobný životopis ani nepovažovat název jiného herního projektu za osobní jméno postavy. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "vigilante": {
+    "term": "Ozbrojený lovec Hostů",
+    "meaning": "Přicházející ozbrojený muž, který sám kontroluje hrdinu na známky Hosta. Vypráví o zabití manželů v zabarikádovaném domě na okraji města. Neplést s Hunter ani jej automaticky neztotožňovat s neznámým střelcem z televizní zprávy o karanténní zóně. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "cat": {
+    "term": "Kocour",
+    "meaning": "Domácí zvíře ženy Ballerina; mňouká, přijímá hlazení a krmení. Původní vyprávění používá «on», ale biologické pohlaví není zvlášť stanoveno. Zachovat označení «kocour» a původní zájmena bez přidávání faktů o rozmnožování; slova v závorkách jsou vyprávění, nikoli řeč zvířete. Ruský zdroj používá «кот» a «он»; biologické pohlaví není zvlášť stanoveno. Nepřidávat biologické údaje."
+  },
+  "death": {
+    "term": "Smrt",
+    "meaning": "Nadpřirozená bytost, k níž vedou samostatné závěrečné scény. Kultisté říkají «ona», ale v její vlastní obrazné řeči zaznívá «já jsem neuznaný bratr». Zachovat oba tvary v jejich kontextech; gramatický rod slova «smrt» a poetické «bratr» neurčují biologické pohlaví. Nenahrazovat bytost abstraktním koncem života tam, kde jedná a mluví. Část její řeči nemá prefix mluvčího; Ending ve scéně kultistů odkazuje na ni, Super v souhrnných řádcích na vyprávění. Kanonické podání je nejednoznačné: «ona» v řeči o Smrti a «bratr» v její vlastní obrazné řeči. Zachovat tvary podle kontextu bez určení biologického pohlaví."
+  },
+  "friendly-gremlin": {
+    "term": "Velký gremlin",
+    "meaning": "Přátelský muž, který si říká kluk a oslovuje «kámo». Vypráví o svém psovi a stará se o blízké; slovo «gremlin» v rozhraní je popis, nikoli potvrzení nelidského druhu. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "sun-fanatic": {
+    "term": "Špinavý žlutý chlap",
+    "meaning": "Uctívač Sluneční tváře, který hlásá požehnání a kletby. Zachovat slavnostní náboženský styl, křik a nadávky; nepatří automaticky ke kultu Smrti. Asset Fan odpovídá kódu Fanatic. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "daughters-friends-mother": {
+    "term": "Matka dívčiny kamarádky",
+    "meaning": "Odpovídá na čísle, které dala Sousedova dcera. Mluví o vlastní dceři a manželovi, používá «pochopila jsem», «chtěla jsem». Nevydávat ji za samotnou kamarádku; slova o vraždě a záměně odrážejí její vyprávění. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "best-sons-sister": {
+    "term": "Sestra «nejlepšího syna»",
+    "meaning": "Sestra Bestson ze strany otce, o níž mu dříve neřekli; po telefonu říká «jsem připravena ubytovat bratra». Neměnit pokrevní příbuzenství na známost ani nepřekládat označení kontaktu jako vlastní jméno. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "alkonosts-husband": {
+    "term": "Manžel kouřící sestry",
+    "meaning": "Manžel Alkonost, který odpovídá na jejím čísle; přiznává, že se rozhodl odejít. Sliby, loučení a pozdější nalezení těla mají různé podmínky; nespojovat je v jeden neměnný výsledek. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "angry-mans-wife": {
+    "term": "Manželka rozzuřeného tlusťocha",
+    "meaning": "Manželka Anger, která po násilí odešla do kultu; odpovídá «můj manžel» a odmítá návrat k předchozímu životu. Neplést s Wifefema ani v překladu ospravedlňovat manželovo násilí. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "mothers-husband": {
+    "term": "Manžel ženy s dítětem",
+    "meaning": "Manžel Mother, kterého nazývá otcem svých dětí. O sobě říká «nejsem překvapen» a o manželce mluví ve třetí osobě; je hrubý, odmítá pro ni jít. Označení kontaktu neznamená, že odpovídá samotná matka. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "phone-roulette-woman": {
+    "term": "Žena z telefonní rulety",
+    "meaning": "Neznámá žena, která odjela daleko od vedra; vypráví o přátelích a neuskutečněném vyznání. Původní «čekala jsem», «chtěla» a oslovení «odjela jste sama» určují ženské tvary. Nevymýšlet jméno ani přesnou polohu. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "phone-roulette-short-caller": {
+    "term": "Krátký hovor telefonní rulety",
+    "meaning": "Krátká větev telefonní rulety s «haló» a «zřejmě tu nikdo není». Totožnost a pohlaví nejsou sděleny; repliky nepřipisovat automaticky ženě z dlouhého rozhovoru. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "fema-hotline-woman": {
+    "term": "Žena na horké lince KČS",
+    "meaning": "Odpovídá ve scéně předčasného telefonátu; původní vyprávění ji výslovně nazývá ženou. Přerušující mužský křik patří jinému mluvčímu, přestože oba řádky mají prefix Phone. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fema-hotline-interrupter": {
+    "term": "Muž přerušující hovor s KČS",
+    "meaning": "Další účastník časného telefonátu: vyprávění uvádí mužský výkřik a on požaduje zavěšení. Nepřidělovat mu funkci nadřízeného bez důkazu ani nepřipisovat jeho křik ženě. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "fema-phone-doctor": {
+    "term": "Lékař na telefonu KČS",
+    "meaning": "Lékařská konzultace KČS o známkách Hostů. Slovo «lékař» označuje povolání; vlastní repliky neurčují pohlaví. Totožnost s chirurgem Doctor nebo ženou z časného telefonátu není stanovena. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "fema-recruitment-voice": {
+    "term": "Přijímací komise KČS",
+    "meaning": "Hlas přijímací komise KČS na čísle získaném od Wifefema; odpovídá na žádost o práci. V ruštině stojí «они бросили трубку» (zavěsili), v oficiální francouzské verzi téhož řádku «Il a raccroché». Mužský tvar francouzské lokalizace nenahrazuje absenci informací o pohlaví v ruském originálu. Nepovažovat tento hlas za manžela Wifefema. Mužský tvar oficiální francouzské verze neurčuje kanonické pohlaví podle ruského zdroje. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje."
+  },
+  "for-rest-operator": {
+    "term": "Telefonní obsluha For Rest",
+    "meaning": "Přijímá objednávky po telefonu a sděluje přestávku mezi nimi. Ověřené ruské repliky, oficiální překlady a fanouškovský přepis neurčují pohlaví. Totožnost s doručujícím kurýrem Courier není prokázána. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "embassy-voice": {
+    "term": "Hlas zahraničního velvyslanectví",
+    "meaning": "Radí ohledně návratu Foreigner domů a dopravních omezení. Pohlaví odpovídající osoby není sděleno; mužská zájmena o turistovi odkazují na turistu. Osobní jméno ani stát nejsou uvedeny. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "psychics-reception": {
+    "term": "Recepce služby senzibilů",
+    "meaning": "Úvodní hlas služby senzibilů sděluje, že spojí s odborníkem. Jde o roli před konzultací; text neurčuje pohlaví ani to, že odpovídá automat. Nepřipisovat jí odborníkův mužský tvar «jsem nucen». Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "psychic-expert": {
+    "term": "Odborník na vymítání Hostovce",
+    "meaning": "Telefonní konzultant služby senzibilů používající «jsem nucen skončit». Jeho vysvětlení o duchách, houbách a paměti jsou tvrzení konzultanta, nikoli zaručená pravidla fungování světa. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "voice-from-fortune-teller": {
+    "term": "Hlas na čísle «Od věštkyně»",
+    "meaning": "Hlas na čísle «Od věštkyně» pronáší útržky neobvyklého textu o jablku a Zemi hub, pak zavěsí. Ruské «собеседник» nedokazuje pohlaví, oficiální anglické «they» zachovává neurčitost. Neztotožňovat s FortuneTeller. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "news-reporter": {
+    "term": "Moderátor zpráv",
+    "meaning": "Hlavní televizní moderátor informující o vedru, KČS, známkách Hostů a krizi. Fanouškovská wiki jej řadí mezi muže; jeho zprávy podávat jako obsah vydání. Prefix TV používají také další moderátoři a reklama. Fanouškovská wiki uvádí mužské pohlaví; používat mužské tvary, neodvozovat pohlaví z povolání."
+  },
+  "weather-reporter": {
+    "term": "Moderátor předpovědi počasí",
+    "meaning": "Samostatný televizní moderátor předpovědí; mužské pohlaví uvádí fanouškovský článek Weather Reporter. Nespojovat s hlavním moderátorem zpráv ani nepřetvářet předpověď na již nastalou událost. Fanouškovská wiki uvádí mužské pohlaví; používat mužské tvary, neodvozovat pohlaví z povolání."
+  },
+  "female-tv-presenter": {
+    "term": "Moderátorka neobvyklého vysílání",
+    "meaning": "Žena z neobvyklého televizního vstupu osmého dne, popsaná ve fanouškovské wiki jako Female TV Presenter. Podávat útržkovitý, obrazný styl; nepřipisovat její slova běžnému moderátorovi zpráv ani věštkyni. Fanouškovský zdroj popisuje ženskou roli; ženská shoda se vztahuje pouze k tomuto vstupu."
+  },
+  "radio-believe-host": {
+    "term": "Moderátor «Chci věřit»",
+    "meaning": "Hlas rozhlasového pořadu o spiknutích, který po odřeknutí pozvaného hosta říká «věděl jsem». Rozlišovat moderátora od vědce, který nepřišel; neprohlašovat jeho odhalení za objektivní kánon. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "radio-witness": {
+    "term": "Očitý svědek v rádiu",
+    "meaning": "Mluvčí v osmém rozhlasovém vydání: «viděl jsem, co tam bylo». Nespojovat s jinými anonymními vysíláními ani nepřetvářet jeho svědectví na vševědoucí vyprávění. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "radio-dispatcher": {
+    "term": "Dispečer KČS v rádiu",
+    "meaning": "Dispečer šestého rozhlasového vydání: vydává pokyny a přijímá hlášení pracovníků KČS. Pohlaví není sděleno. Nespojovat automaticky s dispečerem dvanáctého dne; zachovat služební formule, kódy a změny účastníků komunikace. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-employee-32-8": {
+    "term": "Pracovník 32-8",
+    "meaning": "Účastník rádiové komunikace šestého dne hlásící četné civilní oběti a zabité pracovníky. Služební číslo 32-8 označuje roli ve vysílání; pohlaví není uvedeno. Rozlišovat od 28-8 a čísla protokolu. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-employee-28-8": {
+    "term": "Pracovník 28-8",
+    "meaning": "Další účastník rádiové komunikace šestého dne; žádá tým ke spálení těl podle kódu 451. Pohlaví není uvedeno. Zachovat číslo 28-8 a samostatného mluvčího, neplést s protokolem 451. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-employee-18-8": {
+    "term": "Pracovník 18-8",
+    "meaning": "Účastník rádiové komunikace třináctého dne hlásící, že hrozbu nezadrželi a subjekt opustil území města. Pohlaví není sděleno. Zachovat číslo 18-8, samostatnou roli a poškozený přenos. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-evicted-people": {
+    "term": "Vystěhovaní v rádiu",
+    "meaning": "Zpráva devátého rozhlasového vydání od skupiny vystěhovaných obyvatel: žádají o pomoc a jídlo z dochovaného sklepa shořelého domu. Zachovat množné číslo; zdroj neuvádí jednotlivé mluvčí ani jejich pohlaví. Nejde o sklep hlavního hrdiny. Složení jednotlivců a pohlaví účastníků není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, množné číslo, jednání a změny mluvčího; nepřidělovat skupině ani jednotlivým členům vymyšlené pohlaví."
+  },
+  "radio-rescue-dialogue": {
+    "term": "Volání na záchrannou službu v rádiu",
+    "meaning": "Referenční karta volání na záchrannou službu z prvního rozhlasového vydání. Dispečera a očitého svědka představují samostatné karty radio-rescue-dispatcher a radio-rescue-caller. Pomlčka odděluje jejich repliky; nepřipisovat dispečerovi slova očitého svědka. Pohlaví jednotlivých účastníků není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-warning-voices": {
+    "term": "Anonymní varování v rádiu",
+    "meaning": "Referenční skupina anonymních vysílání sedmého, desátého a jedenáctého dne. Samostatné role: radio-day-7-warning, radio-day-10-warning, radio-day-11-warning. Není prokázáno, že jde o jednu osobu; zachovat hranice vydání, úzkost a rušení. Pohlaví jednotlivých účastníků není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-advertising-voices": {
+    "term": "Reklamní hlasy rádia",
+    "meaning": "Referenční skupina rozhlasových reklamních vložek: «Ano, jsem člověk», senzibilové a telefonní ruleta. Samostatné role představují karty radio-human-verification-ad, radio-psychics-ad a radio-phone-roulette-ad. Jejich totožnost s pracovníky na telefonu není stanovena. Pohlaví jednotlivých účastníků není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "phone-roulette-reception": {
+    "term": "Úvodní hlas telefonní rulety",
+    "meaning": "Úvodní hlas telefonní rulety sděluje, že vybírá partnera pro rozhovor, a žádá o vyčkání. Oddělovat tuto roli od ženy z dlouhého rozhovoru a krátkého hovoru. Pohlaví ani to, zda odpovídá člověk či automat, není stanoveno. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "couple-husband": {
+    "term": "Manžel z manželského páru",
+    "meaning": "Muž, který při vstupu mluví jménem páru a o své manželce. Pozdější scéna obsahuje výhrůžky manželce a pistoli v jeho ruce. Nepřipisovat manželce jeho slova a činy; výsledky závisí na hrdinově volbě. Postava je mužského pohlaví; používat mužské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "couple-wife": {
+    "term": "Manželka z manželského páru",
+    "meaning": "Žena, která přišla s manželem; její činy jsou popsány pod společným prefixem Couple. V jedné větvi se vytrhne, načež ji manžel střelí. Nepovažovat všechny řádky Couple za její přímou řeč ani nepřetvářet podmíněný výsledek na povinný. Postava je ženského pohlaví; používat ženské tvary a zachovat okamžik odhalení v původní scéně."
+  },
+  "radio-rescue-dispatcher": {
+    "term": "Dispečer záchranné služby v prvním rozhlasovém vydání",
+    "meaning": "Účastník vysílaného telefonátu prvního dne; ptá se, co vidí očitý svědek, a radí nevycházet do setmění. Pohlaví není sděleno. Pomlčka odděluje repliky dispečera od odpovědí očitého svědka. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-rescue-caller": {
+    "term": "Očitý svědek v prvním rozhlasovém vydání",
+    "meaning": "Další účastník telefonátu prvního rozhlasového vydání: informuje o lidech hořících na slunci a o vyhublém bledém tvorovi v noci. Pohlaví není sděleno. Očité svědectví nepatří dispečerovi a nestává se vševědoucím vyprávěním. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-day-7-warning": {
+    "term": "Hlas sedmého rozhlasového vydání",
+    "meaning": "Hlas sedmého rozhlasového vydání varuje před okraji města, sděluje, že KČS střílí na lidi pokoušející se odejít, a žádá o pomoc. Pohlaví není sděleno. Nespojovat s hlasy jiných dnů bez důkazu. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-day-10-warning": {
+    "term": "Hlas desátého rozhlasového vydání",
+    "meaning": "Hlas desátého rozhlasového vydání varuje před KČS, rušením spojení a nebezpečím zůstat ve městě. Pohlaví není sděleno. Zachovat rušení a přiřazení tvrzení hlasu, nevydávat je za autorův popis světa. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-day-11-warning": {
+    "term": "Hlas jedenáctého rozhlasového vydání",
+    "meaning": "Útržkovité vysílání jedenáctého dne spojuje pálení těl s příchodem neznámého tvora. Pohlaví a totožnost nejsou sděleny. Nedoplňovat mezery vymyšlenými slovy ani tomuto hlasu nepřipisovat vysílání jiných dnů. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-day-12-dispatcher": {
+    "term": "Dispečer dvanáctého rozhlasového vydání",
+    "meaning": "Dispečer dvanáctého rozhlasového vydání oslovuje pracovníky KČS a oznamuje zrušení kódu 451 ve prospěch 955: těla nepálit, pokrývat vápnem. Pohlaví není sděleno; totožnost s dispečerem šestého dne není stanovena. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-human-verification-ad": {
+    "term": "Hlas pořadu «Ano, jsem člověk»",
+    "meaning": "Hlas pořadu «Ano, jsem člověk» nabízí zaslání fotografií očí, zubů a nehtů k určení lidského statusu. Pohlaví není sděleno. Rozlišovat reklamní nabídku od přímé prohlídky obyvatel domu a od služby senzibilů. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-psychics-ad": {
+    "term": "Hlas reklamy senzibilů",
+    "meaning": "Propaguje zbavení se Hostovce a ochranu před zlými duchy. Pohlaví není sděleno; totožnost s telefonním odborníkem není prokázána. Zachovat reklamní styl a sliby jako slova služby. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-phone-roulette-ad": {
+    "term": "Hlas reklamy telefonní rulety",
+    "meaning": "Nabízí telefonní rozhovor lidem pociťujícím samotu a úzkost. Pohlaví není sděleno; totožnost s úvodním telefonním hlasem není prokázána. Jde o reklamu na výběr partnera pro rozhovor, nikoli samotný rozhovor. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-advertising-voices": {
+    "term": "Reklamní hlasy televize",
+    "meaning": "Referenční skupina televizních reklamních vložek o For Rest, Eneržece, fotografickém filmu, pivu a cigaretách «Margoro». Každá vložka má samostatnou kartu role. Pohlaví a totožnost hlasů nejsou stanoveny; nepřipisovat veškerou reklamu moderátorovi zpráv. Pohlaví jednotlivých účastníků není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-for-rest-ad": {
+    "term": "Hlas televizní reklamy For Rest",
+    "meaning": "Reklamní role ve vložce o doručování potravin For Rest. Potvrzený text slibuje doručení následující večer; totožnost s telefonní obsluhou nebo kurýrem není stanovena. Pohlaví není sděleno. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-enerjeka-ad": {
+    "term": "Hlas televizní reklamy Eneržeky",
+    "meaning": "Reklamní role ve vložce o energetickém nápoji Eneržeka; reklamní sliby uhašení žízně nenahrazují popis herního účinku předmětu. Pohlaví ani totožnost s ostatními moderátory nejsou stanoveny. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-auracam-ad": {
+    "term": "Hlas televizní reklamy fotografického filmu",
+    "meaning": "Reklamní role slibující určit Hosta podle tmavých skvrn na fotografii energie duše. Neprohlašovat slíbenou záruku za neomylné pravidlo hry ani nespojovat reklamu se zprávami. Pohlaví není sděleno. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-beer-ad": {
+    "term": "Hlas televizní reklamy piva",
+    "meaning": "Reklamní role ve vložce o pivu «Bober Černi»; vypráví o dvou bratrech a pivovaru. Bratři jsou postavy reklamního příběhu, nikoli prokázaní mluvčí. Pohlaví reklamního hlasu není sděleno. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-margoro-ad": {
+    "term": "Hlas televizní reklamy «Margoro»",
+    "meaning": "Reklamní role ve vložce o cigaretách «Margoro». Formulace «pro skutečné muže» se týká adresátů reklamy a neurčuje pohlaví mluvčího. Zachovat reklamní slib a samostatné odmítnutí odpovědnosti společnosti. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "psychics-closing-voice": {
+    "term": "Hlas ukončení sezení senzibilů",
+    "meaning": "Po skončení konzultace oznamuje ukončení sezení s odborníkem, platbu a hodnocení služeb. Text nestanoví, že jde o samotného odborníka nebo úvodní hlas recepce; pohlaví a povaha této role nejsou sděleny. Zachovat přechod mezi konzultací a obsluhou hovoru bez vymyšlené totožnosti. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "radio-ending-address": {
+    "term": "Hlas rozhlasového proslovu ve sklepním závěru",
+    "meaning": "Rozhlasový proslov, který hrdina slyší po dlouhém čekání ve sklepě: informuje o slábnutí sluneční energie a předpovědi vědců. Zdroj výslovně zmiňuje rádio, ale neuvádí mluvčího ani neurčuje pohlaví. Neztotožňovat s hlasy denních rozhlasových vydání ani tvrdit, že mluví samotný vědec. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "tv-fema-promotion": {
+    "term": "Hlas televizní propagace KČS",
+    "meaning": "Role televizní vložky přesvědčující diváky o hrdinství KČS a vyzývající k pomoci výboru. Pohlaví samostatného propagačního hlasu ani jeho totožnost s moderátorem zpráv nejsou stanoveny. Sliby ochrany a čísla z reklamy podávat jako obsah vložky. Pohlaví není kanonicky stanoveno. Podle rozhodnutí vlastníka zachovat původní zájmena, počet účastníků, jednání a změny mluvčího; nepřidávat pohlaví tam, kde je originál nesděluje. Neutrální tvary musí zachovat jednající osobu a význam repliky."
+  },
+  "visitors": {
+    "term": "Hosté",
+    "meaning": "Nelidské bytosti, které se lidé snaží odlišit od lidí podle vnějších znaků a chování. Slovo s velkým počátečním písmenem označuje hrozbu herního světa; běžní hosté domu nemusí být Hosty. Neprohlašovat každou podezřelou známku za neomylný důkaz."
+  },
+  "human": {
+    "term": "Člověk",
+    "meaning": "Člověk v protikladu k Hostovi. Tvrzení postavy «jsem člověk» a přítomnost běžného lidského znaku samy o sobě neurčují její status. Zachovat rozdíl mezi člověkem, obyvatelem domu a nočním návštěvníkem."
+  },
+  "fema": {
+    "term": "KČS",
+    "meaning": "Výbor pro mimořádné situace: organizace provádějící vyšetření známek Hostů, odvádějící obyvatele domu a spravující karanténní zóny. Ruský zdroj používá КЧС; FEMA je označení oficiální anglické lokalizace. Nenahrazovat fiktivní výbor skutečným МЧС ani na něj nepřenášet informace o skutečném úřadu."
+  },
+  "quarantine-zone": {
+    "term": "Karanténní zóna",
+    "meaning": "Místo, kam KČS doprovází lidi ke kontrolám. Bezpečí zón, okolnosti útoků a další osud zadržených se odhalují v konkrétních scénách; slovo «karanténa» nezaručuje ochranu ani léčbu."
+  },
+  "for-rest": {
+    "term": "For Rest",
+    "meaning": "Služba doručování jídla a spotřebních předmětů. Objednávky přijímá telefonní hlas a samostatný kurýr je přináší následující noc; při velkém vytížení dělá služba přestávky mezi objednávkami. Zachovat zápis For Rest a neplést službu s jejími pracovníky."
+  },
+  "psychics-service": {
+    "term": "Senzibilové",
+    "meaning": "Telefonní služba slibující očištění od Hostů. Recepce spojuje s odborníkem; služby se ukazují jako placené. Její vysvětlení o duchách a houbách jsou tvrzení služby, nikoli potvrzená pravidla světa."
+  },
+  "phone-roulette": {
+    "term": "Telefonní ruleta",
+    "meaning": "Telefonní služba vybírající partnera pro rozhovor. Rozlišovat úvodní hlas služby, ženu z dlouhé větve a hlas krátkého hovoru; společný prefix Phone nedokazuje, že jde o jednu osobu."
+  },
+  "foreign-embassy": {
+    "term": "Zahraniční velvyslanectví",
+    "meaning": "Kontakt, na němž hrdina zjišťuje, jak poslat cizince domů. Odpovídající osoba popisuje dopravní omezení a nedostatek zdrojů. Stát ani totožnost pracovníka nejsou uvedeny; nevymýšlet je."
+  },
+  "sun-faced-one": {
+    "term": "Sluneční tvář",
+    "meaning": "Předmět uctívání špinavého žlutého chlapa. V jeho řeči Sluneční tvář chrání, odměňuje a soudí lidi. Podávat tato tvrzení jako náboženské přesvědčení postavy; neplést s kultem Smrti."
+  },
+  "death-cult": {
+    "term": "Kult Smrti",
+    "meaning": "Skupina učitele a jeho učedníků, která očekává příchod Smrti a slibuje skrze něj klid. Rozlišovat konkrétní bytost Smrt, kult a běžnou lidskou smrt. Učitelovy sliby nezaručují bezpečí rituálu."
+  },
+  "visitor-spirit": {
+    "term": "Hostovec",
+    "meaning": "Název zlého ducha v reklamě senzibilů a jejich konzultaci. Služba tvrdí, že může posednout člověka. Neslučovat Hostovce s Hostem: jde o samostatnou terminologii postav, jejíž věrohodnost není stanovena."
+  },
+  "dead-person-spirit": {
+    "term": "Duch zemřelého",
+    "meaning": "Duch mrtvého člověka podle telefonního odborníka. Staví Ducha zemřelého do protikladu k Hostovci a tvrdí, že vymítání duchů zemřelých nepatří mezi služby. Zachovat tento rozdíl a původní přiřazení tvrzení."
+  },
+  "mushroom-land": {
+    "term": "Země hub",
+    "meaning": "Neobvyklý prostor, kam na nějakou dobu posílá požití podivné houby. Souvisí s ním Houbař a «Učebnice úsměvů». Nepřetvářet tento název na běžné místo sběru hub ani neplést s kombuchou k ukládání hry."
+  },
+  "mycelium": {
+    "term": "Mycelium",
+    "meaning": "Podhoubí, jehož stav Houbař spojuje s růstem hub a festivalem. Senzibil samostatně vypráví o myceliu uvnitř člověka. Zachovat mluvčího a kontext; stejné slovo nedokazuje pravdivost všech vysvětlení."
+  },
+  "mushroom-festival": {
+    "term": "Festival hub",
+    "meaning": "Událost, kterou Houbař popisuje jako prudký růst hub a snaží se ji zastavit. Její příchod a následky závisí na scéně. Jde o část neobvyklého houbového světa, nikoli bezpodmínečně bezpečnou městskou slavnost."
+  },
+  "smile-guide": {
+    "term": "«Učebnice úsměvů»",
+    "meaning": "Kniha, na jejíž stránky odkazuje Houbař; souvisí s ní houbové nápovědy, jabloň a hodiny. V ruském řádku rozhraní Game_MushroomList jsou tři číslované básnické stránky. Zachovat název, básnickou formu a souvislost nápověd, nenahrazovat knihu příručkou vyjadřování emocí."
+  },
+  "mushroom-ritual": {
+    "term": "Rituál z «Učebnice úsměvů»",
+    "meaning": "Prastarý rituál, který Houbař spojuje s potlačením růstu hub. Jeho vysvětlení a zprávy o nezdaru podávat s podmínkami původní scény; neplést tento rituál s rituálem kultistů Smrti."
+  },
+  "anomalous-heat": {
+    "term": "Anomální vedro",
+    "meaning": "Katastrofické vedro spojené se změnami Slunce a nebezpečím vycházet ven ve dne. Postavy kvůli němu hledají úkryt a přesouvají se v noci. Neomezovat hrozbu na běžné horké počasí."
+  },
+  "visitor-signs": {
+    "term": "Známky Hostů",
+    "meaning": "Vlastnosti, podle nichž hrdina prohlíží lidi na základě zpráv televize a KČS. Známky se mohou shodovat s běžnými lidskými vlastnostmi; zachovat pochybnosti, vysvětlení a rozdíly konkrétních variant."
+  },
+  "perfect-white-teeth": {
+    "term": "Dokonale bílé zuby",
+    "meaning": "Známka Hostů oznámená v televizním vydání. Čištění zubů a jiná vysvětlení postav z ní činí sporné kritérium. Nenahrazovat dokonalou bělost běžným zdravým úsměvem ani nevydávat známku za neomylný test."
+  },
+  "dirt-under-nails": {
+    "term": "Špína pod nehty",
+    "meaning": "Televizí oznámená známka Hostů, která se kontroluje při prohlídce rukou. Postavy mají běžné důvody pro špínu. Nenahrazovat špínu pod nehty libovolným poraněním rukou ani krví na rukou."
+  },
+  "blood-red-eyes": {
+    "term": "Krvavě rudé oči",
+    "meaning": "Oznámená známka Hostů. Telefonní lékař spojuje zarudnutí také s kofeinem; toto vysvětlení lékaře je třeba zachovat jako jeho doporučení. Neplést barvu očí, zarudnutí a absenci očí."
+  },
+  "hairless-armpits": {
+    "term": "Podpaží bez chlupů",
+    "meaning": "Známka Hostů z televizní zprávy. Prohlídka se týká podpaží, nikoli veškerého ochlupení těla. Dětský věk a jiná vysvětlení se nesmějí vymazat z odpovídajících replik."
+  },
+  "armpit-fungus": {
+    "term": "Plíseň v podpaží",
+    "meaning": "Pozdní známka Hostů oznámená televizí. Jde o plísňové postižení, nikoli absenci chlupů nebo houbu jako předmět k požití. Rozlišovat tyto pojmy ve všech popisech prohlídky."
+  },
+  "energy": {
+    "term": "Energie",
+    "meaning": "Hrdinův zdroj označený v popisech ikonou <sprite=0>. Eneržeka přidává jednu jednotku, pivo snižuje zdroj na nulu, cigarety jej zcela obnovují. Neplést zdroj s nadpřirozenou «energií» v řeči věštkyně."
+  },
+  "energy-capacity-bonus": {
+    "term": "Přírůstek z kávy",
+    "meaning": "Účinek kávy označený <sprite=1>: jedna dodatečná jednotka na několik dní. Ikona se liší od <sprite=0>; cigareta odebírá jednu takovou jednotku následující den. Název zdroje ani přesnou délku účinku nelze domýšlet z jedné ikony."
+  },
+  "enerjeka": {
+    "term": "Eneržeka",
+    "meaning": "Název energetického nápoje. Přidává jednu jednotku zdroje <sprite=0>; hrdina jej popisuje jako «chemický sajrajt». Zachovat herní značku, nenahrazovat ji skutečnou značkou ani osobním jménem."
+  },
+  "bobeer-cherni": {
+    "term": "Bober Černi",
+    "meaning": "Název piva v lednici. Hrdina jej popisuje jako chutné studené pivo; požití snižuje <sprite=0> na nulu. Zachovat zápis herního názvu, nepřetvářet jej na jméno postavy."
+  },
+  "beer": {
+    "term": "Pivo",
+    "meaning": "Nápoj k požití spojený se značkou «Bober Černi». Snižuje zdroj <sprite=0> na nulu, poté chce hrdina spát; samostatná replika omezuje další pití téhož dne. Nepřenášet účinek na všechny zmínky o alkoholu."
+  },
+  "coffee": {
+    "term": "Káva",
+    "meaning": "Nápoj přidávající jednu jednotku <sprite=1> na několik dní. Hrdina jej kvůli vedru pije studený. Rozlišovat tento herní účinek a lékařská doporučení telefonního lékaře KČS."
+  },
+  "cigarettes": {
+    "term": "Cigarety",
+    "meaning": "Spotřební předmět: zcela obnovuje <sprite=0>, ale následující den odebírá jednu jednotku <sprite=1>. Rozlišovat cigaretu pro hrdinu a žádosti obyvatel domu o zakouření; počet předmětů určuje kontext."
+  },
+  "kombucha": {
+    "term": "Kombucha",
+    "meaning": "Spotřební předmět k uložení hry: uložený postup zůstává po ukončení hraní. Neplést s podivnou houbou, která posílá do Země hub. Tvrzení senzibila o jejím zlu nenahrazují potvrzený popis mechaniky."
+  },
+  "strange-mushroom": {
+    "term": "Podivná houba",
+    "meaning": "Houba vyrostlá v bramborách a umisťovaná do lednice. Její požití na krátkou dobu posílá hrdinu do Země hub. Jde o samostatný předmět odlišný od kombuchy k ukládání."
+  },
+  "cat-food": {
+    "term": "Krmivo pro kocoura",
+    "meaning": "Spotřební předmět pro kocoura ženy Ballerina; při objednání u For Rest se zmiňují kočičí konzervy. Nenahrazovat lidským jídlem ani neplést krmení s akcí «Pohladit»."
+  },
+  "fema-notice": {
+    "term": "Předvolání ke KČS",
+    "meaning": "Dokument získaný od hasiče a používaný k označení obyvatele domu pracovníkům KČS. Rozlišovat název předmětu, příkaz dostavit se a přímý odchod z domu; dokument není běžná propustka ani záruka propuštění."
+  },
+  "apple": {
+    "term": "Jablko",
+    "meaning": "Plod z houbové posloupnosti nápověd. Hrdina popisuje chuť jako kyselou a sladkou současně. Neplést s obraznou «stavbou jablka» v útržkovitém telefonním monologu."
+  },
+  "clock-at-twelve": {
+    "term": "Hodiny na 12",
+    "meaning": "Nastavení hodin na 12 podle pokynů stránek «Učebnice úsměvů». Zachovat číslo a pořadí jednání; samotná tato replika neurčuje poledne, půlnoc ani zaručený výsledek celého rituálu."
+  },
+  "house": {
+    "term": "Hrdinův dům",
+    "meaning": "Dům, kde se hrdina ukrývá, přijímá návštěvníky a komunikuje s obyvateli. Jde o hrdinův úkryt, nikoli libovolný dům zmíněný postavami. Rozlišovat jeho pokoje a sousední budovy."
+  },
+  "basement": {
+    "term": "Sklep",
+    "meaning": "Podzemní část hrdinova domu spojená s houbou, dírou a závěrečnými scénami. V rozhlasovém vysílání vystěhovaní mluví o jiném sklepě shořelého domu; shoda názvu neznamená stejné místo."
+  },
+  "entrance": {
+    "term": "Vstup",
+    "meaning": "Vstupní prostor domu a název odpovídající místnosti v rozhraní. Rozlišovat místnost, vstupní dveře a akci «Vstoupit»; noční návštěvník venku ještě není obyvatelem domu."
+  },
+  "bathroom": {
+    "term": "Koupelna",
+    "meaning": "Název místnosti hrdinova domu. Rozlišovat místnost od vany jako předmětu a od mytí jako jednání; vyprávění zvenčí o koupelně se vztahují k vlastním místům."
+  },
+  "bedroom": {
+    "term": "Ložnice",
+    "meaning": "Pokoj hrdinova domu s postelí. Nenahrazovat společným obývacím pokojem ani nepřenášet všechny scény spánku či intimity do této místnosti bez potvrzení původního kontextu."
+  },
+  "office": {
+    "term": "Pracovna",
+    "meaning": "Místnost hrdinova domu. V tomto kontextu «pracovna» neznamená kancelář KČS, lékařskou ordinaci ani úřední instituci."
+  },
+  "kitchen": {
+    "term": "Kuchyně",
+    "meaning": "Místnost hrdinova domu. Rozlišovat kuchyni, lednici a místo v pokoji obsazené konkrétním obyvatelem; společná místnost neznamená společný hlas všech jejích obyvatel."
+  },
+  "pantry": {
+    "term": "Komora",
+    "meaning": "Skladovací místnost v hrdinově domě. Neplést se sklepem, koupelnou či kuchyní, i když postava obsazuje místo vedle nich."
+  },
+  "living-room": {
+    "term": "Obývací pokoj",
+    "meaning": "Název velké obytné místnosti hrdinova domu. Společná část ruského slova s «Hosty» neurčuje souvislost s druhem bytostí; jde o běžný název místnosti."
+  },
+  "window": {
+    "term": "Okno",
+    "meaning": "Plocha pro pozorování dění venku. Technický prefix Window obsahuje vyprávění a hrdinova pozorování, nikoli stálou postavu jménem «Okno»."
+  },
+  "phone": {
+    "term": "Telefon",
+    "meaning": "Zařízení k volání na shromážděná čísla. Prefix Phone se používá pro různé partnery rozhovoru a popisy jednání; nelze jej překládat jako osobní jméno ani slučovat všechny hovory v jeden hlas."
+  },
+  "radio": {
+    "term": "Rádio",
+    "meaning": "Přijímač pro hledání vysílání. Nastavení frekvence, hlasitosti a pásma jsou různá jednání. Rozhlasové vysílání obsahuje různé role a rušení; jeden zdroj zvuku neznamená jednoho mluvčího."
+  },
+  "phone-numbers": {
+    "term": "Telefonní čísla",
+    "meaning": "Seznam nalezených kontaktů. Označení na lístku udává důvod nebo zdroj čísla a ne vždy přesně pojmenovává odpovídající osobu: na čísle «Dívčina kamarádka» odpovídá její matka."
+  },
+  "hole": {
+    "term": "Díra",
+    "meaning": "Objekt ve sklepě spojený s kopáním a samostatnou posloupností scén. Rozlišovat otvor jako objekt, akci «Kopat» a přechod do něj; nenahrazovat jej automaticky hrobem."
+  },
+  "board-up": {
+    "term": "Zabednit",
+    "meaning": "Akce zakrytí oken prkny na ochranu domu. Neznamená pouze zavřít okenní křídlo, odejít z místnosti ani zabít obyvatele domu."
+  },
+  "save-and-quit": {
+    "term": "Uložit a odejít na plochu",
+    "meaning": "Příkaz, který ukládá postup a ukončuje hru. Rozlišovat od odchodu do menu bez uložení a ručního ukládání kombuchou; při zkracování textu neztratit informaci o ukládání."
+  },
+  "quit-without-saving": {
+    "term": "Odejít do menu bez uložení",
+    "meaning": "Příkaz návratu do menu se ztrátou neuloženého postupu. Neplést s uložením a odchodem na plochu; varování před ztrátou postupu se vztahuje k této akci."
+  },
+  "collection": {
+    "term": "Sbírka",
+    "meaning": "Sekce menu s odemčenými postavami a závěry. Zamčené záznamy se mohou zobrazovat jako otazníky; neodhalovat jejich jména ani výsledky dříve než originál."
+  },
+  "ending": {
+    "term": "Závěr",
+    "meaning": "Konečný výsledek hraní a jeho záznam ve sbírce. Různé závěry mají vlastní podmínky a popisy; nespojovat je v jeden nevyhnutelný konec podle sousedství řádků v tabulce."
+  },
+  "code-451": {
+    "term": "Kód 451",
+    "meaning": "Rádiový kód KČS pro žádost o tým na spalování těl. Později jej ruší a nahrazují kódem 955. Neplést kód s číslem pracovníka 28-8 ani telefonním číslem KČS."
+  },
+  "code-955": {
+    "term": "Kód 955",
+    "meaning": "Nový rádiový kód nahrazující kód 451: těla se mají místo spalování pokrývat vápnem. Zachovat změnu pokynu a rušení přenosu, nepokračovat ve starém rozkazu v pozdější scéně."
+  },
+  "it-creature": {
+    "term": "Ono",
+    "meaning": "Nepopsaný tvor, o němž vypráví Bezoký: podle něj požírá ohořelá těla. Výslovně jej odlišuje od bledého člověka. Zachovat hrůzu, zájmena a přiřazení vyprávění; nevydávat domnělou souvislost se všemi rádiovými zprávami a nočními můrami za potvrzenou totožnost. IT je pomocné označení fanouškovské wiki, nikoli ruské vlastní jméno."
+  },
+  "auracam-film": {
+    "term": "Film aury",
+    "meaning": "Speciální film propagovaný k fotografování energie duše; na obalu a reklamním obrázku stojí AURACAM. Televize oznamuje tmavé skvrny jako známku Hosta. Rozlišovat značku, film, výsledný snímek a tvrzení o spolehlivosti kontroly."
+  },
+  "photo-check": {
+    "term": "Fotografie",
+    "meaning": "Položka prohlídky umožňující vyfotografovat obyvatele domu a posoudit obraz. Zachovat konkrétní výsledek snímku a vysvětlení postavy: rozmazané tělo může doprovázet replika o pohybu. Nenahrazovat prohlídku fotografií příbuzného ani snímkem z interiéru."
+  },
+  "ear-check": {
+    "term": "Uši",
+    "meaning": "Položka prohlídky uší obyvatele domu. Nepřetvářet název akce na tvrzení o nalezené známce: výsledek se ukazuje a rozebírá zvlášť. Zachovat rozdíly mezi mazem, poškozením a hmyzem, pokud se vyskytují v původní scéně."
+  },
+  "ear-wax": {
+    "term": "Maz v uších",
+    "meaning": "Ušní maz v obrazném televizním vstupu osmého dne. Moderátorka jej spojuje se špinavými myšlenkami a zvony. Jde o slova vysílání, nikoli potvrzené lékařské vysvětlení; nenahrazovat maz hmyzem ani sírou jako průmyslovou chemikálií."
+  },
+  "bleeding-gums": {
+    "term": "Krev na dásních",
+    "meaning": "Známka oznámená KČS prostřednictvím televizního vydání devátého dne. Samostatný stav dásní odlišný od bílých zubů. Podávat jako oznámené kritérium a zachovat vysvětlení postav bez zaručení přesnosti kontroly."
+  },
+  "skin-irritation": {
+    "term": "Podráždění kůže",
+    "meaning": "Známka potenciálně nebezpečných občanů oznámená v desátém televizním vydání. Neslučovat s plísní v podpaží ani absencí chlupů; konkrétní místo a výsledek prohlídky určuje scéna."
+  },
+  "rapid-pupil": {
+    "term": "Rychle pohybující se zornička",
+    "meaning": "Pozdní známka z televizního vydání dvanáctého dne: jde o pohyb zorničky. Rozlišovat od zarudnutí oka, absence očí a běžného pohledu; podezření a vysvětlení postavy zachovat podle scény."
+  },
+  "self-examination": {
+    "term": "Prohlédnout se",
+    "meaning": "Vlastní prohlídka hlavního hrdiny před kontrolami: zuby, ruce, oči, podpaží a uši. Výsledky závisí na jednání a požitých předmětech; špína po kopání a červené oči po kofeinu nenahrazují stanovený status Hosta. Rozlišovat od prohlídky obyvatele domu."
+  },
+  "wash": {
+    "term": "Umýt se",
+    "meaning": "Hrdinova akce v posloupnosti vlastní prohlídky. Nenahrazovat názvem místnosti ani zárukou odstranění jakékoli známky: při podráždění podpaží hrdina pouze doufá, že voda pomůže. Zvlášť zachovat doporučení telefonního lékaře vyvarovat se vody před vyšetřením."
+  },
+  "examine-resident": {
+    "term": "Zkontrolovat obyvatele",
+    "meaning": "Hrdinova akce otevírající kontrolu známek u konkrétního obyvatele domu. Rozlišovat výběr části těla či snímku, výsledek kontroly a následné hrdinovo rozhodnutí; samotná žádost o kontrolu neznamená obvinění, vyhnání ani výstřel."
+  },
+  "draw-shotgun": {
+    "term": "Vytáhnout pušku",
+    "meaning": "Akce, při níž hrdina po prohlídce vytahuje svou pušku. Jde o hrozbu a přechod k samostatnému rozhodnutí; nerovná se okamžitému výstřelu. Pistole manžela z páru a bandity patří jiným postavám."
+  },
+  "shoot": {
+    "term": "Vystřelit",
+    "meaning": "Hrdinova volba střelit do prohlíženého obyvatele domu. Rozlišovat od akcí «Vytáhnout pušku», «Vyslechnout» a «Nechat být»; výsledek a vykonavatele zachovat v odpovídající větvi."
+  },
+  "listen-to-explanation": {
+    "term": "Vyslechnout",
+    "meaning": "Volba vyslechnout vysvětlení postavy ve scéně se zbraní. Neznamená předem uvěřit, uznat za člověka ani zaručit bezpečí; další slova a rozhodnutí mají vlastní kontext."
+  },
+  "release-after-check": {
+    "term": "Nechat být",
+    "meaning": "Volba ukončit konkrétní kontrolu bez hrozby puškou. V tomto menu neznamená vyhnat obyvatele z domu; rozlišovat od nočního odmítnutí úkrytu a vyhnání."
+  },
+  "margoro": {
+    "term": "«Margoro»",
+    "meaning": "Herní značka cigaret z televizní reklamy. Zachovat název a reklamní styl; nenahrazovat skutečnou tabákovou značkou. Odmítnutí odpovědnosti společnosti je samostatná část vložky, nikoli replika obyvatele domu."
+  },
+  "cr-channel": {
+    "term": "CR Channel",
+    "meaning": "Název televizního kanálu na emblému televizních obrázků CR CHANNEL. Jeho vysílání zahrnuje zprávy, předpověď, reklamu a neobvyklý vstup; příslušnost všech hlasů k jedné redakci není stanovena. Nevydávat technický prefix TV za jméno moderátora."
+  },
+  "code-984": {
+    "term": "Kód 984",
+    "meaning": "Rádiový kód KČS k uzavření města do vyjasnění okolností a čekání na posily. Rozlišovat od kódu spalování těl 451 a kódu 955, který jej nahrazuje; čísla pracovníků označují lidi, nikoli protokoly."
+  },
+  "ear-insect": {
+    "term": "Hmyz v uchu",
+    "meaning": "Varianta obrázku při prohlídce uší: v původní textuře fake_ear_cockroach je vidět hmyz. Rozlišovat viditelný hmyz, ušní maz a poškození; samotný název obrázku neurčuje druh tvora, totožnost obyvatele domu ani neomylnost kontroly."
+  },
+  "child-of-vision": {
+    "term": "Dítě z vidění",
+    "meaning": "Dítě, jehož existenci a budoucí příchod hrdina rozebírá se Svůdnou ženou. Její slova zachovávají podmínku «pokud Dítě skutečně existuje»; v samostatné závěrečné scéně dítě drží trojice v mlze. Neplést s dítětem Mother, Sousedovou dcerou ani chlapcem v pláštěnce a neodhalovat výsledek před odpovídající scénou."
+  }
+}

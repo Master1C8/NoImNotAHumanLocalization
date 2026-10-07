@@ -4,9 +4,10 @@ Canonical project: `/Users/antonkrutov/Desktop/no I'm not a human`.
 Standard localization from Russian, version 1.3.19, Unity 6000.3.10f1, IL2CPP.
 
 The current scope is standalone glossary translation into the 14 target locales.
-The approved Russian source glossary has 201 entries. Thai has a complete draft
-with two clean full audits still pending; the other 13 locale glossaries are not
-started. Rendering feasibility remains a separate incomplete gate. No game-text
+The approved Russian source glossary has 201 entries. Czech and Bulgarian are accepted and integrated. Thai is in review; the
+remaining 13 locales are assigned to three parallel author groups under the
+owner’s 2026-10-08 request. Independent final reviews and canonical integration
+are in progress. Rendering feasibility remains a separate incomplete gate. No game-text
 translation, exhaustive visible-ID inventory, final language adapter, installer
 or release exists yet. See [the shared checkpoint](Documentation/localization-state.json).
 
@@ -240,6 +241,24 @@ The assembler never generates wording or awards editorial acceptance.
 Per-locale `review.json` records findings, pinned versions and acceptance status.
 Its historical review artifacts resolve relative to that review file. Complete
 two consecutive clean full-entry audits after corrections before marking a
-locale ready, and finish one locale before starting the next. Thai currently
-remains a complete draft with zero clean audits. The 39 existing glossary tests
-and structural checks passed; they do not establish translation quality.
+locale ready. The owner authorized parallel locale groups on 2026-10-08; each
+author finishes one assigned locale before starting the next. A final independent
+review compares the frozen layer directly with the Russian source before reading
+the author’s audit notes. Any correction resets the clean count. The shared
+checkpoint records current locale status; the canonical export is refreshed only
+during coordinated integration. The canonical export containing the previous Thai draft and newly accepted Czech/
+Bulgarian layers passed structural validation and 39 existing tests. These checks
+exercise loaders, schemas and publication safeguards; translation quality comes
+from the recorded full editorial reviews.
+
+Full audits check what a phrase asserts, not just whether its topic is retained.
+Regression examples: a hoodie with a hood does not establish that its hood is
+worn up; leaving service does not establish being fired or never having served;
+cleansing from Guests does not mean cleansing the Guests themselves; civilian
+victims do not all become deaths; one sound source does not imply one speaker.
+A failed guest appearance does not mean the guest physically collapsed; gaming
+vocabulary is distinct from playful wording. A generic rescue service does not
+establish an ambulance service, and a dirty yellow man gains no body-shape fact.
+Preserve clue versus puzzle terminology and native word meanings across every
+term/meaning cross-reference. Correct model-authored rows before mechanically
+rebuilding layers; immutable reviewed versions must remain available.
