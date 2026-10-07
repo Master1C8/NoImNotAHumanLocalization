@@ -13,8 +13,11 @@ Create an isolated Python environment and install `requirements-probe.txt`.
 The verified environment used Python 3.9; all direct analysis tools are pinned.
 
 ```sh
-python Scripts/probe_assets.py --output outputs/new-assets-run
-python Scripts/probe_fonts.py --output outputs/new-fonts-run
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-probe.txt
+.venv/bin/python -O -m unittest discover -s Tests -v
+.venv/bin/python Scripts/probe_assets.py --output outputs/new-assets-run
+.venv/bin/python Scripts/probe_fonts.py --output outputs/new-fonts-run
 ```
 
 `--game` accepts the actual Windows game directory, not the macOS wrapper.
@@ -26,8 +29,20 @@ The asset probe selects `UI_ru/Common_NewGame` by its shared numeric ID, checks
 the Russian source value, rewrites a no-op and one synthetic sample for every
 target locale, reopens each bundle, and compares every serialized object in the
 Russian string bundle. Its carrier locale remains `ru`. It does not create
-target runtime locales, modify the Addressables catalog, or prove rendering.
+target runtime locales or prove rendering. For each rebuilt bundle it also produces
+a matching copy of the Addressables catalog with that bundle's CRC and size
+updated. It compares all 26 bundle locations and every byte outside the two
+integrity fields; source catalogs are never modified and CRC checking stays enabled.
 Validation remains enabled with Python optimization (`-O`).
+
+Runtime regression: rebuilding the Russian bundle without changing its old
+catalog produced `No translation found`. The runtime logged expected CRC
+`93218230`, calculated CRC `2b91d6f2`, and refused the bundle. Read-back equality
+alone therefore does not establish runtime acceptance. Always use the bundle
+and catalog from the same completed probe report. Install both only into the
+stopped isolated fixture, verify both hashes, then launch and check the same
+Russian menu. Two separate file replacements are not a transaction; never
+launch between them. No installer/rollback protocol is provided by this probe.
 
 The font probe reads embedded font cmaps and three exact font-role assets.
 It generates custom type trees from the game's shipped managed backup using
@@ -52,11 +67,26 @@ Use exact task-owned process identities for cleanup, never kill Wine by name.
 
 The workstation's Stardew visual-QA architecture is the capture reference:
 process ownership, expected-screen guards, native unannotated frames, timeouts,
-save isolation, locale restoration, and machine-readable evidence. Its Java
-17 and ImageMagick dependencies are absent on this workstation. Computer Use
-cannot currently attach to the Wine window; screenshot review has not run.
-Do not substitute blind clicks or treat the user's menu confirmation as visual
-acceptance. Resolve the capture boundary before batching samples.
+save isolation, locale restoration, and machine-readable evidence. Oculix,
+Java 17 and ImageMagick are now available. The project capture adapter uses
+native window capture and fresh-image Oculix recognition, with immutable helper
+copies per run. Screen access must run outside the shell sandbox. Computer Use
+could not attach to Wine; the native adapter captured the full 2880×1800 frame.
+The Russian failure log is historical evidence, not acceptance of the corrected
+catalog. Its native frame is no longer present in the recorded output directory;
+do not credit that capture as current visual evidence. No corrected runtime
+screenshot exists yet.
+
+For an already-running authorized fixture, capture without input or save actions:
+
+```sh
+.venv/bin/python Scripts/visual-qa/run_capture.py --output outputs/new-capture
+```
+
+An optional `--marker <path>` checks an expected visual state. Automated capture
+and visual review remain separate; inspect every frame before accepting it.
+The runner rejects a missing or ambiguous fixture window. Do not substitute
+blind clicks or treat the owner's menu confirmation as visual acceptance.
 
 ## Shared stage binding
 

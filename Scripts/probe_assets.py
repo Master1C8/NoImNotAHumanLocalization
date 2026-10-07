@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 
 import UnityPy
+from addressables_catalog import update_bundle
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_GAME = Path("/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human")
@@ -124,6 +125,10 @@ def run(game: Path, output: Path):
     reopened = UnityPy.load(str(noop_path))
     require(trees(reopened) == original_trees, "No-op changed serialized values")
     require({k: v.get_raw_data() for k, v in objects(reopened).items()} == original_raw, "No-op changed object bytes")
+    catalog_source = (data / "StreamingAssets/aa/catalog.bin").read_bytes()
+    noop_catalog, noop_integrity = update_bundle(catalog_source, source, noop_path)
+    noop_catalog_path = output / "no-op-catalog.bin"
+    noop_catalog_path.write_bytes(noop_catalog)
     results = []
     for locale, sample in SAMPLES.items():
         probe = UnityPy.load(str(source))
@@ -137,9 +142,13 @@ def run(game: Path, output: Path):
         expected = copy.deepcopy(original_trees)
         next(e for e in expected[key]["m_TableData"] if e["m_Id"] == UI_ID)["m_Localized"] = sample
         require(actual == expected, f"Unexpected serialized change for {locale}")
+        catalog, integrity = update_bundle(catalog_source, source, path)
+        catalog_path = output / f"{locale}-catalog.bin"
+        catalog_path.write_bytes(catalog)
         results.append({"siteLocale": locale, "probeCarrierLocale": "ru",
                         "finalRuntimeLocale": None, "sample": sample,
                         "artifact": str(path.relative_to(ROOT)), "sha256": digest(path),
+                        "catalog": {"artifact": str(catalog_path.relative_to(ROOT)), "sha256": digest(catalog_path), "integrity": integrity},
                         "staticRoundTrip": "passed", "runtime": "not-run", "visual": "not-run"})
     table_summary = []
     for tree in original_trees.values():
@@ -160,7 +169,8 @@ def run(game: Path, output: Path):
               "buildGuid": EXPECTED_BUILD_GUID, "sourceRoot": str(game), "inputs": hashes,
               "tools": {name: importlib.metadata.version(name) for name in ["UnityPy", "fonttools", "dnfile", "dncil"]},
               "noOp": {"artifact": str(noop_path.relative_to(ROOT)), "sha256": digest(noop_path),
-                       "allObjectBytesEqual": True, "allSerializedValuesEqual": True},
+                       "allObjectBytesEqual": True, "allSerializedValuesEqual": True,
+                       "catalog": {"artifact": str(noop_catalog_path.relative_to(ROOT)), "sha256": digest(noop_catalog_path), "integrity": noop_integrity}},
               "uiBinding": {"key": "Common_NewGame", "id": UI_ID, "sourceValue": "Новая игра"},
               "tableSummary": table_summary, "officialRuntimeLocales": official,
               "probes": results, "sourceUnchanged": True,

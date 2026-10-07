@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T12:35:35Z",
+  "updatedAt": "2026-10-07T15:22:14.281561+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -27,7 +27,7 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "Static asset round trips pass for all 14 targets. Target language activation and font-role configuration remain unresolved. Runtime started, owner confirmed menu; changed Russian resource loading and screenshots are unverified.",
+  "summary": "Russian no-op bundle was rejected by Unity due to stale catalog CRC. Build recipe now emits matching catalog CRC/size for every bundle. Ten guard/catalog tests and 15 real round trips pass; outputs reproduce the pre-interruption hashes. Corrected runtime acceptance is pending. All 14 targets remain unverified for locale activation, fonts and rendering.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -70,13 +70,34 @@
     {
       "path": "outputs/font-probe-verified-20261007/report.json",
       "sha256": "13cb8e842b7c815322d9466e6299ab2900d66630334526401399e184286a77f6"
+    },
+    {
+      "path": "outputs/catalog-resume-20261007/report.json",
+      "sha256": "6484f90954889543f927c116e30e511eb30c2273e74bdc225ac23abdb58d950f"
     }
   ],
   "noOp": {
-    "artifact": "outputs/early-probe-verified-20261007/no-op.bundle",
+    "artifact": "outputs/catalog-resume-20261007/no-op.bundle",
     "sha256": "bd3ddf9123c316883779dde62ef0db6d04ab9fa94c7581598456333f593b6367",
     "allObjectBytesEqual": true,
-    "allSerializedValuesEqual": true
+    "allSerializedValuesEqual": true,
+    "catalog": {
+      "artifact": "outputs/catalog-resume-20261007/no-op-catalog.bin",
+      "sha256": "d25055cbec08eed9f0c7d0d83cf05fc0871f6bfb098d8bd69ff3ab3d159b94a2",
+      "integrity": {
+        "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+        "optionsOffset": 11315,
+        "oldCrc": 2468446768,
+        "newCrc": 730978034,
+        "oldSize": 1435339,
+        "newSize": 1455851,
+        "catalogBundleLocationsCompared": 26,
+        "changedFieldSpan": [
+          11323,
+          11331
+        ]
+      }
+    }
   },
   "uiBinding": {
     "key": "Common_NewGame",
@@ -617,7 +638,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/th-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/th-sample.bundle",
       "staticArtifactSha256": "86cfe815f105bdecb9482789b2129d7b121fdca1c004dab72ca37a8c82d97c0a",
       "cmapCandidates": [
         {
@@ -628,8 +649,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/th-catalog.bin",
+        "sha256": "9fcc12e18478fc47e9b9c2685e8a94d32b9aa076005e3328c079100c8a665d7e",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 4182319337,
+          "oldSize": 1435339,
+          "newSize": 1455878,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "id",
@@ -658,7 +696,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/id-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/id-sample.bundle",
       "staticArtifactSha256": "4726f15f8e126098704d4d0582aaa1005e82fde42bfcc06e7c3986814affa6f2",
       "cmapCandidates": [
         {
@@ -753,8 +791,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/id-catalog.bin",
+        "sha256": "04e5a69778459e3b2071342699c4a14b5db3ef359085dcd60a9a5697790e2292",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 2160020664,
+          "oldSize": 1435339,
+          "newSize": 1455861,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "cs",
@@ -783,7 +838,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/cs-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/cs-sample.bundle",
       "staticArtifactSha256": "910588be8e437cd71a5fcd089d60cf871c5d7f5c5c5ce7d227658f9fa57ed7c5",
       "cmapCandidates": [
         {
@@ -836,8 +891,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/cs-catalog.bin",
+        "sha256": "0c93a36d890ad65c5de2558acce9e8b1d38b2d0f466939945981adeea65d84cb",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 4196873817,
+          "oldSize": 1435339,
+          "newSize": 1455872,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "hu",
@@ -866,7 +938,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/hu-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/hu-sample.bundle",
       "staticArtifactSha256": "c03101898f414ebc823bbf33cc64d5ad7ea9d26f5ac3309aca9a3f3f750b381b",
       "cmapCandidates": [
         {
@@ -919,8 +991,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/hu-catalog.bin",
+        "sha256": "ce247b4b6a34361f7de012c3e555d70c891c1b660e3a807e0f01baf5b3878634",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1402035005,
+          "oldSize": 1435339,
+          "newSize": 1455874,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "nl",
@@ -949,7 +1038,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/nl-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/nl-sample.bundle",
       "staticArtifactSha256": "98f45e38d2b9317bed13bad6f94a675db622ab4fcf90c82994e4fb85f9e75f3f",
       "cmapCandidates": [
         {
@@ -1044,8 +1133,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/nl-catalog.bin",
+        "sha256": "16ba63d0449bf428a5d332eaa0a115f0e3bbb81603f7a29b0342a306ebd8902a",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 486644153,
+          "oldSize": 1435339,
+          "newSize": 1455863,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "fa",
@@ -1074,7 +1180,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/fa-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/fa-sample.bundle",
       "staticArtifactSha256": "e900bc0b0a1aaf8db3c16e874a285ae03c519d0ce29837a27eb666a41cf1ac54",
       "cmapCandidates": [
         {
@@ -1085,8 +1191,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/fa-catalog.bin",
+        "sha256": "6078a13d0ef492438e5caa1c55f466c817d6f74cb8e99935d3931beda42ffc16",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1101846265,
+          "oldSize": 1435339,
+          "newSize": 1455881,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "ro",
@@ -1115,7 +1238,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/ro-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/ro-sample.bundle",
       "staticArtifactSha256": "420e67f2e64d1c1f3c662b9feb646120226434c77eb698b6ceb128b1d82e6471",
       "cmapCandidates": [
         {
@@ -1168,8 +1291,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/ro-catalog.bin",
+        "sha256": "f88698506248e52f090f597b558891223189ab72ff96b9af1ffad0118559f87f",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 3833494362,
+          "oldSize": 1435339,
+          "newSize": 1455840,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "hi",
@@ -1198,7 +1338,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/hi-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/hi-sample.bundle",
       "staticArtifactSha256": "bf2b1e309f29e28b8d032e0d9398bc835f0cc6ff37463eff7500ee4631f92e3e",
       "cmapCandidates": [
         {
@@ -1209,8 +1349,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/hi-catalog.bin",
+        "sha256": "c46a525ce9c74ef4383b8c2aa0b87af94bdca190ed4ed26111c8f72244f8cad8",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1549213491,
+          "oldSize": 1435339,
+          "newSize": 1455918,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "fil",
@@ -1239,7 +1396,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/fil-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/fil-sample.bundle",
       "staticArtifactSha256": "3fa9daa22bd2c4021f2f95d40b9e0b1fe5090b1ccb801f8fd5ebb6bb86a4b203",
       "cmapCandidates": [
         {
@@ -1334,8 +1491,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/fil-catalog.bin",
+        "sha256": "c9e9e96900d57ae873813980456cec6486ac414a770801d902ee17b30fac82b0",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 4078019834,
+          "oldSize": 1435339,
+          "newSize": 1455861,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "el",
@@ -1364,7 +1538,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/el-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/el-sample.bundle",
       "staticArtifactSha256": "98b4117700bef0224d889566b3133f24eb6b4c5fc845a06cc90506e7598a718f",
       "cmapCandidates": [
         {
@@ -1399,8 +1573,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/el-catalog.bin",
+        "sha256": "f7a18697f30ca56750cc3a2395aef0c2f98414a7409739b74a144966831fd43f",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1329371288,
+          "oldSize": 1435339,
+          "newSize": 1455873,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "bg",
@@ -1429,7 +1620,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/bg-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/bg-sample.bundle",
       "staticArtifactSha256": "d4c309bab877160eeadec898a6050e91a3d86c740dc930bfd975f3b1cc8ca481",
       "cmapCandidates": [
         {
@@ -1506,8 +1697,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/bg-catalog.bin",
+        "sha256": "8d074a7913056bfbbeecc25466685aee0733c0d18bc3619db4838bf3218d0aea",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 3400012095,
+          "oldSize": 1435339,
+          "newSize": 1455860,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "sr",
@@ -1536,7 +1744,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/sr-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/sr-sample.bundle",
       "staticArtifactSha256": "804de8e6dff2400d0d0b6aa3b80300838a196c92cf681a76c8fe1bd5bf3c7939",
       "cmapCandidates": [
         {
@@ -1577,8 +1785,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/sr-catalog.bin",
+        "sha256": "1758b21e8a966bff5cdca598ae6207064e251961ce0e73ea3c6067ece68b59cd",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1904808896,
+          "oldSize": 1435339,
+          "newSize": 1455873,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "sw",
@@ -1607,7 +1832,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/sw-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/sw-sample.bundle",
       "staticArtifactSha256": "4c4c97972c2d7b20a03b40d98e798bc5da8b9045c9f6e18ac163dbfa08f00770",
       "cmapCandidates": [
         {
@@ -1702,8 +1927,25 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/sw-catalog.bin",
+        "sha256": "401ef50183b235b3a59dd0dfb54ae488f98a0bd91236fd7e6f18099c2dae855d",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 1928331246,
+          "oldSize": 1435339,
+          "newSize": 1455863,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
     {
       "locale": "he",
@@ -1732,7 +1974,7 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/early-probe-verified-20261007/he-sample.bundle",
+      "staticArtifact": "outputs/catalog-resume-20261007/he-sample.bundle",
       "staticArtifactSha256": "a9705cc155f251354623925778c889aa5e7413e0dac5f55a3470b950aad3ef89",
       "cmapCandidates": [
         {
@@ -1743,60 +1985,88 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
-      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+      "blocker": "Corrected bundle/catalog runtime load remains unverified; target locale activation and font-role mappings are not implemented.",
+      "nextAction": "Verify corrected Russian menu in isolated fixture, then prove target locale/font/table bindings and representative text surfaces.",
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/he-catalog.bin",
+        "sha256": "9bf16d1e31edbd3ec9f96638ad06a3156804f805d60b4c59708c09aa5c0450dd",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 2757221009,
+          "oldSize": 1435339,
+          "newSize": 1455879,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     }
   ],
   "runtimeAttempt": {
     "fixture": "runtime/No Human Probe.app",
     "fixtureBundleId": "fun.vnrevival.no-human.probe",
     "payload": {
-      "artifact": "outputs/early-probe-verified-20261007/no-op.bundle",
+      "artifact": "outputs/catalog-resume-20261007/no-op.bundle",
       "sha256": "bd3ddf9123c316883779dde62ef0db6d04ab9fa94c7581598456333f593b6367",
       "allObjectBytesEqual": true,
-      "allSerializedValuesEqual": true
+      "allSerializedValuesEqual": true,
+      "catalog": {
+        "artifact": "outputs/catalog-resume-20261007/no-op-catalog.bin",
+        "sha256": "d25055cbec08eed9f0c7d0d83cf05fc0871f6bfb098d8bd69ff3ab3d159b94a2",
+        "integrity": {
+          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
+          "optionsOffset": 11315,
+          "oldCrc": 2468446768,
+          "newCrc": 730978034,
+          "oldSize": 1435339,
+          "newSize": 1455851,
+          "catalogBundleLocationsCompared": 26,
+          "changedFieldSpan": [
+            11323,
+            11331
+          ]
+        }
+      }
     },
-    "engineInitialized": true,
-    "menuConfirmation": "owner-confirmed",
+    "installedPairHashesVerified": true,
     "activeLocale": null,
     "changedResourceLoad": "unverified",
     "visualReview": "not-run",
-    "log": {
-      "path": "outputs/runtime-probe-20261007/Player.log",
-      "sha256": "df37c7f4cc434dad8487535745ddc2f948ebd234788375c26e1589e5695d5b9c"
+    "captureDependencies": "Oculix 4.0.0, Java 17 and ImageMagick available; screen access verified outside sandbox",
+    "historicalFailure": {
+      "log": "outputs/capture-recovery-20261007/russian-noop-failure/Player.log",
+      "sha256": "c698048146a817991de25aa20b7214330b7cf9a078eca6397dd8aa1fd76a559d",
+      "reason": "CRC mismatch; catalog expected 0x93218230, rebuilt bundle calculated 0x2b91d6f2",
+      "nativeFrame": "not-present; do not infer visual acceptance from this evidence"
     },
-    "captureBlocker": "Oculix Java 17 and ImageMagick paths missing; system Java unavailable. Computer Use cannot attach to bundleless Wine; wrapper attachment times out.",
-    "terminatedExactOwnedPids": [
-      58624,
-      58674,
-      58544,
-      58547,
-      58551,
-      58564,
-      58566,
-      58575,
-      58614,
-      58537,
-      58495
-    ],
-    "cleanup": "verified-stopped; no fixture processes remain",
-    "saves": "No gameplay or save action performed; copied prefix used. Original save-directory integrity has not been exhaustively audited.",
-    "remainingServiceCleanup": {
-      "pid": 58575,
-      "signal": "SIGKILL",
-      "reason": "exact fixture-owned service remained after SIGTERM; identity reverified"
-    }
+    "processState": "No fixture or capture process found before attempted launch; launch rejected before execution",
+    "launch": "auto-review-rejected",
+    "blocker": "Automatic approval review requires direct owner authorization to launch the isolated game, which may write fixture configuration or saves. No bypass attempted."
   },
   "validation": {
-    "guardTests": 5,
+    "guardTests": 10,
     "guardTestsResult": "passed-under-python-O",
+    "command": ".venv/bin/python -O -m unittest discover -s Tests -v",
     "realAssetRoundTrips": 15,
-    "realAssetRoundTripsResult": "passed-under-python-O"
+    "realAssetRoundTripsResult": "passed-under-python-O",
+    "roundTripCommand": ".venv/bin/python -O Scripts/probe_assets.py --output outputs/catalog-resume-20261007",
+    "bundleAndCatalogHashesMatchPreviousRun": true,
+    "runtime": "not-run-on-corrected-pair"
   },
-  "nextAction": "Restore a working native capture adapter, verify the no-op resource in Russian, implement bounded target-language/font bindings, then test script requirements and dialogue progression. Do not begin dependent mass translation while the shared probe is unverified.",
+  "nextAction": "Obtain direct owner authorization to launch runtime/No Human Probe.app; capture and review the Russian menu with the installed matching no-op bundle/catalog. Then verify new locale/font bindings. Do not start dependent mass localization before the shared probe passes.",
   "toolFingerprints": {
-    "Scripts/probe_assets.py": "446a70f1523135fd90cf5f7b432a517355899703b503bc7276f2d37c6c7fbf89",
+    "Scripts/probe_assets.py": "94e82057445deab0a95c779ebe5dfb9477f9f4d37aad44b7d2941002daa20c90",
     "Scripts/probe_fonts.py": "6f5e6c6265f48fee028306d24a6d1b95707d01317973eecafa2bfd7b2366b995",
-    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02"
+    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02",
+    "Scripts/addressables_catalog.py": "e2aa8f398372706a1abed0b97c5b85bc1998c67f26663081d04845dd87de602f",
+    "Tests/test_catalog_integrity.py": "4130440deb2dc8bae3f3ff250e23a9a567901eaf75447bf8a0701a421edeb61d",
+    "Scripts/visual-qa/run_capture.py": "f1b449e479e7781d71362ed31724ce394b825fe7ed0b37448fc7fef556e68079",
+    "Scripts/visual-qa/window_info.swift": "bbf27d66ce19d79e7f9fd8928b8a7cbb4cc59f111034240a4a94b75ba3eb5e5f",
+    "Scripts/visual-qa/target_input.swift": "41b832e1b49990ef38771036e0707aa5273934a93c942e84d455beccf6f809f4",
+    "Scripts/visual-qa/probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076"
   }
 }
