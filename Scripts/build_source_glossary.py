@@ -12,16 +12,16 @@ CORPUS = ROOT / 'Source/glossary-corpus-v2'
 
 # These complete sentences are authored editorial rules, not inferred text.
 AGREEMENT = {
-    'male': 'Мужская персона; использовать мужское согласование, сохраняя момент раскрытия в исходной сцене.',
-    'female': 'Женская персона; использовать женское согласование, сохраняя момент раскрытия в исходной сцене.',
+    'male': 'Персонаж мужского пола; использовать мужское согласование, сохраняя момент раскрытия в исходной сцене.',
+    'female': 'Персонаж женского пола; использовать женское согласование, сохраняя момент раскрытия в исходной сцене.',
     'mixed': 'Пара состоит из мужчины и женщины; согласование определять по конкретному участнику, для обоих сохранять множественное число.',
     'mixed-female': 'Группа из двух женщин; женское согласование для каждой, множественное число для обеих.',
     'male-wiki': 'Фанатская вики указывает мужской пол; использовать мужское согласование, не выводя пол из профессии.',
     'female-wiki': 'Фанатский источник описывает женскую роль; женское согласование относится только к этому включению.',
-    'unknown': 'Пол не установлен; карточка требует дополнительного исследования перед переводом.',
-    'unknown-multiple': 'Пол отдельных участников не установлен; требуется дополнительное исследование и сохранение границ говорящих.',
-    'male-localized': 'Мужское оформление найдено в официальной французской локализации, но не установлено русским источником; требуется дополнительное исследование.',
-    'group': 'Состав и пол отдельных участников не установлены; сохранять множественное число, персональные сведения требуют дополнительного исследования.',
+    'unknown': 'Пол канонически не установлен. По решению владельца сохранять исходные местоимения, число участников, действия и смену говорящего; не добавлять пол там, где его не сообщает оригинал. Нейтральные формы должны сохранять действующее лицо и смысл реплики.',
+    'unknown-multiple': 'Пол отдельных участников канонически не установлен. По решению владельца сохранять исходные местоимения, число участников, действия и смену говорящего; не добавлять пол там, где его не сообщает оригинал. Нейтральные формы должны сохранять действующее лицо и смысл реплики.',
+    'male-localized': 'Мужская форма официальной французской версии не устанавливает канонический пол по русскому источнику. По решению владельца сохранять исходные местоимения, число участников, действия и смену говорящего; не добавлять пол там, где его не сообщает оригинал.',
+    'group': 'Индивидуальный состав и пол участников канонически не установлены. По решению владельца сохранять исходные местоимения, множественное число, действия и смену говорящего; не назначать группе или каждому её участнику выдуманный пол.',
     'animal': 'В русском источнике используются «кот» и «он»; биологический пол отдельно не установлен. Не добавлять биологические сведения.',
     'entity': 'Каноническое оформление неоднозначно: «она» в речи о Смерти и «брат» в её собственной образной речи. Сохранять формы по контексту, не назначая биологический пол.',
 }
@@ -31,6 +31,8 @@ FAN_SOURCES = {
     'weather-reporter': ('No, I am not a human Wiki — Weather Reporter', 'https://no-i-am-not-a-human.fandom.com/wiki/Weather_Reporter'),
     'fema-agent': ('No, I am not a human Wiki — FEMA Agent', 'https://no-i-am-not-a-human.fandom.com/wiki/FEMA_Agent'),
     'female-tv-presenter': ('No, I am not a human Wiki — CR Channel', 'https://no-i-am-not-a-human.fandom.com/wiki/CR_Channel'),
+    'seductive-woman': ('No, I am not a human Wiki — Seductive Woman', 'https://no-i-am-not-a-human.fandom.com/wiki/Seductive_Woman'),
+    'it-creature': ('No, I am not a human Wiki — IT', 'https://no-i-am-not-a-human.fandom.com/wiki/IT'),
 }
 SUPPLEMENTAL_KEYS = {
     'pale-visitor': ['line:tv_2_extra2_03d0e5d', 'line:tv_2_extra2_0ad57ac', 'line:tv_2_extra2_0e3a51a'],
@@ -44,6 +46,10 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def build():
+    decision = json.loads((INPUT / 'uncertainty-decision.json').read_text())
+    approved_unknown_ids = set(decision['approvedScopeIds'])
+    assert len(approved_unknown_ids) == len(decision['approvedScopeIds'])
+    supporting_keys = json.loads((INPUT / 'supporting-keys.json').read_text())
     rows = [json.loads(line) for line in (CORPUS / 'strings.jsonl').read_text().splitlines()]
     index = {}
     for row in rows:
@@ -73,9 +79,7 @@ def build():
             evidence.append({'id': id_, 'authoredInput': f'{filename}:{number}',
                              'genderEvidenceClass': gender, 'speakerCodes': codes.split(',') if codes else [],
                              'source': {k: index[key][k] for k in ('collection', 'id', 'key', 'text', 'yarnMetadata')}})
-            if gender in ('unknown', 'unknown-multiple', 'male-localized', 'group'):
-                unresolved.append(id_)
-            if id_ in ('female-tv-presenter', 'radio-believe-host'):
+            if gender in ('unknown', 'unknown-multiple', 'male-localized', 'group') and id_ not in approved_unknown_ids:
                 unresolved.append(id_)
     for number, line in enumerate((INPUT / 'concepts.tsv').read_text().splitlines(), 1):
         columns = line.split('|')
@@ -87,6 +91,7 @@ def build():
                          'source': {k: index[key][k] for k in ('collection', 'id', 'key', 'text', 'yarnMetadata')}})
     ids = [x['id'] for x in entries]
     assert len(ids) == len(set(ids))
+    assert approved_unknown_ids.issubset(ids), 'Owner decision refers to absent entries'
     assert ids[0] == 'player'
     for entry in entries:
         assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', entry['id'])
@@ -97,7 +102,8 @@ def build():
             entry['sourceTitle'], entry['sourceUrl'] = FAN_SOURCES[entry['id']]
     for row in evidence:
         row['supplementalSources'] = []
-        for key in SUPPLEMENTAL_KEYS.get(row['id'], []):
+        keys = list(dict.fromkeys(SUPPLEMENTAL_KEYS.get(row['id'], []) + supporting_keys.get(row['id'], [])))
+        for key in keys:
             assert key in index
             row['supplementalSources'].append({k: index[key][k] for k in ('collection', 'id', 'key', 'text', 'yarnMetadata')})
     return {'sourceLocale': 'ru', 'entries': entries}, evidence, unresolved
@@ -105,6 +111,7 @@ def build():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--review', type=Path, help='Explicit manual audit record for this exact source artifact')
     args = parser.parse_args()
     output = args.output.resolve()
     assert output.is_relative_to(ROOT / 'Documentation/glossary-research')
@@ -112,20 +119,49 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     (output / 'glossary.json').write_text(json.dumps(document, ensure_ascii=False, indent=2) + '\n')
     report = {'schemaVersion': 1, 'sourceLocale': 'ru', 'gameVersion': '1.3.19',
-              'status': 'draft-needs-research', 'entries': len(document['entries']),
+              'status': 'awaiting-full-editorial-audits' if not unresolved else 'draft-needs-research', 'entries': len(document['entries']),
               'canonicalReady': False, 'consecutiveCleanFullAudits': 0,
               'unresolvedCharacterIds': unresolved,
               'sourceCorpusSha256': sha(CORPUS / 'strings.jsonl'),
               'currentDialogsSha256': sha(CORPUS / 'current-dialogs.jsonl'),
               'extractorSha256': sha(ROOT / 'Scripts/extract_glossary_corpus.py'),
               'assemblerSha256': sha(Path(__file__)),
+              'uncertaintyDecisionSha256': sha(INPUT / 'uncertainty-decision.json'),
+              'supportingKeysSha256': sha(INPUT / 'supporting-keys.json'),
               'authoredInputs': {name: sha(INPUT / name) for name in
                                  ('characters.tsv', 'voices.tsv', 'additional-voices.tsv', 'concepts.tsv')},
               'glossaryFileSha256': sha(output / 'glossary.json'),
               'structuralValidation': 'passed; exact authored ID order, uniqueness, fields, nonempty text and source-key bindings',
               'editorialReview': 'pending; source-key equality is not full semantic coverage',
-              'sourceSelectionLimit': 'Current Dialogs and UI; legacy/demo/test excluded. Speaking roster and texture text require final reconciliation.',
+              'sourceSelectionLimit': 'Pinned current Dialogs including supplemental keys, UI and selected text-bearing images from level1 dependencies; legacy/demo/test excluded. Compiled ID presence does not prove every scene reachable.',
               'publication': 'not-requested; not-run', 'evidence': evidence}
+    if args.review:
+        review_path = args.review.resolve()
+        if not review_path.is_relative_to(INPUT):
+            raise ValueError('Review record must be in the canonical research directory')
+        review = json.loads(review_path.read_text())
+        pins = ('glossaryFileSha256', 'sourceCorpusSha256', 'currentDialogsSha256',
+                'extractorSha256', 'uncertaintyDecisionSha256', 'supportingKeysSha256', 'authoredInputs')
+        if any(review.get(key) != report[key] for key in pins):
+            raise ValueError('Manual review does not match the exact glossary and source inputs')
+        ids = [entry['id'] for entry in document['entries']]
+        passes = review.get('fullEditorialAudits', [])
+        if unresolved or review.get('unresolvedMaterialQuestions') or len(passes) != 2:
+            raise ValueError('Manual review has unresolved questions or lacks two clean full audits')
+        for audit in passes:
+            if (audit.get('glossaryFileSha256') != report['glossaryFileSha256']
+                    or audit.get('result') != 'clean' or audit.get('findings') != []
+                    or sorted(audit.get('reviewedIds', [])) != sorted(ids)
+                    or not {'term', 'meaning'}.issubset(audit.get('fieldsRead', []))):
+                raise ValueError('Manual review does not record a clean full-entry reading')
+        for key in ('rosterReview', 'textureReview'):
+            reference = review[key]
+            path = (INPUT / reference['path']).resolve()
+            if not path.is_relative_to(INPUT) or sha(path) != reference['sha256']:
+                raise ValueError(f'{key} evidence does not match its reviewed file')
+        report.update(status='canonical-ready', canonicalReady=True, consecutiveCleanFullAudits=2,
+                      editorialReview='Two explicitly recorded full-entry readings of unchanged text; see manual review record.',
+                      manualReviewSha256=sha(review_path))
     (output / 'evidence.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({k: v for k, v in report.items() if k not in ('evidence', 'authoredInputs')}, ensure_ascii=False, indent=2))
 

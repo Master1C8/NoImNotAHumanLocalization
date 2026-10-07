@@ -1,0 +1,5205 @@
+{
+  "schemaVersion": 1,
+  "sourceLocale": "ru",
+  "gameVersion": "1.3.19",
+  "status": "draft-needs-research",
+  "entries": 201,
+  "canonicalReady": false,
+  "consecutiveCleanFullAudits": 0,
+  "unresolvedCharacterIds": [
+    "radio-ending-address",
+    "tv-fema-promotion"
+  ],
+  "sourceCorpusSha256": "e948bfe11b38e1d9a7818a6cbebb67e10a278e0d6d15caa0ef4631c1d5e509fe",
+  "currentDialogsSha256": "dee07c8895a52dba6463a575c65d95e77fc3fafb6efb85ce19f3e445bf2d6c7c",
+  "extractorSha256": "489b349d511fc8c9c303bc17bc00e1eb0dd20243427c00f92ce8a1d1f20f6bcb",
+  "assemblerSha256": "fd37fd21b3546e128b020a5a26b8fdbc7a64a7ad1f21782fc7922253f6e3b23a",
+  "uncertaintyDecisionSha256": "d91bd7ca78a38f7730da7847a89933a160ca15aeac42b3e1aad9b91af53b2ef5",
+  "supportingKeysSha256": "128392cce28b05b36ea95e11e1246353a26512aae3819414636f115ce2f408a2",
+  "authoredInputs": {
+    "characters.tsv": "ce95c38c486e495d10bd53f28a7e6d1258fb1d3cf90c9dfa5516f6ef3759d997",
+    "voices.tsv": "5d5460b0f135a66915828757449594ca34fb4a64127f167ab29b961e478fc315",
+    "additional-voices.tsv": "0bc0a36dcf29e3a1e9f60443ba24c5551b05a483758fa3f9f1a00741c4f79260",
+    "concepts.tsv": "601b4e86d60c929e69a445ec515b7b9feb38b1ab8eab14dbe0ba5a9a4e8809e7"
+  },
+  "glossaryFileSha256": "a376afc31cda8c56e908c609a6f389efbccce2af20865ddbaefc2d63e740c4f9",
+  "structuralValidation": "passed; exact authored ID order, uniqueness, fields, nonempty text and source-key bindings",
+  "editorialReview": "pending; source-key equality is not full semantic coverage",
+  "sourceSelectionLimit": "Pinned current Dialogs including supplemental keys, UI and selected text-bearing images from level1 dependencies; legacy/demo/test excluded. Compiled ID presence does not prove every scene reachable.",
+  "publication": "not-requested; not-run",
+  "evidence": [
+    {
+      "id": "player",
+      "authoredInput": "characters.tsv:1",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Player"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457916194821,
+        "key": "line:phone_phoneroulette_1_1_X_4_0e2df08",
+        "text": "И однажды я перестал быть для него сыном",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_phoneroulette_1_1_X_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "neighbour",
+      "authoredInput": "characters.tsv:2",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Neighbour"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456305582085,
+        "key": "line:Neighbour_Entrance_4_0285b6d",
+        "text": "Neighbour: Поэтому я пришёл, чтобы тебя точно не угробили.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Neighbour_Entrance_4",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456309776386,
+          "key": "line:Neighbour_Entrance_6_02639eb",
+          "text": "Neighbour: Насчёт моих жены и дочери не переживай. Ко мне как раз на днях приехал хороший друг. Он присмотрит за моей семьёй.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Neighbour_Entrance_6",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455521247232,
+          "key": "line:Neighbour_Asking_5_0d5acc9",
+          "text": "Neighbour: {0}. Будем поддерживать связь по телефону.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Neighbour_Asking_5",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454514614283,
+          "key": "line:Neighbour_Asking_1_0271a32",
+          "text": "Neighbour: Но вот что она упоминала — если кто-то будет спрашивать, один ли ты, — отрицай это и говори, что в доме есть кто-то ещё.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Neighbour_Asking_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455986814979,
+          "key": "line:Intro_1_0cdc98a",
+          "text": "А мы как раз из отпуска приехали.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Intro_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neighbours-daughter",
+      "authoredInput": "characters.tsv:3",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Daughter"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504453554118661,
+        "key": "line:Daughter_Hands_DontShoot_0ebe95a",
+        "text": "Daughter: Так, всё. Я не плачу. Я взрослая девочка...",
+        "yarnMetadata": [
+          {
+            "nodeName": "Daughter_Hands_DontShoot",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cashier",
+      "authoredInput": "characters.tsv:4",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Anxiety"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456251056132,
+        "key": "line:Anxiety_Entrance_1_0440c27",
+        "text": "Anxiety: Я вообще кассиром работала. Когда-то, сейчас уже нет.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anxiety_Entrance_11",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 104055100333953024,
+          "key": "characterName_Anxiety",
+          "text": "девушка со скалиозом",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456259444737,
+          "key": "line:Anxiety_Entrance_YesLet_095e67f",
+          "text": "Anxiety: Спасибо. Ахах, спасибо, правда!",
+          "yarnMetadata": [
+            {
+              "nodeName": "Anxiety_Entrance_YesLet",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504451935117318,
+          "key": "line:Anxiety_Photo_08e51a4",
+          "text": "Anxiety: (Как будто в момент фотографии человек резко дернулся)",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "amogus-shirt-man",
+      "authoredInput": "characters.tsv:5",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Scammer"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454497837057,
+        "key": "line:Scammer_Asking_3_02ba40f",
+        "text": "Scammer: Так вот, и знаешь, что я придумал?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Scammer_Asking_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 104046925161500672,
+          "key": "characterName_Scammer",
+          "text": "парень в футболке amogus",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454472671238,
+          "key": "line:Scammer_Asking_2_2_01987b2",
+          "text": "Scammer: Да я тут темку недавно придумал, как заработать. Могу поделиться, если хочешь.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Scammer_Asking_2_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "widow",
+      "authoredInput": "characters.tsv:6",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Widow"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454434922503,
+        "key": "line:Widow_Asking_4_3_05e620a",
+        "text": "Widow: Я пришла раньше, просто проведать.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Widow_Asking_4_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 104054914303987712,
+          "key": "characterName_Widow",
+          "text": "женщина с трупом",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504452765589507,
+          "key": "line:Widow_Photo_04d4c05",
+          "text": "Widow: Никто не помог спасти мне мужа, но теперь...",
+          "yarnMetadata": [
+            {
+              "nodeName": "Widow_Photo",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tall-bar-man",
+      "authoredInput": "characters.tsv:7",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Esenin"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504451964477447,
+        "key": "line:Esenin_Armpit_0f56035",
+        "text": "Esenin: Или ты наебенился? Я думал, всё крепкое уже выпил.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Esenin_Armpit",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 104054042379489280,
+          "key": "characterName_Esenin",
+          "text": "длиннющий",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456263639050,
+          "key": "line:Esenin_Entrance_2_0bd0f07",
+          "text": "Esenin: Выпить и поесть я люблю. Люблю поговорить в приподнятом настроении. Это проблема?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Esenin_Entrance_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "husband-and-wife",
+      "authoredInput": "characters.tsv:8",
+      "genderEvidenceClass": "mixed",
+      "speakerCodes": [
+        "Couple"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457228328964,
+        "key": "line:Couple_Entrance_Bribe_04b6de7",
+        "text": "Couple: Моя жена не очень сильный человек. Быстро устаёт. А я… а я для неё всё что угодно сделаю, понимаете?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Couple_Entrance_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504454980182026,
+          "key": "line:Couple_Asking_5_3_3_2_03967da",
+          "text": "Couple: (Вы видите, как девушка резко вырывается. Мужчина стреляет в неё.)",
+          "yarnMetadata": [
+            {
+              "nodeName": "Couple_Asking_5_3_3_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454971793410,
+          "key": "line:Couple_Asking_5_3_070700a",
+          "text": "Couple: У меня в руке пистолет. Если ты что-то сделаешь, я пристрелю эту суку.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Couple_Asking_5_3",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgeon",
+      "authoredInput": "characters.tsv:9",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Doctor"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456792121351,
+        "key": "line:Doctor_Entrance_3_05476db",
+        "text": "Doctor: Я оперировал людей в больницах. Хирург.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Doctor_Entrance_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 193167011389448192,
+          "key": "characterName_Doc",
+          "text": "доктор",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456792121353,
+          "key": "line:Doctor_Entrance_3_0b41449",
+          "text": "Doctor: А сейчас… больниц больше нет… Теперь я просто хожу и помогаю, кому могу.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Doctor_Entrance_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455194091520,
+          "key": "line:Doctor_Asking_1_1_070afbf",
+          "text": "Doctor: По правде говоря… после закрытия больниц я перешёл работать в карантинные зоны КЧС…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Doctor_Asking_1_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naked-fat-man",
+      "authoredInput": "characters.tsv:10",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Fatman"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457219940359,
+        "key": "line:Fatman_Entrance_Bribe_09651ae",
+        "text": "Fatman: Я понял тебя, дружище. Мне кажется, я… знаю, что может помочь.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Fatman_Entrance_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 104054917168697344,
+          "key": "characterName_Fatman",
+          "text": "голый жирдяй",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457219940360,
+          "key": "line:Fatman_Entrance_Bribe_0405078",
+          "text": "Fatman: Вот тебе ПОДАРОЧЕК… от меня. {0}!",
+          "yarnMetadata": [
+            {
+              "nodeName": "Fatman_Entrance_Bribe",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "babushka",
+      "authoredInput": "characters.tsv:11",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "NotTrue"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454590111754,
+        "key": "line:NotTrue_Asking_4_2_0b23fa8",
+        "text": "NotTrue: Ну, что-то я приврала, конечно.",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "jerky-man",
+      "authoredInput": "characters.tsv:12",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Unstable"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457341575172,
+        "key": "line:Unstable_Entrance_Occupied_NoLet_09b0e47",
+        "text": "Unstable: Я слышал, там чел воздух холодный продаёт. Вот угар!",
+        "yarnMetadata": [
+          {
+            "nodeName": "Unstable_Entrance_Occupied_NoLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "ex-con",
+      "authoredInput": "characters.tsv:13",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Experienced"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457366740997,
+        "key": "line:Experienced_Entrance_Occupied_YesLet_05dd233",
+        "text": "Experienced: Молоток, фраер. Я знал, что ты ровный пацанчик.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Experienced_Entrance_Occupied_YesLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455751933958,
+          "key": "line:Experienced_Asking_4_030b3c8",
+          "text": "Experienced: Жена нашла себе другого, ребёнок боялся меня, а на работу я уже не могу устроиться из-за судимости.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Experienced_Asking_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455714185217,
+          "key": "line:Experienced_Asking_1_0c8a133",
+          "text": "Experienced: Я, может, и сидел за грабёж, но никого не мочил.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Experienced_Asking_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seductive-woman",
+      "authoredInput": "characters.tsv:14",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "FatalDame"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457102499845,
+        "key": "line:FatalDame_Entrance_NoLet_09b2b62",
+        "text": "FatalDame: Я не ожидала другого ответа.",
+        "yarnMetadata": [
+          {
+            "nodeName": "FatalDame_Entrance_NoLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455508664321,
+          "key": "line:FatalDame_Asking_4_1_023d1c1",
+          "text": "FatalDame: Я не могу так быстро родить, тем более, без живота.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FatalDame_Asking_4_1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455512858626,
+          "key": "line:FatalDame_Asking_4_2_084330d",
+          "text": "FatalDame: Вот если Ребёнок действительно есть.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FatalDame_Asking_4_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456116838401,
+          "key": "line:Rock_ending_6_0d0360b",
+          "text": "От слов дамы вы оцепенели.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Rock_ending_6",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bearded-hunter",
+      "authoredInput": "characters.tsv:15",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Hunter"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456695652358,
+        "key": "line:Hunter_Entrance_4_00e0d8c",
+        "text": "Hunter: Я бежал, они стреляли. Вот такое развлечение у них.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Hunter_Entrance_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 102986315954982912,
+          "key": "characterName_Hunter",
+          "text": "огромный бородатый мужик",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504452664926209,
+          "key": "line:Hunter_Eyes_0699b69",
+          "text": "Hunter: Когда я одного из Гостей мочил, кинул мне то ли землю, то ли говно какое в глаза. Постоянно болят теперь.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Hunter_Eyes",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "best-son",
+      "authoredInput": "characters.tsv:16",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Bestson"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456481742848,
+        "key": "line:Bestson_Entrance_2_0f4c30a",
+        "text": "Bestson: Я подумал, мне проще будет узнать всю правду от людей. Можешь сказать, что происходит?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Bestson_Entrance_2",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504454745300996,
+          "key": "line:Bestson_Asking_3_0154025",
+          "text": "Bestson: Он рассказал мне, что на самом деле я не первый его ребёнок. У меня всё это время была сестра…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Bestson_Asking_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504452295827467,
+          "key": "line:Bestson_Hands_00be6d0",
+          "text": "Bestson: Чёрт, да я совсем забыл о ногтях. Родители говорили мне стричь их, но я… так и не привык.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Bestson_Hands",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suit-bandit",
+      "authoredInput": "characters.tsv:17",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Wolfhound"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455185702919,
+        "key": "line:Wolfhound_Asking_3_9_2_086c8fc",
+        "text": "Wolfhound: (Мужчина пользуется моментом и выхватывает пистолет)",
+        "yarnMetadata": [
+          {
+            "nodeName": "Wolfhound_Asking_3_9_X",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "angry-wounded-man",
+      "authoredInput": "characters.tsv:18",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Anger"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454254567430,
+        "key": "line:Anger_Asking_4_00d32bd",
+        "text": "Anger: Я ударил её…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anger_Asking_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504454254567424,
+          "key": "line:Anger_Asking_4_02e0c6c",
+          "text": "Anger: Наступил день, когда жена поставила меня перед фактом: она уходит в культ.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Anger_Asking_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kindergarten-teacher",
+      "authoredInput": "characters.tsv:19",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Teacher"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456544657409,
+        "key": "line:Teacher_Entrance_2_006e66e",
+        "text": "Teacher: Я… Я брала брошенных детей к себе под опеку в здание, где раньше был детский сад.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Teacher_Entrance_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456544657413,
+          "key": "line:Teacher_Entrance_2_0c518a0",
+          "text": "Teacher: Но теперь… Всех детей убили… Никто не уцелел из-за пожара…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Teacher_Entrance_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504452497154056,
+          "key": "line:Teacher_Photo_DontShoot_0f65c72",
+          "text": "Teacher: Я пыталась запомнить лица детей, их голоса, их смех…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Teacher_Photo_DontShoot",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "former-fema",
+      "authoredInput": "characters.tsv:20",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "FormerFema"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456880201740,
+        "key": "line:FormerFema_Entrance_2_0dded02",
+        "text": "FormerFema: Их все ненавидят, как я понял.",
+        "yarnMetadata": [
+          {
+            "nodeName": "FormerFema_Entrance_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456880201732,
+          "key": "line:FormerFema_Entrance_1_0d96c90",
+          "text": "FormerFema: Нет, я просто снял её с трупа.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FormerFema_Entrance_1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456880201739,
+          "key": "line:FormerFema_Entrance_2_093a1ed",
+          "text": "FormerFema: А, нет, я не из КЧС. Это вы из-за формы подумали?",
+          "yarnMetadata": [
+            {
+              "nodeName": "FormerFema_Entrance_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455412195331,
+          "key": "line:FormerFema_Asking_3_X_012ab4a",
+          "text": "FormerFema: Но, слушай, это была моя работа, ясно? Я просто выполнял приказы.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FormerFema_Asking_3_X",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455416389641,
+          "key": "line:FormerFema_Asking_4_0eba7c0",
+          "text": "FormerFema: Действительно стоило того, чтобы я и остальные лишились работы.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FormerFema_Asking_4",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immortal-man",
+      "authoredInput": "characters.tsv:21",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Jacob"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457287049223,
+        "key": "line:Jacob_Entrance_1_0d25473",
+        "text": "Jacob: Но потом началась аномальная жара, я потерял сознание…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Jacob_Entrance_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457287049225,
+          "key": "line:Jacob_Entrance_1_01c2fe7",
+          "text": "Jacob: Ни записки, ни следа. Моя дочь просто куда-то пропала.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacob_Entrance_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457295437831,
+          "key": "line:Jacob_Entrance_4_0317261",
+          "text": "Jacob: КЧС меня разыскивает, так как я знаю кое-какую информацию…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacob_Entrance_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455563190274,
+          "key": "line:Jacob_Asking_3_06f66cf",
+          "text": "Jacob: Я же бессмертен. Ты забыл?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacob_Asking_3",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big-momma",
+      "authoredInput": "characters.tsv:22",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Greatmother"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456712429572,
+        "key": "line:Greatmother_Entrance_1_091ef96",
+        "text": "Greatmother: Я жила в паре кварталов отсюда.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Greatmother_Entrance_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455135371276,
+          "key": "line:Greatmother_Asking_3_9_01bbaa8",
+          "text": "Greatmother: Детки, ползите сюда, я здесь. Ползите сюда, я нашла новый дом.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Greatmother_Asking_3_9",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stoner",
+      "authoredInput": "characters.tsv:23",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Dude"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456527880196,
+        "key": "line:Dude_Entrance_2_0c3d6b3",
+        "text": "Dude: ЗОМБИ! АГА, Я ЗНАЛ!",
+        "yarnMetadata": [
+          {
+            "nodeName": "Dude_Entrance_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tough-woman",
+      "authoredInput": "characters.tsv:24",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Tough"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457475792907,
+        "key": "line:Tough_Entrance_Occupied_NoLet_0c2a47c",
+        "text": "Tough: Да какого чёрта? Я думала, ты тоже уважаешь такую же решительность. Жажду жизни.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Tough_Entrance_Occupied_NoLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cat-lady",
+      "authoredInput": "characters.tsv:25",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Ballerina"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455655464963,
+        "key": "line:Ballerina_Asking_5_3_08d55de",
+        "text": "Ballerina: А, нет, я же сказала, что жду.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Ballerina_Asking_5_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cold-man",
+      "authoredInput": "characters.tsv:26",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Cold"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455093428228,
+        "key": "line:Cold_Asking_4_5_0aae1d4",
+        "text": "Cold: Я понял.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Cold_Asking_4_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457173803016,
+          "key": "line:Cold_Entrance_Occupied_0b63df2",
+          "text": "Cold: Я… мне страшно находиться с людьми в одной комнате. Порой… может произойти что-то очень неприятное. Такое было каждый раз…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Cold_Entrance_Occupied",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "armchair-lawyer",
+      "authoredInput": "characters.tsv:27",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Provocateur"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455345086467,
+        "key": "line:Provocateur_Asking_4_2_05f12c7",
+        "text": "Provocateur: Сначала я не придал значения тому, что вы не можете нормально заключить со мной договор.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Provocateur_Asking_4_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455319920651,
+          "key": "line:Provocateur_Asking_2_02c65b9",
+          "text": "Provocateur: Я жду, пока вы найдёте бумаги и заключите со мной договор об аренде.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Provocateur_Asking_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stand-up-guy",
+      "authoredInput": "characters.tsv:28",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "FunnyGuy"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457442238466,
+        "key": "line:FunnyGuy_Entrance_2_02e7c77",
+        "text": "FunnyGuy: Я думал, что уже в финансовой жопе.",
+        "yarnMetadata": [
+          {
+            "nodeName": "FunnyGuy_Entrance_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455877763079,
+          "key": "line:FunnyGuy_Asking_1_6_0f660f5",
+          "text": "FunnyGuy: Впустил, блин, семейку жить. Типа, за те деньги, которые мне платят, я закрывал ипотеку.",
+          "yarnMetadata": [
+            {
+              "nodeName": "FunnyGuy_Asking_1_6",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wounded-fugitive",
+      "authoredInput": "characters.tsv:29",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Fugitive"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457215746057,
+        "key": "line:Day1_Fugitive_Bribe_01198fd",
+        "text": "Fugitive: Парень, я готов всё отдать, что у меня есть. А вот, смотри, — {0}. Нашёл по пути. Больше нихера на мне нет.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Day1_Fugitive_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504452274855946,
+          "key": "line:Fugitive_Photo_056ae85",
+          "text": "Fugitive: Ну что, как я там получился?.. Блин, погоди, я надеюсь, что ты это не для КЧС-ников готовишь, чтобы меня сдать!",
+          "yarnMetadata": [
+            {
+              "nodeName": "Fugitive_Photo",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxi-driver",
+      "authoredInput": "characters.tsv:30",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "TaxiDriver"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456829870091,
+        "key": "line:TaxiDriver_Entrance_4_0f0b15a",
+        "text": "TaxiDriver: Я просто посмотрел одним глазком в зеркало заднего вида и увидел у него белые зубы, как из рекламы.",
+        "yarnMetadata": [
+          {
+            "nodeName": "TaxiDriver_Entrance_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cheerful-man",
+      "authoredInput": "characters.tsv:31",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Luka"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457232523265,
+        "key": "line:Luka_Entrance_Bribe_09fe9e9",
+        "text": "Luka: Я бы хотел тебе помочь. Может быть, ты хочешь что-нибудь?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Luka_Entrance_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455022125068,
+          "key": "line:Luka_Asking_6_0b67244",
+          "text": "Luka: Но если за это нужно будет отказаться от того, чему я научился – от прощения, от силы жить дальше – я бы не смог.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Luka_Asking_6",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455017930761,
+          "key": "line:Luka_Asking_4_01c6a8c",
+          "text": "Luka: Прощение – вот что спасло меня.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Luka_Asking_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sleepless-man",
+      "authoredInput": "characters.tsv:32",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Intruder"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456892784648,
+        "key": "line:Intruder_Entrance_1_0d03651",
+        "text": "Intruder: Знаешь, что я понял?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Intruder_Entrance_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455437361160,
+          "key": "line:Intruder_Asking_3_0213a9e",
+          "text": "Intruder: Я не сплю уже который день.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Intruder_Asking_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455961649161,
+          "key": "line:Intruder_Asking_SpecialEvent_Nightmare_1_09c7642",
+          "text": "Intruder: Скажу лишь так — взгляд этот ищет тела. Он идёт туда, где смерть… Много смертей…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Intruder_Asking_SpecialEvent_Nightmare_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar-teenager",
+      "authoredInput": "characters.tsv:33",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "BigLebowski"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454996959237,
+        "key": "line:BigLebowski_Asking_3_0842137",
+        "text": "BigLebowski: Мы много говорили за аниме, фильмы и всё такое. Я думала, что, наконец-то нашла приятного человека.",
+        "yarnMetadata": [
+          {
+            "nodeName": "BigLebowski_Asking_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fortune-teller",
+      "authoredInput": "characters.tsv:34",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "FortuneTeller"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454271344645,
+        "key": "line:FortuneTeller_Asking_5_08842ea",
+        "text": "FortuneTeller: Я прошла огромный путь. Посмотри вокруг, оглянись назад. Ты ведь видишь, какой у меня сейчас дом?",
+        "yarnMetadata": [
+          {
+            "nodeName": "FortuneTeller_Asking_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "blind-man",
+      "authoredInput": "characters.tsv:35",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Blind"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457136054275,
+        "key": "line:Blind_Entrance_Occupied_067aa91",
+        "text": "Blind: Прости, я не могу объяснить, но я уверен, что дело ни в чём другом.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Blind_Entrance_Occupied",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456515297286,
+          "key": "line:Blind_Entrance_2_0ce7c93",
+          "text": "Blind: Чтобы не сойти с ума, мне пришлось принести в жертву глаза.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Blind_Entrance_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456519491590,
+          "key": "line:Blind_Entrance_4_07dfcc3",
+          "text": "Blind: Ты правда думаешь, я вырезал глаза из-за какого-то бледного человека?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Blind_Entrance_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454862741513,
+          "key": "line:Blind_Asking_2_09fb14c",
+          "text": "Blind: Я не знаю, как выглядит твой дом, сложновато ориентироваться. Да ещё глазницы болели бы, если бы не обезболивающее…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Blind_Asking_2",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nun",
+      "authoredInput": "characters.tsv:36",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Nun"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456452382726,
+        "key": "line:Nun_Entrance_3_07ea145",
+        "text": "Nun: Ну, спасибо, а то я не заметила.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Nun_Entrance_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456448188422,
+          "key": "line:Nun_Entrance_1_00f621d",
+          "text": "Nun: У вас, надеюсь, есть иконы? Предупреждаю, мне нужна полная тишина, чтобы я могла сосредоточиться на молитве.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Nun_Entrance_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pale-visitor",
+      "authoredInput": "characters.tsv:37",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "SuperFake"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457316409347,
+        "key": "line:SuperFake_Entrance_13_X_0ae0d51",
+        "text": "SuperFake: Один ли ты дома?",
+        "yarnMetadata": [
+          {
+            "nodeName": "SuperFake_Entrance_13_X",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457593233412,
+          "key": "line:tv_2_extra2_03d0e5d",
+          "text": "TV: Это высокий бледный мужчина среднего возраста с чёрными волосами. На нём только штаны, выше пояса одежды нет. Худощавого телосложения.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_3_extra2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457593233413,
+          "key": "line:tv_2_extra2_0ad57ac",
+          "text": "TV: Некоторые сообщают, что на его тело надета кожа другого человека.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_3_extra2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457593233414,
+          "key": "line:tv_2_extra2_0e3a51a",
+          "text": "TV: Подтверждения этой информации нет.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_3_extra2",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bandana-man",
+      "authoredInput": "characters.tsv:38",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Raskolnikov"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456443994112,
+        "key": "line:Raskolnikov_Entrance_4_0b8591a",
+        "text": "Raskolnikov: Но ещё я бы хотел, чтобы ты, как бы это сказать, научил меня…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Raskolnikov_Entrance_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504454673997829,
+          "key": "line:talk_raskolnikov_2_0ff41fe",
+          "text": "Raskolnikov: Надеюсь, я научусь убивать...",
+          "yarnMetadata": [
+            {
+              "nodeName": "talk_raskolnikov_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wheelchair-man",
+      "authoredInput": "characters.tsv:39",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Wheelchair",
+        "WheelChair"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504451754762243,
+        "key": "line:Wheelchair_Eyes_0189949",
+        "text": "Wheelchair: Я не готов отпустить эту скорость, наверно.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Wheelchair_Eyes",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455936483337,
+          "key": "line:WheelChair_Asking_SpecialEvent_1_022eec4",
+          "text": "WheelChair: Да ладно тебе, у меня ноги затекли. Что в этом такого?",
+          "yarnMetadata": [
+            {
+              "nodeName": "WheelChair_Asking_SpecialEvent_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455940677632,
+          "key": "line:WheelChair_Asking_SpecialEvent_2_09d1e17",
+          "text": "WheelChair: А если ты про коляску, то мне просто по кайфу колесить в ней.",
+          "yarnMetadata": [
+            {
+              "nodeName": "WheelChair_Asking_SpecialEvent_2",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creepy-man",
+      "authoredInput": "characters.tsv:40",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Nervous"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457484181507,
+        "key": "line:Nervous_Entrance_Occupied_0f38193",
+        "text": "Nervous: Я видел…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Nervous_Entrance_Occupied",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-wife",
+      "authoredInput": "characters.tsv:41",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Wifefema"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456418828290,
+        "key": "line:entrance_wifefema_0eaa118",
+        "text": "Wifefema: Я приехала сюда к моему мужу. Его по работе перевели.",
+        "yarnMetadata": [
+          {
+            "nodeName": "entrance_wifefema",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456423022602,
+          "key": "line:Wifefema_Entrance_3_00ac18e",
+          "text": "Wifefema: Я раньше на таможне работала, людей пропускала через границу.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Wifefema_Entrance_3",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "firefighter",
+      "authoredInput": "characters.tsv:42",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Firefighter"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454187458562,
+        "key": "line:Firefighter_YesSigi_0cd77ac",
+        "text": "Firefighter: (Мужчина достаёт из кармана зажигалку и начинает курить)",
+        "yarnMetadata": [
+          {
+            "nodeName": "Firefighter_YesSigi",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456137809928,
+          "key": "line:Firefighter_Entrance_2_05a5236",
+          "text": "Firefighter: Попал под дневной свет, кх-кх, пока тушил лесные пожары.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Firefighter_Entrance_22",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456368496650,
+          "key": "line:Firefighter_Entrance_YesLet_0a8376d",
+          "text": "Firefighter: Нам перед тем, как отправиться тушить пожар, дали на работе вот эту бумажку.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Firefighter_Entrance_YesLet",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454170681354,
+          "key": "line:Firefighter_Asking_2_064c22a",
+          "text": "Firefighter: У меня дома дети. А я, кх-кх…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Firefighter_Asking_2",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homeless-man",
+      "authoredInput": "characters.tsv:43",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Marauder"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456846647305,
+        "key": "line:entrance_marauder_0a02493",
+        "text": "Marauder: Привет. Я думал, здесь уже никого нет. Все, ухожу.",
+        "yarnMetadata": [
+          {
+            "nodeName": "entrance_marauder",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455357669385,
+          "key": "line:Marauder_Asking_2_0f4dc6c",
+          "text": "Marauder: Трупы не причинят мне вреда, а их вещи уже никому не нужны.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Marauder_Asking_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455353475080,
+          "key": "line:Marauder_Asking_1_017e31e",
+          "text": "Marauder: Я, может, и лез в твой дом, чтобы поживиться, но тут живые же.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Marauder_Asking_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punk-girl",
+      "authoredInput": "characters.tsv:44",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Alt"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457509347328,
+        "key": "line:Alt_Entrance_Bribe_0458411",
+        "text": "Alt: Я привыкла к такому подходу. И понимаю, куда клонишь.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Alt_Entrance_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455894540290,
+          "key": "line:Alt_Asking_1_010df1b",
+          "text": "Alt: Я же на радио работала.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Alt_Asking_1",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454132932615,
+          "key": "line:Alt_Eyes_DontShoot_0d064bf",
+          "text": "Alt: Но залила краску в глаза, когда умер самый близкий мне человек.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Alt_Eyes_DontShoot",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theater-man",
+      "authoredInput": "characters.tsv:45",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Bald"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455810654218,
+        "key": "line:Bald_Asking_4_07451c1",
+        "text": "Bald: Я жил с мамой и бабушкой.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Bald_Asking_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455810654219,
+          "key": "line:Bald_Asking_4_07cef2f",
+          "text": "Bald: Батя ушёл, потому что тоже актёр из театра, неверный мужчина, к тому же алкоголик. Это просто база для театральной жизни. А мама костюмы шьёт.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Bald_Asking_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455802265606,
+          "key": "line:Bald_Asking_1_070ba21",
+          "text": "Bald: Я вообще закончил на театрального продюсера и скажу тебе заранее, братан, что никому не советую туда идти.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Bald_Asking_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fema-agent",
+      "authoredInput": "characters.tsv:46",
+      "genderEvidenceClass": "male-wiki",
+      "speakerCodes": [
+        "Gasmask"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456607571977,
+        "key": "line:entrance_gasmask_5_06319a7",
+        "text": "Gasmask: Мы из бригады КЧС. Проводим обследование вашего района.",
+        "yarnMetadata": [
+          {
+            "nodeName": "entrance_gasmask_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "gravedigger",
+      "authoredInput": "characters.tsv:47",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "GraveDigger"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456867618820,
+        "key": "line:GraveDigger_Entrance_2_01716f7",
+        "text": "GraveDigger: Если бы ты видел, что я видел, пока копал очередную яму…",
+        "yarnMetadata": [
+          {
+            "nodeName": "GraveDigger_Entrance_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tourist",
+      "authoredInput": "characters.tsv:48",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Tourist"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457467404303,
+        "key": "line:Tourist_Entrance_4_094e31b",
+        "text": "Tourist: Я жил какое-то время в отеле, но деньги закончились.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Tourist_Entrance_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "jacket-man",
+      "authoredInput": "characters.tsv:49",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Jacket"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455764516874,
+        "key": "line:Jacket_Asking_2_001bfe1",
+        "text": "Jacket: А он раскошелился на целую куртку! Я был очень рад такому подарку.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Jacket_Asking_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455764516871,
+          "key": "line:Jacket_Asking_2_0ae9a0b",
+          "text": "Jacket: Но вообще он был моряком.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455764516872,
+          "key": "line:Jacket_Asking_2_0089dda",
+          "text": "Jacket: И эта куртка… Он мне её привёз в подарок из-за границы, пока плавал по работе.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455768711175,
+          "key": "line:Jacket_Asking_3_041ca5f",
+          "text": "Jacket: Моего брата забрали не в карантинную зону, а буквально в КЧС…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_3",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455768711178,
+          "key": "line:Jacket_Asking_3_1_08f8822",
+          "text": "Jacket: Да, он теперь в рядах сотрудников КЧС…",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_3_1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455768711179,
+          "key": "line:Jacket_Asking_3_1_0320ecd",
+          "text": "Jacket: Они ему даже не дали выбора. Просто пришли на порог и сказали: «Ты нам подходишь».",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_3_1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455772905476,
+          "key": "line:Jacket_Asking_3_1_0edd546",
+          "text": "Jacket: Что если сотрудник в жёлтом заберёт меня, а им окажется мой брат?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Jacket_Asking_3_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morbid-romantic",
+      "authoredInput": "characters.tsv:50",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Edgar"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457194774528,
+        "key": "line:Edgar_Entrance_Occupied_05072a3",
+        "text": "Edgar: А я пришёл слушать, как затихает сегодня.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Edgar_Entrance_Occupied",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "leper",
+      "authoredInput": "characters.tsv:51",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Leper"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457488375815,
+        "key": "line:Leper_Entrance_Occupied_NoLet_0fbaf6b",
+        "text": "Leper: Впрочем, твоё дело. Тогда я пошёл.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Leper_Entrance_Occupied_NoLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457488375813,
+          "key": "line:Leper_Entrance_Occupied_YesLet_0f91187",
+          "text": "Leper: Спасибо. Мне правда не хочется снова терпеть насмешки.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Leper_Entrance_Occupied_YesLet",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conspiracy-theorist",
+      "authoredInput": "characters.tsv:52",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Theorist"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456414633990,
+        "key": "line:Theorist_Entrance_YesLet_06bbe7d",
+        "text": "Theorist: Я знал, что могу доверять вам.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Theorist_Entrance_YesLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fairytale-enjoyer",
+      "authoredInput": "characters.tsv:53",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Fairytaller"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457425461255,
+        "key": "line:Fairytaller_Entrance_1_0bd5de1",
+        "text": "Fairytaller: Я только окончил универ этим летом. По специальности работу найти не просто. Поэтому устроился на подработку в кафе.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Fairytaller_Entrance_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "rock-musician",
+      "authoredInput": "characters.tsv:54",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Rocker"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457349963778,
+        "key": "line:Rocker_Entrance_2_0d3b15a",
+        "text": "Rocker: Да и вообще, если бы я был Гостем, уже бы пытался сломать дверь или в окно залез бы. А я тут, смотри, спокойно дышу и разговариваю.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Rocker_Entrance_2",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455709990918,
+          "key": "line:Rocker_Asking_4_0cc54b6",
+          "text": "Rocker: Я не Гость, я просто выгоревший придурок, который не нашёл выхода.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Rocker_Asking_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455701602310,
+          "key": "line:Rocker_Asking_2_0271cd7",
+          "text": "Rocker: Лучше разъебошить старую гитару, чем голову. Гитару можно склеить если что, голову — нет.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Rocker_Asking_2",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twin-alkonost",
+      "authoredInput": "characters.tsv:55",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Alkonost"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454611083268,
+        "key": "line:Alkonost_Asking_5_0e74f93",
+        "text": "Alkonost: Я ходила на улицу ночью. Хотела найти мужа.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Alkonost_Asking_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "twin-sirin",
+      "authoredInput": "characters.tsv:56",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Sirin"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504453751250949,
+        "key": "line:Sirin_Gun_Cry_0f9501d",
+        "text": "Sirin: Я готова...",
+        "yarnMetadata": [
+          {
+            "nodeName": "Sirin_Gun_Cry",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504454627860480,
+          "key": "line:Sirin_Asking_5_05735e3",
+          "text": "Sirin: Теперь я буду за ней ухаживать, пока мы все не умрём.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Sirin_Asking_5",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504454623666185,
+          "key": "line:Sirin_Asking_5_0819a12",
+          "text": "Sirin: Да. Она нашла тело мужа.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Sirin_Asking_5",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504452107083786,
+          "key": "line:Sirin_Armpit_024ae43",
+          "text": "Sirin: Сестра мне бреет подмышки. Ухаживает за мной.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Sirin_Armpit",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushroom-eater",
+      "authoredInput": "characters.tsv:57",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "MushroomEater"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456989253633,
+        "key": "line:MushroomEater_Entrance_3_2_065745e",
+        "text": "MushroomEater: Я не хотел этого, но… похоже, нам с тобой придётся отправиться в страну грибов…",
+        "yarnMetadata": [
+          {
+            "nodeName": "MushroomEater_Entrance_3_2",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456964087809,
+          "key": "line:MushroomEater_Entrance_1_6_0f44be1",
+          "text": "MushroomEater: Я могу говорить лишь то, что сам вычитал в «Учебнике улыбок» про фестиваль.",
+          "yarnMetadata": [
+            {
+              "nodeName": "MushroomEater_Entrance_1_6",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456041340935,
+          "key": "line:Mushroom_end_4_092004b",
+          "text": "Страна грибов где-то там!",
+          "yarnMetadata": [
+            {
+              "nodeName": "Mushroom_end_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stitched-mouth-man",
+      "authoredInput": "characters.tsv:58",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Foreigner"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456804704266,
+        "key": "line:Foreigner_Entrance_NoLet_05dafa9",
+        "text": "Foreigner: (Он продолжает стоять и что-то мычать).",
+        "yarnMetadata": [
+          {
+            "nodeName": "Foreigner_Entrance_NoLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "mother-with-child",
+      "authoredInput": "characters.tsv:59",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [
+        "Mother"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454946627586,
+        "key": "line:Mother_Asking_1_0baca34",
+        "text": "Mother: Иногда мне кажется, что я сама виновата, что втянула их во всё это.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Mother_Asking_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456162975755,
+          "key": "line:Mother_Entrance_1_0b8e1e9",
+          "text": "Mother: Из пятерых детей остался только один.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Mother_Entrance_1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456171364359,
+          "key": "line:Mother_Entrance_4_032af2c",
+          "text": "Mother: Вы можете меня впустить? Я отдохну и пойду искать детей?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Mother_Entrance_4",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cultist-one",
+      "authoredInput": "characters.tsv:60",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Cultist1"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455449944066,
+        "key": "line:Cultist1_Asking_3_0716078",
+        "text": "Cultist1: Я сам сперва не понимал, почему наставник выбрал именно это место. Но теперь мне всё ясно.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Cultist1_Asking_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cultist-two",
+      "authoredInput": "characters.tsv:61",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Cultist2"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455466721280,
+        "key": "line:Cultist2_Asking_4_007af37",
+        "text": "Cultist2: Страшно… У меня мандраж… Моё тело так дрожит… Но я должен преисполниться верой и решимостью.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Cultist2_Asking_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cultist-three",
+      "authoredInput": "characters.tsv:62",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Cultist3"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504453415706628,
+        "key": "line:Cultist3_Teeth_DontShoot_091563f",
+        "text": "Cultist3: Я всё показал. Теперь буду готовиться.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Cultist3_Teeth_DontShoot",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cult-leader",
+      "authoredInput": "characters.tsv:63",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "CultistPriest"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456100061187,
+        "key": "line:entrance_CultistPriest_FinalWords_0c3d025",
+        "text": "Рад, что ты присоединился к нам. Смерть и правда не зря тебя выбрала.",
+        "yarnMetadata": [
+          {
+            "nodeName": "entrance_CultistPriest_FinalWords",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "prophet",
+      "authoredInput": "characters.tsv:64",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Prophet"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456683069447,
+        "key": "line:Entrance_Prophet_12_5_0f36319",
+        "text": "Prophet: Я вспомнил немного. Спасибо.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Entrance_Prophet_12_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "courier",
+      "authoredInput": "characters.tsv:65",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Courier"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457270272003,
+        "key": "line:Courier_Entrance_4_1_2_0dc263d",
+        "text": "Courier: Я устал от всего этого дерьма. Мне просто хочется, чтобы всё это нахуй закончилось…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Courier_Entrance_4_1_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "miner",
+      "authoredInput": "characters.tsv:66",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Miner"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457022808074,
+        "key": "line:Miner_Entrance_2_4_046af54",
+        "text": "Miner: Один раз спуститься – и всё станет ясно. Я бы сам, но понимаешь, кто тогда подстрахует?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Miner_Entrance_2_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "sisters-together",
+      "authoredInput": "characters.tsv:67",
+      "genderEvidenceClass": "mixed-female",
+      "speakerCodes": [
+        "Twins"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456397856772,
+        "key": "line:Twins_Entrance_Occupied_YesLet_057ef2e",
+        "text": "Twins: Долго уже в этом. Я надеялась, что здесь ей станет хоть немного легче.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Twins_Entrance_Occupied_YesLet",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "raincoat-boy",
+      "authoredInput": "characters.tsv:68",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "StaticBoy"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457282854923,
+        "key": "line:StaticBoy_Entrance_4_00f8f62",
+        "text": "StaticBoy: Я перепутал дом.",
+        "yarnMetadata": [
+          {
+            "nodeName": "StaticBoy_Entrance_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "vigilante",
+      "authoredInput": "characters.tsv:69",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Vigilante"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457312215049,
+        "key": "line:Vigilante_Entrance_3_Leaving_07f4720",
+        "text": "Vigilante: Больше ты меня не увидишь. Я сделал всё, что хотел.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Vigilante_Entrance_3_Leaving",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457077334018,
+          "key": "line:Vigilante_Entrance_3_2_070cc25",
+          "text": "Vigilante: Знаешь, был случай на окраине города. Семья в доме забаррикадировалась, отец ещё стоял, держал оборону.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Vigilante_Entrance_3_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457077334021,
+          "key": "line:Vigilante_Entrance_3_2_077727f",
+          "text": "Vigilante: Её грохнул первой, потом мужика. Дети с соседями куда-то успели смыться.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Vigilante_Entrance_3_2",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "authoredInput": "characters.tsv:70",
+      "genderEvidenceClass": "animal",
+      "speakerCodes": [
+        "Cat"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455525441539,
+        "key": "line:Cat_Asking_2_0845b69",
+        "text": "Cat: (А он не такой вредный, как вам могло сперва показаться.)",
+        "yarnMetadata": [
+          {
+            "nodeName": "Cat_Asking_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "death",
+      "authoredInput": "characters.tsv:71",
+      "genderEvidenceClass": "entity",
+      "speakerCodes": [
+        "Ending"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456020369412,
+        "key": "line:Death_Income_5_01a757a",
+        "text": "Я – непризнанный брат, отщепенец в народной семье.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Death_Income_5",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "friendly-gremlin",
+      "authoredInput": "characters.tsv:72",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Buddy"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457131859969,
+        "key": "line:Buddy_Entrance_Occupied_0995289",
+        "text": "Buddy: Я парень дружелюбный, но чувствую, что нам всем в одной будке тесновато будет. Выручишь?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Buddy_Entrance_Occupied",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504452341964800,
+          "key": "line:Buddy_Armpit_0240b62",
+          "text": "Buddy: Нечего тут смотреть, честное слово. Толстые, волосатые, да ещё и с грибком каким-то. Наверное, подцепил, когда с собакой ночевал на полу.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Buddy_Armpit",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sun-fanatic",
+      "authoredInput": "characters.tsv:73",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [
+        "Fanatic"
+      ],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452652343305,
+        "key": "line:Fanatic_Ears_DontShoot_07d83d7",
+        "text": "Fanatic: А вообще я не понял, что ты там высматривал.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Fanatic_Ears_DontShoot",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "daughters-friends-mother",
+      "authoredInput": "voices.tsv:1",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457937166341,
+        "key": "line:phone_daughtersfriend_2_1_2_080193d",
+        "text": "Phone: Но потом я поняла, что это и не была наша дочь.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_daughtersfriend_2_1_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "best-sons-sister",
+      "authoredInput": "voices.tsv:2",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457823920135,
+        "key": "line:phone_bestson_4_0a606bd",
+        "text": "Phone: Я готова приютить брата. Передайте ему это. Он знает мой адрес.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_bestsonfamily_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "alkonosts-husband",
+      "authoredInput": "voices.tsv:3",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457836503041,
+        "key": "line:phone_alkonost_4_0a46852",
+        "text": "Phone: Как же ей не повезло, что её окружают только слабые люди. Понимаете, я поэтому и решил от неё уйти.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_alkonostshusband_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "angry-mans-wife",
+      "authoredInput": "voices.tsv:4",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457802948615,
+        "key": "line:phone_anger_1_0129d09",
+        "text": "Phone: Что? Мой муж?",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_angerswife_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "mothers-husband",
+      "authoredInput": "voices.tsv:5",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457794560006,
+        "key": "line:phone_mother_4_084a81a",
+        "text": "Phone: Я не удивлён.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_mothershusband_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone-roulette-woman",
+      "authoredInput": "voices.tsv:6",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457907806216,
+        "key": "line:phone_phoneroulette_1_1_X_0eee363",
+        "text": "Phone: Я ждала, пока он признается в чувствах. Хотела, чтобы он сделал это первым. Но он всё не мог решиться, не мог подобрать момент.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_phoneroulette_1_1_X",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone-roulette-short-caller",
+      "authoredInput": "voices.tsv:7",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457891028993,
+        "key": "line:phone_phoneroulette_2_1_012cd27",
+        "text": "Phone: Видимо, никого нет…",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_phoneroulette_2_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-hotline-woman",
+      "authoredInput": "voices.tsv:8",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457878446086,
+        "key": "line:phone_fema_X_00a82b2",
+        "text": "Phone: (Не успела женщина ответить, как раздался громкий мужской вопль)",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_fema_X",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-hotline-interrupter",
+      "authoredInput": "voices.tsv:9",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457878446086,
+        "key": "line:phone_fema_X_00a82b2",
+        "text": "Phone: (Не успела женщина ответить, как раздался громкий мужской вопль)",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_fema_X",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-phone-doctor",
+      "authoredInput": "voices.tsv:10",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457752616963,
+        "key": "line:phone_fema_0ab4fa3",
+        "text": "Phone: Здравствуйте, это врач из Комитета по Чрезвычайным Ситуациям.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_fema_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-recruitment-voice",
+      "authoredInput": "voices.tsv:11",
+      "genderEvidenceClass": "male-localized",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457844891649,
+        "key": "line:phone_wifefema_2_1_065231a",
+        "text": "Phone: (Они бросили трубку. Надо же)",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_femarecruiter_2_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457844891649,
+          "key": "line:phone_wifefema_2_1_065231a",
+          "text": "Phone: (Они бросили трубку. Надо же)",
+          "yarnMetadata": [
+            {
+              "nodeName": "phone_femarecruiter_2_1",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "for-rest-operator",
+      "authoredInput": "voices.tsv:12",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457748422660,
+        "key": "line:phone_forrest_0658226",
+        "text": "Phone: Здравствуйте, это компания доставки еды For Rest.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_forrest",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "embassy-voice",
+      "authoredInput": "voices.tsv:13",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457849085957,
+        "key": "line:phone_foreigner_0eec096",
+        "text": "Phone: Слушаю вас.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_foreignembassy",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "psychics-reception",
+      "authoredInput": "voices.tsv:14",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457756811271,
+        "key": "line:phone_psychics_0fd403d",
+        "text": "Phone: Здравствуйте. Скоро мы соединим вас с одним из доступных экспертов по очищению от Гостей. Ожидайте.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_psychics",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "psychic-expert",
+      "authoredInput": "voices.tsv:15",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457777782793,
+        "key": "line:phone_psychics_10_0b50e9b",
+        "text": "Phone: К сожалению,на этом я вынужден закончить наш сеанс.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_psychics_10",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "voice-from-fortune-teller",
+      "authoredInput": "voices.tsv:16",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457849085955,
+        "key": "line:phone_fortuneteller_04e9b94",
+        "text": "Phone: (Собеседник бросает трубку. Это было… не совсем то, чего вы ожидали.)",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_extrasens",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "news-reporter",
+      "authoredInput": "voices.tsv:17",
+      "genderEvidenceClass": "male-wiki",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457534513159,
+        "key": "line:tv_3_necessary_00398f9",
+        "text": "TV: Добрый день, в эфире новости.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_3_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "weather-reporter",
+      "authoredInput": "voices.tsv:18",
+      "genderEvidenceClass": "male-wiki",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457584844803,
+        "key": "line:tv_1_extra1_03a4237",
+        "text": "TV: Добрый день, в эфире прогноз погоды.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_2_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "female-tv-presenter",
+      "authoredInput": "voices.tsv:19",
+      "genderEvidenceClass": "female-wiki",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457622593545,
+        "key": "line:tv_8_necessary_004e70a",
+        "text": "TV: Звон похоронных колоколов.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_8_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-believe-host",
+      "authoredInput": "voices.tsv:20",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457576456197,
+        "key": "line:radio_4_010d417",
+        "text": "Проклятье, я знал, что нам не позволят вещать правду. Мать их…",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_4",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457576456193,
+          "key": "line:radio_4_05b109a",
+          "text": "Добрый день, дорогие слушатели. В эфире передача “Я хочу верить”. Здесь мы раскрываем тайны и заговоры правительства.",
+          "yarnMetadata": [
+            {
+              "nodeName": "radio_4",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457576456195,
+          "key": "line:radio_4_02787e8",
+          "text": "Погодите, что!? Он не придёт?",
+          "yarnMetadata": [
+            {
+              "nodeName": "radio_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "radio-witness",
+      "authoredInput": "voices.tsv:21",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673930,
+        "key": "line:radio_8_00c6b84",
+        "text": "Я видел, что там было.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_8",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-dispatcher",
+      "authoredInput": "voices.tsv:22",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673921,
+        "key": "line:radio_6_06502d0",
+        "text": "Говорит диспетчер. Проверьте, что случилось в карантинной зоне. Код 51. Докладывают о взрывах в 3 часа ночи.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_6",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-employee-32-8",
+      "authoredInput": "voices.tsv:23",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673922,
+        "key": "line:radio_6_0aa3b6b",
+        "text": "Сотрудник 32-8 докладывает. Код 60: множество жертв среди гражданских, сотрудники убиты…",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_6",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-employee-28-8",
+      "authoredInput": "voices.tsv:24",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673923,
+        "key": "line:radio_6_05ac3fe",
+        "text": "Докладывает сотрудник 28-8. Код 451: нужна бригада для сожжения трупов.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_6",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-employee-18-8",
+      "authoredInput": "voices.tsv:25",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457719062533,
+        "key": "line:radio_13_03cbc34",
+        "text": "Говорит с…трудник 18-8: угр…зу не уд…лось сдержать.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_13",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-evicted-people",
+      "authoredInput": "voices.tsv:26",
+      "genderEvidenceClass": "group",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457714868224,
+        "key": "line:radio_9_03b4339",
+        "text": "Говорят выселенные из домов.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_9",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-rescue-dialogue",
+      "authoredInput": "voices.tsv:27",
+      "genderEvidenceClass": "unknown-multiple",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261890,
+        "key": "line:radio_1_0d6b913",
+        "text": "— Алло, это диспетчер службы спасения. Чем вам помочь? — Люди… они горят.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-warning-voices",
+      "authoredInput": "voices.tsv:28",
+      "genderEvidenceClass": "unknown-multiple",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673927,
+        "key": "line:radio_7_08975a7",
+        "text": "Я НЕ ЗНАЮ, ЧТО ПРОИСХОДИТ. Я ПРОСТО ХОЧУ УЙТИ ОТСЮДА.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_7",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-advertising-voices",
+      "authoredInput": "voices.tsv:29",
+      "genderEvidenceClass": "unknown-multiple",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261893,
+        "key": "line:radio_2_044ab03",
+        "text": "А сейчас в эфире наша новая передача «Да, я человек».",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone-roulette-reception",
+      "authoredInput": "additional-voices.tsv:1",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457886834689,
+        "key": "line:phone_phoneroulette_05e3bc8",
+        "text": "Phone: Здравствуйте, вы позвонили в телефонную рулетку. Сейчас мы подберём вам идеального собеседника. Ожидайте.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_phoneroulette",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "couple-husband",
+      "authoredInput": "additional-voices.tsv:2",
+      "genderEvidenceClass": "male",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457228328964,
+        "key": "line:Couple_Entrance_Bribe_04b6de7",
+        "text": "Couple: Моя жена не очень сильный человек. Быстро устаёт. А я… а я для неё всё что угодно сделаю, понимаете?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Couple_Entrance_Bribe",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "couple-wife",
+      "authoredInput": "additional-voices.tsv:3",
+      "genderEvidenceClass": "female",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454980182026,
+        "key": "line:Couple_Asking_5_3_3_2_03967da",
+        "text": "Couple: (Вы видите, как девушка резко вырывается. Мужчина стреляет в неё.)",
+        "yarnMetadata": [
+          {
+            "nodeName": "Couple_Asking_5_3_3_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-rescue-dispatcher",
+      "authoredInput": "additional-voices.tsv:4",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261890,
+        "key": "line:radio_1_0d6b913",
+        "text": "— Алло, это диспетчер службы спасения. Чем вам помочь? — Люди… они горят.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-rescue-caller",
+      "authoredInput": "additional-voices.tsv:5",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261891,
+        "key": "line:radio_1_0988229",
+        "text": "— Опишите, что вы видите? Пожар? — Нет, это солнце. Они… они сгорают на солнце.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-day-7-warning",
+      "authoredInput": "additional-voices.tsv:6",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673927,
+        "key": "line:radio_7_08975a7",
+        "text": "Я НЕ ЗНАЮ, ЧТО ПРОИСХОДИТ. Я ПРОСТО ХОЧУ УЙТИ ОТСЮДА.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_7",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-day-10-warning",
+      "authoredInput": "additional-voices.tsv:7",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457714868229,
+        "key": "line:radio_10_088e182",
+        "text": "Всем, кто меня слышит…",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_10",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-day-11-warning",
+      "authoredInput": "additional-voices.tsv:8",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457714868236,
+        "key": "line:radio_11_082894a",
+        "text": "Они зря сжи…али тела. Это при…анивает ………",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_11",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-day-12-dispatcher",
+      "authoredInput": "additional-voices.tsv:9",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457719062529,
+        "key": "line:radio_12_066787a",
+        "text": "Дисп…тчер на связи, вс…м сотрудн…кам КЧС…",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_12",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-human-verification-ad",
+      "authoredInput": "additional-voices.tsv:10",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261893,
+        "key": "line:radio_2_044ab03",
+        "text": "А сейчас в эфире наша новая передача «Да, я человек».",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-psychics-ad",
+      "authoredInput": "additional-voices.tsv:11",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261898,
+        "key": "line:radio_3_0b9d95a",
+        "text": "В вас вселился злой дух: Гостевой!",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio-phone-roulette-ad",
+      "authoredInput": "additional-voices.tsv:12",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457870057479,
+        "key": "line:radio_5_011a65c",
+        "text": "Тогда телефонная рулетка — то, что вам нужно.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_5",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-advertising-voices",
+      "authoredInput": "additional-voices.tsv:13",
+      "genderEvidenceClass": "unknown-multiple",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457618399246,
+        "key": "line:tv_7_extra1_070a94e",
+        "text": "TV: «Маргоро». Сигареты для настоящих мужчин.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_7_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-for-rest-ad",
+      "authoredInput": "additional-voices.tsv:14",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457589039113,
+        "key": "line:tv_2_extra1_09b8a6a",
+        "text": "TV: Доставка продуктов For Rest. Звоните по номеру: {0} и еда придёт к вам уже следующим вечером.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_2_extra1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-enerjeka-ad",
+      "authoredInput": "additional-voices.tsv:15",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457601622026,
+        "key": "line:tv_4_extra2_0f7def5",
+        "text": "TV: Освежающий энергетик, утоляющий жажду быстрее и эффективнее воды.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_6_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-auracam-ad",
+      "authoredInput": "additional-voices.tsv:16",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457614204931,
+        "key": "line:tv_5_extra2_02861e2",
+        "text": "TV: Фотографируя на нашу плёнку, вы получаете изображение энергетики души. Если в ней есть тёмные пятна – это знак Гостя.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_6_extra1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-beer-ad",
+      "authoredInput": "additional-voices.tsv:17",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457618399236,
+        "key": "line:tv_6_extra1_06d8f04",
+        "text": "TV: Пиво «Бобер черни»: Пейте много, пейте вкусно.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_4_extra1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "tv-margoro-ad",
+      "authoredInput": "additional-voices.tsv:18",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457618399246,
+        "key": "line:tv_7_extra1_070a94e",
+        "text": "TV: «Маргоро». Сигареты для настоящих мужчин.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_7_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "psychics-closing-voice",
+      "authoredInput": "additional-voices.tsv:19",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457777782795,
+        "key": "line:phone_psychics_10_0af9d3c",
+        "text": "Phone: Сеанс с экспертом по изгнанию Гостевого завершён. Спасибо, что воспользовались нашими услугами.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_psychics_10",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457777782793,
+          "key": "line:phone_psychics_10_0b50e9b",
+          "text": "Phone: К сожалению,на этом я вынужден закончить наш сеанс.",
+          "yarnMetadata": [
+            {
+              "nodeName": "phone_psychics_10",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457781977088,
+          "key": "line:phone_psychics_10_037f6f8",
+          "text": "Phone: Плата за консультацию спишется в ближайшее время.",
+          "yarnMetadata": [
+            {
+              "nodeName": "phone_psychics_10",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457786171392,
+          "key": "line:phone_psychics_12_01340d8",
+          "text": "Phone: Как вы оцените проведённый сеанс?",
+          "yarnMetadata": [
+            {
+              "nodeName": "phone_psychics_12",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "radio-ending-address",
+      "authoredInput": "additional-voices.tsv:20",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456095866884,
+        "key": "line:Ending_Living_3_0afce75",
+        "text": "«Солнечная энергия постепенно затихает.",
+        "yarnMetadata": [
+          {
+            "nodeName": "Ending_Living_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455991009290,
+          "key": "line:Ending_Living_3_0396588",
+          "text": "В один из дней вы слышите обращение по радио.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Ending_Living_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456095866885,
+          "key": "line:Ending_Living_3_039b5b0",
+          "text": "Учёные прогнозируют, что через пару дней...",
+          "yarnMetadata": [
+            {
+              "nodeName": "Ending_Living_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455995203584,
+          "key": "line:Ending_Living_3_040a98e",
+          "text": "...можно будет свободно выходить на улицу днём».",
+          "yarnMetadata": [
+            {
+              "nodeName": "Ending_Living_3",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tv-fema-promotion",
+      "authoredInput": "additional-voices.tsv:21",
+      "genderEvidenceClass": "unknown",
+      "speakerCodes": [],
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457597427712,
+        "key": "line:tv_3_extra1_083d30d",
+        "text": "TV: НА ПОМОЩЬ ПРИДУТ ОНИ! СОТРУДНИКИ КЧС!",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_3_extra1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "visitors",
+      "authoredInput": "concepts.tsv:1",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457517735941,
+        "key": "line:tv_1_necessary_0fe6354",
+        "text": "TV: Это идеальные белые зубы.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_2_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "human",
+      "authoredInput": "concepts.tsv:2",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452014809090,
+        "key": "line:Scammer_Hands_Gun_07e5493",
+        "text": "Scammer: Ты же не убьёшь человека просто за грязные ногти?",
+        "yarnMetadata": [
+          {
+            "nodeName": "Scammer_Hands_Gun",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema",
+      "authoredInput": "concepts.tsv:3",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457752616963,
+        "key": "line:phone_fema_0ab4fa3",
+        "text": "Phone: Здравствуйте, это врач из Комитета по Чрезвычайным Ситуациям.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_fema_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "quarantine-zone",
+      "authoredInput": "concepts.tsv:4",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457547096070,
+        "key": "line:tv_4_necessary_0787bf1",
+        "text": "TV: Комитет просит граждан отнестись с пониманием к проверкам и сопровождениям в карантинные зоны.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_5_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "for-rest",
+      "authoredInput": "concepts.tsv:5",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457748422660,
+        "key": "line:phone_forrest_0658226",
+        "text": "Phone: Здравствуйте, это компания доставки еды For Rest.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_forrest",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "psychics-service",
+      "authoredInput": "concepts.tsv:6",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457756811271,
+        "key": "line:phone_psychics_0fd403d",
+        "text": "Phone: Здравствуйте. Скоро мы соединим вас с одним из доступных экспертов по очищению от Гостей. Ожидайте.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_psychics",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone-roulette",
+      "authoredInput": "concepts.tsv:7",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457886834689,
+        "key": "line:phone_phoneroulette_05e3bc8",
+        "text": "Phone: Здравствуйте, вы позвонили в телефонную рулетку. Сейчас мы подберём вам идеального собеседника. Ожидайте.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_phoneroulette",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "foreign-embassy",
+      "authoredInput": "concepts.tsv:8",
+      "source": {
+        "collection": "UI",
+        "id": 119630891322433536,
+        "key": "phone_sub_ForeignEmbassy",
+        "text": "Иностранное посольство",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "sun-faced-one",
+      "authoredInput": "concepts.tsv:9",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454279733251,
+        "key": "line:Fanatic_Asking_1_06148ae",
+        "text": "Fanatic: Я поклоняюсь САМОМУ СОЛНЦЕЛИКОМУ! ИБО ОН ЗАЩИЩАЕТ НАС!",
+        "yarnMetadata": [
+          {
+            "nodeName": "Fanatic_Asking_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "death-cult",
+      "authoredInput": "concepts.tsv:10",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456100061187,
+        "key": "line:entrance_CultistPriest_FinalWords_0c3d025",
+        "text": "Рад, что ты присоединился к нам. Смерть и правда не зря тебя выбрала.",
+        "yarnMetadata": [
+          {
+            "nodeName": "entrance_CultistPriest_FinalWords",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "visitor-spirit",
+      "authoredInput": "concepts.tsv:11",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457572261898,
+        "key": "line:radio_3_0b9d95a",
+        "text": "В вас вселился злой дух: Гостевой!",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "dead-person-spirit",
+      "authoredInput": "concepts.tsv:12",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457773588487,
+        "key": "line:phone_psychics_9_04719f3",
+        "text": "Phone: У вас не Гостевой, а Духовой. Дух мёртвого человека.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_psychics_9",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "mushroom-land",
+      "authoredInput": "concepts.tsv:13",
+      "source": {
+        "collection": "UI",
+        "id": 121836715994243072,
+        "key": "FridgeItem_Mushroom_GameplayDescription",
+        "text": "Отправляет вас ненадолго в страну грибов",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "mycelium",
+      "authoredInput": "concepts.tsv:14",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456985059339,
+        "key": "line:MushroomEater_Entrance_3_2_08be584",
+        "text": "MushroomEater: А он, в свою очередь, означает лишь одно – мицелий не в порядке.",
+        "yarnMetadata": [
+          {
+            "nodeName": "MushroomEater_Entrance_3_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "mushroom-festival",
+      "authoredInput": "concepts.tsv:15",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456985059338,
+        "key": "line:MushroomEater_Entrance_3_2_0a1360d",
+        "text": "MushroomEater: Фестиваль грибов знаменует их бурный рост.",
+        "yarnMetadata": [
+          {
+            "nodeName": "MushroomEater_Entrance_3_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "smile-guide",
+      "authoredInput": "concepts.tsv:16",
+      "source": {
+        "collection": "UI",
+        "id": 121836715994243074,
+        "key": "Message_LookClocks",
+        "text": "Выставил 12, как и сказано на страницах «Учебника улыбок»",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 63931917744721920,
+          "key": "Game_MushroomList",
+          "text": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456959893509,
+          "key": "line:MushroomEater_Entrance_1_4_04cc564",
+          "text": "MushroomEater: У меня есть то, что поможет нам в благой миссии — «Учебник улыбок».",
+          "yarnMetadata": [
+            {
+              "nodeName": "MushroomEater_Entrance_1_4",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushroom-ritual",
+      "authoredInput": "concepts.tsv:17",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456976670727,
+        "key": "line:MushroomEater_Entrance_2_3_04f196d",
+        "text": "MushroomEater: Но можем утихомирить рост грибов с помощью древнего ритуала, что был описан в «Учебнике улыбок».",
+        "yarnMetadata": [
+          {
+            "nodeName": "MushroomEater_Entrance_2_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "anomalous-heat",
+      "authoredInput": "concepts.tsv:18",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457287049223,
+        "key": "line:Jacob_Entrance_1_0d25473",
+        "text": "Jacob: Но потом началась аномальная жара, я потерял сознание…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Jacob_Entrance_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "visitor-signs",
+      "authoredInput": "concepts.tsv:19",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457752616964,
+        "key": "line:phone_fema_05b7ecf",
+        "text": "Phone: Мы готовы проконсультировать вас по вопросу проверок на Гостя.",
+        "yarnMetadata": [
+          {
+            "nodeName": "phone_fema_1",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "perfect-white-teeth",
+      "authoredInput": "concepts.tsv:20",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457517735941,
+        "key": "line:tv_1_necessary_0fe6354",
+        "text": "TV: Это идеальные белые зубы.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_2_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "dirt-under-nails",
+      "authoredInput": "concepts.tsv:21",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457530318849,
+        "key": "line:tv_2_necessary_0482d8e",
+        "text": "TV: Грязь под ногтями.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_3_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "blood-red-eyes",
+      "authoredInput": "concepts.tsv:22",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457538707458,
+        "key": "line:tv_3_necessary_02b1967",
+        "text": "TV: Кроваво-красные глаза.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_4_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "hairless-armpits",
+      "authoredInput": "concepts.tsv:23",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457547096068,
+        "key": "line:tv_4_necessary_0033830",
+        "text": "TV: Подмышки без волос.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_5_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "armpit-fungus",
+      "authoredInput": "concepts.tsv:24",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457651953668,
+        "key": "line:tv_11_necessary_0f91f6b",
+        "text": "TV: Грибок на подмышках.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_11_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "energy",
+      "authoredInput": "concepts.tsv:25",
+      "source": {
+        "collection": "UI",
+        "id": 13170523483394000,
+        "key": "FridgeItem_Enerjeka_GameplayDescription",
+        "text": "+1   <sprite=0>",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 13164348633239600,
+          "key": "FridgeItem_Bobeer_GameplayDescription",
+          "text": "Уменьшает   <sprite=0> до 0",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "UI",
+          "id": 77560897118916608,
+          "key": "consumable_cigarette_gameplayDescription",
+          "text": "Полностью восстанавливает   <sprite=0>, но убирает один   <sprite=1> на следующий день",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "energy-capacity-bonus",
+      "authoredInput": "concepts.tsv:26",
+      "source": {
+        "collection": "UI",
+        "id": 13176153497653300,
+        "key": "FridgeItem_Coffee_GameplayDescription",
+        "text": "+1   <sprite=1> на несколько дней",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 77560897118916608,
+          "key": "consumable_cigarette_gameplayDescription",
+          "text": "Полностью восстанавливает   <sprite=0>, но убирает один   <sprite=1> на следующий день",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "enerjeka",
+      "authoredInput": "concepts.tsv:27",
+      "source": {
+        "collection": "UI",
+        "id": 13170518181793800,
+        "key": "FridgeItem_Enerjeka_Name",
+        "text": "Энержека",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 13170523483394000,
+          "key": "FridgeItem_Enerjeka_GameplayDescription",
+          "text": "+1   <sprite=0>",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "UI",
+          "id": 13170520799039500,
+          "key": "FridgeItem_Enerjeka_NarrativeDescription",
+          "text": "Сплошная химоза. Но почему иногда и не выпить, если нужно подольше не спать?",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "bobeer-cherni",
+      "authoredInput": "concepts.tsv:28",
+      "source": {
+        "collection": "UI",
+        "id": 12124292694921200,
+        "key": "FridgeItem_Bobeer_Name",
+        "text": "Бобер Черни",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 13164348633239600,
+          "key": "FridgeItem_Bobeer_GameplayDescription",
+          "text": "Уменьшает   <sprite=0> до 0",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "UI",
+          "id": 13164343885287400,
+          "key": "FridgeItem_Bobeer_NarrativeDescription",
+          "text": "Хоть что-то хорошее осталось в этом мире. Вкусное холодное пиво.",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "authoredInput": "concepts.tsv:29",
+      "source": {
+        "collection": "UI",
+        "id": 128370639113281536,
+        "key": "consumable_bobeer_name",
+        "text": "Пиво",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 13164348633239600,
+          "key": "FridgeItem_Bobeer_GameplayDescription",
+          "text": "Уменьшает   <sprite=0> до 0",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "UI",
+          "id": 83741359755481088,
+          "key": "message_noMoreBeerToday",
+          "text": "Пожалуй, на сегодня с меня хватит.",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "authoredInput": "concepts.tsv:30",
+      "source": {
+        "collection": "UI",
+        "id": 13176150536474600,
+        "key": "FridgeItem_Coffee_Name",
+        "text": "Кофе",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 13176153497653300,
+          "key": "FridgeItem_Coffee_GameplayDescription",
+          "text": "+1   <sprite=1> на несколько дней",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "UI",
+          "id": 13176152247750700,
+          "key": "FridgeItem_Coffee_NarrativeDescription",
+          "text": "Горячий больше не пью. Да и никто, наверно, не станет такой пить.",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "cigarettes",
+      "authoredInput": "concepts.tsv:31",
+      "source": {
+        "collection": "UI",
+        "id": 77560897118916608,
+        "key": "consumable_cigarette_gameplayDescription",
+        "text": "Полностью восстанавливает   <sprite=0>, но убирает один   <sprite=1> на следующий день",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "kombucha",
+      "authoredInput": "concepts.tsv:32",
+      "source": {
+        "collection": "UI",
+        "id": 77572482784808960,
+        "key": "consumable_kombucha_gameplayDescription",
+        "text": "Сохраняет игру. Прогресс остаётся даже после завершения прохождения.",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "strange-mushroom",
+      "authoredInput": "concepts.tsv:33",
+      "source": {
+        "collection": "UI",
+        "id": 121836715969077248,
+        "key": "FridgeItem_Mushroom_NarrativeDescription",
+        "text": "Странный гриб. Как он вообще пророс в картошке?",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "UI",
+          "id": 121836715994243072,
+          "key": "FridgeItem_Mushroom_GameplayDescription",
+          "text": "Отправляет вас ненадолго в страну грибов",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "cat-food",
+      "authoredInput": "concepts.tsv:34",
+      "source": {
+        "collection": "UI",
+        "id": 128372071870750720,
+        "key": "consumable_catfood_name",
+        "text": "Кошачий корм",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "fema-notice",
+      "authoredInput": "concepts.tsv:35",
+      "source": {
+        "collection": "UI",
+        "id": 127250467119947776,
+        "key": "consumable_povistka_name",
+        "text": "Явка в КЧС",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "apple",
+      "authoredInput": "concepts.tsv:36",
+      "source": {
+        "collection": "UI",
+        "id": 121836715994243073,
+        "key": "Message_EatApple",
+        "text": "Съел яблоко. Кислое и сладкое одновременно...",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "clock-at-twelve",
+      "authoredInput": "concepts.tsv:37",
+      "source": {
+        "collection": "UI",
+        "id": 121836715994243074,
+        "key": "Message_LookClocks",
+        "text": "Выставил 12, как и сказано на страницах «Учебника улыбок»",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "house",
+      "authoredInput": "concepts.tsv:38",
+      "source": {
+        "collection": "UI",
+        "id": 40741558088880128,
+        "key": "Location_HouseInterior",
+        "text": "Дом",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "basement",
+      "authoredInput": "concepts.tsv:39",
+      "source": {
+        "collection": "UI",
+        "id": 40741524173737984,
+        "key": "Location_Basement",
+        "text": "Подвал",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "entrance",
+      "authoredInput": "concepts.tsv:40",
+      "source": {
+        "collection": "UI",
+        "id": 16302985216,
+        "key": "RoomName_Entrance",
+        "text": "Вход",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "bathroom",
+      "authoredInput": "concepts.tsv:41",
+      "source": {
+        "collection": "UI",
+        "id": 131918974976,
+        "key": "RoomName_Bathroom",
+        "text": "Ванная",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "bedroom",
+      "authoredInput": "concepts.tsv:42",
+      "source": {
+        "collection": "UI",
+        "id": 187787104256,
+        "key": "RoomName_BedRoom",
+        "text": "Спальня",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "office",
+      "authoredInput": "concepts.tsv:43",
+      "source": {
+        "collection": "UI",
+        "id": 224126554112,
+        "key": "RoomName_Office",
+        "text": "Кабинет",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "kitchen",
+      "authoredInput": "concepts.tsv:44",
+      "source": {
+        "collection": "UI",
+        "id": 270666551296,
+        "key": "RoomName_Kitchen",
+        "text": "Кухня",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "pantry",
+      "authoredInput": "concepts.tsv:45",
+      "source": {
+        "collection": "UI",
+        "id": 299816964096,
+        "key": "RoomName_Pantry",
+        "text": "Кладовая",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "living-room",
+      "authoredInput": "concepts.tsv:46",
+      "source": {
+        "collection": "UI",
+        "id": 153125376000,
+        "key": "RoomName_BigRoom",
+        "text": "Гостиная",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "window",
+      "authoredInput": "concepts.tsv:47",
+      "source": {
+        "collection": "UI",
+        "id": 350756786176,
+        "key": "RoomName_Window",
+        "text": "Окно",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone",
+      "authoredInput": "concepts.tsv:48",
+      "source": {
+        "collection": "UI",
+        "id": 45436991704911872,
+        "key": "Objects_Phone",
+        "text": "Телефон",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "radio",
+      "authoredInput": "concepts.tsv:49",
+      "source": {
+        "collection": "UI",
+        "id": 45437056263639040,
+        "key": "Objects_Radio",
+        "text": "Радио",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "phone-numbers",
+      "authoredInput": "concepts.tsv:50",
+      "source": {
+        "collection": "UI",
+        "id": 80130372527706112,
+        "key": "Object_PhoneNumbers",
+        "text": "Номера телефонов",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "hole",
+      "authoredInput": "concepts.tsv:51",
+      "source": {
+        "collection": "UI",
+        "id": 59946749677785088,
+        "key": "Object_TheHole",
+        "text": "Дыра",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "board-up",
+      "authoredInput": "concepts.tsv:52",
+      "source": {
+        "collection": "UI",
+        "id": 49667052037459968,
+        "key": "Actions_NailDown",
+        "text": "Заколотить",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "save-and-quit",
+      "authoredInput": "concepts.tsv:53",
+      "source": {
+        "collection": "UI",
+        "id": 131613735687020544,
+        "key": "Common_SaveAndQuit",
+        "text": "Сохранение и выход на рабочий стол \n",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "quit-without-saving",
+      "authoredInput": "concepts.tsv:54",
+      "source": {
+        "collection": "UI",
+        "id": 3661098318024700,
+        "key": "Common_Menu",
+        "text": "Выход в меню без сохранения",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "collection",
+      "authoredInput": "concepts.tsv:55",
+      "source": {
+        "collection": "UI",
+        "id": 118142792813256704,
+        "key": "mainMenu_collection",
+        "text": "Коллекция",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "ending",
+      "authoredInput": "concepts.tsv:56",
+      "source": {
+        "collection": "UI",
+        "id": 128645536196583424,
+        "key": "gacha_locked_ending",
+        "text": "Концовка ещё не разблокирована",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "code-451",
+      "authoredInput": "concepts.tsv:57",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673923,
+        "key": "line:radio_6_05ac3fe",
+        "text": "Докладывает сотрудник 28-8. Код 451: нужна бригада для сожжения трупов.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_6",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457719062532,
+          "key": "line:radio_12_0b4364c",
+          "text": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+          "yarnMetadata": [
+            {
+              "nodeName": "radio_12",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "code-955",
+      "authoredInput": "concepts.tsv:58",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457719062530,
+        "key": "line:radio_12_07bc747",
+        "text": "Новые ук…зания: код 451 заменяется н…вым кодом 955",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_12",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457719062531,
+          "key": "line:radio_12_0bafc77",
+          "text": "Тела не сж…гать. Покрывать их изв…стью.",
+          "yarnMetadata": [
+            {
+              "nodeName": "radio_12",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-creature",
+      "authoredInput": "concepts.tsv:59",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504456519491585,
+        "key": "line:Blind_Entrance_3_0bc969d",
+        "text": "Blind: ОНО… ОНО не обращало на меня внимание, жадно поедая плоть…",
+        "yarnMetadata": [
+          {
+            "nodeName": "Blind_Entrance_3",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456519491586,
+          "key": "line:Blind_Entrance_3_06d6fff",
+          "text": "Blind: Медленно переваривало отвратительные чёрные тела, похожие на угли, У МЕНЯ НА ГЛАЗАХ!",
+          "yarnMetadata": [
+            {
+              "nodeName": "Blind_Entrance_3",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456519491590,
+          "key": "line:Blind_Entrance_4_07dfcc3",
+          "text": "Blind: Ты правда думаешь, я вырезал глаза из-за какого-то бледного человека?",
+          "yarnMetadata": [
+            {
+              "nodeName": "Blind_Entrance_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auracam-film",
+      "authoredInput": "concepts.tsv:60",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457605816327,
+        "key": "line:tv_5_necessary_02e97a1",
+        "text": "TV: Снимок на фотоплёнку ауры.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_6_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457614204931,
+          "key": "line:tv_5_extra2_02861e2",
+          "text": "TV: Фотографируя на нашу плёнку, вы получаете изображение энергетики души. Если в ней есть тёмные пятна – это знак Гостя.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_6_extra1",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457605816328,
+          "key": "line:tv_5_necessary_0adcc7f",
+          "text": "TV: Если вы обнаружите странные тёмные пятна на снимке – это явный признак того, что перед вами Гость.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_6_necessary",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photo-check",
+      "authoredInput": "concepts.tsv:61",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504451918340097,
+        "key": "line:Anxiety_WannaCheck_0a1bc1f",
+        "text": "Фото",
+        "yarnMetadata": []
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504451935117316,
+          "key": "line:Anxiety_Photo_03974aa",
+          "text": "Anxiety: (Вы фотографируете собеседника)",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504451935117317,
+          "key": "line:Anxiety_Photo_0a159f8",
+          "text": "Anxiety: (Когда фотография проявляется, вы видите размытое тело и четкий фон)",
+          "yarnMetadata": []
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504451935117319,
+          "key": "line:Anxiety_Photo_011a7f5",
+          "text": "Anxiety: Хахаха, представляешь? Я ведь просто дернулась.",
+          "yarnMetadata": []
+        }
+      ]
+    },
+    {
+      "id": "ear-check",
+      "authoredInput": "concepts.tsv:62",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504451918340098,
+        "key": "line:Anxiety_WannaCheck_08ae60a",
+        "text": "Уши",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "ear-wax",
+      "authoredInput": "concepts.tsv:63",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457626787840,
+        "key": "line:tv_8_necessary_0d292a8",
+        "text": "TV: Остаётся только сера. Грязные мысли.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_8_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504457622593546,
+          "key": "line:tv_8_necessary_091836c",
+          "text": "TV: От колоколов что-то растёт в ушах.",
+          "yarnMetadata": [
+            {
+              "nodeName": "tv_8_necessary",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bleeding-gums",
+      "authoredInput": "concepts.tsv:64",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457630982152,
+        "key": "line:tv_9_necessary_0dc65cb",
+        "text": "TV: Кровь на дёснах.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_9_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "skin-irritation",
+      "authoredInput": "concepts.tsv:65",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457643565059,
+        "key": "line:tv_10_necessary_03af6fa",
+        "text": "TV: Раздражения на коже.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_10_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "rapid-pupil",
+      "authoredInput": "concepts.tsv:66",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457656147978,
+        "key": "line:tv_12_necessary_00a0821",
+        "text": "TV: Быстро бегающий зрачок.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_12_necessary",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "self-examination",
+      "authoredInput": "concepts.tsv:67",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504453583478786,
+        "key": "line:selfcheck_0518388",
+        "text": "Мне надо осмотреть себя.",
+        "yarnMetadata": [
+          {
+            "nodeName": "selfcheck",
+            "tags": [
+              "lastline"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504453591867394,
+          "key": "line:selfcheck_hands_0ce8128",
+          "text": "Всё из-за той пещеры, что я копаю.",
+          "yarnMetadata": [
+            {
+              "nodeName": "selfcheck_hands",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504453742862337,
+          "key": "line:selfcheck_eye_009596f",
+          "text": "Не стоило пить кофеиновой херни.",
+          "yarnMetadata": [
+            {
+              "nodeName": "selfcheck_eye",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504453742862345,
+          "key": "line:selfcheck_armpit_imposter_0e236f6",
+          "text": "Выглядит как раздражение или, того хуже, грибок.",
+          "yarnMetadata": [
+            {
+              "nodeName": "selfcheck_armpit_imposter",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wash",
+      "authoredInput": "concepts.tsv:68",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504453587673088,
+        "key": "line:selfcheck_0ae2a36",
+        "text": "Умыться",
+        "yarnMetadata": [
+          {
+            "nodeName": "selfcheck_hands",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504453747056641,
+          "key": "line:selfcheck_armpit_imposter_08c3888",
+          "text": "Надо умыться. Надеюсь, поможет.",
+          "yarnMetadata": [
+            {
+              "nodeName": "selfcheck_armpit_imposter",
+              "tags": [
+                "lastline"
+              ]
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504457882640385,
+          "key": "line:phone_fema_asking_4_0d875f1",
+          "text": "Phone: Чтобы анализы подмышек получились правильными, вам необходимо избегать любых контактов с водой.",
+          "yarnMetadata": [
+            {
+              "nodeName": "phone_fema_asking_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "examine-resident",
+      "authoredInput": "concepts.tsv:69",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504454623666184,
+        "key": "line:talk_sirin_5_09f605d",
+        "text": "Мне надо тебя проверить",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "draw-shotgun",
+      "authoredInput": "concepts.tsv:70",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452698480641,
+        "key": "line:Anxiety_Ears_0641937",
+        "text": "Достать ружьё",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anxiety_Ears",
+            "tags": [
+              "gun"
+            ]
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504455185702919,
+          "key": "line:Wolfhound_Asking_3_9_2_086c8fc",
+          "text": "Wolfhound: (Мужчина пользуется моментом и выхватывает пистолет)",
+          "yarnMetadata": [
+            {
+              "nodeName": "Wolfhound_Asking_3_9_X",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504455185702921,
+          "key": "line:Wolfhound_Asking_3_9_2_0469859",
+          "text": "Wolfhound: (Благо, вы успеваете схватить ружьё и выстрелить)",
+          "yarnMetadata": [
+            {
+              "nodeName": "Wolfhound_Asking_3_9_X",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoot",
+      "authoredInput": "concepts.tsv:71",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452698480648,
+        "key": "line:Anxiety_Ears_Gun_0069b44",
+        "text": "Выстрелить",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anxiety_Ears_Gun",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "listen-to-explanation",
+      "authoredInput": "concepts.tsv:72",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452698480649,
+        "key": "line:Anxiety_Ears_Gun_0124cf7",
+        "text": "Выслушать",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anxiety_Ears_Gun",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "release-after-check",
+      "authoredInput": "concepts.tsv:73",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504452698480640,
+        "key": "line:Anxiety_Ears_024f8b0",
+        "text": "Отпустить",
+        "yarnMetadata": [
+          {
+            "nodeName": "Anxiety_Ears",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "margoro",
+      "authoredInput": "concepts.tsv:74",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457618399246,
+        "key": "line:tv_7_extra1_070a94e",
+        "text": "TV: «Маргоро». Сигареты для настоящих мужчин.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_7_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "cr-channel",
+      "authoredInput": "concepts.tsv:75",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457584844803,
+        "key": "line:tv_1_extra1_03a4237",
+        "text": "TV: Добрый день, в эфире прогноз погоды.",
+        "yarnMetadata": [
+          {
+            "nodeName": "tv_2_extra2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "code-984",
+      "authoredInput": "concepts.tsv:76",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504457710673924,
+        "key": "line:radio_6_03964f5",
+        "text": "Принято. Инициируется код 984: город взят в оцепление до выяснения обстоятельств. Ожидайте подкрепление.",
+        "yarnMetadata": [
+          {
+            "nodeName": "radio_6",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "ear-insect",
+      "authoredInput": "concepts.tsv:77",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504451918340098,
+        "key": "line:Anxiety_WannaCheck_08ae60a",
+        "text": "Уши",
+        "yarnMetadata": []
+      },
+      "supplementalSources": []
+    },
+    {
+      "id": "child-of-vision",
+      "authoredInput": "concepts.tsv:78",
+      "source": {
+        "collection": "Dialogs",
+        "id": 110504455512858626,
+        "key": "line:FatalDame_Asking_4_2_084330d",
+        "text": "FatalDame: Вот если Ребёнок действительно есть.",
+        "yarnMetadata": [
+          {
+            "nodeName": "FatalDame_Asking_4_2",
+            "tags": []
+          }
+        ]
+      },
+      "supplementalSources": [
+        {
+          "collection": "Dialogs",
+          "id": 110504456070701064,
+          "key": "line:Rock_ending_2_0c8d011",
+          "text": "В их руках шевелится ребёнок.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Rock_ending_2",
+              "tags": []
+            }
+          ]
+        },
+        {
+          "collection": "Dialogs",
+          "id": 110504456074895362,
+          "key": "line:Rock_ending_4_0e72a93",
+          "text": "Трое резко дёргают ребёнка в разные стороны.",
+          "yarnMetadata": [
+            {
+              "nodeName": "Rock_ending_4",
+              "tags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
