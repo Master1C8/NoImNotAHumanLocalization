@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj/**;bin/**</DefaultItemExcludes>
+    <FixtureGame>$(MSBuildThisFileDirectory)../runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human</FixtureGame>
+    <OutputPath>../outputs/renderer-build/bin/</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(FixtureGame)/BepInEx/core/BepInEx.Core.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/core/BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/core/0Harmony.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/core/Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.TextRenderingModule.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.UI.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/RTLTMPro.dll" Private="false" />
+  </ItemGroup>
+</Project>

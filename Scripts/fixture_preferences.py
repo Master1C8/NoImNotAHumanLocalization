@@ -31,7 +31,7 @@ def read_settings(text):
 def replace_language(text, expected, target):
     match,raw,before=read_settings(text)
     require(before['TextSettingsData']['SelectedLanguage']==expected, 'Saved locale changed before mutation')
-    require(target in LANGUAGES or target in ['ru','en'], 'Unsupported probe locale')
+    require(target in LANGUAGES or target in ['ru','en','ar'], 'Unsupported probe locale')
     if expected==target:
         return text,before
     old=json.dumps(expected).encode('ascii');new=json.dumps(target).encode('ascii')

@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-07T17:57:46.828334+00:00",
+  "scope": "Owner-authorized separate renderer module, copied fixture only; early gate remains incomplete",
+  "deliveredVersion": "0.2.1",
+  "deliveredModule": {
+    "hi-source.ttf": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c",
+    "NoHuman.TextRenderer.dll": "f14be714eb3cc6ca00b511a968949019b7fedeb012c4b6d3f15ef52421ca755e",
+    "libHarfBuzzSharp.dll": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+  },
+  "sourceHashes": {
+    "RuntimePlugin/NoHuman.TextRenderer.csproj": "127573791d9981e4e856b1d4383716b4f7ff20b21596923d979e9c99253a9dc7",
+    "RuntimePlugin/HarfBuzz.cs": "7cc667cbe0669c381762c464dfb70a1a006a2be1eb6472960fb8ad7157b38e57",
+    "RuntimePlugin/Directory.Build.props": "4d31991eb3bcee1d87d36020dec355abb93e4df1a35a736b33679b8f356a10ea",
+    "RuntimePlugin/.gitignore": "f8b7e707eb990f627de2c6126a357c5c754e2232971c55dc2266773b8dbaec5a",
+    "RuntimePlugin/Plugin.cs": "6aa5eec5d840f29e67ccb1149076dacf6fd89f65bff8d40b1c49690182ac8d46"
+  },
+  "moduleReceipt": {
+    "path": "outputs/renderer-module-install-v3/receipt.json",
+    "sha256": "78408bb78aea92258b55190a73a704d060d10a197da635507905ce390b8f6946"
+  },
+  "fontReceipt": {
+    "path": "outputs/renderer-font-v3/receipt.json",
+    "sha256": "8752bd7f4e4f93a36ee8c45d8e13254fb303fbef328103e48548df8471cceb29"
+  },
+  "loaderReceipt": {
+    "path": "outputs/runtime-loader-install-v1/receipt.json",
+    "sha256": "ec652015fff84a92d97cd28c37005e0ca34b7b99de4be8f08a429c0cd321083f"
+  },
+  "runtimeCases": [
+    {
+      "locale": "hi",
+      "moduleVersion": "0.2.0",
+      "nativeMenu": {
+        "path": "outputs/renderer-v2-runtime/hi/menu/native.png",
+        "sha256": "0378bf4a00373d8f20ce0d7807c4186a4b9842b08e55b241a9f187c245e1d29c"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-v2-runtime/hi/settings/native.png",
+        "sha256": "8202f402e6bb0811b6dc455265e2de8017acf1fe8ecf45910c1fa7c31e519baa"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-v2-runtime/hi/Player.log",
+        "sha256": "bc8f80919bf5aa0f15b4c7db0b08c4f47e01a1c6a99708b4acbd0dbadda4eec9"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-v2-runtime/hi/BepInEx.log",
+        "sha256": "66dcd9f4ac3781a794a3a61043df902c41c713761fbf1aa35320cae4ac7270ff"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-v2-runtime/hi/stop.json",
+        "sha256": "30f45d17011f29939f7d99e0bbe400f2d8e117762e756da03c1414b7afab19a6"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Menu conjuncts/prebase vowels corrected; Hindi selector endonym reviewed. Synthetic sample overflows narrow menu binding; layout not accepted.",
+      "logicalTextRestoration": "Exact menu sample and Hindi endonym restored after TMP parsing"
+    },
+    {
+      "locale": "fa",
+      "moduleVersion": "0.2.0",
+      "nativeMenu": {
+        "path": "outputs/renderer-v2-runtime/fa/menu/native.png",
+        "sha256": "4f27e825ddddd873015534a3e792f8c08bd892a765496a590d5327bde17cd5dd"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-v2-runtime/fa/settings/native.png",
+        "sha256": "a5f72bdac7fb1969f3eba695ed640543d243cb6900d950127a82bccbb3974de0"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-v2-runtime/fa/Player.log",
+        "sha256": "5cc43ef005fc375ecaa53708a569926a84685476a62ac963716fd6f2bcf06121"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-v2-runtime/fa/BepInEx.log",
+        "sha256": "33a3b01a6c1526710f2da72573be755eb681b3d316360e3ee22c8d7694979371"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-v2-runtime/fa/stop.json",
+        "sha256": "9c2a3a5e5f1a18114f4486929f328ec076727ac2a10be29fd6f23ad09d704d4e"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Persian selector endonym correctly joined and ordered; mixed menu ABC 123 retains LTR order. Arbitrary paragraph bidi/mark metrics not accepted."
+    },
+    {
+      "locale": "he",
+      "moduleVersion": "0.2.0",
+      "nativeMenu": {
+        "path": "outputs/renderer-v2-runtime/he/menu/native.png",
+        "sha256": "97ff2bf88b16b030dfb8f51082faded308f09b1064540b2097e92d4b38d3118a"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-v2-runtime/he/settings/native.png",
+        "sha256": "dadaff5f91fc15ef5ea3f41be3700842ddd5be58231c9b1d518e549bf73da3cd"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-v2-runtime/he/Player.log",
+        "sha256": "943a926213fc7c249df633fbef6f6969dc83511d918e4500ac8fdcacba65b1a5"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-v2-runtime/he/BepInEx.log",
+        "sha256": "b3e30ddde02968144189e986463cd070ef5ec0c08fcc764b8f4ea5f826144b49"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-v2-runtime/he/stop.json",
+        "sha256": "04a61028a998bd59f2f9d36c5cc991b6e6df87537f86bb7e255c975d65a9c466"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Hebrew selector endonym correctly ordered; mixed menu ABC 123 retains LTR order. Arbitrary paragraph bidi/mark metrics not accepted."
+    },
+    {
+      "locale": "ar",
+      "moduleVersion": "0.2.0",
+      "nativeMenu": {
+        "path": "outputs/renderer-v2-controls/ar/menu/native.png",
+        "sha256": "7f86ee82c984116d84e08421a9d66e549bb13118085b52c6e16db4228780b413"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-v2-controls/ar/settings/native.png",
+        "sha256": "3c5137dc2fa3a0278c526dc46d6957224021834152fe1a6db1b4627b7252ea6c"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-v2-controls/ar/Player.log",
+        "sha256": "cabe2e32aa995be6c551db19048d1aaa8e1a64633c79d05820ad36012206e070"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-v2-controls/ar/BepInEx.log",
+        "sha256": "a36817a0372a4311e5e9aeb2dd38d53409ddb4698f50a676a1959636152a8888"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-v2-controls/ar/stop.json",
+        "sha256": "776840a9ecf11cd835d7916c30749f1b4f6faf05bd7e69ed8ea4a4a4e3996746"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Official menu/settings control reviewed; no visible regression on exercised screens."
+    },
+    {
+      "locale": "ru",
+      "moduleVersion": "0.2.0",
+      "nativeMenu": {
+        "path": "outputs/renderer-v2-controls/ru/menu/native.png",
+        "sha256": "be3fe22a1933a81fce32209746134239647da5bb983f5ad013b44c8ed0742105"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-v2-controls/ru/settings/native.png",
+        "sha256": "4432a824e33610956fddddcbfc1cd498a4673e3a564a0200f8f5ccc83cbd86d9"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-v2-controls/ru/Player.log",
+        "sha256": "c9e71e262384fedc56180aa0853ee9606bfa15790ffa0070460357b1865ff9ef"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-v2-controls/ru/BepInEx.log",
+        "sha256": "62d88e54fddfabbd4a6b9e4a59d5daca3ef2ffc666e4ddf271bc0d29971a9a79"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-v2-controls/ru/stop.json",
+        "sha256": "b38d6157929d606b75175dd6da5814dcbb60a4fa65b23beb3efc768701b86cfc"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Official menu/settings control reviewed; no visible regression on exercised screens."
+    },
+    {
+      "locale": "hi",
+      "moduleVersion": "0.2.1",
+      "nativeMenu": {
+        "path": "outputs/renderer-final-runtime/hi/menu/native.png",
+        "sha256": "4f0a9e926775b9fc17825311bbf90b2d687462850407ea082798d2e574a08f1b"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-final-runtime/hi/settings/native.png",
+        "sha256": "a42d746ef158792b1fa65f154ef5756ab1aa5e0a4aa63d2a79d0827fe9732706"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-final-runtime/hi/Player.log",
+        "sha256": "d80894cbe62fffb5c6191e317c113931961a98f3ad4657da59ed84abed1fa0c0"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-final-runtime/hi/BepInEx.log",
+        "sha256": "d87f27edce15b7b92496a8af804fb8bc93660b2ef66d537572e447dcdf99d654"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-final-runtime/hi/stop.json",
+        "sha256": "3ee7d5107a41b363d14fb04d26910553f7e3f1baa956a736edc0a69b6c048c1f"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Menu conjuncts/prebase vowels corrected; Hindi selector endonym reviewed. Synthetic sample overflows narrow menu binding; layout not accepted.",
+      "logicalTextRestoration": "Exact menu sample and Hindi endonym restored after TMP parsing"
+    },
+    {
+      "locale": "ru",
+      "moduleVersion": "0.2.1",
+      "nativeMenu": {
+        "path": "outputs/renderer-final-runtime/ru/menu/native.png",
+        "sha256": "72757136b1e626200bb797bae345ae85384f62d5ddb747be152699210d07ee4a"
+      },
+      "nativeSettings": {
+        "path": "outputs/renderer-final-runtime/ru/settings/native.png",
+        "sha256": "0de54b913a9e7fe2d285537f1abe7825723e535fbd230d040b8fe9ddbd4c120d"
+      },
+      "playerLog": {
+        "path": "outputs/renderer-final-runtime/ru/Player.log",
+        "sha256": "ff68e22db286b84e15f194b8405290196dde10181dd3bb0419059a8a7ceccf6b"
+      },
+      "loaderLog": {
+        "path": "outputs/renderer-final-runtime/ru/BepInEx.log",
+        "sha256": "d49a6241e8b33e61fe2892ddb90d3a1b7e8d6a65b16123390bc1570df13f9bd3"
+      },
+      "stopReceipt": {
+        "path": "outputs/renderer-final-runtime/ru/stop.json",
+        "sha256": "dcfb9c1fff169ab27c296b5fff6eed947a0c2f65711b91456bd1072af1514b3d"
+      },
+      "resourceFailureCounts": {
+        "CRC Mismatch": 0,
+        "Unable to load asset": 0,
+        "No translation found": 0,
+        "KeyNotFoundException": 0,
+        "NullReferenceException": 0
+      },
+      "visualReview": "Official menu/settings control reviewed; no visible regression on exercised screens."
+    }
+  ],
+  "retainedControlEvidence": {
+    "version": "0.2.0",
+    "locales": [
+      "fa",
+      "he",
+      "ar"
+    ],
+    "reason": "0.2.1 changes only Hindi markup token protection. Plugin.cs is byte-identical after normalizing version literals; RTL/input hook mechanisms unchanged. These native frames were captured with 0.2.0, not recaptured with 0.2.1."
+  },
+  "validation": {
+    "pythonTests": {
+      "count": 22,
+      "passed": true,
+      "artifact": {
+        "path": "outputs/renderer-python-tests.log",
+        "sha256": "4810839c0ed68b0e31c0b7a12bee387f8f6d8b5ee9fbb3b917cd4971b71acf94"
+      },
+      "boundary": "Asset/catalog/preferences guards and actual stopped-fixture per-file installation failure; process inventory mocked in installer tests"
+    },
+    "shaperHarness": {
+      "passed": true,
+      "artifact": {
+        "path": "outputs/renderer-unit-tests/result-v4.log",
+        "sha256": "086a31aff6ad367179742347dae4f423ac7f3d8fcda2b1f71519718aca2e495b"
+      },
+      "boundary": "Actual C# adapter using macOS HarfBuzz; excludes Wine DLL, IL2CPP hooks, TMP rendering and gameplay"
+    },
+    "build": {
+      "warnings": 0,
+      "errors": 0,
+      "artifact": {
+        "path": "outputs/renderer-build-v4.log",
+        "sha256": "daf1b6e90e60dcf97771e9f62d281c182ad6339c1eb66a927bbfbd8c12cce8c7"
+      }
+    }
+  },
+  "finalFixture": {
+    "stopped": true,
+    "savedLocale": "ru",
+    "preferencesSha256": "7a310b944db06c8a61c84502bd7d1fddf034366705a0d0f3ca40356a9380eaa6",
+    "baseArtifactsVerified": 24,
+    "permittedOverrides": {
+      "NoImNotAHuman_Data/sharedassets0.assets": "9283bc9a63739458371b4852f2ce3cc28d7be3acc749b05f066025cf5bcba164",
+      "NoImNotAHuman_Data/resources.assets": "8b539d6a116acc620e8a48e06693c824ccd96f090bcf61a99642c81cc3203090"
+    },
+    "level0Restored": true,
+    "originalPinnedSource": {
+      "path": "outputs/renderer-source-integrity.json",
+      "sha256": "a9c58d17aaacd1c3ee990cd831328b3e8a98a9f3c70fc27cdd101fb2a9155339"
+    }
+  },
+  "attemptAccounting": [
+    {
+      "attempt": "loader bootstrap",
+      "result": "Interop generated for actual metadata 39; chainloader completed. Console SIGTERM sent to exact owned PID; stop helper refused still-registered console before further signals; later four recorded PIDs/apps/windows all absent. Evidence retained. Baseline displayed Indonesian synthetic probe, not Russian."
+    },
+    {
+      "attempt": "font preparation v1/v2",
+      "result": "Stopped before asset replacement because cmap subtable dictionaries were shared; no fixture font writes. Validate absence before mutating maps. v3 completed and read-back verified."
+    },
+    {
+      "attempt": "renderer 0.1.0",
+      "result": "Hindi processed and selector paths corrected, but delayed Hebrew UpdateText reprocessed a mixed menu. Superseded by scope protection on both setter and UpdateText."
+    },
+    {
+      "attempt": "renderer 0.2.0 native series",
+      "result": "hi/fa/he completed. Arabic guard rejected before preference write or launch; controller stopped after three cases. Added explicit official ar control and positive/negative preference regressions; ar/ru completed in new bounded run."
+    },
+    {
+      "attempt": "renderer 0.2.1",
+      "result": "Hindi markup protections expanded; shaper tests passed; actual installed module hi/ru native cases completed."
+    }
+  ],
+  "unverified": [
+    "Dialogue/typewriter/skip and next semantic UI state",
+    "Dense target-language UI, dynamic substitutions and wrapping",
+    "Full target feasibility gate for all 14 locales",
+    "Hindi font/style/material/font-weight/sprite/noparse inputs and tags splitting syllables",
+    "Runtime rendering of formatting-tag harness cases",
+    "Final font roles/style, complete bidi and mark-positioning audit",
+    "Release packaging and other platforms"
+  ],
+  "massWorkAuthorizedByGate": false,
+  "massTranslationStarted": false
+}

@@ -134,6 +134,9 @@ def run(codes,reference,output,resume_case=None):
         pref.update(runtimeRestoration='passed-in-preferences; native-frame-review-pending')
         (step/'preferences/receipt.json').write_text(json.dumps(pref,indent=2)+'\n')
         shutil.copy2(LOG,step/'Player.log')
+        loader_log=FIXTURE/'Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/BepInEx/LogOutput.log'
+        if loader_log.exists():
+            shutil.copy2(loader_log,step/'BepInEx.log')
         text=(step/'Player.log').read_text()
         failures={key:text.count(key) for key in ['CRC Mismatch','Unable to load asset','No translation found','KeyNotFoundException','NullReferenceException']}
         row={'expectedLocale':code,'runtimeLocale':None,'savedLocaleAfterLaunch':restored,'resourceFailureCounts':failures,

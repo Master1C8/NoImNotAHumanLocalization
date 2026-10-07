@@ -38,5 +38,14 @@ class PreferenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Missing/ambiguous game preferences'):
             replace_language(source+source,'id','hi')
 
+    def test_arabic_control_preserves_unrelated_settings(self):
+        result,before=replace_language(fixture('he'),'he','ar')
+        expected=copy.deepcopy(before);expected['TextSettingsData']['SelectedLanguage']='ar'
+        self.assertEqual(read_settings(result)[2],expected)
+
+    def test_unknown_locale_rejected_after_valid_prior_guard(self):
+        with self.assertRaisesRegex(ValueError,'Unsupported probe locale'):
+            replace_language(fixture('he'),'he','zz')
+
 
 if __name__=='__main__':unittest.main()

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T17:00:56.038870+00:00",
+  "updatedAt": "2026-10-07T17:57:46.828334+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -9,7 +9,7 @@
   "sourceLocale": "ru",
   "localizationType": "standard",
   "currentStage": "probe",
-  "stageStatus": "bindings-verified-rendering-blocked",
+  "stageStatus": "renderer-module-menu-verified; full-gate-incomplete",
   "targetLocales": [
     "th",
     "id",
@@ -27,7 +27,7 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "All 14 native locale/table bindings verified on menu/settings in the isolated v6 fixture. Hindi full Devanagari shaping fails; liga gives partial improvement only. Persian/Hebrew menu order differs from failing selector path. Other full gate surfaces remain unverified; no mass extraction, glossary or translation started.",
+  "summary": "Separate IL2CPP renderer probe corrects the bounded Hindi menu sample and Persian/Hebrew selector path; Hindi public logical text restored. Official Arabic/Russian menu/settings controls pass. All 14 native bindings retained; dialogue, dense target UI, dynamic text and next state remain unverified. No mass localization started.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -1123,7 +1123,7 @@
       "textures": "not-started",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
-      "visual": "binding-reviewed; full-gate-not-passed",
+      "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
       "release": "not-created",
       "runtimeLocale": "fa",
       "processBinding": "shared-standard-v1",
@@ -1149,14 +1149,15 @@
           "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
         }
       ],
-      "feasibility": "blocked",
-      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Menu mixed RTL/Latin order visible; selector endonym is reversed/unshaped. Menu support cannot be reused for selector. Hebrew mark placement and Persian ZWNJ require further checks.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
+      "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
+      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
       },
-      "nativeEvidence": "Documentation/native-locale-evidence.json"
+      "nativeEvidence": "Documentation/native-locale-evidence.json",
+      "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
     },
     {
       "locale": "ro",
@@ -1253,11 +1254,11 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "three-native-role-mappings; final-style-unverified",
+      "fonts": "three-Hindi-roles-bound-to-owned-HarfBuzz-glyph-font; final-style-unverified",
       "textures": "not-started",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
-      "visual": "binding-reviewed; full-gate-not-passed",
+      "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
       "release": "not-created",
       "runtimeLocale": "hi",
       "processBinding": "shared-standard-v1",
@@ -1283,14 +1284,15 @@
           "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
         }
       ],
-      "feasibility": "blocked",
-      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Devanagari conjuncts and pre-base vowel placement differ from the same embedded font rendered with CoreText; liga enables some conjuncts but does not repair the full sample.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
+      "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
+      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
       },
-      "nativeEvidence": "Documentation/native-locale-evidence.json"
+      "nativeEvidence": "Documentation/native-locale-evidence.json",
+      "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
     },
     {
       "locale": "fil",
@@ -1821,7 +1823,7 @@
       "textures": "not-started",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
-      "visual": "binding-reviewed; full-gate-not-passed",
+      "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
       "release": "not-created",
       "runtimeLocale": "he",
       "processBinding": "shared-standard-v1",
@@ -1847,14 +1849,15 @@
           "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
         }
       ],
-      "feasibility": "blocked",
-      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Menu mixed RTL/Latin order visible; selector endonym is reversed/unshaped. Menu support cannot be reused for selector. Hebrew mark placement and Persian ZWNJ require further checks.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
+      "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
+      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
       },
-      "nativeEvidence": "Documentation/native-locale-evidence.json"
+      "nativeEvidence": "Documentation/native-locale-evidence.json",
+      "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
     }
   ],
   "runtimeAttempt": {
@@ -1926,23 +1929,24 @@
     ]
   },
   "validation": {
-    "guardTests": 19,
+    "guardTests": 22,
     "guardTestsResult": "passed-under-python-O",
     "command": ".venv/bin/python -O -m unittest discover -s Tests -v",
     "realAssetRoundTrips": 15,
     "realAssetRoundTripsResult": "passed-under-python-O",
     "roundTripCommand": ".venv/bin/python -O Scripts/probe_assets.py --output outputs/catalog-resume-20261007",
     "bundleAndCatalogHashesMatchPreviousRun": true,
-    "runtime": "14 native menu/settings bindings verified; full gate blocked/unverified",
+    "runtime": "14 native bindings retained; Hindi menu shaping and Persian/Hebrew caption rendering repaired through runtime module; full gate incomplete",
     "nativeContainerSets": "32 locales, 135 Russian-carrier strings and 15 image tables; complete saved object/container sets compared",
-    "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test."
+    "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test.",
+    "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
   },
-  "nextAction": "Resolve Hindi shaping and Persian/Hebrew selector paths, then test dialogue, dense UI, mixed dynamic text and next semantic state. Substantial renderer work requires owner decision under EARLY-PROBE.",
+  "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
   "toolFingerprints": {
     "Scripts/build_locale_probe.py": "0dfc5cba62bdb5a4a306cde4b9407eb45332ca517ad60274ea55490ace50aeba",
     "Scripts/probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
-    "Scripts/fixture_preferences.py": "28d145b003f589b4f973722221ceb2385dca3b2e2ca4863fdf0c45767d884d4d",
-    "Scripts/run_saved_locale_probe.py": "6fedad27b39fa5c5ea14fead01eda7482a826c4480f52dffd469e03904446a2d",
+    "Scripts/fixture_preferences.py": "a6980eb2994d78c03f43417a38e03f8caeeb53de3f12fb97eeb617b378aa4e4f",
+    "Scripts/run_saved_locale_probe.py": "0656f893364a0777095b214f6ec980cd303232ebf93bb9836f31b602c7418d09",
     "Scripts/probe_menu_features.py": "5cff623bae2b4c56ddf9c2ae23b48b41e2dd2435cb1c4bf664aaaa085765caf0",
     "Scripts/addressables_catalog.py": "d40c3d38cd0c1bf36a76064f98eca2a38f92cafe9992a01fecb0a1b4de60a564",
     "Scripts/install_locale_probe.py": "887f117bebb3e2e1f6cb12c1361926f51107b9cb5afc49742948841489662129",
@@ -1959,7 +1963,10 @@
     "Tests/test_native_locale_probe.py": "e65bfd73e98ebe8a1eb031725b6ee4d809c83d838cf33082acb4bb3eb21c50b1",
     "Tests/test_probe_guards.py": "cd972b6239c3a4ce8fc78288b632113385dd44bb55e2fb62a660149074b5edb1",
     "Tests/test_fixture_preferences.py": "0c74bee1df1b5471dc78e54060fe8d1be67d388d07a8e8acf30ab6c7db5c1f96",
-    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02"
+    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02",
+    "Scripts/install_runtime_loader.py": "1061ac6b5fe3ed17f06ee9c1fcb09a3cb332a258f5d3203079166c8b200ef272",
+    "Scripts/prepare_renderer_probe.py": "dc6e7385dbf59afe248909544f122020871ba74004ff44568544438c0f4cc321",
+    "Scripts/install_renderer_module.py": "072ab4718c1ad4975f6cb0fd46f1a231884677dec8c2a838c79dbdc7fd50a6a4"
   },
   "nativeLocaleProbe": {
     "evidence": "Documentation/native-locale-evidence.json",
@@ -1978,34 +1985,19 @@
     "artifactCount": 24
   },
   "currentRuntimeStatus": {
-    "recordedAt": "2026-10-07T17:04:26.524929+00:00",
     "fixtureStopped": true,
     "savedLocale": "ru",
-    "all24InstalledArtifactHashesMatchV6": true,
-    "level0RestoredOriginalSha256": "c62ac0001ae7bb51ba6bd08731097597d8127da4a4f9b5f00f1f5a51bea1ad52",
-    "menu": {
-      "path": "outputs/native-ru-restoration-v2/ru/menu/native.png",
-      "sha256": "238930be4e3430961e56b87a9c9a0851f0431f3a82a09c16d0e0aca659a7e402"
+    "moduleVersion": "0.2.1",
+    "evidence": {
+      "path": "Documentation/runtime-renderer-evidence.json",
+      "sha256": "faa9fc7563175c86dbbbc767ed08468de2b0412b23e0c195538df5d851a67b16"
     },
-    "settings": {
-      "path": "outputs/native-ru-restoration-v2/ru/settings/native.png",
-      "sha256": "bbaafc422e568c56d11e0d2fd4e46cbe094169d568f91ffce181704c2cd79333"
-    },
-    "log": {
-      "path": "outputs/native-ru-restoration-v2/ru/Player.log",
-      "sha256": "6a4d0d22350e46cd4a88202773f62dda559d985279f1e08e5a1c5ae869e44e56"
-    },
-    "stopReceipt": {
-      "path": "outputs/native-ru-restoration-v2/ru/stop.json",
-      "sha256": "2a0fd8f77ad51d0739e13fdd4999c4ed9251d1605d4c3bf25d4c1ddf57e0cc13"
-    },
-    "resourceFailureCounts": {
-      "CRC Mismatch": 0,
-      "Unable to load asset": 0,
-      "No translation found": 0,
-      "KeyNotFoundException": 0,
-      "NullReferenceException": 0
-    },
-    "saveScope": "Copied-prefix settings reset; not a restoration claim for original user preferences/saves."
+    "scope": "Copied prefix and approved renderer/font overrides; prior v6 restoration remains historical evidence."
+  },
+  "rendererModule": {
+    "version": "0.2.1",
+    "sha256": "f14be714eb3cc6ca00b511a968949019b7fedeb012c4b6d3f15ef52421ca755e",
+    "evidence": "Documentation/runtime-renderer-evidence.json",
+    "massGatePassed": false
   }
 }

@@ -206,26 +206,20 @@ narrow binding and may overflow; their presence is not layout acceptance. Keep
 unverified shaping and other surfaces explicit, and never remove target locales
 or patch managed backup DLLs as a substitute for repairing the live mechanism.
 
-Hindi fails the full shaping check. The same embedded Noto Sans font renders
-the conjuncts and pre-base vowel correctly through CoreText, while the native
-menu differs. The localized menu binding resolves through `LocalizeStringEvent`
-1956 → `RTLTextMeshProBridge` 1959 → `RTLTextMeshPro` 1958 in `level0`.
-Its existing active feature is `kern`. The bounded `probe_menu_features.py`
-experiment adds `liga` to this component only and compares every other object.
-Native runtime improved some conjuncts but still failed the complete unchanged
-Hindi sample. This is partial improvement, not a complete rendering fix.
-The experimental `level0` was restored byte-for-byte before the final Russian
-control launch; the copied prefix is reset to `ru` and the fixture is stopped.
+The unmodified v6 rendering path failed Hindi shaping and Persian/Hebrew selector
+endonyms. The bounded `probe_menu_features.py` experiment improved only part of
+Hindi with `liga`; `level0` was restored byte-for-byte. That evidence remains in
+`Documentation/native-locale-evidence.json`. The same-font CoreText references
+are diagnostic controls, not game acceptance. Subsequent authorized runtime work
+is described below; it supersedes those specific menu/selector blockers, while the
+full shared gate remains incomplete.
 
-Persian and Hebrew mixed menu samples show RTL order, but their settings selector
-endonyms are reversed/unshaped. Do not generalize the menu result to that path,
-or infer that the Arabic-only preprocessor executes everywhere from analysis DLLs.
-The same-font CoreText images are diagnostic references, not game acceptance.
-[Unity's Advanced Text Generator documentation](https://docs.unity3d.com/6000.0/Documentation/Manual/UIE-advanced-text-generator.html)
-describes a UI Toolkit renderer; it is not evidence of a switch available on this
-game's existing TMP components. Full shaping repair remains separate work.
+## Runtime shaping module
 
-The shared technical gate remains blocked for Hindi and the Persian/Hebrew
-selector, and incomplete for the remaining surfaces in every locale. No target
-set was reduced and no dependent mass work started. A substantial rendering
-adapter needs an owner decision under the shared EARLY-PROBE workflow.
+The owner subsequently approved a separate IL2CPP runtime module. The bounded
+integration and reproduction recipe are in
+[Documentation/RUNTIME_RENDERER.md](Documentation/RUNTIME_RENDERER.md).
+This adds Hindi shaping and repairs the Persian/Hebrew selector path in the copied
+fixture; the full renderer-feasibility gate remains incomplete. Consult the latest
+[artifact-bound evidence](Documentation/runtime-renderer-evidence.json) before
+continuing. Earlier v6 restoration evidence describes the fixture before this module.
