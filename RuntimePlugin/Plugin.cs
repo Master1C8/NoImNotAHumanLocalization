@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace NoHuman.TextRenderer;
 
-[BepInPlugin("fun.vnrevival.nohuman.renderer", "No Human Text Renderer Probe", "0.2.1")]
+[BepInPlugin("fun.vnrevival.nohuman.renderer", "No Human Text Renderer Probe", "0.3.0")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance=null!;
@@ -23,8 +23,9 @@ public sealed class Plugin : BasePlugin
             throw new InvalidDataException("Shaping font version changed");
         NativeLibrary.Load(Path.Combine(root,"libHarfBuzzSharp.dll"));
         Shaper=new HarfBuzz(Path.Combine(root,"hi-source.ttf"));
+        DialogueProbe.Load();
         new Harmony("fun.vnrevival.nohuman.renderer").PatchAll();
-        Log.LogInfo("RENDERER_READY v0.2.1: Devanagari shaping + RTL setter routing");
+        Log.LogInfo("RENDERER_READY v0.3.0: Devanagari shaping + RTL setter routing + opt-in dialogue evidence");
     }
     internal static void Report(string kind,TMP_Text component,string original,string prepared)
     {
@@ -80,7 +81,7 @@ internal static class RenderInput
             var prepared=Plugin.Shaper.Shape(original);
             if(prepared==original){Plugin.Report("HI_SKIPPED",__instance,original,original);return;}
             __state=original;__instance.m_text=prepared;
-            __instance.m_IsTextBackingStringDirty=true;
+            __instance.m_IsTextBackingStringDirty=false;
             Plugin.Report("HI",__instance,original,prepared);
         } catch(Exception ex) {Plugin.Instance.Log.LogError("RENDERER_FAILED: "+ex);}
     }
@@ -88,6 +89,9 @@ internal static class RenderInput
     {
         if(__state!=null) {
             __instance.m_text=__state;
+            // TMP's public getter otherwise reconstructs text from the shaped backing
+            // array. Its dirty flag must agree with the restored logical m_text.
+            __instance.m_IsTextBackingStringDirty=false;
             Plugin.Report("LOGICAL_RESTORED",__instance,__state,__instance.m_text);
         }
         return __exception;

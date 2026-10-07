@@ -32,4 +32,18 @@ if args[0] == "focus" {
         event.post(tap: .cghidEventTap)
         usleep(60_000)
     }
+} else if (args[0] == "hold-space" || args[0] == "tap-space"), args.count == 3 {
+    guard NSWorkspace.shared.frontmostApplication?.processIdentifier == pid else { reject("Fixture lost focus; no input sent") }
+    let source = CGEventSource(stateID: .hidSystemState)
+    guard let down = CGEvent(keyboardEventSource: source, virtualKey: 49, keyDown: true),
+          let up = CGEvent(keyboardEventSource: source, virtualKey: 49, keyDown: false) else { reject("Cannot create Space event") }
+    down.post(tap: .cghidEventTap)
+    for _ in 0..<(args[0] == "hold-space" ? 40 : 1) {
+        usleep(100_000)
+        if NSWorkspace.shared.frontmostApplication?.processIdentifier != pid {
+            up.post(tap: .cghidEventTap)
+            reject("Fixture lost focus during hold; Space released")
+        }
+    }
+    up.post(tap: .cghidEventTap)
 } else { reject("Unsupported action") }

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-07T18:54:14.010037+00:00",
+  "scope": "Bounded renderer diagnosis paused for owner-requested standalone Russian source glossary",
+  "moduleVersion": "0.3.0",
+  "installedDllSha256": "ff89d7ed545ec6a0d4268f67193e297890d5ffc2b50249c7d0e2e05f8d4a1f80",
+  "findings": [
+    {
+      "boundary": "TMP public text getter after ParseInputText",
+      "result": "fixed and runtime verified on first Hindi line in v2",
+      "evidence": "outputs/dialogue-hi-v2",
+      "detail": "Restore m_text with m_IsTextBackingStringDirty=false; restoring m_text alone allows prepared PUA backing text to overwrite logical text."
+    },
+    {
+      "boundary": "Yarn localized line -> all views",
+      "result": "candidate insertion moved before fanout; Hindi runtime acceptance not run",
+      "evidence": "outputs/dialogue-hi-v3",
+      "detail": "LineView-only insertion left OptionsListView Russian. v3 hook replaces guarded localized RawText before fanout; no actual Hindi v3 line observed."
+    },
+    {
+      "boundary": "Russian line typewriter -> existing skip -> answer panel",
+      "result": "passed for first source line; next chosen semantic destination not run",
+      "evidence": "outputs/dialogue-ru-control-v1/resume-queued-continue",
+      "detail": "First line ID line:entrance_neighbour_0_054308e; 44 chars; actual first-line answer panel rendered. Resume queued command after focusing existing fixture; do not resubmit."
+    }
+  ],
+  "fixtureStopped": true,
+  "preferencesRestored": true,
+  "diagnosticConfigRemoved": true,
+  "massGatePassed": false,
+  "remaining": [
+    "Hindi v3 actual line and answer views",
+    "All target dialogue/next semantic states",
+    "Dense target UI, dynamic values, final font styling"
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/renderer-module-dialogue-v3/receipt.json",
+      "sha256": "19ffe5d0d974e342307801a7923ff5e1213d0c12f39c9375444e8b819124769a"
+    },
+    {
+      "path": "outputs/dialogue-hi-v2/status.json",
+      "sha256": "eed990b1fd20a467fd1ad1703fcfa4f3ee3df80e83f9c25185ac849bf34879c4"
+    },
+    {
+      "path": "outputs/dialogue-hi-v3/status.json",
+      "sha256": "22597b3999af2ef445780bee5e95cc999f36fa9c255687503f86fbf46ad7da6f"
+    },
+    {
+      "path": "outputs/dialogue-ru-control-v1/status.json",
+      "sha256": "1c1aa0cc744434a48811bd175ccb1dc6e0c74085966b7fac79db5a3a1a756c36"
+    },
+    {
+      "path": "outputs/dialogue-ru-control-v1/finish/stop.json",
+      "sha256": "850278bfe7e27a480398b9212f33749fce363bc9e745644a8f4056f32babf31d"
+    },
+    {
+      "path": "outputs/renderer-build-dialogue-v4.log",
+      "sha256": "5d470dc1cb7b01fef756647a7b5a22ad2633b5e984afacb6066db69fd9b6b605"
+    },
+    {
+      "path": "outputs/renderer-dialogue-python-tests-v2.log",
+      "sha256": "87313abefba62bea0f823386d5ff89b2b990c97c7c47453e3b9629ea34933658"
+    }
+  ]
+}

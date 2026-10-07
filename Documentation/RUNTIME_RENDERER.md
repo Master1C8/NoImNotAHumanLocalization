@@ -44,8 +44,9 @@ space/voffset tags. Script runs remain together through nobr; whitespace, Latin
 and numbers retain their logical input.
 
 The renderer hook temporarily substitutes TMP's parsing input, then restores
-m_text in the finalizer, including exception paths. This avoids storing prepared
-glyphs in the public logical text. Rendered character counts still differ from
+m_text with m_IsTextBackingStringDirty=false in the finalizer, including exception
+paths. Runtime v0.3.0 diagnosis showed that restoring m_text alone is insufficient:
+the public getter can rebuild prepared private-use text from its backing array. Rendered character counts still differ from
 Unicode/source counts: typewriter and progression require separate verification.
 
 Formatting tags supported by the adapter remain byte-for-byte. Font/style/material/
@@ -114,8 +115,9 @@ DOTNET_CLI_TELEMETRY_OPTOUT=1 DOTNET_GENERATE_ASPNET_CERTIFICATE=false \
 - Exception between real module replacements: first applied file stays new, later
   files stay old, completed stays false, and exact originals remain in backups.
   File enumeration order is not assumed by the regression.
-- Hindi original text: runtime logs must pair RENDERER_HI with
-  RENDERER_LOGICAL_RESTORED for the same component and exact logical string.
+- Hindi original text: read the public TMP .text getter after ParseInputText and
+  during multiple visibility states; exact original logical text must survive.
+  Field-restoration logs alone do not establish the public getter postcondition.
 - RTL delayed update: mixed Hebrew + ABC 123 must pass through UpdateText without
   another RENDERER_RTL_ROUTE for the menu; caption remains correctly ordered.
 - Native screenshots and resource logs remain mandatory. A successful build or a
@@ -124,3 +126,18 @@ DOTNET_CLI_TELEMETRY_OPTOUT=1 DOTNET_GENERATE_ASPNET_CERTIFICATE=false \
 Latest artifact-bound runtime findings are in `runtime-renderer-evidence.json`.
 Full renderer gate surfaces (dialogue, next semantic state, dense UI and dynamic
 values) remain pending; final font styling and translation have not started.
+
+## Dialogue checkpoint and standalone glossary scope
+
+See `dialogue-probe-evidence.json` for v0.3.0 artifact-bound partial results.
+The Hindi public getter repair passed on a real first line; source insertion into
+all Yarn views remains unverified after moving the hook before fanout. Russian
+control passed first-line typewriter and continuation to answers. No next answer
+was selected. The full renderer gate remains incomplete.
+
+An observed stalled game resumed after focusing the same owned fixture; preserve
+queued commands and inspect their execution logs instead of launching or sending
+them again. The 72-second intro and initial black frames are not proof of video
+failure. The fixture is stopped, preferences restored, diagnostic config removed.
+The owner requested standalone canonical Russian glossary preparation; this does
+not accept rendering or authorize mass game translation.
