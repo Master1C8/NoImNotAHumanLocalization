@@ -1,7 +1,8 @@
 """Bounded Addressables v2 binary catalog reader and bundle integrity updater.
 
-Schema reference: Unity Addressables 2.9.0 ContentCatalogData/BinaryStorageBuffer.
-https://github.com/needle-mirror/com.unity.addressables/tree/2.9.0/Runtime
+Schema reference: official Unity Addressables 2.9.0 package,
+ContentCatalogData/BinaryStorageBuffer (binary format version 2).
+https://packages.unity.com/com.unity.addressables/-/com.unity.addressables-2.9.0.tgz
 No substring replacement, CRC disabling, source writes or runtime interception.
 """
 import struct
@@ -72,6 +73,93 @@ class Catalog:
                     raise ValueError('Ambiguous location')
                 found[loc] = record
         return found
+
+    def keys(self):
+        result = {}
+        for row in self.array(self.values(8)[0], 8):
+            key, locations = self.values(row, 2)
+            type_id, body = self.values(key, 2)
+            if self.type_name(type_id) != 'System.String':
+                raise ValueError('Unsupported catalog key type')
+            string_id, separator = self.values(body, 2)
+            name = self.string(string_id, chr(separator & 0xFFFF))
+            if name in result:
+                raise ValueError('Duplicate catalog key')
+            result[name] = {'object': key, 'type': type_id,
+                            'locations': [self.values(i)[0] for i in self.array(locations)]}
+        return result
+
+
+class CatalogExtension:
+    """Append storage; retain original locations, dependencies and key order."""
+    def __init__(self, data):
+        self.original = Catalog(data)
+        self.data = bytearray(data)
+        self.keys = self.original.keys()
+
+    def append(self, raw, prefix=False):
+        if prefix:
+            self.data.extend(struct.pack('<I', len(raw)))
+        offset = len(self.data)
+        self.data.extend(raw)
+        if offset >= 0x3FFFFFFF:
+            raise ValueError('Catalog storage limit exceeded')
+        return offset
+
+    def string(self, value):
+        try:
+            return self.append(value.encode('ascii'), True)
+        except UnicodeEncodeError:
+            return self.append(value.encode('utf-16-le'), True) | 0x80000000
+
+    def array(self, values):
+        return self.append(struct.pack('<'+'I'*len(values), *values), True)
+
+    def add(self, key, location):
+        if key not in self.keys:
+            string_type = next(iter(self.keys.values()))['type']
+            body = self.append(struct.pack('<IHxx', self.string(key), 0))
+            obj = self.append(struct.pack('<II', string_type, body))
+            self.keys[key] = {'object': obj, 'type': string_type, 'locations': []}
+        if location in self.keys[key]['locations']:
+            raise ValueError('Duplicate key/location binding')
+        self.keys[key]['locations'].append(location)
+
+    def clone_asset(self, source_key, primary, internal, locale_code=None):
+        source = self.original.keys()[source_key]['locations']
+        if len(source) != 1:
+            raise ValueError('Ambiguous source asset location')
+        old = source[0]
+        fields = list(self.original.values(old, 7))
+        if fields[5] != 0xFFFFFFFF:
+            raise ValueError('Expected asset location without provider options')
+        fields[:2] = [self.string(primary), self.string(internal)]
+        new = self.append(struct.pack('<7I', *fields))
+        self.add(primary, new)
+        if locale_code is None:
+            self.add('Locale', new)
+        else:
+            self.add('Locale-'+locale_code, new)
+            # Preserve shared labels (e.g. UI Preload); never reuse asset GUIDs.
+            for name, record in self.original.keys().items():
+                if old in record['locations'] and len(record['locations']) > 1 and name != 'Locale-ru':
+                    self.add(name, new)
+        return new
+
+    def finish(self):
+        rows = []
+        for record in self.keys.values():
+            rows.extend([record['object'], self.array(record['locations'])])
+        key_offset = self.array(rows)
+        struct.pack_into('<I', self.data, 8, key_offset)
+        result = bytes(self.data)
+        actual = Catalog(result).keys()
+        if actual != self.keys:
+            raise ValueError('Catalog extension did not round-trip')
+        for key, record in self.original.keys().items():
+            if actual[key]['locations'][:len(record['locations'])] != record['locations']:
+                raise ValueError('Original catalog binding changed')
+        return result
 
 
 def bundle_crc(path):

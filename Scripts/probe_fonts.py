@@ -7,9 +7,9 @@ from pathlib import Path
 
 import UnityPy
 from fontTools.ttLib import TTFont
-from UnityPy.helpers.TypeTreeGenerator import TypeTreeGenerator
 
 from probe_assets import ROOT, DEFAULT_GAME, EXPECTED_UNITY, EXPECTED_BUILD_GUID, SAMPLES, digest
+from unity_types import CheckedTypeTreeGenerator, generated_tree
 
 
 def run(game, output):
@@ -22,7 +22,7 @@ def run(game, output):
     inputs = [data / name for name in ("resources.assets", "sharedassets0.assets")]
     inputs += [managed / name for name in ("Assembly-CSharp.dll", "RTLTMPro.dll", "Unity.TextMeshPro.dll")]
     hashes = {str(p.relative_to(game)): digest(p) for p in inputs}
-    generator = TypeTreeGenerator(EXPECTED_UNITY)
+    generator = CheckedTypeTreeGenerator(EXPECTED_UNITY)
     generator.load_local_dll_folder(str(managed))
     mappings, fonts = [], []
     # Narrow before generating type trees: unrelated editor classes lack shipped DLLs.
@@ -44,7 +44,7 @@ def run(game, output):
         env.typetree_generator = generator
         for path_id, expected_name in selected.items():
             obj = next(o for o in env.objects if o.path_id == path_id)
-            tree = obj.read_typetree()
+            tree, _ = generated_tree(obj)
             if tree["m_Name"] != expected_name:
                 raise ValueError("Font role identity changed; re-establish asset scope")
             rows = tree["<Fonts>k__BackingField"]["_serializedList"]

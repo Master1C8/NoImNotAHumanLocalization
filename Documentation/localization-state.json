@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T15:37:17.415406+00:00",
+  "updatedAt": "2026-10-07T17:00:56.038870+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -9,7 +9,7 @@
   "sourceLocale": "ru",
   "localizationType": "standard",
   "currentStage": "probe",
-  "stageStatus": "runtime-unverified",
+  "stageStatus": "bindings-verified-rendering-blocked",
   "targetLocales": [
     "th",
     "id",
@@ -27,7 +27,7 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "Corrected bundle/catalog Russian no-op runtime check passed on settings and the unobscured main menu. All five menu labels render, and the fresh Unity log has no CRC mismatch or resource-provider failure. Native frames and payload hashes are recorded; task-owned fixture is verified stopped. All 14 target locale/font adapters and script-specific surfaces remain unverified; mass localization has not started.",
+  "summary": "All 14 native locale/table bindings verified on menu/settings in the isolated v6 fixture. Hindi full Devanagari shaping fails; liga gives partial improvement only. Persian/Hebrew menu order differs from failing selector path. Other full gate surfaces remain unverified; no mass extraction, glossary or translation started.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -59,7 +59,26 @@
     "NoImNotAHuman_Data/sharedassets0.assets": "dd43a6956cf938545636c2669b4bcb501d87aa5ad2dd4c00f948edc37a7315cb",
     "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
     "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/RTLTMPro.dll": "50e9863ab4fefb257ed42be33e83561ef185f52859a3212dc6239c066f88412b",
-    "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.dll": "e197d6ff84cce5b958ee55d45526081d98825ef56807317b116a320ac0eb30f4"
+    "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.dll": "e197d6ff84cce5b958ee55d45526081d98825ef56807317b116a320ac0eb30f4",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-arabic(ar)_assets_all.bundle": "1d95429b943d7cdac0d6a43d89b7ff886e5dedeb7cc8bce7ca17745004905ebf",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(simplified)(zh)_assets_all.bundle": "5262c797ecbd96c5206321f9268cf71475488c115f84de27b21eec3cfdf210e1",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-chinese(traditional)(zh-hant)_assets_all.bundle": "f22081579d8b29e707a6d2a6d7667b7f1865b4433935c80dc61127eea5be3081",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle": "fcf777cde2b31030d61ae76a4cce49f9dda8099088c083eb77af2c7de300fa45",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle": "f3a40c8df14ef678afb16aba28b19fec1a89b67a237cbd847a411e0cd524c3c9",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-german(de)_assets_all.bundle": "ac13f15ef24349b3db767b2ad9ba8fb2dd76ad7e4cae65843893677ef6841873",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-italian(it)_assets_all.bundle": "3df56198f33adc46de32c9ef9e16b32d01777763440bf8b1a602def6fab63172",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-japanese(ja)_assets_all.bundle": "82cbd4715b6f133e783cd1d6a82468ef573aaa71d755f623fc19b1af6eeed8d1",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-korean(ko)_assets_all.bundle": "36b0c3b8c4de996ea918ed2644ca25000f56ebfeff45bc2b6f7e6b524852949a",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-polish(pl)_assets_all.bundle": "b19a6a97fc069b69d6008baedb6402ac935acc12406ada7e4bca0fbb60441b3c",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-portuguese(brazil)(pt-br)_assets_all.bundle": "e24cc4ea9d13a8d512f2a336e7fc8f4f7fab8533c8a26bc29937a738052d8f8c",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-portuguese(portugal)(pt-pt)_assets_all.bundle": "c46def142ca3e4c68f1b8bbbae098ba49bc4e4211fdda46934c5c00c7b32ca47",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(argentina)(es-ar)_assets_all.bundle": "1e40d28ab860a62deeb640c9f7cd6de6146d8c470cd2de867b0224e2fd17582d",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle": "287b6fe7ae30d22f9832443f7bea44a0b6830d1adea789ce8a7e5466dd6c6084",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-turkish(tr)_assets_all.bundle": "914d1589eb91c65b28c2283e466918e1d2c7b2bc3d1efc260b896a92325ba9cb",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-ukrainian(uk)_assets_all.bundle": "f80f7e736700a5c2ea1fe9340e69c07bcb8a7371cb48723dbb793ca981b29021",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-vietnamese(vi)_assets_all.bundle": "4934da3d00957b1f27898065d87b337218ad3e0643f91e698636d4413c295d31",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-russian(ru)_assets_all.bundle": "9bb83e9b1adc1b03e21fd9c4ccbf3f93eef30e0431bf0db0d9d6c04c70df2541",
+    "NoImNotAHuman_Data/level0": "c62ac0001ae7bb51ba6bd08731097597d8127da4a4f9b5f00f1f5a51bea1ad52"
   },
   "sourceUnchangedForPinnedInputs": true,
   "staticEvidence": [
@@ -618,13 +637,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "th",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -638,8 +657,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/th-sample.bundle",
-      "staticArtifactSha256": "86cfe815f105bdecb9482789b2129d7b121fdca1c004dab72ca37a8c82d97c0a",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "sharedassets0.assets",
@@ -649,25 +668,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/th-catalog.bin",
-        "sha256": "9fcc12e18478fc47e9b9c2685e8a94d32b9aa076005e3328c079100c8a665d7e",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 4182319337,
-          "oldSize": 1435339,
-          "newSize": 1455878,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "id",
@@ -676,13 +683,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "id",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -696,8 +703,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/id-sample.bundle",
-      "staticArtifactSha256": "4726f15f8e126098704d4d0582aaa1005e82fde42bfcc06e7c3986814affa6f2",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -791,25 +798,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/id-catalog.bin",
-        "sha256": "04e5a69778459e3b2071342699c4a14b5db3ef359085dcd60a9a5697790e2292",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 2160020664,
-          "oldSize": 1435339,
-          "newSize": 1455861,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "cs",
@@ -818,13 +813,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "cs",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -838,8 +833,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/cs-sample.bundle",
-      "staticArtifactSha256": "910588be8e437cd71a5fcd089d60cf871c5d7f5c5c5ce7d227658f9fa57ed7c5",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -891,25 +886,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/cs-catalog.bin",
-        "sha256": "0c93a36d890ad65c5de2558acce9e8b1d38b2d0f466939945981adeea65d84cb",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 4196873817,
-          "oldSize": 1435339,
-          "newSize": 1455872,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "hu",
@@ -918,13 +901,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "hu",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -938,8 +921,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/hu-sample.bundle",
-      "staticArtifactSha256": "c03101898f414ebc823bbf33cc64d5ad7ea9d26f5ac3309aca9a3f3f750b381b",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -991,25 +974,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/hu-catalog.bin",
-        "sha256": "ce247b4b6a34361f7de012c3e555d70c891c1b660e3a807e0f01baf5b3878634",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1402035005,
-          "oldSize": 1435339,
-          "newSize": 1455874,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "nl",
@@ -1018,13 +989,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "nl",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1038,8 +1009,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/nl-sample.bundle",
-      "staticArtifactSha256": "98f45e38d2b9317bed13bad6f94a675db622ab4fcf90c82994e4fb85f9e75f3f",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1133,25 +1104,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/nl-catalog.bin",
-        "sha256": "16ba63d0449bf428a5d332eaa0a115f0e3bbb81603f7a29b0342a306ebd8902a",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 486644153,
-          "oldSize": 1435339,
-          "newSize": 1455863,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "fa",
@@ -1160,13 +1119,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "fa",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1180,8 +1139,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/fa-sample.bundle",
-      "staticArtifactSha256": "e900bc0b0a1aaf8db3c16e874a285ae03c519d0ce29837a27eb666a41cf1ac54",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "sharedassets0.assets",
@@ -1190,26 +1149,14 @@
           "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
         }
       ],
-      "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "feasibility": "blocked",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Menu mixed RTL/Latin order visible; selector endonym is reversed/unshaped. Menu support cannot be reused for selector. Hebrew mark placement and Persian ZWNJ require further checks.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/fa-catalog.bin",
-        "sha256": "6078a13d0ef492438e5caa1c55f466c817d6f74cb8e99935d3931beda42ffc16",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1101846265,
-          "oldSize": 1435339,
-          "newSize": 1455881,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "ro",
@@ -1218,13 +1165,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "ro",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1238,8 +1185,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/ro-sample.bundle",
-      "staticArtifactSha256": "420e67f2e64d1c1f3c662b9feb646120226434c77eb698b6ceb128b1d82e6471",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1291,25 +1238,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/ro-catalog.bin",
-        "sha256": "f88698506248e52f090f597b558891223189ab72ff96b9af1ffad0118559f87f",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 3833494362,
-          "oldSize": 1435339,
-          "newSize": 1455840,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "hi",
@@ -1318,13 +1253,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "hi",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1338,8 +1273,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/hi-sample.bundle",
-      "staticArtifactSha256": "bf2b1e309f29e28b8d032e0d9398bc835f0cc6ff37463eff7500ee4631f92e3e",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "sharedassets0.assets",
@@ -1348,26 +1283,14 @@
           "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
         }
       ],
-      "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "feasibility": "blocked",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Devanagari conjuncts and pre-base vowel placement differ from the same embedded font rendered with CoreText; liga enables some conjuncts but does not repair the full sample.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/hi-catalog.bin",
-        "sha256": "c46a525ce9c74ef4383b8c2aa0b87af94bdca190ed4ed26111c8f72244f8cad8",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1549213491,
-          "oldSize": 1435339,
-          "newSize": 1455918,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "fil",
@@ -1376,13 +1299,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "fil",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1396,8 +1319,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/fil-sample.bundle",
-      "staticArtifactSha256": "3fa9daa22bd2c4021f2f95d40b9e0b1fe5090b1ccb801f8fd5ebb6bb86a4b203",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1491,25 +1414,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/fil-catalog.bin",
-        "sha256": "c9e9e96900d57ae873813980456cec6486ac414a770801d902ee17b30fac82b0",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 4078019834,
-          "oldSize": 1435339,
-          "newSize": 1455861,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "el",
@@ -1518,13 +1429,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "el",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1538,8 +1449,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/el-sample.bundle",
-      "staticArtifactSha256": "98b4117700bef0224d889566b3133f24eb6b4c5fc845a06cc90506e7598a718f",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1573,25 +1484,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/el-catalog.bin",
-        "sha256": "f7a18697f30ca56750cc3a2395aef0c2f98414a7409739b74a144966831fd43f",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1329371288,
-          "oldSize": 1435339,
-          "newSize": 1455873,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "bg",
@@ -1600,13 +1499,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "bg",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1620,8 +1519,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/bg-sample.bundle",
-      "staticArtifactSha256": "d4c309bab877160eeadec898a6050e91a3d86c740dc930bfd975f3b1cc8ca481",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1697,25 +1596,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/bg-catalog.bin",
-        "sha256": "8d074a7913056bfbbeecc25466685aee0733c0d18bc3619db4838bf3218d0aea",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 3400012095,
-          "oldSize": 1435339,
-          "newSize": 1455860,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "sr",
@@ -1724,13 +1611,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "sr",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1744,8 +1631,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/sr-sample.bundle",
-      "staticArtifactSha256": "804de8e6dff2400d0d0b6aa3b80300838a196c92cf681a76c8fe1bd5bf3c7939",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1785,25 +1672,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/sr-catalog.bin",
-        "sha256": "1758b21e8a966bff5cdca598ae6207064e251961ce0e73ea3c6067ece68b59cd",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1904808896,
-          "oldSize": 1435339,
-          "newSize": 1455873,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "sw",
@@ -1812,13 +1687,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "sw",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1832,8 +1707,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/sw-sample.bundle",
-      "staticArtifactSha256": "4c4c97972c2d7b20a03b40d98e798bc5da8b9045c9f6e18ac163dbfa08f00770",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "resources.assets",
@@ -1927,25 +1802,13 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/sw-catalog.bin",
-        "sha256": "401ef50183b235b3a59dd0dfb54ae488f98a0bd91236fd7e6f18099c2dae855d",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 1928331246,
-          "oldSize": 1435339,
-          "newSize": 1455863,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     },
     {
       "locale": "he",
@@ -1954,13 +1817,13 @@
       "total": null,
       "glossary": "not-started",
       "editorial": "not-started",
-      "fonts": "cmap-discovery-only",
+      "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-started",
-      "build": "synthetic-carrier-bundle-roundtrip-passed",
-      "runtime": "not-run",
-      "visual": "not-run",
+      "build": "native-locale-table-font-adapter-v6",
+      "runtime": "passed-for-menu-and-settings-binding",
+      "visual": "binding-reviewed; full-gate-not-passed",
       "release": "not-created",
-      "runtimeLocale": null,
+      "runtimeLocale": "he",
       "processBinding": "shared-standard-v1",
       "sourceInventoryFingerprint": null,
       "glossaryFingerprint": null,
@@ -1974,8 +1837,8 @@
         "mixed-dynamic-text",
         "next-semantic-state"
       ],
-      "staticArtifact": "outputs/catalog-resume-20261007/he-sample.bundle",
-      "staticArtifactSha256": "a9705cc155f251354623925778c889aa5e7413e0dac5f55a3470b950aad3ef89",
+      "staticArtifact": "outputs/native-locale-probe-v6/report.json",
+      "staticArtifactSha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88",
       "cmapCandidates": [
         {
           "file": "sharedassets0.assets",
@@ -1984,26 +1847,14 @@
           "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
         }
       ],
-      "feasibility": "unverified",
-      "blocker": "Russian no-op resource/catalog runtime passed. Target locale activation, font-role mappings and target-script rendering remain unverified.",
-      "nextAction": "Prove target locale/font/table bindings and representative script surfaces, including dialogue progression.",
+      "feasibility": "blocked",
+      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.; Menu mixed RTL/Latin order visible; selector endonym is reversed/unshaped. Menu support cannot be reused for selector. Hebrew mark placement and Persian ZWNJ require further checks.",
+      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
       "catalog": {
-        "artifact": "outputs/catalog-resume-20261007/he-catalog.bin",
-        "sha256": "9bf16d1e31edbd3ec9f96638ad06a3156804f805d60b4c59708c09aa5c0450dd",
-        "integrity": {
-          "bundle": "localization-string-tables-russian(ru)_assets_all.bundle",
-          "optionsOffset": 11315,
-          "oldCrc": 2468446768,
-          "newCrc": 2757221009,
-          "oldSize": 1435339,
-          "newSize": 1455879,
-          "catalogBundleLocationsCompared": 26,
-          "changedFieldSpan": [
-            11323,
-            11331
-          ]
-        }
-      }
+        "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
+        "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
+      },
+      "nativeEvidence": "Documentation/native-locale-evidence.json"
     }
   ],
   "runtimeAttempt": {
@@ -2075,25 +1926,86 @@
     ]
   },
   "validation": {
-    "guardTests": 10,
+    "guardTests": 19,
     "guardTestsResult": "passed-under-python-O",
     "command": ".venv/bin/python -O -m unittest discover -s Tests -v",
     "realAssetRoundTrips": 15,
     "realAssetRoundTripsResult": "passed-under-python-O",
     "roundTripCommand": ".venv/bin/python -O Scripts/probe_assets.py --output outputs/catalog-resume-20261007",
     "bundleAndCatalogHashesMatchPreviousRun": true,
-    "runtime": "passed-for-russian-noop-menu; target-locale-runtime-not-run"
+    "runtime": "14 native menu/settings bindings verified; full gate blocked/unverified",
+    "nativeContainerSets": "32 locales, 135 Russian-carrier strings and 15 image tables; complete saved object/container sets compared",
+    "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test."
   },
-  "nextAction": "Implement bounded target-language selection and font/table bindings, then verify synthetic scripts on menu, dense UI, dialogue, mixed dynamic text and next semantic state before dependent mass localization.",
+  "nextAction": "Resolve Hindi shaping and Persian/Hebrew selector paths, then test dialogue, dense UI, mixed dynamic text and next semantic state. Substantial renderer work requires owner decision under EARLY-PROBE.",
   "toolFingerprints": {
+    "Scripts/build_locale_probe.py": "0dfc5cba62bdb5a4a306cde4b9407eb45332ca517ad60274ea55490ace50aeba",
+    "Scripts/probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
+    "Scripts/fixture_preferences.py": "28d145b003f589b4f973722221ceb2385dca3b2e2ca4863fdf0c45767d884d4d",
+    "Scripts/run_saved_locale_probe.py": "6fedad27b39fa5c5ea14fead01eda7482a826c4480f52dffd469e03904446a2d",
+    "Scripts/probe_menu_features.py": "5cff623bae2b4c56ddf9c2ae23b48b41e2dd2435cb1c4bf664aaaa085765caf0",
+    "Scripts/addressables_catalog.py": "d40c3d38cd0c1bf36a76064f98eca2a38f92cafe9992a01fecb0a1b4de60a564",
+    "Scripts/install_locale_probe.py": "887f117bebb3e2e1f6cb12c1361926f51107b9cb5afc49742948841489662129",
+    "Scripts/unity_types.py": "090d8595b22e69df5a3f98b306d4ea256344689a2132172e6b81c698f2bae8bd",
     "Scripts/probe_assets.py": "94e82057445deab0a95c779ebe5dfb9477f9f4d37aad44b7d2941002daa20c90",
-    "Scripts/probe_fonts.py": "6f5e6c6265f48fee028306d24a6d1b95707d01317973eecafa2bfd7b2366b995",
-    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02",
-    "Scripts/addressables_catalog.py": "e2aa8f398372706a1abed0b97c5b85bc1998c67f26663081d04845dd87de602f",
-    "Tests/test_catalog_integrity.py": "4130440deb2dc8bae3f3ff250e23a9a567901eaf75447bf8a0701a421edeb61d",
-    "Scripts/visual-qa/run_capture.py": "f1b449e479e7781d71362ed31724ce394b825fe7ed0b37448fc7fef556e68079",
+    "Scripts/render_font_reference.swift": "2ff301b1b74855c258cde74f64ec0d175221361e8bc7746695f73f28ebc0093b",
+    "Scripts/visual-qa/target_input.swift": "c9ffc7379211ded053a107ff7761a96b85d11d18fc68cfd2864f12e1eddce9a1",
+    "Scripts/visual-qa/guarded_click.py": "83503287c5ee3c891136f02ab799dc871314d75bd9be08ff3efccf350effe8d8",
     "Scripts/visual-qa/window_info.swift": "170814360b5c0382254feff6e02db6f08aa88b5177ce22077081681aade6a06e",
-    "Scripts/visual-qa/target_input.swift": "41b832e1b49990ef38771036e0707aa5273934a93c942e84d455beccf6f809f4",
-    "Scripts/visual-qa/probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076"
+    "Scripts/visual-qa/run_capture.py": "403cbbcba5b34e34a2f65e359fb96e10d6d4c0161538c72879fcbc8924ab9a11",
+    "Scripts/visual-qa/probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076",
+    "Tests/test_catalog_integrity.py": "4130440deb2dc8bae3f3ff250e23a9a567901eaf75447bf8a0701a421edeb61d",
+    "Tests/test_install_locale_probe.py": "2b33676abe6e37e9e1b624a382d69cda8889574f62e8c1fa14192f7d1cf6a94e",
+    "Tests/test_native_locale_probe.py": "e65bfd73e98ebe8a1eb031725b6ee4d809c83d838cf33082acb4bb3eb21c50b1",
+    "Tests/test_probe_guards.py": "cd972b6239c3a4ce8fc78288b632113385dd44bb55e2fb62a660149074b5edb1",
+    "Tests/test_fixture_preferences.py": "0c74bee1df1b5471dc78e54060fe8d1be67d388d07a8e8acf30ab6c7db5c1f96",
+    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02"
+  },
+  "nativeLocaleProbe": {
+    "evidence": "Documentation/native-locale-evidence.json",
+    "buildReport": {
+      "path": "outputs/native-locale-probe-v6/report.json",
+      "sha256": "873b11f8f9c9173839b162061eee4cda4e1009965a32bd54d8c5f9a4a9bfbb88"
+    },
+    "installReceipt": {
+      "path": "outputs/native-locale-install-v3/receipt.json",
+      "sha256": "8953da62384909757793ffa0de2a1986b0200d354d877ca0fbf36f85b7c96f5a"
+    },
+    "registeredNewLocales": 14,
+    "preservedOfficialLocales": 18,
+    "carrierTables": 140,
+    "fontRoles": 3,
+    "artifactCount": 24
+  },
+  "currentRuntimeStatus": {
+    "recordedAt": "2026-10-07T17:04:26.524929+00:00",
+    "fixtureStopped": true,
+    "savedLocale": "ru",
+    "all24InstalledArtifactHashesMatchV6": true,
+    "level0RestoredOriginalSha256": "c62ac0001ae7bb51ba6bd08731097597d8127da4a4f9b5f00f1f5a51bea1ad52",
+    "menu": {
+      "path": "outputs/native-ru-restoration-v2/ru/menu/native.png",
+      "sha256": "238930be4e3430961e56b87a9c9a0851f0431f3a82a09c16d0e0aca659a7e402"
+    },
+    "settings": {
+      "path": "outputs/native-ru-restoration-v2/ru/settings/native.png",
+      "sha256": "bbaafc422e568c56d11e0d2fd4e46cbe094169d568f91ffce181704c2cd79333"
+    },
+    "log": {
+      "path": "outputs/native-ru-restoration-v2/ru/Player.log",
+      "sha256": "6a4d0d22350e46cd4a88202773f62dda559d985279f1e08e5a1c5ae869e44e56"
+    },
+    "stopReceipt": {
+      "path": "outputs/native-ru-restoration-v2/ru/stop.json",
+      "sha256": "2a0fd8f77ad51d0739e13fdd4999c4ed9251d1605d4c3bf25d4c1ddf57e0cc13"
+    },
+    "resourceFailureCounts": {
+      "CRC Mismatch": 0,
+      "Unable to load asset": 0,
+      "No translation found": 0,
+      "KeyNotFoundException": 0,
+      "NullReferenceException": 0
+    },
+    "saveScope": "Copied-prefix settings reset; not a restoration claim for original user preferences/saves."
   }
 }

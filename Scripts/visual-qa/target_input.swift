@@ -3,6 +3,7 @@
 import AppKit
 import CoreGraphics
 import Foundation
+import ApplicationServices
 
 func reject(_ message: String) -> Never { fputs(message + "\n", stderr); exit(1) }
 let args = Array(CommandLine.arguments.dropFirst())
@@ -16,7 +17,11 @@ guard let info = windows.first(where: {
 }), let bounds = info[kCGWindowBounds as String] as? [String: Double],
     let x = bounds["X"], let y = bounds["Y"], let w = bounds["Width"], let h = bounds["Height"] else { reject("Owned window disappeared") }
 if args[0] == "focus" {
-    guard app.activate(options: [.activateIgnoringOtherApps]) else { reject("Could not focus fixture") }
+    guard AXIsProcessTrusted() else { reject("Accessibility access unavailable; no input sent") }
+    let element = AXUIElementCreateApplication(pid)
+    guard AXUIElementSetAttributeValue(element, kAXFrontmostAttribute as CFString, kCFBooleanTrue) == .success else {
+        reject("Could not focus exact fixture through Accessibility")
+    }
 } else if args[0] == "click", args.count == 5, let px = Double(args[3]), let py = Double(args[4]) {
     guard NSWorkspace.shared.frontmostApplication?.processIdentifier == pid else { reject("Fixture lost focus; no input sent") }
     guard px > x && px < x+w && py > y && py < y+h else { reject("Click outside owned window") }

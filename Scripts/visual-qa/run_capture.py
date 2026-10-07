@@ -20,7 +20,7 @@ def sha(path):
 
 
 def run(output, marker):
-    for path in [JAVA, JAR, MAGICK]:
+    for path in ([JAVA, JAR, MAGICK] if marker else [MAGICK]):
         if not path.is_file():
             raise ValueError('Missing capture dependency: ' + str(path))
     if not output.is_relative_to(ROOT / 'outputs'):
@@ -38,7 +38,8 @@ def run(output, marker):
                     str(worker / 'window_info.swift'), '-o', str(helper)], check=True)
     info = json.loads(subprocess.check_output([str(helper)], text=True))
     (output / 'window-info.json').write_text(json.dumps(info, indent=2) + '\n')
-    windows = [w for w in info['windows'] if w.get('kCGWindowName') == 'NoImNotAHuman' and w.get('kCGWindowLayer') == 0]
+    # Wine fullscreen uses layer 26 after focus; ownership and uniqueness are the guard.
+    windows = [w for w in info['windows'] if w.get('kCGWindowName') == 'NoImNotAHuman']
     if not info['screenRecordingAllowed'] or len(windows) != 1:
         raise ValueError('Expected one readable isolated game window; no game action performed')
     win = windows[0]
@@ -46,8 +47,12 @@ def run(output, marker):
     copied_marker = worker / 'marker.png'
     if marker:
         shutil.copy2(marker, copied_marker)
-    command = [str(JAVA), '-jar', str(JAR), '-c', '-r', str(worker / 'probe_capture.sikuli'),
-               '--', mode, str(output), str(win['kCGWindowNumber']), str(copied_marker), str(helper)]
+    if marker:
+        command = [str(JAVA), '-jar', str(JAR), '-c', '-r', str(worker / 'probe_capture.sikuli'),
+                   '--', mode, str(output), str(win['kCGWindowNumber']), str(copied_marker), str(helper)]
+    else:
+        # Capture-only work must not initialize Oculix's mouse/input subsystem.
+        command = ['/usr/sbin/screencapture', '-x', '-o', '-l', str(win['kCGWindowNumber']), str(output/'native.png')]
     result = subprocess.run(command, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=120)
     (output / 'oculix.log').write_text(result.stdout)
     frame = output / 'native.png'
@@ -55,10 +60,12 @@ def run(output, marker):
     evidence = {'schemaVersion': 1, 'recordedAt': datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 'gameVersion': '1.3.19', 'purpose': 'technical-window-capture', 'runtimeLocale': None,
                 'window': win, 'sourceFingerprints': {str(p.relative_to(output)): sha(p) for p in worker.rglob('*') if p.is_file()},
-                'jarSha256': sha(JAR), 'javaVersion': subprocess.check_output([str(JAVA), '-version'], stderr=subprocess.STDOUT, text=True),
+                'captureBackend': 'Oculix-guard' if marker else 'native-window-capture',
+                'jarSha256': sha(JAR) if marker else None,
+                'javaVersion': subprocess.check_output([str(JAVA), '-version'], stderr=subprocess.STDOUT, text=True) if marker else None,
                 'magickVersion': subprocess.check_output([str(MAGICK), '-version'], text=True).splitlines()[0],
                 'nativeCapture': {'path': str(frame.relative_to(ROOT)), 'sha256': sha(frame) if frame.is_file() else None, 'dimensions': size},
-                'automatedResult': 'pass' if result.returncode == 0 and 'VN_HUMAN_CAPTURE_OK:' in result.stdout else 'fail',
+                'automatedResult': 'pass' if result.returncode == 0 and frame.is_file() and (not marker or 'VN_HUMAN_CAPTURE_OK:' in result.stdout) else 'fail',
                 'visualReview': {'status': 'pending'}, 'inputActions': 0, 'localeOrSaveActions': 0,
                 'cleanup': 'capture-only; already-running authorized fixture retained'}
     (output / 'evidence.json').write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + '\n')
