@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T18:54:14.010037+00:00",
+  "updatedAt": "2026-10-07T19:42:37+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -9,7 +9,7 @@
   "sourceLocale": "ru",
   "localizationType": "standard",
   "currentStage": "source-glossary",
-  "stageStatus": "standalone-source-glossary-in-progress; renderer-gate-incomplete",
+  "stageStatus": "standalone-source-glossary-draft-needs-research; renderer-gate-incomplete",
   "targetLocales": [
     "th",
     "id",
@@ -1941,7 +1941,7 @@
     "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test.",
     "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
   },
-  "nextAction": "Extract source glossary corpus, reconcile full speaking roster, research and author canonical Russian entries; run two consecutive clean full-entry audits.",
+  "nextAction": "Research unresolved phone/radio/TV roles and attribution conflicts; reconcile full roster and texture text; complete source-fidelity review and two consecutive clean full-entry glossary audits.",
   "toolFingerprints": {
     "Scripts/build_locale_probe.py": "0dfc5cba62bdb5a4a306cde4b9407eb45332ca517ad60274ea55490ace50aeba",
     "Scripts/probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
@@ -2005,7 +2005,59 @@
     "standard": "standard",
     "ownerRequested": true,
     "canonicalPath": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary.json",
-    "status": "in-progress",
-    "rendererReadiness": "unverified; separate request scope"
+    "status": "draft-needs-research",
+    "rendererReadiness": "unverified; separate request scope",
+    "entryCount": 173,
+    "sourceFileSha256": "936439ef4c52182fb8ce9f442ec57d92114575325822e7bed91ae30b632b29e6",
+    "sourceCorpusSha256": "e948bfe11b38e1d9a7818a6cbebb67e10a278e0d6d15caa0ef4631c1d5e509fe",
+    "evidencePath": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-evidence.json",
+    "consecutiveCleanFullAudits": 0,
+    "unresolvedCharacterIds": [
+      "phone-roulette-short-caller",
+      "fema-phone-doctor",
+      "fema-recruitment-voice",
+      "for-rest-operator",
+      "embassy-voice",
+      "psychics-reception",
+      "voice-from-fortune-teller",
+      "female-tv-presenter",
+      "radio-believe-host",
+      "radio-dispatcher",
+      "radio-employee-32-8",
+      "radio-employee-28-8",
+      "radio-employee-18-8",
+      "radio-evicted-people",
+      "radio-rescue-dialogue",
+      "radio-warning-voices",
+      "radio-advertising-voices",
+      "phone-roulette-reception",
+      "radio-rescue-dispatcher",
+      "radio-rescue-caller",
+      "radio-day-7-warning",
+      "radio-day-10-warning",
+      "radio-day-11-warning",
+      "radio-day-12-dispatcher",
+      "radio-human-verification-ad",
+      "radio-psychics-ad",
+      "radio-phone-roulette-ad",
+      "tv-advertising-voices"
+    ],
+    "ownerUnknownPolicy": "Additional research selected on 2026-10-08; proposed neutrality strategy not approved.",
+    "fanWikisAuthorized": true,
+    "sourceSelectionLimit": "Current Dialogs and UI; legacy/demo/test excluded. Speaking roster and texture text require final reconciliation.",
+    "publication": "not-requested; not-run",
+    "canonicalSourceFingerprint": "3be8ddb8053cd52003b94ab11d81cc005608d1cba89dbf8e051523d33f5c9eb5",
+    "validation": {
+      "glossaryCheck": "passed",
+      "focusedTests": {
+        "passed": 39,
+        "failed": 0
+      },
+      "snapshotByteParity": "passed",
+      "editorialGate": "pending; zero accepted clean full-entry audits",
+      "authoredInputReproduction": "passed; assembled bytes equal canonical snapshot"
+    },
+    "modelUsage": "Per-request token telemetry unavailable; no estimates recorded.",
+    "canonicalCommit": "7d0c184628cfc496b7811ba44f56189f9539e928"
   }
 }
