@@ -77,9 +77,12 @@ catalog. Its native frame is no longer present in the recorded output directory;
 do not credit that capture as current visual evidence. The corrected Russian
 settings frame and fresh Unity log are recorded in
 `outputs/runtime-catalog-verified-20261007/evidence.json`: Russian labels render
-and no CRC/resource-provider failure was logged. The unobscured main-menu
-check is pending manual return; guarded input was refused when another app
-was active. New target-language selection and rendering remain unverified.
+and no CRC/resource-provider failure was logged. After the owner pressed Back,
+the unobscured Russian menu passed visual review; all five action labels are
+present in `outputs/runtime-catalog-menu-20261007/evidence.json`. The isolated
+fixture was verified stopped. The automated Back click had correctly refused
+input when another app was active. New target-language selection, script
+rendering and dialogue progression remain unverified.
 
 For an already-running authorized fixture, capture without input or save actions:
 
