@@ -1,0 +1,1802 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-07T12:35:35Z",
+  "game": "No, I'm not a Human",
+  "slug": "no-im-not-a-human",
+  "gameVersion": "1.3.19",
+  "unityVersion": "6000.3.10f1",
+  "buildGuid": "c003ddc7de634775a85305fef3b9a0d3",
+  "sourceLocale": "ru",
+  "localizationType": "standard",
+  "currentStage": "probe",
+  "stageStatus": "runtime-unverified",
+  "targetLocales": [
+    "th",
+    "id",
+    "cs",
+    "hu",
+    "nl",
+    "fa",
+    "ro",
+    "hi",
+    "fil",
+    "el",
+    "bg",
+    "sr",
+    "sw",
+    "he"
+  ],
+  "massWorkAuthorizedByGate": false,
+  "summary": "Static asset round trips pass for all 14 targets. Target language activation and font-role configuration remain unresolved. Runtime started, owner confirmed menu; changed Russian resource loading and screenshots are unverified.",
+  "processReferences": [
+    {
+      "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
+      "sha256": "b0b71fd8d9891837fa82bd9833ea935eb52eed4fc28689cd9538f1633afba4da"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/EARLY-PROBE.md",
+      "sha256": "834ea4fe965447f00c59680d149fc1445fe08b8f042f30c99a0504354c9bc237"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/instructions/game-localization-prompt.md",
+      "sha256": "d579cb5e2fbf5acf97e35b39cc1f4de2696b1e28fe5a1a0723d7dfedeab433ea"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/instructions/game-localization-audit-workflow.md",
+      "sha256": "d48c07764d092293837d679bf9ccdba082c5d7b665b7db43d0e23e080e3af4b6"
+    }
+  ],
+  "sourceRoot": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human",
+  "sourceInputs": {
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-russian(ru)_assets_all.bundle": "ba1f1cd529e6e800e48d374625870533bda8441aac10727fe7c7e895d1621495",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle": "7164964df37774f267588443eaaf7019b1d5c9557bc9be047ae3fcf3d01fbeca",
+    "NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle": "28ef296b4e773eb8bf91ef221548a29c1b43de7f28da4b450d58eb405d32fe84",
+    "NoImNotAHuman_Data/globalgamemanagers": "148d608b728aa76f6f0f4e49b91817483aefcbd088839528063ca2185dba2d27",
+    "NoImNotAHuman_Data/boot.config": "1e50e23322a0d50f59cde6bcb9aea2d1f8d9198063715761552c81437855a727",
+    "NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin": "ce920720e430e2d942bc33f9538a0c09a3c39770ddbfde044a32a60ba0c96f57",
+    "GameAssembly.dll": "de2c120d90e757916d74c298f264040df0cda1ddaa8c412e438aeee72eb4dc3f",
+    "NoImNotAHuman_Data/resources.assets": "72c3b8233b4671fede057155476c2eeaa49100aeee507eee0972f70fbf1325fa",
+    "NoImNotAHuman_Data/sharedassets0.assets": "dd43a6956cf938545636c2669b4bcb501d87aa5ad2dd4c00f948edc37a7315cb",
+    "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+    "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/RTLTMPro.dll": "50e9863ab4fefb257ed42be33e83561ef185f52859a3212dc6239c066f88412b",
+    "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.TextMeshPro.dll": "e197d6ff84cce5b958ee55d45526081d98825ef56807317b116a320ac0eb30f4"
+  },
+  "sourceUnchangedForPinnedInputs": true,
+  "staticEvidence": [
+    {
+      "path": "outputs/early-probe-verified-20261007/report.json",
+      "sha256": "ae8d4673b682656d0e666678b49d5e7627068c7539e6a52fff224ab8eb7dce9a"
+    },
+    {
+      "path": "outputs/font-probe-verified-20261007/report.json",
+      "sha256": "13cb8e842b7c815322d9466e6299ab2900d66630334526401399e184286a77f6"
+    }
+  ],
+  "noOp": {
+    "artifact": "outputs/early-probe-verified-20261007/no-op.bundle",
+    "sha256": "bd3ddf9123c316883779dde62ef0db6d04ab9fa94c7581598456333f593b6367",
+    "allObjectBytesEqual": true,
+    "allSerializedValuesEqual": true
+  },
+  "uiBinding": {
+    "key": "Common_NewGame",
+    "id": 55224523648913408,
+    "sourceValue": "Новая игра"
+  },
+  "tableSummary": [
+    {
+      "name": "TestDialogs_ru",
+      "serializedRows": 2014,
+      "uniqueIds": 2014,
+      "duplicateIds": 0
+    },
+    {
+      "name": "DemoDialogs_ru",
+      "serializedRows": 3237,
+      "uniqueIds": 3237,
+      "duplicateIds": 0
+    },
+    {
+      "name": "UI_ru",
+      "serializedRows": 259,
+      "uniqueIds": 259,
+      "duplicateIds": 0
+    },
+    {
+      "name": "DayDialogs_ru",
+      "serializedRows": 10328,
+      "uniqueIds": 10328,
+      "duplicateIds": 0
+    },
+    {
+      "name": "Endings_ru",
+      "serializedRows": 415,
+      "uniqueIds": 415,
+      "duplicateIds": 0
+    },
+    {
+      "name": "NotCharacterDialogs_ru",
+      "serializedRows": 1617,
+      "uniqueIds": 1617,
+      "duplicateIds": 0
+    },
+    {
+      "name": "NightDialogs_ru",
+      "serializedRows": 7599,
+      "uniqueIds": 7599,
+      "duplicateIds": 0
+    },
+    {
+      "name": "ChecksDialogs_ru",
+      "serializedRows": 11219,
+      "uniqueIds": 11219,
+      "duplicateIds": 0
+    },
+    {
+      "name": "Dialogs_ru",
+      "serializedRows": 16100,
+      "uniqueIds": 16100,
+      "duplicateIds": 0
+    }
+  ],
+  "countLimit": "Serialized row counts are not a visible translation inventory or workload denominator.",
+  "fontRoleEvidence": [
+    {
+      "assetFile": "resources.assets",
+      "pathId": 1453,
+      "role": "HandwriteFonts",
+      "entries": [
+        {
+          "Key": "en",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "ru",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "fr",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "de",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "pt-BR",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "pt_PT",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "es",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "es-AR",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "zh",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2612
+          }
+        },
+        {
+          "Key": "zh-Hant",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2613
+          }
+        },
+        {
+          "Key": "ja",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2608
+          }
+        },
+        {
+          "Key": "ko",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2609
+          }
+        },
+        {
+          "Key": "vi",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1460
+          }
+        },
+        {
+          "Key": "it",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "pl",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "uk",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "tr",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          }
+        },
+        {
+          "Key": "ar",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2605
+          }
+        }
+      ],
+      "absentTargetCodes": [
+        "th",
+        "id",
+        "cs",
+        "hu",
+        "nl",
+        "fa",
+        "ro",
+        "hi",
+        "fil",
+        "el",
+        "bg",
+        "sr",
+        "sw",
+        "he"
+      ]
+    },
+    {
+      "assetFile": "resources.assets",
+      "pathId": 1454,
+      "role": "SerifFonts",
+      "entries": [
+        {
+          "Key": "en",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "ru",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "fr",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "de",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "pt-BR",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "pt-PT",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "es",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "es-AR",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "zh",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2612
+          }
+        },
+        {
+          "Key": "zh-Hant",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2613
+          }
+        },
+        {
+          "Key": "ja",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2608
+          }
+        },
+        {
+          "Key": "ko",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2609
+          }
+        },
+        {
+          "Key": "vi",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 1459
+          }
+        },
+        {
+          "Key": "it",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "pl",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "uk",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "tr",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2610
+          }
+        },
+        {
+          "Key": "ar",
+          "Value": {
+            "m_FileID": 2,
+            "m_PathID": 2605
+          }
+        }
+      ],
+      "absentTargetCodes": [
+        "th",
+        "id",
+        "cs",
+        "hu",
+        "nl",
+        "fa",
+        "ro",
+        "hi",
+        "fil",
+        "el",
+        "bg",
+        "sr",
+        "sw",
+        "he"
+      ]
+    },
+    {
+      "assetFile": "sharedassets0.assets",
+      "pathId": 2601,
+      "role": "BaseFonts",
+      "entries": [
+        {
+          "Key": "en",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "ru",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "fr",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "de",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "pt-BR",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "pt-PT",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "es-AR",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "es",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "zh",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2612
+          }
+        },
+        {
+          "Key": "zh-Hant",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2613
+          }
+        },
+        {
+          "Key": "ja",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2607
+          }
+        },
+        {
+          "Key": "ko",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2609
+          }
+        },
+        {
+          "Key": "vi",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2614
+          }
+        },
+        {
+          "Key": "it",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "pl",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "uk",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "tr",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2611
+          }
+        },
+        {
+          "Key": "ar",
+          "Value": {
+            "m_FileID": 0,
+            "m_PathID": 2605
+          }
+        }
+      ],
+      "absentTargetCodes": [
+        "th",
+        "id",
+        "cs",
+        "hu",
+        "nl",
+        "fa",
+        "ro",
+        "hi",
+        "fil",
+        "el",
+        "bg",
+        "sr",
+        "sw",
+        "he"
+      ]
+    }
+  ],
+  "localeRows": [
+    {
+      "locale": "th",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Thai marks above/below, stacking, spacing, wrapping and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/th-sample.bundle",
+      "staticArtifactSha256": "86cfe815f105bdecb9482789b2129d7b121fdca1c004dab72ca37a8c82d97c0a",
+      "cmapCandidates": [
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "id",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/id-sample.bundle",
+      "staticArtifactSha256": "4726f15f8e126098704d4d0582aaa1005e82fde42bfcc06e7c3986814affa6f2",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 81,
+          "name": "PerfectDOSVGA437",
+          "fontSha256": "ab5f7798ce9d05aa09380fce2142b11690ba3216a73208954f87c6c63a035102"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1162,
+          "name": "DotGothic16-Regular",
+          "fontSha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1164,
+          "name": "VCR OSD Mono Cyr",
+          "fontSha256": "696c9cb7cd2a467b003c3cf9ecdb73ee694eac5327a43a3e93d170d5a854b09a"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1166,
+          "name": "NotoSansSC-Medium",
+          "fontSha256": "df50ef7d0de652bc505cf40251c6580e872942d8f4d6c9ac1dc348995355aebf"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1167,
+          "name": "NotoSansTC-Medium",
+          "fontSha256": "a10dd56d59a79cd792d48d2bbc9572ec20defef10072b9695250def9dc268c5b"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1169,
+          "name": "NotoSansJP-Medium",
+          "fontSha256": "ef25e1f6d8a96267b8ae6b9c11210d88556fea3983a1ff3b107b9a27122d9b07"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1171,
+          "name": "NotoSansKR-SemiBold",
+          "fontSha256": "7400a489542a8b0c42547530b55df54dce876b54508512898dc5a3859bdc2a01"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "cs",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/cs-sample.bundle",
+      "staticArtifactSha256": "910588be8e437cd71a5fcd089d60cf871c5d7f5c5c5ce7d227658f9fa57ed7c5",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "hu",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/hu-sample.bundle",
+      "staticArtifactSha256": "c03101898f414ebc823bbf33cc64d5ad7ea9d26f5ac3309aca9a3f3f750b381b",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "nl",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/nl-sample.bundle",
+      "staticArtifactSha256": "98f45e38d2b9317bed13bad6f94a675db622ab4fcf90c82994e4fb85f9e75f3f",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 81,
+          "name": "PerfectDOSVGA437",
+          "fontSha256": "ab5f7798ce9d05aa09380fce2142b11690ba3216a73208954f87c6c63a035102"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1162,
+          "name": "DotGothic16-Regular",
+          "fontSha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1164,
+          "name": "VCR OSD Mono Cyr",
+          "fontSha256": "696c9cb7cd2a467b003c3cf9ecdb73ee694eac5327a43a3e93d170d5a854b09a"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1166,
+          "name": "NotoSansSC-Medium",
+          "fontSha256": "df50ef7d0de652bc505cf40251c6580e872942d8f4d6c9ac1dc348995355aebf"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1167,
+          "name": "NotoSansTC-Medium",
+          "fontSha256": "a10dd56d59a79cd792d48d2bbc9572ec20defef10072b9695250def9dc268c5b"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1169,
+          "name": "NotoSansJP-Medium",
+          "fontSha256": "ef25e1f6d8a96267b8ae6b9c11210d88556fea3983a1ff3b107b9a27122d9b07"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1171,
+          "name": "NotoSansKR-SemiBold",
+          "fontSha256": "7400a489542a8b0c42547530b55df54dce876b54508512898dc5a3859bdc2a01"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "fa",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Persian joining, ZWNJ, bidi mixed with Latin/numbers/tags and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/fa-sample.bundle",
+      "staticArtifactSha256": "e900bc0b0a1aaf8db3c16e874a285ae03c519d0ce29837a27eb666a41cf1ac54",
+      "cmapCandidates": [
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "ro",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/ro-sample.bundle",
+      "staticArtifactSha256": "420e67f2e64d1c1f3c662b9feb646120226434c77eb698b6ceb128b1d82e6471",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "hi",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Devanagari conjuncts, reordering, mark placement, wrapping and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/hi-sample.bundle",
+      "staticArtifactSha256": "bf2b1e309f29e28b8d032e0d9398bc835f0cc6ff37463eff7500ee4631f92e3e",
+      "cmapCandidates": [
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "fil",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/fil-sample.bundle",
+      "staticArtifactSha256": "3fa9daa22bd2c4021f2f95d40b9e0b1fe5090b1ccb801f8fd5ebb6bb86a4b203",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 81,
+          "name": "PerfectDOSVGA437",
+          "fontSha256": "ab5f7798ce9d05aa09380fce2142b11690ba3216a73208954f87c6c63a035102"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1162,
+          "name": "DotGothic16-Regular",
+          "fontSha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1164,
+          "name": "VCR OSD Mono Cyr",
+          "fontSha256": "696c9cb7cd2a467b003c3cf9ecdb73ee694eac5327a43a3e93d170d5a854b09a"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1166,
+          "name": "NotoSansSC-Medium",
+          "fontSha256": "df50ef7d0de652bc505cf40251c6580e872942d8f4d6c9ac1dc348995355aebf"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1167,
+          "name": "NotoSansTC-Medium",
+          "fontSha256": "a10dd56d59a79cd792d48d2bbc9572ec20defef10072b9695250def9dc268c5b"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1169,
+          "name": "NotoSansJP-Medium",
+          "fontSha256": "ef25e1f6d8a96267b8ae6b9c11210d88556fea3983a1ff3b107b9a27122d9b07"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1171,
+          "name": "NotoSansKR-SemiBold",
+          "fontSha256": "7400a489542a8b0c42547530b55df54dce876b54508512898dc5a3859bdc2a01"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "el",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Greek diacritics, metrics, wrapping and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/el-sample.bundle",
+      "staticArtifactSha256": "98b4117700bef0224d889566b3133f24eb6b4c5fc845a06cc90506e7598a718f",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "bg",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Cyrillic-specific glyphs, metrics, wrapping and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/bg-sample.bundle",
+      "staticArtifactSha256": "d4c309bab877160eeadec898a6050e91a3d86c740dc930bfd975f3b1cc8ca481",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1162,
+          "name": "DotGothic16-Regular",
+          "fontSha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1164,
+          "name": "VCR OSD Mono Cyr",
+          "fontSha256": "696c9cb7cd2a467b003c3cf9ecdb73ee694eac5327a43a3e93d170d5a854b09a"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1166,
+          "name": "NotoSansSC-Medium",
+          "fontSha256": "df50ef7d0de652bc505cf40251c6580e872942d8f4d6c9ac1dc348995355aebf"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1167,
+          "name": "NotoSansTC-Medium",
+          "fontSha256": "a10dd56d59a79cd792d48d2bbc9572ec20defef10072b9695250def9dc268c5b"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1169,
+          "name": "NotoSansJP-Medium",
+          "fontSha256": "ef25e1f6d8a96267b8ae6b9c11210d88556fea3983a1ff3b107b9a27122d9b07"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1171,
+          "name": "NotoSansKR-SemiBold",
+          "fontSha256": "7400a489542a8b0c42547530b55df54dce876b54508512898dc5a3859bdc2a01"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "sr",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Cyrillic-specific glyphs, metrics, wrapping and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/sr-sample.bundle",
+      "staticArtifactSha256": "804de8e6dff2400d0d0b6aa3b80300838a196c92cf681a76c8fe1bd5bf3c7939",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "sw",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Latin diacritics, spaces, wrapping, narrow UI, dynamic text and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/sw-sample.bundle",
+      "staticArtifactSha256": "4c4c97972c2d7b20a03b40d98e798bc5da8b9045c9f6e18ac163dbfa08f00770",
+      "cmapCandidates": [
+        {
+          "file": "resources.assets",
+          "pathId": 80,
+          "name": "Caveat-SemiBold",
+          "fontSha256": "ffca32dee84af4ee1ffe386f7e7da71f7fadc08264bb7dea53099360f531baac"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 81,
+          "name": "PerfectDOSVGA437",
+          "fontSha256": "ab5f7798ce9d05aa09380fce2142b11690ba3216a73208954f87c6c63a035102"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 82,
+          "name": "PlaypenSans-Medium",
+          "fontSha256": "4232e0f4f58a05a1d722399310c95664c070e0ce1385c8da2f224a2ca61d03ab"
+        },
+        {
+          "file": "resources.assets",
+          "pathId": 83,
+          "name": "NotoSerif-Regular",
+          "fontSha256": "a7e8ea1ab7e7d368b001c892d6148325fffc849a46e030e55e1bdc597bbe939d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1162,
+          "name": "DotGothic16-Regular",
+          "fontSha256": "ff706ab702fd4446207c70af564f68b62205c9972f1917f68ba739c61bb6aa18"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1163,
+          "name": "NotoNaskhArabic-Regular",
+          "fontSha256": "706b4580c025f6c75ec1c06013e17f00a23ec1780091b77a5a5b339469bda94d"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1164,
+          "name": "VCR OSD Mono Cyr",
+          "fontSha256": "696c9cb7cd2a467b003c3cf9ecdb73ee694eac5327a43a3e93d170d5a854b09a"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1165,
+          "name": "NotoSans-SemiBold",
+          "fontSha256": "e691fe27813ec6ed11d0a5be4c6c1f6739996ed682462eaa3244a6185217dd6c"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1166,
+          "name": "NotoSansSC-Medium",
+          "fontSha256": "df50ef7d0de652bc505cf40251c6580e872942d8f4d6c9ac1dc348995355aebf"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1167,
+          "name": "NotoSansTC-Medium",
+          "fontSha256": "a10dd56d59a79cd792d48d2bbc9572ec20defef10072b9695250def9dc268c5b"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1168,
+          "name": "AnonymousPro-Regular",
+          "fontSha256": "6ed4f7a596a024653fdb8d6483064761021fb8136de49e23b630e458825725b7"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1169,
+          "name": "NotoSansJP-Medium",
+          "fontSha256": "ef25e1f6d8a96267b8ae6b9c11210d88556fea3983a1ff3b107b9a27122d9b07"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1170,
+          "name": "ChakraPetch-SemiBold",
+          "fontSha256": "e0e258884d8693693c1476e2457c558117658b4b0ee606268724f91aa3b8e113"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1171,
+          "name": "NotoSansKR-SemiBold",
+          "fontSha256": "7400a489542a8b0c42547530b55df54dce876b54508512898dc5a3859bdc2a01"
+        },
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    },
+    {
+      "locale": "he",
+      "phase": "probe",
+      "translated": 0,
+      "total": null,
+      "glossary": "not-started",
+      "editorial": "not-started",
+      "fonts": "cmap-discovery-only",
+      "textures": "not-started",
+      "build": "synthetic-carrier-bundle-roundtrip-passed",
+      "runtime": "not-run",
+      "visual": "not-run",
+      "release": "not-created",
+      "runtimeLocale": null,
+      "processBinding": "shared-standard-v1",
+      "sourceInventoryFingerprint": null,
+      "glossaryFingerprint": null,
+      "requirements": [
+        "Hebrew combining marks, bidi mixed with Latin/numbers/tags and dialogue advancement"
+      ],
+      "surfaces": [
+        "main-menu",
+        "dense-ui",
+        "dialogue",
+        "mixed-dynamic-text",
+        "next-semantic-state"
+      ],
+      "staticArtifact": "outputs/early-probe-verified-20261007/he-sample.bundle",
+      "staticArtifactSha256": "a9705cc155f251354623925778c889aa5e7413e0dac5f55a3470b950aad3ef89",
+      "cmapCandidates": [
+        {
+          "file": "sharedassets0.assets",
+          "pathId": 1172,
+          "name": "LiberationSans",
+          "fontSha256": "e5b0af421ea2bfbc1ac8d251d647268087ae82786234c57f757d1f0b90fa8b49"
+        }
+      ],
+      "feasibility": "unverified",
+      "blocker": "Target language activation/font-role mappings are not implemented; changed resource load and rendering have not been verified.",
+      "nextAction": "Resolve native capture and prove the declared language/font/table adapter on all applicable surfaces before mass work."
+    }
+  ],
+  "runtimeAttempt": {
+    "fixture": "runtime/No Human Probe.app",
+    "fixtureBundleId": "fun.vnrevival.no-human.probe",
+    "payload": {
+      "artifact": "outputs/early-probe-verified-20261007/no-op.bundle",
+      "sha256": "bd3ddf9123c316883779dde62ef0db6d04ab9fa94c7581598456333f593b6367",
+      "allObjectBytesEqual": true,
+      "allSerializedValuesEqual": true
+    },
+    "engineInitialized": true,
+    "menuConfirmation": "owner-confirmed",
+    "activeLocale": null,
+    "changedResourceLoad": "unverified",
+    "visualReview": "not-run",
+    "log": {
+      "path": "outputs/runtime-probe-20261007/Player.log",
+      "sha256": "df37c7f4cc434dad8487535745ddc2f948ebd234788375c26e1589e5695d5b9c"
+    },
+    "captureBlocker": "Oculix Java 17 and ImageMagick paths missing; system Java unavailable. Computer Use cannot attach to bundleless Wine; wrapper attachment times out.",
+    "terminatedExactOwnedPids": [
+      58624,
+      58674,
+      58544,
+      58547,
+      58551,
+      58564,
+      58566,
+      58575,
+      58614,
+      58537,
+      58495
+    ],
+    "cleanup": "verified-stopped; no fixture processes remain",
+    "saves": "No gameplay or save action performed; copied prefix used. Original save-directory integrity has not been exhaustively audited.",
+    "remainingServiceCleanup": {
+      "pid": 58575,
+      "signal": "SIGKILL",
+      "reason": "exact fixture-owned service remained after SIGTERM; identity reverified"
+    }
+  },
+  "validation": {
+    "guardTests": 5,
+    "guardTestsResult": "passed-under-python-O",
+    "realAssetRoundTrips": 15,
+    "realAssetRoundTripsResult": "passed-under-python-O"
+  },
+  "nextAction": "Restore a working native capture adapter, verify the no-op resource in Russian, implement bounded target-language/font bindings, then test script requirements and dialogue progression. Do not begin dependent mass translation while the shared probe is unverified.",
+  "toolFingerprints": {
+    "Scripts/probe_assets.py": "446a70f1523135fd90cf5f7b432a517355899703b503bc7276f2d37c6c7fbf89",
+    "Scripts/probe_fonts.py": "6f5e6c6265f48fee028306d24a6d1b95707d01317973eecafa2bfd7b2366b995",
+    "requirements-probe.txt": "8ade9ab2b5c66e92e26feb13b7cf911bac985a0e35446d97eab038a424503b02"
+  }
+}
