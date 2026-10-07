@@ -74,8 +74,12 @@ copies per run. Screen access must run outside the shell sandbox. Computer Use
 could not attach to Wine; the native adapter captured the full 2880×1800 frame.
 The Russian failure log is historical evidence, not acceptance of the corrected
 catalog. Its native frame is no longer present in the recorded output directory;
-do not credit that capture as current visual evidence. No corrected runtime
-screenshot exists yet.
+do not credit that capture as current visual evidence. The corrected Russian
+settings frame and fresh Unity log are recorded in
+`outputs/runtime-catalog-verified-20261007/evidence.json`: Russian labels render
+and no CRC/resource-provider failure was logged. The unobscured main-menu
+check is pending manual return; guarded input was refused when another app
+was active. New target-language selection and rendering remain unverified.
 
 For an already-running authorized fixture, capture without input or save actions:
 

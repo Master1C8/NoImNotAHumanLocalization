@@ -9,6 +9,7 @@ let apps = NSWorkspace.shared.runningApplications.filter {
     ($0.bundleURL?.path ?? "").hasPrefix(fixture)
 }
 let pids = Set(apps.map { Int($0.processIdentifier) })
+let frontmost = NSWorkspace.shared.frontmostApplication
 let windows = (CGWindowListCopyWindowInfo([.optionOnScreenOnly, .excludeDesktopElements], kCGNullWindowID) as? [[String: Any]] ?? []).filter {
     pids.contains($0[kCGWindowOwnerPID as String] as? Int ?? -1)
 }
@@ -16,6 +17,7 @@ let record: [String: Any] = [
     "screenRecordingAllowed": CGPreflightScreenCaptureAccess(),
     "accessibilityAllowed": AXIsProcessTrusted(),
     "applications": apps.map { ["pid": Int($0.processIdentifier), "path": $0.bundleURL?.path ?? "", "name": $0.localizedName ?? ""] },
+    "frontmostApplication": ["pid": Int(frontmost?.processIdentifier ?? -1), "path": frontmost?.bundleURL?.path ?? "", "name": frontmost?.localizedName ?? ""],
     "windows": windows
 ]
 let bytes = try JSONSerialization.data(withJSONObject: record, options: [.prettyPrinted, .sortedKeys])
