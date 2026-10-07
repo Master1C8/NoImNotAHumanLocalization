@@ -1,0 +1,56 @@
+{
+  "reviewer": "final_cold_nl_ro",
+  "locale": "ro",
+  "entry_count": 201,
+  "source_raw_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "target_raw_sha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "fidelity_pass": {
+    "read_positions": "1–201",
+    "fields": [
+      "source.term",
+      "source.meaning",
+      "target.term",
+      "target.meaning"
+    ],
+    "batches": [
+      "1–25",
+      "26–65",
+      "66–90",
+      "91–115",
+      "116–150",
+      "151–180",
+      "181–201"
+    ]
+  },
+  "native_pass": {
+    "read_positions": "1–201",
+    "fields": [
+      "target.term",
+      "target.meaning"
+    ],
+    "batches": [
+      "1–70",
+      "71–140",
+      "141–201"
+    ]
+  },
+  "exact_repeated_policy_compaction": "Only exact repeated policies compacted after complete display/read in current pass. Every unique policy and full entry remainder displayed and read. No RO output truncation. Native policies fully redisplayed/reread.",
+  "result": "clean",
+  "objective_findings": [],
+  "independence": "No author notes, prior reviews or history consulted. Romanian compared directly with Russian; Dutch not used as pivot. No child agents or external model/translation calls.",
+  "structural_validation": {
+    "ordered_ids": true,
+    "unique_ids": true,
+    "nonempty_term_meaning": true,
+    "entry_count": 201
+  },
+  "audit_count_note": "One independent cold audit comprising a fidelity pass and a separate native pass. This receipt does not itself assert two consecutive audit cycles.",
+  "scope": "Frozen staging layer only; master layer absent, runtime and publication not reviewed.",
+  "token_usage": {
+    "input": null,
+    "cached_input": null,
+    "output": null,
+    "total": null,
+    "note": "Telemetry unavailable to reviewer; coordinator measures."
+  }
+}

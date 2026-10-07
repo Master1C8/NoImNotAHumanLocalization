@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "reviewer": "Root assigned Codex model, independent of locale author",
+  "status": "full-cold-review-findings-returned",
+  "fullAudit": true,
+  "cold": true,
+  "authorNotesRead": false,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "reviewedLayerRawSha256": "025a8cf39f2a3d424eee8ff3e4ced47300818cc4b89c425a44ad221acc809d93",
+  "immutableReviewedArtifact": "reviewed-layer-v1.json",
+  "reviewedEntryCount": 201,
+  "coverage": [
+    [
+      1,
+      40
+    ],
+    [
+      41,
+      80
+    ],
+    [
+      81,
+      120
+    ],
+    [
+      121,
+      160
+    ],
+    [
+      161,
+      201
+    ]
+  ],
+  "fields": [
+    "term",
+    "meaning"
+  ],
+  "sourceReading": "All pinned Russian source term/meaning fields read in earlier full audits and reused unchanged. Ambiguous source46/75/78 and all equality-wording occurrences freshly displayed alongside exact targets after full target reading.",
+  "readingNote": "All201 Dutch terms and meanings displayed fully and checked for fidelity and native editorial quality. Repeated exact native policy suffixes displayed once with lossless per-entry references.",
+  "findings": [
+    {
+      "ids": [
+        "fema-phone-doctor",
+        "for-rest-operator",
+        "radio-advertising-voices",
+        "radio-day-12-dispatcher",
+        "radio-psychics-ad",
+        "radio-phone-roulette-ad",
+        "tv-advertising-voices",
+        "tv-for-rest-ad",
+        "tv-enerjeka-ad",
+        "psychics-closing-voice",
+        "tv-fema-promotion",
+        "it-creature"
+      ],
+      "field": "meaning",
+      "issue": "Gelijkheid expresses equality/similarity and is an unnatural calque for source тождество: whether the same person/voice/entity is involved. State that specific identity relation explicitly in natural Dutch in every affected reference; no known sex may be inferred."
+    },
+    {
+      "id": "cigarettes",
+      "field": "meaning",
+      "source": "просьбы жильцов дать закурить",
+      "target": "verzoeken van bewoners om te mogen roken",
+      "issue": "Target turns requests for a cigarette/something to smoke into asking permission to smoke. Preserve residents asking for smoking material, contrasted with the hero consuming a cigarette, without inventing a fixed quantity."
+    }
+  ],
+  "cleanAuditCredit": 0,
+  "publication": "not authorized"
+}

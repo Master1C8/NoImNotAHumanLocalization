@@ -1,0 +1,87 @@
+{
+  "locale": "fa",
+  "status": "corrections-required",
+  "reviewer": "/root, independent of author",
+  "coldReview": true,
+  "authorNotesReadBeforeAudit": false,
+  "reviewedLayerRawSha256": "cbf90ae0d604cfe87f1601eb08e3040338e00b55c43af8216266039601104a1f",
+  "immutableReviewedArtifact": "reviewed-layer-v1.json",
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "coverageRanges": [
+    [
+      1,
+      30
+    ],
+    [
+      31,
+      60
+    ],
+    [
+      61,
+      90
+    ],
+    [
+      91,
+      115
+    ],
+    [
+      116,
+      145
+    ],
+    [
+      146,
+      175
+    ],
+    [
+      176,
+      201
+    ]
+  ],
+  "fields": [
+    "term",
+    "meaning"
+  ],
+  "sourceComparison": "Every source and target term/meaning was displayed as complete pairs in seven bounded nontruncated ranges and editorially compared; source was not altered.",
+  "fullAudit": true,
+  "findings": [
+    {
+      "id": "former-fema",
+      "issue": "اخراجش asserts dismissal/being fired; source увольнении does not specify fired versus resigned. Retain neutral departure from service.",
+      "status": "open"
+    },
+    {
+      "id": "sleepless-man",
+      "issue": "کلاه روی سر adds that the hood is worn up; source only specifies a black hoodie with a hood.",
+      "status": "open"
+    },
+    {
+      "id": "for-rest-operator",
+      "issue": "پیاده‌سازی هواداران reads as fan implementation; source is a fan transcription. Make the transcript evidence type explicit.",
+      "status": "open"
+    },
+    {
+      "id": "radio",
+      "issue": "منبع صوتی واحد یعنی گویندهٔ واحد نیست can mean that one source implies not one speaker. Source says a single source does not imply a single speaker; use a clear non-implication construction.",
+      "status": "open"
+    },
+    {
+      "id": "visitor-spirit",
+      "issue": "روح مهمانی normally reads as party/festivity spirit. Preserve the guest-derived coined label without introducing a party association, keep it distinct from مهمان, and update all term/meaning references.",
+      "affectedIds": [
+        "psychic-expert",
+        "radio-psychics-ad",
+        "visitor-spirit",
+        "dead-person-spirit"
+      ],
+      "status": "open"
+    }
+  ],
+  "observations": [
+    "Player/sex/disclosure rules and two-person couple/sister groups retained. Unknown role notes preserve agency, participants and speaker changes.",
+    "Radio speakers, employee IDs, 451-to-955 replacement and 984 remain separate. Item sprite distinctions, quantities, timing and save semantics retained.",
+    "Super/Ending/Phone/TV/Window and brands retained as literals. Three people hold the child in the conditional vision ending; unrelated children are separated."
+  ],
+  "consecutiveCleanFullAuditsCredited": 0,
+  "nextAction": "Author corrections, closure across all affected references and two clean full audits of final unchanged wording; independent final acceptance pending.",
+  "updatedAt": "2026-10-07T21:19:34.272027+00:00"
+}

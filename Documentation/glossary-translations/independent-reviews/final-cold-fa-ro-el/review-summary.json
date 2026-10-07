@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root/final_cold_fa_ro_el",
+  "mode": "cold full independent read-only audit",
+  "coldness": "No target-author review notes or history read before or during comparison. Only source, target layers and mandatory workflow references used. Coordinator adjudication communicated after locale full reads.",
+  "locale_sequence": [
+    "fa",
+    "ro",
+    "el"
+  ],
+  "coverage": {
+    "per_locale_ordered_entries": 201,
+    "locales": 3,
+    "total_source_target_entry_pairs_read": 603,
+    "total_native_target_entries_separately_read": 603,
+    "fields_per_entry": [
+      "term",
+      "meaning"
+    ],
+    "unread": 0
+  },
+  "structural_validation": "All target layers parse, contain 201 nonempty term/meaning pairs, preserve the exact source ID sequence, and have only allowed translated fields. Matching hashes establish provenance only.",
+  "source_raw_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "outcomes": {
+    "fa": {
+      "initial_findings": 8,
+      "withdrawn": 4,
+      "proposed_attribution_clarifications": 4,
+      "adjudication_file": "fa.adjudication.json",
+      "status": "coordinator adjudication pending"
+    },
+    "ro": {
+      "proposed_grammar_findings": 3,
+      "status": "not clean; corrections/adjudication pending"
+    },
+    "el": {
+      "proposed_findings": 3,
+      "acronym_affected_entries": 27,
+      "status": "not clean; corrections/adjudication pending"
+    }
+  },
+  "source_and_targets_unchanged_after_audit": true,
+  "clean_full_passes_claimed": 0,
+  "publication": "not-run; not authorized",
+  "runtime_visual_font": "not-run; standalone glossary audit",
+  "model": "inherited assigned Codex model; exact API telemetry unavailable",
+  "reasoning": "not exposed to reviewer",
+  "tokens": {
+    "input": "unknown",
+    "cached_input": "unknown",
+    "output": "unknown",
+    "reasoning": "unknown",
+    "total": "unknown"
+  },
+  "reporting_cutoff_utc": "2026-10-07T22:24:10.716836+00:00"
+}

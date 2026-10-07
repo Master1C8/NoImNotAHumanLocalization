@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/final_cold_sw_he",
+  "kind": "fresh independent final cold audit",
+  "locale": "he",
+  "result": "clean",
+  "objectiveFindings": [],
+  "entryCount": 201,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "targetRawSha256": "2842f9f75fc312fee81aa15c8753ac8c3926064b6cd79cbf6b1035786d6de886",
+  "passes": {
+    "fullSourceFidelity": 1,
+    "separateFullNativeReread": 1
+  },
+  "coverage": "he.coverage.json",
+  "independence": "No author notes, history, other locale reviews or earlier findings read. Direct source-to-target comparison. No child agents or external generation.",
+  "semanticChecks": [
+    "All source terms/meanings fidelity-read, followed by all Hebrew terms/meanings in a distinct native pass.",
+    "Hebrew grammatical gender of דמות, ישות, קול, תפקיד, רוח and ילד is not biological-sex evidence; full constructions and canonical referents were evaluated.",
+    "Cat source pronoun evidence and separate biological uncertainty retained; Death source feminine and poetic brother references retained with source attribution.",
+    "Anonymous phone/broadcast roles remain unknown, participants/agency/number and speaker switches retained; feminine agreement tied to grammatical nouns accepted.",
+    "אורחים vs ordinary visitors and אדם vs דייר; רוח האורח vs רוח המת; המוות vs ordinary death; פטריית תה vs פטרייה מוזרה retained.",
+    "Names/brands and cross-references, all conditions, sprites0/1, signs, actions, code451→955 and984, revelation timing retained.",
+    "Explicit quotations of original Russian grammatical evidence accepted as evidence, not untranslated explanatory prose."
+  ],
+  "limitations": [
+    "One independent full editorial review event; not proof of two consecutive author audits. Runtime, publication and master synchronization not performed."
+  ],
+  "telemetry": {
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "total": null,
+    "reason": "Not exposed locally; coordinator measures session telemetry."
+  }
+}

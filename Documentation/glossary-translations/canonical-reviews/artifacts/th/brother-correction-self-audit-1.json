@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "locale": "th",
+  "kind": "full source-fidelity and separate native editorial self-audit after independent brother correction",
+  "status": "full-discovery-audit-findings-corrected",
+  "fullAudit": true,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "authoredRawSha256": "b960c0c70c8edffc79ed197525587392dffb3218e8556e20981941690d965aac",
+  "layerRawSha256": "d31b656671e1512736e00a0bc064ccf8dcaa071aeab6aa1659b6256936ed7d4f",
+  "immutableAuthored": "history/th-brother-correction-authored.json",
+  "coverage": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      45
+    ],
+    [
+      46,
+      65
+    ],
+    [
+      66,
+      85
+    ],
+    [
+      86,
+      100
+    ],
+    [
+      101,
+      120
+    ],
+    [
+      121,
+      140
+    ],
+    [
+      141,
+      160
+    ],
+    [
+      161,
+      180
+    ],
+    [
+      181,
+      201
+    ]
+  ],
+  "fields": [
+    "source.term",
+    "source.meaning",
+    "target.term",
+    "target.meaning"
+  ],
+  "findings": [
+    {
+      "id": "tv-advertising-voices",
+      "field": "meaning",
+      "source": "Пол и тождество голосов не установлены",
+      "target": "ไม่ยืนยันเพศหรือว่าเสียงเหล่านี้เป็นใคร",
+      "issue": "Target says unknown speaker identity, not whether voices are from the same person. Preserve sameness uncertainty explicitly.",
+      "proposed": "ไม่ยืนยันเพศหรือว่าเสียงเหล่านี้เป็นของคนเดียวกันหรือไม่"
+    },
+    {
+      "id": "cigarettes",
+      "field": "meaning",
+      "source": "просьбы жильцов дать закурить",
+      "target": "คำขอสูบบุหรี่ของผู้อาศัย",
+      "issue": "Request to smoke can mean permission, whereas source asks for smoking material. Explicit resident requests for cigarettes preserve the consumable-item interaction.",
+      "proposed": "คำขอบุหรี่ของผู้อาศัย"
+    }
+  ],
+  "readingNote": "All displayed RU/TH pairs checked fully. Truncated entry13 in first1–25 display re-read individually in full; native repeated policies read once and each use losslessly referenced. No full clean pass awarded until all201 and separate native editorial reading complete. Entry75 source truncated in66–85 display was reread individually in full before credit.",
+  "reviewedEntryCount": 201,
+  "cleanAuditCredit": 0
+}

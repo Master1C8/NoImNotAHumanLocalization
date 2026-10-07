@@ -1,0 +1,806 @@
+{
+  "player": {
+    "term": "Főhős",
+    "meaning": "A játékos által irányított háztulajdonos; éjszakai látogatókat fogad, nappal megvizsgálja a lakókat. Válaszaiban fiaként beszél magáról; a megszólítások férfira utalnak. Ne ruházzuk át az irányítót használó személy nemét a szereplőre. A személyes adatokat csak ott fedjük fel, ahol az eredeti jelenet közli őket. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "neighbour": {
+    "term": "Szomszéd",
+    "meaning": "A főhős ismerőse, a Daughter nevű kódhoz tartozó kislány apja; elsőként figyelmeztet az egyedüllét veszélyére, később telefonon beszél. Szomszédiasan, tegezve kommunikál. Ne keverjük össze bármely szomszédos lakóval. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "neighbours-daughter": {
+    "term": "A szomszéd lánya",
+    "meaning": "Gyermek, a Szomszéd lánya; menedéket kér, sír, apjára és barátnőjére emlékezik. Őrizzük meg a gyermeki beszédet, az akadozást és az érzelmes hangnyújtásokat; ne tegyük felnőtt nővé, és ne találjunk ki pontos életkort. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cashier": {
+    "term": "Pénztárosnő",
+    "meaning": "Korábbi pénztáros, szorongó lány; a felület «gerincferdüléses lánynak» írja le. Habozva és ideges nevetéssel beszél; félelme és későbbi viselkedésváltozásai jelenetfüggők. Az Anxiety belső kód nem személynév. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "amogus-shirt-man": {
+    "term": "Fiú amogus pólóban",
+    "meaning": "Kétes pénzkereseti módokat ajánl, bizalmaskodóan és durván szólít meg. Őrizzük meg a szlenget, a kérkedést és a gúnyra adott agresszív reakciót; az amogus a póló felirata, nem a neve. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "widow": {
+    "term": "Özvegy",
+    "meaning": "Férje testével érkezik, gyászol és a haláláról mesél. Ne keverjük össze a férj testét élő látogatóval vagy magával a nővel. Beszéde halk, fáradt, szünetekkel. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "tall-bar-man": {
+    "term": "Nyakigláb",
+    "meaning": "Nagyon magas férfi, akinek nem feleltek meg a korábbi menedékhelyén lévő emberek; szeret inni és beszélgetni. Az Esenin belső kód nem bizonyítja, hogy ő Szergej Jeszenyin, és nem jogosít fel e név hozzáadására. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "husband-and-wife": {
+    "term": "Házaspár",
+    "meaning": "Két szereplő: férj és feleség. Belépéskor a férj beszél a feleségről; a nappali jelenetek az ő mondatait és a pár tetteiről szóló elbeszélést tartalmazzák. Az egyes számot az adott résztvevőre, a többes számot a párra vonatkoztassuk. Ne tegyük tárggyá a feleséget, és ne tulajdonítsuk neki a férj szavait. A pár egy férfiból és egy nőből áll; a nyelvi egyeztetést az adott résztvevő szerint alakítsuk, mindkettőjükre őrizzük meg a többes számot."
+  },
+  "surgeon": {
+    "term": "Sebész",
+    "meaning": "Orvos, aki kifejezetten a sebészetet nevezi meg szakterületeként; korábban a KCsSz-szel dolgozott és embereket segített. Visszafogottan, együttérzően beszél. Különítsük el ezt a lakót a KCsSz telefonvonalának orvosától; a Doc belső assetnév ugyanazt a szereplőt jelöli. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "naked-fat-man": {
+    "term": "Meztelen dagadék",
+    "meaning": "Durva, nehézkes, szaggatott beszédű látogató; ajándékot vagy fizetséget ajánl a menedékért. Különítsük el Fatman, a dühös kövér Anger és a meztelen férfi Experienced szereplőit. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "babushka": {
+    "term": "Ijesztő öregasszony",
+    "meaning": "Idős nő, aki nagymamának nevezi magát; történeteket mesél és kedvesen szólít meg: «kedveském», «barátocskám». A hazugságról tett saját vallomásait ne változtassuk hiteles történelmi adatokká. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "jerky-man": {
+    "term": "Rángatózó férfi",
+    "meaning": "Hirtelen váltásokkal, nevetéssel, durva szlenggel és furcsa szórakozásokról szóló történetekkel beszélő látogató. Ne keverjük a szorongó pénztárosnővel vagy a furcsa Nervous fiúval; a kód nem orvosi diagnózis. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "ex-con": {
+    "term": "Meztelen férfi",
+    "meaning": "Bűnözői szlenget használó szereplő, aki korábbi feleségét és a börtön utáni életét említi. A «balek», «öcskös» megszólítások őrzik a beszédmódját; ne keverjük Fatmannel, és az Experienced kódot ne fordítsuk személynévként. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "seductive-woman": {
+    "term": "Csábító nő",
+    "meaning": "Nő, aki közelséget és beszélgetést ajánl a hős érzéseiről. Beszéde lágy, intim; külön ágban a feltételezett terhességet és a Látomásbeli gyermeket tárgyalja. A rajongói cikk hozzá kapcsolja a gyermekkel és köddel megjelenő hölgyet a befejezésben. Őrizzük meg a jelenetek feltételeit, és ne fedjük fel őket előre; FatalDame belső kód, nem személynév. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "bearded-hunter": {
+    "term": "Hatalmas szakállas fickó",
+    "meaning": "Durva, magabiztos látogató, aki üldözésről és Vendégekkel való találkozásokról mesél. Ne azonosítsuk a Sápadt Vendéggel a magasság alapján, és ne adjunk hozzá favágó foglalkozást pusztán a külső leírásból. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "best-son": {
+    "term": "Fiú számozott pólóban",
+    "meaning": "Szüleitől függő fiatal szereplő, aki tudomást szerez korábban eltitkolt lánytestvéréről; a kontakt a «legjobb fiú» lánytestvéreként van megjelölve. Őrizzük meg a bizonytalan beszédet és a rokonságot; Bestson technikai kód, nem személynév. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "suit-bandit": {
+    "term": "Kopasz bandita öltönyben",
+    "meaning": "Férfi, aki erőről és alávetettségről elmélkedik; nyugodt magabiztossága fenyegetéssel és erőszakkal párosul. Az asset/UI WolfHound, a mondatok Wolfhound alakot használnak; ugyanazon szereplő kódváltozatai. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "angry-wounded-man": {
+    "term": "Dühös kövér férfi sebekkel",
+    "meaning": "Férfi, aki bevallja, hogy megütötte feleségét, miután az bejelentette, hogy belép a kultuszba. Őrizzük meg a dühöt, durvaságot és önvádat; különítsük el a rajta lévő sebeket a másoknak okozott sérülésektől. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "kindergarten-teacher": {
+    "term": "Nő kötött pulóverben és szemüvegben",
+    "meaning": "Óvónő, aki elhagyott gyermekeket fogadott be az egykori óvodába, majd elvesztette őket. Traumatikus emlékeit ne változtassuk közönyös elbeszéléssé; ne adjunk hozzá pontos életkort vagy nevet. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "former-fema": {
+    "term": "Férfi KCsSz-ruhában",
+    "meaning": "KCsSz-egyenruhás férfi: belépéskor tagadja a szolgálatot és különféle magyarázatokat ad, később munkájáról, parancsok teljesítéséről és szolgálatának megszűnéséről beszél. Őrizzük meg a felfedés időpontját és mentegetőzési kísérleteit; a kezdeti változatokat ne vegyük változatlan életrajznak. Különítsük el az aktív Gasmask munkatárstól; a ruha jelenléte nem jelent folytatódó szolgálatot. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "immortal-man": {
+    "term": "Halhatatlan",
+    "meaning": "Eltűnt lányát keresi és azt állítja, nem tud meghalni; közli, hogy a KCsSz keresi. A Vendégek természetéről és a halhatatlanságról szóló állításokat az ő szavaiként adjuk vissza, amíg a jelenet nem állapít meg többet. Jacob belső kód; maga a kód nem határozza meg a személynév orosz írásmódját. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "big-momma": {
+    "term": "Hatalmas nő frufruval",
+    "meaning": "Nő, aki gyermekeiről és új otthonáról beszél. Beszéde rámenős, olykor gúnyos; «kicsinyei» nem feltétlenül közönséges emberi gyermekek. Ne keverjük Motherrel. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "stoner": {
+    "term": "Raszta dreadlockkal",
+    "meaning": "Bizalmaskodó szereplő, aki «tesó», «haver» megszólításokat, játékokkal kapcsolatos és drogos szókincset használ. Magyarázatait és vicceit a szereplő beszédeként őrizzük meg, ne szerzői világismeretként. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "tough-woman": {
+    "term": "Nő topban",
+    "meaning": "Határozott nő, aki az életért való küzdelmet és a katasztrófa alatti cselekvést sürgeti. Egyes kulcsok Fighter technikai kódja nem változtatja meg a szereplő nőre utaló formáit. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cat-lady": {
+    "term": "Nő macskával",
+    "meaning": "Macskával érkezik, röviden, szokatlanul, olykor kétértelműen beszél. A macska külön szereplő és háziállat; a Ballerina kód nem bizonyít balerina foglalkozást. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cold-man": {
+    "term": "Fázós férfi kabátban",
+    "meaning": "Szereplő, aki folyamatosan fázik még a katasztrofális hőségben is; fél mások mellett élni. Különítsük el a Jacket fiútól, akinek külön története van a kabátról és fiútestvéréről. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "armchair-lawyer": {
+    "term": "Agresszív fickó hatalmas fejjel",
+    "meaning": "Bérletet és szerződést követel, jogokról, engedélyről és jogi normákról vitázik. Őrizzük meg a magabiztos hivatalnoki hangot; törvényhivatkozásai egy kitalált szereplő mondatai, nem ellenőrzött jogi tények. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "stand-up-guy": {
+    "term": "Szőrös nagydarab férfi",
+    "meaning": "Látogató, aki a katasztrófában is próbál valami vicceset és kellemeset látni; jelzáloghitelről és korábbi bajokról beszél. A vidám hang nem semmisíti meg a történeteiben szereplő súlyos eseményeket. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "wounded-fugitive": {
+    "term": "Férfi hasi sebbel",
+    "meaning": "Szökevény, aki menedéket és segítséget keres a sebéhez; fél a feljelentéstől és a KCsSz-től. Őrizzük meg a kérések sürgősségét és a durva köznyelvi beszédet; ne keverjük Angerrel. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "taxi-driver": {
+    "term": "Taxis sapkában",
+    "meaning": "Taxis, aki utasokról és saját családjáról mesél. Köznyelven, elszólásokkal és káromkodással beszél; történetei feltételezett kapcsolatát más lakókkal ne mutassuk bizonyítottnak konkrét jelenet nélkül. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cheerful-man": {
+    "term": "Férfi zöld sapkában",
+    "meaning": "Jóindulatú férfi, aki elfogadásról, megbocsátásról és nehéz múltról beszél. Лука/Luka belső jelölés; a kinyert orosz párbeszédben nem ezen a néven mutatkozik be. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "sleepless-man": {
+    "term": "Férfi fekete kapucnis pulóverben",
+    "meaning": "Lakó, aki régóta nem alszik és álmokat, pihenést, valamint a hős által látottakat tárgyalja. Ne keverjük az Intruder technikai nevet a Sápadt Vendéggel, akit a rajongói anyagok szintén nevezhetnek intrudernek. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "bar-teenager": {
+    "term": "Tizenéves sapkában",
+    "meaning": "Tizenéves lány, aki elhagyta korábbi otthonát; szeret animékről és filmekről beszélni. A felület «tizenévest» ír, de saját eredeti «думала», «взяла», «сама плела» alakjai nőneműek. A belépéskori mondatok nem feltétlenül fedik fel rögtön a nemét; ne hozzuk előre a felfedést az eredetihez képest. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fortune-teller": {
+    "term": "Nő tarotkártyákkal",
+    "meaning": "Jósnő, aki ezoterikus szókincset használ az auráról, energiáról, női mesteréről és belső fényről. Magyarázatai a szereplő hiedelmei; az «A jósnőtől» szám egy másik hanghoz vezet. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "blind-man": {
+    "term": "Szem nélküli férfi",
+    "meaning": "Vak férfi, aki az általa látott szörnyű lényről és saját érzeteiről beszél. A látás hiányát ne cseréljük süketségre; az érzetek leírását ne változtassuk más lakók státuszának objektív bizonyítékává. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "nun": {
+    "term": "Hívő nő",
+    "meaning": "Idős vallásos nő, aki csendet, ikonokat és tiszteletteljes beszédet követel. Őrizzük meg a szemrehányásokat és az imaszókincset; ne keverjük a Halál kultuszának tagjaival vagy a Naparcú imádójával. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "pale-visitor": {
+    "term": "Sápadt Vendég",
+    "meaning": "Magas, sápadt, nem emberi látogató, aki azt kérdezi, egyedül van-e otthon a hős. A tévés fantomkép kifejezetten középkorú férfiként írja le; nem szokásos lakó. Ne azonosítsuk Eseninnel vagy Sleepless Mannel; a Super kód régi összegző sorokat is jelöl, nem külön személynevet. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "bandana-man": {
+    "term": "Fiú lila kendőben",
+    "meaning": "Fiatal férfi, aki meg akarja tanulni a Vendégek megölését és az önvédelmet. Őrizzük meg a bizonytalanságot, kéréseket és az erőszakhoz való viszony változásait. Raskolnikov nem jelent kanonikus kapcsolatot Dosztojevszkij hősével. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "wheelchair-man": {
+    "term": "Fiú lábak nélkül",
+    "meaning": "Kerekesszéket használ, szereti a sebességet és az Enerzsekát. Az eredeti párbeszédben van olyan változat, ahol feláll és elmagyarázza, hogy egyszerűen tetszett neki a kerekesszék; az eredeti lábhiányt ne tegyük minden változat feltétel nélküli életrajzává. WheelChair és Wheelchair ugyanahhoz a szereplőhöz tartozik. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "creepy-man": {
+    "term": "Furcsa fiú trikóban",
+    "meaning": "Kellemetlen nevetéssel beszél és tíz, gyógyintézetben töltött évről mesél. Ne diagnosztizáljuk a Nervous kód alapján, és ne keverjük Unstable-lel; a tényállításokat az ő beszámolójaként őrizzük meg. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fema-wife": {
+    "term": "Talpraesett nő élénk sminkkel",
+    "meaning": "Egy KCsSz-munkatárs felesége, aki maga is szolgálatba kíván lépni; korábban a határon dolgozott. Élesen és magabiztosan beszél, megadja a felvételi bizottság számát. A számon válaszolót ne tekintsük a férjének. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "firefighter": {
+    "term": "Tűzoltó",
+    "meaning": "Megégett tűzoltó, aki belefáradt a tüzekbe és aggódik társaiért és a gyermekekért. Beszédében őrizzük meg a «kh-kh» köhögést és a szüneteket; átadja a «Megjelenés a KCsSz-nél» dokumentumot. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "homeless-man": {
+    "term": "Hajléktalan",
+    "meaning": "Elhunytak tárgyait gyűjti, vándorlásról mesél és biztosítja, hogy nem bántja az élőket. A Marauder technikai kód nem jogosít fel minden megszólítás lecserélésére a «bandita» vádra. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "punk-girl": {
+    "term": "Tetovált lány",
+    "meaning": "Lány, aki korábban a rádiónál dolgozott; egyenesen és mai nyelven beszél, egy közeli ember elvesztéséről mesél. Ne keverjük a határozott Tough-fal; a tetoválás leírás, nem név. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "theater-man": {
+    "term": "Kopasz",
+    "meaning": "Férfi, aki anyjával és nagyanyjával élt és színházi családról mesél. Bizalmaskodóan, «tesó» megszólítással beszél, viccel és káromkodik. Különítsük el a kopasz Wolfhound banditától és a Prófétától. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fema-agent": {
+    "term": "KCsSz-munkatárs gázálarcban",
+    "meaning": "Aktív munkatárs, aki bejárja a környéket, vizsgálatra viszi az embereket és később szolgálatot ajánl. A rajongói cikk férfiként jelöli; ne tulajdonítsunk minden KCsSz-munkatársnak egyetlen személyazonosságot vagy bizonyítatlan kapcsolatot Wifefemával. Nem igazolt, hogy minden látogatás munkatársa ugyanaz a személy. A rajongói wiki férfi nemet közöl; használjuk a férfira utaló formákat, ne vezessük le a nemet a foglalkozásból."
+  },
+  "gravedigger": {
+    "term": "Púpos fickó",
+    "meaning": "Sírásó, aki szokatlan eseményeket látott a síroknál és biztonságos menedéket keres. Beszéde durva, ijedt, köznyelvi; különítsük el a temetést és a test újbóli megjelenését egy adott szereplő igazolt feltámadásától. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "tourist": {
+    "term": "Lebarnult fiú",
+    "meaning": "Látogató, aki a szállodai tartózkodás után pénz nélkül maradt és szállást keres. Udvariasan beszél, «tisztelt uram», «hálásan köszönöm». Ne keverjük Foreignerrel és ne állapítsunk meg nemzetiséget a barnaságból. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "jacket-man": {
+    "term": "Fiatal fiú kabátban",
+    "meaning": "Tanulni érkezett fiatal férfi; kabátját tengerész fiútestvérétől kapta, akit később kényszerrel szolgálatba vittek a KCsSz-hez. A szereplő kifejezetten pontosítja, hogy testvérét nem karanténzónába vitték. Attól fél, hogy testvérének megparancsolják, hogy tartóztassa le vagy ölje meg őt. Őrizzük meg a felfedés sorrendjét, és különítsük el ezt a kabátot a Cold szereplő fázásától. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "morbid-romantic": {
+    "term": "Ápolt férfi üszkösödéssel",
+    "meaning": "Férfi, aki a halál szépségéről és saját testének megőrzéséről beszél. Őrizzük meg a melankolikus, képszerű beszédet; Edgar belső kód, nem igazolt orosz név. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "leper": {
+    "term": "Bőrproblémás fickó",
+    "meaning": "Szereplő, akit külseje miatt megaláztak és nem akar bántalmazója mellett élni. A Leper kódot ne változtassuk a lepra igazolt orvosi diagnózisává. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "conspiracy-theorist": {
+    "term": "Az a szemüveges, bajszos",
+    "meaning": "Magabiztos összeesküvés-elmélet-hívő, aki az igazság feltárását ígéri és vitázik az egyet nem értőkkel. Elméleteit az általa felvetett magyarázatokként őrizzük meg, ne a Vendégek eredetének szerzői magyarázataként. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fairytale-enjoyer": {
+    "term": "Ábrándos diák",
+    "meaning": "Friss egyetemi diplomás, aki egy kávézóban vállalt mellékállást és rajong a mesékért. Őrizzük meg az udvariasságot és a mesés stílust ott, ahol mesét mond; ne állapítsunk meg konkrét életkort. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "rock-musician": {
+    "term": "Valami zenész",
+    "meaning": "Rockzenész, aki próbákról, zenekarról, gitárról és kiégésről beszél. Őrizzük meg a zenei szlenget és a durva köznyelvi hangot; Rocker szerep, nem személynév. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "twin-alkonost": {
+    "term": "Dohányzó lánytestvér",
+    "meaning": "A két lánytestvér egyike, aki férjét keresi és a másikkal törődik; a felület «dohányzó nőként» jelöli. Története során a férj holtan is előkerülhet. Алконост belső jelölés; az embert ne változtassuk mitikus madárrá. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "twin-sirin": {
+    "term": "Depressziós lánytestvér",
+    "meaning": "A másik lánytestvér, aki súlyos lelki állapottól szenved; később ő törődhet az elsővel. Őrizzük meg a kölcsönös rokonságot és a szerepek változását az adott jelenetben. Сирин technikai jelölés, nem lényfaj. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "mushroom-eater": {
+    "term": "Gombász",
+    "meaning": "Látogató, aki a Gombák országához, micéliumhoz, fesztiválhoz és a «Mosolyok tankönyvéhez» kapcsolódik. «Jó barátom», «ifjú» megszólításokat használ, ünnepélyesen és szokatlanul beszél. Jóslatait az eredeti bizonyossági fokkal adjuk vissza. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "stitched-mouth-man": {
+    "term": "Fiú bevarrt szájjal",
+    "meaning": "Külföldi, aki gesztusokkal, bólintással és érthetetlen hangokkal kommunikál; a hős gyakran tettleírást lát a szokásos mondat helyett. A szerzői leírást ne változtassuk kimondott szavakká és ne állapítsunk meg származási országot szöveges alap nélkül. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "mother-with-child": {
+    "term": "Nő gyermekkel",
+    "meaning": "Anya, aki elvesztette gyermekeit és egy gyermekkel érkezik; megadja férje számát. Őrizzük meg saját vallomásait és a beszámoló megbízhatatlanságát; különítsük el az anyát, a gyermeket és a házastársat, ne keverjük Greatmotherrel. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cultist-one": {
+    "term": "Első kultusztag",
+    "meaning": "A mester három tanítványának egyike, akik a Halál eljövetelére készülnek. Cultist1 a CultistOne assetnek felel meg. Őrizzük meg a külön beszélőt, ne olvasszuk az összes tanítványt egyetlen szereplővé. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cultist-two": {
+    "term": "Második kultusztag",
+    "meaning": "A mester tanítványa, akit aggaszt a közelgő rituálé; félelme a mester reményeinek való megfelelés vágyával párosul. Cultist2 a CultistTwo megfelelője. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cultist-three": {
+    "term": "Harmadik kultusztag",
+    "meaning": "A harmadik tanítvány, aki felkészülésről és nyugalomról beszél. Cultist3 a CultistThree megfelelője. A vallásos beszéd «testvérek» szava nem bizonyítja a három személy vérrokonságát. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cult-leader": {
+    "term": "A kultusztagok mestere",
+    "meaning": "A csoport vezetője, aki a Halál eljövetelén keresztül megváltást ígér és elviszi a tanítványokat. Az eredeti jelenetben a hímnemű «рад» alakot használja. Nyugalomígéretét ne tekintsük a lakók biztonsága garanciájának. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "prophet": {
+    "term": "Próféta",
+    "meaning": "Érkező férfi töredékes emlékezettel és előérzetekkel; a könyvhöz, ugráshoz és a hős lehetséges döntéseihez kapcsolódik. Ne adjunk hozzá valós személynevet hasonlóság vagy rajongói becenév alapján. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "courier": {
+    "term": "For Rest futár",
+    "meaning": "Férfi, aki a következő éjszaka szállítja a rendeléseket; munkájáról és egy ismerős haláláról mesél. Különítsük el a szállító futárt a telefonos rendeléskezelőtől. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "miner": {
+    "term": "Bányász",
+    "meaning": "Látogató, aki felajánlja a hősnek a leereszkedést és azt ígéri, felülről biztosítja. Saját mondatainak hímnemű formái igazoltak; ígéreteit ne cseréljük biztonságos kimenetel garanciájára. A UI-ban character_Podvalny. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "sisters-together": {
+    "term": "Két lánytestvér",
+    "meaning": "Alkonost és Sirin közös érkezése. Két nőről van szó, nem harmadik lánytestvérről vagy két iker férfiról. Az egyes számú «én»-nél az adott jelenet beszélőjét kövessük, a «mi/minket»-nél őrizzük meg a két személyt. Két nőből álló csoport; nőre utaló egyeztetés mindegyikükhöz, többes szám mindkettőjükhöz."
+  },
+  "raincoat-boy": {
+    "term": "Fiú esőkabátban",
+    "meaning": "Röviden megjelenő fiú, aki ismétli, hogy eltévesztette a házat. Ne adjunk hozzá részletes életrajzot, és ne tekintsük egy másik játékprojekt nevét a szereplő személynevének. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "vigilante": {
+    "term": "Fegyveres Vendégvadász",
+    "meaning": "Érkező fegyveres férfi, aki maga ellenőrzi a hősön a Vendég jeleit. Egy házaspár meggyilkolásáról mesél a város szélén álló elbarikádozott házban. Ne keverjük Hunterrel és ne azonosítsuk automatikusan a karanténzónáról szóló tévéhír ismeretlen lövészével. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "cat": {
+    "term": "Macska",
+    "meaning": "A Ballerina nő háziállata; nyávog, simogatást és eleséget fogad. Az eredeti beszámoló a hímnemű «он» névmást használja, de a biológiai nem nincs külön meghatározva. Őrizzük meg a «кот» megnevezést és az eredeti névmásokat szaporodási tények hozzáadása nélkül; a zárójeles szavak elbeszélés, nem az állat beszéde. Az orosz forrás «кот» és «он» alakokat használ; a biológiai nem nincs külön meghatározva. Ne adjunk hozzá biológiai adatokat."
+  },
+  "death": {
+    "term": "Halál",
+    "meaning": "Természetfeletti entitás, amelyhez külön végső jelenetek vezetnek. A kultusztagok nőnemű «она» névmással beszélnek róla, de saját képszerű beszédében «én vagyok az el nem ismert fiútestvér» hangzik el. Mindkét alakot a saját kontextusában őrizzük meg; a «halál» orosz nyelvtani neme és a költői «fiútestvér» nem határoz meg biológiai nemet. Ne cseréljük az entitást az élet absztrakt megszűnésére ott, ahol cselekszik és beszél. Beszédének egy része nem rendelkezik beszélőprefixszel; a kultusztagok jelenetében az Ending rá, az összegző sorokban a Super az elbeszélésre utal. A kanonikus megjelenítés kétértelmű: nőnemű névmás a Halálról szóló beszédben és «fiútestvér» saját képszerű beszédében. Az alakokat kontextus szerint őrizzük meg, biológiai nem kijelölése nélkül."
+  },
+  "friendly-gremlin": {
+    "term": "Nagydarab gremlin",
+    "meaning": "Barátságos férfi, aki fiúnak nevezi magát és «haverkám» megszólítást használ. Kutyájáról mesél és törődik szeretteivel; a felület «gremlin» szava leírás, nem bizonyíték arra, hogy a szereplő nem emberi fajhoz tartozik. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "sun-fanatic": {
+    "term": "Piszkos sárga fickó",
+    "meaning": "A Naparcú imádója, aki áldásokat és átkokat hirdet. Őrizzük meg az ünnepélyes vallásos stílust, az ordítást és káromkodást; nem tartozik automatikusan a Halál kultuszához. A Fan asset a Fanatic kódnak felel meg. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "daughters-friends-mother": {
+    "term": "A kislány barátnőjének anyja",
+    "meaning": "A Szomszéd lánya által megadott számon válaszol. Saját lányáról és férjéről beszél, nőnemű «я поняла», «я хотела» alakokat használ. Ne állítsuk be magának a barátnőnek; a gyilkosságról és helyettesítésről szóló szavak a saját beszámolóját tükrözik. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "best-sons-sister": {
+    "term": "A «legjobb fiú» lánytestvére",
+    "meaning": "Bestson apai ági lánytestvére, akiről korábban nem meséltek neki; telefonon azt mondja: «kész vagyok befogadni a fiútestvéremet». Ne cseréljük a vérrokonságot ismeretségre, és ne fordítsuk a kontakt feliratát tulajdonnévként. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "alkonosts-husband": {
+    "term": "A dohányzó lánytestvér férje",
+    "meaning": "Alkonost férje, aki a nő számán válaszol; bevallja, hogy úgy döntött, elmegy. Az ígéreteknek, búcsúnak és a test későbbi megtalálásának eltérő feltételei vannak; ne olvasszuk őket egyetlen változatlan kimenetellé. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "angry-mans-wife": {
+    "term": "A dühös kövér férfi felesége",
+    "meaning": "Anger felesége, aki az erőszak után a kultuszba ment; «a férjem» választ ad és elutasítja a korábbi életbe való visszatérést. Ne keverjük Wifefemával és a fordításban ne igazoljuk a férj erőszakát. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "mothers-husband": {
+    "term": "A gyermekes nő férje",
+    "meaning": "Mother férje, akit gyermekei apjának nevez. Magáról a hímnemű «я не удивлён» alakot használja, feleségéről harmadik személyben beszél; durva és nem hajlandó érte menni. A kontakt felirata nem jelenti, hogy maga az anya válaszol. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "phone-roulette-woman": {
+    "term": "A telefonos rulett női beszélgetőpartnere",
+    "meaning": "Ismeretlen nő, aki messze elutazott a hőség elől; barátairól és egy meg nem történt vallomásról mesél. Az eredeti «я ждала», «хотела» és «отправились одна» megszólítás nőnemű formákat ad. Ne találjunk ki nevet vagy pontos tartózkodási helyet. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "phone-roulette-short-caller": {
+    "term": "A telefonos rulett rövid hívása",
+    "meaning": "A telefonos rulett rövid ága «halló» és «úgy tűnik, nincs itt senki» mondatokkal. A személyazonosságot és nemet nem közli a szöveg; ne tulajdonítsuk a mondatokat automatikusan a hosszú beszélgetés nőjének. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "fema-hotline-woman": {
+    "term": "Nő a KCsSz forródrótján",
+    "meaning": "Az idő előtti hívás jelenetében válaszol; az eredeti elbeszélés kifejezetten nőnek nevezi. A közbevágó férfiüvöltés másik beszélőhöz tartozik, bár mindkét sor Phone prefixű. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fema-hotline-interrupter": {
+    "term": "A KCsSz-hívást félbeszakító férfi",
+    "meaning": "A korai hívás másik résztvevője: az elbeszélés férfiüvöltést közöl, ő pedig a telefon letételét követeli. Ne adjunk neki felettes beosztást bizonyíték nélkül és ne tulajdonítsuk üvöltését a nőnek. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "fema-phone-doctor": {
+    "term": "A KCsSz telefonos orvosa",
+    "meaning": "KCsSz-orvosi konzultáció a Vendégek jeleiről. Az «orvos» szó foglalkozást jelöl; saját mondatai nem utalnak nemre. Nem igazolt az azonossága Doctor sebésszel vagy a korai hívás nőjével. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "fema-recruitment-voice": {
+    "term": "KCsSz felvételi bizottság",
+    "meaning": "A KCsSz felvételi bizottságának hangja a Wifefemától kapott számon; munkakérésre válaszol. Oroszul «они бросили трубку» szerepel (letették a telefont), ugyanennek a sornak a hivatalos francia változatában «Il a raccroché». A francia lokalizáció hímnemű alakja nem helyettesíti a nemre vonatkozó információ hiányát az orosz eredetiben. Ne tekintsük ezt a hangot Wifefema férjének. A hivatalos francia változat hímnemű formája nem állapít meg kanonikus nemet az orosz forrás alapján. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli."
+  },
+  "for-rest-operator": {
+    "term": "For Rest rendeléskezelő",
+    "meaning": "Telefonon rendeléseket fogad és a köztük tartott szünetről tájékoztat. Az ellenőrzött orosz mondatok, hivatalos fordítások és rajongói leirat nem határozzák meg a nemet. Nem bizonyított az azonossága a szállító Courier futárral. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "embassy-voice": {
+    "term": "A külföldi nagykövetség beszélgetőpartnere",
+    "meaning": "Foreigner hazatéréséről és a közlekedési korlátozásokról ad tanácsot. A válaszoló neme nem közölt; a turistáról szóló hímnemű névmások a turistára vonatkoznak. Személynév és állam nincs megnevezve. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "psychics-reception": {
+    "term": "A médiumszolgálat recepciója",
+    "meaning": "A médiumszolgálat kezdő hangja közli, hogy szakértőhöz kapcsol. Ez a konzultáció előtti szerep; a szöveg nem állapít meg nemet vagy automata válaszadót. Ne tulajdonítsuk neki a szakértő hímnemű «я вынужден» alakját. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "psychic-expert": {
+    "term": "Vendégszelleműző szakértő",
+    "meaning": "A médiumszolgálat telefonos tanácsadója, aki a hímnemű «я вынужден закончить» alakot használja. A szellemekről, gombákról és emlékezetről szóló magyarázatai a tanácsadó állításai, nem a világ működésének garantált szabályai. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "voice-from-fortune-teller": {
+    "term": "Hang az «A jósnőtől» számon",
+    "meaning": "Az «A jósnőtől» számon megszólaló hang szokatlan szövegtöredékeket mond az almáról és a Gombák országáról, majd leteszi a telefont. Az orosz «собеседник» nem bizonyít nemet, a hivatalos angol «they» megőrzi a bizonytalanságot. Ne azonosítsuk FortuneTellerrel. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "news-reporter": {
+    "term": "Híradós műsorvezető",
+    "meaning": "A fő tévés műsorvezető, aki a hőségről, KCsSz-ről, a Vendégek jeleiről és a válságról tájékoztat. A rajongói wiki férfiként tartja számon; közléseit az adás tartalmaként adjuk vissza. A TV prefixet más műsorvezetők és reklámok is használják. A rajongói wiki férfi nemet közöl; használjuk a férfira utaló formákat, ne vezessük le a nemet a foglalkozásból."
+  },
+  "weather-reporter": {
+    "term": "Időjárás-jelentő",
+    "meaning": "Külön tévés előrejelző műsorvezető; a Weather Reporter rajongói cikk férfi nemet közöl. Ne olvasszuk össze a fő híradós műsorvezetővel, és ne változtassuk az előrejelzést már megtörtént eseménnyé. A rajongói wiki férfi nemet közöl; használjuk a férfira utaló formákat, ne vezessük le a nemet a foglalkozásból."
+  },
+  "female-tv-presenter": {
+    "term": "A szokatlan adás műsorvezetőnője",
+    "meaning": "Nő a nyolcadik nap szokatlan tévés bejelentkezéséből, akit a rajongói wiki Female TV Presenter néven ír le. Töredékes, képszerű stílust adjunk vissza; ne tulajdonítsuk szavait a szokásos híradósnak vagy a jósnőnek. A rajongói forrás női szerepet ír le; a nőre utaló egyeztetés csak erre a bejelentkezésre vonatkozik."
+  },
+  "radio-believe-host": {
+    "term": "A «Hinni akarok» műsorvezetője",
+    "meaning": "Az összeesküvésekről szóló rádióműsor hangja, aki a meghívott vendég elmaradása után a hímnemű «я знал» alakot használja. Különítsük el a műsorvezetőt a tudóstól, aki nem jött el; leleplezéseit ne nyilvánítsuk objektív kánonnak. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "radio-witness": {
+    "term": "Rádiós szemtanú",
+    "meaning": "A nyolcadik rádióadás beszélője: «láttam, mi volt ott». Ne olvasszuk össze más névtelen adásokkal és ne változtassuk tanúságtételét mindentudó elbeszéléssé. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "radio-dispatcher": {
+    "term": "A KCsSz rádiós diszpécsere",
+    "meaning": "A hatodik rádióadás diszpécsere: utasításokat ad és fogadja a KCsSz-munkatársak jelentéseit. A nemet nem közli a szöveg. Ne olvasszuk össze automatikusan a tizenkettedik nap diszpécserével; őrizzük meg a szolgálati formulákat, kódokat és a kommunikáció résztvevőváltásait. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-employee-32-8": {
+    "term": "32-8-as munkatárs",
+    "meaning": "A hatodik nap rádióbeszélgetésének résztvevője, aki sok civil áldozatról és megölt munkatársakról jelent. A 32-8 szolgálati szám az adásbeli szerepet jelöli; a nem nincs megadva. Különítsük el 28-8-tól és a protokoll számától. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-employee-28-8": {
+    "term": "28-8-as munkatárs",
+    "meaning": "A hatodik nap rádióbeszélgetésének másik résztvevője; csapatot kér a holttestek elégetésére a 451-es kód szerint. A nem nincs megadva. Őrizzük meg a 28-8 számot és a külön beszélőt, ne keverjük a 451-es protokollal. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-employee-18-8": {
+    "term": "18-8-as munkatárs",
+    "meaning": "A tizenharmadik nap rádióbeszélgetésének résztvevője, aki közli, hogy nem fékezték meg a fenyegetést és az alany elhagyta a város területét. A nemet nem közli a szöveg. Őrizzük meg a 18-8 számot, a külön szerepet és a sérült adást. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-evicted-people": {
+    "term": "Kilakoltatottak a rádióban",
+    "meaning": "A kilencedik rádióadás üzenete kilakoltatott lakók csoportjától: segítséget és élelmet kérnek a leégett ház épen maradt alagsorából. Őrizzük meg a többes számot; a forrás nem nevezi meg az egyes beszélőket és nemüket. Nem a főhős alagsora. A résztvevők egyéni összetételét és nemét a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, többes számot, tetteket és beszélőváltásokat; ne adjunk kitalált nemet a csoportnak vagy egyes tagjainak."
+  },
+  "radio-rescue-dialogue": {
+    "term": "Segélyhívás a rádióban",
+    "meaning": "Az első rádióadás segélyhívásának hivatkozási kártyája. A diszpécser és a szemtanú külön radio-rescue-dispatcher és radio-rescue-caller kártyákon szerepel. A gondolatjel elválasztja mondataikat; ne tulajdonítsuk a diszpécsernek a szemtanú szavait. Az egyes résztvevők nemét a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-warning-voices": {
+    "term": "Névtelen figyelmeztetések a rádióban",
+    "meaning": "A hetedik, tizedik és tizenegyedik nap névtelen adásainak hivatkozási csoportja. Külön szerepek: radio-day-7-warning, radio-day-10-warning, radio-day-11-warning. Nem bizonyított, hogy egyetlen személyről van szó; őrizzük meg az adások határait, az aggodalmat és a vételi zavarokat. Az egyes résztvevők nemét a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-advertising-voices": {
+    "term": "Rádiós reklámhangok",
+    "meaning": "A rádiós reklámbetétek hivatkozási csoportja: «Igen, ember vagyok», médiumok és telefonos rulett. A külön szerepeket radio-human-verification-ad, radio-psychics-ad és radio-phone-roulette-ad kártyák képviselik. Nem igazolt az azonosságuk a telefonos dolgozókkal. Az egyes résztvevők nemét a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "phone-roulette-reception": {
+    "term": "A telefonos rulett kezdő hangja",
+    "meaning": "A telefonos rulett kezdő hangja közli, hogy beszélgetőpartnert keresnek, és várakozásra kér. Ezt a szerepet különítsük el a hosszú beszélgetés nőjétől és a rövid hívástól. Nem ismert a neme, sem az, hogy ember vagy automata válaszol. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "couple-husband": {
+    "term": "A házaspár férfitagja",
+    "meaning": "A férfi a belépéskor a pár nevében beszél, és a feleségéről szól. Egy későbbi jelenetben megfenyegeti feleségét, és pisztolyt tart a kezében. Szavait és tetteit ne tulajdonítsuk a feleségnek; a kimenetelek a főhős választásától függnek. A szereplő férfi; használjuk a férfira utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "couple-wife": {
+    "term": "A házaspár nőtagja",
+    "meaning": "A férjével érkező nő; cselekedeteit a közös Couple előtag alatt írja le a szöveg. Az egyik ágon kiszabadul, mire férje rálő. Ne tekintsünk minden Couple sort az ő közvetlen beszédének, és ne tegyük kötelezővé a feltételes kimenetelt. A szereplő nő; használjuk a nőre utaló nyelvi formákat, megőrizve a nem felfedésének időpontját az eredeti jelenetben."
+  },
+  "radio-rescue-dispatcher": {
+    "term": "A segélyhívó szolgálat diszpécsere az első rádióadásban",
+    "meaning": "Az első nap rádióban közvetített hívásának résztvevője; megkérdezi, mit lát a szemtanú, és azt tanácsolja, sötétedésig ne menjen ki. A nemet nem közli a szöveg. Gondolatjelek választják el a diszpécser mondatait a szemtanú válaszaitól. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-rescue-caller": {
+    "term": "Az első rádióadás szemtanúja",
+    "meaning": "Az első rádióadás hívásának másik résztvevője: a napon elégő emberekről és egy éjjel látott sovány, sápadt lényről számol be. A nemet nem közli a szöveg. A szemtanú vallomása nem a diszpécseré, és nem válik mindentudó elbeszéléssé. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-day-7-warning": {
+    "term": "A hetedik rádióadás hangja",
+    "meaning": "A hetedik rádióadás hangja a város peremterületeire figyelmeztet, közli, hogy a KCsSz rálő a kijutni próbáló emberekre, és segítséget kér. A nemet nem közli a szöveg. Bizonyíték nélkül ne vonjuk össze más napok hangjaival. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-day-10-warning": {
+    "term": "A tizedik rádióadás hangja",
+    "meaning": "A tizedik rádióadás hangja a KCsSz-re, a kommunikáció zavarására és a városban maradás veszélyére figyelmeztet. A nemet nem közli a szöveg. Őrizzük meg a vételi zavarokat, és az állításokat tulajdonítsuk a hangnak; ne adjuk őket elő a játékvilág szerzői leírásaként. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-day-11-warning": {
+    "term": "A tizenegyedik rádióadás hangja",
+    "meaning": "A tizenegyedik nap töredékes adása a holttestek elégetését egy ismeretlen lény érkezésével kapcsolja össze. A személyazonosságot és nemet nem közli a szöveg. Ne töltsük ki a hiányokat kitalált szavakkal, és ne tulajdonítsuk e hangnak más napok adásait. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-day-12-dispatcher": {
+    "term": "A tizenkettedik rádióadás diszpécsere",
+    "meaning": "A tizenkettedik rádióadás diszpécsere a KCsSz munkatársaihoz szól, és közli a 451-es kód visszavonását a 955-ös javára: a holttesteket ne égessék el, hanem fedjék be mésszel. A nemet nem közli a szöveg; nem igazolt az azonossága a hatodik nap diszpécserével. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-human-verification-ad": {
+    "term": "Az «Igen, ember vagyok» műsor hangja",
+    "meaning": "Az «Igen, ember vagyok» műsor hangja szemekről, fogakról és körmökről készült fényképek beküldését ajánlja az emberi státusz megállapításához. A nemet nem közli a szöveg. A reklámajánlatot különítsük el a lakók közvetlen vizsgálatától és a médiumok szolgáltatásától. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-psychics-ad": {
+    "term": "A médiumok reklámjának hangja",
+    "meaning": "A Vendégszellemtől való megszabadulást és a gonosz szellemektől való védelmet reklámozza. A nemet nem közli a szöveg; nem bizonyított az azonossága a telefonos szakértővel. Őrizzük meg a reklám hangnemét, és az ígéreteket a szolgálat szavaiként adjuk vissza. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-phone-roulette-ad": {
+    "term": "A telefonos rulett reklámjának hangja",
+    "meaning": "Telefonbeszélgetést ajánl a magányt és szorongást érzőknek. A nemet nem közli a szöveg; nem bizonyított az azonossága a kezdő telefonos hanggal. Ez beszélgetőpartner-keresést reklámoz, nem maga a beszélgetés. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-advertising-voices": {
+    "term": "Televíziós reklámhangok",
+    "meaning": "A For Rest, az Enerzseka, a fotófilm, a sör és a Margoro cigaretta televíziós reklámbetéteinek hivatkozási csoportja. Mindegyik betétnek külön szerepkártyája van. A hangok neme és azonossága nem ismert; ne tulajdonítsunk minden reklámot a híradó műsorvezetőjének. Az egyes résztvevők nemét a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-for-rest-ad": {
+    "term": "A For Rest televíziós reklámjának hangja",
+    "meaning": "Reklámszerep a For Rest élelmiszer-kiszállításáról szóló betétben. Az igazolt szöveg a következő estére ígér kiszállítást; nem igazolt az azonossága a telefonos rendeléskezelővel vagy a futárral. A nemet nem közli a szöveg. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-enerjeka-ad": {
+    "term": "Az Enerzseka televíziós reklámjának hangja",
+    "meaning": "Reklámszerep az Enerzseka energiaitalról szóló betétben; a szomjoltásra vonatkozó reklámígéretek nem helyettesítik a tárgy játékbeli hatásának leírását. A neme és más műsorvezetőkkel való azonossága nem ismert. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-auracam-ad": {
+    "term": "A fotófilm televíziós reklámjának hangja",
+    "meaning": "Reklámszerep, amely a lélek energiájáról készült fénykép sötét foltjai alapján ígéri a Vendég felismerését. Ne tegyük az ígért garanciát a játék tévedhetetlen szabályává, és ne vonjuk össze a reklámot a hírekkel. A nemet nem közli a szöveg. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-beer-ad": {
+    "term": "A sör televíziós reklámjának hangja",
+    "meaning": "Reklámszerep a Bober Cserni sörről szóló betétben; két fiútestvérről és egy sörfőzdéről beszél. A testvérek a reklámtörténet szereplői, nem igazolt beszélők. A reklámhang nemét nem közli a szöveg. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-margoro-ad": {
+    "term": "A Margoro televíziós reklámjának hangja",
+    "meaning": "Reklámszerep a Margoro cigarettáról szóló betétben. Az «igazi férfiaknak» fordulat a reklám címzettjeire vonatkozik, és nem határozza meg a beszélő nemét. Őrizzük meg a reklámígéretet és a cég külön felelősségkizáró nyilatkozatát. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "psychics-closing-voice": {
+    "term": "A médiumülést lezáró hang",
+    "meaning": "A konzultáció után közli a szakértővel folytatott ülés végét, a fizetést és a szolgáltatás értékelését. A szöveg nem állapítja meg, hogy ez maga a szakértő vagy a recepció kezdő hangja; a szerep nemét és működésének módját sem közli. Őrizzük meg az átmenetet a konzultáció és a hívás ügyintézése között, kitalált azonosság nélkül. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "radio-ending-address": {
+    "term": "Az alagsori befejezés rádióbeszédének hangja",
+    "meaning": "A főhős által hosszú alagsori várakozás után hallott rádióbeszéd: a napenergia csillapodásáról és a tudósok előrejelzéséről számol be. A forrás kifejezetten rádiót jelöl, de nem nevezi meg a beszélőt és nem határozza meg a nemét. Ne azonosítsuk a napi rádióadások hangjaival, és ne állítsuk, hogy maga egy tudós beszél. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "tv-fema-promotion": {
+    "term": "A KCsSz-t népszerűsítő televíziós hang",
+    "meaning": "Egy televíziós betét szerepe, amely a KCsSz hősiességéről győzködi a nézőket, és a bizottság segítésére szólít fel. A külön propagandahang neme és a híradó műsorvezetőjével való azonossága nem ismert. A védelemre tett ígéreteket és a reklám számait a betét tartalmaként adjuk vissza. A nemet a kánon nem határozza meg. A tulajdonos döntése szerint őrizzük meg az eredeti névmásokat, résztvevőszámot, tetteket és beszélőváltásokat; ne adjunk hozzá nemet, ahol az eredeti nem közli. A semleges formáknak meg kell őrizniük a cselekvő személyt és a mondat jelentését."
+  },
+  "visitors": {
+    "term": "Vendégek",
+    "meaning": "Nem emberi lények, amelyeket külső jelek és viselkedés alapján próbálnak megkülönböztetni az emberektől. A nagybetűs szó a játékvilág fenyegetését jelöli; a ház közönséges vendégei nem feltétlenül Vendégek. Ne nyilvánítsunk minden gyanús jelet tévedhetetlen bizonyítéknak."
+  },
+  "human": {
+    "term": "Ember",
+    "meaning": "Az ember a Vendéggel szembeállítva. Egy szereplő «ember vagyok» állítása és egy szokásos emberi tulajdonság jelenléte önmagában nem határozza meg a státuszát. Őrizzük meg az ember, a ház lakója és az éjszakai látogató közti különbséget."
+  },
+  "fema": {
+    "term": "KCsSz",
+    "meaning": "A Vészhelyzeti Bizottság olyan szervezet, amely Vendégekre utaló jeleket vizsgál, lakókat visz el és karanténzónákat irányít. Az orosz forrás a КЧС megnevezést használja; a FEMA a hivatalos angol lokalizáció elnevezése. A kitalált bizottságot ne helyettesítsük a valódi МЧС-szel, és ne ruházzuk fel a valós szervre vonatkozó információkkal."
+  },
+  "quarantine-zone": {
+    "term": "Karanténzóna",
+    "meaning": "Az a hely, ahová a KCsSz vizsgálatokra kíséri az embereket. A zónák biztonsága, a támadások körülményei és a fogva tartottak további sorsa konkrét jelenetekben derül ki; a «karantén» szó nem garantál védelmet vagy gyógykezelést."
+  },
+  "for-rest": {
+    "term": "For Rest",
+    "meaning": "Élelmiszert és fogyóeszközöket kiszállító szolgálat. A rendeléseket egy telefonos hang veszi fel, és egy külön futár hozza el őket a következő éjjel; nagy leterheltség esetén a szolgálat szüneteket tart a rendelések között. Őrizzük meg a For Rest írásmódot, és ne keverjük össze a szolgálatot a dolgozóival."
+  },
+  "psychics-service": {
+    "term": "Médiumok",
+    "meaning": "Telefonos szolgálat, amely a Vendégektől való megtisztítást ígéri. A recepció szakértőhöz kapcsol; a szolgáltatások fizetősek. A szellemekről és gombákról szóló magyarázatai a szolgálat állításai, nem a világ igazolt szabályai."
+  },
+  "phone-roulette": {
+    "term": "Telefonos rulett",
+    "meaning": "Telefonos szolgálat, amely beszélgetőpartnert keres. Különítsük el a szolgálat kezdő hangját, a hosszú ág nőjét és a rövid hívás hangját; a közös Phone előtag nem bizonyítja, hogy egyetlen emberről van szó."
+  },
+  "foreign-embassy": {
+    "term": "Külföldi nagykövetség",
+    "meaning": "Az elérhetőség, amelyen a főhős megtudakolja, hogyan küldheti haza a külföldit. A válaszadó a közlekedés korlátozásairól és az erőforrások hiányáról beszél. Az államot és a dolgozó személyazonosságát nem nevezi meg a szöveg; ne találjuk ki őket."
+  },
+  "sun-faced-one": {
+    "term": "Naparcú",
+    "meaning": "A Piszkos sárga fickó imádatának tárgya. Beszédében a Naparcú megvédi, megjutalmazza és megítéli az embereket. Ezeket az állításokat a szereplő vallásos meggyőződéseként adjuk vissza; ne keverjük össze a Halál kultuszával."
+  },
+  "death-cult": {
+    "term": "A Halál kultusza",
+    "meaning": "A mester és tanítványai csoportja, amely a Halál érkezését várja, és általa nyugalmat ígér. Különítsük el a Halál nevű konkrét lényt, a kultuszt és az ember közönséges halálát. A mester ígéretei nem garantálják a szertartás biztonságát."
+  },
+  "visitor-spirit": {
+    "term": "Vendégszellem",
+    "meaning": "Egy gonosz szellem neve a médiumok reklámjában és konzultációjában. A szolgálat azt állítja, hogy megszállhat egy embert. Ne mossuk össze a Vendégszellemet a Vendéggel: ez a szereplők külön terminológiája, amelynek hitelessége nem igazolt."
+  },
+  "dead-person-spirit": {
+    "term": "Halotti szellem",
+    "meaning": "A telefonos szakértő szerint egy meghalt ember szelleme. A szakértő a Halotti szellemet a Vendégszellemmel állítja szembe, és azt állítja, hogy az elhunytak szellemének kiűzése nem tartozik a szolgálat szolgáltatásai közé. Őrizzük meg ezt a különbséget és az eredeti állítás forrását."
+  },
+  "mushroom-land": {
+    "term": "Gombák országa",
+    "meaning": "Szokatlan tér, ahová a furcsa gomba elfogyasztása egy időre eljuttat. Kapcsolódik hozzá a Gombász és a «Mosolyok tankönyve». Ne alakítsuk ezt a nevet közönséges gombagyűjtő hellyé, és ne keverjük össze a játék mentésére szolgáló kombucsával."
+  },
+  "mycelium": {
+    "term": "Micélium",
+    "meaning": "Gombafonal-szövedék, amelynek állapotát a Gombász a gombák növekedésével és a fesztivállal kapcsolja össze. A médium külön beszél az ember belsejében lévő micéliumról. Őrizzük meg a beszélőt és a kontextust; az azonos szó nem bizonyítja minden magyarázat igazságát."
+  },
+  "mushroom-festival": {
+    "term": "Gombafesztivál",
+    "meaning": "Esemény, amelyet a Gombász a gombák heves növekedéseként ír le, és próbál megállítani. Bekövetkezése és következményei a jelenettől függnek. A szokatlan gombavilág része, nem feltétlenül biztonságos városi ünnep."
+  },
+  "smile-guide": {
+    "term": "«Mosolyok tankönyve»",
+    "meaning": "Könyv, amelynek oldalaira a Gombász hivatkozik; gombás nyomok, az almafa és az óra kapcsolódnak hozzá. Az orosz Game_MushroomList felületszövegben három számozott verses oldal található. Őrizzük meg a címet, a verses formát és a nyomok kapcsolatát; ne helyettesítsük a könyvet az érzelmek kifejezéséről szóló kézikönyvvel."
+  },
+  "mushroom-ritual": {
+    "term": "A «Mosolyok tankönyve» szertartása",
+    "meaning": "Ősi szertartás, amelyet a Gombász a gombanövekedés visszaszorításával kapcsol össze. Magyarázatát és a kudarcról szóló közléseket az eredeti jelenet feltételeivel együtt kell visszaadni; ne keverjük össze ezt a szertartást a Halál kultuszának szertartásával."
+  },
+  "anomalous-heat": {
+    "term": "Rendellenes hőség",
+    "meaning": "Katasztrofális hőség, amely a Nap változásaival és a nappali utcára lépés veszélyével függ össze. Emiatt a szereplők menedéket keresnek és éjjel közlekednek. Ne egyszerűsítsük a fenyegetést közönséges forró időjárássá."
+  },
+  "visitor-signs": {
+    "term": "A Vendégek jelei",
+    "meaning": "Tulajdonságok, amelyeket a főhős a televízió és a KCsSz közléseire támaszkodva vizsgál az embereken. A jelek szokásos emberi tulajdonságokkal is egybeeshetnek; őrizzük meg az egyes változatokhoz tartozó kétségeket, magyarázatokat és különbségeket."
+  },
+  "perfect-white-teeth": {
+    "term": "Tökéletesen fehér fogak",
+    "meaning": "A Vendégek televíziós adásban közölt jele. A fogmosás és a szereplők más magyarázatai vitatottá teszik ezt a kritériumot. Ne helyettesítsük a tökéletes fehérséget közönséges egészséges mosollyal, és ne állítsuk be a jelet tévedhetetlen tesztként."
+  },
+  "dirt-under-nails": {
+    "term": "Kosz a körmök alatt",
+    "meaning": "A televízióban közölt Vendég-jel, amelyet a kezek vizsgálatakor ellenőriznek. A szereplőknél a kosznak hétköznapi okai is vannak. A körmök alatti koszt ne helyettesítsük bármilyen kézsérüléssel vagy a kezeken lévő vérrel."
+  },
+  "blood-red-eyes": {
+    "term": "Vérvörös szemek",
+    "meaning": "A Vendégek közölt jele. A telefonos orvos a vörösséget a koffeinnel is összefüggésbe hozza; az orvos magyarázatát az ő tanácsaként kell megőrizni. Ne keverjük össze a szem színét, a vörösséget és a szemek hiányát."
+  },
+  "hairless-armpits": {
+    "term": "Szőrtelen hónalj",
+    "meaning": "A Vendégek televíziós közlésben szereplő jele. A vizsgálat a hónaljra vonatkozik, nem az összes testszőrre. A gyermekkorra és más okokra hivatkozó magyarázatokat ne töröljük a megfelelő mondatokból."
+  },
+  "armpit-fungus": {
+    "term": "Hónaljgomba",
+    "meaning": "A Vendégek késői, televízióban közölt jele. Gombás elváltozás, nem szőrhiány és nem fogyasztható gomba. A vizsgálat minden leírásában különítsük el ezeket a fogalmakat."
+  },
+  "energy": {
+    "term": "Energia",
+    "meaning": "A főhős erőforrása, amelyet a leírásokban a <sprite=0> ikon jelöl. Az Enerzseka egy egységet ad hozzá, a sör nullára csökkenti, a cigaretta pedig teljesen visszatölti. Ne keverjük össze ezt az erőforrást a jósnő beszédében szereplő természetfeletti «energiával»."
+  },
+  "energy-capacity-bonus": {
+    "term": "Kávébónusz",
+    "meaning": "A kávé <sprite=1> ikonnal jelölt hatása: egy további egység néhány napra. Az ikon eltér a <sprite=0> ikontól; a cigaretta a következő napra egy ilyen egységet eltávolít. Az erőforrás nevét és a pontos időtartamot nem szabad egyetlen ikon alapján kitalálni."
+  },
+  "enerjeka": {
+    "term": "Enerzseka",
+    "meaning": "Az energiaital neve. Egy egységet ad a <sprite=0> erőforráshoz; a főhős «vegyszeres löttyként» írja le. Őrizzük meg a játékbeli márkát, ne helyettesítsük valódi márkával vagy személynévvel."
+  },
+  "bobeer-cherni": {
+    "term": "Bober Cserni",
+    "meaning": "A hűtőben lévő sör neve. A főhős finom, hideg sörként írja le; elfogyasztása nullára csökkenti a <sprite=0> értékét. Őrizzük meg a játékbeli név írásmódját, ne alakítsuk szereplő nevévé."
+  },
+  "beer": {
+    "term": "Sör",
+    "meaning": "A Bober Cserni márkához kapcsolódó fogyasztható ital. Nullára csökkenti a <sprite=0> erőforrást, ami után a főhős aludni akar; egy külön mondat korlátozza az aznapi további fogyasztást. Ne terjesszük ki a hatást az alkohol minden említésére."
+  },
+  "coffee": {
+    "term": "Kávé",
+    "meaning": "Ital, amely néhány napra egy <sprite=1> egységet ad hozzá. A főhős a hőség miatt hidegen issza. Különítsük el ezt a játékbeli hatást a KCsSz telefonos orvosának egészségügyi tanácsaitól."
+  },
+  "cigarettes": {
+    "term": "Cigaretta",
+    "meaning": "Fogyóeszköz: teljesen visszatölti a <sprite=0> értékét, de a következő napra elvesz egy <sprite=1> egységet. Különítsük el a főhősnek szánt cigarettát a lakók rágyújtási kéréseitől; a tárgyak számát a kontextus határozza meg."
+  },
+  "kombucha": {
+    "term": "Kombucsa",
+    "meaning": "A játék mentésére szolgáló fogyóeszköz: a mentett előrehaladás a végigjátszás befejezése után is megmarad. Ne keverjük össze a furcsa gombával, amely a Gombák országába küld. A médium állításai a kombucsa gonoszságáról nem helyettesítik a működés igazolt leírását."
+  },
+  "strange-mushroom": {
+    "term": "Furcsa gomba",
+    "meaning": "A burgonyában kinőtt, a hűtőbe kerülő gomba. Elfogyasztása rövid időre a Gombák országába küldi a főhőst. Külön tárgy, eltér a mentéshez használt kombucsától."
+  },
+  "cat-food": {
+    "term": "Macskaeledel",
+    "meaning": "A Ballerina nő macskájának szánt fogyóeszköz; a For Rest-rendelés macskakonzervet említ. Ne helyettesítsük emberi étellel, és ne keverjük össze az etetést a «Megsimogatás» művelettel."
+  },
+  "fema-notice": {
+    "term": "Megjelenés a KCsSz-nél",
+    "meaning": "A tűzoltótól kapott dokumentum, amellyel egy lakót megjelölhetünk a KCsSz munkatársainak. Különítsük el a tárgy nevét, a megjelenésre felszólító parancsot és a ház tényleges elhagyását; a dokumentum nem közönséges belépő és nem a szabadon engedés garanciája."
+  },
+  "apple": {
+    "term": "Alma",
+    "meaning": "A gombás nyomsorozat gyümölcse. A főhős egyszerre savanyúnak és édesnek írja le az ízét. Ne keverjük össze a töredékes telefonos monológ képletes «almaszerkezetével»."
+  },
+  "clock-at-twelve": {
+    "term": "Óra 12-re állítva",
+    "meaning": "Az óra 12-re állítása a «Mosolyok tankönyve» oldalainak utasítása szerint. Őrizzük meg a számot és a műveletek sorrendjét; ez a mondat önmagában nem határoz meg delet, éjfélt vagy a teljes szertartás garantált kimenetelét."
+  },
+  "house": {
+    "term": "A főhős háza",
+    "meaning": "A ház, ahol a főhős menedéket talál, látogatókat fogad és a lakókkal beszélget. Ez a főhős menedéke, nem bármely, a szereplők által említett ház. Különítsük el a helyiségeit és a szomszédos épületeket."
+  },
+  "basement": {
+    "term": "Alagsor",
+    "meaning": "A főhős házának föld alatti része, amely a gombához, a lyukhoz és a végső jelenetekhez kapcsolódik. A rádióadásban a kilakoltatottak egy leégett ház másik alagsoráról beszélnek; az azonos megnevezés nem jelent azonos helyet."
+  },
+  "entrance": {
+    "term": "Bejárat",
+    "meaning": "A ház bejárati területe és a felület megfelelő helyiségének neve. Különítsük el a helyiséget, a bejárati ajtót és a «Belépés» műveletet; a kint álló éjszakai látogató még nem lakó."
+  },
+  "bathroom": {
+    "term": "Fürdőszoba",
+    "meaning": "A főhős házának egyik helyisége. Különítsük el a helyiséget a kádtól mint tárgytól és a mosakodástól mint művelettől; a külső történetek fürdőszobái a saját helyszínükhöz tartoznak."
+  },
+  "bedroom": {
+    "term": "Hálószoba",
+    "meaning": "A főhős házának ágyat tartalmazó helyisége. Ne helyettesítsük közös nappalival, és ne helyezzünk minden alvási vagy intim jelenetet ebbe a szobába az eredeti kontextus igazolása nélkül."
+  },
+  "office": {
+    "term": "Dolgozószoba",
+    "meaning": "A főhős házának egyik helyisége. Ebben a kontextusban nem a KCsSz irodáját, orvosi rendelőt vagy hivatalos intézményt jelent."
+  },
+  "kitchen": {
+    "term": "Konyha",
+    "meaning": "A főhős házának egyik helyisége. Különítsük el a konyhát, a hűtőt és a helyiségben egy adott lakó által elfoglalt helyet; a közös szoba nem jelenti minden lakójának közös hangját."
+  },
+  "pantry": {
+    "term": "Kamra",
+    "meaning": "Tárolóhelyiség a főhős házában. Ne keverjük össze az alagsorral, a fürdőszobával vagy a konyhával, akkor sem, ha egy szereplő mellettük foglal helyet."
+  },
+  "living-room": {
+    "term": "Nappali",
+    "meaning": "A főhős házának nagy lakószobája. Az orosz «гостиная» és «Гости» szavak közös része nem állapít meg kapcsolatot a lényfajjal; közönséges helyiségnév."
+  },
+  "window": {
+    "term": "Ablak",
+    "meaning": "Felület a kinti események megfigyeléséhez. A technikai Window előtag a főhős elbeszélését és megfigyeléseit tartalmazza, nem egy állandó, «Ablak» nevű szereplőt."
+  },
+  "phone": {
+    "term": "Telefon",
+    "meaning": "A gyűjtött számok felhívására szolgáló készülék. A Phone előtag különböző beszélgetőpartnerekre és műveletleírásokra használatos; nem fordítható személynévként, és nem vonható minden hívás egyetlen hang alá."
+  },
+  "radio": {
+    "term": "Rádió",
+    "meaning": "Adások keresésére szolgáló vevőkészülék. A frekvencia, a hangerő és a hullámsáv beállítása különböző művelet. A rádióadások különböző szerepeket és vételi zavarokat tartalmaznak; egyetlen hangforrás nem jelent egyetlen beszélőt."
+  },
+  "phone-numbers": {
+    "term": "Telefonszámok",
+    "meaning": "A megtalált elérhetőségek listája. A cetli felirata a számhoz kapcsolódó indokot vagy forrást jelöli, és nem mindig nevezi meg pontosan a válaszadót: a «Kislány barátnője» számon a barátnő anyja válaszol."
+  },
+  "hole": {
+    "term": "Lyuk",
+    "meaning": "Alagsori objektum, amely ásáshoz és külön jelenetsorhoz kapcsolódik. Különítsük el a nyílást mint objektumot, az «Ásás» műveletet és a belejutást; ne helyettesítsük automatikusan sírral."
+  },
+  "board-up": {
+    "term": "Bedeszkázás",
+    "meaning": "Az ablakok deszkákkal történő lezárása a ház védelmében. Nem pusztán az ablakszárny becsukását, a szobából kilépést vagy egy lakó megölését jelenti."
+  },
+  "save-and-quit": {
+    "term": "Mentés és kilépés az asztalra",
+    "meaning": "Parancs, amely menti az előrehaladást és bezárja a játékot. Különítsük el a mentés nélküli menübe lépéstől és a kombucsás kézi mentéstől; a szöveg rövidítésekor ne veszítsük el a mentésre vonatkozó információt."
+  },
+  "quit-without-saving": {
+    "term": "Kilépés a menübe mentés nélkül",
+    "meaning": "Parancs a menübe visszatéréshez a nem mentett előrehaladás elvesztésével. Ne keverjük össze a mentéssel és az asztalra kilépéssel; az előrehaladás elvesztésére figyelmeztetés ehhez a művelethez tartozik."
+  },
+  "collection": {
+    "term": "Gyűjtemény",
+    "meaning": "A menü feloldott szereplőket és befejezéseket tartalmazó része. A zárolt bejegyzések kérdőjelekként jelenhetnek meg; ne fedjük fel a nevüket vagy a kimenetelüket korábban az eredetinél."
+  },
+  "ending": {
+    "term": "Befejezés",
+    "meaning": "A végigjátszás végső kimenetele és annak bejegyzése a gyűjteményben. A különböző befejezések saját feltételekkel és leírásokkal rendelkeznek; a táblázat szomszédos sorai miatt ne vonjuk össze őket egyetlen elkerülhetetlen végkifejletté."
+  },
+  "code-451": {
+    "term": "451-es kód",
+    "meaning": "A KCsSz rádiókódja holttestégető brigád kérésére. Később visszavonják és a 955-ös kóddal helyettesítik. Ne keverjük össze a kódot a 28-8-as dolgozó számával vagy a KCsSz telefonszámával."
+  },
+  "code-955": {
+    "term": "955-ös kód",
+    "meaning": "A 451-es kódot helyettesítő új rádiókód: a holttesteket az elégetés helyett mésszel kell befedni. Őrizzük meg az utasítás változását és az adás vételi zavarait; a késői jelenetben ne folytassuk a régi parancsot."
+  },
+  "it-creature": {
+    "term": "Az",
+    "meaning": "Le nem írt lény, amelyről a Szem nélküli férfi beszél: elmondása szerint megégett holttesteket eszik. Kifejezetten megkülönbözteti a sápadt embertől. Őrizzük meg a rémületet, a névmásokat és az elbeszélő személyét; ne állítsuk be igazolt azonosságként a feltételezett kapcsolatát minden rádióközléssel és rémálommal. Az IT a rajongói wiki segédmegjelölése, nem saját orosz név."
+  },
+  "auracam-film": {
+    "term": "Aurafotófilm",
+    "meaning": "A lélek energiájának fényképezéséhez reklámozott különleges film; a csomagoláson és a reklámképen AURACAM áll. A televízió a sötét foltokat a Vendég jelének nevezi. Különítsük el a márkát, a filmet, az elkészült képet és az ellenőrzés megbízhatóságára vonatkozó állításokat."
+  },
+  "photo-check": {
+    "term": "Fénykép",
+    "meaning": "Vizsgálati menüpont, amellyel lefényképezhetjük a lakót és értékelhetjük a képet. Őrizzük meg a kép konkrét eredményét és a szereplő magyarázatát: az elmosódott testhez mozgásra utaló mondat társulhat. A vizsgálatot ne helyettesítsük egy rokon fényképével vagy egy berendezéshez tartozó képpel."
+  },
+  "ear-check": {
+    "term": "Fülek",
+    "meaning": "A lakó füleinek vizsgálati menüpontja. A művelet nevét ne alakítsuk egy megtalált jelre vonatkozó állítássá: az eredmény külön jelenik meg és kerül megbeszélésre. Őrizzük meg a fülzsír, a sérülések és a rovarok közti különbségeket, amikor az eredeti jelenetben szerepelnek."
+  },
+  "ear-wax": {
+    "term": "Fülzsír",
+    "meaning": "Fülzsír a nyolcadik nap képletes televíziós bejelentkezésében. A műsorvezetőnő piszkos gondolatokkal és harangokkal kapcsolja össze. Az adás szavai, nem igazolt orvosi magyarázat; ne helyettesítsük a fülzsírt rovarral vagy ipari vegyszerként értett kénnel."
+  },
+  "bleeding-gums": {
+    "term": "Vér az ínyen",
+    "meaning": "A KCsSz által a kilencedik nap televíziós adásában közölt jel. Az íny külön állapota, amely eltér a fehér fogaktól. Közölt kritériumként adjuk vissza, és őrizzük meg a szereplők magyarázatait, a vizsgálat pontosságának garantálása nélkül."
+  },
+  "skin-irritation": {
+    "term": "Bőrirritáció",
+    "meaning": "A tizedik televíziós adásban közölt, potenciálisan veszélyes polgárokra utaló jel. Ne mossuk össze a hónaljgombával vagy a szőrhiánnyal; a vizsgálat konkrét helyét és eredményét a jelenet határozza meg."
+  },
+  "rapid-pupil": {
+    "term": "Gyorsan mozgó pupilla",
+    "meaning": "Késői jel a tizenkettedik nap televíziós adásából: a pupilla mozgásáról van szó. Különítsük el a szem vörösségétől, a szemek hiányától és a közönséges tekintettől; a gyanút és a szereplő magyarázatát a jelenet szerint őrizzük meg."
+  },
+  "self-examination": {
+    "term": "Önvizsgálat",
+    "meaning": "A főhős önvizsgálata az ellenőrzések előtt: fogak, kezek, szemek, hónaljak és fülek. Az eredmények a tettektől és az elfogyasztott tárgyaktól függnek; az ásás utáni kosz és a koffein utáni vörös szemek nem helyettesítik az igazolt Vendég-státuszt. Különítsük el a lakó vizsgálatától."
+  },
+  "wash": {
+    "term": "Mosakodás",
+    "meaning": "A főhős művelete az önvizsgálati sorozatban. Ne helyettesítsük helyiségnévvel vagy bármely jel eltávolításának garanciájával: hónaljirritációnál a főhős csupán reméli, hogy a víz segít. Külön őrizzük meg a telefonos orvos tanácsát a víztől való tartózkodásra a vizsgálat előtt."
+  },
+  "examine-resident": {
+    "term": "Lakó vizsgálata",
+    "meaning": "A főhős művelete, amely megnyitja egy adott lakó jeleinek ellenőrzését. Különítsük el a testrész vagy fénykép kiválasztását, a vizsgálat eredményét és a főhős későbbi döntését; maga a vizsgálat kérése nem jelent vádat, kiűzést vagy lövést."
+  },
+  "draw-shotgun": {
+    "term": "Puska elővétele",
+    "meaning": "Művelet, amelyben a főhős a vizsgálat után előveszi a puskáját. Fenyegetés és átmenet egy külön döntéshez; nem egyenértékű az azonnali lövéssel. A házaspár férfitagjának és a banditának pisztolyai más szereplőké."
+  },
+  "shoot": {
+    "term": "Lövés",
+    "meaning": "A főhős választása arra, hogy rálő a vizsgált lakóra. Különítsük el a «Puska elővétele», «Meghallgatás» és «Elengedés» műveletektől; az eredményt és a cselekvőt az adott ágnak megfelelően őrizzük meg."
+  },
+  "listen-to-explanation": {
+    "term": "Meghallgatás",
+    "meaning": "Választás a szereplő magyarázatának meghallgatására a fegyveres jelenetben. Nem jelenti azt, hogy előre hiszünk neki, embernek ismerjük el vagy garantáljuk a biztonságot; a további szavaknak és döntéseknek saját kontextusuk van."
+  },
+  "release-after-check": {
+    "term": "Elengedés",
+    "meaning": "Választás az adott vizsgálat befejezésére puskás fenyegetés nélkül. Ebben a menüben nem a lakó házból való elkergetését jelenti; különítsük el az éjszakai menedék megtagadásától és a kiűzéstől."
+  },
+  "margoro": {
+    "term": "Margoro",
+    "meaning": "A játék televíziós reklámjában szereplő cigarettamárka. Őrizzük meg a nevet és a reklám hangnemét; ne helyettesítsük valódi dohánymárkával. A cég felelősségkizárása a betét külön része, nem egy lakó mondata."
+  },
+  "cr-channel": {
+    "term": "CR Channel",
+    "meaning": "A televíziós képek CR CHANNEL emblémáján szereplő csatornanév. Adásai között hírek, előrejelzés, reklám és szokatlan bejelentkezés is van; nem igazolt, hogy minden hang ugyanahhoz a szerkesztőséghez tartozik. Ne adjuk meg a technikai TV előtagot a műsorvezető neveként."
+  },
+  "code-984": {
+    "term": "984-es kód",
+    "meaning": "A KCsSz rádiókódja a város körbezárására a körülmények tisztázásáig és az erősítés kivárására. Különítsük el a holttestégetés 451-es kódjától és az azt helyettesítő 955-ös kódtól; a dolgozók számai embereket jelölnek, nem protokollokat."
+  },
+  "ear-insect": {
+    "term": "Rovar a fülben",
+    "meaning": "Képi változat a fülek vizsgálatakor: az eredeti fake_ear_cockroach textúrán rovar látható. Különítsük el a látható rovart, a fülzsírt és a sérüléseket; egyetlen képnév nem határozza meg a lény faját, a lakó személyazonosságát vagy a vizsgálat tévedhetetlenségét."
+  },
+  "child-of-vision": {
+    "term": "Látomásbeli gyermek",
+    "meaning": "A gyermek, akinek létezéséről és jövőbeli érkezéséről a főhős a Csábító nővel beszél. A nő szavai megőrzik a feltételt: «ha a Gyermek valóban létezik»; egy külön végső jelenetben hárman tartják a gyermeket a ködben. Ne keverjük össze Mother gyermekével, a Szomszéd lányával vagy az esőkabátos fiúval, és ne fedjük fel a kimenetelt a megfelelő jelenet előtt."
+  }
+}

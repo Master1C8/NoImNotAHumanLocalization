@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "reviewer": "Root assigned Codex model, independent of locale author",
+  "status": "full-cold-review-findings-returned",
+  "fullAudit": true,
+  "cold": true,
+  "authorNotesRead": false,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "reviewedLayerRawSha256": "90701a0ad94fa1316b4a75ea6205b02bea762633bf6df3cd2245c3d8b108eba1",
+  "immutableReviewedArtifact": "reviewed-layer-v1.json",
+  "coverage": [
+    [
+      1,
+      35
+    ],
+    [
+      36,
+      65
+    ],
+    [
+      66,
+      95
+    ],
+    [
+      96,
+      125
+    ],
+    [
+      126,
+      155
+    ],
+    [
+      156,
+      180
+    ],
+    [
+      181,
+      201
+    ]
+  ],
+  "fields": [
+    "term",
+    "meaning"
+  ],
+  "findings": [
+    {
+      "id": "armchair-lawyer",
+      "field": "meaning",
+      "issue": "Cere chirie specifically demands a rent fee. Source требует аренду describes renting/tenancy without an explicit payment demand. Preserve the rental arrangement, e.g. închiriere."
+    },
+    {
+      "id": "mothers-husband",
+      "field": "meaning",
+      "issue": "refuză să o urmeze means refuses to follow her; source отказывается идти за ней means refuses to go for her. Preserve going for her, e.g. refuză să meargă după ea, without changing the action to following her."
+    },
+    {
+      "id": "sun-faced-one",
+      "field": "meaning",
+      "issue": "grăsanului adds a fat-man description absent from source грязного жёлтого мужика. Refer to the established Bărbatul murdar și galben without adding body shape."
+    }
+  ],
+  "cleanAuditCredit": 0,
+  "readingNote": "Paired native source/target; exact repeated policy clauses displayed once with lossless explicit references.",
+  "reviewedEntries": 201,
+  "conclusion": "All 201 Russian/Romanian terms and meanings compared without reading author notes. Three source-fidelity findings; edits reset the locale gate. No clean credit awarded."
+}

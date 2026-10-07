@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "reviewer": "Root assigned Codex model, independent of locale author",
+  "status": "full-cold-review-findings-returned",
+  "fullAudit": true,
+  "cold": true,
+  "authorNotesRead": false,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "reviewedLayerRawSha256": "f3ad6ed6af6fef26872f374ddb74e69ace688b56d8840122d918443f93b5aa4b",
+  "immutableReviewedArtifact": "reviewed-layer-v1.json",
+  "coverage": [
+    [
+      1,
+      50
+    ],
+    [
+      51,
+      100
+    ],
+    [
+      101,
+      150
+    ],
+    [
+      151,
+      175
+    ],
+    [
+      176,
+      201
+    ]
+  ],
+  "fields": [
+    "term",
+    "meaning"
+  ],
+  "findings": [
+    {
+      "id": "stoner",
+      "field": "meaning",
+      "issue": "játékos szókincs reads playful vocabulary; source игровую лексику refers to gaming vocabulary. Explicitly preserve language about games, e.g. játékokkal kapcsolatos szókincset."
+    },
+    {
+      "id": "radio-rescue-dispatcher",
+      "field": "term",
+      "issue": "mentőszolgálat denotes an ambulance service and narrows the generic rescue/emergency service in source. Preserve the general emergency-call role, consistent with segélyhívás in radio-rescue-dialogue, e.g. segélyhívó szolgálat."
+    }
+  ],
+  "cleanAuditCredit": 0,
+  "sourceReading": "All 201 pinned Russian terms/meanings just read fully during completed Romanian independent audit in this same context. Source unchanged. This audit rereads every Hungarian term/meaning, comparing each to that complete source; no locale-author notes used.",
+  "readingNote": "Every Hungarian field displayed verbatim; exactly repeated native policy clauses displayed once and referenced losslessly. Complete unchanged Russian fields were read in the immediately preceding Romanian audit. Entries 151–201 also compared with Russian source freshly displayed in full.",
+  "reviewedEntryCount": 201
+}

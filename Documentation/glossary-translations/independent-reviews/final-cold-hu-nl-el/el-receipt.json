@@ -1,0 +1,111 @@
+{
+  "locale": "el",
+  "reviewer": "/root/final_cold_hu_nl_el",
+  "independent": true,
+  "prior_reviews_read": false,
+  "source_raw_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "target_raw_sha256": "4ce07cd28131a17ba08f820ec04f0d498307fe1fced5f2394071fdcc15e6a60f",
+  "source_fidelity": {
+    "all_entries_complete": true,
+    "ranges": [
+      [
+        1,
+        12
+      ],
+      [
+        13,
+        32
+      ],
+      [
+        33,
+        54
+      ],
+      [
+        55,
+        78
+      ],
+      [
+        79,
+        98
+      ],
+      [
+        99,
+        122
+      ],
+      [
+        123,
+        146
+      ],
+      [
+        147,
+        174
+      ],
+      [
+        175,
+        201
+      ]
+    ],
+    "fields": [
+      "source.term",
+      "source.meaning",
+      "target.term",
+      "target.meaning"
+    ]
+  },
+  "native_editorial": {
+    "all_entries_complete": true,
+    "ranges": [
+      [
+        1,
+        25
+      ],
+      [
+        26,
+        50
+      ],
+      [
+        51,
+        76
+      ],
+      [
+        77,
+        100
+      ],
+      [
+        101,
+        125
+      ],
+      [
+        126,
+        150
+      ],
+      [
+        151,
+        176
+      ],
+      [
+        177,
+        201
+      ]
+    ],
+    "fields": [
+      "target.term",
+      "target.meaning"
+    ],
+    "truncation_recovery": "An attempted policies + 1-36 native display returned no visible content due to context truncation and received no coverage credit. Entries 1-36 were recovered completely within the successful 1-25 and 26-50 reads. Exact policy templates were separately displayed and reread in full during the native pass."
+  },
+  "exact_policy_compaction": "Only exact repeated policies fully displayed/read first: male entry 2, female entry 4, unknown variant entry 80, second unknown variant entry 86. All four templates separately displayed/reread during native pass. All unique clauses fully displayed. Source equivalents previously fully read.",
+  "structural": {
+    "count": 201,
+    "ids_order_match": true,
+    "nonempty": true,
+    "allowed_fields": true
+  },
+  "objective_findings": [
+    "EL-01",
+    "EL-02"
+  ],
+  "result": "needs-correction",
+  "scope": "One full fidelity audit and separate full native editorial reread of frozen inputs; report only.",
+  "token_usage": "unknown locally; coordinator measures"
+}

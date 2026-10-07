@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "kind": "independent cold full source-fidelity and native editorial audit",
+  "fullAudit": true,
+  "coldReview": true,
+  "authorNotesReadBeforeComparison": false,
+  "entriesReviewed": 201,
+  "fields": ["term", "meaning"],
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "layerRawSha256": "d5f1eeaaaa946c531fa1fe2431e03419a51c321872bd5017df32fa656e286441",
+  "coverage": [[1,15],[16,40],[41,65],[66,85],[86,105],[106,130],[131,160],[161,201]],
+  "truncatedRereads": [[115,117],[116,116]],
+  "sourceReading": "Prior full201 unchanged approved Russian field reading reused; all201 final Hindi fields read for fidelity and native grammar. Ambiguity at10/43/44/45/51/93/94 freshly checked against source. All truncated fields reread fully before coverage credit.",
+  "findings": [
+    {"id":"naked-fat-man","field":"meaning","target":"रूखी, भारी, रुक-रुककर बोलने वाला आगंतुक","issue":"Feminine रूखी has no feminine speech/voice noun; बोलने वाला आगंतुक is masculine. Explicitly qualify बोली or आवाज़ to preserve the rough/heavy/interrupted speech description."},
+    {"id":"theater-man","field":"meaning","source":"с мамой и бабушкой","target":"माँ और दादी","issue":"दादी specifies paternal grandmother; Russian бабушка does not establish paternal versus maternal kinship. Preserve the unspecified relation."},
+    {"id":"radio-human-verification-ad","field":"meaning","source":"предлагает прислать фотографии","target":"तस्वीरें भेजने का प्रस्ताव देती है","issue":"The voice proposes photo sending without identifying listeners as the people asked to submit their photos. Make the request and submitting listener clear, preserving eyes/teeth/nails and verification purpose."}
+  ],
+  "status": "full-audit-findings-return-to-author",
+  "consecutiveCleanCredit": 0
+}

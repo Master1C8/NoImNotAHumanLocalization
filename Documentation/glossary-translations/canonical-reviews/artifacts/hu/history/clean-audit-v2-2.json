@@ -1,0 +1,53 @@
+{
+  "number": 2,
+  "version": "v2",
+  "kind": "full self-audit",
+  "ranges": [
+    [
+      1,
+      30
+    ],
+    [
+      31,
+      60
+    ],
+    [
+      61,
+      82
+    ],
+    [
+      83,
+      102
+    ],
+    [
+      103,
+      122
+    ],
+    [
+      123,
+      160
+    ],
+    [
+      161,
+      201
+    ]
+  ],
+  "fields": [
+    "source.term",
+    "source.meaning",
+    "target.term",
+    "target.meaning"
+  ],
+  "layerRawSha256": "f3ad6ed6af6fef26872f374ddb74e69ace688b56d8840122d918443f93b5aa4b",
+  "authoredRawSha256": "9efae28f7e112372b21e848450475ced30c9ffa54a0189e5afd9e490ab3ff7a7",
+  "findings": [],
+  "result": "clean",
+  "semanticNotes": [
+    "All 201 complete target terms and meanings reread with source terms and meanings; no omission or truncated range.",
+    "No new identity, sex, age, participant count, unconditional event or earlier disclosure added. Former-service wording leaves fired versus resigned unspecified.",
+    "Vendég terminology consistently distinguishes ordinary guests; Vendégszellem and Halotti szellem remain separate attributed terminology.",
+    "Room names, phone contact versus respondent, broadcasts and advertisements retain role boundaries; numeric codes and literal sprite tags preserve their effects.",
+    "Examination, weapon draw, shot, listening and release remain distinct; save/quit paths and conditional final scenes preserved."
+  ],
+  "readOrder": "target first, source second for every entry"
+}

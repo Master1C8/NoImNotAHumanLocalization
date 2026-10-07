@@ -1,0 +1,118 @@
+{
+  "version": "v1",
+  "kind": "full self-audit",
+  "ranges": [
+    [
+      1,
+      30
+    ],
+    [
+      31,
+      60
+    ],
+    [
+      61,
+      82
+    ],
+    [
+      83,
+      102
+    ],
+    [
+      103,
+      122
+    ],
+    [
+      123,
+      160
+    ],
+    [
+      161,
+      201
+    ]
+  ],
+  "fields": [
+    "source.term",
+    "source.meaning",
+    "target.term",
+    "target.meaning"
+  ],
+  "layerRawSha256": "0e7ba17578dc3618389cd41436c9339020d49f4c2db0d351ce892649f850fe10",
+  "authoredRawSha256": "122cd9f475167f3a655fc348eee6098cc30b25f96565c12354ee46d99afaed54",
+  "findingsAndCorrections": [
+    {
+      "id": "wounded-fugitive",
+      "field": "meaning",
+      "before": "vreest aangifte en KChS",
+      "after": "is bang om verklikt te worden en voor KChS"
+    },
+    {
+      "id": "firefighter",
+      "field": "meaning",
+      "before": "bezorgd om zijn kameraden en kinderen",
+      "after": "bezorgd om kameraden en kinderen"
+    },
+    {
+      "id": "twin-sirin",
+      "field": "meaning",
+      "before": "die onder een zware geestelijke toestand lijdt",
+      "after": "die psychisch zwaar te lijden heeft"
+    },
+    {
+      "id": "stitched-mouth-man",
+      "field": "meaning",
+      "before": "handelingbeschrijving",
+      "after": "handelingsbeschrijving"
+    },
+    {
+      "id": "phone",
+      "field": "meaning",
+      "before": "handelingbeschrijvingen",
+      "after": "handelingsbeschrijvingen"
+    },
+    {
+      "id": "radio-psychics-ad",
+      "field": "meaning",
+      "before": "het bevrijden van de Gastgeest",
+      "after": "het verdrijven van de Gastgeest"
+    },
+    {
+      "id": "radio-ending-address",
+      "field": "term",
+      "before": "Stem van de radiotoespraak in het keldereinde",
+      "after": "Stem van de radiotoespraak in de eindscène in de kelder"
+    },
+    {
+      "id": "psychics-service",
+      "field": "meaning",
+      "before": "reiniging van Gasten",
+      "after": "zuivering van de aanwezigheid van Gasten"
+    },
+    {
+      "id": "hairless-armpits",
+      "field": "meaning",
+      "before": "Wis kinderlijke leeftijd en andere verklaringen niet uit de betreffende uitspraken.",
+      "after": "Laat de leeftijd van kinderen en andere verklaringen niet weg uit de betreffende uitspraken."
+    },
+    {
+      "id": "energy-capacity-bonus",
+      "field": "meaning",
+      "before": "voor de volgende dag",
+      "after": "op de volgende dag"
+    },
+    {
+      "id": "cigarettes",
+      "field": "meaning",
+      "before": "voor de volgende dag",
+      "after": "op de volgende dag"
+    }
+  ],
+  "result": "corrections-required; clean count zero",
+  "notes": [
+    "All 201 source and target terms and meanings read; failed truncated 61–82 read not credited, complete range reread.",
+    "Removed formal criminal-complaint specificity, potential ownership of children, and unnatural psychological phrasing.",
+    "Clarified expelling rather than freeing the spirit and cleansing from its presence; retained attribution.",
+    "Corrected two Dutch linking-s forms and next-day timing without inventing resource names or duration."
+  ],
+  "recordedUtc": "2026-10-07T21:49:58.390017+00:00"
+}

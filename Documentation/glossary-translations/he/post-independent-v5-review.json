@@ -1,0 +1,97 @@
+{
+  "game": "no-im-not-a-human",
+  "version": "1.3.19",
+  "locale": "he",
+  "mode": "STANDARD",
+  "source_locale": "ru",
+  "source_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "source_parsed_fingerprint": "6e7a12351616437fa009e9c4154f2f17d3aff878f5d4852fd9a5441f9496a5b9",
+  "authored_sha256": "4c2be15b3d3a4b91e93d911913d6d2ae252c6915e029dbbfb0f329d2d8137d57",
+  "layer_sha256": "95ee6f1aa1b4e31f9ba060d07d715022e32a75859d41badf23eff18bb27579a5",
+  "coverage": {
+    "ordered_entries": 201,
+    "source_entries": 201,
+    "player_first": true
+  },
+  "status": "post-independent-v5-corrected-candidate-full-self-audits-pending",
+  "self_review": {
+    "clean_passes_on_final_content": 0,
+    "script_does_not_establish_editorial_review": true,
+    "evidence": []
+  },
+  "independent_review": {
+    "status": "v1-findings-corrected; final-full-review-pending",
+    "performed_by_this_agent": false,
+    "evidence_owner": "root"
+  },
+  "authorship": {
+    "method": "Direct model authorship from Russian in authored literal batches; mechanical merging only, no pivot target, external translator/API/model or wording-generation script.",
+    "model": "inherited exact identity unavailable",
+    "reasoning_effort": "inherited exact value unavailable",
+    "measured_tokens": {
+      "input": "unknown",
+      "cached_input": "unknown",
+      "output": "unknown",
+      "total": "unknown"
+    }
+  },
+  "terminology_decisions": {
+    "Guests": "האורחים denotes creatures, ordinary visitors generally מבקרים. Hebrew has no uppercase; source-capitalization distinction explained in124.",
+    "committee": "Full הוועדה למצבי חירום consistently; source КЧС and official FEMA/МЧС evidence retained.",
+    "psychics": "בעלי יכולת על־חושית broad extrasensory service, not clairvoyance-only.",
+    "spirits": "רוח האורח and רוח המת are distinct attributed service terminology, not creatures.",
+    "mushrooms": "מלקט הפטריות, ארץ הפטריות, תפטיר, פסטיבל הפטריות, ספר לימוד החיוכים; רמזים clues.",
+    "unknown_sex": "Native role nouns קול/מענה/תפקיד and medical consultation construction retain agency without canonical sex. Their grammatical gender is not biological sex. Explicit known sex retained; source gender-evidence quotes preserved. Teen entry neutral label דמות, cat and Death grammatical forms with explicit biological uncertainty.",
+    "actions": "לשחרר ending check without expulsion; action label references matched. Infinitives avoid unnecessary address sex.",
+    "brands": "Hebrew אנרז׳קה, בובר צ׳רני, מרגורו; For Rest/AURACAM/CR Channel exact.",
+    "register": "Neighbour informal singular, tourist polite singular, criminal slang; source sarcasm, religious register and disclosure timing retained.",
+    "telephone_doctor_person_role": "הרופא במענה הטלפוני identifies doctor as actor; ordinary grammatical masculine is generic, with canonical sex explicitly unknown in unchanged meaning. Activity ייעוץ רפואי remains separate in meaning."
+  },
+  "audit_history": [
+    {
+      "evidence": "discovery-audit-v1.json",
+      "status": "full-corrections-required",
+      "layer_sha256": "94cf9155f483270961022cc27afd255adc7aae6472ed9435bfa7535f02ff4f50"
+    },
+    {
+      "evidence": "partial-self-audit-v2.json",
+      "status": "partial-correction-required",
+      "layer_sha256": "c523f693ed6f5d6c58b6c85310ef3dd3033a2ff6e367c897019f82795cff5b72"
+    },
+    {
+      "evidence": "full-self-audit-v3.json",
+      "status": "full-corrections-required",
+      "layer_sha256": "81d1703bf5a07c68b4ca367bf1ed04435808fc13d72c2c66c8b49e9ab7867696"
+    },
+    {
+      "evidence": "final-self-audit-1.json",
+      "status": "full-clean",
+      "layer_sha256": "95ee6f1aa1b4e31f9ba060d07d715022e32a75859d41badf23eff18bb27579a5"
+    },
+    {
+      "evidence": "final-self-audit-2.json",
+      "status": "full-clean",
+      "layer_sha256": "95ee6f1aa1b4e31f9ba060d07d715022e32a75859d41badf23eff18bb27579a5"
+    },
+    {
+      "artifact": "independently-reviewed-v4-layer.json",
+      "sha256": "95ee6f1aa1b4e31f9ba060d07d715022e32a75859d41badf23eff18bb27579a5",
+      "authored_sha256": "4c2be15b3d3a4b91e93d911913d6d2ae252c6915e029dbbfb0f329d2d8137d57",
+      "status": "two full clean self-audits; root cold full201 independent review found corrections",
+      "independent_evidence": "../independent-reviews/he/review-v1.json",
+      "corrections": [
+        "player meaning explicitly passive player-controls-homeowner relation.",
+        "fema-phone-doctor term identifies the medical professional actor using generic grammatical masculine; unchanged meaning explicitly preserves unknown canonical sex and distinct Doctor/early-call woman. Consultation activity preserved in meaning."
+      ],
+      "unchanged_adjudications": [
+        "fema-notice title actualsourceЯвка faithfully התייצבות; armchair-lawyer аренду rental wording unchanged."
+      ]
+    }
+  ],
+  "unresolved_findings": [],
+  "limitations": [
+    "Independent review pending.",
+    "Runtime Hebrew RTL/font/script rendering unverified separately.",
+    "Exact model/effort/token telemetry unavailable."
+  ]
+}

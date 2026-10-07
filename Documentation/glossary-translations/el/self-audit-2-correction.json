@@ -1,0 +1,57 @@
+{
+  "status": "correction-required",
+  "source_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "reviewed_layer_sha256": "ba7a21392b71a8c702a677c60cfe111120804d0c3ee63e941f1fd88ac2ff69f3",
+  "reviewed_authored_sha256": "3bc37f120d41f65f013d4b6b63253d7e2ac0fdab1d64a9f17c8e8d64bbf5c840",
+  "ranges": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      50
+    ],
+    [
+      51,
+      75
+    ],
+    [
+      76,
+      90
+    ],
+    [
+      91,
+      105
+    ],
+    [
+      106,
+      120
+    ],
+    [
+      121,
+      145
+    ],
+    [
+      146,
+      175
+    ],
+    [
+      176,
+      201
+    ]
+  ],
+  "fields": [
+    "source.term",
+    "source.meaning",
+    "target.term",
+    "target.meaning"
+  ],
+  "finding": {
+    "id": "radio-phone-roulette-ad",
+    "before": "Είναι διαφήμιση εύρεσης συνομιλίας,",
+    "after": "Είναι διαφήμιση εύρεσης προσώπου για συνομιλία,",
+    "reason": "Make the selection of an interlocutor explicit, rather than merely finding a conversation."
+  },
+  "clean_count_after_correction": 0
+}

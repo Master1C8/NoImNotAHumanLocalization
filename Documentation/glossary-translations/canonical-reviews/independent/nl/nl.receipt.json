@@ -1,0 +1,56 @@
+{
+  "reviewer": "final_cold_nl_ro",
+  "locale": "nl",
+  "entry_count": 201,
+  "source_raw_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "target_raw_sha256": "d431299bc246601d685ba9aa3dae0052ebf6d771dfd2d7e71b366f5dc30ca507",
+  "fidelity_pass": {
+    "read_positions": "1–201",
+    "fields": [
+      "source.term",
+      "source.meaning",
+      "target.term",
+      "target.meaning"
+    ],
+    "batches": [
+      "1–25",
+      "26–65",
+      "66–105",
+      "85–90 explicitly reread after output truncation",
+      "106–140",
+      "141–175",
+      "176–201"
+    ]
+  },
+  "native_pass": {
+    "read_positions": "1–201",
+    "fields": [
+      "target.term",
+      "target.meaning"
+    ],
+    "batches": [
+      "1–70",
+      "71–140",
+      "141–201"
+    ]
+  },
+  "exact_repeated_policy_compaction": "Only byte-identical repeated male/female/unknown-policy sentences compacted after complete display and model reading; native policies were redisplayed and reread in native pass. All unique text was displayed unabridged; truncated 85–90 reread explicitly.",
+  "result": "clean",
+  "objective_findings": [],
+  "independence": "No author notes, prior reviews, history or other locale read before NL comparison. No child agents or external model/translation calls.",
+  "structural_validation": {
+    "ordered_ids": true,
+    "unique_ids": true,
+    "nonempty_term_meaning": true,
+    "entry_count": 201
+  },
+  "audit_count_note": "One independent cold audit comprising a fidelity pass and a separate native pass. This receipt does not itself assert two consecutive audit cycles.",
+  "scope": "Frozen staging layer only; master layer absent, runtime and publication not reviewed.",
+  "token_usage": {
+    "input": null,
+    "cached_input": null,
+    "output": null,
+    "total": null,
+    "note": "Telemetry unavailable to reviewer; coordinator measures."
+  }
+}

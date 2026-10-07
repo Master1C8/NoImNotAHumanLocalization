@@ -1,0 +1,104 @@
+{
+  "locale": "el",
+  "status": "full-cold-review-findings-returned",
+  "reviewer": "/root, independent of author",
+  "coldReview": true,
+  "authorNotesReadBeforeAudit": false,
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "reviewedLayerRawSha256": "1ca2fe3f490917aabd03bd2ae1bd79258a6257c52a19841d5f5edda01a50e1e1",
+  "immutableReviewedArtifact": "reviewed-layer-v1.json",
+  "coverageRanges": [
+    [
+      1,
+      30
+    ]
+  ],
+  "fields": [
+    "term",
+    "meaning"
+  ],
+  "fullAudit": true,
+  "findings": [
+    {
+      "id": "armchair-lawyer",
+      "issue": "ενοίκιο specifically means rent payment; source аренду specifies renting/tenancy without demanding money from another person. Preserve lease/tenancy scope, e.g. μίσθωση.",
+      "status": "open"
+    },
+    {
+      "id": "sleepless-man",
+      "field": "term",
+      "issue": "φορεμένη κουκούλα asserts that the hood is worn up; Russian only describes a hoodie with a hood. Preserve the garment property without adding how it is worn."
+    },
+    {
+      "id": "smile-guide",
+      "field": "meaning",
+      "issue": "μανιταρένιους γρίφους turns mushroom clues into riddles/puzzles. Source says подсказки; preserve clues/hints and their linked references, including apple if affected."
+    }
+  ],
+  "consecutiveCleanFullAuditsCredited": 0,
+  "coverage": [
+    [
+      1,
+      30
+    ],
+    [
+      31,
+      45
+    ],
+    [
+      46,
+      65
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      74,
+      78
+    ],
+    [
+      79,
+      85
+    ],
+    [
+      86,
+      100
+    ],
+    [
+      101,
+      107
+    ],
+    [
+      108,
+      109
+    ],
+    [
+      110,
+      115
+    ],
+    [
+      116,
+      125
+    ],
+    [
+      126,
+      145
+    ],
+    [
+      146,
+      165
+    ],
+    [
+      166,
+      185
+    ],
+    [
+      186,
+      201
+    ]
+  ],
+  "reviewedEntries": 201,
+  "cleanAuditCredit": 0,
+  "conclusion": "Three source-fidelity findings; edits reset the locale gate. Author notes were not read before or during this full independent source-to-target review."
+}

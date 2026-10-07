@@ -1,0 +1,89 @@
+{
+  "locale": "nl",
+  "reviewer": "/root/final_cold_hu_nl_el",
+  "independent": true,
+  "prior_reviews_read": false,
+  "source_raw_sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "target_raw_sha256": "a20c36fcee43e5fcf4697e66c84bbfc5debfc5934ac39036cf645cb3ec89f97a",
+  "source_fidelity": {
+    "all_entries_complete": true,
+    "ranges": [
+      [
+        1,
+        12
+      ],
+      [
+        13,
+        38
+      ],
+      [
+        39,
+        66
+      ],
+      [
+        67,
+        90
+      ],
+      [
+        91,
+        123
+      ],
+      [
+        124,
+        154
+      ],
+      [
+        155,
+        181
+      ],
+      [
+        182,
+        201
+      ]
+    ],
+    "fields": [
+      "source.term",
+      "source.meaning",
+      "target.term",
+      "target.meaning"
+    ]
+  },
+  "native_editorial": {
+    "all_entries_complete": true,
+    "ranges": [
+      [
+        1,
+        66
+      ],
+      [
+        67,
+        106
+      ],
+      [
+        107,
+        149
+      ],
+      [
+        150,
+        201
+      ]
+    ],
+    "fields": [
+      "target.term",
+      "target.meaning"
+    ]
+  },
+  "exact_policy_compaction": "Only exact repeated male/female policies already fully displayed/read in entries 1 and 3, and unknown policy already fully displayed/read in 80. Source equivalents previously fully read. All unique clauses fully displayed.",
+  "structural": {
+    "count": 201,
+    "ids_order_match": true,
+    "nonempty": true,
+    "allowed_fields": true
+  },
+  "objective_findings": [
+    "NL-01"
+  ],
+  "result": "needs-correction",
+  "scope": "One full fidelity audit and separate full native editorial reread of frozen inputs; report only.",
+  "token_usage": "unknown locally; coordinator measures"
+}

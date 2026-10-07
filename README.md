@@ -4,10 +4,13 @@ Canonical project: `/Users/antonkrutov/Desktop/no I'm not a human`.
 Standard localization from Russian, version 1.3.19, Unity 6000.3.10f1, IL2CPP.
 
 The current scope is standalone glossary translation into the 14 target locales.
-The approved Russian source glossary has 201 entries. Czech and Bulgarian are accepted and integrated. Thai is in review; the
-remaining 13 locales are assigned to three parallel author groups under the
-owner’s 2026-10-08 request. Independent final reviews and canonical integration
-are in progress. Rendering feasibility remains a separate incomplete gate. No game-text
+The approved Russian source glossary has 201 entries. All 14 target locales are
+complete: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi,
+Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew. Each final layer passed
+two consecutive full clean self-audits and a clean independent final review.
+The 2,814 translated term/meaning pairs are synchronized with SiteForMods and
+passed canonical structural validation and 39 focused tests. Rendering feasibility
+remains a separate incomplete gate. No game-text
 translation, exhaustive visible-ID inventory, final language adapter, installer
 or release exists yet. See [the shared checkpoint](Documentation/localization-state.json).
 
@@ -246,10 +249,17 @@ author finishes one assigned locale before starting the next. A final independen
 review compares the frozen layer directly with the Russian source before reading
 the author’s audit notes. Any correction resets the clean count. The shared
 checkpoint records current locale status; the canonical export is refreshed only
-during coordinated integration. The canonical export containing the previous Thai draft and newly accepted Czech/
-Bulgarian layers passed structural validation and 39 existing tests. These checks
+during coordinated integration. The final export contains all14 complete layers
+and passed structural validation and 39 existing tests. These checks
 exercise loaders, schemas and publication safeguards; translation quality comes
 from the recorded full editorial reviews.
+
+Final acceptance and immutable evidence are indexed in
+[acceptance-manifest.json](Documentation/glossary-translations/acceptance-manifest.json).
+[validation.json](Documentation/glossary-translations/validation.json) binds the
+checks to the delivered export. [agent-usage.json](Documentation/glossary-translations/agent-usage.json)
+records actual author/reviewer session totals and the mixed coordinator window,
+with cache subsets, measurement cutoffs and unmeasured reporting overhead explicit.
 
 Full audits check what a phrase asserts, not just whether its topic is retained.
 Regression examples: a hoodie with a hood does not establish that its hood is
@@ -262,3 +272,58 @@ establish an ambulance service, and a dirty yellow man gains no body-shape fact.
 Preserve clue versus puzzle terminology and native word meanings across every
 term/meaning cross-reference. Correct model-authored rows before mechanically
 rebuilding layers; immutable reviewed versions must remain available.
+
+Additional regression scenarios from independent review: uncertainty about
+whether several voices belong to the same person must retain that sameness
+relation, rather than merely saying their identities are unknown. A request to
+be given a cigarette is distinct from permission to smoke. Calling oneself a
+son, grandmother or young man must refer to the speaker, not their own relative.
+Do not add paternal or maternal lineage to an unspecified grandmother. A service
+provided for a charge is not necessarily already paid for. Preserve slips of
+the tongue rather than replacing them with self-corrections. A source-language
+wordplay explanation must keep both words in that source language, and a native
+fictional acronym must match the native organization name wherever it recurs.
+
+Canonical sex, source grammatical evidence and native agreement are separate.
+Translated grammatical-evidence quotations are valid when explicitly attributed
+to the Russian source or original scene; a genderless target quote must not be
+described as a native masculine/feminine inflection. Swahili instructions use
+noun-class agreement and appropriate sex-specific words, preserving canonical
+sex and disclosure timing without inventing male/female agreement rules.
+Neutral labels must retain the person and professional role: a telephone doctor
+cannot become only a medical consultation. Explicitly preserve who controls
+the protagonist and who performs each reported action.
+An eyewitness is a person who saw the events, not merely a voice conveying
+testimony. Close that distinction across the caller, dispatcher and shared
+dialogue cards; neutral wording must retain firsthand observation and ownership
+of the person's words and answers. Recheck every affected reference before
+starting the two final clean full-entry audits.
+
+Adjudicate grammar findings against the complete native construction, including
+linked clauses and verb focus. In Filipino, a positive example with `handa siyang`
+does not by itself reject `handa niyang kupkupin`: the genitive actor may belong
+to the following patient-voice predicate. The withdrawn review candidate and
+native counterevidence are preserved in the final Filipino review package. A
+preferred paraphrase is not an objective error; unsupported findings do not
+reset acceptance or authorize a taste-only rewrite.
+
+`acceptance-manifest.json` binds coordinator acceptance to unchanged authored
+content, layer hashes and full review evidence. Run
+`python3 Scripts/package_glossary_translations.py --complete` only when every
+authorized locale has accepted final evidence. It verifies structure and copies
+accepted artifacts; it cannot conduct or award editorial reviews. The
+coordinator separately integrates the byte-identical export and review packages
+into SiteForMods. Per-file replacements are not a transaction across the two
+repositories; compare both delivered exports and committed trees before crediting
+integration. This workflow does not publish glossary content.
+Evidence snapshots may be read-only. The packaging copier reuses identical bytes
+and replaces changed destinations through a verified temporary file, preserving
+the source snapshot's permissions. Opening an existing read-only snapshot for
+overwrite fails after earlier package writes; the actual failure and corrected
+filesystem regression are recorded in `package-copy-verification.json`.
+Immutable audit tables can use valid CRLF endings from the CSV writer. Preserve
+their byte hashes; run Git's whitespace check with
+`core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol`. This retains
+the normal whitespace checks while recognizing carriage returns as line endings.
+If staging succeeds before such a check fails, reconcile the complete owned
+index and unchanged checkout before continuing; do not reset the shared index.

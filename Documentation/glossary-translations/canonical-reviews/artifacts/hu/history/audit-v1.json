@@ -1,0 +1,140 @@
+{
+  "version": "v1",
+  "kind": "full self-audit",
+  "ranges": [
+    [
+      1,
+      25
+    ],
+    [
+      26,
+      50
+    ],
+    [
+      51,
+      75
+    ],
+    [
+      76,
+      95
+    ],
+    [
+      96,
+      115
+    ],
+    [
+      116,
+      135
+    ],
+    [
+      136,
+      165
+    ],
+    [
+      166,
+      201
+    ]
+  ],
+  "fields": [
+    "source.term",
+    "source.meaning",
+    "target.term",
+    "target.meaning"
+  ],
+  "layerRawSha256": "268facc3de448d4199e94cae3e507a089a0384205cde244e589de5fbdd989e59",
+  "authoredRawSha256": "e16d030ca475bfa7cb3421758407763395fd1856b3a2776d3b79efc1cc390c68",
+  "findingsAndCorrections": [
+    {
+      "id": "player",
+      "field": "meaning",
+      "before": "fiúgyermekként",
+      "after": "fiaként"
+    },
+    {
+      "id": "fortune-teller",
+      "field": "meaning",
+      "before": "a «A jósnőtől»",
+      "after": "az «A jósnőtől»"
+    },
+    {
+      "id": "conspiracy-theorist",
+      "field": "meaning",
+      "before": "a saját változataiként",
+      "after": "az általa felvetett magyarázatokként"
+    },
+    {
+      "id": "radio-employee-28-8",
+      "field": "meaning",
+      "before": "a testek elégetésére",
+      "after": "a holttestek elégetésére"
+    },
+    {
+      "id": "radio-evicted-people",
+      "field": "meaning",
+      "before": "felégetett",
+      "after": "leégett"
+    },
+    {
+      "id": "radio-evicted-people",
+      "field": "meaning",
+      "before": "pincéjéből",
+      "after": "alagsorából"
+    },
+    {
+      "id": "radio-evicted-people",
+      "field": "meaning",
+      "before": "pincéje",
+      "after": "alagsora"
+    },
+    {
+      "id": "radio-warning-voices",
+      "field": "meaning",
+      "before": "az aggodalmat és a zavarást",
+      "after": "az aggodalmat és a vételi zavarokat"
+    },
+    {
+      "id": "couple-wife",
+      "field": "meaning",
+      "before": "nőra utaló",
+      "after": "nőre utaló"
+    },
+    {
+      "id": "tv-fema-promotion",
+      "field": "meaning",
+      "before": "Az egyes propagandahang",
+      "after": "A külön propagandahang"
+    },
+    {
+      "id": "death-cult",
+      "field": "meaning",
+      "before": "tanító",
+      "after": "mester"
+    },
+    {
+      "id": "enerjeka",
+      "field": "meaning",
+      "before": "mű löttyként",
+      "after": "vegyszeres löttyként"
+    },
+    {
+      "id": "kombucha",
+      "field": "meaning",
+      "before": "A médiumnak a gonoszságáról tett állításai",
+      "after": "A médium állításai a kombucsa gonoszságáról"
+    },
+    {
+      "id": "child-of-vision",
+      "field": "term",
+      "before": "Gyermek a látomásból",
+      "after": "Látomásbeli gyermek"
+    }
+  ],
+  "result": "corrections-required; clean count reset to zero",
+  "notes": [
+    "Son must preserve relationship rather than imply a child age.",
+    "Resolved one malformed female suffix, an article error and several lexical/terminology inconsistencies.",
+    "Radio burned-house wording must not assert intentional burning; basement naming now matches room card.",
+    "Kombucha evil claim now explicitly refers to kombucha rather than permitting a possessive reading about the psychic.",
+    "Claim attribution, broadcast roles, unknown sex, source participant counts, spirit distinctions, numeric codes and resource tags checked in all 201 entries."
+  ]
+}

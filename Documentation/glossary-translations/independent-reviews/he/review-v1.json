@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "locale": "he",
+  "kind": "independent cold full201 source-fidelity and native editorial review",
+  "reviewer": "/root",
+  "fullAudit": true,
+  "coldReview": true,
+  "authorNotesReadBeforeComparison": false,
+  "entriesReviewed": 201,
+  "fields": ["term", "meaning"],
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "layerRawSha256": "95ee6f1aa1b4e31f9ba060d07d715022e32a75859d41badf23eff18bb27579a5",
+  "coverage": [[1,35],[36,70],[71,105],[106,140],[141,175],[176,201]],
+  "sourceReading": "Unchanged approved full201 Russian semantic reading reused. Every frozen Hebrew term and meaning actually read in six complete contiguous ranges for fidelity, cross-reference consistency and native grammar; every repeated policy printed in full. No output truncation. Ambiguous player, employment, rental, doctor, dispatcher, participant and document labels checked again against exact current Russian entries. No author notes read before comparison.",
+  "findings": [
+    {
+      "id": "player",
+      "field": "meaning",
+      "source": "Домовладелец, которым управляет игрок",
+      "observed": "בעל הבית שבו שולט השחקן",
+      "issue": "The relative clause naturally attaches to the house: the house in which the player rules. It fails to state clearly that the homeowner character is controlled by the player, the explicit source relation.",
+      "proposedClause": "בעל הבית, הנשלט בידי השחקן",
+      "status": "confirmed correction required"
+    },
+    {
+      "id": "fema-phone-doctor",
+      "field": "term",
+      "source": "Телефонный врач КЧС",
+      "observed": "הייעוץ הרפואי הטלפוני של הוועדה למצבי חירום",
+      "issue": "The person-role term doctor has become the activity medical consultation. The source meaning separately describes the consultation, but its term identifies the person. Unknown canonical sex must not remove the acting person or profession.",
+      "proposedTerm": "התפקיד הרפואי במענה הטלפוני של הוועדה למצבי חירום",
+      "proposalNote": "Author should select a natural person-role formulation retaining medical professional and unknown sex; ordinary generic grammatical masculine with explicit canonical uncertainty is permitted. Preserve the consultation description and source quoted profession evidence in meaning.",
+      "status": "confirmed correction required"
+    }
+  ],
+  "adjudicationNotes": [
+    "The document term fema-notice translates the exact source title Явка в КЧС, not an inferred Повестка; התייצבות is faithful and must remain unchanged.",
+    "Source armchair-lawyer says аренду, not the recalled арендную плату; no rental-word correction is justified.",
+    "Source fema-phone-doctor meaning itself begins Медицинская консультация; keep that activity description, correcting only the lost person-role in the term.",
+    "Employment dismissal wording, generic impersonal plural relatives, translated attributed quotations and proposed-photo infinitives do not by themselves establish additional errors."
+  ],
+  "status": "full-cold-review-corrections-required",
+  "consecutiveCleanCredit": 0,
+  "runtime": "unverified; standalone glossary scope"
+}

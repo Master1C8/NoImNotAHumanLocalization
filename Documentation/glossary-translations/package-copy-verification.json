@@ -1,0 +1,10 @@
+{
+  "scope": "Actual filesystem copier boundary; no mocked permissions or editor-quality claims",
+  "time": "2026-10-07T23:08:23.567180+00:00",
+  "positiveNewReadOnlySnapshotCopy": "passed; postcondition checked before repeat",
+  "unchangedReadOnlySnapshotReuse": "passed; inode/mtime unchanged",
+  "negativePreviousOverwriteBoundary": "PermissionError EACCES on the same read-only destination; old bytes preserved",
+  "changedReadOnlySnapshotReplacement": "passed; new bytes and read-only mode verified",
+  "multiOutputBoundary": "Observed real package failure at fa immutable snapshot after earlier files were copied. No rollback transaction exists; export was not replaced and master was untouched. Recovery copied accepted13 packages and verifies exact bytes. Final integration must verify both repositories.",
+  "sourceAndTranslationEdits": "none"
+}
