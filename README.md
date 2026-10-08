@@ -3,7 +3,11 @@
 Canonical project: `/Users/antonkrutov/Desktop/no I'm not a human`.
 Standard localization from Russian, version 1.3.19, Unity 6000.3.10f1, IL2CPP.
 
-The current scope is standalone glossary translation into the 14 target locales.
+The approved source glossary and all 14 target glossaries are complete. Thai game
+text has a separate local preview. Thirteen non-Thai text-only locale drafts are
+now being authored in separate chats; see the
+[technical integration guide](Documentation/NON_THAI_INTEGRATION.md) and run
+`python3 Scripts/report_locale_readiness.py --compact` for current draft coverage.
 The approved Russian source glossary has 201 entries. All 14 target locales are
 complete: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi,
 Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew. Each final layer passed
@@ -16,9 +20,9 @@ are saved locally and require separately authorized publication.
 Every initially stored term and meaning was verified against that accepted layer through the
 canonical CLI; see the [publication receipt](Documentation/glossary-translations/publication/2026-10-08/receipt.json).
 Public-page rendering was not checked. Rendering feasibility
-remains a separate incomplete gate. No game-text
-translation, exhaustive visible-ID inventory, final language adapter, installer
-or release exists yet. See [the shared checkpoint](Documentation/localization-state.json).
+remains a separate incomplete gate. The accepted text-only inventory contains
+16,538 selected units per locale. No final multi-locale package or release
+exists yet. See [the shared checkpoint](Documentation/localization-state.json).
 
 ## Reproduce the bounded static checks
 

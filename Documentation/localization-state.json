@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T21:52:02.381021+00:00",
+  "updatedAt": "2026-10-08T22:08:20.129463+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -9,7 +9,7 @@
   "sourceLocale": "ru",
   "localizationType": "standard",
   "currentStage": "runtime",
-  "stageStatus": "Thai text 100% accepted; Thai-only preview package verified; menu/Settings pass; dialogue and full runtime gate pending on exact package",
+  "stageStatus": "Thai preview remains separate; 13 non-Thai locale drafts active; see per-locale draftReadiness for current observed coverage",
   "targetLocales": [
     "th",
     "id",
@@ -890,9 +890,9 @@
     },
     {
       "locale": "id",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 3219,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1011,7 +1011,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1032,13 +1032,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3219,
+        "authoredRows": 3219,
+        "authoredPercent": 19.464,
+        "structurallyValidatedRows": 3174,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 10,
+        "eligibleFileSetSha256": "fa45c0d48aed13b9bc58ff78c6e5b9192b5a8eb7e87f776b35e1c0e0fb474104",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "cs",
-      "phase": "probe",
+      "phase": "translate-edit",
       "translated": 0,
-      "total": null,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1115,7 +1127,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1138,13 +1150,36 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3122,
+        "authoredRows": 0,
+        "authoredPercent": 0.0,
+        "structurallyValidatedRows": 0,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 0,
+        "eligibleFileSetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "problems": [
+          "Translations/cs/checks-batch-001.json: identity mismatch",
+          "Translations/cs/dialogue-batch-001.json: identity mismatch",
+          "Translations/cs/dialogue-batch-002.json: identity mismatch",
+          "Translations/cs/dialogue-batch-003.json: identity mismatch",
+          "Translations/cs/ui-batch-001.json: identity mismatch",
+          "Translations/cs/ui-batch-002.json: identity mismatch",
+          "Translations/cs/ui-batch-003.json: identity mismatch",
+          "Translations/cs/ui-batch-004.json: identity mismatch",
+          "Translations/cs/ui-batch-005.json: identity mismatch",
+          "Translations/cs/ui-batch-006.json: identity mismatch"
+        ],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "hu",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 259,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1221,7 +1256,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1243,13 +1278,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 259,
+        "authoredRows": 259,
+        "authoredPercent": 1.566,
+        "structurallyValidatedRows": 259,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 5,
+        "eligibleFileSetSha256": "920d31bb4dfc8601939fef09a168f624dc19bb34723f7455b7054cfdc9efbaa3",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "nl",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 467,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1368,7 +1415,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1389,13 +1436,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 467,
+        "authoredRows": 467,
+        "authoredPercent": 2.824,
+        "structurallyValidatedRows": 0,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 14,
+        "eligibleFileSetSha256": "42d5054830c972873b387eebac781de2ec49ad3ab32dbf110a130e18f9732001",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "fa",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 3100,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1430,7 +1489,7 @@
       ],
       "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
       "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
-      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1453,13 +1512,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3100,
+        "authoredRows": 3100,
+        "authoredPercent": 18.745,
+        "structurallyValidatedRows": 3100,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 9,
+        "eligibleFileSetSha256": "9a046ef1a324f0208150e7a3fe30d76003f4f78dd834e6bdd7c8f99cbfcb549a",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "ro",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 3087,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1536,7 +1607,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1557,13 +1628,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3087,
+        "authoredRows": 3087,
+        "authoredPercent": 18.666,
+        "structurallyValidatedRows": 3087,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 7,
+        "eligibleFileSetSha256": "f9f2dc8715d246375e8eb5e63bea04da4a41b0bf14e996d3c80f3dd44493f0a2",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "hi",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 286,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-Hindi-roles-bound-to-owned-HarfBuzz-glyph-font; final-style-unverified",
@@ -1598,7 +1681,7 @@
       ],
       "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
       "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
-      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1620,13 +1703,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 286,
+        "authoredRows": 286,
+        "authoredPercent": 1.729,
+        "structurallyValidatedRows": 286,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 9,
+        "eligibleFileSetSha256": "452af61d9694611f1a6e59313cf763fb3889c49398179adefa81f4b3e2041996",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "fil",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 2866,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1745,7 +1840,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1766,13 +1861,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 2866,
+        "authoredRows": 2866,
+        "authoredPercent": 17.33,
+        "structurallyValidatedRows": 2866,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 5,
+        "eligibleFileSetSha256": "04e2c6411b953abdc54de4cbc92cd86d8d2ef90f08dd828b0f18d3da2149b288",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "el",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 294,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1831,7 +1938,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1852,13 +1959,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 294,
+        "authoredRows": 294,
+        "authoredPercent": 1.778,
+        "structurallyValidatedRows": 294,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 10,
+        "eligibleFileSetSha256": "f33f1f27858bc2989f33852a17d7effeff5578d3eee44ea38906db5a822e8ae2",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "bg",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 320,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -1959,7 +2078,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -1982,13 +2101,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 320,
+        "authoredRows": 320,
+        "authoredPercent": 1.935,
+        "structurallyValidatedRows": 188,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 9,
+        "eligibleFileSetSha256": "2f5d87e2e9a4e0651c091506b810767af5af746da9816e5f095989c36ad6d8ff",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "sr",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 3241,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -2053,7 +2184,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -2074,13 +2205,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3241,
+        "authoredRows": 3241,
+        "authoredPercent": 19.597,
+        "structurallyValidatedRows": 3241,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 11,
+        "eligibleFileSetSha256": "15475bea994baec3bf00d636003df3d62b9767c5eef6e8e567d2760adaaec94e",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "sw",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 3075,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -2199,7 +2342,7 @@
       ],
       "feasibility": "unverified",
       "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -2220,13 +2363,25 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 3075,
+        "authoredRows": 3075,
+        "authoredPercent": 18.594,
+        "structurallyValidatedRows": 3075,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 6,
+        "eligibleFileSetSha256": "dfe823734b822525123833370671a1e215d691d33e513cf146c0dad2191b17fc",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     },
     {
       "locale": "he",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "translate-edit",
+      "translated": 259,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
@@ -2261,7 +2416,7 @@
       ],
       "feasibility": "partial: menu/selector rendering repaired; full-gate-unverified",
       "blocker": "Dialogue/typewriter/next state, dense target UI, dynamic text, wrapping and final font style unverified.",
-      "nextAction": "Extend bounded probe to dialogue/typewriter/skip, dense target UI, dynamic substitutions and next semantic state across all 14 locales before source/glossary/mass work.",
+      "nextAction": "Complete selected text IDs, then full semantic and independent diff audits; offline package and exact-artifact runtime QA follow.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -2283,6 +2438,18 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "draftReadiness": {
+        "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+        "observedInScopeRows": 259,
+        "authoredRows": 259,
+        "authoredPercent": 1.566,
+        "structurallyValidatedRows": 227,
+        "editoriallyAcceptedRows": null,
+        "eligibleFileCount": 8,
+        "eligibleFileSetSha256": "6b7aeda2846e5bbe46f4d63cb35600057fd08aa5dd171b8288b301fb61abdcb2",
+        "problems": [],
+        "meaning": "Draft coverage only; final package/runtime status is separate"
       }
     }
   ],
@@ -2639,5 +2806,14 @@
     "status": "no additional readable display sentence; runtime reachability still pending"
   },
   "activeTaskLocale": "th",
-  "activeTaskScope": "Thai text localization only; textures and images excluded; no other locale translation in this task."
+  "activeTaskScope": "Thai text localization only; textures and images excluded; no other locale translation in this task.",
+  "nonThaiIntegration": {
+    "scope": "13 non-Thai text-only locales; textures and images excluded",
+    "guide": "Documentation/NON_THAI_INTEGRATION.md",
+    "readinessCommand": "python3 Scripts/report_locale_readiness.py --compact",
+    "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+    "recordedAt": "2026-10-08T22:08:20.129463+00:00",
+    "draftCoverageIsEditorialAcceptance": false,
+    "packageAndRuntime": "not assessed by this draft scan"
+  }
 }
