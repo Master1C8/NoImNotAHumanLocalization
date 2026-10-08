@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "status": "independent diff read complete; corrective revisions pending",
+  "uniquePath": "outputs/th-semantic-diff-audit-v1/unique.jsonl",
+  "uniqueSha256": "34a67d623d89294be8c1c37ed9ab6cf22a46959e0c36e1f4a10b29c99e889a9d",
+  "reviewedUniqueTriplets": 186,
+  "reviewedChangedRows": 450,
+  "findings": [
+    {
+      "ordinal": 1862,
+      "source": "Experienced: Адью, редиска.",
+      "currentTarget": "Experienced: ลาก่อน ไอ้สารเลว",
+      "proposedTarget": "Experienced: ลาก่อน ไอ้ตัวแสบ",
+      "reason": "Редиска is a mild, teasing scoundrel insult; ไอ้สารเลว makes the farewell vicious."
+    },
+    {
+      "ordinal": 4066,
+      "source": "BigLebowski: Здрасте. Ну… привет, наверно, если так удобнее.",
+      "currentTarget": "BigLebowski: สวัสดีค่ะ เอ่อ… หรือจะพูดว่าหวัดดีดีนะ ถ้าแบบนั้นสะดวกกว่า",
+      "proposedTarget": "BigLebowski: สวัสดีค่ะ เอ่อ… หรือจะพูดว่า “หวัดดี” ถ้าแบบนั้นสะดวกกว่า",
+      "reason": "หวัดดีดีนะ repeats ดี and makes the new greeting unidiomatic."
+    },
+    {
+      "ordinal": 10571,
+      "source": "Fanatic: Бля, будь прокляты те уебаны, что пизданули мою мать в лужу.",
+      "currentTarget": "Fanatic: ให้ตายสิ ขอให้ไอ้สารเลวที่ทำร้ายแม่ข้าจนล้มลงในแอ่งน้ำถูกสาป",
+      "proposedTarget": "Fanatic: ให้ตายสิ ขอให้ไอ้สารเลวที่ซัดแม่ข้าจนล้มลงในแอ่งน้ำถูกสาป",
+      "reason": "ทำร้าย loses the explicit blow in пизданули; keep a forceful strike that causes the fall."
+    },
+    {
+      "ordinal": 2737,
+      "source": "Что ты делаешь, если проявляется только один или два признака?",
+      "currentTarget": "ถ้ามีลักษณะแค่หนึ่งหรือสองอย่าง นายจะทำยังไง?",
+      "proposedTarget": "ถ้ามีลักษณะบ่งชี้แค่หนึ่งหรือสองอย่าง นายจะทำยังไง?",
+      "reason": "The correction leaves generic ลักษณะ where the approved Guest-sign term is ลักษณะบ่งชี้."
+    },
+    {
+      "ordinal": 10060,
+      "source": "Scammer: Ну, может, ещё по горячей линии по признакам общаться. Чтобы они точно знали, что я не этот ваш Гость.",
+      "currentTarget": "Scammer: หรือโทรคุยสายด่วนเรื่องลักษณะของแขกด้วย พวกเขาจะได้รู้แน่ว่าฉันไม่ใช่แขกอะไรของนาย",
+      "proposedTarget": "Scammer: หรือโทรคุยสายด่วนเรื่องลักษณะบ่งชี้ของแขกด้วย พวกเขาจะได้รู้แน่ว่าฉันไม่ใช่แขกอะไรของนาย",
+      "reason": "The hotline is for Guest signs; ลักษณะของแขก omits the established inspection term."
+    },
+    {
+      "ordinal": 10069,
+      "source": "Scammer: Ну, может, ещё по горячей линии по признакам общаться. Чтобы они точно знали, что я не этот… как их… Гость.",
+      "currentTarget": "Scammer: หรือโทรคุยสายด่วนเรื่องลักษณะของแขกด้วย พวกเขาจะได้รู้แน่ว่าฉันไม่ใช่ไอ้… เรียกว่าอะไรนะ… แขก",
+      "proposedTarget": "Scammer: หรือโทรคุยสายด่วนเรื่องลักษณะบ่งชี้ของแขกด้วย พวกเขาจะได้รู้แน่ว่าฉันไม่ใช่ไอ้… เรียกว่าอะไรนะ… แขก",
+      "reason": "Same hotline terminology gap as 10060."
+    },
+    {
+      "ordinal": 15597,
+      "source": "Scammer: Нахуй тебя и твой дом, я пошел.",
+      "currentTarget": "Scammer: แม่งทั้งนายทั้งบ้านนี่แหละ ฉันไปละ",
+      "proposedTarget": "Scammer: ช่างหัวนายกับบ้านเหี้ยนี่ ฉันไปละ",
+      "reason": "แม่งทั้งนายทั้งบ้านนี่แหละ is an incomplete, awkward dismissal. Keep the vulgar rejection of the person and house."
+    }
+  ]
+}

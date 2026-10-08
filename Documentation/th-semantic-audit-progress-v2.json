@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "status": "first complete semantic pass in progress; no editorial acceptance",
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "pairedPath": "outputs/th-semantic-audit-input-v4/paired.jsonl",
+  "pairedSha256": "c451403786b799d8fb5de2491a5e37da5182cbaa5853a69249e1d063c963a035",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "glossaryReviewSha256": "c53f0d8c741dbcc0b1187924e1818640c55503446475b71ef493d651aa887ee7",
+  "regressionCatalogSha256": "3a5b89d4b4979f18983e84549f197d4fc5a4a954a360e5f31d79719e1e7fa5a6",
+  "reviewedOrdinalRanges": [
+    [
+      1,
+      399
+    ]
+  ],
+  "reviewedRows": 399,
+  "totalRows": 16538,
+  "findings": [
+    {
+      "ordinal": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "currentTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nวันนี้เมืองถูกสร้างขึ้นมา\nในห้องใต้ดิน เห็ดงอกจากผืนดิน\nมันใหญ่โต แต่จะมีใครสักคนไหม\nที่กลืนกินมันได้ทั้งดอก\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nการรับแขกเป็นชะตาของคนอ่อนแอ\nเห็ดสูงกว่าเรา เหล่าคนที่ไม่ได้รับเชิญ\nมีเพียงต้นแอปเปิลที่ให้ทุกคนพักพิง\nและเลี้ยงพวกท่านด้วยผลหวาน\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nสักวันหนึ่งเขาจะออกมา\nก้มคำนับเหล่าเห็ด\nแล้วเข็มนาฬิกาจะชี้ขึ้นฟ้า\nเร็วเข้า เพื่อนเอ๋ย รีบหน่อย!",
+      "reason": "Unwarranted clock specificity: стрелка may be a pointer/needle; source does not say clock.",
+      "proposal": "Replace เข็มนาฬิกา with เข็ม in the complete poem, preserving every other line and tag.",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 162,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054046376660992",
+      "source": "курящая женщина",
+      "currentTarget": "หญิงผู้สูบบุหรี่ในคู่พี่น้อง",
+      "reason": "The source says only a smoking woman; the Thai label reveals her twin relationship before the source does.",
+      "proposal": "หญิงสูบบุหรี่",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 176,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+      "source": "голый жирдяй",
+      "currentTarget": "ชายอ้วนเปลือย",
+      "reason": "The pejorative жирдяй is reduced to a neutral fat man, losing the source label’s insult.",
+      "proposal": "ไอ้อ้วนแก้ผ้า",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 183,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055636873515008",
+      "source": "женщина в депрессии",
+      "currentTarget": "หญิงผู้ซึมเศร้าในคู่พี่น้อง",
+      "reason": "The source says only a woman in depression; the Thai label reveals her twin relationship.",
+      "proposal": "หญิงซึมเศร้า",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 207,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630550598148096",
+      "source": "Муж близняшки",
+      "currentTarget": "สามีของหญิงผู้สูบบุหรี่ในคู่พี่น้อง",
+      "reason": "The source names a twin woman’s husband but does not identify her as the smoking twin.",
+      "proposal": "สามีของหญิงฝาแฝด",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 260,
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+      "source": "Esenin: Спасибо, что в жопу мне не залез!",
+      "currentTarget": "Esenin: ขอบใจนะที่ไม่ล้วงเข้าไปถึงก้นฉัน!",
+      "reason": "The Russian жопу is vulgar and physical; neutral ก้น softens the character’s voice.",
+      "proposal": "Esenin: ขอบใจนะที่ไม่ได้ล้วงเข้าไปในตูดฉัน!",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 309,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777730",
+      "source": "Phone: Если её отца сожгли, то так оно и должно быть.",
+      "currentTarget": "Phone: ถ้าพ่อของเธอถูกเผา นั่นก็คงเป็นสิ่งที่ถูกกำหนดไว้แล้ว",
+      "reason": "Так оно и должно быть rationalizes the burning as right/necessary; Thai wording introduces predestination instead.",
+      "proposal": "Phone: ถ้าพ่อของเธอถูกเผา ก็แปลว่ามันต้องเป็นอย่างนั้น",
+      "status": "proposed; not applied"
+    }
+  ],
+  "correctionsApplied": 0,
+  "nextOrdinal": 400,
+  "note": "Every UI source/target row was read once. Findings are held for one complete correction batch after the full semantic pass. This checkpoint is partial and cannot count as a clean audit.",
+  "previousProgressSha256": "15152d5924bed9a5af7d2f5dda21a4a2a1efa2a3e580bbbecc99ac78ba6a82df"
+}

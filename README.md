@@ -206,15 +206,128 @@ reviewed for locale/table binding, with their hashes recorded in
 The eleven saved-locale cases have fresh logs with no recorded CRC mismatch,
 asset-load failure, missing translation, missing key or null-reference exception.
 Thai and Indonesian also passed explicit dropdown selection. These observations
-cover menu/settings only. Later stages
-are not started and require their universal source/glossary/editorial gates.
-No translation coverage denominator exists until the visible stable-ID
-inventory is reconciled. The nine Russian table row counts include potential
-unused/demo content and must not be presented as the translation workload.
+cover menu/settings only. Later stages remain unaccepted. Thai text has passed
+its offline editorial gate; runtime rendering is still untested for this build.
+The [text-only source acceptance](Documentation/text-source-acceptance-v1.json)
+now pins 16,538 selected stable-ID rows for editorial review. Its runtime
+reachability conditions remain open. The nine Russian table row counts include
+historical/demo content and are not the selected translation workload.
+
+The shared candidate source inventory is generated offline by
+`Scripts/build_localization_inventory.py`. Its current
+[summary](Documentation/localization-source-inventory-v3.json) and
+`Source/localization-inventory-v3/` contain all 52,788 Russian string rows and
+244 serialized TMP text objects found across 16 scene and shared-asset files.
+The [full TMP extraction](outputs/text-path-audit-v2/report.json) pins each
+source file and script identity. Earlier inventory versions remain as audit
+history. Textures and images are excluded from the current inventory.
+The [legacy UI text audit](Documentation/legacy-ui-text-scope-v1.json) also
+accounts for 149 `UnityEngine.UI.Text` fields. All are resource-prefab descendants
+of `DebugUI*` roots used by the rendering pipeline, with none in game scenes;
+they are excluded from the game-text candidate inventory.
+The [embedded TextAsset audit](Documentation/embedded-text-assets-scope-v2.json)
+accounts for 18 text resources. `FakePeople_RU` is a Twine-era story with 298
+dialogue or choice lines absent from any extracted string table. No serialized
+`DialogueTwine` component, readable resource reference, or literal resource
+name was found in the game code metadata, so this appears to be legacy content; runtime reachability remains
+unverified and source-scope acceptance is pending.
+The [other serialized string audit](Documentation/other-serialized-text-scope-v2.json)
+found no additional readable Russian display sentence outside text components:
+338 candidate fields reduce to technical metadata and 60 reviewed unique
+names or labels for fonts, input schemes, resources and timeline tracks. The
+153 components whose type trees could not be read had no raw UTF-8 Cyrillic
+spans in the same audit; their full fields are still unresolved.
+
+The [text scope audit](Documentation/text-source-scope-v7.json) compares every
+extracted row with the Russian source and identifies 16,360 selected string
+candidates: 16,100 `Dialogs`, 259 `UI`, and one `ChecksDialogs` row referenced
+by two character objects in `sharedassets0.assets`. Together with 178
+supplemental static fields, the accepted text-only source-ID denominator is
+16,538, subject to reopening if a new runtime consumer is found. The seven
+scene files contain GUID
+references only to `Dialogs` and `UI`. The managed assembly has 16 string-table call sites: 13
+through the `UI` helper, and direct calls for `UI` and `Dialogs`; the third
+`GetTable` call receives the helper argument. The corrected
+[static binding audit](Documentation/static-text-scope-v2.json) resolves 60 TMP
+objects to existing `UI` keys. One more points to a
+missing Russian `UI` key (`86605930199502848`) on the standalone
+`В желаемое` text. Fifteen fields have unconfigured localization events and
+168 have no serialized event binding; six of those 184 fields are empty.
+The 178 nonempty fields require standalone draft text until their runtime
+consumers are resolved. The expanded inventory keeps all 52,788 string-table
+rows byte-for-byte unchanged.
+Eight Thai UI draft batches now cover all 259 extracted UI table IDs, and
+325 Thai dialogue batches cover all 16,100 IDs, including 2,868 repeated
+exact-source options expanded from authored Thai maps.
+One Thai `ChecksDialogs` batch covers the shared-asset reference with the same
+Russian source and Thai wording as its current `Dialogs` counterpart.
+The supplemental Thai draft now covers all 178 nonempty TMP fields
+without a resolved table binding. The [preserve-exact manifest](Source/preserve-exactly-v4.json)
+pins protected grammar and exact values for all 16,538 candidate Thai units.
+The [Thai comparison](Documentation/th-preserve-exact-v8.json) passed for the
+expanded source: stable IDs, speaker/service prefixes, numbered slots, TMP tags,
+ordered numbers, line breaks, trailing whitespace, and designated technical
+values were intact. The original credits contain malformed TMP nesting; the
+comparison requires their exact tag sequence without silently repairing it.
+The isolated [Thai text build](outputs/th-text-draft-v6/report.json)
+applies authored text to copied locale tables and TMP source assets. Its
+[artifact verification](outputs/th-text-draft-v6/verification.json) reread all
+16,360 table values, 178 static values, 165 RTL source fields and 10 artifact
+hashes successfully. It preserves the already installed renderer font asset.
+The build was installed and exercised only in the copied fixture; it is not a
+release.
+The [paired semantic review input](outputs/th-semantic-audit-input-v4/report.json)
+aligns all 16,538 source and Thai draft rows with stable IDs and scene or
+dialogue context. The [completed first pass](Documentation/th-semantic-audit-progress-v44.json)
+read every row and recorded 145 objective findings. The
+[correction plan](Documentation/th-semantic-correction-plan-v2.json) applied
+450 row changes, including identical repeated options. The
+[independent diff audit](Documentation/th-semantic-diff-audit-findings-v1.json)
+reviewed all 186 distinct changes and prompted seven final revisions.
+The [offline semantic acceptance](Documentation/th-semantic-acceptance-v2.json)
+has no open objective findings. The review input pins the accepted source
+scope, approved Thai glossary and [mandatory regression IDs](Documentation/th-semantic-regressions-v1.json).
+A runtime observation found an Arabic placeholder in the answer panel. The
+corrected Thai text is written to both the TMP display field and the RTL
+component's source field; the prior acceptance and exact-text reports remain
+as immutable predecessors. The [Thai runtime report](Documentation/th-runtime-qa-v1.json)
+records 13 translated dialogue lines, the corrected answer-panel text and zero
+missing-glyph warnings in the final sampled run.
+The [orphan wishlist key audit](Documentation/missing-ui-key-86605930199502848-v1.json)
+pins the underlying source defect: key `86605930199502848` is absent from
+`UI Shared Data` and from the Russian UI table, although 11 of 18 official
+locale tables contain a row for that numeric ID. The scene event targets this
+ID, and its serialized Russian text is `В желаемое`. Adding a translated table
+row alone may not resolve the absent shared key; the isolated runtime path must
+be checked before choosing the patch. The scene's `Пропустить` fallback is
+assigned a localized `control_key_*` value by `ControlView.SetDescription`,
+so its serialized text is not a separate authored line.
+The sole same-source UI variant is intentional: `Common_LanguageName` displays
+`ไทย` for the active locale, while `language_ru` keeps `Русский` in the picker.
+All extracted
+`SuperFake_Entrance*`, `radio*`, `Day1_*`, `NewfemaEnding*`, `Fan_*` and the
+`Cultist1_*`, `Cultist2_*`, `Cultist3_*`, `CultistPriest_*`, `Death_*`,
+`AloneEnding_*`, `RageEnding_*`, `Ending_*`, `selfcheck*`, `selfchek*` and
+`Killer_*`, `MushroomEater_*`, `Mushroom_*`, `Rock_*`, `Cat_*`, `StaticBoy_*`,
+`FEMA_*`, `Fighter_*`, `Tough_*`, `Fugitive_*`, `Twins_*`, `Miner_*`, `Sirin_*`, `Alkonost_*`, `Rocker_*`, `Luka_*`, `Mother_*`, `Fairytaller_*`, `WheelChair_*`, `Wheelchair_*`, `Foreigner_*`, `Firefighter_*`, `Bald_*`, `Jacket_*`, `Leper_*`, `Wifefema_*`, `Edgar_*`, `GraveDigger_*`, `Theorist_*`, `Tourist_*`, `Marauder_*`, `Alt_*`, `Nervous_*`, `NotTrue_*`, `Blind_*`, `Raskolnikov_*`, `FortuneTeller_*`, `BigLebowski_*`, `Nun_*`, `TaxiDriver_*`, `Cold_*`, `Intruder_*`, `Jacob_*`, `Ballerina_*`, `FunnyGuy_*`, `Buddy_*`, `Dude_*`, `Anger_*`, `Greatmother_*`, `Provocateur_*`, `FormerFema_*`, `Bestson_*`, `Teacher_*`, `Wolfhound_*`, `FatalDame_*`, `Hunter_*`, `Esenin_*`, `Unstable_*`, `Experienced_*`, `Doctor_*`, `Fatman_*`, `Fanatic_*`, `Couple_*`, `Widow_*`, `Scammer_*`, `Anxiety_*`, `entrance_*`, `Entrance_*`, `talk_*`, `Neighbour_*`, `window_*`, `office_*`, `bigroom_*`, `pantry_*`, `kitchen_*`, `bedroom_*`, `bathroom_*`, `Character_*` and all `tv_*` lines are now
+drafted and reviewed. Intentional keyboard-layout garble in `Foreigner_*`
+remains as in the source script. Thai text coverage and offline semantic
+review are complete for the accepted 16,538-unit text-only scope. Menu, Settings
+and sampled dialogue rendering passed in the isolated fixture. Dense gameplay UI,
+dynamic substitutions, later dialogue branches and next semantic state remain
+unchecked; full runtime and visual acceptance remain pending.
+
+Run `.venv/bin/python Scripts/audit_translation_alignment.py th` before the
+full Thai semantic pass. It flags unusual source/target length ratios and prints
+four neighboring stable IDs on each side for review; a clean result does not
+count as semantic coverage. Regression case: in `dialogue-batch-179`, a long
+soldier-head description was paired with the short question "มีใครรอดบ้างไหม?".
+The outlier must lead the reviewer to inspect the surrounding window lines,
+where five adjacent targets had been assigned to the wrong source IDs.
 
 Native locale, table and font bindings now exist as an isolated technical probe.
-Exercise menu, dense UI, dialogue, mixed RTL/LTR text and progression on this
-adapter before mass translation investment. Menu samples intentionally stress a
+After text translation, exercise menu, dense UI, dialogue, mixed RTL/LTR text
+and progression on this adapter before accepting a release. Menu samples stress a
 narrow binding and may overflow; their presence is not layout acceptance. Keep
 unverified shaping and other surfaces explicit, and never remove target locales
 or patch managed backup DLLs as a substitute for repairing the live mechanism.
@@ -226,6 +339,15 @@ Hindi with `liga`; `level0` was restored byte-for-byte. That evidence remains in
 are diagnostic controls, not game acceptance. Subsequent authorized runtime work
 is described below; it supersedes those specific menu/selector blockers, while the
 full shared gate remains incomplete.
+
+Four earlier owner-authorized Thai dialogue attempts are recorded in
+[`Documentation/dialogue-th-probe-evidence.json`](Documentation/dialogue-th-probe-evidence.json).
+The owner confirmed closing or using the copied game window during the attempts.
+The third attempt revealed that Settings can obscure New Game while leaving its
+border visible; the fourth verified a corrected guard rejecting that overlay
+before input. They captured no Thai dialogue event. After the Thai text was
+completed, the later isolated runs captured real Thai dialogue, identified and
+corrected the answer-panel placeholder, and restored the copied preferences.
 
 ## Runtime shaping module
 

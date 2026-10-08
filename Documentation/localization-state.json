@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T04:47:09.891369+00:00",
+  "updatedAt": "2026-10-08T21:28:02.109893+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -8,8 +8,8 @@
   "buildGuid": "c003ddc7de634775a85305fef3b9a0d3",
   "sourceLocale": "ru",
   "localizationType": "standard",
-  "currentStage": "glossary",
-  "stageStatus": "standalone-locale-glossaries-complete; renderer-gate-incomplete",
+  "currentStage": "translation-edit",
+  "stageStatus": "Thai text 100% accepted; corrected build verified and sampled Thai runtime/visual QA passed; full runtime gate pending",
   "targetLocales": [
     "th",
     "id",
@@ -27,7 +27,145 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "All 14 standalone glossary layers are complete and canonically integrated. Czech photo-submission and Hungarian character-list corrections passed two new independent full audits each. The initial release is published; these two local corrections have not been republished. Source and renderer readiness are unchanged.",
+  "ownerWorkOrder": "Translate extracted game text before further game testing; do not launch the game while drafting. Textures and images are excluded.",
+  "thaiDraftProgress": {
+    "draftRows": 16360,
+    "currentTableCandidateRows": 16359,
+    "supplementalStringDraftRows": 1,
+    "combinedDraftUnits": 16538,
+    "combinedCandidateNonemptyUnits": 16538,
+    "approximatePercent": 100.0,
+    "acceptedCoveragePercent": 100.0,
+    "basis": "16,360 selected string rows plus 178 supplemental static TMP fields; all 16,538 accepted text units translated and editorially reviewed offline; runtime and visual QA pending",
+    "authoredBatchCount": 334,
+    "batchSetSha256": "168fb5c50a530252d65cccb4a66812dc4b1fec2c7a2d9e53fcd53d2702736c42",
+    "batchSetHashFormat": "SHA-256 of sorted relative path, tab, file SHA-256, LF per batch",
+    "structuralCoverage": "passed for all 16,538 selected string and static TMP units",
+    "alignmentOutliers": 0,
+    "semanticReview": "accepted offline across all 16,538 source units; renderer and runtime pending",
+    "preliminarySourceTargetRead": {
+      "rows": 524,
+      "path": "Documentation/th-preliminary-semantic-review-v4.json",
+      "sha256": "38aeb694528938d8dc9e353edb9e1660eedc93d816b0525a9f4d50b7119c19fc",
+      "acceptedCoverage": false
+    },
+    "preserveExact": {
+      "manifestPath": "Source/preserve-exactly-v4.json",
+      "manifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+      "reportPath": "Documentation/th-preserve-exact-v8.json",
+      "reportSha256": "6c6fd2d2d44a4df39024ec5c5c76a9e746eedc58b8a96321e96f14d48820487b",
+      "checkedUnits": 16538,
+      "result": "passed for all 16,538 current selected string and static TMP units; runtime pending"
+    },
+    "supplementalStaticDraftRows": 178,
+    "supplementalStaticCandidateRows": 178,
+    "supplementalStaticDraftPath": "Translations/th/static-text-draft.json",
+    "supplementalStaticDraftSha256": "55c6a7a7dc6c7ef327644590c3861b1da04a8ec2bc06cc8a66285c8027d5098c",
+    "orphanWishlistKeyAudit": {
+      "path": "Documentation/missing-ui-key-86605930199502848-v1.json",
+      "sha256": "9eab93b058bfd02217b8686958d03b53c9fd01cbbd9a5ce7d79fc94342d94024",
+      "officialTablesWithNumericRow": 11,
+      "officialTableCount": 18,
+      "sharedUiKeyPresent": false,
+      "runtimePath": "pending"
+    },
+    "offlineDraftBuild": {
+      "reportPath": "outputs/th-text-draft-v6/report.json",
+      "reportSha256": "61e8fbdcf050c8a5aa47a2f58639f6118c0e2e6e78118e18f0925f1b9cdd45c3",
+      "verificationPath": "outputs/th-text-draft-v6/verification.json",
+      "verificationSha256": "d454146c71a62082a193a4436ea21e390b654c07c43bb0aefe0b70c021dc384e",
+      "serializedValuesCompared": 16538,
+      "artifacts": 10,
+      "status": "passed 16,538 translated values, 165 RTL originalText fields and 10 artifact hashes; installed only in isolated fixture; not a release"
+    },
+    "offlineBuildAttempts": [
+      {
+        "path": "outputs/th-text-draft-v1",
+        "status": "partial, preserved",
+        "failureBoundary": "A modified sharedassets0.assets copy could not dereference globalgamemanagers.assets when generating the TMP schema; prior table/catalog and six level asset outputs exist but are not a complete build."
+      },
+      {
+        "path": "outputs/th-text-draft-v2",
+        "status": "complete, serialized values and artifact hashes verified",
+        "repair": "Read the component schema from the pinned original asset while reading and writing the modified copy."
+      },
+      {
+        "path": "outputs/th-text-draft-v3",
+        "status": "complete after Thai editorial acceptance; 16,360 table values, 178 static values and 10 artifact hashes verified"
+      }
+    ],
+    "semanticReviewInput": {
+      "reportPath": "outputs/th-semantic-audit-input-v4/report.json",
+      "reportSha256": "6293e852204c16b7ba487becc6a0debe46f53c13a5ac24e0ab4cdb857f693783",
+      "pairedRows": 16538,
+      "semanticReviewedRows": 16538,
+      "status": "paired input consumed by the complete Thai first semantic pass and independent correction diff audit"
+    },
+    "semanticAuditInputAttempts": [
+      {
+        "path": "outputs/th-semantic-audit-input-v1",
+        "status": "partial; static source rows have no stored sourceSha256 field"
+      },
+      {
+        "path": "outputs/th-semantic-audit-input-v2",
+        "status": "complete; source hashes computed from source text and matched to exact manifest"
+      },
+      {
+        "path": "outputs/th-semantic-audit-input-v3",
+        "status": "complete and pinned to accepted source scope"
+      },
+      {
+        "path": "outputs/th-semantic-audit-input-v4",
+        "status": "complete; glossary and mandatory regression catalog pinned"
+      }
+    ],
+    "semanticRegressionCatalog": {
+      "path": "Documentation/th-semantic-regressions-v1.json",
+      "sha256": "3a5b89d4b4979f18983e84549f197d4fc5a4a954a360e5f31d79719e1e7fa5a6",
+      "groups": 8
+    },
+    "fullSemanticPassProgress": {
+      "path": "Documentation/th-semantic-audit-progress-v44.json",
+      "sha256": "835cf61d38475f3d282ff33c0360729443ee4311dcbe57988da0fdaaac220047",
+      "reviewedRows": 16538,
+      "totalRows": 16538,
+      "openObjectiveFindings": 145,
+      "status": "first complete pass finished with 145 findings; resolved through two correction plans and offline acceptance"
+    },
+    "semanticAcceptance": {
+      "path": "Documentation/th-semantic-acceptance-v2.json",
+      "sha256": "3796fcf75cff2501853ed2fd8b8f63d7e53c6a17c04128b4a8ef70c43cad5bec",
+      "acceptedRows": 16538,
+      "openObjectiveFindings": 0,
+      "status": "accepted offline including runtime-discovered answer-panel correction; full runtime/visual gate pending"
+    },
+    "runtimeQa": {
+      "path": "Documentation/th-runtime-qa-v1.json",
+      "sha256": "de5c50831ca3142cadbe406a562811173d98e87af744cfc444b099ab0bd8960b",
+      "observedThaiDialogueLines": 13,
+      "missingGlyphWarnings": 0,
+      "status": "menu, settings and sampled dialogue passed; remaining runtime surfaces pending"
+    }
+  },
+  "staticTextRoleTriage": {
+    "path": "Documentation/static-text-role-triage-v1.json",
+    "sha256": "571c9f66bfd0ae8c4aa7bc8db56d2560854a2ec32dc1bbd75d5788f4bc4ee00e",
+    "objectsGrouped": 106,
+    "sourceScopeAccepted": false
+  },
+  "staticTextScope": {
+    "path": "Documentation/static-text-scope-v2.json",
+    "sha256": "1236570c4ff15bb00eed3b5d4b7cbf8a2b2291772e4c028c69c0836cbb11edaa",
+    "sourceObjects": 244,
+    "boundToSourceTable": 60,
+    "orphanUiBinding": 1,
+    "unconfiguredEventBindings": 15,
+    "unbound": 168,
+    "nonemptyStaticCandidateRows": 178,
+    "sourceScopeAccepted": true,
+    "runtimeBindingsAccepted": false
+  },
+  "summary": "All 14 standalone glossary layers are complete. The accepted text-only source scope is 16,538 stable-ID units: 16,360 selected string rows and 178 supplemental static TMP fields, subject to reopening if runtime reveals another consumer. Thai authored text covers and has been semantically reviewed against all 16,538 accepted units. The final isolated Thai package has 10 artifacts and passed serialized-value verification; it has not been installed or launched. The orphan wishlist key and embedded FakePeople_RU reachability remain conditional runtime questions. Textures and images are excluded. Remaining locales still require text translation and editorial review before game testing.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -644,21 +782,38 @@
   "localeRows": [
     {
       "locale": "th",
-      "phase": "probe",
-      "translated": 0,
-      "total": null,
+      "phase": "editorial",
+      "translated": 16538,
+      "total": 16538,
       "glossary": "passed-canonical-integrated",
-      "editorial": "not-started",
+      "editorial": "passed-offline; runtime-discovered correction included",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
-      "runtime": "passed-for-menu-and-settings-binding",
-      "visual": "binding-reviewed; full-gate-not-passed",
+      "runtime": "menu, settings and 13 Thai dialogue lines observed; full gate pending",
+      "visual": "sampled menu, settings and dialogue reviewed; full gate pending",
       "release": "not-created",
       "runtimeLocale": "th",
       "processBinding": "shared-standard-v1",
-      "sourceInventoryFingerprint": null,
+      "sourceInventoryFingerprint": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
       "glossaryFingerprint": "40dc9558343489dc8f65d37e9759cdfe358f68b578d12586145d7f65589771d2",
+      "preGateDraft": {
+        "collection": "UI",
+        "batches": 8,
+        "distinctRows": 259,
+        "status": "structural checks passed; semantic and renderer acceptance pending"
+      },
+      "dialogueDraft": {
+        "collection": "Dialogs",
+        "batches": 40,
+        "distinctRows": 4026,
+        "status": "structural checks passed; semantic and renderer acceptance pending"
+      },
+      "dialogueProbe": {
+        "path": "Documentation/dialogue-th-probe-evidence.json",
+        "sha256": "07ffd19a0b3771cc91e223ab74f8d0f8b543e1328d707facb72a041cb5fb164c",
+        "status": "incomplete; owner interaction interrupted the probes; corrected guard rejected Settings overlay"
+      },
       "requirements": [
         "Thai marks above/below, stacking, spacing, wrapping and dialogue advancement"
       ],
@@ -680,8 +835,8 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Only menu sample and settings selector exercised; dialogue, dense target text, dynamic substitutions and next semantic state not run.; Long synthetic menu samples may overflow; final font style and layout not accepted.",
-      "nextAction": "Repair applicable rendering defects; exercise remaining surfaces before mass work.",
+      "blocker": "Dense gameplay UI, dynamic substitutions, later dialogue branches and next semantic state have not been checked; full font style/layout gate and release QA remain pending.",
+      "nextAction": "Run remaining Thai runtime and visual surfaces, then package and verify Thai-only deliverable.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -702,6 +857,13 @@
         "status": "published-verified-production",
         "entries": 201,
         "verifiedAt": "2026-10-08T04:25:04.467777+00:00"
+      },
+      "runtimeQa": {
+        "path": "Documentation/th-runtime-qa-v1.json",
+        "sha256": "de5c50831ca3142cadbe406a562811173d98e87af744cfc444b099ab0bd8960b",
+        "observedThaiDialogueLines": 13,
+        "missingGlyphWarnings": 0,
+        "status": "menu, settings and sampled dialogue passed; remaining runtime surfaces pending"
       }
     },
     {
@@ -712,7 +874,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -858,7 +1020,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -964,7 +1126,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1069,7 +1231,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1215,7 +1377,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
@@ -1279,7 +1441,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1383,7 +1545,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-Hindi-roles-bound-to-owned-HarfBuzz-glyph-font; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
@@ -1446,7 +1608,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1592,7 +1754,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1678,7 +1840,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1808,7 +1970,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -1900,7 +2062,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "binding-reviewed; full-gate-not-passed",
@@ -2046,7 +2208,7 @@
       "glossary": "passed-canonical-integrated",
       "editorial": "not-started",
       "fonts": "three-native-role-mappings; final-style-unverified",
-      "textures": "not-started",
+      "textures": "not-applicable; owner excluded textures and images",
       "build": "native-locale-table-font-adapter-v6",
       "runtime": "passed-for-menu-and-settings-binding",
       "visual": "runtime-module-menu-and-selector-reviewed; full-gate-not-passed",
@@ -2181,14 +2343,15 @@
     "runtime": "14 native bindings retained; Hindi menu shaping and Persian/Hebrew caption rendering repaired through runtime module; full gate incomplete",
     "nativeContainerSets": "32 locales, 135 Russian-carrier strings and 15 image tables; complete saved object/container sets compared",
     "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test.",
-    "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
+    "rendererEvidence": "Documentation/runtime-renderer-evidence.json",
+    "thaiText": "16,538/16,538 editorially accepted offline; preserve-exact and 334 table plus static structural validations passed; 10 package artifacts verified; runtime not run"
   },
-  "nextAction": "Czech and Hungarian corrections require separate publication authorization. Further game-text translation requires shared source inventory and full renderer-readiness gate.",
+  "nextAction": "Complete Thai dense gameplay UI, dynamic substitution and later-state checks; then package and verify a Thai-only deliverable.",
   "toolFingerprints": {
     "Scripts/build_locale_probe.py": "0dfc5cba62bdb5a4a306cde4b9407eb45332ca517ad60274ea55490ace50aeba",
     "Scripts/probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
     "Scripts/fixture_preferences.py": "a6980eb2994d78c03f43417a38e03f8caeeb53de3f12fb97eeb617b378aa4e4f",
-    "Scripts/run_saved_locale_probe.py": "0656f893364a0777095b214f6ec980cd303232ebf93bb9836f31b602c7418d09",
+    "Scripts/run_saved_locale_probe.py": "768548038c18539ad39673ea4adc5b39c58206e1bef224d3bd6fba8ca4fe48af",
     "Scripts/probe_menu_features.py": "5cff623bae2b4c56ddf9c2ae23b48b41e2dd2435cb1c4bf664aaaa085765caf0",
     "Scripts/addressables_catalog.py": "d40c3d38cd0c1bf36a76064f98eca2a38f92cafe9992a01fecb0a1b4de60a564",
     "Scripts/install_locale_probe.py": "887f117bebb3e2e1f6cb12c1361926f51107b9cb5afc49742948841489662129",
@@ -2196,7 +2359,7 @@
     "Scripts/probe_assets.py": "94e82057445deab0a95c779ebe5dfb9477f9f4d37aad44b7d2941002daa20c90",
     "Scripts/render_font_reference.swift": "2ff301b1b74855c258cde74f64ec0d175221361e8bc7746695f73f28ebc0093b",
     "Scripts/visual-qa/target_input.swift": "c9ffc7379211ded053a107ff7761a96b85d11d18fc68cfd2864f12e1eddce9a1",
-    "Scripts/visual-qa/guarded_click.py": "83503287c5ee3c891136f02ab799dc871314d75bd9be08ff3efccf350effe8d8",
+    "Scripts/visual-qa/guarded_click.py": "41d73b8f61cfc62033348e131c45451ac08cc763cbc4c27b687354b2ab2939dd",
     "Scripts/visual-qa/window_info.swift": "170814360b5c0382254feff6e02db6f08aa88b5177ce22077081681aade6a06e",
     "Scripts/visual-qa/run_capture.py": "403cbbcba5b34e34a2f65e359fb96e10d6d4c0161538c72879fcbc8924ab9a11",
     "Scripts/visual-qa/probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076",
@@ -2234,7 +2397,7 @@
       "path": "Documentation/dialogue-probe-evidence.json",
       "sha256": "e1c4459161904aa7181e23f9740f077169705753d7961342e2aff5c00e5792be"
     },
-    "scope": "Stopped copied fixture; exact preferences restored; opt-in diagnostic config removed."
+    "scope": "Stopped copied fixture; diagnostic config removed; exact preferences restored after bounded Hindi dialogue probe."
   },
   "rendererModule": {
     "version": "0.3.0",
@@ -2383,5 +2546,76 @@
     ],
     "lastPublishedExportRawSha256": "cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904",
     "correctionEvidence": "Documentation/glossary-translations/corrections-20261008/changes.json"
-  }
+  },
+  "sourceInventoryCandidate": {
+    "summary": "Documentation/localization-source-inventory-v3.json",
+    "summarySha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782",
+    "status": "extracted source with accepted text-only selected ID scope; runtime reachability remains conditional",
+    "localizationScope": "String-table and serialized TMP text only. Owner excluded textures and images.",
+    "textScopeAudit": {
+      "path": "Documentation/text-source-scope-v7.json",
+      "sha256": "88bf4e88e2902ee7842f1cfe0b3688df6fc919f4a585e86bc6e798dddececf9d",
+      "currentTableCandidateRows": 16359,
+      "sharedAssetSupplementalStringRows": 1,
+      "selectedStringCandidateRows": 16360,
+      "status": "candidate report superseded by text-source-acceptance-v1"
+    },
+    "counts": {
+      "stringRows": 52788,
+      "stringCollections": {
+        "ChecksDialogs": 11219,
+        "DayDialogs": 10328,
+        "DemoDialogs": 3237,
+        "Dialogs": 16100,
+        "Endings": 415,
+        "NightDialogs": 7599,
+        "NotCharacterDialogs": 1617,
+        "TestDialogs": 2014,
+        "UI": 259
+      },
+      "protectedStringSpans": 37548,
+      "staticTextObjects": 244
+    },
+    "outputs": {
+      "strings.jsonl": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+      "static-text.jsonl": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "translationCoverageDenominator": 16538,
+    "gameTextTranslationStarted": true,
+    "gameTextTranslationAccepted": false,
+    "sourceScopeAcceptance": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+      "selectedRows": 16538,
+      "runtimeReachability": "conditional; reopen on discovered consumer"
+    }
+  },
+  "legacyUiTextScope": {
+    "path": "Documentation/legacy-ui-text-scope-v1.json",
+    "sha256": "80068edfdc4095fe06b1278e300ea55eaf90ba226deba1a79966ab2e5c2d17c3",
+    "legacyTextObjects": 149,
+    "gameSceneTextObjects": 0,
+    "decision": "Unity rendering pipeline DebugUI resource templates excluded from game text candidate inventory"
+  },
+  "embeddedTextAssetScope": {
+    "path": "Documentation/embedded-text-assets-scope-v2.json",
+    "sha256": "6b160d5b0d88fa5b59ce9f723de7f1c6de47edbbf3050e07a4b2e2b45e2531bc",
+    "textAssets": 18,
+    "legacyTwineScriptLinesAbsentFromTables": 298,
+    "serializedTwineConsumers": 0,
+    "runtimeReachability": "unverified",
+    "serializedResourceReferences": 0,
+    "unreadableEditorComponents": 2
+  },
+  "otherSerializedTextScope": {
+    "path": "Documentation/other-serialized-text-scope-v2.json",
+    "sha256": "7f431ae51f95fd85a50ae77a052efad63d58cfeebce26f8e3b74498aa49197d9",
+    "readableCandidateFields": 338,
+    "uniqueNontechnicalValues": 60,
+    "unreadableComponents": 153,
+    "rawCyrillicSpansInUnreadable": 0,
+    "status": "no additional readable display sentence; runtime reachability still pending"
+  },
+  "activeTaskLocale": "th",
+  "activeTaskScope": "Thai text localization only; textures and images excluded; no other locale translation in this task."
 }

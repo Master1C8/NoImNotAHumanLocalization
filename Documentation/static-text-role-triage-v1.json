@@ -1,0 +1,1861 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.3.19",
+  "status": "scene-role triage; inclusion and runtime remain unaccepted",
+  "scopeReportSha256": "72a3fdb1555680d311582fe15ca3572f471a3926816c85bf75864a64df096216",
+  "staticInventorySha256": "3a805f2dfb98448430263945f64a99146971a8e72e4d903f930bcb86199a801f",
+  "groupCounts": {
+    "debugConsole": 10,
+    "developerMenu": 27,
+    "dynamicVersion": 1,
+    "endingDisplayPlaceholderOrDynamic": 3,
+    "gachaWindowPlaceholderOrDynamic": 24,
+    "orphanUiBinding": 1,
+    "settingsPlaceholderOrDynamic": 13,
+    "sharedDebugUi": 4,
+    "uiTableBinding": 23
+  },
+  "notes": [
+    "UI table bindings identify 23 localized text objects, not 23 additional translation rows.",
+    "The orphan UI binding has a serialized Russian fallback and a supplemental Thai draft; its runtime patch path is unverified.",
+    "Developer/debug groups are scene roles, not a proven runtime exclusion.",
+    "Gacha, settings, ending and version groups contain serialized placeholders or dynamic text; verify each consumer before accepting scope."
+  ],
+  "rows": [
+    {
+      "stableId": "tmp:sharedassets0.assets:2755:m_text",
+      "source": "Debug.Log summary",
+      "scenePath": null,
+      "roleGroup": "sharedDebugUi",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:sharedassets0.assets:2756:m_text",
+      "source": "1",
+      "scenePath": null,
+      "roleGroup": "sharedDebugUi",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:sharedassets0.assets:2757:m_text",
+      "source": "Copy",
+      "scenePath": null,
+      "roleGroup": "sharedDebugUi",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:sharedassets0.assets:2758:m_text",
+      "source": "help",
+      "scenePath": null,
+      "roleGroup": "sharedDebugUi",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1938:m_text",
+      "source": "Инверсия",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "Toggle_2",
+        "Label"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2613,
+          "targetComponentPathId": 1938,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 229762825867829248,
+          "method": "set_text"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1939:m_text",
+      "source": "Инверсия",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "Toggle_1",
+        "Label"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2991,
+          "targetComponentPathId": 1939,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 229762759966924800,
+          "method": "set_text"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1941:m_text",
+      "source": "Space",
+      "scenePath": [
+        "EndingShower",
+        "SkipBox",
+        "ControlView",
+        "KeyImage",
+        "KeyText"
+      ],
+      "roleGroup": "endingDisplayPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1944:m_text",
+      "source": "Enter day...",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "InputField (TMP)",
+        "Text Area",
+        "Placeholder"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1947:m_text",
+      "source": "Back",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Back",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2843,
+          "targetComponentPathId": 1946,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 66343298049757184,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1952:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (3)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1955:m_text",
+      "source": "Dig hole",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "Hatch (1)",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1958:m_text",
+      "source": "Start",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "NewGame",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 1956,
+          "targetComponentPathId": 1959,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 55224523648913408,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1961:m_text",
+      "source": "​",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "CommandInputField",
+        "Text Area",
+        "Text"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1963:m_text",
+      "source": "Character:",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "CharactersDropdown",
+        "Header"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1971:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (5)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1974:m_text",
+      "source": "Чувство гейпада в комнате",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "GaypadSense (1)",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3185,
+          "targetComponentPathId": 1973,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 94373216587075585,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1985:m_text",
+      "source": "",
+      "scenePath": [
+        "EndingShower",
+        "Text (TMP)"
+      ],
+      "roleGroup": "endingDisplayPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1987:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (1)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1990:m_text",
+      "source": "Контролс",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Header"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2988,
+          "targetComponentPathId": 1989,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 94374215708037120,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:1996:m_text",
+      "source": "Summon in 6th night",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Grid",
+        "Night",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2005:m_text",
+      "source": "Unlock cat",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "Cat",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2010:m_text",
+      "source": "Typewriter effect",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "TextSettings",
+        "Toggle",
+        "Label"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2401,
+          "targetComponentPathId": 2009,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 69259143700795392,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2014:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogPopup",
+        "NewWarningCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2016:m_text",
+      "source": "Super speed",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "PlayerTab",
+        "SuperSpeed",
+        "Label"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2022:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (9)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2024:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (7)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2026:m_text",
+      "source": "Characters",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Text (TMP) (1)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2030:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (8)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2033:m_text",
+      "source": "1.0",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "GaypadSense",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2036:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogPopup",
+        "NewInfoCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2038:m_text",
+      "source": "1920x1080 (60 Hz)",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "CharactersDropdown",
+        "Template",
+        "Viewport",
+        "Content",
+        "Item",
+        "Item Label"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2045:m_text",
+      "source": "Long text check. Long text check\nLong text check. Long text check\nLong text check. Long text check\nLong text check. Long text check",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Characters",
+        "QuoteBG",
+        "Quote"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2049:m_text",
+      "source": "No, I'm not a human, I am Humann",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Title"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2046,
+          "targetComponentPathId": 2048,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 3668215154331650,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2087:m_text",
+      "source": "Continue",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Continue",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2085,
+          "targetComponentPathId": 2088,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 55224549817176064,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2091:m_text",
+      "source": "SFX",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "SFXVolume",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2376,
+          "targetComponentPathId": 2090,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 53377553434402816,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2093:m_text",
+      "source": "Unlock all endings",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "GlobalTab",
+        "UnlockEndings",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2097:m_text",
+      "source": "World",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "Text (TMP) (1)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2099:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2101:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (2)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2103:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "Buttons",
+        "FilterErrorButton",
+        "ErrorCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2105:m_text",
+      "source": "Kill",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Grid",
+        "Kill",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2108:m_text",
+      "source": "Quit",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Quit",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2106,
+          "targetComponentPathId": 2109,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 3660989769437180,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2111:m_text",
+      "source": "Option A",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Options",
+        "Resolutions",
+        "Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2113:m_text",
+      "source": "Exile",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Grid",
+        "Exile",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2121:m_text",
+      "source": "Text",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "TextSettings",
+        "Header"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3111,
+          "targetComponentPathId": 2120,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 69257185275400192,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2123:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (7)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2125:m_text",
+      "source": "Option A",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Options",
+        "Fullscreen",
+        "Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2129:m_text",
+      "source": "Search...",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "Buttons",
+        "SearchbarSlotTop",
+        "Searchbar",
+        "Text Area",
+        "Placeholder"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2131:m_text",
+      "source": "Let In Crowd",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "LetInCrowd",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2136:m_text",
+      "source": "Пропустить",
+      "scenePath": [
+        "EndingShower",
+        "SkipBox",
+        "ControlView",
+        "TextDescription"
+      ],
+      "roleGroup": "endingDisplayPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2140:m_text",
+      "source": "В желаемое",
+      "scenePath": [
+        "Text (TMP)"
+      ],
+      "roleGroup": "orphanUiBinding",
+      "uiBindings": [],
+      "orphanUiBinding": {
+        "textPathId": 2140,
+        "eventPathId": 2137,
+        "targetComponentPathId": 2139,
+        "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+        "keyId": 86605930199502848,
+        "method": "SetRTLText"
+      }
+    },
+    {
+      "stableId": "tmp:level0:2143:m_text",
+      "source": "ver. 0.1",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Version"
+      ],
+      "roleGroup": "dynamicVersion",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2145:m_text",
+      "source": "Let In",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Grid",
+        "LetIn",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2147:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (4)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2150:m_text",
+      "source": "Screen",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Header"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2681,
+          "targetComponentPathId": 2149,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 66346014109061120,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2152:m_text",
+      "source": "100",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "MusicVolume",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2155:m_text",
+      "source": "Collection",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Collection",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2153,
+          "targetComponentPathId": 2156,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 118142792813256704,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2162:m_text",
+      "source": "Complete dialog",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "Grid",
+        "Skip dialog",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2163:m_text",
+      "source": "1920x1080 (60 Hz)",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "TextSettings",
+        "LangHolder",
+        "Languages",
+        "Template",
+        "Viewport",
+        "Content",
+        "Item",
+        "Item Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2165:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "Buttons",
+        "FilterWarningButton",
+        "WarningCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2167:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (6)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2170:m_text",
+      "source": "Music",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "MusicVolume",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3153,
+          "targetComponentPathId": 2169,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 53377521738047488,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2173:m_text",
+      "source": "Volume",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "Header"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2329,
+          "targetComponentPathId": 2172,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 3660864884035580,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2175:m_text",
+      "source": "",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "TextSettings",
+        "LangHolder",
+        "Languages",
+        "Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2178:m_text",
+      "source": "Master",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "MasterVolume",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3104,
+          "targetComponentPathId": 2177,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 53377425445216256,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2181:m_text",
+      "source": "Settings",
+      "scenePath": [
+        "Canvas",
+        "NotBg",
+        "Settings",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2179,
+          "targetComponentPathId": 2182,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 66090579946885120,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2184:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "Buttons",
+        "FilterLogButton",
+        "LogCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2189:m_text",
+      "source": "0",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogPopup",
+        "NewErrorCount"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2191:m_text",
+      "source": "1.0",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "MouseSense",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2193:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (9)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2195:m_text",
+      "source": "Unlock all phones",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "UnlockPhones",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2197:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (4)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2202:m_text",
+      "source": "Clear Prefs",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "GlobalTab",
+        "Clear prefs",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2205:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (10)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2207:m_text",
+      "source": "0/10",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "ProgressBack",
+        "Text (TMP)"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2214:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (3)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2218:m_text",
+      "source": "Rooms without restrictions",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "FuckedRestrictions",
+        "Label"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2220:m_text",
+      "source": "1920x1080 (60 Hz)",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Options",
+        "Resolutions",
+        "Template",
+        "Viewport",
+        "Content",
+        "Item",
+        "Item Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2222:m_text",
+      "source": "Open hatch",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "Hatch",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2223:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (10)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2227:m_text",
+      "source": "Language",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "TextSettings",
+        "LangHolder",
+        "Language"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3270,
+          "targetComponentPathId": 2226,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 3660792356130820,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2231:m_text",
+      "source": "1920x1080 (60 Hz)",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Options",
+        "Fullscreen",
+        "Template",
+        "Viewport",
+        "Content",
+        "Item",
+        "Item Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2235:m_text",
+      "source": "100",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "MasterVolume",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2238:m_text",
+      "source": "Global",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "GlobalTab",
+        "Text (TMP) (1)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2241:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (5)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2243:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (8)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2250:m_text",
+      "source": "Refill Energy",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "PlayerTab",
+        "RefillEnergy",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2254:m_text",
+      "source": "(type help for list of commands)",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "CommandInputField",
+        "Text Area",
+        "Placeholder"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2257:m_text",
+      "source": "Чувство мыши",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "MouseSense",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2821,
+          "targetComponentPathId": 2256,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 94373216587075586,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2259:m_text",
+      "source": "Death ending",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (1)",
+        "Header"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2261:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2267:m_text",
+      "source": "Unlock all checks",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "UnlockChecks",
+        "Text (TMP)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2269:m_text",
+      "source": "Sleep without restrictions",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "SleepForever",
+        "Label"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2276:m_text",
+      "source": "​",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "InputField (TMP)",
+        "Text Area",
+        "Text"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2278:m_text",
+      "source": "Option A",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "CharactersTab",
+        "CharactersDropdown",
+        "Label"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2280:m_text",
+      "source": "​",
+      "scenePath": [
+        "IngameDebugConsole",
+        "DebugLogWindow",
+        "Buttons",
+        "SearchbarSlotTop",
+        "Searchbar",
+        "Text Area",
+        "Text"
+      ],
+      "roleGroup": "debugConsole",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2291:m_text",
+      "source": "1.0",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "GaypadSense (1)",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2295:m_text",
+      "source": "Вибро",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "Toggle",
+        "Label"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 3092,
+          "targetComponentPathId": 2294,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 94373216557715456,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2300:m_text",
+      "source": "100",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "SoundSettings",
+        "SFXVolume",
+        "VolumeValue"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2302:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (2)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2304:m_text",
+      "source": "Player",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "PlayerTab",
+        "Text (TMP) (1)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2307:m_text",
+      "source": "Back",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Back",
+        "Text (TMP)"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2579,
+          "targetComponentPathId": 2306,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 66343298049757184,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2310:m_text",
+      "source": "Чувство гейпада",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ControlsSettings",
+        "Options",
+        "GaypadSense",
+        "Name"
+      ],
+      "roleGroup": "uiTableBinding",
+      "uiBindings": [
+        {
+          "eventPathId": 2419,
+          "targetComponentPathId": 2309,
+          "collection": "GUID:0cbd8a7a4f543344bb95659de87f67a5",
+          "keyId": 94373216587075584,
+          "method": "SetRTLText"
+        }
+      ],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2312:m_text",
+      "source": "Description of ending where you are dead because of dying (by cringe). And after death you becoming dead\nDescription of ending where you are dead because of dying (by cringe). And after death you becoming dead",
+      "scenePath": [
+        "Canvas",
+        "GachaWindow",
+        "BG",
+        "Endings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "GachaEndingView (6)",
+        "Description"
+      ],
+      "roleGroup": "gachaWindowPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2314:m_text",
+      "source": "Day: ",
+      "scenePath": [
+        "InGameDevMenu",
+        "Panel",
+        "WorldTab",
+        "InputField (TMP)",
+        "Text (TMP) (1)"
+      ],
+      "roleGroup": "developerMenu",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    },
+    {
+      "stableId": "tmp:level0:2318:m_text",
+      "source": "VSync",
+      "scenePath": [
+        "Canvas",
+        "Settings",
+        "Scroll View",
+        "Viewport",
+        "Content",
+        "ScreenSettings",
+        "Options",
+        "Toggle",
+        "Label"
+      ],
+      "roleGroup": "settingsPlaceholderOrDynamic",
+      "uiBindings": [],
+      "orphanUiBinding": null
+    }
+  ]
+}

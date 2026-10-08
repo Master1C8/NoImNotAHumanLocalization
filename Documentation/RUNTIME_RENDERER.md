@@ -141,3 +141,41 @@ them again. The 72-second intro and initial black frames are not proof of video
 failure. The fixture is stopped, preferences restored, diagnostic config removed.
 The owner requested standalone canonical Russian glossary preparation; this does
 not accept rendering or authorize mass game translation.
+
+## Thai dialogue probe exit boundary
+
+Four owner-authorized attempts in `dialogue-th-probe-evidence.json` captured
+menu or Settings frames, but none captured a Thai dialogue event. The owner
+confirmed closing or using the copied window during these runs. The third
+attempt exposed a guard defect: the New Game border remained visible behind
+Settings. The fourth attempt verified that an added menu-art guard rejected
+the Settings overlay before input (normalized RMSE 0.40362, limit 0.12). The
+fixture was stopped after each run and the exact pinned `before-user.reg` was
+restored. Only copied log files changed in the save area; no saved-game file
+was observed. The owner requested translation before further game testing.
+
+Regression: a successful menu capture does not keep its window identity valid
+for the next input. If the guarded helper reports `Process is not the fixture`,
+check the exact process, window, run status and logs before another action. A
+stale captured window is not permission to click, relaunch or mark the probe
+passed. Preserve the run's receipts and restore the copied preferences only
+after verifying the fixture is stopped and the backup/config hashes match.
+
+## Thai translated-text runtime checkpoint
+
+After all 16,538 selected Thai text units were accepted offline, the isolated
+Thai build was installed in the copied fixture. A real dialogue run showed
+an Arabic placeholder in the answer panel and five missing-glyph warnings.
+Changing only `m_text` did not fix it: `RTLTextMeshPro.originalText` still
+contained the source placeholder and restored it at runtime. The build recipe
+now writes and verifies both fields for all 165 selected RTL components. In
+the corrected run, the answer panel initially contained ` ตัวเลือก`; 13 Thai
+dialogue lines were observed, and the copied game's log had zero missing
+ChakraPetch glyph warnings. Menu, Settings and dialogue screenshots are pinned
+in `th-runtime-qa-v1.json`. Dense gameplay UI, dynamic substitutions, later
+branches and the next semantic state remain unverified.
+
+Regression: a serialized TMP `m_text` target can read back correctly while a
+derived text component still displays its stale `originalText`. A build check
+must compare both fields and a live check must inspect the first displayed
+frame and missing-glyph log.

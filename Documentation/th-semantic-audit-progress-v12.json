@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "status": "first complete semantic pass in progress; no editorial acceptance",
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "pairedPath": "outputs/th-semantic-audit-input-v4/paired.jsonl",
+  "pairedSha256": "c451403786b799d8fb5de2491a5e37da5182cbaa5853a69249e1d063c963a035",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "glossaryReviewSha256": "c53f0d8c741dbcc0b1187924e1818640c55503446475b71ef493d651aa887ee7",
+  "regressionCatalogSha256": "3a5b89d4b4979f18983e84549f197d4fc5a4a954a360e5f31d79719e1e7fa5a6",
+  "reviewedOrdinalRanges": [
+    [
+      1,
+      2759
+    ]
+  ],
+  "reviewedRows": 2759,
+  "totalRows": 16538,
+  "findings": [
+    {
+      "ordinal": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "currentTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nวันนี้เมืองถูกสร้างขึ้นมา\nในห้องใต้ดิน เห็ดงอกจากผืนดิน\nมันใหญ่โต แต่จะมีใครสักคนไหม\nที่กลืนกินมันได้ทั้งดอก\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nการรับแขกเป็นชะตาของคนอ่อนแอ\nเห็ดสูงกว่าเรา เหล่าคนที่ไม่ได้รับเชิญ\nมีเพียงต้นแอปเปิลที่ให้ทุกคนพักพิง\nและเลี้ยงพวกท่านด้วยผลหวาน\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nสักวันหนึ่งเขาจะออกมา\nก้มคำนับเหล่าเห็ด\nแล้วเข็มนาฬิกาจะชี้ขึ้นฟ้า\nเร็วเข้า เพื่อนเอ๋ย รีบหน่อย!",
+      "reason": "Unwarranted clock specificity: стрелка may be a pointer/needle; source does not say clock.",
+      "proposal": "Replace เข็มนาฬิกา with เข็ม in the complete poem, preserving every other line and tag.",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 162,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054046376660992",
+      "source": "курящая женщина",
+      "currentTarget": "หญิงผู้สูบบุหรี่ในคู่พี่น้อง",
+      "reason": "The source says only a smoking woman; the Thai label reveals her twin relationship before the source does.",
+      "proposal": "หญิงสูบบุหรี่",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 176,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+      "source": "голый жирдяй",
+      "currentTarget": "ชายอ้วนเปลือย",
+      "reason": "The pejorative жирдяй is reduced to a neutral fat man, losing the source label’s insult.",
+      "proposal": "ไอ้อ้วนแก้ผ้า",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 183,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055636873515008",
+      "source": "женщина в депрессии",
+      "currentTarget": "หญิงผู้ซึมเศร้าในคู่พี่น้อง",
+      "reason": "The source says only a woman in depression; the Thai label reveals her twin relationship.",
+      "proposal": "หญิงซึมเศร้า",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 207,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630550598148096",
+      "source": "Муж близняшки",
+      "currentTarget": "สามีของหญิงผู้สูบบุหรี่ในคู่พี่น้อง",
+      "reason": "The source names a twin woman’s husband but does not identify her as the smoking twin.",
+      "proposal": "สามีของหญิงฝาแฝด",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 260,
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+      "source": "Esenin: Спасибо, что в жопу мне не залез!",
+      "currentTarget": "Esenin: ขอบใจนะที่ไม่ล้วงเข้าไปถึงก้นฉัน!",
+      "reason": "The Russian жопу is vulgar and physical; neutral ก้น softens the character’s voice.",
+      "proposal": "Esenin: ขอบใจนะที่ไม่ได้ล้วงเข้าไปในตูดฉัน!",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 309,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777730",
+      "source": "Phone: Если её отца сожгли, то так оно и должно быть.",
+      "currentTarget": "Phone: ถ้าพ่อของเธอถูกเผา นั่นก็คงเป็นสิ่งที่ถูกกำหนดไว้แล้ว",
+      "reason": "Так оно и должно быть rationalizes the burning as right/necessary; Thai wording introduces predestination instead.",
+      "proposal": "Phone: ถ้าพ่อของเธอถูกเผา ก็แปลว่ามันต้องเป็นอย่างนั้น",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 484,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863177",
+      "source": "Хах, бабуля по всем этим шкафам распихала посуду.",
+      "currentTarget": "ฮะ คุณยายยัดจานชามไว้เต็มตู้พวกนี้เลย",
+      "reason": "Russian бабуля identifies a grandmother without maternal or paternal lineage; คุณยาย can specify maternal lineage. Check family context and choose a Thai form that does not invent lineage.",
+      "proposal": "Needs context before a complete replacement; do not infer paternal or maternal lineage.",
+      "status": "source-context review needed; not applied"
+    },
+    {
+      "ordinal": 676,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457798754315",
+      "source": "Phone: Короче, скажу, что ты жив и ждёшь",
+      "currentTarget": "Phone: เอาเป็นว่าฉันจะบอกว่าเธอยังมีชีวิตอยู่และกำลังรอ",
+      "reason": "Russian ты addresses the caller/player. Thai เธอ can read as the woman being reported alive; neighboring variants name the addressee correctly.",
+      "proposal": "Phone: เอาเป็นว่าฉันจะบอกเธอว่าคุณยังมีชีวิตอยู่และกำลังรอ",
+      "relatedOrdinals": [],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 687,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457798754304",
+      "source": "Phone: Пусть она сходит. Скажите ей, что она за мать такая?",
+      "currentTarget": "Phone: ให้เธอไปหาเอง แล้วถามเธอสิว่าเป็นแม่แบบไหนกัน?",
+      "reason": "Скажите ей is an instruction to tell/scold her; Thai ถามเธอ changes the act into a question.",
+      "proposal": "Phone: ให้เธอไปหาเอง แล้วบอกเธอด้วยว่าเป็นแม่ประสาอะไร",
+      "relatedOrdinals": [],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 748,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782784",
+      "source": "Phone: Я ничем не смогу вам помочь. До свидания.",
+      "currentTarget": "Phone: ฉันช่วยคุณไม่ได้แล้ว ลาก่อน",
+      "reason": "The approved male psychic expert uses ผม in the same service call, but this branch switches to ฉัน. Review all self-references of this speaker, including ordinal 752, for consistent professional address.",
+      "proposal": "Phone: ผมช่วยคุณไม่ได้แล้ว ลาก่อน",
+      "relatedOrdinals": [
+        752,
+        790,
+        791,
+        795
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 777,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199878",
+      "source": "Персональный что?",
+      "currentTarget": "คอมพิวเตอร์ส่วนตัวอะไรนะ?",
+      "reason": "The response asks “Personal what?” and withholds the noun компьютер; Thai supplies the full “personal computer,” removing the deliberate fragment/confusion.",
+      "proposal": "ส่วนตัวอะไรนะ?",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 782,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199873",
+      "source": "Персональный что?",
+      "currentTarget": "คอมพิวเตอร์ส่วนตัวอะไรนะ?",
+      "reason": "The response asks “Personal what?” and withholds the noun компьютер; Thai supplies the full “personal computer,” removing the deliberate fragment/confusion.",
+      "proposal": "ส่วนตัวอะไรนะ?",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1016,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313800",
+      "source": "Window: Вся в слезах, она пытается тащить его массивное тело подальше от выстрелов.",
+      "currentTarget": "Window: เธอร้องไห้ทั้งน้ำตา พยายามลากร่างใหญ่ของเขาออกห่างจากเสียงปืน",
+      "reason": "The woman drags her husband away from the gunfire, not merely away from the sound of gunshots; the target shifts the danger from bullets to sound.",
+      "proposal": "Window: เธอร้องไห้ทั้งน้ำตา พยายามลากร่างใหญ่ของเขาให้พ้นจากห่ากระสุน",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1069,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457664536580",
+      "source": "TV: Забаррикадируйте окна и заприте двери.",
+      "currentTarget": "TV: กั้นหน้าต่างให้แน่นและล็อกประตู",
+      "reason": "The emergency instruction is to barricade the windows. Thai only says to secure/close them tightly, omitting the protective barricade.",
+      "proposal": "TV: ใช้สิ่งของกั้นหน้าต่างและล็อกประตู",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1176,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593540",
+      "source": "TV: Доподлинно не известно о причинах диверсии, а также, имел ли стрелок сообщников.",
+      "currentTarget": "TV: ยังไม่ทราบแน่ชัดว่าเหตุโจมตีเกิดจากอะไร หรือมือปืนมีผู้สมรู้ร่วมคิดหรือไม่",
+      "reason": "Russian calls the event a диверсия (sabotage); Thai calls it a generic attack, losing the deliberate sabotage framing.",
+      "proposal": "TV: ยังไม่ทราบแน่ชัดว่าเหตุวินาศกรรมเกิดจากอะไร หรือมือปืนมีผู้สมรู้ร่วมคิดหรือไม่",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1212,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457610010631",
+      "source": "TV: В случае, если вы подозреваете, что контактировали с Гостем или сами можете им являться, просим вас звонить на горячую линию КЧС…",
+      "currentTarget": "TV: หากสงสัยว่าเคยสัมผัสกับแขกหรืออาจเป็นแขกเอง โปรดโทรสายด่วน คกฉ.…",
+      "reason": "Контактировали с Гостем means had contact with a Guest; Thai สัมผัส specifically says touched a Guest, narrowing the reported exposure condition.",
+      "proposal": "TV: หากสงสัยว่าเคยติดต่อกับแขกหรืออาจเป็นแขกเอง โปรดโทรสายด่วน คกฉ.…",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1250,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427716",
+      "source": "TV: Для этого используйте приглашение на посещение КЧС.",
+      "currentTarget": "TV: ให้ใช้หมายเรียกเข้าพบ คกฉ. เพื่อแจ้งเรื่องนี้",
+      "reason": "Приглашение is an invitation to visit the committee, while หมายเรียก is a compulsory summons; Thai also adds “to report this,” which the source does not say. Same issue at ordinal 1397.",
+      "proposal": "TV: ให้ใช้หนังสือเชิญไปพบ คกฉ.",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1397
+      ]
+    },
+    {
+      "ordinal": 1263,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233410",
+      "source": "TV: При этом, прежде чем совершить убийство, маньяк общается с жертвой, после чего нападает.",
+      "currentTarget": "TV: ก่อนลงมือฆ่า ชายคนนี้จะพูดคุยกับเหยื่อแล้วจึงจู่โจม",
+      "reason": "The source identifies the attacker as a маньяк (maniac/serial killer); Thai reduces him to “this man,” dropping the threatening descriptor.",
+      "proposal": "TV: ก่อนลงมือฆ่า ฆาตกรโรคจิตจะพูดคุยกับเหยื่อแล้วจึงจู่โจม",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1310,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261896",
+      "source": "Но, пожалуйста, не шлите ничего, кроме глаз, зубов и ногтей. Ничего другого мы не принимаем.",
+      "currentTarget": "แต่ขอร้อง ส่งมาเฉพาะรูปตา ฟัน และเล็บเท่านั้น อย่างอื่นเราไม่รับ",
+      "reason": "The source pointedly says to send nothing but eyes, teeth, and nails, while Thai inserts “photos of,” removing the morbid ambiguity of the radio line.",
+      "proposal": "แต่ขอร้อง ส่งมาเฉพาะตา ฟัน และเล็บเท่านั้น อย่างอื่นเราไม่รับ",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1397,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457542901762",
+      "source": "TV: Для этого используйте приглашение на посещение КЧС.",
+      "currentTarget": "TV: ให้ใช้หมายเรียกเข้าพบ คกฉ. เพื่อแจ้งเรื่องนี้",
+      "reason": "Same invitation-versus-compulsory-summons shift and added reporting purpose as ordinal 1250.",
+      "proposal": "TV: ให้ใช้หนังสือเชิญไปพบ คกฉ.",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1250
+      ]
+    },
+    {
+      "ordinal": 1421,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457534513152",
+      "source": "TV: При этом, прежде чем совершить убийство, маньяк общается с жертвой, после чего нападает.",
+      "currentTarget": "TV: ก่อนลงมือฆ่า ชายคนนี้จะพูดคุยกับเหยื่อแล้วจึงจู่โจม",
+      "reason": "Same scene and sentence as ordinal 1263: маньяк is a maniac/serial killer, but Thai calls him only “this man,” dropping the threatening descriptor.",
+      "proposal": "TV: ก่อนลงมือฆ่า ฆาตกรโรคจิตจะพูดคุยกับเหยื่อแล้วจึงจู่โจม",
+      "relatedOrdinals": [
+        1263
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1495,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958723",
+      "source": "FunnyGuy: Вот ты мне напоминаешь эти же самые банки. Да ёпта.",
+      "currentTarget": "FunnyGuy: นายทำให้ฉันนึกถึงธนาคารพวกนั้นเลย ให้ตายสิ",
+      "reason": "Да ёпта is a strong vulgar exclamation; ให้ตายสิ is a mild “damn,” softening this character’s coarse voice.",
+      "proposal": "FunnyGuy: นายทำให้ฉันนึกถึงธนาคารพวกนั้นเลย แม่งเอ๊ย",
+      "relatedOrdinals": [
+        260,
+        1528
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1522,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375810",
+      "source": "Leper: Тут уже есть {0}, а именно этот человек чмырил меня за внешность.",
+      "currentTarget": "Leper: ที่นี่มี {0} อยู่แล้ว คนคนนั้นเคยเหยียดฉันเพราะรูปร่าง",
+      "reason": "The Leper says the occupant bullied him for his overall appearance (внешность); รูปร่าง limits the cause to body shape and omits the visible condition of his appearance.",
+      "proposal": "Leper: ที่นี่มี {0} อยู่แล้ว คนคนนั้นเคยเหยียดฉันเพราะรูปลักษณ์",
+      "relatedOrdinals": [
+        1518
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1528,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181511",
+      "source": "Nervous: Знаю, звучит странно. Но мне похер.",
+      "currentTarget": "Nervous: รู้ว่ามันฟังแปลก แต่ฉันไม่สนหรอก",
+      "reason": "Мне похер is an explicit vulgar “I don’t give a fuck”; ฉันไม่สนหรอก is neutral “I don’t care,” removing the character’s coarse register.",
+      "proposal": "Nervous: รู้ว่ามันฟังแปลก แต่ฉันแม่งไม่สน",
+      "relatedOrdinals": [
+        1495,
+        260
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1652,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044166",
+      "source": "Ёбнулся, что ли?",
+      "currentTarget": "นายบ้าไปแล้วเหรอ?",
+      "reason": "Ёбнулся is vulgar “have you lost your fucking mind”; neutral นายบ้าไปแล้วเหรอ? removes the profanity. His next line at ordinal 1650 explicitly responds “stop swearing,” so this omission breaks the exchange.",
+      "proposal": "นายแม่งบ้าไปแล้วเหรอ?",
+      "relatedOrdinals": [
+        1650
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1723,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878337",
+      "source": "Nervous: Ёбнутым?",
+      "currentTarget": "Nervous: คนบ้างั้นเหรอ?",
+      "reason": "Ёбнутым is a coarse insult that Nervous echoes back; neutral คนบ้า drops the marked vulgar register.",
+      "proposal": "Nervous: เพี้ยนฉิบหายงั้นเหรอ?",
+      "relatedOrdinals": [
+        1652
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1738,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684035",
+      "source": "Nervous: Так что им просто насрать.",
+      "currentTarget": "Nervous: พวกเขาเลยไม่สนใจฉันสักนิด",
+      "reason": "Им просто насрать is “they don’t give a shit”; Thai is neutral and also adds “about me,” which is contextual but absent from the sentence.",
+      "proposal": "Nervous: พวกเขาเลยแม่งไม่แคร์อะไรเลย",
+      "relatedOrdinals": [
+        1528
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1780,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906824",
+      "source": "Bald: Впустишь перекантоваться? А то к какому другу ни зайду, либо его дома нет, либо выгнали к херам, либо ещё чего.",
+      "currentTarget": "Bald: ขอพักสักหน่อยได้ไหม? ไปหาเพื่อนคนไหนก็ไม่อยู่บ้าน ไม่ก็ถูกไล่ หรือมีเรื่องอื่นอีก",
+      "reason": "Выгнали к херам describes being kicked out in an explicitly coarse register; Thai neutral ถูกไล่ removes the outburst from Bald’s voice.",
+      "proposal": "Bald: ขอพักสักหน่อยได้ไหม? ไปหาเพื่อนคนไหนก็ไม่อยู่บ้าน ไม่ก็ถูกไล่ตะเพิดไปซะ หรือมีเรื่องอื่นอีก",
+      "relatedOrdinals": [
+        1495,
+        1528
+      ],
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1862,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740992",
+      "source": "Experienced: Адью, редиска.",
+      "currentTarget": "Experienced: ลาก่อน ไอ้หนู",
+      "reason": "Редиска is prison-flavored slang for a bad person/scoundrel; ไอ้หนู means “kid,” replacing the insult with a diminutive.",
+      "proposal": "Experienced: ลาก่อน ไอ้สารเลว",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 1888,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457354158090",
+      "source": "Experienced: Ходят в одних свитерах да куртках, и им вообще похер.",
+      "currentTarget": "Experienced: คนอื่นยังใส่เสื้อกันหนาวกับแจ็กเก็ตกันอยู่ ไม่สนใจอะไรเลย",
+      "reason": "Им вообще похер is overtly coarse “they don’t give a damn/fuck”; ไม่สนใจอะไรเลย is neutral and weakens Experienced’s street voice.",
+      "proposal": "Experienced: คนอื่นยังใส่เสื้อกันหนาวกับแจ็กเก็ตกันอยู่ แม่งไม่แคร์อะไรเลย",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1528,
+        1738
+      ]
+    },
+    {
+      "ordinal": 1918,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457345769476",
+      "source": "Rocker: А то во дворе сейчас такой пиздец, будто тучу людей забили в очень маленькое помещение для концерта и без грёбаного вентилятора!",
+      "currentTarget": "Rocker: ข้างนอกตอนนี้เละเทะเหมือนยัดคนทั้งฝูงไว้ในห้องคอนเสิร์ตเล็ก ๆ ที่ไม่มีพัดลมสักตัว!",
+      "reason": "The Rocker’s пиздец and грёбаного are forceful profanity; neutral เละเทะ and ไม่มีพัดลม remove the angry, coarse comparison.",
+      "proposal": "Rocker: ข้างนอกแม่งฉิบหาย เหมือนยัดคนทั้งฝูงไว้ในห้องคอนเสิร์ตเล็ก ๆ ที่ไม่มีพัดลมแม่งสักตัว!",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1495,
+        1528
+      ]
+    },
+    {
+      "ordinal": 1921,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457345769473",
+      "source": "Rocker: Чувак, открой. Солнце ебошит, как прожектор на репе, я так скоро ослепну, блин.",
+      "currentTarget": "Rocker: เพื่อน เปิดประตูหน่อย แดดสาดเหมือนไฟสปอตไลต์ตอนซ้อม อีกหน่อยตาฉันบอดแน่",
+      "reason": "Солнце ебошит is a forceful vulgar verb for sun beating down; แดดสาด is neutral, weakening the Rocker’s alarm and slang.",
+      "proposal": "Rocker: เพื่อน เปิดประตูหน่อย แดดแม่งแผดเหมือนไฟสปอตไลต์ตอนซ้อม อีกหน่อยตาฉันบอดแน่",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1918
+      ]
+    },
+    {
+      "ordinal": 1923,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457341575178",
+      "source": "Unstable: А потом сжигает к херам!",
+      "currentTarget": "Unstable: แล้วก็เผาพวกเขาทิ้งซะ!",
+      "reason": "Сжигает к херам uses an emphatic vulgar intensifier; Thai says only “burns them,” flattening the Unstable character’s register.",
+      "proposal": "Unstable: แล้วก็เผาพวกเขาจนฉิบหาย!",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1780
+      ]
+    },
+    {
+      "ordinal": 2072,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457291243526",
+      "source": "Ее тут нет. Пока",
+      "currentTarget": "เธอยังไม่อยู่ที่นี่",
+      "reason": "The choice ends with standalone Пока, meaning “bye”; Thai interprets it as “not here yet” and omits the dismissal. Same choice at ordinal 2078.",
+      "proposal": "เธอไม่ได้อยู่ที่นี่ ไปก่อนล่ะ",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        2078
+      ]
+    },
+    {
+      "ordinal": 2078,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457291243520",
+      "source": "Ее тут нет. Пока",
+      "currentTarget": "เธอยังไม่อยู่ที่นี่",
+      "reason": "Same standalone farewell Пока as ordinal 2072; Thai instead implies the daughter may arrive later.",
+      "proposal": "เธอไม่ได้อยู่ที่นี่ ไปก่อนล่ะ",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        2072
+      ]
+    },
+    {
+      "ordinal": 2135,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457270272000",
+      "source": "Courier: Эти вечные утренние осмотры с приставленными сотрудниками КЧС с автоматами…",
+      "currentTarget": "Courier: การตรวจทุกเช้าไม่รู้จบ แถมมีเจ้าหน้าที่ คกฉ. ถือปืนกลยืนคุม…",
+      "reason": "Автоматы are the KChS guards’ automatic rifles, elsewhere translated ปืนอัตโนมัติ; ปืนกล specifically says machine guns and changes the weapon type.",
+      "proposal": "Courier: การตรวจทุกเช้าไม่รู้จบ แถมมีเจ้าหน้าที่ คกฉ. ถือปืนอัตโนมัติยืนคุม…",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2286,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551754",
+      "source": "Wifefema: Давай по-простому: {0} — аванс тебе, а ты меня погреться пустишь, хех.",
+      "currentTarget": "Wifefema: เอาง่าย ๆ เลย: {0} เป็นเงินมัดจำให้แก ส่วนแกก็ให้ฉันเข้าไปอุ่นหน่อย ฮึ ๆ",
+      "reason": "Аванс is payment in advance; เงินมัดจำ is a deposit, which can be refundable. The bribe arrangement is changed.",
+      "proposal": "Wifefema: เอาง่าย ๆ เลย: {0} เป็นเงินจ่ายล่วงหน้าให้แก ส่วนแกก็ให้ฉันเข้าไปอุ่นหน่อย ฮึ ๆ",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2374,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457177997320",
+      "source": "Scammer: Ну ты и петушара. Ну, бля, ладно. Я сразу почуял, что мы с тобой кашу не сварим.",
+      "currentTarget": "Scammer: นายมันไก่อ่อนชะมัด เออ ช่างเถอะ ฉันรู้ตั้งแต่แรกว่าเราคงร่วมงานกันไม่ได้",
+      "reason": "Петушара is a severe prison-coded slur; ไก่อ่อน means a novice or weakling and greatly softens/recasts the insult. Thai also omits the following бля.",
+      "proposal": "Scammer: นายมันไอ้ตัวต่ำช้าชะมัด เออ แม่ง ช่างเถอะ ฉันรู้ตั้งแต่แรกว่าเราคงร่วมงานกันไม่ได้",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2405,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608705",
+      "source": "Hunter: Чувствую кровь на руках этого человека. Не знаю, зачем ты его впустил к себе. Может, тебе нравится щекотать себе нервы?..",
+      "currentTarget": "Hunter: ฉันได้กลิ่นเลือดติดมือหมอนั่น ไม่รู้ว่านายปล่อยให้เขาเข้ามาทำไม หรือชอบหาเรื่องตื่นเต้นใส่ตัว?..",
+      "reason": "Кровь на руках is blood-on-one’s-hands imagery about culpability; Thai adds ได้กลิ่น (“I smell”), converting it into literal smelling of blood.",
+      "proposal": "Hunter: ฉันรู้สึกได้ว่าหมอนั่นมือเปื้อนเลือด ไม่รู้ว่านายปล่อยให้เขาเข้ามาทำไม หรือชอบหาเรื่องตื่นเต้นใส่ตัว?..",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2536,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471361",
+      "source": "Nun: Моя смерть будет на вашей совести.",
+      "currentTarget": "Nun: ความตายของฉันจะติดอยู่ในใจคุณ",
+      "reason": "Моя смерть будет на вашей совести assigns moral responsibility for her death; ติดอยู่ในใจคุณ only says the death will remain in the listener’s mind, removing the accusation of guilt.",
+      "proposal": "Nun: ถ้าฉันตาย ความผิดนั้นจะติดอยู่ในมโนธรรมของคุณ",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2547,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277058",
+      "source": "Raskolnikov: Покажи мне, как ты убиваешь Гостей. Хочу посмотреть страху в глаза.",
+      "currentTarget": "Raskolnikov: สอนฉันหน่อยว่านายฆ่าแขกยังไง ฉันอยากเผชิญหน้ากับความกลัว",
+      "reason": "Покажи мне asks the host to show a Guest killing so Raskolnikov can watch; สอนฉัน asks to be taught how to kill, changing the requested action.",
+      "proposal": "Raskolnikov: ให้ฉันดูว่านายฆ่าแขกยังไง ฉันอยากเผชิญหน้ากับความกลัว",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2667,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334018",
+      "source": "Vigilante: Знаешь, был случай на окраине города. Семья в доме забаррикадировалась, отец ещё стоял, держал оборону.",
+      "currentTarget": "Vigilante: รู้ไหม เคยมีเรื่องที่ชานเมือง ครอบครัวหนึ่งขังตัวเองในบ้าน พ่อของบ้านยังยืนป้องกันอยู่",
+      "reason": "Забаррикадировалась means the family barricaded the house; ขังตัวเอง only says they shut themselves in, losing the protective barricade. Same emergency action issue at ordinal 1069.",
+      "proposal": "Vigilante: รู้ไหม เคยมีเรื่องที่ชานเมือง ครอบครัวหนึ่งเอาสิ่งของกั้นบ้านไว้ พ่อของบ้านยังยืนป้องกันอยู่",
+      "status": "proposed; not applied",
+      "relatedOrdinals": [
+        1069
+      ]
+    },
+    {
+      "ordinal": 2688,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457068945413",
+      "source": "Vigilante: Если б брат не был ёбаным слюнтяем, может, хоть жену с ребёнком уберёг бы. А так теперь хрен пойми, где его пиздючка шляется.",
+      "currentTarget": "Vigilante: ถ้าพี่ชายฉันไม่ขี้ขลาดนัก ก็คงปกป้องเมียกับลูกได้สักหน่อย ตอนนี้ไม่รู้ว่าลูกสาวตัวเล็กของเขาไปอยู่ไหน",
+      "reason": "Пиздючка is a contemptuous, vulgar reference to the brother’s daughter; ลูกสาวตัวเล็ก is affectionate/neutral and reverses Vigilante’s hostile characterization.",
+      "proposal": "Vigilante: ถ้าพี่ชายฉันไม่ขี้ขลาดนัก ก็คงปกป้องเมียกับลูกได้สักหน่อย ตอนนี้ไม่รู้ว่าไอ้เด็กเวรลูกสาวเขาไปอยู่ไหน",
+      "status": "proposed; not applied"
+    },
+    {
+      "ordinal": 2737,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168195",
+      "source": "Что ты делаешь, если проявляется только один или два признака?",
+      "currentTarget": "ถ้ามีแค่หนึ่งหรือสองสัญญาณ นายจะทำยังไง?",
+      "reason": "Признаки is the game’s recurring diagnostic “traits/signs,” consistently ลักษณะ in the Thai corpus; สัญญาณ means signals and breaks the established gameplay term in this choice.",
+      "proposal": "ถ้ามีลักษณะแค่หนึ่งหรือสองอย่าง นายจะทำยังไง?",
+      "status": "proposed; not applied"
+    }
+  ],
+  "correctionsApplied": 0,
+  "nextOrdinal": 2760,
+  "note": "Every UI source/target row was read once. Findings are held for one complete correction batch after the full semantic pass. This checkpoint is partial and cannot count as a clean audit.",
+  "previousProgressSha256": "51067ea1c3de8af1bdf56326a87d9802df8e3663fa206704a81f415f31e25f3e"
+}

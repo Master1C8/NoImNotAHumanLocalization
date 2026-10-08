@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "locale": "th",
+  "gameVersion": "1.3.19",
+  "status": "preliminary source-target read; scene-context and full editorial acceptance pending",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "40dc9558343489dc8f65d37e9759cdfe358f68b578d12586145d7f65589771d2",
+  "readRows": 321,
+  "batches": [
+    {
+      "path": "Translations/th/ui-batch-001.json",
+      "sha256": "ada496def09645079c86711866a44d179930917068cd1e6eee68bcaea870306f",
+      "collection": "UI",
+      "rowsRead": 35
+    },
+    {
+      "path": "Translations/th/ui-batch-002.json",
+      "sha256": "d6da9fdf4e2a5d36db2682144b86041b0b1f1095dfa3ef029561c928cfb4cd16",
+      "collection": "UI",
+      "rowsRead": 27
+    },
+    {
+      "path": "Translations/th/ui-batch-003.json",
+      "sha256": "9b1a04ac66ffd01012d9c64978c874afcf78f14132e5a8c0fc7f9c07944fa964",
+      "collection": "UI",
+      "rowsRead": 60
+    },
+    {
+      "path": "Translations/th/ui-batch-004.json",
+      "sha256": "bc3cd6acbbe60da67034c056c77fa93a871d9de8eef49640248a6d8178038e42",
+      "collection": "UI",
+      "rowsRead": 43
+    },
+    {
+      "path": "Translations/th/ui-batch-005.json",
+      "sha256": "b308c8ae955b9aecd10bee926f2b3e86d45960229a59f730b472ebbf6fc4d3b4",
+      "collection": "UI",
+      "rowsRead": 21
+    },
+    {
+      "path": "Translations/th/ui-batch-006.json",
+      "sha256": "0f2e7762d71d43d62984e8b2db554da75a01c36c5fb0c06de4064d3fe515d7e0",
+      "collection": "UI",
+      "rowsRead": 20
+    },
+    {
+      "path": "Translations/th/ui-batch-007.json",
+      "sha256": "6e485978e332e7956669bd11d8417b021393176c36497c4cf9c65f708744f712",
+      "collection": "UI",
+      "rowsRead": 18
+    },
+    {
+      "path": "Translations/th/ui-batch-008.json",
+      "sha256": "271220a1d32596a8b0a3ea48c78dfa70b08a42f5661a8ee1046d7a8d29cf1a00",
+      "collection": "UI",
+      "rowsRead": 35
+    },
+    {
+      "path": "Translations/th/dialogue-batch-001.json",
+      "sha256": "8865748fc0db5b9034f0e3b0f4439032451f21011aa9f9aaec9f699fef960063",
+      "collection": "Dialogs",
+      "rowsRead": 27
+    },
+    {
+      "path": "Translations/th/dialogue-batch-002.json",
+      "sha256": "853a5bcfbcc7fd728b278a6368584fb754472ad64e45565a46d7f9c952cd81ec",
+      "collection": "Dialogs",
+      "rowsRead": 35
+    }
+  ],
+  "openContextQuestions": [
+    {
+      "id": 104054046376660992,
+      "reason": "Thai approved glossary label names the sister pair although this Russian UI label says only smoking woman; verify reveal timing before any correction."
+    },
+    {
+      "id": 104055636873515008,
+      "reason": "Thai approved glossary label names the sister pair although this Russian UI label says only depressed woman; verify reveal timing."
+    },
+    {
+      "id": 119630550598148096,
+      "reason": "Thai approved glossary label specifies smoking twin while Russian phone label says husband of a twin; verify whether identity is known when the label appears."
+    }
+  ],
+  "acceptedCoverage": false,
+  "note": "This is a reusable preliminary checkpoint, not the complete semantic audit required by the workstation protocol.",
+  "proposedCorrections": [
+    {
+      "id": 110504456301387782,
+      "source": "Neighbour: Сестра сказала, что оставаться дома одному опасно.",
+      "currentTarget": "Neighbour: พี่น้องของฉันบอกว่าการอยู่บ้านคนเดียวอันตราย",
+      "proposedTarget": "Neighbour: ลูกพี่ลูกน้องผู้หญิงของฉันบอกว่าการอยู่บ้านคนเดียวอันตราย",
+      "reason": "In the same entrance exchange, Сестра refers back to двоюродная сестра; the draft loses both cousin relationship and female referent. Confirm branch topology before applying."
+    }
+  ]
+}

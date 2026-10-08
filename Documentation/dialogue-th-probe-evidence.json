@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "scope": "Owner-authorized isolated Thai dialogue feasibility probe; synthetic sample only",
+  "moduleSha256": "ff89d7ed545ec6a0d4268f67193e297890d5ffc2b50249c7d0e2e05f8d4a1f80",
+  "result": "incomplete; no Thai dialogue line or answer view observed; owner was using the copied game window during the probes",
+  "attempts": [
+    {
+      "run": "outputs/dialogue-th-v1",
+      "menuCaptured": true,
+      "newGameInputSent": true,
+      "introTapSpaceSent": true,
+      "introHoldSpaceSent": true,
+      "lastObservedState": "playable door scene; no dialogue line event",
+      "exit": "exact fixture window and process absent before next capture; owner later confirmed closing the copied window",
+      "capturedDialogueLineEvents": 0,
+      "artifacts": [
+        {
+          "path": "outputs/dialogue-th-v1/status.json",
+          "sha256": "9b27d28c9d8b4d79cf92744a3530d77ae7772a2882148e6c309e481069154a9e"
+        },
+        {
+          "path": "outputs/dialogue-th-v1/after-focus-wait/native.png",
+          "sha256": "f154424a6c7c490cf050b7e08cc6be93ce8ad652a7203cd14bcfa75c1796e66e"
+        },
+        {
+          "path": "outputs/dialogue-th-v1/after-focus-wait/nohuman-dialogue-evidence.jsonl",
+          "sha256": "65bc075dc7bc62aac5929c24ce3fb14e1ee1f13f0f2696e78d84274e66e2aa93"
+        },
+        {
+          "path": "outputs/dialogue-th-v1/manual-recovery.json",
+          "sha256": "8251d10a89742b1f8a0d2f01c5b6b0464d8274615219fe3fa3609ebbce7e9822"
+        }
+      ]
+    },
+    {
+      "run": "outputs/dialogue-th-v2",
+      "menuCaptured": true,
+      "newGameInputSent": false,
+      "lastObservedState": "Thai menu; guarded click rejected because the fixture process disappeared",
+      "exit": "no fixture window or process at reconciliation; owner later confirmed closing the copied window",
+      "capturedDialogueLineEvents": 0,
+      "artifacts": [
+        {
+          "path": "outputs/dialogue-th-v2/status.json",
+          "sha256": "16eb182941b42205894826c2f3bc0c7d3d85c462cd3710f062b9bdb3bbe43e5c"
+        },
+        {
+          "path": "outputs/dialogue-th-v2/menu/native.png",
+          "sha256": "95c34a4eb86b0b057279ac6cac9b4eb1fcd13cc4557df3b728ea12db60955af0"
+        },
+        {
+          "path": "outputs/dialogue-th-v2/new-game/action.json",
+          "sha256": "92f905d3fff0abd825efd3e1e0ea62b6b5534f1b4d349e94e4e91b3e25c99df7"
+        },
+        {
+          "path": "outputs/dialogue-th-v2/manual-recovery.json",
+          "sha256": "5a810031e067057fe040c6b13132db8073b1992e9794fb11567a6c8beeeac0cf"
+        }
+      ]
+    },
+    {
+      "run": "outputs/dialogue-th-v3",
+      "menuCaptured": true,
+      "newGameInputSent": true,
+      "lastObservedState": "Settings overlay; menu button border remained visible behind it, so the old guard accepted the wrong screen",
+      "capturedDialogueLineEvents": 0,
+      "artifacts": [
+        {"path": "outputs/dialogue-th-v3/status.json", "sha256": "9b27d28c9d8b4d79cf92744a3530d77ae7772a2882148e6c309e481069154a9e"},
+        {"path": "outputs/dialogue-th-v3/menu/native.png", "sha256": "f4b5a2ce4780cc17f2ae5aeb5bfe32335c932a5b439d9a31a85f31d6dbf0312f"},
+        {"path": "outputs/dialogue-th-v3/new-game/action.json", "sha256": "b41ab1b9e4f1be7a7c8bc9eff3bfffb13024913898b721cf1ed095509ff09be5"},
+        {"path": "outputs/dialogue-th-v3/finish/action.json", "sha256": "460a9fb53227cb277043f3a065fa7a1319b26f0fc31b63c3c5dc0cd7237abfaf"}
+      ]
+    },
+    {
+      "run": "outputs/dialogue-th-v4",
+      "menuCaptured": true,
+      "newGameInputSent": false,
+      "lastObservedState": "Settings overlay appeared after menu capture; corrected extra guard rejected the New Game click at normalized RMSE 0.40362 versus threshold 0.12",
+      "capturedDialogueLineEvents": 0,
+      "artifacts": [
+        {"path": "outputs/dialogue-th-v4/status.json", "sha256": "23f153f68008ab45504b827197ffda3e646c08189fcf02054d03293d0adcb2db"},
+        {"path": "outputs/dialogue-th-v4/menu/native.png", "sha256": "f39e7fbc455def3def6c465498f0c6d5e6c7f1563ed460e8bfbfd4c60ba4b14b"},
+        {"path": "outputs/dialogue-th-v4/new-game/action.json", "sha256": "729a7ee35b85460705e07bb6fa324e7a2da277bdbc8e663f9fc056744b0c39e3"},
+        {"path": "outputs/dialogue-th-v4/finish/action.json", "sha256": "46ea0e46655a6d0be5e3f2bee4a74d788f9109705677c45c09e392eb3677fc1b"}
+      ]
+    }
+  ],
+  "cleanup": {
+    "fixtureStopped": true,
+    "diagnosticConfigRemoved": true,
+    "preferencesRestoredExactSha256": "7a310b944db06c8a61c84502bd7d1fddf034366705a0d0f3ca40356a9380eaa6",
+    "copiedSaveArea": "Only Player.log and Player-prev.log changed; no saved-game file was observed."
+  },
+  "limitations": [
+    "No Thai dialogue text appeared; rendering, typewriter, options and next semantic state remain unverified.",
+    "The owner confirmed closing the copied window and using it during later probes; no renderer defect follows from these attempts.",
+    "The corrected screen guard was verified rejecting the Settings overlay, but it has not yet passed a complete gameplay probe."
+  ],
+  "nextAction": "Translate extracted game text first per current owner instruction. Resume runtime testing after translation, when the copied fixture is free."
+}

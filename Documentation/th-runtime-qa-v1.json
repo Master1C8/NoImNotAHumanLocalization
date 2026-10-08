@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "scope": "Thai text only; textures and images excluded",
+  "build": {
+    "report": "outputs/th-text-draft-v6/report.json",
+    "sha256": "61e8fbdcf050c8a5aa47a2f58639f6118c0e2e6e78118e18f0925f1b9cdd45c3",
+    "verification": "outputs/th-text-draft-v6/verification.json",
+    "verificationSha256": "d454146c71a62082a193a4436ea21e390b654c07c43bb0aefe0b70c021dc384e",
+    "installReceipt": "outputs/th-text-install-v3/receipt.json",
+    "installReceiptSha256": "ebd170688d549eeb49747a27f753c8a50a9289dbbc278c0ab4478a09a75a3bfc"
+  },
+  "runtime": {
+    "status": "partially passed",
+    "translatedDialogueLineEvents": 13,
+    "firstLineId": "line:entrance_neighbour_0_054308e",
+    "answerPanelInitialText": " ตัวเลือก",
+    "typewriterEnabledOnObservedLines": true,
+    "missingChakraPetchGlyphWarnings": 0,
+    "resourceFailures": {
+      "CRC Mismatch": 0,
+      "Unable to load asset": 0,
+      "No translation found": 0,
+      "KeyNotFoundException": 0
+    },
+    "evidenceLog": "outputs/dialogue-th-v7/finish/nohuman-dialogue-evidence.jsonl",
+    "evidenceLogSha256": "f4ce12822882d109826318d3ebfdc7e049e02efc0ee588533201a5cb854a1858",
+    "playerLogSha256": "8f2c71272279401dc3c2949c940bd2c0923db9ea21018d79b8b0b0f943cfd7dc"
+  },
+  "visual": {
+    "status": "reviewed for menu, settings and observed dialogue only",
+    "screenshots": {
+      "menu": {
+        "path": "outputs/th-settings-v1/th/menu/native.png",
+        "sha256": "b62900ac8eb4eb5b139ebee8ccd3f4f14f6eb40a4e833d20af7aaf013f398f57"
+      },
+      "settings": {
+        "path": "outputs/th-settings-v1/th/settings/native.png",
+        "sha256": "dff44b73790fae5a365775fec19c94648f620a301215e75ea8731bcbc45e4112"
+      },
+      "dialogue": {
+        "path": "outputs/dialogue-th-v7/corrected-dialogue/native.png",
+        "sha256": "fff731abbf33ba523d2354178d7ecfe8d7cddcfd574692a4ccc64554b9dd2cac"
+      }
+    },
+    "finding": "Thai text was readable in the captured menu, settings and dialogue frame; the sampled dialogue frame had no visible missing-glyph boxes."
+  },
+  "cleanup": {
+    "dialogueFixtureStopped": true,
+    "dialoguePreferencesRestored": true,
+    "settingsFixtureStopped": true,
+    "settingsPreferencesRestored": true
+  },
+  "pending": [
+    "Dense gameplay UI beyond Settings",
+    "Dynamic substitutions",
+    "Other dialogue branches and next semantic state",
+    "Full font style and layout acceptance",
+    "Release packaging and installation QA"
+  ],
+  "recordedAt": "2026-10-08T21:27:34.137006+00:00"
+}

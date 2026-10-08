@@ -28,6 +28,17 @@ def state(helper):
     return json.loads(subprocess.check_output([str(helper)],text=True))
 
 
+def require_fixture_stopped(helper):
+    info=state(helper)
+    require(not info['applications'] and not info['windows'],
+            'Fixture is already in use; preserve it')
+    processes=subprocess.run(['ps','-axo','pid,command'],check=True,text=True,
+                             stdout=subprocess.PIPE).stdout.splitlines()
+    require(not any(str(FIXTURE) in line or 'NoImNotAHuman.exe' in line or
+                    'wineserver' in line for line in processes),
+            'Game or Wine process is running; preserve it')
+
+
 def stop_fixture(helper,receipt):
     info=state(helper);owned=[]
     for app in info['applications']:
@@ -71,14 +82,19 @@ def wait_menu(helper,reference,output):
                 continue
             frame=output/'latest.png'
             subprocess.run(['/usr/sbin/screencapture','-x','-o','-l',str(window['kCGWindowNumber']),str(frame)],check=True)
-            # Menu-specific button border, unaffected by changing sample or font.
-            geometry='[320x18+1280+1574]'
-            result=subprocess.run([str(run_capture.MAGICK),'compare','-metric','RMSE',str(reference)+geometry,
-                                   str(frame)+geometry,'null:'],text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-            metric=float(result.stderr.split('(')[1].split(')')[0]) if result.returncode in [0,1] else None
-            attempts.append({'window':window['kCGWindowNumber'],'normalizedBorderRmse':metric})
+            # A menu button remains visible behind Settings. Require the unobscured
+            # left-side menu artwork too, before declaring the screen ready.
+            regions={'buttonBorder':('[320x18+1280+1574]',.06),
+                     'unobscuredMenu':('[500x450+0+100]',.12)}
+            metrics={}
+            for name,(geometry,_) in regions.items():
+                result=subprocess.run([str(run_capture.MAGICK),'compare','-metric','RMSE',
+                                       str(reference)+geometry,str(frame)+geometry,'null:'],
+                                      text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                metrics[name]=float(result.stderr.split('(')[1].split(')')[0]) if result.returncode in [0,1] else None
+            attempts.append({'window':window['kCGWindowNumber'],'normalizedRmse':metrics})
             (output/'readiness.json').write_text(json.dumps({'attempts':attempts,'passed':False},indent=2)+'\n')
-            if metric is not None and metric<.06:
+            if all(metrics[name] is not None and metrics[name]<limit for name,(_,limit) in regions.items()):
                 (output/'readiness.json').write_text(json.dumps({'attempts':attempts,'passed':True},indent=2)+'\n')
                 return
         time.sleep(1)
@@ -110,7 +126,8 @@ def run(codes,reference,output,resume_case=None):
         (output/'resume.json').write_text(json.dumps({'case':str(resume_case.relative_to(ROOT)),
             'state':state(helper),'launchRepeated':False,'savedLocaleRewritten':False},indent=2)+'\n')
     else:
-        stop_fixture(helper,output/'initial-stop.json')
+        require_fixture_stopped(helper)
+        (output/'initial-state.json').write_text(json.dumps(state(helper),indent=2)+'\n')
     rows=[]
     for index,code in enumerate(codes):
         step=output/code;step.mkdir()

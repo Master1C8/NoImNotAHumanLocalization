@@ -4,7 +4,7 @@ import argparse,copy,json,re,shutil,subprocess,sys,time
 from pathlib import Path
 from probe_assets import ROOT,require,digest
 from fixture_preferences import FIXTURE,PREFERENCES,read_settings,replace_language
-from run_saved_locale_probe import stop_fixture,wait_menu,run_capture,guarded_click
+from run_saved_locale_probe import state,wait_menu,run_capture,guarded_click
 
 GAME=FIXTURE/'Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human'
 CONFIG=GAME/'BepInEx/config/nohuman-dialogue-probe.json'
@@ -33,7 +33,15 @@ def run(locale,sample,output):
     helper=output/'window-info'
     subprocess.run(['/usr/bin/xcrun','swiftc','-module-cache-path','/private/tmp/no-human-swift-cache',
                     str(run_capture.SCRIPT/'window_info.swift'),'-o',str(helper)],check=True)
-    stop_fixture(helper,output/'initial-stop.json')
+    info=state(helper)
+    require(not info['applications'] and not info['windows'],
+            'The copied game is in use; preserve its window and preferences')
+    processes=subprocess.run(['ps','-axo','pid,command'],check=True,text=True,
+                             stdout=subprocess.PIPE).stdout.splitlines()
+    require(not any(str(FIXTURE) in line or 'NoImNotAHuman.exe' in line or
+                    'wineserver' in line for line in processes),
+            'Game or Wine is running; preserve the fixture')
+    (output/'initial-state.json').write_text(json.dumps(info,indent=2)+'\n')
     require(not CONFIG.exists(),'Existing probe config requires reconciliation')
     shutil.copy2(PREFERENCES,output/'before-user.reg')
     shutil.copytree(SAVE,output/'before-save-directory')
@@ -52,7 +60,9 @@ def run(locale,sample,output):
     record();subprocess.run(['/usr/bin/open',str(FIXTURE)],check=True)
     wait_menu(helper,ROOT/'outputs/renderer-final-runtime/ru/menu/native.png',output/'readiness')
     run_capture.run(output/'menu',None)
-    guarded_click.run(output/'menu/native.png',[580,1580,324,100],[372,818],output/'new-game')
+    guarded_click.run(output/'menu/native.png',[580,1580,324,100],[372,818],output/'new-game',
+                      extra_guards=[(ROOT/'outputs/renderer-final-runtime/ru/menu/native.png',
+                                     [0,100,500,450],.12)])
     time.sleep(2)
     run_capture.run(output/'after-new-game',None)
     receipt['phase']='new-game-input-sent; next-frame-review-required';record()

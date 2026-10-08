@@ -10,7 +10,7 @@ import time
 from run_capture import ROOT, SCRIPT, MAGICK, sha
 
 
-def run(reference, region, point, output):
+def run(reference, region, point, output, extra_guards=()):
     if not reference.is_file() or not output.is_relative_to(ROOT/'outputs'):
         raise ValueError('Missing reference or noncanonical output')
     output.mkdir(parents=True,exist_ok=False)
@@ -27,16 +27,24 @@ def run(reference, region, point, output):
     win=windows[0];pid=str(win['kCGWindowOwnerPID']);window=str(win['kCGWindowNumber'])
     frame=output/'before.png'
     subprocess.run(['/usr/sbin/screencapture','-x','-o','-l',window,str(frame)],check=True)
-    geometry=f'[{region[2]}x{region[3]}+{region[0]}+{region[1]}]'
-    compared=subprocess.run([str(MAGICK),'compare','-metric','RMSE',str(reference)+geometry,
-                            str(frame)+geometry,'null:'],text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
-    metric=float(compared.stderr.split('(')[1].split(')')[0]) if compared.returncode in [0,1] else None
+    def compare(source, area):
+        geometry=f'[{area[2]}x{area[3]}+{area[0]}+{area[1]}]'
+        result=subprocess.run([str(MAGICK),'compare','-metric','RMSE',str(source)+geometry,
+                               str(frame)+geometry,'null:'],text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+        return float(result.stderr.split('(')[1].split(')')[0]) if result.returncode in [0,1] else None
+    metric=compare(reference,region)
+    extra_results=[{'reference':str(source.relative_to(ROOT)),'region':area,
+                    'threshold':limit,'normalizedRmse':compare(source,area)}
+                   for source,area,limit in extra_guards]
     receipt={'reference':str(reference.relative_to(ROOT)),'referenceSha256':sha(reference),
-             'region':region,'normalizedRmse':metric,'point':point,'window':win,'inputSent':False,
+             'region':region,'normalizedRmse':metric,'extraGuards':extra_results,
+             'point':point,'window':win,'inputSent':False,
              'workerHashes':{p.name:sha(p) for p in worker.iterdir() if p.is_file()}}
     def record(): (output/'action.json').write_text(json.dumps(receipt,indent=2)+'\n')
     record()
-    if metric is None or metric>.06:
+    if metric is None or metric>.06 or any(result['normalizedRmse'] is None or
+                                           result['normalizedRmse']>=result['threshold']
+                                           for result in extra_results):
         raise ValueError('Expected UI region changed; no input sent')
     subprocess.run([str(worker/'target-input'),'focus',pid,window],check=True)
     time.sleep(.2)
