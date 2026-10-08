@@ -132,9 +132,14 @@ def main():
             "historicalArtifactContext": "Original author statuses and history are preserved. Author-relative paths resolve within artifacts/<locale>/. Independent final receipt and its immutable snapshots resolve within independent/<locale>/; historical game-checkout links retain their original provenance.",
             "unresolvedFindings": [], "rendererReadiness": "unverified; standalone glossary scope",
             "gameTextTranslation": "not started", "publication": "not authorized",
-            "model": "gpt-6.1-sol", "reasoningEffort": "high",
+            "model": item.get("model", "gpt-6.1-sol"),
+            "reasoningEffort": item.get("reasoningEffort", "high"),
             "tokenAccounting": "Measured group usage is recorded separately; do not multiply assignment totals by locale count."
         }
+        for field in ("consecutiveCleanFullAudits", "selfAudits", "independentFinalColdAudits",
+                      "independentFullAudits", "independentReviewers"):
+            if field in item.get("auditSummary", {}):
+                record[field] = item["auditSummary"][field]
         save(reviews / f"{code}.json", record)
     if args.complete:
         save(BASE / "glossary-translations.json", {code: prepared[code] for code in locales})

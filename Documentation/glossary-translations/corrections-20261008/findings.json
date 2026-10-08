@@ -1,0 +1,55 @@
+{
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "preCorrectionExportRawSha256": "cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904",
+  "confirmedFindings": [
+    {
+      "findingId": "CS-001",
+      "locale": "cs",
+      "entryId": "radio-human-verification-ad",
+      "field": "meaning",
+      "severity": "medium",
+      "sourceQuote": "предлагает прислать фотографии глаз, зубов и ногтей для определения статуса человека",
+      "targetQuote": "nabízí zaslání fotografií očí, zubů a nehtů k určení lidského statusu",
+      "explanation": "The radio service invites listeners to submit their photographs. Czech nabízí zaslání presents sending photographs as a service offered by the speaker, leaving the sender/receiver relationship wrong or materially unclear. The game directly says that listeners send their photographs and the service evaluates them.",
+      "proposedReplacement": "vyzývá posluchače k zaslání fotografií očí, zubů a nehtů, aby bylo možné určit, zda jsou lidmi",
+      "primaryEvidence": [
+        {
+          "path": "/Users/antonkrutov/Desktop/no I'm not a human/Source/glossary-corpus-v1/current-dialogs.jsonl",
+          "key": "line:radio_2_09c9a83",
+          "text": "Цель проста: вы присылаете ваши фотографии, а мы смотрим, кто же вы на самом деле."
+        }
+      ]
+    },
+    {
+      "findingId": "HU-001",
+      "locale": "hu",
+      "entryId": "naked-fat-man",
+      "field": "meaning",
+      "severity": "low",
+      "sourceQuote": "Различать Fatman, злого толстяка Anger и голого мужчину Experienced.",
+      "targetQuote": "Különítsük el Fatman, a dühös kövér Anger és a meztelen férfi Experienced szereplőit.",
+      "explanation": "The sentence uses the possessive plural szereplőit (their characters) after the names rather than distinguishing the three named characters themselves. The coordinated names also lack the case marking required for the intended direct-object construction.",
+      "proposedReplacement": "Ne keverjük össze Fatmant Angerrel, a dühös kövér férfival vagy Experienceddel, a meztelen férfival."
+    }
+  ],
+  "optionalObservations": [
+    {
+      "locale": "cs",
+      "entryId": "vigilante",
+      "targetQuote": "sám kontroluje hrdinu na známky Hosta",
+      "suggestion": "sám kontroluje, zda hrdina nevykazuje známky Hosta",
+      "decision": "Optional native fluency improvement only; source meaning remains understandable. Not counted as a confirmed defect."
+    },
+    {
+      "locale": "nl",
+      "entryId": "visitor-spirit",
+      "sourceQuote": "может вселиться в человека",
+      "targetQuote": "een mens kan bezitten",
+      "suggestion": "bezit kan nemen van een mens",
+      "decision": "Optional clarity improvement only. Initial ownership-based mistranslation suspicion withdrawn: spiritual possession is an established sense of bezeten. Insufficient evidence that the active construction changes the intended meaning. Not counted as a confirmed defect."
+    }
+  ],
+  "scope": "Only the two confirmed findings are corrected; optional observations are not defects. Original read-only audit covered all 14 locales.",
+  "priorGameCommit": "a936c8418f311f91efd9ee7a59a5db46bbfaaeb8",
+  "priorMasterCommit": "2072c3ad1849e963fbcd86518d1a16f9c445eaa9"
+}

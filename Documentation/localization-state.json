@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T04:25:04.467777+00:00",
+  "updatedAt": "2026-10-08T04:47:09.891369+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -27,7 +27,7 @@
     "he"
   ],
   "massWorkAuthorizedByGate": false,
-  "summary": "Requested standalone glossary translation complete:14 target locales,201 entries each,2814 translated term/meaning pairs. All final layers have two clean full self-audits and a clean independent final cold review, structural validation and canonical integration. Protected Russian source unchanged. No game-text translation, renderer acceptance, publication or deployment is credited.",
+  "summary": "All 14 standalone glossary layers are complete and canonically integrated. Czech photo-submission and Hungarian character-list corrections passed two new independent full audits each. The initial release is published; these two local corrections have not been republished. Source and renderer readiness are unchanged.",
   "processReferences": [
     {
       "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
@@ -2183,7 +2183,7 @@
     "installationFailureBoundary": "Real-file mixed state and backups verified after injected second-copy failure; process inventory replaced, Wine ownership not established by this test.",
     "rendererEvidence": "Documentation/runtime-renderer-evidence.json"
   },
-  "nextAction": "Requested standalone glossary scope complete. Further game-text translation requires the shared source inventory and full renderer-readiness gate; publication remains separately unauthorized.",
+  "nextAction": "Czech and Hungarian corrections require separate publication authorization. Further game-text translation requires shared source inventory and full renderer-readiness gate.",
   "toolFingerprints": {
     "Scripts/build_locale_probe.py": "0dfc5cba62bdb5a4a306cde4b9407eb45332ca517ad60274ea55490ace50aeba",
     "Scripts/probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
@@ -2323,21 +2323,21 @@
       "sw",
       "he"
     ],
-    "publication": "published-verified-production",
+    "publication": "initial release published; local cs/hu corrections not published",
     "rendererReadiness": "unverified; standalone glossary scope",
-    "reviewGate": "Each final unchanged locale: two consecutive clean full201 source-fidelity/native self-audits and one clean full201 independent cold final review; corrections reset the count.",
-    "canonicalExportRawSha256": "cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904",
+    "reviewGate": "Unchanged 12 locales retain accepted reviews; cs/hu each have two clean complete post-correction independent audits by one reviewer. Counts and evidence pinned in acceptance-manifest.json.",
+    "canonicalExportRawSha256": "30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a",
     "structuralValidation": "Passed final canonical CLI glossary check: all14 complete201-entry layers; source parsed fingerprint unchanged.",
     "focusedTests": {
       "passed": 39,
       "failed": 0,
-      "artifactScope": "Canonical export raw SHA256 cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904; loader/schema/publication guard regressions, not semantic or runtime proof."
+      "artifactScope": "Canonical export raw SHA256 30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a; 39 focused loader/schema/publication-guard tests passed; no production database or rendered game verification."
     },
     "canonicalProgressCommit": "88dad01836e4d70bb1f11fbad90466a839b4a9ad",
     "parallelAuthorization": "Owner: remaining locales in parallel, 2026-10-08",
     "activeAssignments": [],
     "integrationCoordinator": "/root",
-    "nextAction": "Requested standalone glossary scope complete. Further game-text translation requires the shared source inventory and full renderer-readiness gate; publication remains separately unauthorized.",
+    "nextAction": "Czech and Hungarian corrections require separate publication authorization. Further game-text translation requires shared source inventory and full renderer-readiness gate.",
     "editorialAcceptedLocales": [
       "th",
       "id",
@@ -2376,6 +2376,12 @@
     "publicationEvidence": "Documentation/glossary-translations/publication/2026-10-08/receipt.json",
     "publicationSourceRevision": "88dad01836e4d70bb1f11fbad90466a839b4a9ad",
     "publicationVerification": "Complete production database stable-ID set and every translated term/meaning matched the accepted locale through the canonical CLI current result; public-page rendering not checked.",
-    "publicationEvidenceMasterCommit": "2072c3ad1849e963fbcd86518d1a16f9c445eaa9"
+    "publicationEvidenceMasterCommit": "2072c3ad1849e963fbcd86518d1a16f9c445eaa9",
+    "publicationPendingLocales": [
+      "cs",
+      "hu"
+    ],
+    "lastPublishedExportRawSha256": "cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904",
+    "correctionEvidence": "Documentation/glossary-translations/corrections-20261008/changes.json"
   }
 }

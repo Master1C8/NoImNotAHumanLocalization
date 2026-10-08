@@ -7,11 +7,13 @@ The current scope is standalone glossary translation into the 14 target locales.
 The approved Russian source glossary has 201 entries. All 14 target locales are
 complete: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi,
 Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew. Each final layer passed
-two consecutive full clean self-audits and a clean independent final review.
+at least two consecutive full clean editorial audits, including independent review.
 The 2,814 translated term/meaning pairs are synchronized with SiteForMods and
 passed canonical structural validation and 39 focused tests. All 14 glossary layers
-were published to the production site database on October 8, 2026 (Vietnam time).
-Every stored term and meaning was verified against the accepted layer through the
+were initially published to the production site database on October 8, 2026 (Vietnam time).
+The subsequent Czech photo-submission and Hungarian character-list corrections
+are saved locally and require separately authorized publication.
+Every initially stored term and meaning was verified against that accepted layer through the
 canonical CLI; see the [publication receipt](Documentation/glossary-translations/publication/2026-10-08/receipt.json).
 Public-page rendering was not checked. Rendering feasibility
 remains a separate incomplete gate. No game-text
@@ -320,6 +322,12 @@ coordinator separately integrates the byte-identical export and review packages
 into SiteForMods. Per-file replacements are not a transaction across the two
 repositories; compare both delivered exports and committed trees before crediting
 integration. This workflow does not publish glossary content.
+For corrected layers, record actual reviewer counts and models in the acceptance
+manifest; the packager preserves those values rather than reusing historical
+authoring metadata. Regression: two full rereads by one independent reviewer
+count as two audits by one reviewer, not two self-audits or two reviewers.
+Photo-submission wording must preserve who sends and who evaluates the pictures;
+character lists must distinguish the named people rather than their possessions.
 Evidence snapshots may be read-only. The packaging copier reuses identical bytes
 and replaces changed destinations through a verified temporary file, preserving
 the source snapshot's permissions. Opening an existing read-only snapshot for

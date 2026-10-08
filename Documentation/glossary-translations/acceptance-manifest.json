@@ -70,23 +70,32 @@
       "coordinatorAcceptance": "Two clean full final-content self-audits and clean final independent full201 source-fidelity/native review; evidence manually reviewed by root before this record."
     },
     "cs": {
-      "layerRawSha256": "a4b35e541491c8fb9489a9ae4f486875890a99b698914d8b9c451c229c8f4386",
-      "authoredRawSha256": "e4ad5b6f3823c132a3eab47fd141aa5a87d2450ee3f66c1651e307e20e032d72",
-      "selfAuditEvidence": [
-        "cs/review.json"
-      ],
-      "independentReceipt": "independent-reviews/cs/review-v1.json",
+      "layerRawSha256": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+      "authoredRawSha256": "4447a82c7634fe3eca68d0d742b31d90cfd3e028a5e189b1bca63314a17f324c",
+      "selfAuditEvidence": [],
+      "independentReceipt": "independent-reviews/corrections-20261008/cs.receipt.json",
       "independentArtifacts": [
-        "independent-reviews/cs/review-v1.json",
-        "independent-reviews/cs/reviewed-layer-v1.json"
+        "independent-reviews/corrections-20261008/cs.receipt.json",
+        "independent-reviews/corrections-20261008/cs.layer.frozen.json",
+        "independent-reviews/corrections-20261008/source.frozen.json"
       ],
       "evidenceSha256": {
-        "cs/review.json": "8ad9ce3f067f645b5b367c5f24b646d454514c9c27bf42e88bed84483fe70e88",
-        "independent-reviews/cs/review-v1.json": "6992d248466d57c0d99a876689756c19bf57d6b2d58df9f6f6639ce8f0c097bf",
-        "independent-reviews/cs/reviewed-layer-v1.json": "a4b35e541491c8fb9489a9ae4f486875890a99b698914d8b9c451c229c8f4386"
+        "cs/review.json": "13fa919d9c75e93e58a6d6c32a8a236fcdee599717106eda78bd814eaa8ca26b",
+        "independent-reviews/corrections-20261008/cs.receipt.json": "2e2c13946f01b55864ca91d3763327dbcfb61a7d3c2f8462d9a7d5d354949dbd",
+        "independent-reviews/corrections-20261008/cs.layer.frozen.json": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+        "independent-reviews/corrections-20261008/source.frozen.json": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
       },
-      "reuseCanonicalPackage": true,
-      "coordinatorAcceptance": "Two clean full final-content self-audits and clean final independent full201 source-fidelity/native review; evidence manually reviewed by root before this record."
+      "reuseCanonicalPackage": false,
+      "coordinatorAcceptance": "Root reviewed the exact correction and the final pinned independent receipts: two clean all201 fidelity/native audits by one non-author reviewer; prior content audits not counted.",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "auditSummary": {
+        "consecutiveCleanFullAudits": 2,
+        "selfAudits": 0,
+        "independentFinalColdAudits": 0,
+        "independentFullAudits": 2,
+        "independentReviewers": 1
+      }
     },
     "bg": {
       "layerRawSha256": "28d7eb651d95b56a72a5a4acefcba5f434dcbe6925a2233126655e13b0e01cab",
@@ -183,28 +192,32 @@
       "coordinatorAcceptance": "Two clean final-content full201 self-audits in author review and clean full201 fresh independent source-fidelity plus separate native reread; root reviewed frozen hashes and coverage."
     },
     "hu": {
-      "layerRawSha256": "2df27c6d77ab5bb432f0052febd7574e8e4a9fb5768f6a52393c84aa6e94188b",
-      "authoredRawSha256": "0f31527ae19c5e2a289f39905457e8e9c19ef656cc665dfd9573dbce7c6608ce",
-      "selfAuditEvidence": [
-        "hu/history/clean-audit-v6-1.json",
-        "hu/history/clean-audit-v6-2.json"
-      ],
-      "independentReceipt": "independent-reviews/final-cold-hu-nl-el/hu-receipt.json",
+      "layerRawSha256": "8386700825df9e4bdf0b57482c1971b93cf495d18ce1232c2b5a3e281a186cea",
+      "authoredRawSha256": "5494c83ad0278a0008b7c363770fe6b3266aa47b7e3b7fb8d0183d255398d1ad",
+      "selfAuditEvidence": [],
+      "independentReceipt": "independent-reviews/corrections-20261008/hu.receipt.json",
       "independentArtifacts": [
-        "independent-reviews/final-cold-hu-nl-el/hu-receipt.json",
-        "independent-reviews/final-cold-hu-nl-el/hu.json",
-        "independent-reviews/final-cold-hu-nl-el/ru.json",
-        "independent-reviews/final-cold-hu-nl-el/hu-ordered-coverage.tsv"
+        "independent-reviews/corrections-20261008/hu.receipt.json",
+        "independent-reviews/corrections-20261008/hu.layer.frozen.json",
+        "independent-reviews/corrections-20261008/source.frozen.json"
       ],
       "evidenceSha256": {
-        "hu/history/clean-audit-v6-1.json": "3a663ae6de9f0e53a80255b49060674f815214fb572a9c0a5c603b4b06be3289",
-        "hu/history/clean-audit-v6-2.json": "6effdd5554d1fb40d6b85cd8583e8a6da93dee087f7044dd3f9f3c23ac348fb3",
-        "independent-reviews/final-cold-hu-nl-el/hu-receipt.json": "9a58125ae3a1d292af4f1c7fd76afb3f4d32d58aaba3bb8090695edbca279989",
-        "independent-reviews/final-cold-hu-nl-el/hu.json": "2df27c6d77ab5bb432f0052febd7574e8e4a9fb5768f6a52393c84aa6e94188b",
-        "independent-reviews/final-cold-hu-nl-el/ru.json": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
-        "independent-reviews/final-cold-hu-nl-el/hu-ordered-coverage.tsv": "d24a19b2dd5398c120b7c1c7501cc8caabf29b57946648fdb3a792fb0f095684"
+        "hu/review.json": "5b0f44ab04ba363299d443caa5780bbff9e8f30db6769647ff94156ff994187f",
+        "independent-reviews/corrections-20261008/hu.receipt.json": "ef6bde1636f9c59d848308b67355370c28b566d1ee8c4fae1860fc9659b706ae",
+        "independent-reviews/corrections-20261008/hu.layer.frozen.json": "8386700825df9e4bdf0b57482c1971b93cf495d18ce1232c2b5a3e281a186cea",
+        "independent-reviews/corrections-20261008/source.frozen.json": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
       },
-      "coordinatorAcceptance": "Two unchanged-final-content full201 clean paired self-audits and one fresh cold full201 source comparison plus separate native reread, reviewed by root."
+      "coordinatorAcceptance": "Root reviewed the exact correction and the final pinned independent receipts: two clean all201 fidelity/native audits by one non-author reviewer; prior content audits not counted.",
+      "reuseCanonicalPackage": false,
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "auditSummary": {
+        "consecutiveCleanFullAudits": 2,
+        "selfAudits": 0,
+        "independentFinalColdAudits": 0,
+        "independentFullAudits": 2,
+        "independentReviewers": 1
+      }
     },
     "fil": {
       "layerRawSha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54",

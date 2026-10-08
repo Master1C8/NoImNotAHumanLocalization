@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-07T23:14:09.739103+00:00",
+  "verifiedAt": "2026-10-08T04:47:09.891369+00:00",
   "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
   "sourceParsedFingerprint": "6e7a12351616437fa009e9c4154f2f17d3aff878f5d4852fd9a5441f9496a5b9",
-  "canonicalExportRawSha256": "cbd15224baef7b6e0f1eb8ab6f92332b4babdc1bfc0ba9fe2a9685cfb45eb904",
+  "canonicalExportRawSha256": "30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a",
   "localeCount": 14,
   "entriesPerLocale": 201,
   "translatedTermMeaningPairs": 2814,
   "orderedIdsAndAuthoredLayerExportParity": "passed",
   "gameMasterExportAndReviewPackageByteParity": "passed",
-  "resolvingReviewPointers": 76,
+  "resolvingReviewPointers": 74,
   "canonicalCliCheck": {
     "command": "./vnrevival glossary check",
     "exitCode": 0,
@@ -23,8 +23,25 @@
     "skipped": 0,
     "boundary": "Canonical loaders,schemas,pagination and publication guards. Production interfaces replaced by test doubles/static checks; no database or production changes. These tests do not establish translation semantics or rendered game behavior."
   },
-  "editorialBoundary": "Each final locale has two clean complete self-audits and clean independent full201 source/native review. Editorial evidence is manually/model reviewed, not awarded by this structural report.",
+  "editorialBoundary": "Unchanged 12 locales retain prior accepted full reviews. Corrected cs and hu each passed two new complete source-fidelity/native audits by one independent non-author reviewer; 0 new self-audits. Actual IDs/fields and pins are in corrections-20261008 receipts.",
   "gameTextTranslation": "not started",
   "runtimeRendering": "unverified",
-  "publication": "not performed"
+  "publication": "Initial release remains published; current cs/hu corrections not published.",
+  "correctionValidation": {
+    "changedFields": [
+      [
+        "cs",
+        "radio-human-verification-ad",
+        "meaning"
+      ],
+      [
+        "hu",
+        "naked-fat-man",
+        "meaning"
+      ]
+    ],
+    "allOtherFieldsUnchanged": true,
+    "packageReviewMetadataOverride": "passed: cs/hu report two independent audits, zero self-audits, one reviewer, actual model",
+    "crossRepositoryBoundary": "Per-file atomic replacements, not a transaction; completed exports and review files compared after both writes."
+  }
 }
