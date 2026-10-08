@@ -9,7 +9,11 @@ complete: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi,
 Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew. Each final layer passed
 two consecutive full clean self-audits and a clean independent final review.
 The 2,814 translated term/meaning pairs are synchronized with SiteForMods and
-passed canonical structural validation and 39 focused tests. Rendering feasibility
+passed canonical structural validation and 39 focused tests. All 14 glossary layers
+were published to the production site database on October 8, 2026 (Vietnam time).
+Every stored term and meaning was verified against the accepted layer through the
+canonical CLI; see the [publication receipt](Documentation/glossary-translations/publication/2026-10-08/receipt.json).
+Public-page rendering was not checked. Rendering feasibility
 remains a separate incomplete gate. No game-text
 translation, exhaustive visible-ID inventory, final language adapter, installer
 or release exists yet. See [the shared checkpoint](Documentation/localization-state.json).
