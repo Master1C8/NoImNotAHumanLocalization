@@ -62,7 +62,7 @@ def run(locale,sample,output):
     run_capture.run(output/'menu',None)
     guarded_click.run(output/'menu/native.png',[580,1580,324,100],[372,818],output/'new-game',
                       extra_guards=[(ROOT/'outputs/renderer-final-runtime/ru/menu/native.png',
-                                     [0,100,500,450],.12)])
+                                     [600,400,300,300],.12)])
     time.sleep(2)
     run_capture.run(output/'after-new-game',None)
     receipt['phase']='new-game-input-sent; next-frame-review-required';record()

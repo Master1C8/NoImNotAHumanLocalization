@@ -179,3 +179,15 @@ Regression: a serialized TMP `m_text` target can read back correctly while a
 derived text component still displays its stale `originalText`. A build check
 must compare both fields and a live check must inspect the first displayed
 frame and missing-glyph log.
+
+The final preview data package is based on a new native catalog that adds only
+Thai. Its 31 files and added locale/key/font-role sets are verified in
+`th-only-preview-v1.json`. Menu, Settings and intro rendering were captured
+from that exact package; dialogue on that exact package remains pending.
+
+The earlier menu guard compared animated portrait eyes and could reject an
+unobscured menu (RMSE 0.174415 against a 0.12 limit). The corrected region
+`[300x300+600+400]` is static across five menu frames (RMSE below 0.001)
+and rejects two Settings frames (RMSE 0.334175). A transient guard rejection
+sent no input; the same live fixture was reconciled before the corrected
+guard issued the New Game click.

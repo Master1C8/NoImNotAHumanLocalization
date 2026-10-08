@@ -84,7 +84,11 @@ def save_verified(env, path, expected_changes, generated=None):
             'allSavedObjectBytesVerified': True}
 
 
-def run(game, output):
+def run(game, output, codes=None):
+    codes = list(LANGUAGES) if codes is None else codes
+    require(codes and len(codes) == len(set(codes)) and
+            all(code in LANGUAGES for code in codes), 'Invalid selected locale set')
+    active = {code: LANGUAGES[code] for code in codes}
     require(UnityPy.__version__ == '1.25.4', 'Pinned UnityPy required')
     data = game/'NoImNotAHuman_Data'
     require('build-guid='+EXPECTED_BUILD_GUID in (data/'boot.config').read_text().splitlines(), 'Source build changed')
@@ -102,7 +106,7 @@ def run(game, output):
     ui_tree = ui.read_typetree()
     used_ids = {r['m_Id'] for r in ui_tree['m_Entries']}
     used_keys = {r['m_Key'] for r in ui_tree['m_Entries']}
-    for code in LANGUAGES:
+    for code in active:
         key = 'language_'+code
         require(key not in used_keys, 'Target language key already present')
         new_id = identity('ui-key/'+key)
@@ -124,7 +128,7 @@ def run(game, output):
     locales = UnityPy.load(str(locale_path))
     before = {o.path_id: o.get_raw_data() for o in locales.objects}
     russian = next(o for o in locales.objects if o.type.name == 'MonoBehaviour' and o.peek_name() == 'Russian (ru)')
-    for index, (code, (english, _)) in enumerate(LANGUAGES.items()):
+    for index, (code, (english, _)) in enumerate(active.items()):
         name = f'{english} ({code})'
         tree = russian.read_typetree()
         tree.update(m_Name=name, m_LocaleName=name, m_SortOrder=100+index)
@@ -143,7 +147,7 @@ def run(game, output):
         tree = ui_obj.read_typetree()
         require(not set(ui_ids.values()).intersection(r['m_Id'] for r in tree['m_TableData']), 'Existing table ID collision')
         tree['m_TableData'].extend({'m_Id': ui_ids[c], 'm_Localized': label, 'm_Metadata': {'m_Items': []}}
-                                  for c, (_, label) in LANGUAGES.items())
+                                  for c, (_, label) in active.items())
         ui_obj.save_typetree(tree)
         allowed.add(ui_obj.path_id)
         if tree['m_LocaleId']['m_Code'] == 'ru':
@@ -153,7 +157,7 @@ def run(game, output):
                 source_tree = current_tree(obj)
                 require(source_tree['m_LocaleId']['m_Code'] == 'ru', 'Unexpected Russian bundle contents')
                 source_name = source_tree['m_Name']
-                for code in LANGUAGES:
+                for code in active:
                     new_tree = copy.deepcopy(source_tree)
                     name = source_name[:-2]+code
                     new_tree['m_Name'] = name
@@ -169,7 +173,7 @@ def run(game, output):
     env = UnityPy.load(str(asset_source))
     original = {o.path_id: o.get_raw_data() for o in env.objects}
     obj = next(o for o in env.objects if o.type.name == 'MonoBehaviour')
-    for code in LANGUAGES:
+    for code in active:
         tree = obj.read_typetree()
         name = 'Characters_'+code
         tree['m_Name'] = name
@@ -196,7 +200,7 @@ def run(game, output):
         original = {o.path_id: o.get_raw_data() for o in env.objects}
         env.typetree_generator = generator
         allowed, generated = set(), {}
-        if filename == 'sharedassets0.assets':
+        if filename == 'sharedassets0.assets' and 'he' in active:
             # A separate dynamic Hebrew font uses the game's embedded Liberation Sans.
             # Clone its atlas/material too; never mutate another font's shared atlas.
             base = env.file.objects[2614]
@@ -228,8 +232,8 @@ def run(game, output):
             obj = env.file.objects[path_id]
             tree, schema = generated_tree(obj)
             rows = tree['<Fonts>k__BackingField']['_serializedList']
-            require(not set(LANGUAGES).intersection(row['Key'] for row in rows), 'Target font mapping already exists')
-            for code in LANGUAGES:
+            require(not set(active).intersection(row['Key'] for row in rows), 'Target font mapping already exists')
+            for code in active:
                 target = {'th': 2611, 'fa': 2605, 'hi': 2614, 'he': 900000}.get(code, 2614)
                 rows.append({'Key': code, 'Value': {'m_FileID': 0 if filename == 'sharedassets0.assets' else 2, 'm_PathID': target}})
             obj.save_typetree(tree, nodes=schema)
@@ -240,19 +244,20 @@ def run(game, output):
     for relative, expected in inputs.items():
         require(digest(game/relative) == expected, 'Source changed during build')
     report = {'schemaVersion': 1, 'sourceRoot': str(game), 'buildGuid': EXPECTED_BUILD_GUID,
-              'languages': LANGUAGES, 'samples': SAMPLES, 'languageKeyIds': ui_ids,
+              'languages': active, 'samples': {code:SAMPLES[code] for code in active}, 'languageKeyIds': ui_ids,
               'inputs': inputs, 'artifacts': artifacts, 'sourceUnchanged': True,
-              'coverage': '14 native locale entries, 140 carrier tables, 3 font-role dictionaries, one synthetic menu binding per locale. Russian carrier text/images are untranslated. Font shaping, bidi, runtime selection, dialogue and progression remain unverified.'}
+              'coverage': f'{len(active)} native locale entries, {len(active) * 10} carrier tables, 3 font-role dictionaries, one synthetic menu binding per locale. Russian carrier text/images are untranslated. Font shaping, bidi, runtime selection, dialogue and progression remain unverified.'}
     (output/'report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
-    print(json.dumps({'report': str(output/'report.json'), 'locales': 14, 'artifacts': len(artifacts), 'sourceUnchanged': True}))
+    print(json.dumps({'report': str(output/'report.json'), 'locales': len(active), 'artifacts': len(artifacts), 'sourceUnchanged': True}))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--game', type=Path, default=DEFAULT_GAME)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--codes', nargs='+', choices=sorted(LANGUAGES))
     args = parser.parse_args()
     output = args.output.resolve()
     if not output.is_relative_to(ROOT/'outputs'):
         parser.error('Output must be below canonical outputs/')
-    run(args.game.resolve(), output)
+    run(args.game.resolve(), output, args.codes)

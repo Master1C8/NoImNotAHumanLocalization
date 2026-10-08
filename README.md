@@ -269,13 +269,17 @@ expanded source: stable IDs, speaker/service prefixes, numbered slots, TMP tags,
 ordered numbers, line breaks, trailing whitespace, and designated technical
 values were intact. The original credits contain malformed TMP nesting; the
 comparison requires their exact tag sequence without silently repairing it.
-The isolated [Thai text build](outputs/th-text-draft-v6/report.json)
+The isolated [Thai text build](outputs/th-text-draft-v7/report.json)
 applies authored text to copied locale tables and TMP source assets. Its
-[artifact verification](outputs/th-text-draft-v6/verification.json) reread all
+[artifact verification](outputs/th-text-draft-v7/verification.json) reread all
 16,360 table values, 178 static values, 165 RTL source fields and 10 artifact
-hashes successfully. It preserves the already installed renderer font asset.
-The build was installed and exercised only in the copied fixture; it is not a
-release.
+hashes successfully. The [Thai-only native base](outputs/th-native-base-v1/report.json)
+adds only Thai to the game's locale catalog. The resulting
+[31-file package](outputs/th-only-package-v1/report.json) passed an independent
+[locale and hash check](outputs/th-only-package-v1/verification.json): only
+`th`, `language_th` and three `th` font-role bindings were added. A local
+[preview archive](dist/NoImNotAHuman-th-preview-v1.zip) contains those verified
+files. It is not a release because the full runtime gate is still pending.
 The [paired semantic review input](outputs/th-semantic-audit-input-v4/report.json)
 aligns all 16,538 source and Thai draft rows with stable IDs and scene or
 dialogue context. The [completed first pass](Documentation/th-semantic-audit-progress-v44.json)
@@ -287,12 +291,15 @@ reviewed all 186 distinct changes and prompted seven final revisions.
 The [offline semantic acceptance](Documentation/th-semantic-acceptance-v2.json)
 has no open objective findings. The review input pins the accepted source
 scope, approved Thai glossary and [mandatory regression IDs](Documentation/th-semantic-regressions-v1.json).
-A runtime observation found an Arabic placeholder in the answer panel. The
+A runtime observation on the earlier 14-locale technical base found an Arabic placeholder in the answer panel. The
 corrected Thai text is written to both the TMP display field and the RTL
 component's source field; the prior acceptance and exact-text reports remain
 as immutable predecessors. The [Thai runtime report](Documentation/th-runtime-qa-v1.json)
 records 13 translated dialogue lines, the corrected answer-panel text and zero
 missing-glyph warnings in the final sampled run.
+The [Thai-only preview report](Documentation/th-only-preview-v1.json) records
+menu, Settings and intro screenshots on the exact 31-file package. Its dialogue
+and later gameplay surfaces remain to be checked on that exact package.
 The [orphan wishlist key audit](Documentation/missing-ui-key-86605930199502848-v1.json)
 pins the underlying source defect: key `86605930199502848` is absent from
 `UI Shared Data` and from the Russian UI table, although 11 of 18 official

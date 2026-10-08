@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "scope": "Thai text only; textures and images excluded",
+  "nativeBase": {
+    "path": "outputs/th-native-base-v1/report.json",
+    "sha256": "287745882c97d9ce3cb201483a0ca139dcd351398a92dfa8a3c7dbaf9d5a10e4",
+    "newLocales": [
+      "th"
+    ]
+  },
+  "textBuild": {
+    "path": "outputs/th-text-draft-v7/report.json",
+    "sha256": "1db45de7b87a5ac363d71f1176b93b9a3253089bc50afb722f260fab475d71e0",
+    "verificationSha256": "e2a134d5b7971969b1f53abb99b6e5c415ca8f351503ae06df968eac2e7c4def",
+    "translatedValues": 16538,
+    "rtlOriginalTextValues": 165
+  },
+  "package": {
+    "path": "outputs/th-only-package-v1/report.json",
+    "sha256": "a480dadbe3d98d470845277992bfc00c136dd72572116170c653d2c9a82aa1ad",
+    "verificationPath": "outputs/th-only-package-v1/verification.json",
+    "verificationSha256": "c1a4569fb7c34507828a1d92a1af2d47eeb0202af77bcec7ed26ebe6ca0067fb",
+    "artifacts": 31,
+    "installedFixtureReceipt": "outputs/th-only-install-v1/receipt.json",
+    "installedFixtureReceiptSha256": "a7706be730bf9ad5a1dbec5b01da3069ee44da075455f89051f5441d486302e3"
+  },
+  "archive": {
+    "path": "dist/NoImNotAHuman-th-preview-v1.zip",
+    "sha256": "300a409c6e0f6eae576bda12b20cb40e81f52d3998988ad23aa3f7d242cef24a",
+    "receiptPath": "dist/NoImNotAHuman-th-preview-v1.zip.json",
+    "receiptSha256": "a7b2376055c7a9ecb9c326a031367d03b79ee8903b96bb85085550fbab58708a",
+    "status": "local preview; full runtime gate pending"
+  },
+  "runtime": {
+    "menuScreenshot": "outputs/th-only-settings-v1/th/menu/native.png",
+    "menuSha256": "cf1c89f49c640fe803f55796e37e4bc1edefbca823e25683e4fb9ea17972e654",
+    "settingsScreenshot": "outputs/th-only-settings-v1/th/settings/native.png",
+    "settingsSha256": "be80085540434559f3766a5d8e004d489e79a26717fe7ab14540f52c16b0605e",
+    "menuAndSettings": "captured and visually reviewed",
+    "introScreenshot": "outputs/dialogue-th-v8/after-static-guard/native.png",
+    "introSha256": "1e4b9bd367da2709d3919df35e27cd511b38382b6fd776dd83b48c14a83e4163",
+    "dialogue": "pending on this exact Thai-only package; earlier 14-locale base passed 13 Thai lines",
+    "probeStoppedAndPreferencesRestored": true
+  },
+  "pending": [
+    "Dialogue screenshot and answer-panel glyph check on this exact Thai-only package",
+    "Dense gameplay UI",
+    "Dynamic substitutions",
+    "Later semantic states and other dialogue branches",
+    "Final release installation QA"
+  ],
+  "recordedAt": "2026-10-08T21:51:44.780502+00:00",
+  "installationBoundary": {
+    "semantics": "31 per-file atomic replacements in a stopped copied fixture; no multi-file transaction or automatic rollback",
+    "failureBetweenWritesTest": "PYTHONPYCACHEPREFIX=/private/tmp/no-human-pycache .venv/bin/python -m unittest Tests.test_th_only_install_boundary -v",
+    "result": "passed: first file new and second old after injected interruption; both new in matching positive control",
+    "recovery": "Reconcile exact receipt, target hashes and backups before launch after an interruption."
+  }
+}

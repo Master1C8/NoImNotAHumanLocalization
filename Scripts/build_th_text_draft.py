@@ -10,13 +10,13 @@ from pathlib import Path
 import UnityPy
 
 from addressables_catalog import Catalog, update_bundle
-from build_locale_probe import save_verified
+from build_locale_probe import LANGUAGES, save_verified
 from probe_assets import DEFAULT_GAME, EXPECTED_UNITY, ROOT, UI_ID, digest, require
 from unity_types import CheckedTypeTreeGenerator, generated_tree
 
 
 BASE = ROOT / "outputs/native-locale-probe-v6"
-DEFAULT_OUTPUT = ROOT / "outputs/th-text-draft-v6"
+DEFAULT_OUTPUT = ROOT / "outputs/th-text-draft-v7"
 RENDERER_FONT = ROOT / "outputs/renderer-font-v3"
 STRINGS = ROOT / "Source/localization-inventory-v3/strings.jsonl"
 STATIC = ROOT / "Source/localization-inventory-v3/static-text.jsonl"
@@ -53,9 +53,14 @@ def authored_tables():
     return source, target, files
 
 
-def build(output):
+def build(output, base=BASE):
     require(output.is_relative_to(ROOT / "outputs") and not output.exists(),
             "Output must be a new directory in canonical outputs")
+    require(base.is_relative_to(ROOT / "outputs"), "Base must be in canonical outputs")
+    base_report = json.loads((base / "report.json").read_text())
+    base_languages = set(base_report["languages"])
+    require(base_languages == {"th"} or base_languages == set(LANGUAGES),
+            "Unexpected native locale base")
     exact = json.loads(EXACT.read_text())
     require(exact["manifestSha256"] == digest(MANIFEST) and
             exact["sourceInventorySha256"] == digest(STRINGS) and
@@ -94,7 +99,7 @@ def build(output):
     artifacts = {}
     table_relative = Path("NoImNotAHuman_Data/StreamingAssets/aa/StandaloneWindows64/"
                           "localization-string-tables-russian(ru)_assets_all.bundle")
-    table_source = BASE / table_relative
+    table_source = base / table_relative
     env = UnityPy.load(str(table_source))
     before = {obj.path_id: obj.get_raw_data() for obj in env.objects}
     allowed = set()
@@ -132,7 +137,7 @@ def build(output):
     artifacts[str(table_relative)] = save_verified(env, table_dest,
         {"original": before, "allowed": allowed})
     catalog_relative = Path("NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin")
-    catalog_source = BASE / catalog_relative
+    catalog_source = base / catalog_relative
     new_catalog, catalog_integrity = update_bundle(catalog_source.read_bytes(),
                                                     table_source, table_dest)
     catalog_dest = output / catalog_relative
@@ -148,17 +153,20 @@ def build(output):
     generator.load_local_dll_folder(str(DEFAULT_GAME /
         "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed"))
     static_counts = Counter()
-    renderer_font_receipt = json.loads((RENDERER_FONT / "receipt.json").read_text())
-    require(renderer_font_receipt["completed"], "Renderer font asset is not complete")
-    renderer_shared = next((row for row in renderer_font_receipt["files"]
-                            if row["path"] == "NoImNotAHuman_Data/sharedassets0.assets"), None)
-    require(renderer_shared is not None and
-            digest(RENDERER_FONT / "sharedassets0.assets") == renderer_shared["afterSha256"],
-            "Renderer font asset changed after its receipt")
+    renderer_font_receipt = None
+    if base_languages != {"th"}:
+        renderer_font_receipt = json.loads((RENDERER_FONT / "receipt.json").read_text())
+        require(renderer_font_receipt["completed"], "Renderer font asset is not complete")
+        renderer_shared = next((row for row in renderer_font_receipt["files"]
+                                if row["path"] == "NoImNotAHuman_Data/sharedassets0.assets"), None)
+        require(renderer_shared is not None and
+                digest(RENDERER_FONT / "sharedassets0.assets") == renderer_shared["afterSha256"],
+                "Renderer font asset changed after its receipt")
     for name, rows in sorted(static_by_file.items()):
         relative = Path("NoImNotAHuman_Data") / name
-        original = (RENDERER_FONT / "sharedassets0.assets" if name == "sharedassets0.assets"
-                    else BASE / relative)
+        original = (RENDERER_FONT / "sharedassets0.assets"
+                    if name == "sharedassets0.assets" and renderer_font_receipt is not None
+                    else base / relative)
         if not original.exists():
             original = DEFAULT_GAME / relative
         env = UnityPy.load(str(original))
@@ -199,8 +207,11 @@ def build(output):
                 "Authored table batch changed after exact gate")
     report = {"schemaVersion": 1, "status": "isolated Thai text draft; editorially accepted offline; runtime not tested",
               "builderSha256": digest(Path(__file__)),
-              "baseReportSha256": digest(BASE / "report.json"),
-              "rendererFontReceiptSha256": digest(RENDERER_FONT / "receipt.json"),
+              "baseReportSha256": digest(base / "report.json"),
+              "baseReportPath": str((base / "report.json").relative_to(ROOT)),
+              "baseLanguages": sorted(base_languages),
+              "rendererFontReceiptSha256": digest(RENDERER_FONT / "receipt.json")
+                  if renderer_font_receipt is not None else None,
               "exactReportSha256": digest(EXACT),
               "semanticAcceptanceSha256": digest(ACCEPTANCE),
               "sourceInventorySha256": digest(STRINGS),
@@ -225,5 +236,6 @@ def build(output):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--base", type=Path, default=BASE)
     args = parser.parse_args()
-    build(args.output.resolve())
+    build(args.output.resolve(), args.base.resolve())

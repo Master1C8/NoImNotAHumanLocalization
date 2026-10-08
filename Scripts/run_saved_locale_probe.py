@@ -82,10 +82,10 @@ def wait_menu(helper,reference,output):
                 continue
             frame=output/'latest.png'
             subprocess.run(['/usr/sbin/screencapture','-x','-o','-l',str(window['kCGWindowNumber']),str(frame)],check=True)
-            # A menu button remains visible behind Settings. Require the unobscured
-            # left-side menu artwork too, before declaring the screen ready.
+            # A menu button remains visible behind Settings. The center-left
+            # logo edge is static; the portrait eyes on the far left animate.
             regions={'buttonBorder':('[320x18+1280+1574]',.06),
-                     'unobscuredMenu':('[500x450+0+100]',.12)}
+                     'unobscuredMenu':('[300x300+600+400]',.12)}
             metrics={}
             for name,(geometry,_) in regions.items():
                 result=subprocess.run([str(run_capture.MAGICK),'compare','-metric','RMSE',
