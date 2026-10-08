@@ -51,13 +51,30 @@ def selected_ids():
     return selected, sha256(strings), sha256(static)
 
 
-def snapshot():
+def snapshot(exact=False):
     selected, strings_hash, static_hash = selected_ids()
+    exact_rules = None
+    if exact:
+        from preserve_exact import MANIFEST, SCOPE, STATIC_SCOPE, check_value
+        manifest = json.loads(MANIFEST.read_text())
+        if (manifest["sourceInventorySha256"] != strings_hash or
+            manifest["staticInventorySha256"] != static_hash or
+            manifest["staticScopeSha256"] != sha256(STATIC_SCOPE) or
+            manifest["sourceScopeReportSha256"] != sha256(SCOPE)):
+            raise ValueError("Preserve-exact manifest changed")
+        exact_rules = {(row.get("collection", "static"),
+                        row["stableId"] if "collection" not in row else
+                        int(row["stableId"].rsplit(":", 1)[1])): row
+                       for row in manifest["tableRows"] + manifest["staticRows"]}
+        if set(exact_rules) != {(collection, key) for collection, values in selected.items()
+                                   for key in values}:
+            raise ValueError("Preserve-exact manifest does not cover selected IDs")
     state = json.loads((ROOT / "Documentation/localization-state.json").read_text())
     roster = {row["locale"]: row for row in state["localeRows"]}
     result = {"schemaVersion": 1, "gameVersion": state["gameVersion"],
               "sourceInventorySha256": sha256(ROOT / "Documentation/text-source-acceptance-v1.json"),
-              "denominatorPerLocale": DENOMINATOR, "locales": []}
+              "denominatorPerLocale": DENOMINATOR,
+              "preserveExactChecked": exact, "locales": []}
     for locale in LOCALES:
         seen = set()
         observed = set()
@@ -95,6 +112,8 @@ def snapshot():
                     key = entry["stableId"] if collection == "static" else entry["id"]
                     if key not in selected[collection] or key in keys or not isinstance(entry["target"], str) or not entry["target"].strip():
                         raise ValueError("unknown, duplicate or empty row")
+                    if exact_rules is not None:
+                        check_value(exact_rules[(collection, key)], entry["target"])
                     keys.add(key)
                 overlapping = len(seen & {(collection, key) for key in keys})
                 if overlapping:
@@ -139,6 +158,7 @@ def update_state(report):
         row = by_locale[result["locale"]]
         row["translated"] = result["authoredRows"]
         row["total"] = DENOMINATOR
+        row["sourceInventoryFingerprint"] = report["sourceInventorySha256"]
         if row["phase"] in ("probe", "translate-edit"):
             row["phase"] = "translate-edit"
         row["draftReadiness"] = {
@@ -147,6 +167,7 @@ def update_state(report):
             "authoredRows": result["authoredRows"],
             "authoredPercent": result["authoredPercent"],
             "structurallyValidatedRows": result["structurallyValidatedRows"],
+            "preserveExactChecked": report["preserveExactChecked"],
             "editoriallyAcceptedRows": None,
             "eligibleFileCount": len(result["files"]),
             "eligibleFileSetSha256": hashlib.sha256("".join(
@@ -186,10 +207,12 @@ def update_state(report):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--compact", action="store_true")
+    parser.add_argument("--exact", action="store_true",
+                        help="Also run the pinned preserve-exact contract (use .venv/bin/python)")
     parser.add_argument("--update-state", action="store_true",
                         help="Record this bounded draft snapshot in the shared checkpoint")
     args = parser.parse_args()
-    report = snapshot()
+    report = snapshot(exact=args.exact)
     if args.update_state:
         update_state(report)
     if args.compact:

@@ -20,10 +20,18 @@ reports authored and currently validated IDs separately. The percentage is
 `unique in-scope authored IDs / 16,538`. It is draft coverage, never editorial,
 font, build, runtime, visual, or release acceptance. Invalid or partial files
 are excluded and listed under `problems`; a stale validation sidecar does not
-count. Run `python3 Scripts/report_locale_readiness.py --update-state --compact`
-after a handoff to record a bounded snapshot in the existing
+count. Run `.venv/bin/python Scripts/report_locale_readiness.py --exact --compact`
+to apply the pinned preserve-exact contract to the current drafts without
+writing worker files. Add `--update-state` after a handoff to record a bounded
+snapshot in the existing
 `Documentation/localization-state.json` rows. The scan leaves editorial and
 runtime statuses separate. Do not create a competing readiness tracker.
+
+After an approved glossary correction, compare the locale layer with its
+canonical review and SiteForMods layer, then update both glossary fingerprints
+in that locale's shared row before counting its drafts. The accepted source
+scope fingerprint is shared by all 13 rows. An old row value must not cause
+valid new-glossary batches to be rewritten.
 
 The existing `validate_game_text_batch.py` checks a batch against its full
 source collection. For `ChecksDialogs`, that collection is larger than the
