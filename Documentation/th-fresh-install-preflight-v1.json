@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "scope": "Read-only check of the exact Thai ZIP against the untouched original game installation",
+  "script": "Scripts/preflight_th_fresh_install.py",
+  "scriptSha256": "5075b4796010a05a43401b86835b53979cf722e8c284c2e32ba0474e32947343",
+  "report": "outputs/th-fresh-install-preflight-v3/report.json",
+  "reportSha256": "e8fa32e54cff80c2448c6c163a463a94927c800dcb4400fdd235171d780e1a8c",
+  "archive": "dist/NoImNotAHuman-th-preview-v1.zip",
+  "archiveSha256": "300a409c6e0f6eae576bda12b20cb40e81f52d3998988ad23aa3f7d242cef24a",
+  "results": {
+    "archiveMembersVerified": 33,
+    "originalFilesPresent": 31,
+    "originalDiagnosticLoaderAbsent": true,
+    "pinnedOriginalHashesMatched": 31,
+    "filesDifferingFromOriginal": 31,
+    "originalSetSha256": "ce406230e254de10d36d967c143d4faa571f7a3ca11df55cb078b6424c8897f9"
+  },
+  "offlineInstallRehearsal": {
+    "script": "Scripts/rehearse_th_archive_install.py",
+    "scriptSha256": "97dcaa0614142d52575e96abf5e16ebb2cd119a7f5a53488f3626c28b05aa656",
+    "report": "outputs/th-archive-rehearsal-v2/report.json",
+    "reportSha256": "4fcb9a17cecc6a3c8e94a4cfe60b12034432b074fdf62a15001489eb32d3a300",
+    "result": "31 original files were copied into disposable staging; injected interruption left one new and 30 original files with an incomplete receipt and matching backup; a separate positive run installed all 31 archived files; the original game hashes remained unchanged"
+  },
+  "conclusion": "The ZIP is structurally compatible with the pinned clean game files, and the 31-file overlay passed an offline interruption/positive-control rehearsal. Runtime after a fresh overlay without the diagnostic loader remains unverified.",
+  "nextAction": "Apply the exact archive to the stopped isolated fixture restored to the pinned clean data state; test Thai menu, dialogue and gameplay without the diagnostic loader during an owner-coordinated focus window."
+}

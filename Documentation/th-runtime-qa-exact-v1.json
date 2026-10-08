@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-08T22:21:26Z",
+  "gameVersion": "1.3.19",
+  "locale": "th",
+  "scope": "Thai text only; textures and images excluded",
+  "package": {
+    "archive": "dist/NoImNotAHuman-th-preview-v1.zip",
+    "archiveSha256": "300a409c6e0f6eae576bda12b20cb40e81f52d3998988ad23aa3f7d242cef24a",
+    "report": "outputs/th-only-package-v1/report.json",
+    "reportSha256": "a480dadbe3d98d470845277992bfc00c136dd72572116170c653d2c9a82aa1ad",
+    "isolatedFixtureInstallReceipt": "outputs/th-only-install-v1/receipt.json",
+    "isolatedFixtureInstallReceiptSha256": "a7706be730bf9ad5a1dbec5b01da3069ee44da075455f89051f5441d486302e3",
+    "installedArtifactHashesMatchedBeforeLaunch": 31
+  },
+  "run": {
+    "path": "outputs/dialogue-th-v9",
+    "statusSha256": "df4430fdbbb0e20354b7819eef77cc157d40d36ed9cb61eb1c3ee298963dc9d8",
+    "syntheticSample": false,
+    "guardedNewGameInput": true,
+    "guardedDoorInput": true,
+    "guardedFirstAnswerInput": true,
+    "realThaiDialogueLines": 2,
+    "firstLineId": "line:entrance_neighbour_0_054308e",
+    "nextLineId": "line:Neighbour_Entrance_1_0d6ac91",
+    "answerPanelInitialText": " ตัวเลือก",
+    "selectedAnswerRoute": "The reviewed first Thai answer was clicked and a second Thai line appeared; exact branch ID was not independently asserted.",
+    "evidenceLog": "outputs/dialogue-th-v9/finish/nohuman-dialogue-evidence.jsonl",
+    "evidenceLogSha256": "789288ea3d1ad5e405c834dcec6fccb106613e417995c2b1da0eebf38a2ac957",
+    "logOutput": "outputs/dialogue-th-v9/finish/LogOutput.log",
+    "logOutputSha256": "8708638338155bb289fa43bcf9b6febc20d76a5d94185561dd29ec03409057f5",
+    "playerLog": "outputs/dialogue-th-v9/finish/Player.log",
+    "playerLogSha256": "5da5c66cbb62b3016e97f042e544018971c76a58a185bc7c6278a2d12acbcb52",
+    "missingGlyphWarnings": 0,
+    "localizationLookupOrTextRendererErrorsObserved": 0,
+    "otherPlayerLogFindings": "Player.log contains a WindowsVideoMedia D3D11 error and DOTWEEN/NullReferenceException entries; this narrow dialogue pass does not establish an error-free game runtime.",
+    "status": "sampled dialogue, first answer and next line passed on the exact Thai-only package with the diagnostic loader present"
+  },
+  "visualReview": {
+    "status": "pass for the two captured dialogue and answer frames",
+    "answerFrame": "outputs/dialogue-th-v9/door-transition/native.png",
+    "answerFrameSha256": "c18f9748bb6b5ba9b8e4c5444e949a993b20fb99e16041147e6dacfc69d6f440",
+    "nextLineFrame": "outputs/dialogue-th-v9/after-answer-one/native.png",
+    "nextLineFrameSha256": "cd322a851c40f536c163c9708366ff65135c224768262c355772ccd015af6577",
+    "nativeResolution": [2880, 1800],
+    "finding": "Thai line and two answer choices were readable; no visible missing-glyph box or clipping in these frames."
+  },
+  "cleanup": {
+    "fixtureStopped": true,
+    "preferencesRestoredByteForByte": true,
+    "probeConfigRemoved": true,
+    "saveDirectoryChanges": ["Player-prev.log", "Player.log"],
+    "finishActionSha256": "abfd8e8c8405492963aaa79f85f1f822f797b6d20cf50b2e0000b6a5339f95ab"
+  },
+  "pending": [
+    "Dense gameplay UI and dynamic substitutions",
+    "Further dialogue branches and later semantic states",
+    "Full font style and layout review",
+    "Fresh overlay installation and runtime without the diagnostic loader"
+  ]
+}

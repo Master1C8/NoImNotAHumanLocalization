@@ -801,8 +801,8 @@
       "fonts": "three-native-role-mappings; final-style-unverified",
       "textures": "not-applicable; owner excluded textures and images",
       "build": "Thai-only 31-artifact preview package verified and installed in isolated fixture",
-      "runtime": "Thai-only package menu and Settings passed; intro visible; exact-package dialogue pending; prior 14-locale base passed 13 Thai dialogue lines",
-      "visual": "Thai-only menu, Settings and intro reviewed; earlier dialogue reviewed; full gate pending",
+      "runtime": "Exact Thai-only package menu, Settings and sampled two-line dialogue passed with diagnostic loader; clean no-loader runtime, dense UI and later states pending",
+      "visual": "Exact Thai-only menu, Settings, intro, first answer panel and next dialogue line reviewed; full gate pending",
       "release": "not-created",
       "runtimeLocale": "th",
       "processBinding": "shared-standard-v1",
@@ -846,8 +846,8 @@
         }
       ],
       "feasibility": "unverified",
-      "blocker": "Exact Thai-only package dialogue was not reached while the owner used another application; dense gameplay UI, dynamic substitutions, later branches, font style/layout and release installation QA remain pending.",
-      "nextAction": "Resume exact Thai-only package dialogue check when copied game window can remain active; then dense/dynamic/later-state QA and release installation verification.",
+      "blocker": "The 31-file ZIP omits the diagnostic runtime loader used by the sampled dialogue run. Fresh overlay runtime without that loader, dense gameplay UI, dynamic substitutions, later branches, font style/layout and release installation QA remain pending.",
+      "nextAction": "Thai owner: verify a fresh overlay of the exact ZIP in the stopped isolated fixture without the diagnostic loader, then dense/dynamic/later-state QA and release installation verification.",
       "catalog": {
         "artifact": "outputs/native-locale-probe-v6/NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin",
         "sha256": "87260830677ad60128c29e8212a56b002feffc48dfdc97aa67491e41fe2c2962"
@@ -876,6 +876,18 @@
         "missingGlyphWarnings": 0,
         "status": "menu, settings and sampled dialogue passed; remaining runtime surfaces pending"
       },
+      "runtimeQaExact": {
+        "path": "Documentation/th-runtime-qa-exact-v1.json",
+        "sha256": "89dac5103ec76dc0395a7588e0d4123342acb3719b87f2ab3769cca5fbec947e",
+        "archiveSha256": "300a409c6e0f6eae576bda12b20cb40e81f52d3998988ad23aa3f7d242cef24a",
+        "sampledDialogueLines": 2,
+        "status": "passed on exact Thai-only data package with diagnostic loader; clean no-loader runtime pending"
+      },
+      "freshInstallPreflight": {
+        "path": "Documentation/th-fresh-install-preflight-v1.json",
+        "sha256": "d55da5dd35bf7474b464e5fe4703c22dbc5c8bd82318acf26030fc355e0187cd",
+        "status": "31-file archive and clean original hashes passed read-only preflight; interruption and positive overlay rehearsed offline; fresh runtime not tested"
+      },
       "thaiOnlyPreview": {
         "reportPath": "Documentation/th-only-preview-v1.json",
         "reportSha256": "e728952a66c3acf627b00b2f867d1ddc46da153b1188214d07264f0b770d2b27",
@@ -885,7 +897,7 @@
         "addedLocales": [
           "th"
         ],
-        "status": "verified local preview; menu and Settings checked; exact-package dialogue/full gate pending"
+        "status": "verified local preview; sampled exact-package dialogue passed with diagnostic loader; clean no-loader runtime and full gate pending"
       }
     },
     {
