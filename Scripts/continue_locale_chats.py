@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Continue existing locale chats after successful finite turns.
+"""Continue existing locale chats through draft and first semantic review.
 
 This coordinator never creates a chat, edits translation files, or uses Git.
 It leaves interrupted/failed turns for human diagnosis instead of retrying them.
@@ -81,6 +81,19 @@ def readiness():
     return {row["locale"]: row for row in snapshot(exact=True)["locales"]}
 
 
+def semantic_progress(locale):
+    path = ROOT / "Translations" / locale / "semantic-review-progress.json"
+    if not path.exists():
+        return 0
+    data = json.loads(path.read_text())
+    count = data.get("reviewedUnits")
+    if (data.get("locale") != locale or data.get("acceptedUnits") != DENOMINATOR or
+        not isinstance(count, int) or isinstance(count, bool) or
+        not 0 <= count <= DENOMINATOR):
+        raise ValueError(f"Invalid semantic progress checkpoint: {path}")
+    return count
+
+
 def load_state(rows):
     if STATE.exists():
         return json.loads(STATE.read_text())
@@ -98,20 +111,37 @@ def save_state(state):
     temporary.replace(STATE)
 
 
-def resume(locale, state, row):
+def resume(locale, state, row, phase, reviewed):
     session = SESSIONS[locale]
-    prompt = (
-        f"Continue the existing {locale} text-only game localization chat from its "
-        "latest verified checkpoint. First reconcile its last successful turn, "
-        "current files, source and glossary fingerprints. Translate remaining "
-        "accepted Russian IDs with context, validate each batch, preserve exact "
-        "spans and placeholders, then perform semantic and independent diff review. "
-        f"Own only Translations/{locale}/ and its previously assigned locale-specific "
-        "progress files. Do not touch shared scripts/state, the Git index, game "
-        "fixture, images or textures. Do not launch the game. Operational messages "
-        "in English. If this finite turn ends before completion, leave an exact "
-        "checkpoint and next action."
-    )
+    if phase == "semantic":
+        prompt = (
+            f"Continue the existing {locale} text-only localization chat after its "
+            "16,538/16,538 draft. Reconcile source, glossary, authored files and "
+            "current semantic evidence before continuing. Perform the universal "
+            "complete source-to-target semantic audit with scene context and "
+            "character rules; record objective findings for one correction batch. "
+            f"Maintain Translations/{locale}/semantic-review-progress.json with "
+            "acceptedUnits=16538, reviewedUnits, exact reviewed file hashes and "
+            "the next ID. Continue from the last verified unit without claiming "
+            "independent review or editorial acceptance. "
+            f"Own only Translations/{locale}/ and its assigned locale-specific "
+            "progress files. Do not touch shared scripts/state, Git index, other "
+            "locales, textures/images, or launch the game. Operational messages "
+            "in English. Save exact progress before a finite turn ends."
+        )
+    else:
+        prompt = (
+            f"Continue the existing {locale} text-only game localization chat from its "
+            "latest verified checkpoint. First reconcile its last successful turn, "
+            "current files, source and glossary fingerprints. Translate remaining "
+            "accepted Russian IDs with context, validate each batch, preserve exact "
+            "spans and placeholders. "
+            f"Own only Translations/{locale}/ and its previously assigned locale-specific "
+            "progress files. Do not touch shared scripts/state, the Git index, game "
+            "fixture, images or textures. Do not launch the game. Operational messages "
+            "in English. If this finite turn ends before completion, leave an exact "
+            "checkpoint and next action."
+        )
     path = RUNS / f"{locale}-{int(time.time())}.jsonl"
     codex = shutil.which("codex")
     if not codex:
@@ -131,10 +161,13 @@ def resume(locale, state, row):
     state["baseline"] = row["authoredRows"]
     state["baselineProblems"] = len(row["problems"])
     state["baselineValidated"] = row["structurallyValidatedRows"]
+    state["baselineSemantic"] = reviewed
+    state["phase"] = phase
     state["pid"] = process.pid
     state["log"] = str(path.relative_to(ROOT))
     state["status"] = "running"
-    print(f"resumed {locale} pid={process.pid} rows={row['authoredRows']}", flush=True)
+    print(f"resumed {locale} phase={phase} pid={process.pid} "
+          f"rows={row['authoredRows']} reviewed={reviewed}", flush=True)
 
 
 def inspect(state, rows, running, launch):
@@ -151,14 +184,27 @@ def inspect(state, rows, running, launch):
             continue
         if pids:
             item["pid"] = pids[0]
+            if row["authoredRows"] == DENOMINATOR and not row["problems"]:
+                item["phase"] = "semantic"
+                item.setdefault("baselineSemantic", 0)
             item["status"] = "running"
             continue
+        phase = "translation"
+        reviewed = 0
         if row["authoredRows"] == DENOMINATOR and not row["problems"]:
-            item["status"] = "draft-complete-editorial-review-needed"
-            continue
+            phase = "semantic"
+            try:
+                reviewed = semantic_progress(locale)
+            except (OSError, ValueError, KeyError, TypeError) as error:
+                item["status"] = "semantic-evidence-needs-review"
+                print(locale, item["status"], error, flush=True)
+                continue
+            if reviewed == DENOMINATOR:
+                item["status"] = "semantic-pass-complete-independent-review-needed"
+                continue
         if item["status"] in ("stalled-needs-review", "interrupted-needs-review",
                               "duplicate-processes-needs-review", "launcher-missing-needs-review",
-                              "launcher-failed-needs-review"):
+                              "launcher-failed-needs-review", "semantic-evidence-needs-review"):
             continue
         terminal = latest_turn_status(session)
         if terminal != "task_complete":
@@ -170,7 +216,9 @@ def inspect(state, rows, running, launch):
             progressed = (row["authoredRows"] > baseline or
                           len(row["problems"]) < item.get("baselineProblems", 0) or
                           row["structurallyValidatedRows"] >
-                          item.get("baselineValidated", 0))
+                          item.get("baselineValidated", 0) or
+                          (phase == "semantic" and reviewed >
+                           item.get("baselineSemantic", 0)))
             if not progressed:
                 item["stalledTurns"] += 1
             else:
@@ -181,13 +229,13 @@ def inspect(state, rows, running, launch):
             continue
         item["status"] = "ready-to-resume"
         if launch:
-            resume(locale, item, row)
+            resume(locale, item, row, phase, reviewed)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--supervise", action="store_true",
-                        help="Continue successful finite turns until draft coverage is complete")
+                        help="Continue successful finite turns through the first semantic pass")
     parser.add_argument("--interval", type=int, default=30)
     args = parser.parse_args()
     if args.interval < 5:
@@ -206,9 +254,10 @@ def main():
         print(" ".join(f"{locale}:{rows[locale]['authoredRows']}/{DENOMINATOR}:"
                        f"{state[locale]['status']}" for locale in SESSIONS), flush=True)
         if not args.supervise or all(item["status"] in (
-                "draft-complete-editorial-review-needed", "stalled-needs-review",
+                "semantic-pass-complete-independent-review-needed", "stalled-needs-review",
                 "interrupted-needs-review", "duplicate-processes-needs-review",
-                "launcher-missing-needs-review", "launcher-failed-needs-review")
+                "launcher-missing-needs-review", "launcher-failed-needs-review",
+                "semantic-evidence-needs-review")
                 for item in state.values()):
             return
         time.sleep(args.interval)

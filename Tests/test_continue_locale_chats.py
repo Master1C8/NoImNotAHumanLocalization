@@ -61,6 +61,36 @@ class ContinueLocaleChatsTest(unittest.TestCase):
                 chats.inspect(state, rows, running, launch=True)
             resume.assert_called_once()
 
+    def test_complete_draft_continues_first_semantic_pass(self):
+        locale = "he"
+        row = {"authoredRows": chats.DENOMINATOR, "problems": [],
+               "structurallyValidatedRows": chats.DENOMINATOR}
+        rows = {locale: row}
+        running = {locale: []}
+        state = {locale: {"baseline": chats.DENOMINATOR,
+                          "baselineSemantic": 62, "stalledTurns": 0,
+                          "status": "running"}}
+        with patch.dict(chats.SESSIONS, {locale: chats.SESSIONS[locale]}, clear=True), \
+                patch.object(chats, "latest_turn_status", return_value="task_complete"), \
+                patch.object(chats, "semantic_progress", return_value=125), \
+                patch.object(chats, "resume") as resume:
+            chats.inspect(state, rows, running, launch=True)
+        resume.assert_called_once_with(locale, state[locale], row, "semantic", 125)
+
+    def test_full_semantic_pass_waits_for_independent_review(self):
+        locale = "sw"
+        row = {"authoredRows": chats.DENOMINATOR, "problems": [],
+               "structurallyValidatedRows": chats.DENOMINATOR}
+        state = {locale: {"baseline": chats.DENOMINATOR, "stalledTurns": 0,
+                          "status": "running"}}
+        with patch.dict(chats.SESSIONS, {locale: chats.SESSIONS[locale]}, clear=True), \
+                patch.object(chats, "semantic_progress", return_value=chats.DENOMINATOR), \
+                patch.object(chats, "resume") as resume:
+            chats.inspect(state, {locale: row}, {locale: []}, launch=True)
+        resume.assert_not_called()
+        self.assertEqual(state[locale]["status"],
+                         "semantic-pass-complete-independent-review-needed")
+
 
 if __name__ == "__main__":
     unittest.main()
