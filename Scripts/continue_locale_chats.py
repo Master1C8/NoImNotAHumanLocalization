@@ -37,16 +37,21 @@ SESSIONS = {
 }
 
 
-def running_sessions():
-    output = subprocess.check_output(["ps", "-axo", "pid=,command="], text=True)
+def parse_running_sessions(output):
     running = {locale: [] for locale in SESSIONS}
     for line in output.splitlines():
-        match = re.match(r"\s*(\d+)\s+codex exec resume (?:--json )?([0-9a-f-]{36})(?:\s|$)", line)
+        match = re.match(r"\s*(\d+)\s+(?:\S*/)?codex exec resume "
+                         r"(?:--json )?([0-9a-f-]{36})(?:\s|$)", line)
         if match:
             for locale, session in SESSIONS.items():
                 if match.group(2) == session:
                     running[locale].append(int(match.group(1)))
     return running
+
+
+def running_sessions():
+    output = subprocess.check_output(["ps", "-axo", "pid=,command="], text=True)
+    return parse_running_sessions(output)
 
 
 def latest_turn_status(session):
