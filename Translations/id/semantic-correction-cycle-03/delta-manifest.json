@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 3,
+  "locale": "id",
+  "cycle": 3,
+  "previousReviewedClosurePath": "Translations/id/semantic-correction-cycle-02/closure.ids.txt",
+  "previousReviewedClosureSha256": "866056085ed9e8b8f4d4c6641843502f6204035cabb840d63c3367a8a6c92c5e",
+  "independentReviewPath": "Translations/id/independent-review-02/review.json",
+  "independentReviewSha256": "d189e7b2e5d43f4212ff7faf4bdffc175f07f24702f0a55e8da8f3c2d1cf3f05",
+  "currentClosureSha256": "6489d453612e70fcc1ace025df924d86ded7c968be4a74cc4db7187c9bec8eb2",
+  "counts": {
+    "corrected": 3,
+    "previousReviewed": 1433,
+    "currentClosure": 1414,
+    "newDependencies": 19,
+    "explicitlyInvalidatedPrior": 1,
+    "retiredDependencies": 38,
+    "exactNextReviewSet": 21
+  },
+  "formula": "corrected IDs union (current closure minus previous reviewed closure) union explicitly invalidated prior IDs",
+  "lists": {
+    "changed": {
+      "path": "Translations/id/semantic-correction-cycle-03/changed.ids.txt",
+      "sha256": "5d7436c80cefb9bd16291f384c0d2a857f33ecb9167774fdb02ed1077cbd5242",
+      "count": 3
+    },
+    "closure": {
+      "path": "Translations/id/semantic-correction-cycle-03/closure.ids.txt",
+      "sha256": "6489d453612e70fcc1ace025df924d86ded7c968be4a74cc4db7187c9bec8eb2",
+      "count": 1414
+    },
+    "new-dependencies": {
+      "path": "Translations/id/semantic-correction-cycle-03/new-dependencies.ids.txt",
+      "sha256": "b60223c9e564631eac93176e7d2a4153076ddf2727c97de2a2ad170c45520304",
+      "count": 19
+    },
+    "invalidated-prior": {
+      "path": "Translations/id/semantic-correction-cycle-03/invalidated-prior.ids.txt",
+      "sha256": "023adba28c216d27fe3d9920dff7d5438524b8b39edac67666f9fca6255d3377",
+      "count": 1
+    },
+    "retired-dependencies": {
+      "path": "Translations/id/semantic-correction-cycle-03/retired-dependencies.ids.txt",
+      "sha256": "3d6b984b6c0f24bee95fce1bb13080b1b036482eae71ece9b9225915a1cdbe2d",
+      "count": 38
+    },
+    "delta-review": {
+      "path": "Translations/id/semantic-correction-cycle-03/delta-review.ids.txt",
+      "sha256": "662678567b5bf8984d1df69b700277bf5c718140c7d7870437bcddcde26e7510",
+      "count": 21
+    }
+  },
+  "retiredRowsPath": "Translations/id/semantic-correction-cycle-03/retired-dependencies.jsonl",
+  "retiredRowsSha256": "e2c43951485273ab2f5f24e7a050f0a6379c0ac34033e9243b4ffd03c45fa473",
+  "closureReviewRowsSha256": "1052b6e325038bda3ebc8f243f2abe7b43eb9b585e279a8b37c80d322a54b255",
+  "deltaReviewRowsSha256": "5d3dae54699686b01c1fcc179159e643b2ce8ae554b53500a3bfb5d5ff1cd901",
+  "selectorRegressionSha256": "0d509ba1fc6116745ec624af9f5c7fb00658d52cafe448cb56b70d99be16a386",
+  "componentManifestSha256": "392aa756364629b1d1d53fc66c4ab9333d531f40e9bcaac6c6d249ec8179d09b"
+}

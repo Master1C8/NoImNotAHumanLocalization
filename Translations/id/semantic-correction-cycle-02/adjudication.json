@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "cycle": 2,
+  "status": "all nine independent findings adjudicated and accepted; before application",
+  "sourceLocale": "ru",
+  "gameVersion": "1.3.19",
+  "reviewer": "/root/id_independent_review_01",
+  "independentReviewSha256": "4916db2568fed60e3415f507088912792635154ab740770533f87cc2a89824cf",
+  "independentFindingsSha256": "43e50b86ad7948462a24a0464b79b6afd5c7da47a6cf452fa2a89a96ecee6371",
+  "consumerReviewSha256": "cfa2029a143d0f5c318436b676a77540c3c8358498e4e3dfe927f1320218f411",
+  "previousArtifactManifestSha256": "4bff923aeee2b2c9c24d641ff6ff2fb46dde643735b07bab211ec542026bdfa1",
+  "previousClosureSha256": "17769aec9c8dbaa420e415d87a03e6712c57c5dc359d2f11bf52e54ba8df52f8",
+  "sourceAndGlossary": [
+    {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    {
+      "path": "Source/preserve-exactly-v4.json",
+      "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+    },
+    {
+      "path": "Documentation/glossary-translations/id/layer.json",
+      "sha256": "79b176ff4a5809c55f8ad13d354b60874d094c542d3a77da0bb375446a4c5852"
+    }
+  ],
+  "accepted": 9,
+  "rejected": 0,
+  "preservedPriorDecisions": [
+    "UI source-order row 197: mimpi supported by BodyEater dream consumer; no edit",
+    "Cycle-01 finding 31 Fatman singular-object proposal rejected; no edit"
+  ],
+  "rows": [
+    {
+      "findingId": "ID-IR01-001",
+      "sourceOrderIndex": 211,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+      "source": "Подруга девочки",
+      "key": "phone_sub_DaughtersFriend",
+      "nodeNames": [],
+      "targetFile": "Translations/id/ui-batch-005.json",
+      "targetFileBeforeSha256": "6ff27515a8cef05d03712860f672375efd3123ecb05e72019a8b48d014926a31",
+      "before": "Teman si anak perempuan",
+      "proposal": "Teman perempuan si anak",
+      "decision": "accepted",
+      "after": "Teman perempuan si anak",
+      "reason": "The UI phone_sub_DaughtersFriend contact names the daughter’s female friend; the approved phone-numbers entry distinguishes her from the answering mother. The full noun label changes without naming the answering person.",
+      "glossaryConcepts": [
+        "phone-numbers",
+        "daughters-friends-mother"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-002",
+      "sourceOrderIndex": 230,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+      "source": "Явка в КЧС",
+      "key": "consumable_povistka_name",
+      "nodeNames": [],
+      "targetFile": "Translations/id/ui-batch-006.json",
+      "targetFileBeforeSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc",
+      "before": "Menghadap KChS",
+      "proposal": "Panggilan ke KChS",
+      "decision": "accepted",
+      "after": "Panggilan ke KChS",
+      "reason": "The UI consumable_povistka_name is the document item selected by LocalizeItem. Approved fema-notice distinguishes the item noun from commands to report to KChS; the latter retain their action wording.",
+      "glossaryConcepts": [
+        "fema-notice"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-003",
+      "sourceOrderIndex": 1194,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399234",
+      "source": "TV: И когда два брата выросли, вместе они основали пивоварню Бобер.",
+      "key": "line:tv_6_extra1_011808c",
+      "nodeNames": [
+        "tv_4_extra1"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-066.json",
+      "targetFileBeforeSha256": "828a88fe79c814290803d3ae917128894eb762850e0744af9d6221647d54ab73",
+      "before": "TV: Ketika kedua saudara itu dewasa, mereka mendirikan pabrik bir Bober bersama-sama.",
+      "proposal": "TV: Ketika kedua saudara laki-laki itu dewasa, mereka mendirikan pabrik bir Bober bersama-sama.",
+      "decision": "accepted",
+      "after": "TV: Ketika kedua saudara laki-laki itu dewasa, mereka mendirikan pabrik bir Bober bersama-sama.",
+      "reason": "The compiled tv_4_extra1 narration has two brothers founding the brewery. The replacement restores male siblinghood and keeps their number, adulthood, joint action and Bober name.",
+      "glossaryConcepts": [
+        "tv-beer-ad"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-004",
+      "sourceOrderIndex": 1196,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399232",
+      "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+      "key": "line:tv_6_extra1_0b352ba",
+      "nodeNames": [
+        "tv_4_extra1"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-066.json",
+      "targetFileBeforeSha256": "828a88fe79c814290803d3ae917128894eb762850e0744af9d6221647d54ab73",
+      "before": "TV: Dahulu kala, dua saudara tinggal di dekat bendungan.",
+      "proposal": "TV: Dahulu kala, dua saudara laki-laki tinggal di dekat bendungan.",
+      "decision": "accepted",
+      "after": "TV: Dahulu kala, dua saudara laki-laki tinggal di dekat bendungan.",
+      "reason": "The compiled tv_4_extra1 introduction names two brothers by the dam; the replacement preserves age neutrality and the dam setting.",
+      "glossaryConcepts": [
+        "tv-beer-ad"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-005",
+      "sourceOrderIndex": 4876,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456305582084",
+      "source": "Neighbour: Двоюродная сестра сказала, что оставаться дома одному – опасно.",
+      "key": "line:Neighbour_Entrance_4_04f63c4",
+      "nodeNames": [
+        "Neighbour_Entrance_4"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-004.json",
+      "targetFileBeforeSha256": "2d48bbdf74eb7dee39770fbf0af2a158d089d6f2a2fa8f38db79b9d6b1b4a36a",
+      "before": "Neighbour: Sepupuku bilang tinggal sendirian di rumah itu berbahaya.",
+      "proposal": "Neighbour: Sepupu perempuanku bilang tinggal sendirian di rumah itu berbahaya.",
+      "decision": "accepted",
+      "after": "Neighbour: Sepupu perempuanku bilang tinggal sendirian di rumah itu berbahaya.",
+      "reason": "The compiled Neighbour_Entrance_4 exchange specifies a female first cousin. The replacement keeps cousin degree and the warning about staying home alone.",
+      "glossaryConcepts": [
+        "neighbour"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-006",
+      "sourceOrderIndex": 5427,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449797",
+      "source": "Их накопилось столько, что шляпа гриба покроет всю поверхность Земли.",
+      "key": "line:Mushroom_end_2_039b8e9",
+      "nodeNames": [
+        "Mushroom_end_2"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-079.json",
+      "targetFileBeforeSha256": "9bac707bd221e3156f7e69d40dd6e0a0bda4c4606688fc130026971e59a117c9",
+      "before": "Jamur-jamur itu sudah begitu banyak sampai tudung jamur raksasa akan menutupi seluruh permukaan Bumi.",
+      "proposal": "Gumpalan kebencian itu sudah begitu banyak sampai tudung jamur itu akan menutupi seluruh permukaan Bumi.",
+      "decision": "accepted",
+      "after": "Gumpalan kebencian itu sudah begitu banyak sampai tudung jamur itu akan menutupi seluruh permukaan Bumi.",
+      "reason": "In compiled Mushroom_end_2, the immediately preceding line names clumps of malice in the mycelium. Их refers to those clumps; the mushroom cap and Earth consequence remain.",
+      "glossaryConcepts": [
+        "mycelium",
+        "mushroom-festival"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-007",
+      "sourceOrderIndex": 5675,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456020369412",
+      "source": "Я – непризнанный брат, отщепенец в народной семье.",
+      "key": "line:Death_Income_5_01a757a",
+      "nodeNames": [
+        "Death_Income_5"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-055.json",
+      "targetFileBeforeSha256": "41e96512e82f21611c57525475f560858a266dc7da1cca91ea122433dfdc92d5",
+      "before": "Aku saudara yang tak diakui, orang buangan dalam keluarga rakyat.",
+      "proposal": "Aku saudara laki-laki yang tak diakui, orang buangan dalam keluarga rakyat.",
+      "decision": "accepted",
+      "after": "Aku saudara laki-laki yang tak diakui, orang buangan dalam keluarga rakyat.",
+      "reason": "The Death_Income_5 utterance uses a male-brother metaphor; the approved death entry explicitly preserves that metaphor without fixing the entity’s biological gender.",
+      "glossaryConcepts": [
+        "death"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-008",
+      "sourceOrderIndex": 6274,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "key": "line:Bald_Asking_4_0fa8dc8",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-119.json",
+      "targetFileBeforeSha256": "76c2edd8b5e164f4a5d643f148549d33dc58833c468e1af9531146334b09f68e",
+      "before": "Bald: Entah bagaimana aku pulang. Pintunya terbuka. Semuanya berantakan. Ibu dan Nenek tergeletak dengan… sial… jari-jari dan kaki yang patah, dan…",
+      "proposal": "Bald: Suatu kali aku pulang. Pintunya terbuka. Semuanya berantakan. Ibu dan Nenek tergeletak dengan… sial… jari-jari dan kaki yang patah, dan…",
+      "decision": "accepted",
+      "after": "Bald: Suatu kali aku pulang. Pintunya terbuka. Semuanya berantakan. Ibu dan Nenek tergeletak dengan… sial… jari-jari dan kaki yang patah, dan…",
+      "reason": "Bald_Asking_4 narrates one return home after the debt-collector escalation. как-то marks one occasion, not uncertainty about his journey. Mother and grandmother, injuries and interruption remain.",
+      "glossaryConcepts": [
+        "theater-man"
+      ]
+    },
+    {
+      "findingId": "ID-IR01-009",
+      "sourceOrderIndex": 14807,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798979",
+      "source": "Bestson: Поэтому у неё зубы испортились после меня, а у меня, наоборот, они стали вот такими вот хорошенькими! Только эти дёсны…",
+      "key": "line:Bestson_Teeth_DontShoot_04e0a97",
+      "nodeNames": [
+        "Bestson_Teeth_DontShoot"
+      ],
+      "targetFile": "Translations/id/dialogue-batch-228.json",
+      "targetFileBeforeSha256": "c3edc07f3fc386c1491ef731ac66ff169a34208bf7ad9464805c507cebe5b2d4",
+      "before": "Bestson: Jadi gigi Ibu rusak setelah aku, sedangkan gigiku justru tumbuh bagus seperti ini! Hanya gusinya…",
+      "proposal": "Bestson: Jadi gigi Ibu rusak setelah Ibu menyusuiku, sedangkan gigiku justru tumbuh bagus seperti ini! Hanya gusinya…",
+      "decision": "accepted",
+      "after": "Bestson: Jadi gigi Ibu rusak setelah Ibu menyusuiku, sedangkan gigiku justru tumbuh bagus seperti ini! Hanya gusinya…",
+      "reason": "In the IsImposter arm of Bestson_Teeth_DontShoot, the immediately prior line says his mother breastfed him and jokes about calcium. The proposed after-breastfeeding clause restores that causal/temporal reference and retains the teeth/gums contrast.",
+      "glossaryConcepts": [
+        "best-son"
+      ]
+    }
+  ]
+}

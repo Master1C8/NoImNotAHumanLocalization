@@ -1,0 +1,1093 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": {
+    "LocalizationExtension.GetLocalization": [
+      {
+        "offset": 12,
+        "op": "call",
+        "operand": "MemberRef:get_StringDatabase"
+      },
+      {
+        "offset": 17,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 18,
+        "op": "call",
+        "operand": "MemberRef:op_Implicit"
+      },
+      {
+        "offset": 23,
+        "op": "ldnull",
+        "operand": null
+      },
+      {
+        "offset": 24,
+        "op": "callvirt",
+        "operand": "MemberRef:GetTable"
+      },
+      {
+        "offset": 29,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 30,
+        "op": "callvirt",
+        "operand": "MemberRef:GetEntry"
+      },
+      {
+        "offset": 35,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 36,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 37,
+        "op": "brtrue.s",
+        "operand": "67"
+      },
+      {
+        "offset": 39,
+        "op": "ldstr",
+        "operand": "Can't find "
+      },
+      {
+        "offset": 44,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 45,
+        "op": "ldstr",
+        "operand": " in "
+      },
+      {
+        "offset": 50,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 51,
+        "op": "call",
+        "operand": "MemberRef:Concat"
+      },
+      {
+        "offset": 56,
+        "op": "call",
+        "operand": "MemberRef:LogError"
+      },
+      {
+        "offset": 61,
+        "op": "ldstr",
+        "operand": "-"
+      },
+      {
+        "offset": 66,
+        "op": "ret",
+        "operand": null
+      },
+      {
+        "offset": 67,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 68,
+        "op": "callvirt",
+        "operand": "MemberRef:get_IsSmart"
+      },
+      {
+        "offset": 73,
+        "op": "brtrue.s",
+        "operand": "83"
+      },
+      {
+        "offset": 75,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 76,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 77,
+        "op": "callvirt",
+        "operand": "MemberRef:GetLocalizedString"
+      },
+      {
+        "offset": 82,
+        "op": "ret",
+        "operand": null
+      },
+      {
+        "offset": 83,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 84,
+        "op": "brfalse.s",
+        "operand": "90"
+      },
+      {
+        "offset": 86,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 87,
+        "op": "ldlen",
+        "operand": null
+      },
+      {
+        "offset": 88,
+        "op": "brtrue.s",
+        "operand": "97"
+      },
+      {
+        "offset": 90,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 91,
+        "op": "callvirt",
+        "operand": "MemberRef:GetLocalizedString"
+      },
+      {
+        "offset": 96,
+        "op": "ret",
+        "operand": null
+      },
+      {
+        "offset": 97,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 98,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 99,
+        "op": "callvirt",
+        "operand": "MemberRef:GetLocalizedString"
+      },
+      {
+        "offset": 104,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinController.Init": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 3,
+        "op": "stfld",
+        "operand": "Field:_saveData"
+      },
+      {
+        "offset": 8,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 9,
+        "op": "ldfld",
+        "operand": "Field:_saveData"
+      },
+      {
+        "offset": 14,
+        "op": "callvirt",
+        "operand": "MethodDef:get_UnlockedPhoneSubscribers [CloseUpSaveData]"
+      },
+      {
+        "offset": 19,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Count"
+      },
+      {
+        "offset": 24,
+        "op": "brtrue.s",
+        "operand": "38"
+      },
+      {
+        "offset": 26,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 27,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 32,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 33,
+        "op": "callvirt",
+        "operand": "MemberRef:SetActive"
+      },
+      {
+        "offset": 38,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinController.Create": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldfld",
+        "operand": "Field:_pins"
+      },
+      {
+        "offset": 18,
+        "op": "ldsfld",
+        "operand": "Field:<>9__5_0"
+      },
+      {
+        "offset": 23,
+        "op": "dup",
+        "operand": null
+      },
+      {
+        "offset": 24,
+        "op": "brtrue.s",
+        "operand": "49"
+      },
+      {
+        "offset": 26,
+        "op": "pop",
+        "operand": null
+      },
+      {
+        "offset": 27,
+        "op": "ldsfld",
+        "operand": "Field:<>9"
+      },
+      {
+        "offset": 32,
+        "op": "ldftn",
+        "operand": "MethodDef:<Create>b__5_0 [<>c]"
+      },
+      {
+        "offset": 38,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor"
+      },
+      {
+        "offset": 43,
+        "op": "dup",
+        "operand": null
+      },
+      {
+        "offset": 44,
+        "op": "stsfld",
+        "operand": "Field:<>9__5_0"
+      },
+      {
+        "offset": 49,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x10956f8b0>"
+      },
+      {
+        "offset": 54,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 55,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x10956f910>"
+      },
+      {
+        "offset": 60,
+        "op": "brfalse.s",
+        "operand": "63"
+      },
+      {
+        "offset": 62,
+        "op": "ret",
+        "operand": null
+      },
+      {
+        "offset": 63,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 64,
+        "op": "ldfld",
+        "operand": "Field:_saveData"
+      },
+      {
+        "offset": 69,
+        "op": "callvirt",
+        "operand": "MethodDef:get_UnlockedPhoneSubscribers [CloseUpSaveData]"
+      },
+      {
+        "offset": 74,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Count"
+      },
+      {
+        "offset": 79,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 80,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 81,
+        "op": "ldfld",
+        "operand": "Field:_pins"
+      },
+      {
+        "offset": 86,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 87,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 88,
+        "op": "sub",
+        "operand": null
+      },
+      {
+        "offset": 89,
+        "op": "ldelem.ref",
+        "operand": null
+      },
+      {
+        "offset": 90,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 91,
+        "op": "ldfld",
+        "operand": "Field:_subscribersNames"
+      },
+      {
+        "offset": 96,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 97,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Item"
+      },
+      {
+        "offset": 102,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 103,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 104,
+        "op": "ldfld",
+        "operand": "Field:_materials"
+      },
+      {
+        "offset": 109,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x10956f970>"
+      },
+      {
+        "offset": 114,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 115,
+        "op": "callvirt",
+        "operand": "MethodDef:Create [PhonePinView]"
+      },
+      {
+        "offset": 120,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 121,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 122,
+        "op": "ble.s",
+        "operand": "149"
+      },
+      {
+        "offset": 124,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 125,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 130,
+        "op": "callvirt",
+        "operand": "MemberRef:get_activeSelf"
+      },
+      {
+        "offset": 135,
+        "op": "brtrue.s",
+        "operand": "149"
+      },
+      {
+        "offset": 137,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 138,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 143,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 144,
+        "op": "callvirt",
+        "operand": "MemberRef:SetActive"
+      },
+      {
+        "offset": 149,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinController.CreateFromOld": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldfld",
+        "operand": "Field:_pins"
+      },
+      {
+        "offset": 18,
+        "op": "ldarg.3",
+        "operand": null
+      },
+      {
+        "offset": 19,
+        "op": "ldelem.ref",
+        "operand": null
+      },
+      {
+        "offset": 20,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 21,
+        "op": "ldfld",
+        "operand": "Field:_subscribersNames"
+      },
+      {
+        "offset": 26,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 27,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Item"
+      },
+      {
+        "offset": 32,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 33,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 34,
+        "op": "ldfld",
+        "operand": "Field:_materials"
+      },
+      {
+        "offset": 39,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x10956f970>"
+      },
+      {
+        "offset": 44,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 45,
+        "op": "callvirt",
+        "operand": "MethodDef:Create [PhonePinView]"
+      },
+      {
+        "offset": 50,
+        "op": "ldarg.3",
+        "operand": null
+      },
+      {
+        "offset": 51,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 52,
+        "op": "add",
+        "operand": null
+      },
+      {
+        "offset": 53,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 54,
+        "op": "ble.s",
+        "operand": "81"
+      },
+      {
+        "offset": 56,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 57,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 62,
+        "op": "callvirt",
+        "operand": "MemberRef:get_activeSelf"
+      },
+      {
+        "offset": 67,
+        "op": "brtrue.s",
+        "operand": "81"
+      },
+      {
+        "offset": 69,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 70,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 75,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 76,
+        "op": "callvirt",
+        "operand": "MemberRef:SetActive"
+      },
+      {
+        "offset": 81,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinController.ReinitSaveData": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 3,
+        "op": "stfld",
+        "operand": "Field:_saveData"
+      },
+      {
+        "offset": 8,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinController..ctor": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "call",
+        "operand": "MemberRef:.ctor"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinView.get_PhoneSubscriber": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldfld",
+        "operand": "Field:<PhoneSubscriber>k__BackingField"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinView.set_PhoneSubscriber": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 3,
+        "op": "stfld",
+        "operand": "Field:<PhoneSubscriber>k__BackingField"
+      },
+      {
+        "offset": 8,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinView.Create": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldarg.s",
+        "operand": "argument(0x0004)"
+      },
+      {
+        "offset": 15,
+        "op": "call",
+        "operand": "MethodDef:set_PhoneSubscriber [PhonePinView]"
+      },
+      {
+        "offset": 20,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 21,
+        "op": "call",
+        "operand": "MemberRef:get_gameObject"
+      },
+      {
+        "offset": 26,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 27,
+        "op": "callvirt",
+        "operand": "MemberRef:SetActive"
+      },
+      {
+        "offset": 32,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 33,
+        "op": "ldfld",
+        "operand": "Field:_nameText"
+      },
+      {
+        "offset": 38,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 39,
+        "op": "callvirt",
+        "operand": "MemberRef:set_StringReference"
+      },
+      {
+        "offset": 44,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 45,
+        "op": "ldfld",
+        "operand": "Field:_numberText"
+      },
+      {
+        "offset": 50,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 51,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 52,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 53,
+        "op": "callvirt",
+        "operand": "MemberRef:Substring"
+      },
+      {
+        "offset": 58,
+        "op": "ldstr",
+        "operand": "-"
+      },
+      {
+        "offset": 63,
+        "op": "ldarg.2",
+        "operand": null
+      },
+      {
+        "offset": 64,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 65,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 66,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 67,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 68,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Length"
+      },
+      {
+        "offset": 73,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 74,
+        "op": "sub",
+        "operand": null
+      },
+      {
+        "offset": 75,
+        "op": "callvirt",
+        "operand": "MemberRef:Substring"
+      },
+      {
+        "offset": 80,
+        "op": "call",
+        "operand": "MemberRef:Concat"
+      },
+      {
+        "offset": 85,
+        "op": "callvirt",
+        "operand": "MemberRef:set_text"
+      },
+      {
+        "offset": 90,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 91,
+        "op": "ldfld",
+        "operand": "Field:_pinMeshRenderer"
+      },
+      {
+        "offset": 96,
+        "op": "callvirt",
+        "operand": "MemberRef:get_materials"
+      },
+      {
+        "offset": 101,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 102,
+        "op": "ldarg.3",
+        "operand": null
+      },
+      {
+        "offset": 103,
+        "op": "stelem.ref",
+        "operand": null
+      },
+      {
+        "offset": 104,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhonePinView..ctor": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "call",
+        "operand": "MemberRef:.ctor"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "DialogCommandsInstance.GetCharacterOnPlace": [
+      {
+        "offset": 12,
+        "op": "newobj",
+        "operand": "MethodDef:.ctor [<>c__DisplayClass224_0]"
+      },
+      {
+        "offset": 17,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 18,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 19,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 20,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 21,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x109597a90>"
+      },
+      {
+        "offset": 26,
+        "op": "stfld",
+        "operand": "Field:character"
+      },
+      {
+        "offset": 31,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 32,
+        "op": "ldsfld",
+        "operand": "Field:_instance"
+      },
+      {
+        "offset": 37,
+        "op": "ldfld",
+        "operand": "Field:_charactersSODataProvider"
+      },
+      {
+        "offset": 42,
+        "op": "callvirt",
+        "operand": "MethodDef:get_CharactersData [ICharactersSODataProvider]"
+      },
+      {
+        "offset": 47,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 48,
+        "op": "ldftn",
+        "operand": "MethodDef:<GetCharacterOnPlace>b__0 [<>c__DisplayClass224_0]"
+      },
+      {
+        "offset": 54,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor"
+      },
+      {
+        "offset": 59,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x10954faf0>"
+      },
+      {
+        "offset": 64,
+        "op": "stfld",
+        "operand": "Field:characterData"
+      },
+      {
+        "offset": 69,
+        "op": "ldstr",
+        "operand": "characterName_"
+      },
+      {
+        "offset": 74,
+        "op": "ldsfld",
+        "operand": "Field:_instance"
+      },
+      {
+        "offset": 79,
+        "op": "ldfld",
+        "operand": "Field:_charactersManager"
+      },
+      {
+        "offset": 84,
+        "op": "callvirt",
+        "operand": "MethodDef:get_CharactersInside [ICharactersManager]"
+      },
+      {
+        "offset": 89,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 90,
+        "op": "ldftn",
+        "operand": "MethodDef:<GetCharacterOnPlace>b__1 [<>c__DisplayClass224_0]"
+      },
+      {
+        "offset": 96,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor"
+      },
+      {
+        "offset": 101,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x109597af0>"
+      },
+      {
+        "offset": 106,
+        "op": "stloc.1",
+        "operand": null
+      },
+      {
+        "offset": 107,
+        "op": "ldloca.s",
+        "operand": "local(0x0001)"
+      },
+      {
+        "offset": 109,
+        "op": "constrained.",
+        "operand": "TypeDef:ECharacterType"
+      },
+      {
+        "offset": 115,
+        "op": "callvirt",
+        "operand": "MemberRef:ToString"
+      },
+      {
+        "offset": 120,
+        "op": "call",
+        "operand": "MemberRef:Concat"
+      },
+      {
+        "offset": 125,
+        "op": "ldstr",
+        "operand": "UI"
+      },
+      {
+        "offset": 130,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.mdtable.MethodSpecRow object at 0x109528070>"
+      },
+      {
+        "offset": 135,
+        "op": "call",
+        "operand": "MethodDef:GetLocalization [LocalizationExtension]"
+      },
+      {
+        "offset": 140,
+        "op": "ret",
+        "operand": null
+      }
+    ]
+  }
+}

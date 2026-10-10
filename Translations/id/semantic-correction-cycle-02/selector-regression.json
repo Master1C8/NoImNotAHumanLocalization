@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "locale": "id",
+  "cycle": 2,
+  "status": "selector regression assertions passed; semantic review pending",
+  "cases": [
+    {
+      "name": "notice-noun-versus-order-variants",
+      "result": "passed",
+      "requiredCount": 245
+    },
+    {
+      "name": "mushroom-pronoun-antecedent",
+      "result": "passed",
+      "requiredCount": 1
+    },
+    {
+      "name": "bestson-breastfeeding-cause",
+      "result": "passed",
+      "requiredCount": 1
+    },
+    {
+      "name": "beer-ad-intervening-line",
+      "result": "passed",
+      "requiredCount": 1
+    }
+  ],
+  "priorDecisions": [
+    "BodyEater UI uses mimpi",
+    "Fatman singular-object candidate rejected"
+  ],
+  "sourceVariantRule": "Notice явка/явку/явки, brother брат/братья, sister двоюродная/сестра, mushroom гриб/мицелий/комки, and dental зуб/дёсны/кальций/грудь are covered by explicit source patterns and scene topology."
+}

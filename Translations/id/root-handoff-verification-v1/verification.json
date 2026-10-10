@@ -1,0 +1,132 @@
+{
+  "status": "VERIFIED offline evidence; acceptance schema adapter required",
+  "reviewer": "/root/id_final_handoff_verification",
+  "handoff": {
+    "path": "Translations/id/final-gate/root-handoff.json",
+    "sha256": "9e6389bfa745f4f87036a1ff133e57e08480e9adcf590ed20abbdc2244785621"
+  },
+  "gateReceipt": {
+    "path": "Translations/id/final-gate/gate-receipt.json",
+    "sha256": "4a28566262377d59c0f7afd486c1f540e04a0b2196cd84bbae1e0fe5a8287046"
+  },
+  "firstSemantic": {
+    "parts": 35,
+    "contiguousSourceAlignedRows": 16538,
+    "proof": "all complete source/target evidence rows plus exact reconstruction through all adjudicated full-unit replacements"
+  },
+  "corrections": {
+    "cycles": [
+      83,
+      9,
+      3
+    ],
+    "totalAccepted": 95,
+    "finalReconstructedTargetsExact": 16538
+  },
+  "independent": {
+    "freshCurrentDelta": 21,
+    "exactApplicablePriorDecisions": 1393,
+    "closure": 1414,
+    "priorClosure": 1433,
+    "retired": 38,
+    "closureSha256": "6489d453612e70fcc1ace025df924d86ded7c968be4a74cc4db7187c9bec8eb2",
+    "deltaSha256": "662678567b5bf8984d1df69b700277bf5c718140c7d7870437bcddcde26e7510",
+    "transitivePriorDecisionHashesVerified": true
+  },
+  "mandatory": {
+    "count": 845,
+    "fresh": 10,
+    "prior": 835,
+    "proof": "finalizer reproduces groups and decision-mode/source/target checks; reused decisions separately traced to actual independent predecessors"
+  },
+  "static": {
+    "rows": 178,
+    "phraseMap": 75,
+    "creditsRoleMap": 81,
+    "byteExactDerivationReplayed": true
+  },
+  "preserveExact": {
+    "rows": 16538,
+    "reportSha256": "6c3a892f366b178ff35b2413b20b6bf910ef59fc748476d055596dede04c03e4",
+    "byteIdenticalReplay": true
+  },
+  "pins": {
+    "distinctPaths": 948,
+    "checksBeforeFinalRecheck": 2053,
+    "finalRecheckCount": 948,
+    "authored": 332,
+    "sidecars": 332,
+    "allPinnedBytesUnchanged": true
+  },
+  "integration": {
+    "path": "Translations/id/final-gate/integration-set.json",
+    "sha256": "833488f5957557e1f53d70a59ae306dc02324a6a365ad11e0e49085e1015fc2a",
+    "paths": 936,
+    "canonicalPathHashLineSha256": "c64ae92465368dd9876b40cc00c04a666e79ef5f701cfee3c77a00ef416c771f",
+    "authorHandoffAdditionalSelfFileVerified": true,
+    "newVerifierArtifactsExcludedFromOriginalManifest": true
+  },
+  "administrativeReconciliation": [
+    {
+      "path": "Translations/id/correction-progress.json",
+      "beforeSnapshot": "Translations/id/final-gate/preimages/correction-progress.json.before",
+      "beforeSha256": "d6e0b1c55131a70b307db59613554fef39fbcbcc6225b5d2171645bd332f355a",
+      "afterSha256": "8315b0045ac8bae41bbe9bc996a3c5a9ed5f1dce78bf69ebd3f0ead15c912550",
+      "modifiedFields": [
+        "editorialAcceptance",
+        "finalGate",
+        "independentDeltaFindings03",
+        "independentDeltaReview",
+        "independentDeltaReviewedUnits03",
+        "independentDeltaReviewer03",
+        "nextAction",
+        "rootHandoffPath",
+        "stage",
+        "unresolvedObjectiveFindings"
+      ]
+    },
+    {
+      "path": "Translations/id/semantic-review-progress.json",
+      "beforeSnapshot": "Translations/id/final-gate/preimages/semantic-review-progress.json.before",
+      "beforeSha256": "d83fc2ce20106fe29ba5ccb8a683017f4922351d7a04f9c2290e7ad10b1e2cdd",
+      "afterSha256": "fc3597542e909a038b781f861186c91447f5d5e901eb5e9ed8843f4228c0fd9e",
+      "modifiedFields": [
+        "correctionCycleProgressSha256",
+        "editorialAcceptance",
+        "finalGateReceiptFile",
+        "finalGateReceiptSha256",
+        "independentDeltaFindings03",
+        "independentDeltaReviewedUnits03",
+        "independentDeltaReviewer03",
+        "independentDiffReview",
+        "unresolvedObjectiveFindings"
+      ]
+    },
+    {
+      "path": "Translations/id/STATUS.md",
+      "beforeSnapshot": "Translations/id/final-gate/preimages/STATUS.md.before",
+      "beforeSha256": "9b3aa3d99f3f5dfa476adb19b3ed99fe29553ce9efd0600415bafdfbcf842f54",
+      "afterSha256": "d1142ab455cd796e1e3e3b0e8a8ce9d918767f72c6ad8e596829aa49602f246a",
+      "modifiedFields": [
+        "current final-gate narrative, historical cycle-03 heading, editorial stage row"
+      ]
+    }
+  ],
+  "acceptanceContract": {
+    "current_text": "passed on actual current corpus and sidecars",
+    "accepted_inputs": "passed on actual evidence/pins with in-memory synthesized acceptance; no acceptance receipt written",
+    "normalizationRequired": [
+      "structural to exact {rows:16538,result:passed}",
+      "derivedStatic to exact {rows:178,result:passed}"
+    ],
+    "originalAuthorHandoffPreserved": true
+  },
+  "substantiveFindings": [],
+  "boundaries": [
+    "No semantic audit restart or new full corpus model reading",
+    "No runtime, dynamic VM substitution, rendering, fonts, build, installation or release verification",
+    "No acceptance decision or Git integration performed",
+    "Glossary comparison is local canonical parity; no CMS/network check"
+  ],
+  "telemetry": "Coordinator collects actual session telemetry afterward; no exposed per-request counters here."
+}

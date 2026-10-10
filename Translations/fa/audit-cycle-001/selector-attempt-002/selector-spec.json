@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "locale": "fa",
+  "cycle": 1,
+  "contextNodeFamilyPrefixes": [
+    "Fatman_Entrance_Occupied",
+    "Buddy_Entrance_Occupied",
+    "Neighbour_Entrance_2",
+    "Neighbour_Entrance_3",
+    "Neighbour_Entrance_4",
+    "Fanatic_Eyes",
+    "Fanatic_Ears",
+    "Intruder_Hands",
+    "Ballerina_Photo"
+  ],
+  "sourceConceptPatterns": [
+    "дыр|копа|пещер|Dig hole",
+    "растаман|дред|музыкант|загар|дёрган",
+    "дисп|спасени",
+    "утилиз|мешк.*труп|фоторобот|задержанн",
+    "двоюродн|маньяк|засвет|блик|умыв|помыться|мыться|слизняк|самосуд|фляг|жвачк|отстрел",
+    "стреляться|танцуюсь|фотографир|снимк|греет местечко|пиздиться|ванну|чмошник",
+    "прокаж[её]н|переждать|в чей-нибудь|о[бт]ражени"
+  ],
+  "targetConceptFragments": [
+    "چاله",
+    "حفره",
+    "قاتل زنجیره‌ای",
+    "بازتاب نور",
+    "نورزدگی",
+    "صورتم را بشویم",
+    "خودم را بشویم",
+    "مرکز فرماندهی",
+    "هماهنگ‌کننده",
+    "دخترِ یکی از بستگان نزدیکم",
+    "دخترِ یکی از خواهرها یا برادرهای پدر و مادرم",
+    "از من عکس نگرفته‌اند",
+    "مثل یک دیوانه",
+    "به خودم شلیک کنم"
+  ],
+  "mandatoryRegression": "all accepted UI and supplemental static IDs, all whole-text-exact IDs, and all accepted strings with runtime placeholders or markup",
+  "runtimeBinding": "all accepted strings with runtime placeholders, plus accepted lines in occupied-resident Yarn nodes",
+  "ordering": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "hashFormat": "UTF-8 stable IDs, one per line, final LF"
+}

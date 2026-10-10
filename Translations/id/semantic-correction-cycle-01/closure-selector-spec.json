@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "cycle": 1,
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "staticInventorySha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "preserveExactlySha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossaryLayerSha256": "79b176ff4a5809c55f8ad13d354b60874d094c542d3a77da0bb375446a4c5852",
+  "canonicalOrder": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "idListConvention": "UTF-8 LF, one stable ID per line, final LF when nonempty",
+  "changed": "accepted adjudication rows only",
+  "context": "all accepted IDs sharing at least one exact nodeNames value with a changed ID; all UI rows also supplied by mandatory regression",
+  "repetitions": "all accepted IDs whose Russian source value equals one of the changed IDs Russian source values",
+  "glossaryReferentsSourceRegex": {
+    "kinshipAndChildAge": "(?i)\\b(?:брат\\w*|сестр\\w*|доч\\w*|девоч\\w*)\\b",
+    "bodyPartReferents": "(?i)\\b(?:глаз\\w*|зуб\\w*|рук\\w*|ладон\\w*|пальц\\w*)\\b",
+    "aloneVersusLonely": "(?i)\\b(?:одинок\\w*|один\\w*)\\b",
+    "mushroomClue": "(?i)\\bгриб\\w*\\b",
+    "earAndEarwax": "(?i)\\b(?:ух(?:о|а|е|ом)|уш(?:и|ей|ам|ах|ами)|сер(?:а|ы|у|ой))\\b"
+  },
+  "glossaryReferentsRule": "union of all accepted source rows matching any family; spelling variants and inflections are explicit in the regex; this targets the affected age/kinship, body-part, alone/lonely, mushroom and earwax risks",
+  "runtimeBindings": "changed or context IDs with protected format slots, tags, whole-exact text, literal substrings, line breaks or trailing whitespace, plus changed/context UI and ChecksDialogs IDs; actual game runtime not executed",
+  "mandatoryRegressionGroups": [
+    "all UI/menu/HUD/locale/save/input IDs",
+    "all selected static TMP/credits/environment IDs",
+    "selected ChecksDialogs ID",
+    "all protected syntax/symbol IDs",
+    "gender/kinship/address IDs from affected scenes and full kinship/child-age concept family",
+    "all corrected targets containing Cyrillic"
+  ],
+  "characterSourcePronounRegex": "(?i)\\b(?:он|она|её|его|ей|ему|вы|вас|вам|ваш\\w*|ты|тебя|тебе|твой\\w*)\\b",
+  "components": "union of changed, context, repetitions, glossary-referents, runtime-bindings, mandatory-regressions; no unaccepted source candidates"
+}

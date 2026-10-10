@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "locale": "fa",
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "localizationType": "standard",
+  "scope": "Text only; images and textures excluded by the owner",
+  "stage": "editorial",
+  "processBinding": "shared-standard-v1",
+  "inputs": {
+    "sourceInventory": "Documentation/localization-source-inventory-v3.json",
+    "sourceInventorySha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782",
+    "acceptedScope": "Documentation/text-source-acceptance-v1.json",
+    "acceptedScopeSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+    "sourceStringsSha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+    "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+    "preserveExactlyManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+    "persianGlossaryLayer": "Documentation/glossary-translations/fa/layer.json",
+    "persianGlossaryLayerSha256": "1246ba4274e7fb3d999cdf3a0e97f358fefc717feb5c8a25ff0ecc11ebad44ca",
+    "glossaryEntries": 201,
+    "glossaryStatus": "editorially accepted in existing canonical review; no glossary changes in this text task",
+    "originalAssetPinCheck": "All 6 sourcePins and 16 staticTextSourcePins matched the mounted original game files in the preceding checkpoint pass; current source inventory, accepted scope and glossary hashes were rechecked before resuming."
+  },
+  "coverage": {
+    "denominator": 16538,
+    "denominatorComponents": {
+      "Dialogs": 16100,
+      "UI": 259,
+      "ChecksDialogs": 1,
+      "supplementalStaticTMP": 178
+    },
+    "authoredAndStructurallyValid": 16538,
+    "authoredPercent": 100.0,
+    "remaining": 0,
+    "semanticAudited": 16538,
+    "editoriallyAccepted": 0,
+    "uiAuthored": 259,
+    "uiTotal": 259,
+    "dialogueAuthored": 16100,
+    "dialogueTotal": 16100,
+    "checksDialogueAuthored": 1,
+    "supplementalStaticAuthored": 178
+  },
+  "authoredArtifacts": {
+    "uiBatches": "Translations/fa/ui-batch-001.json through ui-batch-008.json",
+    "dialoguePhraseMap": "Translations/fa/common-options-001.authored.json",
+    "dialoguePhraseMapSha256": "a5aa8b7a9540b83c299899fc208bf1b8776066c31d6d8fb4d89639886cc4c7c1",
+    "dialogueBatches": "Translations/fa/dialogue-batch-001.json through dialogue-batch-409.json",
+    "checksBatch": "Translations/fa/checks-batch-001.json",
+    "staticPhraseMap": "Translations/fa/static-phrase-map.json",
+    "staticPhraseMapSha256": "238920f07528eb9f5a18094e86583939e8c268cd465ed3e39b1f18c5f41f3405",
+    "creditsRoleMap": "Translations/fa/credits-role-map.json",
+    "creditsRoleMapSha256": "9114367d684b8ae6ab7d465b9097ae1807f14305a92055d2f077aadba639bbcb",
+    "staticDraft": "Translations/fa/static-text-draft.json",
+    "staticDraftSha256": "5e1852a7e60c4b15ab1472fb338393f39c7452c8a210e0493dba428465254288",
+    "batchSetSha256": "0081fc20013c2224d34c452755d7d8ed96fd28ec17f6894864352dedb092931f",
+    "batchSetHashFormat": "SHA-256 of sorted relative batch path, tab, file SHA-256, LF per batch",
+    "preserveExactPreflight": "Translations/fa/preserve-exact-preflight.json",
+    "preserveExactPreflightSha256": "9235208527155978d3daa1a8783c26f85f1aad267de8afa0bd75e7a69e317460",
+    "alignmentTriage": "Translations/fa/alignment-triage.json",
+    "alignmentTriageSha256": "2cefb4be4e831dcdd320943a2c9c54b37464b2e93f837eaedc5d5ec80a17e7b6",
+    "semanticReviewProgress": "Translations/fa/semantic-review-progress.json",
+    "semanticReviewProgressSha256": "377c2b491da43424768b3e762668c2537331c43d58960b8db3eccd36966e9ed3",
+    "correctionCycle1": "Translations/fa/audit-cycle-001/",
+    "correctionCycle1ClosureSha256": "9dc68ec942a7ae9a0f12326bf64b78673942b93fa5777f902584668644c1f8e4",
+    "correctionCycle1GateSha256": "6add4a6ff767e4428fca46fec1ce78aeb8b00c63cd9ec37c6fd6be839de6d394",
+    "correctionCycle2": "Translations/fa/audit-cycle-002/",
+    "correctionCycle2ClosureSha256": "930ac081e5402688bc782a180bee590151059d118a1c08339b24707785d6a7d1",
+    "correctionCycle2GateSha256": "ee1bfc762b8eb65024ad7ad8a6ece662ce04d46b1ca9de4e1223644aec348f4c",
+    "independentReview01VerdictSha256": "eb6a7133a22261ffd846f1bbdfb527d7bdce348d77a7e3a769a454af646aac4f",
+    "correctionCycle3": "Translations/fa/audit-cycle-003/",
+    "correctionCycle3ClosureSha256": "fb969d69f9672e9919f0cde3cf190393bb1955bda1081dbcd408769df6034958",
+    "correctionCycle3GateSha256": "5f60ac25ec627581dc5e0485e24c92eff129017b53b155f0806039f047e768cc",
+    "independentReview02VerdictSha256": "f78307320938f63c66ddb32e121f52465622a29fe2c36a6d3633262f8f82ccde"
+  },
+  "checks": {
+    "uiInventorySet": "259 unique IDs exactly match the 259 original UI records",
+    "batchStructure": "All 418 current batch sidecars match current authored hashes and pass; cycle-3 batch 348 was revalidated after its one full-unit correction.",
+    "dialogueExpansion": "Scripts/expand_exact_text_batch.py --verify reproduced unchanged dialogue-batch-001.json (2,841 IDs from 34 authored phrases) after cycle-2 corrections.",
+    "staticStructure": "Static draft validator passed all 178 accepted fields; the revised 75-phrase map regenerated all 177 mapped accepted static rows and changed exactly the two planned button labels.",
+    "protectedValues": "Cycle-3 full deterministic gate checked all 16,538 accepted IDs against Source/preserve-exactly-v4.json; full .venv readiness --exact reported fa 16,538/16,538 validated, observed 16,538, problems 0.",
+    "semanticReview": "Complete first pass remains 16,538/16,538 on unchanged source/glossary. Review02 read the exact 1,408-ID cycle-2 delta; all five prior corrections passed and one new aunt-side finding was applied by the author in cycle 3. Author validation is not independent acceptance.",
+    "independentDiffReview": "Review02 verdict: one objective finding, clean gate failed. Cycle-3 closure 946; exact 18-ID delta awaiting a distinct reviewer. No final editorial acceptance.",
+    "fontAndShaping": "not-run on the authored Persian text",
+    "build": "not-run",
+    "runtime": "not-run on the authored Persian text; earlier shared menu/selector probe is partial",
+    "visual": "not-run",
+    "publication": "not-authorized",
+    "alignmentTriage": "Scripts/audit_translation_alignment.py fa checked 16,360 table rows and found 0 heuristic length outliers; this is not a semantic review."
+  },
+  "deliberatelyUnchangedVisibleText": "Language self-names in UI batch 007 retain their own scripts so users can recognize languages; ellipsis-only dialogue options retain the source punctuation. Static technical identifiers, key labels, numerals, formatting tokens and names are preserved where translation would alter their function or provenance. Foreigner postcard utterances in dialogue batch 184 and Latin keyboard-layout garble in dialogue batches 210–211 and 337 retain source text exactly; their intelligibility and scene function need review in the complete semantic pass.",
+  "integration": "Pending shared Git commit coordinator. This locale task has not staged, committed, pushed, published or deployed anything.",
+  "checkpoint": {
+    "newlyValidatedDialogueBatches": "Translations/fa/dialogue-batch-391.json through dialogue-batch-409.json",
+    "newlyValidatedDialogueRows": 614,
+    "lastValidatedBatchSha256": "2581d4aacefdb8ff2376d98b861048927ed307f60736403d245bee3379d3cc96",
+    "firstRemainingDialogueId": null,
+    "firstRemainingNode": null,
+    "batchReceipts": "All 418 current batch receipts match their batch SHA-256 and row counts; 16,100 unique authored dialogue IDs exactly match the pinned 16,100-ID inventory. Dialogue batch 001 is the common-options expansion and precedes later batches in file order rather than source order.",
+    "draftSemanticWatchlist": [
+      {
+        "id": 110504456737595402,
+        "reason": "Russian source has the deliberately unusual phrase 'отдельному человеку перестало умирать'; verify Persian interpretation in the complete semantic pass."
+      },
+      {
+        "id": 110504456565628935,
+        "reason": "Russian self-label 'балетка' is unusual; verify that the Persian ballet wording retains the intended quirk in scene context."
+      },
+      {
+        "id": 110504456339136521,
+        "reason": "SuperFake quotes an unusual Russian clause about conscience and teeth; review the Persian wording against full scene context."
+      },
+      {
+        "id": 110504456280416262,
+        "reason": "Widow's fragment 'Всем было не насрать' completes the preceding conditional thought; review the Persian double-negative and grief tone in scene context."
+      },
+      {
+        "id": 110504456305582084,
+        "reason": "Russian 'двоюродная сестра' leaves the parental side unspecified, whereas the separate branch says 'сестра'; confirm the parental-side-neutral kinship phrasing and keep those branches distinct. The same cousin reference recurs at IDs 110504456297193480 and 110504456297193473."
+      },
+      {
+        "id": 110504456225890310,
+        "reason": "The Prophet's book quote spans three IDs and has ambiguous Russian genitives in the middle line; review the Persian two-person memory reading in sequence."
+      },
+      {
+        "id": 110504456129421321,
+        "reason": "Russian 'И он довёл её' has an ambiguous antecedent; review the Persian reading against the surrounding ending scene."
+      },
+      {
+        "id": 110504456087478281,
+        "reason": "Russian 'по ним' has an ambiguous referent; review the Persian wording in the full scene context."
+      },
+      {
+        "id": 110504456053923852,
+        "reason": "Unusual poetic Russian image in the ending; review the Persian image and tone with adjacent lines."
+      },
+      {
+        "id": 110504456045535241,
+        "reason": "The cultist priest says 'мы накрыли Олуна' while discussing names for the dead; verify the intended action and the transliteration of Олуна in scene context."
+      },
+      {
+        "id": 110504456024563716,
+        "reason": "Death's line about a disguised person and 'my brick' is surreal; review the Persian metaphor in the complete Death encounter."
+      },
+      {
+        "id": 110504456007786506,
+        "reason": "Death describes a corridor ending in a 'счётчик'; verify the intended counter or meter against adjacent dialogue."
+      },
+      {
+        "id": 110504455965843459,
+        "reason": "Esenin poem uses intentionally unusual sound imagery and nonstandard Russian spelling; review the Persian quatrain as a complete sequence in its scene."
+      },
+      {
+        "id": 110504455940677638,
+        "reason": "The player option has strong Russian profanity and a dismissive tone; confirm the Persian register against the adjacent WheelChair branches. The same source option recurs at ID 110504455940677634."
+      },
+      {
+        "id": 110504455902928897,
+        "reason": "Alt's 'пердёж в банке' is a coarse metaphor for an overpriced scam item; verify the Persian literal joke and its antecedent in scene context."
+      },
+      {
+        "id": 110504455907123208,
+        "reason": "Alt's 'оно' refers back to the police report; verify the Persian singular referent in the surrounding account."
+      },
+      {
+        "id": 110504455890345990,
+        "reason": "FunnyGuy speculates about either a Visitors den or emergency-committee laboratories; review both alternatives and his deliberately joking tone in the full mortgage scene."
+      },
+      {
+        "id": 110504455860985865,
+        "reason": "Fairytaller uses a May-thunderstorm image; verify the Persian seasonal wording and fairy-tale cadence with adjacent lines."
+      },
+      {
+        "id": 110504455852597250,
+        "reason": "Russian снегири are bullfinches; verify the Persian bird designation and keep it consistent throughout the fairy tale."
+      },
+      {
+        "id": 110504455848402946,
+        "reason": "The source calls children прокажённые in a stigmatizing account; preserve the reported label without asserting a confirmed leprosy diagnosis, as the approved glossary requires."
+      },
+      {
+        "id": 110504455823237129,
+        "reason": "Nervous stutters in several lines and reports a school fight and death; review Persian stutter placement and the sequence of agency, intent and aftermath across the full scene."
+      },
+      {
+        "id": 110504455810654216,
+        "reason": "Bald repeats a rhyming chastushka refrain in four locations; check the Persian sound-play and identical wording with IDs 110504455806459914, 110504455802265612 and 110504455802265603."
+      },
+      {
+        "id": 110504455798071304,
+        "reason": "Tough recounts going upstairs to a man who lied about his mother; review sequence and implied violence without adding facts not voiced in the source."
+      },
+      {
+        "id": 110504455777099776,
+        "reason": "Jacket fears a hypothetical emergency-committee agent might be his brother; verify the Persian conditional and recruitment-versus-quarantine distinction throughout the scene."
+      },
+      {
+        "id": 110504455756128262,
+        "reason": "Experienced uses a prison-barracks wooden cupboard proverb with literal numeral 20; review the Persian metaphor, prison register and protected numeral."
+      },
+      {
+        "id": 110504455739351051,
+        "reason": "Experienced uses 'банан' as a sexual euphemism while joking about his underwear; review the Persian literal image and tone in context."
+      },
+      {
+        "id": 110504455739351041,
+        "reason": "Experienced uses a vegetable insult after the player calls people vegetables; check that Persian تربچه keeps the wordplay and prison slang in context."
+      },
+      {
+        "id": 110504455714185225,
+        "reason": "Experienced crudely suggests an elderly resident might die after entry; review the Persian coarse joke together with the next line about a death charge."
+      },
+      {
+        "id": 110504455709990917,
+        "reason": "Rocker names overdose and a bath with a blade, then likens his trajectory to a cliff; review the Persian account for directness without adding intent or outcome."
+      },
+      {
+        "id": 110504455672242183,
+        "reason": "Unstable reports two men in a bar, one unusually tall; review Persian pronoun antecedents across the slap and climb sequence."
+      },
+      {
+        "id": 110504455663853573,
+        "reason": "Foreigner's three postcard lines use Latin keyboard-layout garble resembling the adjacent Russian Player alternatives; the current draft preserves source-visible garble exactly. Verify whether any target-language adaptation is needed without making his speech intelligible by accident. Related IDs: 110504455663853572, 110504455663853571."
+      },
+      {
+        "id": 110504455655464965,
+        "reason": "Ballerina's 'она' is unnamed in the line; keep the Persian antecedent ambiguous until the full scene resolves it."
+      },
+      {
+        "id": 110504455542218762,
+        "reason": "Teacher's 'Для меня одно решение' and the later 'покончить' imply despair without naming a concrete act; confirm the Persian ambiguity across the whole exchange."
+      },
+      {
+        "id": 110504455533830156,
+        "reason": "Teacher's repeated 'Это не первые тёмные времена для всех' is unusual Russian; check the quantifier and repeated Persian choice in the complete semantic pass."
+      },
+      {
+        "id": 110504455512858625,
+        "reason": "FatalDame's 'видения' could mean a vision rather than a dream; the Persian keeps it as 'what you saw'. Review its precise meaning with the surrounding night scene."
+      },
+      {
+        "id": 110504455491887112,
+        "reason": "FatalDame's Russian wordplay uses крыша for both losing one's mind and sharing a roof; review the Persian roof repetition with adjacent apology in the complete semantic pass."
+      },
+      {
+        "id": 110504455441555459,
+        "reason": "Intruder's final vulgar line may either retract the dream-seeing claim or challenge the listener; confirm the Persian register and implication against full scene order."
+      },
+      {
+        "id": 110504455454138368,
+        "reason": "Cultist1's earth angels taking ash as food is surreal literal imagery; check Persian image without introducing an explanation for the angels."
+      },
+      {
+        "id": 110504455424778242,
+        "reason": "FormerFema says the woman should have been shot like her husband, while earlier describing the husband's death as illness; keep his contradictory account as reported speech, not an established fact."
+      },
+      {
+        "id": 110504455420583945,
+        "reason": "The player's reunion option concerns the living widow and her husband's corpse; keep the Persian from implying the widow herself died."
+      },
+      {
+        "id": 110504455395418115,
+        "reason": "FormerFema says he found the uniform on a dead person in a car, while the player challenges an earlier account of removing it from a corpse; check the deliberate inconsistency across branches."
+      },
+      {
+        "id": 110504455382835208,
+        "reason": "GraveDigger speculates that Visitors might be people who should have gone into graves but never did; preserve uncertainty and the contrast with occupied graves across the complete monologue."
+      },
+      {
+        "id": 110504455370252299,
+        "reason": "Marauder thinks a dead girl feared he would take her toy; review the child's imagined fear and pronoun reference without turning the thought into an observed fact."
+      },
+      {
+        "id": 110504455328309250,
+        "reason": "Provocateur insists on formal address after the player uses informal Russian pronouns; check the Persian تو/شما contrast and repetitions in all his branches."
+      },
+      {
+        "id": 110504455324114954,
+        "reason": "Provocateur cites administrative code article 5.61 and constitutional articles 131 and 21 as character claims; preserve exact numerals and review Persian legal wording in the full scene without treating his assertions as verified law."
+      },
+      {
+        "id": 110504455307337733,
+        "reason": "TaxiDriver says his father took the taxi and later regretted it; review the car ownership and the suited man's retaliation across the complete family story without adding a motive or transfer detail."
+      },
+      {
+        "id": 110504455286366208,
+        "reason": "Edgar's account treats the silent girl as a figure of beauty and calm, while her condition is revealed gradually; review Persian wording for disclosure timing and referents through the complete scene."
+      },
+      {
+        "id": 110504455248617473,
+        "reason": "Foreigner's Cyrillic mispronunciations of a short Russian word are adapted phonetically in Persian; review alongside adjacent Latin keyboard-layout garble and gestures. The source garble in batches 210–211 remains exact."
+      },
+      {
+        "id": 110504455210868740,
+        "reason": "The committee agent tells Doctor that a tongue is not a Visitor sign; preserve this as the agent's claim and the doctor's fear, not a universal diagnostic rule."
+      },
+      {
+        "id": 110504455168925698,
+        "reason": "Wolfhound uses the surreal fragment «Я марал долго, гноем наружу» and later asks how long it takes to stain a soul. Review the Persian imagery across repeated ID 110504455164731396."
+      },
+      {
+        "id": 110504455168925702,
+        "reason": "Wolfhound refers to a cabdriver’s son and a beating; compare with TaxiDriver’s earlier family account without assuming identity from this line alone."
+      },
+      {
+        "id": 110504455122788352,
+        "reason": "Greatmother’s «он придёт на них, чтобы полакомиться» has ambiguous pronoun and object referents; review the Persian within her death prediction."
+      },
+      {
+        "id": 110504455156342789,
+        "reason": "The source reverses the familiar disguise proverb: sheep in wolves’ skins. Keep the Persian «گوسفندهایی که پوست گرگ به تن کرده‌اند» consistent in repeated lines."
+      },
+      {
+        "id": 110504454996959238,
+        "reason": "BigLebowski says the man who housed her began «приставать» to her. Review the Persian harassment implication against her later defensive threat without adding a confirmed assault."
+      },
+      {
+        "id": 110504454921461763,
+        "reason": "Teacher’s «родители-кукушки» is a metaphor for parents abandoning children; check that the Persian cuckoo image and explanation fit her full account."
+      },
+      {
+        "id": 110504454866935816,
+        "reason": "Blind’s tram dream concludes that he will never reach the place where the truth of invisible horror is hidden; review the sequence and pronoun reference across the dream."
+      },
+      {
+        "id": 110504454787244037,
+        "reason": "Buddy’s Russian fragment «Умерла не …» trails off while disclosing that he killed his suffering dog; review the Persian fragment and disclosure timing across both branches."
+      },
+      {
+        "id": 110504454715940864,
+        "reason": "Fugitive’s poetic «под землёю скоро уснуть» follows a line about people denying one another life; review imagery and cadence with the adjacent confession."
+      },
+      {
+        "id": 110504454715940875,
+        "reason": "Fugitive’s inconsistent account describes a committee agent firing from behind after a face-to-face meeting, later retracting that it was a committee agent; keep these as his claims rather than resolving the contradiction."
+      },
+      {
+        "id": 110504454640443397,
+        "reason": "Theorist gives the Russian acronym КЧС a conspiratorial alternate expansion «Культ Человеческой Смерти»; review the Persian transliterated acronym and phrase for both meaning and joke without presenting his theory as fact."
+      },
+      {
+        "id": 110504454611083272,
+        "reason": "Alkonost says her husband took a pill and did not invite her with him; review the Persian ambiguity and the suicide disclosure across Sirin and Alkonost’s linked scenes."
+      },
+      {
+        "id": 110504454564945927,
+        "reason": "NotTrue recites an unusually surreal two-sentence verse about a forehead dome and frightening dreams; review the Persian poetic image as a complete quotation."
+      },
+      {
+        "id": 110504454556557323,
+        "reason": "NotTrue alternates between an urban apartment and a cottage while admitting she changes stories; review this apparent contradiction without silently harmonizing her account."
+      },
+      {
+        "id": 110504454539780107,
+        "reason": "Daughter reports seeing her beaten father get up; preserve this as her claim and compare her later uncertainty with the player’s reassurance or possible-death choices."
+      },
+      {
+        "id": 110504454502031362,
+        "reason": "Scammer’s profane sarcasm about a brilliant scheme and related insults need a complete-scene Persian register review."
+      },
+      {
+        "id": 110504454464282631,
+        "reason": "Scammer boasts that he made thirty million, then reveals it is debt in the following line; review the delayed reversal and Persian slang together."
+      },
+      {
+        "id": 110504454443311104,
+        "reason": "Widow’s Russian «Вы убили – вам останется его душа» has an unclear object and speaker shift; review the Persian without inventing who was killed."
+      },
+      {
+        "id": 110504454363619332,
+        "reason": "Esenin’s Russian «фляга засвистела от злости» is a surreal or idiomatic image; review literal Persian wording with the pub scene."
+      },
+      {
+        "id": 110504454351036427,
+        "reason": "Anxiety’s «Матушка зовёт нас» is part of her shouted account; review whether the capitalized mother is an entity or an ambiguous claim without asserting an identity."
+      },
+      {
+        "id": 110504454288121858,
+        "reason": "Fanatic asks the Sun-faced one to receive a person and perhaps the soul of a Ficus he can no longer water; retain the odd plant-soul image without assigning identities."
+      },
+      {
+        "id": 110504454292316166,
+        "reason": "Fanatic’s «ЛЮДСКОЕ БЛАГО, НАХУЙ!» has a deliberately coarse, elliptical relation to adjacent lines; review the Persian wording in the full sermon."
+      },
+      {
+        "id": 110504454254567430,
+        "reason": "Anger states he struck his wife after she joined the cult; full scene review must preserve his agency, her flight, and his subsequent remorse without excusing the violence."
+      },
+      {
+        "id": 110504454237790216,
+        "reason": "Mother says the children are absent and she feels relief; preserve the unresolved whereabouts and the distinction between her reported feelings, abuse, and conjecture about her husband."
+      },
+      {
+        "id": 110504454221012997,
+        "reason": "WheelChair repeats the Russian songlike «Эх, жизнь моя – жестянка»; review the deliberately odd tin-can image and consistent Persian repetitions."
+      },
+      {
+        "id": 110504454179069962,
+        "reason": "Firefighter’s necklace is described as made from dead bees that turned honey into sun; review surreal Persian image with the object context."
+      },
+      {
+        "id": 110504454174875652,
+        "reason": "Firefighter recites unusual Russian imagery «смолу кругового терпенья» and «совестный дёготь труда»; review the entire poetic line and its Persian equivalents."
+      },
+      {
+        "id": 110504454179069952,
+        "reason": "Firefighter calls management «как подковы» while saying they forge decrees; review whether the Persian horseshoe image preserves source oddness."
+      },
+      {
+        "id": 110504454149709835,
+        "reason": "Tourist attributes scratched skin to irritation; review Persian without presenting the marks as confirmed Visitor infection."
+      },
+      {
+        "id": 110504454132932615,
+        "reason": "Alt says she put pigment in her eyes after her closest person died; verify the eye-tattoo reading against surrounding appearance and keep the disclosure timing."
+      },
+      {
+        "id": 110504454120349707,
+        "reason": "Alt challenges the vagueness of the Visitor sign pattern; review the Persian referent of «Они» and the intentionally meta wording."
+      },
+      {
+        "id": 110504454053240834,
+        "reason": "Fairytaller describes a childhood chain-link imprint caused when a wardrobe fell on his hands; review the Persian sequence of causes and the later nervous scratching."
+      },
+      {
+        "id": 110504454028075016,
+        "reason": "Leper inspection branches give opposite reports about visible skin disease and crooked versus straight teeth; review both outcomes without harmonizing them or asserting a leprosy diagnosis."
+      },
+      {
+        "id": 110504454015492096,
+        "reason": "Nervous stammers on подс-роиться while comparing Visitors and socially awkward people; review the Persian broken word and analogy in scene context."
+      },
+      {
+        "id": 110504453973549056,
+        "reason": "Bald uses a coarse Russian proverb contrasting a passing minor problem with an incurable disaster; review whether the Persian register and joke retain the source contrast."
+      },
+      {
+        "id": 110504453931606018,
+        "reason": "Tough asks what has peeled off during a hand/nail inspection; review the Persian referent against art or wider scene context without inventing damage."
+      },
+      {
+        "id": 110504453923217409,
+        "reason": "Jacket asks whether the print on his jacket appearing in the aura photograph was mistaken for a Visitor sign; review the two surfaces and his uncertainty together."
+      },
+      {
+        "id": 110504453885468679,
+        "reason": "Experienced says бананчики and corrects himself to патроны; review the literal Persian banana joke and prison-slang address in context."
+      },
+      {
+        "id": 110504453835137026,
+        "reason": "The pinned source row has an Unstable speaker prefix inside node Rocker_Eyes; the exact prefix is preserved in Persian. Verify speaker and scene meaning in the independent diff without silently changing source ownership."
+      },
+      {
+        "id": 110504453814165514,
+        "reason": "Unstable contrasts an aura photograph with a hole in his heart in an unusual fragment; review the literal Persian reading with adjacent breathlessness and pounding-heart lines."
+      },
+      {
+        "id": 110504453768028168,
+        "reason": "Jacob claims to be immortal while threatening to withhold Visitor information; review this as his claim rather than a proven game rule."
+      },
+      {
+        "id": 110504453570895876,
+        "reason": "Daughter recalls that her frightened father and an armed stranger embraced; keep this as her childhood account and do not resolve the stranger’s identity."
+      },
+      {
+        "id": 110504453520564225,
+        "reason": "Esenin’s truck anecdote contrasts an accidental death with dying from paranoia; review the Persian rhetorical question and preceding slow-moving truck details as one scene."
+      },
+      {
+        "id": 110504453319237639,
+        "reason": "Cultist1 says Death will warm them in cold hands; review the paradoxical poetic image without turning the cult’s promise into a fact."
+      },
+      {
+        "id": 110504453294071811,
+        "reason": "Intruder trails off while imagining escape into another person’s dream; the Persian intentionally remains unfinished and needs a scene-level semantic pass."
+      },
+      {
+        "id": 110504453264711681,
+        "reason": "FormerFema shouts that he is from the emergency committee in a death branch despite earlier denials; review disclosure timing and do not reconcile his changing account into a fixed biography."
+      },
+      {
+        "id": 110504453256323072,
+        "reason": "FormerFema describes a unit shooting a person before a proper check and says the person may not have been a Visitor; retain the uncertainty and agency in a scene-level review."
+      },
+      {
+        "id": 110504453214380034,
+        "reason": "GraveDigger’s fragment about still being in the final pit has an unstated subject and an unnamed man he buried; review Persian without fixing their identities or treating the photo image as proof."
+      },
+      {
+        "id": 110504453168242696,
+        "reason": "Marauder wonders whether the pocket watch remains in the house after saying he took it and fled; preserve the apparent inconsistency rather than inventing whether he dropped it."
+      },
+      {
+        "id": 110504453084356617,
+        "reason": "TaxiDriver’s whitening and smoking account refers back to an unnamed local authority who entered his father’s car when he was a child; review pronouns without linking that man to another resident."
+      },
+      {
+        "id": 110504453046607876,
+        "reason": "Edgar uses a black-hole/echo image for the dead woman; review the image without fixing her identity or treating his belief as fact."
+      },
+      {
+        "id": 110504453029830658,
+        "reason": "Edgar contrasts branches about tending or neglecting a decaying body; review branch-specific pronouns and self-care references."
+      },
+      {
+        "id": 110504453013053443,
+        "reason": "Foreigner source begins another 34-line run of deliberate Latin-keyboard garble with mixed Cyrillic fragments. Persian batch 337 preserves each line verbatim, following batches 210–211; confirm this treatment in the full scene audit."
+      },
+      {
+        "id": 110504452941750273,
+        "reason": "Doctor says he recently operated on an unnamed man; review the antecedent with neighboring teeth dialogue without assigning an identity."
+      },
+      {
+        "id": 110504452878835717,
+        "reason": "Sirin says her sister removed the earring. Review whether the photo/ear branches support the Persian referent and avoid adding information about the parents."
+      },
+      {
+        "id": 110504452853669889,
+        "reason": "NotTrue compares her visibility to looking against the light; review whether this unusual self-description is literal or figurative in scene context."
+      },
+      {
+        "id": 110504452841086982,
+        "reason": "Greatmother says modern life, as well as age, makes people feel unwell; review the colloquial Russian syntax and Persian scope."
+      },
+      {
+        "id": 110504452807532551,
+        "reason": "Greatmother mentions wanting veneers and treatment to be completed later while facing a gun; review the odd timing and whether the Persian keeps her joke without inventing a schedule."
+      },
+      {
+        "id": 110504452786561026,
+        "reason": "Scammer says «Гостевой» in an unusual ear-inspection grift; review its exact implied object and Persian wording in the complete scene."
+      },
+      {
+        "id": 110504452765589508,
+        "reason": "Widow has only one surviving photo with her husband; review referents and sequence of her grief before the all-caps death-photo outburst."
+      },
+      {
+        "id": 110504452757200898,
+        "reason": "Cold says «Их наполняет» after speaking of his eyes; review the eye antecedent and Persian poetic phrasing."
+      },
+      {
+        "id": 110504452706869259,
+        "reason": "Esenin uses dense profanity and sarcasm about safety; review Persian register against adjacent lines without softening the panic."
+      },
+      {
+        "id": 110504452702674950,
+        "reason": "Anxiety says she has already been hurt at home without specifying a beating; preserve the unspecified abuse and her panic in the full scene review."
+      },
+      {
+        "id": 110504452702674948,
+        "reason": "Anxiety says a shot would stop her daily trembling and fear of displeasing the player; check the implied counterfactual without turning it into recovery."
+      },
+      {
+        "id": 110504452690092041,
+        "reason": "Hunter asks to be placed near unnamed others after death; review the Persian demonstrative without asserting their identity."
+      },
+      {
+        "id": 110504452660731909,
+        "reason": "Hunter describes digging for or digging up the devils at night; review the exact action and target against the larger scene."
+      },
+      {
+        "id": 110504452652343300,
+        "reason": "Fanatic describes beer fumes forming inside a bucket as part of his claimed sun-power ritual; preserve the absurd claim as his speech."
+      },
+      {
+        "id": 110504452648148999,
+        "reason": "Fanatic uses a strong surprise obscenity; review whether the Persian register carries equivalent force without adding a specific outcome."
+      },
+      {
+        "id": 110504452631371781,
+        "reason": "Luka says «она» could become the last in a photo branch; review whether the photograph antecedent is certain and whether naming it in Persian is warranted."
+      },
+      {
+        "id": 110504452610400257,
+        "reason": "BigLebowski alludes to harming herself in the death branch without naming a method; preserve the unspecified act and teen voice."
+      },
+      {
+        "id": 110504452602011656,
+        "reason": "BigLebowski sarcastically invokes pressure to find a husband and bear a child; review agency and sarcastic tone in the full scene."
+      },
+      {
+        "id": 110504452564262920,
+        "reason": "Couple says «Они же там из-под земли лезут» after mentioning nails; determine whether «они» refers to Visitors or nails in scene context without inventing certainty."
+      },
+      {
+        "id": 110504452568457227,
+        "reason": "The husband says his wife gives him what he asks; keep his speech and her agency distinct in the full couple review."
+      },
+      {
+        "id": 110504452534902793,
+        "reason": "Anger calls the gun a «бум-палка»; review the playful threat register in Persian."
+      },
+      {
+        "id": 110504452534902787,
+        "reason": "Ballerina speaks of an unnamed female referent whose favorites may include the player; do not identify her from the internal speaker code."
+      },
+      {
+        "id": 110504452526514177,
+        "reason": "Ballerina uses nonstandard reflexive dance wording; review Persian oddness without asserting ballet as her profession."
+      },
+      {
+        "id": 110504452522319876,
+        "reason": "Ballerina «её льёшь» refers to blood, not an unnamed woman. Persian was corrected in-batch to keep blood as the object; verify the scene-level reading."
+      },
+      {
+        "id": 110504452509736961,
+        "reason": "Ballerina imagines biting a piece from conscience; review the surreal tooth image and its continuation across neighboring IDs."
+      },
+      {
+        "id": 110504452497154055,
+        "reason": "Teacher contrasts cleanliness and illness with human cruelty after the fire; review her account without adding causes or identities."
+      },
+      {
+        "id": 110504452438433793,
+        "reason": "Dude uses «закладку» in drug slang; review the Persian hidden-package wording and avoid asserting a particular substance."
+      },
+      {
+        "id": 110504452434239492,
+        "reason": "Dude contrasts corn and breakfast flakes in a crooked-teeth joke; review the Persian food distinction and comic tone."
+      },
+      {
+        "id": 110504452430045187,
+        "reason": "Blind repeats «ОНОИДЁТ» seven times without separators; Persian repeats a direct equivalent seven times, preserving panic and an unnamed entity."
+      },
+      {
+        "id": 110504452404879363,
+        "reason": "Blind invokes «ужасы величия» in a surreal description; review the Persian majesty/horror image without asserting an objective creature identity."
+      },
+      {
+        "id": 110504452396490765,
+        "reason": "Blind delivers a short surreal verse with skull and brains passing through walls; review imagery and cadence as a unit."
+      },
+      {
+        "id": 110504452392296451,
+        "reason": "Fatman death branch completes «В аду не хуже… Чем тут…» across two IDs; review the Persian clause in runtime order."
+      },
+      {
+        "id": 110504452375519241,
+        "reason": "Fatman calls himself a minister and says he held a country in his hands; keep these as his claims rather than confirmed biography."
+      },
+      {
+        "id": 110504452371324929,
+        "reason": "Fatman trails off after «без сп…»; Persian hints at drink but must be checked against full scene without completing the interrupted word."
+      },
+      {
+        "id": 110504452354547719,
+        "reason": "Buddy says his grandmother was right in an eye scene; keep this distinct from his dog memories in other branches."
+      },
+      {
+        "id": 110504452354547713,
+        "reason": "Buddy says his teeth were knocked out after a laugh, not merely broken; corrected in-batch and should be checked with the tooth scene."
+      },
+      {
+        "id": 110504452287438857,
+        "reason": "Fugitive says another quarantine detainee kept scratching until he stopped; source does not resolve whether he stopped scratching or died. Review without inventing the outcome."
+      },
+      {
+        "id": 110504452237107214,
+        "reason": "Nun attributes the rash to cockroach chalk and complains that cockroaches keep returning; check the Persian pest-control term and the referent of «их»."
+      },
+      {
+        "id": 110504452232912901,
+        "reason": "Raskolnikov alludes to «тварью дрожащей», a literary self-description. Review whether Persian retains his self-reproach without overexplaining the allusion."
+      },
+      {
+        "id": 110504452203552778,
+        "reason": "Raskolnikov uses «зацепиться» ambiguously in a hands scene; review whether the Persian grasp/cling reading fits the neighboring branch."
+      },
+      {
+        "id": 110504452199358467,
+        "reason": "Wifefema death fragment «На тебя нет…» has an unfinished idiom; review Persian fragment with preceding and following dialogue."
+      },
+      {
+        "id": 110504452157415430,
+        "reason": "Theorist photo line uses «они» without an explicit noun in the same ID; review whether the Persian referent remains suitably open in runtime order."
+      },
+      {
+        "id": 110504452111278080,
+        "reason": "Sirin «делала это» has an omitted feminine subject; Persian now avoids naming who performed the action. Check the armpit dialogue order."
+      },
+      {
+        "id": 110504452119666693,
+        "reason": "Sirin «Не подошла по признакам» leaves the female subject unstated; review whether the neutral Persian wording is correct in the hands branch."
+      },
+      {
+        "id": 110504452094500869,
+        "reason": "Alkonost says «Жаль, что тебе тоже надо» without naming the required action; preserve this in scene review."
+      },
+      {
+        "id": 110504452077723652,
+        "reason": "NotTrue quotes the surreal «К шестипалой неправде в избу…»; review the Persian image in the full scene."
+      },
+      {
+        "id": 110504452048363523,
+        "reason": "Daughter stutters «Я-я-я пи-ить хочу-уууу» without naming water; Persian preserves a stutter and does not add a drink."
+      },
+      {
+        "id": 110504452031586312,
+        "reason": "Scammer calls armpits «палёные» in slang; review «تابلو» against the surrounding scammer voice."
+      },
+      {
+        "id": 110504451972866053,
+        "reason": "Widow repeats «побыть побыть»; Persian retains a repeated hesitant request for solitude."
+      },
+      {
+        "id": 110504451935117317,
+        "reason": "Anxiety photo shows a blurred body and sharp background; preserve this exact contrast."
+      },
+      {
+        "id": 110504451893174277,
+        "reason": "Fanatic says «СОЛНЕЧНЫМ ЛИДЕРОМ»; do not automatically equate this label with glossary «خورشیدچهره»."
+      },
+      {
+        "id": 110504451847036931,
+        "reason": "Anger hints at possible self-harm with a razor but leaves the action unfinished; preserve the implication without naming an outcome."
+      },
+      {
+        "id": 110504451813482500,
+        "reason": "Mother says one child had perfect teeth and never smiled; preserve the distinction between dental condition and emotion."
+      },
+      {
+        "id": 110504451779928065,
+        "reason": "Wheelchair death line has surreal black-robed figures, mud and scaffold; review imagery without replacing it with a literal execution fact."
+      },
+      {
+        "id": 110504451767345155,
+        "reason": "Wheelchair twists a Russian proverb about the offended into a wheelchair joke; review the Persian joke with the preceding and following lines."
+      },
+      {
+        "id": 110504451742179330,
+        "reason": "Firefighter contrasts memory surviving fire with the body as a matter of time; keep the metaphor open."
+      }
+    ],
+    "priorContextCorrection": {
+      "id": 110504457391906826,
+      "batch": "Translations/fa/dialogue-batch-036.json",
+      "finding": "Earlier Persian rendered 'ма и ба' as mother and father; later Bald dialogue identifies the pair as mother and grandmother and says the father left.",
+      "resolution": "Changed the Persian line to mother and grandmother and regenerated the passing batch receipt."
+    },
+    "correctionCycle1": {
+      "changedIds": 76,
+      "changedFiles": 56,
+      "closureIds": 1506,
+      "closureIdsSha256": "277e88123dc3f02e6cd1d90c4bcaa2353157fe0933da72ce25eb68704a4d4912",
+      "firstPassSnapshotSha256": "f7d47eebe60a8a8d26a039d29b21b49ce7926b00bad2213a8655e6d3db6da7bd",
+      "unresolvedContextQuestions": 2,
+      "independentReview": "pending"
+    },
+    "cycle2": {
+      "correctedUnits": 5,
+      "affectedAuthoredFiles": 4,
+      "recipeFilesChanged": 1,
+      "closureUnits": 2701,
+      "nextReviewDeltaUnits": 1408,
+      "newlySelectedUnits": 1195,
+      "invalidatedPriorUnits": 213,
+      "retiredPriorUnits": 0,
+      "closureIdsSha256": "abbbd58412faa360092b56294b653fd367eaeccb4cd0d2ef1d119664897d907e",
+      "nextReviewDeltaIdsSha256": "58710f112e6b8d50b8908aeed420ad894da5536dde92a5d4700c90b77b390d12",
+      "fullGateSha256": "ee1bfc762b8eb65024ad7ad8a6ece662ce04d46b1ca9de4e1223644aec348f4c",
+      "unresolvedContextQuestions": 2,
+      "unboundPhotoBindingSha256": "308b17e93150bcf99a19e8701c7e4520f1f94a6cd28e850f3e9ba36c731587ad",
+      "unboundAcceptedPhotoStringsWithoutCompiledYarnLineReference": 31,
+      "reviewerHandoffSha256": "d3d55e35e59c3a6e686b0726ec0d117ca9031327a6b598929e7dde4d42aafa41"
+    }
+  },
+  "nextAction": "Distinct reviewer: reproduce cycle-3 946-ID closure, read exact 18-ID next delta (one corrected, two newly selected Scammer_Death rows, 16 prior reviewed rows invalidated by batch-348 file hash), and check the 544-ID mandatory catalog. Independent clean acceptance and authorized runtime/visual checks remain pending."
+}

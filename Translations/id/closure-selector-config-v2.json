@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "locale": "id",
+  "cycle": 2,
+  "cycleDirectory": "Translations/id/semantic-correction-cycle-02",
+  "previousClosure": "Translations/id/semantic-correction-cycle-01/closure.ids.txt",
+  "previousClosureSha256": "17769aec9c8dbaa420e415d87a03e6712c57c5dc359d2f11bf52e54ba8df52f8",
+  "previousComponentManifest": "Translations/id/semantic-correction-cycle-01/component-manifest.json",
+  "independentReview": "Translations/id/independent-review-01/review.json",
+  "independentReviewSha256": "4916db2568fed60e3415f507088912792635154ab740770533f87cc2a89824cf",
+  "canonicalOrder": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "idListConvention": "UTF-8 LF, one stable ID per line, final LF when nonempty",
+  "context": {
+    "nodeRule": "All accepted IDs sharing an exact compiled node name with a corrected ID",
+    "uiKeyPrefixes": ["phone_sub_", "consumable_"],
+    "uiRule": "Contact labels and consumable item names are included as their distinct UI consumer families"
+  },
+  "conceptSourceRegex": {
+    "femaleFriendAndChild": "(?i)\\b(?:подруг\\w*|девоч\\w*)\\b",
+    "noticeNounAndAction": "(?i)\\b(?:явк\\w*|повестк\\w*)\\b",
+    "maleSibling": "(?i)\\bбрат\\w*\\b",
+    "femaleCousinAndSister": "(?i)\\b(?:двоюродн\\w*|сестр\\w*)\\b",
+    "mushroomMyceliumAntecedent": "(?i)\\b(?:гриб\\w*|мицел\\w*|комк\\w*)\\b",
+    "teethBreastfeedingCausality": "(?i)\\b(?:зуб\\w*|дёсн\\w*|десн\\w*|кальц\\w*|груд\\w*)\\b"
+  },
+  "repetitions": "Every accepted ID with a Russian source exactly equal to one of the nine corrected Russian sources",
+  "runtimeBindings": "Corrected or same-node/contact/item context IDs with protected spans, UI/ChecksDialogs bindings, or format slots; nontranslatable commands and dynamic callbacks remain separate evidence",
+  "mandatoryRegressions": "Reproduce every cycle-01 mandatory group, then extend the gender/kinship/address group by Russian pronoun-bearing rows in the new containing exchanges; retain all UI, static, ChecksDialogs, protected and mixed-script groups",
+  "explicitlyInvalidatedPrior": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449796",
+      "sourceOrderIndex": 5428,
+      "reason": "The prior review read the preceding mushroom-growth line with the next line incorrectly treating Их as mushrooms. The corrected clumps-of-malice antecedent changes the relation between these two lines; recheck this previously reviewed transition."
+    }
+  ],
+  "regressionCases": [
+    {
+      "name": "notice-noun-versus-order-variants",
+      "changedSourceOrderIndex": 230,
+      "requiredExactRussianSource": "Выдать явку в КЧС",
+      "requiredExactSourceCount": 245,
+      "rule": "All inflected order actions and the UI document noun must remain in the current closure; the action targets are not overwritten by the noun."
+    },
+    {
+      "name": "mushroom-pronoun-antecedent",
+      "changedSourceOrderIndex": 5427,
+      "requiredSourceOrderIndex": 5620,
+      "rule": "The compiled preceding line about clumps of malice in mycelium must be selected even though the corrected line itself contains only Их and гриб."
+    },
+    {
+      "name": "bestson-breastfeeding-cause",
+      "changedSourceOrderIndex": 14807,
+      "requiredSourceOrderIndex": 14808,
+      "rule": "The breastfeeding/calcium statement in the same conditional arm must be selected as context for the corrected dental consequence."
+    },
+    {
+      "name": "beer-ad-intervening-line",
+      "changedSourceOrderIndex": 1194,
+      "requiredSourceOrderIndex": 1195,
+      "rule": "The line between the two brother references must be selected by compiled node topology, not flattened source adjacency."
+    }
+  ],
+  "retiredDependencyRule": "Prior closure IDs absent from the current closure are recorded with their former components; they are not reread unless explicitly invalidated."
+}

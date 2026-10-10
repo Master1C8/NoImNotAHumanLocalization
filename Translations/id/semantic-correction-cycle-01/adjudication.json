@@ -1,0 +1,1514 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "cycle": 1,
+  "status": "adjudicated, before application",
+  "findingsFile": "Translations/id/semantic-findings-batch-001.json",
+  "findingsSha256": "2ebfab53cf720324d8e82e4b4fcc32664d1955828da381eac5328497bd8daac0",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "preserveExactlySha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossaryLayerSha256": "79b176ff4a5809c55f8ad13d354b60874d094c542d3a77da0bb375446a4c5852",
+  "findingCount": 84,
+  "acceptedCount": 83,
+  "rejectedCount": 1,
+  "rows": [
+    {
+      "findingNumber": 1,
+      "sourceOrderIndex": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "sourceSha256": "a0ec9d69e87006d886300386af40d5b0804833c17a3d131e288db5f808cb37f8",
+      "key": "Game_MushroomList",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "before": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "proposed": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi ruang bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "decision": "accepted",
+      "after": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi ruang bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "objectiveReason": "The source locates the mushroom in the basement (в подвале); the draft says only underground.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source locates the mushroom in the basement (в подвале); the draft says only underground."
+    },
+    {
+      "findingNumber": 2,
+      "sourceOrderIndex": 115,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079087727038464",
+      "source": "Сегодня не до этого.",
+      "sourceSha256": "a5b0451f872c14b9a045cdd5319ffaf20d83a77beaf3e5d065be3b3ec4daa643",
+      "key": "cant_open_door_day",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "before": "Sekarang bukan waktunya.",
+      "proposed": "Hari ini bukan waktunya.",
+      "decision": "accepted",
+      "after": "Hari ini bukan waktunya.",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Сегодня specifies today; sekarang changes the temporal scope to now."
+    },
+    {
+      "findingNumber": 3,
+      "sourceOrderIndex": 116,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079202038599680",
+      "source": "Сегодня не до этого.",
+      "sourceSha256": "a5b0451f872c14b9a045cdd5319ffaf20d83a77beaf3e5d065be3b3ec4daa643",
+      "key": "cant_open_window_day",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "before": "Sekarang bukan waktunya.",
+      "proposed": "Hari ini bukan waktunya.",
+      "decision": "accepted",
+      "after": "Hari ini bukan waktunya.",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Сегодня specifies today; sekarang changes the temporal scope to now."
+    },
+    {
+      "findingNumber": 4,
+      "sourceOrderIndex": 117,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079270019878912",
+      "source": "Сегодня не до этого.",
+      "sourceSha256": "a5b0451f872c14b9a045cdd5319ffaf20d83a77beaf3e5d065be3b3ec4daa643",
+      "key": "cant_open_peephole_day",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "before": "Sekarang bukan waktunya.",
+      "proposed": "Hari ini bukan waktunya.",
+      "decision": "accepted",
+      "after": "Hari ini bukan waktunya.",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Сегодня specifies today; sekarang changes the temporal scope to now."
+    },
+    {
+      "findingNumber": 5,
+      "sourceOrderIndex": 217,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165494445907968",
+      "source": "Подвал стал вселенной: окна замурованы, голоса сливаются с тиканьем часов. Солнце угасает, но разве…это конец мучений?\r",
+      "sourceSha256": "6faced54a415225b78d97c1d0f1b2e115304866c98df2b687a05bad8f8f28955",
+      "key": "gacha_basement_description",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "before": "Ruang bawah tanah menjadi semesta: jendela ditutup papan, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "proposed": "Ruang bawah tanah menjadi semesta: jendela-jendelanya ditembok, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "decision": "accepted",
+      "after": "Ruang bawah tanah menjadi semesta: jendela-jendelanya ditembok, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "objectiveReason": "Замурованы means the windows were walled up; ditutup papan says they were boarded up.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Замурованы means the windows were walled up; ditutup papan says they were boarded up."
+    },
+    {
+      "findingNumber": 6,
+      "sourceOrderIndex": 334,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389122",
+      "source": "Phone: Мне… тяжело представить, через что вы прошли…",
+      "sourceSha256": "6c7aba505fa43f65f5d3e3a60bf6484e79530f692d88ef036e3b50c3fc42598e",
+      "key": "line:phone_phoneroulette_1_1_X_8_016dd9f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_7"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "before": "Phone: Aku… sulit membayangkan apa yang sudah kamu alami…",
+      "proposed": "Phone: Aku… sulit membayangkan apa yang sudah Anda alami…",
+      "decision": "accepted",
+      "after": "Phone: Aku… sulit membayangkan apa yang sudah Anda alami…",
+      "objectiveReason": "The source uses formal вы and this same caller uses Anda in the neighboring lines; kamu switches to informal address without a branch cue.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source uses formal вы and this same caller uses Anda in the neighboring lines; kamu switches to informal address without a branch cue."
+    },
+    {
+      "findingNumber": 7,
+      "sourceOrderIndex": 349,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000520",
+      "source": "Я… одинокий человек",
+      "sourceSha256": "00d18da31ab808e82d346001bbdf0a93210000559283b53bee83a773a7156c12",
+      "key": "line:phone_phoneroulette_1_1_X_2_037c00b",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "before": "Aku… hidup sendirian",
+      "proposed": "Aku… orang yang kesepian",
+      "decision": "accepted",
+      "after": "Aku… orang yang kesepian",
+      "objectiveReason": "Одинокий человек says the player is lonely; hidup sendirian asserts that he lives alone, a different fact.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Одинокий человек says the player is lonely; hidup sendirian asserts that he lives alone, a different fact."
+    },
+    {
+      "findingNumber": 8,
+      "sourceOrderIndex": 352,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000517",
+      "source": "Я… одинокий человек",
+      "sourceSha256": "00d18da31ab808e82d346001bbdf0a93210000559283b53bee83a773a7156c12",
+      "key": "line:phone_phoneroulette_1_1_X_1_0df74ed",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "before": "Aku… hidup sendirian",
+      "proposed": "Aku… orang yang kesepian",
+      "decision": "accepted",
+      "after": "Aku… orang yang kesepian",
+      "objectiveReason": "This is a second occurrence of Одинокий человек in another branch; keep the same semantic correction.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This is a second occurrence of Одинокий человек in another branch; keep the same semantic correction."
+    },
+    {
+      "findingNumber": 9,
+      "sourceOrderIndex": 488,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863173",
+      "source": "Не понимаю, почему он не в углу стоит. Вроде так должно быть по правилам.",
+      "sourceSha256": "84ed8ac15f4a14984bbb2fff44b7df889de0a19d9bff5072419ba103a55a4aaf",
+      "key": "line:bigroom_cross_04a30fe",
+      "nodeNames": [
+        "bigroom_cross"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-088.json",
+      "before": "Aku tak mengerti mengapa dia tidak berdiri di sudut. Seingatku peraturannya begitu.",
+      "proposed": "Aku tak mengerti mengapa salib itu tidak berdiri di sudut. Seingatku peraturannya begitu.",
+      "decision": "accepted",
+      "after": "Aku tak mengerti mengapa salib itu tidak berdiri di sudut. Seingatku peraturannya begitu.",
+      "objectiveReason": "The preceding bigroom_cross key and the Russian masculine крест identify a cross. Indonesian dia marks a person rather than the object.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The preceding bigroom_cross key and the Russian masculine крест identify a cross. Indonesian dia marks a person rather than the object."
+    },
+    {
+      "findingNumber": 10,
+      "sourceOrderIndex": 808,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811264",
+      "source": "Phone: Чтобы мы могли достоверно узнать ваш статус, просим вас воздержаться от мытья рук до обследования.",
+      "sourceSha256": "025cd500d643ed27a5c19ee1c845834a5e31c08c501077a0e72f966231b0e272",
+      "key": "line:phone_fema_asking_2_0ff36b5",
+      "nodeNames": [
+        "phone_fema_asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "before": "Phone: Agar kami dapat memastikan status Anda secara akurat, mohon jangan cuci tangan sampai pemeriksaan selesai.",
+      "proposed": "Phone: Agar kami dapat memastikan status Anda secara akurat, mohon jangan mencuci tangan sebelum pemeriksaan.",
+      "decision": "accepted",
+      "after": "Phone: Agar kami dapat memastikan status Anda secara akurat, mohon jangan mencuci tangan sebelum pemeriksaan.",
+      "objectiveReason": "До обследования means before the examination; sampai pemeriksaan selesai extends the handwashing restriction through the examination.",
+      "adjudicationReason": "Accepted after source and node-context comparison: До обследования means before the examination; sampai pemeriksaan selesai extends the handwashing restriction through the examination."
+    },
+    {
+      "findingNumber": 11,
+      "sourceOrderIndex": 947,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457706479623",
+      "source": "Window: На лицах сектантов застыли гримасы страха и агонии, будто они увидели что-то ужасающее перед смертью.",
+      "sourceSha256": "69f5c6e973cbb0564fed2e4a4f54425d3573259c66d9c88817b1e63c1c8347ab",
+      "key": "line:window_12_2_09dee5b",
+      "nodeNames": [
+        "window_12_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-176.json",
+      "before": "Window: Wajah para anggota sekte membeku dalam seringai ketakutan dan penderitaan, seolah mereka melihat sesuatu yang mengerikan sebelum mati.",
+      "proposed": "Window: Wajah para anggota sekte membeku dalam raut ketakutan dan penderitaan, seolah mereka melihat sesuatu yang mengerikan sebelum mati.",
+      "decision": "accepted",
+      "after": "Window: Wajah para anggota sekte membeku dalam raut ketakutan dan penderitaan, seolah mereka melihat sesuatu yang mengerikan sebelum mati.",
+      "objectiveReason": "Гримасы страха и агонии are grimaces of fear and agony; seringai is a grin and changes the visual emotion.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Гримасы страха и агонии are grimaces of fear and agony; seringai is a grin and changes the visual emotion."
+    },
+    {
+      "findingNumber": 12,
+      "sourceOrderIndex": 977,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091008",
+      "source": "Window: Они выглядят как два бестолковых детектива, что пытаются выяснить, как повешенный вообще забрался на столб без лестницы.",
+      "sourceSha256": "461d0e6f1e3278e3125470b8d2cbeea6f54d0c63a5ae4f78058b45bf813fc886",
+      "key": "line:window_9_1_0a3a5fb",
+      "nodeNames": [
+        "window_9_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-176.json",
+      "before": "Window: Mereka tampak seperti dua detektif ceroboh yang berusaha mencari tahu bagaimana orang yang tergantung itu bisa naik ke tiang tanpa tangga.",
+      "proposed": "Window: Mereka tampak seperti dua detektif payah yang berusaha mencari tahu bagaimana orang yang tergantung itu bisa naik ke tiang tanpa tangga.",
+      "decision": "accepted",
+      "after": "Window: Mereka tampak seperti dua detektif payah yang berusaha mencari tahu bagaimana orang yang tergantung itu bisa naik ke tiang tanpa tangga.",
+      "objectiveReason": "Бестолковых describes inept/clueless detectives; ceroboh means careless.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Бестолковых describes inept/clueless detectives; ceroboh means careless."
+    },
+    {
+      "findingNumber": 13,
+      "sourceOrderIndex": 978,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896715",
+      "source": "Window: Похоже, у них наконец-то дошли руки до главной достопримечательности округи.",
+      "sourceSha256": "810f99b6658b248ade0b5afad06751f0870a1116cbf1ac424ad35c7065fc84e3",
+      "key": "line:window_9_1_05b69d7",
+      "nodeNames": [
+        "window_9_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-176.json",
+      "before": "Window: Tampaknya mereka akhirnya sempat mengurus pemandangan yang paling mencolok di kawasan ini.",
+      "proposed": "Window: Tampaknya mereka akhirnya sempat mengurus daya tarik utama kawasan ini.",
+      "decision": "accepted",
+      "after": "Window: Tampaknya mereka akhirnya sempat mengurus daya tarik utama kawasan ini.",
+      "objectiveReason": "Главная достопримечательность calls the hanging the area's main attraction; the draft reduces this pointed irony to a striking sight.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Главная достопримечательность calls the hanging the area's main attraction; the draft reduces this pointed irony to a striking sight."
+    },
+    {
+      "findingNumber": 14,
+      "sourceOrderIndex": 982,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896711",
+      "source": "Window: Вооружённые сотрудники КЧС стоят над телами собак.",
+      "sourceSha256": "2e8f3540a557c9fcebc05944e74bfa0d114f245f42727b2f4838e64fc74a6f90",
+      "key": "line:window_9_2_0288753",
+      "nodeNames": [
+        "window_9_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-176.json",
+      "before": "Window: Petugas KChS bersenjata berdiri di atas tubuh anjing-anjing itu.",
+      "proposed": "Window: Petugas KChS bersenjata berdiri di dekat bangkai anjing-anjing itu.",
+      "decision": "accepted",
+      "after": "Window: Petugas KChS bersenjata berdiri di dekat bangkai anjing-anjing itu.",
+      "objectiveReason": "Стоят над телами means standing over the dead dogs; berdiri di atas tubuh suggests physically standing on their bodies.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Стоят над телами means standing over the dead dogs; berdiri di atas tubuh suggests physically standing on their bodies."
+    },
+    {
+      "findingNumber": 15,
+      "sourceOrderIndex": 1019,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313797",
+      "source": "Window: Теперь мешков с трупами на пару больше.",
+      "sourceSha256": "7893c4d4df6c7ab84d99629e9b8ffaca26d9f0d72da42cbd5902b613fc84c409",
+      "key": "line:window_5_1_0581cec",
+      "nodeNames": [
+        "window_5_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-177.json",
+      "before": "Window: Kini ada beberapa kantong mayat lagi.",
+      "proposed": "Window: Kini ada dua kantong mayat lagi.",
+      "decision": "accepted",
+      "after": "Window: Kini ada dua kantong mayat lagi.",
+      "objectiveReason": "На пару больше means two more body bags; beberapa loses the source count.",
+      "adjudicationReason": "Accepted after source and node-context comparison: На пару больше means two more body bags; beberapa loses the source count."
+    },
+    {
+      "findingNumber": 16,
+      "sourceOrderIndex": 1049,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457672925184",
+      "source": "Window: Вы ощущаете страх и молите бога, чтобы жуткий Гость обошёл дом стороной.",
+      "sourceSha256": "02fc4550c6be699c9394ce807b83c41473a24b8d5822d0d41224e449a4560bb3",
+      "key": "line:window_2_1_01b6275",
+      "nodeNames": [
+        "window_2_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-178.json",
+      "before": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu melewati rumah ini.",
+      "proposed": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu menjauhi rumah ini.",
+      "decision": "accepted",
+      "after": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu menjauhi rumah ini.",
+      "objectiveReason": "Обошёл дом стороной means bypass/avoid the house; melewati rumah ini can place the Visitor passing close to it.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Обошёл дом стороной means bypass/avoid the house; melewati rumah ini can place the Visitor passing close to it."
+    },
+    {
+      "findingNumber": 17,
+      "sourceOrderIndex": 1166,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "source": "TV: Колокола для них громче. Серы – больше.",
+      "sourceSha256": "1412783d2c9a703d876f410164311dd062d85a1cfb99fcfcb7adbda3d8927c62",
+      "key": "line:tv_8_necessary_0965bc3",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-070.json",
+      "before": "TV: Lonceng berdentang lebih keras bagi mereka. Belerang lebih banyak.",
+      "proposed": "TV: Lonceng berdentang lebih keras bagi mereka. Kotoran telinga pun lebih banyak.",
+      "decision": "accepted",
+      "after": "TV: Lonceng berdentang lebih keras bagi mereka. Kotoran telinga pun lebih banyak.",
+      "objectiveReason": "The same surreal broadcast says something grows in ears from funeral bells; сера here points to earwax, while belerang selects sulfur and loses the ear sequence.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The same surreal broadcast says something grows in ears from funeral bells; сера here points to earwax, while belerang selects sulfur and loses the ear sequence."
+    },
+    {
+      "findingNumber": 18,
+      "sourceOrderIndex": 1169,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "source": "TV: Остаётся только сера. Грязные мысли.",
+      "sourceSha256": "22806c84a5bf71a5b376c4a491d46244bcc992aa80789353250ecf3cc7d2ef0b",
+      "key": "line:tv_8_necessary_0d292a8",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-070.json",
+      "before": "TV: Yang tersisa hanya belerang. Pikiran yang kotor.",
+      "proposed": "TV: Yang tersisa hanya kotoran telinga. Pikiran yang kotor.",
+      "decision": "accepted",
+      "after": "TV: Yang tersisa hanya kotoran telinga. Pikiran yang kotor.",
+      "objectiveReason": "The immediate bell-and-ear context gives сера the earwax reading, already used as kotoran telinga elsewhere in the Indonesian corpus.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The immediate bell-and-ear context gives сера the earwax reading, already used as kotoran telinga elsewhere in the Indonesian corpus."
+    },
+    {
+      "findingNumber": 19,
+      "sourceOrderIndex": 1284,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457584844802",
+      "source": "Window: Теперь мешков с трупами на пару больше.",
+      "sourceSha256": "7893c4d4df6c7ab84d99629e9b8ffaca26d9f0d72da42cbd5902b613fc84c409",
+      "key": "line:window_5_1_01d4c8d",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/dialogue-batch-178.json",
+      "before": "Window: Kini ada beberapa kantong mayat lagi.",
+      "proposed": "Window: Kini ada dua kantong mayat lagi.",
+      "decision": "accepted",
+      "after": "Window: Kini ada dua kantong mayat lagi.",
+      "objectiveReason": "This occurrence repeats на пару больше; beberapa loses the approximate two-bag count.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This occurrence repeats на пару больше; beberapa loses the approximate two-bag count."
+    },
+    {
+      "findingNumber": 20,
+      "sourceOrderIndex": 1322,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457568067591",
+      "source": "Window: Это голова солдата с застывшей на лице гримасой ужаса.",
+      "sourceSha256": "7ab3b34957d3479b68d92d5e3e32d3ef9a6df59ba1ab53c19d5ff14a9146a6bb",
+      "key": "line:window_4_2_0277f4d",
+      "nodeNames": [
+        "window_4_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-178.json",
+      "before": "Window: Itu kepala seorang prajurit; wajahnya membeku dalam seringai ketakutan.",
+      "proposed": "Window: Itu kepala seorang prajurit; wajahnya membeku dalam raut ngeri.",
+      "decision": "accepted",
+      "after": "Window: Itu kepala seorang prajurit; wajahnya membeku dalam raut ngeri.",
+      "objectiveReason": "Гримаса ужаса is a grimace of horror, not a grin; seringai changes the soldier's expression.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Гримаса ужаса is a grimace of horror, not a grin; seringai changes the soldier's expression."
+    },
+    {
+      "findingNumber": 21,
+      "sourceOrderIndex": 1344,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678983",
+      "source": "Window: Вы ощущаете страх и молите бога, чтобы жуткий Гость обошёл дом стороной.",
+      "sourceSha256": "02fc4550c6be699c9394ce807b83c41473a24b8d5822d0d41224e449a4560bb3",
+      "key": "line:window_2_3_01b6275",
+      "nodeNames": [],
+      "targetBatch": "Translations/id/dialogue-batch-179.json",
+      "before": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu melewati rumah ini.",
+      "proposed": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu menjauhi rumah ini.",
+      "decision": "accepted",
+      "after": "Window: Anda merasa takut dan berdoa kepada Tuhan agar Tamu mengerikan itu menjauhi rumah ini.",
+      "objectiveReason": "This occurrence repeats обошёл дом стороной; the prayer asks the Visitor to avoid the house, not merely pass it.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This occurrence repeats обошёл дом стороной; the prayer asks the Visitor to avoid the house, not merely pass it."
+    },
+    {
+      "findingNumber": 22,
+      "sourceOrderIndex": 1512,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570113",
+      "source": "Fairytaller: И вину я всё же возлагаю не на себя в этой ситуации.",
+      "sourceSha256": "d223206a238ba28a03d5bf678c4577ef34934ba62a35ba8012712d91dd91a246",
+      "key": "line:Fairytaller_Entrance_Occupied_030930f",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "before": "Fairytaller: Dan tetap saja aku tidak merasa bersalah dalam situasi ini.",
+      "proposed": "Fairytaller: Dan dalam situasi ini, aku tetap tidak menyalahkan diriku sendiri.",
+      "decision": "accepted",
+      "after": "Fairytaller: Dan dalam situasi ini, aku tetap tidak menyalahkan diriku sendiri.",
+      "objectiveReason": "The source explicitly assigns blame elsewhere rather than to the speaker; not feeling guilty changes this into an internal emotion.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source explicitly assigns blame elsewhere rather than to the speaker; not feeling guilty changes this into an internal emotion."
+    },
+    {
+      "findingNumber": 23,
+      "sourceOrderIndex": 1717,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878343",
+      "source": "Откуда у тебя это на коже?",
+      "sourceSha256": "804fbfafbb94ef4445221c0b2bf4d4eb3c4503d3cef431228dc5ec8c043381b7",
+      "key": "line:entrance_leper_0f04a55",
+      "nodeNames": [
+        "entrance_leper"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "before": "Dari mana bercak di kulitmu itu?",
+      "proposed": "Dari mana asal sesuatu seperti itu di kulitmu?",
+      "decision": "accepted",
+      "after": "Dari mana asal sesuatu seperti itu di kulitmu?",
+      "objectiveReason": "The source asks where the unexplained thing on the skin came from; bercak specifies spots before the character explains the congenital skin condition.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source asks where the unexplained thing on the skin came from; bercak specifies spots before the character explains the congenital skin condition."
+    },
+    {
+      "findingNumber": 24,
+      "sourceOrderIndex": 1732,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684041",
+      "source": "Nervous: Ещё со школы надо мной издеваются всякие кретины.",
+      "sourceSha256": "734764add4282c7b874ec304fdd14b053e95cee591badff812472dfe4968172f",
+      "key": "line:Nervous_Entrance_4_03ac686",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "before": "Nervous: Sejak sekolah, orang-orang bodoh selalu menggangguku.",
+      "proposed": "Nervous: Sejak masih sekolah, aku selalu dirundung oleh orang-orang tolol.",
+      "decision": "accepted",
+      "after": "Nervous: Sejak masih sekolah, aku selalu dirundung oleh orang-orang tolol.",
+      "objectiveReason": "Издеваются describes repeated bullying or mockery since school; menggangguku merely says they bothered him.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Издеваются describes repeated bullying or mockery since school; menggangguku merely says they bothered him."
+    },
+    {
+      "findingNumber": 25,
+      "sourceOrderIndex": 1751,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489729",
+      "source": "Nervous: Отель сам по себе хороший, но там живёт девочка в жёлтом дождевике.",
+      "sourceSha256": "6f834b29e7995aca0e189cf84ade27aad91cdb18973e6543a521b66df8bccd01",
+      "key": "line:Nervous_Entrance_1_0c56256",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "before": "Nervous: Hotelnya sendiri bagus, tapi ada gadis berjas hujan kuning yang tinggal di sana.",
+      "proposed": "Nervous: Hotelnya sendiri bagus, tapi ada anak perempuan berjas hujan kuning yang tinggal di sana.",
+      "decision": "accepted",
+      "after": "Nervous: Hotelnya sendiri bagus, tapi ada anak perempuan berjas hujan kuning yang tinggal di sana.",
+      "objectiveReason": "Девочка is a child; gadis can suggest a teenage or adult young woman and weakens the age cue.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Девочка is a child; gadis can suggest a teenage or adult young woman and weakens the age cue."
+    },
+    {
+      "findingNumber": 26,
+      "sourceOrderIndex": 1919,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457345769475",
+      "source": "Rocker: А, не иждивенец какой-то.",
+      "sourceSha256": "a989dd5fa37a2e36db2a7ec4674e8348abfeb28d9a59eb6c585b0a18cf36b976",
+      "key": "line:entrance_rocker_09100b8",
+      "nodeNames": [
+        "entrance_rocker"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "before": "Rocker: Ah, orang yang hidup menumpang.",
+      "proposed": "Rocker: Ah, bukan orang yang hidup menumpang.",
+      "decision": "accepted",
+      "after": "Rocker: Ah, bukan orang yang hidup menumpang.",
+      "objectiveReason": "The Rocker says he is not a dependent (не иждивенец); the draft drops не, reversing this statement after his preceding unfinished line.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The Rocker says he is not a dependent (не иждивенец); the draft drops не, reversing this statement after his preceding unfinished line."
+    },
+    {
+      "findingNumber": 27,
+      "sourceOrderIndex": 2088,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457287049217",
+      "source": "Jacob: К тебе случайно не заходила девочка в пончо с фиолетовыми волосами?",
+      "sourceSha256": "ce754758d124c3f41c27a05974e91ee06dc34c45626f7f95db5d760c418e558a",
+      "key": "line:entrance_jakob_029f328",
+      "nodeNames": [
+        "entrance_jacob"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-300.json",
+      "before": "Jacob: Apa kebetulan ada gadis berponco dan berambut ungu yang datang ke rumahmu?",
+      "proposed": "Jacob: Apa kebetulan ada anak perempuan berponco dan berambut ungu yang datang ke rumahmu?",
+      "decision": "accepted",
+      "after": "Jacob: Apa kebetulan ada anak perempuan berponco dan berambut ungu yang datang ke rumahmu?",
+      "objectiveReason": "Девочка is a child, here Jacob’s daughter in a poncho; gadis may imply an older girl or young woman and weakens the age cue also found at row 1751.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Девочка is a child, here Jacob’s daughter in a poncho; gadis may imply an older girl or young woman and weakens the age cue also found at row 1751."
+    },
+    {
+      "findingNumber": 28,
+      "sourceOrderIndex": 2132,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457270272003",
+      "source": "Courier: Я устал от всего этого дерьма. Мне просто хочется, чтобы всё это нахуй закончилось…",
+      "sourceSha256": "9c8f36a6e9484476f43e5c4370200e35b378e96872dc234dc268bfd79029df46",
+      "key": "line:Courier_Entrance_4_1_2_0dc263d",
+      "nodeNames": [
+        "Courier_Entrance_4_1_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-021.json",
+      "before": "Courier: Aku sudah muak dengan semua omong kosong ini. Aku cuma ingin semua ini berakhir, sialan…",
+      "proposed": "Courier: Aku sudah muak dengan semua kekacauan sialan ini. Aku cuma ingin semua ini berakhir, sialan…",
+      "decision": "accepted",
+      "after": "Courier: Aku sudah muak dengan semua kekacauan sialan ini. Aku cuma ingin semua ini berakhir, sialan…",
+      "objectiveReason": "Всего этого дерьма refers to the surrounding disastrous situation; omong kosong changes it into nonsense or talk.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Всего этого дерьма refers to the surrounding disastrous situation; omong kosong changes it into nonsense or talk."
+    },
+    {
+      "findingNumber": 29,
+      "sourceOrderIndex": 2242,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328969",
+      "source": "Couple: {0}? Я готов последнее отдать, лишь бы моя дорогая смогла передохнуть.",
+      "sourceSha256": "a87c8b766ebe0b73e5f99bd3fe1cf43930fe5036933465a3354bac328c8e4593",
+      "key": "line:Couple_Entrance_Bribe_0e437e0",
+      "nodeNames": [
+        "Couple_Entrance_Bribe"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-279.json",
+      "before": "Couple: {0}? Saya rela memberikan apa pun yang saya punya, asalkan istri tercinta bisa beristirahat.",
+      "proposed": "Couple: {0}? Saya rela menyerahkan milik terakhir saya, asalkan istri tercinta bisa beristirahat.",
+      "decision": "accepted",
+      "after": "Couple: {0}? Saya rela menyerahkan milik terakhir saya, asalkan istri tercinta bisa beristirahat.",
+      "objectiveReason": "Готов последнее отдать means ready to give his last remaining possession; apa pun yang saya punya loses the extremity of the offer.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Готов последнее отдать means ready to give his last remaining possession; apa pun yang saya punya loses the extremity of the offer."
+    },
+    {
+      "findingNumber": 30,
+      "sourceOrderIndex": 2270,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457219940356",
+      "source": "Bestson: Ещё у меня есть жвачка. Но там осталось пара штучек. Могу и их отдать…",
+      "sourceSha256": "3284af3966e3bc41cacba4cba718afec9d334d2119e02bd773709aafbf758bbf",
+      "key": "line:Bestson_Entrance_Bribe_0c5822d",
+      "nodeNames": [
+        "Bestson_Entrance_Bribe"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-226.json",
+      "before": "Bestson: Aku juga punya permen karet. Tapi tinggal beberapa keping. Itu juga bisa kuberikan…",
+      "proposed": "Bestson: Aku juga punya permen karet. Tapi tinggal dua keping. Itu juga bisa kuberikan…",
+      "decision": "accepted",
+      "after": "Bestson: Aku juga punya permen karet. Tapi tinggal dua keping. Itu juga bisa kuberikan…",
+      "objectiveReason": "Пара штучек specifies a couple of pieces; beberapa broadens the remaining count.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Пара штучек specifies a couple of pieces; beberapa broadens the remaining count."
+    },
+    {
+      "findingNumber": 31,
+      "sourceOrderIndex": 2509,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+      "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+      "sourceSha256": "17c1061e8c67356041b3e14b5ed8ddccd2099786e59e6f5d76534124bc4ec662",
+      "key": "line:Fatman_Entrance_Occupied_0be05e8",
+      "nodeNames": [
+        "Fatman_Entrance_Occupied"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-269.json",
+      "before": "Fatman: Sial, di sini ada… {0}. Usir mereka, sialan! Aku tak mau baku hantam… cuma demi bak mandi.",
+      "proposed": "Fatman: Sial, di sini ada… {0}. Usir dia, sialan! Aku tak mau baku hantam… cuma demi bak mandi.",
+      "decision": "rejected",
+      "after": "Fatman: Sial, di sini ada… {0}. Usir mereka, sialan! Aku tak mau baku hantam… cuma demi bak mandi.",
+      "objectiveReason": "The source singular гони refers to one occupant, while the draft demands that the player expel them in the plural.",
+      "adjudicationReason": "Russian гони is a singular imperative addressed to the player, not a singular object; this occupied-house branch also uses их and the dynamic {0} value, so a plural object is supported."
+    },
+    {
+      "findingNumber": 32,
+      "sourceOrderIndex": 2615,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111239",
+      "source": "FatalDame: Могу дать другое, на что согласятся очень немногие.",
+      "sourceSha256": "94ca24a7cedf0c0f756cdb0b453ab8ff47d49538bc12ef5e7735dd104fad16ad",
+      "key": "line:FatalDame_Entrance_3_01d9e82",
+      "nodeNames": [
+        "FatalDame_Entrance_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-239.json",
+      "before": "FatalDame: Aku bisa menawarkan sesuatu yang lain, sesuatu yang hanya segelintir orang mau berikan.",
+      "proposed": "FatalDame: Aku bisa menawarkan sesuatu yang lain, sesuatu yang hanya segelintir orang mau terima.",
+      "decision": "accepted",
+      "after": "FatalDame: Aku bisa menawarkan sesuatu yang lain, sesuatu yang hanya segelintir orang mau terima.",
+      "objectiveReason": "На что согласятся очень немногие means few would agree to or accept the offer, not that few would offer it.",
+      "adjudicationReason": "Accepted after source and node-context comparison: На что согласятся очень немногие means few would agree to or accept the offer, not that few would offer it."
+    },
+    {
+      "findingNumber": 33,
+      "sourceOrderIndex": 2662,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334023",
+      "source": "Vigilante: А они ржут: «Тебя в наши ряды взять надо». Да пошли они нахуй. Они только и умеют людей уводить, а Гости потом всё равно остаются.",
+      "sourceSha256": "baac6cdc7bc868e5f2749e3b8abd1847c9f1b5c4b58d2e66f1703edb08439e49",
+      "key": "line:Vigilante_Entrance_3_2_09da874",
+      "nodeNames": [
+        "Vigilante_Entrance_3_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-039.json",
+      "before": "Vigilante: Mereka malah tertawa, ‘Kami perlu orang sepertimu.’ Persetan dengan mereka. Mereka hanya bisa membawa orang pergi, sementara Tamu tetap ada di sini.",
+      "proposed": "Vigilante: Mereka malah tertawa, ‘Kami harus merekrutmu ke barisan kami.’ Persetan dengan mereka. Mereka hanya bisa membawa orang pergi, sementara Tamu tetap ada di sini.",
+      "decision": "accepted",
+      "after": "Vigilante: Mereka malah tertawa, ‘Kami harus merekrutmu ke barisan kami.’ Persetan dengan mereka. Mereka hanya bisa membawa orang pergi, sementara Tamu tetap ada di sini.",
+      "objectiveReason": "Тебя в наши ряды взять надо explicitly proposes taking the Vigilante into KChS ranks; Kami perlu orang sepertimu omits the recruitment action.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Тебя в наши ряды взять надо explicitly proposes taking the Vigilante into KChS ranks; Kami perlu orang sepertimu omits the recruitment action."
+    },
+    {
+      "findingNumber": 34,
+      "sourceOrderIndex": 2734,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168198",
+      "source": "Vigilante: Стоит проявиться хоть одному – сразу дух вон из такого.",
+      "sourceSha256": "5073b240676a574c3117957d4e4575133aa3b0432c66199b0b95c641b52069af",
+      "key": "line:Vigilante_Entrance_2_1_0b9ada4",
+      "nodeNames": [
+        "Vigilante_Entrance_2_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-038.json",
+      "before": "Vigilante: Begitu satu tanda saja muncul, orang itu harus segera diusir.",
+      "proposed": "Vigilante: Begitu satu tanda saja muncul, langsung kuhabisi orang itu.",
+      "decision": "accepted",
+      "after": "Vigilante: Begitu satu tanda saja muncul, langsung kuhabisi orang itu.",
+      "objectiveReason": "Сразу дух вон из такого means killing someone as soon as even one sign appears; the draft changes the act to merely expelling that person.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Сразу дух вон из такого means killing someone as soon as even one sign appears; the draft changes the act to merely expelling that person."
+    },
+    {
+      "findingNumber": 35,
+      "sourceOrderIndex": 2739,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168193",
+      "source": "Vigilante: КЧС забили на этот город? Или только на район?",
+      "sourceSha256": "68241cca5d7c63d19b376ce09ac1626d1e0e3ed198670ca70e2027058ffe940c",
+      "key": "line:entrance_vigilante_2_02122d6",
+      "nodeNames": [
+        "entrance_vigilante_10"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-300.json",
+      "before": "Vigilante: Apa KChS sudah meninggalkan kota ini? Atau cuma daerah ini?",
+      "proposed": "Vigilante: Apa KChS sudah tak peduli lagi pada kota ini? Atau cuma kawasan ini?",
+      "decision": "accepted",
+      "after": "Vigilante: Apa KChS sudah tak peduli lagi pada kota ini? Atau cuma kawasan ini?",
+      "objectiveReason": "КЧС забили на этот город asks whether KChS stopped caring about the city; meninggalkan states that they physically left it.",
+      "adjudicationReason": "Accepted after source and node-context comparison: КЧС забили на этот город asks whether KChS stopped caring about the city; meninggalkan states that they physically left it."
+    },
+    {
+      "findingNumber": 36,
+      "sourceOrderIndex": 2826,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457022808065",
+      "source": "Не думаешь, что с твоим другом что-то случилось в дыре?",
+      "sourceSha256": "f65e8fd4f3b9d3c1f156f87a8f18541c9e4b6c460a7356298db03cc415b6cb14",
+      "key": "line:Miner_Entrance_2_2_055cdae",
+      "nodeNames": [
+        "Miner_Entrance_2_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-089.json",
+      "before": "Apa kamu tidak takut sesuatu terjadi pada temanmu di dalam lubang itu?",
+      "proposed": "Apa kau tak berpikir bahwa sesuatu mungkin terjadi pada temanmu di dalam lubang itu?",
+      "decision": "accepted",
+      "after": "Apa kau tak berpikir bahwa sesuatu mungkin terjadi pada temanmu di dalam lubang itu?",
+      "objectiveReason": "Не думаешь asks whether the player thinks something happened to the friend; tidak takut asks whether the player is afraid, changing the question.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Не думаешь asks whether the player thinks something happened to the friend; tidak takut asks whether the player is afraid, changing the question."
+    },
+    {
+      "findingNumber": 37,
+      "sourceOrderIndex": 2831,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613768",
+      "source": "Не думаешь, что с твоим другом что-то случилось в дыре?",
+      "sourceSha256": "f65e8fd4f3b9d3c1f156f87a8f18541c9e4b6c460a7356298db03cc415b6cb14",
+      "key": "line:Miner_Entrance_2_1_00b2f2c",
+      "nodeNames": [
+        "Miner_Entrance_2_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-089.json",
+      "before": "Apa kamu tidak takut sesuatu terjadi pada temanmu di dalam lubang itu?",
+      "proposed": "Apa kau tak berpikir bahwa sesuatu mungkin terjadi pada temanmu di dalam lubang itu?",
+      "decision": "accepted",
+      "after": "Apa kau tak berpikir bahwa sesuatu mungkin terjadi pada temanmu di dalam lubang itu?",
+      "objectiveReason": "This branch repeats the same Не думаешь question; the draft again changes thought or suspicion into fear.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This branch repeats the same Не думаешь question; the draft again changes thought or suspicion into fear."
+    },
+    {
+      "findingNumber": 38,
+      "sourceOrderIndex": 3150,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456905367555",
+      "source": "Courier: Прошёл тесты, меня по всем признакам посчитали человеком и…",
+      "sourceSha256": "6123fbdae9e5ce9e1b0a4c23000ac0bf00d4267a414c84a1c6011f6a6b8d02b5",
+      "key": "line:Courier_Entrance_2_2_057bb3f",
+      "nodeNames": [
+        "Courier_Entrance_2_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-020.json",
+      "before": "Courier: Aku lulus pemeriksaan, semua tanda menunjukkan bahwa aku manusia, lalu…",
+      "proposed": "Courier: Aku lulus pemeriksaan. Berdasarkan semua tanda, mereka menganggapku manusia, lalu…",
+      "decision": "accepted",
+      "after": "Courier: Aku lulus pemeriksaan. Berdasarkan semua tanda, mereka menganggapku manusia, lalu…",
+      "objectiveReason": "The source says the examiners considered the courier human based on all signs (посчитали человеком); the draft asserts that all signs show he is human, removing the examiners and making the classification factual.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source says the examiners considered the courier human based on all signs (посчитали человеком); the draft asserts that all signs show he is human, removing the examiners and making the classification factual."
+    },
+    {
+      "findingNumber": 39,
+      "sourceOrderIndex": 3355,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456834064385",
+      "source": "TaxiDriver: Они захотели меня загрести вместе с тем, что в машине.",
+      "sourceSha256": "54fce0f872e8996ab85ba47ffc434f3834acca1179bdecb517401c1d00d0fb22",
+      "key": "line:TaxiDriver_Entrance_4_01729af",
+      "nodeNames": [
+        "TaxiDriver_Entrance_4"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-169.json",
+      "before": "TaxiDriver: Mereka ingin menangkapku bersama penumpang di dalam mobil.",
+      "proposed": "TaxiDriver: Mereka ingin menangkapku bersama sesuatu yang ada di dalam mobil.",
+      "decision": "accepted",
+      "after": "TaxiDriver: Mereka ingin menangkapku bersama sesuatu yang ada di dalam mobil.",
+      "objectiveReason": "The source calls the entity in the car тем, что (that thing); the draft names it a passenger, changing the taxi driver’s characterization before his explanation.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source calls the entity in the car тем, что (that thing); the draft names it a passenger, changing the taxi driver’s characterization before his explanation."
+    },
+    {
+      "findingNumber": 40,
+      "sourceOrderIndex": 3485,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456787927041",
+      "source": "Doctor: Так тихо у вас ночью.",
+      "sourceSha256": "f1fa920a25d0893313d9f952c9dad2a471452227c86d7f4fcdb00d7dadcf48f8",
+      "key": "line:entrance_doctor_005155b",
+      "nodeNames": [
+        "entrance_doc"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-301.json",
+      "before": "Doctor: Daerah tempat tinggal Anda sunyi sekali pada malam hari.",
+      "proposed": "Doctor: Rumah Anda sunyi sekali pada malam hari.",
+      "decision": "accepted",
+      "after": "Doctor: Rumah Anda sunyi sekali pada malam hari.",
+      "objectiveReason": "Так тихо у вас ночью refers to the addressee’s place/home, as reinforced by the doctor’s preceding line about the quiet house; the draft moves the observation to the surrounding residential area.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Так тихо у вас ночью refers to the addressee’s place/home, as reinforced by the doctor’s preceding line about the quiet house; the draft moves the observation to the surrounding residential area."
+    },
+    {
+      "findingNumber": 41,
+      "sourceOrderIndex": 3918,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456636932099",
+      "source": "Gasmask: Если мы сейчас не придумаем, как эффективно спастись, это придумают за нас.",
+      "sourceSha256": "5e2fec4d4fafd4b26c686cecac72ff556fc22f95e0fdf83d4e2265de54fd0bda",
+      "key": "line:Entrance_Gasmask_13_2_04706b3",
+      "nodeNames": [
+        "Entrance_Gasmask_10_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-310.json",
+      "before": "Gasmask: Kalau sekarang kami tak menemukan cara yang efektif untuk selamat, orang lain akan menentukannya bagi kami.",
+      "proposed": "Gasmask: Kalau sekarang kami tak menemukan cara yang efektif untuk selamat, orang lain akan menemukan caranya untuk kami.",
+      "decision": "accepted",
+      "after": "Gasmask: Kalau sekarang kami tak menemukan cara yang efektif untuk selamat, orang lain akan menemukan caranya untuk kami.",
+      "objectiveReason": "The second придумают repeats devising an effective way to survive; the draft changes that action to someone else deciding on behalf of the team.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The second придумают repeats devising an effective way to survive; the draft changes that action to someone else deciding on behalf of the team."
+    },
+    {
+      "findingNumber": 42,
+      "sourceOrderIndex": 4094,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456578211840",
+      "source": "Couple: Большой дом на отшибе, соседи на расстоянии. Шансы, что придёт какой-нибудь уродец, малы.",
+      "sourceSha256": "d13f992bc159ea3f898588334fa1e632729a7a68b3468291df0296d6f3e4bea4",
+      "key": "line:Couple_Entrance_1_0b10101",
+      "nodeNames": [
+        "Couple_Entrance_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-279.json",
+      "before": "Couple: Rumah besar di tempat terpencil, tetangga berjauhan. Kecil kemungkinan ada orang aneh yang datang.",
+      "proposed": "Couple: Rumah besar di tempat terpencil, tetangga berjauhan. Kecil kemungkinan ada orang buruk rupa yang datang.",
+      "decision": "accepted",
+      "after": "Couple: Rumah besar di tempat terpencil, tetangga berjauhan. Kecil kemungkinan ada orang buruk rupa yang datang.",
+      "objectiveReason": "Какой-нибудь уродец is a derogatory reference to a physically ugly or freakish person; orang aneh only means a strange person and loses the appearance-based insult.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Какой-нибудь уродец is a derogatory reference to a physically ugly or freakish person; orang aneh only means a strange person and loses the appearance-based insult."
+    },
+    {
+      "findingNumber": 43,
+      "sourceOrderIndex": 4749,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456347525120",
+      "source": "Долго шли?",
+      "sourceSha256": "0f76ce41532b46ea6c2c8e15ca4986ba07f60bba911aec771696a93aaf711129",
+      "key": "line:entrance_nottrue_00d015b",
+      "nodeNames": [
+        "entrance_nottrue"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-304.json",
+      "before": "Kalian berjalan jauh?",
+      "proposed": "Sudah lama Anda berjalan?",
+      "decision": "accepted",
+      "after": "Sudah lama Anda berjalan?",
+      "objectiveReason": "Долго шли asks how long the walk took; berjalan jauh asks how far she walked. NotTrue’s following replies discuss elapsed time and what counts as long.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Долго шли asks how long the walk took; berjalan jauh asks how far she walked. NotTrue’s following replies discuss elapsed time and what counts as long."
+    },
+    {
+      "findingNumber": 44,
+      "sourceOrderIndex": 4817,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456326553604",
+      "source": "У тебя истерика?",
+      "sourceSha256": "2d543969659b24053923f98cbc536102ef8b2246e75ed1c6889c22d98f2ba2b5",
+      "key": "line:entrance_daughter_4_084ca47",
+      "nodeNames": [
+        "entrance_daughter_4"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-304.json",
+      "before": "Kau sedang panik?",
+      "proposed": "Kau sedang histeris?",
+      "decision": "accepted",
+      "after": "Kau sedang histeris?",
+      "objectiveReason": "The choice У тебя истерика? asks whether the daughter is having a hysterical episode in the branch where she is screaming and stammering; panik names ordinary panic instead.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The choice У тебя истерика? asks whether the daughter is having a hysterical episode in the branch where she is screaming and stammering; panik names ordinary panic instead."
+    },
+    {
+      "findingNumber": 45,
+      "sourceOrderIndex": 4932,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456284610568",
+      "source": "Scammer: В таком кайфе от солнца ваще не напрягаясь можно деньги делать.",
+      "sourceSha256": "bd457da1a9c8d93468b25c7fdc050eec55d25b8a50520974a59e7cc578fcbfe8",
+      "key": "line:Scammer_Entrance_1_0bfeb5b",
+      "nodeNames": [
+        "Scammer_Entrance_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-289.json",
+      "before": "Scammer: Dalam kegilaan akibat matahari begini, uang bisa didapat tanpa susah payah.",
+      "proposed": "Scammer: Di tengah euforia akibat matahari begini, kita bisa mendapat uang tanpa susah payah.",
+      "decision": "accepted",
+      "after": "Scammer: Di tengah euforia akibat matahari begini, kita bisa mendapat uang tanpa susah payah.",
+      "objectiveReason": "В таком кайфе от солнца describes the Scammer’s gleeful or euphoric framing of the sun crisis; kegilaan casts the situation as madness and removes his approving tone.",
+      "adjudicationReason": "Accepted after source and node-context comparison: В таком кайфе от солнца describes the Scammer’s gleeful or euphoric framing of the sun crisis; kegilaan casts the situation as madness and removes his approving tone."
+    },
+    {
+      "findingNumber": 46,
+      "sourceOrderIndex": 5333,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198529",
+      "source": "Firefighter: Но мне чётко дали понять, кх-кх… Что с меня хватит.",
+      "sourceSha256": "c0004033edc63a0a8d0463e3fc11587ffdf39340e698aa39fbe54ce62929aa79",
+      "key": "line:Firefighter_Entrance_4_0dff28a",
+      "nodeNames": [
+        "Firefighter_Entrance_4"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-115.json",
+      "before": "Firefighter: Tapi mereka menjelaskan dengan tegas, uhuk-uhuk… bahwa aku sudah cukup.",
+      "proposed": "Firefighter: Tapi mereka menegaskan, uhuk-uhuk… bahwa aku sudah harus berhenti.",
+      "decision": "accepted",
+      "after": "Firefighter: Tapi mereka menegaskan, uhuk-uhuk… bahwa aku sudah harus berhenti.",
+      "objectiveReason": "Мне чётко дали понять… Что с меня хватит means others made clear that he had done enough and should stop firefighting; bahwa aku sudah cukup is incomplete and can mean that he himself is sufficient.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Мне чётко дали понять… Что с меня хватит means others made clear that he had done enough and should stop firefighting; bahwa aku sudah cukup is incomplete and can mean that he himself is sufficient."
+    },
+    {
+      "findingNumber": 47,
+      "sourceOrderIndex": 5852,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455957454856",
+      "source": "Intruder: Ищу у тебя сны.",
+      "sourceSha256": "b932acc33d3111e705fd9e0704f01c79a2236584c6639e58cea260d14c6da46a",
+      "key": "line:Intruder_Asking_SpecialEvent_1_0737e73",
+      "nodeNames": [
+        "Intruder_Asking_SpecialEvent_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-188.json",
+      "before": "Intruder: Aku mencari mimpi di rumahmu.",
+      "proposed": "Intruder: Aku mencari mimpi yang kau punya.",
+      "decision": "accepted",
+      "after": "Intruder: Aku mencari mimpi yang kau punya.",
+      "objectiveReason": "Ищу у тебя сны says the Intruder seeks dreams from the addressee, as the adjacent lines say he needs dreams and asks where the player hides them; di rumahmu makes the house their location.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Ищу у тебя сны says the Intruder seeks dreams from the addressee, as the adjacent lines say he needs dreams and asks where the player hides them; di rumahmu makes the house their location."
+    },
+    {
+      "findingNumber": 48,
+      "sourceOrderIndex": 6004,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455907123203",
+      "source": "Alt: Я пыталась пролезть во все отделы, особенно когда начались вспышки на солнце.",
+      "sourceSha256": "9f3631e052b6afa14c601276ae7135d6dd890b041de3932ce4dba38f7c1d8a20",
+      "key": "line:Alt_Asking_3_0cd8f1a",
+      "nodeNames": [
+        "Alt_Asking_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-146.json",
+      "before": "Alt: Aku mencoba masuk ke semua bagian, terutama setelah ledakan di Matahari dimulai.",
+      "proposed": "Alt: Aku mencoba masuk ke semua bagian, terutama ketika kilatan-kilatan di Matahari mulai terjadi.",
+      "decision": "accepted",
+      "after": "Alt: Aku mencoba masuk ke semua bagian, terutama ketika kilatan-kilatan di Matahari mulai terjadi.",
+      "objectiveReason": "Вспышки на солнце are flashes or flares on the Sun; ledakan states explosions, a different event from the source.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Вспышки на солнце are flashes or flares on the Sun; ledakan states explosions, a different event from the source."
+    },
+    {
+      "findingNumber": 49,
+      "sourceOrderIndex": 6216,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455835820035",
+      "source": "Leper: И, разумеется, моя внешность — маркер того, что я Гость…",
+      "sourceSha256": "05700f87ad52d3759491587f8d648ad91b33cf60720adb6307960edba40a0159",
+      "key": "line:Leper_Asking_1_0beff3f",
+      "nodeNames": [
+        "Leper_Asking_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-125.json",
+      "before": "Leper: Dan tentu saja, penampilanku dianggap bukti bahwa aku Tamu…",
+      "proposed": "Leper: Dan tentu saja, penampilanku dianggap penanda bahwa aku Tamu…",
+      "decision": "accepted",
+      "after": "Leper: Dan tentu saja, penampilanku dianggap penanda bahwa aku Tamu…",
+      "objectiveReason": "The source calls his appearance a маркер, a marker or indicator in Leper’s ironic claim; dianggap bukti states it is treated as proof.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source calls his appearance a маркер, a marker or indicator in Leper’s ironic claim; dianggap bukti states it is treated as proof."
+    },
+    {
+      "findingNumber": 50,
+      "sourceOrderIndex": 6242,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431427",
+      "source": "Nervous: Костяшки пальцев так приятно болели. Мне ещё заехали по лицу, разбили губу. Но как приятен был тот вкус.",
+      "sourceSha256": "c3cde65e390db08f7a32666b890a092bef3c7bb284c1f86a73e2377239330ee8",
+      "key": "line:Nervous_Asking_2_0ddc65b",
+      "nodeNames": [
+        "Nervous_Asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-149.json",
+      "before": "Nervous: Buku-buku jariku terasa begitu nyeri. Wajahku juga dihantam sampai bibirku pecah. Tapi betapa nikmat rasanya.",
+      "proposed": "Nervous: Rasa sakit di buku-buku jariku begitu menyenangkan. Wajahku juga dihantam sampai bibirku pecah. Tapi betapa nikmat rasanya.",
+      "decision": "accepted",
+      "after": "Nervous: Rasa sakit di buku-buku jariku begitu menyenangkan. Wajahku juga dihantam sampai bibirku pecah. Tapi betapa nikmat rasanya.",
+      "objectiveReason": "Костяшки пальцев так приятно болели says the aching knuckles felt pleasant to Nervous; terasa begitu nyeri reports the pain without that response.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Костяшки пальцев так приятно болели says the aching knuckles felt pleasant to Nervous; terasa begitu nyeri reports the pain without that response."
+    },
+    {
+      "findingNumber": 51,
+      "sourceOrderIndex": 6256,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237121",
+      "source": "Nervous: Ещё бы, десять лет продержали меня в этой дурке. Как будто я какой маньяк, хи-хи.",
+      "sourceSha256": "9c64b93da47f5206f534c27058d70d2b80b2f28a24354cb791c0c6e04a554993",
+      "key": "line:Nervous_Asking_1_0314d87",
+      "nodeNames": [
+        "Nervous_Asking_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-149.json",
+      "before": "Nervous: Tentu saja. Mereka mengurungku sepuluh tahun di rumah sakit jiwa itu. Seolah aku pembunuh gila, hi-hi.",
+      "proposed": "Nervous: Tentu saja. Mereka mengurungku sepuluh tahun di rumah sakit jiwa itu. Seolah aku ini maniak, hi-hi.",
+      "decision": "accepted",
+      "after": "Nervous: Tentu saja. Mereka mengurungku sepuluh tahun di rumah sakit jiwa itu. Seolah aku ini maniak, hi-hi.",
+      "objectiveReason": "Маньяк compares him to a maniac; pembunuh gila specifies a murderer, a stronger label even though an earlier incident resulted in death.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Маньяк compares him to a maniac; pembunuh gila specifies a murderer, a stronger label even though an earlier incident resulted in death."
+    },
+    {
+      "findingNumber": 52,
+      "sourceOrderIndex": 6409,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455768711175",
+      "source": "Jacket: Моего брата забрали не в карантинную зону, а буквально в КЧС…",
+      "sourceSha256": "1017f7b551f061994aa724924428c5542aa6d80430bb51916399b78ad9ac7023",
+      "key": "line:Jacket_Asking_3_041ca5f",
+      "nodeNames": [
+        "Jacket_Asking_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-122.json",
+      "before": "Jacket: Kakakku tidak dibawa ke zona karantina, melainkan direkrut oleh KChS…",
+      "proposed": "Jacket: Saudara laki-lakiku tidak dibawa ke zona karantina, melainkan direkrut oleh KChS…",
+      "decision": "accepted",
+      "after": "Jacket: Saudara laki-lakiku tidak dibawa ke zona karantina, melainkan direkrut oleh KChS…",
+      "objectiveReason": "Брата identifies Jacket’s male sibling without an older/younger distinction; Kakakku specifies an older sibling, contrary to the approved age-neutral relationship rule.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Брата identifies Jacket’s male sibling without an older/younger distinction; Kakakku specifies an older sibling, contrary to the approved age-neutral relationship rule."
+    },
+    {
+      "findingNumber": 53,
+      "sourceOrderIndex": 6425,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455764516867",
+      "source": "Jacket: Это то немногое, что осталось у меня от брата...",
+      "sourceSha256": "252b6ad5fb6156edae35b8fa871a9ce2c514f524d8f7524693c732cdca76fac2",
+      "key": "line:Jacket_Asking_1_X_0b014ed",
+      "nodeNames": [
+        "Jacket_Asking_1_X"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-122.json",
+      "before": "Jacket: Ini salah satu dari sedikit peninggalan saudara laki-lakiku...",
+      "proposed": "Jacket: Ini salah satu dari sedikit hal yang masih kumiliki dari saudara laki-lakiku...",
+      "decision": "accepted",
+      "after": "Jacket: Ini salah satu dari sedikit hal yang masih kumiliki dari saudara laki-lakiku...",
+      "objectiveReason": "Jacket has not learned whether his brother is alive; peninggalan can frame the jacket as an inheritance from the dead while the source says only that little remains with him from his brother.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Jacket has not learned whether his brother is alive; peninggalan can frame the jacket as an inheritance from the dead while the source says only that little remains with him from his brother."
+    },
+    {
+      "findingNumber": 54,
+      "sourceOrderIndex": 6561,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455718379521",
+      "source": "Experienced: Короче, самое верное будет — пускать только мужиков. С ними ты не пропадёшь.",
+      "sourceSha256": "869ed79a9d1ee1feb02a4ab2110c6c4ec5d5599e6766fad5f2f51180713e6c60",
+      "key": "line:Experienced_Asking_1_1_05dc6f3",
+      "nodeNames": [
+        "Experienced_Asking_1_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-261.json",
+      "before": "Experienced: Singkatnya, yang paling tepat adalah menerima pria saja. Bersama mereka kau tak akan kesulitan.",
+      "proposed": "Experienced: Singkatnya, yang paling tepat adalah menerima pria saja. Bersama mereka kau akan selamat.",
+      "decision": "accepted",
+      "after": "Experienced: Singkatnya, yang paling tepat adalah menerima pria saja. Bersama mereka kau akan selamat.",
+      "objectiveReason": "С ними ты не пропадёшь assures the player he will not perish with the men in this survival crisis; tak akan kesulitan says only that he will not have difficulty.",
+      "adjudicationReason": "Accepted after source and node-context comparison: С ними ты не пропадёшь assures the player he will not perish with the men in this survival crisis; tak akan kesulitan says only that he will not have difficulty."
+    },
+    {
+      "findingNumber": 55,
+      "sourceOrderIndex": 6629,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455693213703",
+      "source": "Unstable: Вот и всё. Добегались.",
+      "sourceSha256": "ac32b1605477fb53598858b8b22d947f9e71087010370fb5e4469483955d2798",
+      "key": "line:talk_unstable_4_0346a4c",
+      "nodeNames": [
+        "talk_unstable_4"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-316.json",
+      "before": "Unstable: Nah, berakhirlah semuanya. Kita tak bisa terus berlari.",
+      "proposed": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "decision": "accepted",
+      "after": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "objectiveReason": "Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times."
+    },
+    {
+      "findingNumber": 56,
+      "sourceOrderIndex": 6655,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455684825094",
+      "source": "Unstable: Вот и всё. Добегались.",
+      "sourceSha256": "ac32b1605477fb53598858b8b22d947f9e71087010370fb5e4469483955d2798",
+      "key": "line:talk_unstable_3_0fa436b",
+      "nodeNames": [
+        "talk_unstable_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-316.json",
+      "before": "Unstable: Nah, berakhirlah semuanya. Kita tak bisa terus berlari.",
+      "proposed": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "decision": "accepted",
+      "after": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "objectiveReason": "This fourth accepted occurrence has the same Russian source and the same Indonesian draft as rows 6,629, 6,681 and 6,716. Добегались expresses a consequence of all the running, not inability to keep running; the repeated-source closure requires the same correction here.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This fourth accepted occurrence has the same Russian source and the same Indonesian draft as rows 6,629, 6,681 and 6,716. Добегались expresses a consequence of all the running, not inability to keep running; the repeated-source closure requires the same correction here."
+    },
+    {
+      "findingNumber": 57,
+      "sourceOrderIndex": 6681,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455676436484",
+      "source": "Unstable: Вот и всё. Добегались.",
+      "sourceSha256": "ac32b1605477fb53598858b8b22d947f9e71087010370fb5e4469483955d2798",
+      "key": "line:talk_unstable_2_0afb395",
+      "nodeNames": [
+        "talk_unstable_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-316.json",
+      "before": "Unstable: Nah, berakhirlah semuanya. Kita tak bisa terus berlari.",
+      "proposed": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "decision": "accepted",
+      "after": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "objectiveReason": "Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times."
+    },
+    {
+      "findingNumber": 58,
+      "sourceOrderIndex": 6716,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455663853574",
+      "source": "Unstable: Вот и всё. Добегались.",
+      "sourceSha256": "ac32b1605477fb53598858b8b22d947f9e71087010370fb5e4469483955d2798",
+      "key": "line:talk_unstable_1_0a8643f",
+      "nodeNames": [
+        "talk_unstable_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-316.json",
+      "before": "Unstable: Nah, berakhirlah semuanya. Kita tak bisa terus berlari.",
+      "proposed": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "decision": "accepted",
+      "after": "Unstable: Ya sudah. Begini jadinya kalau terus lari.",
+      "objectiveReason": "Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Добегались is a rueful statement about the result of running around; Kita tak bisa terus berlari asserts that continued running is impossible. The same source/target line recurs three times."
+    },
+    {
+      "findingNumber": 59,
+      "sourceOrderIndex": 7053,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607361",
+      "source": "FortuneTeller: Есть такие люди, которые знают, как вычищать тёмное.",
+      "sourceSha256": "e8469495decc203da0d1a70f7d3b26d389c948827be3e44dbbff5195c7436f6a",
+      "key": "line:FortuneTeller_Asking_2_0734155",
+      "nodeNames": [
+        "FortuneTeller_Asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-161.json",
+      "before": "FortuneTeller: Ada orang-orang yang tahu cara membersihkan energi gelap.",
+      "proposed": "FortuneTeller: Ada orang-orang yang tahu cara menyingkirkan kegelapan.",
+      "decision": "accepted",
+      "after": "FortuneTeller: Ada orang-orang yang tahu cara menyingkirkan kegelapan.",
+      "objectiveReason": "The source says вычищать тёмное, cleansing or removing the dark; energi gelap introduces an energy concept that is absent from the source.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source says вычищать тёмное, cleansing or removing the dark; energi gelap introduces an energy concept that is absent from the source."
+    },
+    {
+      "findingNumber": 60,
+      "sourceOrderIndex": 7140,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455521247233",
+      "source": "Neighbour: Что ж, на этом точно всё.",
+      "sourceSha256": "39cbfe8ca317c2ef16f87c715f4b57c27a818a10d829c3b57cb8e7aa451aa3ab",
+      "key": "line:Neighbour_Asking_5_0b33e41",
+      "nodeNames": [
+        "Neighbour_Asking_5"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-005.json",
+      "before": "Neighbour: Nah, sepertinya itu saja.",
+      "proposed": "Neighbour: Nah, sekarang benar-benar selesai.",
+      "decision": "accepted",
+      "after": "Neighbour: Nah, sekarang benar-benar selesai.",
+      "objectiveReason": "точно marks Neighbour’s statement as definite; sepertinya means apparently or perhaps.",
+      "adjudicationReason": "Accepted after source and node-context comparison: точно marks Neighbour’s statement as definite; sepertinya means apparently or perhaps."
+    },
+    {
+      "findingNumber": 61,
+      "sourceOrderIndex": 7167,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455508664332",
+      "source": "FatalDame: Может, в рай, может, перерождение, может, ещё что.",
+      "sourceSha256": "af2abc53bf6f2065ab85184a922b37e2e2554b894a0d60cf31d02c3a32f1af45",
+      "key": "line:FatalDame_Asking_4_2_010086f",
+      "nodeNames": [
+        "FatalDame_Asking_4_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-240.json",
+      "before": "FatalDame: Mungkin ke surga, mungkin terlahir kembali, mungkin ke tempat lain.",
+      "proposed": "FatalDame: Mungkin ke surga, mungkin terlahir kembali, mungkin ada hal lain lagi.",
+      "decision": "accepted",
+      "after": "FatalDame: Mungkin ke surga, mungkin terlahir kembali, mungkin ada hal lain lagi.",
+      "objectiveReason": "может, ещё что leaves the third possibility wholly unspecified; ke tempat lain asserts it is another place.",
+      "adjudicationReason": "Accepted after source and node-context comparison: может, ещё что leaves the third possibility wholly unspecified; ke tempat lain asserts it is another place."
+    },
+    {
+      "findingNumber": 62,
+      "sourceOrderIndex": 7286,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455470915590",
+      "source": "Cultist3: Чужеземцы должны занять эту землю, перекочевать сюда.",
+      "sourceSha256": "5d5e3087a4f70f592d9f402c1f891020a844e5d3eeb09ccc4aef858d16093493",
+      "key": "line:Cultist3_Asking_2_0f7732b",
+      "nodeNames": [
+        "Cultist3_Asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-051.json",
+      "before": "Cultist3: Para pendatang asing akan menempati tanah ini, berpindah ke sini.",
+      "proposed": "Cultist3: Para pendatang asing harus menempati tanah ini, berpindah ke sini.",
+      "decision": "accepted",
+      "after": "Cultist3: Para pendatang asing harus menempati tanah ini, berpindah ke sini.",
+      "objectiveReason": "Чужеземцы должны занять expresses the cultist’s claim that the outsiders must occupy the land; akan menempati states that they will do so.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Чужеземцы должны занять expresses the cultist’s claim that the outsiders must occupy the land; akan menempati states that they will do so."
+    },
+    {
+      "findingNumber": 63,
+      "sourceOrderIndex": 7421,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455424778247",
+      "source": "FormerFema: Нам приходится решать проблему на месте, чтобы в карантинной зоне не появился Гость.",
+      "sourceSha256": "edbe81d438c649655e42d51f183456e748a75923d3900a5469cc191ae3a9ea6c",
+      "key": "line:FormerFema_Asking_4_2_1_1_09ef925",
+      "nodeNames": [
+        "FormerFema_Asking_4_2_1_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-223.json",
+      "before": "FormerFema: Kami harus menyelesaikan masalah itu di tempat, agar tak ada Tamu yang masuk ke zona karantina.",
+      "proposed": "FormerFema: Kami harus menyelesaikan masalah itu di tempat agar Tamu tidak muncul di zona karantina.",
+      "decision": "accepted",
+      "after": "FormerFema: Kami harus menyelesaikan masalah itu di tempat agar Tamu tidak muncul di zona karantina.",
+      "objectiveReason": "The source says they deal with the case on site so that a Tamu does not appear inside the quarantine zone; masuk says a pre-existing Tamu must not enter it, changing the protocol rationale in the adjacent infected-civilian line.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The source says they deal with the case on site so that a Tamu does not appear inside the quarantine zone; masuk says a pre-existing Tamu must not enter it, changing the protocol rationale in the adjacent infected-civilian line."
+    },
+    {
+      "findingNumber": 64,
+      "sourceOrderIndex": 7626,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455353475080",
+      "source": "Marauder: Я, может, и лез в твой дом, чтобы поживиться, но тут живые же.",
+      "sourceSha256": "689c748bb965831b0aaea63102b426e3686ba27d3c29136f83af0d6e1ea8cb8f",
+      "key": "line:Marauder_Asking_1_017e31e",
+      "nodeNames": [
+        "Marauder_Asking_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-143.json",
+      "before": "Marauder: Mungkin aku sempat ingin masuk ke rumahmu untuk mengambil sesuatu, tapi di sini masih ada orang hidup.",
+      "proposed": "Marauder: Mungkin aku memang mencoba masuk ke rumahmu untuk mengambil sesuatu, tapi di sini masih ada orang hidup.",
+      "decision": "accepted",
+      "after": "Marauder: Mungkin aku memang mencoba masuk ke rumahmu untuk mengambil sesuatu, tapi di sini masih ada orang hidup.",
+      "objectiveReason": "лез в твой дом states that Marauder was trying to get into the player’s home to loot it; sempat ingin masuk says only that he wanted to enter, removing the attempted action.",
+      "adjudicationReason": "Accepted after source and node-context comparison: лез в твой дом states that Marauder was trying to get into the player’s home to loot it; sempat ingin masuk says only that he wanted to enter, removing the attempted action."
+    },
+    {
+      "findingNumber": 65,
+      "sourceOrderIndex": 7947,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840264",
+      "source": "Doctor: Это произошло в карантинной зоне, в которой я работал.",
+      "sourceSha256": "aca03b35ce6eb155c93d67d5513a3bff6340b431740d48cc33dada9b38adf404",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_2_0311943",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "before": "Doctor: Itu terjadi di zona karantina tempat aku bekerja.",
+      "proposed": "Doctor: Itu terjadi di zona karantina tempat saya bekerja.",
+      "decision": "accepted",
+      "after": "Doctor: Itu terjadi di zona karantina tempat saya bekerja.",
+      "objectiveReason": "Doctor addresses the player formally and uses saya throughout the same account and nearby branch lines; aku in this otherwise formal line breaks the established character voice without a Russian address change.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Doctor addresses the player formally and uses saya throughout the same account and nearby branch lines; aku in this otherwise formal line breaks the established character voice without a Russian address change."
+    },
+    {
+      "findingNumber": 66,
+      "sourceOrderIndex": 8237,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455131176967",
+      "source": "Greatmother: Жалкий гадёныш…",
+      "sourceSha256": "b7e8f10e6ba5a7cf97981d512d0f24d04add75602bc9e95dabdd5ced885b82df",
+      "key": "line:Greatmother_Asking_3_6_04cf28d",
+      "nodeNames": [
+        "Greatmother_Asking_3_6"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-214.json",
+      "before": "Greatmother: Dasar makhluk kecil yang menyedihkan…",
+      "proposed": "Greatmother: Dasar bajingan kecil yang menyedihkan…",
+      "decision": "accepted",
+      "after": "Greatmother: Dasar bajingan kecil yang menyedihkan…",
+      "objectiveReason": "The Russian гадёныш is a direct contemptuous insult in her threat scene; makhluk kecil reduces it to a neutral creature label and loses her abuse.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The Russian гадёныш is a direct contemptuous insult in her threat scene; makhluk kecil reduces it to a neutral creature label and loses her abuse."
+    },
+    {
+      "findingNumber": 67,
+      "sourceOrderIndex": 8582,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455013736456",
+      "source": "Что же ты потерял?",
+      "sourceSha256": "3f42a5d0aed945ba372172395d7ff92cee28804957a1f3f7c111ad9a21584f0e",
+      "key": "line:talk_luka_3_067879d",
+      "nodeNames": [
+        "talk_luka_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "before": "Lalu apa yang telah kauhilangkan?",
+      "proposed": "Lalu apa yang sudah hilang dari hidupmu?",
+      "decision": "accepted",
+      "after": "Lalu apa yang sudah hilang dari hidupmu?",
+      "objectiveReason": "Russian что же ты потерял asks what Luka lost in a family-death conversation. Indonesian kauhilangkan assigns him agency for making it disappear rather than experiencing a loss.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Russian что же ты потерял asks what Luka lost in a family-death conversation. Indonesian kauhilangkan assigns him agency for making it disappear rather than experiencing a loss."
+    },
+    {
+      "findingNumber": 68,
+      "sourceOrderIndex": 9414,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454715940865",
+      "source": "Fugitive: Но нет, сами не живём и другим не дадим.",
+      "sourceSha256": "f455e78d0caf41c3c4948595e1aa4185d42c87d195e13c90a04571ea821b71e3",
+      "key": "line:Fugitive_Asking_2_0f34e74",
+      "nodeNames": [
+        "Fugitive_Asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-085.json",
+      "before": "Fugitive: Tapi begitulah, mereka sendiri tidak mau hidup dan tidak membiarkan orang lain hidup.",
+      "proposed": "Fugitive: Tapi tidak, kita sendiri tak hidup, dan orang lain pun tak kita biarkan hidup.",
+      "decision": "accepted",
+      "after": "Fugitive: Tapi tidak, kita sendiri tak hidup, dan orang lain pun tak kita biarkan hidup.",
+      "objectiveReason": "In the adjacent reflection on people fighting and killing, Russian сами не живём и другим не дадим includes the speaker in a collective we. Indonesian mereka shifts both clauses to other people and adds a claim that they do not want to live.",
+      "adjudicationReason": "Accepted after source and node-context comparison: In the adjacent reflection on people fighting and killing, Russian сами не живём и другим не дадим includes the speaker in a collective we. Indonesian mereka shifts both clauses to other people and adds a claim that they do not want to live."
+    },
+    {
+      "findingNumber": 69,
+      "sourceOrderIndex": 10558,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454292316170",
+      "source": "Fanatic: И поверь, друг мой, это ДАЛЕКО НЕ ВСЁ.",
+      "sourceSha256": "40e7178e6c22d68b0c5bea05d83d51997d5b2d019677269592e0d576f32944dd",
+      "key": "line:Fanatic_Asking_2_1_02c6d1e",
+      "nodeNames": [
+        "Fanatic_Asking_2_1"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-275.json",
+      "before": "Fanatic: Dan percayalah, kawanku, ini MASIH JAUH DARI SEMUANYA.",
+      "proposed": "Fanatic: Dan percayalah, kawanku, ini JAUH DARI SELESAI.",
+      "decision": "accepted",
+      "after": "Fanatic: Dan percayalah, kawanku, ini JAUH DARI SELESAI.",
+      "objectiveReason": "Russian ДАЛЕКО НЕ ВСЁ says much more is still to come; Indonesian MASIH JAUH DARI SEMUANYA reads as distance from everything and fails to convey the threat. The preceding line calls this only the beginning.",
+      "adjudicationReason": "Accepted after source and node-context comparison: Russian ДАЛЕКО НЕ ВСЁ says much more is still to come; Indonesian MASIH JAUH DARI SEMUANYA reads as distance from everything and fails to convey the threat. The preceding line calls this only the beginning."
+    },
+    {
+      "findingNumber": 70,
+      "sourceOrderIndex": 10641,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454262956043",
+      "source": "Что значит «быть готовым»?",
+      "sourceSha256": "b8b579e8e6df65e60dd9c3e80a603eba1a088b0302a045530b12c4e1e2e2d29a",
+      "key": "line:talk_fortuneteller_3_0aab40e",
+      "nodeNames": [
+        "talk_fortuneteller_3"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-323.json",
+      "before": "Apa artinya «bersiap»?",
+      "proposed": "Apa artinya «menjadi siap»?",
+      "decision": "accepted",
+      "after": "Apa artinya «menjadi siap»?",
+      "objectiveReason": "The question quotes быть готовым (being ready), answered in the next line by Быть готовым – это значит / Siap berarti. Bersiap asks about preparing and breaks that question-answer relation.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The question quotes быть готовым (being ready), answered in the next line by Быть готовым – это значит / Siap berarti. Bersiap asks about preparing and breaks that question-answer relation."
+    },
+    {
+      "findingNumber": 71,
+      "sourceOrderIndex": 10832,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454200041474",
+      "source": "Я про голоса в голове",
+      "sourceSha256": "7bb75a1280e004c0189ee7bd7af1cec6e330df4918d7cd8163ad11164abd5573",
+      "key": "line:Wheelchair_Asking_2_0c2d451",
+      "nodeNames": [
+        "Wheelchair_Asking_2"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-112.json",
+      "before": "Maksudku suara-suara di kepalaku.",
+      "proposed": "Maksudku suara-suara di kepalamu.",
+      "decision": "accepted",
+      "after": "Maksudku suara-suara di kepalamu.",
+      "objectiveReason": "This is the player response about WheelChair’s voices in his head, explicitly identified by him in his earlier line. Kepalaku makes the player claim to hear the voices instead.",
+      "adjudicationReason": "Accepted after source and node-context comparison: This is the player response about WheelChair’s voices in his head, explicitly identified by him in his earlier line. Kepalaku makes the player claim to hear the voices instead."
+    },
+    {
+      "findingNumber": 72,
+      "sourceOrderIndex": 11460,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453969354763",
+      "source": "Bald: Да ладно тебе, брат! Будет! Я не в агонии какой-то.",
+      "sourceSha256": "d6198e8183d11d1737faeb749e9085dddb56e3abd6177bddd05e74ada55a349e",
+      "key": "line:Bald_Eyes_Gun_07bef36",
+      "nodeNames": [
+        "Bald_Eyes_Gun"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-120.json",
+      "before": "Bald: Ayolah, Bro! Aku akan baik-baik saja! Aku tak sedang sekarat, kok.",
+      "proposed": "Bald: Ayolah, Bro! Sudahlah! Aku tak sedang sekarat, kok.",
+      "decision": "accepted",
+      "after": "Bald: Ayolah, Bro! Sudahlah! Aku tak sedang sekarat, kok.",
+      "objectiveReason": "In Да ладно тебе, брат! Будет! the command Будет! tells the player to stop; Aku akan baik-baik saja! instead predicts that Bald will be fine. The following sentence already says he is not in agony.",
+      "adjudicationReason": "Accepted after source and node-context comparison: In Да ладно тебе, брат! Будет! the command Будет! tells the player to stop; Aku akan baik-baik saja! instead predicts that Bald will be fine. The following sentence already says he is not in agony."
+    },
+    {
+      "findingNumber": 73,
+      "sourceOrderIndex": 12121,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453579284480",
+      "source": "Daughter: А потом – бац! – и сделает какую-то пакость!",
+      "sourceSha256": "e13158b49caf17a52e620b7af90ee632254243487a4056f93b4bba2181687528",
+      "key": "line:Daughter_Ears_DontShoot_08f1b5f",
+      "nodeNames": [
+        "Daughter_Ears_DontShoot"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-016.json",
+      "before": "Daughter: Lalu, dor! Dia melakukan sesuatu yang jahat!",
+      "proposed": "Daughter: Lalu, tiba-tiba—bam!—dia melakukan hal jahil!",
+      "decision": "accepted",
+      "after": "Daughter: Lalu, tiba-tiba—bam!—dia melakukan hal jahil!",
+      "objectiveReason": "The daughter describes her friend suddenly doing a пакость (mischievous act). Russian бац! marks a sudden turn; Indonesian dor! specifically evokes a gunshot and jahat makes the act more severe than the surrounding friendship scene.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The daughter describes her friend suddenly doing a пакость (mischievous act). Russian бац! marks a sudden turn; Indonesian dor! specifically evokes a gunshot and jahat makes the act more severe than the surrounding friendship scene."
+    },
+    {
+      "findingNumber": 74,
+      "sourceOrderIndex": 12437,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453382152197",
+      "source": "Cultist2: Но знали бы вы как страшно знать, что скоро умрёшь.",
+      "sourceSha256": "907f99c3f5aabf3bc40243dfd668258a3009310a8709c79326ed6cef3f65e6a2",
+      "key": "line:Cultist2_Eyes_DontShoot_026b66c",
+      "nodeNames": [
+        "Cultist2_Eyes_DontShoot"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-050.json",
+      "before": "Cultist2: Tapi kalau Anda tahu betapa menakutkannya mengetahui bahwa Anda akan segera mati.",
+      "proposed": "Cultist2: Tapi andai Anda tahu betapa menakutkannya menyadari ajal sudah dekat.",
+      "decision": "accepted",
+      "after": "Cultist2: Tapi andai Anda tahu betapa menakutkannya menyadari ajal sudah dekat.",
+      "objectiveReason": "The cultist says how frightening it is to know that one will soon die, referring to his own imminent death. The draft repeats Anda inside the death clause and makes the addressed player the one soon to die.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The cultist says how frightening it is to know that one will soon die, referring to his own imminent death. The draft repeats Anda inside the death clause and makes the addressed player the one soon to die."
+    },
+    {
+      "findingNumber": 75,
+      "sourceOrderIndex": 13070,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453054996489",
+      "source": "TaxiDriver: Они не то чтобы красивые, конечно…",
+      "sourceSha256": "8965525f9cad2509a76c3328d898d68dfd002dbb29cd70e2e6f688ea7b2f6a48",
+      "key": "line:TaxiDriver_Hands_0d7afd4",
+      "nodeNames": [
+        "TaxiDriver_Hands"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-171.json",
+      "before": "TaxiDriver: Gigi-gigi ini memang tak terlalu bagus…",
+      "proposed": "TaxiDriver: Tanganku memang tak terlalu bagus…",
+      "decision": "accepted",
+      "after": "TaxiDriver: Tanganku memang tak terlalu bagus…",
+      "objectiveReason": "The line is in TaxiDriver_Hands and follows two lines about his hands and fingers. Russian Они refers to those hands; Gigi-gigi ini incorrectly moves the remark to teeth.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The line is in TaxiDriver_Hands and follows two lines about his hands and fingers. Russian Они refers to those hands; Gigi-gigi ini incorrectly moves the remark to teeth."
+    },
+    {
+      "findingNumber": 76,
+      "sourceOrderIndex": 13931,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452648148996",
+      "source": "Fanatic: Так что давай-ка ты уберёшь вот это вот своё агрессивное и послушаешь меня.",
+      "sourceSha256": "e499982ee84bb2fca75ab1ae3a9026200477ee9c672fe73160bd88ccd1c2add8",
+      "key": "line:Fanatic_Photo_Gun_08f03c4",
+      "nodeNames": [
+        "Fanatic_Photo_Gun"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-276.json",
+      "before": "Fanatic: Jadi singkirkan sikap agresifmu itu dan dengarkan aku.",
+      "proposed": "Fanatic: Jadi singkirkan benda agresif milikmu itu dan dengarkan aku.",
+      "decision": "accepted",
+      "after": "Fanatic: Jadi singkirkan benda agresif milikmu itu dan dengarkan aku.",
+      "objectiveReason": "In Fanatic_Photo_Gun, уберёшь вот это вот своё агрессивное asks the player to put away the threatening thing he is holding. Singkirkan sikap agresifmu asks for a change of attitude and removes the concrete gun action.",
+      "adjudicationReason": "Accepted after source and node-context comparison: In Fanatic_Photo_Gun, уберёшь вот это вот своё агрессивное asks the player to put away the threatening thing he is holding. Singkirkan sikap agresifmu asks for a change of attitude and removes the concrete gun action."
+    },
+    {
+      "findingNumber": 77,
+      "sourceOrderIndex": 14102,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452581040133",
+      "source": "BigLebowski: Напоминаю. Если что стрёмное задумал, то я тебе глаз выбью сама!",
+      "sourceSha256": "f2dfc41f3aceab71e96d038e3e0745eb79e46128bbd80cd854ce6569fa5d1bdf",
+      "key": "line:BigLebowski_Eyes_01970dc",
+      "nodeNames": [
+        "BigLebowski_Eyes"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-165.json",
+      "before": "BigLebowski: Kuingatkan, kalau kau merencanakan sesuatu yang buruk, aku sendiri yang akan menonjok matamu!",
+      "proposed": "BigLebowski: Kuingatkan, kalau kau merencanakan sesuatu yang buruk, aku sendiri yang akan menonjok matamu sampai copot!",
+      "decision": "accepted",
+      "after": "BigLebowski: Kuingatkan, kalau kau merencanakan sesuatu yang buruk, aku sendiri yang akan menonjok matamu sampai copot!",
+      "objectiveReason": "выбью глаз threatens to knock out the player’s eye. Menonjok matamu describes a punch without the stated eye-loss outcome.",
+      "adjudicationReason": "Accepted after source and node-context comparison: выбью глаз threatens to knock out the player’s eye. Menonjok matamu describes a punch without the stated eye-loss outcome."
+    },
+    {
+      "findingNumber": 78,
+      "sourceOrderIndex": 14158,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452564262912",
+      "source": "Couple: Я не верю, что вы относитесь к этим чудовищам.",
+      "sourceSha256": "90c25a00fe345b76c58ee28f4e4ea7cee891a9d1d9ba5fd2061a3f51302d337c",
+      "key": "line:Couple_Armpit_Gun_0dded13",
+      "nodeNames": [
+        "Couple_Armpit_Gun"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-282.json",
+      "before": "Couple: Saya tak percaya Anda ada hubungannya dengan para monster itu.",
+      "proposed": "Couple: Saya tak percaya Anda termasuk monster-monster itu.",
+      "decision": "accepted",
+      "after": "Couple: Saya tak percaya Anda termasuk monster-monster itu.",
+      "objectiveReason": "относитесь к этим чудовищам asks whether the player belongs among those monsters. Ada hubungannya says only that the player has a connection to them, which is a different accusation in this armed Couple scene.",
+      "adjudicationReason": "Accepted after source and node-context comparison: относитесь к этим чудовищам asks whether the player belongs among those monsters. Ada hubungannya says only that the player has a connection to them, which is a different accusation in this armed Couple scene."
+    },
+    {
+      "findingNumber": 79,
+      "sourceOrderIndex": 14825,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452308410376",
+      "source": "Bestson: Эй, да что ты… Они ведь нормальные, да?",
+      "sourceSha256": "078d378575dd0bdd588b2e0a92154f80f91a4e7a1fa37511c31e99701bcde969",
+      "key": "line:Bestson_Hands_Gun_078fdc1",
+      "nodeNames": [
+        "Bestson_Hands_Gun"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-229.json",
+      "before": "Bestson: Hei, apa yang kau… Gigiku normal, kan?",
+      "proposed": "Bestson: Hei, apa yang kau… Tanganku normal, kan?",
+      "decision": "accepted",
+      "after": "Bestson: Hei, apa yang kau… Tanganku normal, kan?",
+      "objectiveReason": "In the Bestson_Hands_Gun response, Они refers to the hands being examined; the draft asks whether his teeth are normal.",
+      "adjudicationReason": "Accepted after source and node-context comparison: In the Bestson_Hands_Gun response, Они refers to the hands being examined; the draft asks whether his teeth are normal."
+    },
+    {
+      "findingNumber": 80,
+      "sourceOrderIndex": 14967,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078727",
+      "source": "Nun: А мои – сплошное отторжение…",
+      "sourceSha256": "1a2448f134d835c276a9d10c52cd7f9ae72445f1e5914b4950494a2a99850e90",
+      "key": "line:Nun_Hands_DontShoot_02581a6",
+      "nodeNames": [
+        "Nun_Hands_DontShoot"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-168.json",
+      "before": "Nun: Sedangkan mataku… penuh penolakan…",
+      "proposed": "Nun: Sedangkan tanganku… penuh penolakan…",
+      "decision": "accepted",
+      "after": "Nun: Sedangkan tanganku… penuh penolakan…",
+      "objectiveReason": "This is in Nun_Hands_DontShoot and the adjacent line explicitly introduces hands as a person's life; the draft changes мои to mataku (my eyes).",
+      "adjudicationReason": "Accepted after source and node-context comparison: This is in Nun_Hands_DontShoot and the adjacent line explicitly introduces hands as a person's life; the draft changes мои to mataku (my eyes)."
+    },
+    {
+      "findingNumber": 81,
+      "sourceOrderIndex": 15144,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164167",
+      "source": "Wifefema: Хех, ты ж не думаешь, что у тебя они останутся целыми, если будешь и дальше себя так вести?",
+      "sourceSha256": "63c723ea6e147c3184cac8ee4e18e85b5c52c34065f68dac2f51785407fb78e5",
+      "key": "line:Wifefema_Teeth_DontShoot_0c82f30",
+      "nodeNames": [
+        "Wifefema_Teeth_DontShoot"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-128.json",
+      "before": "Wifefema: Heh, kau tak berpikir tanganmu akan tetap utuh kalau terus bersikap begitu, kan?",
+      "proposed": "Wifefema: Heh, kau tak berpikir gigimu akan tetap utuh kalau terus bersikap begitu, kan?",
+      "decision": "accepted",
+      "after": "Wifefema: Heh, kau tak berpikir gigimu akan tetap utuh kalau terus bersikap begitu, kan?",
+      "objectiveReason": "The Wifefema_Teeth_DontShoot response and the following line concern teeth; они means the player's teeth, but the draft threatens the player's hands.",
+      "adjudicationReason": "Accepted after source and node-context comparison: The Wifefema_Teeth_DontShoot response and the following line concern teeth; они means the player's teeth, but the draft threatens the player's hands."
+    },
+    {
+      "findingNumber": 82,
+      "sourceOrderIndex": 15394,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452102889481",
+      "source": "Sirin: Вышибешь их мне?",
+      "sourceSha256": "5f4fa8ae8ecce0b97c1d4f3deb6164e05ce1c09ec5e396b958294a9a6a14e7be",
+      "key": "line:Sirin_Teeth_07849c0",
+      "nodeNames": [
+        "Sirin_Teeth"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-091.json",
+      "before": "Sirin: Maukah kamu menembak kedua mataku sampai lepas?",
+      "proposed": "Sirin: Kamu mau merontokkan gigiku?",
+      "decision": "accepted",
+      "after": "Sirin: Kamu mau merontokkan gigiku?",
+      "objectiveReason": "In Sirin_Teeth the player is checking teeth; их refers to Sirin's teeth, while the draft asks whether the player will shoot out her eyes.",
+      "adjudicationReason": "Accepted after source and node-context comparison: In Sirin_Teeth the player is checking teeth; их refers to Sirin's teeth, while the draft asks whether the player will shoot out her eyes."
+    },
+    {
+      "findingNumber": 83,
+      "sourceOrderIndex": 15656,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452002226186",
+      "source": "Scammer: У меня братюльник делал зубы.",
+      "sourceSha256": "10b3bf08b401635a7a17c3bcb1a3fe77c3415672966a3a1949f23ab0fe62f188",
+      "key": "line:Scammer_Teeth_04415f2",
+      "nodeNames": [
+        "Scammer_Teeth"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-293.json",
+      "before": "Scammer: Saudaraku pernah merawat giginya.",
+      "proposed": "Scammer: Saudaraku pernah memperbaiki giginya.",
+      "decision": "accepted",
+      "after": "Scammer: Saudaraku pernah memperbaiki giginya.",
+      "objectiveReason": "делал зубы says Scammer's brother had dental work done; merawat giginya describes routine care instead of treatment or repair.",
+      "adjudicationReason": "Accepted after source and node-context comparison: делал зубы says Scammer's brother had dental work done; merawat giginya describes routine care instead of treatment or repair."
+    },
+    {
+      "findingNumber": 84,
+      "sourceOrderIndex": 16239,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451771539456",
+      "source": "Wheelchair: Тебе, наверно, тоже. Тогда зачем ружьё?",
+      "sourceSha256": "d8992c2c97e0d9ae363ce705a5c1571ba46187988c4658b4215ae2dd1de46fc0",
+      "key": "line:Wheelchair_Hands_Gun_0393069",
+      "nodeNames": [
+        "Wheelchair_Hands_Gun"
+      ],
+      "targetBatch": "Translations/id/dialogue-batch-114.json",
+      "before": "Wheelchair: Kau juga mungkin tak bisa menghindari peluru. Lalu buat apa senapan?",
+      "proposed": "Wheelchair: Mungkin itu juga tak akan membantumu. Lalu buat apa senapan?",
+      "decision": "accepted",
+      "after": "Wheelchair: Mungkin itu juga tak akan membantumu. Lalu buat apa senapan?",
+      "objectiveReason": "The preceding Wheelchair_Hands_Gun line says Мне это не поможет (the gun will not help me); Тебе, наверно, тоже continues that judgment about the player. The draft instead asserts that the player cannot dodge a bullet, changing both the action and causal point of Тогда зачем ружьё?",
+      "adjudicationReason": "Accepted after source and node-context comparison: The preceding Wheelchair_Hands_Gun line says Мне это не поможет (the gun will not help me); Тебе, наверно, тоже continues that judgment about the player. The draft instead asserts that the player cannot dodge a bullet, changing both the action and causal point of Тогда зачем ружьё?"
+    }
+  ]
+}

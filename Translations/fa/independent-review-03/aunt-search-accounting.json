@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "scope": "All inventory rows searched deterministically; semantic scope remains exact accepted16538",
+  "patterns": {
+    "auntLexical": "\\bт[её]т\\w*\\b|\\baunt\\w*\\b",
+    "explicitParentSister": "сестр\\w*.{0,35}(?:матер|отц|мам|пап)|(?:матер|отц|мам|пап).{0,35}сестр",
+    "uncleWife": "жен\\w*.{0,35}дяд|дяд\\w*.{0,35}жен"
+  },
+  "rows": [
+    {
+      "stableId": "string:60b98f690479a064fb47236a15ce0d3b:31163175990448327",
+      "source": "Bestson: Недавно узнал о старшей сестре от первого брака папы, но…",
+      "accepted": false,
+      "searchReasons": [
+        "explicitParentSister"
+      ],
+      "classification": "sibling from father’s first marriage; not father’s sister/aunt"
+    },
+    {
+      "stableId": "string:60b98f690479a064fb47236a15ce0d3b:31163944286277788",
+      "source": "Bestson: Недавно узнал о старшей сестре от первого брака папы, но…",
+      "accepted": false,
+      "searchReasons": [
+        "explicitParentSister"
+      ],
+      "classification": "sibling from father’s first marriage; not father’s sister/aunt"
+    },
+    {
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:41580599180255577",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "accepted": false,
+      "searchReasons": [
+        "auntLexical"
+      ],
+      "classification": "unaccepted duplicate source table variant; not part of agreed semantic denominator"
+    },
+    {
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:41582931037118471",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "accepted": false,
+      "searchReasons": [
+        "auntLexical"
+      ],
+      "classification": "unaccepted duplicate source table variant; not part of agreed semantic denominator"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454736912395",
+      "source": "Bestson: Недавно узнал о старшей сестре от первого брака папы, но…",
+      "accepted": true,
+      "searchReasons": [
+        "explicitParentSister"
+      ],
+      "classification": "sibling from father’s first marriage; not father’s sister/aunt"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755329",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "accepted": true,
+      "searchReasons": [
+        "auntLexical"
+      ],
+      "classification": "accepted aunt concept"
+    }
+  ],
+  "acceptedAuntConceptCount": 1,
+  "excludedAuntSourceVariants": 2,
+  "letetMatch": false,
+  "targetConceptRule": "Persian خاله and عمه roots cover plural/possessive/ZWNJ forms; descriptive father/mother sister forms in selector; current target disjunction remains singular."
+}

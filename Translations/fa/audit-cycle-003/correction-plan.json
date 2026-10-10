@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "locale": "fa",
+  "cycle": 3,
+  "acceptedUnits": 16538,
+  "phase": "adjudicated and preflighted before application",
+  "reviewVerdictSha256": "f78307320938f63c66ddb32e121f52465622a29fe2c36a6d3633262f8f82ccde",
+  "reviewFindingsSha256": "ab6b9fdc5937f99ef65d40bcaab69673b927158e7c05da37e7fbafefcd0c6ab0",
+  "selectorSpecSha256": "d0d04213689423457b17d9a147d63f40e0284d277ebd24c4be54b9e31764b125",
+  "enumerationSha256": "c5ce0088a95cdd13cf93c62c0ee2de1555aefd94d27a127036f90452a9ba1497",
+  "rows": [
+    {
+      "findingId": "R02-F01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755329",
+      "path": "Translations/fa/dialogue-batch-348.json",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "before": "Scammer: یک بار خانهٔ خاله‌ام را توی ورق‌بازی باختم، آن‌قدر هم به من سخت نگرفتند. حالا برای یک عکس...",
+      "acceptedTarget": "Scammer: یک بار خانهٔ عمه یا خاله‌ام را توی ورق‌بازی باختم، آن‌قدر هم به من سخت نگرفتند. حالا برای یک عکس...",
+      "reason": "Source aunt side is unspecified; maternal-only Persian was unsupported.",
+      "factsRetained": [
+        "singular aunt",
+        "her house lost in cards",
+        "prior consequence",
+        "comparison with one photo"
+      ],
+      "protectedSyntax": "unchanged speaker prefix and trailing ellipsis; no dynamic placeholders"
+    }
+  ],
+  "unchangedDecisions": "Both review02 watchlist wording decisions and all cycle02 findings retained."
+}

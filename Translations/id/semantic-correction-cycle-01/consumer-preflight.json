@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "cycle": 1,
+  "status": "static consumer preflight passed; runtime assembly and rendered layout pending",
+  "changedRows": 83,
+  "stableIdAndBatchOwnership": "unchanged for all 83; no branch topology or ID mutation",
+  "fullUnitReplacement": "all 83 replacements preserve their unchanged surrounding sentences; verified against first-pass target and source",
+  "speakerPrefixesAndSeparators": "full-corpus preserve-exact and 62 affected batch validators passed; source-order IDs and line breaks unchanged",
+  "specialCases": [
+    {
+      "findingNumber": 1,
+      "sourceOrderIndex": 57,
+      "consumer": "UI Game_MushroomList",
+      "check": "three numbered stanzas, markup nesting and line breaks preserved; basement location corrected",
+      "renderedLayout": "pending"
+    },
+    {
+      "findingNumber": 29,
+      "sourceOrderIndex": 2242,
+      "consumer": "Couple_Entrance_Bribe",
+      "check": "leading {0}? dynamic offer slot and question punctuation preserved; remaining sentence retains wife and last-possession condition",
+      "dynamicValue": "not exercised; later runtime binding review required"
+    }
+  ],
+  "rejectedDynamicCase": {
+    "findingNumber": 31,
+    "sourceOrderIndex": 2509,
+    "check": "plural referent supported by same occupied-house branch; {0} consumer value not exercised; no replacement made"
+  },
+  "otherChangedRowsWithoutRuntimeTokens": 81,
+  "runtimeBindingSourceSha256": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+  "limitations": "No game launch, actual branch traversal, dynamic value substitution, font rendering or wrap check in this text-only correction turn."
+}

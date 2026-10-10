@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "cycle": 1,
+  "stage": "correction applied; independent dependency-aware diff review ready",
+  "acceptedUnits": 16538,
+  "firstPassReviewedUnits": 16538,
+  "firstPassProgressSha256": "b4a22608c29fa2c3a2f2656bd32211ddcecdd846bd60b911079392021d2f44de",
+  "firstPassFindings": 84,
+  "acceptedCorrections": 83,
+  "rejectedProposals": 1,
+  "changedIds": 83,
+  "closureIds": 2182,
+  "independentReviewer": "to be assigned separately by owner/coordinator",
+  "independentReviewStatus": "not started",
+  "editorialAcceptance": "pending",
+  "evidence": [
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/adjudication.json",
+      "sha256": "7d92c224adb1512d9016088ca8077a67137fcd310a7dd8150737a208c87d4305"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/batch-preflight.json",
+      "sha256": "e2734d40f5ed07104c59c46f991d87a6e1d6d196e1234b95692daaac042300e3"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/applied-files.json",
+      "sha256": "89a9a362a2adf47c28f2d4164b954eed98aa8704c917e61baef39a87aeafd106"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/preserve-exact-validation.json",
+      "sha256": "d288da56a59968cb0a5a5ba4de23d85e0709ac31279b4228cca4a79f4ada46df"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/closure-selector-spec.json",
+      "sha256": "d6e8dc82eecb9c0f64f70955bb631a055def074768ba598fae4d4c1734240363"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/component-manifest.json",
+      "sha256": "b06e8190a9e50fe4132e6a9fc581ee4532ca8cd8f6adf81d0f95094d2a10f468"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/closure-review-rows.jsonl",
+      "sha256": "36eb23be6279e5083963273ae786d0513f504557b31ea67ec1e0f8ddbd83127e"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/artifact-manifest.json",
+      "sha256": "4bff923aeee2b2c9c24d641ff6ff2fb46dde643735b07bab211ec542026bdfa1"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/full-diff-verification.json",
+      "sha256": "d7d0764509373c523cdeb0a6c790550278291383a37180c8c0c81e0a4ca0edf5"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/mandatory-regression-catalog.json",
+      "sha256": "cdfe8c81534fbd3c1791ad9eae788355a1567dc3975da225dd004f853bcf19b5"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/nontranslatable-context.json",
+      "sha256": "f6fbd98ccc48b9e9b308eaf76293ba0a867c5b4cd6c89da64bdc4786abbb2e14"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/layout-risk.json",
+      "sha256": "d623e1dda3bfe7c51302ac595c6adae6b48f9290dde1be33eb48116985d7ed31"
+    },
+    {
+      "path": "Translations/id/semantic-correction-cycle-01/consumer-preflight.json",
+      "sha256": "4f4c9ba27e41fc4cef803d6dd33333c6adeb76b0a1cf4a1766954d554c0bd5ed"
+    }
+  ],
+  "reviewInstructions": [
+    "Verify every evidence SHA-256, current 332 target inputs and 332 validation sidecars against artifact-manifest.json before reading.",
+    "Reproduce the changed/closure/component/regression ID sets from closure-selector-spec.json in canonical source order; compare exact UTF-8 LF lists and counts.",
+    "Read closure-review-rows.jsonl against the Russian source, approved Indonesian glossary, scene/character rules and actual consumers; include every affected exchange, repetitions, body-part and kinship referents.",
+    "Adjudication row 31 is a rejected singular-object proposal; inspect the Fatman occupied-house branch and dynamic {0} instead of treating all 84 proposals as edits.",
+    "Check all mandatory regression groups, including UI, static TMP/credits, the selected ChecksDialogs row, protected syntax, gender/kinship/address and mixed script.",
+    "Record objective findings as stable IDs with complete replacement units, or a clean independent verdict. Do not infer runtime or visual readiness from structural validators."
+  ],
+  "openQuestions": [
+    {
+      "sourceOrderIndex": 197,
+      "key": "message_bodyEaterVisit",
+      "source": "Никого не осталось. Это... из-за сна?",
+      "currentTarget": "Tak ada siapa-siapa lagi. Apa ini... gara-gara mimpi itu?",
+      "question": "сон may mean sleep or dream; actual event consumer/context remains unresolved"
+    }
+  ],
+  "limits": [
+    "No game launch or fixture access under current owner instruction.",
+    "Dynamic {0} substitution and rendered layout remain untested.",
+    "Translated images/textures excluded by owner.",
+    "First-pass reviewed target hashes represent the pre-correction snapshot; current corrected hashes are in artifact-manifest.json."
+  ],
+  "nextAction": "Independent reviewer verifies the immutable closure and regression catalog on these exact hashes, records findings, then a distinct follow-up correction cycle is opened only if evidence requires it."
+}

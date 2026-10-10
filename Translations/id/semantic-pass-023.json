@@ -1,0 +1,3630 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "auditPhase": "full semantic source-to-target pass",
+  "part": 23,
+  "sourceOrderStart": 7861,
+  "sourceOrderEnd": 8160,
+  "reviewedRows": 300,
+  "preflightSha256": "645364802a0ebc9904958817d5b96175335a6cb9777fefbd60524f940f8e6b16",
+  "canonicalReviewUnitsSha256": "1b66efef6b36c6a81911546fbcc53af7d889d30938e462a1b0f36ad14d926d15",
+  "reviewedRowsSha256": "b4655f1f765a61ec951035a7ea3d690d52d9518f1d391ca0910f66c22e467a81",
+  "reviewMethod": "Direct Russian-to-Indonesian read of every row with Edgar, Foreigner, Doctor and Wolfhound scene context; intentionally garbled speech, formal address, medical claims and pack rhetoric checked.",
+  "findings": [
+    {
+      "sourceOrderIndex": 7947,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840264",
+      "category": "Doctor formal first-person voice broken",
+      "objectiveReason": "Doctor addresses the player formally and uses saya throughout the same account and nearby branch lines; aku in this otherwise formal line breaks the established character voice without a Russian address change.",
+      "currentTarget": "Doctor: Itu terjadi di zona karantina tempat aku bekerja.",
+      "proposedTarget": "Doctor: Itu terjadi di zona karantina tempat saya bekerja.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "proposalStatus": "proposed; not applied"
+    }
+  ],
+  "contextQuestions": [],
+  "corrections": [],
+  "rows": [
+    {
+      "sourceOrderIndex": 7861,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455265394688",
+      "key": "line:Edgar_Asking_1_05f90be",
+      "nodeNames": [
+        "Edgar_Asking_1"
+      ],
+      "source": "Edgar: Мне нравилась одна девушка.",
+      "target": "Edgar: Aku menyukai seorang perempuan.",
+      "targetBatch": "Translations/id/dialogue-batch-131.json",
+      "targetBatchSha256": "9470a410074ad15ea6701c0e7dc679d49c745cd56b59ce8631cf0cac04365ed5"
+    },
+    {
+      "sourceOrderIndex": 7862,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200395",
+      "key": "line:Edgar_Asking_1_0790a30",
+      "nodeNames": [
+        "Edgar_Asking_1"
+      ],
+      "source": "Edgar: …",
+      "target": "Edgar: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7863,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200394",
+      "key": "line:Edgar_Asking_1_0599313",
+      "nodeNames": [
+        "Edgar_Asking_1"
+      ],
+      "source": "Edgar: Но так и должно быть. Хочу оттянуть самый прекрасный момент.",
+      "target": "Edgar: Tapi memang begitulah seharusnya. Aku ingin menunda saat yang paling indah itu.",
+      "targetBatch": "Translations/id/dialogue-batch-131.json",
+      "targetBatchSha256": "9470a410074ad15ea6701c0e7dc679d49c745cd56b59ce8631cf0cac04365ed5"
+    },
+    {
+      "sourceOrderIndex": 7864,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200393",
+      "key": "line:Edgar_Asking_1_02b6d41",
+      "nodeNames": [
+        "Edgar_Asking_1"
+      ],
+      "source": "Edgar: Я уже какое-то время ничего в ней не чувствую, хотя постоянно больно и знобит.",
+      "target": "Edgar: Sudah beberapa waktu aku tak merasakan apa-apa di tangan ini, meski aku terus merasa sakit dan menggigil.",
+      "targetBatch": "Translations/id/dialogue-batch-131.json",
+      "targetBatchSha256": "9470a410074ad15ea6701c0e7dc679d49c745cd56b59ce8631cf0cac04365ed5"
+    },
+    {
+      "sourceOrderIndex": 7865,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200392",
+      "key": "line:talk_edgar_1_068cac4",
+      "nodeNames": [
+        "talk_edgar_1"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7866,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200391",
+      "key": "line:talk_edgar_1_04454ce",
+      "nodeNames": [
+        "talk_edgar_1"
+      ],
+      "source": "Как рука?",
+      "target": "Bagaimana tanganmu?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7867,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200390",
+      "key": "line:talk_edgar_1_034a0f1",
+      "nodeNames": [
+        "talk_edgar_1"
+      ],
+      "source": "Edgar: Какая умиротворяющая тишина…",
+      "target": "Edgar: Keheningan yang begitu menenangkan…",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7868,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200389",
+      "key": "line:Foreigner_Asking_6_1_0e957d2",
+      "nodeNames": [
+        "Foreigner_Asking_6_1"
+      ],
+      "source": "Foreigner: Уууудаси!",
+      "target": "Foreigner: Уууудаси!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7869,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200388",
+      "key": "line:Foreigner_Asking_6_1_0c936e3",
+      "nodeNames": [
+        "Foreigner_Asking_6_1"
+      ],
+      "source": "Foreigner: Vjitn, qf jrfiecm ljvf, cgecnz cnjkmrj dhtvytb…",
+      "target": "Foreigner: Vjitn, qf jrfiecm ljvf, cgecnz cnjkmrj dhtvytb…",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7870,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200387",
+      "key": "line:Foreigner_Asking_6_1_0905b5d",
+      "nodeNames": [
+        "Foreigner_Asking_6_1"
+      ],
+      "source": "Foreigner: Yj pfdnhf z gele yf djrpfkt b dct epyfe cfv!",
+      "target": "Foreigner: Yj pfdnhf z gele yf djrpfkt b dct epyfe cfv!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7871,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200386",
+      "key": "line:Foreigner_Asking_6_1_0e19b62",
+      "nodeNames": [
+        "Foreigner_Asking_6_1"
+      ],
+      "source": "Foreigner: Ybxtuj yt gjyzk, bpdbyb.",
+      "target": "Foreigner: Ybxtuj yt gjyzk, bpdbyb.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7872,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200385",
+      "key": "line:Foreigner_Asking_6_0bbba57",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Ты куда-то собираешься уходить?",
+      "target": "Kamu mau pergi ke suatu tempat?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7873,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455261200384",
+      "key": "line:Foreigner_Asking_6_0b0893c",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Ты про поезд говоришь?",
+      "target": "Kamu sedang bicara tentang kereta?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7874,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006091",
+      "key": "line:Foreigner_Asking_6_0ee031f",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Foreigner: Пайкааа!",
+      "target": "Foreigner: Пайкааа!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7875,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006090",
+      "key": "line:Foreigner_Asking_6_02340b2",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Foreigner: Ctujlyz yjxme qf ecjie. Gjrf!",
+      "target": "Foreigner: Ctujlyz yjxme qf ecjie. Gjrf!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7876,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006089",
+      "key": "line:Foreigner_Asking_6_04527f2",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Foreigner: Pfdnhf qf jnghfdkecm ljvjq! Gj rhfqytq vtht cpjie yf djrpfk.",
+      "target": "Foreigner: Pfdnhf qf jnghfdkecm ljvjq! Gj rhfqytq vtht cpjie yf djrpfk.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7877,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006088",
+      "key": "line:Foreigner_Asking_6_08b6c83",
+      "nodeNames": [
+        "Foreigner_Asking_6"
+      ],
+      "source": "Foreigner: Qf yt gjybvfe, lheu.",
+      "target": "Foreigner: Qf yt gjybvfe, lheu.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7878,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006087",
+      "key": "line:talk_foreigner_6_0484bfd",
+      "nodeNames": [
+        "talk_foreigner_6"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7879,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006086",
+      "key": "line:talk_foreigner_6_0a17aed",
+      "nodeNames": [
+        "talk_foreigner_6"
+      ],
+      "source": "Тебя на машине могут отвезти?",
+      "target": "Apa ada yang bisa mengantarmu dengan mobil?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7880,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006085",
+      "key": "line:talk_foreigner_6_07244c4",
+      "nodeNames": [
+        "talk_foreigner_6"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7881,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006084",
+      "key": "line:Foreigner_Asking_5_0feeb83",
+      "nodeNames": [
+        "Foreigner_Asking_5"
+      ],
+      "source": "Foreigner: (Собеседник выставляет руку вперёд и второй рукой проводит по первой.)",
+      "target": "Foreigner: (Orang itu mengulurkan satu tangan ke depan, lalu mengusapnya dengan tangan yang lain.)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7882,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006083",
+      "key": "line:Foreigner_Asking_5_058e3f1",
+      "nodeNames": [
+        "Foreigner_Asking_5"
+      ],
+      "source": "Foreigner: Vyt cvjukb jgmzcybnm, xnj gjtplf tot pjlzn! Ghtlcnfdkztnt?",
+      "target": "Foreigner: Vyt cvjukb jgmzcybnm, xnj gjtplf tot pjlzn! Ghtlcnfdkztnt?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7883,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006082",
+      "key": "line:Foreigner_Asking_5_0a05381",
+      "nodeNames": [
+        "Foreigner_Asking_5"
+      ],
+      "source": "Foreigner: F ns ghj tnj.",
+      "target": "Foreigner: F ns ghj tnj.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7884,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006081",
+      "key": "line:Foreigner_Asking_5_0a24d13",
+      "nodeNames": [
+        "Foreigner_Asking_5"
+      ],
+      "source": "Foreigner: (Вы улыбаетесь и показываете пальцем на улыбку, потом на собеседника.)",
+      "target": "Foreigner: (Anda tersenyum dan menunjuk senyum Anda, lalu menunjuk orang itu.)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7885,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455257006080",
+      "key": "line:talk_foreigner_5_0a5b35b",
+      "nodeNames": [
+        "talk_foreigner_5"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7886,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811787",
+      "key": "line:talk_foreigner_5_01f82da",
+      "nodeNames": [
+        "talk_foreigner_5"
+      ],
+      "source": "Ты чего довольный такой?",
+      "target": "Kenapa kau begitu senang?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7887,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811786",
+      "key": "line:talk_foreigner_5_06058f4",
+      "nodeNames": [
+        "talk_foreigner_5"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7888,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811785",
+      "key": "line:Foreigner_Asking_4_2_043501e",
+      "nodeNames": [
+        "Foreigner_Asking_4_2"
+      ],
+      "source": "Foreigner: Hfpdt jyb tot gkfdfen? Yflj geltn gjbcrfnm byae, cgfcbgj!",
+      "target": "Foreigner: Hfpdt jyb tot gkfdfen? Yflj geltn gjbcrfnm byae, cgfcbgj!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7889,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811784",
+      "key": "line:Foreigner_Asking_4_2_020fa6b",
+      "nodeNames": [
+        "Foreigner_Asking_4_2"
+      ],
+      "source": "Foreigner: Nbgj, yf rjhfgkt gjgksnm?",
+      "target": "Foreigner: Nbgj, yf rjhfgkt gjgksnm?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7890,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811783",
+      "key": "line:Foreigner_Asking_4_2_09db934",
+      "nodeNames": [
+        "Foreigner_Asking_4_2"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7891,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811782",
+      "key": "line:Foreigner_Asking_4_2_0212153",
+      "nodeNames": [
+        "Foreigner_Asking_4_2"
+      ],
+      "source": "Foreigner: (Вы показываете рукой корабль, плывущий по волнам.)",
+      "target": "Foreigner: (Anda menggerakkan tangan seolah menggambarkan kapal yang berlayar di atas ombak.)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7892,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811781",
+      "key": "line:Foreigner_Asking_4_1_0264fa8",
+      "nodeNames": [
+        "Foreigner_Asking_4_1"
+      ],
+      "source": "Foreigner: Dlheu htfkmyj tot vjpyj ektntnm.",
+      "target": "Foreigner: Dlheu htfkmyj tot vjpyj ektntnm.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7893,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811780",
+      "key": "line:Foreigner_Asking_4_1_03e6625",
+      "nodeNames": [
+        "Foreigner_Asking_4_1"
+      ],
+      "source": "Foreigner: Yflj ls epyfnm ult-ybgenm byae.",
+      "target": "Foreigner: Yflj ls epyfnm ult-ybgenm byae.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7894,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811779",
+      "key": "line:Foreigner_Asking_4_1_06190d7",
+      "nodeNames": [
+        "Foreigner_Asking_4_1"
+      ],
+      "source": "Foreigner: Cfvjktn? Levftnt, jyb tot ktnfen?",
+      "target": "Foreigner: Cfvjktn? Levftnt, jyb tot ktnfen?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7895,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811778",
+      "key": "line:Foreigner_Asking_4_1_0ad404e",
+      "nodeNames": [
+        "Foreigner_Asking_4_1"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7896,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811777",
+      "key": "line:Foreigner_Asking_4_1_0719664",
+      "nodeNames": [
+        "Foreigner_Asking_4_1"
+      ],
+      "source": "Foreigner: (Вы изображаете пикирование рукой.)",
+      "target": "Foreigner: (Anda membuat gerakan menukik dengan tangan.)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7897,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455252811776",
+      "key": "line:Foreigner_Asking_4_07edf57",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Ты смотрел билеты на корабль?",
+      "target": "Kamu sudah mencari tiket kapal?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7898,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617484",
+      "key": "line:Foreigner_Asking_4_03f095f",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Как тебя отправить домой? Самолётом?",
+      "target": "Bagaimana caranya memulangkanmu? Dengan pesawat?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7899,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617483",
+      "key": "line:Foreigner_Asking_4_0f3f5f9",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Foreigner: Byfxt rfr gbpltw cbnefwb. yt jgbcfnm.",
+      "target": "Foreigner: Byfxt rfr gbpltw cbnefwb. yt jgbcfnm.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7900,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617482",
+      "key": "line:Foreigner_Asking_4_00450ac",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Foreigner: Qf ghbtpfk r lheue d ujcnb, f nen nfrjt.",
+      "target": "Foreigner: Qf ghbtpfk r lheue d ujcnb, f nen nfrjt.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7901,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617481",
+      "key": "line:Foreigner_Asking_4_04109c2",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Foreigner: Ljv? Ns cghfibdftim ghj ljv?",
+      "target": "Foreigner: Ljv? Ns cghfibdftim ghj ljv?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7902,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617480",
+      "key": "line:Foreigner_Asking_4_0bbaa68",
+      "nodeNames": [
+        "Foreigner_Asking_4"
+      ],
+      "source": "Foreigner: (Вы складываете ладони над головой, показывая крышу.)",
+      "target": "Foreigner: (Anda menyatukan kedua telapak tangan di atas kepala untuk menggambarkan atap.)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7903,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617479",
+      "key": "line:talk_foreigner_4_00f2b73",
+      "nodeNames": [
+        "talk_foreigner_4"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7904,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617478",
+      "key": "line:talk_foreigner_4_00ddfed",
+      "nodeNames": [
+        "talk_foreigner_4"
+      ],
+      "source": "Как ты домой попадёшь?",
+      "target": "Bagaimana kau akan pulang?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7905,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617477",
+      "key": "line:talk_foreigner_4_00e7da8",
+      "nodeNames": [
+        "talk_foreigner_4"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7906,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617476",
+      "key": "line:Foreigner_Asking_3_1_0ba0261",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Rfrjq epfc.",
+      "target": "Foreigner: Rfrjq epfc.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7907,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617475",
+      "key": "line:Foreigner_Asking_3_1_084c32d",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Bynthtcyj, e vtyz ljvf ghjbcjlbn nj pt cfvjt?",
+      "target": "Foreigner: Bynthtcyj, e vtyz ljvf ghjbcjlbn nj pt cfvjt?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7908,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617474",
+      "key": "line:Foreigner_Asking_3_1_05970a6",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Ckjpyjdfnj, rjytxyj, yj vjptn tnj vyt gjvjptn.",
+      "target": "Foreigner: Ckjpyjdfnj, rjytxyj, yj vjptn tnj vyt gjvjptn.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7909,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617473",
+      "key": "line:Foreigner_Asking_3_1_0ef9d29",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Харасхо.",
+      "target": "Foreigner: Харасхо.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7910,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455248617472",
+      "key": "line:Foreigner_Asking_3_1_0a6ab5a",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Хара…",
+      "target": "Foreigner: Хара…",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7911,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423178",
+      "key": "line:Foreigner_Asking_3_1_041d9b1",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Харохооо.",
+      "target": "Foreigner: Харохооо.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7912,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423177",
+      "key": "line:Foreigner_Asking_3_1_0a21905",
+      "nodeNames": [
+        "Foreigner_Asking_3_1"
+      ],
+      "source": "Foreigner: Qf gjghjge gjdnjhbnm.",
+      "target": "Foreigner: Qf gjghjge gjdnjhbnm.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7913,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423176",
+      "key": "line:Foreigner_Asking_3_0c6e9fa",
+      "nodeNames": [
+        "Foreigner_Asking_3"
+      ],
+      "source": "Не болит?",
+      "target": "Tidak sakit?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7914,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423175",
+      "key": "line:Foreigner_Asking_3_064dad8",
+      "nodeNames": [
+        "Foreigner_Asking_3"
+      ],
+      "source": "Ты в порядке?",
+      "target": "Kamu baik-baik saja?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7915,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423174",
+      "key": "line:Foreigner_Asking_3_09d3761",
+      "nodeNames": [
+        "Foreigner_Asking_3"
+      ],
+      "source": "Foreigner: (Вы хлопаете его по плечу и показываете на раны у рта)",
+      "target": "Foreigner: (Anda menepuk bahunya dan menunjuk luka di sekitar mulutnya)",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7916,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423173",
+      "key": "line:talk_foreigner_3_0033b5f",
+      "nodeNames": [
+        "talk_foreigner_3"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7917,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423172",
+      "key": "line:talk_foreigner_3_04e223b",
+      "nodeNames": [
+        "talk_foreigner_3"
+      ],
+      "source": "Эй, как себя чувствуешь?",
+      "target": "Hei, bagaimana keadaanmu?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7918,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423171",
+      "key": "line:talk_foreigner_3_0d0d38e",
+      "nodeNames": [
+        "talk_foreigner_3"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7919,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423170",
+      "key": "line:Foreigner_Asking_2_2_04c6bc4",
+      "nodeNames": [
+        "Foreigner_Asking_2_2"
+      ],
+      "source": "Foreigner: Vjptn, tnj djghjcbntkmyjt ckjdj.",
+      "target": "Foreigner: Vjptn, tnj djghjcbntkmyjt ckjdj.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7920,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423169",
+      "key": "line:Foreigner_Asking_2_2_090b6a7",
+      "nodeNames": [
+        "Foreigner_Asking_2_2"
+      ],
+      "source": "Foreigner: Yj ns xnj-nj cghjcbk.",
+      "target": "Foreigner: Yj ns xnj-nj cghjcbk.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7921,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423168",
+      "key": "line:Foreigner_Asking_2_1_01c288c",
+      "nodeNames": [
+        "Foreigner_Asking_2_1"
+      ],
+      "source": "Foreigner: Vjptn, tnj djghjcbntkmyjt ckjdj.",
+      "target": "Foreigner: Vjptn, tnj djghjcbntkmyjt ckjdj.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7922,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228876",
+      "key": "line:Foreigner_Asking_2_1_01a5f8a",
+      "nodeNames": [
+        "Foreigner_Asking_2_1"
+      ],
+      "source": "Foreigner: Yt gjybvfe dct hfdyj. Yj ns xnj-nj cghjcbk.",
+      "target": "Foreigner: Yt gjybvfe dct hfdyj. Yj ns xnj-nj cghjcbk.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7923,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228875",
+      "key": "line:Foreigner_Asking_2_0a5023b",
+      "nodeNames": [
+        "Foreigner_Asking_2"
+      ],
+      "source": "Ты пытаешься что-то спросить?",
+      "target": "Kamu mencoba menanyakan sesuatu?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7924,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228874",
+      "key": "line:Foreigner_Asking_2_0d86257",
+      "nodeNames": [
+        "Foreigner_Asking_2"
+      ],
+      "source": "Что как?",
+      "target": "Bagaimana apanya?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7925,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228873",
+      "key": "line:Foreigner_Asking_2_09e3b4a",
+      "nodeNames": [
+        "Foreigner_Asking_2"
+      ],
+      "source": "Foreigner: Как.",
+      "target": "Foreigner: Bagaimana.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7926,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228872",
+      "key": "line:Foreigner_Asking_2_0f0190b",
+      "nodeNames": [
+        "Foreigner_Asking_2"
+      ],
+      "source": "Foreigner: Yfdthyj, nfr qf ijnz gs gjqve xnj qf ujdjhe.",
+      "target": "Foreigner: Yfdthyj, nfr qf ijnz gs gjqve xnj qf ujdjhe.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7927,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228871",
+      "key": "line:Foreigner_Asking_2_075bcb9",
+      "nodeNames": [
+        "Foreigner_Asking_2"
+      ],
+      "source": "Foreigner: Qf vjue gjdnjhznm ndjb ckjdf, ns vjptim htfubhjdfnm yf ybp.",
+      "target": "Foreigner: Qf vjue gjdnjhznm ndjb ckjdf, ns vjptim htfubhjdfnm yf ybp.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7928,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228870",
+      "key": "line:talk_foreigner_2_0354c6a",
+      "nodeNames": [
+        "talk_foreigner_2"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7929,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228869",
+      "key": "line:talk_foreigner_2_04773c6",
+      "nodeNames": [
+        "talk_foreigner_2"
+      ],
+      "source": "Как с тобой разговаривать будем?",
+      "target": "Bagaimana kita akan berbicara denganmu?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7930,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228868",
+      "key": "line:talk_foreigner_2_012dddc",
+      "nodeNames": [
+        "talk_foreigner_2"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7931,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228867",
+      "key": "line:Foreigner_Asking_1_1_0ebd34d",
+      "nodeNames": [
+        "Foreigner_Asking_1_1"
+      ],
+      "source": "Foreigner: Rfrjq-nj jlobq zpsr ghblevfnm?",
+      "target": "Foreigner: Rfrjq-nj jlobq zpsr ghblevfnm?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7932,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228866",
+      "key": "line:Foreigner_Asking_1_1_0cd4635",
+      "nodeNames": [
+        "Foreigner_Asking_1_1"
+      ],
+      "source": "Foreigner: Qf ntz yt gjybvfl. Xnj vjpyj cltkfnm?",
+      "target": "Foreigner: Qf ntz yt gjybvfl. Xnj vjpyj cltkfnm?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7933,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228865",
+      "key": "line:Foreigner_Asking_1_0ea6502",
+      "nodeNames": [
+        "Foreigner_Asking_1"
+      ],
+      "source": "Ты что-нибудь понимаешь?",
+      "target": "Apa kamu mengerti sesuatu?",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7934,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455240228864",
+      "key": "line:Foreigner_Asking_1_06864e7",
+      "nodeNames": [
+        "Foreigner_Asking_1"
+      ],
+      "source": "Я тебя не понимаю.",
+      "target": "Aku tidak mengerti kamu.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7935,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034568",
+      "key": "line:Foreigner_Asking_1_0d71f9d",
+      "nodeNames": [
+        "Foreigner_Asking_1"
+      ],
+      "source": "Foreigner: VYT PFIBKB HJN! Ghjcnj gjnjve xnj vtyz yt gjyvf.n.",
+      "target": "Foreigner: VYT PFIBKB HJN! Ghjcnj gjnjve xnj vtyz yt gjyvf.n.",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7936,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034567",
+      "key": "line:Foreigner_Asking_1_09c22e5",
+      "nodeNames": [
+        "Foreigner_Asking_1"
+      ],
+      "source": "Foreigner: Tnj rfrjq-nj rjivfh!",
+      "target": "Foreigner: Tnj rfrjq-nj rjivfh!",
+      "targetBatch": "Translations/id/dialogue-batch-108.json",
+      "targetBatchSha256": "ed02c77f1efd06d89ad6a9df893ffc14837ae23ba59e7fde3a85dbb592998e3f"
+    },
+    {
+      "sourceOrderIndex": 7937,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034566",
+      "key": "line:talk_foreigner_1_05c1f50",
+      "nodeNames": [
+        "talk_foreigner_1"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 7938,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034565",
+      "key": "line:talk_foreigner_1_0ee75bd",
+      "nodeNames": [
+        "talk_foreigner_1"
+      ],
+      "source": "Ну что, ты отрезал нитки со рта?",
+      "target": "Jadi, kau sudah melepas benang dari mulutmu?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 7939,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034564",
+      "key": "line:talk_foreigner_1_07320a2",
+      "nodeNames": [
+        "talk_foreigner_1"
+      ],
+      "source": "Foreigner: …",
+      "target": "Foreigner: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7940,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034563",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_05d1e85",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: Прощайте.",
+      "target": "Doctor: Selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7941,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034562",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_0817e7b",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: Мне больше нет места здесь. Боюсь представить, что уготовано людям, которые останутся с вами.",
+      "target": "Doctor: Tak ada lagi tempat bagi saya di sini. Saya takut membayangkan nasib orang-orang yang akan tetap tinggal bersama Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7942,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034561",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_02a4a75",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7943,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455236034560",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_0bbe195",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: Не думал, что скажу это, но, похоже, вы будете даже хуже КЧС. Они хотя бы делают вид, что помогают людям. А вы…",
+      "target": "Doctor: Tak saya sangka akan mengatakan ini, tapi tampaknya Anda bahkan lebih buruk daripada KChS. Setidaknya mereka berpura-pura membantu orang. Sedangkan Anda…",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7944,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840267",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_0b50b6d",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7945,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840266",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_08ab6c0",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: Вы считаете, я не должен был помогать тем людям? И теперь вы прогоняете меня за это?",
+      "target": "Doctor: Menurut Anda, saya seharusnya tak membantu orang-orang itu? Dan sekarang Anda mengusir saya karena itu?",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7946,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840265",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_3_0258c64",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_3"
+      ],
+      "source": "Doctor: Что!?",
+      "target": "Doctor: Apa!?",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7947,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840264",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_2_0311943",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_2"
+      ],
+      "source": "Doctor: Это произошло в карантинной зоне, в которой я работал.",
+      "target": "Doctor: Itu terjadi di zona karantina tempat aku bekerja.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7948,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840263",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_1_0b7cd4e",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_1"
+      ],
+      "source": "Doctor: Но, к сожалению… В итоге мне и самому пришлось сбежать из карантинной зоны после одного происшествия…",
+      "target": "Doctor: Tapi sayangnya… Pada akhirnya saya sendiri harus melarikan diri dari zona karantina setelah sebuah insiden…",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7949,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840262",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_1_03efa73",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_1"
+      ],
+      "source": "Doctor: Я давал клятву Гиппократа. И я сделаю всё, чтобы помочь жизни и здоровью людей.",
+      "target": "Doctor: Saya telah mengucapkan Sumpah Hipokrates. Saya akan melakukan segala yang saya bisa demi hidup dan kesehatan orang-orang.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7950,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840261",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_X_1_0817e09",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_X_1"
+      ],
+      "source": "Doctor: А что лучше, оставить людей умирать там?",
+      "target": "Doctor: Apa lebih baik membiarkan orang-orang mati di sana?",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7951,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840260",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_2_07d3d3a",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_2"
+      ],
+      "source": "Doctor: До свидания.",
+      "target": "Doctor: Selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7952,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840259",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_2_0d147ae",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_2"
+      ],
+      "source": "Doctor: Тогда не буду занимать место в вашем доме.",
+      "target": "Doctor: Kalau begitu, saya tak akan menempati ruang di rumah Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7953,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840258",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_2_0504a4f",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_2"
+      ],
+      "source": "Doctor: Что ж, мне жаль, что вы не пытаетесь меня слушать…",
+      "target": "Doctor: Yah, sayang sekali Anda tak mau mendengarkan saya…",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7954,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840257",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_2_0078b8a",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_2"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7955,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455231840256",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_04dff21",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Как жаль, что теперь вам придётся и отсюда сбегать",
+      "target": "Sayang sekali sekarang Anda harus melarikan diri dari sini juga.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7956,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645963",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_0deac8e",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Что за происшествие?",
+      "target": "Insiden apa?",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7957,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645962",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_0c627b7",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Из-за вас Гости могли оказаться на свободе.",
+      "target": "Karena Anda, Tamu bisa saja bebas.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7958,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645961",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_01bc6c0",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Doctor: Я осматривал их и выносил диагнозы. И я подделывал документы, чтобы люди оказывались на свободе.",
+      "target": "Doctor: Saya memeriksa mereka dan membuat diagnosis. Saya juga memalsukan dokumen agar orang-orang bisa dibebaskan.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7959,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645960",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_00bb98b",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Doctor: Поэтому-то я и устроился в КЧС. Чтобы помогать беднягам спасаться из карантинных зон.",
+      "target": "Doctor: Karena itulah saya bergabung dengan KChS. Untuk membantu orang-orang malang lolos dari zona karantina.",
+      "targetBatch": "Translations/id/dialogue-batch-264.json",
+      "targetBatchSha256": "e750e9718c5ae724d3c245dc12806a04ae9a2899e84c0eb515074d1a889c9cd6"
+    },
+    {
+      "sourceOrderIndex": 7960,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645959",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_0afdbab",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Doctor: Я не мог просто сидеть и смотреть, как людей убивают поодиночке.",
+      "target": "Doctor: Saya tak bisa hanya duduk diam menyaksikan orang-orang dibunuh satu per satu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7961,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645958",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_0ac6427",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7962,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645957",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_0d903fb",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Хватит этого бреда. Проваливайте",
+      "target": "Cukup omong kosong ini. Pergi dari sini.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7963,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645956",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_033de70",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Почему вы тогда вообще работали на КЧС?",
+      "target": "Lalu kenapa Anda bekerja untuk KChS?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7964,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645955",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_04c9c52",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: КЧС просто согнали всех людей в кучу, изолировали их и теперь вольны делать всё, что и заблагорассудится.",
+      "target": "Doctor: KChS menggiring semua orang ke satu tempat, mengisolasi mereka, dan sekarang bebas berbuat sesuka hati terhadap mereka.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7965,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645954",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_0d77db3",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: Разве они помогают людям? Хоть кто-то выходил оттуда вылеченным?",
+      "target": "Doctor: Apa mereka membantu orang? Adakah satu orang saja yang keluar dari sana setelah sembuh?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7966,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645953",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_001b1ce",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: Расформировали больницы, перенаправили всех пациентов в карантинные зоны… Но для чего?",
+      "target": "Doctor: Mereka membubarkan rumah sakit, mengalihkan semua pasien ke zona karantina… Tapi untuk apa?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7967,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645952",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_0b727e1",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: Поймите же, КЧС не владеют этой ситуацией. Они лишь делают вид, что всё под контролем.",
+      "target": "Doctor: Tolong pahami, KChS tak menguasai keadaan ini. Mereka hanya berpura-pura semuanya terkendali.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7968,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451659",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_0ab61ca",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: Вот именно — таких случаев не было от слова совсем.",
+      "target": "Doctor: Tepat sekali—kasus seperti itu sama sekali tak pernah terjadi.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7969,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451658",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_014e3e9",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X"
+      ],
+      "source": "Doctor: Вы хоть раз сталкивались с тем, что человек, который вам показался нормальным, вдруг менялся? Становился Гостем у вас за спиной?",
+      "target": "Doctor: Pernahkah Anda melihat seseorang yang tampak normal tiba-tiba berubah? Menjadi Tamu tanpa Anda sadari?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7970,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451657",
+      "key": "line:Doctor_Asking_3_Disappointed_1_3_0f17324",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_3"
+      ],
+      "source": "Doctor: Ну что ж, смею огорчить вас, что это, скорее всего, не так.",
+      "target": "Doctor: Kalau begitu, saya harus mengecewakan Anda: kemungkinan besar bukan begitu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7971,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451656",
+      "key": "line:Doctor_Asking_3_Disappointed_1_3_0233566",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_3"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7972,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451655",
+      "key": "line:Doctor_Asking_3_Disappointed_1_2_042f28e",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_2"
+      ],
+      "source": "Doctor: Но одно скажу вам точно — это не вирус.",
+      "target": "Doctor: Tapi satu hal bisa saya katakan dengan pasti—ini bukan virus.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7973,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451654",
+      "key": "line:Doctor_Asking_3_Disappointed_1_2_0ec4fe4",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_2"
+      ],
+      "source": "Doctor: Я понимаю вас. К сожалению, мне тоже неизвестно, кем являются Гости.",
+      "target": "Doctor: Saya mengerti. Sayangnya, saya juga tak tahu siapa sebenarnya Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7974,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451653",
+      "key": "line:Doctor_Asking_3_Disappointed_1_1_09abd8a",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_1"
+      ],
+      "source": "Doctor: Так всё же…",
+      "target": "Doctor: Jadi, sebenarnya…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7975,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451652",
+      "key": "line:Doctor_Asking_3_Disappointed_1_1_0a1b079",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_1"
+      ],
+      "source": "Doctor: Напрасно вы меня обманываете.",
+      "target": "Doctor: Percuma Anda membohongi saya.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7976,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451651",
+      "key": "line:Doctor_Asking_3_Disappointed_1_1_0e092c0",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_1"
+      ],
+      "source": "Doctor: Если вы так считаете, не знаю, почему вы тогда вообще совершаете все эти проверки признаков.",
+      "target": "Doctor: Kalau Anda berpikir begitu, saya tak tahu kenapa Anda masih memeriksa semua tanda-tanda itu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7977,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451650",
+      "key": "line:Doctor_Asking_3_Disappointed_1_072696e",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1"
+      ],
+      "source": "Да, я так считаю",
+      "target": "Ya, menurut saya begitu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7978,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451649",
+      "key": "line:Doctor_Asking_3_Disappointed_1_0ed6263",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1"
+      ],
+      "source": "Нет. Но я не знаю, кто они на самом деле",
+      "target": "Tidak. Tapi saya tak tahu siapa mereka sebenarnya.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7979,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455223451648",
+      "key": "line:Doctor_Asking_3_Disappointed_1_02601bd",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1"
+      ],
+      "source": "Я считаю, что их не существует",
+      "target": "Menurut saya mereka tidak ada.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7980,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257355",
+      "key": "line:Doctor_Asking_3_Disappointed_1_0e857a7",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1"
+      ],
+      "source": "Doctor: Считаете ли вы Гостей вирусом?",
+      "target": "Doctor: Apakah Anda menganggap Tamu itu virus?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7981,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257354",
+      "key": "line:Doctor_Asking_3_Disappointed_06399ac",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed"
+      ],
+      "source": "Doctor: Давайте начнём вот с чего…",
+      "target": "Doctor: Mari kita mulai dari ini…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7982,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257353",
+      "key": "line:Doctor_Asking_3_Disappointed_0316c92",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed"
+      ],
+      "source": "Doctor: А для чего вы это спрашиваете? Хотите узнать, почему я не доверяю КЧС?",
+      "target": "Doctor: Kenapa Anda menanyakan itu? Ingin tahu kenapa saya tak percaya pada KChS?",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7983,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257352",
+      "key": "line:Doctor_Asking_3_2_2_0224f06",
+      "nodeNames": [
+        "Doctor_Asking_3_2_2"
+      ],
+      "source": "Doctor: Прощайте.",
+      "target": "Doctor: Selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7984,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257351",
+      "key": "line:Doctor_Asking_3_2_2_04b1d72",
+      "nodeNames": [
+        "Doctor_Asking_3_2_2"
+      ],
+      "source": "Doctor: Пожалуй, вы правы, старикам тут не место.",
+      "target": "Doctor: Mungkin Anda benar, tempat ini bukan untuk orang tua.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7985,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257350",
+      "key": "line:Doctor_Asking_3_2_2_088845e",
+      "nodeNames": [
+        "Doctor_Asking_3_2_2"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7986,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257349",
+      "key": "line:Doctor_Asking_3_2_1_031737d",
+      "nodeNames": [
+        "Doctor_Asking_3_2_1"
+      ],
+      "source": "Doctor: Боюсь, эти терзания будут преследовать меня до конца моих дней.",
+      "target": "Doctor: Saya khawatir penyesalan ini akan menghantui saya seumur hidup.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7987,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257348",
+      "key": "line:Doctor_Asking_3_2_1_05d977a",
+      "nodeNames": [
+        "Doctor_Asking_3_2_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7988,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257347",
+      "key": "line:Doctor_Asking_3_2_1_0e762da",
+      "nodeNames": [
+        "Doctor_Asking_3_2_1"
+      ],
+      "source": "Doctor: Но мне всё ещё не даëт покоя мысль: можно было пожертвовать собой и помочь большему числу людей…",
+      "target": "Doctor: Tapi saya masih terus berpikir: saya bisa saja mengorbankan diri dan menolong lebih banyak orang…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7989,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257346",
+      "key": "line:Doctor_Asking_3_2_1_02d7760",
+      "nodeNames": [
+        "Doctor_Asking_3_2_1"
+      ],
+      "source": "Doctor: Думаю, рано или поздно КЧС заметили бы поддельные отчёты.",
+      "target": "Doctor: Saya rasa cepat atau lambat KChS akan menyadari laporan-laporan palsu itu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7990,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257345",
+      "key": "line:Doctor_Asking_3_2_1_01d71c7",
+      "nodeNames": [
+        "Doctor_Asking_3_2_1"
+      ],
+      "source": "Doctor: Спасибо за понимание. Мне… немного легче от этого.",
+      "target": "Doctor: Terima kasih sudah mengerti. Saya… sedikit lebih lega karenanya.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7991,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455219257344",
+      "key": "line:Doctor_Asking_3_3_035a38b",
+      "nodeNames": [
+        "Doctor_Asking_3_3"
+      ],
+      "source": "Doctor: Прощайте.",
+      "target": "Doctor: Selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7992,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063051",
+      "key": "line:Doctor_Asking_3_3_0dda01d",
+      "nodeNames": [
+        "Doctor_Asking_3_3"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 7993,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063050",
+      "key": "line:Doctor_Asking_3_3_02c1cdb",
+      "nodeNames": [
+        "Doctor_Asking_3_3"
+      ],
+      "source": "Doctor: Пожалуй, вы правы, мне лучше уйти…",
+      "target": "Doctor: Mungkin Anda benar, sebaiknya saya pergi…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7994,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063049",
+      "key": "line:Doctor_Asking_3_2_00cda40",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Тогда скатертью дорожка",
+      "target": "Baguslah kalau begitu. Pergi saja.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7995,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063048",
+      "key": "line:Doctor_Asking_3_2_01bfcb5",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Не беспокойтесь, вы всё равно можете остаться",
+      "target": "Jangan khawatir, Anda tetap boleh tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7996,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063047",
+      "key": "line:Doctor_Asking_3_2_0a88d9a",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Простите, если не оправдал ваших надежд. Боюсь, я бессилен против ситуации с Гостями.",
+      "target": "Doctor: Maaf jika saya mengecewakan Anda. Saya khawatir saya tak berdaya menghadapi keadaan seputar Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7997,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063046",
+      "key": "line:Doctor_Asking_3_2_01714c1",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Но что старик вроде меня может сделать голыми руками? Практически ничего…",
+      "target": "Doctor: Tapi apa yang bisa dilakukan orang tua seperti saya dengan tangan kosong? Nyaris tak ada…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7998,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063045",
+      "key": "line:Doctor_Asking_3_2_02e8d2f",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Понимаю, вы рассчитывали на лечение.",
+      "target": "Doctor: Saya mengerti, Anda berharap mendapat perawatan.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 7999,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063044",
+      "key": "line:Doctor_Asking_3_2_06d43a3",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Так что… Я абсолютно бесполезен…",
+      "target": "Doctor: Jadi… Saya sama sekali tak berguna…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8000,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063043",
+      "key": "line:Doctor_Asking_3_2_08f8f3b",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Все медицинские инструменты остались в карантинной зоне.",
+      "target": "Doctor: Semua peralatan medis tertinggal di zona karantina.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8001,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063042",
+      "key": "line:Doctor_Asking_3_2_0ddda25",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Doctor: Боюсь, что нет…",
+      "target": "Doctor: Saya khawatir tidak…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8002,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063041",
+      "key": "line:Doctor_Asking_3_1_0f4f24e",
+      "nodeNames": [
+        "Doctor_Asking_3_1"
+      ],
+      "source": "Doctor: Не могу перестать думать о том, сколько ещё людей я мог спасти, если бы остался там до конца…",
+      "target": "Doctor: Saya tak bisa berhenti memikirkan berapa banyak lagi orang yang bisa saya selamatkan jika saya tetap di sana sampai akhir…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8003,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063040",
+      "key": "line:Doctor_Asking_3_1_014db32",
+      "nodeNames": [
+        "Doctor_Asking_3_1"
+      ],
+      "source": "Doctor: Спасибо за понимание. Мне… немного легче от этого.",
+      "target": "Doctor: Terima kasih sudah mengerti. Saya… sedikit lebih lega karenanya.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8004,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868747",
+      "key": "line:Doctor_Asking_3_0d98472",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Вы жалкий трус. Проваливайте из моего дома",
+      "target": "Anda pengecut menyedihkan. Pergi dari rumah saya.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8005,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868746",
+      "key": "line:Doctor_Asking_3_049d199",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Но вы всё ещё можете помогать людям.",
+      "target": "Tapi Anda masih bisa membantu orang-orang.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8006,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868745",
+      "key": "line:Doctor_Asking_3_072cac0",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Я вас не осуждаю",
+      "target": "Saya tak menghakimi Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8007,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868744",
+      "key": "line:Doctor_Asking_3_0cabac2",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: Вы не представляете, как мне стыдно… Перед теми, кто там остался. Перед собой… Перед всеми…",
+      "target": "Doctor: Anda tak tahu betapa malunya saya… Pada mereka yang tertinggal di sana. Pada diri saya sendiri… Pada semua orang…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8008,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868743",
+      "key": "line:Doctor_Asking_3_098e2c5",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: И сбежал… Как трус…",
+      "target": "Doctor: Lalu saya melarikan diri… Seperti pengecut…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8009,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868742",
+      "key": "line:Doctor_Asking_3_022327a",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: В тот момент я так сильно испугался, что совсем не думал о спасении других…",
+      "target": "Doctor: Saat itu saya begitu ketakutan sampai tak terpikir menyelamatkan orang lain…",
+      "targetBatch": "Translations/id/dialogue-batch-265.json",
+      "targetBatchSha256": "aea2e79b83b3584d3cd72a82dfc5cf1982be64de67a5f5c0843d002819ede6e5"
+    },
+    {
+      "sourceOrderIndex": 8010,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868741",
+      "key": "line:Doctor_Asking_3_0524bc0",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: Никогда я так сильно не боялся за свою жизнь…",
+      "target": "Doctor: Belum pernah saya begitu takut akan nyawa saya sendiri…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8011,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868740",
+      "key": "line:Doctor_Asking_3_020786c",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: А после он рассмеялся, сказав, что плохой из меня врач, раз я не знаю, что язык - не признак Гостя. И отпустил…",
+      "target": "Doctor: Lalu dia tertawa dan berkata saya dokter yang buruk karena tak tahu lidah bukan tanda Tamu. Setelah itu dia membiarkan saya pergi…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8012,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868739",
+      "key": "line:Doctor_Asking_3_08d9664",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: Сказал высунуть язык, чтобы проверить меня на Гостя, и я это сделал, боясь, что иначе меня застрелят.",
+      "target": "Doctor: Dia menyuruh saya menjulurkan lidah untuk memeriksa apakah saya Tamu. Saya menurut, takut ditembak kalau menolak.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8013,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868738",
+      "key": "line:Doctor_Asking_3_07f9c95",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: КЧС-ник навёл автомат на мои ноги и сказал замереть на месте. Он всё всматривался, а потом…",
+      "target": "Doctor: Seorang petugas KChS mengarahkan senapan serbunya ke kaki saya dan menyuruh saya diam di tempat. Dia terus mengamati saya, lalu…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8014,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868737",
+      "key": "line:Doctor_Asking_3_044f715",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: Строгим рёвом мне приказали развернуться. Я уже готов был принять смерть…",
+      "target": "Doctor: Seseorang membentak saya dengan keras agar berbalik. Saya sudah siap menghadapi kematian…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8015,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455210868736",
+      "key": "line:Doctor_Asking_3_0cb6b31",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: В тот момент моё сердце бешено заколотилось и подкосились колени.",
+      "target": "Doctor: Saat itu jantung saya berdebar begitu kencang hingga lutut saya lemas.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8016,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674444",
+      "key": "line:Doctor_Asking_3_014b46c",
+      "nodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "source": "Doctor: Уже светало. Я собирался домой, как вдруг меня окликнул один из КЧС-ников.",
+      "target": "Doctor: Hari mulai terang. Saya hendak pulang ketika salah seorang petugas KChS tiba-tiba memanggil saya.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8017,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674443",
+      "key": "line:Doctor_Asking_3_0e63db0",
+      "nodeNames": [
+        "Doctor_Asking_3"
+      ],
+      "source": "Doctor: Всё случилось после одного происшествия…",
+      "target": "Doctor: Semua terjadi setelah sebuah insiden…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8018,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674442",
+      "key": "line:talk_doctor_3_09f0440",
+      "nodeNames": [
+        "talk_doc_3"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 8019,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674441",
+      "key": "line:talk_doctor_3_0258685",
+      "nodeNames": [
+        "talk_doc_3"
+      ],
+      "source": "Почему вы до сих пор не в карантинной зоне?",
+      "target": "Kenapa Anda belum berada di zona karantina?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 8020,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674440",
+      "key": "line:talk_doctor_3_074817f",
+      "nodeNames": [
+        "talk_doc_3"
+      ],
+      "source": "Doctor: Да-да?",
+      "target": "Doctor: Ya, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 8021,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674439",
+      "key": "line:Doctor_Asking_2_1_0671605",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: А потом принял решение уйти из организации.",
+      "target": "Doctor: Setelah itu saya memutuskan keluar dari organisasi tersebut.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8022,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674438",
+      "key": "line:Doctor_Asking_2_Talked_0f98778",
+      "nodeNames": [
+        "Doctor_Asking_2_Talked"
+      ],
+      "source": "Doctor: Простите, но я больше не готов сегодня говорить.",
+      "target": "Doctor: Maaf, tapi saya sudah tak sanggup bicara lagi hari ini.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8023,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674437",
+      "key": "line:Doctor_Asking_2_2_03ab98b",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Думаю, у вас есть ещё вопросы. Но, если вас не затруднит, давайте оставим их на завтра.",
+      "target": "Doctor: Saya rasa Anda masih punya pertanyaan. Tapi kalau Anda tidak keberatan, mari kita bahas besok.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8024,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674436",
+      "key": "line:Doctor_Asking_2_2_0bcf64b",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8025,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674435",
+      "key": "line:Doctor_Asking_2_2_0fa64d8",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Поэтому я тайком подделывал отчёты и помогал людям сбежать.",
+      "target": "Doctor: Karena itu, diam-diam saya memalsukan laporan dan membantu orang-orang melarikan diri.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8026,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674434",
+      "key": "line:Doctor_Asking_2_2_072f36f",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Я чувствовал себя не врачом, а сотрудником пропускного пункта.",
+      "target": "Doctor: Saya merasa seperti petugas pos pemeriksaan, bukan dokter.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8027,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674433",
+      "key": "line:Doctor_Asking_2_2_051c619",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Просто выдали инструкции: кого можно считать Гостем, а кого нет.",
+      "target": "Doctor: Kami hanya diberi petunjuk tentang siapa yang boleh dianggap Tamu dan siapa yang bukan.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8028,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674432",
+      "key": "line:Doctor_Asking_2_2_0f72c96",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Нам точно так же, как и вам, не сообщали, откуда все эти признаки и что они значат.",
+      "target": "Doctor: Sama seperti Anda, kami tak diberi tahu dari mana asal semua tanda itu atau apa artinya.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8029,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480139",
+      "key": "line:Doctor_Asking_2_2_0a7eb9e",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Всё дело в прозрачности. Её не было от слова совсем.",
+      "target": "Doctor: Masalahnya adalah keterbukaan. Sama sekali tak ada keterbukaan.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8030,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480138",
+      "key": "line:Doctor_Asking_2_2_0834d2c",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Но что бы ими ни движило, я решил помогать людям по-своему, наперекор КЧС.",
+      "target": "Doctor: Tapi apa pun alasan mereka, saya memutuskan membantu orang-orang dengan cara saya sendiri, menentang KChS.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8031,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480137",
+      "key": "line:Doctor_Asking_2_2_0d98db1",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Честно вам скажу, я сам не до конца знаю мотивы КЧС. Даже несмотря на то, что работал на них некоторое время.",
+      "target": "Doctor: Sejujurnya, saya sendiri tak sepenuhnya tahu motif KChS, meskipun pernah bekerja untuk mereka beberapa waktu.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8032,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480136",
+      "key": "line:Doctor_Asking_2_2_0ed3aae",
+      "nodeNames": [
+        "Doctor_Asking_2_2"
+      ],
+      "source": "Doctor: Это хорошо. Я тоже.",
+      "target": "Doctor: Bagus. Saya juga.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8033,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480135",
+      "key": "line:Doctor_Asking_2_1_039ec50",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: Признаюсь, я был о вас лучшего мнения.",
+      "target": "Doctor: Terus terang, saya kira Anda lebih baik dari ini.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8034,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480134",
+      "key": "line:Doctor_Asking_2_1_0dd47b8",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8035,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480133",
+      "key": "line:Doctor_Asking_2_1_03f76d1",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: Как вы можете после всего этого доверять КЧС?",
+      "target": "Doctor: Setelah semua ini, bagaimana Anda masih bisa memercayai KChS?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8036,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480132",
+      "key": "line:Doctor_Asking_2_1_0a9b917",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: У вас вызывает доверие организация, которая не может даже объяснить, откуда взялись все эти признаки и что они значат?",
+      "target": "Doctor: Anda memercayai organisasi yang bahkan tak bisa menjelaskan dari mana semua tanda itu berasal dan apa artinya?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8037,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480131",
+      "key": "line:Doctor_Asking_2_1_033d269",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: По своему опыту скажу: врачей в этой организации вообще не посвящают в курс дела.",
+      "target": "Doctor: Dari pengalaman saya, para dokter di organisasi itu sama sekali tak diberi tahu keadaan yang sebenarnya.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8038,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480130",
+      "key": "line:Doctor_Asking_2_1_08b227f",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8039,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480129",
+      "key": "line:Doctor_Asking_2_1_01f8626",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: Хоть и проработал у них какое-то время, но у меня нет причин им доверять. Особенно после того, что я там видел.",
+      "target": "Doctor: Meski pernah bekerja untuk mereka beberapa waktu, saya tak punya alasan untuk memercayai mereka. Apalagi setelah apa yang saya lihat di sana.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8040,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480128",
+      "key": "line:Doctor_Asking_2_1_0088cb6",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: Жаль, я совершенно другого мнения о КЧС.",
+      "target": "Doctor: Sayang sekali, pandangan saya tentang KChS sama sekali berbeda.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8041,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285835",
+      "key": "line:Doctor_Asking_2_1_0ea21b3",
+      "nodeNames": [
+        "Doctor_Asking_2_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8042,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285834",
+      "key": "line:Doctor_Asking_2_0ae0ae3",
+      "nodeNames": [
+        "Doctor_Asking_2"
+      ],
+      "source": "Я не доверяю КЧС",
+      "target": "Saya tak percaya pada KChS.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8043,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285833",
+      "key": "line:Doctor_Asking_2_0a5f4fd",
+      "nodeNames": [
+        "Doctor_Asking_2"
+      ],
+      "source": "Я думаю, КЧС делают хорошее дело",
+      "target": "Menurut saya, KChS melakukan hal yang baik.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8044,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285832",
+      "key": "line:Doctor_Asking_2_0985105",
+      "nodeNames": [
+        "Doctor_Asking_2"
+      ],
+      "source": "Doctor: Позвольте узнать, как вы относитесь к КЧС?",
+      "target": "Doctor: Bolehkah saya tahu bagaimana pandangan Anda tentang KChS?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8045,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285831",
+      "key": "line:talk_doctor_2_0a45926",
+      "nodeNames": [
+        "talk_doc_2"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 8046,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285830",
+      "key": "line:talk_doctor_2_027dc38",
+      "nodeNames": [
+        "talk_doc_2"
+      ],
+      "source": "Так что вы хотели сказать мне?",
+      "target": "Jadi apa yang hendak Anda katakan kepadaku?",
+      "targetBatch": "Translations/id/dialogue-batch-318.json",
+      "targetBatchSha256": "591e0b7c5da12785854a929e4a4a87d29309949d802c167274e43e7a7205fd4c"
+    },
+    {
+      "sourceOrderIndex": 8047,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285829",
+      "key": "line:talk_doctor_2_0906537",
+      "nodeNames": [
+        "talk_doc_2"
+      ],
+      "source": "Doctor: Да-да?",
+      "target": "Doctor: Ya, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "targetBatchSha256": "c1fe74682f656fad2815ac2359d5fd566638d115fe6fa4334c445eb4af31990d"
+    },
+    {
+      "sourceOrderIndex": 8048,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285828",
+      "key": "line:Doctor_Asking_1_4_08769a4",
+      "nodeNames": [
+        "Doctor_Asking_1_4"
+      ],
+      "source": "Doctor: Может быть… Нет, извините, пока не готов рассказать вам.",
+      "target": "Doctor: Mungkin… Tidak, maaf, saya belum siap menceritakannya kepada Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8049,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285827",
+      "key": "line:Doctor_Asking_1_4_0d4ccb4",
+      "nodeNames": [
+        "Doctor_Asking_1_4"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8050,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285826",
+      "key": "line:Doctor_Asking_1_4_0d40879",
+      "nodeNames": [
+        "Doctor_Asking_1_4"
+      ],
+      "source": "Doctor: Вы напрасно называете меня ублюдком. Вы не знаете всей правды.",
+      "target": "Doctor: Anda keliru menyebut saya bajingan. Anda belum tahu seluruh kebenarannya.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8051,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285825",
+      "key": "line:Doctor_Asking_1_3_090276d",
+      "nodeNames": [
+        "Doctor_Asking_1_3"
+      ],
+      "source": "Doctor: Может быть… Нет, извините, пока не готов рассказать вам.",
+      "target": "Doctor: Mungkin… Tidak, maaf, saya belum siap menceritakannya kepada Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8052,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285824",
+      "key": "line:Doctor_Asking_1_3_0f58a66",
+      "nodeNames": [
+        "Doctor_Asking_1_3"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8053,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091531",
+      "key": "line:Doctor_Asking_1_3_095c848",
+      "nodeNames": [
+        "Doctor_Asking_1_3"
+      ],
+      "source": "Doctor: Я… хотел продолжать помогать людям. Это моё призвание. Я не мог просто так отказаться от этого.",
+      "target": "Doctor: Saya… ingin terus membantu orang-orang. Itulah panggilan hidup saya. Saya tak bisa begitu saja meninggalkannya.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8054,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091530",
+      "key": "line:Doctor_Asking_1_2_0510112",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Выходит, вы просто ещё один ублюдок из КЧС",
+      "target": "Jadi, Anda cuma bajingan KChS yang lain.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8055,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091529",
+      "key": "line:Doctor_Asking_1_2_00bd4e8",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Для чего вы пошли туда?",
+      "target": "Untuk apa Anda bergabung dengan mereka?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8056,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091528",
+      "key": "line:Doctor_Asking_1_2_0acba75",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: Надеялся что-то разузнать насчёт Гостей и их признаков. Но, к сожалению, ничего не вышло.",
+      "target": "Doctor: Saya berharap bisa mencari tahu sesuatu tentang Tamu dan tanda-tanda mereka. Tapi sayangnya, tak berhasil.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8057,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091527",
+      "key": "line:Doctor_Asking_1_2_0394853",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: По правде говоря… после закрытия больниц я перешёл работать в карантинные зоны КЧС…",
+      "target": "Doctor: Sejujurnya… Setelah rumah sakit ditutup, saya pindah bekerja di zona karantina KChS…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8058,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091526",
+      "key": "line:Doctor_Asking_1_2_011ac8f",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: Мне кажется, они что-то от нас скрывают…",
+      "target": "Doctor: Sepertinya mereka menyembunyikan sesuatu dari kita…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8059,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091525",
+      "key": "line:Doctor_Asking_1_2_08014ce",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: Это же бред! Белые зубы являются показателем того, что человек – Гость?",
+      "target": "Doctor: Ini konyol! Gigi putih dijadikan tanda bahwa seseorang adalah Tamu?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8060,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091524",
+      "key": "line:Doctor_Asking_1_2_0346158",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: Вам не кажутся абсурдными все эти признаки, которые ничем не отличаются от простых человеческих свойств?",
+      "target": "Doctor: Tidakkah Anda merasa semua tanda itu tidak masuk akal, padahal tak berbeda dari ciri manusia biasa?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8061,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091523",
+      "key": "line:Doctor_Asking_1_2_0e21129",
+      "nodeNames": [
+        "Doctor_Asking_1_2"
+      ],
+      "source": "Doctor: А, по-вашему, правильно было забирать вообще всех этих людей без разбора?",
+      "target": "Doctor: Jadi menurut Anda, mengambil semua orang itu tanpa pandang bulu adalah tindakan yang benar?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8062,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091522",
+      "key": "line:Doctor_Asking_1_1_033f34d",
+      "nodeNames": [
+        "Doctor_Asking_1_1"
+      ],
+      "source": "Выходит, вы просто ещё один ублюдок из КЧС",
+      "target": "Jadi, Anda cuma bajingan KChS yang lain.",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8063,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091521",
+      "key": "line:Doctor_Asking_1_1_020d5a4",
+      "nodeNames": [
+        "Doctor_Asking_1_1"
+      ],
+      "source": "Для чего вы пошли туда?",
+      "target": "Untuk apa Anda bergabung dengan mereka?",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8064,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091520",
+      "key": "line:Doctor_Asking_1_1_070afbf",
+      "nodeNames": [
+        "Doctor_Asking_1_1"
+      ],
+      "source": "Doctor: По правде говоря… после закрытия больниц я перешёл работать в карантинные зоны КЧС…",
+      "target": "Doctor: Sejujurnya… Setelah rumah sakit ditutup, saya pindah bekerja di zona karantina KChS…",
+      "targetBatch": "Translations/id/dialogue-batch-266.json",
+      "targetBatchSha256": "efbb972d34ae6896da5ba21cf4afc589b9cfd5f6ec735f940608d0577b56fb79"
+    },
+    {
+      "sourceOrderIndex": 8065,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897226",
+      "key": "line:Doctor_Asking_1_1_03133cb",
+      "nodeNames": [
+        "Doctor_Asking_1_1"
+      ],
+      "source": "Doctor: …",
+      "target": "Doctor: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8066,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897225",
+      "key": "line:Doctor_Asking_1_0c68ba0",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "КЧС поступили плохо?",
+      "target": "Apa KChS bertindak buruk?",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8067,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897224",
+      "key": "line:Doctor_Asking_1_07a27f9",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Выходит, КЧС лишили вас работы?",
+      "target": "Jadi KChS membuat Anda kehilangan pekerjaan?",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8068,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897223",
+      "key": "line:Doctor_Asking_1_0b0dda3",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: В итоге всех направили в карантинные зоны, а больницы… просто закрыли.",
+      "target": "Doctor: Pada akhirnya semua orang dikirim ke zona karantina, dan rumah sakit… ditutup begitu saja.",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8069,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897222",
+      "key": "line:Doctor_Asking_1_0150009",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: В конце концов появились КЧС. А они посчитали, что толпы людей нарушают эпидемиологическую обстановку…",
+      "target": "Doctor: Akhirnya KChS muncul. Mereka menganggap kerumunan orang memperburuk keadaan epidemiologis…",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8070,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897221",
+      "key": "line:Doctor_Asking_1_0546949",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: Но люди не слушали нас, продолжая устраивать давку. Это мешало лечить действительно больных.",
+      "target": "Doctor: Tapi orang-orang tak mau mendengarkan kami dan terus berdesakan. Itu menghalangi kami merawat mereka yang benar-benar sakit.",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8071,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897220",
+      "key": "line:Doctor_Asking_1_018ff8f",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: Мы пытались объяснить им, что сами не знаем наверняка, как это проверять.",
+      "target": "Doctor: Kami mencoba menjelaskan bahwa kami sendiri tak tahu pasti cara memeriksanya.",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8072,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897219",
+      "key": "line:Doctor_Asking_1_05b929e",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: Толпы людей ринулись в больницы, как всё это началось. Каждый хотел проверить, не Гость ли он.",
+      "target": "Doctor: Saat semua ini bermula, orang-orang berbondong-bondong ke rumah sakit. Semua ingin memeriksa apakah mereka Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8073,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897218",
+      "key": "line:Doctor_Asking_1_00a3ed3",
+      "nodeNames": [
+        "Doctor_Asking_1"
+      ],
+      "source": "Doctor: Ох-х-х, это… был настоящий кошмар.",
+      "target": "Doctor: Oh… Itu benar-benar mimpi buruk.",
+      "targetBatch": "Translations/id/dialogue-batch-267.json",
+      "targetBatchSha256": "3a80bfc77575db38ad0fe5ee42c013827be569717c6daaf039e83d4e06802d11"
+    },
+    {
+      "sourceOrderIndex": 8074,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897217",
+      "key": "line:talk_doctor_1_07c05f9",
+      "nodeNames": [
+        "talk_doc_1"
+      ],
+      "source": "Мне надо вас проверить",
+      "target": "Saya harus memeriksa Anda",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 8075,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897216",
+      "key": "line:talk_doctor_1_0f00553",
+      "nodeNames": [
+        "talk_doc_1"
+      ],
+      "source": "Что произошло с больницами?",
+      "target": "Apa yang terjadi pada rumah sakit?",
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "targetBatchSha256": "c1fe74682f656fad2815ac2359d5fd566638d115fe6fa4334c445eb4af31990d"
+    },
+    {
+      "sourceOrderIndex": 8076,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702922",
+      "key": "line:talk_doctor_1_0315b6d",
+      "nodeNames": [
+        "talk_doc_1"
+      ],
+      "source": "Doctor: Да-да?",
+      "target": "Doctor: Ya, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "targetBatchSha256": "c1fe74682f656fad2815ac2359d5fd566638d115fe6fa4334c445eb4af31990d"
+    },
+    {
+      "sourceOrderIndex": 8077,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702921",
+      "key": "line:Wolfhound_Asking_3_9_2_0469859",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X"
+      ],
+      "source": "Wolfhound: (Благо, вы успеваете схватить ружьё и выстрелить)",
+      "target": "Wolfhound: (Untung Anda sempat meraih senapan dan menembak)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8078,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702920",
+      "key": "line:Wolfhound_Asking_3_9_2_09a03e3",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X"
+      ],
+      "source": "Wolfhound: (Вы у него на мушке)",
+      "target": "Wolfhound: (Anda berada dalam bidikannya)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8079,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702919",
+      "key": "line:Wolfhound_Asking_3_9_2_086c8fc",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X"
+      ],
+      "source": "Wolfhound: (Мужчина пользуется моментом и выхватывает пистолет)",
+      "target": "Wolfhound: (Pria itu memanfaatkan kesempatan dan mencabut pistol)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8080,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702918",
+      "key": "line:Wolfhound_Asking_3_9_2_031f499",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X"
+      ],
+      "source": "Wolfhound: Но лучше бы ты меня убил.",
+      "target": "Wolfhound: Tapi lebih baik kau membunuhku.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8081,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702917",
+      "key": "line:Wolfhound_Asking_3_9_2_0ed0f03",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8082,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702916",
+      "key": "line:Wolfhound_Asking_3_9_2_02e5894",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_X2"
+      ],
+      "source": "Wolfhound: Хороший мальчик.",
+      "target": "Wolfhound: Anak pintar.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8083,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702915",
+      "key": "line:Wolfhound_Asking_3_9_1_0921308",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_Shooted"
+      ],
+      "source": "Wolfhound: Ах, ты ж сука… Попал в меня.",
+      "target": "Wolfhound: Ah, bajingan… Kau mengenaiku.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8084,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702914",
+      "key": "line:Wolfhound_Asking_3_9_1_0d52636",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9_1"
+      ],
+      "source": "Wolfhound: Сдохни ублю…",
+      "target": "Wolfhound: Mampus kau, baj…",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8085,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702913",
+      "key": "line:Wolfhound_Asking_3_9_0a1023b",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9"
+      ],
+      "source": "(Убрать ружьё)",
+      "target": "(Simpan senapan)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8086,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702912",
+      "key": "line:Wolfhound_Asking_3_9_04fbd10",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9"
+      ],
+      "source": "(Застрелить его)",
+      "target": "(Tembak dia)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8087,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508616",
+      "key": "line:Wolfhound_Asking_3_9_0d9bc2a",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9"
+      ],
+      "source": "Wolfhound: Лучше убери пушку, разойдёмся мирно.",
+      "target": "Wolfhound: Lebih baik turunkan senapanmu. Kita bisa berpisah baik-baik.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8088,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508615",
+      "key": "line:Wolfhound_Asking_3_9_0fd5e82",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9"
+      ],
+      "source": "Wolfhound: Ты ведь в курсе, что у меня есть пистолет?",
+      "target": "Wolfhound: Kau tahu aku punya pistol, kan?",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8089,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508614",
+      "key": "line:Wolfhound_Asking_3_9_0862266",
+      "nodeNames": [
+        "Wolfhound_Asking_3_9"
+      ],
+      "source": "Wolfhound: Вот оно как.",
+      "target": "Wolfhound: Jadi begitu.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8090,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508613",
+      "key": "line:Wolfhound_Asking_3_8_0fdcf7f",
+      "nodeNames": [
+        "Wolfhound_Asking_3_8"
+      ],
+      "source": "Wolfhound: Лучше уходи подобру-поздорову. Либо я тебя убью.",
+      "target": "Wolfhound: Lebih baik pergi baik-baik. Kalau tidak, aku akan membunuhmu.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8091,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508612",
+      "key": "line:Wolfhound_Asking_3_8_04650ec",
+      "nodeNames": [
+        "Wolfhound_Asking_3_8"
+      ],
+      "source": "Wolfhound: Если ты такой тюфяк, какой из тебя вожак…",
+      "target": "Wolfhound: Kalau kau selemah itu, pemimpin macam apa dirimu…",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8092,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508611",
+      "key": "line:Wolfhound_Asking_3_8_0ad4101",
+      "nodeNames": [
+        "Wolfhound_Asking_3_8"
+      ],
+      "source": "Wolfhound: Я знаю, что такое стая, и живу по понятиям.",
+      "target": "Wolfhound: Aku tahu arti kawanan dan hidup menurut aturan jalanan.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8093,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508610",
+      "key": "line:Wolfhound_Asking_3_7_0709dde",
+      "nodeNames": [
+        "Wolfhound_Asking_3_7"
+      ],
+      "source": "Wolfhound: Лучше уходи подобру-поздорову. Либо я тебя убью.",
+      "target": "Wolfhound: Lebih baik pergi baik-baik. Kalau tidak, aku akan membunuhmu.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8094,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508609",
+      "key": "line:Wolfhound_Asking_3_7_069d7ea",
+      "nodeNames": [
+        "Wolfhound_Asking_3_7"
+      ],
+      "source": "Wolfhound: Если не знаешь, зачем тебе стая, для чего брал роль вожака?",
+      "target": "Wolfhound: Kalau kau tak tahu untuk apa punya kawanan, kenapa mengambil peran pemimpin?",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8095,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508608",
+      "key": "line:Wolfhound_Asking_3_7_07f4553",
+      "nodeNames": [
+        "Wolfhound_Asking_3_7"
+      ],
+      "source": "Wolfhound: ЗАТКНИСЬ, ЩЕНОК! Ты для меня теперь – ничто!",
+      "target": "Wolfhound: DIAM, ANAK ANJING! Kini kau bukan siapa-siapa bagiku!",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8096,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314315",
+      "key": "line:Wolfhound_Asking_3_6_0835b0b",
+      "nodeNames": [
+        "Wolfhound_Asking_3_6"
+      ],
+      "source": "Проваливай, пока я тебя не застрелил",
+      "target": "Enyah sebelum kutembak",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8097,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314314",
+      "key": "line:Wolfhound_Asking_3_6_019e47a",
+      "nodeNames": [
+        "Wolfhound_Asking_3_6"
+      ],
+      "source": "(Достать ружьё)",
+      "target": "(Ambil senapan)",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8098,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314313",
+      "key": "line:Wolfhound_Asking_3_6_0f76373",
+      "nodeNames": [
+        "Wolfhound_Asking_3_6"
+      ],
+      "source": "И чем ты лучше меня?",
+      "target": "Lalu apa bedanya kau denganku?",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8099,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314312",
+      "key": "line:Wolfhound_Asking_3_6_0775fed",
+      "nodeNames": [
+        "Wolfhound_Asking_3_6"
+      ],
+      "source": "Пошёл ты!",
+      "target": "Persetan denganmu!",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8100,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314311",
+      "key": "line:Wolfhound_Asking_3_6_031c0f7",
+      "nodeNames": [
+        "Wolfhound_Asking_3_6"
+      ],
+      "source": "Wolfhound: Мне придётся занять твоё место, раз ты не способен вести за собой людей.",
+      "target": "Wolfhound: Aku harus mengambil tempatmu karena kau tak mampu memimpin orang-orang.",
+      "targetBatch": "Translations/id/dialogue-batch-234.json",
+      "targetBatchSha256": "82eef5d21084b40f093f226b4485881214b352778589435169e1994e27eec944"
+    },
+    {
+      "sourceOrderIndex": 8101,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314310",
+      "key": "line:Wolfhound_Asking_3_5_0537383",
+      "nodeNames": [
+        "Wolfhound_Asking_3_5"
+      ],
+      "source": "Wolfhound: Я тебе и так слишком много о себе рассказал вчера. Теперь твоя очередь.",
+      "target": "Wolfhound: Kemarin aku sudah terlalu banyak bercerita tentang diriku. Sekarang giliranmu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8102,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314309",
+      "key": "line:Wolfhound_Asking_3_5_0e2552c",
+      "nodeNames": [
+        "Wolfhound_Asking_3_5"
+      ],
+      "source": "Wolfhound: Я не буду отвечать на него. Меньше знаешь, крепче спишь.",
+      "target": "Wolfhound: Aku tak akan menjawab pertanyaan itu. Makin sedikit tahu, makin nyenyak tidurmu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8103,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314308",
+      "key": "line:Wolfhound_Asking_3_5_007fd9a",
+      "nodeNames": [
+        "Wolfhound_Asking_3_5"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8104,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314307",
+      "key": "line:Wolfhound_Asking_3_4_0322a54",
+      "nodeNames": [
+        "Wolfhound_Asking_3_4"
+      ],
+      "source": "Wolfhound: Тогда не смею сомневаться в твоём авторитете.",
+      "target": "Wolfhound: Kalau begitu, aku tak berani meragukan kewibawaanmu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8105,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314306",
+      "key": "line:Wolfhound_Asking_3_4_0faf2f3",
+      "nodeNames": [
+        "Wolfhound_Asking_3_4"
+      ],
+      "source": "Wolfhound: Вот это слова не мальчика, но мужчины.",
+      "target": "Wolfhound: Itu baru ucapan pria dewasa, bukan bocah.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8106,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314305",
+      "key": "line:Wolfhound_Asking_3_3_0c6ff31",
+      "nodeNames": [
+        "Wolfhound_Asking_3_3"
+      ],
+      "source": "Wolfhound: Это слова не вожака, а бесхребетного труса.",
+      "target": "Wolfhound: Itu ucapan pengecut tanpa tulang punggung, bukan pemimpin.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8107,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455177314304",
+      "key": "line:Wolfhound_Asking_3_3_0dd39c0",
+      "nodeNames": [
+        "Wolfhound_Asking_3_3"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8108,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120013",
+      "key": "line:Wolfhound_Asking_3_3_0f54c6c",
+      "nodeNames": [
+        "Wolfhound_Asking_3_3"
+      ],
+      "source": "Wolfhound: И всё? Просто из-за того, что ты боишься остаться один?",
+      "target": "Wolfhound: Hanya itu? Cuma karena kau takut sendirian?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8109,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120012",
+      "key": "line:Wolfhound_Asking_3_2_08d1774",
+      "nodeNames": [
+        "Wolfhound_Asking_3_2"
+      ],
+      "source": "Wolfhound: Но ты звучишь как вожак. Не смею оспаривать твой авторитет.",
+      "target": "Wolfhound: Tapi kau terdengar seperti pemimpin. Aku tak berani membantah kewibawaanmu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8110,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120011",
+      "key": "line:Wolfhound_Asking_3_2_0d9412d",
+      "nodeNames": [
+        "Wolfhound_Asking_3_2"
+      ],
+      "source": "Wolfhound: Ты не сможешь помочь всем. Всё равно придётся кому-то отказывать в помощи.",
+      "target": "Wolfhound: Kau tak bisa menolong semua orang. Pada akhirnya kau harus menolak membantu seseorang.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8111,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120010",
+      "key": "line:Wolfhound_Asking_3_2_0fa4098",
+      "nodeNames": [
+        "Wolfhound_Asking_3_2"
+      ],
+      "source": "Wolfhound: Похвальная цель. Хоть и немного глупая.",
+      "target": "Wolfhound: Tujuan yang patut dipuji, walau agak bodoh.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8112,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120009",
+      "key": "line:Wolfhound_Asking_3_1_011131a",
+      "nodeNames": [],
+      "source": "Wolfhound: Боюсь, мне придётся занять твоё место. Ты не способен вести за собой людей.",
+      "target": "Wolfhound: Sepertinya aku harus mengambil tempatmu. Kau tak mampu memimpin orang-orang.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8113,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120008",
+      "key": "line:Wolfhound_Asking_3_1_0894df8",
+      "nodeNames": [
+        "Wolfhound_Asking_3_1"
+      ],
+      "source": "Wolfhound: Этой стае нужен хороший лидер.",
+      "target": "Wolfhound: Kawanan ini membutuhkan pemimpin yang baik.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8114,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120007",
+      "key": "line:Wolfhound_Asking_3_1_0b8f440",
+      "nodeNames": [
+        "Wolfhound_Asking_3_1"
+      ],
+      "source": "Wolfhound: Ты звучишь не как вожак, а как трусливая шавка.",
+      "target": "Wolfhound: Kau terdengar seperti anjing kecil penakut, bukan pemimpin.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8115,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120006",
+      "key": "line:Wolfhound_Asking_3_1_09f2776",
+      "nodeNames": [
+        "Wolfhound_Asking_3_1"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8116,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120005",
+      "key": "line:Wolfhound_Asking_3_1_00d8083",
+      "nodeNames": [
+        "Wolfhound_Asking_3_1"
+      ],
+      "source": "Wolfhound: То есть ты собрал этих людей, чтобы сохранить свою шкуру?",
+      "target": "Wolfhound: Jadi kau mengumpulkan mereka hanya untuk menyelamatkan dirimu sendiri?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8117,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120004",
+      "key": "line:Wolfhound_Asking_3_091d4a1",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Я первым задал вопрос",
+      "target": "Aku yang bertanya lebih dulu",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8118,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120003",
+      "key": "line:Wolfhound_Asking_3_0b1d597",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Потому что этим людям нужен вожак",
+      "target": "Karena orang-orang ini membutuhkan pemimpin",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8119,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120002",
+      "key": "line:Wolfhound_Asking_3_042a9a9",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Мне просто нравится компания людей",
+      "target": "Aku hanya suka ditemani orang lain",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8120,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120001",
+      "key": "line:Wolfhound_Asking_3_08df62d",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Я пытаюсь помочь другим людям",
+      "target": "Aku berusaha menolong orang lain",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8121,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455173120000",
+      "key": "line:Wolfhound_Asking_3_0a5b62b",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Так меня не убьёт бледный высокий Гость",
+      "target": "Supaya Tamu Pucat yang tinggi itu tak membunuhku",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8122,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925707",
+      "key": "line:Wolfhound_Asking_3_0a0d00c",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Wolfhound: А для чего ты собрал эту стаю?",
+      "target": "Wolfhound: Lalu untuk apa kau mengumpulkan kawanan ini?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8123,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925706",
+      "key": "line:Wolfhound_Asking_3_01fe382",
+      "nodeNames": [
+        "Wolfhound_Asking_3"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8124,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925705",
+      "key": "line:talk_wolfhound_3_0cef092",
+      "nodeNames": [
+        "talk_wolfhound_3"
+      ],
+      "source": "Мне надо тебя проверить",
+      "target": "Aku harus memeriksamu",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 8125,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925704",
+      "key": "line:talk_wolfhound_3_0a2d3c2",
+      "nodeNames": [
+        "talk_wolfhound_3"
+      ],
+      "source": "Ты много говоришь про стаи. Почему свою не собрал?",
+      "target": "Kau sering membicarakan kawanan. Kenapa tak membentuk kawananmu sendiri?",
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "targetBatchSha256": "c1fe74682f656fad2815ac2359d5fd566638d115fe6fa4334c445eb4af31990d"
+    },
+    {
+      "sourceOrderIndex": 8126,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925703",
+      "key": "line:talk_wolfhound_3_0977caf",
+      "nodeNames": [
+        "talk_wolfhound_3"
+      ],
+      "source": "Wolfhound: У тебя какой-то вопрос ко мне?",
+      "target": "Wolfhound: Ada yang ingin kautanyakan padaku?",
+      "targetBatch": "Translations/id/dialogue-batch-319.json",
+      "targetBatchSha256": "c1fe74682f656fad2815ac2359d5fd566638d115fe6fa4334c445eb4af31990d"
+    },
+    {
+      "sourceOrderIndex": 8127,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925702",
+      "key": "line:Wolfhound_Asking_2_6_011b3f3",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Зато его сынок запомнил этот урок на всю жизнь. А люди продолжили уважать меня.",
+      "target": "Wolfhound: Tapi anak si sopir akan mengingat pelajaran itu seumur hidup. Dan orang-orang tetap menghormatiku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8128,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925701",
+      "key": "line:Wolfhound_Asking_2_6_0bd2eb4",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Поэтому я переломал бедолаге кости.",
+      "target": "Wolfhound: Karena itu kupatahkan tulang pria malang itu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8129,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925700",
+      "key": "line:Wolfhound_Asking_2_6_01377f2",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Если бы я стерпел, то мой авторитет пошатнулся к херам.",
+      "target": "Wolfhound: Kalau aku membiarkannya, kewibawaanku pasti hancur, sialan.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8130,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925699",
+      "key": "line:Wolfhound_Asking_2_6_0e33c7d",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Один несчастный таксист отказался меня подвозить.",
+      "target": "Wolfhound: Seorang sopir taksi malang pernah menolak mengantarku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8131,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925698",
+      "key": "line:Wolfhound_Asking_2_6_060afa5",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Я марал долго, гноем наружу. Понимаешь?",
+      "target": "Wolfhound: Lama aku mengotori jiwaku, sampai nanah keluar. Paham?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8132,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925697",
+      "key": "line:Wolfhound_Asking_2_6_040d8f1",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: … Долго ли замарать душу?",
+      "target": "Wolfhound: … Butuh berapa lama untuk mengotori jiwa?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8133,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925696",
+      "key": "line:Wolfhound_Asking_2_6_0ab16fe",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Все меня боялись и уважали.",
+      "target": "Wolfhound: Semua orang takut sekaligus menghormatiku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8134,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731403",
+      "key": "line:Wolfhound_Asking_2_6_01016f5",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Знаешь, я раньше обладал большим авторитетом в городе.",
+      "target": "Wolfhound: Kau tahu, dulu aku sangat disegani di kota ini.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8135,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731402",
+      "key": "line:Wolfhound_Asking_2_6_0eae8d9",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8136,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731401",
+      "key": "line:Wolfhound_Asking_2_6_08c367a",
+      "nodeNames": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "source": "Wolfhound: Напрасно, лучше бы тебе и со слабаками не церемониться.",
+      "target": "Wolfhound: Sia-sia. Lebih baik kau tak memberi kelonggaran kepada orang-orang lemah.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8137,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731400",
+      "key": "line:Wolfhound_Asking_2_5_03bd917",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Зато его сынок запомнил этот урок на всю жизнь. А люди продолжили уважать меня.",
+      "target": "Wolfhound: Tapi anak si sopir akan mengingat pelajaran itu seumur hidup. Dan orang-orang tetap menghormatiku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8138,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731399",
+      "key": "line:Wolfhound_Asking_2_5_023e7a9",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Поэтому я переломал бедолаге кости.",
+      "target": "Wolfhound: Karena itu kupatahkan tulang pria malang itu.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8139,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731398",
+      "key": "line:Wolfhound_Asking_2_5_086fbce",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Если бы я стерпел, то мой авторитет пошатнулся к херам.",
+      "target": "Wolfhound: Kalau aku membiarkannya, kewibawaanku pasti hancur, sialan.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8140,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731397",
+      "key": "line:Wolfhound_Asking_2_5_0e3abe5",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Один несчастный таксист отказался меня подвозить.",
+      "target": "Wolfhound: Seorang sopir taksi malang pernah menolak mengantarku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8141,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731396",
+      "key": "line:Wolfhound_Asking_2_5_0ddb33e",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Я марал долго, гноем наружу. Понимаешь?",
+      "target": "Wolfhound: Lama aku mengotori jiwaku, sampai nanah keluar. Paham?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8142,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731395",
+      "key": "line:Wolfhound_Asking_2_5_07f7255",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: … Долго ли замарать душу?",
+      "target": "Wolfhound: … Butuh berapa lama untuk mengotori jiwa?",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8143,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731394",
+      "key": "line:Wolfhound_Asking_2_5_09e2e8f",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Люди боялись и уважали меня.",
+      "target": "Wolfhound: Orang-orang takut sekaligus menghormatiku.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8144,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731393",
+      "key": "line:Wolfhound_Asking_2_5_0a605e9",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Знаешь, я раньше обладал большим авторитетом в городе.",
+      "target": "Wolfhound: Kau tahu, dulu aku sangat disegani di kota ini.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8145,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731392",
+      "key": "line:Wolfhound_Asking_2_5_0ccc012",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: …",
+      "target": "Wolfhound: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 8146,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537099",
+      "key": "line:Wolfhound_Asking_2_5_0e924af",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Ты уже убивал. Так что не пытайся отрицать, что у тебя руки в крови.",
+      "target": "Wolfhound: Kau sudah pernah membunuh. Jangan mencoba menyangkal bahwa tanganmu berlumur darah.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8147,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537098",
+      "key": "line:Wolfhound_Asking_2_5_044bdb0",
+      "nodeNames": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "source": "Wolfhound: Кого ты обманываешь? Я всё прекрасно вижу.",
+      "target": "Wolfhound: Siapa yang hendak kautipu? Aku melihat semuanya dengan jelas.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8148,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537097",
+      "key": "line:Wolfhound_Asking_2_4_08251d1",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Я убиваю только Гостей",
+      "target": "Aku hanya membunuh para Tamu",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8149,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537096",
+      "key": "line:Wolfhound_Asking_2_4_027069f",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Я не убийца",
+      "target": "Aku bukan pembunuh",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8150,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537095",
+      "key": "line:Wolfhound_Asking_2_4_092bd46",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Wolfhound: Тогда люди будут бояться и не посмеют лезть к тебе. Только так ты установишь статус вожака.",
+      "target": "Wolfhound: Dengan begitu orang-orang akan takut dan tak berani menantangmu. Hanya itu cara menegakkan kedudukanmu sebagai pemimpin.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8151,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537094",
+      "key": "line:Wolfhound_Asking_2_4_0669788",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Wolfhound: Тебе надо быть бескомпромиссным. Если Гость – стреляй. Слабый, больной, старый – тоже стреляй.",
+      "target": "Wolfhound: Kau harus tak kenal kompromi. Kalau Tamu, tembak. Kalau lemah, sakit, atau tua, tembak juga.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8152,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537093",
+      "key": "line:Wolfhound_Asking_2_4_07a9420",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Wolfhound: Милосердие – признак слабости.",
+      "target": "Wolfhound: Belas kasih itu tanda kelemahan.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8153,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537092",
+      "key": "line:Wolfhound_Asking_2_4_0383c65",
+      "nodeNames": [
+        "Wolfhound_Asking_2_4"
+      ],
+      "source": "Wolfhound: Если ты их отпустишь, твой авторитет пошатнётся. Все начнут говорить, что ты тюфяк.",
+      "target": "Wolfhound: Kalau kau membiarkan mereka pergi, kewibawaanmu akan runtuh. Semua orang akan bilang kau lemah.",
+      "targetBatch": "Translations/id/dialogue-batch-235.json",
+      "targetBatchSha256": "572e1c620e40211780f946c800695a103887815b9a4348134449c89f6b7aa107"
+    },
+    {
+      "sourceOrderIndex": 8154,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537091",
+      "key": "line:Wolfhound_Asking_2_3_02276eb",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Я убиваю только Гостей",
+      "target": "Aku hanya membunuh para Tamu",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8155,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537090",
+      "key": "line:Wolfhound_Asking_2_3_041d7ec",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Я не убийца",
+      "target": "Aku bukan pembunuh",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8156,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537089",
+      "key": "line:Wolfhound_Asking_2_3_03e5c5d",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: Их нужно оставить.",
+      "target": "Wolfhound: Mereka harus ditinggalkan.",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8157,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455160537088",
+      "key": "line:Wolfhound_Asking_2_3_06e8ba7",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: А те, кому безразличны смерти слабаков, и есть сильные волки.",
+      "target": "Wolfhound: Yang tak peduli pada kematian orang-orang lemah, merekalah serigala yang kuat.",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8158,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455156342796",
+      "key": "line:Wolfhound_Asking_2_3_043d6b1",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: Так ты укрепишь свой авторитет. Покажешь, кто здесь главный.",
+      "target": "Wolfhound: Dengan begitu kewibawaanmu makin kuat. Tunjukkan siapa penguasa di sini.",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8159,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455156342795",
+      "key": "line:Wolfhound_Asking_2_3_05611fd",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: Придётся их убить. Провести показательные казни.",
+      "target": "Wolfhound: Kau harus membunuh mereka. Jadikan hukuman mati itu tontonan.",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    },
+    {
+      "sourceOrderIndex": 8160,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455156342794",
+      "key": "line:Wolfhound_Asking_2_3_081eec1",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: Тебе нужно избавиться от слабаков.",
+      "target": "Wolfhound: Kau harus menyingkirkan orang-orang lemah.",
+      "targetBatch": "Translations/id/dialogue-batch-236.json",
+      "targetBatchSha256": "2141866352b28fa9b5bc73d1ba64136e24585acc6f67795b4eb11835911db06b"
+    }
+  ],
+  "semanticPassComplete": false,
+  "independentReview": "pending"
+}

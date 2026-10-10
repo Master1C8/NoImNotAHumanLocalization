@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "cycle": 3,
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "compiledContextSha256": "765a28b66f1a23822e799231464e416200fc344a5bd2915cea28ec40c57029d9",
+  "daughterAsking": {
+    "compiledInstructions": [
+      16,
+      17,
+      19,
+      20,
+      21
+    ],
+    "afterLines": [
+      "Daughter: Satu lagi... maukah Anda mengundang teman perempuanku untuk bermain di sini?..",
+      "Daughter: Sepertinya ini nomor teleponnya: {0}."
+    ],
+    "dynamicDomain": "GetPhoneNumber(DaughtersFriend) supplies the sole {0} value; actual returned strings not enumerated or executed",
+    "contactUiKey": "phone_sub_DaughtersFriend",
+    "contactUiStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+    "contactUiTarget": "Teman perempuan si anak",
+    "nextLine": "Daughter: Kalau orang dewasa yang mengundang, dia diizinkan pergi... Tapi kalau aku yang mengajaknya, aku selalu dimarahi."
+  },
+  "daughterEars": {
+    "compiledIntroductionInstruction": 4,
+    "afterIntroduction": "Daughter: Kadang Anda persis seperti sahabat perempuan terbaikku...",
+    "branchTo": "Daughter_Ears_DontShoot",
+    "callbackInstruction": 8,
+    "callback": "Daughter: Aku harus mengunjungi temanku setelah Ayah menjemputku...",
+    "callbackDecision": "generic wording retained, referent dependency restored"
+  },
+  "baldPhoto": {
+    "compiledIntroductionInstruction": 3,
+    "afterIntroduction": "Bald: Beberapa hari kemudian baru kami tahu teman perempuan kami yang pulang itu tak pernah sampai di rumah.",
+    "nextLine": "Bald: Kami mencari fotonya, mencetaknya, lalu memasang pengumuman orang hilang di mana-mana.",
+    "laterGenderCue": "Bald: Padahal dia gadis yang baik. Cantik pula…"
+  },
+  "protectedSyntax": "all three complete replacements passed preserve_exact.check_value before application; phone {0} template remains unchanged",
+  "runtime": "not executed",
+  "rendering": "not tested"
+}

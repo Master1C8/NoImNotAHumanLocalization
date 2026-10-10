@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 3,
+  "locale": "id",
+  "cycle": 3,
+  "cycleDirectory": "Translations/id/semantic-correction-cycle-03",
+  "previousClosure": "Translations/id/semantic-correction-cycle-02/closure.ids.txt",
+  "previousClosureSha256": "866056085ed9e8b8f4d4c6641843502f6204035cabb840d63c3367a8a6c92c5e",
+  "previousComponentManifest": "Translations/id/semantic-correction-cycle-02/component-manifest.json",
+  "independentReview": "Translations/id/independent-review-02/review.json",
+  "independentReviewSha256": "d189e7b2e5d43f4212ff7faf4bdffc175f07f24702f0a55e8da8f3c2d1cf3f05",
+  "canonicalOrder": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "idListConvention": "UTF-8 LF, one stable ID per line, final LF when nonempty",
+  "context": {
+    "nodeRule": "All accepted IDs sharing an exact compiled node name with a corrected ID",
+    "uiKeyPrefixes": [
+      "phone_sub_",
+      "consumable_"
+    ],
+    "uiRule": "Contact labels and consumable item names are included as their distinct UI consumer families"
+  },
+  "conceptSourceRegex": {
+    "femaleFriendAndChild": "(?i)\\b(?:(?:подруг|подруж)\\w*|девоч\\w*)\\b",
+    "noticeNounAndAction": "(?i)\\b(?:явк\\w*|повестк\\w*)\\b",
+    "maleSibling": "(?i)\\bбрат\\w*\\b",
+    "femaleCousinAndSister": "(?i)\\b(?:двоюродн\\w*|сестр\\w*)\\b",
+    "mushroomMyceliumAntecedent": "(?i)\\b(?:гриб\\w*|мицел\\w*|комк\\w*)\\b",
+    "teethBreastfeedingCausality": "(?i)\\b(?:зуб\\w*|дёсн\\w*|десн\\w*|кальц\\w*|груд\\w*)\\b"
+  },
+  "repetitions": "Every accepted ID with a Russian source exactly equal to one of the three corrected Russian sources",
+  "runtimeBindings": "Corrected or same-node/contact/item context IDs with protected spans, UI/ChecksDialogs bindings, or format slots; nontranslatable commands and dynamic callbacks remain separate evidence",
+  "mandatoryRegressions": "Reproduce every cycle-01 mandatory group, then extend the gender/kinship/address group by Russian pronoun-bearing rows in the new containing exchanges; retain all UI, static, ChecksDialogs, protected and mixed-script groups",
+  "explicitlyInvalidatedPrior": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+      "sourceOrderIndex": 211,
+      "reason": "Review-02 accepted this contact label with source-only phone context; the newly corrected Daughter_Asking_3 introduction establishes its direct compiled DaughtersFriend/GetPhoneNumber relation, so independently reconfirm the prior UI binding interpretation."
+    }
+  ],
+  "regressionCases": [
+    {
+      "name": "daughter-friend-inflection-family",
+      "kind": "source-regex-subset",
+      "patternKey": "femaleFriendAndChild",
+      "subsetRegex": "(?i)\\bподруж\\w*\\b",
+      "requiredCount": 3,
+      "requiredNewCount": 3,
+      "requiredSourceOrderIndices": [
+        8344,
+        12115,
+        12125
+      ],
+      "rule": "Normal source-pattern selection includes both подруг* and подруж*; no generated stable-ID append."
+    },
+    {
+      "name": "compiled-phone-contact-ui",
+      "kind": "phone-contact",
+      "requiredSourceOrderIndex": 211,
+      "rule": "Derive UI contact from compiled GetPhoneNumber argument and require it in the phone-contact-consumers and runtime components."
+    },
+    {
+      "name": "retained-daughter-callback",
+      "kind": "source-order",
+      "requiredSourceOrderIndex": 12115,
+      "requiredComponent": "glossary-referents",
+      "mustBeNew": true,
+      "rule": "Previously retired Ears_DontShoot callback is restored by the repaired source stem without a generated-ID exception."
+    },
+    {
+      "name": "bald-female-friend-first-introduction",
+      "kind": "source-order",
+      "requiredSourceOrderIndex": 11429,
+      "requiredComponent": "changed",
+      "rule": "The corrected first female-friend introduction remains selected even though later girl language also appears."
+    },
+    {
+      "name": "prior-cycle-context-still-applicable",
+      "kind": "prior-witness-applicability",
+      "requiredSourceOrderIndices": [
+        230,
+        1194,
+        1195,
+        5427,
+        5428,
+        5620,
+        14807,
+        14808
+      ],
+      "rule": "Earlier cycle-specific KChS, beer, mushroom and dental witnesses are retained only when the repaired current selector relates them to these three corrections; otherwise record them as retired, preserving prior readings."
+    }
+  ],
+  "retiredDependencyRule": "Prior independently reviewed cycle-02 closure IDs absent from the repaired current closure are listed with former components and non-applicability reason. The previously retired daughter callback is now restored in the closure; it is not an exception append.",
+  "expectedChangedCount": 3,
+  "expectedPreviousClosureCount": 1433,
+  "phoneContactConsumer": {
+    "compiledContextPath": "Translations/id/independent-review-02/selector-omission-context.json",
+    "compiledContextSha256": "765a28b66f1a23822e799231464e416200fc344a5bd2915cea28ec40c57029d9",
+    "compiledNode": "Daughter_Asking_3",
+    "getPhoneNumberFunction": "GetPhoneNumber",
+    "uiKeyPrefix": "phone_sub_",
+    "sourcePatternKey": "femaleFriendAndChild",
+    "expectedContactUiRows": 1,
+    "reason": "Enumerate contact UI from the compiled DaughtersFriend token passed to GetPhoneNumber, then verify the Russian female-friend label."
+  }
+}

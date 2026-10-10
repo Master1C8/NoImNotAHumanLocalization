@@ -1,0 +1,9 @@
+# Indonesian correction cycle 03: author handoff
+
+The [immutable independent delta handoff](independent-delta-handoff.json) is SHA-256 `4cb35752e6f7a8cb19fb9657b1adea085c3ef133aa59b45a00f1cd1ffad41933`. Review-02 read all 324 prior delta pairs and three supplemental dependencies, found three objective female-friend omissions, and identified an incomplete `подруж*` selector rule. All three full replacements were accepted and applied together to three authored batches. The first 16,538-unit semantic pass and both previous independent reviews remain preserved.
+
+The current authored draft is 16,538/16,538 with three changed IDs. Three affected batch validators, 332 matching current sidecars, the full preserve-exact gate, both common-choice expansions and static TMP validation passed. The exact prior/current diff has three IDs and no other changed targets.
+
+The current [v3 selector](../closure-selector-recipe-v3.py) and [configuration](../closure-selector-config-v3.json) select `подруг*` and `подруж*` as one source family. The phone UI contact is derived from the compiled `GetPhoneNumber` token. The previously retired daughter callback is recovered by normal selection, without an appended stable ID. Run `.venv/bin/python Translations/id/closure-selector-recipe-v3.py --verify`. The closure is **1,414 IDs** (SHA-256 `6489d453612e70fcc1ace025df924d86ded7c968be4a74cc4db7187c9bec8eb2`); the exact next independent set is **21 IDs** (SHA-256 `662678567b5bf8984d1df69b700277bf5c718140c7d7870437bcddcde26e7510`).
+
+Start the separate review with [delta-review-rows.jsonl](delta-review-rows.jsonl), [delta-manifest.json](delta-manifest.json), [retirement-applicability.json](retirement-applicability.json) and [mandatory-regression-catalog.json](mandatory-regression-catalog.json). A clean independent delta verdict, rendered layout and runtime readiness are pending.

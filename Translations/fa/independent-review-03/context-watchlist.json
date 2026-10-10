@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "count": 4,
+  "rows": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13176152247750700",
+      "source": "Горячий больше не пью. Да и никто, наверно, не станет такой пить.",
+      "target": "دیگر قهوه را داغ نمی‌خورم. بعید می‌دانم کسی هم دلش بخواهد آن را داغ بخورد.",
+      "decision": {
+        "decision": "no change",
+        "evidence": "Hot coffee referent is explicit in Горячий больше не пью; approved coffee entry states the player drinks it cold because of the heat. The next sentence can naturally refer to the previously named hot form. No invented drink effect."
+      },
+      "reuse": "exact applicable prior independent wording and scene/consumer evidence; no new contrary evidence",
+      "newSemanticRead": false
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:56531188432228352",
+      "source": "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё",
+      "target": "آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهیآابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی",
+      "decision": {
+        "decision": "no logical semantic change; live layout remains unverified",
+        "evidence": "Keyboard/alphabet row is nonlexical radio noise. Persian alphabet noise preserves function and exact source/target values were read; this does not establish glyph joining, widths, or RTL order in the game."
+      },
+      "reuse": "exact applicable prior independent wording and scene/consumer evidence; no new contrary evidence",
+      "newSemanticRead": false
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456997642245",
+      "source": "MushroomEater: Мы с тобой летим сквозь времена, которые согнули страну грибов в бараний рог. Все пили за него – и мы с тобой хлебнём. Наверно.",
+      "target": "MushroomEater: من و تو از روزگاری می‌گذریم که سرزمین قارچ‌ها را حسابی درهم پیچیده است. همه به سلامتی او نوشیدند و ما هم احتمالاً جرعه‌ای خواهیم نوشید.",
+      "decision": {
+        "decision": "retain accepted source ambiguity; no forced ordeal rewrite",
+        "evidence": "Independently read all six full pairs in compiled MushroomEater_Entrance_3_6 order. Sadness and inability to manage alone precede the joint time journey/drink phrase; uncertainty and explicit impending danger precede the repeated invitation. There is no drink-item command. Persian retains joint participants, the country bent by the times, everyone drinking to the ambiguous referent, a future shared sip and probability. The adjacent danger warning is preserved. An additional explicit suffering fact or exclusive literal-drink assertion is unsupported. Exact coverage of every possible pun reading remains unproven."
+      },
+      "reuse": "exact applicable prior independent wording and scene/consumer evidence; no new contrary evidence",
+      "newSemanticRead": false
+    },
+    {
+      "stableId": "tmp:level1:3842:m_text",
+      "source": "Экстрасенсы",
+      "target": "غیب‌بین‌ها",
+      "decision": {
+        "decision": "retain غیب‌بین‌ها; bounded source-role resolved; visual behavior untested",
+        "evidence": "Pinned serialized level1 hierarchy places fallback beneath inactive PhoneNumbers/PhonePin (1)/Canvas. Localization event starts with no table/key. PhonePinController depends on unlocked subscribers. PhonePinView.Create activates the object before setting localized name reference, then formats phone digits with a hyphen. This is a generic pin template fallback; the assigned Psychics subscriber has its separate approved UI localized label. Retain standalone plural Psychics translation without inventing a new entity or asserting transient-frame rendering."
+      },
+      "reuse": "exact applicable prior independent wording and scene/consumer evidence; no new contrary evidence",
+      "newSemanticRead": false
+    }
+  ],
+  "priorReview01ContextSha256": "495c72331760e63852e8df0a84dacdda337a63f3d07a3f1cf66f3e68507542ad",
+  "priorReview02ContextSha256": "e8e5d8abd6b05793bde624ba7f6a771301c6b36a45f65f43929431186d7b9919",
+  "limits": [
+    "Phone-pin fallback role has static supporting evidence; transient display and actual runtime reachability are untested.",
+    "MushroomEater preserves source ambiguity; exact equivalence of every possible pun reading is unproved.",
+    "Hot coffee anaphora unchanged; no added item effect.",
+    "Radio alphabet noise function unchanged; glyph joining, width and RTL order untested."
+  ],
+  "noNewObjectiveReplacement": true
+}

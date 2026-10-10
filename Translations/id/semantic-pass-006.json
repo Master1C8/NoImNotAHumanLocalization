@@ -1,0 +1,3662 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "auditPhase": "full semantic source-to-target pass",
+  "part": 6,
+  "sourceOrderStart": 1461,
+  "sourceOrderEnd": 1760,
+  "reviewedRows": 300,
+  "preflightSha256": "645364802a0ebc9904958817d5b96175335a6cb9777fefbd60524f940f8e6b16",
+  "canonicalReviewUnitsSha256": "1b66efef6b36c6a81911546fbcc53af7d889d30938e462a1b0f36ad14d926d15",
+  "reviewedRowsSha256": "ddd4a50a050d171d6a25ca960ffa7dea2f29c6344c6dc8d35d7ac2e2ca57cf2d",
+  "reviewMethod": "Direct Russian-to-Indonesian read of every row with entrance-branch context and approved glossary. reviewedRowsSha256 is SHA-256 of UTF-8 sorted-key compact JSON rows plus one LF. Game runtime not viewed.",
+  "findings": [
+    {
+      "sourceOrderIndex": 1512,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570113",
+      "category": "blame attribution",
+      "objectiveReason": "The source explicitly assigns blame elsewhere rather than to the speaker; not feeling guilty changes this into an internal emotion.",
+      "currentTarget": "Fairytaller: Dan tetap saja aku tidak merasa bersalah dalam situasi ini.",
+      "proposedTarget": "Fairytaller: Dan dalam situasi ini, aku tetap tidak menyalahkan diriku sendiri.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 1717,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878343",
+      "category": "premature skin diagnosis",
+      "objectiveReason": "The source asks where the unexplained thing on the skin came from; bercak specifies spots before the character explains the congenital skin condition.",
+      "currentTarget": "Dari mana bercak di kulitmu itu?",
+      "proposedTarget": "Dari mana asal sesuatu seperti itu di kulitmu?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 1732,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684041",
+      "category": "bullying severity",
+      "objectiveReason": "Издеваются describes repeated bullying or mockery since school; menggangguku merely says they bothered him.",
+      "currentTarget": "Nervous: Sejak sekolah, orang-orang bodoh selalu menggangguku.",
+      "proposedTarget": "Nervous: Sejak masih sekolah, aku selalu dirundung oleh orang-orang tolol.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 1751,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489729",
+      "category": "child age",
+      "objectiveReason": "Девочка is a child; gadis can suggest a teenage or adult young woman and weakens the age cue.",
+      "currentTarget": "Nervous: Hotelnya sendiri bagus, tapi ada gadis berjas hujan kuning yang tinggal di sana.",
+      "proposedTarget": "Nervous: Hotelnya sendiri bagus, tapi ada anak perempuan berjas hujan kuning yang tinggal di sana.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "proposalStatus": "proposed; not applied"
+    }
+  ],
+  "contextQuestions": [],
+  "corrections": [],
+  "rows": [
+    {
+      "sourceOrderIndex": 1461,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541638",
+      "key": "line:tv_1_necessary_00fc456",
+      "nodeNames": [
+        "tv_2_necessary"
+      ],
+      "source": "TV: Теперь переходим к…",
+      "target": "TV: Sekarang kita beralih ke…",
+      "targetBatch": "Translations/id/dialogue-batch-064.json",
+      "targetBatchSha256": "24e19f457039243d5514b444e4b2a13c493b288a236b5fbc21c48fb1799b26ba"
+    },
+    {
+      "sourceOrderIndex": 1462,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541637",
+      "key": "line:tv_1_necessary_081784a",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Мы просим всех граждан избегать выхода на улицу в дневное время.",
+      "target": "TV: Kami meminta semua warga tidak keluar rumah pada siang hari.",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1463,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541636",
+      "key": "line:tv_1_necessary_003668c",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Власти объявили режим чрезвычайной ситуации.",
+      "target": "TV: Pemerintah telah menetapkan keadaan darurat.",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1464,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541635",
+      "key": "line:tv_1_necessary_0f3cd17",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Температура на улице достигла критической отметки.",
+      "target": "TV: Suhu di luar telah mencapai tingkat kritis.",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1465,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541634",
+      "key": "line:tv_1_necessary_00363a4",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Данная вспышка оказалась больше, чем прогнозировали учёные.",
+      "target": "TV: Ledakan energi ini lebih besar daripada yang diperkirakan para ilmuwan.",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1466,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541633",
+      "key": "line:tv_1_necessary_0e9a8ad",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Сегодня в 6:28 утра на Солнце произошёл мощный выброс энергии.",
+      "target": "TV: Hari ini, pada pukul 6:28 pagi, terjadi pelepasan energi besar di Matahari.",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1467,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541632",
+      "key": "line:tv_1_necessary_0aafc38",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "source": "TV: Срочные новости!",
+      "target": "TV: Berita mendadak!",
+      "targetBatch": "Translations/id/dialogue-batch-063.json",
+      "targetBatchSha256": "42a10329d86c25017251db9638f39f5cf5c79b223862878a975f523844d14726"
+    },
+    {
+      "sourceOrderIndex": 1468,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347338",
+      "key": "line:Tourist_Entrance_Occupied_NoLet_0b38c5f",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied_NoLet"
+      ],
+      "source": "Tourist: Ну что ж… Очень жаль.",
+      "target": "Tourist: Baiklah… Sayang sekali.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1469,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347337",
+      "key": "line:Tourist_Entrance_Occupied_YesLet_0d4ce03",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied_YesLet"
+      ],
+      "source": "Tourist: Премного благодарю вас.",
+      "target": "Tourist: Saya sangat berterima kasih kepada Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1470,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347336",
+      "key": "line:Tourist_Entrance_Occupied_091dc3f",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1471,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347335",
+      "key": "line:Tourist_Entrance_Occupied_055ff6e",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1472,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "key": "line:Tourist_Entrance_Occupied_068c936",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "target": "Tourist: Di sini ada {0}. Saya tak yakin kami akan akur.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1473,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347333",
+      "key": "line:Tourist_Entrance_Occupied_0ddd079",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "source": "Tourist: Извините, уважаемый, но боюсь, что я не могу пока войти.",
+      "target": "Tourist: Maaf, Bapak yang terhormat, tapi saya khawatir belum bisa masuk.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1474,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347332",
+      "key": "line:Alt_Entrance_Bribe_00c807d",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "source": "Взяток не беру",
+      "target": "Aku tidak menerima suap",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1475,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347331",
+      "key": "line:Alt_Entrance_Bribe_080c538",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1476,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347330",
+      "key": "line:Alt_Entrance_Bribe_0cd1c9e",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "source": "Alt: Теперь мы договорились?",
+      "target": "Alt: Jadi, kita sepakat?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1477,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "target": "Alt: Baiklah. Apakah {0} cukup?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1478,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347328",
+      "key": "line:Alt_Entrance_Bribe_0458411",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "source": "Alt: Я привыкла к такому подходу. И понимаю, куда клонишь.",
+      "target": "Alt: Aku sudah biasa menghadapi cara seperti itu. Aku paham apa maumu.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1479,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153033",
+      "key": "line:Alt_Entrance_Occupied_NoLet_0c4a160",
+      "nodeNames": [
+        "Alt_Entrance_Occupied_NoLet"
+      ],
+      "source": "Alt: Жаль, что мудакам везёт.",
+      "target": "Alt: Sayang, orang brengsek selalu beruntung.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1480,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153032",
+      "key": "line:Alt_Entrance_Occupied_NoLet_0ca298d",
+      "nodeNames": [
+        "Alt_Entrance_Occupied_NoLet"
+      ],
+      "source": "Alt: Время ещё есть, найду другой вариант.",
+      "target": "Alt: Masih ada waktu. Akan kucari pilihan lain.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1481,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153031",
+      "key": "line:Alt_Entrance_Occupied_NoLet_06bd5ed",
+      "nodeNames": [
+        "Alt_Entrance_Occupied_NoLet"
+      ],
+      "source": "Alt: Что ж.",
+      "target": "Alt: Baiklah.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1482,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153030",
+      "key": "line:Alt_Entrance_Occupied_YesLet_0a5eb3d",
+      "nodeNames": [
+        "Alt_Entrance_Occupied_YesLet"
+      ],
+      "source": "Alt: Спасибо. Не ожидала, но очень надеялась.",
+      "target": "Alt: Terima kasih. Tak kusangka, meski aku sangat berharap.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1483,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153029",
+      "key": "line:Alt_Entrance_Occupied_07c683d",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1484,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153028",
+      "key": "line:Alt_Entrance_Occupied_0b6f674",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1485,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153027",
+      "key": "line:Alt_Entrance_Occupied_0254a9a",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "source": "Alt: Но вместе ты нас не увидишь.",
+      "target": "Alt: Tapi kau takkan melihat kami berdua bersama.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1486,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153026",
+      "key": "line:Alt_Entrance_Occupied_086ef3e",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "source": "Alt: Это долгая история, и я точно не готова тут всё вываливать.",
+      "target": "Alt: Ceritanya panjang, dan aku sama sekali belum siap membeberkan semuanya di sini.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1487,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153025",
+      "key": "line:Alt_Entrance_Occupied_06f0f99",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "source": "Alt: Опа, {0} здесь.",
+      "target": "Alt: Oh, {0} ada di sini.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1488,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153024",
+      "key": "line:FunnyGuy_Entrance_Bribe_04341a7",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "Взяток не беру",
+      "target": "Aku tidak menerima suap",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1489,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958729",
+      "key": "line:FunnyGuy_Entrance_Bribe_062bdf3",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1490,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958728",
+      "key": "line:FunnyGuy_Entrance_Bribe_0a3fa9c",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: Решим вопрос?",
+      "target": "FunnyGuy: Bagaimana kalau kita cari jalan tengah?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1491,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958727",
+      "key": "line:FunnyGuy_Entrance_Bribe_08de7f4",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: О, вот такое нашёл — {0}.",
+      "target": "FunnyGuy: Oh, aku menemukan ini — {0}.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1492,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958726",
+      "key": "line:FunnyGuy_Entrance_Bribe_0913ab6",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: …",
+      "target": "FunnyGuy: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1493,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958725",
+      "key": "line:FunnyGuy_Entrance_Bribe_006564d",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: Давай я тебе дам… что у меня тут?",
+      "target": "FunnyGuy: Biar kuberi kamu… apa yang kupunya di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1494,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958724",
+      "key": "line:FunnyGuy_Entrance_Bribe_02442d3",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: Ладно. В последний раз попадаюсь на это.",
+      "target": "FunnyGuy: Baiklah. Ini terakhir kalinya aku tertipu oleh hal seperti ini.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1495,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958723",
+      "key": "line:FunnyGuy_Entrance_Bribe_06ae70c",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "source": "FunnyGuy: Вот ты мне напоминаешь эти же самые банки. Да ёпта.",
+      "target": "FunnyGuy: Kamu mengingatkanku pada bank-bank itu. Aduh, sial.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1496,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958722",
+      "key": "line:FunnyGuy_Entrance_Occupied_NoLet_0330958",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied_NoLet"
+      ],
+      "source": "FunnyGuy: Ну, я тогда пойду. Ещё успею до рассвета что-то найти.",
+      "target": "FunnyGuy: Kalau begitu aku pergi. Masih sempat mencari sesuatu sebelum fajar.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1497,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958721",
+      "key": "line:FunnyGuy_Entrance_Occupied_NoLet_095531d",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied_NoLet"
+      ],
+      "source": "FunnyGuy: Мда. Понял тебя.",
+      "target": "FunnyGuy: Hmm. Aku mengerti.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1498,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958720",
+      "key": "line:FunnyGuy_Entrance_Occupied_YesLet_0986593",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied_YesLet"
+      ],
+      "source": "FunnyGuy: Отметим закрытие моей ипотеки, да? Ахахахах!",
+      "target": "FunnyGuy: Kita rayakan berakhirnya KPR-ku, ya? Ahahaha!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1499,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764421",
+      "key": "line:FunnyGuy_Entrance_Occupied_YesLet_054be83",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied_YesLet"
+      ],
+      "source": "FunnyGuy: Другое дело!",
+      "target": "FunnyGuy: Nah, begitu dong!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1500,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764420",
+      "key": "line:FunnyGuy_Entrance_Occupied_082be3d",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1501,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764419",
+      "key": "line:FunnyGuy_Entrance_Occupied_0bdc9bf",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1502,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764418",
+      "key": "line:FunnyGuy_Entrance_Occupied_03baf71",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied"
+      ],
+      "source": "FunnyGuy: В моей жизни тухляка уже хватило. Давай хоть тут обойдёмся?",
+      "target": "FunnyGuy: Hidupku sudah cukup suram. Setidaknya di sini jangan begitu, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1503,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764417",
+      "key": "line:FunnyGuy_Entrance_Occupied_08f1aa9",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied"
+      ],
+      "source": "FunnyGuy: Да вон, вот этот человек, {0}.",
+      "target": "FunnyGuy: Itu, orang yang di sana, {0}.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1504,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764416",
+      "key": "line:FunnyGuy_Entrance_Occupied_04e89c8",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Occupied"
+      ],
+      "source": "FunnyGuy: Так, не, у тебя тут чел, который испортит всю малину.",
+      "target": "FunnyGuy: Eh, tidak, di rumahmu ada orang yang bakal merusak semuanya.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1505,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570120",
+      "key": "line:Fairytaller_Entrance_Occupied_NoLet_0db6a58",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied_NoLet"
+      ],
+      "source": "Fairytaller: Что ж. Понимаю. Всего доброго.",
+      "target": "Fairytaller: Baiklah. Aku mengerti. Semoga Anda baik-baik saja.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1506,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570119",
+      "key": "line:Fairytaller_Entrance_Occupied_YesLet_0388d56",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied_YesLet"
+      ],
+      "source": "Fairytaller: Но большое спасибо за доверие!",
+      "target": "Fairytaller: Tapi terima kasih banyak atas kepercayaan Anda!",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1507,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570118",
+      "key": "line:Fairytaller_Entrance_Occupied_YesLet_015b910",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied_YesLet"
+      ],
+      "source": "Fairytaller: Что?! Спасибо! Не стоило так жестоко обходиться с жильцом. Я бы если что нашёл другое место.",
+      "target": "Fairytaller: Apa?! Terima kasih! Seharusnya Anda tidak memperlakukan penghuni itu sekejam itu. Aku bisa mencari tempat lain.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1508,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570117",
+      "key": "line:Fairytaller_Entrance_Occupied_0f7ecc9",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1509,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570116",
+      "key": "line:Fairytaller_Entrance_Occupied_0df2e37",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1510,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570115",
+      "key": "line:Fairytaller_Entrance_Occupied_0d170bf",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Fairytaller: Но боюсь, что мне будет некомфортно, пока в одном помещении со мной есть {0}.",
+      "target": "Fairytaller: Tapi aku takut tidak akan nyaman selama {0} berada di ruangan yang sama denganku.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1511,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570114",
+      "key": "line:Fairytaller_Entrance_Occupied_0543d49",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Fairytaller: Понимаю, что потратил много вашего времени и напросился в дом.",
+      "target": "Fairytaller: Aku sadar sudah menyita banyak waktu Anda dan lancang meminta masuk ke rumah.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1512,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570113",
+      "key": "line:Fairytaller_Entrance_Occupied_030930f",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Fairytaller: И вину я всё же возлагаю не на себя в этой ситуации.",
+      "target": "Fairytaller: Dan tetap saja aku tidak merasa bersalah dalam situasi ini.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1513,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570112",
+      "key": "line:Fairytaller_Entrance_Occupied_0f53fa2",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "source": "Fairytaller: Большое спасибо! Но… Кажется у вас в доме есть человек, с которым у нас был конфликт, пока я недолго работал в кафе.",
+      "target": "Fairytaller: Terima kasih banyak! Tapi… sepertinya di rumah Anda ada seseorang yang pernah bertengkar denganku ketika aku sempat bekerja di kafe.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1514,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375818",
+      "key": "line:Leper_Entrance_Bribe_075359b",
+      "nodeNames": [
+        "Leper_Entrance_Bribe"
+      ],
+      "source": "Взяток не беру",
+      "target": "Aku tidak menerima suap",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1515,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375817",
+      "key": "line:Leper_Entrance_Bribe_0ddb1e3",
+      "nodeNames": [
+        "Leper_Entrance_Bribe"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1516,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375816",
+      "key": "line:Leper_Entrance_Bribe_020a88c",
+      "nodeNames": [
+        "Leper_Entrance_Bribe"
+      ],
+      "source": "Leper: Ладно, а если я дам тебе кое-что? Вот {0}, например? Пустишь тогда?",
+      "target": "Leper: Baiklah, bagaimana kalau kuberi kau sesuatu? Misalnya {0}? Kalau begitu kau mau membiarkanku masuk?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1517,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375815",
+      "key": "line:Leper_Entrance_Occupied_NoLet_0fbaf6b",
+      "nodeNames": [
+        "Leper_Entrance_Occupied_NoLet"
+      ],
+      "source": "Leper: Впрочем, твоё дело. Тогда я пошёл.",
+      "target": "Leper: Tapi terserah kau. Kalau begitu aku pergi.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1518,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375814",
+      "key": "line:Leper_Entrance_Occupied_NoLet_082a473",
+      "nodeNames": [
+        "Leper_Entrance_Occupied_NoLet"
+      ],
+      "source": "Leper: Ты считаешь люди, чмырящие других за внешность, заслуживают место в доме?",
+      "target": "Leper: Menurutmu orang yang menghina sesama karena penampilan pantas mendapat tempat di rumahmu?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1519,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375813",
+      "key": "line:Leper_Entrance_Occupied_YesLet_0f91187",
+      "nodeNames": [
+        "Leper_Entrance_Occupied_YesLet"
+      ],
+      "source": "Leper: Спасибо. Мне правда не хочется снова терпеть насмешки.",
+      "target": "Leper: Terima kasih. Aku benar-benar tak mau lagi menanggung ejekan.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1520,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375812",
+      "key": "line:Leper_Entrance_Occupied_0f81698",
+      "nodeNames": [
+        "Leper_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1521,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375811",
+      "key": "line:Leper_Entrance_Occupied_050d72b",
+      "nodeNames": [
+        "Leper_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1522,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375810",
+      "key": "line:Leper_Entrance_Occupied_06e50d7",
+      "nodeNames": [
+        "Leper_Entrance_Occupied"
+      ],
+      "source": "Leper: Тут уже есть {0}, а именно этот человек чмырил меня за внешность.",
+      "target": "Leper: Di sini sudah ada {0}, dan orang itulah yang dulu menghinaku karena penampilanku.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1523,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375809",
+      "key": "line:Leper_Entrance_Occupied_0ef3bd1",
+      "nodeNames": [
+        "Leper_Entrance_Occupied"
+      ],
+      "source": "Leper: Прости, но, кажется, я не смогу войти.",
+      "target": "Leper: Maaf, tapi sepertinya aku tak bisa masuk.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1524,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375808",
+      "key": "line:Nervous_Entrance_Occupied_NoLet_063e8ac",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_NoLet"
+      ],
+      "source": "Nervous: Если ты себе набираешь таких мудаков, вряд ли ты сам лучше.",
+      "target": "Nervous: Kalau kau menampung bajingan-bajingan seperti itu, kurasa kau juga tak lebih baik.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1525,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181514",
+      "key": "line:Nervous_Entrance_Occupied_NoLet_0e06607",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_NoLet"
+      ],
+      "source": "Nervous: Наверно, хорошо, что я к тебе не попаду.",
+      "target": "Nervous: Mungkin untung aku tak jadi masuk ke rumahmu.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1526,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181513",
+      "key": "line:Nervous_Entrance_Occupied_NoLet_03169c6",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_NoLet"
+      ],
+      "source": "Nervous: Серьёзно?",
+      "target": "Nervous: Serius?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1527,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181512",
+      "key": "line:Nervous_Entrance_Occupied_YesLet_0a1568d",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_YesLet"
+      ],
+      "source": "Nervous: Нечего заниматься странными делами.",
+      "target": "Nervous: Jangan melakukan hal-hal aneh.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1528,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181511",
+      "key": "line:Nervous_Entrance_Occupied_YesLet_0f3898a",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_YesLet"
+      ],
+      "source": "Nervous: Знаю, звучит странно. Но мне похер.",
+      "target": "Nervous: Aku tahu kedengarannya aneh. Tapi aku tak peduli.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1529,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181510",
+      "key": "line:Nervous_Entrance_Occupied_YesLet_0046d46",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied_YesLet"
+      ],
+      "source": "Nervous: Ты сделал правильный выбор.",
+      "target": "Nervous: Pilihanmu tepat.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1530,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181509",
+      "key": "line:Nervous_Entrance_Occupied_05ff36f",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1531,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181508",
+      "key": "line:Nervous_Entrance_Occupied_09e8d5e",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1532,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181507",
+      "key": "line:Nervous_Entrance_Occupied_0f38193",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Nervous: Я видел…",
+      "target": "Nervous: Aku melihat…",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1533,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181506",
+      "key": "line:Nervous_Entrance_Occupied_0761720",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Nervous: Это очень странный человек.",
+      "target": "Nervous: Dia orang yang sangat aneh.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1534,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181505",
+      "key": "line:Nervous_Entrance_Occupied_0b9e102",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Nervous: Я знаю, что да как было месяц назад.",
+      "target": "Nervous: Aku tahu bagaimana keadaan sebulan lalu.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1535,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181504",
+      "key": "line:Nervous_Entrance_Occupied_03f5f29",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "source": "Nervous: А, тут есть {0}.",
+      "target": "Nervous: Oh, ada {0} di sini.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1536,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987210",
+      "key": "line:Bald_Entrance_Occupied_NoLet_04987d1",
+      "nodeNames": [
+        "Bald_Entrance_Occupied_NoLet"
+      ],
+      "source": "Bald: Давай, удачки тебе продержаться в этом пиздеце!",
+      "target": "Bald: Yah, semoga kau bisa bertahan dalam kekacauan bangsat ini!",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1537,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987209",
+      "key": "line:Bald_Entrance_Occupied_NoLet_0c693c9",
+      "nodeNames": [
+        "Bald_Entrance_Occupied_NoLet"
+      ],
+      "source": "Bald: Ладно, брат. Я всё понимаю. Зла не держу.",
+      "target": "Bald: Baiklah, Bro. Aku paham. Aku tak menyimpan dendam.",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1538,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987208",
+      "key": "line:Bald_Entrance_Occupied_NoLet_07817a9",
+      "nodeNames": [
+        "Bald_Entrance_Occupied_NoLet"
+      ],
+      "source": "Bald: …",
+      "target": "Bald: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1539,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987207",
+      "key": "line:Bald_Entrance_Occupied_NoLet_0399ae8",
+      "nodeNames": [
+        "Bald_Entrance_Occupied_NoLet"
+      ],
+      "source": "Bald: Бляха.",
+      "target": "Bald: Sial.",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1540,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987206",
+      "key": "line:Bald_Entrance_Occupied_YesLet_01e5c21",
+      "nodeNames": [
+        "Bald_Entrance_Occupied_YesLet"
+      ],
+      "source": "Bald: Неловко, конечно, что прям выгнать надо было человека. Но жизнь такая. Порой приходится переставать быть славным парнем.",
+      "target": "Bald: Memang canggung harus mengusir seseorang begitu saja. Tapi begitulah hidup. Kadang kau harus berhenti jadi orang baik.",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1541,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987205",
+      "key": "line:Bald_Entrance_Occupied_07f05d6",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1542,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987204",
+      "key": "line:Bald_Entrance_Occupied_0bfe6c4",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1543,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "key": "line:Bald_Entrance_Occupied_0b1927e",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "target": "Bald: Ada {0} di rumahmu. Mungkin kita bisa mengusirnya entah bagaimana?",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1544,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987202",
+      "key": "line:Bald_Entrance_Occupied_051f9c4",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "source": "Bald: Брат, вот я с любым человеком могу найти общий язык. Ей-богу. Но тут будет тяжело. Сразу вижу все красные флаги.",
+      "target": "Bald: Bro, aku bisa akur dengan siapa saja. Sumpah. Tapi kalau yang ini bakal susah. Dari awal sudah kelihatan tanda bahayanya.",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1545,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987201",
+      "key": "line:Tough_Entrance_Occupied_NoLet_007e348",
+      "nodeNames": [
+        "Tough_Entrance_Occupied_NoLet"
+      ],
+      "source": "Tough: Это… разочаровывает.",
+      "target": "Tough: Itu… mengecewakan.",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1546,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987200",
+      "key": "line:Tough_Entrance_Occupied_NoLet_06e4dfc",
+      "nodeNames": [
+        "Tough_Entrance_Occupied_NoLet"
+      ],
+      "source": "Tough: А в тебе такого нет?",
+      "target": "Tough: Kamu sendiri tidak punya semangat seperti itu?",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1547,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792907",
+      "key": "line:Tough_Entrance_Occupied_NoLet_0c2a47c",
+      "nodeNames": [
+        "Tough_Entrance_Occupied_NoLet"
+      ],
+      "source": "Tough: Да какого чёрта? Я думала, ты тоже уважаешь такую же решительность. Жажду жизни.",
+      "target": "Tough: Apa-apaan? Kukira kamu juga menghargai tekad seperti itu. Hasrat untuk hidup.",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1548,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792906",
+      "key": "line:Tough_Entrance_Occupied_YesLet_0a7acda",
+      "nodeNames": [
+        "Tough_Entrance_Occupied_YesLet"
+      ],
+      "source": "Tough: Видимо, этот жилец недостаточно силён духом. Если ты так легко его выкинул.",
+      "target": "Tough: Rupanya penghuni itu tidak cukup kuat mental, kalau semudah itu kamu mengusirnya.",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1549,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792905",
+      "key": "line:Tough_Entrance_Occupied_YesLet_017cc5e",
+      "nodeNames": [
+        "Tough_Entrance_Occupied_YesLet"
+      ],
+      "source": "Tough: Спасибо. Не думала, что пойдёшь навстречу с этим вопросом.",
+      "target": "Tough: Terima kasih. Aku tidak menyangka kamu mau mengabulkan permintaanku.",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1550,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792904",
+      "key": "line:Tough_Entrance_Occupied_06f5452",
+      "nodeNames": [
+        "Tough_Entrance_Occupied"
+      ],
+      "source": "Лучше уйди",
+      "target": "Lebih baik kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1551,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792903",
+      "key": "line:Tough_Entrance_Occupied_092fcc8",
+      "nodeNames": [
+        "Tough_Entrance_Occupied"
+      ],
+      "source": "Я прогоню жильца. Заходи",
+      "target": "Aku akan mengusir penghuni. Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1552,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792902",
+      "key": "line:Tough_Entrance_Occupied_033e07b",
+      "nodeNames": [
+        "Tough_Entrance_Occupied"
+      ],
+      "source": "Tough: Давай-ка без этого человека. Либо я тогда подожду где-нибудь, пока здесь не станет свободнее.",
+      "target": "Tough: Aku tak mau bersama orang itu. Kalau tidak, aku akan menunggu di tempat lain sampai di sini lebih lengang.",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1553,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792901",
+      "key": "line:Tough_Entrance_Occupied_08be726",
+      "nodeNames": [
+        "Tough_Entrance_Occupied"
+      ],
+      "source": "Tough: Кто это у тебя тут, {0}?",
+      "target": "Tough: Siapa orang yang ada di rumahmu ini, {0}?",
+      "targetBatch": "Translations/id/dialogue-batch-185.json",
+      "targetBatchSha256": "c3f180145157a08adc240b77311b7fc7a054f52a79c090732043f54131527844"
+    },
+    {
+      "sourceOrderIndex": 1554,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792900",
+      "key": "line:Jacket_Entrance_FullRefuse_0cad5a3",
+      "nodeNames": [
+        "Jacket_Entrance_FullRefuse"
+      ],
+      "source": "Jacket: Ладно, я лучше пойду.",
+      "target": "Jacket: Baiklah, sebaiknya aku pergi.",
+      "targetBatch": "Translations/id/dialogue-batch-121.json",
+      "targetBatchSha256": "ecda86e7a3e60af7dc06651aee900739ac3a1337d2e620f7b5921d81231b9927"
+    },
+    {
+      "sourceOrderIndex": 1555,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792899",
+      "key": "line:Jacket_Entrance_FullRefuse_03c9f40",
+      "nodeNames": [
+        "Jacket_Entrance_FullRefuse"
+      ],
+      "source": "Jacket: …",
+      "target": "Jacket: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1556,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792898",
+      "key": "line:Jacket_Entrance_FullRefuse_0fd28e8",
+      "nodeNames": [
+        "Jacket_Entrance_FullRefuse"
+      ],
+      "source": "Jacket: Чёрт, меня же найдут КЧС…",
+      "target": "Jacket: Sial, KChS pasti akan menemukanku…",
+      "targetBatch": "Translations/id/dialogue-batch-121.json",
+      "targetBatchSha256": "ecda86e7a3e60af7dc06651aee900739ac3a1337d2e620f7b5921d81231b9927"
+    },
+    {
+      "sourceOrderIndex": 1557,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792897",
+      "key": "line:Tourist_Entrance_NoLet_06cbde7",
+      "nodeNames": [
+        "Tourist_Entrance_NoLet"
+      ],
+      "source": "Tourist: Очень жаль, что вы мне не поможете.",
+      "target": "Tourist: Sayang sekali Anda tak mau membantu saya.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1558,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792896",
+      "key": "line:Tourist_Entrance_NoLet_0ab31b5",
+      "nodeNames": [
+        "Tourist_Entrance_NoLet"
+      ],
+      "source": "Tourist: …",
+      "target": "Tourist: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1559,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598597",
+      "key": "line:Tourist_Entrance_NoLet_0fa2d66",
+      "nodeNames": [
+        "Tourist_Entrance_NoLet"
+      ],
+      "source": "Tourist: Чёрт, а куда мне идти тогда? Я все дома в округе обошёл…",
+      "target": "Tourist: Sial, lalu saya harus pergi ke mana? Semua rumah di sekitar sudah saya datangi…",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1560,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598596",
+      "key": "line:Tourist_Entrance_YesLet_0fdacd6",
+      "nodeNames": [
+        "Tourist_Entrance_YesLet"
+      ],
+      "source": "Tourist: Признателен вам.",
+      "target": "Tourist: Saya berterima kasih kepada Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1561,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598595",
+      "key": "line:Tourist_Entrance_4_0368409",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1562,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598594",
+      "key": "line:Tourist_Entrance_4_0d02e74",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1563,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598593",
+      "key": "line:Tourist_Entrance_4_0e4a8d5",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Tourist: Прошу, позвольте пожить у вас.",
+      "target": "Tourist: Tolong, izinkan saya menumpang tinggal di rumah Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1564,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457471598592",
+      "key": "line:Tourist_Entrance_4_003272b",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Tourist: Поэтому я не знаю, куда мне податься.",
+      "target": "Tourist: Karena itu saya tak tahu harus pergi ke mana.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1565,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404303",
+      "key": "line:Tourist_Entrance_4_094e31b",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Tourist: Я жил какое-то время в отеле, но деньги закончились.",
+      "target": "Tourist: Saya sempat tinggal di hotel, tapi uang saya habis.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1566,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404302",
+      "key": "line:Tourist_Entrance_4_04d4171",
+      "nodeNames": [
+        "Tourist_Entrance_4"
+      ],
+      "source": "Tourist: Нет…",
+      "target": "Tourist: Tidak…",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1567,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404301",
+      "key": "line:Tourist_Entrance_3_020cb6f",
+      "nodeNames": [
+        "Tourist_Entrance_3"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1568,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404300",
+      "key": "line:Tourist_Entrance_3_0988a19",
+      "nodeNames": [
+        "Tourist_Entrance_3"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1569,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404299",
+      "key": "line:Tourist_Entrance_3_0a3ddc4",
+      "nodeNames": [
+        "Tourist_Entrance_3"
+      ],
+      "source": "Tourist: Но я уже здесь, а на отель у меня нет денег. Прошу, позвольте пожить у вас.",
+      "target": "Tourist: Tapi sekarang saya sudah di sini dan tak punya uang untuk hotel. Tolong izinkan saya tinggal di rumah Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1570,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404298",
+      "key": "line:Tourist_Entrance_3_08e7aae",
+      "nodeNames": [
+        "Tourist_Entrance_3"
+      ],
+      "source": "Tourist: Да я уже понял. Поверьте, если б я знал, что такое будет с солнцем, — в жизни бы не поехал.",
+      "target": "Tourist: Ya, saya sudah mengerti. Percayalah, kalau saya tahu Matahari akan jadi seperti ini, saya takkan berangkat.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1571,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404297",
+      "key": "line:Tourist_Entrance_2_061d8c0",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "source": "Тебе прям совсем некуда поехать?",
+      "target": "Kau benar-benar tak punya tempat lain untuk dituju?",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1572,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404296",
+      "key": "line:Tourist_Entrance_2_0a59bb2",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "source": "Неудачное время ты выбрал для туризма",
+      "target": "Kau memilih waktu yang buruk untuk berwisata",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1573,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404295",
+      "key": "line:Tourist_Entrance_2_00b330f",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "source": "Tourist: Вообще здесь проездом, считайте.",
+      "target": "Tourist: Anggap saja saya hanya singgah di sini.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1574,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404294",
+      "key": "line:Tourist_Entrance_2_04c377e",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "source": "Tourist: Но границы закрыли, и я теперь не могу выбраться отсюда.",
+      "target": "Tourist: Tapi perbatasan ditutup, jadi saya tak bisa keluar dari sini.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1575,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404293",
+      "key": "line:Tourist_Entrance_2_0a0f8c3",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "source": "Tourist: Я ехал в столицу на поезде, чтобы отправиться в путешествие…",
+      "target": "Tourist: Saya naik kereta ke ibu kota untuk memulai perjalanan…",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1576,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404292",
+      "key": "line:Tourist_Entrance_1_011f8a8",
+      "nodeNames": [
+        "Tourist_Entrance_1"
+      ],
+      "source": "Тебе прям совсем некуда поехать?",
+      "target": "Kau benar-benar tak punya tempat lain untuk dituju?",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1577,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404291",
+      "key": "line:Tourist_Entrance_1_0d847e2",
+      "nodeNames": [
+        "Tourist_Entrance_1"
+      ],
+      "source": "Неудачное время ты выбрал для туризма",
+      "target": "Kau memilih waktu yang buruk untuk berwisata",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1578,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404290",
+      "key": "line:Tourist_Entrance_1_0965069",
+      "nodeNames": [
+        "Tourist_Entrance_1"
+      ],
+      "source": "Tourist: Аэропорты перестали работать, поезда тоже.",
+      "target": "Tourist: Bandara berhenti beroperasi, begitu juga kereta api.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1579,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404289",
+      "key": "line:Tourist_Entrance_1_0f804b4",
+      "nodeNames": [
+        "Tourist_Entrance_1"
+      ],
+      "source": "Tourist: Произошла ошибка, и я не могу выбраться из этого города.",
+      "target": "Tourist: Terjadi kekeliruan, dan saya tak bisa keluar dari kota ini.",
+      "targetBatch": "Translations/id/dialogue-batch-139.json",
+      "targetBatchSha256": "13474a1c2b09b5b073abf8e40192fdfd0421f109ca2fa6455c0a3a0ecabb54db"
+    },
+    {
+      "sourceOrderIndex": 1580,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404288",
+      "key": "line:entrance_tourist_0313586",
+      "nodeNames": [
+        "entrance_tourist"
+      ],
+      "source": "А как ты вообще здесь оказался?",
+      "target": "Bagaimana kau bisa sampai ke sini?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1581,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209994",
+      "key": "line:entrance_tourist_064981e",
+      "nodeNames": [
+        "entrance_tourist"
+      ],
+      "source": "А в чём дело?",
+      "target": "Ada apa?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1582,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209993",
+      "key": "line:entrance_tourist_0ca9141",
+      "nodeNames": [
+        "entrance_tourist"
+      ],
+      "source": "Tourist: Привет. Вы можете мне помочь? Я не местный.",
+      "target": "Tourist: Halo. Bisakah Anda menolong saya? Saya bukan orang sini.",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1583,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209992",
+      "key": "line:Alt_Entrance_NoLet_07280e6",
+      "nodeNames": [
+        "Alt_Entrance_FullRefuse"
+      ],
+      "source": "Alt: Ладно, надо поспешить.",
+      "target": "Alt: Baiklah, aku harus bergegas.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1584,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209991",
+      "key": "line:Alt_Entrance_NoLet_082e6fd",
+      "nodeNames": [
+        "Alt_Entrance_FullRefuse"
+      ],
+      "source": "Alt: В целом тут есть ещё дома. Возможно, кто-то не посмотрит на мою внешность и поступит по-человечески.",
+      "target": "Alt: Masih ada rumah lain di sekitar sini. Mungkin ada orang yang tak menghakimiku dari penampilan dan memperlakukanku secara manusiawi.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1585,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209990",
+      "key": "line:Alt_Entrance_YesLet_039ae66",
+      "nodeNames": [
+        "Alt_Entrance_YesLet"
+      ],
+      "source": "Alt: Это была супертяжёлая неделя.",
+      "target": "Alt: Minggu ini berat sekali.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209989",
+      "key": "line:Alt_Entrance_YesLet_081f3c9",
+      "nodeNames": [
+        "Alt_Entrance_YesLet"
+      ],
+      "source": "Alt: Тогда поговорим днём, я уже очень устала на сегодня.",
+      "target": "Alt: Kalau begitu kita bicara siang nanti. Hari ini aku sudah sangat lelah.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1587,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209988",
+      "key": "line:Alt_Entrance_YesLet_02541f7",
+      "nodeNames": [
+        "Alt_Entrance_YesLet"
+      ],
+      "source": "Alt: Отлично.",
+      "target": "Alt: Bagus.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1588,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209987",
+      "key": "line:Alt_Entrance_4_0b6d5d8",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1589,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209986",
+      "key": "line:Alt_Entrance_4_0f1cd9f",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1590,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209985",
+      "key": "line:Alt_Entrance_4_0de9a6c",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: Страшнее всего, когда слышишь очередную сводку, понимаешь, что весь ужас оттуда надо умножать на пять или даже десять раз.",
+      "target": "Alt: Yang paling menakutkan saat mendengar laporan baru adalah sadar bahwa seluruh kengeriannya harus dikalikan lima atau bahkan sepuluh kali.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1591,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457463209984",
+      "key": "line:Alt_Entrance_4_0a215ed",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: От просмотра телика легче не становится.",
+      "target": "Alt: Menonton TV juga tak membuat keadaan terasa lebih ringan.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1592,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015691",
+      "key": "line:Alt_Entrance_4_06e206e",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: Не знаю, есть ли у тебя свет в доме, но если нет — тем же лучше.",
+      "target": "Alt: Aku tak tahu apakah ada listrik di rumahmu. Kalau tidak ada, justru lebih baik.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1593,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015690",
+      "key": "line:Alt_Entrance_4_0f86fde",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: Здесь хотя бы по ночам воздух успевает остыть. И никто не смотрит новости круглые сутки.",
+      "target": "Alt: Setidaknya di sini udara sempat mendingin pada malam hari. Dan tak ada yang menonton berita sepanjang waktu.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1594,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015689",
+      "key": "line:Alt_Entrance_4_09ef567",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: Конечно.",
+      "target": "Alt: Tentu.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1595,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015688",
+      "key": "line:Alt_Entrance_4_000c533",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "source": "Alt: Можем же на «ты» перейти? Для удобства.",
+      "target": "Alt: Boleh kita saling menyapa dengan ‘kau’ saja? Biar lebih mudah.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1596,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015687",
+      "key": "line:Alt_Entrance_3_034cf3a",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1597,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015686",
+      "key": "line:Alt_Entrance_3_0617040",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1598,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015685",
+      "key": "line:Alt_Entrance_3_04032f6",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: И не хочется быть в первых рядах, когда вдруг что случится.",
+      "target": "Alt: Aku tak ingin berada di barisan terdepan kalau tiba-tiba terjadi sesuatu.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1599,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015684",
+      "key": "line:Alt_Entrance_3_0e558bc",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: Я думаю, впереди нас ждёт то ещё шоу.",
+      "target": "Alt: Kurasa kita akan menyaksikan pertunjukan besar yang mengerikan.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1600,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015683",
+      "key": "line:Alt_Entrance_3_0c2c8dd",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: И чем дальше, тем страшнее. Дышать нечем. Уровень преступности выше. Уровень паранойи в многоэтажках растёт.",
+      "target": "Alt: Semakin lama, semakin menakutkan. Sulit bernapas. Kejahatan meningkat. Paranoia di gedung-gedung apartemen juga meningkat.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1601,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015682",
+      "key": "line:Alt_Entrance_3_0f59533",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: Я догадываюсь, что сейчас в городах будет небезопасно.",
+      "target": "Alt: Kurasa sekarang kota-kota tak lagi aman.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1602,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015681",
+      "key": "line:Alt_Entrance_3_0d32dde",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: Можем же на «ты» перейти? Для удобства.",
+      "target": "Alt: Boleh kita saling menyapa dengan ‘kau’ saja? Biar lebih mudah.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1603,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015680",
+      "key": "line:Alt_Entrance_3_0ac0446",
+      "nodeNames": [
+        "Alt_Entrance_3"
+      ],
+      "source": "Alt: С чего вы взяли, что я бегу от чего-то?",
+      "target": "Alt: Kenapa Anda mengira aku lari dari sesuatu?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1604,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821385",
+      "key": "line:Alt_Entrance_2_02bdf9f",
+      "nodeNames": [
+        "Alt_Entrance_2"
+      ],
+      "source": "Думаешь, тут будет спокойнее?",
+      "target": "Menurutmu di sini lebih tenang?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1605,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821384",
+      "key": "line:Alt_Entrance_2_037bcd5",
+      "nodeNames": [
+        "Alt_Entrance_2"
+      ],
+      "source": "От чего бежишь?",
+      "target": "Kau lari dari apa?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1606,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821383",
+      "key": "line:Alt_Entrance_2_0839981",
+      "nodeNames": [
+        "Alt_Entrance_2"
+      ],
+      "source": "Alt: Моя внешность не мешает работе. И я не желаю зла никому. Надеюсь, не будете судить только по внешности.",
+      "target": "Alt: Penampilanku tak menghalangi pekerjaanku. Aku juga tak berniat menyakiti siapa pun. Semoga Anda tak menilaiku hanya dari penampilan.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1607,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821382",
+      "key": "line:Alt_Entrance_2_0e82124",
+      "nodeNames": [
+        "Alt_Entrance_2"
+      ],
+      "source": "Alt: Я никакого зла не сделала. Смотреть на меня осуждающе тоже не надо. Если вы там вдруг это делаете.",
+      "target": "Alt: Aku tak melakukan kejahatan apa pun. Anda juga tak perlu menatapku dengan menghakimi. Kalau memang itu yang Anda lakukan.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1608,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821381",
+      "key": "line:Alt_Entrance_2_01ded0e",
+      "nodeNames": [
+        "Alt_Entrance_2"
+      ],
+      "source": "Alt: Чего так грубо?",
+      "target": "Alt: Kenapa begitu kasar?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1609,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821380",
+      "key": "line:Alt_Entrance_1_0fb5422",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "Думаешь, тут будет спокойнее?",
+      "target": "Menurutmu di sini lebih tenang?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1610,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821379",
+      "key": "line:Alt_Entrance_1_0bc34e4",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "От чего бежишь?",
+      "target": "Kau lari dari apa?",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1611,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821378",
+      "key": "line:Alt_Entrance_1_0107610",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "Alt: Мало неприятностей с маньяками и Гостями, солнце ещё даёт просраться.",
+      "target": "Alt: Belum cukup kita diganggu para pembunuh gila dan Tamu, Matahari pun menyiksa kita habis-habisan.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1612,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821377",
+      "key": "line:Alt_Entrance_1_00ed3d5",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "Alt: Не только в нашем городе так.",
+      "target": "Alt: Bukan cuma kota kami yang mengalami ini.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1613,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457454821376",
+      "key": "line:Alt_Entrance_1_0195224",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "Alt: Я просто слышала, что на окраинах города происходит какой-то адище.",
+      "target": "Alt: Aku hanya dengar pinggiran kota sekarang seperti neraka.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1614,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627082",
+      "key": "line:Alt_Entrance_1_0f29d44",
+      "nodeNames": [
+        "Alt_Entrance_1"
+      ],
+      "source": "Alt: Не, я не имела в виду, что дом выглядит брошенным.",
+      "target": "Alt: Bukan, maksudku bukan rumahmu tampak terbengkalai.",
+      "targetBatch": "Translations/id/dialogue-batch-145.json",
+      "targetBatchSha256": "0ae87520f6eebf1c59bca1b1e8c39545d62cb7fa83f32dbdf7b19295a5dc1100"
+    },
+    {
+      "sourceOrderIndex": 1615,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627081",
+      "key": "line:entrance_alt_09ca23e",
+      "nodeNames": [
+        "entrance_alt"
+      ],
+      "source": "Резвая ты. Куда ломишься?",
+      "target": "Gesit sekali kau. Mau menerobos ke mana?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1616,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627080",
+      "key": "line:entrance_alt_037493d",
+      "nodeNames": [
+        "entrance_alt"
+      ],
+      "source": "Почему здесь никого не должно быть?",
+      "target": "Kenapa tempat ini seharusnya kosong?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1617,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627079",
+      "key": "line:entrance_alt_004fdae",
+      "nodeNames": [
+        "entrance_alt"
+      ],
+      "source": "Alt: О, тут всё-таки кто-то есть. Я могу войти?",
+      "target": "Alt: Oh, ternyata ada orang di sini. Boleh aku masuk?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1618,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627078",
+      "key": "line:FunnyGuy_Entrance_NoLet_0461916",
+      "nodeNames": [
+        "FunnyGuy_Entrance_FullRefuse"
+      ],
+      "source": "FunnyGuy: Ну, что-нибудь придумаю, время ещё есть до рассвета.",
+      "target": "FunnyGuy: Aku akan mencari cara. Masih ada waktu sebelum fajar.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1619,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627077",
+      "key": "line:FunnyGuy_Entrance_NoLet_0435a22",
+      "nodeNames": [
+        "FunnyGuy_Entrance_FullRefuse"
+      ],
+      "source": "FunnyGuy: Бля.",
+      "target": "FunnyGuy: Sial.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1620,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627076",
+      "key": "line:FunnyGuy_Entrance_NoLet_07a3bd7",
+      "nodeNames": [
+        "FunnyGuy_Entrance_FullRefuse"
+      ],
+      "source": "FunnyGuy: …",
+      "target": "FunnyGuy: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1621,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627075",
+      "key": "line:FunnyGuy_Entrance_NoLet_0100a4e",
+      "nodeNames": [
+        "FunnyGuy_Entrance_FullRefuse"
+      ],
+      "source": "FunnyGuy: Вообще без вариантов?",
+      "target": "FunnyGuy: Benar-benar tidak ada cara lain?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1622,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627074",
+      "key": "line:FunnyGuy_Entrance_YesLet_01660a2",
+      "nodeNames": [
+        "FunnyGuy_Entrance_YesLet"
+      ],
+      "source": "FunnyGuy: Для меня это такой праздник, ты бы знал!",
+      "target": "FunnyGuy: Ini hari yang patut dirayakan bagiku, tahu!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1623,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627073",
+      "key": "line:FunnyGuy_Entrance_YesLet_06bb7f7",
+      "nodeNames": [
+        "FunnyGuy_Entrance_YesLet"
+      ],
+      "source": "FunnyGuy: Во-о-о-о, отметим с тобой, да?",
+      "target": "FunnyGuy: Naaah, kita rayakan bersama, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1624,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457450627072",
+      "key": "line:FunnyGuy_Entrance_5_04fe20a",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1625,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432779",
+      "key": "line:FunnyGuy_Entrance_5_0ba5a4e",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1626,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432778",
+      "key": "line:FunnyGuy_Entrance_5_0999595",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "FunnyGuy: Короче, впустишь?",
+      "target": "FunnyGuy: Singkatnya, kamu mau mengizinkanku masuk?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1627,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432777",
+      "key": "line:FunnyGuy_Entrance_5_0293534",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "FunnyGuy: …",
+      "target": "FunnyGuy: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1628,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432776",
+      "key": "line:FunnyGuy_Entrance_5_0f35434",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "FunnyGuy: Будь у меня такой домик, я б, конечно, и жил припеваючи.",
+      "target": "FunnyGuy: Kalau aku punya rumah seperti ini, aku pasti hidup enak.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1629,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432775",
+      "key": "line:FunnyGuy_Entrance_5_06a248d",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "FunnyGuy: Ну ладно, не твоя ж ипотека. У тебя-то вон, свои хоромы.",
+      "target": "FunnyGuy: Ya sudah, bukan KPR-mu juga. Kamu punya istana sendiri.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1630,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432774",
+      "key": "line:FunnyGuy_Entrance_5_09c4ce5",
+      "nodeNames": [
+        "FunnyGuy_Entrance_5"
+      ],
+      "source": "FunnyGuy: Ну а чё, не разделяешь мою радость, блин.",
+      "target": "FunnyGuy: Kenapa kamu tidak ikut senang, sih?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1631,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432773",
+      "key": "line:FunnyGuy_Entrance_4_0ce2d8c",
+      "nodeNames": [
+        "FunnyGuy_Entrance_4"
+      ],
+      "source": "Немногословный ты",
+      "target": "Kamu irit bicara",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1632,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432772",
+      "key": "line:FunnyGuy_Entrance_4_0e8bdf3",
+      "nodeNames": [
+        "FunnyGuy_Entrance_4"
+      ],
+      "source": "FunnyGuy: Есь честно, мне такое не нравится.",
+      "target": "FunnyGuy: Jujur saja, aku tidak suka itu.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1633,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432771",
+      "key": "line:FunnyGuy_Entrance_4_0a5243f",
+      "nodeNames": [
+        "FunnyGuy_Entrance_4"
+      ],
+      "source": "FunnyGuy: Слушай, звучит очень саркастично.",
+      "target": "FunnyGuy: Dengar, itu kedengarannya sangat sarkastis.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1634,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432770",
+      "key": "line:FunnyGuy_Entrance_3_01156d9",
+      "nodeNames": [
+        "FunnyGuy_Entrance_3"
+      ],
+      "source": "Немногословный ты",
+      "target": "Kamu irit bicara",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1635,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432769",
+      "key": "line:FunnyGuy_Entrance_3_023d2ca",
+      "nodeNames": [
+        "FunnyGuy_Entrance_3"
+      ],
+      "source": "FunnyGuy: Без обид.",
+      "target": "FunnyGuy: Jangan tersinggung.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1636,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457446432768",
+      "key": "line:FunnyGuy_Entrance_3_0013a5c",
+      "nodeNames": [
+        "FunnyGuy_Entrance_3"
+      ],
+      "source": "FunnyGuy: Не хочу на улице говорить, есь честно.",
+      "target": "FunnyGuy: Sejujurnya, aku tidak mau bicara di luar.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1637,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238474",
+      "key": "line:FunnyGuy_Entrance_3_001da7f",
+      "nodeNames": [
+        "FunnyGuy_Entrance_3"
+      ],
+      "source": "FunnyGuy: Блин, а это хороший вопрос.",
+      "target": "FunnyGuy: Wah, itu pertanyaan bagus.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1638,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238473",
+      "key": "line:FunnyGuy_Entrance_2_0777e95",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "И что будешь делать со спасёнными деньжищами?",
+      "target": "Lalu apa yang akan kamu lakukan dengan semua uang yang tak jadi kamu bayarkan?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1639,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238472",
+      "key": "line:FunnyGuy_Entrance_2_0c90013",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "А… здесь ты что делаешь?",
+      "target": "Tapi… apa yang kamu lakukan di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1640,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238471",
+      "key": "line:FunnyGuy_Entrance_2_07d0889",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: Как же хорошо!",
+      "target": "FunnyGuy: Lega sekali!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1641,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238470",
+      "key": "line:FunnyGuy_Entrance_2_0fc2fa1",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: Всем с этим катаклизмом уже посрать на все эти финансы, банки, кредиты.",
+      "target": "FunnyGuy: Karena bencana ini, semua orang sudah tak peduli pada urusan keuangan, bank, dan kredit.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1642,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238469",
+      "key": "line:FunnyGuy_Entrance_2_0354c46",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: Теперь я не должен платить ипотеку!",
+      "target": "FunnyGuy: Sekarang aku tak perlu membayar cicilan KPR lagi!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1643,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238468",
+      "key": "line:FunnyGuy_Entrance_2_0cd367b",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: НО ТЕПЕРЬ!",
+      "target": "FunnyGuy: TAPI SEKARANG!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1644,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238467",
+      "key": "line:FunnyGuy_Entrance_2_05d8597",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: Прям, знаешь, всё было не очень.",
+      "target": "FunnyGuy: Pokoknya, tahu sendiri, keadaan dulu tidak terlalu baik.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1645,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238466",
+      "key": "line:FunnyGuy_Entrance_2_02e7c77",
+      "nodeNames": [
+        "FunnyGuy_Entrance_2"
+      ],
+      "source": "FunnyGuy: Я думал, что уже в финансовой жопе.",
+      "target": "FunnyGuy: Kukira aku sudah terperosok dalam kesulitan keuangan.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1646,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238465",
+      "key": "line:FunnyGuy_Entrance_1_05c703b",
+      "nodeNames": [
+        "FunnyGuy_Entrance_1"
+      ],
+      "source": "И что будешь делать со спасёнными деньжищами?",
+      "target": "Lalu apa yang akan kamu lakukan dengan semua uang yang tak jadi kamu bayarkan?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1647,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238464",
+      "key": "line:FunnyGuy_Entrance_1_007b603",
+      "nodeNames": [
+        "FunnyGuy_Entrance_1"
+      ],
+      "source": "А… здесь ты что делаешь?",
+      "target": "Tapi… apa yang kamu lakukan di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1648,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044170",
+      "key": "line:FunnyGuy_Entrance_1_021a512",
+      "nodeNames": [
+        "FunnyGuy_Entrance_1"
+      ],
+      "source": "FunnyGuy: Как же дышать свободнее стало, если бы ты знал.",
+      "target": "FunnyGuy: Rasanya aku bisa bernapas jauh lebih lega, kalau kamu tahu.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1649,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044169",
+      "key": "line:FunnyGuy_Entrance_1_092499c",
+      "nodeNames": [
+        "FunnyGuy_Entrance_1"
+      ],
+      "source": "FunnyGuy: Друг… нет, брат! Ипотека для меня больше не беда!",
+      "target": "FunnyGuy: Kawan… tidak, Saudaraku! KPR bukan masalah bagiku lagi!",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1650,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044168",
+      "key": "line:FunnyGuy_Entrance_1_06ae9c0",
+      "nodeNames": [
+        "FunnyGuy_Entrance_1"
+      ],
+      "source": "FunnyGuy: Да ну, будет тебе ругаться! Ты просто не понял.",
+      "target": "FunnyGuy: Sudah, jangan marah! Kamu cuma salah paham.",
+      "targetBatch": "Translations/id/dialogue-batch-198.json",
+      "targetBatchSha256": "7968619c11293137eb3de314681ba2175dab7e6df4f1862f432203aa3c2520a8"
+    },
+    {
+      "sourceOrderIndex": 1651,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044167",
+      "key": "line:entrance_funnyguy_0d11c1f",
+      "nodeNames": [
+        "entrance_funnyguy"
+      ],
+      "source": "Чего радостный такой?",
+      "target": "Kenapa kau begitu gembira?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1652,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044166",
+      "key": "line:entrance_funnyguy_02f9dcd",
+      "nodeNames": [
+        "entrance_funnyguy"
+      ],
+      "source": "Ёбнулся, что ли?",
+      "target": "Kau sudah gila, ya?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1653,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044165",
+      "key": "line:entrance_funnyguy_028f0e9",
+      "nodeNames": [
+        "entrance_funnyguy"
+      ],
+      "source": "FunnyGuy: Ну что за ночь, а? Чувствуешь? Просто волшебство!",
+      "target": "FunnyGuy: Malam macam apa ini, hah? Kau bisa merasakannya? Ajaib sekali!",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1654,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044164",
+      "key": "line:entrance_funnyguy_08a7cfb",
+      "nodeNames": [
+        "entrance_funnyguy"
+      ],
+      "source": "FunnyGuy: Хе-е-ей, здарова!",
+      "target": "FunnyGuy: Heeei, halo!",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1655,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044163",
+      "key": "line:Fairytaller_Entrance_NoLet_0d41fb6",
+      "nodeNames": [
+        "Fairytaller_Entrance_NoLet"
+      ],
+      "source": "Fairytaller: Что ж. Понимаю. Всего доброго.",
+      "target": "Fairytaller: Baiklah. Aku mengerti. Semoga Anda baik-baik saja.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1656,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044162",
+      "key": "line:Fairytaller_Entrance_YesLet_01967fe",
+      "nodeNames": [
+        "Fairytaller_Entrance_YesLet"
+      ],
+      "source": "Fairytaller: Хорошо, что добрые люди есть не только в сказках, но и в реальном мире.",
+      "target": "Fairytaller: Syukurlah orang baik tak hanya ada dalam dongeng, tapi juga di dunia nyata.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1657,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044161",
+      "key": "line:Fairytaller_Entrance_YesLet_0d4683b",
+      "nodeNames": [
+        "Fairytaller_Entrance_YesLet"
+      ],
+      "source": "Fairytaller: Большое вам спасибо! Я в долгу не останусь!",
+      "target": "Fairytaller: Terima kasih banyak! Kebaikan Anda pasti akan kubalas!",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1658,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457438044160",
+      "key": "line:Fairytaller_Entrance_3_0addec5",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1659,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849866",
+      "key": "line:Fairytaller_Entrance_3_0a35e35",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1660,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849865",
+      "key": "line:Fairytaller_Entrance_3_000bce9",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Fairytaller: Мне совсем некуда идти. Кто мог подумать, что взрослая жизнь начнётся так тяжело. Лишь бы она не закончилась так скоро.",
+      "target": "Fairytaller: Aku benar-benar tak punya tempat tujuan. Siapa sangka kehidupan dewasa dimulai seberat ini. Semoga tidak berakhir secepat ini.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1661,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849864",
+      "key": "line:Fairytaller_Entrance_3_000a20a",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Fairytaller: Я обязательно отплачу в будущем. И сейчас помогу, чем смогу.",
+      "target": "Fairytaller: Suatu saat aku pasti membalas budi. Sekarang pun aku akan membantu semampuku.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1662,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849863",
+      "key": "line:Fairytaller_Entrance_3_0e450c5",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Fairytaller: Знаю, что мне нечего дать вам. Но подумайте, пожалуйста, ещё раз.",
+      "target": "Fairytaller: Aku tahu tak punya apa-apa untuk diberikan kepada Anda. Tapi mohon pertimbangkan sekali lagi.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1663,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849862",
+      "key": "line:Fairytaller_Entrance_3_0533954",
+      "nodeNames": [
+        "Fairytaller_Entrance_3"
+      ],
+      "source": "Fairytaller: Что ж. Понимаю ваше решение.",
+      "target": "Fairytaller: Baiklah. Aku mengerti keputusan Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1664,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849861",
+      "key": "line:Fairytaller_Entrance_2_0c88a9d",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Мне нахлебники не нужны. Уходи",
+      "target": "Aku tak butuh benalu. Pergi.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1665,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849860",
+      "key": "line:Fairytaller_Entrance_2_019ba7c",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1666,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849859",
+      "key": "line:Fairytaller_Entrance_2_03ef288",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Сомневаюсь, что я тот самый герой, но всё же попрошу у вас убежища на это тяжёлое время. Во всех историях добро побеждает.",
+      "target": "Fairytaller: Aku ragu aku pahlawan yang dimaksud, tapi aku tetap akan meminta perlindungan Anda pada masa sulit ini. Dalam semua cerita, kebaikan selalu menang.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1667,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849858",
+      "key": "line:Fairytaller_Entrance_2_06b4411",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Вот бы и в нашем мире нашелся герой, который победит зло, и всё станет как прежде.",
+      "target": "Fairytaller: Andai di dunia kita juga muncul pahlawan yang mengalahkan kejahatan, agar semuanya kembali seperti dulu.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1668,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849857",
+      "key": "line:Fairytaller_Entrance_2_0210828",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Все люди боятся, прячутся по домам, не доверяют друг другу…",
+      "target": "Fairytaller: Semua orang takut, bersembunyi di rumah, tidak saling percaya…",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1669,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849856",
+      "key": "line:Fairytaller_Entrance_2_0144257",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Чем-то это даже напоминает детские сказки. Где существует зло, которое захватывает мир.",
+      "target": "Fairytaller: Semua ini bahkan mengingatkanku pada dongeng masa kecil, saat kejahatan menguasai dunia.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1670,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655562",
+      "key": "line:Fairytaller_Entrance_2_02eebda",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Но вроде бы я такой же человек, как и был всегда. Как минимум, не испытываю никакой жажды убийств. Хе-хе.",
+      "target": "Fairytaller: Tapi rasanya aku masih manusia yang sama seperti sebelumnya. Setidaknya aku tidak haus membunuh. He-he.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1671,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655561",
+      "key": "line:Fairytaller_Entrance_2_0a232fe",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Возможно, по каким-то признакам я и Гость. Не знаю. Всё так странно в последнее время.",
+      "target": "Fairytaller: Mungkin menurut beberapa tanda aku juga Tamu. Entahlah. Belakangan semuanya begitu aneh.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1672,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655560",
+      "key": "line:Fairytaller_Entrance_2_0d619ce",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "source": "Fairytaller: Я сам до конца не понял, кто такие Гости и чем конкретно они отличаются от людей.",
+      "target": "Fairytaller: Aku sendiri belum sepenuhnya mengerti siapa para Tamu dan apa tepatnya yang membedakan mereka dari manusia.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1673,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655559",
+      "key": "line:Fairytaller_Entrance_1_075b6e4",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Мне нахлебники не нужны. Уходи",
+      "target": "Aku tak butuh benalu. Pergi.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1674,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655558",
+      "key": "line:Fairytaller_Entrance_1_06c4b0c",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Ладно, заходи",
+      "target": "Baiklah, masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1675,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655557",
+      "key": "line:Fairytaller_Entrance_1_004b8d2",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Я постараюсь быть полезным, пока не встану на ноги. И обязательно отплачу за доброту позже.",
+      "target": "Fairytaller: Aku akan berusaha berguna sampai bisa berdiri di atas kaki sendiri. Dan nanti aku pasti membalas kebaikan Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1676,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655556",
+      "key": "line:Fairytaller_Entrance_1_0e42a04",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Мне самому не очень комфортно висеть у кого-то на шее, но в тяжёлой ситуации нужно как-то выживать.",
+      "target": "Fairytaller: Aku sendiri tidak nyaman bergantung pada orang lain, tapi dalam keadaan sulit orang harus mencari cara untuk bertahan hidup.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1677,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655555",
+      "key": "line:Fairytaller_Entrance_1_02fc8a1",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: В целом понять его можно. Попрошу понять и меня.",
+      "target": "Fairytaller: Secara umum aku bisa memahami dia. Kumohon Anda juga memahami aku.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1678,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655554",
+      "key": "line:Fairytaller_Entrance_1_0402033",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: А после этих событий выселил под предлогом отсутствия у меня работы, заселив своих сводных родственников.",
+      "target": "Fairytaller: Setelah semua ini terjadi, dia mengusirku dengan alasan aku tak punya pekerjaan, lalu menempatkan kerabat tirinya di apartemen itu.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1679,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655553",
+      "key": "line:Fairytaller_Entrance_1_0fdc0d0",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Мне арендодатель изначально не хотел сдавать квартиру, юному выпускнику без постоянного дохода.",
+      "target": "Fairytaller: Sejak awal pemilik kontrakan enggan menyewakan apartemen kepadaku, lulusan muda tanpa penghasilan tetap.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1680,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655552",
+      "key": "line:Fairytaller_Entrance_1_05db883",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Как в детстве.",
+      "target": "Fairytaller: Seperti waktu kecil.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1681,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461258",
+      "key": "line:Fairytaller_Entrance_1_09a527e",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: В кризис людям всегда хочется отвлечься от проблем, хотя бы на некоторое время почувствовать беззаботность.",
+      "target": "Fairytaller: Saat krisis, orang selalu ingin mengalihkan pikiran dari masalah, merasakan masa tanpa beban walau sebentar.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1682,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461257",
+      "key": "line:Fairytaller_Entrance_1_029d73e",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Повезло моим одногруппникам бывшим, кто в ночные клубы устроился. Они только лучше зажили.",
+      "target": "Fairytaller: Teman-teman kuliahku dulu yang bekerja di kelab malam beruntung. Hidup mereka malah membaik.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1683,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461256",
+      "key": "line:Fairytaller_Entrance_1_0d7a4f9",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Но после всех новых событий люди перестали ходить к нам, и весь штат сократили.",
+      "target": "Fairytaller: Tapi setelah semua kejadian baru ini, orang-orang berhenti datang ke kafe kami dan seluruh staf diberhentikan.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1684,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461255",
+      "key": "line:Fairytaller_Entrance_1_0bd5de1",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "source": "Fairytaller: Я только окончил универ этим летом. По специальности работу найти не просто. Поэтому устроился на подработку в кафе.",
+      "target": "Fairytaller: Aku baru lulus kuliah musim panas ini. Mencari kerja sesuai jurusan tidak mudah. Jadi aku mengambil pekerjaan sambilan di kafe.",
+      "targetBatch": "Translations/id/dialogue-batch-103.json",
+      "targetBatchSha256": "698bbf39d3208f33ae163d3744edd73faddaf72856b74a19eb2a5837e4014b7d"
+    },
+    {
+      "sourceOrderIndex": 1685,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461254",
+      "key": "line:entrance_fairytaller_064d783",
+      "nodeNames": [
+        "entrance_fairytaller"
+      ],
+      "source": "Откуда мне знать, что ты не Гость?",
+      "target": "Bagaimana aku tahu kau bukan Tamu?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1686,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461253",
+      "key": "line:entrance_fairytaller_0e7e808",
+      "nodeNames": [
+        "entrance_fairytaller"
+      ],
+      "source": "Что тебя привело сюда?",
+      "target": "Apa yang membawamu ke sini?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1687,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461252",
+      "key": "line:entrance_fairytaller_027b07b",
+      "nodeNames": [
+        "entrance_fairytaller"
+      ],
+      "source": "Fairytaller: Добрый вечер. Не найдется ли у вас местечка для одного человека? Мне много не надо.",
+      "target": "Fairytaller: Selamat malam. Adakah tempat bagi satu orang di rumah Anda? Aku tak butuh banyak ruang.",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1688,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461251",
+      "key": "line:Leper_Entrance_NoLet_04748dc",
+      "nodeNames": [
+        "Leper_Entrance_FullRefuse"
+      ],
+      "source": "Leper: Ладно, как скажешь. Я пошёл.",
+      "target": "Leper: Baiklah, kalau begitu. Aku pergi.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1689,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461250",
+      "key": "line:Leper_Entrance_YesLet_09d061d",
+      "nodeNames": [
+        "Leper_Entrance_YesLet"
+      ],
+      "source": "Leper: Спасибо, что пустил, не опираясь на внешность.",
+      "target": "Leper: Terima kasih sudah membiarkanku masuk tanpa menilai penampilanku.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1690,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461249",
+      "key": "line:Leper_Entrance_6_0b722f3",
+      "nodeNames": [
+        "Leper_Entrance_6"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1691,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461248",
+      "key": "line:Leper_Entrance_6_04d8ba8",
+      "nodeNames": [
+        "Leper_Entrance_6"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1692,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266954",
+      "key": "line:Leper_Entrance_6_024a80c",
+      "nodeNames": [
+        "Leper_Entrance_6"
+      ],
+      "source": "Leper: Ладно, короче, ты меня пустишь в итоге или нет?",
+      "target": "Leper: Jadi, singkatnya, kau akan membiarkanku masuk atau tidak?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1693,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266953",
+      "key": "line:Leper_Entrance_6_0718114",
+      "nodeNames": [
+        "Leper_Entrance_6"
+      ],
+      "source": "Leper: …",
+      "target": "Leper: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1694,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266952",
+      "key": "line:Leper_Entrance_6_007a820",
+      "nodeNames": [
+        "Leper_Entrance_6"
+      ],
+      "source": "Leper: Потому что я знаю, что это так. Я же не Гость.",
+      "target": "Leper: Karena aku tahu begitulah adanya. Aku bukan Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1695,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266951",
+      "key": "line:Leper_Entrance_5_0cef96e",
+      "nodeNames": [
+        "Leper_Entrance_5"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1696,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266950",
+      "key": "line:Leper_Entrance_5_0fa0b55",
+      "nodeNames": [
+        "Leper_Entrance_5"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1697,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266949",
+      "key": "line:Leper_Entrance_5_0850a97",
+      "nodeNames": [
+        "Leper_Entrance_5"
+      ],
+      "source": "Leper: Ладно, короче, ты меня пустишь в итоге или нет?",
+      "target": "Leper: Jadi, singkatnya, kau akan membiarkanku masuk atau tidak?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1698,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266948",
+      "key": "line:Leper_Entrance_5_03c280c",
+      "nodeNames": [
+        "Leper_Entrance_5"
+      ],
+      "source": "Leper: …",
+      "target": "Leper: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 1699,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266947",
+      "key": "line:Leper_Entrance_5_048db3f",
+      "nodeNames": [
+        "Leper_Entrance_5"
+      ],
+      "source": "Leper: Как скажешь.",
+      "target": "Leper: Terserah kau.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1700,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266946",
+      "key": "line:Leper_Entrance_4_0e68702",
+      "nodeNames": [
+        "Leper_Entrance_4"
+      ],
+      "source": "С чего такая уверенность?",
+      "target": "Kenapa kau begitu yakin?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1701,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266945",
+      "key": "line:Leper_Entrance_4_021ce4a",
+      "nodeNames": [
+        "Leper_Entrance_4"
+      ],
+      "source": "Это мы ещё проверим",
+      "target": "Itu masih harus kita periksa",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1702,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457421266944",
+      "key": "line:Leper_Entrance_4_08216a2",
+      "nodeNames": [
+        "Leper_Entrance_4"
+      ],
+      "source": "Leper: Я вообще-то не Гость.",
+      "target": "Leper: Aku sebenarnya bukan Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1703,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072650",
+      "key": "line:Leper_Entrance_4_0891688",
+      "nodeNames": [
+        "Leper_Entrance_4"
+      ],
+      "source": "Leper: Что значит «чего ожидал»? Я что, выбирал таким родиться, что ли?",
+      "target": "Leper: Apa maksudmu ‘apa yang kuharapkan’? Memangnya aku memilih terlahir begini?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1704,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072649",
+      "key": "line:Leper_Entrance_3_0a0ef8b",
+      "nodeNames": [
+        "Leper_Entrance_3"
+      ],
+      "source": "С чего такая уверенность?",
+      "target": "Kenapa kau begitu yakin?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1705,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072648",
+      "key": "line:Leper_Entrance_3_0bb46aa",
+      "nodeNames": [
+        "Leper_Entrance_3"
+      ],
+      "source": "Это мы ещё проверим",
+      "target": "Itu masih harus kita periksa",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1706,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072647",
+      "key": "line:Leper_Entrance_3_01a2ae7",
+      "nodeNames": [
+        "Leper_Entrance_3"
+      ],
+      "source": "Leper: Я понимаю, но я не Гость.",
+      "target": "Leper: Aku mengerti, tapi aku bukan Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1707,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072646",
+      "key": "line:Leper_Entrance_2_0aedbb0",
+      "nodeNames": [
+        "Leper_Entrance_2"
+      ],
+      "source": "А ты чего ожидал с такой внешностью?",
+      "target": "Apa yang kauharapkan dengan penampilan seperti itu?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1708,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072645",
+      "key": "line:Leper_Entrance_2_083d0df",
+      "nodeNames": [
+        "Leper_Entrance_2"
+      ],
+      "source": "Сейчас все параноят",
+      "target": "Sekarang semua orang paranoid",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1709,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072644",
+      "key": "line:Leper_Entrance_2_0b8d12f",
+      "nodeNames": [
+        "Leper_Entrance_2"
+      ],
+      "source": "Leper: Это врождённое, я не могу ничего сделать. И почему-то все считают, что я Гость. Бред же.",
+      "target": "Leper: Ini bawaan lahir. Aku tak bisa berbuat apa-apa. Entah kenapa semua orang mengira aku Tamu. Tak masuk akal.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1710,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072643",
+      "key": "line:Leper_Entrance_2_0706bbe",
+      "nodeNames": [
+        "Leper_Entrance_2"
+      ],
+      "source": "Leper: Вот об этом-то я и говорю.",
+      "target": "Leper: Nah, itulah yang kumaksud.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1711,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072642",
+      "key": "line:Leper_Entrance_2_057f53b",
+      "nodeNames": [
+        "Leper_Entrance_2"
+      ],
+      "source": "…",
+      "target": "…",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 1712,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072641",
+      "key": "line:Leper_Entrance_1_061da40",
+      "nodeNames": [
+        "Leper_Entrance_1"
+      ],
+      "source": "А ты чего ожидал с такой внешностью?",
+      "target": "Apa yang kauharapkan dengan penampilan seperti itu?",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1713,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457417072640",
+      "key": "line:Leper_Entrance_1_0369ad1",
+      "nodeNames": [
+        "Leper_Entrance_1"
+      ],
+      "source": "Сейчас все параноят",
+      "target": "Sekarang semua orang paranoid",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1714,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878346",
+      "key": "line:Leper_Entrance_1_0e2ba2c",
+      "nodeNames": [
+        "Leper_Entrance_1"
+      ],
+      "source": "Leper: Считают теперь меня каким-то прокажённым, что, мол, я Гость.",
+      "target": "Leper: Sekarang mereka menganggapku seperti penderita kusta, katanya aku Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1715,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878345",
+      "key": "line:Leper_Entrance_1_0cb1b1f",
+      "nodeNames": [
+        "Leper_Entrance_1"
+      ],
+      "source": "Leper: Стоило всего лишь родиться с дефектами кожи — так всё…",
+      "target": "Leper: Cuma karena aku terlahir dengan kelainan kulit, langsung saja mereka…",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1716,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878344",
+      "key": "line:Leper_Entrance_1_0873f77",
+      "nodeNames": [
+        "Leper_Entrance_1"
+      ],
+      "source": "Leper: В том-то и дело, что ничего.",
+      "target": "Leper: Justru masalahnya tak ada apa-apa.",
+      "targetBatch": "Translations/id/dialogue-batch-124.json",
+      "targetBatchSha256": "f59cd14b23b36ce2888f49333ff15d87dadf9121f562a8acf4d7a45393141164"
+    },
+    {
+      "sourceOrderIndex": 1717,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878343",
+      "key": "line:entrance_leper_0f04a55",
+      "nodeNames": [
+        "entrance_leper"
+      ],
+      "source": "Откуда у тебя это на коже?",
+      "target": "Dari mana bercak di kulitmu itu?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1718,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878342",
+      "key": "line:entrance_leper_07031f0",
+      "nodeNames": [
+        "entrance_leper"
+      ],
+      "source": "А что с тобой?",
+      "target": "Ada apa denganmu?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1719,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878341",
+      "key": "line:entrance_leper_031ecc8",
+      "nodeNames": [
+        "entrance_leper"
+      ],
+      "source": "Leper: Привет. Надеюсь, моя внешность не помешает пустить меня?",
+      "target": "Leper: Halo. Kuharap penampilanku tak membuatmu enggan mengizinkanku masuk?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1720,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878340",
+      "key": "line:Nervous_Entrance_NoLet_0cd7a0b",
+      "nodeNames": [
+        "Nervous_Entrance_NoLet"
+      ],
+      "source": "Nervous: Хи-хи.",
+      "target": "Nervous: Hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1721,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878339",
+      "key": "line:Nervous_Entrance_NoLet_0e36a43",
+      "nodeNames": [
+        "Nervous_Entrance_NoLet"
+      ],
+      "source": "Nervous: Ничего. Я ещё посмотрю, как тут у тебя пойдут дела.",
+      "target": "Nervous: Tak apa. Akan kulihat dulu bagaimana keadaanmu di sini nanti.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1722,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878338",
+      "key": "line:Nervous_Entrance_NoLet_003409c",
+      "nodeNames": [
+        "Nervous_Entrance_NoLet"
+      ],
+      "source": "Nervous: Ты ничем не лучше мучителей в халатах.",
+      "target": "Nervous: Kau tak lebih baik daripada para penyiksa berjas putih itu.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1723,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878337",
+      "key": "line:Nervous_Entrance_NoLet_074ae02",
+      "nodeNames": [
+        "Nervous_Entrance_NoLet"
+      ],
+      "source": "Nervous: Ёбнутым?",
+      "target": "Nervous: Sinting?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1724,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457412878336",
+      "key": "line:Nervous_Entrance_NoLet_02f4ed5",
+      "nodeNames": [
+        "Nervous_Entrance_NoLet"
+      ],
+      "source": "Nervous: Что, ты тоже считаешь меня каким-то не таким?",
+      "target": "Nervous: Apa, kau juga menganggap ada yang salah denganku?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1725,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684048",
+      "key": "line:Nervous_Entrance_YesLet_0daef2c",
+      "nodeNames": [
+        "Nervous_Entrance_YesLet"
+      ],
+      "source": "Nervous: Наконец, место, где я могу спокойно переждать эту катастрофу.",
+      "target": "Nervous: Akhirnya ada tempat untuk menunggu bencana ini berlalu dengan tenang.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1726,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684047",
+      "key": "line:Nervous_Entrance_YesLet_06ec155",
+      "nodeNames": [
+        "Nervous_Entrance_YesLet"
+      ],
+      "source": "Nervous: Как же х-шо!",
+      "target": "Nervous: L-lega sekali!",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1727,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684046",
+      "key": "line:Nervous_Entrance_4_00d777b",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1728,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684045",
+      "key": "line:Nervous_Entrance_4_0d168b0",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1729,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684044",
+      "key": "line:Nervous_Entrance_4_01c9aa5",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Nervous: Тем более я слышал выстрелы в округе. Может, здесь внимательнее к безопасности относятся.",
+      "target": "Nervous: Apalagi aku mendengar tembakan di sekitar sini. Mungkin keamanan di sini lebih diperhatikan.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1730,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684043",
+      "key": "line:Nervous_Entrance_4_0cb5701",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Nervous: Мне проще уж с новыми людьми попробовать найти общий язык, хи-хи.",
+      "target": "Nervous: Lebih mudah bagiku mencoba akrab dengan orang-orang baru, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1731,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684042",
+      "key": "line:Nervous_Entrance_4_0f8c3ea",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Nervous: Один получил по заслугам, но я теперь осторожнее.",
+      "target": "Nervous: Salah satu dari mereka menerima balasannya, tapi sekarang aku lebih berhati-hati.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1732,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684041",
+      "key": "line:Nervous_Entrance_4_03ac686",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Nervous: Ещё со школы надо мной издеваются всякие кретины.",
+      "target": "Nervous: Sejak sekolah, orang-orang bodoh selalu menggangguku.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1733,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684040",
+      "key": "line:Nervous_Entrance_4_02b3031",
+      "nodeNames": [
+        "Nervous_Entrance_4"
+      ],
+      "source": "Nervous: Да какие друзья…",
+      "target": "Nervous: Teman apa…",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1734,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684039",
+      "key": "line:Nervous_Entrance_3_02e924d",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Тебе лучше уйти",
+      "target": "Sebaiknya kau pergi",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1735,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684038",
+      "key": "line:Nervous_Entrance_3_023aa05",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Проходи",
+      "target": "Masuklah",
+      "targetBatch": "Translations/id/dialogue-batch-002.json",
+      "targetBatchSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647"
+    },
+    {
+      "sourceOrderIndex": 1736,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684037",
+      "key": "line:Nervous_Entrance_3_0b9ca61",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Nervous: Тогда уж лучше обратно в отель.",
+      "target": "Nervous: Kalau begitu, lebih baik aku kembali ke hotel.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1737,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684036",
+      "key": "line:Nervous_Entrance_3_0e33efd",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Nervous: Они мне помогли однажды, но к ним я не хочу всё же.",
+      "target": "Nervous: Mereka pernah membantuku, tapi aku tetap tak mau menemui mereka.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1738,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684035",
+      "key": "line:Nervous_Entrance_3_07851e4",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Nervous: Так что им просто насрать.",
+      "target": "Nervous: Jadi mereka tak peduli sama sekali.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1739,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684034",
+      "key": "line:Nervous_Entrance_3_08b9607",
+      "nodeNames": [
+        "Nervous_Entrance_3"
+      ],
+      "source": "Nervous: Они меня не хотели. Я случайно у них получился, хи-хи.",
+      "target": "Nervous: Mereka tak menginginkanku. Aku lahir tanpa sengaja, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1740,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684033",
+      "key": "line:Nervous_Entrance_2_085963b",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "У тебя тут друзей нет?",
+      "target": "Kau tak punya teman di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1741,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457408684032",
+      "key": "line:Nervous_Entrance_2_01729ea",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "Чего к родным не пойдёшь?",
+      "target": "Kenapa kau tak pergi ke keluargamu?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1742,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489738",
+      "key": "line:Nervous_Entrance_2_0fe79db",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "Nervous: Ну это как-нибудь потом расскажу, хи-хи.",
+      "target": "Nervous: Nanti saja kuceritakan, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1743,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489737",
+      "key": "line:Nervous_Entrance_2_04a8978",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "Nervous: А в отеле комнатки небольшие. Да ещё и н-поминают о неприятном времени.",
+      "target": "Nervous: Kamar-kamar di hotel itu kecil. Lagi pula, tempat itu m-mengingatkanku pada masa yang tak menyenangkan.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1744,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489736",
+      "key": "line:Nervous_Entrance_2_011b41f",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "Nervous: Дом просторный, все влезем.",
+      "target": "Nervous: Rumah ini luas. Kita semua bisa masuk.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1745,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489735",
+      "key": "line:Nervous_Entrance_2_0e671c9",
+      "nodeNames": [
+        "Nervous_Entrance_2"
+      ],
+      "source": "Nervous: Там, кнешно, неплохо, но вдруг тут я буду чувствовать себя безопаснее, хи-хи.",
+      "target": "Nervous: Di sana memang lumayan, tapi mungkin aku akan merasa lebih aman di sini, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1746,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489734",
+      "key": "line:Nervous_Entrance_1_0287ad5",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "У тебя тут друзей нет?",
+      "target": "Kau tak punya teman di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1747,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489733",
+      "key": "line:Nervous_Entrance_1_0936962",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Чего к родным не пойдёшь?",
+      "target": "Kenapa kau tak pergi ke keluargamu?",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1748,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489732",
+      "key": "line:Nervous_Entrance_1_07ef890",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Nervous: КЧС приезжали, но я больше их не видел…",
+      "target": "Nervous: Orang-orang KChS sempat datang, tapi setelah itu aku tak melihat mereka lagi…",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1749,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489731",
+      "key": "line:Nervous_Entrance_1_0d910d0",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Nervous: Не могу доказать, но думаю, она — Гость.",
+      "target": "Nervous: Aku tak bisa membuktikannya, tapi kurasa gadis itu Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1750,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489730",
+      "key": "line:Nervous_Entrance_1_0eb9414",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Nervous: Она меня пугает, хи-хи.",
+      "target": "Nervous: Dia membuatku takut, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1751,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489729",
+      "key": "line:Nervous_Entrance_1_0c56256",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Nervous: Отель сам по себе хороший, но там живёт девочка в жёлтом дождевике.",
+      "target": "Nervous: Hotelnya sendiri bagus, tapi ada gadis berjas hujan kuning yang tinggal di sana.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1752,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457404489728",
+      "key": "line:Nervous_Entrance_1_07dce82",
+      "nodeNames": [
+        "Nervous_Entrance_1"
+      ],
+      "source": "Nervous: Да я бы лучше поискал ещё к-какое место.",
+      "target": "Nervous: Aku lebih suka mencari t-tempat lain.",
+      "targetBatch": "Translations/id/dialogue-batch-148.json",
+      "targetBatchSha256": "e6fa8b42767d7875e61bbcd31055707142af426a1b8728e73cd30c3eb388eba7"
+    },
+    {
+      "sourceOrderIndex": 1753,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295435",
+      "key": "line:entrance_nervous_076ee93",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Здесь лучше, чем в отеле?",
+      "target": "Di sini lebih baik daripada di hotel?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1754,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295434",
+      "key": "line:entrance_nervous_0740b71",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Зачем? Иди обратно в отель",
+      "target": "Untuk apa? Kembali saja ke hotel",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1755,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295433",
+      "key": "line:entrance_nervous_015194f",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Nervous: Возр-щаться страшновато, я могу остаться тут?",
+      "target": "Nervous: A-agak takut kembali. Boleh aku tinggal di sini?",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1756,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295432",
+      "key": "line:entrance_nervous_045784f",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Nervous: Я остановился в отеле «Надежда», но решил пройтись.",
+      "target": "Nervous: Aku menginap di Hotel «Nadezhda», tapi memutuskan berjalan-jalan.",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1757,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295431",
+      "key": "line:entrance_nervous_03be103",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Nervous: Извини, я как-то немного нервничаю.",
+      "target": "Nervous: Maaf, aku agak gugup.",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1758,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295430",
+      "key": "line:entrance_nervous_06c5586",
+      "nodeNames": [
+        "entrance_nervous"
+      ],
+      "source": "Nervous: Привет, хи-хи.",
+      "target": "Nervous: Halo, hi-hi.",
+      "targetBatch": "Translations/id/dialogue-batch-299.json",
+      "targetBatchSha256": "6d22195753a259fa7e37d401c78462238f648a6605a0f17e579289ce512ee5fb"
+    },
+    {
+      "sourceOrderIndex": 1759,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295429",
+      "key": "line:Bald_Entrance_NoLet_0194170",
+      "nodeNames": [
+        "Bald_Entrance_NoLet"
+      ],
+      "source": "Bald: Давай, удачки тебе продержаться в этом пиздеце!",
+      "target": "Bald: Yah, semoga kau bisa bertahan dalam kekacauan bangsat ini!",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    },
+    {
+      "sourceOrderIndex": 1760,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295428",
+      "key": "line:Bald_Entrance_NoLet_046dcb2",
+      "nodeNames": [
+        "Bald_Entrance_NoLet"
+      ],
+      "source": "Bald: Ладно, брат. Я всё понимаю. Зла не держу.",
+      "target": "Bald: Baiklah, Bro. Aku paham. Aku tak menyimpan dendam.",
+      "targetBatch": "Translations/id/dialogue-batch-118.json",
+      "targetBatchSha256": "1b19d42f18a2fc3b1f9a5be9bbb19b7ae029f51a50371ba39f0784eb364ff790"
+    }
+  ],
+  "semanticPassComplete": false,
+  "independentReview": "pending"
+}

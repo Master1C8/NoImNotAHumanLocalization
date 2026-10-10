@@ -1,0 +1,677 @@
+{
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "needle": "OverlaySubtitlesView",
+  "matches": [
+    {
+      "token": "0x6001291",
+      "method": "_Code.DialogSystem.DialogManager..ctor",
+      "instructions": [
+        {
+          "offset": "0xc",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xd",
+          "opcode": "newobj",
+          "operand": "_Code.DialogSystem.DialogSaveData..ctor"
+        },
+        {
+          "offset": "0x12",
+          "opcode": "stfld",
+          "operand": "DialogManager._saveData"
+        },
+        {
+          "offset": "0x17",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x18",
+          "opcode": "ldc.i4",
+          "operand": "-1966747463"
+        },
+        {
+          "offset": "0x1d",
+          "opcode": "stfld",
+          "operand": "DialogManager._characterEmotion"
+        },
+        {
+          "offset": "0x22",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x23",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x28",
+          "opcode": "stfld",
+          "operand": "DialogManager._onDialogEndedActions"
+        },
+        {
+          "offset": "0x2d",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2e",
+          "opcode": "call",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x33",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x34",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x35",
+          "opcode": "stfld",
+          "operand": "DialogManager._charactersManager"
+        },
+        {
+          "offset": "0x3a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3b",
+          "opcode": "ldarg.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x3c",
+          "opcode": "stfld",
+          "operand": "DialogManager._gameEventsManager"
+        },
+        {
+          "offset": "0x41",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x42",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0005)"
+        },
+        {
+          "offset": "0x44",
+          "opcode": "stfld",
+          "operand": "DialogManager._dataModelService"
+        },
+        {
+          "offset": "0x49",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4a",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0008)"
+        },
+        {
+          "offset": "0x4c",
+          "opcode": "stfld",
+          "operand": "DialogManager._cutscenesManager"
+        },
+        {
+          "offset": "0x51",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x52",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0004)"
+        },
+        {
+          "offset": "0x54",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.IDialogViewProvider.get_DialogView"
+        },
+        {
+          "offset": "0x59",
+          "opcode": "stfld",
+          "operand": "DialogManager._dialogView"
+        },
+        {
+          "offset": "0x5e",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5f",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0004)"
+        },
+        {
+          "offset": "0x61",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.IDialogViewProvider.get_OverlaySubtitlesView"
+        },
+        {
+          "offset": "0x66",
+          "opcode": "stfld",
+          "operand": "DialogManager._overlaySubtitlesView"
+        },
+        {
+          "offset": "0x6b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x6c",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0004)"
+        },
+        {
+          "offset": "0x6e",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.IDialogViewProvider.get_CommandsInstance"
+        },
+        {
+          "offset": "0x73",
+          "opcode": "stfld",
+          "operand": "DialogManager._commandsInstance"
+        },
+        {
+          "offset": "0x78",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x79",
+          "opcode": "ldarg.3",
+          "operand": ""
+        },
+        {
+          "offset": "0x7a",
+          "opcode": "callvirt",
+          "operand": "_Code.Infrastructure.ICharactersSODataProvider.get_CharactersData"
+        },
+        {
+          "offset": "0x7f",
+          "opcode": "stfld",
+          "operand": "DialogManager._characters"
+        },
+        {
+          "offset": "0x84",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x85",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0009)"
+        },
+        {
+          "offset": "0x87",
+          "opcode": "stfld",
+          "operand": "DialogManager._consumablesController"
+        },
+        {
+          "offset": "0x8c",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x8d",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000A)"
+        },
+        {
+          "offset": "0x8f",
+          "opcode": "stfld",
+          "operand": "DialogManager._stateObjectController"
+        },
+        {
+          "offset": "0x94",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x95",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000B)"
+        },
+        {
+          "offset": "0x97",
+          "opcode": "stfld",
+          "operand": "DialogManager._catController"
+        },
+        {
+          "offset": "0x9c",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x9d",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000C)"
+        },
+        {
+          "offset": "0x9f",
+          "opcode": "callvirt",
+          "operand": "_Code.Utils.CustomYarnReading.ICustomYarnReaderProvider.get_CustomYarnReader"
+        },
+        {
+          "offset": "0xa4",
+          "opcode": "stfld",
+          "operand": "DialogManager._customYarnReader"
+        },
+        {
+          "offset": "0xa9",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xaa",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000E)"
+        },
+        {
+          "offset": "0xac",
+          "opcode": "stfld",
+          "operand": "DialogManager._endingSoDataProvider"
+        },
+        {
+          "offset": "0xb1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xb2",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0007)"
+        },
+        {
+          "offset": "0xb4",
+          "opcode": "callvirt",
+          "operand": "_Code.Player.IInputHandlerProvider.get_InputHandler"
+        },
+        {
+          "offset": "0xb9",
+          "opcode": "stfld",
+          "operand": "DialogManager._inputHandler"
+        },
+        {
+          "offset": "0xbe",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xbf",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000F)"
+        },
+        {
+          "offset": "0xc1",
+          "opcode": "stfld",
+          "operand": "DialogManager._cursorController"
+        },
+        {
+          "offset": "0xc6",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xc7",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0006)"
+        },
+        {
+          "offset": "0xc9",
+          "opcode": "stfld",
+          "operand": "DialogManager._soundService"
+        },
+        {
+          "offset": "0xce",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xcf",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0010)"
+        },
+        {
+          "offset": "0xd1",
+          "opcode": "stfld",
+          "operand": "DialogManager._watcherManager"
+        },
+        {
+          "offset": "0xd6",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xd7",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0011)"
+        },
+        {
+          "offset": "0xd9",
+          "opcode": "stfld",
+          "operand": "DialogManager._effectsController"
+        },
+        {
+          "offset": "0xde",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xdf",
+          "opcode": "ldfld",
+          "operand": "DialogManager._dialogView"
+        },
+        {
+          "offset": "0xe4",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xe5",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.DialogManager.OnDialogStarted"
+        },
+        {
+          "offset": "0xeb",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0xf0",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xf1",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.DialogManager.OnDialogEnded"
+        },
+        {
+          "offset": "0xf7",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0xfc",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0006)"
+        },
+        {
+          "offset": "0xfe",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0007)"
+        },
+        {
+          "offset": "0x100",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x101",
+          "opcode": "ldfld",
+          "operand": "DialogManager._saveData"
+        },
+        {
+          "offset": "0x106",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000D)"
+        },
+        {
+          "offset": "0x108",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x000F)"
+        },
+        {
+          "offset": "0x10a",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.DialogView.Init"
+        },
+        {
+          "offset": "0x10f",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x110",
+          "opcode": "ldfld",
+          "operand": "DialogManager._commandsInstance"
+        },
+        {
+          "offset": "0x115",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x116",
+          "opcode": "ldarg.3",
+          "operand": ""
+        },
+        {
+          "offset": "0x117",
+          "opcode": "ldarg.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x118",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.Init"
+        },
+        {
+          "offset": "0x11d",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x11e",
+          "opcode": "call",
+          "operand": "_Code.DialogSystem.DialogManager.SubscribeEvents"
+        },
+        {
+          "offset": "0x123",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x124",
+          "opcode": "call",
+          "operand": "_Code.DialogSystem.DialogManager.InitMaxTalksCount"
+        },
+        {
+          "offset": "0x129",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x12a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x12b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x12c",
+          "opcode": "ldfld",
+          "operand": "DialogManager._saveData"
+        },
+        {
+          "offset": "0x131",
+          "opcode": "ldarg.s",
+          "operand": "argument(0x0005)"
+        },
+        {
+          "offset": "0x133",
+          "opcode": "callvirt",
+          "operand": "_Scripts.Services.DataModel.IDataModelService.get_GameSaveDataHandler"
+        },
+        {
+          "offset": "0x138",
+          "opcode": "call",
+          "operand": ".LinkSaveDataKey"
+        },
+        {
+          "offset": "0x13d",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x60012d3",
+      "method": "_Code.DialogSystem.DialogManager.ShowSubtitlePopup",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldfld",
+          "operand": "DialogManager._overlaySubtitlesView"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ldarg.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x9",
+          "opcode": "conv.r8",
+          "operand": ""
+        },
+        {
+          "offset": "0xa",
+          "opcode": "call",
+          "operand": "TimeSpan.FromSeconds"
+        },
+        {
+          "offset": "0xf",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.SubtitlesView.ShowDialogForTime"
+        },
+        {
+          "offset": "0x14",
+          "opcode": "call",
+          "operand": "UniTaskExtensions.Forget"
+        },
+        {
+          "offset": "0x19",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x60012d4",
+      "method": "_Code.DialogSystem.DialogManager.ShowSubtitlePopup",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldfld",
+          "operand": "DialogManager._overlaySubtitlesView"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ldc.r8",
+          "operand": "2.5"
+        },
+        {
+          "offset": "0x11",
+          "opcode": "call",
+          "operand": "TimeSpan.FromSeconds"
+        },
+        {
+          "offset": "0x16",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.SubtitlesView.ShowDialogForTime"
+        },
+        {
+          "offset": "0x1b",
+          "opcode": "call",
+          "operand": "UniTaskExtensions.Forget"
+        },
+        {
+          "offset": "0x20",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001311",
+      "method": "_Code.DialogSystem.DialogViewProvider.get_OverlaySubtitlesView",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldfld",
+          "operand": "DialogViewProvider.<OverlaySubtitlesView>k__BackingField"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001312",
+      "method": "_Code.DialogSystem.DialogViewProvider.set_OverlaySubtitlesView",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x3",
+          "opcode": "stfld",
+          "operand": "DialogViewProvider.<OverlaySubtitlesView>k__BackingField"
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    }
+  ],
+  "parseFailures": []
+}

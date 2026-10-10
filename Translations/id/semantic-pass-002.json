@@ -1,0 +1,1969 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "auditPhase": "full semantic source-to-target pass",
+  "part": 2,
+  "sourceOrderStart": 51,
+  "sourceOrderEnd": 260,
+  "reviewedRows": 210,
+  "preflightSha256": "645364802a0ebc9904958817d5b96175335a6cb9777fefbd60524f940f8e6b16",
+  "canonicalReviewUnitsSha256": "1b66efef6b36c6a81911546fbcc53af7d889d30938e462a1b0f36ad14d926d15",
+  "reviewedRowsSha256": "d0a54fa77ffd6bc6dd18be85d008d9e88f28095122d0da419ae0736ea029a49f",
+  "reviewMethod": "Direct Russian-to-Indonesian read of every row with UI/event key, neighboring UI and approved glossary; game runtime not viewed.",
+  "findings": [
+    {
+      "sourceOrderIndex": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "category": "location and mushroom-clue fidelity",
+      "objectiveReason": "The source locates the mushroom in the basement (в подвале); the draft says only underground.",
+      "currentTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "proposedTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi ruang bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 115,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079087727038464",
+      "category": "time reference",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "currentTarget": "Sekarang bukan waktunya.",
+      "proposedTarget": "Hari ini bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 116,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079202038599680",
+      "category": "time reference",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "currentTarget": "Sekarang bukan waktunya.",
+      "proposedTarget": "Hari ini bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 117,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079270019878912",
+      "category": "time reference",
+      "objectiveReason": "Сегодня specifies today; sekarang changes the temporal scope to now.",
+      "currentTarget": "Sekarang bukan waktunya.",
+      "proposedTarget": "Hari ini bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 217,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165494445907968",
+      "category": "physical action and ending image",
+      "objectiveReason": "Замурованы means the windows were walled up; ditutup papan says they were boarded up.",
+      "currentTarget": "Ruang bawah tanah menjadi semesta: jendela ditutup papan, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "proposedTarget": "Ruang bawah tanah menjadi semesta: jendela-jendelanya ditembok, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "proposalStatus": "proposed; not applied"
+    }
+  ],
+  "contextQuestions": [
+    {
+      "sourceOrderIndex": 197,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:108827407107739648",
+      "issue": "Сон may mean sleep or dream; the draft selects mimpi. Inspect the event consumer/scene before adjudicating this reading.",
+      "status": "context pending; no correction proposed"
+    }
+  ],
+  "corrections": [],
+  "rows": [
+    {
+      "sourceOrderIndex": 51,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:56531188432228352",
+      "key": "Radio_NoiseCharacters",
+      "source": "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё",
+      "target": "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 52,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941361121218560",
+      "key": "Action_Take",
+      "source": "Взять",
+      "target": "Ambil",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 53,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941413084450816",
+      "key": "Object_Mushroom",
+      "source": "Гриб",
+      "target": "Jamur",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 54,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941615140851712",
+      "key": "Message_TakeMushroom",
+      "source": "Положу его в холодильник. Хотя я бы съел сейчас.",
+      "target": "Akan kusimpan di kulkas. Padahal aku ingin memakannya sekarang.",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 55,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59946729964556288",
+      "key": "Action_Dig",
+      "source": "Копать",
+      "target": "Gali",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 56,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59946749677785088",
+      "key": "Object_TheHole",
+      "source": "Дыра",
+      "target": "Lubang",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "key": "Game_MushroomList",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "target": "<b><size=40><align=center>-1-</align=center></size></b>\nHari ini sebuah kota didirikan,\nDi bawah tanah, jamur muncul dari dalam bumi.\nJamur itu besar, tetapi akan datang seseorang\nYang mampu menelannya.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nMenerima tamu adalah nasib mereka yang lemah.\nJamur menjulang di atas kita, manusia yang tak diundang.\nHanya pohon apel yang akan menaungi semua\nDan memberi kalian makan dengan buah manisnya.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nAkan tiba hari ketika dia\nTunduk di hadapan jamur,\nDan jarum akan menunjuk ke atas.\nCepatlah, kawan!",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 58,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:62450848965054464",
+      "key": "Object_Cat",
+      "source": "Кот",
+      "target": "Kucing",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 59,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:62450821383311360",
+      "key": "Action_Pet",
+      "source": "Погладить",
+      "target": "Elus",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 60,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66090579946885120",
+      "key": "Common_Settings",
+      "source": "Настройки",
+      "target": "Pengaturan",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 61,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66343298049757184",
+      "key": "Common_Back",
+      "source": "Назад",
+      "target": "Kembali",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 62,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66346014109061120",
+      "key": "Settings_Screen",
+      "source": "Экран",
+      "target": "Layar",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 63,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66450728108675072",
+      "key": "language_ru",
+      "source": "Русский",
+      "target": "Русский",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 64,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66450829002657792",
+      "key": "language_en",
+      "source": "English",
+      "target": "English",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 65,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452242680238080",
+      "key": "language_be",
+      "source": "Беларуская",
+      "target": "Беларуская",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 66,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452260287926272",
+      "key": "language_zh",
+      "source": "简体中文",
+      "target": "简体中文",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 67,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452283474038784",
+      "key": "language_zh-Hant",
+      "source": "繁體中文",
+      "target": "繁體中文",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 68,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452325719068672",
+      "key": "language_fr",
+      "source": "Français",
+      "target": "Français",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 69,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452351388209152",
+      "key": "language_de",
+      "source": "Deutsch",
+      "target": "Deutsch",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 70,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452370216439808",
+      "key": "language_it",
+      "source": "Italiano",
+      "target": "Italiano",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 71,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452396246290432",
+      "key": "language_ja",
+      "source": "日本語",
+      "target": "日本語",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 72,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452407965175808",
+      "key": "language_ko",
+      "source": "한국어",
+      "target": "한국어",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 73,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452438688452608",
+      "key": "language_vi",
+      "source": "Tiếng Việt",
+      "target": "Tiếng Việt",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 74,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452479591305216",
+      "key": "language_pt-BR",
+      "source": "Português (Brasil)",
+      "target": "Português (Brasil)",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 75,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452522465480704",
+      "key": "language_es-AR",
+      "source": "Español (Latinoamericano)",
+      "target": "Español (Latinoamericano)",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 76,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452549913006080",
+      "key": "language_es",
+      "source": "Español (España)",
+      "target": "Español (España)",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 77,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452582032986112",
+      "key": "language_tr",
+      "source": "Türkçe",
+      "target": "Türkçe",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 78,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452592023818240",
+      "key": "language_uk",
+      "source": "Українська",
+      "target": "Українська",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 79,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:68269655268773888",
+      "key": "Object_Death",
+      "source": "Смерть",
+      "target": "Kematian",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 80,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:68269633731022848",
+      "key": "Action_talk",
+      "source": "Говорить",
+      "target": "Bicara",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 81,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:69257185275400192",
+      "key": "Common_Text",
+      "source": "Текст",
+      "target": "Teks",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 82,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:69259143700795392",
+      "key": "settings_typewriter",
+      "source": "Эффект набора текста",
+      "target": "Efek pengetikan teks",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 83,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:73342396577599488",
+      "key": "object_kombucha",
+      "source": "Чайный гриб (x{0})",
+      "target": "Kombucha (x{0})",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 84,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77551641594417152",
+      "key": "action_dont_use",
+      "source": "Не использовать",
+      "target": "Jangan gunakan",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 85,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77560897118916608",
+      "key": "consumable_cigarette_gameplayDescription",
+      "source": "Полностью восстанавливает   <sprite=0>, но убирает один   <sprite=1> на следующий день",
+      "target": "Memulihkan   <sprite=0> sepenuhnya, tetapi mengurangi satu   <sprite=1> keesokan harinya",
+      "targetBatch": "Translations/id/ui-batch-002.json",
+      "targetBatchSha256": "a77c7de6c59f15a59a041973fdd0d51197161dbd8bfb2b753d2fa120e9ffae83"
+    },
+    {
+      "sourceOrderIndex": 86,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77560970431156224",
+      "key": "consumable_cigarette_narrativeDescription",
+      "source": "Давно я не курил. В последний раз… когда все уехали, наверно.",
+      "target": "Sudah lama aku tidak merokok. Terakhir kali... mungkin saat semua orang pergi.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 87,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+      "key": "consumable_cigarette_name",
+      "source": "Сигареты",
+      "target": "Rokok",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 88,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+      "key": "consumable_kombucha_name",
+      "source": "Чайный гриб",
+      "target": "Kombucha",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 89,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572482784808960",
+      "key": "consumable_kombucha_gameplayDescription",
+      "source": "Сохраняет игру. Прогресс остаётся даже после завершения прохождения.",
+      "target": "Menyimpan permainan. Progres tetap tersimpan bahkan setelah permainan selesai.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 90,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572547771355136",
+      "key": "consumable_kombucha_narrativeDescription",
+      "source": "Это вообще мой любимый гриб. От него я чувствую себя хорошо, лучше работает память. Напоминает о хороших временах.",
+      "target": "Ini jamur kesukaanku. Aku merasa lebih baik setelah meminumnya, dan ingatanku jadi lebih tajam. Mengingatkanku pada masa-masa indah.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 91,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77614048173871104",
+      "key": "character_Podvalny",
+      "source": "Шахтёр",
+      "target": "Penambang",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 92,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326529556992000",
+      "key": "fullscreen_settings_ExclusiveFullScreen",
+      "source": "Полноэкранный",
+      "target": "Layar penuh",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 93,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326756594667520",
+      "key": "fullscreen_settings_FullScreenWindow",
+      "source": "Безрамочный полноэкранный",
+      "target": "Layar penuh tanpa bingkai",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 94,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326760352763904",
+      "key": "fullscreen_settings_MaximizedWindow",
+      "source": "Развёрнутое окно",
+      "target": "Jendela dimaksimalkan",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 95,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326850240892928",
+      "key": "fullscreen_settings_Windowed",
+      "source": "Оконный",
+      "target": "Mode jendela",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 96,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78385109777764352",
+      "key": "control_key_ExitRoom",
+      "source": "Выйти",
+      "target": "Keluar",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 97,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616001506955264",
+      "key": "control_key_HangPhone",
+      "source": "Повесить трубку",
+      "target": "Tutup telepon",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 98,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616142859194368",
+      "key": "control_key_CloseFridge",
+      "source": "Закрыть",
+      "target": "Tutup",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 99,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616236836769792",
+      "key": "control_key_PutRadio",
+      "source": "Положить [зажать]",
+      "target": "Letakkan [tahan]",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 100,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616429665701888",
+      "key": "control_key_Leave",
+      "source": "Закрыть",
+      "target": "Tutup",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 101,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78722207886069760",
+      "key": "control_key_Run",
+      "source": "Бежать",
+      "target": "Lari",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 102,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78999771271647232",
+      "key": "control_key_UseFridgeItem",
+      "source": "Использовать [зажать]",
+      "target": "Gunakan [tahan]",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 103,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109195730079744",
+      "key": "phone_sub_Forrest",
+      "source": "«For Rest»",
+      "target": "«For Rest»",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 104,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109268786466816",
+      "key": "phone_sub_Neighbour",
+      "source": "Сосед",
+      "target": "Tetangga",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 105,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109308955316224",
+      "key": "phone_sub_FEMA",
+      "source": "КЧС",
+      "target": "KChS",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 106,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109359555399680",
+      "key": "phone_sub_Psychics",
+      "source": "Экстрасенсы",
+      "target": "Paranormal",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 107,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80130372527706112",
+      "key": "Object_PhoneNumbers",
+      "source": "Номера телефонов",
+      "target": "Nomor telepon",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 108,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+      "key": "consumable_coffee_name",
+      "source": "Кофе",
+      "target": "Kopi",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 109,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+      "key": "consumable_enerjeka_name",
+      "source": "Энержека",
+      "target": "Enerzheka",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 110,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80910065015181312",
+      "key": "Message_NoMoreRadio",
+      "source": "Кажется, сегодня больше не поймать никаких радиопередач.",
+      "target": "Sepertinya tidak ada lagi siaran radio yang bisa kutangkap hari ini.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 111,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+      "key": "characterName_NotTrue",
+      "source": "страшная бабка",
+      "target": "nenek menyeramkan",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 112,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83008742139613184",
+      "key": "control_key_ShowTutor",
+      "source": "Инструкция",
+      "target": "Petunjuk",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 113,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079022971179008",
+      "key": "cant_open_door_timeOfDay",
+      "source": "Лучше не заходить туда сейчас. Проверю днём.",
+      "target": "Sebaiknya aku tidak masuk ke sana sekarang. Akan kuperiksa pada siang hari.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 114,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079056223621120",
+      "key": "cant_open_window_timeOfDay",
+      "source": "Боюсь, я ослепну от такого. Лучше загляну ночью.",
+      "target": "Aku takut mataku akan buta kalau melihatnya sekarang. Lebih baik kuperiksa malam nanti.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 115,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079087727038464",
+      "key": "cant_open_door_day",
+      "source": "Сегодня не до этого.",
+      "target": "Sekarang bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 116,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079202038599680",
+      "key": "cant_open_window_day",
+      "source": "Сегодня не до этого.",
+      "target": "Sekarang bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 117,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079270019878912",
+      "key": "cant_open_peephole_day",
+      "source": "Сегодня не до этого.",
+      "target": "Sekarang bukan waktunya.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 118,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079223148531712",
+      "key": "cant_open_peephole_timeOfDay",
+      "source": "Никто не будет в это время суток ходить по улице.",
+      "target": "Tak ada yang akan berjalan di luar pada waktu seperti ini.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 119,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83741359755481088",
+      "key": "message_noMoreBeerToday",
+      "source": "Пожалуй, на сегодня с меня хватит.",
+      "target": "Kurasa cukup untuk hari ini.",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 120,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609794512867328",
+      "key": "radio_instruction_main",
+      "source": "Чтобы уловить сигнал, нужно крутить правую ручку. Для этого зажмите ЛКМ на правой ручке и передвигайте курсор влево или вправо.\n\nСлева — ручка для регулировки громкости.\n",
+      "target": "Untuk menangkap sinyal, putar kenop kanan. Tahan tombol kiri mouse pada kenop itu, lalu gerakkan kursor ke kiri atau ke kanan.\n\nKenop kiri digunakan untuk mengatur volume.\n",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 121,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+      "key": "radio_instruction_pencil",
+      "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+      "target": "aku sudah melepas pemblokir gelombang dari radio komunikasi\npersetan dengan mereka!",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 122,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075038585769984",
+      "key": "common_yes",
+      "source": "Да",
+      "target": "Ya",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 123,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075057707601920",
+      "key": "common_no",
+      "source": "Нет",
+      "target": "Tidak",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 124,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075013436723200",
+      "key": "common_sureToClose",
+      "source": "Вы уверены, что хотите выйти?\nВесь несохраненный прогресс будет потерян.\n",
+      "target": "Yakin ingin keluar?\nSemua progres yang belum disimpan akan hilang.\n",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 125,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+      "key": "characterName_Anger",
+      "source": "злой толстяк с ранами",
+      "target": "pria gemuk pemarah yang terluka",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 126,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+      "key": "characterName_Sirin",
+      "source": "две сестры",
+      "target": "dua saudari",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 127,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:89138519934226432",
+      "key": "common_pause",
+      "source": "Пауза",
+      "target": "Jeda",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 128,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93159162333093888",
+      "key": "message_demo_phone",
+      "source": "Телефонные линии отрубило до осени. Остаётся ждать…",
+      "target": "Saluran telepon terputus hingga musim gugur. Tinggal menunggu...",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 129,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358144",
+      "key": "control_key_Answer",
+      "source": "Ответить",
+      "target": "Jawab",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 130,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358145",
+      "key": "control_key_Listen",
+      "source": "Слушать",
+      "target": "Dengarkan",
+      "targetBatch": "Translations/id/ui-batch-003.json",
+      "targetBatchSha256": "0ad4f976a5918f8fc588b02a367a3a7ab951774c35ae9fdad405be6fd11fdb2d"
+    },
+    {
+      "sourceOrderIndex": 131,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358146",
+      "key": "control_key_RotateHandle",
+      "source": "Искать частоту [крутить]",
+      "target": "Cari frekuensi [putar]",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 132,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358147",
+      "key": "control_key_SwitchToFM",
+      "source": "Сменить диапазон волн на FM",
+      "target": "Ganti pita gelombang ke FM",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 133,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358148",
+      "key": "control_key_SwitchToAM",
+      "source": "Сменить диапазон волн на AM",
+      "target": "Ganti pita gelombang ke AM",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 134,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216557715456",
+      "key": "settings_vibrator",
+      "source": "Вибрация геймпада",
+      "target": "Getaran gamepad",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 135,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075584",
+      "key": "settings_gamepad_sensitivity",
+      "source": "Чувствительность геймпада",
+      "target": "Sensitivitas gamepad",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 136,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075585",
+      "key": "settings_room_gamepad_sensitivity",
+      "source": "Чувствительность геймпада в комнатах",
+      "target": "Sensitivitas gamepad di dalam ruangan",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 137,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075586",
+      "key": "settings_mouse_sensitivity",
+      "source": "Чувствительность мыши",
+      "target": "Sensitivitas mouse",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 138,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94374215708037120",
+      "key": "settings_controls",
+      "source": "Управление",
+      "target": "Kontrol",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 139,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101498826102919168",
+      "key": "objects_calendar",
+      "source": "Календарь",
+      "target": "Kalender",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 140,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499529651277824",
+      "key": "calendar_day_0",
+      "source": "День пива",
+      "target": "Hari Bir",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 141,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499572638699520",
+      "key": "calendar_day_1",
+      "source": "День огурца",
+      "target": "Hari Mentimun",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 142,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499586869972992",
+      "key": "calendar_day_2",
+      "source": "День семьи",
+      "target": "Hari Keluarga",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 143,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527090041180160",
+      "key": "message_got_item",
+      "source": "<color=#444444>Получено</color> x{0} <color=#225555>{1}</color>",
+      "target": "<color=#444444>Diterima</color> x{0} <color=#225555>{1}</color>",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 144,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527150292357120",
+      "key": "message_given_item",
+      "source": "<color=#444444>Отдано</color> x{0} <color=#225555>{1}</color>",
+      "target": "<color=#444444>Diberikan</color> x{0} <color=#225555>{1}</color>",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 145,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+      "key": "characterName_Hunter",
+      "source": "огромный бородатый мужик",
+      "target": "pria besar berjanggut",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 146,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+      "key": "characterName_Blind",
+      "source": "безглазый",
+      "target": "pria tanpa mata",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 147,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+      "key": "characterName_FortuneTeller",
+      "source": "женщина с картами таро",
+      "target": "perempuan dengan kartu tarot",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 148,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+      "key": "characterName_Scammer",
+      "source": "парень в футболке amogus",
+      "target": "pria berkaus amogus",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 149,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+      "key": "characterName_Provocateur",
+      "source": "агрессивный чел с огромной башкой",
+      "target": "pria agresif berkepala sangat besar",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 150,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+      "key": "characterName_Theorist",
+      "source": "этот в очках и с усами",
+      "target": "pria berkacamata dan berkumis itu",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 151,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+      "key": "characterName_Daughter",
+      "source": "плачущая девочка",
+      "target": "anak perempuan yang menangis",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 152,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+      "key": "characterName_BigLebowski",
+      "source": "подросток в кепке",
+      "target": "remaja bertopi",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 153,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+      "key": "characterName_Couple",
+      "source": "семейная пара",
+      "target": "pasangan suami istri",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 154,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+      "key": "characterName_WolfHound",
+      "source": "лысый бандит в костюме",
+      "target": "bandit botak berjas",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 155,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+      "key": "characterName_Ballerina",
+      "source": "женщина с котом",
+      "target": "perempuan dengan kucing",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 156,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+      "key": "characterName_Nun",
+      "source": "верующая",
+      "target": "perempuan beriman",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 157,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+      "key": "characterName_Esenin",
+      "source": "длиннющий",
+      "target": "si jangkung",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 158,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+      "key": "characterName_Raskolnikov",
+      "source": "парень в фиолетовой бандане",
+      "target": "pria berbandana ungu",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 159,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054044770242560",
+      "key": "characterName_Cold",
+      "source": "мерзляк в куртке",
+      "target": "pria mudah kedinginan berjaket",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 160,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+      "key": "characterName_TaxiDriver",
+      "source": "таксист в кепке",
+      "target": "sopir taksi bertopi",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 161,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+      "key": "characterName_Bestson",
+      "source": "парень в футболке с номером",
+      "target": "pria berkaus bernomor",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 162,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054046376660992",
+      "key": "characterName_AlkonostTwins",
+      "source": "курящая женщина",
+      "target": "perempuan perokok",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 163,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+      "key": "characterName_Greatmother",
+      "source": "огромная женщина с чёлкой",
+      "target": "perempuan besar berponi",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 164,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+      "key": "characterName_Buddy",
+      "source": "здоровый гремлин",
+      "target": "gremlin besar",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 165,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+      "key": "characterName_Luka",
+      "source": "мужчина в зелёной кепке",
+      "target": "pria bertopi hijau",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 166,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+      "key": "characterName_Intruder",
+      "source": "мужчина в чёрном худи с капюшоном",
+      "target": "pria berhoodie hitam",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 167,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+      "key": "characterName_GraveDigger",
+      "source": "горбатый мужик",
+      "target": "pria bungkuk",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 168,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+      "key": "characterName_Wifefema",
+      "source": "боевая баба с ярким макияжем",
+      "target": "perempuan tangguh dengan riasan mencolok",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 169,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+      "key": "characterName_CultistOne",
+      "source": "культист",
+      "target": "pengikut sekte",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 170,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+      "key": "characterName_Edgar",
+      "source": "опрятный мужчина с гангреной",
+      "target": "pria rapi dengan gangren",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 171,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+      "key": "characterName_Teacher",
+      "source": "женщина в вязаном свитере и очках",
+      "target": "perempuan berkacamata dan bersweter rajut",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 172,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+      "key": "characterName_CultistThree",
+      "source": "культист",
+      "target": "pengikut sekte",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 173,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+      "key": "characterName_Fugitive",
+      "source": "мужчина с раной в животе",
+      "target": "pria dengan luka di perut",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 174,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+      "key": "characterName_Mother",
+      "source": "женщина с ребёнком",
+      "target": "perempuan dengan anak",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 175,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+      "key": "characterName_Widow",
+      "source": "женщина с трупом",
+      "target": "perempuan dengan mayat",
+      "targetBatch": "Translations/id/ui-batch-004.json",
+      "targetBatchSha256": "459f1c25a67deffb1f62c19be9f443e26205b93c434aa6902826d0d864e3f99e"
+    },
+    {
+      "sourceOrderIndex": 176,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+      "key": "characterName_Fatman",
+      "source": "голый жирдяй",
+      "target": "si gendut telanjang",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 177,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+      "key": "characterName_FormerFema",
+      "source": "мужчина в костюме КЧС",
+      "target": "pria berseragam KChS",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 178,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+      "key": "characterName_Fan",
+      "source": "грязный жёлтый мужик",
+      "target": "pria kuning yang kotor",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 179,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+      "key": "characterName_Dude",
+      "source": "растаман с дредами",
+      "target": "pria Rastafari berambut gimbal",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 180,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+      "key": "characterName_Anxiety",
+      "source": "девушка со скалиозом",
+      "target": "gadis dengan skoliosis",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 181,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+      "key": "characterName_Marauder",
+      "source": "бомж",
+      "target": "gelandangan",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 182,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+      "key": "characterName_Foreigner",
+      "source": "парень с зашитым ртом",
+      "target": "pria dengan mulut dijahit",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 183,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055636873515008",
+      "key": "characterName_SirinTwins",
+      "source": "женщина в депрессии",
+      "target": "perempuan yang depresi",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 184,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:103649253699342336",
+      "key": "common_skip",
+      "source": "Пропустить",
+      "target": "Lewati",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 185,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:109486460518277120",
+      "key": "gacha_intro_description",
+      "source": "Кусочек спокойной безмятежной жизни, не предвещавшей беды.",
+      "target": "Sepenggal kehidupan yang tenang dan damai, tanpa pertanda akan datangnya bencana.",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 186,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499609678598144",
+      "key": "calendar_day_3",
+      "source": "День против конъюнктивита",
+      "target": "Hari Melawan Konjungtivitis",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 187,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499620114026496",
+      "key": "calendar_day_4",
+      "source": "День защиты детей",
+      "target": "Hari Perlindungan Anak",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 188,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499628875927552",
+      "key": "calendar_day_5",
+      "source": "День кассира",
+      "target": "Hari Kasir",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 189,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499641635000320",
+      "key": "calendar_day_6",
+      "source": "День поселка городского типа",
+      "target": "Hari Permukiman Perkotaan",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 190,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499651860713472",
+      "key": "calendar_day_7",
+      "source": "День гостеприимства",
+      "target": "Hari Keramahtamahan",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 191,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499664099692544",
+      "key": "calendar_day_8",
+      "source": "Всемирный день «Спасибо»",
+      "target": "Hari Terima Kasih Sedunia",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 192,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499674375737344",
+      "key": "calendar_day_9",
+      "source": "День дипломатии",
+      "target": "Hari Diplomasi",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 193,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499685037658112",
+      "key": "calendar_day_10",
+      "source": "День примирений",
+      "target": "Hari Rekonsiliasi",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 194,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499700946653184",
+      "key": "calendar_day_11",
+      "source": "День ветряной мельницы",
+      "target": "Hari Kincir Angin",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 195,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499724829020160",
+      "key": "calendar_day_12",
+      "source": "Празднования ухода лета",
+      "target": "Perayaan Berakhirnya Musim Panas",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 196,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499734798880768",
+      "key": "calendar_day_13",
+      "source": "День ",
+      "target": "Hari ",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 197,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:108827407107739648",
+      "key": "message_bodyEaterVisit",
+      "source": "Никого не осталось. Это... из-за сна?",
+      "target": "Tak ada siapa-siapa lagi. Apa ini... gara-gara mimpi itu?",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 198,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85988737455738880",
+      "key": "radio_instruction_pencil2",
+      "source": "блять теперь не работает",
+      "target": "bangsat, sekarang malah tidak berfungsi",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 199,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85989059582480384",
+      "key": "radio_instruction_main2",
+      "source": "Если поймать сигнал так и не удалось, попробуйте сменить диапазон волны. Для этого нажмите на отжатую кнопку с помощью ЛКМ и продолжайте правой ручкой искать нужную вам волну.",
+      "target": "Jika sinyal masih belum tertangkap, coba ganti pita gelombang. Klik tombol yang belum ditekan dengan tombol kiri mouse, lalu lanjutkan mencari gelombang yang diinginkan dengan kenop kanan.",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 200,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93637984313397248",
+      "key": "question_marks",
+      "source": "???",
+      "target": "???",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 201,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118142792813256704",
+      "key": "mainMenu_collection",
+      "source": "Коллекция",
+      "target": "Koleksi",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 202,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118498831341461504",
+      "key": "gacha_select_character",
+      "source": "???",
+      "target": "???",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 203,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119628010817052672",
+      "key": "phone_sub_Extrasens",
+      "source": "От гадалки",
+      "target": "Dari peramal",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 204,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630628608008192",
+      "key": "phone_sub_PhoneRoulette",
+      "source": "Телефонная рулетка",
+      "target": "Roulette Telepon",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 205,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630426442555392",
+      "key": "phone_sub_BestSonFamily",
+      "source": "Сестра «лучшего сына»",
+      "target": "Saudari «anak laki-laki terbaik»",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 206,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630501872918528",
+      "key": "phone_sub_MothersHusband",
+      "source": "Муж непутёвой матери",
+      "target": "Suami ibu yang lalai",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 207,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630550598148096",
+      "key": "phone_sub_AlkonostsHusband",
+      "source": "Муж близняшки",
+      "target": "Suami salah satu saudari kembar",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 208,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630801698545664",
+      "key": "phone_sub_AngersWife",
+      "source": "Жена злого толстяка",
+      "target": "Istri pria gemuk pemarah",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 209,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630847580037120",
+      "key": "phone_sub_FEMARecruiter",
+      "source": "От жены КЧС-ника",
+      "target": "Dari istri petugas KChS",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 210,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630891322433536",
+      "key": "phone_sub_ForeignEmbassy",
+      "source": "Иностранное посольство",
+      "target": "Kedutaan asing",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 211,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+      "key": "phone_sub_DaughtersFriend",
+      "source": "Подруга девочки",
+      "target": "Teman si anak perempuan",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 212,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715969077248",
+      "key": "FridgeItem_Mushroom_NarrativeDescription",
+      "source": "Странный гриб. Как он вообще пророс в картошке?",
+      "target": "Jamur aneh. Bagaimana bisa tumbuh di dalam kentang?",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 213,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243072",
+      "key": "FridgeItem_Mushroom_GameplayDescription",
+      "source": "Отправляет вас ненадолго в страну грибов",
+      "target": "Mengirim Anda sebentar ke Negeri jamur",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 214,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243073",
+      "key": "Message_EatApple",
+      "source": "Съел яблоко. Кислое и сладкое одновременно...",
+      "target": "Aku makan apel itu. Rasanya asam sekaligus manis...",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 215,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243074",
+      "key": "Message_LookClocks",
+      "source": "Выставил 12, как и сказано на страницах «Учебника улыбок»",
+      "target": "Kusetel ke angka 12, seperti yang tertulis di halaman «Buku Pelajaran Senyum»",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 216,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165490289352704",
+      "key": "gacha_baby_description",
+      "source": "Выстрел прогремел в молоке тумана, и над толпой поднялись крылья, пахнущие пеплом.\n",
+      "target": "Letusan senapan menggema di tengah kabut seputih susu, dan sayap berbau abu terangkat di atas kerumunan.\n",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 217,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165494445907968",
+      "key": "gacha_basement_description",
+      "source": "Подвал стал вселенной: окна замурованы, голоса сливаются с тиканьем часов. Солнце угасает, но разве…это конец мучений?\r",
+      "target": "Ruang bawah tanah menjadi semesta: jendela ditutup papan, suara-suara melebur dengan detak jam. Matahari meredup, tetapi apakah... ini akhir dari penderitaan?\r",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 218,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165596245860352",
+      "key": "gacha_basementWitThem_description",
+      "source": "Гости были рядом с тобой всё это время: тёплое дыхание в темноте, шепот и злой смешок за спиной. Свет ты уже не увидишь, даже если его включат.\r",
+      "target": "Para Tamu berada di dekatmu selama ini: napas hangat dalam kegelapan, bisikan, dan tawa kecil jahat di belakangmu. Kau tak akan melihat cahaya lagi, sekalipun lampu dinyalakan.\r",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 219,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165625647931392",
+      "key": "gacha_cult_description",
+      "source": "Они молились не о живых. Возможно, их мольба наконец нашла отклик, и мир стал тише.\n",
+      "target": "Mereka tidak berdoa untuk orang yang hidup. Mungkin doa mereka akhirnya dijawab, dan dunia menjadi lebih sunyi.\n",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 220,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165663648325632",
+      "key": "gacha_fema_description",
+      "source": "Тебя увезли под сирены, оставив все воспоминания в старом доме. Вот бы вернуться, чтобы забрать плакат с собой. \r",
+      "target": "Kau dibawa pergi diiringi sirene, meninggalkan semua kenangan di rumah lama itu. Andai saja kau bisa kembali untuk mengambil postermu. \r",
+      "targetBatch": "Translations/id/ui-batch-005.json",
+      "targetBatchSha256": "32a91cc95c800dcd7d479584bf8e76a8b857f2c673124709426c3df7c404a87e"
+    },
+    {
+      "sourceOrderIndex": 221,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165680962412544",
+      "key": "gacha_super_description",
+      "source": "Его тень только перешагнула порог, и дом опустел. Так бывает иногда в жизни: от тебя остаются только слухи. \r\n",
+      "target": "Bayangannya baru saja melangkahi ambang pintu, dan rumah pun kosong. Kadang begitulah hidup: yang tersisa darimu hanya desas-desus. \r\n",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 222,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165713078198272",
+      "key": "gacha_killer_description",
+      "source": "Каждый встречный казался тебе врагом. Страх только ослеплял, а люди лишь довели начатое до конца.\r",
+      "target": "Setiap orang yang kau temui tampak seperti musuh. Rasa takut hanya membutakanmu, sedangkan orang-orang sekadar menuntaskan apa yang sudah dimulai.\r",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 223,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165741096148992",
+      "key": "gacha_mushroom_description",
+      "source": "Грибы поднимались из земли, строя чужие города. Ты спешил, но двери в их мир уже закрылись.",
+      "target": "Jamur-jamur bangkit dari tanah, membangun kota-kota asing. Kau bergegas, tetapi pintu menuju dunia mereka sudah tertutup.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 224,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165774780604416",
+      "key": "gacha_rage_description",
+      "source": "Один суд закончился, чтобы начался другой. Теперь в глазах толпы ты — тот, кого должны бояться. ",
+      "target": "Satu pengadilan berakhir, hanya untuk memberi jalan bagi pengadilan berikutnya. Kini, di mata orang banyak, kaulah yang patut mereka takuti. ",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 225,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165792199548928",
+      "key": "gacha_death_description",
+      "source": "Только стоит сделать этот тяжёлый шаг за черту, и всё, чего ты боялся, перестало иметь вес. Время исчезло, оставив за собой лишь холод, похожий на утешение.",
+      "target": "Begitu kau mengambil langkah berat melewati batas itu, segala yang kautakuti tak lagi berarti. Waktu lenyap, hanya menyisakan dingin yang terasa seperti penghiburan.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 226,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:124348878002024448",
+      "key": "calendar_day_31",
+      "source": "Сплетнославие",
+      "target": "Pemujaan Gosip",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 227,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78987670541029376",
+      "key": "message_nail_up_window_1",
+      "source": "Надо защититься. Все способы хороши.",
+      "target": "Aku harus melindungi diri. Segala cara boleh ditempuh.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 228,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78987749125509120",
+      "key": "message_nail_up_window_2",
+      "source": "Если приложить все усилия, выжить можно.\r\nЭтот мир уже проклят.\r",
+      "target": "Jika berusaha sekuat tenaga, kita bisa bertahan hidup.\r\nDunia ini sudah terkutuk.\r",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 229,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78988993487425536",
+      "key": "message_need_to_nail_up_windows",
+      "source": "Надо заколотить окна. Дальше только хуже, но надо попробовать спастись.",
+      "target": "Aku harus menutup jendela dengan papan. Keadaan hanya akan memburuk, tetapi aku harus berusaha menyelamatkan diri.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 230,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+      "key": "consumable_povistka_name",
+      "source": "Явка в КЧС",
+      "target": "Menghadap KChS",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 231,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128370639113281536",
+      "key": "consumable_bobeer_name",
+      "source": "Пиво",
+      "target": "Bir",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 232,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+      "key": "consumable_catfood_name",
+      "source": "Кошачий корм",
+      "target": "Makanan kucing",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 233,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128645536196583424",
+      "key": "gacha_locked_ending",
+      "source": "Концовка ещё не разблокирована",
+      "target": "Akhir cerita belum terbuka",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 234,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131611744537665536",
+      "key": "common_sureToCloseSave",
+      "source": "Вы уверены, что хотите выйти?\nПрогресс будет сохранён.\n",
+      "target": "Yakin ingin keluar?\nProgres akan disimpan.\n",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 235,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131613735687020544",
+      "key": "Common_SaveAndQuit",
+      "source": "Сохранение и выход на рабочий стол \n",
+      "target": "Simpan dan keluar ke desktop \n",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 236,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:139881039264735232",
+      "key": "control_key_SpeedUp",
+      "source": "Ускорить",
+      "target": "Percepat",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 237,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:164644497961066496",
+      "key": "gacha_alone_description",
+      "source": "Пока мир наверху умирает, ты остался наедине с обломками собственной жизни. Разрушенное погребено навсегда, и ты — вместе с ним.",
+      "target": "Sementara dunia di atas sana sekarat, kau tinggal sendirian bersama puing-puing hidupmu sendiri. Yang telah hancur terkubur selamanya, dan kau pun bersamanya.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 238,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "key": "characterName_Unstable",
+      "source": "дёрганый",
+      "target": "orang yang gelisah",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 239,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+      "key": "characterName_Rocker",
+      "source": "музыкант какой-то",
+      "target": "musisi entah siapa",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 240,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+      "key": "characterName_Experienced",
+      "source": "голый мужчина",
+      "target": "pria telanjang",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 241,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+      "key": "characterName_Jacket",
+      "source": "паренёк в куртке",
+      "target": "pemuda berjaket",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 242,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+      "key": "characterName_Tough",
+      "source": "женщина в топике",
+      "target": "perempuan berbaju tank top",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 243,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+      "key": "characterName_Bald",
+      "source": "лысый",
+      "target": "pria botak",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 244,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+      "key": "characterName_Nervous",
+      "source": "чудной парень в майке",
+      "target": "pria aneh berkaus singlet",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 245,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+      "key": "characterName_Leper",
+      "source": "мужик с проблемами кожи",
+      "target": "pria dengan masalah kulit",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 246,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+      "key": "characterName_Fairytaller",
+      "source": "мечтательный студентик",
+      "target": "mahasiswa yang suka melamun",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 247,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+      "key": "characterName_FunnyGuy",
+      "source": "волосатый здоровяк",
+      "target": "pria kekar berbulu lebat",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 248,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+      "key": "characterName_Alt",
+      "source": "девушка с тату",
+      "target": "gadis bertato",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 249,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+      "key": "characterName_Tourist",
+      "source": "парень с загаром",
+      "target": "pria berkulit kecokelatan",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 250,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179147632767213568",
+      "key": "language_pl",
+      "source": "Polski",
+      "target": "Polski",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 251,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179147632809156608",
+      "key": "language_ar",
+      "source": "العربية",
+      "target": "العربية",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 252,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179157896413650944",
+      "key": "language_pt-PT",
+      "source": "Português (Portugal)",
+      "target": "Português (Portugal)",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 253,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193168367047221248",
+      "key": "characterName_CultistTwo",
+      "source": "культист",
+      "target": "pengikut sekte",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 254,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+      "key": "characterName_Doc",
+      "source": "доктор",
+      "target": "dokter",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 255,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167156193599488",
+      "key": "characterName_Wheelchair",
+      "source": "парень без ног",
+      "target": "pria tanpa kaki",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 256,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:203009390581719040",
+      "key": "radio_instruction_main_gamepad",
+      "source": "Чтобы уловить сигнал, нужно крутить правую ручку. Для этого крутите правый стик геймпада по или против часовой стрелки.\n\nСлева — ручка для регулировки громкости.",
+      "target": "Untuk menangkap sinyal, putar kenop kanan. Putar stik kanan pada gamepad searah atau berlawanan arah jarum jam.\n\nKenop kiri digunakan untuk mengatur volume.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 257,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:203009496299151360",
+      "key": "radio_instruction_main2_gamepad",
+      "source": "Если поймать сигнал так и не удалось, попробуйте сменить диапазон волны. Для этого нажмите левый или правый бампер и продолжайте искать нужную вам волну с помощью правого стика.",
+      "target": "Jika sinyal masih belum tertangkap, coba ganti pita gelombang. Tekan bumper kiri atau kanan, lalu lanjutkan mencari gelombang yang diinginkan dengan stik kanan.",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 258,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:229762759966924800",
+      "key": "settings_invertYMouse",
+      "source": "Инверс. Y (мышь)",
+      "target": "Balik sumbu Y (mouse)",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 259,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:229762825867829248",
+      "key": "settings_invertYGamepad",
+      "source": "Инверс. Y (геймпад)",
+      "target": "Balik sumbu Y (gamepad)",
+      "targetBatch": "Translations/id/ui-batch-006.json",
+      "targetBatchSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc"
+    },
+    {
+      "sourceOrderIndex": 260,
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+      "key": "line:Esenin_Armpit_0a58dc6",
+      "source": "Esenin: Спасибо, что в жопу мне не залез!",
+      "target": "Esenin: Makasih sudah nggak memeriksa sampai ke lubang pantatku!",
+      "targetBatch": "Translations/id/checks-batch-001.json",
+      "targetBatchSha256": "f2755a4b49114b5600005fc3a702ef06109b3779dbe9f27299a80f5bb98bef20"
+    }
+  ],
+  "semanticPassComplete": false,
+  "independentReview": "pending"
+}

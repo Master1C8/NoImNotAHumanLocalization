@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/id_independent_review_01",
+  "completedAtUtc": "2026-10-09 18:47:08 UTC",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "targetLocale": "id",
+  "scope": "text only; exact 2182-ID cycle-01 closure",
+  "verdict": "corrections required",
+  "editorialAcceptance": false,
+  "closureCount": 2182,
+  "modelReadRows": 2182,
+  "findings": 9,
+  "unreadRows": 0,
+  "firstPassStatus": "Author-recorded complete 16538-unit first pass; immutable evidence fingerprints verified. This reviewer’s semantic read scope is the 2182-unit closure.",
+  "hashVerification": {
+    "schemaVersion": 1,
+    "handoffSha256": "86162646cfa8b22c93e675902eea520e81dabdb1df30a416a71957a44d7ccc9f",
+    "hashChecks": 737,
+    "hashMismatches": [],
+    "targetInputs": 332,
+    "validationSidecars": 332,
+    "canonicalIds": 16538,
+    "closureRows": 2182,
+    "rowErrors": [],
+    "selectorResults": [
+      {
+        "kind": "component",
+        "key": "changed",
+        "count": 83,
+        "expectedCount": 83,
+        "sha256": "81f262a476b14d8b19bedc2c881ad797474bf2bd66030e28bc4129d511f64fb0",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "context",
+        "count": 444,
+        "expectedCount": 444,
+        "sha256": "91e2d60b67514d44a249005da749a0fc9692a30c673ca3988cc3423cb99f2f94",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "repetitions",
+        "count": 83,
+        "expectedCount": 83,
+        "sha256": "81f262a476b14d8b19bedc2c881ad797474bf2bd66030e28bc4129d511f64fb0",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "glossary-referents",
+        "count": 1232,
+        "expectedCount": 1232,
+        "sha256": "ca406792ee84cc1b47a354024a522514e12ed0ff2e08a1d93c32d6a3cbf7088f",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "runtime-bindings",
+        "count": 10,
+        "expectedCount": 10,
+        "sha256": "811751d1f2f086a12b319f269aa4ec9ff4c87298588c52112f094dabb15be97b",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "mandatory-regressions",
+        "count": 832,
+        "expectedCount": 832,
+        "sha256": "36bbc34283c224485fe83b4ef51e076a3cd39669f5de2b24a8c1e3a14e6bbaac",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "component",
+        "key": "closure",
+        "count": 2182,
+        "expectedCount": 2182,
+        "sha256": "17769aec9c8dbaa420e415d87a03e6712c57c5dc359d2f11bf52e54ba8df52f8",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "ui-menu-hud-locale-save-input",
+        "count": 259,
+        "expectedCount": 259,
+        "sha256": "a786dc2726f3adc30fe338d65a9d8227290e0bbc578ec9c1aeb9e6d7229103f6",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "static-tmp-credits-environment",
+        "count": 178,
+        "expectedCount": 178,
+        "sha256": "f7a0099aa0ae7d19b16368e866734e7a795b39888c9abd7f4f53913733fb80a9",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "accepted-checks",
+        "count": 1,
+        "expectedCount": 1,
+        "sha256": "3aae49628ba5ca5d923a1e5fd0288954d36af64483bac6256c93cbd9f99ba430",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "protected-placeholders-markup-breaks-symbols",
+        "count": 225,
+        "expectedCount": 225,
+        "sha256": "0449ba8db1b5adf68a0195fc5771c58923cdad9216221752d946cadf8d1811d6",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "gender-kinship-address",
+        "count": 276,
+        "expectedCount": 276,
+        "sha256": "364b0df7b28eb62d3fbc7b763b1dfd001ddd8b766e90a238e19a0941f849cc39",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      },
+      {
+        "kind": "regression",
+        "key": "mixed-script-target",
+        "count": 22,
+        "expectedCount": 22,
+        "sha256": "a8b741e2f71e2bed6af821dae6d62e15b8ca918a780056b2becddff0badc62b4",
+        "exactBytesEqual": true,
+        "missing": [],
+        "extra": []
+      }
+    ]
+  },
+  "coverageFile": "coverage.jsonl",
+  "findingsFile": "findings.json",
+  "regressionFile": "regression-results.json",
+  "consumerFile": "consumer-review.json",
+  "finalStructuralGate": {
+    "preserveExactRows": 16538,
+    "result": "passed",
+    "report": "preserve-exact-final.json",
+    "sidecarApplicability": "332 recorded passes bound to current inputs; sidecar-applicability.json",
+    "proposedReplacements": "9 full-unit proposals pass preserved syntax; proposal-structural-validation.json"
+  },
+  "unchangedHashes": true,
+  "sourcePlaceholdersAndLimits": {
+    "historicalDialogs": 50,
+    "checksCompatibilityCell": 1,
+    "classification": "See consumer-review.json; no active runtime claim for these source-only/compatibility cells.",
+    "dynamicSubstitution": "Static owning functions and program operands reviewed; actual player/item inputs were not run.",
+    "layoutAndRuntime": "not tested",
+    "imagesAndTextures": "excluded by owner"
+  },
+  "telemetry": {
+    "model": "unknown; exact assigned model identifier not exposed",
+    "reasoning": "unknown",
+    "inputTokens": "unknown",
+    "cachedInputTokens": "unknown",
+    "outputTokens": "unknown",
+    "reasoningTokens": "unknown",
+    "totalTokens": "unknown",
+    "measurementCutoffUtc": "2026-10-09 18:47:08 UTC",
+    "reportingTail": "unmeasured; no estimate from rows or text length"
+  },
+  "nextAction": "Author adjudicates the nine complete proposals. Accepted edits belong to a new immutable correction cycle with a reproducible dependency closure and exact delta review, not an automatic full reread."
+}

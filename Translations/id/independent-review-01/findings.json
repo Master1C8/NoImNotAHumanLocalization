@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "reviewer": "/root/id_independent_review_01",
+  "status": "completed static independent closure review; corrections required",
+  "closureSha256": "17769aec9c8dbaa420e415d87a03e6712c57c5dc359d2f11bf52e54ba8df52f8",
+  "reviewRowsSha256": "36eb23be6279e5083963273ae786d0513f504557b31ea67ec1e0f8ddbd83127e",
+  "glossarySha256": "79b176ff4a5809c55f8ad13d354b60874d094c542d3a77da0bb375446a4c5852",
+  "findings": [
+    {
+      "findingId": "ID-IR01-001",
+      "closureIndex": 211,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+      "sourceOrderIndex": 211,
+      "targetFile": "Translations/id/ui-batch-005.json",
+      "targetFileSha256": "6ff27515a8cef05d03712860f672375efd3123ecb05e72019a8b48d014926a31",
+      "source": "Подруга девочки",
+      "currentTarget": "Teman si anak perempuan",
+      "proposedTarget": "Teman perempuan si anak",
+      "reason": "The contact label loses the female-friend relationship explicitly present in Подруга. Approved phone-numbers meaning quotes this exact label as Teman perempuan si anak; the answering mother is a separate actor.",
+      "glossaryConcepts": [
+        "phone-numbers",
+        "daughters-friends-mother"
+      ],
+      "nodeNames": [],
+      "evidence": [
+        "closure-review-rows.jsonl (pinned upstream)",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-002",
+      "closureIndex": 230,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+      "sourceOrderIndex": 230,
+      "targetFile": "Translations/id/ui-batch-006.json",
+      "targetFileSha256": "a3621830283936b9abe8b777c25a88f651769867e46a5a501e3d2933f048c5dc",
+      "source": "Явка в КЧС",
+      "currentTarget": "Menghadap KChS",
+      "proposedTarget": "Panggilan ke KChS",
+      "reason": "This is a consumable item name, not an instruction to report. The approved fema-notice term names the document Panggilan ke KChS; Menghadap KChS describes an action.",
+      "glossaryConcepts": [
+        "fema-notice"
+      ],
+      "nodeNames": [],
+      "evidence": [
+        "closure-review-rows.jsonl (pinned upstream)",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-003",
+      "closureIndex": 375,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399234",
+      "sourceOrderIndex": 1194,
+      "targetFile": "Translations/id/dialogue-batch-066.json",
+      "targetFileSha256": "828a88fe79c814290803d3ae917128894eb762850e0744af9d6221647d54ab73",
+      "source": "TV: И когда два брата выросли, вместе они основали пивоварню Бобер.",
+      "currentTarget": "TV: Ketika kedua saudara itu dewasa, mereka mendirikan pabrik bir Bober bersama-sama.",
+      "proposedTarget": "TV: Ketika kedua saudara laki-laki itu dewasa, mereka mendirikan pabrik bir Bober bersama-sama.",
+      "reason": "The two brothers in the advertisement become gender-unspecified siblings. The actual tv_4_extra1 narration introduces two brothers and later refers back to those same two male relatives.",
+      "glossaryConcepts": [
+        "tv-beer-ad"
+      ],
+      "nodeNames": [
+        "tv_4_extra1"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-004",
+      "closureIndex": 376,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399232",
+      "sourceOrderIndex": 1196,
+      "targetFile": "Translations/id/dialogue-batch-066.json",
+      "targetFileSha256": "828a88fe79c814290803d3ae917128894eb762850e0744af9d6221647d54ab73",
+      "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+      "currentTarget": "TV: Dahulu kala, dua saudara tinggal di dekat bendungan.",
+      "proposedTarget": "TV: Dahulu kala, dua saudara laki-laki tinggal di dekat bendungan.",
+      "reason": "The first introduction of the advertisement characters loses the male sibling fact in два брата. Approved tv-beer-ad explicitly describes two male siblings; no relative age is established.",
+      "glossaryConcepts": [
+        "tv-beer-ad"
+      ],
+      "nodeNames": [
+        "tv_4_extra1"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-005",
+      "closureIndex": 831,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456305582084",
+      "sourceOrderIndex": 4876,
+      "targetFile": "Translations/id/dialogue-batch-004.json",
+      "targetFileSha256": "2d48bbdf74eb7dee39770fbf0af2a158d089d6f2a2fa8f38db79b9d6b1b4a36a",
+      "source": "Neighbour: Двоюродная сестра сказала, что оставаться дома одному – опасно.",
+      "currentTarget": "Neighbour: Sepupuku bilang tinggal sendirian di rumah itu berbahaya.",
+      "proposedTarget": "Neighbour: Sepupu perempuanku bilang tinggal sendirian di rumah itu berbahaya.",
+      "reason": "The first cousin reference in this compiled exchange loses the explicitly female relation двоюродная сестра. The proposal preserves cousin degree and does not invent older/younger status.",
+      "glossaryConcepts": [
+        "neighbour"
+      ],
+      "nodeNames": [
+        "Neighbour_Entrance_4"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-006",
+      "closureIndex": 856,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449797",
+      "sourceOrderIndex": 5427,
+      "targetFile": "Translations/id/dialogue-batch-079.json",
+      "targetFileSha256": "9bac707bd221e3156f7e69d40dd6e0a0bda4c4606688fc130026971e59a117c9",
+      "source": "Их накопилось столько, что шляпа гриба покроет всю поверхность Земли.",
+      "currentTarget": "Jamur-jamur itu sudah begitu banyak sampai tudung jamur raksasa akan menutupi seluruh permukaan Bumi.",
+      "proposedTarget": "Gumpalan kebencian itu sudah begitu banyak sampai tudung jamur itu akan menutupi seluruh permukaan Bumi.",
+      "reason": "Compiled Mushroom_end_2 instruction 1 introduces комков злобы в мицелии; instruction 2 Их refers to those clumps of malice. Current Jamur-jamur incorrectly changes the accumulating subject to mushrooms. The proposal also avoids an unnecessary explicit raksasa absent from this source unit.",
+      "glossaryConcepts": [
+        "mycelium",
+        "mushroom-festival"
+      ],
+      "nodeNames": [
+        "Mushroom_end_2"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-007",
+      "closureIndex": 873,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456020369412",
+      "sourceOrderIndex": 5675,
+      "targetFile": "Translations/id/dialogue-batch-055.json",
+      "targetFileSha256": "41e96512e82f21611c57525475f560858a266dc7da1cca91ea122433dfdc92d5",
+      "source": "Я – непризнанный брат, отщепенец в народной семье.",
+      "currentTarget": "Aku saudara yang tak diakui, orang buangan dalam keluarga rakyat.",
+      "proposedTarget": "Aku saudara laki-laki yang tak diakui, orang buangan dalam keluarga rakyat.",
+      "reason": "The approved death entry explicitly requires preserving the masculine brother metaphor in this utterance. Generic saudara removes that metaphor detail; the proposal makes no claim about the entity’s biological gender.",
+      "glossaryConcepts": [
+        "death"
+      ],
+      "nodeNames": [
+        "Death_Income_5"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-008",
+      "closureIndex": 946,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "sourceOrderIndex": 6274,
+      "targetFile": "Translations/id/dialogue-batch-119.json",
+      "targetFileSha256": "76c2edd8b5e164f4a5d643f148549d33dc58833c468e1af9531146334b09f68e",
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "currentTarget": "Bald: Entah bagaimana aku pulang. Pintunya terbuka. Semuanya berantakan. Ibu dan Nenek tergeletak dengan… sial… jari-jari dan kaki yang patah, dan…",
+      "proposedTarget": "Bald: Suatu kali aku pulang. Pintunya terbuka. Semuanya berantakan. Ibu dan Nenek tergeletak dengan… sial… jari-jari dan kaki yang patah, dan…",
+      "reason": "Compiled Bald_Asking_4 recounts one return home after debt collectors escalated violence. Narrative как-то means on one occasion; Entah bagaimana changes it to uncertainty about how he returned.",
+      "glossaryConcepts": [
+        "theater-man"
+      ],
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    },
+    {
+      "findingId": "ID-IR01-009",
+      "closureIndex": 1736,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798979",
+      "sourceOrderIndex": 14807,
+      "targetFile": "Translations/id/dialogue-batch-228.json",
+      "targetFileSha256": "c3edc07f3fc386c1491ef731ac66ff169a34208bf7ad9464805c507cebe5b2d4",
+      "source": "Bestson: Поэтому у неё зубы испортились после меня, а у меня, наоборот, они стали вот такими вот хорошенькими! Только эти дёсны…",
+      "currentTarget": "Bestson: Jadi gigi Ibu rusak setelah aku, sedangkan gigiku justru tumbuh bagus seperti ini! Hanya gusinya…",
+      "proposedTarget": "Bestson: Jadi gigi Ibu rusak setelah Ibu menyusuiku, sedangkan gigiku justru tumbuh bagus seperti ini! Hanya gusinya…",
+      "reason": "Current setelah aku leaves the temporal phrase incomplete in Indonesian. In the IsImposter true arm, preceding instruction 5 explicitly states that the mother breastfed him and jokes that he drained her calcium; instruction 7 is the consequence. The proposal restores the contextual event without inventing sibling order.",
+      "glossaryConcepts": [
+        "best-son"
+      ],
+      "nodeNames": [
+        "Bestson_Teeth_DontShoot"
+      ],
+      "evidence": [
+        "candidate-context.json",
+        "Documentation/glossary-translations/id/layer.json"
+      ],
+      "status": "confirmed-proposal; author adjudication required"
+    }
+  ]
+}

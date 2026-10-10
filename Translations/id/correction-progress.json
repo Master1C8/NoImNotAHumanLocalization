@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "stage": "final offline Indonesian text gate passed; root integration acceptance pending",
+  "acceptedUnits": 16538,
+  "firstPassReviewedUnits": 16538,
+  "nextUnreviewedSourceOrderIndex": 16539,
+  "nextUnreviewedStableId": null,
+  "firstPassProgressBeforeCorrectionSha256": "b4a22608c29fa2c3a2f2656bd32211ddcecdd846bd60b911079392021d2f44de",
+  "cycle01AuthorCorrections": 83,
+  "cycle01IndependentReviewer": "/root/id_independent_review_01",
+  "cycle01IndependentReviewedClosureIds": 2182,
+  "cycle01IndependentFindings": 9,
+  "cycle02FindingsAdjudicated": 9,
+  "cycle02AcceptedCorrectionsApplied": 9,
+  "cumulativeCorrectionsApplied": 95,
+  "cycle02AffectedAuthoredFiles": 8,
+  "sourceAndGlossaryUnchanged": true,
+  "currentArtifactManifest": {
+    "path": "Translations/id/semantic-correction-cycle-03/artifact-manifest.json",
+    "sha256": "71ac6a9e0de12b586f1bf6b610ee0f9aeab79c6604e5af1afb5143123482d153"
+  },
+  "fullDiffVerification": {
+    "path": "Translations/id/semantic-correction-cycle-03/full-diff-verification.json",
+    "sha256": "39d185d0bd0d3d28b51dfcae4ef03c9a741cda5f4357e951d14ec8f3c051c441"
+  },
+  "componentManifest": {
+    "path": "Translations/id/semantic-correction-cycle-03/component-manifest.json",
+    "sha256": "392aa756364629b1d1d53fc66c4ab9333d531f40e9bcaac6c6d249ec8179d09b",
+    "changedIds": 3,
+    "closureIds": 1414
+  },
+  "deltaManifest": {
+    "path": "Translations/id/semantic-correction-cycle-03/delta-manifest.json",
+    "sha256": "bc7d90cf183b758b2e961976bf7e98347a8b013e4a899a98eab4b550aaa3d4a7",
+    "newDependencies": 19,
+    "explicitlyInvalidatedPrior": 1,
+    "retiredDependencies": 38,
+    "exactNextReviewSet": 21
+  },
+  "handoff": {
+    "path": "Translations/id/semantic-correction-cycle-03/independent-delta-handoff.json",
+    "sha256": "4cb35752e6f7a8cb19fb9657b1adea085c3ef133aa59b45a00f1cd1ffad41933"
+  },
+  "independentDeltaReview": "clean cycle-03 exact 21-ID delta by /root/id_independent_review_03 on unchanged pins",
+  "editorialAcceptance": "clean independent text evidence; root final acceptance pending",
+  "resolvedPriorQuestions": [
+    "UI row 197 mimpi supported by BodyEater consumer",
+    "Fatman singular-object candidate rejected and unchanged"
+  ],
+  "runtime": "not run",
+  "layout": "not rendered",
+  "nextAction": "Root independently verifies the pinned final offline gate and exact integration path/hash set, then owns Git and any later build/runtime checks.",
+  "sourceOnlyContext": {
+    "rows": 60,
+    "acceptedIdOverlap": 0,
+    "verificationPath": "Translations/id/semantic-correction-cycle-02/source-only-context-verification.json",
+    "verificationSha256": "d9c116aa6cfe4b94698f46192efb23e6046d2b2150051edda3de0d5c64392481"
+  },
+  "cycle02IndependentReviewer": "/root/id_independent_review_02",
+  "cycle02IndependentReviewedDeltaIds": 324,
+  "cycle02IndependentSupplementalIds": 3,
+  "cycle02IndependentFindings": 3,
+  "cycle02SelectorFindings": 1,
+  "cycle03FindingsAdjudicated": 3,
+  "cycle03AcceptedCorrectionsApplied": 3,
+  "cycle03AffectedAuthoredFiles": 3,
+  "previousCorrectionProgressSha256": "84badd47101e4a7d2e4996503f61a447bdd5760d750c66e9dec41203a988b5b5",
+  "currentCanonicalLocaleSelector": {
+    "path": "Translations/id/closure-selector-recipe-v3.py",
+    "sha256": "ce76ebb3f3c80e8b94215ff5952ad4dfe8dd072d552967a9ee3e5c0502b34b70",
+    "configPath": "Translations/id/closure-selector-config-v3.json",
+    "configSha256": "5cb82e159c0447dcca3dd8d2e5ff5c4ae75a55e2befd03ae5183082a8ee38505"
+  },
+  "independentDeltaReviewer03": "/root/id_independent_review_03",
+  "independentDeltaReviewedUnits03": 21,
+  "independentDeltaFindings03": 0,
+  "unresolvedObjectiveFindings": 0,
+  "finalGate": {
+    "path": "Translations/id/final-gate/gate-receipt.json",
+    "sha256": "4a28566262377d59c0f7afd486c1f540e04a0b2196cd84bbae1e0fe5a8287046",
+    "structuralRows": 16538,
+    "preserveExactRows": 16538,
+    "derivedStaticRows": 178,
+    "mandatoryRegressionIds": 845
+  },
+  "rootHandoffPath": "Translations/id/final-gate/root-handoff.json"
+}

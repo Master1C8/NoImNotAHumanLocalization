@@ -1,0 +1,2269 @@
+{
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "needle": "GetCourierOrder",
+  "matches": [
+    {
+      "token": "0x6000119",
+      "method": "Yarn.Unity.Generated.ActionRegistration.RegisterActions",
+      "instructions": [
+        {
+          "offset": "0xc",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xd",
+          "opcode": "ldstr",
+          "operand": "'LetIn'"
+        },
+        {
+          "offset": "0x12",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x13",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.LetCharacterIn"
+        },
+        {
+          "offset": "0x19",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x1e",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x23",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x24",
+          "opcode": "ldstr",
+          "operand": "'AggressiveLetIn'"
+        },
+        {
+          "offset": "0x29",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x2a",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.AggressiveLetCharacterIn"
+        },
+        {
+          "offset": "0x30",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x35",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x3a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3b",
+          "opcode": "ldstr",
+          "operand": "'Refuse'"
+        },
+        {
+          "offset": "0x40",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x41",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.RefuseCharacter"
+        },
+        {
+          "offset": "0x47",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x4c",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x51",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x52",
+          "opcode": "ldstr",
+          "operand": "'SetEmotion'"
+        },
+        {
+          "offset": "0x57",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x58",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.SetEmotion"
+        },
+        {
+          "offset": "0x5e",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x63",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x68",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x69",
+          "opcode": "ldstr",
+          "operand": "'PerformEvent'"
+        },
+        {
+          "offset": "0x6e",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x6f",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.PerformEvent"
+        },
+        {
+          "offset": "0x75",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x7a",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x7f",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x80",
+          "opcode": "ldstr",
+          "operand": "'Kill'"
+        },
+        {
+          "offset": "0x85",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x86",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.KillCharacter"
+        },
+        {
+          "offset": "0x8c",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x91",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x96",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x97",
+          "opcode": "ldstr",
+          "operand": "'FakeShot'"
+        },
+        {
+          "offset": "0x9c",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x9d",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.FakeShot"
+        },
+        {
+          "offset": "0xa3",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0xa8",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0xad",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xae",
+          "opcode": "ldstr",
+          "operand": "'KillNoGun'"
+        },
+        {
+          "offset": "0xb3",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0xb4",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.KillCharacterWithNoGun"
+        },
+        {
+          "offset": "0xba",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0xbf",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0xc4",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xc5",
+          "opcode": "ldstr",
+          "operand": "'KillRoom'"
+        },
+        {
+          "offset": "0xca",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0xcb",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.KillRoom"
+        },
+        {
+          "offset": "0xd1",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0xd6",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0xdb",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xdc",
+          "opcode": "ldstr",
+          "operand": "'KillTomorrow'"
+        },
+        {
+          "offset": "0xe1",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0xe2",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.KillTomorrow"
+        },
+        {
+          "offset": "0xe8",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0xed",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0xf2",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xf3",
+          "opcode": "ldstr",
+          "operand": "'ExileByFEMA'"
+        },
+        {
+          "offset": "0xf8",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0xf9",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ExileByFEMA"
+        },
+        {
+          "offset": "0xff",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x104",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000018)"
+        },
+        {
+          "offset": "0x109",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x10a",
+          "opcode": "ldstr",
+          "operand": "'ExileCharacter'"
+        },
+        {
+          "offset": "0x10f",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x110",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ExileCharacter"
+        },
+        {
+          "offset": "0x116",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x11b",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000019)"
+        },
+        {
+          "offset": "0x120",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x121",
+          "opcode": "ldstr",
+          "operand": "'ShowSign'"
+        },
+        {
+          "offset": "0x126",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x127",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ShowSign"
+        },
+        {
+          "offset": "0x12d",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x132",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001A)"
+        },
+        {
+          "offset": "0x137",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x138",
+          "opcode": "ldstr",
+          "operand": "'StopShowingSign'"
+        },
+        {
+          "offset": "0x13d",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x13e",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.StopShowingSign"
+        },
+        {
+          "offset": "0x144",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x149",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x14e",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x14f",
+          "opcode": "ldstr",
+          "operand": "'SetupGun'"
+        },
+        {
+          "offset": "0x154",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x155",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.SetUpGun"
+        },
+        {
+          "offset": "0x15b",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x160",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001B)"
+        },
+        {
+          "offset": "0x165",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x166",
+          "opcode": "ldstr",
+          "operand": "'DontSetupGun'"
+        },
+        {
+          "offset": "0x16b",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x16c",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.DontSetUpGun"
+        },
+        {
+          "offset": "0x172",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x177",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x17c",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x17d",
+          "opcode": "ldstr",
+          "operand": "'DeathBySuper'"
+        },
+        {
+          "offset": "0x182",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x183",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.Death"
+        },
+        {
+          "offset": "0x189",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x18e",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x193",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x194",
+          "opcode": "ldstr",
+          "operand": "'Ending'"
+        },
+        {
+          "offset": "0x199",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x19a",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.Ending"
+        },
+        {
+          "offset": "0x1a0",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x1a5",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x1aa",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x1ab",
+          "opcode": "ldstr",
+          "operand": "'Cutscene'"
+        },
+        {
+          "offset": "0x1b0",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x1b1",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.PlayCutscene"
+        },
+        {
+          "offset": "0x1b7",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x1bc",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x1c1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x1c2",
+          "opcode": "ldstr",
+          "operand": "'GetItem'"
+        },
+        {
+          "offset": "0x1c7",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x1c8",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetItem"
+        },
+        {
+          "offset": "0x1ce",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x1d3",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001C)"
+        },
+        {
+          "offset": "0x1d8",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x1d9",
+          "opcode": "ldstr",
+          "operand": "'ChangeState'"
+        },
+        {
+          "offset": "0x1de",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x1df",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ChangeState"
+        },
+        {
+          "offset": "0x1e5",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x1ea",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001C)"
+        },
+        {
+          "offset": "0x1ef",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x1f0",
+          "opcode": "ldstr",
+          "operand": "'FadeIn'"
+        },
+        {
+          "offset": "0x1f5",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x1f6",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.FadeIn"
+        },
+        {
+          "offset": "0x1fc",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x201",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001D)"
+        },
+        {
+          "offset": "0x206",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x207",
+          "opcode": "ldstr",
+          "operand": "'FadeOut'"
+        },
+        {
+          "offset": "0x20c",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x20d",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.FadeOut"
+        },
+        {
+          "offset": "0x213",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x218",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001D)"
+        },
+        {
+          "offset": "0x21d",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x21e",
+          "opcode": "ldstr",
+          "operand": "'GetCat'"
+        },
+        {
+          "offset": "0x223",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x224",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetCat"
+        },
+        {
+          "offset": "0x22a",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x22f",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x234",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x235",
+          "opcode": "ldstr",
+          "operand": "'GoToLocation'"
+        },
+        {
+          "offset": "0x23a",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x23b",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GoToLocation"
+        },
+        {
+          "offset": "0x241",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x246",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x24b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x24c",
+          "opcode": "ldstr",
+          "operand": "'BeginCultists'"
+        },
+        {
+          "offset": "0x251",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x252",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.BeginCultists"
+        },
+        {
+          "offset": "0x258",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x25d",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x262",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x263",
+          "opcode": "ldstr",
+          "operand": "'PetCat'"
+        },
+        {
+          "offset": "0x268",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x269",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.PetCat"
+        },
+        {
+          "offset": "0x26f",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x274",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x279",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x27a",
+          "opcode": "ldstr",
+          "operand": "'TakeCat'"
+        },
+        {
+          "offset": "0x27f",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x280",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.TakeCat"
+        },
+        {
+          "offset": "0x286",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x28b",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x290",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x291",
+          "opcode": "ldstr",
+          "operand": "'UnlockPhoneNumber'"
+        },
+        {
+          "offset": "0x296",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x297",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.UnlockPhoneNumber"
+        },
+        {
+          "offset": "0x29d",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x2a2",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x2a7",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2a8",
+          "opcode": "ldstr",
+          "operand": "'OrderCourier'"
+        },
+        {
+          "offset": "0x2ad",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x2ae",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.OrderCourier"
+        },
+        {
+          "offset": "0x2b4",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x2b9",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001C)"
+        },
+        {
+          "offset": "0x2be",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2bf",
+          "opcode": "ldstr",
+          "operand": "'StartWindowNoise'"
+        },
+        {
+          "offset": "0x2c4",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x2c5",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.StartWindowNoise"
+        },
+        {
+          "offset": "0x2cb",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x2d0",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x2d5",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2d6",
+          "opcode": "ldstr",
+          "operand": "'RefuseOldLetInNew'"
+        },
+        {
+          "offset": "0x2db",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x2dc",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.RefuseOldLetInNew"
+        },
+        {
+          "offset": "0x2e2",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x2e7",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x2ec",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2ed",
+          "opcode": "ldstr",
+          "operand": "'CallFEMATonight'"
+        },
+        {
+          "offset": "0x2f2",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x2f3",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.CallFEMATonight"
+        },
+        {
+          "offset": "0x2f9",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x2fe",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x303",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x304",
+          "opcode": "ldstr",
+          "operand": "'ChangePose'"
+        },
+        {
+          "offset": "0x309",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x30a",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ChangePose"
+        },
+        {
+          "offset": "0x310",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x315",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001A)"
+        },
+        {
+          "offset": "0x31a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x31b",
+          "opcode": "ldstr",
+          "operand": "'ChangePoseTomorrow'"
+        },
+        {
+          "offset": "0x320",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x321",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ChangePoseTomorrow"
+        },
+        {
+          "offset": "0x327",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x32c",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001A)"
+        },
+        {
+          "offset": "0x331",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x332",
+          "opcode": "ldstr",
+          "operand": "'ExileAfterTomorrow'"
+        },
+        {
+          "offset": "0x337",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x338",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ExileAfterTomorrow"
+        },
+        {
+          "offset": "0x33e",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x343",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x348",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x349",
+          "opcode": "ldstr",
+          "operand": "'SetFridgeActiveState'"
+        },
+        {
+          "offset": "0x34e",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x34f",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.SetFridgeActiveState"
+        },
+        {
+          "offset": "0x355",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x35a",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001B)"
+        },
+        {
+          "offset": "0x35f",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x360",
+          "opcode": "ldstr",
+          "operand": "'GetAchievement'"
+        },
+        {
+          "offset": "0x365",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x366",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetAchievement"
+        },
+        {
+          "offset": "0x36c",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x371",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x376",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x377",
+          "opcode": "ldstr",
+          "operand": "'ShowPlayerSign'"
+        },
+        {
+          "offset": "0x37c",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x37d",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.ShowPlayerSign"
+        },
+        {
+          "offset": "0x383",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x388",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x38d",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x38e",
+          "opcode": "ldstr",
+          "operand": "'WashArmpits'"
+        },
+        {
+          "offset": "0x393",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x394",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.WashArmpits"
+        },
+        {
+          "offset": "0x39a",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x39f",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x3a4",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3a5",
+          "opcode": "ldstr",
+          "operand": "'UpdateDeficitDay'"
+        },
+        {
+          "offset": "0x3aa",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x3ab",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.UpdateDeficitDay"
+        },
+        {
+          "offset": "0x3b1",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x3b6",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x3bb",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3bc",
+          "opcode": "ldstr",
+          "operand": "'VigilanteRevealsPlayer'"
+        },
+        {
+          "offset": "0x3c1",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x3c2",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.VigilanteRevealsPlayer"
+        },
+        {
+          "offset": "0x3c8",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x3cd",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x3d2",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3d3",
+          "opcode": "ldstr",
+          "operand": "'SaveCultists'"
+        },
+        {
+          "offset": "0x3d8",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x3d9",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.SaveCultists"
+        },
+        {
+          "offset": "0x3df",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x3e4",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x3e9",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x3ea",
+          "opcode": "ldstr",
+          "operand": "'Sound'"
+        },
+        {
+          "offset": "0x3ef",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x3f0",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.Sound"
+        },
+        {
+          "offset": "0x3f6",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x3fb",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x400",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x401",
+          "opcode": "ldstr",
+          "operand": "'UnlockDeathEnding'"
+        },
+        {
+          "offset": "0x406",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x407",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.UnlockDeathEnding"
+        },
+        {
+          "offset": "0x40d",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x412",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x417",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x418",
+          "opcode": "ldstr",
+          "operand": "'UnlockMushroomEnding'"
+        },
+        {
+          "offset": "0x41d",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x41e",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.UnlockMushroomEnding"
+        },
+        {
+          "offset": "0x424",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x429",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x42e",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x42f",
+          "opcode": "ldstr",
+          "operand": "'UnlockKillerEnding'"
+        },
+        {
+          "offset": "0x434",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x435",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.UnlockKillerEnding"
+        },
+        {
+          "offset": "0x43b",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x440",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x445",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x446",
+          "opcode": "ldstr",
+          "operand": "'PlayAnimation'"
+        },
+        {
+          "offset": "0x44b",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x44c",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.PlayAnimation"
+        },
+        {
+          "offset": "0x452",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x457",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000017)"
+        },
+        {
+          "offset": "0x45c",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x45d",
+          "opcode": "ldstr",
+          "operand": "'SkipIntro'"
+        },
+        {
+          "offset": "0x462",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x463",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.SkipIntro"
+        },
+        {
+          "offset": "0x469",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x46e",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x473",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x474",
+          "opcode": "ldstr",
+          "operand": "'EnableSmoke'"
+        },
+        {
+          "offset": "0x479",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x47a",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.EnableSmoke"
+        },
+        {
+          "offset": "0x480",
+          "opcode": "newobj",
+          "operand": "Action..ctor"
+        },
+        {
+          "offset": "0x485",
+          "opcode": "callvirt",
+          "operand": "IActionRegistration.AddCommandHandler"
+        },
+        {
+          "offset": "0x48a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x48b",
+          "opcode": "ldstr",
+          "operand": "'IsImposter'"
+        },
+        {
+          "offset": "0x490",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x491",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsImposter"
+        },
+        {
+          "offset": "0x497",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x49c",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001E)"
+        },
+        {
+          "offset": "0x4a1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4a2",
+          "opcode": "ldstr",
+          "operand": "'TryGiveItemFor'"
+        },
+        {
+          "offset": "0x4a7",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x4a8",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.TryGiveResource"
+        },
+        {
+          "offset": "0x4ae",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x4b3",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001F)"
+        },
+        {
+          "offset": "0x4b8",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4b9",
+          "opcode": "ldstr",
+          "operand": "'TryGiveItem'"
+        },
+        {
+          "offset": "0x4be",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x4bf",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.TryGiveResource"
+        },
+        {
+          "offset": "0x4c5",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x4ca",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000020)"
+        },
+        {
+          "offset": "0x4cf",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4d0",
+          "opcode": "ldstr",
+          "operand": "'GetItemCount'"
+        },
+        {
+          "offset": "0x4d5",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x4d6",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetItemCount"
+        },
+        {
+          "offset": "0x4dc",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x4e1",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000021)"
+        },
+        {
+          "offset": "0x4e6",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4e7",
+          "opcode": "ldstr",
+          "operand": "'HasCompletedMushroomCondition'"
+        },
+        {
+          "offset": "0x4ec",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x4ed",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.HasCompletedMushroomCondition"
+        },
+        {
+          "offset": "0x4f3",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x4f8",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000022)"
+        },
+        {
+          "offset": "0x4fd",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x4fe",
+          "opcode": "ldstr",
+          "operand": "'GetInnocentsCount'"
+        },
+        {
+          "offset": "0x503",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x504",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetInnocentsCount"
+        },
+        {
+          "offset": "0x50a",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x50f",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000023)"
+        },
+        {
+          "offset": "0x514",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x515",
+          "opcode": "ldstr",
+          "operand": "'GetPhoneNumber'"
+        },
+        {
+          "offset": "0x51a",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x51b",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetPhoneNumber"
+        },
+        {
+          "offset": "0x521",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x526",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000024)"
+        },
+        {
+          "offset": "0x52b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x52c",
+          "opcode": "ldstr",
+          "operand": "'CanOrderCourier'"
+        },
+        {
+          "offset": "0x531",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x532",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.CanOrderCourier"
+        },
+        {
+          "offset": "0x538",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x53d",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000022)"
+        },
+        {
+          "offset": "0x542",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x543",
+          "opcode": "ldstr",
+          "operand": "'GetCourierOrder'"
+        },
+        {
+          "offset": "0x548",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x549",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetCourierOrder"
+        },
+        {
+          "offset": "0x54f",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x554",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000025)"
+        },
+        {
+          "offset": "0x559",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x55a",
+          "opcode": "ldstr",
+          "operand": "'IsCharacterPlaceEmpty'"
+        },
+        {
+          "offset": "0x55f",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x560",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsCharacterPlaceEmpty"
+        },
+        {
+          "offset": "0x566",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x56b",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001E)"
+        },
+        {
+          "offset": "0x570",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x571",
+          "opcode": "ldstr",
+          "operand": "'GetCharacterOnPlace'"
+        },
+        {
+          "offset": "0x576",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x577",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetCharacterOnPlace"
+        },
+        {
+          "offset": "0x57d",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x582",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000024)"
+        },
+        {
+          "offset": "0x587",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x588",
+          "opcode": "ldstr",
+          "operand": "'GetEnergy'"
+        },
+        {
+          "offset": "0x58d",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x58e",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetEnergy"
+        },
+        {
+          "offset": "0x594",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x599",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000023)"
+        },
+        {
+          "offset": "0x59e",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x59f",
+          "opcode": "ldstr",
+          "operand": "'IsNeedToGetDeficitItem'"
+        },
+        {
+          "offset": "0x5a4",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x5a5",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsNeedToGetDeficitItem"
+        },
+        {
+          "offset": "0x5ab",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x5b0",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000022)"
+        },
+        {
+          "offset": "0x5b5",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5b6",
+          "opcode": "ldstr",
+          "operand": "'PeekDeficitItem'"
+        },
+        {
+          "offset": "0x5bb",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x5bc",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.PeekDeficitItem"
+        },
+        {
+          "offset": "0x5c2",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x5c7",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000025)"
+        },
+        {
+          "offset": "0x5cc",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5cd",
+          "opcode": "ldstr",
+          "operand": "'LocalizeItem'"
+        },
+        {
+          "offset": "0x5d2",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x5d3",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.LocalizeItem"
+        },
+        {
+          "offset": "0x5d9",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x5de",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000024)"
+        },
+        {
+          "offset": "0x5e3",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5e4",
+          "opcode": "ldstr",
+          "operand": "'IsAlive'"
+        },
+        {
+          "offset": "0x5e9",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x5ea",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsAlive"
+        },
+        {
+          "offset": "0x5f0",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x5f5",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001E)"
+        },
+        {
+          "offset": "0x5fa",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5fb",
+          "opcode": "ldstr",
+          "operand": "'IsNobodyHome'"
+        },
+        {
+          "offset": "0x600",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x601",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsNobodyHome"
+        },
+        {
+          "offset": "0x607",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x60c",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000022)"
+        },
+        {
+          "offset": "0x611",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x612",
+          "opcode": "ldstr",
+          "operand": "'IsEverCompletedGame'"
+        },
+        {
+          "offset": "0x617",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x618",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.IsEverCompletedGame"
+        },
+        {
+          "offset": "0x61e",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x623",
+          "opcode": "callvirt",
+          "operand": "token(0x2B000022)"
+        },
+        {
+          "offset": "0x628",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x629",
+          "opcode": "ldstr",
+          "operand": "'HasSeenDream'"
+        },
+        {
+          "offset": "0x62e",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x62f",
+          "opcode": "ldftn",
+          "operand": "_Code.DialogSystem.Commands.DialogCommandsInstance.HasSeenDream"
+        },
+        {
+          "offset": "0x635",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x63a",
+          "opcode": "callvirt",
+          "operand": "token(0x2B00001E)"
+        },
+        {
+          "offset": "0x63f",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001541",
+      "method": "_Code.DialogSystem.Commands.DialogCommandsInstance.GetCourierOrder",
+      "instructions": [
+        {
+          "offset": "0xc",
+          "opcode": "ldsfld",
+          "operand": "DialogCommandsInstance._instance"
+        },
+        {
+          "offset": "0x11",
+          "opcode": "ldfld",
+          "operand": "DialogCommandsInstance.GotCourierOrder"
+        },
+        {
+          "offset": "0x16",
+          "opcode": "dup",
+          "operand": ""
+        },
+        {
+          "offset": "0x17",
+          "opcode": "brtrue.s",
+          "operand": "29"
+        },
+        {
+          "offset": "0x19",
+          "opcode": "pop",
+          "operand": ""
+        },
+        {
+          "offset": "0x1a",
+          "opcode": "ldnull",
+          "operand": ""
+        },
+        {
+          "offset": "0x1b",
+          "opcode": "br.s",
+          "operand": "34"
+        },
+        {
+          "offset": "0x1d",
+          "opcode": "callvirt",
+          "operand": ".Invoke"
+        },
+        {
+          "offset": "0x22",
+          "opcode": "dup",
+          "operand": ""
+        },
+        {
+          "offset": "0x23",
+          "opcode": "brtrue.s",
+          "operand": "45"
+        },
+        {
+          "offset": "0x25",
+          "opcode": "pop",
+          "operand": ""
+        },
+        {
+          "offset": "0x26",
+          "opcode": "ldc.i4.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x27",
+          "opcode": "ldc.i4.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x28",
+          "opcode": "newobj",
+          "operand": "_Code.DialogSystem.DialogCourierOrderData..ctor"
+        },
+        {
+          "offset": "0x2d",
+          "opcode": "stloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2e",
+          "opcode": "ldstr",
+          "operand": "'consumable_'"
+        },
+        {
+          "offset": "0x33",
+          "opcode": "ldloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x34",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.DialogCourierOrderData.get_Consumable"
+        },
+        {
+          "offset": "0x39",
+          "opcode": "stloc.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x3a",
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": "0x3c",
+          "opcode": "constrained.",
+          "operand": "_Code.Infrastructure.Consumables.EConsumable"
+        },
+        {
+          "offset": "0x42",
+          "opcode": "callvirt",
+          "operand": "Object.ToString"
+        },
+        {
+          "offset": "0x47",
+          "opcode": "callvirt",
+          "operand": "String.ToLower"
+        },
+        {
+          "offset": "0x4c",
+          "opcode": "ldstr",
+          "operand": "'_name'"
+        },
+        {
+          "offset": "0x51",
+          "opcode": "call",
+          "operand": "String.Concat"
+        },
+        {
+          "offset": "0x56",
+          "opcode": "ldstr",
+          "operand": "'UI'"
+        },
+        {
+          "offset": "0x5b",
+          "opcode": "call",
+          "operand": "token(0x2B0000A3)"
+        },
+        {
+          "offset": "0x60",
+          "opcode": "call",
+          "operand": "_Code.Utils.Extensions.LocalizationExtension.GetLocalization"
+        },
+        {
+          "offset": "0x65",
+          "opcode": "ldstr",
+          "operand": "' (x{0})'"
+        },
+        {
+          "offset": "0x6a",
+          "opcode": "ldloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x6b",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.DialogCourierOrderData.get_Count"
+        },
+        {
+          "offset": "0x70",
+          "opcode": "box",
+          "operand": "System.Int32"
+        },
+        {
+          "offset": "0x75",
+          "opcode": "call",
+          "operand": "String.Format"
+        },
+        {
+          "offset": "0x7a",
+          "opcode": "call",
+          "operand": "String.Concat"
+        },
+        {
+          "offset": "0x7f",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    }
+  ],
+  "parseFailures": []
+}

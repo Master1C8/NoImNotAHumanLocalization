@@ -1,0 +1,824 @@
+{
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "rows": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428235",
+      "sourceOrderIndex": 8344,
+      "source": "Daughter: И ещё... может, вы позовёте мою подружку в гости?..",
+      "target": "Daughter: Satu lagi... maukah Anda mengundang temanku untuk bermain di sini?..",
+      "targetFile": "Translations/id/dialogue-batch-014.json",
+      "targetFileSha256": "03a541699cbfe5c9e9c95bcf97d1d4d111a1903504a9ee77afc5f4f53e0e811c",
+      "sourceTargetRead": true,
+      "status": "finding",
+      "findingId": "ID-IR02-001",
+      "reason": "The Russian first introduces the child's female friend (подружка); current temanku removes female identity. Immediately following compiled instructions PushString DaughtersFriend -> GetPhoneNumber -> the {0} phone line prove the dependency on the corrected UI contact, and source-only phone scenes distinguish her from the mother."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453579284486",
+      "sourceOrderIndex": 12115,
+      "source": "Daughter: Надо бы сходить к моей подружке, как папа за мной зайдёт...",
+      "target": "Daughter: Aku harus mengunjungi temanku setelah Ayah menjemputku...",
+      "targetFile": "Translations/id/dialogue-batch-016.json",
+      "targetFileSha256": "5d018e2c98aabbfd4c7d3416921d7660e9f60ba539746f7cf8f9d9724a95e104",
+      "sourceTargetRead": true,
+      "status": "no-new-correction-proposed; preserve prior generic callback decision",
+      "findingId": null,
+      "reason": "Same already discussed female friend; prior clean reading can remain once the route introduction in Daughter_Ears_Gun is restored. This ID must still be retained as a referent dependency; no stylistic expansion proposed."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090180",
+      "sourceOrderIndex": 12125,
+      "source": "Daughter: Вы прям как моя лучшая подружка порой...",
+      "target": "Daughter: Kadang Anda persis seperti sahabat terbaikku...",
+      "targetFile": "Translations/id/dialogue-batch-016.json",
+      "targetFileSha256": "5d018e2c98aabbfd4c7d3416921d7660e9f60ba539746f7cf8f9d9724a95e104",
+      "sourceTargetRead": true,
+      "status": "finding",
+      "findingId": "ID-IR02-003",
+      "reason": "The Russian comparison identifies her female best friend (лучшая подружка). Current sahabat terbaikku loses female identity on the Ears_Gun route; the following choice can enter Daughter_Ears_DontShoot, whose generic callback may naturally refer back once this introduction is restored."
+    }
+  ],
+  "nodes": {
+    "Daughter_Asking_3": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "operands": [
+          "Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "operands": [
+          "visited"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 10,
+        "operands": [
+          "L1925skipclause"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 13,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 7,
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 12,
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 14,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "operands": [
+          "Character_SpokeAlready"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "operands": [
+          "L1924endif"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Asking_3_0405ce8",
+          0.0
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Asking_3_0feebe4",
+          0.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Asking_3_04109f4",
+          0.0
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 6,
+        "operands": [
+          "DaughtersFriend"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 12,
+        "operands": [
+          "GetPhoneNumber"
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Asking_3_009e901",
+          1.0
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 3,
+        "operands": [
+          "UnlockPhoneNumber DaughtersFriend",
+          0.0
+        ]
+      },
+      {
+        "index": 22,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Asking_3_003ccef",
+          0.0
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 4,
+        "operands": [
+          "line:Daughter_Asking_3_07fcabd",
+          "L1927shortcutoption_Daughter_Asking_3_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 24,
+        "opcode": 4,
+        "operands": [
+          "line:Daughter_Asking_3_06917b3",
+          "L1928shortcutoption_Daughter_Asking_3_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 25,
+        "opcode": 5,
+        "operands": []
+      },
+      {
+        "index": 26,
+        "opcode": 1,
+        "operands": []
+      },
+      {
+        "index": 27,
+        "opcode": 13,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 28,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 29,
+        "opcode": 7,
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 30,
+        "opcode": 12,
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 31,
+        "opcode": 14,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 32,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 33,
+        "opcode": 6,
+        "operands": [
+          "Daughter_Asking_3_1"
+        ]
+      },
+      {
+        "index": 34,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 35,
+        "opcode": 0,
+        "operands": [
+          "L1926group_end"
+        ]
+      },
+      {
+        "index": 36,
+        "opcode": 13,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 37,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 38,
+        "opcode": 7,
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 39,
+        "opcode": 12,
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 40,
+        "opcode": 14,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 41,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 42,
+        "opcode": 6,
+        "operands": [
+          "Daughter_Asking_3_2"
+        ]
+      },
+      {
+        "index": 43,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 44,
+        "opcode": 0,
+        "operands": [
+          "L1926group_end"
+        ]
+      },
+      {
+        "index": 45,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 46,
+        "opcode": 13,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 47,
+        "opcode": 7,
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 48,
+        "opcode": 7,
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 49,
+        "opcode": 12,
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 50,
+        "opcode": 14,
+        "operands": [
+          "$Yarn.Internal.Visiting.Daughter_Asking_3"
+        ]
+      },
+      {
+        "index": 51,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 52,
+        "opcode": 15,
+        "operands": []
+      }
+    ],
+    "Daughter_Ears_Gun": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "operands": [
+          "SetupGun true",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_Gun_02ec339",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_Gun_022c7ba",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_Gun_056edc6",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_Gun_0f0ac04",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 4,
+        "operands": [
+          "line:Daughter_Ears_Gun_0d0a482",
+          "L2033shortcutoption_Daughter_Ears_Gun_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "operands": [
+          "line:Daughter_Ears_Gun_041b2dd",
+          "L2034shortcutoption_Daughter_Ears_Gun_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 5,
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 1,
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 6,
+        "operands": [
+          "Daughter_Death"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 0,
+        "operands": [
+          "L2032group_end"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 6,
+        "operands": [
+          "Daughter_Ears_DontShoot"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 0,
+        "operands": [
+          "L2032group_end"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 16,
+        "opcode": 15,
+        "operands": []
+      }
+    ],
+    "Daughter_Ears_DontShoot": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_007da24",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_08f1b5f",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_05c499d",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_05d04e2",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_0ac09c3",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_0bfa33d",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_01d49b0",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 2,
+        "operands": [
+          "line:Daughter_Ears_DontShoot_0b73773",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 15,
+        "operands": []
+      }
+    ],
+    "Bald_Photo": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "operands": [
+          "line:Bald_Photo_0b444c9",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "operands": [
+          "ShowSign Bald AURAPHOTO",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "operands": [
+          "line:Bald_Photo_0b21761",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 3,
+        "operands": [
+          "StopShowingSign",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "operands": [
+          "line:Bald_Photo_08bfba7",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 4,
+        "operands": [
+          "line:Bald_Photo_0954bb4",
+          "L3823shortcutoption_Bald_Photo_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "operands": [
+          "line:Bald_Photo_0e5738e",
+          "L3824shortcutoption_Bald_Photo_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 5,
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 1,
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 0,
+        "operands": [
+          "L3822group_end"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "operands": [
+          "Bald_Photo_Gun"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "operands": [
+          "L3822group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 15,
+        "operands": []
+      }
+    ],
+    "Bald_Photo_Gun": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "operands": [
+          "SetupGun true",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "operands": [
+          "SetEmotion Sad",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "operands": [
+          "line:Bald_Photo_Gun_03abc51",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "operands": [
+          "line:Bald_Photo_Gun_0e0232e",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 4,
+        "operands": [
+          "line:Bald_Photo_Gun_0a72600",
+          "L3847shortcutoption_Bald_Photo_Gun_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 4,
+        "operands": [
+          "line:Bald_Photo_Gun_02dde01",
+          "L3848shortcutoption_Bald_Photo_Gun_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 5,
+        "operands": []
+      },
+      {
+        "index": 7,
+        "opcode": 1,
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 6,
+        "operands": [
+          "Bald_Death"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "operands": [
+          "L3846group_end"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "operands": [
+          "Bald_Photo_DontShoot"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 16,
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "operands": [
+          "L3846group_end"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 11,
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 15,
+        "operands": []
+      }
+    ]
+  },
+  "sourceOnlyPhoneContextSha256": "1826f2fab95df1e702bf909e6bceb65895c68db9ef64e3cf73e1f8c876b8db1e"
+}

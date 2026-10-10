@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "locale": "fa",
+  "cycle": 3,
+  "sourceAuntPattern": "\\bт[её]т\\w*\\b",
+  "targetAuntFragments": [
+    "خاله",
+    "عمه",
+    "خواهرِ پدر",
+    "خواهرِ مادر",
+    "خواهر پدر",
+    "خواهر مادر"
+  ],
+  "exactRepetition": "full Russian source or full prior/current Persian target equality",
+  "contextNodeNames": [
+    "Scammer_Death",
+    "Scammer_Photo",
+    "Scammer_Photo_DontShoot",
+    "Scammer_Photo_Gun"
+  ],
+  "contextRule": "accepted IDs in the compiled Scammer photo encounter, its gun choice, continuation and death branch",
+  "mandatoryRegression": "reuse prior cycle's accepted UI, static, exact-text, placeholder and markup ID catalog",
+  "runtimeBinding": "reuse prior cycle's accepted placeholder and occupied-node catalog; include current Scammer branch context",
+  "contextWatchlist": "reuse prior four first-pass IDs",
+  "order": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "hashFormat": "UTF-8 stable IDs, one per line, final LF",
+  "regressionExamples": [
+    {
+      "source": "своей тётки",
+      "expected": "aunt, side unspecified",
+      "selectedId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755329"
+    },
+    {
+      "source": "лететь",
+      "expected": "not selected as kinship",
+      "reason": "word boundary"
+    },
+    {
+      "targetBefore": "خاله‌ام",
+      "targetAfter": "عمه یا خاله‌ام",
+      "expected": "both wording variants select the referent"
+    },
+    {
+      "node": "Scammer_Photo_Gun",
+      "expected": "include two lines, both choices, continuation and death branch"
+    }
+  ]
+}

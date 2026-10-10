@@ -1,0 +1,2452 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "gameVersion": "1.3.19",
+  "auditPhase": "full semantic source-to-target pass",
+  "part": 3,
+  "sourceOrderStart": 261,
+  "sourceOrderEnd": 460,
+  "reviewedRows": 200,
+  "preflightSha256": "645364802a0ebc9904958817d5b96175335a6cb9777fefbd60524f940f8e6b16",
+  "canonicalReviewUnitsSha256": "1b66efef6b36c6a81911546fbcc53af7d889d30938e462a1b0f36ad14d926d15",
+  "reviewedRowsSha256": "bbbeb2925b66c0856860721bfefb1bc6ae4ac9245fd8b754838bff57f2f8bfc0",
+  "reviewMethod": "Direct Russian-to-Indonesian read of every row with phone branch keys, neighboring exchanges and approved character glossary; game runtime not viewed.",
+  "findings": [
+    {
+      "sourceOrderIndex": 334,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389122",
+      "category": "address register",
+      "objectiveReason": "The source uses formal вы and this same caller uses Anda in the neighboring lines; kamu switches to informal address without a branch cue.",
+      "currentTarget": "Phone: Aku… sulit membayangkan apa yang sudah kamu alami…",
+      "proposedTarget": "Phone: Aku… sulit membayangkan apa yang sudah Anda alami…",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 349,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000520",
+      "category": "loneliness versus residence",
+      "objectiveReason": "Одинокий человек says the player is lonely; hidup sendirian asserts that he lives alone, a different fact.",
+      "currentTarget": "Aku… hidup sendirian",
+      "proposedTarget": "Aku… orang yang kesepian",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "proposalStatus": "proposed; not applied"
+    },
+    {
+      "sourceOrderIndex": 352,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000517",
+      "category": "loneliness versus residence",
+      "objectiveReason": "This is a second occurrence of Одинокий человек in another branch; keep the same semantic correction.",
+      "currentTarget": "Aku… hidup sendirian",
+      "proposedTarget": "Aku… orang yang kesepian",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "proposalStatus": "proposed; not applied"
+    }
+  ],
+  "contextQuestions": [],
+  "corrections": [],
+  "rows": [
+    {
+      "sourceOrderIndex": 261,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457945554944",
+      "key": "line:tv_7_extra2_0ae85cc",
+      "nodeNames": [
+        "tv_7_extra2"
+      ],
+      "source": "TV: Теперь и в ассортименте доставки еды For Rest. Звоните по номеру: {0}.",
+      "target": "TV: Sekarang juga tersedia melalui layanan antar makanan For Rest. Hubungi: {0}.",
+      "targetBatch": "Translations/id/dialogue-batch-069.json",
+      "targetBatchSha256": "d867f47e9b8d1fd6d1cb6f11560d633ad041b7a8a55265e55319c669f58dad9d"
+    },
+    {
+      "sourceOrderIndex": 262,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360652",
+      "key": "line:phone_forrest_order_02757a4",
+      "nodeNames": [
+        "phone_forrest_order"
+      ],
+      "source": "1 чайный гриб, пожалуйста",
+      "target": "1 kombucha, tolong",
+      "targetBatch": "Translations/id/dialogue-batch-028.json",
+      "targetBatchSha256": "30708d3400ada96e379565a85157cc5c2623fde3b04c17538ceab7e0b0488811"
+    },
+    {
+      "sourceOrderIndex": 263,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360651",
+      "key": "line:phone_forrest_order_0faa974",
+      "nodeNames": [
+        "phone_forrest_order"
+      ],
+      "source": "1 пачку сигарет, пожалуйста",
+      "target": "1 bungkus rokok, tolong",
+      "targetBatch": "Translations/id/dialogue-batch-028.json",
+      "targetBatchSha256": "30708d3400ada96e379565a85157cc5c2623fde3b04c17538ceab7e0b0488811"
+    },
+    {
+      "sourceOrderIndex": 264,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360650",
+      "key": "line:phone_forrest_order_0d59e76",
+      "nodeNames": [
+        "phone_forrest_order"
+      ],
+      "source": "2 кошачьи консервы, пожалуйста",
+      "target": "2 kaleng makanan kucing, tolong",
+      "targetBatch": "Translations/id/dialogue-batch-028.json",
+      "targetBatchSha256": "30708d3400ada96e379565a85157cc5c2623fde3b04c17538ceab7e0b0488811"
+    },
+    {
+      "sourceOrderIndex": 265,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360649",
+      "key": "line:tv_8_necessary_0e75517",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: Далее репортаж о временной приостановке утилизации тел.",
+      "target": "TV: Berikutnya laporan tentang penghentian sementara pembuangan jenazah.",
+      "targetBatch": "Translations/id/dialogue-batch-070.json",
+      "targetBatchSha256": "df6ccb6b3c819b3e9d72b868b2ab13adf6713165ae3865a440b469b6276d506f"
+    },
+    {
+      "sourceOrderIndex": 266,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360648",
+      "key": "line:tv_8_necessary_06d3944",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: …",
+      "target": "TV: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 267,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360647",
+      "key": "line:tv_8_necessary_0df33b8",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: …",
+      "target": "TV: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 268,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360646",
+      "key": "line:tv_8_necessary_0a68412",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: …",
+      "target": "TV: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 269,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360645",
+      "key": "line:phone_daughtersfriend_2_1_1_2_0bd80f5",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_2"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 270,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360644",
+      "key": "line:phone_daughtersfriend_2_1_1_2_05dbf02",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_2"
+      ],
+      "source": "Phone: Но я всё ещё скучаю по ней...",
+      "target": "Phone: Tapi aku masih merindukannya...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 271,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360643",
+      "key": "line:phone_daughtersfriend_2_1_1_2_0320cbf",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 272,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+      "key": "line:phone_daughtersfriend_2_1_1_1_0f762e2",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_1"
+      ],
+      "source": "Phone: Идите вы куда подальше!",
+      "target": "Phone: Pergi jauh-jauh!",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 273,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641",
+      "key": "line:phone_daughtersfriend_2_1_1_1_05aeaac",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_1"
+      ],
+      "source": "Phone: Ой, да зачем я перед вами вообще оправдываюсь?",
+      "target": "Phone: Ah, kenapa aku malah membela diri di hadapan Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 274,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360640",
+      "key": "line:phone_daughtersfriend_2_1_2_0745237",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Пожалуйста...",
+      "target": "Phone: Kumohon...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 275,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166346",
+      "key": "line:phone_daughtersfriend_2_1_2_0890a29",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Не звоните сюда больше...",
+      "target": "Phone: Jangan telepon ke sini lagi...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 276,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166345",
+      "key": "line:phone_daughtersfriend_2_1_2_0c60b77",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Простите.",
+      "target": "Phone: Maafkan aku.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 277,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166344",
+      "key": "line:phone_daughtersfriend_2_1_2_0b0beeb",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 278,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166343",
+      "key": "line:phone_daughtersfriend_2_1_2_0270f38",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Теперь мне только жаль, что мы не узнали у подменной дочери, что оно сделало с нашей малюткой...",
+      "target": "Phone: Sekarang aku hanya menyesal kami tidak bertanya kepada putri pengganti itu apa yang telah makhluk itu lakukan kepada putri kecil kami...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 279,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166342",
+      "key": "line:phone_daughtersfriend_2_1_2_08a0228",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Муж помог мне это понять.",
+      "target": "Phone: Suamiku membantuku menyadarinya.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 280,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166341",
+      "key": "line:phone_daughtersfriend_2_1_2_080193d",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Но потом я поняла, что это и не была наша дочь.",
+      "target": "Phone: Tapi kemudian aku sadar dia bukan putri kami.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 281,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166340",
+      "key": "line:phone_daughtersfriend_2_1_2_0c0a42a",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Сначала я хотела его самого убить.",
+      "target": "Phone: Awalnya aku ingin membunuh suamiku sendiri.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 282,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166339",
+      "key": "line:phone_daughtersfriend_2_1_2_0b3f4f6",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 283,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166338",
+      "key": "line:phone_daughtersfriend_2_1_2_02c9b91",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Он сразу разобрался с этим Гостем.",
+      "target": "Phone: Dia langsung menangani Tamu itu.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 284,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166337",
+      "key": "line:phone_daughtersfriend_2_1_2_0e79e49",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Как только я сказала об этом мужу, так он...",
+      "target": "Phone: Begitu kuceritakan hal itu kepada suamiku, dia langsung...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 285,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166336",
+      "key": "line:phone_daughtersfriend_2_1_2_0d573d5",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 286,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972044",
+      "key": "line:phone_daughtersfriend_2_1_2_041ca19",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Всё совпадало.",
+      "target": "Phone: Semuanya cocok.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 287,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972043",
+      "key": "line:phone_daughtersfriend_2_1_2_06d9031",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Поэтому я сразу заметила, как появились эти признаки.",
+      "target": "Phone: Karena itu aku langsung menyadari saat tanda-tanda itu muncul.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 288,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972042",
+      "key": "line:phone_daughtersfriend_2_1_2_0d50543",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Я ведь знала её, как облупленную.",
+      "target": "Phone: Aku mengenalnya luar dalam.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 289,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972041",
+      "key": "line:phone_daughtersfriend_2_1_2_0e12303",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: По всем признакам.",
+      "target": "Phone: Dari semua tandanya.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 290,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972040",
+      "key": "line:phone_daughtersfriend_2_1_2_0836221",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "source": "Phone: Она была Гостем.",
+      "target": "Phone: Dia Tamu.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 291,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972039",
+      "key": "line:phone_daughtersfriend_2_1_1_0f91f28",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1"
+      ],
+      "source": "Понимаю",
+      "target": "Aku mengerti",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 292,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972038",
+      "key": "line:phone_daughtersfriend_2_1_1_003d931",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1"
+      ],
+      "source": "Пиздец...",
+      "target": "Bangsat...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 293,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972037",
+      "key": "line:phone_daughtersfriend_2_1_1_0a4ac93",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1"
+      ],
+      "source": "Phone: Она точно была Гостем! Признаки совпадали на все сто процентов!",
+      "target": "Phone: Dia benar-benar Tamu! Semua tandanya cocok seratus persen!",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 294,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972036",
+      "key": "line:phone_daughtersfriend_2_1_1_0f654e3",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1"
+      ],
+      "source": "Phone: Не вам меня осуждать!",
+      "target": "Phone: Anda tidak berhak menghakimiku!",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 295,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972035",
+      "key": "line:phone_daughtersfriend_2_1_0b81cbd",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1"
+      ],
+      "source": "...",
+      "target": "...",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 296,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972034",
+      "key": "line:phone_daughtersfriend_2_1_017f450",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1"
+      ],
+      "source": "И вы решили убить своего ребёнка?",
+      "target": "Jadi Anda memutuskan untuk membunuh anak sendiri?",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 297,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972033",
+      "key": "line:phone_daughtersfriend_2_1_06973b7",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1"
+      ],
+      "source": "Phone: Все признаки совпадали, и муж настоял.",
+      "target": "Phone: Semua tandanya cocok, dan suamiku bersikeras.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 298,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972032",
+      "key": "line:phone_daughtersfriend_2_1_0c53ca1",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1"
+      ],
+      "source": "Phone: Убили её. Поймите, так надо было.",
+      "target": "Phone: Kami membunuhnya. Mengertilah, kami harus melakukannya.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 299,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777740",
+      "key": "line:phone_daughtersfriend_2_0b734eb",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "(Повесить трубку)",
+      "target": "(Tutup telepon)",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 300,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777739",
+      "key": "line:phone_daughtersfriend_2_08ac64b",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Что?",
+      "target": "Apa?",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 301,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777738",
+      "key": "line:phone_daughtersfriend_2_0b3167c",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Phone: Нам пришлось её убить.",
+      "target": "Phone: Kami terpaksa membunuhnya.",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 302,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777737",
+      "key": "line:phone_daughtersfriend_2_0517e9f",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Phone: Нам пришлось...",
+      "target": "Phone: Kami terpaksa...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 303,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777736",
+      "key": "line:phone_daughtersfriend_2_01444ab",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 304,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777735",
+      "key": "line:phone_daughtersfriend_2_0a5670b",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Phone: Она умерла...",
+      "target": "Phone: Dia meninggal...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 305,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777734",
+      "key": "line:phone_daughtersfriend_2_0e4bf18",
+      "nodeNames": [
+        "phone_daughtersfriend_2"
+      ],
+      "source": "Phone: Наша доченька... она...",
+      "target": "Phone: Putri kecil kami... dia...",
+      "targetBatch": "Translations/id/dialogue-batch-011.json",
+      "targetBatchSha256": "ab577087be9b96db6e38d4bb537a42127a25c2cfd74abebd96e1f1fb4ba0a0d9"
+    },
+    {
+      "sourceOrderIndex": 306,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777733",
+      "key": "line:phone_daughtersfriend_1_1_2_06e733c",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: И прощайте.",
+      "target": "Phone: Dan selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 307,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777732",
+      "key": "line:phone_daughtersfriend_1_1_2_035abe5",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Пожалуйста, передайте эти слова девочке.",
+      "target": "Phone: Tolong sampaikan kata-kata ini kepada anak perempuan itu.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 308,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777731",
+      "key": "line:phone_daughtersfriend_1_1_2_067420c",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: И уж тем более слезами тут не поможешь.",
+      "target": "Phone: Apalagi air mata tak akan membantu.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 309,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777730",
+      "key": "line:phone_daughtersfriend_1_1_2_05fc0b7",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Если её отца сожгли, то так оно и должно быть.",
+      "target": "Phone: Kalau ayahnya dibakar, berarti memang sudah seharusnya begitu.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 310,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777729",
+      "key": "line:phone_daughtersfriend_1_1_2_051e25f",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Ничего не делается просто так.",
+      "target": "Phone: Tak ada yang terjadi tanpa alasan.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 311,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457928777728",
+      "key": "line:phone_daughtersfriend_1_1_2_0c77b68",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Понимаете...",
+      "target": "Phone: Anda mengerti...",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 312,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583435",
+      "key": "line:phone_daughtersfriend_1_1_2_03f18fa",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: И вы тоже справитесь. И девочка эта.",
+      "target": "Phone: Anda juga akan mampu melewatinya. Begitu pula anak perempuan itu.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 313,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583434",
+      "key": "line:phone_daughtersfriend_1_1_2_068cfcb",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Но муж помог справиться с этим.",
+      "target": "Phone: Tapi suamiku membantuku melewatinya.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 314,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583433",
+      "key": "line:phone_daughtersfriend_1_1_2_0aaf22a",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Я сначала рыдала. Хотела убить себя. Не могла жить без неё.",
+      "target": "Phone: Awalnya aku menangis tersedu-sedu. Aku ingin bunuh diri. Aku tak sanggup hidup tanpanya.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 315,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583432",
+      "key": "line:phone_daughtersfriend_1_1_2_0f8026e",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: ...",
+      "target": "Phone: ...",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 316,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583431",
+      "key": "line:phone_daughtersfriend_1_1_2_0dbfab8",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Прямо в её детском садике.",
+      "target": "Phone: Tepat di taman kanak-kanaknya.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 317,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583430",
+      "key": "line:phone_daughtersfriend_1_1_2_00e31ed",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Её тоже сожгли.",
+      "target": "Phone: Dia juga dibakar.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 318,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583429",
+      "key": "line:phone_daughtersfriend_1_1_2_0228678",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Получается, он был Гостем. Так же, как и наша доченька.",
+      "target": "Phone: Berarti dia Tamu. Sama seperti putri kecil kami.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 319,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583428",
+      "key": "line:phone_daughtersfriend_1_1_2_092e9d7",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1_2"
+      ],
+      "source": "Phone: Никто не будет жечь людей просто так.",
+      "target": "Phone: Tak mungkin orang membakar seseorang tanpa alasan.",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 320,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583427",
+      "key": "line:phone_daughtersfriend_1_1_096abd7",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1"
+      ],
+      "source": "Нет, какие-то ебанаты сожгли его ни за что",
+      "target": "Tidak, orang-orang gila sialan membakarnya tanpa alasan",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 321,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583426",
+      "key": "line:phone_daughtersfriend_1_1_0810bdf",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1"
+      ],
+      "source": "В смысле, тоже?",
+      "target": "Apa maksud Anda, 'juga'?",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 322,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583425",
+      "key": "line:phone_daughtersfriend_1_1_0fddfd8",
+      "nodeNames": [
+        "phone_daughtersfriend_1_1"
+      ],
+      "source": "Phone: Он... он тоже, что ли, был Гостем?",
+      "target": "Phone: Dia... dia juga Tamu?",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 323,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583424",
+      "key": "line:phone_daughtersfriend_1_01bb092",
+      "nodeNames": [
+        "phone_daughtersfriend_1"
+      ],
+      "source": "У меня тут девочка, у которой умер отец",
+      "target": "Ada anak perempuan di sini yang ayahnya meninggal",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 324,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389132",
+      "key": "line:phone_daughtersfriend_1_0d1c5a1",
+      "nodeNames": [
+        "phone_daughtersfriend_1"
+      ],
+      "source": "Я хочу позвать вашу дочь к нам в гости. Её подруга просит",
+      "target": "Aku ingin mengundang putri Anda ke rumah kami. Temannya yang meminta",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 325,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389131",
+      "key": "line:phone_daughtersfriend_1_003260e",
+      "nodeNames": [
+        "phone_daughtersfriend_1"
+      ],
+      "source": "Phone: Что? Зачем это вам нужно поговорить с ней?",
+      "target": "Phone: Apa? Kenapa Anda ingin berbicara dengannya?",
+      "targetBatch": "Translations/id/dialogue-batch-010.json",
+      "targetBatchSha256": "ddd18b3f6b1044ad5f504b79325433840f5388b55f4033f78e8728ba610ee255"
+    },
+    {
+      "sourceOrderIndex": 326,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389130",
+      "key": "line:phone_daughtersfriend_016cbd7",
+      "nodeNames": [
+        "phone_daughtersfriend"
+      ],
+      "source": "Здравствуйте, пустите вашу дочь в гости поиграть с её подругой?",
+      "target": "Halo, bolehkah putri Anda berkunjung untuk bermain dengan temannya?",
+      "targetBatch": "Translations/id/dialogue-batch-012.json",
+      "targetBatchSha256": "ad1594adc900b506c75b85fb1a3d6b81e9eb0ce3f3a4aad4b96165b0dbfffe4f"
+    },
+    {
+      "sourceOrderIndex": 327,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389129",
+      "key": "line:phone_daughtersfriend_065d61e",
+      "nodeNames": [
+        "phone_daughtersfriend"
+      ],
+      "source": "Здравствуйте, можно поговорить с вашей дочерью?",
+      "target": "Halo, bolehkah saya berbicara dengan putri Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-012.json",
+      "targetBatchSha256": "ad1594adc900b506c75b85fb1a3d6b81e9eb0ce3f3a4aad4b96165b0dbfffe4f"
+    },
+    {
+      "sourceOrderIndex": 328,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389128",
+      "key": "line:phone_daughtersfriend_0909691",
+      "nodeNames": [
+        "phone_daughtersfriend"
+      ],
+      "source": "Phone: Алло?",
+      "target": "Phone: Halo?",
+      "targetBatch": "Translations/id/dialogue-batch-012.json",
+      "targetBatchSha256": "ad1594adc900b506c75b85fb1a3d6b81e9eb0ce3f3a4aad4b96165b0dbfffe4f"
+    },
+    {
+      "sourceOrderIndex": 329,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389127",
+      "key": "line:phone_phoneroulette_1_1_X_X_0d6e352",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_X"
+      ],
+      "source": "Phone: До свидания. И сил вам.",
+      "target": "Phone: Selamat tinggal. Semoga Anda diberi kekuatan.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 330,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389126",
+      "key": "line:phone_phoneroulette_1_1_X_X_0eff429",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_X"
+      ],
+      "source": "Phone: Ещё раз спасибо вам за эту беседу.",
+      "target": "Phone: Sekali lagi, terima kasih sudah berbincang denganku.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 331,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389125",
+      "key": "line:phone_phoneroulette_1_1_X_X_0bbbedc",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_X"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 332,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389124",
+      "key": "line:phone_phoneroulette_1_1_X_9_04b7d32",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_8"
+      ],
+      "source": "Phone: Не представляю, насколько вы ненавидите отца, если хотите, чтобы дом сгорел…",
+      "target": "Phone: Aku tidak bisa membayangkan sebesar apa kebencian Anda pada ayah Anda sampai Anda berharap rumah itu terbakar…",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 333,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389123",
+      "key": "line:phone_phoneroulette_1_1_X_9_0bae81d",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_8"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 334,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389122",
+      "key": "line:phone_phoneroulette_1_1_X_8_016dd9f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_7"
+      ],
+      "source": "Phone: Мне… тяжело представить, через что вы прошли…",
+      "target": "Phone: Aku… sulit membayangkan apa yang sudah kamu alami…",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 335,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389121",
+      "key": "line:phone_phoneroulette_1_1_X_8_04cd294",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_7"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 336,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389120",
+      "key": "line:phone_phoneroulette_1_1_X_7_0897b68",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_6"
+      ],
+      "source": "Лучше бы он сгорел",
+      "target": "Lebih baik rumah itu terbakar",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 337,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194827",
+      "key": "line:phone_phoneroulette_1_1_X_7_0be0bc5",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_6"
+      ],
+      "source": "Это так",
+      "target": "Benar",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 338,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194826",
+      "key": "line:phone_phoneroulette_1_1_X_7_03a31aa",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_6"
+      ],
+      "source": "Phone: Я…очень сочувствую вам... Похоже, вы очень не рады тому, что этот дом достался вам.",
+      "target": "Phone: Aku… sungguh turut prihatin... Sepertinya Anda sama sekali tidak senang rumah ini jatuh ke tangan Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 339,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194825",
+      "key": "line:phone_phoneroulette_1_1_X_7_01c38a1",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_6"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 340,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194824",
+      "key": "line:phone_phoneroulette_1_1_X_6_0df66fb",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_5"
+      ],
+      "source": "Теперь, всё что осталось от них, – это дом",
+      "target": "Sekarang, satu-satunya yang tersisa dari mereka adalah rumah ini",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 341,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194823",
+      "key": "line:phone_phoneroulette_1_1_X_6_0119cb0",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_5"
+      ],
+      "source": "И всё, что у меня есть, – это проклятый дом",
+      "target": "Dan yang kupunya hanya rumah terkutuk ini",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 342,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194822",
+      "key": "line:phone_phoneroulette_1_1_X_6_0c01a7f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_5"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 343,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194821",
+      "key": "line:phone_phoneroulette_1_1_X_4_0e2df08",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_4"
+      ],
+      "source": "И однажды я перестал быть для него сыном",
+      "target": "Dan suatu hari, dia tidak lagi menganggapku anaknya",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 344,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194820",
+      "key": "line:phone_phoneroulette_1_1_X_4_0de76e9",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_4"
+      ],
+      "source": "Теперь я больше не часть семьи",
+      "target": "Sekarang aku bukan bagian dari keluarga lagi",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 345,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194819",
+      "key": "line:phone_phoneroulette_1_1_X_4_05ac310",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_4"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 346,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194818",
+      "key": "line:phone_phoneroulette_1_1_X_3_087b76e",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_3"
+      ],
+      "source": "Мой отец… Я его ненавидел",
+      "target": "Ayahku… Aku membencinya",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 347,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194817",
+      "key": "line:phone_phoneroulette_1_1_X_3_0dbdef7",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_3"
+      ],
+      "source": "У меня… были сложные отношения с отцом",
+      "target": "Aku… punya hubungan yang rumit dengan ayahku",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 348,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194816",
+      "key": "line:phone_phoneroulette_1_1_X_3_0607cfa",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_3"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 349,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000520",
+      "key": "line:phone_phoneroulette_1_1_X_2_037c00b",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_2"
+      ],
+      "source": "Я… одинокий человек",
+      "target": "Aku… hidup sendirian",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 350,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000519",
+      "key": "line:phone_phoneroulette_1_1_X_2_0d9c07e",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_2"
+      ],
+      "source": "Ну, у меня… нет близких",
+      "target": "Yah, aku… tidak punya orang dekat",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 351,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000518",
+      "key": "line:phone_phoneroulette_1_1_X_2_018b454",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_2"
+      ],
+      "source": "Phone: Не переживайте, нет ничего страшного в том, чтобы рассказать о себе.",
+      "target": "Phone: Jangan khawatir. Tidak ada salahnya bercerita tentang diri Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 352,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000517",
+      "key": "line:phone_phoneroulette_1_1_X_1_0df74ed",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_1"
+      ],
+      "source": "Я… одинокий человек",
+      "target": "Aku… hidup sendirian",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 353,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000516",
+      "key": "line:phone_phoneroulette_1_1_X_1_0f31175",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_1"
+      ],
+      "source": "Ну, у меня… нет близких",
+      "target": "Yah, aku… tidak punya orang dekat",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 354,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000515",
+      "key": "line:phone_phoneroulette_1_1_X_1_0128cc4",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_1"
+      ],
+      "source": "Phone: Не стесняйтесь, я готова выслушать вас.",
+      "target": "Phone: Jangan sungkan, aku siap mendengarkan.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 355,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000514",
+      "key": "line:phone_phoneroulette_1_1_X_08a0bb9",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Даже не знаю…",
+      "target": "Aku bahkan tidak tahu…",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 356,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000513",
+      "key": "line:phone_phoneroulette_1_1_X_09d4a47",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Я не привык говорить о себе…",
+      "target": "Aku tidak terbiasa bicara tentang diriku…",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 357,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457912000512",
+      "key": "line:phone_phoneroulette_1_1_X_03589d2",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: Что ж, теперь вы знаете немного обо мне. Теперь ваша очередь рассказать о себе.",
+      "target": "Phone: Nah, sekarang Anda sudah tahu sedikit tentangku. Sekarang giliran Anda bercerita tentang diri Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-025.json",
+      "targetBatchSha256": "ebbeef2963e9c97d9855f1379a3747ddf89371e661424bff68c6f6a39a964dfa"
+    },
+    {
+      "sourceOrderIndex": 358,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806220",
+      "key": "line:phone_phoneroulette_1_1_X_018e09f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 359,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806219",
+      "key": "line:phone_phoneroulette_1_1_X_08c2c00",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: Жалею, что первой не призналась…",
+      "target": "Phone: Aku menyesal tidak lebih dulu mengungkapkan perasaanku…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 360,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806218",
+      "key": "line:phone_phoneroulette_1_1_X_0d84269",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 361,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806217",
+      "key": "line:phone_phoneroulette_1_1_X_08a663d",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: А потом… Начался катаклизм, и на это не было времени.",
+      "target": "Phone: Lalu… bencana ini terjadi, dan kami tak sempat lagi membicarakannya.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 362,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806216",
+      "key": "line:phone_phoneroulette_1_1_X_0eee363",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: Я ждала, пока он признается в чувствах. Хотела, чтобы он сделал это первым. Но он всё не мог решиться, не мог подобрать момент.",
+      "target": "Phone: Aku menunggu dia menyatakan perasaannya. Aku ingin dia yang mengatakannya lebih dulu. Tapi dia tak kunjung berani, tak pernah menemukan saat yang tepat.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 363,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806215",
+      "key": "line:phone_phoneroulette_1_1_X_00861b2",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: И потом поняла, что мы нравимся друг другу.",
+      "target": "Phone: Lalu aku sadar kami saling menyukai.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 364,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806214",
+      "key": "line:phone_phoneroulette_1_1_X_0e05821",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: Он так заботился обо мне. Всегда поддерживал, всегда готов был выслушать.",
+      "target": "Phone: Dia sangat memperhatikanku. Selalu mendukungku, selalu siap mendengarkan.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 365,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806213",
+      "key": "line:phone_phoneroulette_1_1_X_097eac5",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X"
+      ],
+      "source": "Phone: Думаю, он был влюблён в меня.",
+      "target": "Phone: Kurasa dia jatuh cinta kepadaku.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 366,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806212",
+      "key": "line:phone_phoneroulette_1_1_4_00e9cc1",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_4"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 367,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806211",
+      "key": "line:phone_phoneroulette_1_1_4_07daece",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_4"
+      ],
+      "source": "Phone: Он хотел поехать со мной, но не смог. И я пообещала ему, что мы будем поддерживать связь, что позвоню ему. Но…",
+      "target": "Phone: Dia ingin ikut denganku, tetapi tidak bisa. Aku berjanji kami akan tetap berhubungan dan aku akan meneleponnya. Tapi…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 368,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806210",
+      "key": "line:phone_phoneroulette_1_1_4_058a460",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_4"
+      ],
+      "source": "Phone: И больше всего по моему лучшему другу…",
+      "target": "Phone: Dan yang paling kurindukan, sahabatku…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 369,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806209",
+      "key": "line:phone_phoneroulette_1_1_4_074283c",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_4"
+      ],
+      "source": "Phone: Тоскую. Но скорее не по родному городу, а по людям, которые там остались…",
+      "target": "Phone: Ya, aku rindu. Tapi bukan kampung halamanku, melainkan orang-orang yang masih di sana…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 370,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806208",
+      "key": "line:phone_phoneroulette_1_1_3_04c55b7",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 371,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611915",
+      "key": "line:phone_phoneroulette_1_1_3_0ad0bcf",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: Он так сокрушался об этом... Жалел, что не сделал их раньше. Я хотела помочь ему, но не знала, чем.",
+      "target": "Phone: Dia begitu menyesalinya... Menyesal tidak mengurus dokumennya lebih awal. Aku ingin membantunya, tetapi tidak tahu caranya.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 372,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611914",
+      "key": "line:phone_phoneroulette_1_1_3_0194e7a",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 373,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611913",
+      "key": "line:phone_phoneroulette_1_1_3_0eab6fe",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: А когда начался катаклизм, сделать их уже было нельзя.",
+      "target": "Phone: Begitu bencana dimulai, dokumen itu sudah tidak bisa diurus lagi.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 374,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611912",
+      "key": "line:phone_phoneroulette_1_1_3_097c7e1",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: У него не было документов, чтобы он мог отправиться в путь со мной.",
+      "target": "Phone: Dia tidak punya dokumen untuk bepergian bersamaku.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 375,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611911",
+      "key": "line:phone_phoneroulette_1_1_3_0e9ade0",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: На самом деле, мой лучший друг хотел полететь со мной, но не смог…",
+      "target": "Phone: Sebenarnya sahabatku ingin terbang bersamaku, tetapi tidak bisa…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 376,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611910",
+      "key": "line:phone_phoneroulette_1_1_3_0bd7fe9",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "source": "Phone: Я не хотела улетать одна. Но…",
+      "target": "Phone: Aku tidak ingin pergi sendirian. Tapi…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 377,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611909",
+      "key": "line:phone_phoneroulette_1_1_2_04f95fd",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Вы тоскуете по своему родному городу?",
+      "target": "Apa Anda merindukan kampung halaman Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 378,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611908",
+      "key": "line:phone_phoneroulette_1_1_2_0738e31",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Почему вы отправились одна?",
+      "target": "Mengapa Anda pergi sendirian?",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 379,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611907",
+      "key": "line:phone_phoneroulette_1_1_2_05eade3",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Тоскую по спокойным временам, когда можно было просто жить и думать о будущем.",
+      "target": "Phone: Aku merindukan masa-masa tenang, ketika kita bisa sekadar hidup dan memikirkan masa depan.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 380,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611906",
+      "key": "line:phone_phoneroulette_1_1_2_0de61c3",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Мне страшно от мысли, что, возможно, я больше никогда не увижу тех, кто был мне дорог…",
+      "target": "Phone: Aku takut membayangkan mungkin aku tidak akan pernah melihat lagi orang-orang yang kusayangi…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 381,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611905",
+      "key": "line:phone_phoneroulette_1_1_2_0af25bb",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 382,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611904",
+      "key": "line:phone_phoneroulette_1_1_2_07a5a67",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Теперь я здесь, в безопасности, но все мои друзья…",
+      "target": "Phone: Sekarang aku aman di sini, tetapi semua temanku…",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 383,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417611",
+      "key": "line:phone_phoneroulette_1_1_2_0aaa23f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Весь город оказался отрезан от остального мира.",
+      "target": "Phone: Seluruh kota itu terputus dari dunia luar.",
+      "targetBatch": "Translations/id/dialogue-batch-026.json",
+      "targetBatchSha256": "098173c639e5e0cea874ad35e9d233ab906f02fdd0e775dbbc6d8bbc6eb042cf"
+    },
+    {
+      "sourceOrderIndex": 384,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417610",
+      "key": "line:phone_phoneroulette_1_1_2_053dee4",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: И позже я узнала, в чём причина, — у них отрубили телефонные линии.",
+      "target": "Phone: Belakangan aku tahu alasannya: saluran telepon mereka diputus.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 385,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417609",
+      "key": "line:phone_phoneroulette_1_1_2_09b403f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Но когда я прилетела, не могла ни до кого дозвониться.",
+      "target": "Phone: Tapi setelah aku tiba, aku tidak bisa menghubungi siapa pun.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 386,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417608",
+      "key": "line:phone_phoneroulette_1_1_2_0aec865",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Я пообещала всем, что буду регулярно звонить, с каждым общаться, спрашивать, как дела…",
+      "target": "Phone: Aku berjanji akan menelepon mereka secara teratur, mengobrol dengan masing-masing, dan menanyakan kabar mereka…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 387,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417607",
+      "key": "line:phone_phoneroulette_1_1_2_05b6f55",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Дело в том, что, когда начался катаклизм, я решила покинуть свой родной город. Улететь как можно дальше от жары.",
+      "target": "Phone: Saat bencana dimulai, aku memutuskan meninggalkan kampung halamanku. Terbang sejauh mungkin dari panas.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 388,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417606",
+      "key": "line:phone_phoneroulette_1_1_2_0072a36",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Я бы с радостью им позвонила, но… Я не знаю, как мне с ними связаться…",
+      "target": "Phone: Aku ingin sekali menelepon mereka, tapi… Aku tidak tahu cara menghubungi mereka…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 389,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417605",
+      "key": "line:phone_phoneroulette_1_1_1_016b025",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Вы тоскуете по своему родному городу?",
+      "target": "Apa Anda merindukan kampung halaman Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 390,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417604",
+      "key": "line:phone_phoneroulette_1_1_1_0ae59e6",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Почему вы отправились одна?",
+      "target": "Mengapa Anda pergi sendirian?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 391,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417603",
+      "key": "line:phone_phoneroulette_1_1_1_0688e59",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Ведь Гости могут никуда не пропасть. Заменить наших друзей и близких, а мы даже не узнаем об этом…",
+      "target": "Phone: Tamu mungkin tidak akan pernah lenyap. Mereka bisa menggantikan teman dan orang terdekat kita tanpa kita sadari…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 392,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417602",
+      "key": "line:phone_phoneroulette_1_1_1_08c72ca",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Но я почти перестала верить в хороший исход. Что будет, когда солнце закончит жечь нас?",
+      "target": "Phone: Tapi aku hampir tidak lagi percaya semuanya akan berakhir baik. Apa yang akan terjadi setelah matahari berhenti membakar kita?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 393,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417601",
+      "key": "line:phone_phoneroulette_1_1_1_02aeb2b",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Очень хочется верить, что солнце перестанет гореть так сильно и всё это закончится.",
+      "target": "Phone: Aku sangat berharap matahari tidak lagi sepanas ini dan semua ini berakhir.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 394,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417600",
+      "key": "line:phone_phoneroulette_1_1_1_0aad17e",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Забавно, раньше я терпеть не могла холод, а сейчас… он – самая настоящая благодать для меня.",
+      "target": "Phone: Lucu juga. Dulu aku paling tidak tahan dingin, tapi sekarang… dingin terasa seperti berkah bagiku.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 395,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223308",
+      "key": "line:phone_phoneroulette_1_1_1_09caa1d",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Но раз даже в аду на девятом кругу есть холодное место, значит… всё не так уж плохо.",
+      "target": "Phone: Tapi kalau di lingkaran neraka kesembilan pun ada tempat yang dingin, berarti… keadaannya belum terlalu buruk.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 396,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223307",
+      "key": "line:phone_phoneroulette_1_1_1_02d7086",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Почти безопасный клочок земли у чёрта на рогах.",
+      "target": "Phone: Sehampar tanah yang nyaris aman di tempat terpencil sekali.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 397,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223306",
+      "key": "line:phone_phoneroulette_1_1_1_09e3108",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: Поэтому я почти на краю света. Здесь ужасно холодный климат, пробирающий до костей, а трава почти не растёт.",
+      "target": "Phone: Karena itu, aku sekarang nyaris di ujung dunia. Iklim di sini sangat dingin, menusuk tulang, dan rumput hampir tidak tumbuh.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 398,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223305",
+      "key": "line:phone_phoneroulette_1_1_1_0327505",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: В попытке сбежать от огненной жары я искала место, где холоднее всего.",
+      "target": "Phone: Untuk lari dari panas yang membara, aku mencari tempat paling dingin.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 399,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223304",
+      "key": "line:phone_phoneroulette_1_1_1_052051a",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "source": "Phone: К сожалению, я очень далеко от дома.",
+      "target": "Phone: Sayangnya, aku sangat jauh dari rumah.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 400,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223303",
+      "key": "line:phone_phoneroulette_1_1_0b970f3",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Почему вы решили позвонить сюда, а не своим друзьям?",
+      "target": "Mengapa Anda menelepon ke sini, bukan ke teman-teman Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 401,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223302",
+      "key": "line:phone_phoneroulette_1_1_0661932",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Где вы живёте?",
+      "target": "Di mana Anda tinggal?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 402,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223301",
+      "key": "line:phone_phoneroulette_1_1_08b04b2",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Phone: Что бы вы хотели узнать?",
+      "target": "Phone: Apa yang ingin Anda ketahui?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 403,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223300",
+      "key": "line:phone_phoneroulette_1_1_0dad761",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Phone: Думаю, чтобы нам было проще, я могу что-нибудь о себе рассказать.",
+      "target": "Phone: Kurasa akan lebih mudah kalau aku menceritakan sedikit tentang diriku.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 404,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223299",
+      "key": "line:phone_phoneroulette_1_1_0e2624b",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Phone: Спасибо вам огромное. Спасибо!",
+      "target": "Phone: Terima kasih banyak. Terima kasih!",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 405,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223298",
+      "key": "line:phone_phoneroulette_1_2_02d9f63",
+      "nodeNames": [
+        "phone_phoneroulette_1_2"
+      ],
+      "source": "Phone: До свидания.",
+      "target": "Phone: Selamat tinggal.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 406,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223297",
+      "key": "line:phone_phoneroulette_1_2_0b3f494",
+      "nodeNames": [
+        "phone_phoneroulette_1_2"
+      ],
+      "source": "Phone: Хорошо, извините, если я вас побеспокоила.",
+      "target": "Phone: Baiklah. Maaf jika aku mengganggu Anda.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 407,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223296",
+      "key": "line:phone_phoneroulette_1_2_08e3d52",
+      "nodeNames": [
+        "phone_phoneroulette_1_2"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 408,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029004",
+      "key": "line:phone_phoneroulette_1_2_04e80ca",
+      "nodeNames": [
+        "phone_phoneroulette_1_2"
+      ],
+      "source": "Phone: Оу…",
+      "target": "Phone: Oh…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 409,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029003",
+      "key": "line:phone_phoneroulette_1_019b6fb",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Я не готов к долгому разговору",
+      "target": "Aku belum siap mengobrol lama",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 410,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029002",
+      "key": "line:phone_phoneroulette_1_0a0bbdf",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Хорошо",
+      "target": "Baiklah",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 411,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029001",
+      "key": "line:phone_phoneroulette_1_04ba42e",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Вы не против послушать меня?",
+      "target": "Phone: Apa Anda bersedia mendengarkanku?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 412,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029000",
+      "key": "line:phone_phoneroulette_1_09e182b",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Вы не представляете, как поможете мне простым разговором. Так я буду чувствовать себя гораздо спокойнее.",
+      "target": "Phone: Anda tidak tahu betapa besar bantuan obrolan singkat ini bagiku. Aku akan merasa jauh lebih tenang.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 413,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028999",
+      "key": "line:phone_phoneroulette_1_0a55369",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Я понимаю, что неправильно грузить неизвестного человека своими проблемами, но…",
+      "target": "Phone: Aku tahu tidak pantas membebani orang asing dengan masalahku, tapi…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 414,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028998",
+      "key": "line:phone_phoneroulette_1_0b7172b",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Возможно, не лучшее место, для изливания души, но лучше, чем ничего.",
+      "target": "Phone: Mungkin ini bukan tempat terbaik untuk mencurahkan isi hati, tetapi lebih baik daripada tidak sama sekali.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 415,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028997",
+      "key": "line:phone_phoneroulette_1_08313e7",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: А потом я узнала про телефонную рулетку.",
+      "target": "Phone: Lalu aku mengetahui tentang Roulette Telepon.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 416,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028996",
+      "key": "line:phone_phoneroulette_1_027105b",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Я пыталась связаться со своими друзьями и знакомыми, но никто не отвечает…",
+      "target": "Phone: Aku sudah mencoba menghubungi teman dan kenalanku, tapi tak seorang pun menjawab…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 417,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028995",
+      "key": "line:phone_phoneroulette_1_01c53e9",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: Я… Мне надо кому-то выговориться. Столько всего произошло за последнее время…",
+      "target": "Phone: Aku… Aku perlu bicara dengan seseorang. Begitu banyak yang terjadi belakangan ini…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 418,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028994",
+      "key": "line:phone_phoneroulette_1_0a692ba",
+      "nodeNames": [
+        "phone_phoneroulette_1"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 419,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028993",
+      "key": "line:phone_phoneroulette_2_1_012cd27",
+      "nodeNames": [
+        "phone_phoneroulette_2_1"
+      ],
+      "source": "Phone: Видимо, никого нет…",
+      "target": "Phone: Sepertinya tidak ada orang…",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 420,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028992",
+      "key": "line:phone_phoneroulette_2_1_0e9efe0",
+      "nodeNames": [
+        "phone_phoneroulette_2_1"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 421,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834699",
+      "key": "line:phone_phoneroulette_2_1_0c80db4",
+      "nodeNames": [
+        "phone_phoneroulette_2_1"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 422,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834698",
+      "key": "line:phone_phoneroulette_2_0e3c801",
+      "nodeNames": [
+        "phone_phoneroulette_2"
+      ],
+      "source": "…",
+      "target": "…",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 423,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834697",
+      "key": "line:phone_phoneroulette_2_0e3a913",
+      "nodeNames": [
+        "phone_phoneroulette_2"
+      ],
+      "source": "Здравствуйте",
+      "target": "Halo",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 424,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834696",
+      "key": "line:phone_phoneroulette_2_04eff9e",
+      "nodeNames": [
+        "phone_phoneroulette_2"
+      ],
+      "source": "Phone: Алло?",
+      "target": "Phone: Halo?",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 425,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834695",
+      "key": "line:phone_phoneroulette_2_02eb802",
+      "nodeNames": [
+        "phone_phoneroulette_2"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 426,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834694",
+      "key": "line:phone_phoneroulette_0daab32",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "…",
+      "target": "…",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 427,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834693",
+      "key": "line:phone_phoneroulette_0cd430f",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "Здравствуйте",
+      "target": "Halo",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 428,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834692",
+      "key": "line:phone_phoneroulette_078f451",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "Phone: Алло, здравствуйте.",
+      "target": "Phone: Halo, selamat berjumpa.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 429,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834691",
+      "key": "line:phone_phoneroulette_0e648ac",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 430,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834690",
+      "key": "line:phone_phoneroulette_00364dc",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 431,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834689",
+      "key": "line:phone_phoneroulette_05e3bc8",
+      "nodeNames": [
+        "phone_phoneroulette"
+      ],
+      "source": "Phone: Здравствуйте, вы позвонили в телефонную рулетку. Сейчас мы подберём вам идеального собеседника. Ожидайте.",
+      "target": "Phone: Halo, Anda menelepon Roulette Telepon. Sebentar lagi kami akan mencarikan teman bicara yang cocok untuk Anda. Mohon tunggu.",
+      "targetBatch": "Translations/id/dialogue-batch-027.json",
+      "targetBatchSha256": "1fa44a285a28da4f1c0ff56e575fe327d5be08570272ad755c15e963aad0c43e"
+    },
+    {
+      "sourceOrderIndex": 432,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834688",
+      "key": "line:phone_psychics_10_0db9444",
+      "nodeNames": [
+        "phone_psychics_10"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 433,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640396",
+      "key": "line:phone_psychics_9_0e8cae1",
+      "nodeNames": [
+        "phone_psychics_9"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 434,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640395",
+      "key": "line:phone_psychics_8_017edd7",
+      "nodeNames": [
+        "phone_psychics_8"
+      ],
+      "source": "Phone: Что ж, тогда последний вопрос: скажите, у вас проливалась кровь дома?",
+      "target": "Phone: Baiklah, pertanyaan terakhir: apakah pernah ada darah tertumpah di rumah Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-023.json",
+      "targetBatchSha256": "80cd7c3437a5c87fbdb960694439df614a450106e8c88067d8018ab0d3ce7d80"
+    },
+    {
+      "sourceOrderIndex": 435,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640394",
+      "key": "line:phone_psychics_7_0783a53",
+      "nodeNames": [
+        "phone_psychics_7"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 436,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640393",
+      "key": "line:phone_psychics_6_0662833",
+      "nodeNames": [
+        "phone_psychics_6"
+      ],
+      "source": "Phone: Хорошо, тогда скажите, вы потребляете в пищу грибы?",
+      "target": "Phone: Baik. Kalau begitu, apakah Anda mengonsumsi jamur?",
+      "targetBatch": "Translations/id/dialogue-batch-023.json",
+      "targetBatchSha256": "80cd7c3437a5c87fbdb960694439df614a450106e8c88067d8018ab0d3ce7d80"
+    },
+    {
+      "sourceOrderIndex": 437,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640392",
+      "key": "line:phone_psychics_6_0f2d1f4",
+      "nodeNames": [
+        "phone_psychics_6"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 438,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640391",
+      "key": "line:phone_fema_asking_5_02b0b68",
+      "nodeNames": [
+        "phone_fema_asking_5"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 439,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640390",
+      "key": "line:phone_fema_asking_5_0b8a699",
+      "nodeNames": [
+        "phone_fema_asking_5"
+      ],
+      "source": "Phone: Мы проконсультируемся с начальством и сообщим позже.",
+      "target": "Phone: Kami akan berkonsultasi dengan atasan dan mengabari Anda nanti.",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 440,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640389",
+      "key": "line:phone_fema_asking_5_08fefaf",
+      "nodeNames": [
+        "phone_fema_asking_5"
+      ],
+      "source": "Phone: Уши? Подождите...",
+      "target": "Phone: Telinga? Tunggu...",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 441,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640388",
+      "key": "line:phone_fema_asking_5_03acd7e",
+      "nodeNames": [
+        "phone_fema_asking_5"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 442,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640387",
+      "key": "line:phone_fema_asking_4_00a24c2",
+      "nodeNames": [
+        "phone_fema_asking_4"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 443,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640386",
+      "key": "line:phone_fema_asking_4_0685dac",
+      "nodeNames": [
+        "phone_fema_asking_4"
+      ],
+      "source": "Phone: Воздержитесь от принятия душа и мытья рук.",
+      "target": "Phone: Hindari mandi dan mencuci tangan.",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 444,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640385",
+      "key": "line:phone_fema_asking_4_0d875f1",
+      "nodeNames": [
+        "phone_fema_asking_4"
+      ],
+      "source": "Phone: Чтобы анализы подмышек получились правильными, вам необходимо избегать любых контактов с водой.",
+      "target": "Phone: Agar hasil pemeriksaan ketiak akurat, Anda harus menghindari segala kontak dengan air.",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 445,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640384",
+      "key": "line:phone_fema_asking_3_0ee9c10",
+      "nodeNames": [
+        "phone_fema_asking_3"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 446,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446091",
+      "key": "line:phone_fema_asking_2_0d2e51b",
+      "nodeNames": [
+        "phone_fema_asking_2"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 447,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446090",
+      "key": "line:phone_fema_asking_1_0fcd396",
+      "nodeNames": [
+        "phone_fema_asking_1"
+      ],
+      "source": "Phone: …",
+      "target": "Phone: …",
+      "targetBatch": "Translations/id/dialogue-batch-009.json",
+      "targetBatchSha256": "97df2fa995790634501b6202d2fdfb3da77a1f30e8c0360388a4d9a7c0e193ec"
+    },
+    {
+      "sourceOrderIndex": 448,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446089",
+      "key": "line:phone_fema_asking_05527c2",
+      "nodeNames": [
+        "phone_fema_asking"
+      ],
+      "source": "Что мне делать с ушами?",
+      "target": "Apa yang harus kulakukan dengan telingaku?",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 449,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446088",
+      "key": "line:phone_fema_asking_0fc4536",
+      "nodeNames": [
+        "phone_fema_asking"
+      ],
+      "source": "Что мне делать с подмышками?",
+      "target": "Apa yang harus kulakukan dengan ketiakku?",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 450,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446087",
+      "key": "line:phone_fema_X_01aa509",
+      "nodeNames": [
+        "phone_fema_X"
+      ],
+      "source": "Phone: ТЫ СОВСЕМ ДУРА?! ЖИВО ПОЛОЖИ ТРУБКУ!",
+      "target": "Phone: KAMU BENAR-BENAR BODOH?! CEPAT TUTUP TELEPONNYA!",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 451,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446086",
+      "key": "line:phone_fema_X_00a82b2",
+      "nodeNames": [
+        "phone_fema_X"
+      ],
+      "source": "Phone: (Не успела женщина ответить, как раздался громкий мужской вопль)",
+      "target": "Phone: (Sebelum perempuan itu sempat menjawab, terdengar teriakan keras seorang pria)",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 452,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446085",
+      "key": "line:phone_fema_2_086eb74",
+      "nodeNames": [
+        "phone_fema_2"
+      ],
+      "source": "О чём вы?",
+      "target": "Apa maksud Anda?",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 453,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446084",
+      "key": "line:phone_fema_2_093b101",
+      "nodeNames": [
+        "phone_fema_2"
+      ],
+      "source": "Что? КЧС? Это ещё что?",
+      "target": "Apa? KChS? Itu apa?",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 454,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446083",
+      "key": "line:phone_fema_2_000bf32",
+      "nodeNames": [
+        "phone_fema_2"
+      ],
+      "source": "Phone: Здравствуйте, вы позвонили на горячую линию КЧС. Чем вам помочь?",
+      "target": "Phone: Halo, Anda menghubungi hotline KChS. Ada yang bisa kami bantu?",
+      "targetBatch": "Translations/id/dialogue-batch-032.json",
+      "targetBatchSha256": "98cf10fd44921dbb391185106eb47d7e26c1d7b7cf8624e2decc15b2ed5942a6"
+    },
+    {
+      "sourceOrderIndex": 455,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446082",
+      "key": "line:phone_neighbour_day4_3_081618f",
+      "nodeNames": [
+        "phone_neighbour_day4_3"
+      ],
+      "source": "Береги себя (Завершить звонок)",
+      "target": "Jaga dirimu (Akhiri panggilan)",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 456,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446081",
+      "key": "line:phone_neighbour_day4_3_03d76f5",
+      "nodeNames": [
+        "phone_neighbour_day4_3"
+      ],
+      "source": "Кто такие КЧС?",
+      "target": "KChS itu siapa?",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 457,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457878446080",
+      "key": "line:phone_neighbour_day4_3_01d5d1e",
+      "nodeNames": [
+        "phone_neighbour_day4_3"
+      ],
+      "source": "Хорошо, что они не забрали твою дочь",
+      "target": "Syukurlah mereka tidak membawa pergi putrimu",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 458,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457874251787",
+      "key": "line:phone_neighbour_day4_3_07d9840",
+      "nodeNames": [
+        "phone_neighbour_day4_3"
+      ],
+      "source": "Куда они забрали твоего жильца?",
+      "target": "Ke mana mereka membawa penghuni rumahmu?",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 459,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457874251786",
+      "key": "line:phone_neighbour_day4_2_0de21e5",
+      "nodeNames": [
+        "phone_neighbour_day4_2"
+      ],
+      "source": "Береги себя (Завершить звонок)",
+      "target": "Jaga dirimu (Akhiri panggilan)",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    },
+    {
+      "sourceOrderIndex": 460,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457874251785",
+      "key": "line:phone_neighbour_day4_2_00a2538",
+      "nodeNames": [
+        "phone_neighbour_day4_2"
+      ],
+      "source": "Кто такие КЧС?",
+      "target": "KChS itu siapa?",
+      "targetBatch": "Translations/id/dialogue-batch-003.json",
+      "targetBatchSha256": "19608f9334ed0cb65c463300413ea09dcc9673f5679015572af0ccd2c5e7a1cd"
+    }
+  ],
+  "semanticPassComplete": false,
+  "independentReview": "pending"
+}

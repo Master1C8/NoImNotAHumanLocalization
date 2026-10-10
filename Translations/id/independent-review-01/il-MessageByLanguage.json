@@ -1,0 +1,574 @@
+{
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "needle": "MessageByLanguage",
+  "matches": [
+    {
+      "token": "0x6001490",
+      "method": ".<>c__DisplayClass11_0.<ShowDialogForTime>b__0",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.MessageByLanguage.get_Type"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ldfld",
+          "operand": "<>c__DisplayClass11_0.messageType"
+        },
+        {
+          "offset": "0xd",
+          "opcode": "ceq",
+          "operand": ""
+        },
+        {
+          "offset": "0xf",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001493",
+      "method": ".<ShowDialogForTime>d__11.MoveNext",
+      "instructions": [
+        {
+          "offset": "0xc",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xd",
+          "opcode": "ldfld",
+          "operand": "<ShowDialogForTime>d__11.<>1__state"
+        },
+        {
+          "offset": "0x12",
+          "opcode": "stloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x13",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x14",
+          "opcode": "ldfld",
+          "operand": "<ShowDialogForTime>d__11.<>4__this"
+        },
+        {
+          "offset": "0x19",
+          "opcode": "stloc.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x1a",
+          "opcode": "ldloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x1b",
+          "opcode": "brfalse.s",
+          "operand": "155"
+        },
+        {
+          "offset": "0x1d",
+          "opcode": "newobj",
+          "operand": ".<>c__DisplayClass11_0..ctor"
+        },
+        {
+          "offset": "0x22",
+          "opcode": "stloc.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x23",
+          "opcode": "ldloc.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x24",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x25",
+          "opcode": "ldfld",
+          "operand": "<ShowDialogForTime>d__11.messageType"
+        },
+        {
+          "offset": "0x2a",
+          "opcode": "stfld",
+          "operand": "<>c__DisplayClass11_0.messageType"
+        },
+        {
+          "offset": "0x2f",
+          "opcode": "ldloc.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x30",
+          "opcode": "ldfld",
+          "operand": "SubtitlesView._messages"
+        },
+        {
+          "offset": "0x35",
+          "opcode": "ldloc.2",
+          "operand": ""
+        },
+        {
+          "offset": "0x36",
+          "opcode": "ldftn",
+          "operand": ".<>c__DisplayClass11_0.<ShowDialogForTime>b__0"
+        },
+        {
+          "offset": "0x3c",
+          "opcode": "newobj",
+          "operand": "..ctor"
+        },
+        {
+          "offset": "0x41",
+          "opcode": "call",
+          "operand": "token(0x2B0002F6)"
+        },
+        {
+          "offset": "0x46",
+          "opcode": "stloc.3",
+          "operand": ""
+        },
+        {
+          "offset": "0x47",
+          "opcode": "ldloc.3",
+          "operand": ""
+        },
+        {
+          "offset": "0x48",
+          "opcode": "brtrue.s",
+          "operand": "79"
+        },
+        {
+          "offset": "0x4a",
+          "opcode": "leave",
+          "operand": "218"
+        },
+        {
+          "offset": "0x4f",
+          "opcode": "ldloc.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x50",
+          "opcode": "ldloc.3",
+          "operand": ""
+        },
+        {
+          "offset": "0x51",
+          "opcode": "callvirt",
+          "operand": "_Code.DialogSystem.MessageByLanguage.get_MessageLocalizationKey"
+        },
+        {
+          "offset": "0x56",
+          "opcode": "callvirt",
+          "operand": "LocalizedString.GetLocalizedString"
+        },
+        {
+          "offset": "0x5b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x5c",
+          "opcode": "ldfld",
+          "operand": "<ShowDialogForTime>d__11.time"
+        },
+        {
+          "offset": "0x61",
+          "opcode": "call",
+          "operand": "_Code.DialogSystem.SubtitlesView.ShowDialogForTime"
+        },
+        {
+          "offset": "0x66",
+          "opcode": "stloc.s",
+          "operand": "local(0x0005)"
+        },
+        {
+          "offset": "0x68",
+          "opcode": "ldloca.s",
+          "operand": "local(0x0005)"
+        },
+        {
+          "offset": "0x6a",
+          "opcode": "call",
+          "operand": "UniTask.GetAwaiter"
+        },
+        {
+          "offset": "0x6f",
+          "opcode": "stloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0x71",
+          "opcode": "ldloca.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0x73",
+          "opcode": "call",
+          "operand": "Awaiter.get_IsCompleted"
+        },
+        {
+          "offset": "0x78",
+          "opcode": "brtrue.s",
+          "operand": "184"
+        },
+        {
+          "offset": "0x7a",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x7b",
+          "opcode": "ldc.i4.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x7c",
+          "opcode": "dup",
+          "operand": ""
+        },
+        {
+          "offset": "0x7d",
+          "opcode": "stloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x7e",
+          "opcode": "stfld",
+          "operand": "<ShowDialogForTime>d__11.<>1__state"
+        },
+        {
+          "offset": "0x83",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x84",
+          "opcode": "ldloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0x86",
+          "opcode": "stfld",
+          "operand": "<ShowDialogForTime>d__11.<>u__1"
+        },
+        {
+          "offset": "0x8b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x8c",
+          "opcode": "ldflda",
+          "operand": "<ShowDialogForTime>d__11.<>t__builder"
+        },
+        {
+          "offset": "0x91",
+          "opcode": "ldloca.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0x93",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x94",
+          "opcode": "call",
+          "operand": "token(0x2B0002F7)"
+        },
+        {
+          "offset": "0x99",
+          "opcode": "leave.s",
+          "operand": "237"
+        },
+        {
+          "offset": "0x9b",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x9c",
+          "opcode": "ldfld",
+          "operand": "<ShowDialogForTime>d__11.<>u__1"
+        },
+        {
+          "offset": "0xa1",
+          "opcode": "stloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0xa3",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xa4",
+          "opcode": "ldflda",
+          "operand": "<ShowDialogForTime>d__11.<>u__1"
+        },
+        {
+          "offset": "0xa9",
+          "opcode": "initobj",
+          "operand": ".Awaiter"
+        },
+        {
+          "offset": "0xaf",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xb0",
+          "opcode": "ldc.i4.m1",
+          "operand": ""
+        },
+        {
+          "offset": "0xb1",
+          "opcode": "dup",
+          "operand": ""
+        },
+        {
+          "offset": "0xb2",
+          "opcode": "stloc.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xb3",
+          "opcode": "stfld",
+          "operand": "<ShowDialogForTime>d__11.<>1__state"
+        },
+        {
+          "offset": "0xb8",
+          "opcode": "ldloca.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": "0xba",
+          "opcode": "call",
+          "operand": "Awaiter.GetResult"
+        },
+        {
+          "offset": "0xbf",
+          "opcode": "leave.s",
+          "operand": "218"
+        },
+        {
+          "offset": "0xc1",
+          "opcode": "stloc.s",
+          "operand": "local(0x0006)"
+        },
+        {
+          "offset": "0xc3",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xc4",
+          "opcode": "ldc.i4.s",
+          "operand": "-2"
+        },
+        {
+          "offset": "0xc6",
+          "opcode": "stfld",
+          "operand": "<ShowDialogForTime>d__11.<>1__state"
+        },
+        {
+          "offset": "0xcb",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xcc",
+          "opcode": "ldflda",
+          "operand": "<ShowDialogForTime>d__11.<>t__builder"
+        },
+        {
+          "offset": "0xd1",
+          "opcode": "ldloc.s",
+          "operand": "local(0x0006)"
+        },
+        {
+          "offset": "0xd3",
+          "opcode": "call",
+          "operand": "AsyncUniTaskMethodBuilder.SetException"
+        },
+        {
+          "offset": "0xd8",
+          "opcode": "leave.s",
+          "operand": "237"
+        },
+        {
+          "offset": "0xda",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xdb",
+          "opcode": "ldc.i4.s",
+          "operand": "-2"
+        },
+        {
+          "offset": "0xdd",
+          "opcode": "stfld",
+          "operand": "<ShowDialogForTime>d__11.<>1__state"
+        },
+        {
+          "offset": "0xe2",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0xe3",
+          "opcode": "ldflda",
+          "operand": "<ShowDialogForTime>d__11.<>t__builder"
+        },
+        {
+          "offset": "0xe8",
+          "opcode": "call",
+          "operand": "AsyncUniTaskMethodBuilder.SetResult"
+        },
+        {
+          "offset": "0xed",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001497",
+      "method": "_Code.DialogSystem.MessageByLanguage.get_Type",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldfld",
+          "operand": "MessageByLanguage.<Type>k__BackingField"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001498",
+      "method": "_Code.DialogSystem.MessageByLanguage.set_Type",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x3",
+          "opcode": "stfld",
+          "operand": "MessageByLanguage.<Type>k__BackingField"
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x6001499",
+      "method": "_Code.DialogSystem.MessageByLanguage.get_MessageLocalizationKey",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldfld",
+          "operand": "MessageByLanguage.<MessageLocalizationKey>k__BackingField"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x600149a",
+      "method": "_Code.DialogSystem.MessageByLanguage.set_MessageLocalizationKey",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "ldarg.1",
+          "operand": ""
+        },
+        {
+          "offset": "0x3",
+          "opcode": "stfld",
+          "operand": "MessageByLanguage.<MessageLocalizationKey>k__BackingField"
+        },
+        {
+          "offset": "0x8",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    },
+    {
+      "token": "0x600149b",
+      "method": "_Code.DialogSystem.MessageByLanguage..ctor",
+      "instructions": [
+        {
+          "offset": "0x1",
+          "opcode": "ldarg.0",
+          "operand": ""
+        },
+        {
+          "offset": "0x2",
+          "opcode": "call",
+          "operand": "Object..ctor"
+        },
+        {
+          "offset": "0x7",
+          "opcode": "ret",
+          "operand": ""
+        }
+      ]
+    }
+  ],
+  "parseFailures": []
+}

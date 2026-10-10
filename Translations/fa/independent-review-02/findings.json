@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fa_independent_review_02",
+  "objectiveProposals": 1,
+  "rows": [
+    {
+      "findingId": "R02-F01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755329",
+      "path": "Translations/fa/dialogue-batch-348.json",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "currentTarget": "Scammer: یک بار خانهٔ خاله‌ام را توی ورق‌بازی باختم، آن‌قدر هم به من سخت نگرفتند. حالا برای یک عکس...",
+      "proposedTarget": "Scammer: یک بار خانهٔ عمه یا خاله‌ام را توی ورق‌بازی باختم، آن‌قدر هم به من سخت نگرفتند. حالا برای یک عکس...",
+      "reason": "Russian своей тётки establishes an aunt but does not identify a maternal or paternal family side. Persian خاله‌ام specifically asserts the mother’s sister. The approved amogus-shirt-man glossary and compiled Scammer_Photo_Gun supply no maternal-side fact. Preserve the aunt relationship without choosing a family side. This is an unsupported kinship detail, not a preference rewrite.",
+      "context": "Scammer_Photo_Gun instructions 0–1 run the laugh/question and aunt-house card-loss anecdote; the two following options lead to Scammer_Death and Scammer_Photo_DontShoot. Preserve card gambling, losing her house, first-person agent, relative severity of the prior consequences, and the present photo comparison.",
+      "boundedOccurrenceEvidence": "One accepted source inventory match for т[её]т(?:к|я|ю|и); exactly this stable ID.",
+      "fullReplacementPreflight": "Passed preserve_exact.check_value; preserves prefix, whole unchanged sentence content, ellipsis and protected syntax. Proposed neutral-side disjunction retains the relationship while not asserting either side.",
+      "status": "proposal only; author/root adjudication required; no authored mutation"
+    }
+  ]
+}

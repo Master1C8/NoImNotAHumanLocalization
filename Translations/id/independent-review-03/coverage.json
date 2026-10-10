@@ -1,0 +1,654 @@
+[
+  {
+    "sourceOrderIndex": 211,
+    "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+    "collection": "UI",
+    "key": "phone_sub_DaughtersFriend",
+    "nodeNames": [],
+    "source": "Подруга девочки",
+    "target": "Teman perempuan si anak",
+    "targetFile": "Translations/id/ui-batch-005.json",
+    "targetFileSha256": "5dc196ef863a2068e92befb776952862e92d5332c4cb9466b6280b6bac4f097c",
+    "components": [
+      "context",
+      "glossary-referents",
+      "phone-contact-consumers",
+      "runtime-bindings",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "explicitlyInvalidatedPrior"
+    ],
+    "deltaIndex": 1,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "b73a6aaa78f9bd56eedac9fa1396f70b1caa222113fc72b4ee46ec7cb233f111",
+    "targetSha256": "a486f1c43ea16a3a86461038d0b2644959c0d0834efcc953fb4963c46e045ce5",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Full contact label identifies the child’s female friend, not the answering mother. Daughter_Asking_3 instructions17–21 bind DaughtersFriend/GetPhoneNumber/one format slot/UnlockPhoneNumber. The approved phone-numbers rule and unchanged source-only mother context agree.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 8343,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428236",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_003ccef",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Daughter: Когда взрослые зовут, её отпускают... А если я сама, то меня всегда ругают.",
+    "target": "Daughter: Kalau orang dewasa yang mengundang, dia diizinkan pergi... Tapi kalau aku yang mengajaknya, aku selalu dimarahi.",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 2,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "3e0b32c18c452e80249c8a46ce33ab1b8b1685d5dfc321cfca05e54aa9eb2db2",
+    "targetSha256": "386965882dae29d987fadc91160f764115c7363868faa7340983840c2c52cf38",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Adults invite the same female friend and she is permitted to go; when the child invites her, the child is scolded. Current clause subjects and action direction preserve the contrast after the corrected introduction and phone line.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 8344,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428235",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_04109f4",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Daughter: И ещё... может, вы позовёте мою подружку в гости?..",
+    "target": "Daughter: Satu lagi... maukah Anda mengundang teman perempuanku untuk bermain di sini?..",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "changed",
+      "context",
+      "repetitions",
+      "glossary-referents",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "corrected",
+      "newDependency"
+    ],
+    "deltaIndex": 3,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "b3181e0c1a4a2fff66b526ac0c275cfcf8e064ff767a566a3f571235ec8fb558",
+    "targetSha256": "48c399066c6bc9e32fbddf87dc281246115df8dc138b1ffa8c59166d273b93f8",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Complete replacement retains hesitant child request and invitation, and now explicitly introduces her female friend. Playing at the house is supported by the child context and source-only invitation phrasing. Prefix and all other wording retained.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 9898,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454548168705",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_06917b3",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Возможно, папа не придёт за тобой. Я не знаю, что с ним",
+    "target": "Mungkin ayahmu tidak akan datang menjemputmu. Aku tidak tahu apa yang terjadi padanya",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 4,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "6218b186f69b150338ff57706c0fa347a275d70506780531fbacd19aeb4a18fd",
+    "targetSha256": "28ddd4368bf3470edb84288a465a53acfad4325a5f3c22c8a4611539eb23f6f6",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Second player option preserves uncertainty about whether her father will collect her and lack of knowledge of what happened to him. Compiled option branches to Daughter_Asking_3_2; no claim of confirmed death added.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 9899,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454548168704",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_07fcabd",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Я не знаю, что ты видела. Но, похоже, твой отец умер",
+    "target": "Aku tidak tahu apa yang kaulihat. Tapi sepertinya ayahmu sudah meninggal",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 5,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "7685a8fc54958adfcbb1bb13b8919b2ce3374ef6a3b68688853beb8be44c489d",
+    "targetSha256": "9f1654b8b8db7bd6d4a4404ad1e7dec2ca948f2a8bf2640efd8f69d5ffb37197",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "First player option preserves not knowing what the child witnessed and the qualified inference that her father died. Compiled option branches to Daughter_Asking_3_1; remains distinct from the uncertain alternative.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 9900,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454543974411",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_0feebe4",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Daughter: У вас в комнате я видела телевизор. Можно там мультики смотреть?",
+    "target": "Daughter: Aku melihat televisi di kamar Anda. Boleh aku menonton kartun di sana?",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 6,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "a67fa8baa30b548ecc77db7f4dbcf5d91331079d8ef5cdce27af81a9221d9d35",
+    "targetSha256": "b61b667fca03c4a097752fed542b71cd9cc6444acedcd5ca257d312b87c6bf5b",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Child asks permission to watch cartoons on the television seen in the player’s room. First-person seeing, location and permission question retained; Anda agrees with established respectful address.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 9901,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454543974410",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Asking_3_0405ce8",
+    "nodeNames": [
+      "Daughter_Asking_3"
+    ],
+    "source": "Daughter: Вы про что?",
+    "target": "Daughter: Apa maksud Anda?",
+    "targetFile": "Translations/id/dialogue-batch-014.json",
+    "targetFileSha256": "c546ea8aacc1c27c9ca434f7d2dac32a24d9828642dad1205df18b9ad3ce0945",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 7,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "2b5f077160088aafb34d3105d52c73f3c14d3548b736bf4b4c360abd9aef8a4f",
+    "targetSha256": "f3634bcc4ab4237c2f3049f1e84cf0b2e9e3ee86b10742b6fde361d9432f62c7",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Child asks what the player means; question and respectful address retained. Actual instruction14 precedes the television/friend requests.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11424,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937675",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_03b16f4",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: А ведь хорошая девчонка была. Симпатичная…",
+    "target": "Bald: Padahal dia gadis yang baik. Cantik pula…",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 8,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "20a1009712ec4107f655164f027d35eec2d621b20adb261818f744538daccd1f",
+    "targetSha256": "8a366d41593d586b23f251f3299a90c4bb5fceb05bccaa8f45d8acfc8ca3a9e3",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Final narration recalls the deceased female friend as a good and attractive girl. gadis and Cantik preserve both facts without converting her to an adult woman.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11425,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937674",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_096467c",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: Это пиздец…",
+    "target": "Bald: Sialan, kacau sekali…",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 9,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "29fcd1dca7898bed922f3745a2c96baf6b1c5e46e6c6329a5fc6d03e816b64bc",
+    "targetSha256": "e5b3378d96f967b4ffc646df2a5afa339dd009ae91961dfb806b65170d4395b1",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Profane reaction to the drowning remains profane and expresses the catastrophic situation. Sialan, kacau sekali retains the intended register.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11426,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937673",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_0a5b3e8",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: Она бухая шла, оступилась, упала в речку и утонула.",
+    "target": "Bald: Dia berjalan dalam keadaan mabuk, salah langkah, jatuh ke sungai, lalu tenggelam.",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 10,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "bceb6f5fb439c422caa80dc717edb99598c64c052556e7142bd27b87a9e094f0",
+    "targetSha256": "fa33aec00cd212f7a1ef18c6ebe16c6060f18495f49b1db8e3d29e29d4ddcc00",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Female friend was walking drunk, misstepped, fell into a river and drowned. Current complete unit preserves that causal order, agency and river; dia refers back to the corrected female introduction.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11427,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937672",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_0badd9a",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: И знаешь что?",
+    "target": "Bald: Dan kau tahu apa yang terjadi?",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 11,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "df2d6258f7823b1ff502f61e8b3ae878bcaca72d4cd02f4b0960aa2888161c35",
+    "targetSha256": "4c495602755a194c6480303678f66b0fb092cb42a3d88c422c8b1fb87b567452",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Rhetorical question introduces the subsequent revelation about the friend; current Indonesian question performs the same transition in the actual compiled sequence.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11428,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937671",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_09b12c5",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: Мы нашли её фотку, распечатали и развесили всюду объявления о том, что она пропала.",
+    "target": "Bald: Kami mencari fotonya, mencetaknya, lalu memasang pengumuman orang hilang di mana-mana.",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 12,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "644334c7e9e71a1ccf5e737edb634447d19c7a73162870d24fc1bf4c98de7384",
+    "targetSha256": "3fe170d5db8ace8bbf783f3bde3a2c11ee2a43e08fbd20b38a76524b0ddab5a0",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Complete unit preserves locating her photograph, printing it, and posting missing-person notices everywhere. In this consecutive completed narrative, mencari fotonya followed immediately by mencetaknya entails that they obtained the photograph; no unresolved search or different result is stated. No preference-only replacement proposed.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11429,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937670",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_03c6083",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: А потом через несколько дней узнали, что наша подруга, которая домой возвращалась, не дошла.",
+    "target": "Bald: Beberapa hari kemudian baru kami tahu teman perempuan kami yang pulang itu tak pernah sampai di rumah.",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "changed",
+      "context",
+      "repetitions",
+      "glossary-referents"
+    ],
+    "deltaReasons": [
+      "corrected"
+    ],
+    "deltaIndex": 13,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "3c7c4510f8b6a184a2c4a34bbec6b1ccbcd77d5dfbf3c9a57c5c14261ce5dbab",
+    "targetSha256": "e50b2c43acd4825581ea8bdb2637879957b1d223c62153e6d543f3ccc9c70d81",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Complete corrected first introduction now preserves the female friend, plural group relationship, elapsed days, homeward trip and failure to reach home. Later gadis is not used as a substitute for this initial disclosure.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 11430,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937669",
+    "collection": "Dialogs",
+    "key": "line:Bald_Photo_DontShoot_0855c08",
+    "nodeNames": [
+      "Bald_Photo_DontShoot"
+    ],
+    "source": "Bald: Мы как-то пьянствовали в очередной раз.",
+    "target": "Bald: Suatu kali kami mabuk-mabukan lagi.",
+    "targetFile": "Translations/id/dialogue-batch-120.json",
+    "targetFileSha256": "0c88f33479df340b6f38af8c779afcec5f5283e5481a59cb3605f3a741559e25",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 14,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "dcc59d221248481a8ee4e74bb80e98221fb61f24c0debb79dbd9ef56f5311c51",
+    "targetSha256": "d1c08e6602b82c1779acc8cc3b38a163dd990318fcefe2f9bda030e05f76b74a",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Initial narration preserves another occasion of collective drinking. Suatu kali and lagi convey the recurring event; no later outcome is disclosed early.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12115,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453579284486",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_DontShoot_0b73773",
+    "nodeNames": [
+      "Daughter_Ears_DontShoot"
+    ],
+    "source": "Daughter: Надо бы сходить к моей подружке, как папа за мной зайдёт...",
+    "target": "Daughter: Aku harus mengunjungi temanku setelah Ayah menjemputku...",
+    "targetFile": "Translations/id/dialogue-batch-016.json",
+    "targetFileSha256": "5c9099c8f249c7398db4c47bbcdd6720e01a99558e447ba5b685cffe1ce651c0",
+    "components": [
+      "glossary-referents"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 15,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "82dbd8042ca5bfd7ad25bdabfa7d6ae458f2488d5315a13ca737fa6309dd1709",
+    "targetSha256": "393767396d1a0f5cd379a84cd08415f3d5c0ce5009a740e846df5a0af3a8f0f2",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Restored callback retained unchanged. Daughter_Ears_Gun instruction4 now introduces the female best friend; Listen branch runs Daughter_Ears_DontShoot, whose instructions1–7 keep the same friend/mother antecedent. temanku naturally refers back to that established female friend, and father pickup chronology is preserved. Reopening the prior generic-callback decision is unsupported.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12123,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090182",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_041b2dd",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Выслушать",
+    "target": "Dengarkan",
+    "targetFile": "Translations/id/dialogue-batch-002.json",
+    "targetFileSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 16,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "e4cd100c4a5db6a631742a592a5f3b35fbfc7694e0ada398c0e4a68fbaeff0a1",
+    "targetSha256": "f1058c4b565f9ab67bb35eb1829e103eec24961e0d89925d045a7011728abdea",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Listen choice retains its imperative meaning. It is distinct from Shoot and enters Daughter_Ears_DontShoot on the decoded branch.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12124,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090181",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_0d0a482",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Выстрелить",
+    "target": "Tembak",
+    "targetFile": "Translations/id/dialogue-batch-002.json",
+    "targetFileSha256": "c4cd8aeeaf7384f9d11d475f21f15ab45da43e88aa9d77d7d193de091fa63647",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 17,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "34dd799af4a08fdbc6cf01b6f12d766f510af1c9b776ed1bbf0391095dd8c4f5",
+    "targetSha256": "df31cf5b23e010626d5095072375046a82507eb0582f35772605ea28655727b2",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Shoot choice retains its imperative meaning. It is distinct from Listen and enters Daughter_Death on the decoded branch.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12125,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090180",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_0f0ac04",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Daughter: Вы прям как моя лучшая подружка порой...",
+    "target": "Daughter: Kadang Anda persis seperti sahabat perempuan terbaikku...",
+    "targetFile": "Translations/id/dialogue-batch-016.json",
+    "targetFileSha256": "5c9099c8f249c7398db4c47bbcdd6720e01a99558e447ba5b685cffe1ce651c0",
+    "components": [
+      "changed",
+      "context",
+      "repetitions",
+      "glossary-referents",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "corrected",
+      "newDependency"
+    ],
+    "deltaIndex": 18,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "c3c18e37c2576e10dc04a4fe7f016375740ffb16134c9d62f5784cadf2314c50",
+    "targetSha256": "9a36392488c5b64d67686d252628625d1b2702f96fdeef06ec46d7f590f13281",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Complete corrected comparison preserves sometimes, the player as addressee, female identity and best-friend relationship. The unchanged prefix/hesitation remain exact; the following callback has a clear antecedent.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12126,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090179",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_056edc6",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Daughter: Вы что, хотите меня обидеть?",
+    "target": "Daughter: Apa Anda ingin menyakitiku?",
+    "targetFile": "Translations/id/dialogue-batch-016.json",
+    "targetFileSha256": "5c9099c8f249c7398db4c47bbcdd6720e01a99558e447ba5b685cffe1ce651c0",
+    "components": [
+      "context",
+      "mandatory-regressions"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 19,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "4b9d44543d335d45126f2300b6f744da7f4c8d3821b8d8c719dd5b1ea4664fe6",
+    "targetSha256": "451ce6078a0ec6a5ea618e80d400531ec4f5a72c0344f6f062d4bd2c7a9f7a0a",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Child asks whether the player wants to hurt her. Current wording keeps modality, agent and recipient in the weapon-threat context; no agency reversal.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12127,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090178",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_022c7ba",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Daughter: А об этом тоже расскажу!",
+    "target": "Daughter: Aku akan menceritakan yang ini juga!",
+    "targetFile": "Translations/id/dialogue-batch-016.json",
+    "targetFileSha256": "5c9099c8f249c7398db4c47bbcdd6720e01a99558e447ba5b685cffe1ce651c0",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 20,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "163c6f1afa46c2dd2bf56ae69c506ac6c6c4ff3b9e463ba12003cee4fc8044a2",
+    "targetSha256": "44648fccdfbdfa8696a3a3b1fe4ee8e4abcaa994b20b941204d310e5cd949e20",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Child threatens to tell about this incident too. First-person future intention and additive too are retained, without inventing the person she will tell.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  },
+  {
+    "sourceOrderIndex": 12128,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453575090177",
+    "collection": "Dialogs",
+    "key": "line:Daughter_Ears_Gun_02ec339",
+    "nodeNames": [
+      "Daughter_Ears_Gun"
+    ],
+    "source": "Daughter: Ой...",
+    "target": "Daughter: Aduh...",
+    "targetFile": "Translations/id/dialogue-batch-016.json",
+    "targetFileSha256": "5c9099c8f249c7398db4c47bbcdd6720e01a99558e447ba5b685cffe1ce651c0",
+    "components": [
+      "context"
+    ],
+    "deltaReasons": [
+      "newDependency"
+    ],
+    "deltaIndex": 21,
+    "reviewer": "/root/id_independent_review_03",
+    "sourceTargetRead": true,
+    "replacementUnit": "complete current target display cell",
+    "sourceSha256": "9e17203d3d97ff36d05138077732571c97c1a8c8a48885d5bfa0dda1b1cfc03d",
+    "targetSha256": "624937c936635d2107acd317f09d1e6f804aef25a35a8306e2123d7480b6d597",
+    "status": "no-objective-correction-found",
+    "findingId": null,
+    "reason": "Child’s startled interjection remains a short startled interjection after SetupGun true. No additional injury claim is required by Aduh in this context.",
+    "contextEvidence": "Translations/id/independent-review-03/compiled-context.json",
+    "runtime": "not exercised"
+  }
+]

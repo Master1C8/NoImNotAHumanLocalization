@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "locale": "id",
+  "scope": "static Russian-to-Indonesian text-only correction closure; game v1.3.19",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "decoder": {
+    "schemaEvidence": "yarn-schema-evidence.json",
+    "operandFields": {
+      "1/wire2": "string",
+      "2/wire0": "bool",
+      "3/wire5": "float32"
+    },
+    "nodeLabelsField": 3,
+    "nodes": 3255,
+    "instructions": 56585,
+    "selectedNodeSummariesRead": 898,
+    "limit": "Wire decoding and static branch/order correspondence, not a VM execution or global reachability proof."
+  },
+  "dreamQuestion": {
+    "closureIndex": 197,
+    "verdict": "Current mimpi is supported; no correction proposed.",
+    "chain": [
+      "DayNightController.<ChangeDaytimeVisual>d__77.MoveNext marks a BodyEater visit and calls WantToShowDream(2); EDream.BodyEater is enum2.",
+      "The same day/night controller checks NeedToShowDream and invokes ShowDream. InitNewNight on readiness sets IsNeedToRepairAfterBodyeater and calls CharactersManager.KillEveryone.",
+      "On the day transition with IsNeedToRepairAfterBodyeater, MoveNext clears the flag, invokes BodyEaterDisappeared and calls IDialogManager.ShowSubtitlePopup(13,2.5). EInfoMessageType.BodyEaterVisit is enum13.",
+      "DialogManager constructor reads IDialogViewProvider.OverlaySubtitlesView; DialogViewProvider getter returns its serialized backing field. Original level1 object3818 points that field to object3800.",
+      "DialogManager.ShowSubtitlePopup delegates to SubtitlesView.ShowDialogForTime. Its async state machine selects MessageByLanguage by messageType, reads MessageLocalizationKey and calls LocalizedString.GetLocalizedString.",
+      "Original level1 object3800 _messages entry Type13 references UI GUID0cbd8a7a4f543344bb95659de87f67a5 / ID108827407107739648, which shared metadata identifies as message_bodyEaterVisit."
+    ],
+    "evidence": [
+      "dream-enum-evidence.json",
+      "il-BodyEater.json",
+      "il-DialogManager.json",
+      "il-OverlaySubtitlesView.json",
+      "overlay-provider-binding.json",
+      "il-ShowSubtitlePopup.json",
+      "il-SubtitlesView.json",
+      "message-binding-numeric.json",
+      "il-MessageByLanguage.json"
+    ],
+    "limit": "Static original assembly and serialized source assets only; no game launch, rendered output or event execution."
+  },
+  "rejectedFinding31": {
+    "sourceOrderIndex": 2509,
+    "verdict": "Rejection of the singular-object proposal remains justified.",
+    "reason": "Гони is a singular imperative addressing the player; it does not require a singular object. Actual following RunLine in Fatman_Entrance_Occupied contains их. GetCharacterOnPlace returns a UI characterName_ label selected by a character occupying the same place; it does not derive grammatical singular/plural for the translated imperative. Generic character labels can describe groups, but the actual current Fatman occupant was not exercised. Existing mereka retains the source branch’s plural reference.",
+    "evidence": [
+      "compiled-nodes.json",
+      "il-GetCharacterOnPlace.json"
+    ],
+    "runtime": "not exercised"
+  },
+  "dynamicConsumers": {
+    "LocalizeItem": "UI consumable_<lowercase item>_name lookup; no count added. Leading {0}? in Couple_Entrance_Bribe remains a question before the sentence about his wife and last possession.",
+    "GetCourierOrder": "Localized UI consumable name followed by the actual literal space plus (x{0}) count; the integer count is formatted in the owning C# method.",
+    "GetPhoneNumber": "Delegated GotPhoneNumber callback result, not an invented contact name or additional format transformation.",
+    "evidence": [
+      "il-LocalizeItem.json",
+      "il-GetCourierOrder.json",
+      "il-GetPhoneNumber.json"
+    ],
+    "runtime": "real substitutions and rendered wrapping not exercised"
+  },
+  "compatibilityAndHistoricalCells": {
+    "unboundSelectedDialogs": 50,
+    "classification": "Accepted table cells absent from current compiled program; source and target read without claiming current runtime reachability.",
+    "acceptedChecksCell": "Compiled key line:Esenin_Armpit_0a58dc6 also exists in Dialogs. Pinned current line provider uses Dialogs GUID444ff14f1967f5a4c8eb9e4cf4c913f1; the separate accepted ChecksDialogs ID389c6d80595013c41b85a7197838c4b6:21377524158749 is reviewed as compatibility content, with no demonstrated current consumer."
+  },
+  "candidateDecisions": [
+    {
+      "closureIndices": [
+        956,
+        959
+      ],
+      "decision": "no proposal",
+      "reason": "Generic saudaramu can refer back to the already introduced male sibling; do not repeatedly expand a known Indonesian referent merely for lexical uniformity."
+    },
+    {
+      "closureIndices": [
+        1468
+      ],
+      "decision": "no proposal",
+      "reason": "Preceding compiled line puts the glasses on a table. Kuambil is supported in that context; do not invent an intervening wearing event from снял alone."
+    },
+    {
+      "closureIndices": [
+        985
+      ],
+      "decision": "no proposal",
+      "reason": "The question asks for the stories he has in mind; current wording does not establish a different narrated event."
+    },
+    {
+      "closureIndices": [
+        759
+      ],
+      "decision": "no proposal",
+      "reason": "Russian мы does not force exclusive kami in this exchange; the player’s responses concern what he can do. Do not invent exclusive Visitor agency."
+    },
+    {
+      "closureIndices": [
+        1217
+      ],
+      "decision": "no proposal",
+      "reason": "The raised-hand euphemism remains within an admission of losing control with the children. No new objective factual divergence established."
+    },
+    {
+      "closureIndices": [
+        1996
+      ],
+      "decision": "no proposal",
+      "reason": "The Russian impersonal/dative formulation permits ambiguity over the absent reminder actor/recipient; canonical glossary does not establish the children’s death. Do not add that death as a correction."
+    },
+    {
+      "closureIndices": [
+        877,
+        879,
+        881,
+        883,
+        990,
+        991
+      ],
+      "decision": "no proposal for the action strings in this review",
+      "reason": "The action wording conveys issuing an order to report; this differs from the noun needed for the inventory document label, which is separately proposed for correction."
+    }
+  ]
+}

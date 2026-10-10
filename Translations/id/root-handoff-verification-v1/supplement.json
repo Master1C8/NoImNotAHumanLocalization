@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED supplemental input/context applicability",
+  "mainVerificationSha256": "9d895a7d2a88754782903b6b72301694a3953dfbcde02b2faf1fa5875522206a",
+  "review03InitialPins": {
+    "checks": 909,
+    "distinctPaths": 850,
+    "mismatches": 0
+  },
+  "sourceOnlyContext": {
+    "exactProjectedRows": 60,
+    "acceptedOverlap": 0
+  },
+  "compiledContext": {
+    "programSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "savedNodesExactToCurrentWireDecodedProgram": 8,
+    "boundary": "Static wire decoding; no VM execution or global reachability proof"
+  },
+  "administrativeJsonFields": {
+    "allowlistsExact": true,
+    "beforeAndAfterHashesExact": true,
+    "statusMarkdownDiff": "Reviewed directly: current final-gate narrative, historical cycle-03 heading and editorial stage row only"
+  },
+  "verifierAttempts": [
+    {
+      "attempt": 1,
+      "result": "Main verifier stopped before writing any result because local canonical-line test used tab delimiter; manifest digest verified with actual single-space path/hash convention"
+    },
+    {
+      "attempt": 2,
+      "result": "Main verifier passed all evidence reconstruction and finalizer checks; only designated verifier directory written"
+    },
+    {
+      "attempt": 3,
+      "result": "Supplement adds previously untested exact underlying review03 pin, source-only projection, decoded consumer and administrative allowlist checks; no repeat of full finalizer"
+    }
+  ],
+  "preservedAuthorHandoffSha256": "9e6389bfa745f4f87036a1ff133e57e08480e9adcf590ed20abbdc2244785621"
+}
