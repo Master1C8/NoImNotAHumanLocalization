@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "cycle": 3,
+  "status": "six complete units adjudicated and protected-syntax/assembled preflight passed; authored application pending",
+  "acceptedUnits": 16538,
+  "review02EvidenceManifestSha256": "4aa8d718b8836efe53a678129dddaf490cbef985b17358b489b0e89fa9e099a3",
+  "review02FindingsSha256": "04476bcc837cb471a81a5bd4fa18af495640e1c57a54c70525ac8f4cd810c388",
+  "review02FinalCoverageProofSha256": "4f06bb41e7d0efe9c28d1b6ffa6795d1a7bb5b816eb610d52236f1964a022f10",
+  "review02ConsumerTopologySha256": "940a8d2a1185d2af43d46a7de0b8be4f6a0e5e7f9105e69faea8490c36b0c984",
+  "review02AssembledChecksSha256": "951b4a1d34dcfef34dc25a519089c0b1c035784a88932d155309827800999429",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "approvedGlossarySha256": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "priorCycle2ClosureManifestSha256": "f73224aceebd27e3525858ecc29f81def5a7562262163616133014dfab7830bc",
+  "priorCycle2CheckpointSha256": "00b6baa2b6acdb821a23e8ca1c14944f991fddb66beaafc699ac477df819c3e2",
+  "previousReview02FreshReads": 252,
+  "previousReview02AcceptedUnchanged": 246,
+  "previousReview02Findings": 6,
+  "correctionCount": 6,
+  "actualConsumerTemplates": 21,
+  "deficitDomainItems": 6,
+  "assembledVariantsPreflight": 36,
+  "domainGuard": "Fresh OtherGameData gameplay fields and six deficit keys match pinned evidence; m_Script cached-header mismatch is technical metadata only.",
+  "corrections": [
+    {
+      "findingId": "EL-IR02-006",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "ordinal": 1476,
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "sourceSha256": "081bbe9e0fa6a652e9ef263a809bdae4b3ae0186fac3d02d8a016db0475e9935",
+      "before": "Alt: Εντάξει. Σου κάνει {0};",
+      "beforeSha256": "536b91d43dd110ebac6f9ae4616eaaa58842c1183bc31d368bf53629aa7f7be5",
+      "after": "Alt: Εντάξει. {0}. Σου κάνει αυτό;",
+      "afterSha256": "493b6cf911c48ee6d14384999f7f8c897362fe7a6e8b4b2c2e4777256578c434",
+      "reason": "Σου κάνει Τσιγάρα places the plural fixed label as subject of a singular verb. Standalone item citation followed by explicit generic αυτό as the acceptability-question subject preserves the offer without forcing label number.",
+      "compiledOccurrences": [
+        {
+          "node": "Alt_Entrance_Bribe",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Alt_Entrance_Bribe_09f4449",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Alt: Εντάξει. Σου κάνει Ενερζέκα;",
+          "after": "Alt: Εντάξει. Ενερζέκα. Σου κάνει αυτό;"
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Alt: Εντάξει. Σου κάνει Τσιγάρα;",
+          "after": "Alt: Εντάξει. Τσιγάρα. Σου κάνει αυτό;"
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Alt: Εντάξει. Σου κάνει Καφές;",
+          "after": "Alt: Εντάξει. Καφές. Σου κάνει αυτό;"
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Alt: Εντάξει. Σου κάνει Γατοτροφή;",
+          "after": "Alt: Εντάξει. Γατοτροφή. Σου κάνει αυτό;"
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Alt: Εντάξει. Σου κάνει Κομπούχα;",
+          "after": "Alt: Εντάξει. Κομπούχα. Σου κάνει αυτό;"
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Alt: Εντάξει. Σου κάνει Παρουσίαση στην ΕΕΑ;",
+          "after": "Alt: Εντάξει. Παρουσίαση στην ΕΕΑ. Σου κάνει αυτό;"
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-019.authored.json",
+      "authoredInputBeforeSha256": "61d2b42d6ecd0a4c743a85c5ebd46840a85cdfb101e509e3b23f300bfe107ebf",
+      "targetFile": "Translations/el/dialogue-batch-019.json",
+      "targetFileBeforeSha256": "11ddee9d69e3f63ea28ffbb468266b654f47edadb7acc42f0ca9330cc7706d2a",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    },
+    {
+      "findingId": "EL-IR02-001",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "ordinal": 1820,
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "7437e13e9d82d0b896f96cd62660d7eb68057c89dad2bc00a42d9cf91f9932b5",
+      "before": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "beforeSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "after": "Jacket: Ορίστε τι έχω: {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "afterSha256": "aa648bde9b9ee804492768a60622b38e847dcfa46a60733b0bb38f6fac4e8d8b",
+      "reason": "The fixed dictionary label Καφές is nominative. The actual compiled LocalizeItem consumer inserts it after έχω, producing Ορίστε, έχω Καφές. Greek έχω takes an accusative object (καφέ); removing the prior plural predicates did not repair this case mismatch. The proposed colon introduces the unchanged label as an item citation and preserves possession, small quantity and hope of usefulness.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_Occupied_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Jacket: Ορίστε, έχω Ενερζέκα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Ενερζέκα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Jacket: Ορίστε, έχω Τσιγάρα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Τσιγάρα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Jacket: Ορίστε, έχω Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Jacket: Ορίστε, έχω Γατοτροφή. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Γατοτροφή. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Jacket: Ορίστε, έχω Κομπούχα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Κομπούχα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Jacket: Ορίστε, έχω Παρουσίαση στην ΕΕΑ. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Παρουσίαση στην ΕΕΑ. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-024.authored.json",
+      "authoredInputBeforeSha256": "aac4449e45a25fcbd2f19a722bd4ec0e5838ba95bc7dc03be7b736acc40ce017",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileBeforeSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    },
+    {
+      "findingId": "EL-IR02-003",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+      "ordinal": 1827,
+      "key": "line:Jacket_Entrance_Bribe_045fb4f",
+      "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+      "sourceSha256": "4f8e7c87af46c1a50f56065ebcf64c72e173d3f66dbb50472ca01509ff2c4bad",
+      "before": "Jacket: Αν χρειάζεται, έχω {0}. Σας κάνει;",
+      "beforeSha256": "88fc796cc50a0446ba2541fa1606809b209c9924e71667bb28fc015a9cf57c3c",
+      "after": "Jacket: Αν χρειάζεται, έχω το εξής: {0}. Σας κάνει;",
+      "afterSha256": "908c6ac02280eb7cc61cda155a88d08ed28b88ab903bc23f202150724c0f9ea9",
+      "reason": "Direct object of έχω is fixed nominative Καφές; explicit το εξής introduces a citation while keeping the conditional offer and question.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_Bribe",
+          "pc": 7,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_Bribe_045fb4f",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Jacket: Αν χρειάζεται, έχω Ενερζέκα. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Ενερζέκα. Σας κάνει;"
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Jacket: Αν χρειάζεται, έχω Τσιγάρα. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Τσιγάρα. Σας κάνει;"
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Jacket: Αν χρειάζεται, έχω Καφές. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Καφές. Σας κάνει;"
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Jacket: Αν χρειάζεται, έχω Γατοτροφή. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Γατοτροφή. Σας κάνει;"
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Jacket: Αν χρειάζεται, έχω Κομπούχα. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Κομπούχα. Σας κάνει;"
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Jacket: Αν χρειάζεται, έχω Παρουσίαση στην ΕΕΑ. Σας κάνει;",
+          "after": "Jacket: Αν χρειάζεται, έχω το εξής: Παρουσίαση στην ΕΕΑ. Σας κάνει;"
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-024.authored.json",
+      "authoredInputBeforeSha256": "aac4449e45a25fcbd2f19a722bd4ec0e5838ba95bc7dc03be7b736acc40ce017",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileBeforeSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    },
+    {
+      "findingId": "EL-IR02-002",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "ordinal": 1830,
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "75b21083a8d659f721be9027f841b7a8f61044d9919194c902073a4cf6baf391",
+      "before": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "beforeSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "after": "Jacket: Ορίστε τι έχω: {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "afterSha256": "aa648bde9b9ee804492768a60622b38e847dcfa46a60733b0bb38f6fac4e8d8b",
+      "reason": "The fixed dictionary label Καφές is nominative. The actual compiled LocalizeItem consumer inserts it after έχω, producing Ορίστε, έχω Καφές. Greek έχω takes an accusative object (καφέ); removing the prior plural predicates did not repair this case mismatch. The proposed colon introduces the unchanged label as an item citation and preserves possession, small quantity and hope of usefulness.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_YesLet_0e9da2d",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Jacket: Ορίστε, έχω Ενερζέκα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Ενερζέκα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Jacket: Ορίστε, έχω Τσιγάρα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Τσιγάρα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Jacket: Ορίστε, έχω Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Jacket: Ορίστε, έχω Γατοτροφή. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Γατοτροφή. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Jacket: Ορίστε, έχω Κομπούχα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Κομπούχα. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Jacket: Ορίστε, έχω Παρουσίαση στην ΕΕΑ. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+          "after": "Jacket: Ορίστε τι έχω: Παρουσίαση στην ΕΕΑ. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει."
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-024.authored.json",
+      "authoredInputBeforeSha256": "aac4449e45a25fcbd2f19a722bd4ec0e5838ba95bc7dc03be7b736acc40ce017",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileBeforeSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    },
+    {
+      "findingId": "EL-IR02-004",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+      "ordinal": 1940,
+      "key": "line:Unstable_Entrance_Bribe_0a6a080",
+      "source": "Unstable: Короче, есть {0}. Будешь?",
+      "sourceSha256": "1c9163f01a3eaf83242da2ce7414bbd1990b40d6fb49cecaa3446f20057e07ec",
+      "before": "Unstable: Λοιπόν, έχω {0}. Θες;",
+      "beforeSha256": "5fa74f263fd7068fdc24a8593178728db8c330e116ee5d6e901813acd49ba3da",
+      "after": "Unstable: Λοιπόν, να τι έχω: {0}. Θες;",
+      "afterSha256": "510c23312df0750a9743a8a31af24ed80bb696352770543074385e8a7e87adb9",
+      "reason": "Direct object of έχω is fixed nominative Καφές; citation introduction preserves possession and the terse offer.",
+      "compiledOccurrences": [
+        {
+          "node": "Unstable_Entrance_Bribe",
+          "pc": 12,
+          "opcode": 2,
+          "args": [
+            "line:Unstable_Entrance_Bribe_0a6a080",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Unstable: Λοιπόν, έχω Ενερζέκα. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Ενερζέκα. Θες;"
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Unstable: Λοιπόν, έχω Τσιγάρα. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Τσιγάρα. Θες;"
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Unstable: Λοιπόν, έχω Καφές. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Καφές. Θες;"
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Unstable: Λοιπόν, έχω Γατοτροφή. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Γατοτροφή. Θες;"
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Unstable: Λοιπόν, έχω Κομπούχα. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Κομπούχα. Θες;"
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Unstable: Λοιπόν, έχω Παρουσίαση στην ΕΕΑ. Θες;",
+          "after": "Unstable: Λοιπόν, να τι έχω: Παρουσίαση στην ΕΕΑ. Θες;"
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-026.authored.json",
+      "authoredInputBeforeSha256": "87ca292035a495399aacec3470ad9d753f5f6a4ba800390d3854ee9fe0b6c606",
+      "targetFile": "Translations/el/dialogue-batch-026.json",
+      "targetFileBeforeSha256": "e1dbc648b32739a6bbb7f57898435f8ed67c88558e624472b20274bbf60b90c4",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    },
+    {
+      "findingId": "EL-IR02-005",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "ordinal": 2252,
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "sourceSha256": "52f5a783bf7e4e2072e89c40a4c148a997f20c257f92cbc2f3f2db0ef90bca8a",
+      "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε {0}, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+      "beforeSha256": "5f2058c14e3740175611c746927a215596f56d178bc49725c1d53ae4225dff53",
+      "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: {0}. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+      "afterSha256": "09370a098e6ccbf307cd298dba829a70e85885e471776f79bfa7c6ce8a041687",
+      "reason": "Πάρε Καφές places a nominative label as an imperative direct object. Separate item citation followed by generic item pronoun preserves taking, holding, waving at entrance and becoming invisible.",
+      "compiledOccurrences": [
+        {
+          "node": "Wheelchair_Entrance_Bribe",
+          "pc": 7,
+          "opcode": 2,
+          "args": [
+            "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+            1.0
+          ]
+        }
+      ],
+      "assembledVariants": [
+        {
+          "item": "Enerjeka",
+          "label": "Ενερζέκα",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Ενερζέκα, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Ενερζέκα. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        },
+        {
+          "item": "Cigarette",
+          "label": "Τσιγάρα",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Τσιγάρα, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Τσιγάρα. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        },
+        {
+          "item": "Coffee",
+          "label": "Καφές",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Καφές, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Καφές. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        },
+        {
+          "item": "CatFood",
+          "label": "Γατοτροφή",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Γατοτροφή, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Γατοτροφή. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        },
+        {
+          "item": "Kombucha",
+          "label": "Κομπούχα",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Κομπούχα, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Κομπούχα. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        },
+        {
+          "item": "Povistka",
+          "label": "Παρουσίαση στην ΕΕΑ",
+          "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε Παρουσίαση στην ΕΕΑ, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+          "after": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: Παρουσίαση στην ΕΕΑ. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος."
+        }
+      ],
+      "authoredInput": "Translations/el/dialogue-ordered-029.authored.json",
+      "authoredInputBeforeSha256": "8c9526c55324e461671c4749ad2ce223b2e2cdac85d68963573f95516fa37fc4",
+      "targetFile": "Translations/el/dialogue-batch-029.json",
+      "targetFileBeforeSha256": "6f900c4e8a34333d121a689803c641757ba14eb0280e8a593874d63fd3e1cc81",
+      "sourceInvariants": "Preserve speaker, offer/possession, amount/usefulness or acceptability where present, action order and invisibility where present, address and {0}."
+    }
+  ]
+}

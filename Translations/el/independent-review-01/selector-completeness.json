@@ -1,0 +1,273 @@
+{
+  "result": "incomplete-semantic-catalog",
+  "publishedClosureReproduction": "passed:1816",
+  "kilotonCallbacks": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456196",
+      "key": "line:radio_4_0c66193",
+      "source": "Как это у него украли все документы? Там же КИЛОТОННЫ ИНФОРМАЦИИ!",
+      "sourceSha256": "5df194ea6ff69aab6ccaf3336841fd47da1e4e95c7a151d781c48313c305b070",
+      "target": "Πώς γίνεται να του έκλεψαν όλα τα έγγραφα; ΕΚΕΙ ΜΕΣΑ ΥΠΑΡΧΟΥΝ ΚΙΛΟΤΟΝΟΙ ΠΛΗΡΟΦΟΡΙΩΝ!",
+      "targetSha256": "e91e5babaae54b611f82eb6b0e3281ed57425e9366ecd4099e8237db51df6459",
+      "selected": true,
+      "decision": "correct-current-wording; selector must retain callback relation",
+      "compiledOccurrences": [
+        {
+          "node": "radio_4",
+          "pc": 3,
+          "opcode": 2,
+          "args": [
+            "line:radio_4_0c66193",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456406245382",
+      "key": "line:Theorist_Entrance_1_05b1dfd",
+      "source": "Theorist: Там килотонны информации, которую я хочу обнародовать.",
+      "sourceSha256": "911b375c99d5b4da49263ddd5b0a3e50421fa959836b00531e1be4c8c9a4f1cc",
+      "target": "Theorist: Έχω ολόκληρους κιλοτόνους πληροφοριών που θέλω να δώσω στη δημοσιότητα.",
+      "targetSha256": "02dc23b2b91e2a3a59d2563cb07604129b624c6f6dcc61788dce0e55ce904890",
+      "selected": false,
+      "decision": "correct-current-wording; selector must retain callback relation",
+      "compiledOccurrences": [
+        {
+          "node": "Theorist_Entrance_1",
+          "pc": 5,
+          "opcode": 2,
+          "args": [
+            "line:Theorist_Entrance_1_05b1dfd",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455902928903",
+      "key": "line:Alt_Asking_2_0e71a2d",
+      "source": "Alt: Вонючие килотонны информации!",
+      "sourceSha256": "d1d72ad1eae2cf72c76ddc656a11f2e344215a1a68a3c6df0234e1e973c9d18e",
+      "target": "Alt: Βρωμεροί κιλοτόνοι πληροφοριών!",
+      "targetSha256": "31c6d5dcb7fc4403b365591e7ea4842848d0d0f16d32e7b0bc79c3a40edd117e",
+      "selected": false,
+      "decision": "correct-current-wording; selector must retain callback relation",
+      "compiledOccurrences": [
+        {
+          "node": "Alt_Asking_2",
+          "pc": 24,
+          "opcode": 2,
+          "args": [
+            "line:Alt_Asking_2_0e71a2d",
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "mandatoryUnknownGenderCanonicalAnchors": [
+    {
+      "glossaryId": "phone-roulette-short-caller",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028993",
+      "key": "line:phone_phoneroulette_2_1_012cd27",
+      "selected": false,
+      "source": "Phone: Видимо, никого нет…",
+      "sourceSha256": "46bbcbe17113adef45a413491f6e27a1199093c3ac21143247e735fad05ab524"
+    },
+    {
+      "glossaryId": "fema-phone-doctor",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457752616963",
+      "key": "line:phone_fema_0ab4fa3",
+      "selected": false,
+      "source": "Phone: Здравствуйте, это врач из Комитета по Чрезвычайным Ситуациям.",
+      "sourceSha256": "5ca1818ba550abe17fead34ef3b60a4b66951d21d4a530bdc946959bcd2399fb"
+    },
+    {
+      "glossaryId": "for-rest-operator",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422660",
+      "key": "line:phone_forrest_0658226",
+      "selected": false,
+      "source": "Phone: Здравствуйте, это компания доставки еды For Rest.",
+      "sourceSha256": "0856a68372b8821948cd89e1ff204a35512ed19f5de8c1afb7638fb4c9817785"
+    },
+    {
+      "glossaryId": "embassy-voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085957",
+      "key": "line:phone_foreigner_0eec096",
+      "selected": false,
+      "source": "Phone: Слушаю вас.",
+      "sourceSha256": "b9d4baebc36105cb2c836ba21c1dccd6377eb71bf82469bd2d4d697fd79ab027"
+    },
+    {
+      "glossaryId": "psychics-reception",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811271",
+      "key": "line:phone_psychics_0fd403d",
+      "selected": false,
+      "source": "Phone: Здравствуйте. Скоро мы соединим вас с одним из доступных экспертов по очищению от Гостей. Ожидайте.",
+      "sourceSha256": "69ed655010e7ba091c31275aa1345652428a5a7e265dcb8c4fe3ce209fa1ff61"
+    },
+    {
+      "glossaryId": "voice-from-fortune-teller",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085955",
+      "key": "line:phone_fortuneteller_04e9b94",
+      "selected": false,
+      "source": "Phone: (Собеседник бросает трубку. Это было… не совсем то, чего вы ожидали.)",
+      "sourceSha256": "25e41b53ab91b213d084e93789349abc811e2c46216babc01f33fd8421c4587f"
+    },
+    {
+      "glossaryId": "radio-dispatcher",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673921",
+      "key": "line:radio_6_06502d0",
+      "selected": true,
+      "source": "Говорит диспетчер. Проверьте, что случилось в карантинной зоне. Код 51. Докладывают о взрывах в 3 часа ночи.",
+      "sourceSha256": "bf5b1131b51b51ede5d30d56529c14813c0e4804cce4dbb86b2521d4977d16c3"
+    },
+    {
+      "glossaryId": "radio-employee-32-8",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673922",
+      "key": "line:radio_6_0aa3b6b",
+      "selected": true,
+      "source": "Сотрудник 32-8 докладывает. Код 60: множество жертв среди гражданских, сотрудники убиты…",
+      "sourceSha256": "efc5038c99a4d49aa97991ec05498f991327d5d1b288af6af69fcdc34fe5fad5"
+    },
+    {
+      "glossaryId": "radio-employee-28-8",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673923",
+      "key": "line:radio_6_05ac3fe",
+      "selected": true,
+      "source": "Докладывает сотрудник 28-8. Код 451: нужна бригада для сожжения трупов.",
+      "sourceSha256": "fcbf08eb4912c66f7542df72b6a5f09cfb3e4603738d963ce3471c2ea522a68f"
+    },
+    {
+      "glossaryId": "radio-employee-18-8",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+      "key": "line:radio_13_03cbc34",
+      "selected": true,
+      "source": "Говорит с…трудник 18-8: угр…зу не уд…лось сдержать.",
+      "sourceSha256": "d346d0422694fb8e69b208c3e7179fefee1af8e8bcdd5c90208c29f435d51483"
+    },
+    {
+      "glossaryId": "phone-roulette-reception",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834689",
+      "key": "line:phone_phoneroulette_05e3bc8",
+      "selected": false,
+      "source": "Phone: Здравствуйте, вы позвонили в телефонную рулетку. Сейчас мы подберём вам идеального собеседника. Ожидайте.",
+      "sourceSha256": "30af54cd23c514dbaf674e995a6043c8973674f3c918f70f360cee7d1c879f89"
+    },
+    {
+      "glossaryId": "radio-rescue-dispatcher",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261890",
+      "key": "line:radio_1_0d6b913",
+      "selected": false,
+      "source": "— Алло, это диспетчер службы спасения. Чем вам помочь? — Люди… они горят.",
+      "sourceSha256": "09adeb524f1289bbf192baa8932c85e5d578171065cd217b4bdb3a541de3f8ed"
+    },
+    {
+      "glossaryId": "radio-rescue-caller",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261891",
+      "key": "line:radio_1_0988229",
+      "selected": false,
+      "source": "— Опишите, что вы видите? Пожар? — Нет, это солнце. Они… они сгорают на солнце.",
+      "sourceSha256": "3dfdf8645b909ca9c4ecfe78c14ce06862d393bc93746a343b545a0e54330a8c"
+    },
+    {
+      "glossaryId": "radio-day-7-warning",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673927",
+      "key": "line:radio_7_08975a7",
+      "selected": false,
+      "source": "Я НЕ ЗНАЮ, ЧТО ПРОИСХОДИТ. Я ПРОСТО ХОЧУ УЙТИ ОТСЮДА.",
+      "sourceSha256": "02e23d43034b15f5ea03e3773eb523a9f1fdda4e19f6bdbc9744ed8391609a91"
+    },
+    {
+      "glossaryId": "radio-day-10-warning",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868229",
+      "key": "line:radio_10_088e182",
+      "selected": false,
+      "source": "Всем, кто меня слышит…",
+      "sourceSha256": "e5b99a0e698e8e4e1fee2a5a29caca8ed645a248f21314064905daa9891c047d"
+    },
+    {
+      "glossaryId": "radio-day-11-warning",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868236",
+      "key": "line:radio_11_082894a",
+      "selected": false,
+      "source": "Они зря сжи…али тела. Это при…анивает ………",
+      "sourceSha256": "b5bc60ea6b862846384a1245296f48b5d4e762e7bf68dd7231a14d8967845bb3"
+    },
+    {
+      "glossaryId": "radio-day-12-dispatcher",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062529",
+      "key": "line:radio_12_066787a",
+      "selected": false,
+      "source": "Дисп…тчер на связи, вс…м сотрудн…кам КЧС…",
+      "sourceSha256": "33c1bcdd736dcf1310621da755a0d5254516e6d7deed2e49ae309d0277dd5a50"
+    },
+    {
+      "glossaryId": "radio-human-verification-ad",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261893",
+      "key": "line:radio_2_044ab03",
+      "selected": false,
+      "source": "А сейчас в эфире наша новая передача «Да, я человек».",
+      "sourceSha256": "d30027279293e691e539fc6d52ce3bb9b481938388f23c7384b3d16359528290"
+    },
+    {
+      "glossaryId": "radio-psychics-ad",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261898",
+      "key": "line:radio_3_0b9d95a",
+      "selected": false,
+      "source": "В вас вселился злой дух: Гостевой!",
+      "sourceSha256": "55f03dfd55b5caee4b047b03a88a1940c81784551e08634b7b2e8400be49abac"
+    },
+    {
+      "glossaryId": "radio-phone-roulette-ad",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457870057479",
+      "key": "line:radio_5_011a65c",
+      "selected": false,
+      "source": "Тогда телефонная рулетка — то, что вам нужно.",
+      "sourceSha256": "d7787f04493591dc504e00fd592a999b80b194e7934540e7df368e88fb33139f"
+    },
+    {
+      "glossaryId": "tv-enerjeka-ad",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457601622026",
+      "key": "line:tv_4_extra2_0f7def5",
+      "selected": false,
+      "source": "TV: Освежающий энергетик, утоляющий жажду быстрее и эффективнее воды.",
+      "sourceSha256": "0032ade583b9f20450d1ca135db77add9215e318f555e46109ca7b1b2418a73b"
+    },
+    {
+      "glossaryId": "tv-margoro-ad",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399246",
+      "key": "line:tv_7_extra1_070a94e",
+      "selected": true,
+      "source": "TV: «Маргоро». Сигареты для настоящих мужчин.",
+      "sourceSha256": "1182a9874e7b0ec5a36e772aafdea754aadfa0592a1f85a980089cf3cea119ec"
+    },
+    {
+      "glossaryId": "psychics-closing-voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782795",
+      "key": "line:phone_psychics_10_0af9d3c",
+      "selected": false,
+      "source": "Phone: Сеанс с экспертом по изгнанию Гостевого завершён. Спасибо, что воспользовались нашими услугами.",
+      "sourceSha256": "eb148b4eef5ce90253708ff05d19343dd5ca36a4bde012f4fdfaca4cfe0a4e47"
+    },
+    {
+      "glossaryId": "radio-ending-address",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456095866884",
+      "key": "line:Ending_Living_3_0afce75",
+      "selected": false,
+      "source": "«Солнечная энергия постепенно затихает.",
+      "sourceSha256": "8a2b991a00cb08cdf091a19a0f1fe8b1cda521b75b8a4e1724a6b5ebf1962e23"
+    },
+    {
+      "glossaryId": "tv-fema-promotion",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427712",
+      "key": "line:tv_3_extra1_083d30d",
+      "selected": false,
+      "source": "TV: НА ПОМОЩЬ ПРИДУТ ОНИ! СОТРУДНИКИ КЧС!",
+      "sourceSha256": "7714393f1c1c689c9d006baae624342799fa781beb250ffc72164a6944bcc5dd"
+    }
+  ],
+  "repair": "Add the kiloton callback class and explicit canonical unknown-gender speaker/referent anchors with their actual scenes/branches to the next normal closure. Include every relevant inflected kinship and callback occurrence, not only bare noun fragments. Preserve source-only compiled instructions as technical context; never add them as translation IDs.",
+  "restart": "bounded selector repair and normal correction cycle; no universal full-pass restart condition found"
+}

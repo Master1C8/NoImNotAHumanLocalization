@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-14650-15450.jsonl",
+  "reviewEvidenceSha256": "f6754408b598c300d81d83cf991e9e213bb5b7dd4ed5a3415247c969de7774bd",
+  "findings": [
+    {
+      "ordinal": 15038,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452232912902",
+      "key": "line:Raskolnikov_Ears_DontShoot_0c5aae2",
+      "targetFile": "Translations/el/dialogue-batch-381.json",
+      "targetFileSha256": "536b4763732c30ee24088155f8c93538852abc56e1fbdb2977beacca25a2272d",
+      "sourceSha256": "d7a99fcc60e74a80daea08c93a06ceff5ac0f1e4748e8cda1b411529e8bebede",
+      "currentTargetSha256": "7651a2329da5e2b3dbedbd74dd993d6b3d0b67c7ed2162c32833fb1e9294403c",
+      "objectiveReason": "Russian quotes \"нелюди\" in an existential claim that none of them are human; Greek \"υπάνθρωποι\" means subhumans, adding an inferiority claim.",
+      "sceneContext": "Raskolnikov fears his speaker's claim may be true and later asks whether he is human, a Visitor, or something unfinished.",
+      "proposedTarget": "Raskolnikov: Κάποτε άκουσα κάποιον να λέει: «Κανείς μας δεν είναι άνθρωπος». Από τότε φοβάμαι… μήπως είχε δίκιο.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 15108,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452207747077",
+      "key": "line:Raskolnikov_Eyes_032cf5b",
+      "targetFile": "Translations/el/dialogue-batch-383.json",
+      "targetFileSha256": "c290590810a6f134a7a332710fae31e7a4118317fe277ab42939fa6c454c4cf6",
+      "sourceSha256": "777e95ab6774f4e3b7a9bc44560a62a20c57e6e7ec7285f4ca1490bb79077142",
+      "currentTargetSha256": "1905d305c019b591a44f44a006f5dd3056ebf2cf884f4c77bcd3c56580fb4921",
+      "objectiveReason": "Russian compares his darting eyes to a cornered rat; Greek substitutes trapped mice, changing the animal and weakening the image.",
+      "sceneContext": "He describes frightened eyes and his search for an escape, consistent with the cornered-rat simile.",
+      "proposedTarget": "Raskolnikov: Παλιά έτρεχαν σαν τα μάτια ενός παγιδευμένου αρουραίου, έψαχναν συνέχεια διέξοδο. Τώρα όμως… απλώς κουράστηκαν.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

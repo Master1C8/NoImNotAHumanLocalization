@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "cycle": 1,
+  "locale": "el",
+  "sourceOrder": "accepted string-table rows, then accepted static TMP rows",
+  "contextNeighborRadius": 2,
+  "contextNodePrefixes": [
+    "Miner_Entrance_2",
+    "phone_femarecruiter",
+    "phone_alkonostshusband"
+  ],
+  "glossaryReferentSelectors": [
+    {"name": "fortune-teller-and-phone-label", "sourceRegex": "гадалк|экстрасенс|таро", "targetRegex": "μάντισσ|κάρτες ταρώ"},
+    {"name": "fema-worker-kinship", "sourceRegex": "КЧС[-‐‑–— ]?ник|жена КЧС|супруг.*КЧС", "targetRegex": "(?:γυναίκα|σύζυγο).*ΕΕΑ|υπαλλήλ.*ΕΕΑ"},
+    {"name": "human-status", "sourceRegex": "нелюд|не человек|не люди", "targetRegex": "υπάνθρωπ|δεν είναι άνθρωπ"},
+    {"name": "mushroom-apple-poem", "sourceRegex": "гриб|яблон", "targetRegex": "μανιτάρι|μηλιά"},
+    {"name": "rodents-and-cat-mouse", "sourceRegex": "крыс|мыш|кошки.мышлен|кошки.мышки", "targetRegex": "αρουραί|ποντίκ|γάτα.*ποντίκ"},
+    {"name": "body-hair", "sourceRegex": "волос|подмыш", "targetRegex": "τρίχ|μαλλιά|μασχάλ"},
+    {"name": "lonely-people", "sourceRegex": "одинок", "targetRegex": "μοναχικ|ζούσαν μόνοι"},
+    {"name": "tablecloth", "sourceRegex": "скатерт|простын", "targetRegex": "τραπεζομάντιλ|σεντόν"},
+    {"name": "testicles-referent", "sourceRegex": "яйц|мошон", "targetRegex": "αρχίδι|δικά μου|δικές μου"},
+    {"name": "tentative-return", "sourceRegex": "не вернул|так и не вернул", "targetRegex": "ακόμη δεν έχουν γυρίσει|δεν γύρισαν ποτέ"},
+    {"name": "belaying-and-rescue", "sourceRegex": "подстрах|вытащ", "targetRegex": "ασφαλίσ|τραβήξ"},
+    {"name": "reconciliation-day", "sourceRegex": "примирен", "targetRegex": "συμφιλίωσ"}
+  ],
+  "runtimeBinding": {
+    "uiKeys": ["Common_LanguageName", "message_got_item", "message_given_item"],
+    "uiKeyRegex": "^(?:FridgeItem_.*_Name|consumable_.*_name)$",
+    "staticStableIds": ["tmp:level1:4292:m_text"]
+  },
+  "mandatoryRegression": {
+    "allAcceptedUI": true,
+    "allAcceptedStatic": true,
+    "protectedFormatSlots": true,
+    "protectedTmpTags": true,
+    "protectedExactTexts": true,
+    "protectedNumbers": true,
+    "kinshipSourceRegex": "(?:мать|матери|маму|маме|жена|жены|жену|муж|мужа|отец|отца|дочь|дочери|сына|сын)",
+    "foreignerDialogueSourceIndexRanges": [[6456, 6459], [7608, 7676], [12900, 12964]]
+  },
+  "nontranslatableContext": [
+    "Original en/de serialized UI tables establish language autonyms; they are not Greek accepted IDs.",
+    "Pinned Assembly-CSharp.dll ItemHintView IL establishes dynamic count and name insertion; compiled instructions are not translation IDs."
+  ],
+  "selectorRepairEvidence": [
+    "The serialized x1 item-hint sample is tmp:level1:4292:m_text; an initial guessed static ID did not match the accepted source and was corrected before closure publication.",
+    "Compiled ItemHintView concatenates consumable_<item>_name, so the runtime selector includes those seven accepted keys as well as three FridgeItem_*_Name labels; the initial FridgeItem-only selector missed the actual dynamic name binding."
+  ]
+}

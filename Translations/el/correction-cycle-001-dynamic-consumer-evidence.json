@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "cycle": 1,
+  "status": "bounded compiled/serialized consumer evidence; no runtime launch",
+  "sceneAsset": {
+    "path": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_Data/level1",
+    "sha256": "ffa273e32a15073b951a6dbab0fe345785286406d1c1b455194dc0da2ab3fc11",
+    "itemHintMonoBehaviourPathId": 3984,
+    "itemHintObjectByteRange": [
+      526288,
+      526488
+    ],
+    "localizedKeyIdByteOffsets": {
+      "Common_LanguageName": 682364,
+      "message_got_item": 526388,
+      "message_given_item": 526456
+    }
+  },
+  "compiledConsumer": {
+    "assemblyPath": "NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+    "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+    "receivedMethod": "ItemHintView.ShowItemReceivedHint, RVA 0xf904",
+    "givenMethod": "ItemHintView.ShowItemGivenAwayHint, RVA 0xf860",
+    "argumentContract": "arg2 is a boxed integer count inserted at {0}; arg1 item type selects the localized consumable_<item>_name inserted at {1}; both methods set LocalizeStringEvent arguments and refresh the string"
+  },
+  "languageAutonymEvidence": {
+    "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:35317810561011700",
+    "officialValues": {
+      "en": "English",
+      "de": "Deutsch",
+      "ru": "Русский"
+    },
+    "officialBundleSha256": {
+      "en": "fcf777cde2b31030d61ae76a4cce49f9dda8099088c083eb77af2c7de300fa45",
+      "de": "ac13f15ef24349b3db767b2ad9ba8fb2dd76ad7e4cae65843893677ef6841873"
+    },
+    "currentGreek": "Ελληνικά"
+  },
+  "currentTemplates": {
+    "received": "<color=#444444>Απόκτηση</color> x{0} <color=#225555>{1}</color>",
+    "givenAway": "<color=#444444>Παραχώρηση</color> x{0} <color=#225555>{1}</color>"
+  },
+  "itemNames": {
+    "beer": "Μπίρα",
+    "cigarettes": "Τσιγάρα"
+  },
+  "assembledExamples": {
+    "receivedOneBeer": "<color=#444444>Απόκτηση</color> x1 <color=#225555>Μπίρα</color>",
+    "receivedTwoCigarettes": "<color=#444444>Απόκτηση</color> x2 <color=#225555>Τσιγάρα</color>",
+    "givenOneBeer": "<color=#444444>Παραχώρηση</color> x1 <color=#225555>Μπίρα</color>",
+    "givenTwoCigarettes": "<color=#444444>Παραχώρηση</color> x2 <color=#225555>Τσιγάρα</color>"
+  },
+  "remainingLimit": "These are serialized/compiled and template-assembly checks. They do not establish actual rendering, noun inflection for every item and count, or game runtime behavior."
+}

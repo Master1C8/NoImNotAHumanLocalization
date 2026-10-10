@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "status": "exact proposed root-owned offline text acceptance; no receipt created here",
+  "preflightCommand": ".venv/bin/python Translations/el/final-gate/verify.py",
+  "proposedAcceptanceCommand": ".venv/bin/python Scripts/accept_locale_text.py --handoff Translations/el/final-gate/root-handoff.json --output Documentation/el-text-acceptance-v1.json",
+  "proposedAcceptanceOutput": "Documentation/el-text-acceptance-v1.json",
+  "outputMustNotExistBeforeAcceptance": true,
+  "currentInputs": [
+    {
+      "path": "Translations/el/final-gate/root-handoff.json",
+      "sha256": "3b97002895e8da2e254827b7ae3933f55bf601a5fde3931944b114fd0139e52f"
+    },
+    {
+      "path": "Translations/el/final-gate/verify.py",
+      "sha256": "77b0ca0242b3778bfd7bc5e66464bd9be0f8ce2bc0152c246ca1ee992368d044"
+    },
+    {
+      "path": "Translations/el/final-gate/gate-evidence.json",
+      "sha256": "cb0bf3b38f22c5312c18044ba9dd8411b4e06630f8041878fb1211e85967a547"
+    },
+    {
+      "path": "Translations/el/final-gate/preserve-exact.validate.json",
+      "sha256": "777580e09851a6059e5f9754f208474c9891b7e6ca14a288fd6f2709083bfee1"
+    },
+    {
+      "path": "Translations/el/final-gate/administrative-refresh.json",
+      "sha256": "66ef9a327f340b04123bc8602453413c9a5b92a5c71f7f1332428eafdf091b86"
+    },
+    {
+      "path": "Translations/el/independent-review-03/evidence-manifest.json",
+      "sha256": "b79ebcb47a2a12e6664ae4a6b38690df6cd0ab07fa5c0174c63a7a8ba0501b17"
+    },
+    {
+      "path": "Translations/el/independent-review-03/corpus.validation.json",
+      "sha256": "dccbfc9c10db3d7d185c2b8a8ae0d35eaec5ebabbae16153a5df719e160454dd"
+    },
+    {
+      "path": "Translations/el/correction-cycle-003-closure-manifest.json",
+      "sha256": "656bdda477f04194de8a7e4e9989215b563c39d39db121ad5b3e062cc78469c5"
+    },
+    {
+      "path": "Translations/el/correction-cycle-003-derived.validation.json",
+      "sha256": "7349c6f7a8417a627ed65e58719a57749f44f0eda5dfaadfde8058a8e22d5fe7"
+    },
+    {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    {
+      "path": "Source/preserve-exactly-v4.json",
+      "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+    },
+    {
+      "path": "Documentation/glossary-translations/el/layer.json",
+      "sha256": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5"
+    },
+    {
+      "path": "Scripts/accept_locale_text.py",
+      "sha256": "2367bda4bd4fa0948589e4a1aebeab0cff838ee9591e742841a95d20cc581b70"
+    }
+  ],
+  "authoredFileCount": 420,
+  "evidenceFileCount": 131,
+  "authoredPathHashSetSha256": "6d890b699af60612282634581c7b6ddb1ff1a490856e5cc98335ae896f078571",
+  "evidencePathHashSetSha256": "eb13eceadd5c8d5097c875aac36fce2b0f26591c8e2b556e47e86ed768750ea5",
+  "administrativeReconciliation": "Review03 original 1365 input pins are checked at original paths except four explicitly archived byte-identical sidecar preimages; current sidecars are separately pinned and current_text(el) succeeds.",
+  "nextOwner": "Root coordinator decides acceptance, runs the shared acceptance command, then owns build and Git integration. This file is a proposal, not an acceptance receipt."
+}

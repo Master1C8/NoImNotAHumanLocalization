@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-04120-04600.jsonl",
+  "reviewEvidenceSha256": "86d30a2cbb0d5d0a46c3f24a658877ff9ca703bd6a0db7435526e1aa7d30fb4d",
+  "findings": [
+    {
+      "ordinal": 4376,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456477548556",
+      "key": "line:Bestson_Entrance_2_04c3e45",
+      "targetFile": "Translations/el/dialogue-batch-074.json",
+      "targetFileSha256": "a3b59fddde66ddf095819ef61e466007b2fef2de0b51c19604008ef2d2ad5373",
+      "sourceSha256": "5bddc79f726b6f14a460a4cf5812bb04f0dda686a58a28030523097bbe484bc8",
+      "currentTargetSha256": "27bd8428b09cca2e8040f64cb70d8e19960140c2bf62f93d2cc4211312b38330",
+      "objectiveReason": "Russian says the parents have not returned so far. Current Greek asserts they never returned, prematurely closing the possibility Bestson still hopes for.",
+      "sceneContext": "Bestson says his parents left after the news and have been missing for a week; adjacent branch 4385 retains the not-yet meaning.",
+      "proposedTarget": "Bestson: Λίγες ώρες μετά τις ειδήσεις αποφάσισαν να πάνε κάπου, αλλά ακόμη δεν έχουν γυρίσει. Τώρα φοβάμαι ακόμη περισσότερο να ανοίξω την τηλεόραση.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 4459,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382722",
+      "key": "line:Nun_Entrance_2_0dfda48",
+      "targetFile": "Translations/el/dialogue-batch-076.json",
+      "targetFileSha256": "dc97fe4ad892310e38b6487ada6106f7348a63cab9e83dfab62be5566450cfbb",
+      "sourceSha256": "c9d875bf2210bac80fc2eb9066034501a4db79992377c16de1a0009820839872",
+      "currentTargetSha256": "4b3eb437cff57b1afd936d8edd4b4b948aef078371b674512c3bbb57f001d7c8",
+      "objectiveReason": "Russian names rats; current Greek names mice, changing the animal in the Nuns pest question.",
+      "sceneContext": "The Nun lists house conditions before asking for shelter, including bedbugs and rats.",
+      "proposedTarget": "Nun: Δεύτερον, έχετε κοριούς ή αρουραίους; Αυτό είναι πολύ σημαντικό.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 4534,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456423022602",
+      "key": "line:Wifefema_Entrance_3_00ac18e",
+      "targetFile": "Translations/el/dialogue-batch-078.json",
+      "targetFileSha256": "e258fe28ded0d53c238d068f0fd77f0c8ba312499d9177d0ec8dae6664b94fa9",
+      "sourceSha256": "c0b73b2d3dd062842e95df3067e0070f0253afd759250ec6536d6067ea12ac2a",
+      "currentTargetSha256": "fafc8534f0e7087014ba298eabcc35d68ed3d5d8e4b7fbddedcf6e7b10f7bcb1",
+      "objectiveReason": "Russian says she let people cross the border; current Greek says she inspected those who crossed, replacing the stated action with an inference about customs work.",
+      "sceneContext": "Wifefema explains her former customs job while arguing she can spot suspicious people and could work with the FEMA agency.",
+      "proposedTarget": "Wifefema: Δούλευα παλιά στο τελωνείο, άφηνα κόσμο να περνά τα σύνορα.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

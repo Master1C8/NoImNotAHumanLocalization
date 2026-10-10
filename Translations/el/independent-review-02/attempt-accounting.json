@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "command": ".venv/bin/python Translations/el/build_cycle2_closure.py verify",
+      "exitCode": 0
+    },
+    {
+      "command": ".venv/bin/python Translations/el/verify_cycle2_regressions.py --verify",
+      "exitCode": 0
+    },
+    {
+      "command": ".venv/bin/python Translations/el/independent-review-02/verify_inputs.py",
+      "exitCode": 1,
+      "failure": "UnityPy fallback read_typetree consumed only base MonoBehaviour header (48/356 bytes). No accepted source/translation or prior evidence writes; compiled-delta-context.json was created."
+    },
+    {
+      "command": ".venv/bin/python Translations/el/independent-review-02/verify_inputs_v2.py",
+      "exitCode": 1,
+      "changedHypothesis": "Use checked schema generator; exposed mismatch in prior m_Script metadata."
+    },
+    {
+      "command": ".venv/bin/python Translations/el/independent-review-02/inspect_domain.py",
+      "exitCode": 0,
+      "result": "Only prior m_Script pointer differs; fresh checked native header/no-op passes, all gameplay fields and six deficit keys match."
+    },
+    {
+      "command": ".venv/bin/python Translations/el/independent-review-02/verify_inputs_v3.py",
+      "exitCode": 1,
+      "changedHypothesis": "Bind exact fresh snapshot and source/schema hashes; preserve known metadata discrepancy; run remaining derivation/applicability checks."
+    }
+  ],
+  "failedReadProbes": [
+    "AGENTS.md absent in game root; parent instructions apply",
+    "guessed expand_repeats.py absent; repeat phrase map independently checked against actual batch-006",
+    "Miner_Entrance_2 node absent; actual four suffixed compiled nodes were verified",
+    "shell unmatched extraction glob; corrected bounded rg search used exact directories"
+  ],
+  "v3Failure": "Legacy/demo/source candidate callback search exceeded accepted scope after all eleven derivation commands completed.",
+  "v4Recovery": "Filter callback comparison to accepted current IDs; reuse completed unchanged derivations; full pin/applicability proof passed.",
+  "allMutationScope": "new files under Translations/el/independent-review-02 only; no authored/source/glossary/shared/Git/game operations"
+}

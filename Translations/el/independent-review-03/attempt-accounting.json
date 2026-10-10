@@ -1,0 +1,38 @@
+{
+  "attempts": [
+    {
+      "action": "Initial sequential closure verify, consumer verify, fresh corpus receipt",
+      "observer": "exec wrapper printed output only and omitted live session ID",
+      "outcome": "Fresh corpus receipt ultimately exists and matches expected current hashes; initial launcher exit code unobserved. Initial preceding verifier outcomes replaced by explicit captured verification below."
+    },
+    {
+      "action": "Task-owned process reconciliation",
+      "outcome": "Sandbox ps denied; narrow escalated ps allowed and showed no matching task process, only the inspection itself. No process stopped."
+    },
+    {
+      "action": "Explicit closure verify after reconciliation",
+      "sessionId": 5659,
+      "exitCode": 0,
+      "outcome": "Exact pinned manifest reproduced."
+    },
+    {
+      "action": "Explicit consumer verify",
+      "exitCode": 0,
+      "outcome": "36 positives and 90 controls reproduced; receipt also binds 14 item hints."
+    },
+    {
+      "action": "Corpus validator retry",
+      "exitCode": 1,
+      "outcome": "Existing-output guard rejected before parsing or writing. Existing first-launch receipt was inspected and reused; no replacement performed."
+    },
+    {
+      "action": "Independent input/applicability verification",
+      "sessionId": 45329,
+      "exitCode": 0,
+      "outcome": "1,365 current pins and exact prior decision/closure/domain applicability passed."
+    }
+  ],
+  "externalNetworkRequests": 0,
+  "descendantAgents": 0,
+  "changes": "New independent-review-03 evidence only; no authored game wording or source/glossary edits."
+}

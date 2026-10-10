@@ -1,0 +1,658 @@
+{
+  "status": "objective proposals consolidated; author adjudication required",
+  "findings": [
+    {
+      "findingId": "EL-IR01-001",
+      "closureIndex": 151,
+      "scope": "published-closure",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+      "ordinal": 151,
+      "key": "characterName_BigLebowski",
+      "source": "подросток в кепке",
+      "sourceSha256": "b940b0b549a820bc4f23a5db76dc65f0d6d52502640c841d693cc8029c322b5d",
+      "before": "έφηβος με καπέλο",
+      "beforeSha256": "3c69e7983d180123bf4f11ed15ba10f606c65be3616411cf5c14ca50030df1f8",
+      "proposedTarget": "έφηβο άτομο με καπέλο",
+      "proposedTargetSha256": "4836169a879644627ba96b755f71ccf37c88ea772883eb0131d416e6dd504336",
+      "reason": "Early UI label adds male agreement despite the approved undisclosed-gender label for the canonically female teenager.",
+      "glossaryIds": [
+        "bar-teenager"
+      ],
+      "targetFile": "Translations/el/ui-batch-005.json",
+      "targetFileSha256": "94fc72f864b3cd2c92fd1fc634ca813271bea541409f1fc66d53b15fd3e56092",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-002",
+      "closureIndex": 318,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457836503050",
+      "ordinal": 567,
+      "key": "line:phone_wifefema_1_1_07a6f2b",
+      "source": "Phone: (Вы слышите, как собеседник громко выдыхает.)",
+      "sourceSha256": "0346b01bf83cfc1313d27a0f04170733d1a9b687e28d6bca8caf0853bdcb274b",
+      "before": "Phone: (Ακούτε τον συνομιλητή να βγάζει μια δυνατή ανάσα.)",
+      "beforeSha256": "187dc5e67ae423bb67b157241c64005694ccc18e2374dc53ee3702479f88fed6",
+      "proposedTarget": "Phone: (Ακούτε το άτομο στην άλλη άκρη της γραμμής να βγάζει μια δυνατή ανάσα.)",
+      "proposedTargetSha256": "8bfaa86f2e5e5e74ea113c1321f57a9294f9e016b035087c9fdc8a0f71582e8b",
+      "reason": "Masculine interlocutor adds a sex to the canonically unspecified recruitment voice.",
+      "glossaryIds": [
+        "fema-recruitment-voice"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-007.json",
+      "targetFileSha256": "9eee96496ab2c96e52b71b8ac39fd3468b98a383f2ca1efa27653243628d50a6",
+      "compiledOccurrences": [
+        {
+          "node": "phone_femarecruiter_1_1",
+          "pc": 0,
+          "opcode": 2,
+          "args": [
+            "line:phone_wifefema_1_1_07a6f2b",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-003",
+      "closureIndex": 348,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457828114436",
+      "ordinal": 597,
+      "key": "line:phone_alkonost_1_062c735",
+      "source": "Phone: Да и отдавать скоро будет некому.",
+      "sourceSha256": "6757498c228e7cec0a80cd30c3ca05a17c71bdb6340a9617c07462adce8a5c69",
+      "before": "Phone: Και σύντομα δεν θα έχω κανέναν να του δώσω τίποτα.",
+      "beforeSha256": "fbd54578619946161e00a4b2b88514444552595b368ef369fe7807f4315c0fb8",
+      "proposedTarget": "Phone: Και σύντομα δεν θα υπάρχει κανείς να δώσει τίποτα.",
+      "proposedTargetSha256": "d65e3caba2d4a73d2692e81cf46ff9703241c57e3da1f4dc23ca6b02ace62c83",
+      "reason": "Greek makes him lack a recipient. He is the giver who will soon be absent; the compiled follow-up reveals the planned suicide.",
+      "glossaryIds": [
+        "alkonosts-husband"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-007.json",
+      "targetFileSha256": "9eee96496ab2c96e52b71b8ac39fd3468b98a383f2ca1efa27653243628d50a6",
+      "compiledOccurrences": [
+        {
+          "node": "phone_alkonostshusband_1",
+          "pc": 3,
+          "opcode": 2,
+          "args": [
+            "line:phone_alkonost_1_062c735",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-004",
+      "closureIndex": 378,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+      "ordinal": 912,
+      "key": "line:radio_13_03cbc34",
+      "source": "Говорит с…трудник 18-8: угр…зу не уд…лось сдержать.",
+      "sourceSha256": "d346d0422694fb8e69b208c3e7179fefee1af8e8bcdd5c90208c29f435d51483",
+      "before": "Μιλά ο υπ…άλληλος 18-8: δεν καταφ…έραμε να περιορίσουμε την απ…ειλή.",
+      "beforeSha256": "b6e23b997345f526d89c272d9ee83478d3140237bafaeb0e41c640700210f9f6",
+      "proposedTarget": "Μιλά το μέλος του πρ…οσωπικού 18-8: δεν καταφ…έραμε να περιορίσουμε την απ…ειλή.",
+      "proposedTargetSha256": "9657f9ed182820c2314f38221d199d58ad0691024643e5c0207f2f3828eb04b5",
+      "reason": "Masculine employee adds a sex to the unspecified numbered radio voice; preserve the interrupted transmission and number.",
+      "glossaryIds": [
+        "radio-employee-18-8"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-012.json",
+      "targetFileSha256": "868c65005a0b1c523aec58ddcb9786480dd7ac9bc8e0928f42c848f044f6cf62",
+      "compiledOccurrences": [
+        {
+          "node": "radio_13",
+          "pc": 0,
+          "opcode": 2,
+          "args": [
+            "line:radio_13_03cbc34",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-005",
+      "closureIndex": 383,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673923",
+      "ordinal": 939,
+      "key": "line:radio_6_05ac3fe",
+      "source": "Докладывает сотрудник 28-8. Код 451: нужна бригада для сожжения трупов.",
+      "sourceSha256": "fcbf08eb4912c66f7542df72b6a5f09cfb3e4603738d963ce3471c2ea522a68f",
+      "before": "Αναφέρει ο υπάλληλος 28-8. Κωδικός 451: χρειαζόμαστε συνεργείο για την καύση των πτωμάτων.",
+      "beforeSha256": "652f9a466d038b0f36624091202019157a35f1e48033a86911f71a10374b79c8",
+      "proposedTarget": "Αναφορά από το μέλος του προσωπικού 28-8. Κωδικός 451: χρειαζόμαστε συνεργείο για την καύση των πτωμάτων.",
+      "proposedTargetSha256": "679877b2dd6a4dad8086890cb59f22c42f7371deff1affcbadaa436c175dad22",
+      "reason": "Masculine employee adds a sex to the unspecified numbered radio voice.",
+      "glossaryIds": [
+        "radio-employee-28-8"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-012.json",
+      "targetFileSha256": "868c65005a0b1c523aec58ddcb9786480dd7ac9bc8e0928f42c848f044f6cf62",
+      "compiledOccurrences": [
+        {
+          "node": "radio_6",
+          "pc": 2,
+          "opcode": 2,
+          "args": [
+            "line:radio_6_05ac3fe",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-006",
+      "closureIndex": 384,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673922",
+      "ordinal": 940,
+      "key": "line:radio_6_0aa3b6b",
+      "source": "Сотрудник 32-8 докладывает. Код 60: множество жертв среди гражданских, сотрудники убиты…",
+      "sourceSha256": "efc5038c99a4d49aa97991ec05498f991327d5d1b288af6af69fcdc34fe5fad5",
+      "before": "Αναφέρει ο υπάλληλος 32-8. Κωδικός 60: πολλά θύματα μεταξύ αμάχων, υπάλληλοι σκοτώθηκαν…",
+      "beforeSha256": "d2ceaf9f29758c6bc8e589ee58c19537f67708e4596a80e27507f6937afa4c9b",
+      "proposedTarget": "Αναφορά από το μέλος του προσωπικού 32-8. Κωδικός 60: πολλά θύματα μεταξύ αμάχων, υπάλληλοι σκοτώθηκαν…",
+      "proposedTargetSha256": "1ffc0d803d5c89050ee52b70d68ef6e7df720faf8b83d3fb707ae4423dcd293a",
+      "reason": "Masculine employee adds a sex to the unspecified numbered radio voice.",
+      "glossaryIds": [
+        "radio-employee-32-8"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-012.json",
+      "targetFileSha256": "868c65005a0b1c523aec58ddcb9786480dd7ac9bc8e0928f42c848f044f6cf62",
+      "compiledOccurrences": [
+        {
+          "node": "radio_6",
+          "pc": 1,
+          "opcode": 2,
+          "args": [
+            "line:radio_6_0aa3b6b",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-007",
+      "closureIndex": 385,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673921",
+      "ordinal": 941,
+      "key": "line:radio_6_06502d0",
+      "source": "Говорит диспетчер. Проверьте, что случилось в карантинной зоне. Код 51. Докладывают о взрывах в 3 часа ночи.",
+      "sourceSha256": "bf5b1131b51b51ede5d30d56529c14813c0e4804cce4dbb86b2521d4977d16c3",
+      "before": "Μιλά ο ασυρματιστής. Ελέγξτε τι συνέβη στη ζώνη καραντίνας. Κωδικός 51. Αναφέρονται εκρήξεις στις 3 τα ξημερώματα.",
+      "beforeSha256": "1708457c103f0987698cc12b7b1302a25a0d470e474d97c1a6e33445dbb9b6f6",
+      "proposedTarget": "Μιλά το άτομο που συντονίζει. Ελέγξτε τι συνέβη στη ζώνη καραντίνας. Κωδικός 51. Αναφέρονται εκρήξεις στις 3 τα ξημερώματα.",
+      "proposedTargetSha256": "83fb9dfa4e33d60cdda98e328556c3b11b47d5f54ab176affd7fe33258df5488",
+      "reason": "Masculine radio operator adds a sex to the unspecified dispatcher and narrows the role.",
+      "glossaryIds": [
+        "radio-dispatcher"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-012.json",
+      "targetFileSha256": "868c65005a0b1c523aec58ddcb9786480dd7ac9bc8e0928f42c848f044f6cf62",
+      "compiledOccurrences": [
+        {
+          "node": "radio_6",
+          "pc": 0,
+          "opcode": 2,
+          "args": [
+            "line:radio_6_06502d0",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-008",
+      "closureIndex": 444,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375816",
+      "ordinal": 1515,
+      "key": "line:Leper_Entrance_Bribe_020a88c",
+      "source": "Leper: Ладно, а если я дам тебе кое-что? Вот {0}, например? Пустишь тогда?",
+      "sourceSha256": "44888d314653d128907122da6d7701c5ddd9d6103013588683e64cb8be02fb70",
+      "before": "Leper: Εντάξει, κι αν σου δώσω κάτι; Το {0}, ας πούμε; Θα με αφήσεις να μπω τότε;",
+      "beforeSha256": "6746ce490cf45ff3babdbc83ee8830c1270c98035a56b42998bb2e30c28ef78f",
+      "proposedTarget": "Leper: Εντάξει, κι αν σου δώσω κάτι; {0}, ας πούμε; Θα με αφήσεις να μπω τότε;",
+      "proposedTargetSha256": "9994c0e3cbebc0aa35e80cc7e1d4ae1908e1cc2d2b599b46fbeb6175163e0a26",
+      "reason": "Compiled PeekDeficitItem → LocalizeItem inserts fixed dictionary-form labels. Το does not agree with Τσιγάρα, Καφές, Κομπούχα, Ενερζέκα, Γατοτροφή or Παρουσίαση στην ΕΕΑ. Removing its article preserves the citation-like item fragment.",
+      "glossaryIds": [
+        "coffee"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-021.json",
+      "targetFileSha256": "b1bf9fdd420bc8705b398513f3a27246df2e10f170a5517778fc831ad16629e5",
+      "compiledOccurrences": [
+        {
+          "node": "Leper_Entrance_Bribe",
+          "pc": 7,
+          "opcode": 2,
+          "args": [
+            "line:Leper_Entrance_Bribe_020a88c",
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-009",
+      "closureIndex": 456,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "ordinal": 1820,
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "7437e13e9d82d0b896f96cd62660d7eb68057c89dad2bc00a42d9cf91f9932b5",
+      "before": "Jacket: Ορίστε, έχω {0}. Δεν είναι πολλά, αλλά ελπίζω να σας φανούν χρήσιμα.",
+      "beforeSha256": "8e7f999d91e8081d322e751cef1af127750fa080feaa66ff819b36c3833b8ee4",
+      "proposedTarget": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "proposedTargetSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "reason": "Compiled LocalizeItem inserts singular and mass labels as well as Τσιγάρα. Greek πολλά/χρήσιμα imposes neuter plural agreement absent from the actual label domain.",
+      "glossaryIds": [
+        "coffee"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileSha256": "10ddfa23a5b6ff7ff1ffd09c04d283f9d7f254ec55357ece3e8076645689c790",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_Occupied_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-010",
+      "closureIndex": 459,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "ordinal": 1830,
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "75b21083a8d659f721be9027f841b7a8f61044d9919194c902073a4cf6baf391",
+      "before": "Jacket: Ορίστε, έχω {0}. Δεν είναι πολλά, αλλά ελπίζω να σας φανούν χρήσιμα.",
+      "beforeSha256": "8e7f999d91e8081d322e751cef1af127750fa080feaa66ff819b36c3833b8ee4",
+      "proposedTarget": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "proposedTargetSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "reason": "Same fixed-label number/agreement defect as the occupied-room branch.",
+      "glossaryIds": [
+        "coffee"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileSha256": "10ddfa23a5b6ff7ff1ffd09c04d283f9d7f254ec55357ece3e8076645689c790",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_YesLet_0e9da2d",
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-011",
+      "closureIndex": 821,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455798071302",
+      "ordinal": 6326,
+      "key": "line:Tough_Asking_4_01386bb",
+      "source": "Tough: Он сказал, что нужно зайти домой ненадолго, передать что-то его матери. Я не захотела идти с ним.",
+      "sourceSha256": "236cd7890e5e21c8a094b733628dfae9f42e6426a06bc9855cce02d718402bee",
+      "before": "Tough: Μου είπε να μπω για λίγο στο σπίτι, για να δώσω κάτι στη μητέρα του. Δεν ήθελα να πάω μαζί του.",
+      "beforeSha256": "f130cec40e58edc99c41aa2009049755f1e12137606856459c55ab7b6a1323c5",
+      "proposedTarget": "Tough: Είπε πως έπρεπε να περάσει για λίγο από το σπίτι, για να δώσει κάτι στη μητέρα του. Δεν ήθελα να πάω μαζί του.",
+      "proposedTargetSha256": "1600ee66389770212d79dcd1674d07e5ddafe039b7d600508a9b02bcc1e751df",
+      "reason": "Greek orders the woman to go home and give the mother something; source and compiled following scene have the man do it while she waits outside.",
+      "glossaryIds": [
+        "tough-woman"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-136.json",
+      "targetFileSha256": "f670d3289aa7c3d90e42e58ed874cbc671ed89d4c32a798b35dbac3fba16bc37",
+      "compiledOccurrences": [
+        {
+          "node": "Tough_Asking_4",
+          "pc": 22,
+          "opcode": 2,
+          "args": [
+            "line:Tough_Asking_4_01386bb",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-012",
+      "closureIndex": 826,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455751933958",
+      "ordinal": 6457,
+      "key": "line:Experienced_Asking_4_030b3c8",
+      "source": "Experienced: Жена нашла себе другого, ребёнок боялся меня, а на работу я уже не могу устроиться из-за судимости.",
+      "sourceSha256": "709062898b47c99e51bd5bbefad1e20ffcb63465149c57b36cb65d70e857d3e4",
+      "before": "Experienced: Η γυναίκα μου βρήκε άλλον, το παιδί μου με φοβόταν και δεν μπορούσα πια να βρω δουλειά εξαιτίας του ποινικού μου μητρώου.",
+      "beforeSha256": "454f0585a4ee5ed7a9a59381c6535f55450e2d80ad6dc0676d712a3ac95464ae",
+      "proposedTarget": "Experienced: Η γυναίκα μου βρήκε άλλον, το παιδί μου με φοβόταν και δεν μπορώ πια να βρω δουλειά εξαιτίας του ποινικού μου μητρώου.",
+      "proposedTargetSha256": "510eb968ebc2bd2230124df55fb780312fe01155b8aebedccdef0d16d0e6b68a",
+      "reason": "Source present inability to obtain work becomes past inability. Keep the historical wife/child clauses and the explicitly current restriction.",
+      "glossaryIds": [
+        "ex-con"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-141.json",
+      "targetFileSha256": "25df8b35f7af69bd7f5db022ce966a2f4b9b37a0dadfd7b904b9f4a561f897c4",
+      "compiledOccurrences": [
+        {
+          "node": "Experienced_Asking_4",
+          "pc": 21,
+          "opcode": 2,
+          "args": [
+            "line:Experienced_Asking_4_030b3c8",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-013",
+      "closureIndex": 864,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455470915592",
+      "ordinal": 7283,
+      "key": "line:Cultist3_Asking_2_09be02a",
+      "source": "Cultist3: Их призвала смерть…",
+      "sourceSha256": "df5d6c18393ba42b7266141441f4c6c5e8af31dc3941475c5d97105a5a6c9673",
+      "before": "Cultist3: Εκείνη τους κάλεσε…",
+      "beforeSha256": "e9b205a5a2904f03299020e1acdb4829d7409c0f1fd9ce255019ea4dee5c908f",
+      "proposedTarget": "Cultist3: Τους κάλεσε ο Θάνατος…",
+      "proposedTargetSha256": "931ac972e31db95b6767a5a9ba73b308bba8a299a01d435620ab9123449c239b",
+      "reason": "Greek pronoun Εκείνη omits the explicit Death revelation; actual preceding node lines do not supply a Death antecedent. Canonical feminine pronouns elsewhere remain valid.",
+      "glossaryIds": [
+        "death",
+        "cultist-three"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-167.json",
+      "targetFileSha256": "55d91fd1826ef9a19863e027ace34e415479226da2bd3baeaf16a805713d7d25",
+      "compiledOccurrences": [
+        {
+          "node": "Cultist3_Asking_2",
+          "pc": 18,
+          "opcode": 2,
+          "args": [
+            "line:Cultist3_Asking_2_09be02a",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-014",
+      "closureIndex": 1110,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454653026308",
+      "ordinal": 9591,
+      "key": "line:Wifefema_Asking_1_060cf4b",
+      "source": "Wifefema: Кто вообще придумал называть этих нелюдей Гостями?",
+      "sourceSha256": "a60967fcbbecf60d12718b45d7d6aa3ec6b9da019d6acab82d21447acb281713",
+      "before": "Wifefema: Ποιος σκέφτηκε να αποκαλεί αυτά τα απάνθρωπα πλάσματα Επισκέπτες;",
+      "beforeSha256": "e6ae7b25c78c412c8a7537ea6ac4cc2e706efca59bf7e91139b385f9cd87ddca",
+      "proposedTarget": "Wifefema: Ποιος σκέφτηκε να αποκαλεί αυτά τα μη ανθρώπινα πλάσματα Επισκέπτες;",
+      "proposedTargetSha256": "846ae12713aadc6f35c8062ae1b526fb8d30ad78976e8e21e90c9201e87fb872",
+      "reason": "Нелюдей is nonhuman status here; απάνθρωπα means inhumane/cruel and shifts the asserted ontology into a moral property.",
+      "glossaryIds": [
+        "human",
+        "fema-wife"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-232.json",
+      "targetFileSha256": "a634659b7b4aed0bebea8a3d85f7022415168d75e2f4f1559c02352c5cffe0f9",
+      "compiledOccurrences": [
+        {
+          "node": "Wifefema_Asking_1",
+          "pc": 18,
+          "opcode": 2,
+          "args": [
+            "line:Wifefema_Asking_1_060cf4b",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-015",
+      "closureIndex": 1404,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453088550915",
+      "ordinal": 13004,
+      "key": "line:TaxiDriver_Teeth_DontShoot_014d00b",
+      "source": "TaxiDriver: Отец мой херню сделал тогда, и за это мы поплатились. Жили потом, как крысы: ни дома, ни денег, ни покоя…",
+      "sourceSha256": "5115903e98330407fd3eb93653607d995bdf6a8a4468dd20c4b42d269bcd8f60",
+      "before": "TaxiDriver: Ο πατέρας μου έκανε τότε μια μαλακία και το πληρώσαμε όλοι. Μετά ζούσαμε σαν ποντίκια: χωρίς σπίτι, χωρίς λεφτά, χωρίς ησυχία…",
+      "beforeSha256": "86403ca23bcf8b342622199cae40d2f57bb7245497acc76e5300af61e4be59be",
+      "proposedTarget": "TaxiDriver: Ο πατέρας μου έκανε τότε μια μαλακία και το πληρώσαμε όλοι. Μετά ζούσαμε σαν αρουραίοι: χωρίς σπίτι, χωρίς λεφτά, χωρίς ησυχία…",
+      "proposedTargetSha256": "a6a46507ac846e9898620f2ad212e78b611ecf829d2db4962002ad7bc031c576",
+      "reason": "Explicit rats become mice, the same species distinction corrected in the first cycle.",
+      "glossaryIds": [
+        "taxi-driver"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-329.json",
+      "targetFileSha256": "15c753d21eaf39d3a115a3340da59de142eb75fab17b7e52b7b9021c7ef2ad0b",
+      "compiledOccurrences": [
+        {
+          "node": "TaxiDriver_Teeth_DontShoot",
+          "pc": 23,
+          "opcode": 2,
+          "args": [
+            "line:TaxiDriver_Teeth_DontShoot_014d00b",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-016",
+      "closureIndex": 1586,
+      "scope": "published-closure",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452077723650",
+      "ordinal": 15468,
+      "key": "line:NotTrue_Hands_DontShoot_01a5b2d",
+      "source": "NotTrue: Руки – для тех, кто держит. Я уже давно перестала этим заниматься.",
+      "sourceSha256": "d63d88c312f55d804f4602cb0730007ace6fbab92bb2a2bba17629b264b268d5",
+      "before": "NotTrue: Τα χέρια είναι για όσους κρατιούνται. Εγώ το έχω πάψει αυτό εδώ και πολύ καιρό.",
+      "beforeSha256": "0d6187ac8cc2b8ce71fbc5142263722b3b8b8ceb93d45d84da76b646ebc72993",
+      "proposedTarget": "NotTrue: Τα χέρια είναι για όσους κρατούν κάτι. Εγώ έχω σταματήσει να το κάνω εδώ και πολύ καιρό.",
+      "proposedTargetSha256": "2093e29092bed575678f7764f980551de9400f8768c1143b14a114ddcd64b4f9",
+      "reason": "Transitive holding with hands becomes reflexive holding on/keeping oneself supported. Preserve the metaphor without changing its action.",
+      "glossaryIds": [
+        "babushka"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-390.json",
+      "targetFileSha256": "a82b54694d5dce562699d302e62ecb3c8916adb0247448ae39f89c6ee4ae8244",
+      "compiledOccurrences": [
+        {
+          "node": "NotTrue_Hands_DontShoot",
+          "pc": 1,
+          "opcode": 2,
+          "args": [
+            "line:NotTrue_Hands_DontShoot_01a5b2d",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-017",
+      "closureIndex": 1652,
+      "scope": "published-closure",
+      "stableId": "tmp:level0:2005:m_text",
+      "ordinal": 16374,
+      "key": null,
+      "source": "Unlock cat",
+      "sourceSha256": "ac25ac67d01fa59f9bd4247b845f98a7d0cd08624edfd1fb518e5c3b78d69b0f",
+      "before": "Ξεκλείδωσε τη γάτα",
+      "beforeSha256": "71c8a0dc4a6e5bea7159321bb55e14dbaa5bbd9c67d9a93be42a3fc61a6f5d6f",
+      "proposedTarget": "Ξεκλείδωσε τον γάτο",
+      "proposedTargetSha256": "e1761e7315f48618134540f25ba8a1c90a376d4d94f87f9ff86759125e32b561",
+      "reason": "The accepted static unlock label uses generic feminine γάτα where the approved game referent and current cat lines use Γάτος.",
+      "glossaryIds": [
+        "cat"
+      ],
+      "targetFile": "Translations/el/static-text-draft.json",
+      "targetFileSha256": "aa70dac71e05750b2656a060cd0918756e22384b9de1c166b8db98bcd5979477",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-018",
+      "closureIndex": 1676,
+      "scope": "published-closure",
+      "stableId": "tmp:level0:2140:m_text",
+      "ordinal": 16398,
+      "key": null,
+      "source": "В желаемое",
+      "sourceSha256": "e320ba2485ef53788db90190a1aafe1c01a2f49ab16e6423852499e92d09593d",
+      "before": "Στο επιθυμητό",
+      "beforeSha256": "1989f4cffbde573ba74add23246b9fe1ebd0d61307ca38ee634c58a778275b11",
+      "proposedTarget": "Στη λίστα επιθυμιών",
+      "proposedTargetSha256": "c92a1a1c707d06fd070a7cea7b5ccfd6cf9c2301cd4ceaf78766f46111058ba4",
+      "reason": "The wishlist action becomes the semantically incomplete into the desired thing. Use the actual wishlist destination, consistent with Ending_ThanksWishlist.",
+      "glossaryIds": [
+        "collection"
+      ],
+      "targetFile": "Translations/el/static-text-draft.json",
+      "targetFileSha256": "aa70dac71e05750b2656a060cd0918756e22384b9de1c166b8db98bcd5979477",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-019",
+      "closureIndex": 1774,
+      "scope": "published-closure",
+      "stableId": "tmp:level1:4210:m_text",
+      "ordinal": 16496,
+      "key": null,
+      "source": "Here's a big long line of dialogue, ready to be shown to the player.",
+      "sourceSha256": "de17e1da40675ea3c66811031390018f80784a53926f60683a93496bcbb6d1ea",
+      "before": "Ορίστε μια μεγάλη, μακροσκελής ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "beforeSha256": "44a0522fa52b3ae0d136761fadcc1644222cd9991cfb758d3a32785ee7d54b41",
+      "proposedTarget": "Ορίστε μια μεγάλη, μακροσκελή ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "proposedTargetSha256": "a3fc2fa51a692d266fedff9cd32261b44c69be0d81bf3bd71983da8a4880fe9a",
+      "reason": "Adjective μακροσκελής is nominative; μια ... ατάκα here requires accusative μακροσκελή.",
+      "glossaryIds": [
+        "player"
+      ],
+      "targetFile": "Translations/el/static-text-draft.json",
+      "targetFileSha256": "aa70dac71e05750b2656a060cd0918756e22384b9de1c166b8db98bcd5979477",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-020",
+      "closureIndex": 1800,
+      "scope": "published-closure",
+      "stableId": "tmp:level1:4784:m_text",
+      "ordinal": 16522,
+      "key": null,
+      "source": "Here's a big long line of dialogue, ready to be shown to the player.",
+      "sourceSha256": "de17e1da40675ea3c66811031390018f80784a53926f60683a93496bcbb6d1ea",
+      "before": "Ορίστε μια μεγάλη, μακροσκελής ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "beforeSha256": "44a0522fa52b3ae0d136761fadcc1644222cd9991cfb758d3a32785ee7d54b41",
+      "proposedTarget": "Ορίστε μια μεγάλη, μακροσκελή ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "proposedTargetSha256": "a3fc2fa51a692d266fedff9cd32261b44c69be0d81bf3bd71983da8a4880fe9a",
+      "reason": "Adjective μακροσκελής is nominative; μια ... ατάκα here requires accusative μακροσκελή.",
+      "glossaryIds": [
+        "player"
+      ],
+      "targetFile": "Translations/el/static-text-draft.json",
+      "targetFileSha256": "aa70dac71e05750b2656a060cd0918756e22384b9de1c166b8db98bcd5979477",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-021",
+      "closureIndex": 1801,
+      "scope": "published-closure",
+      "stableId": "tmp:level1:4785:m_text",
+      "ordinal": 16523,
+      "key": null,
+      "source": "Here's a big long line of dialogue, ready to be shown to the player.",
+      "sourceSha256": "de17e1da40675ea3c66811031390018f80784a53926f60683a93496bcbb6d1ea",
+      "before": "Ορίστε μια μεγάλη, μακροσκελής ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "beforeSha256": "44a0522fa52b3ae0d136761fadcc1644222cd9991cfb758d3a32785ee7d54b41",
+      "proposedTarget": "Ορίστε μια μεγάλη, μακροσκελή ατάκα, έτοιμη να εμφανιστεί στον παίκτη.",
+      "proposedTargetSha256": "a3fc2fa51a692d266fedff9cd32261b44c69be0d81bf3bd71983da8a4880fe9a",
+      "reason": "Adjective μακροσκελής is nominative; μια ... ατάκα here requires accusative μακροσκελή.",
+      "glossaryIds": [
+        "player"
+      ],
+      "targetFile": "Translations/el/static-text-draft.json",
+      "targetFileSha256": "aa70dac71e05750b2656a060cd0918756e22384b9de1c166b8db98bcd5979477",
+      "compiledOccurrences": []
+    },
+    {
+      "findingId": "EL-IR01-022",
+      "scope": "bounded-selector-completeness-counterexample",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085955",
+      "key": "line:phone_fortuneteller_04e9b94",
+      "source": "Phone: (Собеседник бросает трубку. Это было… не совсем то, чего вы ожидали.)",
+      "sourceSha256": "25e41b53ab91b213d084e93789349abc811e2c46216babc01f33fd8421c4587f",
+      "before": "Phone: (Ο συνομιλητής κλείνει το τηλέφωνο. Αυτό ήταν… κάπως διαφορετικό απ' ό,τι περιμένατε.)",
+      "beforeSha256": "e02f65bf3f542e86e1aa245151e3a02822f77798ddd5c2d6cb4ef560ed9db1ec",
+      "proposedTarget": "Phone: (Το άτομο στην άλλη άκρη της γραμμής κλείνει το τηλέφωνο. Αυτό ήταν… κάπως διαφορετικό απ' ό,τι περιμένατε.)",
+      "proposedTargetSha256": "fe8012340e9064d91d9c7476f6cc5bbff3ed3fd60c3f800eca6816c4ad5ba8e3",
+      "reason": "Canonical neutral phone role is outside the closure; masculine Ο συνομιλητής incorrectly assigns its sex.",
+      "glossaryIds": [
+        "voice-from-fortune-teller"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-005.json",
+      "targetFileSha256": "4ec09936a496f49aa40300bda09242b1c57cbf4fdb4669bbdc8df2d2c456b6b0",
+      "compiledOccurrences": [
+        {
+          "node": "phone_extrasens",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:phone_fortuneteller_04e9b94",
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "findingId": "EL-IR01-023",
+      "scope": "bounded-selector-completeness-counterexample",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062529",
+      "key": "line:radio_12_066787a",
+      "source": "Дисп…тчер на связи, вс…м сотрудн…кам КЧС…",
+      "sourceSha256": "33c1bcdd736dcf1310621da755a0d5254516e6d7deed2e49ae309d0277dd5a50",
+      "before": "Ο ασυρμ…ατιστής καλεί όλους τους υπαλλ…ήλους της ΕΕΑ…",
+      "beforeSha256": "0692584d180b30ea2457738f93fe79748c2e0725241a1076b05ad418aa87dac5",
+      "proposedTarget": "Το άτομο που συντ…ονίζει καλεί όλα τα μέλη του πρ…οσωπικού της ΕΕΑ…",
+      "proposedTargetSha256": "2e2e17ba972aa263d5686173ffc61db9146c21cab4e3a2c6a239846d71e2ff54",
+      "reason": "Canonical neutral day-12 dispatcher is outside the closure; masculine Ο ασυρμ…ατιστής incorrectly assigns its sex and changes dispatcher to radio operator.",
+      "glossaryIds": [
+        "radio-day-12-dispatcher"
+      ],
+      "targetFile": "Translations/el/dialogue-batch-012.json",
+      "targetFileSha256": "868c65005a0b1c523aec58ddcb9786480dd7ac9bc8e0928f42c848f044f6cf62",
+      "compiledOccurrences": [
+        {
+          "node": "radio_12",
+          "pc": 0,
+          "opcode": 2,
+          "args": [
+            "line:radio_12_066787a",
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "supersedes": "findings.json",
+  "supersessionReason": "Canonical speaker-code lookup corrects reference IDs for NotTrue (babushka), and supplies direct TaxiDriver, Wifefema and Cultist3 anchors. Replacement wording and count unchanged."
+}

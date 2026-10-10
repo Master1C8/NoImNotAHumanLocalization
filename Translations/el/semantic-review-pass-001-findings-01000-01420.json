@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-01000-01420.jsonl",
+  "reviewEvidenceSha256": "5ce2d44ad4c40716a849cedf26b58870bdcb39203c228acf1e5362712c9e3267",
+  "findings": [
+    {
+      "ordinal": 1263,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233409",
+      "key": "line:tv_2_extra2_0dd21cb",
+      "targetFile": "Translations/el/dialogue-batch-017.json",
+      "targetFileSha256": "0c185e3439d4ae9f235999103856aa7c1d39f5d887f27fc6bceba10d5b0358e0",
+      "sourceSha256": "0f1bb18b92710d4d933a3705b1675f8be3312c095b2eeae179ad249939e86c31",
+      "currentTargetSha256": "44cd511fb8682c6850ef732fe5d41dbfc21f7084f7bf4bed472ba593ddbcf8d4",
+      "objectiveReason": "Russian «все были одинокими людьми» identifies lonely or solitary people; the current Greek «όλοι ζούσαν μόνοι» asserts that every victim lived alone, which is a different, unestablished fact.",
+      "sceneContext": "TV report on the pale killer: witness testimony links victims by loneliness, not by a verified household registry.",
+      "proposedTarget": "TV: Από τις καταθέσεις αυτοπτών μαρτύρων προέκυψε πως τα θύματά του είχαν ένα κοινό στοιχείο: ήταν όλοι μοναχικοί άνθρωποι.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 1301,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456196",
+      "key": "line:radio_4_0c66193",
+      "targetFile": "Translations/el/dialogue-batch-017.json",
+      "targetFileSha256": "0c185e3439d4ae9f235999103856aa7c1d39f5d887f27fc6bceba10d5b0358e0",
+      "sourceSha256": "5df194ea6ff69aab6ccaf3336841fd47da1e4e95c7a151d781c48313c305b070",
+      "currentTargetSha256": "f1a4b36eda96d21435658fb25b12643e42c6d548f81b602ce3ccf905a6687665",
+      "objectiveReason": "Russian emphatic «КИЛОТОННЫ ИНФОРМАЦИИ» deliberately exaggerates the quantity as kilotons; «ΤΟΝΟΙ ΠΛΗΡΟΦΟΡΙΩΝ» drops the kilo scale and part of the joke.",
+      "sceneContext": "Conspiracy radio host reacts to an absent research institute guest whose documents were stolen.",
+      "proposedTarget": "Πώς γίνεται να του έκλεψαν όλα τα έγγραφα; ΕΚΕΙ ΜΕΣΑ ΥΠΑΡΧΟΥΝ ΚΙΛΟΤΟΝΟΙ ΠΛΗΡΟΦΟΡΙΩΝ!",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-00000-00057.jsonl",
+  "reviewEvidenceSha256": "9f260a8e060263297d7d2cce42da6619f58770bd559412c6da213354901b9589",
+  "findings": [
+    {
+      "ordinal": 56,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "key": "Game_MushroomList",
+      "targetFile": "Translations/el/ui-batch-009.json",
+      "targetFileSha256": "9228e7f553b5b7fdb049ea0a3c71b6720ab62cd8cc1a0e0b014febf0717b281f",
+      "sourceSha256": "a0ec9d69e87006d886300386af40d5b0804833c17a3d131e288db5f808cb37f8",
+      "currentTargetSha256": "51f243965aa7931e31ab5ed4d9809544141c68a77604cc90eac977c8db82d08f",
+      "objectiveReason": "First stanza changes a hypothetical possibility (Russian «был бы тот, кто ... смог») into a certain future arrival (Greek «θα βρεθεί ... θα μπορέσει»). Preserve the source modality while keeping the four-line stanza and all other pages intact.",
+      "sceneContext": "Three numbered poetic pages of Game_MushroomList, associated with the mushroom, apple tree and clock in the approved smile-guide glossary entry.",
+      "proposedTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nΣήμερα χτίστηκε η πόλη,\nΣτο υπόγειο μανιτάρι φύτρωσε απ' το χώμα.\nΉταν τεράστιο, μα αν βρισκόταν κάποιος\nΠου θα μπορούσε να το καταπιεί.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nΟι αδύναμοι δέχονται επισκέπτες.\nΤο μανιτάρι στέκει πάνω από εμάς, τους απρόσκλητους ανθρώπους.\nΜόνο η μηλιά θα δώσει σε όλους καταφύγιο\nΚαι θα σας θρέψει με γλυκό καρπό.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nΘα έρθει η μέρα που εκείνος\nΘα υποκλιθεί στα μανιτάρια,\nΚι ο δείκτης θα στραφεί ψηλά.\nΒιάσου, φίλε μου, βιάσου!",
+      "preflight": "preserve-exact, placeholder/markup, numeric and line-break checks passed in memory; not applied"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-00057-00145.jsonl",
+  "reviewEvidenceSha256": "94155a54594fc995d76a032a266bab1ba076eae0d39ed1af2683758165814b18",
+  "findings": [
+    {
+      "ordinal": 118,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83741359755481088",
+      "key": "message_noMoreBeerToday",
+      "targetFile": "Translations/el/ui-batch-004.json",
+      "targetFileSha256": "c211eed0a18e12d551b570c5abe8ced0cfe9e83a6c3e4c8d40e8537bac446280",
+      "sourceSha256": "b82d76e6f102533bb7ce346be0b8f7badd50cb7f0534b49b2b83e32df3d3aeb1",
+      "currentTargetSha256": "02ef535629dca387778b742164e9328205663c43391a619316bc4ab593316505",
+      "objectiveReason": "The source says the speaker has had enough for today in the beer-use context; the Greek says he has done enough today, changing the action from consumption to general activity.",
+      "sceneContext": "message_noMoreBeerToday after using the beer item; approved beer glossary keeps the item effect separate from unrelated actions.",
+      "proposedTarget": "Μάλλον μου φτάνει για σήμερα.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

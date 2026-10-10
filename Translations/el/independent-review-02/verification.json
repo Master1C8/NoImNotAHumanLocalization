@@ -1,0 +1,165 @@
+{
+  "result": "all requested deterministic input/applicability checks passed; semantic findings recorded separately",
+  "canonicalGlossaryIds": 201,
+  "deltaCompiledNodes": 64,
+  "compiledProgramFullyReproduced": true,
+  "freshDLLMethodsMatchPriorEvidence": true,
+  "freshSerializedDeficitDomainMatch": true,
+  "priorTreeHeaderDiscrepancy": {
+    "m_Script": {
+      "prior": {
+        "m_FileID": 16777216,
+        "m_PathID": 41607495680
+      },
+      "actual": {
+        "m_FileID": 1,
+        "m_PathID": 2480
+      }
+    }
+  },
+  "priorTreeGameplayFieldsMatch": true,
+  "deficitEnumDomain": [
+    "Enerjeka",
+    "Cigarette",
+    "Coffee",
+    "CatFood",
+    "Kombucha",
+    "Povistka"
+  ],
+  "orderedAndStaticDerivationCommands": [
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-012.authored.json",
+        "Translations/el/dialogue-batch-012.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-017.authored.json",
+        "Translations/el/dialogue-batch-017.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-021.authored.json",
+        "Translations/el/dialogue-batch-021.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-024.authored.json",
+        "Translations/el/dialogue-batch-024.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-136.authored.json",
+        "Translations/el/dialogue-batch-136.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-141.authored.json",
+        "Translations/el/dialogue-batch-141.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-167.authored.json",
+        "Translations/el/dialogue-batch-167.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-232.authored.json",
+        "Translations/el/dialogue-batch-232.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-329.authored.json",
+        "Translations/el/dialogue-batch-329.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_ordered.py",
+        "Translations/el/dialogue-ordered-390.authored.json",
+        "Translations/el/dialogue-batch-390.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed this command before its later callback-scope assertion; all input hashes unchanged"
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "Translations/el/expand_static.py",
+        "Translations/el/static-lexicon-001.authored.json",
+        "Translations/el/static-text-draft.json",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "basis": "v3 completed before later callback-scope assertion; input hashes unchanged"
+    }
+  ],
+  "repeatedBatchRowsVerified": 2831,
+  "attemptNote": "v1 base-only MonoBehaviour decode failed; v2 correctly generated tree exposed prior m_Script pointer mismatch; strict inspection proves all gameplay fields including six item keys unchanged. v3 binds fresh inspection; v3 then completed all eleven derivation commands before an overly broad legacy/demo callback search failed. v4 limits callback reconciliation to current accepted IDs, retaining unchanged completed derivation evidence.",
+  "normalClosureVerify": {
+    "exitCode": 0,
+    "closure": 1757,
+    "delta": 234,
+    "retired": 160
+  },
+  "normalRegressionVerify": {
+    "exitCode": 0,
+    "reportSha256": "eac2171eed5f17f929ffa834c4e27bd6b57602e730c06d0648d0afe13dcff80d"
+  },
+  "gameRuntime": "not-run"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-06880-07568.jsonl",
+  "reviewEvidenceSha256": "1d19ac48af94d540c770721bc0084aecddfced9b61c76c19094012c4f451011e",
+  "findings": [
+    {
+      "ordinal": 7211,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455496081412",
+      "key": "line:FatalDame_Asking_3_0268c33",
+      "targetFile": "Translations/el/dialogue-batch-165.json",
+      "targetFileSha256": "663412ec6595f510019e6ad4662b74f2b24be74e37683e2bfc9934b28eeb653a",
+      "sourceSha256": "0f03abd00f6da20e4e495b959d8a948dbe9185063709447a434cc6098ae933ce",
+      "currentTargetSha256": "6878c6dec840917d27322225bd4773b62d8c3c68d8aa043e7bed70bf56241473",
+      "objectiveReason": "Russian presents fear of dying or bearing responsibility as alternatives; current Greek joins them with 'and', changing the logical relation.",
+      "sceneContext": "FatalDame discusses the protagonist's fear of death and responsibility for another person; nearby lines 7195 and 7238-7240 keep these concerns distinct.",
+      "proposedTarget": "FatalDame: Οι φόβοι σου για τον θάνατο ή για την ευθύνη απέναντι σε κάποιον άλλον μόνο μεγαλώνουν.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

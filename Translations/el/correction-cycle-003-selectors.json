@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "cycle": 3,
+  "locale": "el",
+  "sourceOrder": "accepted string-table rows, then accepted static TMP rows",
+  "contextNeighborRadius": 2,
+  "contextNodePrefixes": [
+    "Miner_Entrance_2",
+    "phone_femarecruiter",
+    "phone_alkonostshusband"
+  ],
+  "glossaryReferentSelectors": [
+    {
+      "name": "fortune-teller-and-phone-label",
+      "sourceRegex": "гадалк|экстрасенс|таро",
+      "targetRegex": "μάντισσ|κάρτες ταρώ"
+    },
+    {
+      "name": "fema-worker-kinship",
+      "sourceRegex": "КЧС[-‐‑–— ]?ник|жена КЧС|супруг.*КЧС",
+      "targetRegex": "(?:γυναίκα|σύζυγο).*ΕΕΑ|υπαλλήλ.*ΕΕΑ"
+    },
+    {
+      "name": "human-status",
+      "sourceRegex": "нелюд|не человек|не люди",
+      "targetRegex": "υπάνθρωπ|δεν είναι άνθρωπ"
+    },
+    {
+      "name": "mushroom-apple-poem",
+      "sourceRegex": "гриб|яблон",
+      "targetRegex": "μανιτάρι|μηλιά"
+    },
+    {
+      "name": "rodents-and-cat-mouse",
+      "sourceRegex": "крыс|мыш|кошки.мышлен|кошки.мышки",
+      "targetRegex": "αρουραί|ποντίκ|γάτα.*ποντίκ"
+    },
+    {
+      "name": "body-hair",
+      "sourceRegex": "волос|подмыш",
+      "targetRegex": "τρίχ|μαλλιά|μασχάλ"
+    },
+    {
+      "name": "lonely-people",
+      "sourceRegex": "одинок",
+      "targetRegex": "μοναχικ|ζούσαν μόνοι"
+    },
+    {
+      "name": "tablecloth",
+      "sourceRegex": "скатерт|простын",
+      "targetRegex": "τραπεζομάντιλ|σεντόν"
+    },
+    {
+      "name": "testicles-referent",
+      "sourceRegex": "яйц|мошон",
+      "targetRegex": "αρχίδι|δικά μου|δικές μου"
+    },
+    {
+      "name": "tentative-return",
+      "sourceRegex": "не вернул|так и не вернул",
+      "targetRegex": "ακόμη δεν έχουν γυρίσει|δεν γύρισαν ποτέ"
+    },
+    {
+      "name": "belaying-and-rescue",
+      "sourceRegex": "подстрах|вытащ",
+      "targetRegex": "ασφαλίσ|τραβήξ"
+    },
+    {
+      "name": "reconciliation-day",
+      "sourceRegex": "примирен",
+      "targetRegex": "συμφιλίωσ"
+    },
+    {
+      "name": "kiloton-information-callbacks",
+      "sourceRegex": "килотонн",
+      "targetRegex": "κιλοτόν"
+    }
+  ],
+  "runtimeBinding": {
+    "uiKeys": [
+      "Common_LanguageName",
+      "message_got_item",
+      "message_given_item"
+    ],
+    "uiKeyRegex": "^(?:FridgeItem_.*_Name|consumable_.*_name)$",
+    "staticStableIds": [
+      "tmp:level1:4292:m_text"
+    ]
+  },
+  "mandatoryRegression": {
+    "allAcceptedUI": true,
+    "allAcceptedStatic": true,
+    "protectedFormatSlots": true,
+    "protectedTmpTags": true,
+    "protectedExactTexts": true,
+    "protectedNumbers": true,
+    "kinshipSourceRegex": "(?:мать|матери|маму|маме|жена|жены|жену|муж|мужа|отец|отца|дочь|дочери|сына|сын)",
+    "foreignerDialogueSourceIndexRanges": [
+      [
+        6456,
+        6459
+      ],
+      [
+        7608,
+        7676
+      ],
+      [
+        12900,
+        12964
+      ]
+    ]
+  },
+  "nontranslatableContext": [
+    "Original en/de serialized UI tables establish language autonyms; they are not Greek accepted IDs.",
+    "Pinned Assembly-CSharp.dll ItemHintView IL establishes dynamic count and name insertion; compiled instructions are not translation IDs."
+  ],
+  "selectorRepairEvidence": [
+    "The serialized x1 item-hint sample is tmp:level1:4292:m_text; an initial guessed static ID did not match the accepted source and was corrected before closure publication.",
+    "Compiled ItemHintView concatenates consumable_<item>_name, so the runtime selector includes those seven accepted keys as well as three FridgeItem_*_Name labels; the initial FridgeItem-only selector missed the actual dynamic name binding.",
+    "The first-cycle referent catalog omitted two canonical kiloton information callbacks; select all three compiled source lines through the source-root pattern and exact pinned callback IDs.",
+    "The first-cycle catalog omitted 20 canonical unknown-gender phone/radio/TV role anchors; retain their exact stable IDs in the locale-specific referent selector.",
+    "Review02 enumerated 21 actual compiled LocalizeItem display consumers. The first two cycles selected dynamic labels but did not form a complete consumer dependency class; cycle 3 selects this compiled topology as a class and verifies all six serialized deficit labels across every template.",
+    "Fresh native OtherGameData metadata differs from an old cached m_Script header only. Gameplay fields and six deficit item keys match; the discrepancy is technical evidence, not a source-text restart condition."
+  ],
+  "canonicalUnknownRoleStableIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028993",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457752616963",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422660",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085957",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811271",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085955",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673921",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673922",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673923",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457886834689",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261890",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261891",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673927",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868229",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868236",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062529",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261893",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261898",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457870057479",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457601622026",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399246",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782795",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456095866884",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427712"
+  ],
+  "kilotonCallbackStableIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456196",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456406245382",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455902928903"
+  ],
+  "reviewInvalidationPolicy": {
+    "previouslyReviewedContext": "Invalidate prior closure IDs selected by current changed-scene context.",
+    "previouslyReviewedRepetition": "Invalidate prior closure IDs selected by current changed-line repetition.",
+    "previouslyReviewedRuntimeBinding": "Invalidate prior closure IDs whose dynamic assembled context must be reconsidered.",
+    "otherwise": "Reuse previous independently reviewed target hash when source, glossary and wording are unchanged."
+  },
+  "actualLocalizeItemConsumerSelector": {
+    "method": "all actual compiled LocalizeItem display lines in pinned bounded-consumer-topology.json, resolved through accepted source key to stable ID; select the complete set, never append exceptional IDs",
+    "evidencePath": "Translations/el/independent-review-02/bounded-consumer-topology.json",
+    "evidenceSha256": "940a8d2a1185d2af43d46a7de0b8be4f6a0e5e7f9105e69faea8490c36b0c984",
+    "expectedActualConsumerCount": 21,
+    "deficitDomainPath": "Translations/el/independent-review-02/fresh-domain-inspection.json",
+    "deficitDomainSha256": "303bbbca223cd18ca712eb42ebcf5a85071591fe68c73053f93a78dea908e8f0",
+    "expectedDeficitItemEnumNames": [
+      "Enerjeka",
+      "Cigarette",
+      "Coffee",
+      "CatFood",
+      "Kombucha",
+      "Povistka"
+    ],
+    "acceptedLabelEvidencePath": "Translations/el/independent-review-02/proposal-and-consumer-checks.json",
+    "acceptedLabelEvidenceSha256": "951b4a1d34dcfef34dc25a519089c0b1c035784a88932d155309827800999429",
+    "expectedAcceptedLabelCount": 7,
+    "expectedAssembledVariants": 126
+  },
+  "consumerRegressionControls": {
+    "positiveCaseKinds": [
+      "Coffee nominative after έχω/Πάρε",
+      "Cigarette plural after singular Σου κάνει"
+    ],
+    "positiveFindingIds": [
+      "EL-IR02-001",
+      "EL-IR02-002",
+      "EL-IR02-003",
+      "EL-IR02-004",
+      "EL-IR02-005",
+      "EL-IR02-006"
+    ],
+    "unaffectedCitationControl": "Every remaining actual LocalizeItem display consumer with each serialized deficit label; keep target unchanged and verify assembled citation syntax.",
+    "itemHintControl": "Seven accepted consumable labels and fourteen item-hint examples remain separately bound."
+  }
+}

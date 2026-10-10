@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-03700-04120.jsonl",
+  "reviewEvidenceSha256": "cb5901ce2a740fa25aa90723f50a74c28b032879d6a3d35fd81c4f942ecd734f",
+  "findings": [
+    {
+      "ordinal": 3818,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456670486531",
+      "key": "line:Entrance_Prophet_9_6_0b20ac5",
+      "targetFile": "Translations/el/dialogue-batch-062.json",
+      "targetFileSha256": "e4ad39dd34130aa705731b03848b47fd34d416c51a2aaa8c4d172d37280fb970",
+      "sourceSha256": "c7a0f0980b8c0784099777deee4d3723bf4a29e9878e2cb7fca0e4791625d1e1",
+      "currentTargetSha256": "bcdeffc0ee8c691f27f6d7ba0343e890f113263119a3b9cc843b89826122e0bd",
+      "objectiveReason": "Russian «Когда найдёшь там, под землёй» leaves the object unspecified. Current Greek «αυτό που ψάχνεις» asserts the player is already looking for it, adding knowledge and intent not present at this point.",
+      "sceneContext": "Prophet’s later cellar lines say something unknown must be dug up; he cannot see what it is, and the player asks what use it would have.",
+      "proposedTarget": "Prophet: Όταν βρεις κάτι εκεί, κάτω απ' τη γη — μην πηδήξεις. Τώρα δεν θα σε βοηθήσει.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

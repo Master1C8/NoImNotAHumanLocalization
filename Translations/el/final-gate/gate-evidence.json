@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "gameVersion": "1.3.19",
+  "status": "proposed root acceptance input; no self-acceptance",
+  "firstSemanticProgressSha256": "3a816a9691c71b5ba4ed0dd63046ea99113f7e5871709ff99786a5f8bed7b630",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "approvedGlossarySha256": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "preserveManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "review03ManifestSha256": "b79ebcb47a2a12e6664ae4a6b38690df6cd0ab07fa5c0174c63a7a8ba0501b17",
+  "review03InputPinCount": 1365,
+  "review03AdministrativePreimages": 4,
+  "firstSemanticRows": 16538,
+  "correctionCycleClosureCounts": [
+    1816,
+    1757,
+    1704
+  ],
+  "review03": {
+    "freshAccepted": 138,
+    "reusedCurrentClosure": 1566,
+    "mandatoryFresh": 39,
+    "mandatoryReused": 1230,
+    "mandatoryUnique": 1269,
+    "retired": 71
+  },
+  "consumerCounts": {
+    "actualConsumers": 21,
+    "correctedAssemblies": 36,
+    "citationControls": 90,
+    "itemHintControls": 14
+  },
+  "derived": {
+    "staticRows": 178,
+    "repeatedRows": 2831,
+    "changedOrderedMaps": 4
+  },
+  "currentCorpusReceipt": {
+    "path": "Translations/el/independent-review-03/corpus.validation.json",
+    "sha256": "dccbfc9c10db3d7d185c2b8a8ae0d35eaec5ebabbae16153a5df719e160454dd"
+  },
+  "currentPreserveExactReceipt": {
+    "path": "Translations/el/final-gate/preserve-exact.validate.json",
+    "sha256": "777580e09851a6059e5f9754f208474c9891b7e6ca14a288fd6f2709083bfee1"
+  },
+  "administrativeRefresh": {
+    "path": "Translations/el/final-gate/administrative-refresh.json",
+    "sha256": "66ef9a327f340b04123bc8602453413c9a5b92a5c71f7f1332428eafdf091b86"
+  },
+  "remainingLimits": [
+    "Text-only editorial verdict on pinned source, glossary, authored values and cycle003 closure; root must make the acceptance decision.",
+    "Twenty-nine historical dialogue keys lack compiled occurrence evidence; no gameplay reachability claim.",
+    "Old cached OtherGameData m_Script header differs from native decode; gameplay fields and six deficit keys match.",
+    "Greek font rendering, layout, build/package, installation, game runtime, visual QA and release are not run.",
+    "Four sealed review03 administrative sidecars were archived byte-for-byte before refreshing current structural receipts; no authored text changed."
+  ],
+  "sidecarPolicy": "Four old review03 sidecar pins resolve to exact archived preimages. Four current sidecars bind the same authored batches to the already passed fresh corpus guard."
+}

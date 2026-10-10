@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-02980-03700.jsonl",
+  "reviewEvidenceSha256": "2b2e79e08ec82f2c233fc565211c96b74ba7888b7a9ae0c042bf636430657b20",
+  "findings": [
+    {
+      "ordinal": 3354,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456834064385",
+      "key": "line:TaxiDriver_Entrance_4_01729af",
+      "targetFile": "Translations/el/dialogue-batch-049.json",
+      "targetFileSha256": "0b8ba59942b38132b486ffcc2892bf009937a2c769c62b526fffc3ed0e39de5e",
+      "sourceSha256": "54fce0f872e8996ab85ba47ffc434f3834acca1179bdecb517401c1d00d0fb22",
+      "currentTargetSha256": "760d393d7da00a3f15ddbfa5ef713b2ed82ccb364f190471d9d77dd94da41050",
+      "objectiveReason": "Russian «с тем, что в машине» deliberately uses a neuter what for the passenger just identified as a Visitor. Greek «μ’ αυτόν που» changes the referent to a person and removes that dehumanizing distinction.",
+      "sceneContext": "Taxi driver recounts taking an apparent passenger to the FEMA zone and says the agents tried to seize both him and the Visitor.",
+      "proposedTarget": "TaxiDriver: Ήθελαν να με μαζέψουν μαζί μ' αυτό που ήταν στο αμάξι.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 3434,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456804704261",
+      "key": "line:Foreigner_Entrance_4_0b422de",
+      "targetFile": "Translations/el/dialogue-batch-051.json",
+      "targetFileSha256": "991ceb8eda615186ba529e95fa99f96954a0b52601daf5e30adc430a67086ecd",
+      "sourceSha256": "e30a8e4de59fc3ae2ee9218c82a26c2b6868ddf8993a6177b192cdb0c883053b",
+      "currentTargetSha256": "a39ba090f61e34567ad6691121853ec4cc9e4998bdf006695a157ad0ac9674d6",
+      "objectiveReason": "Russian «смотрит в глазок» describes the person outside looking at the door peephole. Greek «κοιτάζει μέσα από το ματάκι» says he is looking through it, moving his viewpoint to the player’s side of the door.",
+      "sceneContext": "Foreigner stands outside the closed door while the player observes him through the peephole.",
+      "proposedTarget": "Foreigner: (Ο συνομιλητής σας στέκεται σιωπηλός και κοιτάζει το ματάκι της πόρτας).",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

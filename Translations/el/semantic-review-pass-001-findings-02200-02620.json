@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-02200-02620.jsonl",
+  "reviewEvidenceSha256": "13cbec27c4aed2e728877328e052b7a2e2c9d6403cec4899d214cea421e363a2",
+  "findings": [
+    {
+      "ordinal": 2533,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471363",
+      "key": "line:Nun_Entrance_Occupied_NoLet_04c50b3",
+      "targetFile": "Translations/el/dialogue-batch-032.json",
+      "targetFileSha256": "4ace5e3d9407f827355104e6938b221779df55c0e02de64a28eda2902d8cd853",
+      "sourceSha256": "42ccd84bcdb9bece7f49be91d78a77d53d34133150a6ca1d1139064747b980fa",
+      "currentTargetSha256": "a30accb2a59398ea478a5610fb0c5bfd19fdb37a7c0addc753a4e8f202b64e60",
+      "objectiveReason": "In the refusal branch, Russian «Вам воздастся!» warns that the player will face what they deserve. Current Greek «ανταμοιβή» denotes a positive reward and reverses the ominous meaning.",
+      "sceneContext": "Nun is denied shelter; the next line says her death will be on the player’s conscience.",
+      "proposedTarget": "Nun: Θα λάβετε ό,τι σας αξίζει!",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

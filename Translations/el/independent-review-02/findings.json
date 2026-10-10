@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "cycle": 2,
+  "reviewer": "/root/el_independent_review_02",
+  "verdict": "objective-corrections-required",
+  "freshReadUnits": 234,
+  "boundedAdditionalReadUnits": 18,
+  "totalFreshReadUnits": 252,
+  "findingsCount": 6,
+  "sharedDefects": 1,
+  "findings": [
+    {
+      "findingId": "EL-IR02-001",
+      "sharedMechanismId": "fixed-dictionary-label-direct-object-case",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "before": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "proposedTarget": "Jacket: Ορίστε τι έχω: {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "sourceSha256": "7437e13e9d82d0b896f96cd62660d7eb68057c89dad2bc00a42d9cf91f9932b5",
+      "beforeSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "proposedTargetSha256": "aa648bde9b9ee804492768a60622b38e847dcfa46a60733b0bb38f6fac4e8d8b",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "authoredInput": "Translations/el/dialogue-ordered-024.authored.json",
+      "glossaryIds": [
+        "coffee",
+        "jacket-man"
+      ],
+      "reason": "The fixed dictionary label Καφές is nominative. The actual compiled LocalizeItem consumer inserts it after έχω, producing Ορίστε, έχω Καφές. Greek έχω takes an accusative object (καφέ); removing the prior plural predicates did not repair this case mismatch. The proposed colon introduces the unchanged label as an item citation and preserves possession, small quantity and hope of usefulness.",
+      "actualFailingItem": "Coffee",
+      "actualFailingAssembled": "Jacket: Ορίστε, έχω Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_Occupied_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value against source preserve-exact rule; Jacket prefix and {0} retained",
+      "proposalScope": "complete unit; unchanged second sentence retained exactly; no authored edits"
+    },
+    {
+      "findingId": "EL-IR02-002",
+      "sharedMechanismId": "fixed-dictionary-label-direct-object-case",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "before": "Jacket: Ορίστε, έχω {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "proposedTarget": "Jacket: Ορίστε τι έχω: {0}. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "sourceSha256": "75b21083a8d659f721be9027f841b7a8f61044d9919194c902073a4cf6baf391",
+      "beforeSha256": "0888be897237870080349f749eee3149420c028621d564a65f986efb759634fb",
+      "proposedTargetSha256": "aa648bde9b9ee804492768a60622b38e847dcfa46a60733b0bb38f6fac4e8d8b",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "authoredInput": "Translations/el/dialogue-ordered-024.authored.json",
+      "glossaryIds": [
+        "coffee",
+        "jacket-man"
+      ],
+      "reason": "The fixed dictionary label Καφές is nominative. The actual compiled LocalizeItem consumer inserts it after έχω, producing Ορίστε, έχω Καφές. Greek έχω takes an accusative object (καφέ); removing the prior plural predicates did not repair this case mismatch. The proposed colon introduces the unchanged label as an item citation and preserves possession, small quantity and hope of usefulness.",
+      "actualFailingItem": "Coffee",
+      "actualFailingAssembled": "Jacket: Ορίστε, έχω Καφές. Η ποσότητα είναι μικρή, αλλά ελπίζω να σας χρησιμεύσει.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_YesLet",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_YesLet_0e9da2d",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value against source preserve-exact rule; Jacket prefix and {0} retained",
+      "proposalScope": "complete unit; unchanged second sentence retained exactly; no authored edits"
+    },
+    {
+      "findingId": "EL-IR02-006",
+      "sharedMechanismId": "fixed-dictionary-label-case-number-agreement",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "before": "Alt: Εντάξει. Σου κάνει {0};",
+      "proposedTarget": "Alt: Εντάξει. {0}. Σου κάνει αυτό;",
+      "sourceSha256": "081bbe9e0fa6a652e9ef263a809bdae4b3ae0186fac3d02d8a016db0475e9935",
+      "beforeSha256": "536b91d43dd110ebac6f9ae4616eaaa58842c1183bc31d368bf53629aa7f7be5",
+      "proposedTargetSha256": "493b6cf911c48ee6d14384999f7f8c897362fe7a6e8b4b2c2e4777256578c434",
+      "targetFile": "Translations/el/dialogue-batch-019.json",
+      "targetFileSha256": "11ddee9d69e3f63ea28ffbb468266b654f47edadb7acc42f0ca9330cc7706d2a",
+      "reason": "Σου κάνει Τσιγάρα places the plural fixed label as subject of a singular verb. Standalone item citation followed by explicit generic αυτό as the acceptability-question subject preserves the offer without forcing label number.",
+      "compiledOccurrences": [
+        {
+          "node": "Alt_Entrance_Bribe",
+          "pc": 8,
+          "opcode": 2,
+          "args": [
+            "line:Alt_Entrance_Bribe_09f4449",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value; exact service prefix and {0} preserved",
+      "proposalScope": "complete unit; bounded discovery invalidates prior accepted decision for this actual shared consumer"
+    },
+    {
+      "findingId": "EL-IR02-003",
+      "sharedMechanismId": "fixed-dictionary-label-case-number-agreement",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+      "key": "line:Jacket_Entrance_Bribe_045fb4f",
+      "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+      "before": "Jacket: Αν χρειάζεται, έχω {0}. Σας κάνει;",
+      "proposedTarget": "Jacket: Αν χρειάζεται, έχω το εξής: {0}. Σας κάνει;",
+      "sourceSha256": "4f8e7c87af46c1a50f56065ebcf64c72e173d3f66dbb50472ca01509ff2c4bad",
+      "beforeSha256": "88fc796cc50a0446ba2541fa1606809b209c9924e71667bb28fc015a9cf57c3c",
+      "proposedTargetSha256": "908c6ac02280eb7cc61cda155a88d08ed28b88ab903bc23f202150724c0f9ea9",
+      "targetFile": "Translations/el/dialogue-batch-024.json",
+      "targetFileSha256": "b727ac476afc69a1ae083630bd72c69f5c5ced372c4f4531cba2e6781ab2a96a",
+      "reason": "Direct object of έχω is fixed nominative Καφές; explicit το εξής introduces a citation while keeping the conditional offer and question.",
+      "compiledOccurrences": [
+        {
+          "node": "Jacket_Entrance_Bribe",
+          "pc": 7,
+          "opcode": 2,
+          "args": [
+            "line:Jacket_Entrance_Bribe_045fb4f",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value; exact service prefix and {0} preserved",
+      "proposalScope": "complete unit; bounded discovery invalidates prior accepted decision for this actual shared consumer"
+    },
+    {
+      "findingId": "EL-IR02-004",
+      "sharedMechanismId": "fixed-dictionary-label-case-number-agreement",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+      "key": "line:Unstable_Entrance_Bribe_0a6a080",
+      "source": "Unstable: Короче, есть {0}. Будешь?",
+      "before": "Unstable: Λοιπόν, έχω {0}. Θες;",
+      "proposedTarget": "Unstable: Λοιπόν, να τι έχω: {0}. Θες;",
+      "sourceSha256": "1c9163f01a3eaf83242da2ce7414bbd1990b40d6fb49cecaa3446f20057e07ec",
+      "beforeSha256": "5fa74f263fd7068fdc24a8593178728db8c330e116ee5d6e901813acd49ba3da",
+      "proposedTargetSha256": "510c23312df0750a9743a8a31af24ed80bb696352770543074385e8a7e87adb9",
+      "targetFile": "Translations/el/dialogue-batch-026.json",
+      "targetFileSha256": "e1dbc648b32739a6bbb7f57898435f8ed67c88558e624472b20274bbf60b90c4",
+      "reason": "Direct object of έχω is fixed nominative Καφές; citation introduction preserves possession and the terse offer.",
+      "compiledOccurrences": [
+        {
+          "node": "Unstable_Entrance_Bribe",
+          "pc": 12,
+          "opcode": 2,
+          "args": [
+            "line:Unstable_Entrance_Bribe_0a6a080",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value; exact service prefix and {0} preserved",
+      "proposalScope": "complete unit; bounded discovery invalidates prior accepted decision for this actual shared consumer"
+    },
+    {
+      "findingId": "EL-IR02-005",
+      "sharedMechanismId": "fixed-dictionary-label-case-number-agreement",
+      "severity": "objective grammar",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "before": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Πάρε {0}, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+      "proposedTarget": "Wheelchair: Δεν μ' αφήνεις να μπω; Αυτό διορθώνεται! Ορίστε: {0}. Πάρ' το, κράτησέ το και κούνησέ το στην είσοδο και — τσουπ! — γίνεσαι αόρατος.",
+      "sourceSha256": "52f5a783bf7e4e2072e89c40a4c148a997f20c257f92cbc2f3f2db0ef90bca8a",
+      "beforeSha256": "5f2058c14e3740175611c746927a215596f56d178bc49725c1d53ae4225dff53",
+      "proposedTargetSha256": "09370a098e6ccbf307cd298dba829a70e85885e471776f79bfa7c6ce8a041687",
+      "targetFile": "Translations/el/dialogue-batch-029.json",
+      "targetFileSha256": "6f900c4e8a34333d121a689803c641757ba14eb0280e8a593874d63fd3e1cc81",
+      "reason": "Πάρε Καφές places a nominative label as an imperative direct object. Separate item citation followed by generic item pronoun preserves taking, holding, waving at entrance and becoming invisible.",
+      "compiledOccurrences": [
+        {
+          "node": "Wheelchair_Entrance_Bribe",
+          "pc": 7,
+          "opcode": 2,
+          "args": [
+            "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+            1.0
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed with check_value; exact service prefix and {0} preserved",
+      "proposalScope": "complete unit; bounded discovery invalidates prior accepted decision for this actual shared consumer"
+    }
+  ]
+}

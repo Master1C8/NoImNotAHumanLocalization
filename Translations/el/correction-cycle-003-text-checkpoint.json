@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "reportType": "Greek text correction-cycle-3 checkpoint; prior checkpoints and independent reviews remain immutable",
+  "generatedAtUtc": "2026-10-10T07:41:26.427225+00:00",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "locale": "el",
+  "scope": "text only; images and textures excluded",
+  "acceptedUnits": 16538,
+  "authoredVisibleUnits": 16538,
+  "textCoveragePercent": 100.0,
+  "priorCycle2CheckpointSha256": "00b6baa2b6acdb821a23e8ca1c14944f991fddb66beaafc699ac477df819c3e2",
+  "review02EvidenceManifestSha256": "4aa8d718b8836efe53a678129dddaf490cbef985b17358b489b0e89fa9e099a3",
+  "review02FinalInputPins": 1316,
+  "review02FinalInputPinsSha256": "64cce159724898389d542a8560651049edb02444ca64d007faa6ad362d81bacd",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "approvedGreekGlossarySha256": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "firstSemanticPassReviewedUnits": 16538,
+  "review02FreshReadUnits": 252,
+  "review02FreshAcceptedBeforeCorrection": 246,
+  "review02FindingsApplied": 6,
+  "verifiedPriorIndependentAcceptedIds": 1751,
+  "cycle3": {
+    "status": "six corrections applied and deterministic gates passed; 138-ID delta pending distinct reviewer",
+    "changedIds": 6,
+    "currentClosureIds": 1704,
+    "deltaReviewIds": 138,
+    "explicitlyInvalidatedPriorAcceptedIds": 114,
+    "retiredPriorClosureIds": 71,
+    "mandatoryRegressionIds": 1269,
+    "mandatoryDeltaIds": 39,
+    "unexplainedMissingOrExtraIds": 0,
+    "artifacts": {
+      "correction-cycle-003-adjudication.json": {
+        "path": "Translations/el/correction-cycle-003-adjudication.json",
+        "sha256": "6e11a0c3e2ee015414fc18cf516594915fa45a1982945e1df4690e3135b8cf68"
+      },
+      "correction-cycle-003-applied.json": {
+        "path": "Translations/el/correction-cycle-003-applied.json",
+        "sha256": "ef7e537ce76f0011b7902b8de71db113a7ac179186e5b062ca5d5de9be041515"
+      },
+      "correction-cycle-003-selectors.json": {
+        "path": "Translations/el/correction-cycle-003-selectors.json",
+        "sha256": "ea141a4bf0a59925454581387b5e3b16597f34bee2875179968f97f93ebc35cd"
+      },
+      "correction-cycle-003-closure-manifest.json": {
+        "path": "Translations/el/correction-cycle-003-closure-manifest.json",
+        "sha256": "656bdda477f04194de8a7e4e9989215b563c39d39db121ad5b3e062cc78469c5"
+      },
+      "correction-cycle-003-corpus.validation.json": {
+        "path": "Translations/el/correction-cycle-003-corpus.validation.json",
+        "sha256": "dccbfc9c10db3d7d185c2b8a8ae0d35eaec5ebabbae16153a5df719e160454dd"
+      },
+      "correction-cycle-003-derived.validation.json": {
+        "path": "Translations/el/correction-cycle-003-derived.validation.json",
+        "sha256": "7349c6f7a8417a627ed65e58719a57749f44f0eda5dfaadfde8058a8e22d5fe7"
+      },
+      "correction-cycle-003-consumers.validation.json": {
+        "path": "Translations/el/correction-cycle-003-consumers.validation.json",
+        "sha256": "46c7f665bfd6a5637d121cf49f17d316cbdaf5a6dee4444a3142b2479842dbe9"
+      },
+      "correction-cycle-003-reviewer-handoff.md": {
+        "path": "Translations/el/correction-cycle-003-reviewer-handoff.md",
+        "sha256": "664595bcab86932b7fcade841782f65aa5200bf3f6c47c06b87230c7b9cc2df5"
+      },
+      "build_cycle3_closure.py": {
+        "path": "Translations/el/build_cycle3_closure.py",
+        "sha256": "2c825e5a6acef107525758b7943e4df4204203c43736bdebc86fb154e56db496"
+      },
+      "verify_cycle3_consumers.py": {
+        "path": "Translations/el/verify_cycle3_consumers.py",
+        "sha256": "dc31d5c7f5159c9c52e6e847402e3b311d6f533af69331224d6730c5add083a7"
+      }
+    }
+  },
+  "validation": {
+    "fullCorpus": "passed; fresh shared owning receipt, all 16,538 accepted IDs, exact syntax and credits",
+    "historicalSidecars": "preserved; four changed batch sidecars are prior evidence and not current receipts",
+    "orderedMaps": "four changed maps reproduced",
+    "staticDraft": "unchanged and reproduced",
+    "repeatedDialogue": "2,831 rows unchanged and reproduced",
+    "actualConsumerAssemblies": "126 passed: 36 corrected positive cases, 90 unchanged citation controls, 14 item-hint controls separately checked",
+    "runtime": "not-run by owner instruction",
+    "editorial": "pending distinct reviewer; author self-read not independent acceptance"
+  },
+  "unresolved": [
+    "A distinct reviewer must read all 138 cycle-3 delta pairs and applicable mandatory regression surfaces before editorial acceptance.",
+    "Twenty-nine earlier dialogue keys lacked compiled occurrence in bounded evidence; no runtime reachability is inferred.",
+    "Old cached m_Script header differs from fresh native metadata only; all gameplay fields and six deficit item keys match.",
+    "Shared state, Git staging/commit, game testing and publication belong to the root coordinator."
+  ],
+  "nextAction": "Root dispatches a distinct reviewer using Translations/el/correction-cycle-003-reviewer-handoff.md. Reproduce build_cycle3_closure.py verify and verify_cycle3_consumers.py --verify; review exact 138-ID delta with compiled/assembled context and mandatory catalog. Record objective findings or independent acceptance separately; do not claim runtime readiness or integrated delivery."
+}

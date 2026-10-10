@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-00145-00260.jsonl",
+  "reviewEvidenceSha256": "6726a6ee67cfa3b79ce8ddde492c5f697dfd8f2ccc970bf8d0d36f03b5c6f0f5",
+  "findings": [
+    {
+      "ordinal": 192,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499685037658112",
+      "key": "calendar_day_10",
+      "targetFile": "Translations/el/ui-batch-006.json",
+      "targetFileSha256": "5d5ef79682fd51dd6d68e96862c784cfd868e461998a10bd669935344bc849fa",
+      "sourceSha256": "0dee6831268a11a9690991b28727206aac92330ae1c0f75b51bb611fc87f7c76",
+      "currentTargetSha256": "3aa2541ff4747661b1ad34565e26ba6635026ec5d50e8d2c52829fb6f9b9d33d",
+      "objectiveReason": "The named calendar day is plural in Russian («примирений»); the current Greek singular drops that number distinction.",
+      "sceneContext": "Calendar day label in a sequence of themed days.",
+      "proposedTarget": "Ημέρα των συμφιλιώσεων",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 202,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119628010817052672",
+      "key": "phone_sub_Extrasens",
+      "targetFile": "Translations/el/ui-batch-006.json",
+      "targetFileSha256": "5d5ef79682fd51dd6d68e96862c784cfd868e461998a10bd669935344bc849fa",
+      "sourceSha256": "8b2ed6fa86450bb3caa70f35fc79e85b1fa77cbaa11e877e06dd777041cffbf4",
+      "currentTargetSha256": "0cf30127e770c6a1f122183987b886b5472facc757b0f26a229c63c968aca8fd",
+      "objectiveReason": "The Russian phone entry is «От гадалки» and the approved glossary explicitly identifies this number as «Από τη μάντισσα», a voice distinct from the card-carrying FortuneTeller. The current descriptor imports the character label and obscures that separation.",
+      "sceneContext": "Phone-number menu label; caller identity and speaker identity are distinct in the glossary.",
+      "proposedTarget": "Από τη μάντισσα",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 208,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630847580037120",
+      "key": "phone_sub_FEMARecruiter",
+      "targetFile": "Translations/el/ui-batch-006.json",
+      "targetFileSha256": "5d5ef79682fd51dd6d68e96862c784cfd868e461998a10bd669935344bc849fa",
+      "sourceSha256": "bfd3adc5705c57e01796bd219916341e20ecd393d01a0d9e062d9c5df122a305",
+      "currentTargetSha256": "1d829f60d66965d0d193073bf2fb0f46888310c53c6968735b87b9a3599e56f8",
+      "objectiveReason": "The current Greek «γυναίκα του άντρα της ΕΕΑ» is unidiomatic and obscures the occupational relation. Russian identifies the wife of a FEMA worker, which the approved glossary confirms.",
+      "sceneContext": "Phone-number menu label for the wife of a FEMA employee; do not identify the answering recruitment voice as her husband.",
+      "proposedTarget": "Από τη σύζυγο του υπαλλήλου της ΕΕΑ",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 215,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165490289352704",
+      "key": "gacha_baby_description",
+      "targetFile": "Translations/el/ui-batch-007.json",
+      "targetFileSha256": "797f9996852b1724c33a621c9ce048e0fb7670ff000469ec09a02fdba207d24d",
+      "sourceSha256": "c7c366c45b56bf07609d4d8eb3f8c547eafc69fe6b1a3b7bfb8a1104979136e6",
+      "currentTargetSha256": "7164c5e3ebacb2bdde26e41aa9fb4ad096f1a622e7f6a409c1e39d0cd54c09a6",
+      "objectiveReason": "The Russian ending description locates the shot in «молоке тумана» (milk of fog); the current Greek reduces this to fog and omits a deliberate image.",
+      "sceneContext": "Poetic gacha ending description; preserve the shot, wings, crowd, ash smell and final line break.",
+      "proposedTarget": "Ο πυροβολισμός αντήχησε μέσα στο γάλα της ομίχλης, κι από πάνω απ' το πλήθος υψώθηκαν φτερά που μύριζαν στάχτη.\n",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}

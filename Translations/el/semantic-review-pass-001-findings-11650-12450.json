@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "locale": "el",
+  "auditPass": 1,
+  "status": "collecting objective findings; correction batch not applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "8bae2efffa702fcac1be38f7149d1e74393aa84a858d8f7d2ee4c052ee11d4e5",
+  "reviewEvidence": "Translations/el/semantic-review-pass-001-11650-12450.jsonl",
+  "reviewEvidenceSha256": "55ea41be319282981b758526cb8f5f9dd1ad9d508304157084ab804cf82fd1ef",
+  "findings": [
+    {
+      "ordinal": 11780,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453856108547",
+      "key": "line:Rocker_Death_04fc244",
+      "targetFile": "Translations/el/dialogue-batch-300.json",
+      "targetFileSha256": "873890ff91596029832b35571aed6acc7e49631635b298c0e26b1ff2dbfe8a76",
+      "sourceSha256": "2f1adfda4f6e9de3b4d74ce10e14112de016cff05b013528df269f4b3a8cc389",
+      "currentTargetSha256": "ebd0a92ced31c8a5032434da478b443bc6043b9c25ef8e7a75ae7104b2c05ade",
+      "objectiveReason": "Russian is an emphatic command to play rock; Greek changes it to rock and curse everything.",
+      "sceneContext": "Rocker is dying and frames this as his final performance; preserve the musician exhortation.",
+      "proposedTarget": "Rocker: ΠΑΙΞΕ ΡΟΚ, ΓΑΜΩΤΟ!",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 11979,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453784805377",
+      "key": "line:Jacob_Armpit_DontShoot_0741545",
+      "targetFile": "Translations/el/dialogue-batch-305.json",
+      "targetFileSha256": "63957006b0881ba7c8eef213f1a0979401405b45aaec7029883815c540c2a5e4",
+      "sourceSha256": "71051e99fcdfdec167f1112cf6388557dd83f4ae9af5c2c9559b7f81ae09f377",
+      "currentTargetSha256": "d7e277c6676a90acde7263a72b9477b3f0eea3cf28fd318f8f868e3085291afe",
+      "objectiveReason": "The preceding line names the Visitors testicles; Russian offers his own to the EEA workers, but Greek uses a feminine plural pronoun pointing to armpits.",
+      "sceneContext": "Jacob sarcastically alleges that the EEA lick Visitors testicles to discover signs, then tells them to come taste his.",
+      "proposedTarget": "Jacob: Ας έρθουν. Θα τους δώσω να δοκιμάσουν και τα δικά μου.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    },
+    {
+      "ordinal": 12316,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453445066756",
+      "key": "line:FatalDame_Hands_Gun_074ff24",
+      "targetFile": "Translations/el/dialogue-batch-313.json",
+      "targetFileSha256": "fa35948f2210c73947a6c4e9bdaa6db6a52f1d85f459c58ff947cf31e0ecf523",
+      "sourceSha256": "a77d90cc357f463c96c859991c6e20d8d2f0cb63b2637b26c27bbfeda3957b38",
+      "currentTargetSha256": "0e9a29f7612c584dd85624fd6a4585d8e8f2567ca4c3ab46682dd155e5d9ba1d",
+      "objectiveReason": "Russian identifies malice or spite as the motive; Greek identifies anger, changing her conclusion.",
+      "sceneContext": "FatalDame has just asked whose figure the protagonist sees in her and whom he wants to avenge; she concludes with malice.",
+      "proposedTarget": "FatalDame: Μάλλον κακία είναι τελικά.",
+      "preflight": "preserve-exact check passed in memory; not applied"
+    }
+  ]
+}
