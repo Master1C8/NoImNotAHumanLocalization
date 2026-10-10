@@ -1,0 +1,2 @@
+#pragma once
+#define NH_INVENTORY_SHA "6f43e479accdcbaaea8ea89efb4665aabe50c9f87f83182456ff34ce5e6add16"

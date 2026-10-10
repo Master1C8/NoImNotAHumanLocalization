@@ -1,0 +1,25 @@
+{
+  "zig": {
+    "version": "0.15.2",
+    "archive": "zig-aarch64-macos-0.15.2.tar.xz",
+    "sha256": "3cc2bab367e185cdfb27501c4b30b1b0653c28d9f73df8dc91488e66ece5fa6b",
+    "source": "https://ziglang.org/download/0.15.2/zig-aarch64-macos-0.15.2.tar.xz"
+  },
+  "baseRevision": "d4154ff15c7c27c801d197750db36c39bc460aa8",
+  "bepinexArchiveSha256": "f4cc496bd098a0df4164b81e3737297707f13a47c2478dba2f60eefab784817a",
+  "interopHashSourceSha256": "731166441a468326dd8d4fe055d193e8251b177fcab2c7f77698b4a256b1df9d",
+  "zstandard": {
+    "version": "1.5.7",
+    "archiveSha256": "eb33e51f49a15e023950cd7825ca74a4a2b43db8354825ac24fc1b7ee09e6fa3",
+    "source": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
+    "decoderSha256": "5eb38abe0a7eea13674b312a006df72002d4192f0f0b4d09e6f03fb927a1f3d0",
+    "amalgamationWorkingDirectory": "zstd-1.5.7/build/single_file_libs",
+    "amalgamationCommand": "python3 combine.py -r ../../lib -x legacy/zstd_legacy.h -o zstddeclib.c zstddeclib-in.c"
+  },
+  "dotnetRuntimeNotices": {
+    "version": "6.0.7",
+    "source": "https://github.com/dotnet/runtime/tree/v6.0.7",
+    "licenseSha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+    "thirdPartyNoticesSha256": "55ff71c32f96483c2f4e061eb78ee9bf3d8d562d00143c67b361bb4ce989fe44"
+  }
+}
