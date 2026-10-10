@@ -13,6 +13,7 @@ from pathlib import Path
 import UnityPy
 
 from addressables_catalog import Catalog, CatalogExtension, update_bundle
+from unity_bundle_writer import safe_bundle_bytes
 from probe_assets import ROOT, DEFAULT_GAME, EXPECTED_UNITY, EXPECTED_BUILD_GUID, SAMPLES, UI_ID, digest, require
 from unity_types import CheckedTypeTreeGenerator, generated_tree, serialized_bytes, current_tree
 
@@ -72,7 +73,7 @@ def save_verified(env, path, expected_changes, generated=None):
     allowed = expected_changes['allowed']
     require(all(expected_raw[k] == v for k, v in before.items() if k not in allowed), 'Unapproved original object changed')
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes(env.file.save(packer='lz4') if env.file.__class__.__name__ == 'BundleFile' else env.file.save())
+    path.write_bytes(safe_bundle_bytes(env.file) if env.file.__class__.__name__ == 'BundleFile' else env.file.save())
     reopened = UnityPy.load(str(path))
     actual = {o.path_id: o.get_raw_data() for o in reopened.objects}
     require(actual == expected_raw, 'Saved object bytes differ from expected mutation')
