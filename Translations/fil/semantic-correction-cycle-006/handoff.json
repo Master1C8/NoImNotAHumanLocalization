@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 6,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "consolidated cycle006 author correction sealed for bounded distinct review; no independent or final acceptance",
+  "acceptedUnits": 16538,
+  "draftUnits": 16538,
+  "draftPercent": 100.0,
+  "editoriallyAcceptedUnits": 0,
+  "runtime": "not-run",
+  "candidateAuthorReads": 125,
+  "candidateOrAuthorIndependentReadCredit": 0,
+  "acceptedCorrections": 56,
+  "retainedCandidates": 69,
+  "affectedAuthoredInputs": 41,
+  "affectedOwningRows": 1220,
+  "experiencedCandidates": 6,
+  "experiencedCorrections": 6,
+  "priorClosure": 7678,
+  "currentClosure": 7848,
+  "corrected": 56,
+  "newCurrentMinusPrevious": 195,
+  "correctedAlreadyInPriorClosure": 24,
+  "correctedAlsoNew": 32,
+  "currentMinusExactApplicablePrior": 219,
+  "explicitlyInvalidated": 204,
+  "exactNextDelta": 423,
+  "reusableUnchangedIndependentPairs": 7425,
+  "physicallyApplicablePriorCleanPairs": 7654,
+  "mandatoryCurrent": 7349,
+  "mandatoryFresh": 273,
+  "mandatoryReusable": 7076,
+  "newlyRetired": 25,
+  "prior53RetireesReentered": 1,
+  "prior53RetireesStillRetired": 52,
+  "currentStillRetiredTotal": 77,
+  "Review05Fresh140Accounting": {
+    "correctedTargetInvalidates": 1,
+    "unchangedExplicitlyInvalidated": 5,
+    "reusableInCurrentClosure": 109,
+    "newlyRetiredExactClean": 25,
+    "physicallyExactClean": 139
+  },
+  "Review05Finding6555CleanReuse": false,
+  "acceptedReview05Correction9614Unchanged": true,
+  "priorRetirementReceiptAccounting": "54 historical rows:53 were still retired and all individually reconciled;1 already reentered/accepted inReview05 is in prior full-pair catalog, not counted as a still-retired row",
+  "actualBoundedConsumerSites": 122,
+  "unboundCandidates": 3,
+  "actualBoundedContextIds": 420,
+  "pinnedControlTopologyNodes": 110,
+  "pinnedControlTopologyInstructions": 2002,
+  "dynamicConsumersUnchanged": 6,
+  "selectorActualRegressions": 63,
+  "selectorSyntheticControls": 48,
+  "deltaFormula": "corrected union(currentClosure minus exactApplicablePriorIndependentFullPairAndConsumerIDs) union explicitInvalidations; overlapping components counted once",
+  "unexplainedMissingIds": 0,
+  "unexplainedExtraIds": 0,
+  "firstNextReviewOrdinal": 121,
+  "firstNextReviewId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+  "nextAction": "Root assigns a distinct reviewer to all 423 canonical next-delta-paired.jsonl full pairs and current-bounded-consumers.json. Verify cycle seal and current source/glossary/target/site identity; reproduce application and ordinary closure; assess all 56 full corrections plus bounded context and repetitions. Account mandatory 7,349 as 273 fresh + 7,076 exact reuse; reconcile 77 currently retired and one reentry. Do not reread 7,425 unchanged full pairs absent protocol invalidation. Author reads confer no independent credit. Root owns acceptance/build/integration.",
+  "verifyCommands": [
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-006/verify_seal.py",
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-006/verify_application.py --verify",
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-006/build_closure.py --verify"
+  ],
+  "limits": [
+    "Author125 candidate readings and deterministic gates are not independent acceptance.",
+    "110-node/2002-instruction control topology is decoded evidence; semantic context reads are the bounded candidate windows, not a new full semantic pass.",
+    "Three accepted candidates have no actual compiled RunLine/AddOption; do not invent consumers.",
+    "No game launch, build, runtime/font/layout/visual acceptance, shared edits, Git or agents."
+  ],
+  "unresolvedSourceContextQuestions": [],
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "firstPassProgressSha256": "f23b782e39dda73cfcb04bc32a7b04d96400148379c6060f77935211a2e49faa",
+  "review05CompletionManifestSha256": "670f0c2d0932d0aba8d09abc33a642bcc52016da430f454a5c8e2f7217d4cc3b",
+  "review05VerdictSha256": "4146376b871a2bd51fcde27577c5763dc12d6f22e405ba3eb95a71bfec5c75f4",
+  "artifactPins": {
+    "plan.json": "df2b9ec49f6fb7061650c207636516b699177bd1fbec49eb569a0a39c6933d93",
+    "after.json": "72c751fc35d330aca7261e67e592e7754582b365353519ea45e545167bd2d0cc",
+    "correction-decisions.jsonl": "768769947a08d8ff2c43898f6b80b09a0fe7274cb5bf10baeda14e67ad1f1595",
+    "preimage-pins.json": "dd3738c169985ed1cf21ab5543213bc1351ab396feee71e7022f88ab7d43450b",
+    "bounded-author-inputs.json": "0a04f5d54b8f006ddf44d82c036e884d9b71cd6d1a0adf39da75a16e2077b0cf",
+    "actual-consumer-topology.json": "418f788e8738e310ee1ba80cc857f5f9213c7586bd57dbea82637634caa55484",
+    "selector-specification.json": "cf8ff5a5176d4e2bf91c447db110daba3e660bf68c8569d91150b7c6ee09f5c3",
+    "source_predicates.py": "cd2d06e6752e4b4e28a4e7d328c9d899ee12b34ac45081f22ad1b94b9a8da550",
+    "full-structural-validation.json": "792ce0f788d0fce888f375a6c36369ad516aebcf3f364090bb85f6c839b564ad",
+    "full-corpus-validation.json": "33fb5b6fdbe0abfd7404a050358723b3b96f0608867d9f92843a4b47a981ba17",
+    "affected-validation.json": "ce1e0f553abcfd47c803441a1a22983308dec009deed713a4475b272de69c5a3",
+    "closure.json": "24a1e0f8629f55b31d601c1b722c127d2eb34247f7d10c0ab1e9b9e85500124c",
+    "closure-paired.jsonl": "620f64dcb6cd13ccbed19c41f7ce0f05a63578f99fe7f636fc30503361a8e5fd",
+    "next-delta-paired.jsonl": "717310d1e947e6cebe439a91e82277d29240fb74bb01fd6914eea26adc08cfc8",
+    "next-review-ids.txt": "3b9d85a3808adc937e6671e3cb972e784482bd0c6ed2d3605e1069d2a0ae05fa",
+    "prior-independent-applicability.jsonl": "2313de5a25ebf5400d78de500fad326151279a1b523f13b52a77a39001e5c601",
+    "mandatory-regression-catalog.jsonl": "69b8599eeacdd96a19eb782cbb0240fbbdad4693ada6e7273566765452d14ddf",
+    "retired-applicability.jsonl": "3c36c99520e6755eda09a0d1e1056fc11f3fff8cd83425c707be0cd2ae1f2140",
+    "current-bounded-consumers.json": "57dee366f4b9ed85eb68824b9251b16c2a7ee483235e4227add0b669991d937e",
+    "verify_application.py": "b8065a4db737fdd2bb0fc72b243b1b6055e1300ecfdd1f76809ffcbb7912bf62",
+    "build_closure.py": "8df5075a5d747a8506f4cd4efa247f6f1f44d136dd9cbc3fdaa7dbfc77505e97",
+    "execution-accounting.json": "e306e2a73fa923cdb6a41e69a319edbcf92b49b81b8a097f2e500dd2523f662d",
+    "verify_seal.py": "d54f74a04d0690941fec6a0b36e55b97a8591b93642039d72ed09dc60efbb21e"
+  },
+  "telemetry": "assignment token usage unknown; actual per-request counters unavailable; no new agents"
+}

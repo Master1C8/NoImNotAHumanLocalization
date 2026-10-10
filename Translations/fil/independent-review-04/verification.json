@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_04",
+  "cutoffUtc": "2026-10-10T08:05:17.935759+00:00",
+  "status": "one bounded objective correction required",
+  "sourceAndAuthoredPinsUnchanged": true,
+  "closureUnits": 7612,
+  "freshPairs": 26,
+  "acceptedFresh": 25,
+  "objectiveFindings": 1,
+  "acceptedCycle004Corrections": 1,
+  "priorExactDecisionsReused": 7586,
+  "retiredNew": 5,
+  "retiredPrior": 49,
+  "mandatoryRegression": {
+    "total": 7240,
+    "fresh": 18,
+    "reused": 7222,
+    "clean": 7239,
+    "findings": 1,
+    "status": "one full-unit correction required at9614"
+  },
+  "freshWholeCorpusGuard": {
+    "path": "Translations/fil/independent-review-04/full-corpus-validation.json",
+    "sha256": "ab7555bd650e38941d7e8581e54b242914863aa40d3db327f9f1314c4d626ebe",
+    "rows": 16538,
+    "structural": "passed",
+    "exact": "passed",
+    "boundary": "all original batch/static structural guards plus selected-ID scope and protected nesting; one source parse per corpus"
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "inputVerificationSha256": "b20dd7d6cec5925bd4361641613e3533e156550c6d47332ab86fb2d07229660e",
+  "fullRestartPredicateObserved": false,
+  "limits": [
+    "No game launch, runtime scheduling/rendering, layout, glyph/font, image/texture, screenshot, installer, packaging, platform or publication check",
+    "Only new independent-review-04 artifacts authored; no shared/locale/source/glossary/Git/index changes",
+    "Parent owns adjudication, correction, final editorial acceptance and canonical integration"
+  ],
+  "modelTelemetry": {
+    "systemIdentity": "GPT-6",
+    "exactDeployedModel": null,
+    "reasoningLevel": null,
+    "inputTokens": null,
+    "cachedInputTokens": null,
+    "outputTokens": null,
+    "reasoningTokens": null,
+    "totalTokens": null,
+    "reason": "No reviewer usage counter exposed; parent collects actual per-agent telemetry",
+    "measurementCutoff": "2026-10-10T08:05:17.935759+00:00",
+    "reportingTail": "unknown; report cannot measure itself",
+    "coordinatorAttribution": "parent-owned; unknown to reviewer"
+  }
+}

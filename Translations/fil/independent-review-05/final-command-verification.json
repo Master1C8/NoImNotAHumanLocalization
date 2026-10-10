@@ -1,0 +1,40 @@
+{
+  "commands": [
+    {
+      "command": ".venv/bin/python -B Translations/fil/semantic-correction-cycle-005/build_gate.py --verify",
+      "exitCode": 0,
+      "boundary": "authored and derived recipe inputs, full structural receipt and exact one-target diff"
+    },
+    {
+      "command": ".venv/bin/python -B Translations/fil/semantic-correction-cycle-005/build_closure.py --verify",
+      "exitCode": 0,
+      "boundary": "normal closure, exact delta, selectors and historical decisions; immutable byte equality"
+    },
+    {
+      "command": ".venv/bin/python -B Translations/fil/semantic-correction-cycle-005/verify_cycle.py --verify",
+      "exitCode": 0,
+      "boundary": "compiled minimum scenes, historical/reusable/retired decision identity and source/glossary pins"
+    },
+    {
+      "command": ".venv/bin/python -B Translations/fil/independent-review-05/verify_inputs.py",
+      "exitCode": 0,
+      "boundary": "distinct1157 current pins, independent selector union, actual bytecode and consumer identity; no semantic generation"
+    },
+    {
+      "command": ".venv/bin/python -B Scripts/validate_locale_corpus.py fil --output Translations/fil/independent-review-05/full-corpus-validation.json",
+      "exitCode": 0,
+      "boundary": "fresh full16538-unit owning structural/preserve-exact input mechanism; replaces old sidecar reliance"
+    },
+    {
+      "command": ".venv/bin/python -B Translations/fil/independent-review-05/write_decisions.py",
+      "exitCode": 0,
+      "boundary": "stores manually authored141 decisions and exact7537 reused decisions; proposal v4 protected check"
+    }
+  ],
+  "finalPinRecheckCount": 1157,
+  "finalPinRecheck": "passed",
+  "freshCorpusReceiptExactToCycle005": true,
+  "cutoffUtc": "2026-10-10T08:36:49.066016+00:00",
+  "mockedDependencies": "none for source/target/bytecode/static validator checks; runtime execution/rendering not exercised",
+  "runtime": "not-run"
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 7,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "one consolidated two-unit objective author correction; sealed bounded distinct review pending",
+  "acceptedUnits": 16538,
+  "draftUnits": 16538,
+  "draftPercent": 100.0,
+  "editoriallyAcceptedUnits": 0,
+  "authorIndependentCredit": 0,
+  "correctedOrdinals": [
+    2834,
+    16128
+  ],
+  "corrected": 2,
+  "affectedAuthoredInputs": 2,
+  "affectedOwningRows": 44,
+  "priorClosure": 7848,
+  "currentClosure": 7869,
+  "newCurrentMinusPrevious": 21,
+  "physicallyApplicablePriorActiveCleanFullPairs": 7846,
+  "currentMinusExactApplicablePrior": 23,
+  "explicitDependentInvalidations": 11,
+  "exactNextDelta": 34,
+  "reusableUnchangedIndependentPairs": 7835,
+  "mandatoryCurrent": 7355,
+  "mandatoryFresh": 16,
+  "mandatoryReusable": 7339,
+  "priorRetiredReentered": 0,
+  "priorRetiredStillRetired": 77,
+  "newlyRetired": 0,
+  "historicalRetirementReceiptRows": 78,
+  "retirementAccounting": "All 77 previously retired source/target/key/node and actual-consumer identities match final inputs and remain outside every current selector. The other historical receipt row already reentered and was accepted in Review06; it remains in active prior applicability. No fresh retired read credit.",
+  "Review06Fresh421Accounting": {
+    "physicallyApplicable": 421,
+    "targetChanged": 0,
+    "explicitlyInvalidated": 3,
+    "reusable": 418,
+    "invalidatedStableIds": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613767",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613766",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613764"
+    ]
+  },
+  "Review06FindingCleanReuse": {
+    "2834": false,
+    "16128": false
+  },
+  "all56Cycle006CorrectionsExactAcceptedPinsPreserved": true,
+  "newConceptAuthorReads": 10,
+  "newContextAuthorReadIds": 34,
+  "newContextControlNodes": 9,
+  "newContextControlInstructions": 94,
+  "retainedCoarseConsumerWindowsExact": 120,
+  "sixDynamicConsumerProofsUnchanged": true,
+  "ordinarySourceRegressionExamples": 73,
+  "syntheticSelectorControls": 60,
+  "fullStructuralExactIds": 16538,
+  "authoredInputs": 456,
+  "priorTargetOnlyEvents": 143,
+  "currentTargetOnlyEvents": 145,
+  "firstPassExactFilesReconstructed": 456,
+  "deltaFormula": "corrected union(currentClosure minus exactApplicablePriorIndependentFullPairAndConsumerIDs) union explicitInvalidations; overlapping components counted once",
+  "priorApplicabilityScope": "Sealed Review06 active full-pair/actual-consumer closure decisions. Separate77 retired evidence remains exact and outside current closure; no retired reentry alters the formula. Review06 finding decisions never carry clean credit.",
+  "explicitInvalidationScope": "Only the corrected unit repetitions and actual exclusive-underground-group/household-totality concepts and minimum actual text windows. Prior repaired coarse predicates and proofs retained; no coarse125 or unchanged complete corpus semantic reread.",
+  "unexplainedMissingIds": 0,
+  "unexplainedExtraIds": 0,
+  "firstNextReviewOrdinal": 2797,
+  "firstNextReviewId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457031196677",
+  "nextReviewIdsPath": "Translations/fil/semantic-correction-cycle-007/next-review-ids.txt",
+  "nextReviewPairsPath": "Translations/fil/semantic-correction-cycle-007/next-delta-paired.jsonl",
+  "nextAction": "Root assigns a distinct reviewer to all 34 canonical next-delta-paired.jsonl full pairs and only the freshAffectedWindows in current-bounded-consumers.json, with the nine pinned actual source node topologies in bounded-author-inputs.json. Independently judge both full corrections and the participant-set/household-totality dependencies; reconcile mandatory 7,355 as 16 fresh + 7,339 exact reuse and all 77 unchanged retirees. Verify all current pins and reproduce ordinary closure. Preserve the accepted coarse register and dismissed preference concerns. Reuse only 7,835 exact unchanged independent decisions; author reads confer zero independent credit. Root owns root acceptance, packaging, Git and integration.",
+  "verifyCommands": [
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-007/verify_seal.py",
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-007/verify_application.py --verify",
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-007/build_closure.py --verify",
+    ".venv/bin/python Translations/fil/semantic-correction-cycle-007/verify_author_chain.py"
+  ],
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "firstPassProgressSha256": "f23b782e39dda73cfcb04bc32a7b04d96400148379c6060f77935211a2e49faa",
+  "review06CompletionManifestSha256": "3d1206f42a8d956aa3b39642740e090d480e54128e6e7759fe6748e3cdbc8bfa",
+  "review06VerdictSha256": "acebaa1ae29b3137e468cb73cecd4bee53de26715047dac66922d2de88a7d7c9",
+  "review06ConsumerProofSha256": "e88365742214440418c0fb646cb20ade8e9f64ba3c134bf4b74150e46a7e24b7",
+  "priorCycle006CompletionManifestSha256": "e904a586a40f3972be27d2dbbe1c1f1cf97b3b33adb56d8ae1fffae20e3fdad7",
+  "artifactPins": {
+    "plan.json": "15a7d0704aae1e6a5c554f77400fe6b43abd9b90c8db3743ac8a9f0fed421830",
+    "after.json": "08b934e5d1a92d2d1c069cb551458ab41fb76aa93b813d134ac86a71aefcf0bf",
+    "correction-decisions.json": "429921246d9e6f089cb0fa1c752f41c23c84444b1c8536335046d7e4ef8ad2ef",
+    "preimage-pins.json": "8838d4c8f2efdc662700df7d400aee1f86858b661165417b516f23698d76823e",
+    "bounded-author-inputs.json": "105f215ff4f696b6a3c443aa63bf7fa41e7a0a9ad475d98ffc7581ed3671e714",
+    "selector-specification.json": "951f55abbad5c7d11beb3110af8e84c2982a1f07be2be14e53759b4dfd4ea532",
+    "source_predicates.py": "cd2d06e6752e4b4e28a4e7d328c9d899ee12b34ac45081f22ad1b94b9a8da550",
+    "json_target_spans.py": "2d182c57ce67131312315be7494f8b2270addc48ac571c6b1a999a1861f4a4ab",
+    "full-structural-validation.json": "0ba20d99e0ce109c8e982f38976962311093aa8c53425abc02ac0d88ff1e5899",
+    "full-corpus-validation.json": "6e7e354a7fedfecac7abab4613aba49e3f93886fccbdac3b8ad841d9a6f8cad8",
+    "affected-validation.json": "85290282e21df80aae68f47db30fbfafc64649f928cf80db9bfc6d62c0798567",
+    "closure.json": "de46cf6d83b99466d5b8a8fbd73985fb2b4d6e7125a7725bf756f1b9314f838a",
+    "closure-paired.jsonl": "78a41675108625a1580ca2429fbb18582e32b7f9b083f32efa3f736bd241659e",
+    "next-delta-paired.jsonl": "c5c59ca6b0ebf590b5a66b99ce220cc7fa7940edb58c9515897e136731cd424b",
+    "next-review-ids.txt": "669032629315b458c8b0760d8ad37d16c8fafa4345c86ee60c803a6e5e472b13",
+    "prior-independent-applicability.jsonl": "35109d7a557c249651d55eda5b2558aba9b9ac41c0ab0ecbb5054a9b8a997e60",
+    "mandatory-regression-catalog.jsonl": "9e7d5c0ee6bd61e9881ce799e676698f2744fc30a4d56dd679a9dfcb7b97582c",
+    "retired-applicability.jsonl": "d92d978c67ace3faba968524430c186758d16fdcf9e01fc9fb89a935c179706e",
+    "current-bounded-consumers.json": "3dc1f0d3bb642896c5058d8bb03c50504f3ae49de25e5e0b63606ef09c4e03fe",
+    "prior-author-chain.json": "9276d7c918688ad76213ebdf1fa95c4fb19965ad2d8d1e6b4270378c06a25c87",
+    "author-chain.json": "f4d77a70e07796bc4aa6951d1c1e8f33b985a7783b4a257ebdc4c06e76c3c054",
+    "verify_application.py": "7a518f2896bf4b5a2789a321490c2a1516871865ffc4ce5cb24b4da540d98cea",
+    "build_closure.py": "7216b2e3e3e011b3245c87b409499cd0b694cd16fed557db68b9925eadf5b383",
+    "verify_author_chain.py": "64b1401c4b76b653c42ce63c1a0a64f1633359343df3d1fbda50aa2c748d1abe",
+    "verify_seal.py": "d0b99641608c7fb8af907596ff77a6804ac6e5e8887b571634883caad0fa6b79",
+    "execution-accounting.json": "406a3d00ee17bcb97e28d5704fe2524b4be75a7fb6bfd2caeb0e576484042d85"
+  },
+  "unresolvedSourceContextQuestions": [],
+  "dismissedConcernRule": "Ear-piercing need/want and preference alternatives remain dismissed and unchanged. No generic swear quota or speaker-wide rewrite.",
+  "limits": {
+    "independentReview": "pending distinct reviewer; author corrections/gates are not independent or editorial acceptance",
+    "runtime": "not-run",
+    "renderingFontsLayout": "not-run",
+    "installation": "not-run",
+    "buildPackaging": "not-run; root owns delivery",
+    "originalGameAndSaves": "unchanged",
+    "texturesImages": "excluded",
+    "publication": "not-run"
+  },
+  "telemetry": "unknown: actual assignment per-request counters and reasoning setting not exposed; no new agents",
+  "stopRule": "Consolidated author batch and exact bounded delta sealed. Stop; root owns review dispatch and acceptance/integration."
+}

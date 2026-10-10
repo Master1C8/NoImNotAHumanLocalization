@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "author correction cycle 002 complete; distinct delta review pending",
+  "priorIndependentReviewer": "/root/fil_independent_review_01",
+  "priorIndependentReviewStatus": "7,956 full pairs read; 19 final objective findings and 5 withdrawn provisional candidates; no clean acceptance",
+  "nextIndependentReviewer": null,
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "previousIndependentClosurePath": "Translations/fil/semantic-correction-cycle-001.closure.json",
+  "previousIndependentClosureSha256": "44c790cb558e4c7991cad9ae7984dc4979f7454f1ebdd1d083a590d7e5e5445b",
+  "priorReviewVerificationPath": "Translations/fil/independent-review-01/verification.json",
+  "priorReviewVerificationSha256": "89746bd0155cec783b5bfcfd1088a7be90e3b1f575c3487ad0b1ce05b1a09575",
+  "correction": {
+    "planPath": "Translations/fil/semantic-correction-cycle-002/plan.json",
+    "planSha256": "a1e838072b64e031bfcc06ec450c279d2fc5bf7b57354a09996a997c899f6726",
+    "beforeManifestPath": "Translations/fil/semantic-correction-cycle-002/before-authored-files-manifest.json",
+    "beforeManifestSha256": "301e9c28a98bf355e53f67f2d8796e6388b9d9ffd67c8ff3aacf17ee7063ef74",
+    "afterPath": "Translations/fil/semantic-correction-cycle-002/after.json",
+    "afterSha256": "ab730b17954f838071c8a61086bc4d44e692798b96446d0c3ba55b40828b5999",
+    "acceptedFullUnitCorrections": 19,
+    "changedAuthoredFiles": 16,
+    "withdrawnProvisionalCandidates": 5,
+    "unexpectedAuthoredFieldChanges": 0
+  },
+  "deterministicGate": {
+    "path": "Translations/fil/semantic-correction-cycle-002/full-structural-validation.json",
+    "sha256": "023e3da849a55c8c7d8dba4bc464a8457e972457ba86edec672cabe35bd989f5",
+    "projectCommand": ".venv/bin/python Scripts/report_locale_readiness.py --exact --compact",
+    "acceptedIds": 16538,
+    "checkedIds": 16538,
+    "missingIds": 0,
+    "extraIds": 0,
+    "duplicateIds": 0,
+    "affectedBatchValidatorsPassed": 16,
+    "allBatchSidecarsCurrent": true,
+    "optionExpandedExactSourceRows": 2675,
+    "staticPhrases": 177,
+    "creditsRegeneratedExact": true,
+    "dynamicConsumersUnchanged": 6
+  },
+  "selectorAndClosure": {
+    "specificationPath": "Translations/fil/semantic-correction-cycle-002/selector-specification.json",
+    "specificationSha256": "d815b12cdb90507dcf55157fe133a35aeb19d72ee8cee7aea8980cdf90a524da",
+    "builderPath": "Translations/fil/semantic-correction-cycle-002/build_closure.py",
+    "builderSha256": "a2d0073f7183cc8947069e1391b5e39d10a5bbf423bd518fb15c4407118ee3df",
+    "verifyCommand": ".venv/bin/python Translations/fil/semantic-correction-cycle-002/build_closure.py --verify",
+    "closurePath": "Translations/fil/semantic-correction-cycle-002/closure.json",
+    "closureSha256": "2a5271a7f2dd13615c652ffa7f6f6efdc7acb58fba12c00070aa9a282d444d37",
+    "pairedPath": "Translations/fil/semantic-correction-cycle-002/closure-paired.jsonl",
+    "pairedSha256": "1895c496c3ec46dc7dbadea6e38a4b0c084894b9ec40dafab0417608c8ea9cb0",
+    "previousCount": 7956,
+    "currentCount": 7645,
+    "newCount": 207,
+    "retiredCount": 518,
+    "correctedCount": 19,
+    "explicitlyInvalidatedCount": 60,
+    "exactNextDeltaCount": 286,
+    "supplementalReviewerReadsReused": 20,
+    "pendingDistinctReviewerCount": 266,
+    "pendingPairedPath": "Translations/fil/semantic-correction-cycle-002/pending-delta-paired.jsonl",
+    "pendingPairedSha256": "b08dcaef9a818fa3273f6e678ebc5810133a434c166042be2d73c7e707df9aec",
+    "unexplainedMissingIds": 0,
+    "unexplainedExtraIds": 0,
+    "componentCounts": {
+      "changed": 19,
+      "explicitContext": 107,
+      "exactSourceRepetition": 20,
+      "glossaryReferent": 1225,
+      "localizedWording": 308,
+      "runtimeBinding": 113,
+      "mandatoryRegression": 7233
+    }
+  },
+  "nextReviewerInstructions": [
+    "Verify the cycle 002 closure builder and all source, glossary, prior-review, plan, authored, and derived hashes before reading.",
+    "Use compiled-context-corrected.json for opcode and branch labels; read compiled-context-erratum.json before interpreting the earlier scene snapshot.",
+    "Review every row of pending-delta-paired.jsonl in canonical accepted order against the Russian source, current Filipino target, approved glossary and pinned compiled scene context.",
+    "Credit the 20 supplemental rows only while their exact source and current target hashes in plan.json remain unchanged; these rows are in the exact 286-ID delta but already had independent reviewer reads.",
+    "Record any objective findings as complete replacement units and identify reviewer, read coverage and exact unchanged input hashes. Do not call this author correction a clean independent review."
+  ],
+  "limits": [
+    "No game launch, runtime, font, layout, screenshot, package or release test.",
+    "The accepted uncompiled camera/gun repeat at ordinal 15480 is inventory evidence; the compiled live counterpart at 13483 is pinned separately.",
+    "The six dynamic consumer lines and admissible catalog inputs were unchanged by the 19 corrections; live scheduling remains unproven.",
+    "Textures and images excluded; Git index and shared state untouched."
+  ],
+  "editoriallyAcceptedUnits": 0,
+  "runtime": "not-run",
+  "compiledContextCorrection": {
+    "originalSnapshotPath": "Translations/fil/semantic-correction-cycle-002/compiled-context.json",
+    "originalSnapshotSha256": "792099bf041567579f9d09a4bd1813d34c0c551df6ddecf6e80825660a378bf7",
+    "correctedSnapshotPath": "Translations/fil/semantic-correction-cycle-002/compiled-context-corrected.json",
+    "correctedSnapshotSha256": "40bb052d81e09b655418e5a957797c29481a314d0ffe0d79632336459450a609",
+    "erratumPath": "Translations/fil/semantic-correction-cycle-002/compiled-context-erratum.json",
+    "erratumSha256": "270639421aaf468e64c3d2bb3cf83f6a33563301ce2f92cb3850e65f9425e2b5",
+    "verifiedUnchanged": "all node names, instruction order, operands, source lines and stable IDs; only opcode metadata corrected"
+  }
+}

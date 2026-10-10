@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "status": "two objective bounded full-unit corrections required; all266 fresh pairs read",
+  "reviewer": "/root/fil_independent_review_02",
+  "locale": "fil",
+  "sourceLocale": "ru",
+  "gameVersion": "1.3.19",
+  "findings": [
+    {
+      "acceptedOrdinal": 943,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673920",
+      "collection": "Dialogs",
+      "key": "line:window_12_1_05c8b18",
+      "nodeNames": [
+        "window_12_1"
+      ],
+      "source": "Window: Что бы ни случилось, это наверняка произойдёт теперь с вами.",
+      "sourceSha256": "6dbf894ce41b64c2093df123831489430d3776da2302b91138f07fed9602cd44",
+      "target": "Window: Anuman ang nangyari, tiyak na mangyayari rin iyon sa iyo ngayon.",
+      "targetSha256": "9a9d0f829ffc9a7585fde155f65527fab3c15c96f37999896ffb53b655eb76d6",
+      "components": [
+        "mandatoryRegression"
+      ],
+      "deltaReason": [
+        "newClosure"
+      ],
+      "findingId": "fil-independent-02-001",
+      "replacement": "Window: Anuman ang mangyari, tiyak na sa iyo na iyon mangyayari ngayon.",
+      "reason": "The conditional/subjunctive Что бы ни случилось describes any future calamity now falling on the player. Nangyari is completed aspect (whatever already happened), and rin makes the prediction a repetition of that past event. In window_12_1, the surrounding source says all nearby houses are destroyed and no one else remains to absorb the next attack. Preserve the open future contingency with mangyari.",
+      "boundary": "window_12_1 instruction3, after instructions0–2 establish the only surviving house and no other recipient of an attack.",
+      "proposedFullTarget": "Window: Anuman ang mangyari, tiyak na sa iyo na iyon mangyayari ngayon.",
+      "proposedTargetSha256": "26b854ebb7242a0b4b814caa811a819ba214b64df10f07f424cb94e5977ca6de",
+      "proposalProtectedSyntax": "passed check_value on pinned v4 rule; no authored application",
+      "contextPath": "Translations/fil/independent-review-02/additional-compiled-context.json"
+    },
+    {
+      "acceptedOrdinal": 10326,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454372007947",
+      "collection": "Dialogs",
+      "key": "line:Esenin_Asking_3_1_02b0ac7",
+      "nodeNames": [
+        "Esenin_Asking_3_1"
+      ],
+      "source": "Esenin: Все говорят, что решают проблемы, а на деле не происходит вообще нихера.",
+      "sourceSha256": "a463e2f560725fc4ff2f425befcf4677b1a37eab5a4822ca43192b2bd61b3c34",
+      "target": "Esenin: Lahat nagsasabing nilulutas nila ang mga problema, pero sa totoo, wala namang nangyayaring kahit anong putangina.",
+      "targetSha256": "34696c01702d70fc2b0c2075aab69c967ac5f8542541aac2df3960bde94d1de7",
+      "components": [
+        "localizedWording"
+      ],
+      "deltaReason": [
+        "newClosure"
+      ],
+      "findingId": "fil-independent-02-002",
+      "replacement": "Esenin: Lahat nagsasabing nilulutas nila ang mga problema, pero sa totoo, wala namang nangyayari, putangina.",
+      "reason": "The source вообще нихера is a vulgar negative quantifier: absolutely nothing happens. The target attaches putangina to kahit anong as the noun for a thing/event, producing wala namang nangyayaring kahit anong putangina instead of an intelligible negative statement plus profanity. Separate the curse from the quantified event while retaining everyone saying they solve problems and the actual absence of progress.",
+      "boundary": "Esenin_Asking_3_1 instruction5, between the profane complaint at4 and predicted general catastrophe at7–9.",
+      "proposedFullTarget": "Esenin: Lahat nagsasabing nilulutas nila ang mga problema, pero sa totoo, wala namang nangyayari, putangina.",
+      "proposedTargetSha256": "36bef431378c1b077916192495c39129cf5d60f7d9d9a11fd9c1a299182f2baa",
+      "proposalProtectedSyntax": "passed check_value on pinned v4 rule; no authored application",
+      "contextPath": "Translations/fil/independent-review-02/additional-compiled-context.json"
+    }
+  ],
+  "acceptedCycle002Corrections": 19,
+  "withdrawnPriorCandidatesStillWithdrawn": [
+    197,
+    249,
+    4044,
+    7222,
+    7989
+  ]
+}

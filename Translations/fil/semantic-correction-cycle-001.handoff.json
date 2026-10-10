@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "ready for identifiable distinct reviewer; review not started",
+  "acceptedUnits": 16538,
+  "firstPassReviewedUnits": 16538,
+  "firstPassProgressPath": "Translations/fil/semantic-review-progress.json",
+  "firstPassProgressSha256": "f23b782e39dda73cfcb04bc32a7b04d96400148379c6060f77935211a2e49faa",
+  "firstPassFindingsPath": "Translations/fil/semantic-review-findings-in-progress.json",
+  "firstPassFindingsSha256": "5182cb35a65a8ade96909d740e73c9927dd64db9030390a8f43c74900b67805e",
+  "correctionBatch": {
+    "acceptedFindings": 64,
+    "rejectedFindings": 0,
+    "changedAuthoredFiles": 45,
+    "beforePath": "Translations/fil/semantic-correction-cycle-001.before.json",
+    "beforeSha256": "3dcf8b5dc591ec83333704f75adaaf5b171759dabbab931fc3c525f87773a257",
+    "afterPath": "Translations/fil/semantic-correction-cycle-001.after.json",
+    "afterSha256": "fc3716db6246b4e9fef61a4e3af2dceec6de34966b698fdc45f26a0daa9ebe64"
+  },
+  "fullStructuralGate": {
+    "path": "Translations/fil/semantic-correction-cycle-001.full-structural-validation.json",
+    "sha256": "4f6b71292a38b59d0139d35df0faff5e8c68e9a8be8aa5b50e9f7b89e16160e8",
+    "checkedIds": 16538,
+    "missingIds": 0,
+    "extraIds": 0,
+    "duplicateIds": 0,
+    "all455SidecarsCurrent": true,
+    "preserveExact": "passed for authored values"
+  },
+  "closure": {
+    "builderPath": "Translations/fil/build-semantic-correction-closure-001.py",
+    "builderSha256": "9e6ce20757a3e60c37297bf05534bd645aa59dde656f2b46c9e2e5384acf0c41",
+    "verifyCommand": ".venv/bin/python Translations/fil/build-semantic-correction-closure-001.py --verify",
+    "manifestPath": "Translations/fil/semantic-correction-cycle-001.closure.json",
+    "manifestSha256": "44c790cb558e4c7991cad9ae7984dc4979f7454f1ebdd1d083a590d7e5e5445b",
+    "pairedPath": "Translations/fil/semantic-correction-cycle-001.paired.jsonl",
+    "pairedSha256": "9b924e925873e951fc0e1a75c65d36f8a4c47e2bbd77684fcdbbbd682efab837",
+    "closureCount": 7956,
+    "acceptedOrderSha256": "4190402823aaa3e5c776efef272c9488c2a3db6a7341a1c7ff4dec387bd4055a",
+    "closureIdsSha256": "c4ffdbf77d121ed27a074effc8c30214fb397d542f71edc42dca3369d98fb299",
+    "componentCounts": {
+      "changed": 64,
+      "explicitContext": 197,
+      "exactSourceRepetition": 67,
+      "glossaryReferent": 2588,
+      "runtimeBinding": 456,
+      "mandatoryRegression": 7095
+    },
+    "unexplainedMissingIds": 0,
+    "unexplainedExtraIds": 0,
+    "runtimeNodeCount": 82,
+    "dynamicPlaceholderConsumers": 6
+  },
+  "bindingLimit": {
+    "compiledAbsentAcceptedRepeatOrdinals": [
+      1284,
+      1291,
+      1421
+    ],
+    "explanation": "These three source-table repetitions are accepted visible IDs but have no compiled Yarn key in the pinned program. Their exact-source equivalents are corrected; runtime reachability remains unproven."
+  },
+  "reviewInstructions": [
+    "Record the distinct reviewer identity and review environment before starting.",
+    "Verify the builder output, exact source and glossary fingerprints, first-pass evidence, before/after receipt, and all authored batch hashes.",
+    "Read every paired closure row in accepted-ID order against Russian and Filipino with scene, branch, dynamic-placeholder consumer and character glossary context. Give the 64 changed IDs full source-to-target comparison.",
+    "Record objective findings with exact stable IDs, source, current target, proposed full replacement and context; apply no corrections in this author handoff.",
+    "Record reviewer completion and exact closure coverage separately from the author first pass. Only a distinct reviewer may claim independent diff review."
+  ],
+  "independentReviewer": null,
+  "independentReviewedIds": 0,
+  "editoriallyAcceptedIds": 0,
+  "runtime": "not-run; game launch prohibited"
+}

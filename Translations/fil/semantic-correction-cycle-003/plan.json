@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "complete adjudication and preflight before one bounded application",
+  "finalReviewFindingsPath": "Translations/fil/independent-review-02/findings.json",
+  "finalReviewFindingsSha256": "f85f28cd11544bad6bbaaf198ad24c36e03cd35b7b17697c5874eab9f248e0de",
+  "finalReviewVerificationSha256": "8f052118f34c93fa1463cfdf95c224f2890e271a29062692dac7a07d0695e2a9",
+  "finalReviewReportSha256": "97705c98187a7f6e49ec87b0c8b86e5bacbfdd83db4016a188f0bf310ae1ae3c",
+  "previousClosurePath": "Translations/fil/semantic-correction-cycle-002/closure.json",
+  "previousClosureSha256": "2a5271a7f2dd13615c652ffa7f6f6efdc7acb58fba12c00070aa9a282d444d37",
+  "previousPairedSha256": "1895c496c3ec46dc7dbadea6e38a4b0c084894b9ec40dafab0417608c8ea9cb0",
+  "compiledContextPath": "Translations/fil/independent-review-02/additional-compiled-context.json",
+  "compiledContextSha256": "90eb61161cf4f2ccba84ea1a61469ac73b1a6e2f57356a5d83d9cedf8d4cfe5b",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "verifiedPreCorrectionPins": 1067,
+  "acceptedFindings": 2,
+  "rejectedFinalFindings": 0,
+  "withdrawnPriorCandidates": [
+    197,
+    249,
+    4044,
+    7222,
+    7989
+  ],
+  "beforeAuthoredFiles": [
+    {
+      "authoredPath": "Translations/fil/dialogue-batch-015.json",
+      "snapshotPath": "Translations/fil/semantic-correction-cycle-003/before-authored-files/dialogue-batch-015.json",
+      "sha256": "5011a1bb025d6d718f21b1c74d8a2b8b5ae0dfba1af047757de85e5bef25fb38",
+      "validationPath": "Translations/fil/dialogue-batch-015.validation.json",
+      "validationSha256": "619fe56a91a9215cb86e7576561bf9d966be284a607adc5a7b72cc6b2a937da9"
+    },
+    {
+      "authoredPath": "Translations/fil/dialogue-batch-280.json",
+      "snapshotPath": "Translations/fil/semantic-correction-cycle-003/before-authored-files/dialogue-batch-280.json",
+      "sha256": "9465ee221854bae7a89e3bdaecd2ec0f3a1a6306b1f852936ac3e813f16c8824",
+      "validationPath": "Translations/fil/dialogue-batch-280.validation.json",
+      "validationSha256": "fd537f2d1a60853e0e6bff8b3204da64f8cfeed8d432c23bd64a7650ce84fe9b"
+    }
+  ],
+  "rows": [
+    {
+      "acceptedOrdinal": 943,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673920",
+      "collection": "Dialogs",
+      "key": "line:window_12_1_05c8b18",
+      "source": "Window: Что бы ни случилось, это наверняка произойдёт теперь с вами.",
+      "sourceSha256": "6dbf894ce41b64c2093df123831489430d3776da2302b91138f07fed9602cd44",
+      "currentTarget": "Window: Anuman ang nangyari, tiyak na mangyayari rin iyon sa iyo ngayon.",
+      "currentTargetSha256": "9a9d0f829ffc9a7585fde155f65527fab3c15c96f37999896ffb53b655eb76d6",
+      "acceptedFullTarget": "Window: Anuman ang mangyari, tiyak na sa iyo na iyon mangyayari ngayon.",
+      "acceptedFullTargetSha256": "26b854ebb7242a0b4b814caa811a819ba214b64df10f07f424cb94e5977ca6de",
+      "authoredPath": "Translations/fil/dialogue-batch-015.json",
+      "compiledNode": "window_12_1",
+      "compiledInstruction": 3,
+      "decision": "accepted objective full-unit correction",
+      "semanticPreflight": {
+        "facts": "All nearby houses are destroyed; the player's house alone remains.",
+        "agency": "Any next calamity is predicted to fall on the player, not on another house.",
+        "participants": "Window addresses the player in the second person.",
+        "timing": "Что бы ни случилось is an open future contingency; mangyari preserves it.",
+        "informationReveal": "No specific next event is disclosed or asserted to have happened.",
+        "register": "Neutral descriptive Window voice.",
+        "compiledBoundary": "window_12_1 instruction 3 after three uninterrupted scene facts; Stop at 4."
+      },
+      "protectedSyntax": "passed pinned v4 check_value"
+    },
+    {
+      "acceptedOrdinal": 10326,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454372007947",
+      "collection": "Dialogs",
+      "key": "line:Esenin_Asking_3_1_02b0ac7",
+      "source": "Esenin: Все говорят, что решают проблемы, а на деле не происходит вообще нихера.",
+      "sourceSha256": "a463e2f560725fc4ff2f425befcf4677b1a37eab5a4822ca43192b2bd61b3c34",
+      "currentTarget": "Esenin: Lahat nagsasabing nilulutas nila ang mga problema, pero sa totoo, wala namang nangyayaring kahit anong putangina.",
+      "currentTargetSha256": "34696c01702d70fc2b0c2075aab69c967ac5f8542541aac2df3960bde94d1de7",
+      "acceptedFullTarget": "Esenin: Lahat nagsasabing nilulutas nila ang mga problema, pero sa totoo, wala namang nangyayari, putangina.",
+      "acceptedFullTargetSha256": "36bef431378c1b077916192495c39129cf5d60f7d9d9a11fd9c1a299182f2baa",
+      "authoredPath": "Translations/fil/dialogue-batch-280.json",
+      "compiledNode": "Esenin_Asking_3_1",
+      "compiledInstruction": 5,
+      "decision": "accepted objective full-unit correction",
+      "semanticPreflight": {
+        "facts": "Everyone says they solve problems; in reality absolutely nothing happens.",
+        "agency": "The indefinite people claim problem solving; Esenin denies observable progress.",
+        "participants": "Esenin speaks to the homeowner; no new actor is introduced.",
+        "timing": "Present ongoing claim and present absence of progress.",
+        "informationReveal": "The following lines predict later catastrophe; this line reveals none.",
+        "register": "Vulgar complaint retained with putangina as an expletive, not a thing.",
+        "compiledBoundary": "Esenin_Asking_3_1 instruction 5 after profane line 4, before prediction at 7–9."
+      },
+      "protectedSyntax": "passed pinned v4 check_value"
+    }
+  ],
+  "dependentRecipeDecision": "No corrected Russian source equals a common-option or static source phrase; regenerate and compare the unchanged derived option/static/credits recipes after application.",
+  "fullRestartPredicateObserved": false
+}

@@ -1,0 +1,512 @@
+{
+  "rows": [
+    {
+      "acceptedOrdinal": 2834,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_2_1_0f64797",
+      "nodeNames": [
+        "Miner_Entrance_2_1"
+      ],
+      "source": "Miner: Слушай, время тут вообще как-то странно идёт. Тут ни солнца, ни часов нет. Так что хрен знает, сколько мы тут уже.",
+      "sourceSha256": "d67d50a0f7773bca46d3b4ae5b0b0e331fcadea2b54deed90f4c8978694c4b8f",
+      "target": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na tayo katagal dito.",
+      "targetSha256": "d293356a823e86d8820ed9c171e27c07b88c748da50ad44299de9c932383ae9d",
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_2_1_0f64797",
+        "nodeNames": [
+          "Miner_Entrance_2_1"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_2_1",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_2_1_0f64797",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "36462cc8efbc540c59fcb1cd3b6ef86119c7ad316529639ad7d4b4c5cc98b841",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "findingId": "fil-review06-2834",
+      "glossaryId": "miner",
+      "approvedGlossary": {
+        "term": "Minero",
+        "meaning": "Bisitang nag-aalok sa pangunahing tauhan na bumaba at nangangakong aalalayan siya mula sa itaas. Kumpirmado ang mga panlalaking anyo sa sarili niyang mga linya; huwag gawing garantiya ng ligtas na resulta ang kanyang mga pangako. Sa UI, character_Podvalny. Lalaki ang tauhan; panatilihin ang pagtukoy sa lalaki at ang sandali ng pagbubunyag sa orihinal na eksena."
+      },
+      "decision": "accept objective full replacement",
+      "reason": "The underground duration group excludes the upstairs addressee: following actual RunLine says там, наверху. Change only tayo to kami. Malay natin remains the accepted blunt shared-uncertainty idiom; it does not place the listener underground. All time/sun/clock facts and uncertainty preserved.",
+      "acceptedFullTarget": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na kami katagal dito.",
+      "acceptedFullTargetSha256": "61db8b1dc86b61d22653e20719d49dccfcffd44afc9b61ab00d4dbcab4ddec13",
+      "protectedSyntaxPreflight": "passed v4 exact grammar plus prefix/tokens/digits/whitespace/line breaks",
+      "semanticPreflight": "source facts/participants/agency/instruments/time/modality/reveal and all unchanged sentences checked against actual branch and approved glossary",
+      "assembledPreflight": "Actual pinned RunLine with0 substitutions. Prefix and every unrelated sentence unchanged; no dynamic inputs/joins introduced. Adjacent text from actual bytecode, not flattened JSON.",
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 16128,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501",
+      "collection": "Dialogs",
+      "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+      "nodeNames": [
+        "Mother_Hands_DontShoot"
+      ],
+      "source": "Mother: Руки... Я ими детей обнимала, всё по дому делала и мужа ласкала. И знаешь что? Всё равно никто нихера не ценит.",
+      "sourceSha256": "9fe4e96e7045cdbe94d6f90f91358d14fd8de989cf4f842f3025287623d1490e",
+      "target": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ipinanglinis ng bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "targetSha256": "73f3694fd5393b7a42dd4c275fabe015106b3300d33b01b33475ad7638a20c29",
+      "authoredPath": "Translations/fil/dialogue-batch-441.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+        "nodeNames": [
+          "Mother_Hands_DontShoot"
+        ],
+        "sites": [
+          {
+            "node": "Mother_Hands_DontShoot",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Mother_Hands_DontShoot_0b3d4e5",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "639e35b8c3da5e9521be0875e8666d534180a90e069336ecc0a825f7002acc37",
+      "conceptSelectors": [
+        "household-work-totality"
+      ],
+      "findingId": "fil-review06-16128",
+      "glossaryId": "mother-with-child",
+      "approvedGlossary": {
+        "term": "Babaeng may bata",
+        "meaning": "Inang nawalan ng mga anak at dumarating kasama ang isang bata; ibinibigay ang numero ng asawa. Panatilihin ang sarili niyang mga pag-amin at pagiging hindi mapagkakatiwalaan ng kuwento; ihiwalay ang ina, bata at asawa, at huwag ipaghalo kay Greatmother. Babae ang tauhan; panatilihin ang pagtukoy sa babae at ang sandali ng pagbubunyag sa orihinal na eksena."
+      },
+      "decision": "accept objective full replacement",
+      "reason": "всё по дому делала denotes all household work, not cleaning only. Replace only ipinanglinis ng bahay with ginamit sa lahat ng gawain sa bahay. Hands remain the instruments used by Mother for embracing her children, household tasks and caressing her husband. Every other sentence, complaint and accepted profanity stays exact.",
+      "acceptedFullTarget": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ginamit sa lahat ng gawain sa bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "acceptedFullTargetSha256": "13d8ff344562f6f77ef2a2c283ec0bf8c6682a05c1715617f361373eaa14c2b5",
+      "protectedSyntaxPreflight": "passed v4 exact grammar plus prefix/tokens/digits/whitespace/line breaks",
+      "semanticPreflight": "source facts/participants/agency/instruments/time/modality/reveal and all unchanged sentences checked against actual branch and approved glossary",
+      "assembledPreflight": "Actual pinned RunLine with0 substitutions. Prefix and every unrelated sentence unchanged; no dynamic inputs/joins introduced. Adjacent text from actual bytecode, not flattened JSON.",
+      "independentReadCredit": 0
+    }
+  ],
+  "dependentConceptDecisions": [
+    {
+      "acceptedOrdinal": 2797,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457031196677",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_3_3_0ad1bff",
+      "nodeNames": [
+        "Miner_Entrance_3_3"
+      ],
+      "source": "Miner: Ну? Чего ждёшь? Мы ведь для этого здесь.",
+      "sourceSha256": "c8341c6649c275c8266772850415d2a8a6f2fb3f363a6dd1a7172f8854801441",
+      "target": "Miner: Ano? Ano pang hinihintay mo? Iyan ang dahilan kaya narito tayo.",
+      "targetSha256": "ea2f9ddd06d3b528cdc5b1f4af310d311bf7c0be4992ccfe83ac383c0f661292",
+      "authoredPath": "Translations/fil/dialogue-batch-065.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_3_3_0ad1bff",
+        "nodeNames": [
+          "Miner_Entrance_3_3"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_3_3",
+            "instruction": 5,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_3_3_0ad1bff",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "514eca7210ad5d99c3b183c56cf1856414811b8ec0ce453518686564d24fcd21",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2806,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457027002376",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_3_2_0a11e84",
+      "nodeNames": [
+        "Miner_Entrance_3_2"
+      ],
+      "source": "Miner: Какой другой? Я уже давно понял, что кто-то из нас должен действовать. Тут ведь не вечность – либо сейчас, либо никогда.",
+      "sourceSha256": "6a19d06d48864c6cd28df81d9a75a957a61f9a6c5967c562da8c0d4c769c7ba6",
+      "target": "Miner: Sinong isa pa? Matagal ko nang naunawaang may isa sa atin na kailangang kumilos. Wala tayong habang-panahon—ngayon na o hindi na kailanman.",
+      "targetSha256": "ef2b0da77e1ba51b8fa211a71b40e4178aace91f557f2553c228454e8e0eae58",
+      "authoredPath": "Translations/fil/dialogue-batch-065.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_3_2_0a11e84",
+        "nodeNames": [
+          "Miner_Entrance_3_2"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_3_2",
+            "instruction": 0,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_3_2_0a11e84",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "74a652188e6b563d247cffe8274f6db630ad93cd2e254b0bce5780e805402685",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2823,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457022808068",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_2_3_07c2ffe",
+      "nodeNames": [
+        "Miner_Entrance_2_3"
+      ],
+      "source": "Miner: Ну а так, подходил, смотрел, когда мы все тут были… там темень такая, будто глаза закрываешь, и ничего-ничего.",
+      "sourceSha256": "e4e004f1fcedff4c431eb71c2304738de1d9883898b31e5404a86d3930edbd71",
+      "target": "Miner: Buweno, lumapit ako at sumilip noong narito kaming lahat… sobrang dilim sa loob, parang nakapikit ka at wala kang makita.",
+      "targetSha256": "0bdfd2f58caf0259df21430f5533c602534b214396b760b841743a845fb5e3b2",
+      "authoredPath": "Translations/fil/dialogue-batch-066.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_2_3_07c2ffe",
+        "nodeNames": [
+          "Miner_Entrance_2_3"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_2_3",
+            "instruction": 2,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_2_3_07c2ffe",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "211e93d17f620571857cec39ca4b5c4b1584ee630799b89d91174067fc7ebfe1",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2834,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_2_1_0f64797",
+      "nodeNames": [
+        "Miner_Entrance_2_1"
+      ],
+      "source": "Miner: Слушай, время тут вообще как-то странно идёт. Тут ни солнца, ни часов нет. Так что хрен знает, сколько мы тут уже.",
+      "sourceSha256": "d67d50a0f7773bca46d3b4ae5b0b0e331fcadea2b54deed90f4c8978694c4b8f",
+      "target": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na tayo katagal dito.",
+      "targetSha256": "d293356a823e86d8820ed9c171e27c07b88c748da50ad44299de9c932383ae9d",
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_2_1_0f64797",
+        "nodeNames": [
+          "Miner_Entrance_2_1"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_2_1",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_2_1_0f64797",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "36462cc8efbc540c59fcb1cd3b6ef86119c7ad316529639ad7d4b4c5cc98b841",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "The underground duration group excludes the upstairs addressee: following actual RunLine says там, наверху. Change only tayo to kami. Malay natin remains the accepted blunt shared-uncertainty idiom; it does not place the listener underground. All time/sun/clock facts and uncertainty preserved.",
+      "correction": true,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2840,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457014419467",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_1_6_07af048",
+      "nodeNames": [
+        "Miner_Entrance_1_6"
+      ],
+      "source": "Miner: Мы начинали, тут чуть всё не посыпалось нам на головы.",
+      "sourceSha256": "346fa37cd05d1cbef3614a5f795e8a89759054b588c312363f29b1d1717667c8",
+      "target": "Miner: Noong nagsisimula kami, muntik nang gumuho ang lahat sa ulo namin.",
+      "targetSha256": "6cd6505ccfbc0ac8b244fe8e95118b51e8464acf44f035d86de179326e5c81da",
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_1_6_07af048",
+        "nodeNames": [
+          "Miner_Entrance_1_6"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_1_6",
+            "instruction": 5,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_1_6_07af048",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "86f0e44f386e433fa4b094bfb128cd92560782883feb8013bc79739f890ba2ca",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2846,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457014419461",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_1_5_08598f1",
+      "nodeNames": [
+        "Miner_Entrance_1_5"
+      ],
+      "source": "Miner: Мы начинали, тут чуть всё не посыпалось нам на головы.",
+      "sourceSha256": "346fa37cd05d1cbef3614a5f795e8a89759054b588c312363f29b1d1717667c8",
+      "target": "Miner: Noong nagsisimula kami, muntik nang gumuho ang lahat sa ulo namin.",
+      "targetSha256": "6cd6505ccfbc0ac8b244fe8e95118b51e8464acf44f035d86de179326e5c81da",
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_1_5_08598f1",
+        "nodeNames": [
+          "Miner_Entrance_1_5"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_1_5",
+            "instruction": 5,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_1_5_08598f1",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "41763c8b24f0ae02357aaf3e1347f602f3266c161c2f65caaba1eb419f28d4e5",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2862,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457010225153",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_1_3_074d72e",
+      "nodeNames": [
+        "Miner_Entrance_1_3"
+      ],
+      "source": "Miner: Но это не важно, потому что вот тут мы и нашли кое-что.",
+      "sourceSha256": "9b87d7adbcb17f5d593592ebac5d896614321b5a981922e566da9af466e15601",
+      "target": "Miner: Pero hindi iyon mahalaga, dahil may nakita kami rito.",
+      "targetSha256": "f94b47835eda4dfd9bb7fd030dee95878a91134290a50f78014fdf58f54e0813",
+      "authoredPath": "Translations/fil/dialogue-batch-068.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_1_3_074d72e",
+        "nodeNames": [
+          "Miner_Entrance_1_3"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_1_3",
+            "instruction": 4,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_1_3_074d72e",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "3e0f0fb2e48642f4cac79ed7a36d9e4e8a02552515dfddb625560768df44150f",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2866,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457006030857",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_1_3_032d824",
+      "nodeNames": [
+        "Miner_Entrance_1_3"
+      ],
+      "source": "Miner: Мы с мужиками хотели прорыть туннели, чтобы прятаться тут от жары.",
+      "sourceSha256": "d4db88e3f59816805861d7c051ddf74d34d6d2326aeb6f9b507bd59e63126cd2",
+      "target": "Miner: Nagbalak kami ng mga kasamahan kong lalaki na maghukay ng mga lagusan para makapagtago rito mula sa init.",
+      "targetSha256": "abdd582115d82150900964155fb3d73ed5959af523189765494c6759b2747f19",
+      "authoredPath": "Translations/fil/dialogue-batch-068.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_1_3_032d824",
+        "nodeNames": [
+          "Miner_Entrance_1_3"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_1_3",
+            "instruction": 0,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_1_3_032d824",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "0735670cf8321bc021556eefe55d4e37308e15a16428430b59a985eef0925605",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 2870,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457006030853",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_1_2_0961f9b",
+      "nodeNames": [
+        "Miner_Entrance_1_2"
+      ],
+      "source": "Miner: Застрял? Нет. Мы тут нашли кое-что.",
+      "sourceSha256": "cc60f09a811857025ef09efaf239412910488585654dc99a80c1cb871690e26d",
+      "target": "Miner: Naipit? Hindi. May nakita kami rito.",
+      "targetSha256": "9146c8994201236693769a02ec89d6efc354300598f69b0e418ea038507da5da",
+      "authoredPath": "Translations/fil/dialogue-batch-068.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_1_2_0961f9b",
+        "nodeNames": [
+          "Miner_Entrance_1_2"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_1_2",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_1_2_0961f9b",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "7f7e94265afa0e21d0873b1ea4cd89f938ea6669984285c15448310a068ac377",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "authorDecision": "Retain exact: actual group membership is already exclusive where retrospective, or inclusive in later invitation/action branches. No objective preference edit.",
+      "correction": false,
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 16128,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501",
+      "collection": "Dialogs",
+      "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+      "nodeNames": [
+        "Mother_Hands_DontShoot"
+      ],
+      "source": "Mother: Руки... Я ими детей обнимала, всё по дому делала и мужа ласкала. И знаешь что? Всё равно никто нихера не ценит.",
+      "sourceSha256": "9fe4e96e7045cdbe94d6f90f91358d14fd8de989cf4f842f3025287623d1490e",
+      "target": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ipinanglinis ng bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "targetSha256": "73f3694fd5393b7a42dd4c275fabe015106b3300d33b01b33475ad7638a20c29",
+      "authoredPath": "Translations/fil/dialogue-batch-441.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+        "nodeNames": [
+          "Mother_Hands_DontShoot"
+        ],
+        "sites": [
+          {
+            "node": "Mother_Hands_DontShoot",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Mother_Hands_DontShoot_0b3d4e5",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "639e35b8c3da5e9521be0875e8666d534180a90e069336ecc0a825f7002acc37",
+      "conceptSelectors": [
+        "household-work-totality"
+      ],
+      "authorDecision": "всё по дому делала denotes all household work, not cleaning only. Replace only ipinanglinis ng bahay with ginamit sa lahat ng gawain sa bahay. Hands remain the instruments used by Mother for embracing her children, household tasks and caressing her husband. Every other sentence, complaint and accepted profanity stays exact.",
+      "correction": true,
+      "independentReadCredit": 0
+    }
+  ],
+  "dismissedConcerns": [
+    {
+      "ordinal": 14033,
+      "reason": "In the actual scene about parents piercing infants ears without their decision, Russian не нужно can express unwanted intervention. Ayaw preserves the consent concern; a literal need-versus-want rewrite is not required."
+    },
+    {
+      "ordinal": 6557,
+      "reason": "Matinding problema is an acceptable contextual interpretation of the intense situation, not an independently supported reason to rewrite."
+    },
+    {
+      "surface": "coarse-register distribution",
+      "reason": "Coarse idioms are judged over complete utterances. Colloquial pake, malay, nilalaklak and semantic abuse verbs may carry roughness without mapping each Russian root to a new swear; avoid generic-swear or strength quotas. All56 actual corrections retain source-specific content and use mild markers where the source is mild."
+    }
+  ],
+  "additionalObjectiveFindings": [],
+  "authorIndependentCredit": 0
+}

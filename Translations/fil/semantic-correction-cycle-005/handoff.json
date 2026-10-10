@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "author cycle005 complete; exact141 full-pair delta pending distinct reviewer",
+  "priorIndependentReviewer": "/root/fil_independent_review_04",
+  "priorIndependentReviewStatus": "sealed review04:26 full delta pairs,7586 prior decisions,54 retirements,mandatory7240 and compiled/dynamic consumers verified; one objective omission at9614",
+  "review04CompletionManifestSha256": "dea36a5b9f34c3b207fc97bcd88e29c03592fd21767ec3112918da6ad339915b",
+  "priorClosurePath": "Translations/fil/semantic-correction-cycle-004/closure.json",
+  "priorClosureSha256": "d7b7e35cd9853390b4e09bace5b50983b9924c1e5a3de1229f45fd46609ca42e",
+  "priorPairedSha256": "3498b3e78da827dbf168771fcc65c773850ec2d3081a98e020f56727116b220e",
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "correction": {
+    "acceptedOrdinal": 9614,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637702",
+    "collection": "Dialogs",
+    "key": "line:Theorist_Asking_3_094778b",
+    "source": "Theorist: Рискну предположить, что ему это показалось из-за искаженного лица, когда смотришь на него из окна.",
+    "sourceSha256": "e64e67c0620fd4905fa08a9867be2df75563a0fef38909cefee1e0992faea91c",
+    "currentTarget": "Theorist: Sa palagay ko, mukhang nabaluktot lang ang mukha niya kapag tinitingnan mula sa bintana.",
+    "currentTargetSha256": "aa956acce525dfce143bd2334d556a1b3dffdaee1f043cfe10ace7d98bedfa58",
+    "acceptedFullTarget": "Theorist: Sa palagay ko, ganoon ang inakala niya dahil mukhang baluktot ang mukha ng halimaw kapag tinitingnan ito mula sa bintana.",
+    "acceptedFullTargetSha256": "4d88059258dffd182afbeb48a043915a13a75e6354070636c1d94162c21f57bd",
+    "authoredPath": "Translations/fil/dialogue-batch-250.json",
+    "compiledNode": "Theorist_Asking_3",
+    "compiledInstruction": 25,
+    "decision": "accepted objective full-unit correction",
+    "semanticPreflight": {
+      "facts": "Article author reported TWO frightening pale men, one in windows and another at the doorstep; Theorist argues they are the same monster and hypothesizes a mistaken perception due to the window-distorted face.",
+      "agency": "Article author, not Theorist or the monster, is the mistaken perceiver; Theorist offers the conjecture.",
+      "participants": "Speaker remains Theorist; niya follows the article author from preceding instructions; halimaw disambiguates face owner already established at24.",
+      "timing": "Past belief (inakala) versus generic window appearance (kapag tinitingnan); no future contingency.",
+      "informationReveal": "Monster term occurs at24 before25, no early disclosure.",
+      "modality": "Sa palagay ko retains tentative hypothesis, not a proven cause; dahil restores causal explanation.",
+      "register": "Analytical conjecture under Sad, then Happy at26 before conclusion27; no additional profanity or preference rewrite.",
+      "compiledBoundary": "Theorist_Asking_3 instruction25 after14–24, no intervening branch; visiting guard precedes14; stop34."
+    },
+    "protectedSyntax": "passed pinned v4 check_value"
+  },
+  "boundedConsolidation": {
+    "familyPairs": 83,
+    "articlePairs": 10,
+    "compiledNodes": 7,
+    "compiledInstructions": 174,
+    "additionalObjectiveSameMechanismFindings": 0,
+    "preimageAuthorEvidencePath": "Translations/fil/semantic-correction-cycle-005/bounded-author-review.json",
+    "currentCompiledContextPath": "Translations/fil/semantic-correction-cycle-005/current-compiled-context.json",
+    "currentCompiledContextSha256": "c222db4484468778ede8345978f312c962dc91afc917d813674bd6591a94e375",
+    "characterRule": "Approved conspiracy-theorist rule: retain his theories as his versions, not authorial explanation. Sa palagay ko preserves this; source article author is mistaken perceiver, halimaw is already revealed at preceding instruction24."
+  },
+  "closure": {
+    "previous": 7612,
+    "current": 7678,
+    "corrected": 1,
+    "new": 66,
+    "explicitlyInvalidated": 74,
+    "retiredNew": 0,
+    "exactNextDelta": 141,
+    "exactNextDeltaIdsSha256": "8b69a43f4e4b1b2e8e2029fa46a0ba278ea75f5506ffbb6c8a0cbad6afc5dcf1",
+    "nextDeltaPairedPath": "Translations/fil/semantic-correction-cycle-005/next-delta-paired.jsonl",
+    "nextDeltaPairedSha256": "edb5860a6165136d0ff7d4963a65153d61fb1955bdef5daf8cbb5ac0eecabf02",
+    "reusableExactPriorIndependentDecisions": 7537,
+    "mandatoryTotal": 7279,
+    "mandatoryInDelta": 109,
+    "mandatoryPriorIndependentReusable": 7170,
+    "priorRetiredReentered": 1,
+    "priorRetiredStillRetired": 53,
+    "retirementJustification": "No new retirement. All54 earlier retirements retain exact source/target/key/node hashes. Esenin unit110504454376202240 reenters through the ordinary attributed-perception predicate and is in new closure/delta; other53 remain outside every current component.",
+    "deltaFormula": "corrected union(current closure minus verified prior independent IDs) union explicitly invalidated IDs",
+    "invalidationRule": "Previously reviewed rows in the seven bounded compiled nodes, exact corrected source repetitions, the repaired attributed-perception/causality source family, or belief+dahil/distorted-face target family; the corrected ID counts separately. Author readings invalidate these dependencies explicitly and do not count as independent acceptance.",
+    "unexplainedMissingIds": 0,
+    "unexplainedExtraIds": 0
+  },
+  "components": [
+    {
+      "name": "changed",
+      "count": 1,
+      "idsSha256": "37064a2bb103ceb414be495355c9ab3cc2f763c84c04758c9643d22090d4764d"
+    },
+    {
+      "name": "explicitContext",
+      "count": 59,
+      "idsSha256": "223d6f1b5bb67bf0222ccf2a6485a28cfd7cf8f14d33985123b3258e2fdf1fbc"
+    },
+    {
+      "name": "exactSourceRepetition",
+      "count": 1,
+      "idsSha256": "37064a2bb103ceb414be495355c9ab3cc2f763c84c04758c9643d22090d4764d"
+    },
+    {
+      "name": "glossaryReferent",
+      "count": 1318,
+      "idsSha256": "cb66ae377f8d4699fe7d65a21b4f2c0f5b83c0c35acf61545af1dc8fa0b2e6a2"
+    },
+    {
+      "name": "localizedWording",
+      "count": 323,
+      "idsSha256": "1621aba99b3a186193403abe2b0b7e05771a8bd65b70eaa816aa30bb3a5dcaf2"
+    },
+    {
+      "name": "runtimeBinding",
+      "count": 65,
+      "idsSha256": "382bb3a8ecd12b2c81af0663eaf1ca8b5d67e423a1f3293a0e6b2ab3303f1ffb"
+    },
+    {
+      "name": "mandatoryRegression",
+      "count": 7279,
+      "idsSha256": "e023d4dea58747a308c01d332468e66a633656811d354b1e27d1e8dd2208620f"
+    }
+  ],
+  "deterministicGate": {
+    "acceptedUnits": 16538,
+    "authoredInputs": 456,
+    "changedTargets": 1,
+    "changedAuthoredFiles": 1,
+    "unrelatedTargetsChanged": 0,
+    "structural": "passed",
+    "preserveExact": "passed",
+    "derived": "unchanged option2675-source-row expansion,177 static phrase rows and credits recipe/output hashes remain exact; correction has no derived text dependency",
+    "selectorActualRegressions": 29,
+    "selectorSyntheticRegressions": 19,
+    "wholeCorpusReceiptSha256": "f3488d34a550bd2d5abf4c2588a528684bcce05b1e65a4472e7d4558e03186aa",
+    "gateSha256": "732224ab5c116b6f1df0c32df9a7000820e8e417e7aff98681ef050e0c655ea9",
+    "oldOwningSidecarSnapshotSha256": "2e2863ac0eb58a3c0a53e664b1251b5d447cb764cb03acdd5ee398833f5fa991"
+  },
+  "cycleFilesSha256": {
+    "after-authored-files/dialogue-batch-250.json": "b33718aed4ddeed72965cff90bef4b136fbcf9339b81bbc282542e1b1f599334",
+    "after.json": "c5ed1f469850fc8deebe0ccc7be1e87e3be328b7b0a3cb2bdadba5ac5949b6a0",
+    "apply_correction.py": "a1c455340af5e493f2e76f563e2f96b601d9503b8a3fde41370839b42e449d25",
+    "before-authored-files/dialogue-batch-250.json": "51cfed3febded671dfc6d840c16cfe443aa35a9e6d3b25b26b274ba2afd28c63",
+    "before-validation-files/dialogue-batch-250.validation.json": "2e2863ac0eb58a3c0a53e664b1251b5d447cb764cb03acdd5ee398833f5fa991",
+    "bounded-author-review.json": "456e2654584d43f7817f5b670502050d22739ba97a1102a0bf4fcd93f86de095",
+    "bounded-compiled-context.json": "638c53fe773bf0cbf3828f0ba3a9b1f130772d7bfaa20727772887f70f8797a8",
+    "bounded-family-decisions.jsonl": "823a1afbdd310afbffcb21e6f265591747bff6b41bbf0bd75e935231552f9715",
+    "bounded-family-paired.jsonl": "e9337d2032939240a0c52e57899f27726c7c298de1429e6f48fa4d05036deebd",
+    "build_closure.py": "bc1c9a5e37170011905f858041b767275d952a7159252a053d1bbfd8054b09be",
+    "build_gate.py": "aa94cfa118ed916e410b1ebc1454f101c96757a52103e9768a5e3b4900e2462c",
+    "closure-paired.jsonl": "501b928cdddfeb083f9e97e882a06b2da87da69d6f27640c59701ce854e41244",
+    "closure.json": "ffe84947c80aee27be6b1d28c2ffb2791f58ab275555eca2ecd0fca1a3319322",
+    "current-compiled-context.json": "c222db4484468778ede8345978f312c962dc91afc917d813674bd6591a94e375",
+    "execution-accounting.json": "fe045c59bb8100a8f8451286dd9af3b3e837b559d8d2a6bcbc6ea1f921bcac28",
+    "full-corpus-validation.json": "f3488d34a550bd2d5abf4c2588a528684bcce05b1e65a4472e7d4558e03186aa",
+    "full-structural-validation.json": "732224ab5c116b6f1df0c32df9a7000820e8e417e7aff98681ef050e0c655ea9",
+    "mandatory-regression-applicability.jsonl": "75f1c3204d2cb35bdfb912b101aac2f839039b204b17f42f80617e2925d18313",
+    "next-delta-paired.jsonl": "edb5860a6165136d0ff7d4963a65153d61fb1955bdef5daf8cbb5ac0eecabf02",
+    "plan.json": "934af36f4cd2149316a369b946e3c6b02cb1a61bbe4f9a1fefd9e41d33578c46",
+    "prior-decision-applicability.jsonl": "103c9cc03b4199189a7010b629083be374d2a807bb145f899061f0b3440a4588",
+    "retired-final-applicability.jsonl": "663dc387727014cdd63c8039781c3388c9e9853c510b74a713ebd51aa542b994",
+    "selector-specification.json": "95ba917f7cc45db3ae49839805a57ca7dfce6a127adabfbea50532a41d9f98e2",
+    "verification.json": "80dc6d5795a2df639f1fa9cf34aea81d2c9d1660f54cbd6b2625f5d1d5d5117d",
+    "verify_cycle.py": "700f4a072d0f2d664d0d8923a385690e0c306a526e462e8e211ec97a19e9bbd3"
+  },
+  "reviewInstructions": [
+    "Verify sealed review04 manifest and all cycle005 file/current authored/source/glossary/validator/binding pins. Reproduce build_gate.py --verify, build_closure.py --verify and verify_cycle.py --verify with .venv/bin/python.",
+    "Read all141 complete source/target pairs in canonical accepted order from next-delta-paired.jsonl. Independently verify corrected9614 in the entire Theorist article branch,83-row attributed-perception/causal family, relevant59 scene dependencies and related wording. Author decisions are not independent evidence.",
+    "Reuse only7537 unchanged closure decisions, bound to exact stable ID/source/target/key/node and sealed review04 decision evidence. Reconcile mandatory7279 as109 pending plus7170 exact unchanged prior decisions.",
+    "Reconcile0 new retirements,1 reentered and53 still retired dependencies on exact hashes; no exceptional appended IDs. The reentered unit requires fresh review under ordinary selector applicability.",
+    "Verify current seven-node/174-instruction scene mapping against unchanged actual bytecode; review04 independently verified prior compiled contexts and six dynamic consumers. Preserve all source, supplier, assembly and binding pins; no live scheduling claim.",
+    "Record an immutable distinct-reviewer clean or finding-bearing delta. Root owns dispatch, final editorial acceptance and integration. Do not restart full semantic pass without proven invalidation."
+  ],
+  "coverage": {
+    "acceptedUnits": 16538,
+    "draftUnits": 16538,
+    "draftPercent": 100.0,
+    "editoriallyAcceptedUnits": 0,
+    "runtime": "not-run"
+  },
+  "limits": [
+    "Author correction and deterministic evidence only; independent delta review pending",
+    "No game, build, fixture, fonts/layout, images/textures, screenshot, Git/index, publication or other locale changes",
+    "Bounded source/context family review; no full semantic restart"
+  ],
+  "telemetry": "unknown; actual per-request input/cache/output/reasoning/total not exposed; no new agents"
+}

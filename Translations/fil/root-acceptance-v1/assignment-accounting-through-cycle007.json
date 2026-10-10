@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "scope": "Only the listed assignments; previous assignments are excluded and were reported separately.",
+  "assignments": [
+    {
+      "identity": "/root/fil_independent_review_06",
+      "sessionId": "01a12521-3437-7320-b6e6-34ec7c08d53a",
+      "sourceSessionLog": "/Users/antonkrutov/.codex/sessions/2026/10/10/rollout-2026-10-10T16-24-55-01a12521-3437-7320-b6e6-34ec7c08d53a.jsonl",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "measurementCutoff": "2026-10-10T09:38:38.966Z",
+      "basis": "Fresh no-history independent session cumulative counters; no inherited pre-assignment counter.",
+      "measuredDelta": {
+        "input_tokens": 7332609,
+        "cached_input_tokens": 7181696,
+        "output_tokens": 20858,
+        "reasoning_output_tokens": 6268,
+        "total_tokens": 7353467
+      }
+    },
+    {
+      "identity": "fil author cycle007",
+      "sessionId": "01a11d89-f758-7af0-8762-4cef339f8adf",
+      "sourceSessionLog": "/Users/antonkrutov/.codex/sessions/2026/10/09/rollout-2026-10-09T05-02-23-01a11d89-f758-7af0-8762-4cef339f8adf.jsonl",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "taskStarted": "2026-10-10T09:39:16.611Z",
+      "measurementCutoff": "2026-10-10T09:57:45.495Z",
+      "baseline": {
+        "timestamp": "2026-10-10T09:19:34.533Z",
+        "usage": {
+          "input_tokens": 367708719,
+          "cached_input_tokens": 361594880,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1638756,
+          "reasoning_output_tokens": 460215,
+          "total_tokens": 369347475
+        }
+      },
+      "finalCumulative": {
+        "timestamp": "2026-10-10T09:57:45.495Z",
+        "usage": {
+          "input_tokens": 371475164,
+          "cached_input_tokens": 365261568,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1675004,
+          "reasoning_output_tokens": 475349,
+          "total_tokens": 373150168
+        }
+      },
+      "measuredDelta": {
+        "input_tokens": 3766445,
+        "cached_input_tokens": 3666688,
+        "output_tokens": 36248,
+        "reasoning_output_tokens": 15134,
+        "total_tokens": 3802693
+      }
+    }
+  ],
+  "coordinator": {
+    "status": "unknown mixed usage",
+    "attribution": "Preparation, dispatch, monitoring, review and accounting share parent requests with unrelated acceptance-helper implementation; no exact split is available."
+  },
+  "pendingAssignments": [
+    "/root/fil_independent_review_07"
+  ],
+  "limits": [
+    "Cached input is included in input; reasoning is included in output. Neither subset is added again.",
+    "Reporting tail and platform overhead are unmeasured. These are token counts, not monetary charges.",
+    "No all-project total is claimed."
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 5,
+  "locale": "fil",
+  "status": "canonical Filipino selector repair for attributed perception and causal explanation; ordinary predicates, no appended exceptional IDs",
+  "previousClosureSha256": "d7b7e35cd9853390b4e09bace5b50983b9924c1e5a3de1229f45fd46609ca42e",
+  "mandatoryBasePredicates": [
+    "all accepted UI IDs",
+    "all selected static TMP IDs",
+    "all accepted exact-source common-option rows including the independent Нет row"
+  ],
+  "mandatorySourceRegex": {
+    "family-identity": "(?i)сестр|брат|матер|мать|мам|отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*|пап|доч|сын|ж[её]н|муж|бабуш|дедуш|\\b(?:он|она|его|её|ее|ему|ей|им|них|ними)\\b",
+    "guest-human": "гост|Гост|человек|Человек|люд|Люд|нечеловек|Нечеловек|фема|ФЕМА|FEMA|визит|Визит",
+    "profanity-humor": "бля|Бля|нахуй|нахер|говн|Говн|жоп|Жоп|пизд|Пизд|[её]б|[ЕЁ]б|долбо|Долбо|сука|Сука|шутк|Шутк|смешн|Смешн",
+    "markup-format": "\\{[0-9]+\\}|<[^<>]+>",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "window-environment": "(?i)^Window:",
+    "future-open-contingency": "(?i)(?:что\\s+бы\\s+ни|что\\s+ни)\\s+случил[а-яё]*",
+    "absence-of-progress": "(?i)(?:вообще\\s+нихера|не\\s+происход[а-яё]*\\s+(?:вообще\\s+)?(?:нихера|ничего)|ничего\\s+не\\s+происход[а-яё]*)",
+    "discourse-any-case": "(?i)\\bв\\s+любом\\s+случае\\b",
+    "attributed-perception-causality": "(?is)(?=.*\\b(?:показал(?:ось|ся|ась|ись)|казал(?:ось|ся|ась|ись)|кажется)\\b)(?=.*\\b(?:из-за|потому|поэтому|так\\s+как|оттого|мне|тебе|ему|ей|нам|вам|им)\\b)"
+  },
+  "affectedReferentSourceRegex": {
+    "committee-agency": "(?i)\\b(?:кчс|комитет[а-яё]*)\\b",
+    "new-faith": "(?i)\\bнововер[а-яё]*\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "father-grandchild": "(?i)\\b(?:отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*)\\b",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "camera-gun-instrument": "(?i)щёлк|щелк|\\bфото[а-яё]*\\b|\\bружь[а-яё]*\\b",
+    "gun-threat-expletive": "(?i)\\bёбаный\\s+свет\\b",
+    "child-murder-victim": "(?i)убийств[а-яё]*\\s+реб[её]нк[а-яё]*|реб[её]нк[а-яё]*\\s+зарезать",
+    "visitor-later-reveal": "(?i)окажется.{0,90}гост[а-яё]*",
+    "mushroom-size": "(?i)больше\\s+грибы",
+    "remote-confinement": "(?i)далеко\\s+и\\s+надолго",
+    "future-open-contingency": "(?i)(?:что\\s+бы\\s+ни|что\\s+ни)\\s+случил[а-яё]*",
+    "absence-of-progress": "(?i)(?:вообще\\s+нихера|не\\s+происход[а-яё]*\\s+(?:вообще\\s+)?(?:нихера|ничего)|ничего\\s+не\\s+происход[а-яё]*)",
+    "discourse-any-case": "(?i)\\bв\\s+любом\\s+случае\\b",
+    "attributed-perception-causality": "(?is)(?=.*\\b(?:показал(?:ось|ся|ась|ись)|казал(?:ось|ся|ась|ись)|кажется)\\b)(?=.*\\b(?:из-за|потому|поэтому|так\\s+как|оттого|мне|тебе|ему|ей|нам|вам|им)\\b)"
+  },
+  "localizedWordingRegex": [
+    "(?i)\\b(?:asupre|tutuli)\\b",
+    "(?i)\\b(?:liwanag|putangina)\\b",
+    "(?i)\\b(?:pananampalataya|sumasapi)\\b",
+    "(?i)\\b(?:murang edad|nang maaga)\\b",
+    "(?i)\\b(?:kinikilala|kikilalanin)\\b",
+    "(?i)\\b(?:pangkuha ng litrato|kukunan mo rin ba)\\b",
+    "(?i)pagpatay (?:ng|sa) isang bata",
+    "(?i)\\b(?:malaman mong|malamang) panauhin\\b",
+    "(?i)\\bAnuman ang (?:nangyari|mangyari)\\b",
+    "(?i)\\bwala namang nangyayaring kahit anong\\b",
+    "(?i)\\bwala namang nangyayari, putangina\\b",
+    "(?i)\\bGayunman\\b",
+    "(?i)\\b(?:inakala|akala)\\b[^\\r\\n]*\\bdahil\\b|\\bmukhang\\s+(?:nabaluktot|baluktot)\\b"
+  ],
+  "runtimeBindingRule": "All accepted source IDs in the seven actual compiled nodes pinned by the consolidated bounded author context, plus the six exact independently verified dynamic consumers; bytecode remains unchanged.",
+  "exactRepetitionRule": "All accepted IDs whose complete Russian source equals the corrected perception/causality unit; nonaccepted duplicates cannot be appended.",
+  "regressionExamples": [
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389124",
+      "source": "Phone: Не представляю, насколько вы ненавидите отца, если хотите, чтобы дом сгорел…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194817",
+      "source": "У меня… были сложные отношения с отцом",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499848",
+      "source": "BigLebowski: Прям как от отца.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455496081417",
+      "source": "FatalDame: Ты говорил о своём отце несколько дней назад.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143428",
+      "source": "Что произошло с твоим отцом?",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391498",
+      "source": "Daughter: (Девочка безостановочно зовёт отца, истерика остановится нескоро)",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453071773697",
+      "source": "TaxiDriver: Так-то, я раньше на фотках с отцом был. В машине. Теперь, если кто и фоткает – только инспектора.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140230",
+      "source": "NotTrue: И внучек и правда был приветливый — здоровался всегда со мной, спрашивал, как дела у меня.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140228",
+      "source": "NotTrue: Как-то соседка моя, пока мы сидели на лавочке, похвасталась внуком своим.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751619",
+      "source": "NotTrue: А дачи у меня нет. Да и родни тоже нет. И внуков… Ох, милок…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+      "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873281",
+      "source": "Window: На земле лежат сгоревшие дотла тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678976",
+      "source": "Window: На земле лежат тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447939",
+      "source": "MushroomEater: Молодец, о добрый юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865033",
+      "source": "MushroomEater: Не прощаемся, о дорогой юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456687263746",
+      "source": "Prophet: «Наша молодость кричала, как костёр Руан».",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454682386434",
+      "source": "Raskolnikov: А после –  резкий хлопок, и бездыханное тело юноши лежит вместе с той кучей трупов.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454678192137",
+      "source": "Raskolnikov: Рядом с ним стоял беспомощный юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454183264261",
+      "source": "Firefighter: Мог остаться и отработать, пока не упаду. Не пришлось бы посылать молодых на убой.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453860302858",
+      "source": "Experienced: Этими руками я воровал и грабил… Но это было давно, и я уже своё отсидел за ошибку молодости.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "ear-wax-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453763833866",
+      "source": "Jacob: Открою секрет. Человек с серой в ушах — это нормально.",
+      "expectedSelector": "ear-wax-source-forms"
+    },
+    {
+      "riskSurface": "radio-interruption",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "expectedSelector": "interrupted-radio-subject"
+    },
+    {
+      "riskSurface": "future-open-contingency",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673920",
+      "source": "Window: Что бы ни случилось, это наверняка произойдёт теперь с вами.",
+      "expectedSelector": "future-open-contingency"
+    },
+    {
+      "riskSurface": "absence-of-progress",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454372007947",
+      "source": "Esenin: Все говорят, что решают проблемы, а на деле не происходит вообще нихера.",
+      "expectedSelector": "absence-of-progress"
+    },
+    {
+      "riskSurface": "discourse conclusion",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637703",
+      "source": "Theorist: В любом случае, потешная статья…",
+      "expectedSelector": "discourse-any-case"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637702",
+      "source": "Theorist: Рискну предположить, что ему это показалось из-за искаженного лица, когда смотришь на него из окна.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455487692800",
+      "source": "FatalDame: Я думаю, тебе так показалось, потому что ты боишься сейчас нести ответственность за других.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373125",
+      "source": "Anger: Речи этих ебучих культистов показались ей разумными.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457731645448",
+      "source": "Phone: Я пытаюсь убедить её, что ей показалось. Но… похоже, она считает иначе…",
+      "expectedSelector": "attributed-perception-causality"
+    }
+  ],
+  "syntheticSelectorRegressions": [
+    {
+      "selector": "youth-life-stage",
+      "source": "Молодец!",
+      "mustMatch": false
+    },
+    {
+      "selector": "youth-life-stage",
+      "source": "В молодости он работал.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Я говорил с отцом.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Она гордится внучеком.",
+      "mustMatch": true
+    },
+    {
+      "selector": "ear-wax-source-forms",
+      "source": "С серой в ушах.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Субъ…кт покинул город.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Истина субъективна.",
+      "mustMatch": false
+    },
+    {
+      "selector": "future-open-contingency",
+      "source": "Что бы ни случилось, мы останемся здесь.",
+      "mustMatch": true
+    },
+    {
+      "selector": "future-open-contingency",
+      "source": "Что бы ни думали соседи.",
+      "mustMatch": false
+    },
+    {
+      "selector": "absence-of-progress",
+      "source": "Вообще нихера не происходит.",
+      "mustMatch": true
+    },
+    {
+      "selector": "absence-of-progress",
+      "source": "У него ничего нет.",
+      "mustMatch": false
+    },
+    {
+      "selector": "discourse-any-case",
+      "source": "В любом случае, статья смешная.",
+      "mustMatch": true
+    },
+    {
+      "selector": "discourse-any-case",
+      "source": "В этом случае статья смешная.",
+      "mustMatch": false
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Ему это показалось из-за искажённого лица.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Речи показались ей разумными.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Кажется, мне это привиделось.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Мне показалось, что она боится.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Показался мужчина в дверях.",
+      "mustMatch": false
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Лицо искажено из-за окна.",
+      "mustMatch": false
+    }
+  ],
+  "selectorRepairReason": "Review04 revealed loss of article author as experiencer and face distortion as cause. The complete-unit perception predicate is conjoined with an explicit experiencer or causal marker and handles past gender/number inflections and present кажется. The bounded family has83 accepted source pairs; related Filipino belief+dahil or distorted-face wording and actual compiled scenes are normal dependencies. Prior source/wording families remain."
+}

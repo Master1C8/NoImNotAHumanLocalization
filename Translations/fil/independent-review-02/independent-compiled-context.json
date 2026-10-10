@@ -1,0 +1,2808 @@
+{
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "nodes": {
+    "Esenin_Ears": {
+      "labels": {
+        "L1749": 0,
+        "L1751shortcutoption_Esenin_Ears_1": 12,
+        "L1752shortcutoption_Esenin_Ears_2": 13,
+        "L1750group_end": 16
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_0e8c7d4",
+            0.0
+          ],
+          "source": "Esenin: А ты хоть понял, что высматривать?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869254",
+          "op": "RunLine",
+          "target": "Esenin: Naintindihan mo man lang ba kung ano ang hahanapin?"
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_0dae071",
+            0.0
+          ],
+          "source": "Esenin: На что обращать внимание?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869255",
+          "op": "RunLine",
+          "target": "Esenin: Ano ang dapat tingnan?"
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_00cbaf4",
+            0.0
+          ],
+          "source": "Esenin: Ты извини, но глядя на твои действия, я вдруг понял, что нам пиздец.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869256",
+          "op": "RunLine",
+          "target": "Esenin: Patawad, pero nang makita ko ang ginagawa mo, bigla kong naisip na putangina, tapos na tayo."
+        },
+        {
+          "index": 3,
+          "opcode": 3,
+          "operands": [
+            "ShowSign Esenin EAR",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_062698d",
+            0.0
+          ],
+          "source": "Esenin: ...",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869257",
+          "op": "RunLine",
+          "target": "Esenin: ..."
+        },
+        {
+          "index": 5,
+          "opcode": 3,
+          "operands": [
+            "StopShowingSign",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_0670b48",
+            0.0
+          ],
+          "source": "Esenin: Тебе завтра скажут ребёнка зарезать, ты даже секунды думать не будешь.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869258",
+          "op": "RunLine",
+          "target": "Esenin: Kapag sinabi nila bukas na patayin mo sa saksak ang isang bata, hindi ka man lang mag-iisip nang isang segundo."
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:Esenin_Ears_0b9074d",
+            0.0
+          ],
+          "source": "Esenin: А что, так безопасно. Сука, почему я в этом аду оказался, ёбаный в рот.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452706869259",
+          "op": "RunLine",
+          "target": "Esenin: Aba, ligtas naman kasi sa ganoon. Putangina, bakit ako napunta sa impiyernong ito? Punyeta."
+        },
+        {
+          "index": 8,
+          "opcode": 4,
+          "operands": [
+            "line:Esenin_Ears_00f7e01",
+            "L1751shortcutoption_Esenin_Ears_1",
+            0.0,
+            false
+          ],
+          "source": "Отпустить",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453495398404",
+          "op": "AddOption",
+          "target": "Pakawalan"
+        },
+        {
+          "index": 9,
+          "opcode": 4,
+          "operands": [
+            "line:Esenin_Ears_02682c4",
+            "L1752shortcutoption_Esenin_Ears_2",
+            0.0,
+            false
+          ],
+          "source": "Достать ружьё",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453495398405",
+          "op": "AddOption",
+          "target": "Ilabas ang baril"
+        },
+        {
+          "index": 10,
+          "opcode": 5,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "ShowOptions",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 1,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Jump",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L1750group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 6,
+          "operands": [
+            "Esenin_Ears_Gun"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 15,
+          "opcode": 0,
+          "operands": [
+            "L1750group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 16,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 17,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "NotTrue_Photo_Gun": {
+      "labels": {
+        "L2148": 0,
+        "L2150shortcutoption_NotTrue_Photo_Gun_1": 6,
+        "L2151shortcutoption_NotTrue_Photo_Gun_2": 9,
+        "L2149group_end": 12
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetupGun true",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:NotTrue_Photo_Gun_05dacf6",
+            0.0
+          ],
+          "source": "NotTrue: Что, из этого тоже будешь щёлкать?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669892",
+          "op": "RunLine",
+          "target": "NotTrue: Ano, iyan din ba ang gagamitin mong pangkuha ng litrato?"
+        },
+        {
+          "index": 2,
+          "opcode": 4,
+          "operands": [
+            "line:NotTrue_Photo_Gun_04c96e7",
+            "L2150shortcutoption_NotTrue_Photo_Gun_1",
+            0.0,
+            false
+          ],
+          "source": "Выстрелить",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669893",
+          "op": "AddOption",
+          "target": "Magpaputok"
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "operands": [
+            "line:NotTrue_Photo_Gun_0600cef",
+            "L2151shortcutoption_NotTrue_Photo_Gun_2",
+            0.0,
+            false
+          ],
+          "source": "Выслушать",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669894",
+          "op": "AddOption",
+          "target": "Pakinggan"
+        },
+        {
+          "index": 4,
+          "opcode": 5,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "ShowOptions",
+          "target": null
+        },
+        {
+          "index": 5,
+          "opcode": 1,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Jump",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 6,
+          "operands": [
+            "NotTrue_Death"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 0,
+          "operands": [
+            "L2149group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "NotTrue_Photo_DontShoot"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L2149group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "TaxiDriver_Armpit_DontShoot": {
+      "labels": {
+        "L2694": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Armpit_DontShoot_0da3402",
+            0.0
+          ],
+          "source": "TaxiDriver: Иногда думаю: а если бы у меня был кто-то, кто бы обнял…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453092745218",
+          "op": "RunLine",
+          "target": "TaxiDriver: Kung minsan, naiisip ko: paano kung may isang taong yayakap sa akin…"
+        },
+        {
+          "index": 2,
+          "opcode": 3,
+          "operands": [
+            "SetupGun false",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Armpit_DontShoot_0c66996",
+            0.0
+          ],
+          "source": "TaxiDriver: Может, я бы и не поехал туда. Не повёз бы его. Не потерял всё...",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453092745219",
+          "op": "RunLine",
+          "target": "TaxiDriver: Baka hindi na sana ako pumunta roon. Hindi ko sana siya isinakay. Hindi sana nawala sa akin ang lahat..."
+        },
+        {
+          "index": 4,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "FormerFema_Photo_DontShoot": {
+      "labels": {
+        "L2983": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetupGun false",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Photo_DontShoot_0464356",
+            0.0
+          ],
+          "source": "FormerFema: Вот мне интересно… зачем ты всё это делаешь? Зачем впускаешь людей, тратишь силы на их проверку?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453260517378",
+          "op": "RunLine",
+          "target": "FormerFema: Nagtataka ako… bakit mo ginagawa ang lahat ng ito? Bakit ka nagpapapasok ng mga tao at inuubos ang lakas mo sa pagsusuri sa kanila?"
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Photo_DontShoot_0f578ab",
+            0.0
+          ],
+          "source": "FormerFema: А если ты к кому-то привяжешься, а потом окажется, что это Гость? Это же такая боль – убивать того, кто тебе приглянулся. Эээхх…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453260517379",
+          "op": "RunLine",
+          "target": "FormerFema: Paano kung mapalapit ka sa isang tao, tapos malaman mong Panauhin pala siya? Napakasakit pumatay ng taong nagustuhan mo. Hay…"
+        },
+        {
+          "index": 3,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Leper_Teeth_Gun": {
+      "labels": {
+        "L3978": 0,
+        "L3980shortcutoption_Leper_Teeth_Gun_1": 7,
+        "L3981shortcutoption_Leper_Teeth_Gun_2": 10,
+        "L3979group_end": 13
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetupGun true",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Leper_Teeth_Gun_0501ea2",
+            0.0
+          ],
+          "source": "Leper: Ёбаный свет, ты что?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+          "op": "RunLine",
+          "target": "Leper: Putangina, ano ba?"
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "operands": [
+            "line:Leper_Teeth_Gun_0163654",
+            "L3980shortcutoption_Leper_Teeth_Gun_1",
+            0.0,
+            false
+          ],
+          "source": "Выстрелить",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463623",
+          "op": "AddOption",
+          "target": "Magpaputok"
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "operands": [
+            "line:Leper_Teeth_Gun_0833718",
+            "L3981shortcutoption_Leper_Teeth_Gun_2",
+            0.0,
+            false
+          ],
+          "source": "Выслушать",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463624",
+          "op": "AddOption",
+          "target": "Pakinggan"
+        },
+        {
+          "index": 5,
+          "opcode": 5,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "ShowOptions",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 1,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Jump",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 6,
+          "operands": [
+            "Leper_Death"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 0,
+          "operands": [
+            "L3979group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "Leper_Teeth_DontShoot"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L3979group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Leper_Ears_DontShoot": {
+      "labels": {
+        "L4007": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Leper_Ears_DontShoot_0517384",
+            0.0
+          ],
+          "source": "Leper: Ёбаный свет…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+          "op": "RunLine",
+          "target": "Leper: Putangina…"
+        },
+        {
+          "index": 2,
+          "opcode": 3,
+          "operands": [
+            "SetupGun false",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Leper_Ears_DontShoot_03c1f92",
+            0.0
+          ],
+          "source": "Leper: Ты меня так до инфаркта доведёшь. Ты вообще откуда узнал про уши?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852229",
+          "op": "RunLine",
+          "target": "Leper: Aatakehin ako sa puso dahil sa iyo. Saan mo ba nalaman ang tungkol sa mga tainga?"
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Leper_Ears_DontShoot_02c37c1",
+            0.0
+          ],
+          "source": "Leper: КЧС ни разу не говорил, что есть такой признак.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852230",
+          "op": "RunLine",
+          "target": "Leper: Ni minsan, hindi sinabi ng Komite sa mga Sitwasyong Pang-emerhensiya na may ganiyang palatandaan."
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Teacher_Asking_1_1": {
+      "labels": {
+        "L667": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Teacher_Asking_1_1_0ea9aae",
+            0.0
+          ],
+          "source": "Teacher: Что может быть хуже убийства ребёнка?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684550",
+          "op": "RunLine",
+          "target": "Teacher: Ano pa ang mas malala kaysa sa pagpatay sa isang bata?"
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Teacher_Asking_1_1_0ba324a",
+            0.0
+          ],
+          "source": "Teacher: Это даже не один человек, а толпа людей, которые устроили свою «охоту на ведьм»...",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684551",
+          "op": "RunLine",
+          "target": "Teacher: Hindi lang isang tao iyon, kundi isang pulutong na nagsagawa ng sarili nilang «pangangaso sa mga mangkukulam»…"
+        },
+        {
+          "index": 2,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Teacher_Asking_1_1_010f2c6",
+            0.0
+          ],
+          "source": "Teacher: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684552",
+          "op": "RunLine",
+          "target": "Teacher: …"
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Teacher_Asking_1_1_04393f5",
+            0.0
+          ],
+          "source": "Teacher: Наверное, тяжёлые времена и правда показывают настоящую сущность человека. Может быть, монстры мы, а не те, кто вылез из земли?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684553",
+          "op": "RunLine",
+          "target": "Teacher: Baka totoo ngang sa mahihirap na panahon lumilitaw ang tunay na pagkatao. Baka tayo ang mga halimaw, hindi ang mga lumabas mula sa lupa?"
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "TaxiDriver_Asking_4": {
+      "labels": {
+        "L2575": 0,
+        "L2577skipclause": 13,
+        "L2576endif": 14
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "TaxiDriver_Asking_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "visited"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 3,
+          "opcode": 10,
+          "operands": [
+            "L2577skipclause"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpIfFalse",
+          "target": null
+        },
+        {
+          "index": 4,
+          "opcode": 13,
+          "operands": [
+            "$Yarn.Internal.Visiting.TaxiDriver_Asking_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushVariable",
+          "target": null
+        },
+        {
+          "index": 5,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            2.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "Number.Add"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 14,
+          "operands": [
+            "$Yarn.Internal.Visiting.TaxiDriver_Asking_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "StoreVariable",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "Character_SpokeAlready"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L2576endif"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_5_0e32aad",
+            0.0
+          ],
+          "source": "TaxiDriver: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455311532036",
+          "op": "RunLine",
+          "target": "TaxiDriver: …"
+        },
+        {
+          "index": 15,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 16,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0c5b553",
+            0.0
+          ],
+          "source": "TaxiDriver: Не то чтобы я многим рассказываю это, но… думаю, тебе могу довериться.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143430",
+          "op": "RunLine",
+          "target": "TaxiDriver: Hindi ko ito basta ikinukuwento sa iba, pero… sa tingin ko, mapagkakatiwalaan kita."
+        },
+        {
+          "index": 17,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0a1b75d",
+            0.0
+          ],
+          "source": "TaxiDriver: В один день мама должна была уехать в командировку, и папаня взял меня с собой на работу.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143431",
+          "op": "RunLine",
+          "target": "TaxiDriver: Isang araw, kailangang umalis ng mama ko para sa trabaho, kaya isinama ako ng papa ko sa pagpasada."
+        },
+        {
+          "index": 18,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0b278b1",
+            0.0
+          ],
+          "source": "TaxiDriver: В тот день к нам в такси сел человек, которого я никогда не забуду.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143432",
+          "op": "RunLine",
+          "target": "TaxiDriver: Noong araw na iyon, may sumakay sa taxi namin na hindi ko kailanman malilimutan."
+        },
+        {
+          "index": 19,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_05d169a",
+            0.0
+          ],
+          "source": "TaxiDriver: Аккуратный пиджак, лысая голова и звериный оскал …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143433",
+          "op": "RunLine",
+          "target": "TaxiDriver: Maayos na amerikana, kalbong ulo, at ngiting parang halimaw…"
+        },
+        {
+          "index": 20,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_07a4886",
+            0.0
+          ],
+          "source": "TaxiDriver: Все в городе знали кто это, даже я — мелкий шкет. Отказывать в помощи такому человеку было нельзя…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143434",
+          "op": "RunLine",
+          "target": "TaxiDriver: Kilala siya ng lahat sa lungsod, kahit ako na paslit pa noon. Hindi puwedeng tumangging tulungan ang ganoong tao…"
+        },
+        {
+          "index": 21,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0919b7d",
+            0.0
+          ],
+          "source": "TaxiDriver: Но мой папаня был человеком чести. К сожалению, его решение отразилось на всех нас.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337728",
+          "op": "RunLine",
+          "target": "TaxiDriver: Pero taong may dangal ang papa ko. Sa kasamaang-palad, nadamay kaming lahat sa desisyon niya."
+        },
+        {
+          "index": 22,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 23,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_076fb0e",
+            0.0
+          ],
+          "source": "TaxiDriver: Тот человек в пиджаке сделал всё, чтобы мы ощутили последствия решения моего бати.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337729",
+          "op": "RunLine",
+          "target": "TaxiDriver: Ginawa ng lalaking nakasuot ng amerikana ang lahat para maramdaman namin ang bunga ng desisyon ng papa ko."
+        },
+        {
+          "index": 24,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0227245",
+            0.0
+          ],
+          "source": "TaxiDriver: Дома у нас больше не было. Оставаться в одном месте надолго стало опасно.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337730",
+          "op": "RunLine",
+          "target": "TaxiDriver: Wala na kaming bahay. Naging delikado nang manatili sa isang lugar nang matagal."
+        },
+        {
+          "index": 25,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_090babd",
+            0.0
+          ],
+          "source": "TaxiDriver: А поскольку денег у нас почти не было, отец решил забрать себе машину, на которой таксовал.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337731",
+          "op": "RunLine",
+          "target": "TaxiDriver: At dahil halos wala kaming pera, nagpasya ang papa ko na angkinin ang kotse na ginagamit niyang pang-taxi."
+        },
+        {
+          "index": 26,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_00993fb",
+            0.0
+          ],
+          "source": "TaxiDriver: А под старость, когда он окончательно погряз в долговой яме, стал сожалеть, что в тот день забрал её.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337732",
+          "op": "RunLine",
+          "target": "TaxiDriver: Pero nang tumanda siya at tuluyang mabaon sa utang, pinagsisihan niyang kinuha niya ang kotse noong araw na iyon."
+        },
+        {
+          "index": 27,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_057857f",
+            0.0
+          ],
+          "source": "TaxiDriver: Думал, что она проклята, что из-за неё у нас все беды.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337733",
+          "op": "RunLine",
+          "target": "TaxiDriver: Akala niya, isinumpa ang kotse at iyon ang dahilan ng lahat ng kamalasan namin."
+        },
+        {
+          "index": 28,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_04f45a2",
+            0.0
+          ],
+          "source": "TaxiDriver: Но он так ничего и не понял…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337734",
+          "op": "RunLine",
+          "target": "TaxiDriver: Pero wala pa rin siyang naunawaan…"
+        },
+        {
+          "index": 29,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0fc62a6",
+            0.0
+          ],
+          "source": "TaxiDriver: Проблема была не то чтобы в машине, а в его гордости. Из-за неё мы лишились всего.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337735",
+          "op": "RunLine",
+          "target": "TaxiDriver: Hindi naman talaga ang kotse ang problema, kundi ang pride niya. Dahil doon, nawala sa amin ang lahat."
+        },
+        {
+          "index": 30,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0c1c1f8",
+            0.0
+          ],
+          "source": "TaxiDriver: Но… даже несмотря на то, что по его вине мне пришлось начать рано работать, чтобы прокормить нашу семью…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337736",
+          "op": "RunLine",
+          "target": "TaxiDriver: Pero… kahit na dahil sa kaniya, kinailangan kong magsimulang magtrabaho sa murang edad para may makain ang pamilya namin…"
+        },
+        {
+          "index": 31,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_01e933c",
+            0.0
+          ],
+          "source": "TaxiDriver: Я всё равно люблю его.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337737",
+          "op": "RunLine",
+          "target": "TaxiDriver: Mahal ko pa rin siya."
+        },
+        {
+          "index": 32,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_0d95416",
+            0.0
+          ],
+          "source": "TaxiDriver: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337738",
+          "op": "RunLine",
+          "target": "TaxiDriver: …"
+        },
+        {
+          "index": 33,
+          "opcode": 2,
+          "operands": [
+            "line:TaxiDriver_Asking_4_06da4d6",
+            0.0
+          ],
+          "source": "TaxiDriver: Эх, мне не хватает моего папы…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455307337739",
+          "op": "RunLine",
+          "target": "TaxiDriver: Hay, miss na miss ko ang papa ko…"
+        },
+        {
+          "index": 34,
+          "opcode": 13,
+          "operands": [
+            "$Yarn.Internal.Visiting.TaxiDriver_Asking_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushVariable",
+          "target": null
+        },
+        {
+          "index": 35,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 36,
+          "opcode": 7,
+          "operands": [
+            2.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 37,
+          "opcode": 12,
+          "operands": [
+            "Number.Add"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 38,
+          "opcode": 14,
+          "operands": [
+            "$Yarn.Internal.Visiting.TaxiDriver_Asking_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "StoreVariable",
+          "target": null
+        },
+        {
+          "index": 39,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 40,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Provocateur_Asking_4_3_1": {
+      "labels": {
+        "L2681": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Provocateur_Asking_4_3_1_08368e3",
+            0.0
+          ],
+          "source": "Provocateur: Ну уж не-е-ет. Так просто вы теперь не отделаетесь.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280770",
+          "op": "RunLine",
+          "target": "Provocateur: Abaa, hindi-i-i. Hindi kayo makakalusot nang ganoon kadali ngayon."
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Provocateur_Asking_4_3_1_034f7f6",
+            0.0
+          ],
+          "source": "Provocateur: Я остаюсь здесь до следующей ночи, пока КЧС вас не заберут.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280771",
+          "op": "RunLine",
+          "target": "Provocateur: Mananatili ako rito hanggang sa susunod na gabi, hanggang sa kunin kayo ng Komite."
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Provocateur_Asking_4_3_1_0d298a4",
+            0.0
+          ],
+          "source": "Provocateur: Сообщу им, что вы тут устроили и насколько вы опасны. Вас упекут далеко и надолго. Вот увидите.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280772",
+          "op": "RunLine",
+          "target": "Provocateur: Sasabihin ko sa kanila ang ginawa ninyo rito at kung gaano kayo kapanganib. Ikukulong nila kayo sa malayong lugar nang matagal na matagal. Makikita ninyo."
+        },
+        {
+          "index": 3,
+          "opcode": 6,
+          "operands": [
+            "Provocateur_Asking_4_5"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 4,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "FormerFema_Asking_3_6": {
+      "labels": {
+        "L2845": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Asking_3_6_07d5b43",
+            0.0
+          ],
+          "source": "FormerFema: Ты меня ещё спрашиваешь!?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455408001032",
+          "op": "RunLine",
+          "target": "FormerFema: Itatanong mo pa talaga iyan sa akin!?"
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Asking_3_6_048ee48",
+            0.0
+          ],
+          "source": "FormerFema: Да если люди узнают, что я из КЧС…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455408001033",
+          "op": "RunLine",
+          "target": "FormerFema: Kapag nalaman ng mga tao na taga-Komite ako…"
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Asking_3_6_0807bc3",
+            0.0
+          ],
+          "source": "FormerFema: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455408001034",
+          "op": "RunLine",
+          "target": "FormerFema: …"
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:FormerFema_Asking_3_6_08dd0c1",
+            0.0
+          ],
+          "source": "FormerFema: Послушай, я больше не состою в КЧС. Считай, уволился.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455408001035",
+          "op": "RunLine",
+          "target": "FormerFema: Makinig ka, hindi na ako kasapi ng Komite. Isipin mong umalis na ako."
+        },
+        {
+          "index": 4,
+          "opcode": 6,
+          "operands": [
+            "FormerFema_Asking_3_X"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 5,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Nervous_Asking_2": {
+      "labels": {
+        "L3582": 0,
+        "L3584skipclause": 13,
+        "L3583endif": 14
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "Nervous_Asking_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "visited"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 3,
+          "opcode": 10,
+          "operands": [
+            "L3584skipclause"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpIfFalse",
+          "target": null
+        },
+        {
+          "index": 4,
+          "opcode": 13,
+          "operands": [
+            "$Yarn.Internal.Visiting.Nervous_Asking_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushVariable",
+          "target": null
+        },
+        {
+          "index": 5,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            2.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "Number.Add"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 14,
+          "operands": [
+            "$Yarn.Internal.Visiting.Nervous_Asking_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "StoreVariable",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "Character_SpokeAlready"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L3583endif"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 15,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0987426",
+            0.0
+          ],
+          "source": "Nervous: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237126",
+          "op": "RunLine",
+          "target": "Nervous: …"
+        },
+        {
+          "index": 16,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 17,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_01cb626",
+            0.0
+          ],
+          "source": "Nervous: Меня буллили в школе. Просто не дв-али продыху. Каждый день ко мне придирались.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237127",
+          "op": "RunLine",
+          "target": "Nervous: Binubully nila ako sa paaralan. Hindi nila ako binibigyan ng kaunting pa-hinga. Araw-araw nila akong pinag-iinitan."
+        },
+        {
+          "index": 18,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 19,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0b4f25e",
+            0.0
+          ],
+          "source": "Nervous: Конечно, я не выдержал. Не терпила. Они издеваются только над такими. Кто ничего не сделает.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237128",
+          "op": "RunLine",
+          "target": "Nervous: Siyempre, hindi ko na natiis. Hindi ako iyong basta na lang nagtitiis. Ang mga ganoon lang ang pinag-iinitan nila. Iyong walang gagawin."
+        },
+        {
+          "index": 20,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_08a2760",
+            0.0
+          ],
+          "source": "Nervous: Я подрался. Тот говнюк упал и больше не вставал. Мне сказали, что он умер в б-нице.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237129",
+          "op": "RunLine",
+          "target": "Nervous: Nakipag-away ako. Bumagsak ang gagong iyon at hindi na bumangon. Sinabi nila sa akin na namatay siya sa o-ospital."
+        },
+        {
+          "index": 21,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 22,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0fef50d",
+            0.0
+          ],
+          "source": "Nervous: Я не хотел его убивать. Но вот так в-вышло. Как-то родители утрясли эту историю.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237130",
+          "op": "RunLine",
+          "target": "Nervous: Hindi ko siya gustong patayin. Pero g-ganoon ang nangyari. Naayos iyon ng mga magulang ko kahit paano."
+        },
+        {
+          "index": 23,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0bae2a2",
+            0.0
+          ],
+          "source": "Nervous: Но я долго ещё слышал слова про позор семьи.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455823237131",
+          "op": "RunLine",
+          "target": "Nervous: Pero matagal ko pang narinig na kahihiyan daw ako ng pamilya."
+        },
+        {
+          "index": 24,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 25,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0f3538e",
+            0.0
+          ],
+          "source": "Nervous: А потом уже как раз отправили в дурку. Та история, которую я р-сказал в прошлый раз.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431424",
+          "op": "RunLine",
+          "target": "Nervous: At pagkatapos, ipinadala nila ako sa mental hospital. Iyong kuwentong iki-nuwento ko noong nakaraan."
+        },
+        {
+          "index": 26,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0adeece",
+            0.0
+          ],
+          "source": "Nervous: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431425",
+          "op": "RunLine",
+          "target": "Nervous: …"
+        },
+        {
+          "index": 27,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_048c123",
+            0.0
+          ],
+          "source": "Nervous: Я только понял в той драке, что было приятно за себя отомстить. Постоять за себя.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431426",
+          "op": "RunLine",
+          "target": "Nervous: Sa laban na iyon ko lang naunawaang masarap palang makaganti para sa sarili ko. Manindigan para sa sarili ko."
+        },
+        {
+          "index": 28,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_0ddc65b",
+            0.0
+          ],
+          "source": "Nervous: Костяшки пальцев так приятно болели. Мне ещё заехали по лицу, разбили губу. Но как приятен был тот вкус.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431427",
+          "op": "RunLine",
+          "target": "Nervous: Ang sarap ng sakit sa mga buko ng daliri ko. Nasuntok din nila ako sa mukha at napunit ang labi ko. Pero ang sarap ng lasang iyon."
+        },
+        {
+          "index": 29,
+          "opcode": 2,
+          "operands": [
+            "line:Nervous_Asking_2_05ba26d",
+            0.0
+          ],
+          "source": "Nervous: Получается, я защитился. Пусть и меня выперли из той школы.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455827431428",
+          "op": "RunLine",
+          "target": "Nervous: Sa huli, naipagtanggol ko ang sarili ko. Kahit pinalayas din nila ako sa paaralang iyon."
+        },
+        {
+          "index": 30,
+          "opcode": 13,
+          "operands": [
+            "$Yarn.Internal.Visiting.Nervous_Asking_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushVariable",
+          "target": null
+        },
+        {
+          "index": 31,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 32,
+          "opcode": 7,
+          "operands": [
+            2.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushFloat",
+          "target": null
+        },
+        {
+          "index": 33,
+          "opcode": 12,
+          "operands": [
+            "Number.Add"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "CallFunc",
+          "target": null
+        },
+        {
+          "index": 34,
+          "opcode": 14,
+          "operands": [
+            "$Yarn.Internal.Visiting.Nervous_Asking_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "StoreVariable",
+          "target": null
+        },
+        {
+          "index": 35,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 36,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Miner_Entrance_2_2": {
+      "labels": {
+        "L2240": 0,
+        "L2242shortcutoption_Miner_Entrance_2_2_1": 7,
+        "L2243shortcutoption_Miner_Entrance_2_2_2": 10,
+        "L2241group_end": 13
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Miner_Entrance_2_2_01e12b1",
+            0.0
+          ],
+          "source": "Miner: А? Друзья? Да нет ещё. Один туда ушёл, далеко, но он… он точно вернётся, не переживай. Он всегда возвращается, он выход даже по запаху найдёт.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613769",
+          "op": "RunLine",
+          "target": "Miner: Ha? Mga kaibigan? Wala pa. Ang isa ay umalis patungo roon, sa malayo, pero siya… sigurado akong babalik siya, huwag kang mag-alala. Lagi naman siyang bumabalik. Kaya niyang hanapin ang labasan kahit sa amoy lang."
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Miner_Entrance_2_2_0db0d1d",
+            0.0
+          ],
+          "source": "Miner: А второй — на том конце верёвки. Дёрнет, когда всё будет готово. Или когда помощь понадобится.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613770",
+          "op": "RunLine",
+          "target": "Miner: At ang isa pa ay nasa kabilang dulo ng lubid. Hihilahin niya ito kapag handa na ang lahat. O kapag kailangan ng tulong."
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Miner_Entrance_2_2_0336255",
+            0.0
+          ],
+          "source": "Miner: Ты же видишь, верёвка натянута. Значит, он там, всё нормально. Слушай, ты их встретишь раньше, чем я, если что. Ну… если выйдешь наружу, может, кто-то из них появится.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613771",
+          "op": "RunLine",
+          "target": "Miner: Kita mong mahigpit ang lubid. Ibig sabihin, naroon siya at ayos ang lahat. Makikita mo sila bago ko makita kung may mangyari. Eh… kung lalabas ka, baka may isa sa kanilang magpakita."
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "operands": [
+            "line:Miner_Entrance_2_2_0d5f29d",
+            "L2242shortcutoption_Miner_Entrance_2_2_1",
+            0.0,
+            false
+          ],
+          "source": "Ты сам хоть заглядывал в дыру?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457022808064",
+          "op": "AddOption",
+          "target": "Ikaw mismo, sumilip ka na ba sa butas?"
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "operands": [
+            "line:Miner_Entrance_2_2_055cdae",
+            "L2243shortcutoption_Miner_Entrance_2_2_2",
+            0.0,
+            false
+          ],
+          "source": "Не думаешь, что с твоим другом что-то случилось в дыре?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457022808065",
+          "op": "AddOption",
+          "target": "Hindi mo ba naiisip na may nangyari sa kaibigan mo sa loob ng butas?"
+        },
+        {
+          "index": 5,
+          "opcode": 5,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "ShowOptions",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 1,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Jump",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 6,
+          "operands": [
+            "Miner_Entrance_2_3"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 0,
+          "operands": [
+            "L2241group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "Miner_Entrance_2_4"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L2241group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "entrance_staticboy": {
+      "labels": {
+        "L2381": 0,
+        "L2383shortcutoption_entrance_staticboy_1": 7,
+        "L2384shortcutoption_entrance_staticboy_2": 10,
+        "L2382group_end": 13
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:entrance_staticboy_0fcfd61",
+            0.0
+          ],
+          "source": "StaticBoy: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457274466314",
+          "op": "RunLine",
+          "target": "StaticBoy: …"
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:entrance_staticboy_07490ae",
+            0.0
+          ],
+          "source": "StaticBoy: Он не спит?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457274466315",
+          "op": "RunLine",
+          "target": "StaticBoy: Hindi pa ba siya tulog?"
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:entrance_staticboy_0395926",
+            0.0
+          ],
+          "source": "StaticBoy: Должен же…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457278660608",
+          "op": "RunLine",
+          "target": "StaticBoy: Dapat naman…"
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "operands": [
+            "line:entrance_staticboy_04c366a",
+            "L2383shortcutoption_entrance_staticboy_1",
+            0.0,
+            false
+          ],
+          "source": "Ты потерялся?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457278660609",
+          "op": "AddOption",
+          "target": "Naliligaw ka ba?"
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "operands": [
+            "line:entrance_staticboy_0a2a057",
+            "L2384shortcutoption_entrance_staticboy_2",
+            0.0,
+            false
+          ],
+          "source": "Где твои родители?",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457278660610",
+          "op": "AddOption",
+          "target": "Nasaan ang mga magulang mo?"
+        },
+        {
+          "index": 5,
+          "opcode": 5,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "ShowOptions",
+          "target": null
+        },
+        {
+          "index": 6,
+          "opcode": 1,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Jump",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 6,
+          "operands": [
+            "StaticBoy_Entrance_1"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 8,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 0,
+          "operands": [
+            "L2382group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "StaticBoy_Entrance_2"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushString",
+          "target": null
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunNode",
+          "target": null
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L2382group_end"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "JumpTo",
+          "target": null
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 14,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "Mushroom_end_2": {
+      "labels": {
+        "L66": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Mushroom_end_2_0bbb282",
+            0.0
+          ],
+          "source": "И чем больше грибы...",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449796",
+          "op": "RunLine",
+          "target": "At habang mas malalaki ang mga kabute..."
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Mushroom_end_2_0f27bf6",
+            0.0
+          ],
+          "source": "Тем больше комков злобы в мицелии.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340929",
+          "op": "RunLine",
+          "target": "Lalo pang maraming buo-buong poot sa Miselyo."
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Mushroom_end_2_039b8e9",
+            0.0
+          ],
+          "source": "Их накопилось столько, что шляпа гриба покроет всю поверхность Земли.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449797",
+          "op": "RunLine",
+          "target": "Napakarami nang naipon sa mga ito kaya tatakpan ng sumbrero ng kabute ang buong ibabaw ng Daigdig."
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Mushroom_end_2_02a5ab8",
+            0.0
+          ],
+          "source": "И ничего не останется.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340930",
+          "op": "RunLine",
+          "target": "At walang matitira."
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Mushroom_end_2_0699a5b",
+            0.0
+          ],
+          "source": "Теперь, мицелию надо эту злобу куда-то деть...",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340931",
+          "op": "RunLine",
+          "target": "Ngayon, kailangang may mapaglagyan ang Miselyo ng poot na iyon..."
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "tv_8_necessary": {
+      "labels": {
+        "L21": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_05429a3",
+            0.0
+          ],
+          "source": "TV: Добрый день, в эфире новости.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593536",
+          "op": "RunLine",
+          "target": "TV: Magandang araw, ito ang balita."
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0ed8a09",
+            0.0
+          ],
+          "source": "TV: Важное сообщение.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593537",
+          "op": "RunLine",
+          "target": "TV: Mahalagang anunsiyo."
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0d8d86e",
+            0.0
+          ],
+          "source": "TV: Стали известны новые подробности о событиях в городе.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593538",
+          "op": "RunLine",
+          "target": "TV: May bagong detalye tungkol sa mga pangyayari sa lungsod."
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0c25d6b",
+            0.0
+          ],
+          "source": "TV: Одна из карантинных зон подверглась атаке неизвестного вооружённого человека…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593539",
+          "op": "RunLine",
+          "target": "TV: Inatake ng di-kilalang armadong tao ang isa sa mga sonang kuwarantina…"
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_03acb4a",
+            0.0
+          ],
+          "source": "TV: Доподлинно не известно о причинах диверсии, а также, имел ли стрелок сообщников.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593540",
+          "op": "RunLine",
+          "target": "TV: Hindi tiyak ang dahilan ng pananabotahe, o kung may mga kasabwat ang mamamaril."
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0bde066",
+            0.0
+          ],
+          "source": "TV: В результате происшествия на свободу вырвались люди с неизвестным статусом.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593541",
+          "op": "RunLine",
+          "target": "TV: Dahil sa pangyayari, nakatakas ang mga taong hindi pa matukoy ang katayuan."
+        },
+        {
+          "index": 6,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion TV_Noise",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0a68412",
+            0.0
+          ],
+          "source": "TV: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360646",
+          "op": "RunLine",
+          "target": "TV: …"
+        },
+        {
+          "index": 8,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion TV_FakeTVPresenter",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0df33b8",
+            0.0
+          ],
+          "source": "TV: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360647",
+          "op": "RunLine",
+          "target": "TV: …"
+        },
+        {
+          "index": 10,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0c4c5e9",
+            0.0
+          ],
+          "source": "TV: Тишина – это признак смерти.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593542",
+          "op": "RunLine",
+          "target": "TV: Ang katahimikan ay tanda ng kamatayan."
+        },
+        {
+          "index": 11,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0daee2a",
+            0.0
+          ],
+          "source": "TV: Страшно опустошающая тишина.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593543",
+          "op": "RunLine",
+          "target": "TV: Katahimikang nakapanghihilakbot at nakauubos ng lakas."
+        },
+        {
+          "index": 12,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0247034",
+            0.0
+          ],
+          "source": "TV: Но страшнее пустоты – звон.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593544",
+          "op": "RunLine",
+          "target": "TV: Ngunit mas nakatatakot kaysa sa kawalan ang tunog."
+        },
+        {
+          "index": 13,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_004e70a",
+            0.0
+          ],
+          "source": "TV: Звон похоронных колоколов.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593545",
+          "op": "RunLine",
+          "target": "TV: Ang pagtunog ng mga kampana sa libing."
+        },
+        {
+          "index": 14,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion TV_Ear",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 15,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_091836c",
+            0.0
+          ],
+          "source": "TV: От колоколов что-то растёт в ушах.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593546",
+          "op": "RunLine",
+          "target": "TV: May kung anong tumutubo sa mga tainga dahil sa mga kampana."
+        },
+        {
+          "index": 16,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0d292a8",
+            0.0
+          ],
+          "source": "TV: Остаётся только сера. Грязные мысли.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+          "op": "RunLine",
+          "target": "TV: Tutuli na lamang ang natitira. Maruruming kaisipan."
+        },
+        {
+          "index": 17,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_006acaa",
+            0.0
+          ],
+          "source": "TV: Ей и живут Гости.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787841",
+          "op": "RunLine",
+          "target": "TV: Ang tutuli ang ikinabubuhay ng mga Panauhin."
+        },
+        {
+          "index": 18,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0d8f9bc",
+            0.0
+          ],
+          "source": "TV: Гости путаются в паутине мыслей.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787842",
+          "op": "RunLine",
+          "target": "TV: Nasasabit ang mga Panauhin sa sapot ng mga kaisipan."
+        },
+        {
+          "index": 19,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0965bc3",
+            0.0
+          ],
+          "source": "TV: Колокола для них громче. Серы – больше.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+          "op": "RunLine",
+          "target": "TV: Mas malakas sa kanila ang mga kampana. Mas marami ang tutuli."
+        },
+        {
+          "index": 20,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion TV_Noise",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 21,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_06d3944",
+            0.0
+          ],
+          "source": "TV: …",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360648",
+          "op": "RunLine",
+          "target": "TV: …"
+        },
+        {
+          "index": 22,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 23,
+          "opcode": 2,
+          "operands": [
+            "line:tv_8_necessary_0e75517",
+            0.0
+          ],
+          "source": "TV: Далее репортаж о временной приостановке утилизации тел.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360649",
+          "op": "RunLine",
+          "target": "TV: Susunod, isang ulat tungkol sa pansamantalang paghinto sa pagtatapon ng mga bangkay."
+        },
+        {
+          "index": 24,
+          "opcode": 8,
+          "operands": [
+            true
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "PushBool",
+          "target": null
+        },
+        {
+          "index": 25,
+          "opcode": 14,
+          "operands": [
+            "$earsCheck"
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "StoreVariable",
+          "target": null
+        },
+        {
+          "index": 26,
+          "opcode": 11,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Pop",
+          "target": null
+        },
+        {
+          "index": 27,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "tv_9_extra1": {
+      "labels": {
+        "L24": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion TV_Cultists",
+            0.0
+          ],
+          "source": null,
+          "sourceStableId": null,
+          "op": "RunCommand",
+          "target": null
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0778815",
+            0.0
+          ],
+          "source": "TV: Гости не только скрываются среди нас, но и влияют на умы людей.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176452",
+          "op": "RunLine",
+          "target": "TV: Hindi lamang nagtatago sa piling natin ang mga Panauhin; naiimpluwensiyahan din nila ang isipan ng mga tao."
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_05066b9",
+            0.0
+          ],
+          "source": "TV: По нашей информации, в городах появляются культисты неизвестной нам конфессии.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176453",
+          "op": "RunLine",
+          "target": "TV: Ayon sa aming impormasyon, lumilitaw sa mga lungsod ang mga kasapi ng isang kultong hindi namin kilala."
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0788770",
+            0.0
+          ],
+          "source": "TV: Они обвиняются в следующем…",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176454",
+          "op": "RunLine",
+          "target": "TV: Ito ang mga paratang sa kanila…"
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0c8bf74",
+            0.0
+          ],
+          "source": "TV: Жертвоприношения, поклонение неизвестному богу и возможное сотрудничество с Гостями.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176455",
+          "op": "RunLine",
+          "target": "TV: Mga paghahandog bilang sakripisyo, pagsamba sa di-kilalang diyos, at posibleng pakikipagtulungan sa mga Panauhin."
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_04cbaa3",
+            0.0
+          ],
+          "source": "TV: По последним данным, они выступают против действий КЧС.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176456",
+          "op": "RunLine",
+          "target": "TV: Ayon sa pinakahuling impormasyon, tutol sila sa mga hakbang ng Komite."
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0eab1f1",
+            0.0
+          ],
+          "source": "TV: Раньше всё ограничивалось лишь словами и призывами, но теперь они перешли к действиям.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176457",
+          "op": "RunLine",
+          "target": "TV: Dati, hanggang salita at panawagan lamang sila, ngunit ngayon ay kumikilos na sila."
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0491ecf",
+            0.0
+          ],
+          "source": "TV: Возможно, именно этот культ несёт ответственность за произошедшее в городе.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457635176458",
+          "op": "RunLine",
+          "target": "TV: Posibleng ang kultong ito mismo ang responsable sa nangyari sa lungsod."
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0c83b4a",
+            0.0
+          ],
+          "source": "TV: Просим вас остерегаться нововеров и не вступать с ними в контакт.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370752",
+          "op": "RunLine",
+          "target": "TV: Mag-ingat kayo sa mga tagasunod ng bagong pananampalataya at huwag makipag-ugnayan sa kanila."
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_0353e25",
+            0.0
+          ],
+          "source": "TV: При подозрении в пособничестве сектантам сотрудники КЧС могут арестовать вас.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370753",
+          "op": "RunLine",
+          "target": "TV: Maaaring arestuhin kayo ng mga tauhan ng Komite kapag pinaghinalaang tumutulong kayo sa mga kasapi ng kulto."
+        },
+        {
+          "index": 10,
+          "opcode": 2,
+          "operands": [
+            "line:tv_9_extra1_082d908",
+            0.0
+          ],
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370754",
+          "op": "RunLine",
+          "target": "TV: Iyan lamang. Manatiling nakatutok."
+        },
+        {
+          "index": 11,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    },
+    "phone_fema_asking_SequenceCompleted": {
+      "labels": {
+        "L187": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:phone_fema_asking_4_02c1ed6",
+            0.0
+          ],
+          "source": "Phone: Мы отметим ваши заслуги в разрешении сложившейся ситуации.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811269",
+          "op": "RunLine",
+          "target": "Phone: Kikilalanin namin ang ambag ninyo sa pagharap sa kasalukuyang sitwasyon."
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:phone_fema_asking_4_06e41f9",
+            0.0
+          ],
+          "source": "Phone: Делая достоверные обследования, вы помогаете не только себе, но и всему человечеству.",
+          "sourceStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270",
+          "op": "RunLine",
+          "target": "Phone: Sa maaasahang pagsasagawa ninyo ng mga pagsusuri, tinutulungan ninyo hindi lamang ang sarili ninyo kundi ang buong sangkatauhan."
+        },
+        {
+          "index": 2,
+          "opcode": 15,
+          "operands": [],
+          "source": null,
+          "sourceStableId": null,
+          "op": "Stop",
+          "target": null
+        }
+      ]
+    }
+  }
+}

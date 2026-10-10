@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_05",
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "notclean",
+  "freshPairs": 141,
+  "findings": [
+    {
+      "acceptedOrdinal": 6555,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455718379527",
+      "collection": "Dialogs",
+      "key": "line:Experienced_Asking_1_2_End_05c0fc4",
+      "nodeNames": [
+        "Experienced_Asking_1_2_End"
+      ],
+      "source": "Experienced: Какого хрена все ходят в одежде в такую жару…",
+      "sourceSha256": "7443cc5267c9036232dffd3c008aad3601e20db7ef309635abb536294d9da5a1",
+      "target": "Experienced: Bakit nakadamit pa rin ang lahat sa ganitong init…",
+      "targetSha256": "e2ed896f6db14ab549c5bd147fbaf78ee1d4207b5f49fefc10963a5700f0997d",
+      "components": [
+        "explicitContext",
+        "runtimeBinding"
+      ],
+      "deltaReason": [
+        "newClosure"
+      ],
+      "reviewer": "/root/fil_independent_review_05",
+      "decision": "objective-correction-required",
+      "findingId": "fil-independent-05-001",
+      "evidenceMode": "fresh-full-source-target-context-read",
+      "reason": "Objective register omission: Какого хрена is a coarse rhetorical expletive, while the complete target is a neutral why-question. The literal clothing/heat proposition survives but its rough irritation is omitted. The approved ex-con/Experienced glossary explicitly requires criminal slang, and shipped instruction5 is the last spoken complaint after SetEmotion Sad. No locale-wide sanitization is authorized.",
+      "proposedFullTarget": "Experienced: Bwisit, bakit nakadamit pa rin ang lahat sa ganitong init…",
+      "proposedTargetSha256": "4dc04a182f8730a4faaa4ef604ee9fd5e45435e5abf58fc03130a11466991880",
+      "proposalProtectedSyntax": "passed exact pinned v4 check_value; not applied",
+      "compiledBoundary": {
+        "node": "Experienced_Asking_1_2_End",
+        "instruction": 5,
+        "opcode": "RunLine",
+        "stopInstruction": 6
+      },
+      "glossaryId": "ex-con",
+      "sameMechanismWorklist": "Translations/fil/independent-review-05/coarse-source-dependencies.json",
+      "consolidationRule": "Author adjudicates the complete enumerated coarse family and exact repetitions together, fixes objective omissions only, adds actual minimum contexts and dependent wording, then generates an ordinary immutable closure/delta. Worklist matches are not findings or independent-read credit."
+    }
+  ],
+  "acceptedCycle005Correction": 9614,
+  "otherObjectiveFindings": 0,
+  "recipeObservation": "Current profanity-humor predicate omits standalone хрен/хер inflections;6555 enters through actual context. Consolidated author family worklist enumerates accepted units only. Extend a normal predicate with negative lexical controls when repairing this mechanism, not an exceptional appended ID."
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "evidence decoder correction; no authored text or source changed",
+  "previousSnapshotPath": "Translations/fil/semantic-correction-cycle-002/compiled-context.json",
+  "previousSnapshotSha256": "792099bf041567579f9d09a4bd1813d34c0c551df6ddecf6e80825660a378bf7",
+  "correctedSnapshotPath": "Translations/fil/semantic-correction-cycle-002/compiled-context-corrected.json",
+  "correctedSnapshotSha256": "40bb052d81e09b655418e5a957797c29481a314d0ffe0d79632336459450a609",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "nodes": 17,
+  "correctedOpcodeFields": 221,
+  "opcodes": {
+    "RunLine": 97,
+    "RunCommand": 24,
+    "AddOption": 10,
+    "ShowOptions": 5,
+    "Jump": 5,
+    "JumpTo": 12,
+    "PushString": 15,
+    "RunNode": 13,
+    "Pop": 12,
+    "Stop": 17,
+    "PushFloat": 10,
+    "CallFunc": 6,
+    "JumpIfFalse": 2,
+    "PushVariable": 4,
+    "StoreVariable": 5,
+    "PushBool": 1
+  },
+  "unchangedFieldsVerified": [
+    "node names",
+    "instruction count and order",
+    "operands",
+    "source text",
+    "source stable IDs"
+  ],
+  "effect": "Prior plan semantic preflight used actual keys, operands and source order; its opcode-number field must not be used. This corrected snapshot records RunLine, RunCommand, AddOption and other operations accurately."
+}

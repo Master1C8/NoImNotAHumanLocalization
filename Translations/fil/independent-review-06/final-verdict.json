@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_06",
+  "model": "GPT-6; exact model ID and reasoning setting not exposed",
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "notclean",
+  "objectiveFindings": 2,
+  "findingOrdinals": [
+    2834,
+    16128
+  ],
+  "freshFullPairsRead": 423,
+  "freshAccepted": 421,
+  "acceptedCorrections": 56,
+  "experiencedCorrectionsAccepted": 6,
+  "review05Finding6555Resolved": true,
+  "authorIndependentCredit": 0,
+  "currentClosure": 7848,
+  "exactPriorDecisionReuse": 7425,
+  "closureAccepted": 7846,
+  "mandatoryRegression": {
+    "total": 7349,
+    "fresh": 273,
+    "reuse": 7076,
+    "freshAccepted": 271,
+    "objectiveFindings": 2,
+    "status": "notclean"
+  },
+  "retirements": {
+    "stillRetired": 77,
+    "new": 25,
+    "priorStillRetired": 52,
+    "reenteredFreshAccepted": 1
+  },
+  "actualCompiledContext": {
+    "windowsRead": 122,
+    "contextUnits": 420,
+    "nodesPinned": 110,
+    "instructionsPinned": 2002,
+    "dynamicConsumersApplicable": 6,
+    "unboundCandidates": 3
+  },
+  "pinsUnchangedAtSeal": true,
+  "sourceAndGlossaryUnchanged": true,
+  "fullStructuralAndExactGate": "passed16538/456; independently rerun receipt exact to author",
+  "historicalFullSemanticCoverage": "preserved on pinned16538-unit identity; no full restart",
+  "cleanIndependentAcceptance": false,
+  "findingsPath": "Translations/fil/independent-review-06/findings.json",
+  "nextAction": "Root adjudicates both consolidated context findings; author applies any accepted complete replacements together and produces one exact subsequent delta. Root owns acceptance/build/integration.",
+  "limits": [
+    "Static editorial/context review only; no game launch, live runtime, font/layout/texture/image/package/release verification.",
+    "All423 full pairs read;7425 unchanged independent decisions reused by exact source/target and actual consumer identity.",
+    "All56 corrections accepted; two objective findings are older context rows, consolidated in this verdict.",
+    "No authored/localization/glossary/shared helper/Git/index/commit/other locale/publication edits; no further agents."
+  ],
+  "telemetry": {
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "status": "unknown; actual per-request telemetry not exposed",
+    "coordinatorAttribution": "parent reports orchestration separately; no estimation",
+    "unmeasuredReportingTail": "seal report and final response cannot measure themselves"
+  },
+  "cutoffUtc": "2026-10-10T09:37:44.000681+00:00"
+}

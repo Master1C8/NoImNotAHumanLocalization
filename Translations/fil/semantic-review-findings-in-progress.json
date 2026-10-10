@@ -1,0 +1,1163 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "complete source-to-target semantic pass; proposed corrections pending single-batch adjudication",
+  "proposedCorrectionBatch": 1,
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "reviewedAcceptedOrdinals": [
+    1,
+    16538
+  ],
+  "findings": [
+    {
+      "acceptedOrdinal": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "collection": "UI",
+      "key": "Game_MushroomList",
+      "sourceSha256": "a0ec9d69e87006d886300386af40d5b0804833c17a3d131e288db5f808cb37f8",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "observedTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nNaitayo ngayon ang lungsod,\nSa silong, kabute'y sumibol sa lupa.\nNapakalaki nito, ngunit mayroong\nKayang lumamon dito.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nAng pagtanggap ng bisita'y para sa mahihina.\nHigit sa atin ang kabute, tayong mga hindi inanyayahan.\nTanging puno ng mansanas ang magbibigay ng silong sa lahat\nAt magpapakain sa inyo ng matamis nitong bunga.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nDarating ang araw na siya'y\nYuyuko sa mga kabute,\nAt tuturo paitaas ang palaso.\nBilisan mo, kaibigan!",
+      "proposedCompleteTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nNaitayo ngayon ang lungsod,\nSa silong, kabute'y sumibol sa lupa.\nNapakalaki nito, ngunit mayroong\nKayang lumamon dito.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nAng pagtanggap ng bisita'y para sa mahihina.\nHigit sa atin ang kabute, tayong mga hindi inanyayahan.\nTanging puno ng mansanas ang magbibigay ng silong sa lahat\nAt magpapakain sa inyo ng matamis nitong bunga.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nDarating ang araw na siya'y\nYuyuko sa mga kabute,\nAt tuturo paitaas ang karayom ng orasan.\nBilisan mo, kaibigan!",
+      "objectiveReason": "The third mushroom poem is a clock clue: the approved smile-guide glossary explicitly links these pages to a clock, and Message_LookClocks says to set it to 12. Filipino palaso denotes a flying/projectile arrow; Russian стрелка here is the clock hand. The proposal changes only that referent.",
+      "contextIds": [
+        "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243074"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 229,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78988993487425536",
+      "collection": "UI",
+      "key": "message_need_to_nail_up_windows",
+      "sourceSha256": "e9b8dd204822fe3f98cf5d9741f588bd28bb4b1fbdd8a903b967aaf160bc31f2",
+      "source": "Надо заколотить окна. Дальше только хуже, но надо попробовать спастись.",
+      "observedTarget": "Kailangan kong tablan ang mga bintana. Lalo lang lalala ang lahat, pero kailangan kong subukang mabuhay.",
+      "proposedCompleteTarget": "Kailangan kong takpan ng tabla ang mga bintana. Lalo lang lalala ang lahat, pero kailangan kong subukang mabuhay.",
+      "objectiveReason": "Russian заколотить окна means to board up the windows. Filipino tablan is not a clear board-up action and diverges from the same UI action label Takpan ng tabla. The proposal names the plank action explicitly without changing the speaker, condition, or second sentence.",
+      "contextIds": [
+        "string:0cbd8a7a4f543344bb95659de87f67a5:49667052037459968",
+        "string:0cbd8a7a4f543344bb95659de87f67a5:78987670541029376",
+        "string:0cbd8a7a4f543344bb95659de87f67a5:78987749125509120"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 281,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166340",
+      "collection": "Dialogs",
+      "key": "line:phone_daughtersfriend_2_1_2_0c0a42a",
+      "sourceSha256": "aeb56eea11b33a8cdb385f591031ceca2381e827592127e90d80791bb99a21c1",
+      "source": "Phone: Сначала я хотела его самого убить.",
+      "observedTarget": "Phone: Noong una, gusto ko siyang patayin mismo.",
+      "proposedCompleteTarget": "Phone: Noong una, gusto ko mismong patayin ang asawa ko.",
+      "objectiveReason": "In the mother of the girl’s friend phone scene, masculine его самого refers to her husband: he pressed for their daughter’s killing and then helped her understand the alleged substitution. Filipino siyang leaves the victim unstated immediately after the daughter/impostor and can be read as the girl. Naming her husband preserves the referent already introduced in this branch.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166342",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166341",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166338",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166337",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972033",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972032"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 417,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028995",
+      "collection": "Dialogs",
+      "key": "line:phone_phoneroulette_1_01c53e9",
+      "sourceSha256": "72566ed518867bcae41fde75504b150cd8df47256d9179950c5e81cb193adb95",
+      "source": "Phone: Я… Мне надо кому-то выговориться. Столько всего произошло за последнее время…",
+      "observedTarget": "Phone: Kailangan kong… may mapagsabihan. Napakaraming nangyari nitong mga nakaraang araw…",
+      "proposedCompleteTarget": "Phone: Ako… kailangan ko ng taong mapagsasabihan ng mga saloobin ko. Napakaraming nangyari nitong mga nakaraang araw…",
+      "objectiveReason": "The Filipino clause Kailangan kong… may mapagsabihan combines the -ng verb complement with a finite may clause and is ungrammatical. The proposal keeps her hesitation and need to confide in someone, as well as the second sentence.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029000",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028999",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028998",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891028996"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 434,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640395",
+      "collection": "Dialogs",
+      "key": "line:phone_psychics_8_017edd7",
+      "sourceSha256": "1f677609db12f204c1412b3ce48914d6d4391e7f0a96c14837e92d1c5519705c",
+      "source": "Phone: Что ж, тогда последний вопрос: скажите, у вас проливалась кровь дома?",
+      "observedTarget": "Phone: Buweno, huling tanong: may dumanak na ba ng dugo sa bahay ninyo?",
+      "proposedCompleteTarget": "Phone: Buweno, huling tanong: may dumanak na bang dugo sa bahay ninyo?",
+      "objectiveReason": "The target sequence may dumanak na ba ng dugo is grammatically malformed. The Russian question asks whether blood has been spilled in the house; bang attaches the question particle to the preceding na without changing that meaning.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457882640393"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 483,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863178",
+      "collection": "Dialogs",
+      "key": "line:kitchen_cupboards_0a6d8a0",
+      "sourceSha256": "e8161c6990d2f8b553645cdd778da33eaf28319fa0036db8cc7de0ee52e299ae",
+      "source": "На случай праздника доставали только этот красивый сервиз. А теперь… нахер он кому нужен.",
+      "observedTarget": "Tuwing may pagdiriwang lang inilalabas ang magandang set ng pinggan na ito. Pero ngayon… sino pa ba ang may pakialam dito.",
+      "proposedCompleteTarget": "Tuwing may pagdiriwang lang inilalabas ang magandang set ng pinggan na ito. Pero ngayon… putangina, sino pa ba ang may kailangan niyan?",
+      "objectiveReason": "Russian нахер marks the speaker’s coarse register and кому нужен asks who needs the dish set. The observed Filipino removes the profanity and asks who cares about it instead. The proposal restores need and the coarse register.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863177"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 486,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863175",
+      "collection": "Dialogs",
+      "key": "line:bigroom_toy_04cb3b6",
+      "sourceSha256": "1615d178a4278309b8c050fc9b7f20f18ba8c45ffadd5171a35d99dae8e32b16",
+      "source": "Тотошка. Чуть ли не единственная игрушка моего детства.",
+      "observedTarget": "Totoshka. Isa marahil sa iilang laruan ko noong bata ako.",
+      "proposedCompleteTarget": "Totoshka. Halos ito lang ang laruan ko noong bata ako.",
+      "objectiveReason": "Russian чуть ли не единственная means almost the only toy of childhood. Filipino isa marahil sa iilang means probably one of a few, weakening the quantity and certainty. The proposal preserves the near-singular claim.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863176"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 489,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863172",
+      "collection": "Dialogs",
+      "key": "line:bedroom_nightstand_0c505c0",
+      "sourceSha256": "b380e4cac5fe798d7394b3950f6d3a691d037080dff90ee2b4f7fa1a40b43450",
+      "source": "Не люблю спать со стороны тумбочки. Сразу всплывают неприятные воспоминания…",
+      "observedTarget": "Ayokong matulog sa tabi ng aparador. Bumabalik agad ang hindi magagandang alaala…",
+      "proposedCompleteTarget": "Ayokong matulog sa panig ng kama na katabi ng mesita. Bumabalik agad ang hindi magagandang alaala…",
+      "objectiveReason": "Russian тумбочка is the bedside table, and со стороны marks that side of the bed. Filipino aparador denotes a cupboard/wardrobe, changing the object and spatial relation. The proposal restores both.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863173",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863171"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 565,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457840697344",
+      "collection": "Dialogs",
+      "key": "line:phone_wifefema_1_1_0904d13",
+      "sourceSha256": "426f28616930830245989cd2861baee12d331df415515113299870f7fec64893",
+      "source": "Phone: К кому-то ломятся Гости. Или что ещё хуже происходит. Но из-за вас его убьют.",
+      "observedTarget": "Phone: May taong sinusubukang pasukin ng mga Panauhin. O baka may mas malala pang nangyayari. Pero dahil sa inyo, mapapatay siya.",
+      "proposedCompleteTarget": "Phone: Pilit pinapasok ng mga Panauhin ang bahay ng isang tao. O baka may mas malala pang nangyayari. Pero dahil sa inyo, mapapatay ang taong iyon.",
+      "objectiveReason": "Russian К кому-то ломятся Гости describes Guests forcing entry at someone’s home. Filipino May taong sinusubukang pasukin ng mga Panauhin makes the person, rather than the dwelling, the object of entry; the final siya then inherits that confusing construction. The proposal restores the home and identifies the endangered person without inventing identity.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457840697355",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457836503052"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 628,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531531",
+      "collection": "Dialogs",
+      "key": "line:phone_bestson_1_0bfeb6b",
+      "sourceSha256": "2736df12096c54629cb2f2d0acd318b56460be1aa2b399e620e39e4128aea7ab",
+      "source": "Phone: А, вы про кровного брата, верно?",
+      "observedTarget": "Phone: Ah, ang kapatid kong lalaki sa ama ang tinutukoy ninyo, tama?",
+      "proposedCompleteTarget": "Phone: Ah, ang kadugo kong kapatid na lalaki ang tinutukoy ninyo, tama?",
+      "objectiveReason": "Russian кровного брата establishes a biological brother only. Filipino kapatid kong lalaki sa ama specifies paternal descent, a detail present in the glossary biography but not disclosed in this line. The proposal preserves the blood relation and male sibling without revealing its parental side early.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457819725825",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457819725824",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531532",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531529",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531528",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531527"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 802,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270",
+      "collection": "Dialogs",
+      "key": "line:phone_fema_asking_4_06e41f9",
+      "sourceSha256": "6151f5fd8ae72d4fd983596d712544aba7f915f76b914cbf28f2e73aef46f750",
+      "source": "Phone: Делая достоверные обследования, вы помогаете не только себе, но и всему человечеству.",
+      "observedTarget": "Phone: Sa pagsasailalim sa maaasahang pagsusuri, tinutulungan ninyo hindi lamang ang sarili ninyo kundi ang buong sangkatauhan.",
+      "proposedCompleteTarget": "Phone: Sa maaasahang pagsasagawa ninyo ng mga pagsusuri, tinutulungan ninyo hindi lamang ang sarili ninyo kundi ang buong sangkatauhan.",
+      "objectiveReason": "Russian Делая достоверные обследования says the addressee performs accurate examinations. Filipino Sa pagsasailalim sa maaasahang pagsusuri says the addressee undergoes examination, reversing that action. The neighboring Komite lines thank the addressee for their contribution.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811269",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811268",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457752616965",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457752616964"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 822,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422666",
+      "collection": "Dialogs",
+      "key": "line:phone_forrest_cantorder_0840f76",
+      "sourceSha256": "a9c37d27b834a4bd52c60aacf8d58d206a91a4dd358bda95f1ac856b68e8ce1c",
+      "source": "Phone: Из-за большой загрузки мы вынуждены принимать заказы с перерывом.",
+      "observedTarget": "Phone: Dahil sa dami ng gawain, kailangan naming magpahinga sa pagitan ng pagtanggap ng mga order.",
+      "proposedCompleteTarget": "Phone: Dahil sa dami ng order, kailangan naming magtakda ng pagitan bago tumanggap ng panibagong order.",
+      "objectiveReason": "Russian принимать заказы с перерывом means imposing an interval between accepted orders because of workload; the next line rejects a recently repeated order. Filipino kailangan naming magpahinga attributes the interval to staff resting, an explanation absent from source and potentially misleading about the order cooldown.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422667",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422665"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 911,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "collection": "Dialogs",
+      "key": "line:radio_13_0e310a4",
+      "sourceSha256": "446cddcd442d4d9d3641ecb886765a2bfba61c336f99cc8c5fe7a1994d98e5f8",
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "observedTarget": "Uli…itin ko, humingi ng dagdag na pu…wersa. Hindi namin kay…ang pigilan ang nil…alang.",
+      "proposedCompleteTarget": "Uli…itin ko, humingi ng dagdag na pu…wersa. Hindi namin kay…ang pigilan ang sub…heto.",
+      "objectiveReason": "Russian субъ…кт is the clinical radio term subject; the approved radio-employee-18-8 Filipino glossary uses subheto. Draft nil…alang means creature and reveals a nonhuman classification before the later witness explicitly says Это не человек. Keep the broken transmission and the source’s information state.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062534",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673931"
+      ],
+      "glossaryId": "radio-employee-18-8",
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 912,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062534",
+      "collection": "Dialogs",
+      "key": "line:radio_13_00e01fd",
+      "sourceSha256": "23d5ba39496cfd2b1f3fb87d95a3a344176464c85a4571b6f3e790ba48a8e48f",
+      "source": "Субъ…кт покинул террит…рию города. Ср…чно вызывайте подкр…пление.",
+      "observedTarget": "Naka…alis na sa sak…p ng lungsod ang nil…alang. Hu…mingi agad ng dagdag na pu…wersa.",
+      "proposedCompleteTarget": "Naka…alis na sa sak…p ng lungsod ang sub…heto. Hu…mingi agad ng dagdag na pu…wersa.",
+      "objectiveReason": "Russian субъ…кт is the clinical radio term subject; the approved radio-employee-18-8 Filipino glossary uses subheto. Draft nil…alang means creature and reveals a nonhuman classification before the later witness explicitly says Это не человек. Keep the broken transmission and the source’s information state.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673931"
+      ],
+      "glossaryId": "radio-employee-18-8",
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 914,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+      "collection": "Dialogs",
+      "key": "line:radio_12_0b4364c",
+      "sourceSha256": "15f9e5e55adf57fd10b7b810852933158b03441000864bd1ee979644025df4a1",
+      "source": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+      "observedTarget": "Uli…itin ko, kinak…nsela ang kodigo 451. Hindi pinapahi…ntulutan ang pagsu…nog sa mga bang…kay para mapig…lan ang ban…ta ng nil…alang………",
+      "proposedCompleteTarget": "Uli…itin ko, kinak…nsela ang kodigo 451. Hindi pinapahi…ntulutan ang pagsu…nog sa mga bang…kay para mapig…lan ang ban…ta ng sub…heto………",
+      "objectiveReason": "Russian субъ…кт is the clinical radio term subject; the approved radio-employee-18-8 Filipino glossary uses subheto. Draft nil…alang means creature and reveals a nonhuman classification before the later witness explicitly says Это не человек. Keep the broken transmission and the source’s information state.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062534",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062533",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673931"
+      ],
+      "glossaryId": "radio-employee-18-8",
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 977,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091008",
+      "collection": "Dialogs",
+      "key": "line:window_9_1_0a3a5fb",
+      "sourceSha256": "461d0e6f1e3278e3125470b8d2cbeea6f54d0c63a5ae4f78058b45bf813fc886",
+      "source": "Window: Они выглядят как два бестолковых детектива, что пытаются выяснить, как повешенный вообще забрался на столб без лестницы.",
+      "observedTarget": "Window: Para silang dalawang walang kuwentang detektib na nagsisikap malaman kung paanong nakaakyat sa poste ang binitay na tao nang walang hagdan.",
+      "proposedCompleteTarget": "Window: Para silang dalawang walang kuwentang detektib na nagsisikap malaman kung paanong nakaakyat sa poste ang taong nakabitin doon nang walang hagdan.",
+      "objectiveReason": "Russian повешенный states a person is hanging but leaves who caused it unstated. Filipino binitay conventionally describes execution by another party. The sign visible in the linked window scene does not establish an execution; preserve the source ambiguity.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896714",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896706",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702401"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 979,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896714",
+      "collection": "Dialogs",
+      "key": "line:window_9_1_058f612",
+      "sourceSha256": "9d61dc02b9cc5b019bb580b338805c688d9117c4bfd4e77c726c519314bc2182",
+      "source": "Window: Двое КЧС-ников стоят рядом с фонарным столбом и задумчиво смотрят на повешенного.",
+      "observedTarget": "Window: Nakatayo ang dalawang tauhan ng Komite sa tabi ng poste ng ilaw at matamang tinitingnan ang binitay na tao.",
+      "proposedCompleteTarget": "Window: Nakatayo ang dalawang tauhan ng Komite sa tabi ng poste ng ilaw at matamang tinitingnan ang taong nakabitin doon.",
+      "objectiveReason": "The same hanging person is described without an identified executioner in Russian повешенного. Filipino binitay adds an execution interpretation that the scene has not established.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091008",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896706",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702401"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 987,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896706",
+      "collection": "Dialogs",
+      "key": "line:window_8_1_061473e",
+      "sourceSha256": "9f232b59676698186970636460c79a74ecc5551c6b0237d3253f13514f82857c",
+      "source": "Window: Теперь висельник смотрится как мрачная табличка «Добро пожаловать».",
+      "observedTarget": "Window: Para na ngayong malagim na karatulang «Maligayang pagdating» ang binitay na tao.",
+      "proposedCompleteTarget": "Window: Para na ngayong malagim na karatulang «Maligayang pagdating» ang taong nakabitin doon.",
+      "objectiveReason": "Russian висельник identifies the hanging person; Filipino binitay suggests execution. Keep the dark comparison to a welcome sign without assigning cause of the hanging.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091008",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896714",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702401"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1000,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702401",
+      "collection": "Dialogs",
+      "key": "line:window_7_1_0d841c2",
+      "sourceSha256": "be8745ad5d458819cd2c1b7eca46566649bebcd2da49d4e7841c18fe50941035",
+      "source": "Window: На столбе висит повешенный человек с табличкой «Вы забрали у меня всё».",
+      "observedTarget": "Window: May binitay na taong nakasabit sa poste, na may karatulang «Kinuha ninyo ang lahat sa akin».",
+      "proposedCompleteTarget": "Window: May taong nakabitin sa poste, na may karatulang «Kinuha ninyo ang lahat sa akin».",
+      "objectiveReason": "Russian повешенный человек with the sign does not state who hanged the person. Filipino binitay asserts an execution, changing the information available to the player. The proposal preserves the sign and observable hanging.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091008",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896714",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896706",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702403",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702402"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1019,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313797",
+      "collection": "Dialogs",
+      "key": "line:window_5_1_0581cec",
+      "sourceSha256": "7893c4d4df6c7ab84d99629e9b8ffaca26d9f0d72da42cbd5902b613fc84c409",
+      "source": "Window: Теперь мешков с трупами на пару больше.",
+      "observedTarget": "Window: Nadagdagan na naman ng ilang supot ng bangkay.",
+      "proposedCompleteTarget": "Window: Nadagdagan pa ng dalawang supot ng bangkay.",
+      "objectiveReason": "Russian на пару больше specifies roughly a couple more body bags. Filipino ilang means an unspecified several and loses the quantity. The proposal restores two.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313796",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313795",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313794"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1026,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457677119499",
+      "collection": "Dialogs",
+      "key": "line:window_5_2_08014d8",
+      "sourceSha256": "d6d03948c8282f2cc355a192e6f638a6a0bbb342e23c47123d55beac135ed63b",
+      "source": "Window: Вы видите кол, на который насажен череп в каске.",
+      "observedTarget": "Window: Nakikita mo ang tulos na pinagpatungan ng bungong may suot na helmet.",
+      "proposedCompleteTarget": "Window: Nakikita mo ang tulos na may nakatusok na bungong nakasuot ng helmet.",
+      "objectiveReason": "Russian насажен череп на кол describes a skull impaled on a stake. Filipino pinagpatungan says the skull was placed atop it, losing the violent physical relation.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313793",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313792",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457677119500"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1125,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565062",
+      "collection": "Dialogs",
+      "key": "line:tv_10_necessary_011eb68",
+      "sourceSha256": "160b9f917063aa54e1e8e452e3267a30e642260e5108cb0c8469eca1ce7569ab",
+      "source": "TV: Однако нет сомнений, что КЧС урегулирует эту ситуацию, как и нашествие Гостей.",
+      "observedTarget": "TV: Gayunman, walang dudang maaayos ng Komite ang sitwasyong ito, tulad ng ginawa nito sa pagdagsa ng mga Panauhin.",
+      "proposedCompleteTarget": "TV: Gayunman, walang dudang mareresolba ng Komite ang sitwasyong ito, gayundin ang pagdagsa ng mga Panauhin.",
+      "objectiveReason": "Russian урегулирует is future and governs both the current situation and the Guest invasion. Filipino tulad ng ginawa nito claims the Komite already resolved the Guest invasion, a chronology and certainty change.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565063",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565061",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565060"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1168,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787841",
+      "collection": "Dialogs",
+      "key": "line:tv_8_necessary_006acaa",
+      "sourceSha256": "977eb2b45db0720a3b924209bf5e1d5ad7f45dbdbb50b95c08f8aa76a20ee8d6",
+      "source": "TV: Ей и живут Гости.",
+      "observedTarget": "TV: Dito nabubuhay ang mga Panauhin.",
+      "proposedCompleteTarget": "TV: Ang asupre ang ikinabubuhay ng mga Panauhin.",
+      "objectiveReason": "Russian Ей и живут uses instrumental ей referring to feminine сера (sulfur) in the neighboring line: the Guests live on it. Filipino Dito nabubuhay says they live here, turning sustenance into location and losing the referent.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787842",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593546",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593545"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1263,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233410",
+      "collection": "Dialogs",
+      "key": "line:tv_2_extra2_00e58ce",
+      "sourceSha256": "2b1eb9d03b88d00ccb58bdd562effeda2917bb24c1c114118106f599d92ad0ab",
+      "source": "TV: При этом, прежде чем совершить убийство, маньяк общается с жертвой, после чего нападает.",
+      "observedTarget": "TV: Nakikipag-usap muna ang mamamatay-tao sa biktima bago ito salakayin.",
+      "proposedCompleteTarget": "TV: Bago pumatay, kinakausap muna ng mamamatay-tao ang biktima, saka niya ito sinasalakay.",
+      "objectiveReason": "Russian прежде чем совершить убийство explicitly states the attacker commits a murder after speaking with the victim; Filipino only says he speaks before attacking and omits the murder. The proposal restores the event and order.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233411",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233409",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457593233408"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1284,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457584844802",
+      "collection": "Dialogs",
+      "key": "line:window_5_1_01d4c8d",
+      "sourceSha256": "7893c4d4df6c7ab84d99629e9b8ffaca26d9f0d72da42cbd5902b613fc84c409",
+      "source": "Window: Теперь мешков с трупами на пару больше.",
+      "observedTarget": "Window: Nadagdagan na naman ng ilang supot ng bangkay.",
+      "proposedCompleteTarget": "Window: Nadagdagan pa ng dalawang supot ng bangkay.",
+      "objectiveReason": "Exact repeated window line of ordinal 1019: Russian на пару больше specifies roughly two additional body bags; Filipino ilang leaves the count unspecified.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313797",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457584844801",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457584844800",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650504"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1291,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650500",
+      "collection": "Dialogs",
+      "key": "line:window_5_2_08d7f03",
+      "sourceSha256": "d6d03948c8282f2cc355a192e6f638a6a0bbb342e23c47123d55beac135ed63b",
+      "source": "Window: Вы видите кол, на который насажен череп в каске.",
+      "observedTarget": "Window: Nakikita mo ang tulos na pinagpatungan ng bungong may suot na helmet.",
+      "proposedCompleteTarget": "Window: Nakikita mo ang tulos na may nakatusok na bungong nakasuot ng helmet.",
+      "objectiveReason": "Exact repeated window line of ordinal 1026: Russian насажен describes the skull impaled on a stake; Filipino pinagpatungan reduces this to a skull placed atop it.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457677119499",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650503",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650502",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650501"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1421,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457534513152",
+      "collection": "Dialogs",
+      "key": "line:tv_2_extra_2_00e58ce",
+      "sourceSha256": "2b1eb9d03b88d00ccb58bdd562effeda2917bb24c1c114118106f599d92ad0ab",
+      "source": "TV: При этом, прежде чем совершить убийство, маньяк общается с жертвой, после чего нападает.",
+      "observedTarget": "TV: Nakikipag-usap muna ang mamamatay-tao sa biktima bago ito salakayin.",
+      "proposedCompleteTarget": "TV: Bago pumatay, kinakausap muna ng mamamatay-tao ang biktima, saka niya ito sinasalakay.",
+      "objectiveReason": "Exact repeated pale-attacker report of ordinal 1263: Russian explicitly says he commits murder after speaking to the victim; the Filipino line only says he attacks and omits the murder.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457534513153",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457530318858",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457530318857"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1678,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655554",
+      "collection": "Dialogs",
+      "key": "line:Fairytaller_Entrance_1_0402033",
+      "sourceSha256": "3bf453bf1838456eff968538bdf12c2b859f4283bcbaf39a3a7b0fa0ddc0f818",
+      "source": "Fairytaller: А после этих событий выселил под предлогом отсутствия у меня работы, заселив своих сводных родственников.",
+      "observedTarget": "Fairytaller: Pagkatapos ng mga pangyayaring ito, pinalayas niya ako dahil daw wala akong trabaho at pinatira ang mga kapamilya niyang hindi kadugo.",
+      "proposedCompleteTarget": "Fairytaller: Pagkatapos ng mga pangyayaring ito, pinalayas niya ako sa dahilang wala akong trabaho at pinatira roon ang mga kamag-anak niya sa pamilyang nabuo sa muling pag-aasawa.",
+      "objectiveReason": "Russian сводных родственников specifies step-relatives from a blended family. Filipino mga kapamilya niyang hindi kadugo broadens the kinship to any non-blood family members and loses the step relationship.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655555",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655553",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655552"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 1964,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457328992263",
+      "collection": "Dialogs",
+      "key": "line:Unstable_Entrance_4_0f77844",
+      "sourceSha256": "3b5f3b3e5747ee9a402101e33862490d302603d76bb425fd0a82a9d091b9bb94",
+      "source": "Unstable: Можем опытом обменяться по выживанию, хех.",
+      "observedTarget": "Unstable: Puwede tayong magbahaginan ng karanasan sa pagligtas, heh.",
+      "proposedCompleteTarget": "Unstable: Puwede tayong magpalitan ng mga karanasan sa kung paano makaligtas, heh.",
+      "objectiveReason": "Russian по выживанию concerns surviving; Filipino sa pagligtas normally means rescuing/saving someone else, changing the activity in this exchange about staying alive.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457328992264",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457328992262",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457328992260"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2204,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911883",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_Bribe_026f598",
+      "sourceSha256": "8bf0582232d5822a3f73d7c3ffac6a4651d75bde3b47ff8d1e0039dd81682cdf",
+      "source": "Twins: Хм, я понимаю, что вы нас не знаете. Можете думать, что мы втянем вас в передрягу. Но мы не такие. Моей сестрёнке просто очень тяжело.",
+      "observedTarget": "Twins: Hmm, alam kong hindi ninyo kami kilala. Baka iniisip ninyong idadamay namin kayo sa gulo. Pero hindi kami ganoon. Nahihirapan lang talaga ang nakababata kong kapatid na babae.",
+      "proposedCompleteTarget": "Twins: Hmm, alam kong hindi ninyo kami kilala. Baka iniisip ninyong idadamay namin kayo sa gulo. Pero hindi kami ganoon. Nahihirapan lang talaga ang kapatid kong babae.",
+      "objectiveReason": "Russian сестрёнке is an affectionate sister reference and the approved character glossary records two sisters without an age order; nakababata asserts that this sister is younger without source or glossary support.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106176",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911880",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911879"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2207,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911880",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_BothOccupied_09b1518",
+      "sourceSha256": "40616a99bab1ab2789f9e4221c34722c00b7f9645fb17ab319d767efe282bba3",
+      "source": "Twins: Они очень напоминают наших… родителей… а это… не лучшая обстановка для моей сестры в таком состоянии…",
+      "observedTarget": "Twins: Masyado silang nakapagpapaalala sa amin ng… mga magulang namin… at iyan ay… hindi magandang kalagayan para sa nakababata kong kapatid na babae ngayon…",
+      "proposedCompleteTarget": "Twins: Masyado silang nakapagpapaalala sa amin ng… mga magulang namin… at iyan ay… hindi magandang kalagayan para sa kapatid kong babae ngayon…",
+      "objectiveReason": "Russian сестры gives sister without an age order; Filipino nakababata adds a younger-sister relationship not established in source or the approved glossary.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911883",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911879",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2208,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911879",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_BothOccupied_048fdb4",
+      "sourceSha256": "0e974387c1aafa77477eba70df801067b2d5d26d9f6f5ecc5773e931c99a825c",
+      "source": "Twins: Они… боюсь, моей сестре будет только хуже, пока эти двое в доме.",
+      "observedTarget": "Twins: Sila… natatakot akong lalo lang mahihirapan ang nakababata kong kapatid na babae habang nasa bahay ang dalawang iyon.",
+      "proposedCompleteTarget": "Twins: Sila… natatakot akong lalo lang mahihirapan ang kapatid kong babae habang nasa bahay ang dalawang iyon.",
+      "objectiveReason": "Russian сестре gives sister without an age order; Filipino nakababata adds a younger-sister relationship not established in source or the approved glossary.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911883",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911880",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2219,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717576",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_AlkonostOccupied_0df5a23",
+      "sourceSha256": "0844797ad181dbc6a1c2a283b976e93bfab65ff2ae2f0e941fcea1d430326f43",
+      "source": "Twins: Я чувствую, что на мою сестрёнку посыпятся слова осуждений от этого человека.",
+      "observedTarget": "Twins: Pakiramdam ko, hahatulan ng taong iyon ang nakababata kong kapatid na babae.",
+      "proposedCompleteTarget": "Twins: Pakiramdam ko, hahatulan ng taong iyon ang kapatid kong babae.",
+      "objectiveReason": "Russian сестрёнку is an affectionate sister reference; Filipino nakababata asserts a younger age order that the approved character glossary does not establish.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717577",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911883"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2352,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385929",
+      "collection": "Dialogs",
+      "key": "line:Doctor_Entrance_Occupied_07d8fb8",
+      "sourceSha256": "1a9d7d27c5930a3a2bd642a413a69960fc2a8e38dde73e18e1ad274bc4c5fe15",
+      "source": "Doctor: Я не могу обеспечить ему нормального наблюдения.",
+      "observedTarget": "Doctor: Hindi ko siya mabibigyan ng maayos na pangangalaga.",
+      "proposedCompleteTarget": "Doctor: Hindi ko siya masusubaybayan nang maayos bilang pasyente.",
+      "objectiveReason": "Russian наблюдения specifies medical observation or monitoring. Filipino pangangalaga generalizes this to care, losing the Doctor’s stated reason for not sharing a house with this patient.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385930",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385928"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2395,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608715",
+      "collection": "Dialogs",
+      "key": "line:Anxiety_Entrance_Occupied_YesLet_059ef0b",
+      "sourceSha256": "521208a15ae7c05670d1345611e4c282f28ddf6ff0bdb5c3be460fb91835e1f6",
+      "source": "Anxiety: Спасибо. Я тихо посижу в углу. Только не закрывайте дверь, ладно, ахах? Вдруг что…",
+      "observedTarget": "Anxiety: Salamat. Tahimik lang akong uupo sa sulok. Huwag mo lang isara ang pinto, okey, haha? Baka may mangyari…",
+      "proposedCompleteTarget": "Anxiety: Salamat. Tahimik lang akong uupo sa sulok. Huwag lang ninyong isara ang pinto, okey, haha? Baka may mangyari…",
+      "objectiveReason": "Russian не закрывайте uses formal/plural address, consistent with Можете in the same entrance branch. Filipino huwag mo switches to informal singular despite the branch using ninyo elsewhere.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457173803008",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608712",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608711"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 2615,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111239",
+      "collection": "Dialogs",
+      "key": "line:FatalDame_Entrance_3_01d9e82",
+      "sourceSha256": "94ca24a7cedf0c0f756cdb0b453ab8ff47d49538bc12ef5e7735dd104fad16ad",
+      "source": "FatalDame: Могу дать другое, на что согласятся очень немногие.",
+      "observedTarget": "FatalDame: May iba akong maibibigay na iilan lang ang papayag na ibigay.",
+      "proposedCompleteTarget": "FatalDame: May iba akong maiaalok, pero iilan lang ang papayag dito.",
+      "objectiveReason": "Russian на что согласятся очень немногие means very few people would agree to the offered proposition. Filipino iilan lang ang papayag na ibigay changes that to very few people willing to give it, reversing the role of the consenting party in this intimate offer.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111242",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111241",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111240",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111238",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457094111237"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4233,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456527880199",
+      "collection": "Dialogs",
+      "key": "line:Dude_Entrance_2_00f30fa",
+      "sourceSha256": "612a6a4d9a89e334421aa7fdfe46154e4d557db02cd9ee478d805ff4940be465",
+      "source": "Dude: Ты только скажи мне, какие зомби?",
+      "observedTarget": "Dude: Ang dami kong napanood na pelikula tungkol diyan. Ituring mo na akong eksperto sa survival.",
+      "proposedCompleteTarget": "Dude: Sabihin mo lang sa akin, anong klaseng mga zombie?",
+      "objectiveReason": "The Russian line asks what kind of zombies they are. The observed Filipino line repeats the next line about films and survival expertise, omitting this question.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456527880201",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456527880200",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456527880198",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456527880197"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4319,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520072",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Entrance_4_0375270",
+      "sourceSha256": "1ca142972c3ec698f5dc138ecbcf1c26392f22efea2316a0ecf2b42ca95bf9c0",
+      "source": "Buddy: Ладно, шутки в сторону. Пустишь меня, корешок?",
+      "observedTarget": "Buddy: Sige, biro lang muna ang mga iyan. Papasukin mo ba ako, pare?",
+      "proposedCompleteTarget": "Buddy: Sige, tigilan na ang biro. Papasukin mo ba ako, pare?",
+      "objectiveReason": "Russian шутки в сторону means setting jokes aside before a serious request. Filipino biro lang muna ang mga iyan says those are just jokes for now, changing the discourse action.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520074",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520073",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520071",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520070"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4419,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965638",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Entrance_3_0255b0c",
+      "sourceSha256": "2a715145fb4606562b57e921ecd70a2cfcc6bd3af67707e9ca380c00b2a6dc5b",
+      "source": "Fugitive: Вот тебе и карантинная зона КЧС.",
+      "observedTarget": "Fugitive: At walang kuwenta ang seguridad nila.",
+      "proposedCompleteTarget": "Fugitive: Ganyan pala ang lugar ng kuwarantina ng Komite.",
+      "objectiveReason": "Russian is an ironic summation of the Committee quarantine zone. The observed Filipino duplicates the prior line about poor security.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965640",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965639",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965637",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965636"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4420,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965637",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Entrance_3_0990885",
+      "sourceSha256": "0f64b8320326d983841b2a9d67c39d82bc52af481d6b7a18b9b299c72364f311",
+      "source": "Fugitive: А ещё там большой грузовой контейнер, куда людей загоняют, как скот, в начале дня.",
+      "observedTarget": "Fugitive: Ganyan ang lugar ng kuwarantina ng Komite.",
+      "proposedCompleteTarget": "Fugitive: Mayroon pang isang malaking konteyner ng kargamento kung saan itinataboy ang mga tao na parang mga hayop sa simula ng araw.",
+      "objectiveReason": "Russian describes a large cargo container into which people are herded at the start of the day. The observed Filipino instead translates the preceding quarantine-zone summation.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965639",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965638",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965636",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965635"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4421,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965636",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Entrance_3_04776cc",
+      "sourceSha256": "19a148b92acdfc8bae4764205f8fea3523ae97a469111ca4f5ba8d8ecfc79e75",
+      "source": "Fugitive: Представь себе огороженный забором пустырь с парой палаток.",
+      "observedTarget": "Fugitive: May malaking container din ng kargamento; itinataboy nila papasok doon ang mga tao na parang mga hayop sa simula ng araw.",
+      "proposedCompleteTarget": "Fugitive: Isipin mo ang isang bakanteng lupang nababakuran, na may ilang tolda.",
+      "objectiveReason": "Russian asks the listener to picture a fenced empty lot with a few tents. The observed Filipino instead translates the preceding cargo-container line.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965638",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965637",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965635",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456464965634"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 4886,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387782",
+      "collection": "Dialogs",
+      "key": "line:Neighbour_Entrance_3_0bf5f9d",
+      "sourceSha256": "25c0ca99c5e21795c321234971cc8e6e29bf832fdf8ad9c3aa5358cf68df358c",
+      "source": "Neighbour: Сестра сказала, что оставаться дома одному опасно.",
+      "observedTarget": "Neighbour: Sabi ng pinsan kong babae, delikadong manatiling mag-isa sa bahay.",
+      "proposedCompleteTarget": "Neighbour: Sabi ng kapatid kong babae, delikadong manatiling mag-isa sa bahay.",
+      "objectiveReason": "Russian Сестра means sister in this branch. Filipino pinsan kong babae means female cousin and appears to have been carried from the separate cousin branch at ordinal 4876, changing the family relationship.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456305582084",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387786",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387783",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387781"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 6336,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793877001",
+      "collection": "Dialogs",
+      "key": "line:talk_tough_4_0945ce2",
+      "sourceSha256": "453f7edc15bb96a7c54943ed19b8e6445f3d27b60c8020416c46f19e9d1e02f8",
+      "source": "Пошарилась ещё в каких-нибудь моих вещах?",
+      "observedTarget": "Tough: Ginagawa ko ito dahil handa akong gawin ang kahit ano para mabuhay.",
+      "proposedCompleteTarget": "May hinalungkat ka pa bang iba sa mga gamit ko?",
+      "objectiveReason": "This is the player choice asking whether Tough rummaged through more of the player’s belongings. The observed Filipino duplicates Tough’s adjacent response and changes both speaker and meaning.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455798071296",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793877003",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793877002",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793877000"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 6998,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384583",
+      "collection": "Dialogs",
+      "key": "line:Jacob_Asking_4_0042151",
+      "sourceSha256": "5a5f09ad171fe22c1b2b7e61df6fd8e6474909a52cdbfa5e01f7fa75c3666bf3",
+      "source": "Jacob: Потому что всем было насрать на безопасность…",
+      "observedTarget": "Jacob: Naglaba lang sila ng pera ng pamahalaan.",
+      "proposedCompleteTarget": "Jacob: Dahil walang sinuman ang may pakialam sa kaligtasan…",
+      "objectiveReason": "The Russian says nobody cared about safety. The Filipino instead repeats the previous line about laundering government money and omits the safety accusation.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384585",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384584",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384582",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384581"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 7686,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503562",
+      "collection": "Dialogs",
+      "key": "line:Provocateur_Asking_3_2_0d8161b",
+      "sourceSha256": "643f58178c2346fbbe51582c18fac68486560304846e977ede43f538b8694dfc",
+      "source": "Provocateur: Что можете проверять кого угодно, а вас никто не имеет права тронуть?",
+      "observedTarget": "Provocateur: Na puwede ninyong suriin ang sinumang gusto ninyo, pero walang sinumang may karapatang lumapit sa inyo?",
+      "proposedCompleteTarget": "Provocateur: Na puwede ninyong suriin ang sinumang gusto ninyo, pero walang sinumang may karapatang galawin kayo?",
+      "objectiveReason": "The Russian contrasts the player checking anyone with nobody being allowed to touch or challenge the player. The Filipino says nobody may approach the player, changing the accusation to physical proximity.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503563",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503561",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503560"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 7695,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503553",
+      "collection": "Dialogs",
+      "key": "line:Provocateur_Asking_3_1_03de22c",
+      "sourceSha256": "643f58178c2346fbbe51582c18fac68486560304846e977ede43f538b8694dfc",
+      "source": "Provocateur: Что можете проверять кого угодно, а вас никто не имеет права тронуть?",
+      "observedTarget": "Provocateur: Na puwede ninyong suriin ang sinumang gusto ninyo, pero walang sinumang may karapatang lumapit sa inyo?",
+      "proposedCompleteTarget": "Provocateur: Na puwede ninyong suriin ang sinumang gusto ninyo, pero walang sinumang may karapatang galawin kayo?",
+      "objectiveReason": "Repeated branch of the same accusation: source says nobody may touch or challenge the player, whereas the Filipino says nobody may approach the player.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503554",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455332503552"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 8297,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205448",
+      "collection": "Dialogs",
+      "key": "line:Greatmother_Asking_2_3_07be98e",
+      "sourceSha256": "5e4ae418bd170168cf6e3ffbb35acc383b9a77547b4d0be105a44c53d5161662",
+      "source": "Greatmother: Или это коммуналкой раньше было?",
+      "observedTarget": "Greatmother: O dati bang bahay-paupahan ito?",
+      "proposedCompleteTarget": "Greatmother: O dati bang komunal na tirahan ito?",
+      "objectiveReason": "The Russian asks whether the large house used to be a communal apartment or dwelling shared by households. The Filipino says a rental house, which does not convey shared communal housing.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205449",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205447",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205446"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 8298,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205447",
+      "collection": "Dialogs",
+      "key": "line:Greatmother_Asking_2_3_02a489f",
+      "sourceSha256": "8687ba96801ece19bd90c2ba51ba374ee0b999643cc14fa0996dabc63b6729e2",
+      "source": "Greatmother: Нет? А отчего тогда дом такой большой?",
+      "observedTarget": "Greatmother: O dati bang komunal na tirahan ito?",
+      "proposedCompleteTarget": "Greatmother: Hindi? Kung gayon, bakit napakalaki ng bahay?",
+      "objectiveReason": "The Russian asks why the house is so large after the player says no. The Filipino instead asks again whether it was a communal dwelling, duplicating the preceding question and omitting the size question.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205449",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205448",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455110205446"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 8350,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428229",
+      "collection": "Dialogs",
+      "key": "line:Cold_Asking_4_5_0290ff2",
+      "sourceSha256": "9c1ef13695ccb3dd13034d185da7af04ac23edfaf7167995903b8777b7fd8e18",
+      "source": "Cold: Извини.",
+      "observedTarget": "Cold: Baka kahit sa ilalim ng araw, makaramdam ako ng init. Sa huling pagkakataon.",
+      "proposedCompleteTarget": "Cold: Patawad.",
+      "objectiveReason": "The Russian is only Cold’s apology, “Sorry.” The Filipino repeats the preceding line about seeking warmth in the sun, omitting the apology.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428230",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428228",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455093428227"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 8522,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902274",
+      "collection": "Dialogs",
+      "key": "line:talk_hunter_2_015228f",
+      "sourceSha256": "0ed96c61c26f74ffee32da1f22ea6766305255d77438b67c4500e0746e666a29",
+      "source": "Hunter: Будь начеку. Гостем может быть любой из нас.",
+      "observedTarget": "Hunter: Handa akong ikuwento, pero hindi ngayon. Wala akong gana.",
+      "proposedCompleteTarget": "Hunter: Mag-ingat ka. Maaaring Panauhin ang kahit sino sa atin.",
+      "objectiveReason": "The Russian warns that any one of us could be a Guest. The Filipino instead repeats the adjacent refusal to tell the story today, changing the subject and omitting the warning.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902275",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902273",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902272"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 8965,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454875324426",
+      "collection": "Dialogs",
+      "key": "line:Blind_Asking_5_0e1272b",
+      "sourceSha256": "c4d8ef70def8e5a4a09e2ff9b3d12ba1435c650e405daec0386fbb18119e7a48",
+      "source": "Blind: Оно нас разорвёт. Во сне или наяву.",
+      "observedTarget": "Blind: Dudurugin tayo niyon. Sa panaginip man o sa paggising.",
+      "proposedCompleteTarget": "Blind: Pagpipira-pirasuhin tayo niyon. Sa panaginip man o habang gising.",
+      "objectiveReason": "The Russian says the creature will tear people apart, whether dreaming or awake. The Filipino says it will crush them, and “sa paggising” points to waking up rather than the waking state.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454875324427",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454875324425",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454875324424"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 9003,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454862741511",
+      "collection": "Dialogs",
+      "key": "line:Blind_Asking_2_0191532",
+      "sourceSha256": "dc462683656442373fd22c0ec33d764f9fc01367ed3762306eb629d62533aab9",
+      "source": "Blind: Я знаю, что больше не увижу его. Даже если до меня доберутся и убьют, я даже не увижу, что это.",
+      "observedTarget": "Blind: Hindi ko alam ang hitsura ng bahay mo, kaya mahirap maghanap ng daan. At sasakit ang mga hukay ng mata ko kung wala ang pampawala ng sakit…",
+      "proposedCompleteTarget": "Blind: Alam kong hindi ko na iyon makikita. Kahit maabutan nila ako at patayin, hindi ko man lang makikita kung ano iyon.",
+      "objectiveReason": "The Russian says Blind will never see the creature again, even if it reaches and kills him. The Filipino repeats the preceding line about navigating the house and pain in his eye sockets, omitting the entire source statement.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454862741514",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454862741513",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454862741512",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454862741510"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 10575,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454288121861",
+      "collection": "Dialogs",
+      "key": "line:Fanatic_Asking_1_2_08b1440",
+      "sourceSha256": "55c0336aa32efc8f99fab7cf60e215a04beef38c08f3809cc3efd68ab7f7f12f",
+      "source": "Fanatic: КЧС – проклятые ЕРЕТИКИ!",
+      "observedTarget": "Fanatic: Ang КЧС ay mga isinumpang EREHE!",
+      "proposedCompleteTarget": "Fanatic: Ang Komite sa mga Sitwasyong Pang-emerhensiya ay mga isinumpang EREHE!",
+      "objectiveReason": "The Russian agency abbreviation КЧС remains in Cyrillic in an ordinary denunciation. The approved Filipino glossary identifies the agency as Komite sa mga Sitwasyong Pang-emerhensiya; this line has no abbreviation wordplay requiring retention.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454288121862",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454288121861",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454288121860"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 10945,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904135",
+      "collection": "Dialogs",
+      "key": "line:Tourist_Armpit_Gun_0b329a0",
+      "sourceSha256": "a2749757d2da8f3f882500ee808e3b0d82f3b73d4bcf13bb14e32bb76c87ff9a",
+      "source": "Tourist: Вы что, хотите сказать, что раздражение на коже — это симптом?",
+      "observedTarget": "Tourist: Sinasabi ba ninyong sintomas ang pangangati sa balat?",
+      "proposedCompleteTarget": "Tourist: Sinasabi ba ninyong sintomas ang iritasyon sa balat?",
+      "objectiveReason": "The Russian identifies skin irritation as the alleged symptom; the Filipino specifies itching, which narrows the visible skin finding and can change the diagnostic clue in this armpit inspection branch.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454158098443",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904137",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904136",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904135",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454149709835"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 10986,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321219",
+      "collection": "Dialogs",
+      "key": "line:Tourist_Hands_028e249",
+      "sourceSha256": "a9db7be4b6e2573926c95e6caadc7aec33e3b63c565a91d3b557b9ed59f652b8",
+      "source": "Tourist: Руки? Вы ищете какое-то раздражение?",
+      "observedTarget": "Tourist: Mga kamay ko? Naghahanap ba kayo ng pangangati?",
+      "proposedCompleteTarget": "Tourist: Mga kamay ko? Naghahanap ba kayo ng iritasyon?",
+      "objectiveReason": "The Russian asks whether the player is looking for irritation on his hands. The Filipino changes the examined physical condition to itching; the same narrowing occurs at ordinal 10945 and should be adjudicated together.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904135",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454145515526",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321222",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321221",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321219"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 11247,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852230",
+      "collection": "Dialogs",
+      "key": "line:Leper_Ears_DontShoot_02c37c1",
+      "sourceSha256": "91a1a0747089af7282e868bdcff19f3a343c47654949bcf3cef612ed06f0d036",
+      "source": "Leper: КЧС ни разу не говорил, что есть такой признак.",
+      "observedTarget": "Leper: Ni minsan, hindi sinabi ng КЧС na may ganiyang palatandaan.",
+      "proposedCompleteTarget": "Leper: Ni minsan, hindi sinabi ng Komite sa mga Sitwasyong Pang-emerhensiya na may ganiyang palatandaan.",
+      "objectiveReason": "The Russian agency abbreviation КЧС remains in Cyrillic in an ordinary claim about official signs. The approved Filipino glossary identifies the agency as Komite sa mga Sitwasyong Pang-emerhensiya; this line has no abbreviation wordplay requiring retention.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852230",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454040657932",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463616"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 13483,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669892",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Photo_Gun_05dacf6",
+      "sourceSha256": "ad575bdc64307e0591d52ce25523697a4c6e118bf9676f229d5bba0c4920d605",
+      "source": "NotTrue: Что, из этого тоже будешь щёлкать?",
+      "observedTarget": "NotTrue: Ano, kukunan mo rin ba iyan ng litrato?",
+      "proposedCompleteTarget": "NotTrue: Ano, iyan din ba ang gagamitin mong pangkuha ng litrato?",
+      "objectiveReason": "In the Photo_Gun branch, Russian из этого marks the drawn gun as the instrument she jokingly asks the player to click/shoot with. The Filipino instead asks whether the gun itself will be photographed, reversing the instrument and object.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669894",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669893",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669892",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452849475587",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452845281287"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 14391,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452484571136",
+      "collection": "Dialogs",
+      "key": "line:Teacher_Armpit_06f53c8",
+      "sourceSha256": "a6cc44768e27b4b37c8757a684cb208465e9a92ea71e32215ea5d1dcd00f2a76",
+      "source": "Teacher: Только вот… их уже не научишь. Ничему…",
+      "observedTarget": "Teacher: Pero ngayon… hindi na sila matuturuan. Ng kahit ano…",
+      "proposedCompleteTarget": "Teacher: Pero ngayon… hindi na sila matuturuan ng kahit ano…",
+      "objectiveReason": "The source is one connected thought: the children can no longer be taught anything. The Filipino splits off “Ng kahit ano…” after a full stop, leaving a prepositional fragment that does not read as an idiomatic sentence or pause in Filipino.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452484571138",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452484571137",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452484571136",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452480376842",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452480376841"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 14614,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102152",
+      "collection": "Dialogs",
+      "key": "line:Fatman_Armpit_DontShoot_07bda6b",
+      "sourceSha256": "116e6f5510cdd16c3239fe6a7a13513d9caaac9e545b64f7a1c6e9301efc2e08",
+      "source": "Fatman: В молодости я знал одного человека… Тоже, кхе-хе, с таким же «богатством» под руками. Он говорил: «Это как волосы на голове Самсона».",
+      "observedTarget": "Fatman: Noong bata pa ako, may kilala akong lalaki… May ganoon ding «kayamanan» sa ilalim ng mga braso, ehe-ehe. Sabi niya, «Parang buhok sa ulo ni Samson».",
+      "proposedCompleteTarget": "Fatman: Noong kabataan ko, may kilala akong lalaki… May ganoon ding «kayamanan» sa ilalim ng mga braso, ehe-ehe. Sabi niya, «Parang buhok sa ulo ni Samson».",
+      "objectiveReason": "Russian “В молодости” means in his youth/young adulthood. Filipino “Noong bata pa ako” specifies childhood and changes the age at which Fatman knew this man.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102153",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102152",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102151",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102150"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 14801,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798985",
+      "collection": "Dialogs",
+      "key": "line:Bestson_Hands_DontShoot_0d194f0",
+      "sourceSha256": "0c467e1e564a94d521608466f1e5c2624c58bb91c55fe32ab0b935effaa9a118",
+      "source": "Bestson: А папа смеялся, что у меня его кулачища – крепкие, как у него в молодости.",
+      "observedTarget": "Bestson: Tinatawanan naman ni Papa na malalaki at matitibay ang mga kamao ko, gaya ng sa kaniya noong bata pa siya.",
+      "proposedCompleteTarget": "Bestson: Tinatawanan naman ni Papa na malalaki at matitibay ang mga kamao ko, gaya ng sa kaniya noong kabataan niya.",
+      "objectiveReason": "Russian “в молодости” describes the father in his youth, while “noong bata pa siya” specifies his childhood. The target shifts the comparison to a different age.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452320993280",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798986",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798985",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452316798984"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 14889,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438852",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Teeth_DontShoot_02331be",
+      "sourceSha256": "8129cb519db351730744e3816a4a9368bb0fa807d0ee10ab233eb93bbb51f524",
+      "source": "Fugitive: В карантинной зоне не было зеркал. Нам не нужно было видеть, как мы превращаемся в скот.",
+      "observedTarget": "Fugitive: Walang salamin sa sonang kuwarantina. Hindi namin kailangang makita kung paano kami ginagawang mga hayop.",
+      "proposedCompleteTarget": "Fugitive: Walang salamin sa sonang kuwarantina. Hindi namin kailangang makita kung paano kami nagiging mga hayop.",
+      "objectiveReason": "Russian “как мы превращаемся в скот” presents the captives becoming like cattle; Filipino “ginagawang mga hayop” makes someone else the implied agent turning them into animals. The scene does not state such an agent in this sentence.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438854",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438853",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438852",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438851"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 15144,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164167",
+      "collection": "Dialogs",
+      "key": "line:Wifefema_Teeth_DontShoot_0c82f30",
+      "sourceSha256": "63c723ea6e147c3184cac8ee4e18e85b5c52c34065f68dac2f51785407fb78e5",
+      "source": "Wifefema: Хех, ты ж не думаешь, что у тебя они останутся целыми, если будешь и дальше себя так вести?",
+      "observedTarget": "Wifefema: Heh, hindi mo naman iniisip na mananatiling buo ang mga kamay mo kung patuloy kang ganyan, di ba?",
+      "proposedCompleteTarget": "Wifefema: Heh, hindi mo naman iniisip na mananatiling buo ang mga ngipin mo kung patuloy kang ganyan, di ba?",
+      "objectiveReason": "This line is in Wifefema_Teeth_DontShoot and follows her remarks about teeth. Russian “они” refers to the player’s teeth, but Filipino names the player’s hands, changing the body part and threat.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164169",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164168",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164167",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164166"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 15346,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452119666698",
+      "collection": "Dialogs",
+      "key": "line:Sirin_Eyes_DontShoot_0b0d401",
+      "sourceSha256": "83aeb2109a78adab86d4cb2547a21caad0c09b4ac8d76e764d02805e5507feca",
+      "source": "Sirin: Вечная агония и предвкушение смерти.",
+      "observedTarget": "Sirin: Walang hanggang paghihirap at paghihintay sa kamatayan.",
+      "proposedCompleteTarget": "Sirin: Walang hanggang paghihirap at pananabik sa kamatayan.",
+      "objectiveReason": "Russian “предвкушение смерти” is anticipation or relish of death, fitting Sirin’s morbid voice. Filipino “paghihintay” means merely waiting and removes the eager tone.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452123860994",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452123860993",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452123860992",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452119666698",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452119666697",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452119666696"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    },
+    {
+      "acceptedOrdinal": 16059,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842627",
+      "collection": "Dialogs",
+      "key": "line:Anger_Teeth_DontShoot_076da75",
+      "sourceSha256": "d5f53881ed958c53ea357edb086614929c34ee6d1a17fc7520ee98a065e809b5",
+      "source": "Anger: А потом… Ну, время-то пришло. Только никто мне ничего не поставил.",
+      "observedTarget": "Anger: Tapos… dumating na ang panahon. Pero walang nagpakabit sa akin ng kahit ano.",
+      "proposedCompleteTarget": "Anger: Tapos… dumating na ang panahon. Pero walang nagkabit sa akin ng kahit ano.",
+      "objectiveReason": "In the gold-tooth story, Russian “никто мне ничего не поставил” means no one installed a tooth for him. Filipino “walang nagpakabit sa akin” makes the unnamed person arrange or request an installation rather than perform it, shifting the action and agent.",
+      "contextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842628",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842627",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842626",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842625",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842624",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451838648329"
+      ],
+      "decision": "proposed; adjudicate with complete correction batch after full pass"
+    }
+  ]
+}

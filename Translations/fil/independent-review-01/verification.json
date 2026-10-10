@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_01",
+  "cutoffUtc": "2026-10-09T21:43:15.056873+00:00",
+  "status": "independent review complete; corrections and bounded recipe repair required",
+  "acceptedFirstPassUnits": 16538,
+  "suppliedClosureUnits": 7956,
+  "uniqueDecisions": 7956,
+  "mandatoryRegressionUnits": 7095,
+  "objectiveCorrectionProposals": 19,
+  "withdrawnProvisionalCandidates": 5,
+  "additionalBoundedDiagnosticPairs": 20,
+  "pinsUnchanged": true,
+  "pinChecks": [
+    {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "expected": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+      "actual": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+      "passed": true
+    },
+    {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "expected": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782",
+      "actual": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782",
+      "passed": true
+    },
+    {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "expected": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+      "actual": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+      "passed": true
+    },
+    {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "expected": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+      "actual": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+      "passed": true
+    },
+    {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "expected": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+      "actual": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+      "passed": true
+    },
+    {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "expected": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54",
+      "actual": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54",
+      "passed": true
+    },
+    {
+      "path": "Translations/fil/build-semantic-correction-closure-001.py",
+      "expected": "9e6ce20757a3e60c37297bf05534bd645aa59dde656f2b46c9e2e5384acf0c41",
+      "actual": "9e6ce20757a3e60c37297bf05534bd645aa59dde656f2b46c9e2e5384acf0c41",
+      "passed": true
+    }
+  ],
+  "closureSha256": "44c790cb558e4c7991cad9ae7984dc4979f7454f1ebdd1d083a590d7e5e5445b",
+  "pairedSha256": "9b924e925873e951fc0e1a75c65d36f8a4c47e2bbd77684fcdbbbd682efab837",
+  "builderVerify": "passed exact reproduction at start and completion",
+  "componentCounts": {
+    "changed": 64,
+    "explicitContext": 197,
+    "exactSourceRepetition": 67,
+    "glossaryReferent": 2588,
+    "runtimeBinding": 456,
+    "mandatoryRegression": 7095
+  },
+  "unexplainedMissingIds": 0,
+  "unexplainedExtraIds": 0,
+  "readInputs": [
+    {
+      "path": "Translations/fil/independent-review-01/input-0001-0100.jsonl",
+      "rows": 100,
+      "sha256": "017283945fc0e0127ef019e274fbb20381077187287524089a7f562350b9bd28"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0101-0220.jsonl",
+      "rows": 120,
+      "sha256": "9b8e4a75b7a53fc355764394e5ed1ab00e0563da5c8787c215cd756d22e4ed10"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0221-0300.jsonl",
+      "rows": 80,
+      "sha256": "ccfb278741ff9afd3ce0e0bf0394b3705797fc136c3c5e04035234300c3d46b7"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0301-0400.jsonl",
+      "rows": 100,
+      "sha256": "3a91efe8876eced925c533f3b05adc1a060b19149692cc70257223d5451e7083"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0401-0500.jsonl",
+      "rows": 100,
+      "sha256": "ffddf92524bd59507307735618d6aa39ea4a86408a99a0e2f411b219d72967a9"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0501-0620.jsonl",
+      "rows": 120,
+      "sha256": "175254c817f0fb5180d39f2416013b2d7c64ad610dc02b4c3dd1a5a7bb65d6db"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0560-0567.jsonl",
+      "rows": 8,
+      "sha256": "1ac4008f59aacfefa1cadc02dc44c2d8e68f037dcd13bc4f2b34d23e36f36eea"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0621-0700.jsonl",
+      "rows": 80,
+      "sha256": "c0768d8ff8d4ad4a4fe8c8c798fb7bf1649200da8e8bf34212456337944884b1"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0701-0780.jsonl",
+      "rows": 80,
+      "sha256": "cde4d80ad8e4d0bebfbf9db06a55c0b2ec5b064220214abac5208f1b120d9f42"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0781-0860.jsonl",
+      "rows": 80,
+      "sha256": "86e897e5f65237eaca42c9c0d25c48790c89b1b0b1478f7e150d18bb1dd05ffe"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0861-0960.jsonl",
+      "rows": 100,
+      "sha256": "2cf514155093bf8421b3b085b1fea3c21a964c8d9e269798873ad3be8bdeb0d6"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-0961-1080.jsonl",
+      "rows": 120,
+      "sha256": "ee2728ef64f5dfe248a92006456d399475bb5d2583bbd3281ad859e8942e99e9"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1081-1180.jsonl",
+      "rows": 100,
+      "sha256": "db3b73fb561873b5f5af512170d23c1b68964302d059c9894966aa53683e8f1a"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1181-1280.jsonl",
+      "rows": 100,
+      "sha256": "d35250120a80658b4511c93a44448642a7184e3bdcc5d9e3a72546e4b40db430"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1281-1400.jsonl",
+      "rows": 120,
+      "sha256": "c95ba205835b84158c359b8af10457aedfd9c5322f0ff62ae8652ea5f14474d6"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1401-1500.jsonl",
+      "rows": 100,
+      "sha256": "311369ce28b0de90752d0384e7b0bd528b18807e288cd7199f4dc35018e42e53"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1501-1600.jsonl",
+      "rows": 100,
+      "sha256": "f18e90897338d09a492d9f14376175e8e2abec0388fabc55d2a75ff6ea38b28d"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1549-1551.jsonl",
+      "rows": 3,
+      "sha256": "baf42fb722d3c0db83c0ba0962a09e2aad30e44912e78d216662982c08cc0742"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1601-1850.jsonl",
+      "rows": 250,
+      "sha256": "9a5ac2d26edbb1aa4bc72ef617fc7081b035e578c0569f0e35ed5a2cce791104"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1680-1730.jsonl",
+      "rows": 51,
+      "sha256": "c72a6a8681efc29d5621b02f010dc84e55204cd2fba3ab46a674492730dbb809"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-1851-2100.jsonl",
+      "rows": 250,
+      "sha256": "8df9571369b6327b3ab524c5d947aaecc90d4468ad4b31ef49b21083776eda25"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-2101-2350.jsonl",
+      "rows": 250,
+      "sha256": "02e9a89a69e29a853e676183a3585d3c107a40f59346427124d9195779394ac4"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-2351-2600.jsonl",
+      "rows": 250,
+      "sha256": "267d4a179fcab3a5cd1d283f1a4b126e26b1690176c711b7b93f46bf3562fc4a"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-2601-2900.jsonl",
+      "rows": 300,
+      "sha256": "7a24b2a4a5b13d3286b6c1908f4e5a2eafae8752550a3006cc05ca896c054357"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-2731-2804.jsonl",
+      "rows": 74,
+      "sha256": "0b8e3d423095950a9f0945a770bccd3cbb5348a173fa199146e6e7eb22daa772"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-2901-3100.jsonl",
+      "rows": 200,
+      "sha256": "4917f4ad2c6a4022af529f7c5df1bf5d9336be88907183815e03f37fadd2f64d"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-3101-3320.jsonl",
+      "rows": 220,
+      "sha256": "c30764512cd3f869a07591e55691a417526abd77e7d4712817e12f86e0f6d1d3"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-3321-3520.jsonl",
+      "rows": 200,
+      "sha256": "9ca3d6ac0a0e7275ed636d263601ec4a5ba95f19de61ed3964193d0e6d9d879c"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-3521-3720.jsonl",
+      "rows": 200,
+      "sha256": "a79e35995b1791197caf472db6de3971071ba1a04062b391263ce0a1c339d4ad"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-3721-3920.jsonl",
+      "rows": 200,
+      "sha256": "93b6a53ee1c5f8de4a2426153e4221a6e70b64359fcb07a3dc361d0e3d84df8c"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-3921-4120.jsonl",
+      "rows": 200,
+      "sha256": "9978064913a34d38d0c45f3088ce55e04822d7e94d42d3ca6902eb2786ff1892"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-4121-4320.jsonl",
+      "rows": 200,
+      "sha256": "33c9a8dc84682fa37a49557d57d8778f220633bfc57faef0d311ee6138a93d3e"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-4321-4520.jsonl",
+      "rows": 200,
+      "sha256": "8ec2d968a349387a9997ada477c4ff976d44a023a84df5a2f5b6afd65f42bbcf"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-4521-4720.jsonl",
+      "rows": 200,
+      "sha256": "1a2a9df787c3841f3679af3a35dbff108a19f616788e31e4f75259d4c830211a"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-4721-4920.jsonl",
+      "rows": 200,
+      "sha256": "1466b3690c0483fc49927fa81b84448e29e4fe797d51bf4c8b35efe8b79cfddc"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-4921-5150.jsonl",
+      "rows": 230,
+      "sha256": "bbba42359b3565c601a7fbd402aae59cdb22f09ca118a7ec923ec7515b8dbec5"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-5151-5380.jsonl",
+      "rows": 230,
+      "sha256": "dbca4b439959721be48ade112a8bab5b9db8a34760c96c2d5885a319ecef31c7"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-5381-5610.jsonl",
+      "rows": 230,
+      "sha256": "0fe79e2509c84c6a2d656fec4ca7e77de3d4464f33d971785748a15ec07118fc"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-5611-5840.jsonl",
+      "rows": 230,
+      "sha256": "39449d1a6386fd6e768bd0ff7aab3b822dc7d7f45f341250563ead449c8a1422"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-5841-6070.jsonl",
+      "rows": 230,
+      "sha256": "48075832485bd5ba1efccbc3809eabbb7ec37ee6315187e64430f32d1baa3af5"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-6071-6300.jsonl",
+      "rows": 230,
+      "sha256": "095bc3e70d8a065bc1bd9f4d08038c478b5e4fbd0c627b1513b1a0b17e778be2"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-6301-6530.jsonl",
+      "rows": 230,
+      "sha256": "18a5f831fa517ce6507b2b837ccbfe8b51b9fde412748349a99a43a9b9b078c2"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-6531-6760.jsonl",
+      "rows": 230,
+      "sha256": "3f43d2a6cd70429949b4208cff3df3acc61ebb2f99b920f9645b2eef721059b0"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-6761-6990.jsonl",
+      "rows": 230,
+      "sha256": "904617e8c0932502407b99cdddb74f8203bf2df772d0ff73ea9c3e1e7a5cd0e0"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-6991-7220.jsonl",
+      "rows": 230,
+      "sha256": "27c12c3c210f4add0b762ee66b251af7635d0331eea9d597727d80804ce5798d"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-7221-7450.jsonl",
+      "rows": 230,
+      "sha256": "a5aec27f0205fe6ba76419e4603f9da199a5f19895d109014b5d4ecbcf46558f"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-7451-7680.jsonl",
+      "rows": 230,
+      "sha256": "31a053c48950a396d3293a5b43a9806c6da16fd34a53936dbc96dd88cb1bba14"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-7681-7956.jsonl",
+      "rows": 276,
+      "sha256": "37d186b71db61d9f5ae6a938adb680ecdf7c6048e2bd1e4691de1e66e35d15df"
+    },
+    {
+      "path": "Translations/fil/independent-review-01/input-7847-7954.jsonl",
+      "rows": 108,
+      "sha256": "263b9685995b810a342a38960a91d41ef8554de65638e4f8e9698489720adee7"
+    }
+  ],
+  "readCoverage": {
+    "firstClosureRow": 1,
+    "lastClosureRow": 7956,
+    "uniqueRows": 7956,
+    "recoveredTruncationRanges": [
+      "560-567",
+      "1549-1551",
+      "1680-1730",
+      "2731-2804",
+      "7847-7954"
+    ],
+    "basis": "Complete bounded displays with final per-ID decisions; grouped option diagnostic not credited as full paired reads"
+  },
+  "compiledContext": {
+    "requiredNodes": 82,
+    "readNodes": 82,
+    "instructionCount": 1194,
+    "inputs": [
+      {
+        "path": "Translations/fil/independent-review-01/compiled-input-01-20.json",
+        "nodes": 20,
+        "sha256": "0a1e7e79fa1609a8d78864b8710014ff06add6481a18807fdc7ba5b30158c051"
+      },
+      {
+        "path": "Translations/fil/independent-review-01/compiled-input-21-40.json",
+        "nodes": 20,
+        "sha256": "3411be7653af2b2eb27e820e456dea0c09aabd84094e88e81915ab33ff7124f0"
+      },
+      {
+        "path": "Translations/fil/independent-review-01/compiled-input-41-60.json",
+        "nodes": 20,
+        "sha256": "6618390d588c2c4cd471750a1c34189a9416471d4e2348e6eb2eb35109b8b692"
+      },
+      {
+        "path": "Translations/fil/independent-review-01/compiled-input-61-82.json",
+        "nodes": 22,
+        "sha256": "0d7dffc49b730f0d71e7bc12101e483724e6b63ec8ed4f385a727b9eafe0b7d5"
+      }
+    ],
+    "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "runtimeDynamicConsumers": 6,
+    "compiledAbsentChangedOrdinals": [
+      1284,
+      1291,
+      1421
+    ],
+    "limit": "Decoded instruction/branch/order/options evidence; not live reachability"
+  },
+  "allCompiledSupplierCalls": {
+    "GetPhoneNumber": 18,
+    "PeekDeficitItem": 20,
+    "LocalizeItem": 21,
+    "GetCharacterOnPlace": 56,
+    "GetCourierOrder": 4
+  },
+  "compiledParameterErrors": [],
+  "catalog": {
+    "characterDataObjects": 72,
+    "characterFieldVerification": "byte-exact prefix before ManagedReferencesRegistry, not registry decoding",
+    "otherGameDataVerification": "full byte-exact roundtrip",
+    "requiredDynamicAssemblyEvidence": "dynamic-assembly-decisions.json",
+    "callbackEvidence": "independent-callbacks-v2.json"
+  },
+  "technicalLimits": [
+    "Game not launched; runtime rendering, layout, glyphs, installer, cross-platform behavior and live scheduling were not exercised.",
+    "Textures/images excluded.",
+    "Accepted uncompiled repeats remain inventory text, not live reachability proof.",
+    "Source-only assets and IL were read-only; no authored/source/glossary/shared helper/state/Git/index changes.",
+    "Full CharacterSOData managed-reference decoding failed on stripped metadata; required prefix fields were independently verified byte-exactly."
+  ],
+  "modelTelemetry": {
+    "model": "GPT-6 generic identity; exact deployed model and reasoning unknown",
+    "inputTokens": null,
+    "cachedInputTokens": null,
+    "outputTokens": null,
+    "totalTokens": null,
+    "reason": "No per-agent counters exposed; parent/platform may provide actual session telemetry. No estimates used."
+  },
+  "authoredChanges": 0,
+  "findingsSha256": "de107efb33b5ca8e573d1246fa0fae04ab1d9c0e74128898d05a8b82bb84b9ad",
+  "decisionsSha256": "dce7442a5ac80dc4d642acf55f24f77da3018db0d6e0fd34de86d31b50f605cd",
+  "recipeFindingsSha256": "747e74e53a273ed95cd8cba679fc08b7b46cd6a4bcfd777da94852dd4418a7be"
+}

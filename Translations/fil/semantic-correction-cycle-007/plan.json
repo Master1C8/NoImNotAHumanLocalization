@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 7,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "complete two-unit consolidated author adjudication/preflight before mutation",
+  "rows": [
+    {
+      "acceptedOrdinal": 2834,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765",
+      "collection": "Dialogs",
+      "key": "line:Miner_Entrance_2_1_0f64797",
+      "nodeNames": [
+        "Miner_Entrance_2_1"
+      ],
+      "source": "Miner: Слушай, время тут вообще как-то странно идёт. Тут ни солнца, ни часов нет. Так что хрен знает, сколько мы тут уже.",
+      "sourceSha256": "d67d50a0f7773bca46d3b4ae5b0b0e331fcadea2b54deed90f4c8978694c4b8f",
+      "target": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na tayo katagal dito.",
+      "targetSha256": "d293356a823e86d8820ed9c171e27c07b88c748da50ad44299de9c932383ae9d",
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Miner_Entrance_2_1_0f64797",
+        "nodeNames": [
+          "Miner_Entrance_2_1"
+        ],
+        "sites": [
+          {
+            "node": "Miner_Entrance_2_1",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Miner_Entrance_2_1_0f64797",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "36462cc8efbc540c59fcb1cd3b6ef86119c7ad316529639ad7d4b4c5cc98b841",
+      "conceptSelectors": [
+        "exclusive-underground-group"
+      ],
+      "findingId": "fil-review06-2834",
+      "glossaryId": "miner",
+      "approvedGlossary": {
+        "term": "Minero",
+        "meaning": "Bisitang nag-aalok sa pangunahing tauhan na bumaba at nangangakong aalalayan siya mula sa itaas. Kumpirmado ang mga panlalaking anyo sa sarili niyang mga linya; huwag gawing garantiya ng ligtas na resulta ang kanyang mga pangako. Sa UI, character_Podvalny. Lalaki ang tauhan; panatilihin ang pagtukoy sa lalaki at ang sandali ng pagbubunyag sa orihinal na eksena."
+      },
+      "decision": "accept objective full replacement",
+      "reason": "The underground duration group excludes the upstairs addressee: following actual RunLine says там, наверху. Change only tayo to kami. Malay natin remains the accepted blunt shared-uncertainty idiom; it does not place the listener underground. All time/sun/clock facts and uncertainty preserved.",
+      "acceptedFullTarget": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na kami katagal dito.",
+      "acceptedFullTargetSha256": "61db8b1dc86b61d22653e20719d49dccfcffd44afc9b61ab00d4dbcab4ddec13",
+      "protectedSyntaxPreflight": "passed v4 exact grammar plus prefix/tokens/digits/whitespace/line breaks",
+      "semanticPreflight": "source facts/participants/agency/instruments/time/modality/reveal and all unchanged sentences checked against actual branch and approved glossary",
+      "assembledPreflight": "Actual pinned RunLine with0 substitutions. Prefix and every unrelated sentence unchanged; no dynamic inputs/joins introduced. Adjacent text from actual bytecode, not flattened JSON.",
+      "independentReadCredit": 0
+    },
+    {
+      "acceptedOrdinal": 16128,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501",
+      "collection": "Dialogs",
+      "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+      "nodeNames": [
+        "Mother_Hands_DontShoot"
+      ],
+      "source": "Mother: Руки... Я ими детей обнимала, всё по дому делала и мужа ласкала. И знаешь что? Всё равно никто нихера не ценит.",
+      "sourceSha256": "9fe4e96e7045cdbe94d6f90f91358d14fd8de989cf4f842f3025287623d1490e",
+      "target": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ipinanglinis ng bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "targetSha256": "73f3694fd5393b7a42dd4c275fabe015106b3300d33b01b33475ad7638a20c29",
+      "authoredPath": "Translations/fil/dialogue-batch-441.json",
+      "consumerIdentity": {
+        "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+        "key": "line:Mother_Hands_DontShoot_0b3d4e5",
+        "nodeNames": [
+          "Mother_Hands_DontShoot"
+        ],
+        "sites": [
+          {
+            "node": "Mother_Hands_DontShoot",
+            "instruction": 1,
+            "opcode": "RunLine",
+            "operands": [
+              "line:Mother_Hands_DontShoot_0b3d4e5",
+              0.0
+            ]
+          }
+        ]
+      },
+      "consumerIdentitySha256": "639e35b8c3da5e9521be0875e8666d534180a90e069336ecc0a825f7002acc37",
+      "conceptSelectors": [
+        "household-work-totality"
+      ],
+      "findingId": "fil-review06-16128",
+      "glossaryId": "mother-with-child",
+      "approvedGlossary": {
+        "term": "Babaeng may bata",
+        "meaning": "Inang nawalan ng mga anak at dumarating kasama ang isang bata; ibinibigay ang numero ng asawa. Panatilihin ang sarili niyang mga pag-amin at pagiging hindi mapagkakatiwalaan ng kuwento; ihiwalay ang ina, bata at asawa, at huwag ipaghalo kay Greatmother. Babae ang tauhan; panatilihin ang pagtukoy sa babae at ang sandali ng pagbubunyag sa orihinal na eksena."
+      },
+      "decision": "accept objective full replacement",
+      "reason": "всё по дому делала denotes all household work, not cleaning only. Replace only ipinanglinis ng bahay with ginamit sa lahat ng gawain sa bahay. Hands remain the instruments used by Mother for embracing her children, household tasks and caressing her husband. Every other sentence, complaint and accepted profanity stays exact.",
+      "acceptedFullTarget": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ginamit sa lahat ng gawain sa bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "acceptedFullTargetSha256": "13d8ff344562f6f77ef2a2c283ec0bf8c6682a05c1715617f361373eaa14c2b5",
+      "protectedSyntaxPreflight": "passed v4 exact grammar plus prefix/tokens/digits/whitespace/line breaks",
+      "semanticPreflight": "source facts/participants/agency/instruments/time/modality/reveal and all unchanged sentences checked against actual branch and approved glossary",
+      "assembledPreflight": "Actual pinned RunLine with0 substitutions. Prefix and every unrelated sentence unchanged; no dynamic inputs/joins introduced. Adjacent text from actual bytecode, not flattened JSON.",
+      "independentReadCredit": 0
+    }
+  ],
+  "files": [
+    {
+      "authoredPath": "Translations/fil/dialogue-batch-067.json",
+      "beforeSnapshotPath": "Translations/fil/semantic-correction-cycle-007/before-authored-files/dialogue-batch-067.json",
+      "beforeSha256": "5322221c09d08cddd32e824f39bd7b9f01571de2950475de3b9bf96c66eb6d27",
+      "afterSnapshotPath": "Translations/fil/semantic-correction-cycle-007/after-authored-files/dialogue-batch-067.json",
+      "afterSha256": "06ea40ef45e585cbe801c34e9de05d0cddc895c3e8fd87132c5f4d86797cac70",
+      "validationPath": "Translations/fil/dialogue-batch-067.validation.json",
+      "beforeValidationSnapshotPath": "Translations/fil/semantic-correction-cycle-007/before-validation-files/dialogue-batch-067.validation.json",
+      "beforeValidationSha256": "5334348201f13ec830f0f336606fd0c139b12f29d33c80a699ea25f37622e3bc",
+      "changedIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765"
+      ]
+    },
+    {
+      "authoredPath": "Translations/fil/dialogue-batch-441.json",
+      "beforeSnapshotPath": "Translations/fil/semantic-correction-cycle-007/before-authored-files/dialogue-batch-441.json",
+      "beforeSha256": "e7f14c48211ffc7abd664a157acc75ecfeb890cd00176435074cd27745186e0e",
+      "afterSnapshotPath": "Translations/fil/semantic-correction-cycle-007/after-authored-files/dialogue-batch-441.json",
+      "afterSha256": "743f2543e77fdefe078c620ece1aba3473cd774c7ae9c9e72750d7f26adce37b",
+      "validationPath": "Translations/fil/dialogue-batch-441.validation.json",
+      "beforeValidationSnapshotPath": "Translations/fil/semantic-correction-cycle-007/before-validation-files/dialogue-batch-441.validation.json",
+      "beforeValidationSha256": "a431338f5c50e3ec524598ab9a4bd8462d455cb45cd461928f0b64aa9d55982d",
+      "changedIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501"
+      ]
+    }
+  ],
+  "acceptedCorrections": 2,
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "firstPassProgressSha256": "f23b782e39dda73cfcb04bc32a7b04d96400148379c6060f77935211a2e49faa",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "preimagePinsSha256": "8838d4c8f2efdc662700df7d400aee1f86858b661165417b516f23698d76823e",
+  "boundedInputsSha256": "105f215ff4f696b6a3c443aa63bf7fa41e7a0a9ad475d98ffc7581ed3671e714",
+  "correctionDecisionsSha256": "429921246d9e6f089cb0fa1c752f41c23c84444b1c8536335046d7e4ef8ad2ef",
+  "review06CompletionManifestSha256": "3d1206f42a8d956aa3b39642740e090d480e54128e6e7759fe6748e3cdbc8bfa",
+  "review06VerdictSha256": "acebaa1ae29b3137e468cb73cecd4bee53de26715047dac66922d2de88a7d7c9",
+  "previousClosureSha256": "24a1e0f8629f55b31d601c1b722c127d2eb34247f7d10c0ab1e9b9e85500124c",
+  "previousPairedSha256": "620f64dcb6cd13ccbed19c41f7ce0f05a63578f99fe7f636fc30503361a8e5fd",
+  "priorAuthorChainSha256": "9276d7c918688ad76213ebdf1fa95c4fb19965ad2d8d1e6b4270378c06a25c87",
+  "priorTargetOnlyEvents": 143,
+  "allOtherTargetsAndMetadataUnchanged": true,
+  "derivedRule": "Two standalone dialogue units; unchanged option/static/credits recipes must remain exact. Rebuild only if concrete changed source intersects recipe.",
+  "fullRestartPredicateObserved": false,
+  "independentAcceptance": false,
+  "unresolved": []
+}

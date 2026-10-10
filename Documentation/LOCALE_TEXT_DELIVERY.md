@@ -82,6 +82,26 @@ reused decisions must reference one identical prior-file digest computed once
 for generation, while the final pin recheck still rejects any changed input.
 Preserve a live sealer's execution version; apply this recipe to the next run.
 
+For assignment usage reports, resolve the effective model and effort from that
+assignment's actual `turn_context` telemetry. A resumed session ID preserves
+chat identity; a model recorded for an earlier assignment does not prove the
+current model. Regression scenario: one session's preceding assignment used
+`gpt-6-sol`, while its next resume records `gpt-6.1-sol/high`; report the latter
+with only the new assignment's measured cumulative token delta.
+
+Root review manifests may pin required workflow references and original managed
+assemblies outside the checkout. Verify only the exact approved path/hash pairs
+read-only, and bind their checked list through a canonical root review receipt.
+Keep project acceptance evidence paths confined to the checkout. An unexpected
+external path or changed digest must still fail before acceptance or output.
+
+Map Yarn `RunLine` and `AddOption` consumers through the actual runner's
+serialized `lineProvider.stringsTable` collection GUID. Bare key or node name
+matching across collections is insufficient. Regression scenario: the accepted
+ChecksDialogs and Dialogs Esenin rows share a key and node name, but the runner
+provider selects Dialogs; that row owns the Yarn site, while ChecksDialogs keeps
+its separate serialized character references and receives no Yarn-site credit.
+
 ## Verified boundaries
 
 `Documentation/locale-delivery-proof-v1/` preserves the initial delivery evidence:

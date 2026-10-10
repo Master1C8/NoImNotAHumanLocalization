@@ -1,0 +1,266 @@
+{
+  "status": "required bounded selector repair; no universal first-pass invalidation",
+  "findings": [
+    {
+      "rule": "family-identity and kinship-and-reveal",
+      "defect": "отец literal misses отца/отцом/отце; grandchild terms внук/внучек are absent",
+      "additionalUniqueIds": 10,
+      "recommendation": "Use explicit Russian inflection stems for father and grandchild, preserving canonical IDs and whole-unit context"
+    },
+    {
+      "rule": "youth and hidden life-stage identity",
+      "defect": "The supplied selectors omit accepted молодость/юноша/подростки source units despite this cycle fixing youth interpreted as morning",
+      "additionalUniqueIds": 10,
+      "recommendation": "Add a bounded lexical life-stage catalog; exclude homographs молодец/молодцы without excluding other genuine youth terms in the same unit. Neutral Filipino pronouns do not by themselves lose gender."
+    },
+    {
+      "rule": "ear-wax and radio subject referents",
+      "defect": "sulfur selector label contradicts approved ear-wax meaning; one-character suffix misses серой, and literal radio selector misses interrupted субъ…кт forms",
+      "additionalUniqueIds": 0,
+      "recommendation": "Name the referent ear wax, enumerate inflections and bind interrupted radio variants to actual nodes. Those pairs already enter closure through other components."
+    }
+  ],
+  "supplementalPairs": [
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389124",
+      "source": "Phone: Не представляю, насколько вы ненавидите отца, если хотите, чтобы дом сгорел…",
+      "target": "Phone: Hindi ko maisip kung gaano ninyo kinamumuhian ang ama ninyo para hangaring masunog ang bahay…",
+      "key": "line:phone_phoneroulette_1_1_X_9_04b7d32",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_8"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194817",
+      "source": "У меня… были сложные отношения с отцом",
+      "target": "Masalimuot… ang relasyon namin ng ama ko",
+      "key": "line:phone_phoneroulette_1_1_X_3_0dbdef7",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_X_3"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499848",
+      "source": "BigLebowski: Прям как от отца.",
+      "target": "BigLebowski: Parang galing sa tatay ko.",
+      "key": "line:BigLebowski_Entrance_NoLet_075a8c9",
+      "nodeNames": [
+        "BigLebowski_Entrance_NoLet"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455496081417",
+      "source": "FatalDame: Ты говорил о своём отце несколько дней назад.",
+      "target": "FatalDame: Nabanggit mo ang ama mo ilang araw na ang nakaraan.",
+      "key": "line:FatalDame_Asking_3_1_0509296",
+      "nodeNames": [
+        "FatalDame_Asking_3_1"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143428",
+      "source": "Что произошло с твоим отцом?",
+      "target": "Ano ang nangyari sa tatay mo?",
+      "key": "line:talk_taxidriver_4_043637d",
+      "nodeNames": [
+        "talk_taxidriver_4"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391498",
+      "source": "Daughter: (Девочка безостановочно зовёт отца, истерика остановится нескоро)",
+      "target": "Daughter: (Walang tigil sa pagtawag sa ama ang batang babae. Matatagalan pa bago humupa ang kaniyang pagwawala)",
+      "key": "line:Daughter_Asking_1_1_0e0277d",
+      "nodeNames": [
+        "Daughter_Asking_1_1"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453071773697",
+      "source": "TaxiDriver: Так-то, я раньше на фотках с отцом был. В машине. Теперь, если кто и фоткает – только инспектора.",
+      "target": "TaxiDriver: Dati, kasama ko ang tatay ko sa mga litrato. Sa loob ng kotse. Ngayon, kung may kumukuha man ng litrato ko, mga inspektor na lang.",
+      "key": "line:TaxiDriver_Photo_04fb33d",
+      "nodeNames": [
+        "TaxiDriver_Photo"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140230",
+      "source": "NotTrue: И внучек и правда был приветливый — здоровался всегда со мной, спрашивал, как дела у меня.",
+      "target": "NotTrue: At talagang mabait ang apo niya. Lagi siyang bumabati sa akin at nagtatanong kung kumusta ako.",
+      "key": "line:NotTrue_Asking_2_0fc32f0",
+      "nodeNames": [
+        "NotTrue_Asking_2"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140228",
+      "source": "NotTrue: Как-то соседка моя, пока мы сидели на лавочке, похвасталась внуком своим.",
+      "target": "NotTrue: Minsan, habang magkasama kami sa bangko, ipinagmalaki ng kapitbahay ko ang apo niyang lalaki.",
+      "key": "line:NotTrue_Asking_2_07ae757",
+      "nodeNames": [
+        "NotTrue_Asking_2"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751619",
+      "source": "NotTrue: А дачи у меня нет. Да и родни тоже нет. И внуков… Ох, милок…",
+      "target": "NotTrue: Wala akong bahay-bakasyunan. Wala ring kamag-anak. O apo… Hay, iho…",
+      "key": "line:NotTrue_Asking_1_091d0e1",
+      "nodeNames": [
+        "NotTrue_Asking_1"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+      "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+      "target": "Phone: Nakita mo ba ang nangyari sa labas? Pinatay ang mga tinedyer…",
+      "key": "line:phone_neighbour_day3_0189afb",
+      "nodeNames": [
+        "phone_neighbour_day3"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873281",
+      "source": "Window: На земле лежат сгоревшие дотла тела подростков.",
+      "target": "Window: Nasa lupa ang mga bangkay ng mga tinedyer na nasunog nang tuluyan.",
+      "key": "line:window_3_2_0593a50",
+      "nodeNames": [
+        "window_3_2"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678976",
+      "source": "Window: На земле лежат тела подростков.",
+      "target": "Window: Nakahandusay sa lupa ang mga bangkay ng mga tinedyer.",
+      "key": "line:window_2_2_00489eb",
+      "nodeNames": [
+        "window_2_2"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447939",
+      "source": "MushroomEater: Молодец, о добрый юноша.",
+      "target": "MushroomEater: Magaling, o mabuting binata.",
+      "key": "line:MushroomEater_Entrance_3_5_036f42f",
+      "nodeNames": [
+        "MushroomEater_Entrance_3_5"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865033",
+      "source": "MushroomEater: Не прощаемся, о дорогой юноша.",
+      "target": "MushroomEater: Hanggang sa muli, o mahal kong binata.",
+      "key": "line:MushroomEater_Entrance_2_4_0fa18bb",
+      "nodeNames": [
+        "MushroomEater_Entrance_2_4"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456687263746",
+      "source": "Prophet: «Наша молодость кричала, как костёр Руан».",
+      "target": "Prophet: «Sumigaw ang ating kabataan na parang siga sa Rouen».",
+      "key": "line:Entrance_Prophet_12_7_07431d2",
+      "nodeNames": [
+        "Entrance_Prophet_12_7"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454682386434",
+      "source": "Raskolnikov: А после –  резкий хлопок, и бездыханное тело юноши лежит вместе с той кучей трупов.",
+      "target": "Raskolnikov: Saka may malakas na putok, at bumagsak ang binata, wala nang buhay, sa tambak ng mga bangkay.",
+      "key": "line:Raskolnikov_Asking_3_057ad0f",
+      "nodeNames": [
+        "Raskolnikov_Asking_3"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454678192137",
+      "source": "Raskolnikov: Рядом с ним стоял беспомощный юноша.",
+      "target": "Raskolnikov: Isang walang kalaban-labang binata ang nakatayo sa tabi niya.",
+      "key": "line:Raskolnikov_Asking_3_0e5981c",
+      "nodeNames": [
+        "Raskolnikov_Asking_3"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454183264261",
+      "source": "Firefighter: Мог остаться и отработать, пока не упаду. Не пришлось бы посылать молодых на убой.",
+      "target": "Firefighter: Puwede sana akong nanatili at nagtrabaho hanggang bumagsak ako. Hindi na sana nila kailangang ipadala ang mga bata pa roon para mamatay.",
+      "key": "line:Firefighter_Asking_5_05ea046",
+      "nodeNames": [
+        "Firefighter_Asking_5"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453860302858",
+      "source": "Experienced: Этими руками я воровал и грабил… Но это было давно, и я уже своё отсидел за ошибку молодости.",
+      "target": "Experienced: Ginamit ko ang mga kamay na ito sa pagnanakaw at panghoholdap… Pero matagal na iyon, at napagsilbihan ko na ang sentensiya ko sa pagkakamali ko noong kabataan.",
+      "key": "line:Experienced_Hands_01b4f61",
+      "nodeNames": [
+        "Experienced_Hands"
+      ],
+      "inClosure": false,
+      "inMandatory": false
+    }
+  ],
+  "limit": "Demonstrated source-catalog omissions; not an exhaustive semantic audit of every accepted ID outside supplied closure. Full 16,538 first-pass evidence remains intact."
+}

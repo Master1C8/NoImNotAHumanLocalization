@@ -1,0 +1,2036 @@
+{
+  "Tourist_Armpit_DontShoot": {
+    "labels": {
+      "L4302": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Armpit_DontShoot_0551a62",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Armpit_DontShoot_0c2cd25",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Tourist_Armpit_Gun": {
+    "labels": {
+      "L4284": 0,
+      "L4286shortcutoption_Tourist_Armpit_Gun_1": 7,
+      "L4287shortcutoption_Tourist_Armpit_Gun_2": 10,
+      "L4285group_end": 13
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun true",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Sad",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Armpit_Gun_0b329a0",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Armpit_Gun_0cd492b",
+          "L4286shortcutoption_Tourist_Armpit_Gun_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Armpit_Gun_0372136",
+          "L4287shortcutoption_Tourist_Armpit_Gun_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 6,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 7,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist_Death"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4285group_end"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist_Armpit_DontShoot"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4285group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Tourist_Hands": {
+    "labels": {
+      "L4238": 0,
+      "L4240skipclause": 10,
+      "L4239endif": 13,
+      "L4243shortcutoption_Tourist_Hands_1": 17,
+      "L4244shortcutoption_Tourist_Hands_2": 18,
+      "L4242group_end": 21
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_028e249",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "ShowSign Tourist HANDS",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_073f97e",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "StopShowingSign",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsImposter"
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L4240skipclause"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_0a8ad95",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4239endif"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_071f08d",
+          0.0
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4239endif"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Hands_09df77a",
+          "L4243shortcutoption_Tourist_Hands_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Hands_0465ccf",
+          "L4244shortcutoption_Tourist_Hands_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 16,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4242group_end"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist_Hands_Gun"
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 20,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4242group_end"
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 22,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Tourist_Hands_Gun": {
+    "labels": {
+      "L4270": 0,
+      "L4272skipclause": 8,
+      "L4271endif": 11,
+      "L4275shortcutoption_Tourist_Hands_Gun_1": 15,
+      "L4276shortcutoption_Tourist_Hands_Gun_2": 18,
+      "L4274group_end": 21
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun true",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Sad",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsImposter"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L4272skipclause"
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_Gun_00dfc73",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4271endif"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Tourist_Hands_Gun_0a78276",
+          0.0
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4271endif"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Hands_Gun_04929f8",
+          "L4275shortcutoption_Tourist_Hands_Gun_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Tourist_Hands_Gun_0f1bc73",
+          "L4276shortcutoption_Tourist_Hands_Gun_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist_Death"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4274group_end"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Tourist_Hands_DontShoot"
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 20,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L4274group_end"
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 22,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Twins_Entrance_AlkonostOccupied": {
+    "labels": {
+      "L1582": 0,
+      "L1584shortcutoption_Twins_Entrance_AlkonostOccupied_1": 10,
+      "L1585shortcutoption_Twins_Entrance_AlkonostOccupied_2": 13,
+      "L1583group_end": 16
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Alkonost"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "GetCharacterOnPlace"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_AlkonostOccupied_0a0e768",
+          1.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_AlkonostOccupied_0df5a23",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_AlkonostOccupied_0857ff5",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_AlkonostOccupied_04d9b58",
+          "L1584shortcutoption_Twins_Entrance_AlkonostOccupied_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_AlkonostOccupied_0e07c59",
+          "L1585shortcutoption_Twins_Entrance_AlkonostOccupied_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_Occupied_YesLet"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1583group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_Occupied_NoLet"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1583group_end"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Twins_Entrance_BothOccupied": {
+    "labels": {
+      "L1590": 0,
+      "L1592shortcutoption_Twins_Entrance_BothOccupied_1": 13,
+      "L1593shortcutoption_Twins_Entrance_BothOccupied_2": 16,
+      "L1591group_end": 19
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Sirin"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "GetCharacterOnPlace"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Alkonost"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "GetCharacterOnPlace"
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_BothOccupied_0355e87",
+          2.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_BothOccupied_048fdb4",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_BothOccupied_09b1518",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_BothOccupied_004a933",
+          "L1592shortcutoption_Twins_Entrance_BothOccupied_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_BothOccupied_071fdd4",
+          "L1593shortcutoption_Twins_Entrance_BothOccupied_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_Occupied_YesLet"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1591group_end"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_FullRefuse"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 18,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1591group_end"
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 20,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Twins_Entrance_Bribe": {
+    "labels": {
+      "L1598": 0,
+      "L1600shortcutoption_Twins_Entrance_Bribe_1": 14,
+      "L1601shortcutoption_Twins_Entrance_Bribe_2": 17,
+      "L1599group_end": 20
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "PeekDeficitItem"
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 14,
+        "op": "StoreVariable",
+        "operands": [
+          "$deficitItem"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_Bribe_026f598",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_Bribe_06201fc",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 13,
+        "op": "PushVariable",
+        "operands": [
+          "$deficitItem"
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "LocalizeItem"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Twins_Entrance_Bribe_0281102",
+          1.0
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_Bribe_0a95874",
+          "L1600shortcutoption_Twins_Entrance_Bribe_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Twins_Entrance_Bribe_07c4224",
+          "L1601shortcutoption_Twins_Entrance_Bribe_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_AcceptBribe"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 16,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1599group_end"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Twins_Entrance_FullRefuse"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 19,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1599group_end"
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 21,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Unstable_Entrance_4": {
+    "labels": {
+      "L2433": 0,
+      "L2435shortcutoption_Unstable_Entrance_4_1": 10,
+      "L2436shortcutoption_Unstable_Entrance_4_2": 13,
+      "L2434group_end": 16
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Unstable_2",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Unstable_Entrance_4_028f0e9",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Unstable_Entrance_4_0436b78",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Unstable_Entrance_4_02de4c7",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Unstable_1",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Unstable_Entrance_4_0f77844",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Unstable_Entrance_4_037d6dc",
+          "L2435shortcutoption_Unstable_Entrance_4_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Unstable_Entrance_4_087cb13",
+          "L2436shortcutoption_Unstable_Entrance_4_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Unstable_Entrance_5"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2434group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Unstable_Entrance_6"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2434group_end"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Wifefema_Hands_DontShoot": {
+    "labels": {
+      "L210": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Wifefema_Hands_DontShoot_0900df6",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Wifefema_Hands_DontShoot_022b3c0",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Wifefema_Teeth_DontShoot": {
+    "labels": {
+      "L209": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Wifefema_Teeth_DontShoot_0970653",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Wifefema_Teeth_DontShoot_0c82f30",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "bedroom_nightstand": {
+    "labels": {
+      "L474": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bedroom_nightstand_0c505c0",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "bedroom_window": {
+    "labels": {
+      "L473": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bedroom_window_0e97f86",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "bigroom_cross": {
+    "labels": {
+      "L475": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bigroom_cross_04a30fe",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bigroom_cross_0d31602",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "bigroom_toy": {
+    "labels": {
+      "L476": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bigroom_toy_04cb3b6",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:bigroom_toy_0186316",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "kitchen_cupboards": {
+    "labels": {
+      "L477": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:kitchen_cupboards_06c9d42",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:kitchen_cupboards_0a6d8a0",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "phone_bestsonfamily": {
+    "labels": {
+      "L297": 0,
+      "L299shortcutoption_phone_bestsonfamily_1": 5,
+      "L300shortcutoption_phone_bestsonfamily_2": 8,
+      "L298group_end": 11
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_bestson_0f14b1b",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_bestson_0317f9c",
+          "L299shortcutoption_phone_bestsonfamily_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_bestson_0e0a816",
+          "L300shortcutoption_phone_bestsonfamily_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 4,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 5,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_bestsonfamily_1"
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 7,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L298group_end"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_bestsonfamily_1"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L298group_end"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "phone_bestsonfamily_1": {
+    "labels": {
+      "L301": 0,
+      "L303shortcutoption_phone_bestsonfamily_1_1": 8,
+      "L304shortcutoption_phone_bestsonfamily_1_2": 11,
+      "L302group_end": 14
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_bestson_1_0c9de30",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_bestson_1_069376b",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_bestson_1_0bfeb6b",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_bestson_1_02fed47",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_bestson_1_059ee75",
+          "L303shortcutoption_phone_bestsonfamily_1_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_bestson_1_0fbec96",
+          "L304shortcutoption_phone_bestsonfamily_1_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 7,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_bestsonfamily_2"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L302group_end"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_bestsonfamily_3"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L302group_end"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "phone_daughtersfriend_2_1": {
+    "labels": {
+      "L461": 0,
+      "L463shortcutoption_phone_daughtersfriend_2_1_1": 6,
+      "L464shortcutoption_phone_daughtersfriend_2_1_2": 9,
+      "L462group_end": 12
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_0c53ca1",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_06973b7",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_017f450",
+          "L463shortcutoption_phone_daughtersfriend_2_1_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_0b81cbd",
+          "L464shortcutoption_phone_daughtersfriend_2_1_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 5,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 6,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_daughtersfriend_2_1_1"
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L462group_end"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_daughtersfriend_2_1_2"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L462group_end"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "phone_daughtersfriend_2_1_2": {
+    "labels": {
+      "L469": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0836221",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0e12303",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0d50543",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_06d9031",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_041ca19",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0d573d5",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0e79e49",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_02c9b91",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0b3f4f6",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0c0a42a",
+          0.0
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_080193d",
+          0.0
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_08a0228",
+          0.0
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0270f38",
+          0.0
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0b0beeb",
+          0.0
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0c60b77",
+          0.0
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0890a29",
+          0.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_daughtersfriend_2_1_2_0745237",
+          0.0
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "phone_fema_1": {
+    "labels": {
+      "L165": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_fema_0ab4fa3",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:phone_fema_05b7ecf",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "phone_fema_asking"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 4,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  }
+}

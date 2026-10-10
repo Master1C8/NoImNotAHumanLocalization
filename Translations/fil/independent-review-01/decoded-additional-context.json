@@ -1,0 +1,906 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/YarnSpinner.dll",
+  "assemblySha256": "c2b0db889611e842198ab82cad90cf2745cafc10ae0f8de448ab3a5bcedb66f2",
+  "schemaConstants": {
+    "Program.NameFieldNumber": 1,
+    "Program.NodesFieldNumber": 2,
+    "Program.InitialValuesFieldNumber": 3,
+    "Instruction.OpcodeFieldNumber": 1,
+    "Instruction.OperandsFieldNumber": 2,
+    "OpCode.JumpTo": 0,
+    "OpCode.Jump": 1,
+    "OpCode.RunLine": 2,
+    "OpCode.RunCommand": 3,
+    "OpCode.AddOption": 4,
+    "OpCode.ShowOptions": 5,
+    "OpCode.PushString": 6,
+    "OpCode.PushFloat": 7,
+    "OpCode.PushBool": 8,
+    "OpCode.PushNull": 9,
+    "OpCode.JumpIfFalse": 10,
+    "OpCode.Pop": 11,
+    "OpCode.CallFunc": 12,
+    "OpCode.PushVariable": 13,
+    "OpCode.StoreVariable": 14,
+    "OpCode.Stop": 15,
+    "OpCode.RunNode": 16,
+    "Node.NameFieldNumber": 1,
+    "Node.InstructionsFieldNumber": 2,
+    "Node.LabelsFieldNumber": 3,
+    "Node.TagsFieldNumber": 4,
+    "Node.SourceTextStringIDFieldNumber": 5,
+    "Node.HeadersFieldNumber": 6,
+    "Operand.StringValueFieldNumber": 1,
+    "Operand.BoolValueFieldNumber": 2,
+    "Operand.FloatValueFieldNumber": 3
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "nodeCount": 8,
+  "nodes": {
+    "Esenin_Ears": {
+      "labels": {
+        "L1749": 0,
+        "L1751shortcutoption_Esenin_Ears_1": 12,
+        "L1752shortcutoption_Esenin_Ears_2": 13,
+        "L1750group_end": 16
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_0e8c7d4",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_0dae071",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_00cbaf4",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "ShowSign Esenin EAR",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_062698d",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "StopShowingSign",
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_0670b48",
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Ears_0b9074d",
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Esenin_Ears_00f7e01",
+            "L1751shortcutoption_Esenin_Ears_1",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Esenin_Ears_02682c4",
+            "L1752shortcutoption_Esenin_Ears_2",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 5,
+          "op": "ShowOptions",
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 1,
+          "op": "Jump",
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L1750group_end"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Esenin_Ears_Gun"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L1750group_end"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 11,
+          "op": "Pop",
+          "operands": []
+        },
+        {
+          "index": 17,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "Esenin_Hands_Gun": {
+      "labels": {
+        "L1757": 0,
+        "L1759shortcutoption_Esenin_Hands_Gun_1": 8,
+        "L1760shortcutoption_Esenin_Hands_Gun_2": 11,
+        "L1758group_end": 14
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetupGun true",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Hands_Gun_016372d",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Hands_Gun_032f836",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Esenin_Hands_Gun_0ad9387",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Esenin_Hands_Gun_0ca794a",
+            "L1759shortcutoption_Esenin_Hands_Gun_1",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Esenin_Hands_Gun_0a42c68",
+            "L1760shortcutoption_Esenin_Hands_Gun_2",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 5,
+          "op": "ShowOptions",
+          "operands": []
+        },
+        {
+          "index": 7,
+          "opcode": 1,
+          "op": "Jump",
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Esenin_Death"
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 10,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L1758group_end"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Esenin_Hands_DontShoot"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L1758group_end"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 11,
+          "op": "Pop",
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "Wolfhound_Teeth": {
+      "labels": {
+        "L2350": 0,
+        "L2352shortcutoption_Wolfhound_Teeth_1": 15,
+        "L2353shortcutoption_Wolfhound_Teeth_2": 16,
+        "L2351group_end": 19
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_0c6f2f7",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_03d8e55",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "ShowSign Wolfhound TEETH",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_04d5c89",
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "StopShowingSign",
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion Happy",
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_073f534",
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_0169640",
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Wolfhound_Teeth_04b4636",
+            0.0
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Wolfhound_Teeth_097f11c",
+            "L2352shortcutoption_Wolfhound_Teeth_1",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Wolfhound_Teeth_00e7995",
+            "L2353shortcutoption_Wolfhound_Teeth_2",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 5,
+          "op": "ShowOptions",
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 1,
+          "op": "Jump",
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L2351group_end"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Wolfhound_Teeth_Gun"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 18,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L2351group_end"
+          ]
+        },
+        {
+          "index": 19,
+          "opcode": 11,
+          "op": "Pop",
+          "operands": []
+        },
+        {
+          "index": 20,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "TaxiDriver_Armpit_DontShoot": {
+      "labels": {
+        "L2694": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:TaxiDriver_Armpit_DontShoot_0da3402",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetupGun false",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:TaxiDriver_Armpit_DontShoot_0c66996",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "FormerFema_Photo_DontShoot": {
+      "labels": {
+        "L2983": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetupGun false",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:FormerFema_Photo_DontShoot_0464356",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:FormerFema_Photo_DontShoot_0f578ab",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "Leper_Teeth_Gun": {
+      "labels": {
+        "L3978": 0,
+        "L3980shortcutoption_Leper_Teeth_Gun_1": 7,
+        "L3981shortcutoption_Leper_Teeth_Gun_2": 10,
+        "L3979group_end": 13
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetupGun true",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Leper_Teeth_Gun_0501ea2",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Leper_Teeth_Gun_0163654",
+            "L3980shortcutoption_Leper_Teeth_Gun_1",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Leper_Teeth_Gun_0833718",
+            "L3981shortcutoption_Leper_Teeth_Gun_2",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 5,
+          "op": "ShowOptions",
+          "operands": []
+        },
+        {
+          "index": 6,
+          "opcode": 1,
+          "op": "Jump",
+          "operands": []
+        },
+        {
+          "index": 7,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Leper_Death"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L3979group_end"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Leper_Teeth_DontShoot"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L3979group_end"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "op": "Pop",
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "Mushroom_end_2": {
+      "labels": {
+        "L66": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Mushroom_end_2_0bbb282",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Mushroom_end_2_0f27bf6",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Mushroom_end_2_039b8e9",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Mushroom_end_2_02a5ab8",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Mushroom_end_2_0699a5b",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "tv_9_extra1": {
+      "labels": {
+        "L24": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetEmotion TV_Cultists",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0778815",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_05066b9",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0788770",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0c8bf74",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_04cbaa3",
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0eab1f1",
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0491ecf",
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0c83b4a",
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_0353e25",
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:tv_9_extra1_082d908",
+            0.0
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    }
+  }
+}

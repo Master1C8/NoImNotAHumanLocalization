@@ -1,0 +1,207 @@
+{
+  "consumerFileSha256": "57dee366f4b9ed85eb68824b9251b16c2a7ee483235e4227add0b669991d937e",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "decoderSha256": "8ee3976d2bd846429e6b329cfa6aa786b7b973c635af41ae06bb476be5354099",
+  "windowsRead": 122,
+  "actualTextContextUnitsRead": 420,
+  "fullControlTopologyNodesPinned": 110,
+  "fullControlTopologyInstructionsPinned": 2002,
+  "allWindowOpcodesOperandsIndependentlyReconciled": true,
+  "actualFullPairConsumersIndependentlyReconciled": 7848,
+  "dynamicConsumersExact": 6,
+  "unboundCandidates": 3,
+  "photoAction": {
+    "node": "Anger_Photo",
+    "instruction": 0,
+    "nextCommand": "ShowSign Anger AURAPHOTO",
+    "decision": "accepted; photograph action, no gun"
+  },
+  "additionalFindingContext": {
+    "Miner_Entrance_2_1": {
+      "labels": {
+        "L2236": 0,
+        "L2238shortcutoption_Miner_Entrance_2_1_1": 7,
+        "L2239shortcutoption_Miner_Entrance_2_1_2": 10,
+        "L2237group_end": 13
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Miner_Entrance_2_1_0313dcf",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Miner_Entrance_2_1_0f64797",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:Miner_Entrance_2_1_04422c2",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Miner_Entrance_2_1_0271afe",
+            "L2238shortcutoption_Miner_Entrance_2_1_1",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 4,
+          "op": "AddOption",
+          "operands": [
+            "line:Miner_Entrance_2_1_00b2f2c",
+            "L2239shortcutoption_Miner_Entrance_2_1_2",
+            0.0,
+            false
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 5,
+          "op": "ShowOptions",
+          "operands": []
+        },
+        {
+          "index": 6,
+          "opcode": 1,
+          "op": "Jump",
+          "operands": []
+        },
+        {
+          "index": 7,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Miner_Entrance_2_3"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L2237group_end"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "op": "PushString",
+          "operands": [
+            "Miner_Entrance_2_4"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "op": "RunNode",
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "op": "JumpTo",
+          "operands": [
+            "L2237group_end"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 11,
+          "op": "Pop",
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    },
+    "BigLebowski_Ears_DontShoot": {
+      "labels": {
+        "L1357": 0
+      },
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:BigLebowski_Ears_DontShoot_0245061",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 3,
+          "op": "RunCommand",
+          "operands": [
+            "SetupGun false",
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:BigLebowski_Ears_DontShoot_04398fc",
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:BigLebowski_Ears_DontShoot_04f7e4e",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "op": "RunLine",
+          "operands": [
+            "line:BigLebowski_Ears_DontShoot_02cd283",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 15,
+          "op": "Stop",
+          "operands": []
+        }
+      ]
+    }
+  },
+  "runtime": "not-run"
+}

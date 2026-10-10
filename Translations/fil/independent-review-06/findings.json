@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/fil_independent_review_06",
+  "status": "notclean",
+  "completeAssignedPass": true,
+  "freshFullPairsRead": 423,
+  "objectiveFindings": [
+    {
+      "findingId": "fil-review06-2834",
+      "acceptedOrdinal": 2834,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765",
+      "source": "Miner: Слушай, время тут вообще как-то странно идёт. Тут ни солнца, ни часов нет. Так что хрен знает, сколько мы тут уже.",
+      "target": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na tayo katagal dito.",
+      "sourceSha256": "d67d50a0f7773bca46d3b4ae5b0b0e331fcadea2b54deed90f4c8978694c4b8f",
+      "targetSha256": "d293356a823e86d8820ed9c171e27c07b88c748da50ad44299de9c932383ae9d",
+      "consumerIdentitySha256": "36462cc8efbc540c59fcb1cd3b6ef86119c7ad316529639ad7d4b4c5cc98b841",
+      "reason": "Inclusive tayo includes the addressee in the duration of the underground stay. The next actual RunLine places the addressee upstairs (там, наверху), while the speaker and his companion are down here. Preserve the exclusive group with kami.",
+      "proposedFullTarget": "Miner: Makinig ka, kakaiba ang daloy ng oras dito. Walang araw o orasan. Kaya malay natin kung gaano na kami katagal dito.",
+      "context": {
+        "node": "Miner_Entrance_2_1",
+        "instruction": 1,
+        "nextInstruction": 2,
+        "nextSource": "Miner: Ты хоть поешь там, наверху, а то, глядишь, сам скоро, как я, с фонарём засядешь. А жратвы-то здесь нет нифига.",
+        "glossaryId": "miner"
+      },
+      "objective": true,
+      "authorEditApplied": false
+    },
+    {
+      "findingId": "fil-review06-16128",
+      "acceptedOrdinal": 16128,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501",
+      "source": "Mother: Руки... Я ими детей обнимала, всё по дому делала и мужа ласкала. И знаешь что? Всё равно никто нихера не ценит.",
+      "target": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ipinanglinis ng bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "sourceSha256": "9fe4e96e7045cdbe94d6f90f91358d14fd8de989cf4f842f3025287623d1490e",
+      "targetSha256": "73f3694fd5393b7a42dd4c275fabe015106b3300d33b01b33475ad7638a20c29",
+      "consumerIdentitySha256": "639e35b8c3da5e9521be0875e8666d534180a90e069336ecc0a825f7002acc37",
+      "reason": "The source says she performed all work around the house (всё по дому делала). Ipinanglinis ng bahay specifies only cleaning, omitting the breadth of her household work. Preserve all household tasks rather than replacing the whole category with one task.",
+      "proposedFullTarget": "Mother: Mga kamay… Ipinangyakap ko ang mga ito sa mga anak ko, ginamit sa lahat ng gawain sa bahay, at ipinanghaplos sa asawa ko. Pero alam mo? Wala pa ring putanginang nagpapahalaga.",
+      "context": {
+        "node": "Mother_Hands_DontShoot",
+        "instruction": 1,
+        "sourcePhrase": "всё по дому делала",
+        "targetPhrase": "ipinanglinis ng bahay",
+        "glossaryId": "mother-with-child"
+      },
+      "objective": true,
+      "authorEditApplied": false
+    }
+  ],
+  "preferenceAlternativesAreNotDefects": true,
+  "dismissedConcerns": [
+    {
+      "ordinal": 14033,
+      "reason": "In the actual scene about parents piercing infants ears without their decision, Russian не нужно can express unwanted intervention. Ayaw preserves the consent concern; a literal need-versus-want rewrite is not required."
+    },
+    {
+      "ordinal": 6557,
+      "reason": "Matinding problema is an acceptable contextual interpretation of the intense situation, not an independently supported reason to rewrite."
+    },
+    {
+      "surface": "coarse-register distribution",
+      "reason": "Coarse idioms are judged over complete utterances. Colloquial pake, malay, nilalaklak and semantic abuse verbs may carry roughness without mapping each Russian root to a new swear; avoid generic-swear or strength quotas. All56 actual corrections retain source-specific content and use mild markers where the source is mild."
+    }
+  ]
+}

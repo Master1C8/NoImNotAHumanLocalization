@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "locale": "fil",
+  "status": "canonical locale selector repair for correction cycle 002; ordinary generation, no exceptional appended IDs",
+  "previousClosureSha256": "44c790cb558e4c7991cad9ae7984dc4979f7454f1ebdd1d083a590d7e5e5445b",
+  "mandatoryBasePredicates": [
+    "all accepted UI IDs",
+    "all selected static TMP IDs",
+    "all accepted exact-source common-option rows including the independent Нет row"
+  ],
+  "mandatorySourceRegex": {
+    "family-identity": "(?i)сестр|брат|матер|мать|мам|отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*|пап|доч|сын|ж[её]н|муж|бабуш|дедуш|\\b(?:он|она|его|её|ее|ему|ей|им|них|ними)\\b",
+    "guest-human": "гост|Гост|человек|Человек|люд|Люд|нечеловек|Нечеловек|фема|ФЕМА|FEMA|визит|Визит",
+    "profanity-humor": "бля|Бля|нахуй|нахер|говн|Говн|жоп|Жоп|пизд|Пизд|[её]б|[ЕЁ]б|долбо|Долбо|сука|Сука|шутк|Шутк|смешн|Смешн",
+    "markup-format": "\\{[0-9]+\\}|<[^<>]+>",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "window-environment": "(?i)^Window:"
+  },
+  "affectedReferentSourceRegex": {
+    "committee-agency": "(?i)\\b(?:кчс|комитет[а-яё]*)\\b",
+    "new-faith": "(?i)\\bнововер[а-яё]*\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "father-grandchild": "(?i)\\b(?:отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*)\\b",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "camera-gun-instrument": "(?i)щёлк|щелк|\\bфото[а-яё]*\\b|\\bружь[а-яё]*\\b",
+    "gun-threat-expletive": "(?i)\\bёбаный\\s+свет\\b",
+    "child-murder-victim": "(?i)убийств[а-яё]*\\s+реб[её]нк[а-яё]*|реб[её]нк[а-яё]*\\s+зарезать",
+    "visitor-later-reveal": "(?i)окажется.{0,90}гост[а-яё]*",
+    "mushroom-size": "(?i)больше\\s+грибы",
+    "remote-confinement": "(?i)далеко\\s+и\\s+надолго"
+  },
+  "localizedWordingRegex": [
+    "(?i)\\b(?:asupre|tutuli)\\b",
+    "(?i)\\b(?:liwanag|putangina)\\b",
+    "(?i)\\b(?:pananampalataya|sumasapi)\\b",
+    "(?i)\\b(?:murang edad|nang maaga)\\b",
+    "(?i)\\b(?:kinikilala|kikilalanin)\\b",
+    "(?i)\\b(?:pangkuha ng litrato|kukunan mo rin ba)\\b",
+    "(?i)pagpatay (?:ng|sa) isang bata",
+    "(?i)\\b(?:malaman mong|malamang) panauhin\\b"
+  ],
+  "runtimeBindingRule": "All accepted IDs sharing any compiled node of a changed ID; include the compiled live NotTrue_Photo_Gun equivalent and the six independently verified dynamic consumer IDs from the previous closure.",
+  "exactRepetitionRule": "All accepted IDs whose complete Russian source equals a corrected unit, including the uncompiled camera/gun repeat.",
+  "regressionExamples": [
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389124",
+      "source": "Phone: Не представляю, насколько вы ненавидите отца, если хотите, чтобы дом сгорел…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194817",
+      "source": "У меня… были сложные отношения с отцом",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499848",
+      "source": "BigLebowski: Прям как от отца.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455496081417",
+      "source": "FatalDame: Ты говорил о своём отце несколько дней назад.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143428",
+      "source": "Что произошло с твоим отцом?",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391498",
+      "source": "Daughter: (Девочка безостановочно зовёт отца, истерика остановится нескоро)",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453071773697",
+      "source": "TaxiDriver: Так-то, я раньше на фотках с отцом был. В машине. Теперь, если кто и фоткает – только инспектора.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140230",
+      "source": "NotTrue: И внучек и правда был приветливый — здоровался всегда со мной, спрашивал, как дела у меня.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140228",
+      "source": "NotTrue: Как-то соседка моя, пока мы сидели на лавочке, похвасталась внуком своим.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751619",
+      "source": "NotTrue: А дачи у меня нет. Да и родни тоже нет. И внуков… Ох, милок…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+      "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873281",
+      "source": "Window: На земле лежат сгоревшие дотла тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678976",
+      "source": "Window: На земле лежат тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447939",
+      "source": "MushroomEater: Молодец, о добрый юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865033",
+      "source": "MushroomEater: Не прощаемся, о дорогой юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456687263746",
+      "source": "Prophet: «Наша молодость кричала, как костёр Руан».",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454682386434",
+      "source": "Raskolnikov: А после –  резкий хлопок, и бездыханное тело юноши лежит вместе с той кучей трупов.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454678192137",
+      "source": "Raskolnikov: Рядом с ним стоял беспомощный юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454183264261",
+      "source": "Firefighter: Мог остаться и отработать, пока не упаду. Не пришлось бы посылать молодых на убой.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453860302858",
+      "source": "Experienced: Этими руками я воровал и грабил… Но это было давно, и я уже своё отсидел за ошибку молодости.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "ear-wax-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453763833866",
+      "source": "Jacob: Открою секрет. Человек с серой в ушах — это нормально.",
+      "expectedSelector": "ear-wax-source-forms"
+    },
+    {
+      "riskSurface": "radio-interruption",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "expectedSelector": "interrupted-radio-subject"
+    }
+  ],
+  "syntheticSelectorRegressions": [
+    {
+      "selector": "youth-life-stage",
+      "source": "Молодец!",
+      "mustMatch": false
+    },
+    {
+      "selector": "youth-life-stage",
+      "source": "В молодости он работал.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Я говорил с отцом.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Она гордится внучеком.",
+      "mustMatch": true
+    },
+    {
+      "selector": "ear-wax-source-forms",
+      "source": "С серой в ушах.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Субъ…кт покинул город.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Истина субъективна.",
+      "mustMatch": false
+    }
+  ],
+  "selectorRepairReason": "The prior exact-word forms missed seven father-inflection, three grandchild and ten youth/life-stage complete pairs; the sulfur label obscured the approved ear-wax referent and omitted серой; literal subject missed interrupted radio forms. Tests bind ordinary inflection/variant rules and avoid the молодец and субъективный homographs."
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "status": "author correction cycle004 complete; exact 26-ID delta awaits distinct independent reviewer",
+  "priorIndependentReviewer": "/root/fil_independent_review_03",
+  "priorIndependentReviewStatus": "all20 cycle003 delta pairs, both prior corrections,7584 exact decisions,49 retirements, mandatory7234 and actual compiled/dynamic binding passed; one objective finding at9613",
+  "nextIndependentReviewer": "distinct from Filipino author; root assigns",
+  "sourceAndGlossaryFingerprints": {
+    "acceptedTextScope": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "inventory": {
+      "path": "Documentation/localization-source-inventory-v3.json",
+      "sha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782"
+    },
+    "strings": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticText": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "sourceGlossary": {
+      "path": "Documentation/glossary-research/final-v1/glossary.json",
+      "sha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401"
+    },
+    "filGlossary": {
+      "path": "Documentation/glossary-translations/fil/layer.json",
+      "sha256": "3bca424a00532a3e7f1b1ed7be7e814c0e22082b50898890f9dd3da8643d2d54"
+    }
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "actualCompiledSceneEvidence": {
+    "path": "Translations/fil/independent-review-03/independent-compiled-context.json",
+    "sha256": "45fb656af17d4c7a50296ffd41c8126af637fc7ae980af283b936477d0b7cf55",
+    "correctedNode": "Theorist_Asking_3",
+    "correctedInstruction": 27,
+    "priorIndependentContext": "review03 independently matched seven delta nodes/97 instructions and retained90 prior nodes/1427 instructions to source bytecode",
+    "dynamicConsumers": "six exact prior source/target and supplier pins unchanged"
+  },
+  "priorReviewEvidenceSha256": {
+    "REPORT.md": "a4aa9e97eebd66bed6404a67ea19e7ab5136e5cf97c9df152ea4e54fd61dbdb2",
+    "findings.json": "a6c705bdb93762a49fcee5d9ddbee8110519f2bea82d3b047fb3a357d34756ab",
+    "verification.json": "80d0d2f36c324c697a61a590d1df141ac648c6b1c65998cf0dd7205d702a329a",
+    "input-verification.json": "3ef4abaad8d9fc651581d0d2160ab7712ff970e9d4e0aa564456e8c96f8c1aa2",
+    "completion-manifest.json": "05e4067f89743e62078434a82dc72f433cefdf50ca31237583dcf062ad39015a",
+    "read-coverage.json": "f47bc15f3799cccdd3393e981a683d84c6a293c913dda14fb480e2a25f0ab240",
+    "fresh-decisions.jsonl": "142a384ef44a2c5e6f2860ec7c213c5efd952d4e374e05c073db0282fccc0475",
+    "closure-decision-applicability.jsonl": "07caf2ba474c262d2dc235d79e7cafcfe5b90eb38124b7f7c0116a0b73c9efe9",
+    "mandatory-regression-applicability.jsonl": "203f1767f85991ee5de77f00346b3f50aa657bc54b68b1a6891fab6129f31792",
+    "retired-dependencies.jsonl": "3cb4f44de9798b18fa60b984c97d2577e757f967fa5cfd1268fd720711c3ca25",
+    "prior-decision-applicability.jsonl": "8cdae167d46812b7b14c1aafcb92b409edd2bfc22df88a6499aeb506c4543eb5",
+    "applied-correction-decisions.json": "674402e7ab3252888836f11a6229a557c1a2c47045404ccb83f189934ab10421",
+    "recipe-regressions.json": "60750c1d30b9e889aee6bd641f44eb5b1c1253249637f8bae04c496cc2f4964b",
+    "independent-compiled-context.json": "45fb656af17d4c7a50296ffd41c8126af637fc7ae980af283b936477d0b7cf55",
+    "full-corpus-validation.json": "dfd5439e6d01b7e849021b6e061c4f2f84b9d475aa255bd82e151b5da6b38911"
+  },
+  "cycleFilesSha256": {
+    "plan.json": "175824f9dc541865280b5c75f672a7fe4c3117d133572b43ede13b3e21e5ceeb",
+    "after.json": "008f509565b2570193a07d7bd4e7cc2cd073ebf2db96d42f9190b5d8a6e5ed19",
+    "full-corpus-validation.json": "ab7555bd650e38941d7e8581e54b242914863aa40d3db327f9f1314c4d626ebe",
+    "full-structural-validation.json": "998cec9a944908e53a809f2c35f2a0ea3b867563d361045c5a7181166a551edd",
+    "selector-specification.json": "88b23c9f8af1b118ac5725ce044c2ba3f497520d406523d314682eb6c7e8c4ad",
+    "apply_correction.py": "f8bc017e113d6e46fcfe43e32de34c6216cba3f25f192d12ec3766ddfe9592f2",
+    "build_gate.py": "62d61d298aa667bd5a5024dcd74401b8a1db9df3b23d65084a1bb6bfc19b7c56",
+    "build_closure.py": "d47b0661dcd9d7b6170688dae767c781207afff06802208b758d2eae35a680c8",
+    "closure.json": "d7b7e35cd9853390b4e09bace5b50983b9924c1e5a3de1229f45fd46609ca42e",
+    "closure-paired.jsonl": "3498b3e78da827dbf168771fcc65c773850ec2d3081a98e020f56727116b220e",
+    "next-delta-paired.jsonl": "811b0e4c23f90ebdada4759e1b9b9d839761dabc9ccdd749898ac0428c5f0f13"
+  },
+  "correction": {
+    "acceptedFullUnits": 1,
+    "acceptedOrdinal": 9613,
+    "authoredPath": "Translations/fil/dialogue-batch-250.json",
+    "beforeAfterEvidencePath": "Translations/fil/semantic-correction-cycle-004/after.json",
+    "allOtherAuthoredTargetsUnchanged": true,
+    "semanticEffect": "replaces false future contingency with discourse conclusion; no other fact, agency, participant, timing or reveal changed"
+  },
+  "deterministicGate": {
+    "checkedIds": 16538,
+    "missingIds": 0,
+    "extraIds": 0,
+    "duplicateIds": 0,
+    "authoredInputs": 456,
+    "batches": 455,
+    "freshCorpusGuard": "Scripts/validate_locale_corpus.py fil --output Translations/fil/semantic-correction-cycle-004/full-corpus-validation.json",
+    "optionExactSourceRows": 2675,
+    "staticPhraseRows": 177,
+    "creditsRegeneratedExact": true,
+    "sourceAndDerivedPinsUnchanged": true
+  },
+  "closure": {
+    "previous": 7604,
+    "current": 7612,
+    "currentIdsSha256": "e2545ba1387aa6d12b87b4cd50548389e9089135913cb248a6697d0810fedb41",
+    "new": 13,
+    "newIdsSha256": "3a0c89a722b89f6cc0e76078162f07793509bf41162bdbb4f9d971a235c4bc70",
+    "retired": 5,
+    "retiredIdsSha256": "fd601e7cc8018d3d13112204f874ad36b036129f775aeb2c7c4f29ed37a807eb",
+    "corrected": 1,
+    "correctedIdsSha256": "fed38c44b4c8460dffce4878ef4db9fc096e34d5f560fc09f9a1bbafc8bc02b2",
+    "explicitlyInvalidated": 12,
+    "invalidatedIdsSha256": "8cc3e03a87733251a008a4188ebf568c7615ff1eaa35cb67ddec84866f14f374",
+    "exactNextDelta": 26,
+    "exactNextDeltaIdsSha256": "5c333343813f2541415867514cf516f7941225ad2e094bf8978545286b8b3241",
+    "unchangedPriorIndependentDecisionsReusableOnExactPins": 7586,
+    "mandatoryRegression": 7240,
+    "mandatoryInDelta": 18,
+    "mandatoryUnchangedPriorDecisionsReusable": 7222,
+    "prior49RetiredReentered": 0,
+    "prior49RetiredStillRetired": 49,
+    "unexplainedMissing": 0,
+    "unexplainedExtra": 0,
+    "retirementJustification": "Five prior Esenin_Asking_3_1 scene-only peers no longer satisfy any current component. Source, target, key and node fields retain exact review03 decision pins; the 49 previously retired dependencies also retain exact hashes and remain outside current closure."
+  },
+  "nextReviewerInstructions": [
+    "Verify all cycle files and prior independent review03 evidence against SHA-256 pins; reproduce build_gate.py --verify and build_closure.py --verify.",
+    "Read all 26 complete Russian/Filipino pairs in next-delta-paired.jsonl with actual compiled scene/branch and character context; assess full corrected Theorist line plus 13 new and 12 invalidated dependencies.",
+    "Reuse the remaining 7586 current closure decisions only on exact stable ID, source, target, key, node and artifact pins. Reconcile five newly retired and 49 previously retired IDs against their independent decisions.",
+    "Reconcile mandatory catalog7240:18 in exact delta and7222 exact prior decisions. Recheck six dynamic consumers and compiled program pins; do not infer live scheduling.",
+    "Record a clean or finding-bearing immutable independent delta. Author checks do not constitute independent editorial acceptance."
+  ],
+  "limits": [
+    "No game launch, runtime, layout, glyph, screenshot, installer, package or platform test",
+    "Images and textures excluded",
+    "Editorially accepted units remain 0 until distinct independent clean review and root integration"
+  ]
+}

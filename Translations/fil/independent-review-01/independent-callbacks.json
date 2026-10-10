@@ -1,0 +1,1739 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": {
+    "OtherGameSOData.get_DeficitConsumables": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldfld",
+        "operand": "Field:_deficitConsumables [OtherGameSOData]"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "OtherGameSOData.get_PhoneNumbers": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldfld",
+        "operand": "Field:_phoneNumbers [OtherGameSOData]"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "ConsumablesController.GetDeficitItem": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldfld",
+        "operand": "Field:_otherGameSoData [ConsumablesController]"
+      },
+      {
+        "offset": 18,
+        "op": "callvirt",
+        "operand": "MethodDef:get_DeficitConsumables [OtherGameSOData]"
+      },
+      {
+        "offset": 23,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 24,
+        "op": "ldftn",
+        "operand": "MethodDef:<GetDeficitItem>b__16_0 [ConsumablesController]"
+      },
+      {
+        "offset": 30,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor []"
+      },
+      {
+        "offset": 35,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x109c9beb0>"
+      },
+      {
+        "offset": 40,
+        "op": "ldsfld",
+        "operand": "Field:<>9__16_1 [<>c]"
+      },
+      {
+        "offset": 45,
+        "op": "dup",
+        "operand": null
+      },
+      {
+        "offset": 46,
+        "op": "brtrue.s",
+        "operand": "71"
+      },
+      {
+        "offset": 48,
+        "op": "pop",
+        "operand": null
+      },
+      {
+        "offset": 49,
+        "op": "ldsfld",
+        "operand": "Field:<>9 [<>c]"
+      },
+      {
+        "offset": 54,
+        "op": "ldftn",
+        "operand": "MethodDef:<GetDeficitItem>b__16_1 [<>c]"
+      },
+      {
+        "offset": 60,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor []"
+      },
+      {
+        "offset": 65,
+        "op": "dup",
+        "operand": null
+      },
+      {
+        "offset": 66,
+        "op": "stsfld",
+        "operand": "Field:<>9__16_1 [<>c]"
+      },
+      {
+        "offset": 71,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x109c9d040>"
+      },
+      {
+        "offset": 76,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x109c9d190>"
+      },
+      {
+        "offset": 81,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "ConsumablesController.<GetDeficitItem>b__16_0": [
+      {
+        "offset": 1,
+        "op": "ldarga.s",
+        "operand": "argument(0x0001)"
+      },
+      {
+        "offset": 3,
+        "op": "call",
+        "operand": "MemberRef:get_Value []"
+      },
+      {
+        "offset": 8,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 9,
+        "op": "ldfld",
+        "operand": "Field:_saveData [ConsumablesController]"
+      },
+      {
+        "offset": 14,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Storage [ConsumablesSaveData]"
+      },
+      {
+        "offset": 19,
+        "op": "ldarga.s",
+        "operand": "argument(0x0001)"
+      },
+      {
+        "offset": 21,
+        "op": "call",
+        "operand": "MemberRef:get_Key []"
+      },
+      {
+        "offset": 26,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Item []"
+      },
+      {
+        "offset": 31,
+        "op": "clt",
+        "operand": null
+      },
+      {
+        "offset": 33,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 34,
+        "op": "ceq",
+        "operand": null
+      },
+      {
+        "offset": 36,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "<>c.<GetDeficitItem>b__16_1": [
+      {
+        "offset": 1,
+        "op": "ldarga.s",
+        "operand": "argument(0x0001)"
+      },
+      {
+        "offset": 3,
+        "op": "call",
+        "operand": "MemberRef:get_Key []"
+      },
+      {
+        "offset": 8,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "CloseUpSaveData.get_PhoneNumbers": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldfld",
+        "operand": "Field:<PhoneNumbers>k__BackingField [CloseUpSaveData]"
+      },
+      {
+        "offset": 7,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhoneCloseUpView.RestorePhoneNumbers": [
+      {
+        "offset": 12,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 14,
+        "op": "br.s",
+        "operand": "64"
+      },
+      {
+        "offset": 16,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 17,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 18,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Item []"
+      },
+      {
+        "offset": 23,
+        "op": "stloc.1",
+        "operand": null
+      },
+      {
+        "offset": 24,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 25,
+        "op": "box",
+        "operand": "TypeDef:EPhoneSubscriber []"
+      },
+      {
+        "offset": 30,
+        "op": "call",
+        "operand": "MemberRef:Log []"
+      },
+      {
+        "offset": 35,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 36,
+        "op": "ldfld",
+        "operand": "Field:_phonePinController [PhoneCloseUpView]"
+      },
+      {
+        "offset": 41,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 42,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 43,
+        "op": "ldfld",
+        "operand": "Field:_phoneNumbersController [PhoneCloseUpView]"
+      },
+      {
+        "offset": 48,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 49,
+        "op": "callvirt",
+        "operand": "MethodDef:GetNumberBySubscriber [PhoneNumbersController]"
+      },
+      {
+        "offset": 54,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 55,
+        "op": "callvirt",
+        "operand": "MethodDef:CreateFromOld [PhonePinController]"
+      },
+      {
+        "offset": 60,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 61,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 62,
+        "op": "add",
+        "operand": null
+      },
+      {
+        "offset": 63,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 64,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 65,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 66,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Count []"
+      },
+      {
+        "offset": 71,
+        "op": "blt.s",
+        "operand": "16"
+      },
+      {
+        "offset": 73,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "PhoneNumbersController.GeneratePhoneNumber": [
+      {
+        "offset": 12,
+        "op": "newobj",
+        "operand": "MethodDef:.ctor [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 17,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 18,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 19,
+        "op": "ldstr",
+        "operand": ""
+      },
+      {
+        "offset": 24,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 29,
+        "op": "ldtoken",
+        "operand": "TypeDef:ENumberGeneratingType []"
+      },
+      {
+        "offset": 34,
+        "op": "call",
+        "operand": "MemberRef:GetTypeFromHandle []"
+      },
+      {
+        "offset": 39,
+        "op": "call",
+        "operand": "MemberRef:GetValues []"
+      },
+      {
+        "offset": 44,
+        "op": "castclass",
+        "operand": "452985142"
+      },
+      {
+        "offset": 49,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x109ca6430>"
+      },
+      {
+        "offset": 54,
+        "op": "stloc.1",
+        "operand": null
+      },
+      {
+        "offset": 55,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 56,
+        "op": "stloc.2",
+        "operand": null
+      },
+      {
+        "offset": 57,
+        "op": "br",
+        "operand": "512"
+      },
+      {
+        "offset": 62,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 63,
+        "op": "brtrue.s",
+        "operand": "111"
+      },
+      {
+        "offset": 65,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 66,
+        "op": "ldc.i4.5",
+        "operand": null
+      },
+      {
+        "offset": 67,
+        "op": "bne.un.s",
+        "operand": "111"
+      },
+      {
+        "offset": 69,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 70,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 71,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 76,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 77,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 82,
+        "op": "ldc.i4.2",
+        "operand": null
+      },
+      {
+        "offset": 83,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 88,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 89,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 91,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 96,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 101,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 106,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 111,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 112,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 113,
+        "op": "bne.un.s",
+        "operand": "161"
+      },
+      {
+        "offset": 115,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 116,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 117,
+        "op": "bne.un.s",
+        "operand": "161"
+      },
+      {
+        "offset": 119,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 120,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 121,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 126,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 127,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 132,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 133,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 138,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 139,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 141,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 146,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 151,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 156,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 161,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 162,
+        "op": "ldc.i4.2",
+        "operand": null
+      },
+      {
+        "offset": 163,
+        "op": "bne.un.s",
+        "operand": "211"
+      },
+      {
+        "offset": 165,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 166,
+        "op": "ldc.i4.2",
+        "operand": null
+      },
+      {
+        "offset": 167,
+        "op": "bne.un.s",
+        "operand": "211"
+      },
+      {
+        "offset": 169,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 170,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 171,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 176,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 177,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 182,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 183,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 188,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 189,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 191,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 196,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 201,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 206,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 211,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 212,
+        "op": "ldc.i4.2",
+        "operand": null
+      },
+      {
+        "offset": 213,
+        "op": "bne.un.s",
+        "operand": "261"
+      },
+      {
+        "offset": 215,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 216,
+        "op": "ldc.i4.5",
+        "operand": null
+      },
+      {
+        "offset": 217,
+        "op": "bne.un.s",
+        "operand": "261"
+      },
+      {
+        "offset": 219,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 220,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 221,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 226,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 227,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 232,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 233,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 238,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 239,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 241,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 246,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 251,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 256,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 261,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 262,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 263,
+        "op": "bne.un.s",
+        "operand": "311"
+      },
+      {
+        "offset": 265,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 266,
+        "op": "ldc.i4.5",
+        "operand": null
+      },
+      {
+        "offset": 267,
+        "op": "bne.un.s",
+        "operand": "311"
+      },
+      {
+        "offset": 269,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 270,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 271,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 276,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 277,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 282,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 283,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 288,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 289,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 291,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 296,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 301,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 306,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 311,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 312,
+        "op": "ldc.i4.4",
+        "operand": null
+      },
+      {
+        "offset": 313,
+        "op": "bne.un.s",
+        "operand": "361"
+      },
+      {
+        "offset": 315,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 316,
+        "op": "ldc.i4.5",
+        "operand": null
+      },
+      {
+        "offset": 317,
+        "op": "bne.un.s",
+        "operand": "361"
+      },
+      {
+        "offset": 319,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 320,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 321,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 326,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 327,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 332,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 333,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 338,
+        "op": "stloc.3",
+        "operand": null
+      },
+      {
+        "offset": 339,
+        "op": "ldloca.s",
+        "operand": "local(0x0003)"
+      },
+      {
+        "offset": 341,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 346,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 351,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 356,
+        "op": "br",
+        "operand": "508"
+      },
+      {
+        "offset": 361,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 362,
+        "op": "ldc.i4.4",
+        "operand": null
+      },
+      {
+        "offset": 363,
+        "op": "bne.un.s",
+        "operand": "474"
+      },
+      {
+        "offset": 365,
+        "op": "ldloc.1",
+        "operand": null
+      },
+      {
+        "offset": 366,
+        "op": "ldc.i4.4",
+        "operand": null
+      },
+      {
+        "offset": 367,
+        "op": "beq.s",
+        "operand": "474"
+      },
+      {
+        "offset": 369,
+        "op": "ldc.r4",
+        "operand": "0.0"
+      },
+      {
+        "offset": 374,
+        "op": "ldc.r4",
+        "operand": "1.0"
+      },
+      {
+        "offset": 379,
+        "op": "call",
+        "operand": "MemberRef:Range []"
+      },
+      {
+        "offset": 384,
+        "op": "ldc.r4",
+        "operand": "0.6600000262260437"
+      },
+      {
+        "offset": 389,
+        "op": "bge.un.s",
+        "operand": "474"
+      },
+      {
+        "offset": 391,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 392,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 397,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 398,
+        "op": "callvirt",
+        "operand": "MemberRef:get_Chars []"
+      },
+      {
+        "offset": 403,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 408,
+        "op": "call",
+        "operand": "MemberRef:Parse []"
+      },
+      {
+        "offset": 413,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 414,
+        "op": "ldc.i4.2",
+        "operand": null
+      },
+      {
+        "offset": 415,
+        "op": "call",
+        "operand": "MemberRef:Range []"
+      },
+      {
+        "offset": 420,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 421,
+        "op": "beq.s",
+        "operand": "426"
+      },
+      {
+        "offset": 423,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 424,
+        "op": "br.s",
+        "operand": "427"
+      },
+      {
+        "offset": 426,
+        "op": "ldc.i4.m1",
+        "operand": null
+      },
+      {
+        "offset": 427,
+        "op": "add",
+        "operand": null
+      },
+      {
+        "offset": 428,
+        "op": "stloc.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 430,
+        "op": "ldloc.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 432,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 433,
+        "op": "bge.s",
+        "operand": "439"
+      },
+      {
+        "offset": 435,
+        "op": "ldc.i4.s",
+        "operand": "9"
+      },
+      {
+        "offset": 437,
+        "op": "stloc.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 439,
+        "op": "ldloc.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 441,
+        "op": "ldc.i4.s",
+        "operand": "9"
+      },
+      {
+        "offset": 443,
+        "op": "ble.s",
+        "operand": "448"
+      },
+      {
+        "offset": 445,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 446,
+        "op": "stloc.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 448,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 449,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 450,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 455,
+        "op": "ldloca.s",
+        "operand": "local(0x0004)"
+      },
+      {
+        "offset": 457,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 462,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 467,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 472,
+        "op": "br.s",
+        "operand": "508"
+      },
+      {
+        "offset": 474,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 475,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 476,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 481,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 482,
+        "op": "ldc.i4.s",
+        "operand": "10"
+      },
+      {
+        "offset": 484,
+        "op": "call",
+        "operand": "MemberRef:Range []"
+      },
+      {
+        "offset": 489,
+        "op": "stloc.s",
+        "operand": "local(0x0005)"
+      },
+      {
+        "offset": 491,
+        "op": "ldloca.s",
+        "operand": "local(0x0005)"
+      },
+      {
+        "offset": 493,
+        "op": "call",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 498,
+        "op": "call",
+        "operand": "MemberRef:Concat []"
+      },
+      {
+        "offset": 503,
+        "op": "stfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 508,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 509,
+        "op": "ldc.i4.1",
+        "operand": null
+      },
+      {
+        "offset": 510,
+        "op": "add",
+        "operand": null
+      },
+      {
+        "offset": 511,
+        "op": "stloc.2",
+        "operand": null
+      },
+      {
+        "offset": 512,
+        "op": "ldloc.2",
+        "operand": null
+      },
+      {
+        "offset": 513,
+        "op": "ldc.i4.6",
+        "operand": null
+      },
+      {
+        "offset": 514,
+        "op": "blt",
+        "operand": "62"
+      },
+      {
+        "offset": 519,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 520,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 521,
+        "op": "ldftn",
+        "operand": "MethodDef:<GeneratePhoneNumber>b__0 [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 527,
+        "op": "newobj",
+        "operand": "MemberRef:.ctor []"
+      },
+      {
+        "offset": 532,
+        "op": "call",
+        "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x109ca6580>"
+      },
+      {
+        "offset": 537,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 538,
+        "op": "bgt",
+        "operand": "18"
+      },
+      {
+        "offset": 543,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 544,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 549,
+        "op": "ldc.i4.0",
+        "operand": null
+      },
+      {
+        "offset": 550,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 551,
+        "op": "callvirt",
+        "operand": "MemberRef:Substring []"
+      },
+      {
+        "offset": 556,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 557,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 562,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 563,
+        "op": "ldc.i4.3",
+        "operand": null
+      },
+      {
+        "offset": 564,
+        "op": "callvirt",
+        "operand": "MemberRef:Substring []"
+      },
+      {
+        "offset": 569,
+        "op": "call",
+        "operand": "MemberRef:op_Equality []"
+      },
+      {
+        "offset": 574,
+        "op": "brtrue",
+        "operand": "18"
+      },
+      {
+        "offset": 579,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 580,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 585,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "<>c__DisplayClass5_0.<GeneratePhoneNumber>b__0": [
+      {
+        "offset": 1,
+        "op": "ldarga.s",
+        "operand": "argument(0x0001)"
+      },
+      {
+        "offset": 3,
+        "op": "call",
+        "operand": "MemberRef:get_Value []"
+      },
+      {
+        "offset": 8,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 9,
+        "op": "ldfld",
+        "operand": "Field:tempNumber [<>c__DisplayClass5_0]"
+      },
+      {
+        "offset": 14,
+        "op": "call",
+        "operand": "MemberRef:op_Equality []"
+      },
+      {
+        "offset": 19,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "DialogManager.OnPeekedDeficitItem": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldfld",
+        "operand": "Field:_consumablesController [DialogManager]"
+      },
+      {
+        "offset": 18,
+        "op": "callvirt",
+        "operand": "MethodDef:GetDeficitItem [IConsumablesController]"
+      },
+      {
+        "offset": 23,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 24,
+        "op": "ldloca.s",
+        "operand": "local(0x0000)"
+      },
+      {
+        "offset": 26,
+        "op": "constrained.",
+        "operand": "TypeDef:EConsumable []"
+      },
+      {
+        "offset": 32,
+        "op": "callvirt",
+        "operand": "MemberRef:ToString []"
+      },
+      {
+        "offset": 37,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "DialogManager.OnGotCourierOrder": [
+      {
+        "offset": 12,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldfld",
+        "operand": "Field:_saveData [DialogManager]"
+      },
+      {
+        "offset": 18,
+        "op": "callvirt",
+        "operand": "MethodDef:get_CourierOrderData [DialogSaveData]"
+      },
+      {
+        "offset": 23,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Consumable [DialogCourierOrderData]"
+      },
+      {
+        "offset": 28,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 29,
+        "op": "ldfld",
+        "operand": "Field:_saveData [DialogManager]"
+      },
+      {
+        "offset": 34,
+        "op": "callvirt",
+        "operand": "MethodDef:get_CourierOrderData [DialogSaveData]"
+      },
+      {
+        "offset": 39,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Count [DialogCourierOrderData]"
+      },
+      {
+        "offset": 44,
+        "op": "newobj",
+        "operand": "MethodDef:.ctor [DialogCourierOrderData]"
+      },
+      {
+        "offset": 49,
+        "op": "stloc.0",
+        "operand": null
+      },
+      {
+        "offset": 50,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 51,
+        "op": "ldfld",
+        "operand": "Field:_saveData [DialogManager]"
+      },
+      {
+        "offset": 56,
+        "op": "ldnull",
+        "operand": null
+      },
+      {
+        "offset": 57,
+        "op": "callvirt",
+        "operand": "MethodDef:set_CourierOrderData [DialogSaveData]"
+      },
+      {
+        "offset": 62,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 63,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 64,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Consumable [DialogCourierOrderData]"
+      },
+      {
+        "offset": 69,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 70,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Count [DialogCourierOrderData]"
+      },
+      {
+        "offset": 75,
+        "op": "call",
+        "operand": "MethodDef:OnGotItem [DialogManager]"
+      },
+      {
+        "offset": 80,
+        "op": "ldloc.0",
+        "operand": null
+      },
+      {
+        "offset": 81,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "DialogManager.OnGotPhoneNumber": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldfld",
+        "operand": "Field:GotPhoneNumber [DialogManager]"
+      },
+      {
+        "offset": 7,
+        "op": "dup",
+        "operand": null
+      },
+      {
+        "offset": 8,
+        "op": "brtrue.s",
+        "operand": "13"
+      },
+      {
+        "offset": 10,
+        "op": "pop",
+        "operand": null
+      },
+      {
+        "offset": 11,
+        "op": "ldnull",
+        "operand": null
+      },
+      {
+        "offset": 12,
+        "op": "ret",
+        "operand": null
+      },
+      {
+        "offset": 13,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 14,
+        "op": "callvirt",
+        "operand": "MemberRef:Invoke []"
+      },
+      {
+        "offset": 19,
+        "op": "ret",
+        "operand": null
+      }
+    ],
+    "CharactersManager.GetPlace": [
+      {
+        "offset": 1,
+        "op": "ldarg.0",
+        "operand": null
+      },
+      {
+        "offset": 2,
+        "op": "ldarg.1",
+        "operand": null
+      },
+      {
+        "offset": 3,
+        "op": "call",
+        "operand": "MethodDef:GetCharacter [CharactersManager]"
+      },
+      {
+        "offset": 8,
+        "op": "callvirt",
+        "operand": "MethodDef:get_Place [CharacterSOData]"
+      },
+      {
+        "offset": 13,
+        "op": "ret",
+        "operand": null
+      }
+    ]
+  },
+  "registrationAndNotificationReferences": [
+    {
+      "method": "DialogManager.SubscribeEvents",
+      "references": [
+        {
+          "offset": 594,
+          "op": "ldftn",
+          "operand": "MethodDef:OnGotPhoneNumber [DialogManager]"
+        },
+        {
+          "offset": 663,
+          "op": "ldftn",
+          "operand": "MethodDef:OnGotCourierOrder [DialogManager]"
+        },
+        {
+          "offset": 870,
+          "op": "ldftn",
+          "operand": "MethodDef:OnPeekedDeficitItem [DialogManager]"
+        },
+        {
+          "offset": 1905,
+          "op": "ldftn",
+          "operand": "MethodDef:OnGotPhoneNumber [DialogManager]"
+        },
+        {
+          "offset": 1974,
+          "op": "ldftn",
+          "operand": "MethodDef:OnGotCourierOrder [DialogManager]"
+        },
+        {
+          "offset": 2181,
+          "op": "ldftn",
+          "operand": "MethodDef:OnPeekedDeficitItem [DialogManager]"
+        }
+      ]
+    }
+  ]
+}

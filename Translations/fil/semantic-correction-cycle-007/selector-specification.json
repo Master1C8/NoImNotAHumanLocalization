@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 7,
+  "locale": "fil",
+  "status": "ordinary current-input recipe: retain all prior controls/rules; add bounded group-membership and household-totality source risks",
+  "previousClosureSha256": "24a1e0f8629f55b31d601c1b722c127d2eb34247f7d10c0ab1e9b9e85500124c",
+  "mandatoryBasePredicates": [
+    "all accepted UI IDs",
+    "all selected static TMP IDs",
+    "all accepted exact-source common-option rows including the independent Нет row"
+  ],
+  "mandatorySourceRegex": {
+    "family-identity": "(?i)сестр|брат|матер|мать|мам|отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*|пап|доч|сын|ж[её]н|муж|бабуш|дедуш|\\b(?:он|она|его|её|ее|ему|ей|им|них|ними)\\b",
+    "guest-human": "гост|Гост|человек|Человек|люд|Люд|нечеловек|Нечеловек|фема|ФЕМА|FEMA|визит|Визит",
+    "profanity-humor": "бля|Бля|нахуй|нахер|говн|Говн|жоп|Жоп|пизд|Пизд|[её]б|[ЕЁ]б|долбо|Долбо|сука|Сука|шутк|Шутк|смешн|Смешн|(?i:\\b(?:(?:на|ни|по)?хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?|хренов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|(?:на|ни|по)?хер(?:а|у|ом|е|ы|ов|ам|ами|ах)?|херн(?:я|и|ю|е|ёй|ей)|херов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|херач(?:ил(?:а|и|о)?|ит|ить|у|ь|ат|ишь|им|ите)|херобор(?:а|ы|у|е|ой|ою|ам|ами|ах)?|нихерашечк(?:а|и|у|е|ой|ами|ах))\\b)",
+    "markup-format": "\\{[0-9]+\\}|<[^<>]+>",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "window-environment": "(?i)^Window:",
+    "future-open-contingency": "(?i)(?:что\\s+бы\\s+ни|что\\s+ни)\\s+случил[а-яё]*",
+    "absence-of-progress": "(?i)(?:вообще\\s+нихера|не\\s+происход[а-яё]*\\s+(?:вообще\\s+)?(?:нихера|ничего)|ничего\\s+не\\s+происход[а-яё]*)",
+    "discourse-any-case": "(?i)\\bв\\s+любом\\s+случае\\b",
+    "attributed-perception-causality": "(?is)(?=.*\\b(?:показал(?:ось|ся|ась|ись)|казал(?:ось|ся|ась|ись)|кажется)\\b)(?=.*\\b(?:из-за|потому|поэтому|так\\s+как|оттого|мне|тебе|ему|ей|нам|вам|им)\\b)",
+    "coarse-xren-xer": "(?i:\\b(?:(?:на|ни|по)?хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?|хренов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|(?:на|ни|по)?хер(?:а|у|ом|е|ы|ов|ам|ами|ах)?|херн(?:я|и|ю|е|ёй|ей)|херов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|херач(?:ил(?:а|и|о)?|ит|ить|у|ь|ат|ишь|им|ите)|херобор(?:а|ы|у|е|ой|ою|ам|ами|ах)?|нихерашечк(?:а|и|у|е|ой|ами|ах))\\b)",
+    "exclusive-underground-group": "(?i)^Miner:(?=.*\\b(?:мы|нас|нам|нами|наш(?:а|е|и|его|ему|им|ей|их|ими|у|ем)?)\\b)(?=.*\\b(?:тут|здесь|внизу|подзем[а-яё]*|подвал[а-яё]*)\\b)",
+    "household-work-totality": "(?i)(?:\\bвс[её]\\b.{0,24}\\bпо дому\\b|\\bпо дому\\b.{0,24}\\bвс[её]\\b)"
+  },
+  "affectedReferentSourceRegex": {
+    "committee-agency": "(?i)\\b(?:кчс|комитет[а-яё]*)\\b",
+    "new-faith": "(?i)\\bнововер[а-яё]*\\b",
+    "ear-wax-source-forms": "(?i)\\bсер(?:а|ы|е|у|ой|ою)\\b",
+    "interrupted-radio-subject": "(?i)\\bсубъ(?:ект|[.\\u2026]+кт)(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "father-grandchild": "(?i)\\b(?:отец|отц[а-яё]*|внук[а-яё]*|внуч[а-яё]*)\\b",
+    "youth-life-stage": "(?i)\\b(?:молодость|молодости|молодым|молодой|молодые|молодых|молодёжь|юнош[а-яё]*|подрост[а-яё]*)\\b",
+    "camera-gun-instrument": "(?i)щёлк|щелк|\\bфото[а-яё]*\\b|\\bружь[а-яё]*\\b",
+    "gun-threat-expletive": "(?i)\\bёбаный\\s+свет\\b",
+    "child-murder-victim": "(?i)убийств[а-яё]*\\s+реб[её]нк[а-яё]*|реб[её]нк[а-яё]*\\s+зарезать",
+    "visitor-later-reveal": "(?i)окажется.{0,90}гост[а-яё]*",
+    "mushroom-size": "(?i)больше\\s+грибы",
+    "remote-confinement": "(?i)далеко\\s+и\\s+надолго",
+    "future-open-contingency": "(?i)(?:что\\s+бы\\s+ни|что\\s+ни)\\s+случил[а-яё]*",
+    "absence-of-progress": "(?i)(?:вообще\\s+нихера|не\\s+происход[а-яё]*\\s+(?:вообще\\s+)?(?:нихера|ничего)|ничего\\s+не\\s+происход[а-яё]*)",
+    "discourse-any-case": "(?i)\\bв\\s+любом\\s+случае\\b",
+    "attributed-perception-causality": "(?is)(?=.*\\b(?:показал(?:ось|ся|ась|ись)|казал(?:ось|ся|ась|ись)|кажется)\\b)(?=.*\\b(?:из-за|потому|поэтому|так\\s+как|оттого|мне|тебе|ему|ей|нам|вам|им)\\b)",
+    "coarse-xren-xer": "(?i:\\b(?:(?:на|ни|по)?хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?|хренов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|(?:на|ни|по)?хер(?:а|у|ом|е|ы|ов|ам|ами|ах)?|херн(?:я|и|ю|е|ёй|ей)|херов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|херач(?:ил(?:а|и|о)?|ит|ить|у|ь|ат|ишь|им|ите)|херобор(?:а|ы|у|е|ой|ою|ам|ами|ах)?|нихерашечк(?:а|и|у|е|ой|ами|ах))\\b)",
+    "exclusive-underground-group": "(?i)^Miner:(?=.*\\b(?:мы|нас|нам|нами|наш(?:а|е|и|его|ему|им|ей|их|ими|у|ем)?)\\b)(?=.*\\b(?:тут|здесь|внизу|подзем[а-яё]*|подвал[а-яё]*)\\b)",
+    "household-work-totality": "(?i)(?:\\bвс[её]\\b.{0,24}\\bпо дому\\b|\\bпо дому\\b.{0,24}\\bвс[её]\\b)"
+  },
+  "localizedWordingRegex": [
+    "(?i)\\b(?:asupre|tutuli)\\b",
+    "(?i)\\b(?:liwanag|putangina)\\b",
+    "(?i)\\b(?:pananampalataya|sumasapi)\\b",
+    "(?i)\\b(?:murang edad|nang maaga)\\b",
+    "(?i)\\b(?:kinikilala|kikilalanin)\\b",
+    "(?i)\\b(?:pangkuha ng litrato|kukunan mo rin ba)\\b",
+    "(?i)pagpatay (?:ng|sa) isang bata",
+    "(?i)\\b(?:malaman mong|malamang) panauhin\\b",
+    "(?i)\\bAnuman ang (?:nangyari|mangyari)\\b",
+    "(?i)\\bwala namang nangyayaring kahit anong\\b",
+    "(?i)\\bwala namang nangyayari, putangina\\b",
+    "(?i)\\bGayunman\\b",
+    "(?i)\\b(?:inakala|akala)\\b[^\\r\\n]*\\bdahil\\b|\\bmukhang\\s+(?:nabaluktot|baluktot)\\b",
+    "(?i)\\b(?:putsa|bwisit|pucha|lintik|pake|kagaguhan|kagaguhang|kalokohan|kalokohang)\\b",
+    "(?i)\\b(?:tayo|kami|natin|namin|gawain|ipinanglinis)\\b"
+  ],
+  "runtimeBindingRule": "Retain prior coarse-source minimum consumer windows and six unchanged actual dynamic consumers. Add nearest2 accepted text instructions on each side of actual consumers for the corrected exclusive-underground-group and household-work-totality source families. Pin full node control topology separately. Only new family windows/consumers invalidate prior semantic evidence; do not reread coarse125 or full closure.",
+  "exactRepetitionRule": "All accepted exact complete-source and old/new complete-target repetitions of the two current corrections. Existing source and localized families retained.",
+  "regressionExamples": [
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389124",
+      "source": "Phone: Не представляю, насколько вы ненавидите отца, если хотите, чтобы дом сгорел…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457916194817",
+      "source": "У меня… были сложные отношения с отцом",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499848",
+      "source": "BigLebowski: Прям как от отца.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455496081417",
+      "source": "FatalDame: Ты говорил о своём отце несколько дней назад.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143428",
+      "source": "Что произошло с твоим отцом?",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391498",
+      "source": "Daughter: (Девочка безостановочно зовёт отца, истерика остановится нескоро)",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "father-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453071773697",
+      "source": "TaxiDriver: Так-то, я раньше на фотках с отцом был. В машине. Теперь, если кто и фоткает – только инспектора.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140230",
+      "source": "NotTrue: И внучек и правда был приветливый — здоровался всегда со мной, спрашивал, как дела у меня.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454569140228",
+      "source": "NotTrue: Как-то соседка моя, пока мы сидели на лавочке, похвасталась внуком своим.",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "grandchild",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751619",
+      "source": "NotTrue: А дачи у меня нет. Да и родни тоже нет. И внуков… Ох, милок…",
+      "expectedSelector": "family-identity"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+      "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873281",
+      "source": "Window: На земле лежат сгоревшие дотла тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678976",
+      "source": "Window: На земле лежат тела подростков.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447939",
+      "source": "MushroomEater: Молодец, о добрый юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865033",
+      "source": "MushroomEater: Не прощаемся, о дорогой юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456687263746",
+      "source": "Prophet: «Наша молодость кричала, как костёр Руан».",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454682386434",
+      "source": "Raskolnikov: А после –  резкий хлопок, и бездыханное тело юноши лежит вместе с той кучей трупов.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454678192137",
+      "source": "Raskolnikov: Рядом с ним стоял беспомощный юноша.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454183264261",
+      "source": "Firefighter: Мог остаться и отработать, пока не упаду. Не пришлось бы посылать молодых на убой.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "youth-life-stage",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453860302858",
+      "source": "Experienced: Этими руками я воровал и грабил… Но это было давно, и я уже своё отсидел за ошибку молодости.",
+      "expectedSelector": "youth-life-stage"
+    },
+    {
+      "riskSurface": "ear-wax-inflection",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453763833866",
+      "source": "Jacob: Открою секрет. Человек с серой в ушах — это нормально.",
+      "expectedSelector": "ear-wax-source-forms"
+    },
+    {
+      "riskSurface": "radio-interruption",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "expectedSelector": "interrupted-radio-subject"
+    },
+    {
+      "riskSurface": "future-open-contingency",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673920",
+      "source": "Window: Что бы ни случилось, это наверняка произойдёт теперь с вами.",
+      "expectedSelector": "future-open-contingency"
+    },
+    {
+      "riskSurface": "absence-of-progress",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454372007947",
+      "source": "Esenin: Все говорят, что решают проблемы, а на деле не происходит вообще нихера.",
+      "expectedSelector": "absence-of-progress"
+    },
+    {
+      "riskSurface": "discourse conclusion",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637703",
+      "source": "Theorist: В любом случае, потешная статья…",
+      "expectedSelector": "discourse-any-case"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637702",
+      "source": "Theorist: Рискну предположить, что ему это показалось из-за искаженного лица, когда смотришь на него из окна.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455487692800",
+      "source": "FatalDame: Я думаю, тебе так показалось, потому что ты боишься сейчас нести ответственность за других.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373125",
+      "source": "Anger: Речи этих ебучих культистов показались ей разумными.",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "attributed perception and causal explanation",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457731645448",
+      "source": "Phone: Я пытаюсь убедить её, что ей показалось. Но… похоже, она считает иначе…",
+      "expectedSelector": "attributed-perception-causality"
+    },
+    {
+      "riskSurface": "actual coarse form нахер",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+      "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хера",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457870057474",
+      "source": "С какого хера надо кого-то искать? Кто бы меня уже в покое оставил…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form похер",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863174",
+      "source": "Хотя… бате было похер на правила.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херня",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457396101123",
+      "source": "Bald: Щас только чё-т ни до кого из них не дозвониться. У каждого какая-то херня вдруг произошла.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херам",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906824",
+      "source": "Bald: Впустишь перекантоваться? А то к какому другу ни зайду, либо его дома нет, либо выгнали к херам, либо ещё чего.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хер",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457358352390",
+      "source": "А ко мне на кой хер припёрся?",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херни",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457291243522",
+      "source": "Jacob: Я ищу её с начала всей этой херни.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form нихера",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746057",
+      "source": "Fugitive: Парень, я готов всё отдать, что у меня есть. А вот, смотри, — {0}. Нашёл по пути. Больше нихера на мне нет.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form нахрен",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457140248576",
+      "source": "Dude: Блин, да он всю тусовку нахрен загубит.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хрен",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457068945413",
+      "source": "Vigilante: Если б брат не был ёбаным слюнтяем, может, хоть жену с ребёнком уберёг бы. А так теперь хрен пойми, где его пиздючка шляется.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херово",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198537",
+      "source": "Firefighter: Херово, приятель, кх-кх.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херню",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455961649157",
+      "source": "Intruder: А вот теперь думай, сказал ли я правду или просто херню тебе на уши вешаю.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херачить",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654208",
+      "source": "Bald: Но, как назло, ещё и Солнце это начало херачить да Гости повылезали, так что жить стало ещё пиздецовее.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хреново",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455768711172",
+      "source": "Jacket: Чёрт, как же всё это хреново…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хрена",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455722573828",
+      "source": "Experienced: Какого хрена все ходят в одежде в такую жару…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херачу",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455668047876",
+      "source": "Unstable: Вот. И я сижу, херачу мою любимую Энержеку.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херачил",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455005347845",
+      "source": "BigLebowski: Другое дело, когда я попадалась ему под горячую руку, и он меня со всей силы херачил. Ну а мамке было похрен. Она даже не смотрела.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form похрен",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455005347845",
+      "source": "BigLebowski: Другое дело, когда я попадалась ему под горячую руку, и он меня со всей силы херачил. Ну а мамке было похрен. Она даже не смотрела.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form нихерашечки",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454892101640",
+      "source": "Dude: А у тебя мало того, что телик в твоей личной комнате, так ещё и фильмов нихерашечки!?",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form нихрена",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852225",
+      "source": "Leper: Ты нихрена не лучше людей, которые считают, что я заразный.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form нахера",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453923217414",
+      "source": "Jacket: Зачем вы тогда доставали ружьё? НАХЕРА!?",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херне",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453747056649",
+      "source": "Anger: Меня это напрягает просто пиздец. Но я слишком поздно ловлю себя на этой херне.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херачит",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453075968008",
+      "source": "TaxiDriver: Кто-то херачит руками по рулю, кто-то орёт, кто-то выходит на драку. Каждый как бы сам справляется со всем этим. Так что ты не шути так. Пожалуйста…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хероборы",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453075968004",
+      "source": "TaxiDriver: С того момента я курю, и видишь, что с зубами-то от этой хероборы…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хернёй",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452362936325",
+      "source": "Fatman: А жопу тебе не показать? Ишь удумал, хернёй какой-то заниматься.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form хреновой",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452262273034",
+      "source": "Fugitive: Проверяй, парень. Ты ж понимаешь, мне нечего скрывать. Кроме, может, хреновой удачи.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "actual coarse form херачь",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451826065414",
+      "source": "Anger: Херачь.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457354158090",
+      "source": "Experienced: Ходят в одних свитерах да куртках, и им вообще похер.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457354158089",
+      "source": "Experienced: Так жара лютая, фраер. Я хер знает почему остальные не додумались до такого.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455730962438",
+      "source": "Experienced: Я скорее про других лопухов. На кой хер им куртки и свитера носить, если такая жарень. Смекаешь?",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455722573828",
+      "source": "Experienced: Какого хрена все ходят в одежде в такую жару…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455718379527",
+      "source": "Experienced: Какого хрена все ходят в одежде в такую жару…",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "ex-con source voice",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453877080069",
+      "source": "Experienced: Фраер, с хера ли ты волыну достал? Убери её.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "rough photo imperative actual consumer",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451826065414",
+      "source": "Anger: Херачь.",
+      "expectedSelector": "coarse-xren-xer"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457031196677",
+      "source": "Miner: Ну? Чего ждёшь? Мы ведь для этого здесь.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457027002376",
+      "source": "Miner: Какой другой? Я уже давно понял, что кто-то из нас должен действовать. Тут ведь не вечность – либо сейчас, либо никогда.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457022808068",
+      "source": "Miner: Ну а так, подходил, смотрел, когда мы все тут были… там темень такая, будто глаза закрываешь, и ничего-ничего.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457018613765",
+      "source": "Miner: Слушай, время тут вообще как-то странно идёт. Тут ни солнца, ни часов нет. Так что хрен знает, сколько мы тут уже.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457014419467",
+      "source": "Miner: Мы начинали, тут чуть всё не посыпалось нам на головы.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457014419461",
+      "source": "Miner: Мы начинали, тут чуть всё не посыпалось нам на головы.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457010225153",
+      "source": "Miner: Но это не важно, потому что вот тут мы и нашли кое-что.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457006030857",
+      "source": "Miner: Мы с мужиками хотели прорыть туннели, чтобы прятаться тут от жары.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "exclusive-underground-group",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457006030853",
+      "source": "Miner: Застрял? Нет. Мы тут нашли кое-что.",
+      "expectedSelector": "exclusive-underground-group"
+    },
+    {
+      "riskSurface": "household-work-totality",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451813482501",
+      "source": "Mother: Руки... Я ими детей обнимала, всё по дому делала и мужа ласкала. И знаешь что? Всё равно никто нихера не ценит.",
+      "expectedSelector": "household-work-totality"
+    }
+  ],
+  "syntheticSelectorRegressions": [
+    {
+      "selector": "youth-life-stage",
+      "source": "Молодец!",
+      "mustMatch": false
+    },
+    {
+      "selector": "youth-life-stage",
+      "source": "В молодости он работал.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Я говорил с отцом.",
+      "mustMatch": true
+    },
+    {
+      "selector": "family-identity",
+      "source": "Она гордится внучеком.",
+      "mustMatch": true
+    },
+    {
+      "selector": "ear-wax-source-forms",
+      "source": "С серой в ушах.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Субъ…кт покинул город.",
+      "mustMatch": true
+    },
+    {
+      "selector": "interrupted-radio-subject",
+      "source": "Истина субъективна.",
+      "mustMatch": false
+    },
+    {
+      "selector": "future-open-contingency",
+      "source": "Что бы ни случилось, мы останемся здесь.",
+      "mustMatch": true
+    },
+    {
+      "selector": "future-open-contingency",
+      "source": "Что бы ни думали соседи.",
+      "mustMatch": false
+    },
+    {
+      "selector": "absence-of-progress",
+      "source": "Вообще нихера не происходит.",
+      "mustMatch": true
+    },
+    {
+      "selector": "absence-of-progress",
+      "source": "У него ничего нет.",
+      "mustMatch": false
+    },
+    {
+      "selector": "discourse-any-case",
+      "source": "В любом случае, статья смешная.",
+      "mustMatch": true
+    },
+    {
+      "selector": "discourse-any-case",
+      "source": "В этом случае статья смешная.",
+      "mustMatch": false
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Ему это показалось из-за искажённого лица.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Речи показались ей разумными.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Кажется, мне это привиделось.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Мне показалось, что она боится.",
+      "mustMatch": true
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Показался мужчина в дверях.",
+      "mustMatch": false
+    },
+    {
+      "selector": "attributed-perception-causality",
+      "source": "Лицо искажено из-за окна.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Какого хрена они в куртках?",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "С какого хера ты достал ружьё?",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Ему вообще похер.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Нихерашечки нет.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Херачу энергетик.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Херачь.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Хрен знает, где корень проблемы.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "В соус добавили тёртый хрен.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Корень хрена вымыли.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Хрен растёт в саду.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Мы натёрли хрен.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Нахер мне тёртый хрен?",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Ясен хер, корень хрена вымыли.",
+      "mustMatch": true
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Херсон находится у реки.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "На картине херувим.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Череп на столе.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "Это охра.",
+      "mustMatch": false
+    },
+    {
+      "selector": "coarse-xren-xer",
+      "source": "С какого хрена ты взял корень хрена?",
+      "mustMatch": true
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "В соус добавили тёртый хрен.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Корень хрена вымыли.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Хрен растёт в саду.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Мы натёрли хрен.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Нахер мне тёртый хрен?",
+      "mustMatch": true
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Ясен хер, корень хрена вымыли.",
+      "mustMatch": true
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Херсон находится у реки.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "На картине херувим.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Череп на столе.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "Это охра.",
+      "mustMatch": false
+    },
+    {
+      "selector": "profanity-humor",
+      "source": "С какого хрена ты взял корень хрена?",
+      "mustMatch": true
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Мы тут нашли кое-что.",
+      "mustMatch": true
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Вот тут мы нашли кое-что.",
+      "mustMatch": true
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Наши остаются внизу.",
+      "mustMatch": true
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Только начали копать — нашли сеть подземелий.",
+      "mustMatch": false
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Нашли подвал.",
+      "mustMatch": false
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Miner: Мы будем там.",
+      "mustMatch": false
+    },
+    {
+      "selector": "exclusive-underground-group",
+      "source": "Mother: Мы тут остаёмся.",
+      "mustMatch": false
+    },
+    {
+      "selector": "household-work-totality",
+      "source": "Mother: Всё по дому делала.",
+      "mustMatch": true
+    },
+    {
+      "selector": "household-work-totality",
+      "source": "Mother: Все по дому делала.",
+      "mustMatch": true
+    },
+    {
+      "selector": "household-work-totality",
+      "source": "Mother: По дому всё делала.",
+      "mustMatch": true
+    },
+    {
+      "selector": "household-work-totality",
+      "source": "Mother: Только убиралась дома.",
+      "mustMatch": false
+    },
+    {
+      "selector": "household-work-totality",
+      "source": "Mother: Всё по дороге делала.",
+      "mustMatch": false
+    }
+  ],
+  "selectorRepairReason": "Review06 defects are bounded participant-set and household-category omissions. The ordinary risk selector handles group/location in either order, explicit pronoun inflections excluding lexical нашл- stems, and всё/все plus по дому in either order. No exceptional IDs or speaker-wide selection.",
+  "coarseCandidateEnumerationRegex": "(?i)\\b(?:хрен[а-яё]*|хер[а-яё]*|нахрен[а-яё]*|нахер[а-яё]*|нихрен[а-яё]*|нихер[а-яё]*|похрен[а-яё]*|похер[а-яё]*)\\b",
+  "coarseRegisterSourceRegex": "(?i:\\b(?:(?:на|ни|по)?хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?|хренов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|(?:на|ни|по)?хер(?:а|у|ом|е|ы|ов|ам|ами|ах)?|херн(?:я|и|ю|е|ёй|ей)|херов(?:о|ый|ая|ое|ые|ой|ого|ому|ым|ую|ых|ыми)?|херач(?:ил(?:а|и|о)?|ит|ить|у|ь|ат|ишь|им|ите)|херобор(?:а|ы|у|е|ой|ою|ам|ами|ах)?|нихерашечк(?:а|и|у|е|ой|ами|ах))\\b)",
+  "literalHorseradishContextRegex": [
+    "(?i)\\b(?:кор(?:ень|ня|ню|нем|не|ни|ней)|т[её]рт(?:ый|ого|ому|ым|ом|ая|ую)|свеж(?:ий|его|ему|им|ем)|столов(?:ый|ого|ому|ым|ом))\\s+хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b",
+    "(?i)\\bхрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\s+(?:раст[её]т|растут|выращивают|посадили|нат[её]рли|нарезали|добавили\\s+в\\s+соус)\\b",
+    "(?i)\\b(?:нат[её]рли|нарезали|выкопали|посадили)\\s+хрен(?:а|у|ом|е|ы|ов|ам|ами|ах)?\\b"
+  ],
+  "semanticPredicateRule": "Mask only explicit culinary/botanical horseradish spans before ordinary profanity-humor/coarse-xren-xer matching. Ambiguous bare homographs remain candidates for human contextual adjudication; a positive match is not a finding. Verb/idiom uses are not anatomy or plant claims. Whole source, participant and consumer decide the replacement.",
+  "localizedWordingSourceGuards": {
+    "14": "coarse-xren-xer",
+    "15": [
+      "exclusive-underground-group",
+      "household-work-totality"
+    ]
+  },
+  "invalidationRule": "The two corrected full units, complete-source repetitions, and unchanged physically applicable independent pairs in only the new group/household concepts and their actual nearest2 text windows. Reentered retired concepts are explicitly invalidated on those same bounded dependencies. Prior coarse family and unchanged complete closure are retained without new semantic reads."
+}

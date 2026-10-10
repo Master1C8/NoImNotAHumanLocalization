@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_04",
+  "locale": "fil",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "one bounded objective full-unit correction required; all26 complete fresh pairs read",
+  "findings": [
+    {
+      "acceptedOrdinal": 9614,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454644637702",
+      "collection": "Dialogs",
+      "key": "line:Theorist_Asking_3_094778b",
+      "nodeNames": [
+        "Theorist_Asking_3"
+      ],
+      "source": "Theorist: Рискну предположить, что ему это показалось из-за искаженного лица, когда смотришь на него из окна.",
+      "sourceSha256": "e64e67c0620fd4905fa08a9867be2df75563a0fef38909cefee1e0992faea91c",
+      "target": "Theorist: Sa palagay ko, mukhang nabaluktot lang ang mukha niya kapag tinitingnan mula sa bintana.",
+      "targetSha256": "aa956acce525dfce143bd2334d556a1b3dffdaee1f043cfe10ace7d98bedfa58",
+      "components": [
+        "explicitContext",
+        "runtimeBinding",
+        "mandatoryRegression"
+      ],
+      "deltaReason": [
+        "explicitlyInvalidated"
+      ],
+      "findingId": "fil-independent-04-001",
+      "reason": "Objective omission: instruction25 explains that the article author mistook the appearances for two monsters because the face looked distorted through a window. The target only says the face seemed distorted; it drops the author as experiencer and the causal connection to his mistaken interpretation. This changes the complete explanatory proposition after instruction24.",
+      "replacement": "Theorist: Sa palagay ko, ganoon ang inakala niya dahil mukhang baluktot ang mukha ng halimaw kapag tinitingnan ito mula sa bintana.",
+      "proposedFullTarget": "Theorist: Sa palagay ko, ganoon ang inakala niya dahil mukhang baluktot ang mukha ng halimaw kapag tinitingnan ito mula sa bintana.",
+      "proposedTargetSha256": "4d88059258dffd182afbeb48a043915a13a75e6354070636c1d94162c21f57bd",
+      "proposalProtectedSyntax": "passed pinned v4 check_value; not applied",
+      "boundary": "Theorist_Asking_3 instruction25, following instruction24 same-monster rebuttal and instruction21–22 two apparent sightings",
+      "contextPath": "Translations/fil/independent-review-04/independent-compiled-context.json",
+      "priorDecisionReconciliation": "This ID is explicitly invalidated in cycle004. Review03 marked it clean in the aggregate; this full-unit source-to-target read shows the omitted experiencer and causal proposition, not a stylistic preference.",
+      "boundedScope": "One enumerated full-unit defect within the assigned26-unit delta; same node as current correction. No unbounded defect, changed source/glossary/binding or full-restart condition observed."
+    }
+  ],
+  "acceptedCycle004Corrections": 1,
+  "recipeFindings": []
+}

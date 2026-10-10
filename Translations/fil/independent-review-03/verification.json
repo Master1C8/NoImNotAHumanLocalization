@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/fil_independent_review_03",
+  "cutoffUtc": "2026-10-10T07:46:13.148013+00:00",
+  "status": "one objective correction required",
+  "sourceAndAuthoredPinsUnchanged": true,
+  "closureUnits": 7604,
+  "freshPairs": 20,
+  "acceptedFresh": 19,
+  "objectiveFindings": 1,
+  "acceptedCycle003Corrections": 2,
+  "priorExactDecisionsReused": 7584,
+  "retiredDependenciesVerified": 49,
+  "mandatoryRegression": {
+    "total": 7234,
+    "fresh": 12,
+    "reused": 7222,
+    "status": "passed on exact pins"
+  },
+  "gateCommand": ".venv/bin/python Translations/fil/semantic-correction-cycle-003/build_gate.py --verify",
+  "closureCommand": ".venv/bin/python Translations/fil/semantic-correction-cycle-003/build_closure.py --verify",
+  "freshWholeCorpusGuard": {
+    "path": "Translations/fil/independent-review-03/full-corpus-validation.json",
+    "sha256": "dfd5439e6d01b7e849021b6e061c4f2f84b9d475aa255bd82e151b5da6b38911",
+    "rows": 16538,
+    "structural": "passed",
+    "exact": "passed",
+    "boundary": "all original batch/static structural guards plus selected-ID scope and protected nesting; one source parse per corpus"
+  },
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "inputVerificationSha256": "3ef4abaad8d9fc651581d0d2160ab7712ff970e9d4e0aa564456e8c96f8c1aa2",
+  "fullRestartPredicateObserved": false,
+  "modelTelemetry": {
+    "systemModelIdentity": "GPT-6",
+    "exactDeployedModel": null,
+    "reasoningLevel": null,
+    "inputTokens": null,
+    "cachedInputTokens": null,
+    "outputTokens": null,
+    "reasoningTokens": null,
+    "totalTokens": null,
+    "reason": "No per-agent/request usage counter exposed to reviewer. Parent collects actual telemetry; no estimates used.",
+    "coordinatorAttribution": "parent responsibility, unknown here",
+    "measurementCutoff": "2026-10-10T07:46:13.148013+00:00"
+  },
+  "limits": [
+    "No game launch, runtime, layout, glyph, fonts, images, textures, screenshot, installer, package or platform check",
+    "Review seals delta criterion with finding; complete corpus acceptance and canonical integration remain parent-owned",
+    "No authored/source/glossary/shared/Git/index edits"
+  ]
+}

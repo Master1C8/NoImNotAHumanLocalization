@@ -1,0 +1,2899 @@
+{
+  "Anger_Teeth_DontShoot": {
+    "labels": {
+      "L1184": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_0ee33c2",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_01aa845",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_05ff1f4",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_0d7f53f",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_076da75",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anger_Teeth_DontShoot_0ef93d6",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Anxiety_Entrance_Occupied": {
+    "labels": {
+      "L1149": 0,
+      "L1151shortcutoption_Anxiety_Entrance_Occupied_1": 11,
+      "L1152shortcutoption_Anxiety_Entrance_Occupied_2": 14,
+      "L1150group_end": 17
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Anxiety"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "GetCharacterOnPlace"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_067b023",
+          1.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_049c3ef",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_0320658",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_0636ca8",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_0df6610",
+          "L1151shortcutoption_Anxiety_Entrance_Occupied_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_04e25c9",
+          "L1152shortcutoption_Anxiety_Entrance_Occupied_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Anxiety_Entrance_Occupied_YesLet"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1150group_end"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Anxiety_Entrance_Occupied_NoLet"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 16,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1150group_end"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 18,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Anxiety_Entrance_Occupied_NoLet": {
+    "labels": {
+      "L1154": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_NoLet_0f92bd9",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "Refuse Anxiety",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Anxiety_Entrance_Occupied_YesLet": {
+    "labels": {
+      "L1153": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Anxiety_Entrance_Occupied_YesLet_059ef0b",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "AggressiveLetIn Anxiety",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Bestson_Hands_DontShoot": {
+    "labels": {
+      "L530": 0,
+      "L532skipclause": 11,
+      "L531endif": 20
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Bestson"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsImposter"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L532skipclause"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Happy",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0763e4d",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0d194f0",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_065d52f",
+          0.0
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L531endif"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Sad",
+          0.0
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0ab06b4",
+          0.0
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0024990",
+          0.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0cbd302",
+          0.0
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Bestson_Hands_DontShoot_0dc58b8",
+          0.0
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L531endif"
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Blind_Asking_2": {
+    "labels": {
+      "L564": 0,
+      "L566skipclause": 13,
+      "L565endif": 14
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Blind_Asking_2"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "visited"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L566skipclause"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 13,
+        "op": "PushVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_2"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 14,
+        "op": "StoreVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_2"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Character_SpokeAlready"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L565endif"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_026dc8d",
+          0.0
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_0191532",
+          0.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_0c67f84",
+          0.0
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_09fb14c",
+          0.0
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_080ee04",
+          0.0
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_2_078937b",
+          0.0
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 13,
+        "op": "PushVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_2"
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 22,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 24,
+        "opcode": 14,
+        "op": "StoreVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_2"
+        ]
+      },
+      {
+        "index": 25,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 26,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Blind_Asking_5": {
+    "labels": {
+      "L594": 0,
+      "L596skipclause": 13,
+      "L595endif": 14
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Blind_Asking_5"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "visited"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L596skipclause"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 13,
+        "op": "PushVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_5"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 14,
+        "op": "StoreVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_5"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Character_SpokeAlready"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L595endif"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_04159dd",
+          0.0
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_07379b3",
+          0.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_094c7fb",
+          0.0
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_0a3b328",
+          0.0
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_0e1272b",
+          0.0
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_0defde7",
+          0.0
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_01b135a",
+          0.0
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Blind_Asking_5_020d55c",
+          0.0
+        ]
+      },
+      {
+        "index": 22,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "ChangePoseTomorrow Blind Hanged",
+          0.0
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "ExileAfterTomorrow Blind",
+          0.0
+        ]
+      },
+      {
+        "index": 24,
+        "opcode": 13,
+        "op": "PushVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_5"
+        ]
+      },
+      {
+        "index": 25,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 26,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          2.0
+        ]
+      },
+      {
+        "index": 27,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "Number.Add"
+        ]
+      },
+      {
+        "index": 28,
+        "opcode": 14,
+        "op": "StoreVariable",
+        "operands": [
+          "$Yarn.Internal.Visiting.Blind_Asking_5"
+        ]
+      },
+      {
+        "index": 29,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 30,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Buddy_Entrance_4": {
+    "labels": {
+      "L301": 0,
+      "L303shortcutoption_Buddy_Entrance_4_1": 11,
+      "L306skipclause": 18,
+      "L305endif": 22,
+      "L304shortcutoption_Buddy_Entrance_4_2": 23,
+      "L302group_end": 26
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_0e4d67c",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_0bd0e22",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_003389f",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_01765d2",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_00fdf44",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Buddy_Entrance_4_0375270",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Buddy_Entrance_4_0b81788",
+          "L303shortcutoption_Buddy_Entrance_4_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Buddy_Entrance_4_0a59a50",
+          "L304shortcutoption_Buddy_Entrance_4_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Buddy"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsCharacterPlaceEmpty"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L306skipclause"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Buddy_Entrance_YesLet"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L305endif"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 19,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Buddy_Entrance_Occupied"
+        ]
+      },
+      {
+        "index": 20,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 21,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L305endif"
+        ]
+      },
+      {
+        "index": 22,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L302group_end"
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Buddy_Entrance_NoLet"
+        ]
+      },
+      {
+        "index": 24,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 25,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L302group_end"
+        ]
+      },
+      {
+        "index": 26,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 27,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Cold_Asking_4_4": {
+    "labels": {
+      "L1659": 0,
+      "L1661shortcutoption_Cold_Asking_4_4_1": 10,
+      "L1662shortcutoption_Cold_Asking_4_4_2": 13,
+      "L1660group_end": 16
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Happy",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_4_0afe56f",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_4_0f00063",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_4_0c5da7b",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_4_07cfe10",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Cold_Asking_4_4_09c48e9",
+          "L1661shortcutoption_Cold_Asking_4_4_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Cold_Asking_4_4_0752e5c",
+          "L1662shortcutoption_Cold_Asking_4_4_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Cold_Asking_4_5"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1660group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Cold_Asking_4_6"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1660group_end"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Cold_Asking_4_5": {
+    "labels": {
+      "L1663": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_5_0aae1d4",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_5_0290ff2",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Cold_Asking_4_5_003ca08",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "ExileCharacter Cold false",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Doctor_Entrance_Occupied": {
+    "labels": {
+      "L1674": 0,
+      "L1676shortcutoption_Doctor_Entrance_Occupied_1": 10,
+      "L1677shortcutoption_Doctor_Entrance_Occupied_2": 13,
+      "L1675group_end": 16
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Doc"
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "GetCharacterOnPlace"
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Doctor_Entrance_Occupied_0d13a29",
+          1.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Doctor_Entrance_Occupied_07d8fb8",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Doctor_Entrance_Occupied_0f97856",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Doctor_Entrance_Occupied_0530cfd",
+          "L1676shortcutoption_Doctor_Entrance_Occupied_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Doctor_Entrance_Occupied_0fc38a1",
+          "L1677shortcutoption_Doctor_Entrance_Occupied_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 9,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Doctor_Entrance_Occupied_YesLet"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1675group_end"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Doctor_Entrance_Occupied_NoLet"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L1675group_end"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Dude_Entrance_2": {
+    "labels": {
+      "L425": 0,
+      "L427shortcutoption_Dude_Entrance_2_1": 12,
+      "L428shortcutoption_Dude_Entrance_2_2": 15,
+      "L426group_end": 18
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_0c3d6b3",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_0db4722",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_07c5051",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_00f30fa",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_0b22643",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_08df2b6",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_027b221",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Dude_Entrance_2_007a56b",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Dude_Entrance_2_0d2ec7b",
+          "L427shortcutoption_Dude_Entrance_2_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Dude_Entrance_2_04d82a3",
+          "L428shortcutoption_Dude_Entrance_2_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Dude_Entrance_3"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L426group_end"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Dude_Entrance_4"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 17,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L426group_end"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 19,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fairytaller_Entrance_1": {
+    "labels": {
+      "L2742": 0,
+      "L2744shortcutoption_Fairytaller_Entrance_1_1": 14,
+      "L2747skipclause": 21,
+      "L2746endif": 25,
+      "L2745shortcutoption_Fairytaller_Entrance_1_2": 26,
+      "L2743group_end": 29
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_0bd5de1",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_0d7a4f9",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_029d73e",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_09a527e",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_05db883",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_0fdc0d0",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_0402033",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_02fc8a1",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_0e42a04",
+          0.0
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fairytaller_Entrance_1_004b8d2",
+          0.0
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fairytaller_Entrance_1_06c4b0c",
+          "L2744shortcutoption_Fairytaller_Entrance_1_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fairytaller_Entrance_1_075b6e4",
+          "L2745shortcutoption_Fairytaller_Entrance_1_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 14,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fairytaller"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsCharacterPlaceEmpty"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L2747skipclause"
+        ]
+      },
+      {
+        "index": 18,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fairytaller_Entrance_YesLet"
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 20,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2746endif"
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 22,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fairytaller_Entrance_Occupied"
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 24,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2746endif"
+        ]
+      },
+      {
+        "index": 25,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2743group_end"
+        ]
+      },
+      {
+        "index": 26,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fairytaller_Entrance_3"
+        ]
+      },
+      {
+        "index": 27,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 28,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2743group_end"
+        ]
+      },
+      {
+        "index": 29,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 30,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fanatic_Asking_1_2": {
+    "labels": {
+      "L1316": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_0f20d67",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_08b1440",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_03bc82d",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_0f6a437",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_0b1232b",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Sad",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fanatic_Asking_1_2_047036c",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "FatalDame_Entrance_3": {
+    "labels": {
+      "L2367": 0,
+      "L2369shortcutoption_FatalDame_Entrance_3_1": 11,
+      "L2370shortcutoption_FatalDame_Entrance_3_2": 14,
+      "L2368group_end": 17
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_02f07d6",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_0c8c095",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_06aadd3",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_01d9e82",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_0dd39a0",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_0a0be01",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:FatalDame_Entrance_3_01cf1d0",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:FatalDame_Entrance_3_0281427",
+          "L2369shortcutoption_FatalDame_Entrance_3_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:FatalDame_Entrance_3_043783f",
+          "L2370shortcutoption_FatalDame_Entrance_3_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "FatalDame_Entrance_YesLet"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2368group_end"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "FatalDame_Entrance_NoLet"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 16,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L2368group_end"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 18,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fatman_Armpit_DontShoot": {
+    "labels": {
+      "L691": 0,
+      "L693skipclause": 9,
+      "L692endif": 14
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetEmotion Base",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fatman"
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsImposter"
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L693skipclause"
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fatman_Armpit_DontShoot_0a759ae",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fatman_Armpit_DontShoot_031d266",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L692endif"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fatman_Armpit_DontShoot_07bda6b",
+          0.0
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fatman_Armpit_DontShoot_05569b0",
+          0.0
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L692endif"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fugitive_Ears_Gun": {
+    "labels": {
+      "L435": 0,
+      "L437shortcutoption_Fugitive_Ears_Gun_1": 6,
+      "L438shortcutoption_Fugitive_Ears_Gun_2": 9,
+      "L436group_end": 12
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun true",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Ears_Gun_0e65bb2",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Ears_Gun_025d55e",
+          "L437shortcutoption_Fugitive_Ears_Gun_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Ears_Gun_041e53d",
+          "L438shortcutoption_Fugitive_Ears_Gun_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 5,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 6,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Death"
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L436group_end"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Ears_DontShoot"
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L436group_end"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fugitive_Entrance_2": {
+    "labels": {
+      "L188": 0,
+      "L190shortcutoption_Fugitive_Entrance_2_1": 8,
+      "L191shortcutoption_Fugitive_Entrance_2_2": 11,
+      "L189group_end": 14
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_2_034a58f",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_2_0672cab",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_2_0cc686c",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_2_0e244a8",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Entrance_2_02b86cc",
+          "L190shortcutoption_Fugitive_Entrance_2_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Entrance_2_0408b57",
+          "L191shortcutoption_Fugitive_Entrance_2_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 7,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 8,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Entrance_3"
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 10,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L189group_end"
+        ]
+      },
+      {
+        "index": 11,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Entrance_4"
+        ]
+      },
+      {
+        "index": 12,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 13,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L189group_end"
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 15,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fugitive_Entrance_3": {
+    "labels": {
+      "L192": 0,
+      "L194shortcutoption_Fugitive_Entrance_3_1": 12,
+      "L197skipclause": 19,
+      "L196endif": 23,
+      "L195shortcutoption_Fugitive_Entrance_3_2": 24,
+      "L193group_end": 27
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_04776cc",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_0990885",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_0255b0c",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_03248de",
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_01c7665",
+          0.0
+        ]
+      },
+      {
+        "index": 5,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_0dd34f2",
+          0.0
+        ]
+      },
+      {
+        "index": 6,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_00fd339",
+          0.0
+        ]
+      },
+      {
+        "index": 7,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Entrance_3_0832762",
+          0.0
+        ]
+      },
+      {
+        "index": 8,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Entrance_3_0b096fb",
+          "L194shortcutoption_Fugitive_Entrance_3_1",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 9,
+        "opcode": 4,
+        "op": "AddOption",
+        "operands": [
+          "line:Fugitive_Entrance_3_05e04d5",
+          "L195shortcutoption_Fugitive_Entrance_3_2",
+          0.0,
+          false
+        ]
+      },
+      {
+        "index": 10,
+        "opcode": 5,
+        "op": "ShowOptions",
+        "operands": []
+      },
+      {
+        "index": 11,
+        "opcode": 1,
+        "op": "Jump",
+        "operands": []
+      },
+      {
+        "index": 12,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive"
+        ]
+      },
+      {
+        "index": 13,
+        "opcode": 7,
+        "op": "PushFloat",
+        "operands": [
+          1.0
+        ]
+      },
+      {
+        "index": 14,
+        "opcode": 12,
+        "op": "CallFunc",
+        "operands": [
+          "IsCharacterPlaceEmpty"
+        ]
+      },
+      {
+        "index": 15,
+        "opcode": 10,
+        "op": "JumpIfFalse",
+        "operands": [
+          "L197skipclause"
+        ]
+      },
+      {
+        "index": 16,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Entrance_YesLet"
+        ]
+      },
+      {
+        "index": 17,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 18,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L196endif"
+        ]
+      },
+      {
+        "index": 19,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 20,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Entrance_Occupied"
+        ]
+      },
+      {
+        "index": 21,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 22,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L196endif"
+        ]
+      },
+      {
+        "index": 23,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L193group_end"
+        ]
+      },
+      {
+        "index": 24,
+        "opcode": 6,
+        "op": "PushString",
+        "operands": [
+          "Fugitive_Entrance_NoLet"
+        ]
+      },
+      {
+        "index": 25,
+        "opcode": 16,
+        "op": "RunNode",
+        "operands": []
+      },
+      {
+        "index": 26,
+        "opcode": 0,
+        "op": "JumpTo",
+        "operands": [
+          "L193group_end"
+        ]
+      },
+      {
+        "index": 27,
+        "opcode": 11,
+        "op": "Pop",
+        "operands": []
+      },
+      {
+        "index": 28,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  },
+  "Fugitive_Hands_DontShoot": {
+    "labels": {
+      "L440": 0
+    },
+    "instructions": [
+      {
+        "index": 0,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Hands_DontShoot_0150f37",
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "opcode": 3,
+        "op": "RunCommand",
+        "operands": [
+          "SetupGun false",
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "opcode": 2,
+        "op": "RunLine",
+        "operands": [
+          "line:Fugitive_Hands_DontShoot_0bae9e3",
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "opcode": 15,
+        "op": "Stop",
+        "operands": []
+      }
+    ]
+  }
+}

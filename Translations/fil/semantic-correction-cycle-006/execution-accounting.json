@@ -1,0 +1,53 @@
+{
+  "locale": "fil",
+  "cycle": 6,
+  "authorAssignment": "consolidated coarse-source author correction; no independent acceptance",
+  "attempts": [
+    {
+      "action": "full replacement application preflight attempt1",
+      "result": "stopped before authored inputs or sidecars changed",
+      "boundary": "three legacy JSON batches contain compact entry formatting; canonical pretty serialization would modify unrelated bytes",
+      "repair": "parse JSON string-value spans and replace target tokens only; immutable before bytes retained"
+    },
+    {
+      "action": "application attempt2",
+      "result": "56 full replacements applied in41 authored inputs; all125 decisions retained",
+      "boundary": "all41 preimage authored inputs and old owning sidecars archived before first mutation; per-file writes are not a cross-file transaction",
+      "verification": "application journal plus exact old/new span reconstruction and changed-ID gate"
+    },
+    {
+      "action": "affected owning validation",
+      "result": "41 affected fil batches,1220 rows passed",
+      "boundary": "sequential unchanged owning validator, no pool and no other locale scan"
+    },
+    {
+      "action": "fresh shared locale-only full corpus validation",
+      "result": "16538 unique rows; structural and preserve-exact passed",
+      "boundary": "one source parse per corpus; no game/build/runtime execution"
+    },
+    {
+      "action": "closure write attempt1",
+      "result": "stopped before closure artifacts written",
+      "boundary": "historical retirement receipt has54 rows:53 still retired and1 already reentered/accepted inReview05",
+      "repair": "classify current prior applicability from receipt components; do not assume receipt length equals still-retired count"
+    },
+    {
+      "action": "bounded process status read",
+      "result": "sandbox denied ps; no lifecycle action or repeat",
+      "boundary": "existing tool session remains the execution observer"
+    }
+  ],
+  "sourceSemanticReads": 125,
+  "candidateIndependentReadCredit": 0,
+  "newIndependentReadCredit": 0,
+  "newAgents": 0,
+  "runtime": "not-run",
+  "telemetry": {
+    "assignmentInputTokens": "unknown",
+    "assignmentCachedInputTokens": "unknown",
+    "assignmentOutputTokens": "unknown",
+    "assignmentTotalTokens": "unknown",
+    "reason": "no actual assignment per-request token counters exposed; no estimate or text-length proxy"
+  },
+  "scope": "Translations/fil only; no source/glossary/shared scripts/index/other locale edits"
+}
