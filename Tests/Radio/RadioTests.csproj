@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../RuntimePlugin/RadioText.cs" />
+    <EmbeddedResource Include="../../Resources/Localization/mechanics-v1.json" LogicalName="NoHuman.Mechanics.v1.json" />
+    <EmbeddedResource Include="../../Translations/*/radio-mechanics-v1.json" />
+  </ItemGroup>
+</Project>

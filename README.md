@@ -321,9 +321,12 @@ All extracted
 `AloneEnding_*`, `RageEnding_*`, `Ending_*`, `selfcheck*`, `selfchek*` and
 `Killer_*`, `MushroomEater_*`, `Mushroom_*`, `Rock_*`, `Cat_*`, `StaticBoy_*`,
 `FEMA_*`, `Fighter_*`, `Tough_*`, `Fugitive_*`, `Twins_*`, `Miner_*`, `Sirin_*`, `Alkonost_*`, `Rocker_*`, `Luka_*`, `Mother_*`, `Fairytaller_*`, `WheelChair_*`, `Wheelchair_*`, `Foreigner_*`, `Firefighter_*`, `Bald_*`, `Jacket_*`, `Leper_*`, `Wifefema_*`, `Edgar_*`, `GraveDigger_*`, `Theorist_*`, `Tourist_*`, `Marauder_*`, `Alt_*`, `Nervous_*`, `NotTrue_*`, `Blind_*`, `Raskolnikov_*`, `FortuneTeller_*`, `BigLebowski_*`, `Nun_*`, `TaxiDriver_*`, `Cold_*`, `Intruder_*`, `Jacob_*`, `Ballerina_*`, `FunnyGuy_*`, `Buddy_*`, `Dude_*`, `Anger_*`, `Greatmother_*`, `Provocateur_*`, `FormerFema_*`, `Bestson_*`, `Teacher_*`, `Wolfhound_*`, `FatalDame_*`, `Hunter_*`, `Esenin_*`, `Unstable_*`, `Experienced_*`, `Doctor_*`, `Fatman_*`, `Fanatic_*`, `Couple_*`, `Widow_*`, `Scammer_*`, `Anxiety_*`, `entrance_*`, `Entrance_*`, `talk_*`, `Neighbour_*`, `window_*`, `office_*`, `bigroom_*`, `pantry_*`, `kitchen_*`, `bedroom_*`, `bathroom_*`, `Character_*` and all `tv_*` lines are now
-drafted and reviewed. Intentional keyboard-layout garble in `Foreigner_*`
-remains as in the source script. Thai text coverage and offline semantic
-review are complete for the accepted 16,538-unit text-only scope. Menu, Settings
+drafted and reviewed in the earlier text revision. The current development
+[mechanics repair](Documentation/LOCALIZATION_MECHANICS.md) replaces copied
+Foreigner garble with source-bound locale policies and fixes radio noise processing
+for all 14 locales. Text coverage remains 16,538 units per locale; independent
+editorial review of the changed mechanics is pending. Earlier semantic acceptance
+applies to the preceding revision. Menu, Settings
 and sampled dialogue rendering passed in the isolated fixture. Dense gameplay UI,
 dynamic substitutions, later dialogue branches and next semantic state remain
 unchecked; full runtime and visual acceptance remain pending.

@@ -101,6 +101,9 @@ def current_text(locale, require_sidecars=True, directory=None):
     pattern = re.compile("|".join(re.escape(s) for s in sorted(replacements, key=len, reverse=True)))
     require(pattern.sub(lambda m: replacements[m.group()], original) == values[("static", credits["stableId"])],
             "Credits derivation differs from final target")
+    from localization_mechanics import verify
+    mechanics_files = verify(locale, values, directory)
+    files.extend({"path": str(path.relative_to(ROOT)), "sha256": digest(path)} for path in mechanics_files)
     return values, files
 
 

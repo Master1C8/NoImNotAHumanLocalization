@@ -10,6 +10,7 @@
     <OutputPath>../outputs/renderer-build/bin/</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="../Resources/Localization/mechanics-v1.json" LogicalName="NoHuman.Mechanics.v1.json" />
     <Reference Include="$(FixtureGame)/BepInEx/core/BepInEx.Core.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/core/BepInEx.Unity.IL2CPP.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/core/0Harmony.dll" Private="false" />
@@ -19,6 +20,7 @@
     <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.CoreModule.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.TextRenderingModule.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/interop/UnityEngine.UI.dll" Private="false" />
+    <Reference Include="$(FixtureGame)/BepInEx/interop/Unity.Localization.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/interop/RTLTMPro.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/interop/Assembly-CSharp.dll" Private="false" />
     <Reference Include="$(FixtureGame)/BepInEx/interop/YarnSpinner.Unity.dll" Private="false" />

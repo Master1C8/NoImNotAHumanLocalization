@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace NoHuman.TextRenderer;
 
-[BepInPlugin("fun.vnrevival.nohuman.renderer", "No Human Text Renderer Probe", "0.3.0")]
+[BepInPlugin("fun.vnrevival.nohuman.renderer", "No Human Text Renderer Probe", "0.4.0")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance=null!;
@@ -24,8 +24,9 @@ public sealed class Plugin : BasePlugin
         NativeLibrary.Load(Path.Combine(root,"libHarfBuzzSharp.dll"));
         Shaper=new HarfBuzz(Path.Combine(root,"hi-source.ttf"));
         DialogueProbe.Load();
+        RadioSupport.Load();
         new Harmony("fun.vnrevival.nohuman.renderer").PatchAll();
-        Log.LogInfo("RENDERER_READY v0.3.0: Devanagari shaping + RTL setter routing + opt-in dialogue evidence");
+        Log.LogInfo("RENDERER_READY v0.4.0: Devanagari shaping + RTL routing + grapheme radio noise + opt-in dialogue evidence");
     }
     internal static void Report(string kind,TMP_Text component,string original,string prepared)
     {
@@ -52,6 +53,7 @@ internal static class TextSetter
     static bool Prefix(TMP_Text __instance, ref string __0)
     {
         if(string.IsNullOrEmpty(__0))return true;
+        RadioSupport.Prepare(__instance, ref __0);
         try {
             // The existing RTL component already shapes menu inputs through its derived setter.
             // Dropdowns invoke the base setter; route only that bypass through the same component.

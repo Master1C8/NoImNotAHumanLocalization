@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "status": "verified development checks; local commit authorized; independent editorial and runtime acceptance pending",
+  "policySha256": "509bb1c85beec91869f779e94b582f0b9b7ceb34733974e0c2e63ec6de474bbf",
+  "renderer": {
+    "path": "outputs/radio-mechanics-build-v3/NoHuman.TextRenderer.dll",
+    "sha256": "ab652a76934d668dd354aa820be3c1924d35b63ee732f82baebaae25fd5090c2",
+    "embeddedPolicyMatches": true,
+    "version": "0.4.0",
+    "installed": false
+  },
+  "radioTests": {
+    "path": "outputs/radio-tests-v3/RadioTests.dll",
+    "sha256": "50acc2a85edc3022770ca2c9b02ead106477d2eace4faa10fdc2467cacd4a377",
+    "executionRuntime": "6.0.36 osx-arm64; official SHA-512 verified",
+    "runtimeMetadataPin": {
+      "name": "dotnet-runtime-osx-arm64.tar.gz",
+      "rid": "osx-arm64",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/6.0.36/dotnet-runtime-6.0.36-osx-arm64.tar.gz",
+      "hash": "d13fa060270c376307c7086da52cff71a02f8550a3a21812e25127308970c99a32d3c4834e342f23365869600c0b51fce03236906e13fe76456fc78964c531d4"
+    },
+    "tests": "passed",
+    "actualAuthoredMessages": 728,
+    "allEmbeddedFixturesMatch": true,
+    "excludes": [
+      "IL2CPP hooks",
+      "TMP layout",
+      "game timing",
+      "audio",
+      "knob input"
+    ]
+  },
+  "pythonTests": {
+    "result": "4 passed",
+    "partialWriteRecovery": "verified continuation from first applied file; unchanged repeat verified"
+  },
+  "corpusReceipts": {
+    "th": {
+      "path": "outputs/localization-mechanics-v1/th-corpus-v2.json",
+      "sha256": "52ca19ccdb904b9abb3a6c5773856ba358fa35a82ab1004162325cb7ff65dfc0",
+      "rows": 16538
+    },
+    "id": {
+      "path": "outputs/localization-mechanics-v1/id-corpus.json",
+      "sha256": "4516f12ffbbd075e74400d7639e2b0e01cea022539745b8ac2a18fbf33c3f9a3",
+      "rows": 16538
+    },
+    "cs": {
+      "path": "outputs/localization-mechanics-v1/cs-corpus.json",
+      "sha256": "4822c8d002f67793a20b767317c01fed289c45a644790c2da121a97562b734fb",
+      "rows": 16538
+    },
+    "hu": {
+      "path": "outputs/localization-mechanics-v1/hu-corpus.json",
+      "sha256": "b2c33893d0c4a6b3ba3b651dcc24fb02592de796d90ac9389daf5b3c986e4f7c",
+      "rows": 16538
+    },
+    "nl": {
+      "path": "outputs/localization-mechanics-v1/nl-corpus.json",
+      "sha256": "2aea9dd407aaf1234cc93b498d300da15011879a632be3525d70b08b208278a4",
+      "rows": 16538
+    },
+    "fa": {
+      "path": "outputs/localization-mechanics-v1/fa-corpus.json",
+      "sha256": "0bcdebde7da5a94bd7ce5a1938bc878af60c3ce8834b8ca03515a3fab2e1b2b0",
+      "rows": 16538
+    },
+    "ro": {
+      "path": "outputs/localization-mechanics-v1/ro-corpus.json",
+      "sha256": "abbb7b166ff95f6d8e009cda56e19095ac922043600574a6bcbed273c39d164d",
+      "rows": 16538
+    },
+    "hi": {
+      "path": "outputs/localization-mechanics-v1/hi-corpus-v2.json",
+      "sha256": "0bea666eb3fd10b84b3ffa1f23e7fa525df88e7c17d732711e5fc80a19ba6bfe",
+      "rows": 16538
+    },
+    "fil": {
+      "path": "outputs/localization-mechanics-v1/fil-corpus.json",
+      "sha256": "a0da70352ddc61a9a1dc63cf5f19a16f77bc1407f8ff74b4cdf1292f4270a26a",
+      "rows": 16538
+    },
+    "el": {
+      "path": "outputs/localization-mechanics-v1/el-corpus.json",
+      "sha256": "961ee7e8d6a8a6d6bcb81c2837b8bec3aaafd0afe6e85f0724ed513bb28ce612",
+      "rows": 16538
+    },
+    "bg": {
+      "path": "outputs/localization-mechanics-v1/bg-corpus.json",
+      "sha256": "d110078546e19640209e4ffa95cd16800cd154497eebf92f68154f7d6d6da57e",
+      "rows": 16538
+    },
+    "sr": {
+      "path": "outputs/localization-mechanics-v1/sr-corpus.json",
+      "sha256": "424705804faeacbf8cd42a3dd9649f2cfc91df94ca24b4c265dc4f15f5e2b5dd",
+      "rows": 16538
+    },
+    "sw": {
+      "path": "outputs/localization-mechanics-v1/sw-corpus.json",
+      "sha256": "a14e0298cefc405727c60e800782714ec78dd76c36c73b91fcc2de42394eb4bf",
+      "rows": 16538
+    },
+    "he": {
+      "path": "outputs/localization-mechanics-v1/he-corpus.json",
+      "sha256": "dcbd36b81dd92a5e688a0b07a33b4846d2dc79a5ebef4fed70c769d094da581c",
+      "rows": 16538
+    }
+  },
+  "officialReference": {
+    "path": "outputs/localization-mechanics-v1/official-reference.json",
+    "sha256": "9f2514d1897e64f044a4dde603173269f1f53491d6c55025baf2a2db5fb695d6"
+  },
+  "staleSidecarRegression": {
+    "path": "outputs/localization-mechanics-v1/stale-sidecar-regression.json",
+    "sha256": "27026489e32449f20d8908f1f27e47b919b742baec1c3597466167779ca1c70f",
+    "rejectedLocales": 14
+  },
+  "remaining": [
+    "independent source/target mechanics review",
+    "live game verification of exact DLL and localized payload",
+    "in-game visual evidence"
+  ],
+  "sourceFiles": {
+    "RuntimePlugin/RadioHooks.cs": "2ae0e52a0e26103e629a641570b24fd41ed12a3e85aefc3d734c0284e44fef58",
+    "RuntimePlugin/RadioText.cs": "75df5ed5a8d47aefa419c8ec11fb509482d6595e37deda21160dd95b9a8f4f63",
+    "RuntimePlugin/NoHuman.TextRenderer.csproj": "40705da9ac4a1b8f8b015a80ad9386a275b09e2633ac9be5f1f4165887c43fe7",
+    "RuntimePlugin/HarfBuzz.cs": "7cc667cbe0669c381762c464dfb70a1a006a2be1eb6472960fb8ad7157b38e57",
+    "RuntimePlugin/DialogueProbe.cs": "8201261eee210660ae6f4b774e0ef1a390fccdcff3628fa079175e902a2dc518",
+    "RuntimePlugin/Plugin.cs": "9f7593a39e48ac9bae13e24c66ee7828fb7198c3581927e88891900c87b12a3e",
+    "Scripts/foreigner_mechanics.py": "b60956645b9cbe7fc09f15fb0adb02789a434039687553ef68b39859457b8980",
+    "Scripts/localization_mechanics.py": "fa96fefdba2f016b3acdd8467793e33888b80360fb642280b4de955cef096bc5",
+    "Scripts/locale_text_inputs.py": "4de6ac8774a2820271e29c4f2b82d2ac2a61d62b3272a4257baf5a675f16224b",
+    "Scripts/validate_locale_corpus.py": "989265c54de53d13b968fee3c70f06e45c710e491bf3667efb2e930edc4e62a2",
+    "Scripts/inspect_mechanics_reference.py": "c4a4b03297d654a65d210e4fbbd0bffab595d727aaa1e29b6bdd84ee8c0e6f5c",
+    "Tests/test_localization_mechanics.py": "1d8df7bdae2b1bb5e7d8f5544365796a9e087ebcff526422a847b0e09aaae9d5",
+    "Tests/Radio/Program.cs": "06bc65a6a5be64985defb8a3c05fd239fef110f2cb36b4f0cb09bfda9844e85b",
+    "Tests/Radio/RadioTests.csproj": "29ea372b265658b0a596b6d06b5717d2883d8911499505c37200419224dc016f",
+    "Documentation/LOCALIZATION_MECHANICS.md": "013933d080c7071bfc03e21ecff17d8079045a0a8325bf24675a5c9133b06f82"
+  },
+  "commitScope": "Foreigner and radio mechanics only; unrelated working-tree/index content must be preserved"
+}
