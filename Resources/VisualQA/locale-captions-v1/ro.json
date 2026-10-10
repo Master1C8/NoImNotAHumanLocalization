@@ -1,0 +1,57 @@
+{
+  "locale": "ro",
+  "archiveSha256": "bf61fc38a43cbbd21da86900a9af167c98ba568d992671707f157e9430646f8d",
+  "runtimeRenderer": null,
+  "expected": "Da, o pregătim pentru școală.",
+  "markerSha256": "577f6c288d0f0ec8fc222d2399c0371053d03c4402f720ba9ad907d164a983b1",
+  "native": "outputs/six-scenes-all-locales-v3/ro/state-07-intro-to-door/movie-frames/0023.png",
+  "nativeSha256": "64307d69c58a4e685449cadb84f66d596f29e97263c120c31a22e1a1115181d3",
+  "review": {
+    "status": "pass",
+    "reviewer": "Codex independent image inspection",
+    "reviewedFrames": [
+      "1e9932b9c2541572bc766496ff4f08f0f703858c7d4b74e0adce43e9a1788040",
+      "b9a1fae21f44a1d0afbaaebe2f26e6f161b4be89d5dafa1e7ab382278bc2557c",
+      "d35039026b9410fb45bf19ee90e9dcbf0d92c53fc3862282456d4c022c066a8f",
+      "c6c6452027c64e64d183ba2e90aef54df9d4a3d366dea145f4ac7a6f3ed92ac1",
+      "b2534f013673333cb9fedaee07aeb208cbb1d8f675fcc139a8ccaa1de5205b4c",
+      "4c1955b028f4e25e3d26ce31cc93f9c178e991379bdc18f847ed801782c4b492"
+    ],
+    "checks": [
+      "Romanian labels and diacritics readable; no glyph boxes or clipped words",
+      "Collection at 3/11; door prompt reached after W",
+      "Neighbor line and first answer match target; complete school subtitle matches target",
+      "No OS notifications or added labels"
+    ],
+    "findings": []
+  },
+  "marker": {
+    "file": "ro.png",
+    "region": [
+      200,
+      1530,
+      2480,
+      240
+    ],
+    "similarity": 0.97,
+    "brightTextThreshold": 220,
+    "whiteForegroundCoverage": 0.99
+  },
+  "neighboringControls": [
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v3/ro/state-07-intro-to-door/movie-frames/0022.png"
+  ],
+  "verificationSha256": "c8769d0f1227272c51337e74a6ca2a5a945a3bd6612ae3235a5a6b1caf44b6a3",
+  "coverageVerification": {
+    "locale": "ro",
+    "verifierSha256": "ecb01da357889bcc55ec27a27f3e092160bc0fbc1bc4b4d2afd923d00d1c5519",
+    "controlsSha256": "75e124f08322c636e8c42360308f2c96d514988bcc952a35273e4d751595fd1b",
+    "inputHashes": {
+      "outputs/six-scenes-all-locales-v3/ro/state-07-intro-to-door/movie-frames/0023.png": "64307d69c58a4e685449cadb84f66d596f29e97263c120c31a22e1a1115181d3",
+      "outputs/six-scenes-all-locales-v3/ro/state-07-intro-to-door/movie-frames/0022.png": "8c9fd11d63887c4a16a40844088905263936f4b1409f7a773e0bcfdb978a36eb",
+      "outputs/six-scenes-all-locales-v3/ro/state-07-intro-to-door/movie-frames/0024.png": "e23592458a4149dcfe6a81f0b474382b1a60bb2a60f5c8333df668b6521768e3"
+    },
+    "verification": "outputs/caption-foreground-controls-v2/ro-verification.json",
+    "verificationSha256": "c8769d0f1227272c51337e74a6ca2a5a945a3bd6612ae3235a5a6b1caf44b6a3",
+    "result": "pass"
+  }
+}

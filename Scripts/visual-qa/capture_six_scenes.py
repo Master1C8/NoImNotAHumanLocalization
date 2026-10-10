@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Train Oculix on the reviewed Russian route, then replay it in the isolated fixture.
+"""Train and replay the reviewed six-scene route in the isolated fixture.
 
 Native evidence remains separate from the owner's JPEG 960x600 deliverables.
-This scenario currently proves Russian only; translated templates need their own
-independent locale and visual checks. No publication or original-save writes.
+Translated runs require exact locale/archive checks and independent visual review.
+No publication or original-save writes.
 """
 import argparse
 import json
@@ -111,7 +111,7 @@ def train():
 
 def validate_training(recipe_path=RECIPE):
     recipe = json.loads(recipe_path.read_text())
-    require(recipe['locale'] == 'ru' and set(recipe['scenes']) == set(SCENES), 'Unexpected trained route')
+    require(recipe['locale'] in ['ru', 'neutral'] and set(recipe['scenes']) == set(SCENES), 'Unexpected trained route')
     for name, expected in recipe['markerHashes'].items():
         path = recipe_path.parent / name
         require(path.resolve().is_relative_to(recipe_path.parent.resolve()) and sha(path) == expected,
@@ -137,9 +137,10 @@ def verify(output):
     print((output / 'verification.json').read_text(), flush=True)
 
 
-def replay(run):
+def replay(run, locale="ru", training=TRAINING, archive=None, renderer=None):
     require(run.is_relative_to(ROOT / 'outputs') and not run.exists(), 'Use a new canonical run output')
-    recipe = validate_training()
+    recipe_path = training / 'recipe.json'
+    recipe = validate_training(recipe_path)
     for path in [JAVA, JAR, adapter.REFERENCE, ROOT / 'outputs/visual-qa-tools/window-info']:
         require(path.is_file(), 'Missing runtime prerequisite: ' + str(path))
     adapter.stopped()
@@ -152,8 +153,8 @@ def replay(run):
                      and Path(module.__file__).resolve().is_relative_to(ROOT / 'Scripts')
                      and Path(module.__file__).suffix == '.py'}
     source_hashes[str(Path(__file__).resolve())] = sha(Path(__file__))
-    proof = {'schemaVersion': 1, 'locale': 'ru', 'phase': 'starting', 'sourceHashes': source_hashes,
-             'recipeSha256': sha(RECIPE), 'frames': [], 'automatedResult': 'pending',
+    proof = {'schemaVersion': 1, 'locale': locale, 'phase': 'starting', 'sourceHashes': source_hashes,
+             'recipeSha256': sha(recipe_path), 'frames': [], 'automatedResult': 'pending',
              'visualReview': {'status': 'pending'}, 'originalSaveWrites': False}
 
     def unchanged():
@@ -163,11 +164,33 @@ def replay(run):
 
     def focus():
         _, win = adapter.live()
+        info = adapter.state(run / 'window-info')
+        if info['frontmostApplication']['pid'] == win['kCGWindowOwnerPID']:
+            return
         subprocess.run([str(run / 'target-input'), 'focus', str(win['kCGWindowOwnerPID']),
                         str(win['kCGWindowNumber'])], check=True)
         time.sleep(1.2)  # After the final activation, before screenshot recognition.
 
     counter = 0
+    worker = None
+    messages = None
+
+    def worker_request(command, timeout):
+        worker.stdin.write(json.dumps(command) + '\n'); worker.stdin.flush()
+        deadline = time.monotonic() + timeout
+        import queue
+        while time.monotonic() < deadline:
+            try:
+                line = messages.get(timeout=max(.1, deadline - time.monotonic()))
+            except queue.Empty:
+                break
+            if line is None:
+                raise RuntimeError('Vision worker exited')
+            if line.startswith('VN_WORKER_RESULT:'):
+                result = json.loads(line.split(':', 1)[1])
+                require(result['result'] == 'pass', result.get('error', 'Vision failed'))
+                return
+        raise TimeoutError('Vision worker response timeout')
 
     def wait_scene(name, timeout=35, deliver=False):
         nonlocal counter
@@ -176,16 +199,22 @@ def replay(run):
         counter += 1
         folder = run / ('state-%02d-%s' % (counter, name))
         folder.mkdir()
-        result = subprocess.run([str(JAVA), '-cp', str(JAR), 'org.python.util.jython',
-                                 str(run / 'helpers/six_scenes.sikuli/six_scenes.py'), 'wait',
-                                 str(run / 'training/recipe.json'), str(folder), name,
-                                 str(run / 'window-info'), str(timeout), str(run / 'target-input')],
-                                capture_output=True, text=True, timeout=timeout + 45)
-        (folder / 'oculix.log').write_text(result.stdout + result.stderr)
-        require(result.returncode == 0 and (folder / 'native.png').is_file(), 'Scene not reached: ' + name)
+        if worker is None:
+            result = subprocess.run([str(JAVA), '-cp', str(JAR), 'org.python.util.jython',
+                                     str(run / 'helpers/six_scenes.sikuli/six_scenes.py'), 'wait',
+                                     str(run / 'training/recipe.json'), str(folder), name,
+                                     str(run / 'window-info'), str(timeout), str(run / 'target-input')],
+                                    capture_output=True, text=True, timeout=timeout + 45)
+            (folder / 'oculix.log').write_text(result.stdout + result.stderr)
+            require(result.returncode == 0, 'Scene not reached: ' + name)
+        else:
+            worker_request({'scene': name, 'output': str(folder), 'helper': str(run / 'window-info'),
+                            'timeout': timeout, 'input': str(run / 'target-input')}, timeout + 45)
+        require((folder / 'native.png').is_file(), 'Scene frame missing: ' + name)
         if deliver:
+            delivered_scene = 'collection' if name == 'collection-scroll' else name
             frame = folder / 'native.png'
-            destination = run / 'jpeg' / ('ru-' + DELIVERABLES[name] + '.jpg')
+            destination = run / 'jpeg' / (locale + '-' + DELIVERABLES[delivered_scene] + '.jpg')
             with Image.open(frame) as image:
                 require(image.size == tuple(recipe['nativeDimensions']), 'Native dimensions changed')
                 image.convert('RGB').resize((960, 600), Image.Resampling.LANCZOS).save(
@@ -193,7 +222,7 @@ def replay(run):
             with Image.open(destination) as image:
                 require(image.size == (960, 600) and image.format == 'JPEG', 'JPEG output invalid')
                 image.load()
-            proof['frames'].append({'scene': name, 'file': str(destination.relative_to(ROOT)),
+            proof['frames'].append({'scene': delivered_scene, 'file': str(destination.relative_to(ROOT)),
                                     'sha256': sha(destination), 'bytes': destination.stat().st_size,
                                     'dimensions': [960, 600], 'native': str(frame.relative_to(ROOT)),
                                     'nativeSha256': sha(frame), 'recognition': str((folder / 'recognition.json').relative_to(ROOT))})
@@ -207,8 +236,43 @@ def replay(run):
         adapter.action(label, kind, reference, region, list(map(str, values)))
 
     try:
-        adapter.start()
-        shutil.copytree(TRAINING, run / 'training')
+        adapter.start(locale, archive, renderer=renderer)
+        shutil.copytree(training, run / 'training')
+        if locale != 'ru':
+            learned_root = ROOT / 'Resources/VisualQA/locale-captions-v1'
+            learned_receipt = learned_root / (locale + '.json')
+            if learned_receipt.is_file():
+                learned = json.loads(learned_receipt.read_text())
+                marker = learned_root / learned['marker']['file']
+                require(learned['archiveSha256'] == sha(archive) and sha(marker) == learned['markerSha256'], 'Learned caption changed')
+                require(learned.get('runtimeRenderer') == renderer, 'Learned caption renderer differs')
+                shutil.copy2(marker, run / 'training' / marker.name)
+                recipe['learnedCaption'] = {'markers': [learned['marker']]}
+                recipe['markerHashes'][marker.name] = sha(marker)
+                write(run / 'training/recipe.json', recipe)
+                proof['recipeSha256'] = sha(run / 'training/recipe.json')
+        if locale != 'ru':
+            import threading, queue
+            messages = queue.Queue()
+            worker = subprocess.Popen([str(JAVA), '-cp', str(JAR), 'org.python.util.jython',
+                                       str(run / 'helpers/six_scenes.sikuli/six_scenes.py'), 'serve',
+                                       str(run / 'training/recipe.json'), str(run / 'worker.json')],
+                                      stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                                      text=True, bufsize=1)
+            def read_worker():
+                with (run / 'vision-worker.log').open('w') as log:
+                    for line in worker.stdout:
+                        log.write(line); log.flush(); messages.put(line.rstrip())
+                messages.put(None)
+            threading.Thread(target=read_worker, daemon=True).start()
+            deadline = time.monotonic() + 60
+            while time.monotonic() < deadline:
+                line = messages.get(timeout=max(.1, deadline - time.monotonic()))
+                require(line is not None, 'Vision worker initialization failed')
+                if line == 'VN_WORKER_READY':
+                    break
+            else:
+                raise TimeoutError('Vision worker initialization timed out')
         (run / 'jpeg').mkdir()
         proof['phase'] = 'capturing'; write(run / 'scenario.json', proof)
         menu = wait_scene('menu', deliver=True)
@@ -219,13 +283,19 @@ def replay(run):
         act('scenario-open-collection', 'click', menu, [1630, 1574, 320, 18], [890, 818])
         collection = wait_scene('collection-top')
         act('scenario-position-scroll', 'move', collection, [1250, 1720, 350, 65], [750, 440])
-        act('scenario-scroll-collection', 'scroll', collection, [1250, 1720, 350, 65], [-1800])
-        collection = wait_scene('collection', deliver=True)
+        collection = wait_scene('collection-scroll', deliver=True)
         act('scenario-close-collection', 'click', collection, [60, 1660, 280, 90], [100, 850])
         menu = wait_scene('menu')
         act('scenario-new-game', 'click', menu, [600, 400, 300, 300], [372, 818])
-        wait_scene('school-intro', timeout=150, deliver=True)
-        door = wait_scene('door-far', timeout=180)
+        if locale == 'ru':
+            wait_scene('school-intro', timeout=150, deliver=True)
+            door = wait_scene('door-far', timeout=180)
+        else:
+            # Observe the whole intro and recognize the actual next state. A
+            # missing caption must never strand the player in front of the door.
+            door = wait_scene('intro-to-door', timeout=240)
+            proof['introEvidence'] = str(door.parent.relative_to(ROOT) / 'movie-frames')
+            write(run / 'scenario.json', proof)
         act('scenario-approach-door', 'click', door, [1100, 600, 300, 300], [710, 460])
         # Positioning the cursor changes this game's camera angle. Re-recognize
         # the doorway before W instead of comparing the pre-move camera frame.
@@ -236,22 +306,31 @@ def replay(run):
         dialogue = wait_scene('neighbor-dialogue', timeout=50)
         act('scenario-show-answers', 'tap-space', dialogue, [1550, 500, 950, 250])
         wait_scene('neighbor', deliver=True)
-        require({f['scene'] for f in proof['frames']} == set(DELIVERABLES), 'Six-scene set incomplete')
-        proof['automatedResult'] = 'pass'
+        require({f['scene'] for f in proof['frames']} == (set(DELIVERABLES) if locale == 'ru' else set(DELIVERABLES) - {'school-intro'}), 'Scene set incomplete')
+        proof['automatedResult'] = 'pass' if locale == 'ru' else 'navigation-pass-caption-pending'
     except BaseException as error:
         proof['automatedResult'] = 'fail'
         proof['error'] = str(error)
         raise
     finally:
+        if worker is not None:
+            if worker.poll() is None:
+                worker.stdin.write('{"mode":"quit"}\n'); worker.stdin.flush()
+                try:
+                    worker.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    worker.terminate(); worker.wait(timeout=5)
+            worker.stdin.close()
         status = run / 'status.json'
         if status.exists():
             current = json.loads(status.read_text())
-            if current['phase'] in ['live', 'launch-request']:
+            if current['phase'] in ['prepared', 'installing', 'live', 'launch-request']:
                 try:
                     adapter.finish()
                     proof['cleanup'] = {k: json.loads(status.read_text()).get(k) for k in [
                         'fixtureStopped', 'fixturePayloadRestored', 'preferencesRestoredByteForByte',
-                        'fixtureCloudSavesRestoredByteForByte', 'originalGameUnchanged']}
+                        'fixtureCloudSavesRestoredByteForByte', 'originalGameUnchanged',
+                        'diagnosticLoaderRestoredByteForByte','rendererModuleRestoredByteForByte']}
                     proof['phase'] = 'stopped-and-restored'
                 except BaseException as cleanup_error:
                     proof['phase'] = 'cleanup-required'
@@ -276,7 +355,7 @@ if __name__ == '__main__':
             run = args.output.resolve()
             require(run.is_relative_to(ROOT / 'outputs') and (run / 'scenario.json').is_file(), 'Unknown scenario run')
             status = json.loads((run / 'status.json').read_text())
-            require(status['phase'] in ['live', 'launch-request', 'stopping', 'restoring'],
+            require(status['phase'] in ['prepared', 'installing', 'live', 'launch-request', 'stopping', 'restoring'],
                     'Run is already restored or needs partial-install reconciliation')
             adapter.RUN = run
             adapter.finish()

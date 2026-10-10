@@ -1,0 +1,77 @@
+{
+  "locale": "el",
+  "archiveSha256": "96e85c3d26d7dd5e3970411ebea40688717c53371ba832d35178365cf22e33b2",
+  "runtimeRenderer": null,
+  "expected": "Ναι, την ετοιμάζουμε για το σχολείο.",
+  "markerSha256": "06864cc06ff3803e80841e12a8e0c4b0b2b58461aad0ad6225dc3625220e51d0",
+  "native": "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0022.png",
+  "nativeSha256": "be24ef6e0965a6e0037afcf4fc41155433eb741d4cc6733a15a5b61be9945d5e",
+  "review": {
+    "status": "pass",
+    "method": "Independent inspection of all six final JPEGs: Greek letters, accents, wrapping and choices readable, complete manually selected caption and normal Space/3/11; no missing glyphs, clipping or overlays.",
+    "findings": []
+  },
+  "marker": {
+    "file": "el.png",
+    "region": [
+      200,
+      1530,
+      2480,
+      240
+    ],
+    "similarity": 0.97,
+    "brightTextThreshold": 220,
+    "whiteForegroundCoverage": 0.99
+  },
+  "neighboringControls": [
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0021.png",
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0024.png",
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0012.png"
+  ],
+  "neighborVisualReview": {
+    "expected": "Ναι, την ετοιμάζουμε για το σχολείο.",
+    "nativeSha256": "be24ef6e0965a6e0037afcf4fc41155433eb741d4cc6733a15a5b61be9945d5e",
+    "controls": [
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0021.png",
+        "sha256": "a65c6814f54c2f26d512e6b760087995739f6e8c18cbfca65cfa9312fd827aa4",
+        "classification": "different",
+        "review": "No school caption yet"
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0023.png",
+        "sha256": "7192f4d99621d75099836f7438a04ac2b70b349ea6f82d19a37f711278509da9",
+        "classification": "complete",
+        "review": "Complete same school sentence"
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0024.png",
+        "sha256": "66239e1167336fd820009522095837ab765e87f6a4254ea60958979c2922c0c8",
+        "classification": "different",
+        "review": "Next sentence starts Δεν θέλει, αλλά τι να κάνουμε"
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0012.png",
+        "sha256": "3dd35baaffb3482aff71c9232089a2d0f5833845b82d367a1fc81cc732d5b4fd",
+        "classification": "different",
+        "review": "Different sentence begins Ναι, θυμάμαι, ναι."
+      }
+    ]
+  },
+  "verificationSha256": "cc1dd940bac592516b41105b0d5b44b17d7b9387ec315bb651408fa23b627756",
+  "coverageVerification": {
+    "locale": "el",
+    "verifierSha256": "ecb01da357889bcc55ec27a27f3e092160bc0fbc1bc4b4d2afd923d00d1c5519",
+    "controlsSha256": "da363fb310cd45b30f2068533989be7f05084ceecb8a467d9a27e140b5424302",
+    "inputHashes": {
+      "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0022.png": "be24ef6e0965a6e0037afcf4fc41155433eb741d4cc6733a15a5b61be9945d5e",
+      "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0021.png": "a65c6814f54c2f26d512e6b760087995739f6e8c18cbfca65cfa9312fd827aa4",
+      "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0024.png": "66239e1167336fd820009522095837ab765e87f6a4254ea60958979c2922c0c8",
+      "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0012.png": "3dd35baaffb3482aff71c9232089a2d0f5833845b82d367a1fc81cc732d5b4fd",
+      "outputs/six-scenes-all-locales-v6/el/state-07-intro-to-door/movie-frames/0023.png": "7192f4d99621d75099836f7438a04ac2b70b349ea6f82d19a37f711278509da9"
+    },
+    "verification": "outputs/caption-foreground-controls-v2/el-verification.json",
+    "verificationSha256": "cc1dd940bac592516b41105b0d5b44b17d7b9387ec315bb651408fa23b627756",
+    "result": "pass"
+  }
+}

@@ -151,3 +151,11 @@ cleanup, review and delivery evidence. Native captures remain under the run
 directory. The launcher passed shell syntax validation; the underlying replay
 command was exercised directly. Terminal may require the existing macOS
 Accessibility/Screen Recording permissions when used as a different host.
+
+## All localization packages
+
+For the owner-requested 14-locale extension, use `Capture All Locales.command`
+and `Documentation/ALL_LOCALE_SIX_SCENE_CAPTURE.md`. The original Russian
+reference and its accepted six images remain version-bound evidence. The
+multilingual route learns full locale captions separately from door navigation
+and records native versus pinned fixture-renderer execution explicitly.

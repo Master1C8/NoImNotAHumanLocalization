@@ -1,0 +1,76 @@
+{
+  "locale": "th",
+  "archiveSha256": "300a409c6e0f6eae576bda12b20cb40e81f52d3998988ad23aa3f7d242cef24a",
+  "expected": "ใช่ กำลังเตรียมตัวให้เธอไปโรงเรียน",
+  "markerSha256": "17bcf3400a1e5ab688963089b986328d3b541eb7198d00c0190afeaf1b6c86d1",
+  "native": "outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0024.png",
+  "nativeSha256": "d01e2cf15842f3cc5effdd28dcdd83defd8ab79a86d7aa9c89a13f3994a2a469",
+  "review": {
+    "status": "pass",
+    "reviewer": "Codex",
+    "scope": "All six delivered JPEGs with pinned native provenance; complete Thai school sentence/first neighbor/answer, readable unclipped UI, Thai settings identity, collection 3/11, entrance after W; no translation edits",
+    "frames": [
+      "326db0f9736fdd371d229343cb95cbdcbd7874f7429a3c71e095eb5a6209693d",
+      "e68a335e296cf37fa755b05154fe9869b13ea270307e40aba9b9612a406b5697",
+      "f0c9b77cae194276e75e4cbda2aa8d43455c355722dad12c508e9f54ac754f53",
+      "ecdf509109b8b446f16d3211aa333c475dba2584c41de8c74c64063843c9cbd5",
+      "45f6ec83422f159c7e29b73431c4030880c741382c19aa65cbc6fe26e020ee45",
+      "dc8010f03dff0c23eb0007eaf1722357d73c6500f19763cf149c8e7d94a062f0"
+    ]
+  },
+  "marker": {
+    "file": "th.png",
+    "region": [
+      200,
+      1530,
+      2480,
+      240
+    ],
+    "similarity": 0.97,
+    "brightTextThreshold": 220,
+    "whiteForegroundCoverage": 0.99
+  },
+  "neighboringControls": [
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0022.png",
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0025.png"
+  ],
+  "neighborVisualReview": {
+    "expected": "ใช่ กำลังเตรียมตัวให้เธอไปโรงเรียน",
+    "nativeSha256": "d01e2cf15842f3cc5effdd28dcdd83defd8ab79a86d7aa9c89a13f3994a2a469",
+    "controls": [
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0022.png",
+        "sha256": "5f8dab1cc984a2297ea2b51d7380e02ca22c5e1bd9ad17c62982cdc770925212",
+        "classification": "partial",
+        "review": "Native subtitle crops inspected against complete target; OCR misses the final glyph in 0023, which is visibly present."
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0023.png",
+        "sha256": "fbb696bb966e047cd8a985235ad6404e26f963042c38f24f27c5d5bc8b31ce6d",
+        "classification": "complete",
+        "review": "Native subtitle crops inspected against complete target; OCR misses the final glyph in 0023, which is visibly present."
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0025.png",
+        "sha256": "b2963e055df4a6b4181262a5b99d54ca2ad1ec8e23ee4f36e16f0136f8a7a9b4",
+        "classification": "different",
+        "review": "Native subtitle crops inspected against complete target; OCR misses the final glyph in 0023, which is visibly present."
+      }
+    ]
+  },
+  "verificationSha256": "358fceeb7fd0222c2f500c29abe21f37a7152fc59b338a0f944cdd233a1cf91e",
+  "coverageVerification": {
+    "locale": "th",
+    "verifierSha256": "ecb01da357889bcc55ec27a27f3e092160bc0fbc1bc4b4d2afd923d00d1c5519",
+    "controlsSha256": "ed1aef611bff775f51a191eba8906ea325f40521b77577e81cb44334c38430cd",
+    "inputHashes": {
+      "outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0024.png": "d01e2cf15842f3cc5effdd28dcdd83defd8ab79a86d7aa9c89a13f3994a2a469",
+      "outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0022.png": "5f8dab1cc984a2297ea2b51d7380e02ca22c5e1bd9ad17c62982cdc770925212",
+      "outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0025.png": "b2963e055df4a6b4181262a5b99d54ca2ad1ec8e23ee4f36e16f0136f8a7a9b4",
+      "outputs/six-scenes-all-locales-v1/th/state-07-intro-to-door/movie-frames/0023.png": "fbb696bb966e047cd8a985235ad6404e26f963042c38f24f27c5d5bc8b31ce6d"
+    },
+    "verification": "outputs/caption-foreground-controls-v2/th-verification.json",
+    "verificationSha256": "358fceeb7fd0222c2f500c29abe21f37a7152fc59b338a0f944cdd233a1cf91e",
+    "result": "pass"
+  }
+}

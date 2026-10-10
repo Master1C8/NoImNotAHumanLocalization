@@ -1,0 +1,62 @@
+{
+  "locale": "sr",
+  "archiveSha256": "4a67d040a0d28e651ed34a9b9424b826755b256737e0abe9f09bb2e0bf82cc13",
+  "runtimeRenderer": null,
+  "expected": "Да, спремамо је за школу.",
+  "markerSha256": "27c8e281a8dc432df228a31d2fa476708da9c3c0ad25a48df567d95c6d1ad35a",
+  "native": "outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0021.png",
+  "nativeSha256": "4ba46bb6ad3dc889891d738db9c34a64169f6fcd73099752bef17f125c28a692",
+  "review": {
+    "status": "pass",
+    "method": "Independent inspection of all six final JPEGs: Serbian Cyrillic and ј/њ/ћ readable, collection target rows correct, entrance and choices fit, complete manually selected school caption; no missing glyphs, clipping or overlays.",
+    "findings": []
+  },
+  "marker": {
+    "file": "sr.png",
+    "region": [
+      200,
+      1530,
+      2480,
+      240
+    ],
+    "similarity": 0.97,
+    "brightTextThreshold": 220,
+    "whiteForegroundCoverage": 0.99
+  },
+  "neighboringControls": [
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0020.png",
+    "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0022.png"
+  ],
+  "neighborVisualReview": {
+    "expected": "Да, спремамо је за школу.",
+    "nativeSha256": "4ba46bb6ad3dc889891d738db9c34a64169f6fcd73099752bef17f125c28a692",
+    "controls": [
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0020.png",
+        "sha256": "8472aac50f36c24f944d09daef3c5bc6045c778d81e107cc37a78125404faa55",
+        "classification": "partial",
+        "review": "School caption stops after Да, спремамо ј"
+      },
+      {
+        "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0022.png",
+        "sha256": "7a0d929e1dc791c5afa6b5c60cc4bd743ce598a4f500f39068421783230ec2e0",
+        "classification": "different",
+        "review": "Next line begins Неће"
+      }
+    ]
+  },
+  "verificationSha256": "9fc344f41dc772a0dddc89f60f2f6665cc6ba12940a8bf33bf3259cd6a187081",
+  "coverageVerification": {
+    "locale": "sr",
+    "verifierSha256": "ecb01da357889bcc55ec27a27f3e092160bc0fbc1bc4b4d2afd923d00d1c5519",
+    "controlsSha256": "28fb677652a825dabbf2cdcdfb5508ea2c1068fcddd3d5a1996249aac10a2053",
+    "inputHashes": {
+      "outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0021.png": "4ba46bb6ad3dc889891d738db9c34a64169f6fcd73099752bef17f125c28a692",
+      "outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0020.png": "8472aac50f36c24f944d09daef3c5bc6045c778d81e107cc37a78125404faa55",
+      "outputs/six-scenes-all-locales-v7/sr/state-07-intro-to-door/movie-frames/0022.png": "7a0d929e1dc791c5afa6b5c60cc4bd743ce598a4f500f39068421783230ec2e0"
+    },
+    "verification": "outputs/caption-foreground-controls-v2/sr-verification.json",
+    "verificationSha256": "9fc344f41dc772a0dddc89f60f2f6665cc6ba12940a8bf33bf3259cd6a187081",
+    "result": "pass"
+  }
+}
