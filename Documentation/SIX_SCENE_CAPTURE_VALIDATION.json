@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "result": "pass",
+  "date": "2026-10-10",
+  "gameVersion": "1.3.19",
+  "runtimeLocale": "ru",
+  "publishingLocale": "ru",
+  "scope": "Six reviewed scenes in the existing isolated native Wine fixture",
+  "sourceChatId": "01a125bc-8553-7352-8803-b9f70e82ec35",
+  "training": "Resources/VisualQA/six-scenes-ru-v6",
+  "recipeSha256": "df62733805d6481ca6e8769f19eba0dce7855979d75452582f436593ce107be9",
+  "executionSourceHashes": {
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/visual-qa/capture_six_scenes.py": "5951452f1cc0dc7c27c4f7e77cc329abd8a4053381de7a9537c192ae6cd180eb",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/addressables_catalog.py": "d40c3d38cd0c1bf36a76064f98eca2a38f92cafe9992a01fecb0a1b4de60a564",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/probe_assets.py": "94e82057445deab0a95c779ebe5dfb9477f9f4d37aad44b7d2941002daa20c90",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/unity_types.py": "090d8595b22e69df5a3f98b306d4ea256344689a2132172e6b81c698f2bae8bd",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/build_locale_probe.py": "ff395f759b169242810dac417b60cc40b87f893ed94fcbb2088da152a967c57c",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/fixture_preferences.py": "a6980eb2994d78c03f43417a38e03f8caeeb53de3f12fb97eeb617b378aa4e4f",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/install_th_text_draft.py": "1a96a9da369164b5c3a162c4e8294541823fbd9d2428fde68916308a933c5107",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/rehearse_th_archive_install.py": "97dcaa0614142d52575e96abf5e16ebb2cd119a7f5a53488f3626c28b05aa656",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/visual-qa/run_capture.py": "403cbbcba5b34e34a2f65e359fb96e10d6d4c0161538c72879fcbc8924ab9a11",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/visual-qa/guarded_click.py": "41d73b8f61cfc62033348e131c45451ac08cc763cbc4c27b687354b2ab2939dd",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/run_saved_locale_probe.py": "05d9f17545ea9340622de48aa0b910964cd44326dd4835771707e9c3a405f944",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/start_dialogue_probe.py": "78ff384c1024797443b51c49424dcc6cd76d2076c31f1c6e046466f07a509b2d",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/run_locale_visual_qa.py": "3437ae51918c15f7e31da8e0080a04ef4bc3c2a8bb75999a7aef0555a5a55cd3",
+    "/Users/antonkrutov/Desktop/no I'm not a human/Scripts/capture_russian_reference.py": "c5ef3a2d0afd2119893e6d9886acace508d6bac3ee2b82f2c8c8c37e7da199db"
+  },
+  "helperHashes": {
+    "target_input.swift": "bf7d1b7cb456928103d7d53f545a80c3dad1c73300810dd3f38b0fc0fe7e7fb2",
+    "guarded_click.py": "41d73b8f61cfc62033348e131c45451ac08cc763cbc4c27b687354b2ab2939dd",
+    "capture_six_scenes.py": "5951452f1cc0dc7c27c4f7e77cc329abd8a4053381de7a9537c192ae6cd180eb",
+    "window_info.swift": "170814360b5c0382254feff6e02db6f08aa88b5177ce22077081681aade6a06e",
+    "run_capture.py": "403cbbcba5b34e34a2f65e359fb96e10d6d4c0161538c72879fcbc8924ab9a11",
+    "reference_input.swift": "506f76ca2805820586dc8ee46b2bc61eaf8c63c1231cdee08ad92d7d2ab0faaf",
+    "probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076",
+    "six_scenes.sikuli/six_scenes.py": "86b6509ab0378a8de62c198b899e203ae23f8f9f337ba010619f6a486acf4711"
+  },
+  "oculixJarSha256": "139ff2018b62cbd225230a4ddade6e64d9f05197367ed9173b12b9ad848eb7b6",
+  "scenarioEvidence": "outputs/six-scenes-russian-replay-v6/scenario.json",
+  "scenarioEvidenceSha256": "9a3b5d11ce57423d0d59dc25fb244f38aef769dacbc2ad3750883fc2dd7541a4",
+  "restorationEvidenceSha256": "1f3c9567b6d0f7f138c3fc2444b67967fe5221ccd67a8f0ae8762479c378b168",
+  "cleanup": {
+    "fixtureStopped": true,
+    "fixturePayloadRestored": true,
+    "preferencesRestoredByteForByte": true,
+    "fixtureCloudSavesRestoredByteForByte": true,
+    "originalGameUnchanged": true
+  },
+  "originalCloudSavesUnchanged": true,
+  "sourceCloudHashes": {
+    "stats.ini": "1feceef827ce1118e7c96928fa8c8f492668ac16edbe971fbe20f994a2865a0c",
+    "leaderboards.ini": "749be0285d916625e06e0b5273889c2ede421b1f16f765cf817870fcec8c2930",
+    "filemappings.ini": "ec38322acffe50fdd7c8115c65addfa294fd3ca7bc9948165f5530795fc5e6a6",
+    "achievements.ini": "876dee190ff1cf8f06e0be8067faf2729dcc0599fba94715b985b361d0802cac",
+    "remote/gamesavedata.sav": "60efb59815f1981b09740a93f2bebcafae8090c1ed5beb70593d7a2d198a5b77",
+    "remote/metaprefsdata.sav": "24baa4ee23d3abe6b60dddd60cf7d4a99317e02c89e3bcdff3ec4d2e2a3f2112"
+  },
+  "controls": {
+    "evidence": "outputs/six-scenes-training-check-v10/verification.json",
+    "sha256": "6ceb142ec9c86012e244c16f1fd837cbad0bdadd8914daf4f0af4d9830fd390a",
+    "positive": 13,
+    "negative": 20
+  },
+  "focusRecoveries": [
+    {
+      "state": "state-01-menu",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.18200016021728516
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29187,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 3.7260000705718994
+        }
+      ]
+    },
+    {
+      "state": "state-02-settings",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.30700016021728516
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29234,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.130000114440918
+        }
+      ]
+    },
+    {
+      "state": "state-03-menu",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.16100001335144043
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29300,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 3.694999933242798
+        }
+      ]
+    },
+    {
+      "state": "state-04-collection-top",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.23100018501281738
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29348,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 3.7870001792907715
+        }
+      ]
+    },
+    {
+      "state": "state-05-collection",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.25499987602233887
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29402,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 3.735999822616577
+        }
+      ]
+    },
+    {
+      "state": "state-06-menu",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.1959998607635498
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29455,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.19599986076355
+        }
+      ]
+    },
+    {
+      "state": "state-07-school-intro",
+      "attempts": 38,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.20000004768371582
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29528,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.228999853134155
+        }
+      ]
+    },
+    {
+      "state": "state-08-door-far",
+      "attempts": 11,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.20300006866455078
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29790,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.978999853134155
+        }
+      ]
+    },
+    {
+      "state": "state-09-door-far",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.312000036239624
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29909,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.313999891281128
+        }
+      ]
+    },
+    {
+      "state": "state-10-entrance",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.3209998607635498
+        },
+        {
+          "previousFrontmost": {
+            "pid": 29970,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.102999925613403
+        }
+      ]
+    },
+    {
+      "state": "state-11-neighbor-dialogue",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.309999942779541
+        },
+        {
+          "previousFrontmost": {
+            "pid": 30020,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.249000072479248
+        }
+      ]
+    },
+    {
+      "state": "state-12-neighbor",
+      "attempts": 2,
+      "events": [
+        {
+          "previousFrontmost": {
+            "pid": 29108,
+            "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/wine/lib/wine/x86_64-unix/wine",
+            "name": "wine"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 0.31599998474121094
+        },
+        {
+          "previousFrontmost": {
+            "pid": 30071,
+            "path": "/opt/homebrew/Cellar/openjdk@17/17.0.20.1/libexec/openjdk.jdk/Contents/Home/bin/java",
+            "name": "jython"
+          },
+          "windowIdentity": [
+            29108,
+            1651
+          ],
+          "restored": true,
+          "elapsedSeconds": 4.20799994468689
+        }
+      ]
+    }
+  ],
+  "visualReview": {
+    "status": "pass",
+    "method": "Direct visual review of all six actual JPEGs at 960x600",
+    "checks": [
+      {
+        "scene": "menu",
+        "sha256": "8bd0c425ecfaa9feb0d0a7c5c667006bafaf0f1fcb47368081d5f7baa82fffaa",
+        "result": "pass",
+        "findings": []
+      },
+      {
+        "scene": "settings",
+        "sha256": "0f3e01d2ec8971958e56393e8a1c79907341aa7d030b821f982a4b4317f4b5cf",
+        "result": "pass",
+        "findings": []
+      },
+      {
+        "scene": "collection",
+        "sha256": "2bf827f61827af607c995d0f37cb0ada21390bb8eabb1bd272b29388f9611b64",
+        "result": "pass",
+        "findings": []
+      },
+      {
+        "scene": "school-intro",
+        "sha256": "1eae07f7691192b9874b615d7b58e40cbc761f5cebc6e34877a77cccb62541fd",
+        "result": "pass",
+        "findings": []
+      },
+      {
+        "scene": "entrance",
+        "sha256": "dca68942a8ca9b23177a2256965ca368feb06f53fd39391e2c5c5323611e7fdf",
+        "result": "pass",
+        "findings": []
+      },
+      {
+        "scene": "neighbor",
+        "sha256": "267da65734a194edd413ae2a3d0b9e14cf706f20ac339cff2c4e265ec9c75126",
+        "result": "pass",
+        "findings": []
+      }
+    ],
+    "criteria": [
+      "Expected Russian screen and complete text",
+      "No missing glyphs or unexpected clipping",
+      "No OS or application notifications",
+      "No added annotations"
+    ]
+  },
+  "delivery": {
+    "result": "pass",
+    "run": "outputs/six-scenes-russian-replay-v6",
+    "locale": "ru",
+    "encoding": {
+      "format": "JPEG",
+      "dimensions": [
+        960,
+        600
+      ],
+      "quality": 60,
+      "subsampling": 2
+    },
+    "frames": [
+      {
+        "scene": "menu",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-01-main-menu.jpg",
+        "sha256": "8bd0c425ecfaa9feb0d0a7c5c667006bafaf0f1fcb47368081d5f7baa82fffaa",
+        "bytes": 54160,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-01-menu/native.png",
+        "nativeSha256": "e0d7e08f3e6fea813bc7d23313f67e3cc2006967e0b62b97a706a1b26c749899",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-01-menu/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-01-main-menu.jpg"
+      },
+      {
+        "scene": "settings",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-02-settings.jpg",
+        "sha256": "0f3e01d2ec8971958e56393e8a1c79907341aa7d030b821f982a4b4317f4b5cf",
+        "bytes": 62916,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-02-settings/native.png",
+        "nativeSha256": "69984e2ca3d84a3a492ea62abe6b44d478f983f225eded33dcbfe3630c19eab8",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-02-settings/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-02-settings.jpg"
+      },
+      {
+        "scene": "collection",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-03-collection.jpg",
+        "sha256": "2bf827f61827af607c995d0f37cb0ada21390bb8eabb1bd272b29388f9611b64",
+        "bytes": 43379,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-05-collection/native.png",
+        "nativeSha256": "110371fce97e8761ae3ec84914899d2925bab1438b23202ccd1d3235ad49c992",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-05-collection/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-03-collection.jpg"
+      },
+      {
+        "scene": "school-intro",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-06-school-intro.jpg",
+        "sha256": "1eae07f7691192b9874b615d7b58e40cbc761f5cebc6e34877a77cccb62541fd",
+        "bytes": 80901,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-07-school-intro/native.png",
+        "nativeSha256": "27a6b932839da4e4d34e8c50366fe345d21a51446048726c37ea7193e7c88ec6",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-07-school-intro/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-06-school-intro.jpg"
+      },
+      {
+        "scene": "entrance",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-04-entrance.jpg",
+        "sha256": "dca68942a8ca9b23177a2256965ca368feb06f53fd39391e2c5c5323611e7fdf",
+        "bytes": 34015,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-10-entrance/native.png",
+        "nativeSha256": "fcdc636a2758f007ea99360deaf65b81ccf57a52c02ccd86f53fbf1d08b30d12",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-10-entrance/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-04-entrance.jpg"
+      },
+      {
+        "scene": "neighbor",
+        "file": "outputs/six-scenes-russian-replay-v6/jpeg/ru-05-neighbor.jpg",
+        "sha256": "267da65734a194edd413ae2a3d0b9e14cf706f20ac339cff2c4e265ec9c75126",
+        "bytes": 28221,
+        "dimensions": [
+          960,
+          600
+        ],
+        "native": "outputs/six-scenes-russian-replay-v6/state-12-neighbor/native.png",
+        "nativeSha256": "800f0c239769e119811dbba66571b29b5cfd85d89b06e92106fff5c4b7d1d037",
+        "recognition": "outputs/six-scenes-russian-replay-v6/state-12-neighbor/recognition.json",
+        "delivery": "dist/six-scenes-ru-v6/jpeg/ru-05-neighbor.jpg"
+      }
+    ],
+    "archive": {
+      "path": "dist/six-scenes-ru-v6/screenshots.zip",
+      "sha256": "deae35ee604c4202d92d8495c49610eca063f924fb965526b9c9e1e69ae221c6",
+      "bytes": 299727
+    }
+  },
+  "limitations": [
+    "Only Russian has been verified; no multilingual or language-picker coverage",
+    "No screenshot publication or deployment",
+    "The double-click launcher has syntax validation; the identical replay command was exercised directly"
+  ],
+  "priorFailures": {
+    "v1": "Animated menu region; stopped and restored",
+    "v2": "Incomplete subtitle region; later reconciled owned process exit and restoration in the same run",
+    "v3": "Foreground application changed during scene waiting; stopped and restored",
+    "v4": "Door camera offset outside fixed marker; stopped and restored",
+    "v5": "Entrance prompt moved with camera; stopped and restored"
+  },
+  "wrongOwnerControl": {
+    "evidence": "outputs/six-scenes-russian-replay-v5/wrong-owner-control.json",
+    "sha256": "f69a92ee6468c86e3119ea3af37dc043cfaeb420bfc51cd284fe9d55216d8bf3",
+    "expectedRejection": "Process is not the fixture",
+    "sourceSha256": "506f76ca2805820586dc8ee46b2bc61eaf8c63c1231cdee08ad92d7d2ab0faaf",
+    "boundary": "Native focus rejects a non-fixture PID before sending input; positive owned-window focus is exercised by the full replay"
+  }
+}

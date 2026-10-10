@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "locale": "ru",
+  "gameVersion": "1.3.19",
+  "nativeDimensions": [
+    2880,
+    1800
+  ],
+  "logicalBounds": {
+    "Height": 900,
+    "Width": 1440,
+    "X": 0,
+    "Y": 0
+  },
+  "jpeg": {
+    "dimensions": [
+      960,
+      600
+    ],
+    "quality": 60,
+    "subsampling": 2
+  },
+  "referenceRun": "outputs/russian-reference-live-v1",
+  "scenes": {
+    "menu": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png",
+      "sourceSha256": "590af91966dc9c6a0308bf883105e263b4135e7d45f13ef01659ff7c5f60b4e9",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/settings/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/collection-bottom-check/native.png"
+      ],
+      "markers": [
+        {
+          "file": "menu-0.png",
+          "region": [
+            625,
+            1605,
+            240,
+            55
+          ],
+          "similarity": 0.9
+        },
+        {
+          "file": "settings-0.png",
+          "region": [
+            90,
+            45,
+            570,
+            140
+          ],
+          "similarity": 0.9,
+          "present": false
+        }
+      ],
+      "additionalPositive": [
+        {
+          "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-russian-replay-v1/state-01-menu/latest.png",
+          "sha256": "d6db74b60dc2a9df88575c0032c4767243ad0901f0ebf24505869c1dee9b9612"
+        }
+      ]
+    },
+    "settings": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/settings/native.png",
+      "sourceSha256": "63d594aafcb5a837e038676f3d1f7999b60dec9ea5c1249a94604cab4f235290",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/collection-bottom-check/native.png"
+      ],
+      "markers": [
+        {
+          "file": "settings-0.png",
+          "region": [
+            90,
+            45,
+            570,
+            140
+          ],
+          "similarity": 0.9
+        }
+      ]
+    },
+    "collection-top": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/collection-top/native.png",
+      "sourceSha256": "7fe199269d2fcad5c3ce5e6ace16526e72ddc458a39b89823f0aae44dae78bee",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/settings/native.png"
+      ],
+      "markers": [
+        {
+          "file": "collection-top-0.png",
+          "region": [
+            1250,
+            1720,
+            350,
+            65
+          ],
+          "similarity": 0.9
+        }
+      ]
+    },
+    "collection": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/collection-bottom-check/native.png",
+      "sourceSha256": "7141efc216ad40cb20f0e9822facce5b4111583a21e17cc49eb177350a0776b0",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/collection-top/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png"
+      ],
+      "markers": [
+        {
+          "file": "collection-0.png",
+          "region": [
+            1450,
+            1100,
+            1200,
+            240
+          ],
+          "similarity": 0.9
+        },
+        {
+          "file": "collection-1.png",
+          "region": [
+            1250,
+            1720,
+            350,
+            65
+          ],
+          "similarity": 0.9
+        }
+      ]
+    },
+    "school-intro": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/intro-observation/001.99.png",
+      "sourceSha256": "ed8f146968f974df280942b14145a890164d85511e1fa479951ecd183e46a4c9",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/gameplay-ready/native.png"
+      ],
+      "markers": [
+        {
+          "file": "school-intro-0.png",
+          "region": [
+            930,
+            1590,
+            1140,
+            90
+          ],
+          "similarity": 0.9,
+          "brightTextThreshold": 220
+        }
+      ],
+      "additionalPositive": [
+        {
+          "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/intro-observation/000.24.png",
+          "sha256": "b0107fa895b5b3001bcb194864a6b2d3047fe57123f31c71c5f2ec7eeb052b5e"
+        }
+      ],
+      "additionalNegative": [
+        {
+          "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/intro-observation/003.69.png",
+          "sha256": "44ad1575466a458ae6dc579f54c7fb451d91e5ac0fe853979fdf35d9e43efb01"
+        }
+      ]
+    },
+    "door-far": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/gameplay-ready/native.png",
+      "sourceSha256": "2cf6e0fd29ab5ff2125cf94f59598493f4bde92631a92bf2559277536359f040",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/door-close-check/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-first-choices/native.png"
+      ],
+      "markers": [
+        {
+          "file": "door-far-0.png",
+          "region": [
+            1320,
+            1100,
+            70,
+            70
+          ],
+          "similarity": 0.9,
+          "searchRegion": [
+            1000,
+            200,
+            750,
+            1400
+          ]
+        },
+        {
+          "file": "door-far-1.png",
+          "region": [
+            1640,
+            975,
+            50,
+            70
+          ],
+          "similarity": 0.9,
+          "searchRegion": [
+            1000,
+            200,
+            750,
+            1400
+          ]
+        }
+      ],
+      "additionalPositive": [
+        {
+          "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-russian-replay-v4/state-08-door-far/latest.png",
+          "sha256": "5a36adc7add284826ea701ebbf66e8f1c71b176677b6576b321f1cfc91946b08"
+        }
+      ]
+    },
+    "entrance": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/door-close-check/native.png",
+      "sourceSha256": "4e17fa45d4fd9b46ea2fcb36ee16e699faf2e4da9b985721c53673668b14c393",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/gameplay-ready/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-first-choices/native.png"
+      ],
+      "markers": [
+        {
+          "file": "entrance-0.png",
+          "region": [
+            1130,
+            730,
+            490,
+            180
+          ],
+          "similarity": 0.9,
+          "searchRegion": [
+            950,
+            600,
+            800,
+            550
+          ]
+        }
+      ],
+      "additionalPositive": [
+        {
+          "file": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/six-scenes-russian-replay-v5/state-10-entrance/latest.png",
+          "sha256": "9e68f73a94bb173fcdd602ccacdb3c2994d49fa7692eb708f6eb016c60d504ab"
+        }
+      ]
+    },
+    "neighbor-dialogue": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-dialogue-check/native.png",
+      "sourceSha256": "c5914cd967c1d639862f372460b362d70cc420336928ccf47be20b93b890633f",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/door-close-check/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/menu/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-first-choices/native.png"
+      ],
+      "markers": [
+        {
+          "file": "neighbor-dialogue-0.png",
+          "region": [
+            1560,
+            520,
+            1100,
+            230
+          ],
+          "similarity": 0.9
+        },
+        {
+          "file": "neighbor-1.png",
+          "region": [
+            1480,
+            1080,
+            650,
+            170
+          ],
+          "similarity": 0.9,
+          "present": false
+        }
+      ]
+    },
+    "neighbor": {
+      "positive": "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-first-choices/native.png",
+      "sourceSha256": "f6406b2c2458a87863206755f1beebc5fb6796f32e01e23bd9ac54f3e16d4f87",
+      "negative": [
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/neighbor-dialogue-check/native.png",
+        "/Users/antonkrutov/Desktop/no I'm not a human/outputs/russian-reference-live-v1/door-close-check/native.png"
+      ],
+      "markers": [
+        {
+          "file": "neighbor-0.png",
+          "region": [
+            1560,
+            520,
+            1100,
+            230
+          ],
+          "similarity": 0.9
+        },
+        {
+          "file": "neighbor-1.png",
+          "region": [
+            1480,
+            1080,
+            650,
+            170
+          ],
+          "similarity": 0.9
+        }
+      ]
+    }
+  },
+  "markerHashes": {
+    "menu-0.png": "42057b6f4f7155c73d2ac7c3a6555ff4bf66cbfd731a2db845aa58a2cdcbf042",
+    "settings-0.png": "83a6bc50c16ec420a986acb1bf159e8b8fbb01bcacc319f25fd8258628a69ebf",
+    "collection-top-0.png": "de112a7b042f7920170f202759017f112a7f0d59945ab36c69700831dfd90d3c",
+    "collection-0.png": "d3425fbe9999b4d66565af4b6cfbcf52e0b3614ba39ecfec5088ea78a9c63b9a",
+    "collection-1.png": "de112a7b042f7920170f202759017f112a7f0d59945ab36c69700831dfd90d3c",
+    "school-intro-0.png": "0827febe97a53de4647a3db021dfacda0a245de4173fa64a7da061a1da565786",
+    "door-far-0.png": "dc5bb1f2974f331af74d4a6770c76ff9c6dadcb62083eb7f5ddf095e2ff844f2",
+    "door-far-1.png": "e3e752f81bd03717bd66de270bbf1ce1344a4a6e7f7708efb181986044ad87fb",
+    "entrance-0.png": "9dfb6118b01f0a569943e3e3d1d4b6665c615687ab93ff272c9ef21667d69eb6",
+    "neighbor-dialogue-0.png": "884bd8c3bd189976a31691dbb1110c1ae51810bd72472f3b70bbe4e9c030ef43",
+    "neighbor-0.png": "ed34852187c84565d1ac3efd3caed1ab2e4e03d89bbc236991d1fb53f8c27aa6",
+    "neighbor-1.png": "38164b37f29c9338378fa9973c4a70baa806567581525dc419808978e959ea09"
+  }
+}
