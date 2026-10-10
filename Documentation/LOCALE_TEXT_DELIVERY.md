@@ -32,6 +32,22 @@ Do not copy a count from another locale into an audit brief. Regression case:
 a six-output count from Persian is not a Bulgarian six-ID inventory; Bulgarian
 coverage follows its own compiled producers, managed methods and catalog.
 
+## Canonical integration
+
+Root verifies the complete staged path set and every staged blob against its
+accepted input inventory before committing, then checks the committed tree.
+Use `git cat-file --batch` for whole-set blob verification rather than starting
+one process per file. Preserve unrelated working and staged changes.
+
+Run the staged whitespace check as a preflight before attempting the commit.
+Some pinned historical `independent-review-01/compiled_context.py` helpers
+(Hungarian: `read_compiled_context.py`) have one final blank line. Preserve those
+immutable bytes. If that is the sole warning, verify its exact path/hash and
+warning, record the allowance in the locale delivery proof, and check every
+other staged path normally. Any other warning remains unresolved. Regression:
+a pinned terminal blank line may be preserved; trailing spaces or an unexpected
+warning in another path must not inherit that allowance.
+
 ## Shared commands
 
 Use the canonical checkout's `.venv/bin/python` and new output paths. Existing

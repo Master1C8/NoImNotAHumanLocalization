@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "scope": "first complete semantic source-to-target pass; findings accumulated before corrections",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-000000-000259.jsonl",
+  "reviewedRowsSha256": "4737228994919f5ee1ebf4218a4db79a22a52bf019e8526215e6c469ab875241",
+  "findings": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499572638699520",
+      "ordinal": 140,
+      "key": "calendar_day_1",
+      "source": "День огурца",
+      "currentTarget": "Ziua castraveților",
+      "reason": "The Russian calendar title is singular; the Romanian title names multiple cucumbers.",
+      "proposedTarget": "Ziua castravetelui",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715969077248",
+      "ordinal": 211,
+      "key": "FridgeItem_Mushroom_NarrativeDescription",
+      "source": "Странный гриб. Как он вообще пророс в картошке?",
+      "currentTarget": "Ce ciupercă ciudată. Cum a crescut dintr-un cartof?",
+      "reason": "The Russian locative places the mushroom growing in the potato; Romanian “dintr-un cartof” says it grew out of/from one.",
+      "proposedTarget": "Ce ciupercă ciudată. Cum a răsărit în cartof?",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

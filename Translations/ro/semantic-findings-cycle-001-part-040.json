@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 15035-15133",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-015035-015133.jsonl",
+  "reviewedRowsSha256": "b3e6e5816eeaf5cd80f604274b1a02678d0598db2c4ff0a71642dbd25c1ff56b",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452228718602",
+      "ordinal": 15046,
+      "key": "line:Raskolnikov_Eyes_DontShoot_0b2c1cf",
+      "source": "Raskolnikov: И я подумал: если бы мои глаза могли так же… может, меня бы не задирали в школе.",
+      "currentTarget": "Raskolnikov: Și m-am gândit: dacă ochii mei ar putea privi la fel… poate n-ar mai fi râs de mine la școală.",
+      "reason": "The Russian задирали says he was bullied/harassed at school, whereas the Romanian only says people laughed at him.",
+      "proposedTarget": "Raskolnikov: Și m-am gândit: dacă ochii mei ar putea privi la fel… poate nu m-ar mai fi hărțuit la școală.",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452203552778",
+      "ordinal": 15115,
+      "key": "line:Raskolnikov_Hands_0d2c6c5",
+      "source": "Raskolnikov: Просто... не успеваю их портить. Всё бегаю, прячусь. Некогда даже зацепиться.",
+      "currentTarget": "Raskolnikov: Doar că… nu apuc să le stric. Tot fug și mă ascund. N-am timp nici măcar să le agăț de ceva.",
+      "reason": "The Russian reflexive зацепиться means he himself might catch onto something; the Romanian le agăț de ceva makes his hands the object being hung/attached.",
+      "proposedTarget": "Raskolnikov: Doar că… nu apuc să le stric. Tot fug și mă ascund. N-am timp nici măcar să mă agăț de ceva.",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

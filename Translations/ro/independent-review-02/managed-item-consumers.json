@@ -1,0 +1,676 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "DialogManager",
+      "method": "OnPeekedDeficitItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "Field:_consumablesController"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "MethodDef:GetDeficitItem"
+        },
+        {
+          "offset": 23,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 24,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 26,
+          "opcode": "constrained.",
+          "operand": "TypeDef:EConsumable"
+        },
+        {
+          "offset": 32,
+          "opcode": "callvirt",
+          "operand": "MemberRef:ToString"
+        },
+        {
+          "offset": 37,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnNeedToGetDeficitItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "opcode": "ldfld",
+          "operand": "Field:_consumablesController"
+        },
+        {
+          "offset": 7,
+          "opcode": "callvirt",
+          "operand": "MethodDef:IsNeedToGetDeficitItem"
+        },
+        {
+          "offset": 12,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnGotItemCount",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "opcode": "ldfld",
+          "operand": "Field:_consumablesController"
+        },
+        {
+          "offset": 7,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "opcode": "callvirt",
+          "operand": "MethodDef:Count"
+        },
+        {
+          "offset": 13,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnTryGiveItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "Field:_consumablesController"
+        },
+        {
+          "offset": 18,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "opcode": "callvirt",
+          "operand": "MethodDef:TryRemove"
+        },
+        {
+          "offset": 26,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 27,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 28,
+          "opcode": "ldc.i4.7",
+          "operand": "None"
+        },
+        {
+          "offset": 29,
+          "opcode": "ceq",
+          "operand": "None"
+        },
+        {
+          "offset": 31,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 32,
+          "opcode": "and",
+          "operand": "None"
+        },
+        {
+          "offset": 33,
+          "opcode": "brfalse.s",
+          "operand": "64"
+        },
+        {
+          "offset": 35,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 36,
+          "opcode": "ldfld",
+          "operand": "Field:_charactersManager"
+        },
+        {
+          "offset": 41,
+          "opcode": "ldarg.3",
+          "operand": "None"
+        },
+        {
+          "offset": 42,
+          "opcode": "callvirt",
+          "operand": "MethodDef:GivePovistka"
+        },
+        {
+          "offset": 47,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 48,
+          "opcode": "ldfld",
+          "operand": "Field:GivenPovistka"
+        },
+        {
+          "offset": 53,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 54,
+          "opcode": "brtrue.s",
+          "operand": "59"
+        },
+        {
+          "offset": 56,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 57,
+          "opcode": "br.s",
+          "operand": "64"
+        },
+        {
+          "offset": 59,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 64,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 65,
+          "opcode": "ldc.i4.6",
+          "operand": "None"
+        },
+        {
+          "offset": 66,
+          "opcode": "ceq",
+          "operand": "None"
+        },
+        {
+          "offset": 68,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 69,
+          "opcode": "and",
+          "operand": "None"
+        },
+        {
+          "offset": 70,
+          "opcode": "brfalse.s",
+          "operand": "89"
+        },
+        {
+          "offset": 72,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 73,
+          "opcode": "ldfld",
+          "operand": "Field:FedCat"
+        },
+        {
+          "offset": 78,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 79,
+          "opcode": "brtrue.s",
+          "operand": "84"
+        },
+        {
+          "offset": 81,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 82,
+          "opcode": "br.s",
+          "operand": "89"
+        },
+        {
+          "offset": 84,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 89,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 90,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnGotItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "opcode": "ldfld",
+          "operand": "Field:_consumablesController"
+        },
+        {
+          "offset": 7,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 9,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 10,
+          "opcode": "callvirt",
+          "operand": "MethodDef:Add"
+        },
+        {
+          "offset": 15,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "GetItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 14,
+          "opcode": "call",
+          "operand": "0x2b000305"
+        },
+        {
+          "offset": 19,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "opcode": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 25,
+          "opcode": "ldfld",
+          "operand": "Field:GotItem"
+        },
+        {
+          "offset": 30,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 31,
+          "opcode": "brtrue.s",
+          "operand": "35"
+        },
+        {
+          "offset": 33,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 34,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 35,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 36,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 37,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 42,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "GetItemCount",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 14,
+          "opcode": "call",
+          "operand": "0x2b000305"
+        },
+        {
+          "offset": 19,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "opcode": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 25,
+          "opcode": "ldfld",
+          "operand": "Field:GotItemCount"
+        },
+        {
+          "offset": 30,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 31,
+          "opcode": "brtrue.s",
+          "operand": "36"
+        },
+        {
+          "offset": 33,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 34,
+          "opcode": "ldc.i4.0",
+          "operand": "None"
+        },
+        {
+          "offset": 35,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 36,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 37,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 42,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "IsNeedToGetDeficitItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldfld",
+          "operand": "Field:NeededToGetDeficitItem"
+        },
+        {
+          "offset": 11,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 12,
+          "opcode": "brtrue.s",
+          "operand": "17"
+        },
+        {
+          "offset": 14,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "opcode": "ldc.i4.0",
+          "operand": "None"
+        },
+        {
+          "offset": 16,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 17,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 22,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "PeekDeficitItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldfld",
+          "operand": "Field:PeekedDeficitItem"
+        },
+        {
+          "offset": 11,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 12,
+          "opcode": "brtrue.s",
+          "operand": "18"
+        },
+        {
+          "offset": 14,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "opcode": "ldnull",
+          "operand": "None"
+        },
+        {
+          "offset": 16,
+          "opcode": "br.s",
+          "operand": "23"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "MemberRef:Invoke"
+        },
+        {
+          "offset": 23,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 24,
+          "opcode": "brtrue.s",
+          "operand": "32"
+        },
+        {
+          "offset": 26,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 27,
+          "opcode": "ldstr",
+          "operand": ""
+        },
+        {
+          "offset": 32,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "LocalizeItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldstr",
+          "operand": "consumable_"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 7,
+          "opcode": "callvirt",
+          "operand": "MemberRef:ToLower"
+        },
+        {
+          "offset": 12,
+          "opcode": "ldstr",
+          "operand": "_name"
+        },
+        {
+          "offset": 17,
+          "opcode": "call",
+          "operand": "MemberRef:Concat"
+        },
+        {
+          "offset": 22,
+          "opcode": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 27,
+          "opcode": "call",
+          "operand": "0x2b0000a3"
+        },
+        {
+          "offset": 32,
+          "opcode": "call",
+          "operand": "MethodDef:GetLocalization"
+        },
+        {
+          "offset": 37,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    }
+  ]
+}

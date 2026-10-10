@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "cycle": 3,
+  "planSha256": "9e9cee8ce56ab2fcf20549a505cc193ce0993eb9d6fb4b53566550f358bced29",
+  "closureManifestSha256": "451443f38751fb62953c2d37522077dc85a49a6a6f3a51f7167db55bbf544de3",
+  "acceptedCorrections": 5,
+  "affectedAuthoredFiles": 4,
+  "unchangedAuthoredFiles": 411,
+  "currentCycleExactByteReconstruction": [
+    {
+      "path": "Translations/ro/dialogue-batch-210.json",
+      "preApplicationSha256": "03dde52b38016b55f6b29a06e0cc16e9d80932486bcfa92ef8ddd3ded6d0b8b5",
+      "postApplicationSha256": "fa3850540023f3c31b8c8b1384fbfeec1fd983cc1a67e5da3b4dc77d5ad801f0",
+      "reverseReconstructionSha256": "03dde52b38016b55f6b29a06e0cc16e9d80932486bcfa92ef8ddd3ded6d0b8b5",
+      "exactBeforeByteMatch": true
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-226.json",
+      "preApplicationSha256": "8fa25cdbd70dbf13dd5ca5c6d3a7cd1d22f376be32443487622a2945823cd0d7",
+      "postApplicationSha256": "477bb615558433ccbcad07df67d7922181553332684eed8f39fd5ad214bc9520",
+      "reverseReconstructionSha256": "8fa25cdbd70dbf13dd5ca5c6d3a7cd1d22f376be32443487622a2945823cd0d7",
+      "exactBeforeByteMatch": true
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-302.json",
+      "preApplicationSha256": "77443ec6d45bbff91bc41ac982f3da14a39fc077cb238a2bd790bf0b53098e01",
+      "postApplicationSha256": "150e3015003881f5f5e5c4918c55ef0b023093ea2421b83dd94d7fca0b3f44b7",
+      "reverseReconstructionSha256": "77443ec6d45bbff91bc41ac982f3da14a39fc077cb238a2bd790bf0b53098e01",
+      "exactBeforeByteMatch": true
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-305.json",
+      "preApplicationSha256": "1aa7fc5c9dafb180e5b4c519763c288a88c057b82fab36ad15a52d35b1f17a4b",
+      "postApplicationSha256": "1f3af2cddfa98a827db426f9bb262a43f13e2dd21a1708b87aa17b8257dcfc8e",
+      "reverseReconstructionSha256": "1aa7fc5c9dafb180e5b4c519763c288a88c057b82fab36ad15a52d35b1f17a4b",
+      "exactBeforeByteMatch": true
+    }
+  ],
+  "reverseMethod": "Revert exactly the five accepted target fields in the parsed current files, serialize with the cycle003 recipe canonical UTF-8 JSON layout, and compare each whole-file byte hash with its pinned pre-application hash.",
+  "historicalPreimageEvidenceSha256": "8f4aaffcc8949f0a01dd1c11adfd0233b1a9483f8baa49aec50add3c8573ae3e",
+  "historicalUnrecoveredFiles": [
+    "Translations/ro/dialogue-batch-003.json",
+    "Translations/ro/dialogue-batch-006.json",
+    "Translations/ro/ui-batch-003.json",
+    "Translations/ro/ui-batch-004.json",
+    "Translations/ro/ui-batch-005.json"
+  ],
+  "historicalNonTargetParity": "unverified; exact original bytes for these five files unavailable despite verified current schema/version/ID order/source/target alignment",
+  "affectedValidationSidecars": [
+    {
+      "path": "Translations/ro/dialogue-batch-210.validation.json",
+      "sha256": "09f4a89f616ab3b107308868ffbdb9cde13877ca45e94dd77291c1815cd3b594"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-226.validation.json",
+      "sha256": "0305955f63d51ad476dd66799c776bc6f35eeb9e3b611432469a0e776c995fae"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-302.validation.json",
+      "sha256": "f53a6a737565d4c95fa40fb57c3e07c1fd4e76e035afbe2e1ceaecb7f13e4bb1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-305.validation.json",
+      "sha256": "0364bc13076525a987995a7cb6bacf85655052b2f45c53db1003df56beef4212"
+    }
+  ],
+  "affectedBatchValidators": "4/4 passed",
+  "fullExactGate": {
+    "command": ".venv/bin/python Scripts/report_locale_readiness.py --exact --compact",
+    "localeResult": "ro 16538/16538 (100.000%) validated=16538 observed=16538 problems=0",
+    "result": "passed",
+    "sharedStateWrite": false
+  },
+  "repeatExpansion": {
+    "command": ".venv/bin/python Scripts/expand_exact_text_batch.py Translations/ro/dialogue-repeats-001.authored.json Translations/ro/dialogue-batch-001.json --verify",
+    "rows": 2828,
+    "transferRows": 245,
+    "result": "passed",
+    "derivedMapChanged": false
+  },
+  "closureVerify": {
+    "command": ".venv/bin/python Translations/ro/correction-cycle-003-closure-recipe.py verify",
+    "result": "passed",
+    "closureIds": 4498,
+    "nextDeltaIds": 5
+  },
+  "runtime": "not run"
+}

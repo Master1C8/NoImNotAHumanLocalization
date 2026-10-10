@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 10662-10715",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-010662-010715.jsonl",
+  "reviewedRowsSha256": "f7f6f14699a0a75899de22e8fb889bc0fbafc899d1601eb33b2360e300889000",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373126",
+      "ordinal": 10682,
+      "key": "line:Anger_Asking_3_03aa6a3",
+      "source": "Anger: С каждым днём она становилась всё безумнее, веруя во что-то, что было мне непонятно.",
+      "currentTarget": "Anger: Pe zi ce trecea, credința ei în ceva ce nu înțelegeam devenea tot mai nebunească.",
+      "reason": "Russian makes the wife the subject of «становилась всё безумнее» and connects it to her belief. Romanian makes her belief the subject, changing his accusation about the person into an assessment of the creed.",
+      "proposedTarget": "Anger: Pe zi ce trecea, ea devenea tot mai nebună, crezând în ceva ce nu înțelegeam.",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454246178822",
+      "ordinal": 10694,
+      "key": "line:Anger_Asking_2_06ebb11",
+      "source": "Anger: Ебанутые. Они даже нормальных людей склоняют к своей бредовой вере, как мою…",
+      "currentTarget": "Anger: Sunt nebuni. Îi atrag chiar și pe oamenii obișnuiți spre credința lor delirantă, ca pe soția mea…",
+      "reason": "Russian breaks off at feminine possessive «как мою…» and withholds the relationship in this turn. Romanian completes it as «soția mea», revealing the wife before the speaker says it in this branch. Preserve the source information state and the feminine ellipsis.",
+      "proposedTarget": "Anger: Sunt nebuni. Îi atrag chiar și pe oamenii obișnuiți spre credința lor delirantă, ca pe a mea…",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

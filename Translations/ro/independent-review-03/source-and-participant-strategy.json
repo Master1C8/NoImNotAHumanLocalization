@@ -1,0 +1,91 @@
+{
+  "sourceGlossaryPath": "Documentation/glossary-research/final-v1/glossary.json",
+  "entries": [
+    {
+      "source": {
+        "id": "player",
+        "priority": "P0",
+        "term": "Главный герой",
+        "meaning": "Домовладелец, которым управляет игрок; принимает ночных посетителей и осматривает жильцов днём. В ответах говорит о себе как о сыне; обращения к нему мужские. Не переносить пол владельца контроллера на персонажа. Личные сведения раскрывать только там, где их сообщает исходная сцена. Персонаж мужского пола; использовать мужское согласование, сохраняя момент раскрытия в исходной сцене.",
+        "category": "Персонажи"
+      },
+      "romanian": {
+        "term": "Protagonistul",
+        "meaning": "Proprietarul casei, controlat de jucător; primește vizitatorii noaptea și examinează locatarii ziua. În răspunsuri se numește fiu; adresările sunt masculine. Nu atribuiți personajului sexul persoanei care ține controlerul. Datele personale se dezvăluie numai când le comunică scena originală. Personaj masculin; folosiți acordul masculin, păstrând momentul dezvăluirii din scena originală."
+      }
+    },
+    {
+      "source": {
+        "id": "husband-and-wife",
+        "priority": "P0",
+        "term": "Семейная пара",
+        "meaning": "Два персонажа: муж и жена. При входе говорит муж о жене; дневные сцены содержат его реплики и повествование о действиях пары. Единственное число относить к конкретному участнику, множественное — к паре. Не превращать жену в вещь и не приписывать ей слова мужа. Пара состоит из мужчины и женщины; согласование определять по конкретному участнику, для обоих сохранять множественное число.",
+        "category": "Персонажи"
+      },
+      "romanian": {
+        "term": "Cuplul căsătorit",
+        "meaning": "Două personaje: soțul și soția. La intrare vorbește soțul despre soție; scenele de zi includ replicile lui și relatarea acțiunilor cuplului. Singularul se referă la un participant anume, pluralul la cuplu. Nu transformați soția într-un obiect și nu îi atribuiți vorbele soțului. Cuplul este format dintr-un bărbat și o femeie; acordul urmează participantul concret, iar pentru amândoi se păstrează pluralul."
+      }
+    },
+    {
+      "source": {
+        "id": "surgeon",
+        "priority": "P0",
+        "term": "Хирург",
+        "meaning": "Врач, прямо называющий свою специальность хирургией; ранее работал с КЧС и помогал людям. Говорит сдержанно и сочувственно. Различать этого жильца и врача на телефонной линии КЧС; внутреннее имя ассета Doc — тот же персонаж. Персонаж мужского пола; использовать мужское согласование, сохраняя момент раскрытия в исходной сцене.",
+        "category": "Персонажи"
+      },
+      "romanian": {
+        "term": "Chirurgul",
+        "meaning": "Medic care își numește explicit specialitatea: chirurgia; a lucrat anterior cu Comitetul pentru Situații de Urgență și a ajutat oamenii. Vorbește reținut și empatic. Deosebiți acest locatar de medicul liniei telefonice a Comitetului; numele intern al resursei Doc desemnează același personaj. Personaj masculin; acord masculin, cu păstrarea momentului dezvăluirii originale."
+      }
+    },
+    {
+      "source": {
+        "id": "couple-husband",
+        "priority": "P1",
+        "term": "Муж из семейной пары",
+        "meaning": "Мужчина, который при входе говорит от имени пары и о своей жене. Поздняя сцена содержит угрозы жене и пистолет в его руке. Не приписывать жене его слова и действия; исходы зависят от выбора героя. Персонаж мужского пола; использовать мужское согласование, сохраняя момент раскрытия в исходной сцене.",
+        "category": "Голоса и участники сцен"
+      },
+      "romanian": {
+        "term": "Soțul din cuplu",
+        "meaning": "Bărbatul care, la intrare, vorbește în numele cuplului și despre soția sa. Scena ulterioară conține amenințări la adresa soției și un pistol în mâna lui. Nu atribuiți soției cuvintele și acțiunile lui; deznodămintele depind de alegerea protagonistului. Personaj masculin; folosiți acordul masculin, păstrând momentul dezvăluirii din scena originală."
+      }
+    },
+    {
+      "source": {
+        "id": "wash",
+        "term": "Умыться",
+        "priority": "P1",
+        "category": "Действия",
+        "meaning": "Действие героя в последовательности самоосмотра. Не заменять названием комнаты или гарантией снятия любого признака: при раздражении подмышек герой лишь надеется, что вода поможет. Отдельно сохранять рекомендации телефонного врача воздерживаться от воды перед обследованием."
+      },
+      "romanian": {
+        "term": "Spală-te",
+        "meaning": "Acțiunea protagonistului din succesiunea autoexaminării. Nu o înlocuiți cu numele camerei sau cu garanția eliminării oricărui semn: când are iritații la axile, protagonistul doar speră că apa îl va ajuta. Păstrați separat recomandările consultației medicale telefonice de a evita apa înaintea examinării."
+      }
+    }
+  ],
+  "kinshipEvidence": [
+    {
+      "key": "line:Couple_Asking_1_0449776",
+      "source": "Couple: Да мы вот хотели проведать мать моей дорогой жены."
+    },
+    {
+      "key": "line:Couple_Asking_2_1_08dd699",
+      "source": "Couple: Телефон её матери отключили, уже несколько дней не можем дозвониться."
+    },
+    {
+      "key": "line:Couple_Asking_2_1_042788a",
+      "source": "Couple: Но ничего, мы всё равно проведаем твою мать, да, солнышко?"
+    }
+  ],
+  "strategy": "Player and Surgeon masculine, husband masculine, wife feminine; collective couple stays plural. Wife’s mother remains mother, and polite plural question does not replace participant identity. No hidden participant gender introduced by these five edits.",
+  "sourcePeculiarity": "Hands IsImposter branch invokes selfchek_wash_armpits→WashArmpits. Generic wash wording preserves source action without promising to repair the source binding.",
+  "previousAbsentCompiledLines": [
+    12206,
+    15596
+  ],
+  "runtimeReachability": "not-run; static source does not certify live branches or speaker assignment"
+}

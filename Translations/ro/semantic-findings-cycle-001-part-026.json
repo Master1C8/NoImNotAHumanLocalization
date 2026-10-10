@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 12565-12674",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-012565-012674.jsonl",
+  "reviewedRowsSha256": "c53383024e15cb5bf38732b68379375a5bbf92a83b12c88dc056d33cb9438e91",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453294071814",
+      "ordinal": 12614,
+      "key": "line:Intruder_Eyes_Gun_00dccbb",
+      "source": "Intruder: Ищу глазами возможность поспать.",
+      "currentTarget": "Intruder: Caut cu privirea un loc unde să dorm.",
+      "reason": "Russian «возможность поспать» is an opportunity to sleep. Romanian «un loc unde să dorm» specifies a place instead, which changes what the sleepless speaker is searching for.",
+      "proposedTarget": "Intruder: Caut din priviri o ocazie să dorm.",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453294071811",
+      "ordinal": 12617,
+      "key": "line:Intruder_Hands_Gun_0b5b061",
+      "source": "Intruder: Ой. Интересно. Если бы сейчас люди видели сны, смог бы я убежать в чей-нибудь…",
+      "currentTarget": "Intruder: O. Interesant. Dacă oamenii ar visa acum, aș putea fugi în visul cuiva…",
+      "reason": "Russian ends after possessive «в чей-нибудь…», leaving the noun unspoken in the interrupted thought. Romanian supplies «visul» and completes that image before the ellipsis.",
+      "proposedTarget": "Intruder: O. Interesant. Dacă oamenii ar visa acum, aș putea fugi în al cuiva…",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

@@ -1,0 +1,3568 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-09T18:38:56.259879+00:00",
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "locale": "ro",
+  "sourceLocale": "ru",
+  "localizationType": "standard",
+  "scope": "text only; translated textures and images excluded by owner",
+  "processBinding": "shared-standard-v1",
+  "processReferences": [
+    {
+      "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/ROUTING.md",
+      "sha256": "b0b71fd8d9891837fa82bd9833ea935eb52eed4fc28689cd9538f1633afba4da"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/skills/vn-localization/references/CHECKPOINT.md",
+      "sha256": "5d6b63f0bf3d6cba65dc9db230b03e9d1059c292227be868001d93a48f7d30bc"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/instructions/game-localization-prompt.md",
+      "sha256": "d579cb5e2fbf5acf97e35b39cc1f4de2696b1e28fe5a1a0723d7dfedeab433ea"
+    },
+    {
+      "path": "/Users/antonkrutov/.codex/instructions/game-localization-audit-workflow.md",
+      "sha256": "d48c07764d092293837d679bf9ccdba082c5d7b665b7db43d0e23e080e3af4b6"
+    }
+  ],
+  "source": {
+    "acceptedScopePath": "Documentation/text-source-acceptance-v1.json",
+    "acceptedScopeSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+    "inventoryPath": "Documentation/localization-source-inventory-v3.json",
+    "inventorySha256": "d7a3507a0a57696519808b91169faba4d4591caed7ab46b3cfd6b2a78b826782",
+    "stringsSha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+    "staticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+    "preserveExactPath": "Source/preserve-exactly-v4.json",
+    "preserveExactSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+    "runtimeReachability": "open; accepted ID scope reopens if another consumer is found"
+  },
+  "glossary": {
+    "entries": 201,
+    "status": "editorially-accepted-canonical, exact ordered layer parity with SiteForMods verified",
+    "localLayerPath": "Documentation/glossary-translations/ro/layer.json",
+    "localLayerSha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+    "masterSourceParsedFingerprint": "6e7a12351616437fa009e9c4154f2f17d3aff878f5d4852fd9a5441f9496a5b9"
+  },
+  "coverage": {
+    "definition": "authored and immediately edited accepted visible stable IDs",
+    "translated": 16538,
+    "total": 16538,
+    "percentage": 100.0,
+    "byCollection": {
+      "UI": {
+        "translated": 259,
+        "total": 259
+      },
+      "Dialogs": {
+        "translated": 16100,
+        "total": 16100
+      },
+      "ChecksDialogs": {
+        "translated": 1,
+        "total": 1
+      },
+      "supplementalStaticTMP": {
+        "translated": 178,
+        "total": 178
+      }
+    },
+    "remaining": 0
+  },
+  "batches": [
+    {
+      "path": "Translations/ro/checks-batch-001.json",
+      "sha256": "627756461f0a15d9aaa7f20a73a2cdc2655eea747f638fe79a12097afdb82079",
+      "collection": "ChecksDialogs",
+      "rows": 1,
+      "validationPath": "Translations/ro/checks-batch-001.validation.json",
+      "validationSha256": "220900470fa20696f743ee79350661d3a5312a7d27aae8c15868b92a8cc100a7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-001.json",
+      "sha256": "4aae15b6667ed155c7fcf7b70903c88a4f669a295d243a93efbb3916678db6f8",
+      "collection": "Dialogs",
+      "rows": 2828,
+      "validationPath": "Translations/ro/dialogue-batch-001.validation.json",
+      "validationSha256": "fa19f13b0187aeb57cb43a2ce35ae5b2ac8c0d8ceec36093bea96a717feafcb8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-002.json",
+      "sha256": "f38898cbc96a652b8db961c9f3f75ad39c1da42423af2f57a535a39c239c73b7",
+      "collection": "Dialogs",
+      "rows": 1,
+      "validationPath": "Translations/ro/dialogue-batch-002.validation.json",
+      "validationSha256": "180e22eb33b1c177a8750521125b66866ce06f746a7b3b7dba01490cb65b20da"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-003.json",
+      "sha256": "d73d17177670e326e962eb4ff3060eed254d0ebc031212086b0e9acd8c0b5dc7",
+      "collection": "Dialogs",
+      "rows": 66,
+      "validationPath": "Translations/ro/dialogue-batch-003.validation.json",
+      "validationSha256": "a943c6a508ac1e2c256f75836ebb75fb3cf449449cca6fe921c76d2078035d5d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-004.json",
+      "sha256": "c1445f08a9754e2dfaf96b10b90abc1a5f88fcb611e11882f538140a197e944e",
+      "collection": "Dialogs",
+      "rows": 100,
+      "validationPath": "Translations/ro/dialogue-batch-004.validation.json",
+      "validationSha256": "96e6c7d3317dde59c8d511ba4a4ccc3e6607bab73989adb971cd0510a174a0e8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-005.json",
+      "sha256": "b9552678c8598bc8b6f4d90f18aeba168a40f5078a9db4bdda8b68b1e2b129f7",
+      "collection": "Dialogs",
+      "rows": 167,
+      "validationPath": "Translations/ro/dialogue-batch-005.validation.json",
+      "validationSha256": "734c569a3badeee9b55f0741909c9c6b583819053a8e8ba917aaaf880c10cce9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-006.json",
+      "sha256": "16a6024a70f9b107b1df0576037b921b5a7bf0d32bf77b3b1975f1df08efddec",
+      "collection": "Dialogs",
+      "rows": 45,
+      "validationPath": "Translations/ro/dialogue-batch-006.validation.json",
+      "validationSha256": "cdf4f75207fc332213c8d367f3a6feea11de3e3a336896cd1e42be7232e93037"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-007.json",
+      "sha256": "6eb1a6c91e94fb038e975c983e1b9f83e1bb14a4ac1b68c2a0c594765426ded5",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-007.validation.json",
+      "validationSha256": "8e40db1807d21dbb1da0ba3a152e405b3505a83a52e454afa6bff5ce57a00775"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-008.json",
+      "sha256": "28d36d945c78af8a76a3a60ce2970e741721e73c2698b3a7f02cec1fa6c0bd02",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-008.validation.json",
+      "validationSha256": "0ac17fd36d9cf1296a4071f0850c298993ed4d83b79de9e6e6c1d2f84cc0904a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-009.json",
+      "sha256": "2b4e3292f2d606c270c1b7e686d5d7a0bfc18e43c8baf8413bd0ae5ac7ba5111",
+      "collection": "Dialogs",
+      "rows": 53,
+      "validationPath": "Translations/ro/dialogue-batch-009.validation.json",
+      "validationSha256": "2ee8a6e04afc35a5cef31cc1ce6fd9b9fad6c8503b846a3b4b1ff0acd19291d2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-010.json",
+      "sha256": "6ea5309b2f3510932929c6ef536d5fa042d15715cb0dad321a34ff43c0859461",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-010.validation.json",
+      "validationSha256": "ade083d72257ceb5f99ba479fbaa6247e6fc54a3e5cef1154fe618f14b9a4410"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-011.json",
+      "sha256": "e7b5d9e0f45cd05fb784fc5256789cd24c6947c885d8bec13b3145ef4b8e31a6",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-011.validation.json",
+      "validationSha256": "8387275334e374138978096e158273c518c16e200e3809f2c2fb3c5995f0ccfd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-012.json",
+      "sha256": "f60ceb8a4a1c6900add82965c55fb97c3ea96ef5195deb4eb94fe4c2f39a718e",
+      "collection": "Dialogs",
+      "rows": 80,
+      "validationPath": "Translations/ro/dialogue-batch-012.validation.json",
+      "validationSha256": "fda20eed99c6d781746a25cd6881c10442f368058ad9fe70f03f88baf2975000"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-013.json",
+      "sha256": "e155eb34d91aa20d24236a2c871f1dcef599cacc1e10242830903203acde79c5",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-013.validation.json",
+      "validationSha256": "bf08a6ff7e94d90cf48402f1732d7868a764668fdd90d6d77e738194e1cece16"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-014.json",
+      "sha256": "f34fdfbc88df1d3e958e11f604c4c953474fc06c81cc285f1695f7ab47b5f166",
+      "collection": "Dialogs",
+      "rows": 62,
+      "validationPath": "Translations/ro/dialogue-batch-014.validation.json",
+      "validationSha256": "8b88c05e6e51ca7d7d0b3eac647a06bf69db0ea47465d445d7c4a701157d058a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-015.json",
+      "sha256": "590c08221a3f545bf4e96f4f0ab90139e4b14402980ea0d15f1396af37fb16d4",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-015.validation.json",
+      "validationSha256": "a3b3a2f80ebf5cdc7ddbee6062d95e6920259687bf41deb50e7e317002910393"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-016.json",
+      "sha256": "ee87ba787149b2d385db09986df49eeea4bb4d076113f6c79022537a3223d5ca",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-016.validation.json",
+      "validationSha256": "59cd0cacb361c95d5677c99678243392f3ec811f7806a41d8cdf10e02cbf3dcd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-017.json",
+      "sha256": "cdcf2a1a4ef53cb68201859ad0c1f047a82c9d82fd22261bc4853a8e6a56f850",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-017.validation.json",
+      "validationSha256": "2d4e89035d67d6af00c0f08d49ea9c6676375735d41a7ba0961625c4662ce398"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-018.json",
+      "sha256": "9a684fa04125959203c4ff3e19e115919e6d08b9fcffeab9bd900d0a8ec08009",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-018.validation.json",
+      "validationSha256": "3ae127642f87c1bd53f661164782bc3ac84e750a004c1310fd53075fcd913d52"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-019.json",
+      "sha256": "50eaee68ee0f6b952c0cd6a1ec2eb78f944f7dee91cbb8b9487f4a0312e9b907",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-019.validation.json",
+      "validationSha256": "92e677f8c3dead965bbd4c335e725b6a262969d4195caafb7364e0e812073dad"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-020.json",
+      "sha256": "54e44657500796ecfac22d6a782d6c79d1260b39f6eccedb44d233f7bf2d6584",
+      "collection": "Dialogs",
+      "rows": 53,
+      "validationPath": "Translations/ro/dialogue-batch-020.validation.json",
+      "validationSha256": "41fda10c319866a23d06e13626e7048c847e05a50a1d62909dc6df8cd4b54c32"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-021.json",
+      "sha256": "c1d54b4bc81f402ca2a10b8458677976e74e0bc5a5dfa8c7069bec5d376d03ad",
+      "collection": "Dialogs",
+      "rows": 15,
+      "validationPath": "Translations/ro/dialogue-batch-021.validation.json",
+      "validationSha256": "7b3303dc9b2cfa8ddcfc4e833a8990c796a32694aee9539d2de0dd6031a3829e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-022.json",
+      "sha256": "a147da303c3dbc980af8aca88c2b42ddfa6e255216393c7254c46ab352686ca0",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-022.validation.json",
+      "validationSha256": "2472b210f9e44826f985e1e226f912a61380cb6abb72ca7f8a8fadf2f3252999"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-023.json",
+      "sha256": "4a535c084aa3406e38b4698198cac75435768f966983e61065c7bc0bda28f359",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-023.validation.json",
+      "validationSha256": "965e503843d5fd9520e09c1bdf8f552f281b5273a0d3eb4a1a0c958abb100f0e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-024.json",
+      "sha256": "24fae1df749ce3ad8cb0801fb7ab881eadffe2afd6570e143e3d5ae90cf44ee0",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-024.validation.json",
+      "validationSha256": "c4ea50c216d2e88f0c3979c95181796c81299c0ca48dc604cf73b21166c0de99"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-025.json",
+      "sha256": "cd798192a3bd1f14acacf1e7b98feaf4012d6882d5956a6199627e4dd953fa3a",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-025.validation.json",
+      "validationSha256": "f70d9dc65a9cf2f65b144d4dcdeedd3e8e5dbe07692f38b5d7c2605e04016ec1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-026.json",
+      "sha256": "1d7a71b7e72360c60d964acfac823af06815d8a58cfc6dc9cd9c6f9d84978e80",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-026.validation.json",
+      "validationSha256": "7619bfd7287358be76f841bcc74bb75888eb0fee75b7004be66009ea5a66130f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-027.json",
+      "sha256": "3313c34070f70ed0976e2db128ce36aafc05ae6972808faf82325b6e36c9dc12",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-027.validation.json",
+      "validationSha256": "34d395b52f23cfb22fe238db53bff001de172f578aff072a661d8c6bcfc9671d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-028.json",
+      "sha256": "a6cca93ed8a0c66d38a574616a3d26e8abd90a73dfa7342cd02b2eb3188f2cfb",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-028.validation.json",
+      "validationSha256": "3d7e449e04e99b95846596bb2c1a5539bf31ead904480b478022fa346b849dc2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-029.json",
+      "sha256": "822b4f3f360b6d040c96c176e02fece6297bb6917635a321233df5a80e26ffe4",
+      "collection": "Dialogs",
+      "rows": 13,
+      "validationPath": "Translations/ro/dialogue-batch-029.validation.json",
+      "validationSha256": "a92ea13a00b5a41c1f492493a857bdb325644c964ceb9878b2c028af5d022b3e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-030.json",
+      "sha256": "34ee229ff010a006b6fb7c2284867cd056825cf8d79fa72860c3576bad3a08cd",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-030.validation.json",
+      "validationSha256": "9509f6b5eeaa31a2332c9154591ace08e17ec513aae6bdc12909e37762fbe020"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-031.json",
+      "sha256": "44ae40b6d6ed0b7960eb038be3d8004b9eabb20ca89907bbd8ae2a6726fdeada",
+      "collection": "Dialogs",
+      "rows": 53,
+      "validationPath": "Translations/ro/dialogue-batch-031.validation.json",
+      "validationSha256": "4d9249d17b3197cb7b5b513a1556d67ffdf1219c0665995a1c23221eddf9ae6f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-032.json",
+      "sha256": "8ec5f2ce70e44e5d42c19c4b11aab3dc4e103b6cdafd04f5149cdb0172d582ba",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-032.validation.json",
+      "validationSha256": "06909cf2172f4a3113d727908a8d027a5d36ceaabf6935e9a270c6d3bfc5339c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-033.json",
+      "sha256": "bac9354b88c6ada3f1389d5e74b734960c115433966d0568799f5493d0d5dcc9",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-033.validation.json",
+      "validationSha256": "ed22d3982d88dbc2864bc943cf6772c16f4d0f187eeac02634660ccb7c2fb726"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-034.json",
+      "sha256": "3701e63d162fddb699bb5aaaf44d7531ffa485b6e76d2dabb4dc670de3a1fceb",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-034.validation.json",
+      "validationSha256": "17d1948468204fe9ca2f04012312eb729d62b7e20e8850ead70bce3685fe4697"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-035.json",
+      "sha256": "117dac5e382dd95794208eeeca2e888dd869e278e1880228e1bc31e5110b99cc",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-035.validation.json",
+      "validationSha256": "92e1e6560c5b94babc41ce08d7a984facb2e0ad71fc0e27be5d43ea7d909db77"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-036.json",
+      "sha256": "d129d704dfd2d73c987df358371e22ad6787ebea47935035d9219e2b46a24073",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-036.validation.json",
+      "validationSha256": "e2bb71996f9943626f77dbaf60d417c1793eb0c88f161c33591dd7a7d5058733"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-037.json",
+      "sha256": "3579be77190758b37a73763c713d7c99e81826a5de20218d7bc0401217024d52",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-037.validation.json",
+      "validationSha256": "dfe64fa911145328ab1cbc53c1ba455d96fbf66536ac7221f42491decc080a09"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-038.json",
+      "sha256": "dff1b22acd39c296500dc3069a1b5013700eec40a256f0e0fec1b4dc45366c1f",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-038.validation.json",
+      "validationSha256": "eccc6b6d3018752e7f8788985f436f0583328cfa2698d0cd7f360ebf8c9c200e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-039.json",
+      "sha256": "fe2ec01337731a9e68bf06c78f7a69385a8c1ab141e20ebce9a5a99d01ad614f",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-039.validation.json",
+      "validationSha256": "972be1efbfee9bd725cf91121d0e65f5280519985cc50bb3ffa26fe268885e01"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-040.json",
+      "sha256": "c33f490c61fc4a0d9060d20dd61474332b6ef2d60f43d085d39a95f54fc064ed",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-040.validation.json",
+      "validationSha256": "63dd7ae9e7dc166a98aa589bf7cdc684158dad0bfe52b1db1f31359aab403223"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-041.json",
+      "sha256": "58d48adf338b6548331adf09f9b9a7635b0bec3ab0f2a243fe4742846afc56a0",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-041.validation.json",
+      "validationSha256": "0a7f63b90286c119f8222fab2baf96d4217b6673087481dfd8f20efbef73caa1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-042.json",
+      "sha256": "d7a93a85cf84163a02ce6c2f348f1135d6c71ee95328d490fa7670d101e539b3",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-042.validation.json",
+      "validationSha256": "eaaa0a3c7add4a5a030b3be1fd2d8002894494fcf556b2a4b18d4a1238df8b69"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-043.json",
+      "sha256": "c1d8132d38c676e483557708abe693ad366efcc864ea2748fab4bcbc740ae8ef",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-043.validation.json",
+      "validationSha256": "8e93145ad48339ee2edc45c2f38c666edf3712106e9c19a8852772fe92af8771"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-044.json",
+      "sha256": "633a11b1d909c8dcb431570a7d0852358525031c5afc0d79fc06e2eacbf90f4b",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-044.validation.json",
+      "validationSha256": "abba7bf36c233cd2f011718162dc7a4b7ea743dbe0400f256adcd5e1c8ac0095"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-045.json",
+      "sha256": "aba5b10719797eec6e326325c0f538e56332c3f08453dd8f1ce38e7621399ed7",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-045.validation.json",
+      "validationSha256": "2e5a09fb18ff92ba5f63c3076d1022c8c406e93c2b9de679eb9af755c677349b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-046.json",
+      "sha256": "34b114e8b08e4920975a6a8cf31791a79a19ce927e71e8726b61a3203ba749ef",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-046.validation.json",
+      "validationSha256": "4d6181b8054cbf51e233c61ce078324b8cf88db7217edf3bde6785e33494ee2f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-047.json",
+      "sha256": "56301892a93e9279bb8774fab099d5905bff29a66b410e21cee4e149e3379481",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-047.validation.json",
+      "validationSha256": "6761aa3cdf966cee0d06779e05ef631641d60b5e1441f2356ea9f6aafa2d6fa9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-048.json",
+      "sha256": "f3be0cb8a4c158313f3e4fd61ae0e0701a67f8dd225f0790f5d9207010c1b5dd",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-048.validation.json",
+      "validationSha256": "89461a9d0b0c71ad5b4a08535dd839e1f57232b9e0405c4f8a6783d6854ddd6c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-049.json",
+      "sha256": "b6df432680baa4a4856f60e1346b60900cb2bba402ca7c97a45787129be4b817",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-049.validation.json",
+      "validationSha256": "330c19c2a63256064367d19a0a8c0f8d167525028533f220f81bc9c2a7fcd9c8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-050.json",
+      "sha256": "5f2c4970d5a5861365a08c3bb7cf2bb1ed5b02c7de0a79eff83f85d4b3cbdb3b",
+      "collection": "Dialogs",
+      "rows": 48,
+      "validationPath": "Translations/ro/dialogue-batch-050.validation.json",
+      "validationSha256": "2a6ae4045266750690ed1e63b6d1b47c355a92c602472cf76d69b2d0a699320b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-051.json",
+      "sha256": "5bafe502f08511db92d1b2e4d30f7f7593422f732d160b34b704a36f564d2ef1",
+      "collection": "Dialogs",
+      "rows": 14,
+      "validationPath": "Translations/ro/dialogue-batch-051.validation.json",
+      "validationSha256": "0b20fd9609f499437217c89769509a27c180bf5373a1920782b42b119d793da3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-052.json",
+      "sha256": "01ef09aaffaf324625a5e1453fba2890d832f5e5bc4bcca22c25fd18ce945b2c",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-052.validation.json",
+      "validationSha256": "856588796543f87621bd6a2037f42bf6575ed49d48b62a9054fb6acb96039b1b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-053.json",
+      "sha256": "0cac73114b2a1789a0797f2a0e0cd92abde2caaac51322eaa139c52bfd9f7798",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-053.validation.json",
+      "validationSha256": "3615cc2d0525a5a1c30f3b37bd320738f3ea6b4a40eb38c334b39bb9b9ccb02e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-054.json",
+      "sha256": "608f697ebf732049d15aae69110c5ed2cd43053804c7a7881b6d1bb9a123a285",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-054.validation.json",
+      "validationSha256": "2289f9f594deebb2cf0c0c1960cd97464b56efad1be82f3fb8725c433c433c2d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-055.json",
+      "sha256": "a81ca5373b63e1f18e424fb3751756cef746a008510fa828751f3528a4f83059",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-055.validation.json",
+      "validationSha256": "93705dd0ca3aadaa66c89bba402a6dd7662ce2f7d56bc46229ff2ba697fb64b6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-056.json",
+      "sha256": "9961aedd0431bea4ba793422c4d051221b10ed22ea6a9aae68bfc4737f6242d9",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-056.validation.json",
+      "validationSha256": "a9718a79e6ac10aa932f47c171b077b87a7815d88792bbe692302ecbe0405f6a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-057.json",
+      "sha256": "efe1e90dd2fd9b58d6c699bc90f16912463c54d798e00f63da14f0cc595ea85f",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-057.validation.json",
+      "validationSha256": "3e823a03e8ee57e6d1cdad72fca4f14453c1e05836ae4c7ff6d1d169f93fd060"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-058.json",
+      "sha256": "eee352d25d03356d0737b0997b638b3f992460c563e3ee877353d45197f3a4a0",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-058.validation.json",
+      "validationSha256": "3aeee5ee0f24a688e893278aeb9e5e98b7cc9f16f9d37c64b7fd755a5fc2e414"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-059.json",
+      "sha256": "ad99a8f17980ec71c1171173387ce4ca451fa66d16c13eb28b720c8cb82fedec",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-059.validation.json",
+      "validationSha256": "561879f016cf81e6050170edeeb9956e6e64900381298ad12b7d39cac96f68ac"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-060.json",
+      "sha256": "b01d5195c1752d67bafdab90af278462e9b8c48e7beca55744e0f87ee2d8196d",
+      "collection": "Dialogs",
+      "rows": 15,
+      "validationPath": "Translations/ro/dialogue-batch-060.validation.json",
+      "validationSha256": "11c59e79fb2b4515735474760e7edd40f7b2f4da8faaa9b30a6f5994879d18af"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-061.json",
+      "sha256": "2b665a69ca49c50809d86ed7602ab810e8cb729f1d114189eb5c0c221820098b",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-061.validation.json",
+      "validationSha256": "4bd6f161aec4976d72a6297b2513af6803574cf1f4f81232cf1c2f9f65f2722c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-062.json",
+      "sha256": "643918066b0a3bee217c382b77cd2ef4c2a49fa09edc3a3744cc578cfe390ac8",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-062.validation.json",
+      "validationSha256": "5379b8ba587a0c016a88220aec85ccf06e3c1507f856ad6b3e96d6d67da1215a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-063.json",
+      "sha256": "57be5202b33e25077b514f390c9d2803ef048ac6636191a38e7b182613159b5c",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-063.validation.json",
+      "validationSha256": "8035c5ab5d8ca36b7d9d086d824b16c105e9bab7e148f67ee1a8177021e6fb3c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-064.json",
+      "sha256": "e695cac7b12d03627658ddeba28300e7a617266e377faf82a58cd336bf91f864",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-064.validation.json",
+      "validationSha256": "33956d4d07fe996c6c9e75ed2eec575590c5a5d077971029e9328d681504d220"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-065.json",
+      "sha256": "dca8d2ce876bb9097b135a9cba563a99bd00adadf807be131e9ce2407840df61",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-065.validation.json",
+      "validationSha256": "310d639d8c761704589873067dd2a95e96f54da2afda8e45542b9f2b2ac9171f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-066.json",
+      "sha256": "366cf5dde24312c665cd1bf9eb25dbd0a6d6fe3b6e95f8c31012c4ca22b753ff",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-066.validation.json",
+      "validationSha256": "1909df2b7e5dd8bc35d43f16dd1811f86ca709796249d3f55194186d248216a0"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-067.json",
+      "sha256": "603baa62c6e17c825342a5f254bcd58efa0e12d735a4e8602ec6b5cf349a7041",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-067.validation.json",
+      "validationSha256": "556eb5894c9057cd8c9b62d3d58428928fd5a41d52e12fb97d7b3d62587ceb86"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-068.json",
+      "sha256": "6dac465296001d23af570f7b51b3658e20b44661ae3e33a35c18c460e55b469f",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-068.validation.json",
+      "validationSha256": "5c4fe93758f6a4684cb85afc023938bed4dc6475b9c0f73e41f14d241c1ac631"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-069.json",
+      "sha256": "04b8c87ae3fdb99052944d4c2723052ba3c2455df63d2efc5410d51d49b3dcb1",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-069.validation.json",
+      "validationSha256": "4a10469a65ab9bab06b7039dc68f0b20881726267cfe5ee027d2f182812820ef"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-070.json",
+      "sha256": "9fa7c297f40ac46bbff0d5d914b02ab05a7c875ad2992b5778bf21f232830d89",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-070.validation.json",
+      "validationSha256": "80910d6db7344e213e9b6584e94c036846f44ee1c03aac2271edcec5153ba130"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-071.json",
+      "sha256": "6d5812ec9524652e5f3e33c39e85b1e969f081951a9c02be8bf26cc4c3502aac",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-071.validation.json",
+      "validationSha256": "6df0e455900ea041f6a59e3f256a25fc48d3c5ea5c05f7801b2eeab15820737f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-072.json",
+      "sha256": "98cfef7dfb397a2bc8ea56f985bf7b35dbe923d16af31f0430b9dc86b0f75b50",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-072.validation.json",
+      "validationSha256": "5048ccd82f714ef1ecfdfcb82d21b254bfbca99108529b6e8b94c5805d517ff5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-073.json",
+      "sha256": "476627922b001d4fca282047d700fe1c42dc31b6a26e46c90a7a8fbd59c8824e",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-073.validation.json",
+      "validationSha256": "557e90b9d2594221975a13f20f34a7c0d8b59c5b4d393b0b3b00762efc7a7b38"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-074.json",
+      "sha256": "afbee1859d5790d9c6fa6690c591e3a44b7182be612186e103dfe2e04c04f7de",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-074.validation.json",
+      "validationSha256": "039c8420eda3409730e54c130926c987fda271ba604aad1b36e243964591b921"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-075.json",
+      "sha256": "12cbb0aa533fdcc40249cd0f45f35c26d14d7e17b18be9066dce118651837595",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-075.validation.json",
+      "validationSha256": "1a4b946c928f34c0a5ad780c147fb2b231ba32ad78906c8a9dd6b537e6c5494f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-076.json",
+      "sha256": "3774d591b76bc376f7d10b887a660fdc8221c087b06ca1f5dd66d79db4176e09",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-076.validation.json",
+      "validationSha256": "ae28c5bc595fa56b7404a145be4fdf81e9d3fa3377245104d02aaef6e55591d2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-077.json",
+      "sha256": "5e32c82cb13a88970b9c8d35f73512c2af22fa9ea6122d8d2532292becfbd215",
+      "collection": "Dialogs",
+      "rows": 49,
+      "validationPath": "Translations/ro/dialogue-batch-077.validation.json",
+      "validationSha256": "a1d48f4e99d3b7352d541e62661278672534554bfce4a8f5cd15b70029e2d3a7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-078.json",
+      "sha256": "f7aa4cd8016b897167087418fe2f0b1e2094099b1f1aeed57f1ca3d9cc009ba9",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-078.validation.json",
+      "validationSha256": "4f0db50d1eef1b67667581b15e52285f1f2c4bb37d505efbff9a01ee70f6a30b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-079.json",
+      "sha256": "1b1c6f15af500dc68321cd7deb3cac9c0435ca7fcd7dd96f9da9a0021f96c109",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-079.validation.json",
+      "validationSha256": "544bb50e85f34e909305d0affec312c7fd8e01378dcc117b449bb33324a72b81"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-080.json",
+      "sha256": "8811af001dbe447e89f637ff32ed2ad95965341cf9d8efd150946679b32196f6",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-080.validation.json",
+      "validationSha256": "54f1490918f874cfccab11b58b53d17c22a0af7208c47cf0704e35a5e6f6db86"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-081.json",
+      "sha256": "05e1038774cfd5b194a6055cfac9238d14da4fc3d400f2460841b7514c2e2b3f",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-081.validation.json",
+      "validationSha256": "d3cc37312c2b6f2a16321b0eb10a0f47fa277ec7e1ff6b382c43d73d76fc91b8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-082.json",
+      "sha256": "18396e71f2334d83ae1d5276cbf1887e81d5a3ca4ea6cb1536e2f79f7446f4e4",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-082.validation.json",
+      "validationSha256": "f93ddf6a29c6bb74b36bc9b32e090552070930d3e85461c4cd3bad7e7136eccb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-083.json",
+      "sha256": "d3bbfb44e597fec19c60edc31e49f93d0a4bd6fbebe665e1125b4df18c935aad",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-083.validation.json",
+      "validationSha256": "38d95320c0bd52caabc6974b2a64b54a2dcad3ff8e46c4c38e88fa0f126ed479"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-084.json",
+      "sha256": "0ca8de646f99af712831c61839754986690fffd85b63c7357ff3193ba9da6379",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-084.validation.json",
+      "validationSha256": "741e9fce68205857f564d24a5885fb94d9f8003e4dbaa62474f59306a078bfa6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-085.json",
+      "sha256": "98d73d8ee7f2677c757a2c4d057a3f30fa90838de6a4591a91732f92bcfe2f39",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-085.validation.json",
+      "validationSha256": "8b0c999efd2a71a54f5588c61921db443f4e96df638e15c4c6b9d847920c9f2f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-086.json",
+      "sha256": "ee7fdfc9d14ff4bfd301e8bdf6a09ae230c75ae82a4ca3a7b18779e76873022b",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-086.validation.json",
+      "validationSha256": "edefcc57deab98e98031c0cc90c0e8df8e3286d62d32100bde30c6b93a685f15"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-087.json",
+      "sha256": "2af28f62d5170a56ebe15f5fca17f060cbc18a115f6e4e803d03fbd80a834e60",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-087.validation.json",
+      "validationSha256": "2979d954857f4a32ba1bff7f5a4612b39c6ea3ebe442ed92731659540cc7ec52"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-088.json",
+      "sha256": "972367066b0a3de395e5aba81a464195193f21febfaf97f394b05214b4026811",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-088.validation.json",
+      "validationSha256": "dee6711c69af6901386dc411430794b3ad4ea34a9a58dae9fdb5665b431f52b8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-089.json",
+      "sha256": "5e17d0d19b618ab26169328c4347ec30fe8df7ae6c7be2fc384c51c9b5b63316",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-089.validation.json",
+      "validationSha256": "6778cc25d7eb15bd9c638b4dfb6e3fcc71fb0166d3a90e2d79e8b217ec282320"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-090.json",
+      "sha256": "1f08b4608f639dfde60c5db34c09865001654cba36849d6ab651f22bb4d4ffd9",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-090.validation.json",
+      "validationSha256": "3683b0e5ffef0f38c7b3328503dfb942f1286ffe1bd4a2cf52766e7f4bd82c8b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-091.json",
+      "sha256": "9677beb327767d5e551217945fdacaab174d05c758fb7f486f4cc2b2e42a4829",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-091.validation.json",
+      "validationSha256": "9a73bff457a0c38d8ead048e25c2a6ee6398c86ca235469e53bd3cc1aef2eec2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-092.json",
+      "sha256": "98f4f0d8f0496eedce1aed1490a26391ce8dc8cfee04885f35375172c9aeea86",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-092.validation.json",
+      "validationSha256": "3c270cd30df1ddcd0f4c601228d6ba969220e816cc7c8f57127b7da5514253f5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-093.json",
+      "sha256": "8eecdacfc9e2091c4a6bc14c511d7cbc7471316f91ed34a608f898d3de7572ba",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-093.validation.json",
+      "validationSha256": "96e2abad2a311ed096d11066eba7bdcc1b7d02d8826f1413bb505bf9073113cf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-094.json",
+      "sha256": "fb3b87b0c53d8e5704e90d968b152618342d6b766a9730e34e6c8c6f21279b65",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-094.validation.json",
+      "validationSha256": "3d9c7dc6b68f06dedf2ff44784d6486913dc57743d0d30fb810be313e57ad969"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-095.json",
+      "sha256": "0fb393ff703a96f25a549b252e413bd4803c61ffa113b3a0f410812fae5099d1",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-095.validation.json",
+      "validationSha256": "4306f4dca300caaba4cc3456719ec19d29e90f5477500f6df3339bffd3b65c06"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-096.json",
+      "sha256": "ad6b8f15f958a2ee9cefa5528c26f722b854df194005c254e4a9829291506b60",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-096.validation.json",
+      "validationSha256": "a92f06ce9979f31d041639f6dae5a452e7bbb22a2eb06067699fd0e6c7b66964"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-097.json",
+      "sha256": "5b4387870be6eb3703a5a35760c6cc5b9118f08ce330e03df455fdc8b99966a2",
+      "collection": "Dialogs",
+      "rows": 47,
+      "validationPath": "Translations/ro/dialogue-batch-097.validation.json",
+      "validationSha256": "f787b90d7c765df15b4342f87c598e33ec9721c2f2162313553eeb5175186007"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-098.json",
+      "sha256": "709f325109e0173158fcbaf230ed96dd2ea3130f4af9dd341ecac995d180b5ff",
+      "collection": "Dialogs",
+      "rows": 45,
+      "validationPath": "Translations/ro/dialogue-batch-098.validation.json",
+      "validationSha256": "54c95d3a91de002c97aee404609a742f8feee332a75020e6900181b7b3ab69a6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-099.json",
+      "sha256": "e68c26653bc63ad95f9c1dc74314734195389877911cc826c5c505af7a35d703",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-099.validation.json",
+      "validationSha256": "274fb512fb2739206bbca058f34306a45c80f7a117f51e9c3b27889086f5f7bf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-100.json",
+      "sha256": "e96f34c55e20e5d0dd3796d095afbc45154fb9d0f2367a12c0dfd68e42ae4d7f",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-100.validation.json",
+      "validationSha256": "fa9f919934e70bb0f0b23d07dc24bbcd0bd0ca1136737d1a3e42abe779089261"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-101.json",
+      "sha256": "edab7b6374ff72c8837f13de8ce9f7294658f0b07f25da38c52d24e154422995",
+      "collection": "Dialogs",
+      "rows": 48,
+      "validationPath": "Translations/ro/dialogue-batch-101.validation.json",
+      "validationSha256": "5e0079312ece24ce7e1c9d17fb1eb71fee12b112b4f369cb277d67989d879f95"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-102.json",
+      "sha256": "e0ebee64e187edadd3745fb3dbe982be3f4d5abb69149080ef7dad4c42fe5777",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-102.validation.json",
+      "validationSha256": "f3136bee787ad1eb5c949a9b6a017d26d4ee215beafe64e6125d070540d7f2c3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-103.json",
+      "sha256": "dac9ca66349a97e7a042ffda795e7abb22ed623d888543c97833116179fb749a",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-103.validation.json",
+      "validationSha256": "e273c43c7592390ccd8bb6d0376ae11ea0241a425110778b52fcb34b110156c3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-104.json",
+      "sha256": "5eb1f3c3d67a009cc4af2c2adf08b4b1b47a09c9c1a4dbbca479ceaab9ed85e9",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-104.validation.json",
+      "validationSha256": "7d055d7335dd3e86914c99fd69f50e1916a545657aa50a1f32ea51b3694a7cb5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-105.json",
+      "sha256": "c6030e5f3f6569b6a474b8752f357c397e31d8f722e7f6500d6cb03b066bc5ed",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-105.validation.json",
+      "validationSha256": "b54dcce210935fff408f8361a2e4c7f6149430e9905d910f0438f60f48dcf1dd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-106.json",
+      "sha256": "9c6f1392f8c922ba99ee087dc1f38a101073cdaafe4a08fd2eb6f56f41293a9a",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-106.validation.json",
+      "validationSha256": "cc2e369372444b55bac9f12e3ad445a6bf9e8f4db3c2f545b5ecaa5209941f63"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-107.json",
+      "sha256": "4896b865742e71e99da3b3cb6d716a52cb6754c75e081ecb9e1a304f8d754633",
+      "collection": "Dialogs",
+      "rows": 8,
+      "validationPath": "Translations/ro/dialogue-batch-107.validation.json",
+      "validationSha256": "0799f1fd79da7f906949cf3596f76ca1621df1d5e64ab21a68f4619912e285cc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-108.json",
+      "sha256": "34506c77e65bf5edfa421c9ce9f6725ce1d711a08448abbb2e5fe033306ca0b2",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-108.validation.json",
+      "validationSha256": "eae5002d5f13118c68423a1f940f230640a7e8fc0947f3b1d6d9fab07ec79469"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-109.json",
+      "sha256": "fdbc392e415594c782c6c864def0924f7880950e2ff7b877d2f1888b0a7b85c7",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-109.validation.json",
+      "validationSha256": "f09b5a9a803ac2b091c3c37399c8984869bbae3806dc4173fa3bdc290f0d7b79"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-110.json",
+      "sha256": "4978040491b4092173ae9f41557c56e3b2f5dbb6cbd44525537c17bb88ceff18",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-110.validation.json",
+      "validationSha256": "1190b17c60c284870e6dbf09ef30148be65823961a5082055caf28ffd844ff06"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-111.json",
+      "sha256": "1496c140de0907dcddddf5088aa6e46279b2df09171af9b43733b5cd2a07526f",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-111.validation.json",
+      "validationSha256": "805dfa34b8b727717786c732ded08af5445625999af31bce5a971912eb007153"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-112.json",
+      "sha256": "576936a892b6e4e7132913ae6907e2e715ba346d98ac1d0dd84b53efc88cd4b2",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-112.validation.json",
+      "validationSha256": "d611f16aa1b3e32528675e0fd6487c7dd25bafa262e8c7b58d1f8a45fedbbb58"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-113.json",
+      "sha256": "ee73f4b817a23155cdbbb32fec9e306ef202e33f9ef81c81a0db7f99fa369cea",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-113.validation.json",
+      "validationSha256": "4c2f3142205be6f2682dfe6e2ad9dfa9014333c11ff71c0e40c6bf83771530cc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-114.json",
+      "sha256": "fe3f77a4b1aaf152cde6747af5ddefa7539bc6c37c6caaf84eb2696102d677ea",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-114.validation.json",
+      "validationSha256": "92e547a60d223b357f51a55273421ad82b0b4ed2dec67bf055f79bbb1222d4e7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-115.json",
+      "sha256": "cd2b032f74e40ebb483010781895bd7120b35bebc5efe395ed25248062d28090",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-115.validation.json",
+      "validationSha256": "5deab6b0c0d0f8fb014c3319a4e5d4f0cbaa0f835dabad1fcf52a7144849b64e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-116.json",
+      "sha256": "4889c007b19cd0b5dd1185b34df3cc28cd6be5ca9da6fd2afc11abcd0d767eb1",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-116.validation.json",
+      "validationSha256": "cf1cb2d6f9c66590c8fbf12885ce8f6b979b3d3b899f41b7c62301438ad432f1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-117.json",
+      "sha256": "81af1c62c1e9af4e3fe478b1434f1cea5b1a70a33cc19b8bfd37d4549bf0d09e",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-117.validation.json",
+      "validationSha256": "fa0dd5a7b154eb385b560f45456ebffa0c0a7eeb9011851f2cf5ac2d4dd10ad2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-118.json",
+      "sha256": "7d3e93a660e9aa75ce8f97a786a4e38031f446ce1f4ced1cef6bb3bf0f01bd59",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-118.validation.json",
+      "validationSha256": "4d3f2c212c5c91594a3371e39889e98db26df303dfc496e4f016698b2dbf2f71"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-119.json",
+      "sha256": "b9f77d5578d03afb38ded8a00903f2e982b36817661af17e1bc792e189844e28",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-119.validation.json",
+      "validationSha256": "d713470e4be81c91f13642432f67f4529fb754c46d7423a4161259134dc8b0ab"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-120.json",
+      "sha256": "74cfb5a5eb82cc628f316d3a22147aa111c9277260eac68345aec73a3712c3fe",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-120.validation.json",
+      "validationSha256": "485a8db412e7cd953f54cd840b87b1a6a88b235d6e7c7397bd1da0de60fa18b3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-121.json",
+      "sha256": "cb733c03c64d1a87243deabe43ff97a58f9bdc78f6f821bbce5c7c0066519920",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-121.validation.json",
+      "validationSha256": "b60342ce44d36b9adab70e914a7addf849eb5f6326ee26c957eafa3a3c6c0452"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-122.json",
+      "sha256": "adef51f55408dba876a5e3b1f4b677f70c19ea675efa188fa613c70e95bdacb8",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-122.validation.json",
+      "validationSha256": "6e16cdc9148a4f5aaa2efd7387f73b1098be424f362911dbbdb15cad19076765"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-123.json",
+      "sha256": "2aff90af8831c22d206d8d9e0ab9f43ab1d53de05f66d8bf22bcfb38acc20bd3",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-123.validation.json",
+      "validationSha256": "638641f2909e33c1cd85e34f07692d60e406be05fe4e47716ca9e3a3532a8fe3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-124.json",
+      "sha256": "bd32c64576e2eea8b5e71647f527692fb564bf42f9d6b645e036c719c0bb8c6b",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-124.validation.json",
+      "validationSha256": "1580c48f93df982998f1965eaa773a29b24ea0e859d172f03fafffe4f86b0d02"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-125.json",
+      "sha256": "cb3a34aa565290ea02583411684ce8a9c38b843600ac7480c56addb1f83a86f4",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-125.validation.json",
+      "validationSha256": "16f2f03ac24daf01f0231c458f4f8df09942c7e52e1ec2ff90a80d702e1d6861"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-126.json",
+      "sha256": "33046e5af4c87bb913818b4617252c392572d2e7060ef99726da8028bcbbac35",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-126.validation.json",
+      "validationSha256": "dd5c6a2644b36098dc07cf87737f55d8f261a351027e0a040e0470746188f2fa"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-127.json",
+      "sha256": "26021a14c409cad58d4ea99366d8818d360e94b15400e993dcf7d859e2525fea",
+      "collection": "Dialogs",
+      "rows": 50,
+      "validationPath": "Translations/ro/dialogue-batch-127.validation.json",
+      "validationSha256": "7c3a57f76b613f6404cba5a3bce2fea92d65722f21fefb98b0040da67d7b097b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-128.json",
+      "sha256": "59da142c90351efd6cc8c11c717b2c2499e19f1034727dcc9145dbc788a905b5",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-128.validation.json",
+      "validationSha256": "e4edf9dfd07e31dc807b6882637aff5743849a9b778663a43ac948076705729f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-129.json",
+      "sha256": "e643f2a17840f62ea2d1b6f6449bbba3cde0d35b3cbf5ea61c4431a051557943",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-129.validation.json",
+      "validationSha256": "ec4656cecf34a981daf19305b297b93d71f4acad7d35b5c54587f0ab76f1bf77"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-130.json",
+      "sha256": "0e7e6dfa66e84ab9fd04b72250d361d0d54ba84aa7d9750b467e12f9589de969",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-130.validation.json",
+      "validationSha256": "470eb01e5ea5c155b8b11e48ba9e47a99d776133588767fdcad467768b5d8158"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-131.json",
+      "sha256": "348f2067ef2bc38777644a6d53379dd604948e8465737ce5a17aaafe5146222a",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-131.validation.json",
+      "validationSha256": "3b152a620796ef1bccf3dff52d8c6a23a3e0b9109277cfab5c01c9d99e05c535"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-132.json",
+      "sha256": "c4e0589f12c9b3602406566114f4825b0dffff7403c22b9581068abe352ed33f",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-132.validation.json",
+      "validationSha256": "4d2ea8d0a881c3f01dc6fb65e3e1900b99d7eaebe30dd408602278235cc1e911"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-133.json",
+      "sha256": "f5d95fbd7ae0ada40880d935bec9c8374b74436fe68867e880790763ab37041c",
+      "collection": "Dialogs",
+      "rows": 15,
+      "validationPath": "Translations/ro/dialogue-batch-133.validation.json",
+      "validationSha256": "6d5d61185e4d6c2270e39f224a228845795fa4d23ed98fab6ffa08d817326544"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-134.json",
+      "sha256": "4be94cfa6f17c46cb453b00cfe4953ff02f5e515b4f78fd3def59c437b75bafd",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-134.validation.json",
+      "validationSha256": "65d9df25b5f64c68c190a0a7972a8d254f638d79641a99b354c2b50fc42ace8f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-135.json",
+      "sha256": "85942f1d847112cfec5e470f0e7865b6d6d77a31fee38e62a6e21b232cccd05c",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-135.validation.json",
+      "validationSha256": "3bb2dbeaceae5e4302206943361bf01dcc52deb895c4a15d263ab3b9647a33d5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-136.json",
+      "sha256": "0b38dee27986b6aeed9a936d0615afd6fe2712597a714f71e01f71abe55a4671",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-136.validation.json",
+      "validationSha256": "324e37a6adaec7e1e79b8ef15c5c415bd9b6d3b741596ce07aa3b192a064536a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-137.json",
+      "sha256": "4492779fa6b3c2b3acd2873876ca6a3eb5456a78784f17faf6795af5237ec5ff",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-137.validation.json",
+      "validationSha256": "38a30e51a665dcc2a1c985c4e3183f1c1cdad7c5efacfb05db49ea719069aeb6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-138.json",
+      "sha256": "147fc0ba2ad14204baafa313ea61841080a357964bd6edb9a757cb97645ce2ee",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-138.validation.json",
+      "validationSha256": "0d97eb0aae42aa70a299fa6262ae5d7ab1eb7135a9496710f2b6c54e9a1e241a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-139.json",
+      "sha256": "0e16681f0cf7aca3ef33915920aeddadcab974b1b459b744ad23c0cdbe3efd7c",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-139.validation.json",
+      "validationSha256": "ffb3aee78c70a440e4694e646f464a1678db890df6b71e8a2a313372c3e2449a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-140.json",
+      "sha256": "5c1c0991714105279eeff7de041f51f78c069fec64dfcfc7e06e4719fef95992",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-140.validation.json",
+      "validationSha256": "6342f58997868a53e82b4edb6e7d626b0a6088f52b64487541789cb0993bcd96"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-141.json",
+      "sha256": "abd51a220a3e816ffcdd53e966967ed84f7ef1e3fafe7c8d0f5a206b50ea66e6",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-141.validation.json",
+      "validationSha256": "655850acbfd982831c3f77d93cc9d2765c2a3820672266b8832e34403d8cb5a4"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-142.json",
+      "sha256": "e366365ff053de8ed28af5953f3096b12de24a27ac5af8849bc9fd347766258c",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-142.validation.json",
+      "validationSha256": "dcf4cd04aa7811bddfd2968efc43f8958eab691bb6b687f2180f0d0c52d0971b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-143.json",
+      "sha256": "7d0a00084b8e3bcb727ebd6686e3ca42e31a60c598d8b0610fab2a984790f2de",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-143.validation.json",
+      "validationSha256": "6d3993762f4d59ac89329d8709b647cf5f8be66c2ffbb682cd7b9e7458978d05"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-144.json",
+      "sha256": "eeb30cb1082bc66308f857f0d6510f3f7a48d9287fc6b5e013855a53ad561bab",
+      "collection": "Dialogs",
+      "rows": 11,
+      "validationPath": "Translations/ro/dialogue-batch-144.validation.json",
+      "validationSha256": "1e75b2479fcd842832e904524b6498d87f11d0c0e1852267a00423f48e7a04eb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-145.json",
+      "sha256": "5f853d37db865744adb0b5a4a2625f2121522a6762155922a38b66874303b8fe",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-145.validation.json",
+      "validationSha256": "184c2ec0ac2bf779adcadb024f4be1f10d7ac398a34b70c9a9c4bd030bb278b3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-146.json",
+      "sha256": "91c235f62bad8e936d15869186f1b698a5216bcfa85bc309757f94cdf8ce23b0",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-146.validation.json",
+      "validationSha256": "bbb755b6115b18b66410f7209d9dae7bfc5b5d3d5122fd98d614f1e64d5985bc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-147.json",
+      "sha256": "d0150b16f4a999c0e5c71be06fd42bb720a6a2c8f7e5e498a1a40f830812c366",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-147.validation.json",
+      "validationSha256": "6b9cfad7b8d6f62fa820a3815fa9658484e913cc1809f1256e03a36e1eb1c540"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-148.json",
+      "sha256": "b3dce8e9ef0babd81b70f36083a9d75dcffc73663a9549befe8a98135a6bd86c",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-148.validation.json",
+      "validationSha256": "da9e44641a4511bcd454e446a86168b081e50a82cb6346f189dc58bc4835db63"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-149.json",
+      "sha256": "3215baf293cfed0308c2e4c39cb2ff1deacbc42eec762f91a875ce6d1ddef81a",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-149.validation.json",
+      "validationSha256": "f7d347fe1b868a09e6d98ee5cd65e75b3c1088dae3665ee6d299efe9e878f82b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-150.json",
+      "sha256": "b311ce20e928a1ffe37293dd65e1f205cb341114e2f1956722b9f6c2911fb51d",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-150.validation.json",
+      "validationSha256": "e6cf567d897b48a1c97dfba147ef3a39cc50a74c1edbb12c1a4e226c377b2719"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-151.json",
+      "sha256": "b7edc54c6952902e5bd4463072cff2852dbdcf5b15297e67f1312daeefd2c3fd",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-151.validation.json",
+      "validationSha256": "ffdbf9073e5dbb3dcb2f644d7fb300c5154d7c0df9b98c0d3ef550556e582040"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-152.json",
+      "sha256": "09b1d21f230d01efe693de5d61817ff0016f4bdba09f699abdaa455bcfe3df0f",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-152.validation.json",
+      "validationSha256": "89d89bd0944b24290a86be2cea5471153c47581332cc382feb99ed11fe2f2284"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-153.json",
+      "sha256": "f9ea04b3d30182ca53ffc87ca73c2f7570e402974b9abd15bbcacec7c00c1cd0",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-153.validation.json",
+      "validationSha256": "9317346b0948bcac9b4097a83e225408fd824fe8d3ebc19ef5cd14e3570370e8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-154.json",
+      "sha256": "2915f8ad2d77e45c1918eb732a1c8fe1236145c8841e1ebc366ae8d788b00900",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-154.validation.json",
+      "validationSha256": "8a9092096ea9c82f70904d2919e169e8abae6f986f658ac89b795c0b3d216fde"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-155.json",
+      "sha256": "bdffcd4f9fa7e0112cbbd5e5e14143d47c776e121acc505b8a3647c279685371",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-155.validation.json",
+      "validationSha256": "ab5571bb9fa8d4e5ee96c7cf6a0eb14108240074f47d7b1a763fe81ff5e0ed36"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-156.json",
+      "sha256": "16d313f1306206ca21cd67dce0b41d5f5a2c7b5ee0f2ee327634165864babdea",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-156.validation.json",
+      "validationSha256": "ccb23b015c26ccc5c976dc594e67d5c0b16f00346f958042570ff53faf823051"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-157.json",
+      "sha256": "190c81934004cd691bbb657c712a899524b22a272e680975dd15ec549844733b",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-157.validation.json",
+      "validationSha256": "fc483a671cbd0df4972440a7d2aa4a0854938d953478fc4c7ec72a32a21848a7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-158.json",
+      "sha256": "690f9f4ffeeb983d3c4ed23b649ff8d6f575bc5f5dc99c1070e857d4cb543c8d",
+      "collection": "Dialogs",
+      "rows": 9,
+      "validationPath": "Translations/ro/dialogue-batch-158.validation.json",
+      "validationSha256": "62a83234c53b812d0d179b0e30846cf02f0fe8f58afa18f0afff8ee5201e7825"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-159.json",
+      "sha256": "8cb83ce5b28497581a99124180811516663ce749158a9bcfd0b927cbfc1b7fb2",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-159.validation.json",
+      "validationSha256": "7f249509facd6dc021b0f38131ef2eb8ed9d6fbf74e41d22dff5cabf603e320c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-160.json",
+      "sha256": "b3cee6e13751924f87aaaf2cc71211b9389d9d275ba04fed7d394d5afe9132b0",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-160.validation.json",
+      "validationSha256": "9aa2108afa5a0f4871baf8d157833c5708e83bd31ed7293fd9a2858fb098285d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-161.json",
+      "sha256": "f7fdbbb02c190970a4e1c62afea5bc27e99f9c907a1e1cde9b9e9718a839f544",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-161.validation.json",
+      "validationSha256": "f413d1525eb20210186dfad1da11c4d701f163e103fb9f71a631fcb9cc9af6b9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-162.json",
+      "sha256": "fc205efe2b25b6b04b584c20ec34a289eb463b6978b45ab7bee6a5ed5d66b041",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-162.validation.json",
+      "validationSha256": "dc53629f36e7a58ea71ed56a93e4a7ce4a00096236efcda372d81b1ce550bc9d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-163.json",
+      "sha256": "e602dd1749c773acf94357902e4d65253f44ba8fb87be4b94194d4d4fe5f3538",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-163.validation.json",
+      "validationSha256": "e559af3ba0d257469714c40ea9ba7111db2ca1ba94b8abdb4ea34b73bf0418f3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-164.json",
+      "sha256": "d3f7ff2d37ff751ec0204bec11d16376b7b1c07708b1273adc51df2ef475de86",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-164.validation.json",
+      "validationSha256": "88c7e4668b84706c420f4f2d3dc18d97079ea577703988b4664b65f9d6c1ce33"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-165.json",
+      "sha256": "f7408a1bdc773c350c5194164c635278e7ba3b9b6fc1b35df349abb0e6fa997b",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-165.validation.json",
+      "validationSha256": "81eef033239190a1529dcc438825a972ff5bf47a480f30cc217a216351cfb557"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-166.json",
+      "sha256": "5adc3478bd851a5bd10cb9064d1caafffa9f35fcf9108fb399f1e4fed1d875db",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-166.validation.json",
+      "validationSha256": "8de84dd2b3091b438c52743cb07c8174eef84854825484e731194978a6984b95"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-167.json",
+      "sha256": "7c9ab7cec34edccc2ec473e6fca27738fc4ab4b18c3b8b7158d2db12b211f363",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-167.validation.json",
+      "validationSha256": "f7f9fc64aafeb1c1a1f7a9c1631f9f50deab0f64dccddeb83c9b42ab7642721b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-168.json",
+      "sha256": "be9107a3b1e402653e7f731c8fb68973a27e51912c753493c6f1437696ea0463",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-168.validation.json",
+      "validationSha256": "219dd5c8e847567720f5865fc1cd9a42287fa8ae7a7f0d954876b2063a736f8d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-169.json",
+      "sha256": "b72b4de4135e22ca1f8dd3a04f4515bd622b58f97b1fe730f427079c550c1ed2",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-169.validation.json",
+      "validationSha256": "f8db149e75b48c31f6a96ef49bdfa078242b9e0dba2cc1dfa73860979f93e7aa"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-170.json",
+      "sha256": "34a8efdaae66e9b4cdc2e9c3ca36d7453e35b71368416ec24305c4a2b811e397",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-170.validation.json",
+      "validationSha256": "3083733697224ff4a580e7646d1be85a7c5d8a4985713d181d201c743149a49c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-171.json",
+      "sha256": "1e8e123b6cec1d39c441d14c74c000c73d6813f46b523f4b7db417908915e450",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-171.validation.json",
+      "validationSha256": "f12fe507e349268ec7665e59edf1c6f852c8fc7fd4615e9aaa9b0ed3abb75155"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-172.json",
+      "sha256": "c6ff3ba126f7115110c3fceb860fcbd443a90a716d710bd9c800df99709a7da7",
+      "collection": "Dialogs",
+      "rows": 14,
+      "validationPath": "Translations/ro/dialogue-batch-172.validation.json",
+      "validationSha256": "7238ee3d7389125e8c420a170cc5d040747304dbcaba3996a6732aec582378bf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-173.json",
+      "sha256": "2a9f4d9c5292ffac69632259671ebdeed5becd7257ce355e7ccd8fb2468f77cf",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-173.validation.json",
+      "validationSha256": "5c2894abd7a273eff724a5e3ebe22474c6b834a017406aa54fc664e51b8da8e8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-174.json",
+      "sha256": "cdcc188aadc1fb841e34306efc2e194e9e3b4549c6b8494cef42b29aed16a3da",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-174.validation.json",
+      "validationSha256": "cdd82d96765f165a64bd784e275298fce4e7b2c4c95aa3c84f410b9c0d0a8d53"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-175.json",
+      "sha256": "8c953480d7fc1de87c16808db4d0fd05c7490216be5f5dfaba417c1a0670ce49",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-175.validation.json",
+      "validationSha256": "473e21551b890f37bb310fc66f5b75c961fb093e1cc93cddd4cbe7844e337982"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-176.json",
+      "sha256": "fd9005fd0f588112e0fb7c814ae8fcf3374009613d7b5d9dc1c7807187aad429",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-176.validation.json",
+      "validationSha256": "13f578cfaa0b12cca52c89541bea85a23ac7665cd75058522736439b67097f21"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-177.json",
+      "sha256": "5ac289b062162cacd62ac16c9bdb82febd58d99ba4deac6b7e44086c52eb863d",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-177.validation.json",
+      "validationSha256": "7ff3c628afde1ec96b81f80eab4d109e27a68f0376b10191097b5bdc9ac26ecb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-178.json",
+      "sha256": "0af5862bfa37fc1adad17fcb2d54f5b0d986e992b36c098ff80ac2940ff6ce43",
+      "collection": "Dialogs",
+      "rows": 15,
+      "validationPath": "Translations/ro/dialogue-batch-178.validation.json",
+      "validationSha256": "642718cb18c4438fc61569e2904bec625b1e14e60d77a7a3258b368aa6cd266c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-179.json",
+      "sha256": "cd5e5e2d0fc3d556c5b2ab4dcffed89287c69d8bd8082609594d87cb493d9a8a",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-179.validation.json",
+      "validationSha256": "68c6dc55dc9ac655f18f2e8a4345956f44c3dfe1a5cd6bcf574b430cc772774f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-180.json",
+      "sha256": "d1a48fbda1518bf5d3176374403c6dd0b0cb14b169ac2211bc4c2c9897ce54ad",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-180.validation.json",
+      "validationSha256": "a547afcbad909c9e424dd330cf1d9ea8bcaf71b3937c9c0eb34695e14931e818"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-181.json",
+      "sha256": "f6d22c06112eebf595d2f4664dee8921a575d3a27c2441d6491740364a0d8e13",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-181.validation.json",
+      "validationSha256": "c014774adef49731ab3e9e8967390a48993f67b95aab58d2a0a58ffaca510b82"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-182.json",
+      "sha256": "dbcd25efe2cd58890d4b1706a97f4c4a7125e03c3c8c09c01ccc1f5967c8c8fb",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-182.validation.json",
+      "validationSha256": "2de43727b6ee42e3d47bf34d25f6656191a61a49b3eb47809c7155388a9bd7a4"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-183.json",
+      "sha256": "201b2c94a44967d088c43a1d9840ce612fc2b349b045e8e4086daf201daaeb8a",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-183.validation.json",
+      "validationSha256": "a4469744a7a7df27bcb49ddd2dd887342cbec24a204d4dfac2962ac608a1332c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-184.json",
+      "sha256": "a95477cf9ede6308fa52a39cd822391d99499232ad8569f946149ef069ad7001",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-184.validation.json",
+      "validationSha256": "a4bd0159082638e1b9cd0615b64e485d0ed04906ed3359a24cd27af686c7c54c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-185.json",
+      "sha256": "b1b0ac788d1b1440f9f480a06a8cb781eb691e957b0738ac6f37b3442d020c8e",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-185.validation.json",
+      "validationSha256": "6c718d9cd330f92a3caf18368ec9d788c11563c9993e0d4333c894418a8a3cc6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-186.json",
+      "sha256": "02d84da742be00af869c48cd908422691bb5165553057754657a6c3c58f41098",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-186.validation.json",
+      "validationSha256": "b296b3b769f2f16e075e13ae7127bf4d46969c8786ebe9622a64d44a92dbb07d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-187.json",
+      "sha256": "f9cc37ef78ff2c9a4eb75ec3204c001aa2898df7ca68327eea8f661f2b6407b1",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-187.validation.json",
+      "validationSha256": "56a4fbcb0f288e35bf310f328d6cf29c06b819d20d299fd1187d1f41bd0d69d9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-188.json",
+      "sha256": "838569d183a46fc047dbfacbd7e44a82632baaf6e79c4fb1dd9c70c318df2174",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-188.validation.json",
+      "validationSha256": "916da4f2ac8d160834528c857c6bfc2011bbafe060fde61b1492b01b403e5279"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-189.json",
+      "sha256": "de9e57d24233118485a5890c2023e991e12f41efae51504e3a2d5651b3c4e6ac",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-189.validation.json",
+      "validationSha256": "1cced686001f351532df6d62d634a414a1187ff2661bfab61a1989d66204afda"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-190.json",
+      "sha256": "b4af0cc70bece63d9540e9a916acdddfd34f34fb11f36fa3f80deecfa26ff7c1",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-190.validation.json",
+      "validationSha256": "3e27a245eb0e30a9c0b3a959ddcecc12b2af3d6757924b16aa5a8edf4a55978d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-191.json",
+      "sha256": "b1eaa2a93b39ac26122a61e3fd171c073af1d50a4c5a1cf2352359276af163cc",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-191.validation.json",
+      "validationSha256": "70b8542ce279646d3ce72f47110beb6ddd6a64a9d3c8b125d3165a751e3360d5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-192.json",
+      "sha256": "c2a38957f3b40a5ea1878e8dd87e80bb5ea0125a71e00d19506ecf0c81257ddd",
+      "collection": "Dialogs",
+      "rows": 65,
+      "validationPath": "Translations/ro/dialogue-batch-192.validation.json",
+      "validationSha256": "71971fd8dac4fa2354f5b1b969e390b5eee9703db329b17aabd603ea8595ad88"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-193.json",
+      "sha256": "b64b16c2ae7d7fe6ee7e2932eb356756345d84eabd8c0bef2595db0f96abe742",
+      "collection": "Dialogs",
+      "rows": 63,
+      "validationPath": "Translations/ro/dialogue-batch-193.validation.json",
+      "validationSha256": "2983e4fe0a516e3d2e1a24d01128ccdafca0e84d2965ef0e6ce4f050a247bf45"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-194.json",
+      "sha256": "9b8e351d8b9fe98f9c302c80339033c9fec5951dbc081ad46fc6e402dcac0469",
+      "collection": "Dialogs",
+      "rows": 59,
+      "validationPath": "Translations/ro/dialogue-batch-194.validation.json",
+      "validationSha256": "07a3a44b0f0a10c5ccd4619297ad16c7ed5f9afad22b047c670813a7f078a7bb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-195.json",
+      "sha256": "3bf17c3020b31fb4a3b443ffa67fde5741f6258d685fe160c99560187799cab6",
+      "collection": "Dialogs",
+      "rows": 61,
+      "validationPath": "Translations/ro/dialogue-batch-195.validation.json",
+      "validationSha256": "42a6039d493b5acf17930a7d1d2873cc4e2943da01d53c82b38a7093052e9bf8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-196.json",
+      "sha256": "198c2b955d630a92d47e18757b54fb27f69b6ceb646b792c0e80abbc6c380eae",
+      "collection": "Dialogs",
+      "rows": 62,
+      "validationPath": "Translations/ro/dialogue-batch-196.validation.json",
+      "validationSha256": "05823ed736ca6944c0baf2d642ec90170f084367651321060dc1124c6659a4c9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-197.json",
+      "sha256": "c54dc25abe3bea13d5b1fd84cf9d98eafeab25fbf5f4a6f493369fd158e7f929",
+      "collection": "Dialogs",
+      "rows": 53,
+      "validationPath": "Translations/ro/dialogue-batch-197.validation.json",
+      "validationSha256": "549557f193ff3acc96df0a9ec6e7684f439ac5a06a788ea7a1b5c2eb3e2d9eb1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-198.json",
+      "sha256": "02ce83b6aa14a816b6ed0b8a21f9d051985066dd801a60be567e495b676568c1",
+      "collection": "Dialogs",
+      "rows": 52,
+      "validationPath": "Translations/ro/dialogue-batch-198.validation.json",
+      "validationSha256": "9eb201bdf0dee15546297916f46ac05d423850c1925b832421e3f6e2817d8a4f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-199.json",
+      "sha256": "4d4596c91374dba3f550a24796a3ac47d2295101e567a7d9a95a55125656fcd9",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-199.validation.json",
+      "validationSha256": "6394b1367efe60e3720a56fce6915efbce56c1b3bc0b25683794634b138815af"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-200.json",
+      "sha256": "5969ed535598510c74f10e3490a5d305e1e2aea4984391c04e600257921663ea",
+      "collection": "Dialogs",
+      "rows": 56,
+      "validationPath": "Translations/ro/dialogue-batch-200.validation.json",
+      "validationSha256": "6eb3584e85ff0febdeec50780c0ea0b3112fce4b2429baec41686b7a3eefc64b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-201.json",
+      "sha256": "3d71ef7ef4f1357696368a91ec3d540a11b1a74993bc0eba457a5be0c2667ff1",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-201.validation.json",
+      "validationSha256": "d66a9aeb5a6bf53dd905e733eac598745df95ddbb3033aabf5c3d10241ab8055"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-202.json",
+      "sha256": "4e12849ae24f5f27008bbc68070ff20fd1a0ee7be34cd961d498c260adef2919",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-202.validation.json",
+      "validationSha256": "9e2b4956e1fc8c41ba7516c2be828e778dd8a03bfa89bab64107c6372cb52fc1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-203.json",
+      "sha256": "a59604c6aac0a281406c0d87c5bbbe77406e1d8c64bae6601f7d94afabfc3cdd",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-203.validation.json",
+      "validationSha256": "c3a97e4cf43e7e2f10745839988f71b0d4705a4e68c304717a0aacb38deab32a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-204.json",
+      "sha256": "032d4db30d37ee83b6ebab499d4fac1f49288b35364e4da3ed6769309a029a83",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-204.validation.json",
+      "validationSha256": "270b6faf44e3df72cb984de93bafab8fc05062e804cb04fa029c168dd9b43866"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-205.json",
+      "sha256": "2954de8ca4ba4f4cf1bfcc184cce07a7648f710d783fc1fb344c3c9995318f4d",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-205.validation.json",
+      "validationSha256": "5173c1ba88e8edf8efb17e985f1f7c6fa42c654cb6f2b8a99841bdbe07811d7b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-206.json",
+      "sha256": "493b8631e0c073171c218d245e0258c04de0729ac98e0467854c4e0ac27ad9c1",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-206.validation.json",
+      "validationSha256": "6deca815bd7381b2667690909966271b45c831c57e3c8af8b75e15225d366167"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-207.json",
+      "sha256": "a787b7872c2e649e4406b77a4653c7816ce352aeadd66d11358285e1f93d09df",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-207.validation.json",
+      "validationSha256": "93e2476068c801e672a7d8f11385e4fc7f6629ae0628898a11061d6dbf155a71"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-208.json",
+      "sha256": "e199e97fe3394fab465766e4672183d18f59d2a65e02d9ef9222f6b9ca63f664",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-208.validation.json",
+      "validationSha256": "480f51cd45e1a1b616a6011caa99d9d37d064deb84ca63a8b4eaa54bcbb1fccf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-209.json",
+      "sha256": "27ced1652d6eb57c7a68c738d621cd45a6a067d4735a54f3135e300a5b5bec24",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-209.validation.json",
+      "validationSha256": "e9205acf87a72d1bf7c1b04f5cbbe5e68f71da358cedc62b41835d8915da0f88"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-210.json",
+      "sha256": "03dde52b38016b55f6b29a06e0cc16e9d80932486bcfa92ef8ddd3ded6d0b8b5",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-210.validation.json",
+      "validationSha256": "d167d7aef3a0e43bd2ca164c244d6213b7fb8be5dba6f57e5b4ec3c49820171b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-211.json",
+      "sha256": "a0f4dfe5471d11240864b1fd536f1c64527b9d29f3fc565f67de46f56513870f",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-211.validation.json",
+      "validationSha256": "cab018c33cd6dc43921c4f1b70078c005f4d5d3419b0d98727b7e0df1298ac7a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-212.json",
+      "sha256": "3dbb0de749c738a85e0c2be0f3a7d860feb192402a302f11890849ae1d5f735e",
+      "collection": "Dialogs",
+      "rows": 48,
+      "validationPath": "Translations/ro/dialogue-batch-212.validation.json",
+      "validationSha256": "0d47a3836dc25ad6c7873bae1d05a6fad49fc9f2965ead1a20b3c3dfbc20c620"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-213.json",
+      "sha256": "19039ed1b0195241158c70b0707334329aeb74325cb96c45643064dba6f93cd6",
+      "collection": "Dialogs",
+      "rows": 50,
+      "validationPath": "Translations/ro/dialogue-batch-213.validation.json",
+      "validationSha256": "f5b982913cfdf11943e3016afdbc2efff7531b5c49a0a7653fd36c9e0ee41a29"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-214.json",
+      "sha256": "8c914ab4b66b2168fc3dbf94a015dfc4ac133b79d517e4a72a0366d7a7950c67",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-214.validation.json",
+      "validationSha256": "19b9fd06ac681b781b2833424d496e13142321f3564c8ce42f0e66aebb6f3336"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-215.json",
+      "sha256": "a58de766711120f9a15668904002b9616a3081b917ab3c160fa5807218598047",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-215.validation.json",
+      "validationSha256": "86efee63251a0a64b7adb32f6a60268d7fb865c54ddc1dbc3079b59998a258b9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-216.json",
+      "sha256": "72f27472c62121f83340884682964124effbf9a4186eaa4c6b3a6bd5bfb2534c",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-216.validation.json",
+      "validationSha256": "b42e0e11bce5658376e01272a39ad08516a47cc6e9e35bf445ad44df9b03c555"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-217.json",
+      "sha256": "f97b6597dc3b2199778706ccacddaf558a9666eb12722bb126ccb0d4d41479f7",
+      "collection": "Dialogs",
+      "rows": 50,
+      "validationPath": "Translations/ro/dialogue-batch-217.validation.json",
+      "validationSha256": "a0744cf64ff3eab4a2a91d7169030c41f0113072ffd0341650723b9bf6d40f2f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-218.json",
+      "sha256": "b4f95be9f63307e386cdff8ba4be1bab776f5964707e09c4b729fc99d5c9ebf6",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-218.validation.json",
+      "validationSha256": "15193068a51c084d3982ea46dd2e9a30ef6799cc1bd263aea1c18fdf35f22557"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-219.json",
+      "sha256": "0f2a1f28a989acf4b8633e52fad3805043fd9c4c9e5af9ae6af63070a1975b36",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-219.validation.json",
+      "validationSha256": "c46c7c41a8f05b54a083d92659fbcf35358078bdd9d18cf4cd2ab03fa61d85a3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-220.json",
+      "sha256": "c4722d11b71bb927b5349021bcb36ccc56b1b4eeebb25f6f6aa415a2fa615ee3",
+      "collection": "Dialogs",
+      "rows": 47,
+      "validationPath": "Translations/ro/dialogue-batch-220.validation.json",
+      "validationSha256": "616858b86c56fd4b5e49c1aacfde1d7466b518a7bcf29a17f4c311ae90f7f8ae"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-221.json",
+      "sha256": "cfd845557a523d2edd21752a9c712fff9b902d1b01d5e4c0acf368c0cb6c224c",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-221.validation.json",
+      "validationSha256": "64f9612db454a5a97befd4e030824a41eac1701fa6fff5b3f50676f31aeeae12"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-222.json",
+      "sha256": "b00b55c5eef36ed7cc50a6245b5d3c8482420a77a1d301b06b77202dde90e0f8",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-222.validation.json",
+      "validationSha256": "fdd5266682bed6a7193f5687b053f1add02e68e484fec15f8b4b25dd32eca975"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-223.json",
+      "sha256": "d831d9c43364ee135d5d54948589e5902eb87f5ca6503599657ea071b264226b",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-223.validation.json",
+      "validationSha256": "7b11ef9a3a5bd9a10d0e904887ea68de819d94cf9ce8d6a5fdd9d76e05925cff"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-224.json",
+      "sha256": "c8de16dbba097c24bde466979ad21a08677f4f1d82558de3d2264039610e504c",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-224.validation.json",
+      "validationSha256": "294e30eeaf63db3fb24ac10b8eae63c41dee0132c5e1336a840d2a44e47b0af7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-225.json",
+      "sha256": "805d9afd2c23ef0b3d2ebdc13decb767f7d2c4dba478fdd74d590d1778087b32",
+      "collection": "Dialogs",
+      "rows": 48,
+      "validationPath": "Translations/ro/dialogue-batch-225.validation.json",
+      "validationSha256": "81b655aaa8fccdb3893f55b2798e22facb8eeaa9bd94e92e323ea168e87656a3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-226.json",
+      "sha256": "8fa25cdbd70dbf13dd5ca5c6d3a7cd1d22f376be32443487622a2945823cd0d7",
+      "collection": "Dialogs",
+      "rows": 47,
+      "validationPath": "Translations/ro/dialogue-batch-226.validation.json",
+      "validationSha256": "8c005afaa1c1dece5b88136b62cf9d34d9a4f896d9208fe291736104e09ae69a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-227.json",
+      "sha256": "5782dc0dd1d22c5bf761e61e114e367dfb5bce4d1fc0794d1bb8a5970a5cc4ea",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-227.validation.json",
+      "validationSha256": "e448738fa89d12c4e0433877d513857cdc8a8bad1024050db3fb808564889fa2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-228.json",
+      "sha256": "4180a2e01c15b962770fa2d8b48807ce8b9c177e49ad9973c1640444cfd7083a",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-228.validation.json",
+      "validationSha256": "c63f40272fa06b93f8e2b5825d2940429f6571ef6d789d01dc170dd622277d5a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-229.json",
+      "sha256": "f43d3962792d927c973ba39696fa6cc12421d1a89a935ee66b9714445f90dbf3",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-229.validation.json",
+      "validationSha256": "b3d6be270d46990543b600db9029f51550f8a4d52b4f44542ab3d815f4c876e0"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-230.json",
+      "sha256": "ad7a960b1e4ec7b650ff117df203dfc41657f6f566fa709109f8132f989219f3",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-230.validation.json",
+      "validationSha256": "afc025b37892bbb0aa2347bbce6833a6a7bb8aad2d17941da9f972d3fb8a82c2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-231.json",
+      "sha256": "7efa7b0a114e1ed63f03280462036601a8aa174ae24f1085ed8949397d1a05c1",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-231.validation.json",
+      "validationSha256": "969bdfb5c5edc751bda2d5d1e4fe070cd1d84ff14671e6f88e03c489e2c1c280"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-232.json",
+      "sha256": "5c32ca91853cfb1749ee690704fb1488808a0307aebbb63652c2033aabf2cc7f",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-232.validation.json",
+      "validationSha256": "e0f4c06cb68539d1845703dd30182a84a10e7eb9bc89f8190bd735ad9a2fb9f5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-233.json",
+      "sha256": "93c7b5bcd6dd414b96213bb1d74fa8499ff1649ba587a1e9634e9017212d7685",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-233.validation.json",
+      "validationSha256": "4b7719cee3c62a8edc59c133429d941791a58ed191eb6d6715a5b82284fcdca8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-234.json",
+      "sha256": "5f0e5b5232b6d622da023701f586255d08531ce87dfd02f3b3a97287511aaebb",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-234.validation.json",
+      "validationSha256": "1de5cba5822bb5cddb7f94487c8ab370e35842a194861d0b377b1f4a598732af"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-235.json",
+      "sha256": "0e5aab7ee834727f82bd6bcfc94688fe9e6dcfc6d2bd4e3bcad65366118173c8",
+      "collection": "Dialogs",
+      "rows": 49,
+      "validationPath": "Translations/ro/dialogue-batch-235.validation.json",
+      "validationSha256": "ba58b0cda3d8d3a3d7c40c5d91620c4edb2c717adefcebcf183427a96993a62d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-236.json",
+      "sha256": "a391329a6743a061abc2a664e90a0f71bfc08870db1feec9aa44cc24c11ca75f",
+      "collection": "Dialogs",
+      "rows": 48,
+      "validationPath": "Translations/ro/dialogue-batch-236.validation.json",
+      "validationSha256": "4e3d70fbb89207d1d69929c1ae10bd85abb224828cbd981e3784cf3d5d7e0075"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-237.json",
+      "sha256": "ebae938ee8dbdeafa861bf7bf5788c9e1d91f721b3794e03a3fc44ae359d3b4c",
+      "collection": "Dialogs",
+      "rows": 53,
+      "validationPath": "Translations/ro/dialogue-batch-237.validation.json",
+      "validationSha256": "f1256b9c67bf5325ac8f8d9d02710297b3119da826c0996a2f5aab21a2d5c6c5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-238.json",
+      "sha256": "0052cad2095c4ca9ae592ece8cfc9d722adab1febf7268c1a0e017156c034050",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-238.validation.json",
+      "validationSha256": "fe6592b7718b69f0befe5bd24e2c68f3e2ef062981357f2af205201f37c21a6c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-239.json",
+      "sha256": "8e2c0b96709a5b890326790765959ad9af980fa8636ee73aa0389d8fc25cd6ee",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-239.validation.json",
+      "validationSha256": "2198c168d592768be54f7c46bb6cf6001c134881c03045b8b4517da49e38505a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-240.json",
+      "sha256": "622830c24a945f2eaac95a413f6f08ad50848dfe902443782e7dc0aa8a53037f",
+      "collection": "Dialogs",
+      "rows": 45,
+      "validationPath": "Translations/ro/dialogue-batch-240.validation.json",
+      "validationSha256": "d6e51843109bdb6ecf7370d2b43387b764acc2a6be79225ee5ed969c5b6c372b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-241.json",
+      "sha256": "e449b4fb87b3473e3ab16c9f9c8367e121d5ae510f918525f405732eaa350a44",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-241.validation.json",
+      "validationSha256": "ed944842b81b4b128e46b5f7f1a54bf024a1edd64dab06dbce559738888c1956"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-242.json",
+      "sha256": "39cc0bf986d82cc52aa2bbaa799812292dbdd0c6fac81b2f845b9190cc380864",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-242.validation.json",
+      "validationSha256": "bb1bb8caf3496b034d1ec23ad0433d60a644953c484e7d6e14e52c58dbdff7cc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-243.json",
+      "sha256": "d4cc17d5900356338f7265ccce29140dc7c78bf6083e725112a49c9260fb2a59",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-243.validation.json",
+      "validationSha256": "90db2155bb3eeabe15af62413f5edae2688deff947ce05531eed55c08bed2aa1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-244.json",
+      "sha256": "20891931768f1ca29cddbf9477e04cae5c9ca1cdc3e7ca8452b8a121059a8b50",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-244.validation.json",
+      "validationSha256": "de6715b288ac2d76659075d0f230b5de06520b617036c77044ae9892734d0599"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-245.json",
+      "sha256": "323d41e0eb2569614f3c905061431bd395da2fe443e01d9de2107894434eadfd",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-245.validation.json",
+      "validationSha256": "85e83972ec93861d622903462f6648ad61844d1121b3fd59e12a4758ada88378"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-246.json",
+      "sha256": "e9593a47c1165484714c69a982c21415b1cbbac05b5ddc835a71f209da2cebcc",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-246.validation.json",
+      "validationSha256": "e2e49e3d2ba0354743d6bd18e1044da1c45cfa350764fa8822870866b477c44e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-247.json",
+      "sha256": "6727e28d625e2120cd980f1c2d49ef7fbd3fd0cea657aa813f1eba0b805e619a",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-247.validation.json",
+      "validationSha256": "4a6174d01ef922cf9b49ab9601618402b3c2988c7da5c2477b72b79f1fcebd64"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-248.json",
+      "sha256": "7d1e8f045c49dc68aae56997b857a41ff1956e32660595781c257f30a04389a7",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-248.validation.json",
+      "validationSha256": "fdf1a53e646b5ad896de1990cc9cc7a7b93670413a280823d5eedb23516ef068"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-249.json",
+      "sha256": "919d2227680d0e01a17b841b7691420b07c2cf92601ce6dcb64abf43a1496cdc",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-249.validation.json",
+      "validationSha256": "75f54f65d3075af7b1cca34ed3adc02831e16dfb4af4bf915eb6b62ad8021b85"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-250.json",
+      "sha256": "3f7927af36444a22845b9d3d5e8fc6d45af3354de1fb65703b1191e18070d4df",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-250.validation.json",
+      "validationSha256": "148d7af743965805f5c3b81fc7ecd1f6cb7a3523bcf79829d638214580456b4e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-251.json",
+      "sha256": "13b8144fece174eb25246c4bf622c5ceafe4d2b3bb296e842d3e88f6e67d937b",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-251.validation.json",
+      "validationSha256": "535137164ef98e153c85fcc557aae59a2fbf134cee8e19795bf813fdeb53beaf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-252.json",
+      "sha256": "b3253f076ab88e5988a6acea8568c1203ca938cd67cb3610c08ae6098d6e85a6",
+      "collection": "Dialogs",
+      "rows": 49,
+      "validationPath": "Translations/ro/dialogue-batch-252.validation.json",
+      "validationSha256": "fb625d022fdd96205f424afbecaf28068f56e72b1ea9444523176d6caf6b31f8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-253.json",
+      "sha256": "751f8d11913255b2611adb39244a879c5be9c24ccca5c5a6dc1a764b8105fc53",
+      "collection": "Dialogs",
+      "rows": 62,
+      "validationPath": "Translations/ro/dialogue-batch-253.validation.json",
+      "validationSha256": "44083f88c3786b986cdbe7cd92858c33c99c2ac925c23ab183d50ae313b3407d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-254.json",
+      "sha256": "082137bae91e4bcdbf62dd504098bf76d0abe0676af9653e0e916df8108acd3d",
+      "collection": "Dialogs",
+      "rows": 63,
+      "validationPath": "Translations/ro/dialogue-batch-254.validation.json",
+      "validationSha256": "103209a1313863e10c09ec301c081e647f82e8a828d5e05eb519bb0c0b50228a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-255.json",
+      "sha256": "24e64f2142810c2658e0a9520e7826bbf7928cb0adc11dcd9a598e47f4012a43",
+      "collection": "Dialogs",
+      "rows": 55,
+      "validationPath": "Translations/ro/dialogue-batch-255.validation.json",
+      "validationSha256": "84c6683fff56b796d9c04c0d61934fe0d6d74db04ed61205b7fc7c13e971a9dc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-256.json",
+      "sha256": "4ef67b013c374c96b99a2904ce2ba310de8dd338924983b351a1cd5d612596db",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-256.validation.json",
+      "validationSha256": "110b9527e086731c2a8621a6908f09ff26c8c90cc1aa7d3feff104f8ade6ceac"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-257.json",
+      "sha256": "2c80cac03987929ccedcc2245679c6b422ecbfb53f5af354374755110ccf901a",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-257.validation.json",
+      "validationSha256": "ab8b6aaab8829406d58b0309274379080b7cf2a682f3a0ec5631660e70684240"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-258.json",
+      "sha256": "4878dad7c90a538656ea9414eccd28424f80d4c6c7c3706bb777498b28e24b6f",
+      "collection": "Dialogs",
+      "rows": 56,
+      "validationPath": "Translations/ro/dialogue-batch-258.validation.json",
+      "validationSha256": "e352243ad3c38f4c57dd5ae09b9ed820ec68e4cc971adf01b80047ce6b8b26bb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-259.json",
+      "sha256": "ec2ffc72bfbe1b72a90255141dd847ead21a0b96c6638cc2d5a48a25bf84d1e7",
+      "collection": "Dialogs",
+      "rows": 65,
+      "validationPath": "Translations/ro/dialogue-batch-259.validation.json",
+      "validationSha256": "3f88030c174332704a48bd327983dd1eb058564d1b211a2af0cc99612b108352"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-260.json",
+      "sha256": "4076aa18dae8c135b4dc9d15a237711dc4cbcc2021c4512e9b1d3ccf34648363",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-260.validation.json",
+      "validationSha256": "6ad857fd34c24d0ebb26867a28df53f3e982a8eb328cd076786715c6622efd99"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-261.json",
+      "sha256": "60953d9f971423f79fbfb26c1987cc0a8c2fad3e4d19069554dde82cfe577cf9",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-261.validation.json",
+      "validationSha256": "d3962987093343117b84eda6c9f004f0b570fdc21d69a6bc5f7106ee2c6bb9df"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-262.json",
+      "sha256": "e51f1a627cb9a1aefadb0296fd9cbdec6824f275dc1a5ba0b335e184c3e1c437",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-262.validation.json",
+      "validationSha256": "da76296cb555be2a0d6c067bd9bad9544e8666190741b99c2e751f48ce7272ca"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-263.json",
+      "sha256": "b569cb5a05a15f4db5058a948da9095e087eca7f89ee6f65b68aac17ea83919c",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-263.validation.json",
+      "validationSha256": "5e27b0fbc43b82aa90a5bb7ae2379370270dad6113e4b5e40dbc6060f02c820e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-264.json",
+      "sha256": "6d645240137158e0d373fe1e887230463e6f644fa475a474072b0a817ce48277",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-264.validation.json",
+      "validationSha256": "789ffc02f21ee994bb5a8def81050ded7f751f6d191602e2d87e38b23afab7d2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-265.json",
+      "sha256": "227d99737feed69241218e99add52d0b5a7d3cb8835868c8a61b61e01812964c",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-265.validation.json",
+      "validationSha256": "583b2f724a9ce5a83cb5fc1d6d622078e5aaec112cf7a3575d8cb7bfb65e4985"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-266.json",
+      "sha256": "8abc51e573dfd823a49ee8eafae8736d0d005d8188173cb9a3b0df47d9e8753b",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-266.validation.json",
+      "validationSha256": "3b2df03aaac11117e983304299c5fdae1f83ec2c3568f2073b4f29b345d20fd8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-267.json",
+      "sha256": "a51aa43d3cf9e8bcaaeaa62253fab83f8c26d705322e61d32fcca50d25b35ab6",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-267.validation.json",
+      "validationSha256": "da1adecaa4e1c1eed51f9c2b66280f0d18b9d0e362260d5090972b979180c4f6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-268.json",
+      "sha256": "69747828c234e392349af7c7af81bf979fa3965fd0fab57570bf66c71dec07b0",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-268.validation.json",
+      "validationSha256": "5d08c3f82c239417c7bf09f221f76a80581563ed710f7c1f3fb7f730c50103dc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-269.json",
+      "sha256": "06885ce96c4afa0d852943e19104fecd9edbe0d57a4e67088d309e94b18b9398",
+      "collection": "Dialogs",
+      "rows": 56,
+      "validationPath": "Translations/ro/dialogue-batch-269.validation.json",
+      "validationSha256": "cd121df79c43dfab39e7762ec639f51782d1aa4207ae0066d9a43cef5ec7f23a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-270.json",
+      "sha256": "1d89a6a7aa013dd8ab6ff73f7d3a2d5a2eea4c3db3e8e91add3781dee1f05545",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-270.validation.json",
+      "validationSha256": "61d77a1bb3a440c3157b703792c2b3b391feba47b032f33f5c48b5536b9bcf18"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-271.json",
+      "sha256": "72f384bfccf88036d6f6c8dbe63ce66072a525bae94cac07d54bd20871710359",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-271.validation.json",
+      "validationSha256": "b50721409b5c5282ee42215e4e6fb9bf4695b1e459e447298d344dc140c91c6a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-272.json",
+      "sha256": "98a6080b89e0c976ed810a3a7214b909ac62b4d8f3b06137c68da869def618d6",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-272.validation.json",
+      "validationSha256": "95c15ee4308f5b0cf3cca4d5e07645296e29ef153c9dc75bf5a20e621ac765a9"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-273.json",
+      "sha256": "ed6c6683d44953d99ee197946bbd1e83071ba82d53ec9190968d5f45d077b12b",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-273.validation.json",
+      "validationSha256": "d8aa1b47d6d01b7199d40fd34704023849b6a370eb17c29199897d414f94118d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-274.json",
+      "sha256": "a9b2503f8931e05a8fc8e7653d0cd7444bc415c1ed9940159890be474818b2da",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-274.validation.json",
+      "validationSha256": "16e56bd018041db5fe94eee67673920e4d4094868408ab0f4b023be0b0f735c1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-275.json",
+      "sha256": "9011b1a6207cf012a1b2b2da2997c17a87250540169d72ee93f62bbc2727c4b1",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-275.validation.json",
+      "validationSha256": "c7c4958ec1b1049278ac3da723d1b4860f2bb47a68ff040a26d7907f5d281311"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-276.json",
+      "sha256": "2139f025c40297a86efbd9151e3e27d84f8663ddd33367d2a5b3991d0cfe8228",
+      "collection": "Dialogs",
+      "rows": 49,
+      "validationPath": "Translations/ro/dialogue-batch-276.validation.json",
+      "validationSha256": "060dfa1501129af85945df7676ce60d7cba74c99af8431b59cf20d9a8c3fb754"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-277.json",
+      "sha256": "27a1e6d8b9b9b71733398b1af848cef182aee4983857895586609fc8263c3163",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-277.validation.json",
+      "validationSha256": "327b29a8636fea69e9a7c90ceea5544d58f808d063a47d37fdf54888f288b993"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-278.json",
+      "sha256": "f529533b02a0bcbb1ac30819fc06eca3e707ebb58963c27aa346be4b4f511014",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-278.validation.json",
+      "validationSha256": "1f73c00508d6399f6cabc64d4a57211e20fcbf89a1a49398d00f5a93a0a5dcbd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-279.json",
+      "sha256": "f6d0f1d6df53e5def430f3753f58ef08fbb769b17303666ed7dc58e8d2de325f",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-279.validation.json",
+      "validationSha256": "3de0508f3faf3b7208e9d2bac2d4c7da2c40cfd61d7a7e366e71eb05753e88e5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-280.json",
+      "sha256": "4ec4b4dce1f4cd4a0e4c173253db5ced7889afd45adcc0dd7f48ff98c2c09c6a",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-280.validation.json",
+      "validationSha256": "efbf1ab452b7db225af487fbb6940c1615239f7f83b1d300d60f2040b0690239"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-281.json",
+      "sha256": "cb6e266d3d421e291c672910712db72b9c178ed481ab6e593517e0181b96374a",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-281.validation.json",
+      "validationSha256": "2ab2e25abd628fae0cde15102bf5f0592c0badeb09c29dd0fde258585e473398"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-282.json",
+      "sha256": "75a2e4842e7000ccb1485c90f997761bba4d7eb59c8a39e130a3ecbe3a3539ce",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-282.validation.json",
+      "validationSha256": "b54eb567e9fb2cc4ab86b47f563067b4cf725a02bc31feba70e3d4b6afd06156"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-283.json",
+      "sha256": "b577735b3d73772018af67683e7628e66e39600ffaa0a2ccfd2e83c6f230eb15",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-283.validation.json",
+      "validationSha256": "e493559b27712175748434acbbdf591d390ea3f653af409fcb10fae2d0fb5fda"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-284.json",
+      "sha256": "e8aba3efdb60d5b666134f689a98f85953a093b08616c96e68624199089dacbe",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-284.validation.json",
+      "validationSha256": "530c34086da07a1f0467265d11c9632505d6b60c4072ae7b02ef1e26663aafe7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-285.json",
+      "sha256": "d9c3ac1abf6a3e3901e9cca3c018c28c874eb6a8ab28f52f91125a979b55b226",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-285.validation.json",
+      "validationSha256": "dd50c96635cbb42c93725360b2e9d067cc709dcee5da13978e46c6904ef2ea32"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-286.json",
+      "sha256": "d6624a293cfd2bb8947e2d4e388f162f472f278cfb4db65db81115fdcbd2b988",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-286.validation.json",
+      "validationSha256": "9da1bfa81cdc6ee3b01a7fc4550f80dd1c044bf5f6f30dbe552154580750cf46"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-287.json",
+      "sha256": "f2c6c5db4adcb9d04aec19a2352dd2b75b7ff5ea79e44deec6ab7c198e40f0a3",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-287.validation.json",
+      "validationSha256": "d32fdbf1d5883ba4f8bd8dbb19834969e20e5d71b9187e174153feff0f2ed000"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-288.json",
+      "sha256": "e7d4b4130e8d047b203a754b5ae74bdb32951af77657cdf2e70b9ed570ce9b08",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-288.validation.json",
+      "validationSha256": "b06e3603a271dcb937fec0056f8d9a38537696eba22ea75082b8983557aa3fdc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-289.json",
+      "sha256": "ba7148c88c8b2862567fea035daa064ff9f7159a98f2619ed5b35bc9cdf26ada",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-289.validation.json",
+      "validationSha256": "8fffe81358bd258ec56d58125992f429e5e646c4939e2f2ca3f62f857409b3d4"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-290.json",
+      "sha256": "5c4b4f887cb2c9c4d7dfa56f7df3aa70a018c2110743dc955b61c75481639995",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-290.validation.json",
+      "validationSha256": "21eae534c15c88739e456d61484ce7c81ff361d63188711ed2169a8db8c240f7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-291.json",
+      "sha256": "59ebc6e0de8d95296e802d2ae986b9ceb45195b683b80bb4d5645e18bb2e5328",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-291.validation.json",
+      "validationSha256": "66eb21f5d5d4d50fb3c1025c71b774885e5a431cf0a4a51ffd3a426f52ac379d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-292.json",
+      "sha256": "3ed0100ed2f4d54cf113bff0f6239a45d1bbc4fd6e22c7860bf11af331d8643e",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-292.validation.json",
+      "validationSha256": "1bc24bf724bd54359cb4286173c7538d8fd1571bf2350f4a70707f9711bcf30f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-293.json",
+      "sha256": "16ad40c2d51453310a4cf86e147257c1828f85c9685e03a1662dcf191b9a8692",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-293.validation.json",
+      "validationSha256": "1544afedf157db110bcc09ce9460939bf654f2fbac53849f6567cec4496c9e64"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-294.json",
+      "sha256": "e83a57007e9385e29fbf784580f75579cecc0c741f8214787186dfd885edbdc5",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-294.validation.json",
+      "validationSha256": "23751b1682cbb0c5a964c9cc53682bacb8a25178ccebb541019582a77d59d6bf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-295.json",
+      "sha256": "5c23ebd58cab0f62a9c7c0b028f54b285b62b6bc3bb5041b3854cdf1036f8b74",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-295.validation.json",
+      "validationSha256": "217f9e56392b1ec3d62037831c049ec16f48a0eb881c51f91df4d00ceabf8b76"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-296.json",
+      "sha256": "7fd070aa3b86adc0a6f0d7dee9f6346a394b885c561f3f58a071da96f89b9105",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-296.validation.json",
+      "validationSha256": "bc27259ed5943fbbb27ab46204a238c2bd7ff9f2a8c366370f03dfc229182299"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-297.json",
+      "sha256": "a2fab0486a934b691b476adf66bd58ca21746487f95afdd81d932c7c0955f374",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-297.validation.json",
+      "validationSha256": "68dfeb200247986e556739f69f33ffafcc5d5bbe8822ec88040852faaad5ae11"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-298.json",
+      "sha256": "88b9f82d6c5a8e9cbf6fdc0213b88f6491b078852f99af18163457e288259651",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-298.validation.json",
+      "validationSha256": "49c6a7e682d5dc14c9c3891317464f28ae399a6244200e4b6b68ef9101be34f7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-299.json",
+      "sha256": "d59b81bccfac83eaf200a75da6d64f6384eae1af24eb4031739c989e763cfe6b",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-299.validation.json",
+      "validationSha256": "6491ca80e85f3e4a2ad98b225a1e0ade903d76a3c0db76a84aa7a10a408aeb1a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-300.json",
+      "sha256": "d50010460eef29746d3b0aafaf9bec7724c77e542df8bbf33504ae47f710ca97",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-300.validation.json",
+      "validationSha256": "df1735a64053a129620b799254f5b7310276417440c5ea48dc8332ed8f313e93"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-301.json",
+      "sha256": "792be7b5c1eb77bc60fdae48b580fec86bd831e8017e177b75d57476d81a5187",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-301.validation.json",
+      "validationSha256": "655fa164daaffc18135820dd7014ac44938d6a22752bfafb1081cd2a11264f63"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-302.json",
+      "sha256": "77443ec6d45bbff91bc41ac982f3da14a39fc077cb238a2bd790bf0b53098e01",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-302.validation.json",
+      "validationSha256": "468030c7669701b3be1c5b668db2f2599425886e57811a9e589d9f51979665d7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-303.json",
+      "sha256": "8183f48a1852bba9ed47e358cf5605d4c444b25bf93ee1d3fb2ad3c912cc4590",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-303.validation.json",
+      "validationSha256": "26b77693bf2447688464e0060818aa17a09bf38f10ae23489c1e76bea12e7b0f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-304.json",
+      "sha256": "f3cfc0e0ad5fe053402d1e0a33b22063ba02b7019361cb6c6600e8276a2b01d2",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-304.validation.json",
+      "validationSha256": "779ecc9b3bdd41e003de24037f388a3edcd30a94059e645525667dfdf028af77"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-305.json",
+      "sha256": "00df59be4a0609c764ede558e5d8840a8c944192d11b34144e73942ea04dec42",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-305.validation.json",
+      "validationSha256": "1b91008eb20d50862a646d1baa41d6f7542027fa20f98536e19be4b23c0d63b2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-306.json",
+      "sha256": "b01e7323aebf9b6e443167c4356d447224129aa798395338bab67f4a6dc3c1df",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-306.validation.json",
+      "validationSha256": "d49749c6d8d48b732b0c46e72115982bea74bb5e82b6512ffef21dd131d04183"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-307.json",
+      "sha256": "c39104c14a98ab00d71215499bdb9c9e63607e22899527a684d294acb498c794",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-307.validation.json",
+      "validationSha256": "5d38693af6bed7ab42e5bec30a81a825ba2aacf6805c3139d8ba4f3d275a63cf"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-308.json",
+      "sha256": "b4850ba3755d94b6ad7cd0215c6eddf7e1479e2debf72950774ea1b80c325c5d",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-308.validation.json",
+      "validationSha256": "40e3eece3e51d4f9cdf6565fdfb81aa89c5f31ac88a7ea5eb173c80a89f15b19"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-309.json",
+      "sha256": "09245117a4d8a198e820bd2ec545b86037d10bbb01e3233c546b9c4291233d2f",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-309.validation.json",
+      "validationSha256": "dd1e8713f749a0dfc1544bff79c17501d258d9840d98d47e36f502669e7c808f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-310.json",
+      "sha256": "79cda97efd80f8ab33d0f5035805e6171f757c675b6d40c6051e0158dfe2223e",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-310.validation.json",
+      "validationSha256": "639e351c25786eefb332343aa30abddd658563073c4a0cc3ba4a385e4e51b353"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-311.json",
+      "sha256": "d723ca423c229b0cae4124b621c8f2db4fa4ae7588f56546d3b1e21674e21e0b",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-311.validation.json",
+      "validationSha256": "51e68b0357b75649d39794a3b68863ab5a9c340bcbc79e5f1c15202f6d4e0b6d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-312.json",
+      "sha256": "32d6b2f86c3530387045ec34900716c7c958187c4a017126f6bb66f15bbfef55",
+      "collection": "Dialogs",
+      "rows": 16,
+      "validationPath": "Translations/ro/dialogue-batch-312.validation.json",
+      "validationSha256": "60aa4c40669a1f3ce5e3bffa7dfd92c5338d3ce7dc068fa6bc7bbde041b39a73"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-313.json",
+      "sha256": "b364d5e63344dc43e7259297bf3b671932b349feeb37c4eb6eaaef8b5910b0d1",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-313.validation.json",
+      "validationSha256": "63ac12357fbd10869cb91ed5369f79192da578ced9f728294cc01fe0afc72fc2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-314.json",
+      "sha256": "014c2331da6a84a9c904255f67380d80639a8f5f6ca54abbbd66d5d9aec62427",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-314.validation.json",
+      "validationSha256": "4b6b629e36ef13fdadba8e574fa86a9caee1db2b1808cae16bf5e58e7b33b49e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-315.json",
+      "sha256": "b6fa35c47d1489dc2c4f0c88615eee48be0d20d495a1e7bf1c40269b071acbce",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-315.validation.json",
+      "validationSha256": "1274b391a2f83a59c311bf2593d63336170cb4597b0e295b121ad1b58720d760"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-316.json",
+      "sha256": "12e484f9e35f6eb62adc2466882a4e2fc9f566a0e787de1210f16d16c434a54e",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-316.validation.json",
+      "validationSha256": "ef35bb8e633521b3266aecdc82d23559bc0f9eac262eddcb9eb3b27b7ae3cc6c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-317.json",
+      "sha256": "9afaf929beb9e99aeae21e002f94f15d1bbce8b2a773ad44a0ae0fec1671ed7a",
+      "collection": "Dialogs",
+      "rows": 46,
+      "validationPath": "Translations/ro/dialogue-batch-317.validation.json",
+      "validationSha256": "f22d3a20780d068ca10fba5fdbe520cdc2e6df71fb2d29518b2bbb1f519d38f8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-318.json",
+      "sha256": "3e292f7cb52921536bd3387a7de6b37683752bf35143ce8dafca76b155628847",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-318.validation.json",
+      "validationSha256": "aae89dffef74890dada942277e1ef245a357d7e249386e5f4990096e72761f90"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-319.json",
+      "sha256": "2510902c6ce963cfb42860d35743bc8f90c4da76f8e663a417244ee227f3ac69",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-319.validation.json",
+      "validationSha256": "745a7487f7944a6b4c070091a93ac06301acbf6954d70f9a3b51bcb8cf351ba2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-320.json",
+      "sha256": "4784937a7d7b49eaa9ada47cf518fa41c6e222fcf1d2f49f9e8726f0eb599395",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-320.validation.json",
+      "validationSha256": "199ee2907b5b71a33c9f285fd7ba1ed4d4af4e8f871a480ebfa466fa1cc99dca"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-321.json",
+      "sha256": "bbfaa34355e9fba7d28ad25f706cc7fe0f167db9c822428fa33ecf39fe3ae107",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-321.validation.json",
+      "validationSha256": "059dc964bce14a5a93cabc1f7dea893ec73240a251fc14157a210e15070b2178"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-322.json",
+      "sha256": "77277b65904b33df0f1a2be804d550e75671cd8131d43d94dcd5fafe6640e292",
+      "collection": "Dialogs",
+      "rows": 17,
+      "validationPath": "Translations/ro/dialogue-batch-322.validation.json",
+      "validationSha256": "849e3cda04466ec5fa92881f4ac30d2198ea039676fca13413536cae3d40d032"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-323.json",
+      "sha256": "5bbffdd8cbc65766e07d5517d3e1ed8224431098724869c5796d02c09e2a167a",
+      "collection": "Dialogs",
+      "rows": 31,
+      "validationPath": "Translations/ro/dialogue-batch-323.validation.json",
+      "validationSha256": "2e41911fb2ef334399e472a92b85a6a97033daad735c3c347b5345bc26fd192c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-324.json",
+      "sha256": "38de896daf812698ad71488c266c7260e2fb95b35d70c608486ead664ce2ed87",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-324.validation.json",
+      "validationSha256": "1cec4a61cd36ccf3b44a13ce45811bab124a252cd2b46ab2f2a7c235c983a26d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-325.json",
+      "sha256": "afd6b78ceb577324e34f4603d91b21b8bd099735b7fb2b5cbae73fa6671f11d1",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-325.validation.json",
+      "validationSha256": "3b828fb9d281b654d35f5872c9d72aef6f5980098e602145a092b76f9fcf9e9e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-326.json",
+      "sha256": "e320cf3f91cc4cd2b6b9aae8645118002242a97971407de38c23e2bf0bee681b",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-326.validation.json",
+      "validationSha256": "4c6afa68c9959135b718e5d7649890e0ad89cd6ac6ea22bfd134f3e20d583518"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-327.json",
+      "sha256": "928342a9a15dbd845aa553bc6b38d2e2b05a7b2aea62874b1c513dd70064e537",
+      "collection": "Dialogs",
+      "rows": 12,
+      "validationPath": "Translations/ro/dialogue-batch-327.validation.json",
+      "validationSha256": "df39bf2b2c6718bacab837fda2c67ee1d24ae20eecbd8ee308d9fba79a3cdb96"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-328.json",
+      "sha256": "f6b6aa828b7f148f947112f693f7d0d8baf07f400760ef4975c351f2fbb610c8",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-328.validation.json",
+      "validationSha256": "f641daaa83c4606d43a8d8962eb859e9cc2ab7af19de9a633c586738c4199c76"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-329.json",
+      "sha256": "c89c6c9cda34e23326ac47b55c3fe122780119fa77a09e3ec0a62debf12c5271",
+      "collection": "Dialogs",
+      "rows": 15,
+      "validationPath": "Translations/ro/dialogue-batch-329.validation.json",
+      "validationSha256": "a69866b29ee3d8d4aceb462caeb810ed45145327a297fd1edb016a765d5b5afe"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-330.json",
+      "sha256": "4ea5caecb101192129f7e11bbee085f87f1b4c0e99771d4ad5cf16eb91338bda",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-330.validation.json",
+      "validationSha256": "f1a34eada4a256b0bd3efbbbd3a6467a5680376a57d692dd0b9eea4ec5de5ebb"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-331.json",
+      "sha256": "72ccca570294f3dec46d473ebdb0207df66529920853e35ef69f93ac89be323a",
+      "collection": "Dialogs",
+      "rows": 14,
+      "validationPath": "Translations/ro/dialogue-batch-331.validation.json",
+      "validationSha256": "f0a03ebc0098e36b9f94ff13e1644ef001c8052f87a927214ecb6ddd7b763e2b"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-332.json",
+      "sha256": "fd06e82051d5a5de19688ff956b1910994226ca31db2f61c0f1ce90e0637ff23",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-332.validation.json",
+      "validationSha256": "389b6758f5122a43dd31df52d62541fec86c9d24639a994dd753646a42f87946"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-333.json",
+      "sha256": "6914a275bc70f2b1d2f57628c906e8cf875683f8611d9178edcc266876b74cfa",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-333.validation.json",
+      "validationSha256": "74e82fe34a6219929f4dc44ca9fa95a21d01b5d15a74a3b765b94b7f9cfc9798"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-334.json",
+      "sha256": "9ad8965a6db5aa201256cea42fbd4ce4511d8eb3cc9e2588df204ea238051a09",
+      "collection": "Dialogs",
+      "rows": 13,
+      "validationPath": "Translations/ro/dialogue-batch-334.validation.json",
+      "validationSha256": "4e3cd759e666d1d54fcb51564ae308db02ab6e7caa34611dfba8e018c6322ee2"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-335.json",
+      "sha256": "4f2c7595d955cbbf7f5b504a950017b749d05755c8e1c075a3fc655908eae1f7",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-335.validation.json",
+      "validationSha256": "8cf74fd23cb88a8dc27ee9c2790fd8d80a181f58f7ddb17dd6e4b62b7074881f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-336.json",
+      "sha256": "22b2af6be50e6ee340800b66ed4e0c75813104c2c6c15cf5d5dfae3479c847b4",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-336.validation.json",
+      "validationSha256": "3786bafb0e2720627336a27130af682b04fb0bcbf6a7229b52857d5a774a3bbc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-337.json",
+      "sha256": "0aea48bf0772eb3c9cfa6ca44b468ba9f79843a59fd0f8209526cfa4ed8c25bf",
+      "collection": "Dialogs",
+      "rows": 13,
+      "validationPath": "Translations/ro/dialogue-batch-337.validation.json",
+      "validationSha256": "2c1a275d5951c8d7f430331d8a707106e6a8837a58447e2fd10ce552558e142d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-338.json",
+      "sha256": "413ff2ede06ff4d98dd6dab630ef131886a47d2f48f705b2c903305d97583820",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-338.validation.json",
+      "validationSha256": "3ef43cadcedaa7c78394abdf0ec1d50a9f44823c040f9ab8aedf6c553062cf04"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-339.json",
+      "sha256": "4dea5e253a86b406b66d9a4f0543abe44a0dfac799f809f18a8965cb49f1203d",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-339.validation.json",
+      "validationSha256": "3c4b85be8227576647d1447dc99aacc08b0c12cea2589b29ed497b3c98c6ac3d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-340.json",
+      "sha256": "9b11d15abdad37bfdc3627318863cc5b47ea0614513bb179cc818fdf3057d58e",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-340.validation.json",
+      "validationSha256": "398bad279cae84649dcc5b283558f3d5aa7b47e9c0e66a32a84f05f5f1db6e36"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-341.json",
+      "sha256": "51a42d16a15621e8af10e2494c95f30be916ebeb1be203930b9b7ca1c31f3725",
+      "collection": "Dialogs",
+      "rows": 11,
+      "validationPath": "Translations/ro/dialogue-batch-341.validation.json",
+      "validationSha256": "99b63e0ae46cd6f688524ac7c31b2101bc4f45e2be2a619fb64b9b52f4d935fc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-342.json",
+      "sha256": "82bd9b141fd2be397a0191f28596a2bfad9016402f83378dcdd41c7745a928f4",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-342.validation.json",
+      "validationSha256": "39b3bb2694d9d175b869686a2be0657267aceb0303c0ecd5224ae5074ebb7ed6"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-343.json",
+      "sha256": "1f6755d2b389b2eeaeac46548c9a687449da287ff5a362e108a12e259efbb141",
+      "collection": "Dialogs",
+      "rows": 13,
+      "validationPath": "Translations/ro/dialogue-batch-343.validation.json",
+      "validationSha256": "8c4856d4a8230daf2e6f4cd916c2a2084ed0e18c49f9f11ca2362fd83f10e170"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-344.json",
+      "sha256": "626de57e8cd95ba37bf355ebcc14325f948262f400c82301b8a89ae291c529ef",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-344.validation.json",
+      "validationSha256": "1e160bc6ed7a2df8abfe34f17a24eb1b4853b7bdd288c6a67258aa07620d1bae"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-345.json",
+      "sha256": "380aeca9481b721dcc6fad47b5018a70422df4249f44bd675e32077056e73548",
+      "collection": "Dialogs",
+      "rows": 12,
+      "validationPath": "Translations/ro/dialogue-batch-345.validation.json",
+      "validationSha256": "128cd6b8565691ec015963436ed38f18fb60dfe86a750b2602e1154de388db9e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-346.json",
+      "sha256": "17fee6de7c4773c651a3e9099ec293607c5ab44ce093f0276c588d78007fac6e",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-346.validation.json",
+      "validationSha256": "904503565deb258153f252419d633a9a7ddaa4b0de532de9bca6931bd99e50f8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-347.json",
+      "sha256": "7060cf5af4225098aa5e00d4fa5b2287dad996221ae484aeaf45106436e357d8",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-347.validation.json",
+      "validationSha256": "39df945227dbada39008d9cdfe3b899091a97399fed8041f7a66f9613d8da99e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-348.json",
+      "sha256": "130ade5b5fc06a8262e50df6c892bd97fefcd86cd68ff3d35704981595f5a21d",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-348.validation.json",
+      "validationSha256": "d4e200c98e13869fe70e5a7b2ba56c05b7ce8b1e496279d0fe5c0906a87cbe0c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-349.json",
+      "sha256": "431fd54e1a20c0e0d47774d3a7dd1ddfb11ebdec8af07cbaa6b80d84649d9bda",
+      "collection": "Dialogs",
+      "rows": 12,
+      "validationPath": "Translations/ro/dialogue-batch-349.validation.json",
+      "validationSha256": "ba9876f48260d6ba8aeec8c7a812fcbf9b2022f876693504181fefbc2145ca18"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-350.json",
+      "sha256": "fa8637bc0587976d783f0df08bd8aeb9db36767fa3973cafb5617cb6d8a4507e",
+      "collection": "Dialogs",
+      "rows": 35,
+      "validationPath": "Translations/ro/dialogue-batch-350.validation.json",
+      "validationSha256": "dcce79ffe63f5f22b95c807b4c86d35e8b718271fc27ac1ab3438d6939f19250"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-351.json",
+      "sha256": "ce7a33491ff15813b886c1415877d5067722242b2e697136083c419dddce0be9",
+      "collection": "Dialogs",
+      "rows": 14,
+      "validationPath": "Translations/ro/dialogue-batch-351.validation.json",
+      "validationSha256": "74e999a90fbc3d3493cc6143e6638b4df16f64fa2bafb8f7b4353bfd22cbc712"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-352.json",
+      "sha256": "1bcabdbc7bf3438924b842cd86e3922fed884c1bf30ff43a7b675929a8ae0c18",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-352.validation.json",
+      "validationSha256": "3e873febd3ee62cbfd6cafa4a9eadb8c08ffca1fa482397318eb71bcc5cd935f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-353.json",
+      "sha256": "61c5521051ef6e5b08591026ca2610b86356d12d6cc51adc6baf33386b899767",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-353.validation.json",
+      "validationSha256": "93c7b5ab00636ab50e664db997b7b93e5f9de818ba37ff26e43a1be0c7ed6ccd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-354.json",
+      "sha256": "fcb0bdf75497f71e1dfb78fe92f53f19c845d804e0da7295b9e97c6a9f408cbe",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-354.validation.json",
+      "validationSha256": "cb3b5894208d51dc99fe9ceff25bb3fabde22981bc5c05b96e660f47df4686f8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-355.json",
+      "sha256": "3cff7750fe704f64bf0f3bae61db99ce5a0f05f2cb6f40652e6bc2c9b94c6e43",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-355.validation.json",
+      "validationSha256": "88c7cf068674814b2b068da0e6a56a2363f53b2c7e8e322b16f4ffcd1699947e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-356.json",
+      "sha256": "1824e0b44519393c42c8c4985469671eef0a2f8ad634fbb8b52a65da21c78c56",
+      "collection": "Dialogs",
+      "rows": 34,
+      "validationPath": "Translations/ro/dialogue-batch-356.validation.json",
+      "validationSha256": "b900ca23df49c0b709df845f54f27d4964b4d3485fa745947b9817017f04390f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-357.json",
+      "sha256": "4f5e204ee69eb9ab1daf5edcf7ac360561b700d5d97b8663ee987b021e178ab2",
+      "collection": "Dialogs",
+      "rows": 43,
+      "validationPath": "Translations/ro/dialogue-batch-357.validation.json",
+      "validationSha256": "db9e37c71bf2399f13a2092ce7e67eb071255e24100f6a360ad14fb16ce546ad"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-358.json",
+      "sha256": "0442162148bfca389d237b2461285a35081afefc4a5f90be55fc0375658877ce",
+      "collection": "Dialogs",
+      "rows": 42,
+      "validationPath": "Translations/ro/dialogue-batch-358.validation.json",
+      "validationSha256": "e2308f1e4aa4a9dc15099c0642dbae8d2c7da4669a8494272fcbe003d39a499c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-359.json",
+      "sha256": "8235c713b56073018f086eb673ae41a18f7b55ad73f36ba6c5d259576341d407",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-359.validation.json",
+      "validationSha256": "a4b945f71697c673cfde51c1450bdd88f36ae194e76f477894e72bb151b307c5"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-360.json",
+      "sha256": "7b6c3ee85f5227979b2c40d8c5633af04b9e1dd5bb974d67c639b872316a4b39",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-360.validation.json",
+      "validationSha256": "ca83c325babbc5006ae57db00b984b7133aaace5ec70ed9693a8b545fa7a33bd"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-361.json",
+      "sha256": "1bae862ff73123ae9b7e8310999ce4075a6d77019fb8ead7f9d36a27cebdbfc2",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-361.validation.json",
+      "validationSha256": "e95a5d467f799199f84414322da34f403591f77510396a9094f0f7c4b19ba116"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-362.json",
+      "sha256": "9fd6573006a24dfb5817a454b31c1a0bfa176099e41b3d68f5b9ff8ecc76345a",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-362.validation.json",
+      "validationSha256": "5b34bfc1a284437cc1d6e15e072a4f5d8eef63c9e19d1cd0fd3d6e95c87a21c8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-363.json",
+      "sha256": "b1b871737c076b880b4991759e056355085653336eef56e57701aa6f7ccb2c45",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-363.validation.json",
+      "validationSha256": "cc86ae657bfc963160fc0b907bb728c27d5b7a82d27ba178379a1433dc082d8a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-364.json",
+      "sha256": "9d2343b9dd02d7c0fe0b789d5cc5c157cd92550c9178e9221f789b9949842574",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-364.validation.json",
+      "validationSha256": "8bf6b9bc77fa29316efb9aac7b49ecc79e5e9aa21043af26f2ac3579ca822a4f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-365.json",
+      "sha256": "ffcf23465f40ae2ae78cae87e96d754cfc0da21847f1decd221ec0e8c9305a75",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-365.validation.json",
+      "validationSha256": "12c5fc4a2975250982ed5d34e58a133d7f622ba4c7ab84c6e9aa52413105b011"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-366.json",
+      "sha256": "61c34738c888543c550e09b09513c9bdf64e160412c06fb05224d21f184360ae",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-366.validation.json",
+      "validationSha256": "6a77e41013c5368d4e1798d750687b1f2ee61bfb72c193800f9b87ab5b147493"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-367.json",
+      "sha256": "1f68cce21775b740c80b4a00693623e90418d147ad1dcad341ea4ff339dec7ab",
+      "collection": "Dialogs",
+      "rows": 30,
+      "validationPath": "Translations/ro/dialogue-batch-367.validation.json",
+      "validationSha256": "8f8f7dd57a8d6f927d74b585689c8eb7433d5be7369f7538f5f555917dee4ff1"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-368.json",
+      "sha256": "67bde4f7725a383dbfdfc5d9ce2efc54eb7b2f74b1bd313a66526e2534edb5c5",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-368.validation.json",
+      "validationSha256": "357525c431eb35d77ab0c53d62b65c73145b707e0d835c504ed586957d7d8bd7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-369.json",
+      "sha256": "a4df3e8b7e20911b41d5b61bbb19c4277939bb0d2f557f67de508fac177324a9",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-369.validation.json",
+      "validationSha256": "0395a46b2f4aee7d7ea5611d07411d152d001408e05427904d15d0d4096e125c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-370.json",
+      "sha256": "eb8a19b47dd1044444a60c567081d1f50a099d1c0d3911a9cac6db630c7097a3",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-370.validation.json",
+      "validationSha256": "2ae99bfd061be86036858aca01976fe46293fcaf4d0d0f4d0d49777c171cf923"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-371.json",
+      "sha256": "cb22c103af95129662b89fb67c82b369f25dbd35829bf09f7917eec89f62be3c",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-371.validation.json",
+      "validationSha256": "f53b5a23c54402056bba917d77c085bba62462d1485b5a07bc43fde60760884d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-372.json",
+      "sha256": "42f90e51ab3cf3232fabf70f301aae5717bf4de1492bc32dbc6e500afdb735ed",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-372.validation.json",
+      "validationSha256": "0fdcc6f114e726bada907ba3ce3fec01e46b076001190849420aa19b788f186c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-373.json",
+      "sha256": "50b69f6e46dcc443876df30c20f501ed3d262e78eb0998a49b0d1c64e3dbeb51",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-373.validation.json",
+      "validationSha256": "d556b316aecc81fa1b1f92505ea4046e59dcbb4c5e82e72a9991aaa0c344e209"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-374.json",
+      "sha256": "2d1f0d4ec824e65cda3423e418378dd48088664e333cbe5af2bf7e1bab905695",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-374.validation.json",
+      "validationSha256": "0ddf0a74a57dee0ca31fc6bd5c201d1d9a07f9d13b4abacda22051087e7348ac"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-375.json",
+      "sha256": "bf17b89dc7ead0591a1666bde7248cf004565c529f449d98cccc142be5a906c5",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-375.validation.json",
+      "validationSha256": "90e72d57b7189e265588eaf71650a000a13dbbed15606cf39ea7dc9679eec68a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-376.json",
+      "sha256": "9511b96c13290bdd5b3e0d69d72880b70b02563c1adf9e7c2b69d78fffeb98b2",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-376.validation.json",
+      "validationSha256": "c4b973cff1e21b3f64d76006e551460f217d025820330a21e04765c86a3a324c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-377.json",
+      "sha256": "af52da37c21f6eb26a9278c7b679fbbf1afaaf611d2cb00b1b807b8f2cb82d56",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-377.validation.json",
+      "validationSha256": "e58fdfc10b79b8cd8e0175751e9ac294017172bb2df9e9d988febef5ade8a445"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-378.json",
+      "sha256": "12f20fcb798a8479e29e1572ef02afe3e94b5bcd9debb8628f21637664fe7fe8",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-378.validation.json",
+      "validationSha256": "14bd6ece18017bda7be244b529836cebb5916356398b37d8cf3df3337f7bcb51"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-379.json",
+      "sha256": "48c82261e0041d6e7a361260be9a69c4f995baca7031e05150b210396611db15",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-379.validation.json",
+      "validationSha256": "2c8d422e47e204dc5333a0c90e44ff9ceea0d57d8acdf8e00284785beb58fac7"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-380.json",
+      "sha256": "2d522e8556bc26294a149686700516a9c039f0b3c9fa0697c45b494ebd062b4a",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-380.validation.json",
+      "validationSha256": "73eda88a06b08a0457977c9ae3f07e985a45658e402d68267589df37000f1073"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-381.json",
+      "sha256": "bdec033fe5d5b8161f77d1a9f9ab484aa48a762785339b311b4507d2dc68987d",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-381.validation.json",
+      "validationSha256": "c8da478c60b8bc640927cdbf1a4c2c52804074096fb142a42a9e48e1c1d84a0e"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-382.json",
+      "sha256": "27738410656da3029d0775d8535c0fffe537c575c0b9635602831d2767df0a60",
+      "collection": "Dialogs",
+      "rows": 21,
+      "validationPath": "Translations/ro/dialogue-batch-382.validation.json",
+      "validationSha256": "b6ad7ebc2b5ceefb229e3c38640dcf40ddec7e6b092f766bb8290b9619311f13"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-383.json",
+      "sha256": "715777b14b71b45f65f9e3accc6a0fc68e0f2dd7fa2e99ac96f044a121c11a6e",
+      "collection": "Dialogs",
+      "rows": 24,
+      "validationPath": "Translations/ro/dialogue-batch-383.validation.json",
+      "validationSha256": "5af32ac7ce0ebfc25b30043beeefcdd07e5e53ea6b0952f765fc8bd6b5f1d962"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-384.json",
+      "sha256": "5bb919d577058e73a62190986adc59bc410ef3ed0b1f2198c4ab60948854f54c",
+      "collection": "Dialogs",
+      "rows": 19,
+      "validationPath": "Translations/ro/dialogue-batch-384.validation.json",
+      "validationSha256": "a6d27287827bff3baaf010aab34fb2da5d7bb2ef12d9f9a9dae4f88c17b26603"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-385.json",
+      "sha256": "ffcee9ba50159ae752a0516582ef3ddf69ce5c7729174de5ef0bd74894cead21",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-385.validation.json",
+      "validationSha256": "96725e2ab5c66ba339a47547446f5f6d0d52b235a1579dfe8051b76001a323ba"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-386.json",
+      "sha256": "073a45a965c45cc864a193c9d48d63b386c716f7b7a62c452f67c8bcc7c08a6f",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-386.validation.json",
+      "validationSha256": "34e5698cd57f56b92ef05346bc355ac1e7c4dff83c51f29857caf7c9f158642d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-387.json",
+      "sha256": "9efc731b6084f2914e2dda29f566df1fdf16661a56292128cac0e7291a2fde41",
+      "collection": "Dialogs",
+      "rows": 40,
+      "validationPath": "Translations/ro/dialogue-batch-387.validation.json",
+      "validationSha256": "d44ac7f042fb71a5edb2f5da50afbb227fcb795ce35454e6c3558731aa2ba365"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-388.json",
+      "sha256": "651df3f75d48ad827b9252ade406d019e93ecafb405b43b238450ff3e1c16422",
+      "collection": "Dialogs",
+      "rows": 38,
+      "validationPath": "Translations/ro/dialogue-batch-388.validation.json",
+      "validationSha256": "c770ee92678b848c15a1ccb816636d46526f8fa22b0e9d3dec54a74dab19bc8a"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-389.json",
+      "sha256": "0185ab550a444abb8a15f9caa43d9ea3a4a9725f51898a014e6e58d2ea713607",
+      "collection": "Dialogs",
+      "rows": 23,
+      "validationPath": "Translations/ro/dialogue-batch-389.validation.json",
+      "validationSha256": "190c2f43a6d20cf04f46157838484ae9ab267f83c94a358e3e5bd83e9763fbf4"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-390.json",
+      "sha256": "5aaf2a6750300ec670634a721baf4efc25e1fd6776fe5b058921e2618222e1f1",
+      "collection": "Dialogs",
+      "rows": 20,
+      "validationPath": "Translations/ro/dialogue-batch-390.validation.json",
+      "validationSha256": "ff34c3756fea258fbeda9fc226045bbb1fe032141db61acf217669689ca1ced3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-391.json",
+      "sha256": "0f64d7588350762c7cda9d561a36a3dc2816db545c306de505754170b041200f",
+      "collection": "Dialogs",
+      "rows": 36,
+      "validationPath": "Translations/ro/dialogue-batch-391.validation.json",
+      "validationSha256": "5933f9ab288feb8536938e7f3045b06d905b21b0f04b545dcfc03af59d5e4fca"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-392.json",
+      "sha256": "953566cf2b04e11284f507dee96e7884a1cfcc85df4bcd7004c4c13c1b367bef",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-392.validation.json",
+      "validationSha256": "56db4e1578ca96afa67eba34d9e313a103b987e94bb3e8a8264c627136738b01"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-393.json",
+      "sha256": "75583bd54388c915f0917ac6e59a59d6d13a3e8a5c38d4073e14cfe303a4fb2a",
+      "collection": "Dialogs",
+      "rows": 26,
+      "validationPath": "Translations/ro/dialogue-batch-393.validation.json",
+      "validationSha256": "8a918b1c65e5de27450463c9a6117b83a20631b68095c8f76b14fd3c58a281fc"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-394.json",
+      "sha256": "377e6ca7d46e21613ae20e9a34ad5b5e7e7d147a909de71e057e7025fb40ba80",
+      "collection": "Dialogs",
+      "rows": 57,
+      "validationPath": "Translations/ro/dialogue-batch-394.validation.json",
+      "validationSha256": "7a37e80b036812e9e05f0b795ca062105abe5fb2296c504a7444d15d8fd1c25f"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-395.json",
+      "sha256": "b7e4a267fcc183201139cde4b7e117ce92550704cc086bb54e9d195c15f1528c",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-395.validation.json",
+      "validationSha256": "573f541e10bfc813906a46501f397fce245e8e85444d5585541105b7ad92d930"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-396.json",
+      "sha256": "16e2de97659d8777ba058b41e2675a7261858da0be3a91f9f5858980d67337a3",
+      "collection": "Dialogs",
+      "rows": 39,
+      "validationPath": "Translations/ro/dialogue-batch-396.validation.json",
+      "validationSha256": "24e9dd29503f8d12acab43d25c3dd8503e03cbae1a7fbe0f4c9282ebac8abdd3"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-397.json",
+      "sha256": "b82d8485253ad00e70cacbe9f7bc4eefd220af08b0e40709bea950cd1645021f",
+      "collection": "Dialogs",
+      "rows": 25,
+      "validationPath": "Translations/ro/dialogue-batch-397.validation.json",
+      "validationSha256": "ae990d960ef4afa2959137a94cca4fea48d885e2f5408e3aaf5e610ffb291702"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-398.json",
+      "sha256": "ba770bb48a6e932bd7b47344ea8c0b6d01f9669a9d72dcd890a872774bf2fa85",
+      "collection": "Dialogs",
+      "rows": 44,
+      "validationPath": "Translations/ro/dialogue-batch-398.validation.json",
+      "validationSha256": "bfca7f5268fb29756f3cb8be9859496aa302a991dfe091247ef8261dcbcc5995"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-399.json",
+      "sha256": "1e5be801d839acf6557e2fd9183c7b9e99a79acb55bdcd13320fb44136cb358e",
+      "collection": "Dialogs",
+      "rows": 28,
+      "validationPath": "Translations/ro/dialogue-batch-399.validation.json",
+      "validationSha256": "c8cba18dd47e73a9cce1be246749b56a211e91672d09c17b193d2ba5dd4cc441"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-400.json",
+      "sha256": "eb068dfdb5448b5e3d4310960316a5b43a68184d1d1a561a466180060a2d3c99",
+      "collection": "Dialogs",
+      "rows": 33,
+      "validationPath": "Translations/ro/dialogue-batch-400.validation.json",
+      "validationSha256": "daac11013435a1f8c54ee406d57da5916bb35651cd78411a2a5b46d24d4ea87d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-401.json",
+      "sha256": "fab2f4b3ad0e79145851311c9874e688bdcbc7bee41b554705cb21c9d433e70a",
+      "collection": "Dialogs",
+      "rows": 41,
+      "validationPath": "Translations/ro/dialogue-batch-401.validation.json",
+      "validationSha256": "f8cf6da545d201750359fcf6a579bd80bd9d5443c34dbc1bd3e96557fdd4cc0d"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-402.json",
+      "sha256": "d65ced30ba5374a15a0d830b72109b46569525a9c59394349a05718e67412f11",
+      "collection": "Dialogs",
+      "rows": 18,
+      "validationPath": "Translations/ro/dialogue-batch-402.validation.json",
+      "validationSha256": "a80af1c080c14e79b01dd41d19bc0b1f7126ca5738d32de72bfbc3f69e1e719c"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-403.json",
+      "sha256": "553a5994a0f996a11b8dd52c05cec975ced7bc47e27456438b30c1b19b9f0567",
+      "collection": "Dialogs",
+      "rows": 29,
+      "validationPath": "Translations/ro/dialogue-batch-403.validation.json",
+      "validationSha256": "a095694b5a865ced6a820cd64afd333758577dd92f6ab76998def11ea1faeef8"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-404.json",
+      "sha256": "f9f829942f5baf89f31ad237d4cee4c565056c971b6fffe051523bdb2f134aee",
+      "collection": "Dialogs",
+      "rows": 37,
+      "validationPath": "Translations/ro/dialogue-batch-404.validation.json",
+      "validationSha256": "5c3e9e1fd31d735b65c05c1fd7587913a03434bb76740d929fd789a8733cfd95"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-405.json",
+      "sha256": "a999fcc697b70fdcb526eda9c90b4dd9ca2a63c8a7792baec581d8e9e7801c93",
+      "collection": "Dialogs",
+      "rows": 32,
+      "validationPath": "Translations/ro/dialogue-batch-405.validation.json",
+      "validationSha256": "c66a0611e2dc3a5734b5af413bd21041c3bbad03535ff0e8ce775829a110bb15"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-406.json",
+      "sha256": "84b40c53f8377ec815b6a2d66ece2dd5b78d68acc216ecb9da872a7703f083eb",
+      "collection": "Dialogs",
+      "rows": 22,
+      "validationPath": "Translations/ro/dialogue-batch-406.validation.json",
+      "validationSha256": "47c2fabe5973e4b4d80de18b2cdc4fc62064cb803f0b94c1f698e1691a7e8d57"
+    },
+    {
+      "path": "Translations/ro/dialogue-batch-407.json",
+      "sha256": "bbcf01de745beafad5369e9039a05507e77416fef0ff96f760e9742c40902375",
+      "collection": "Dialogs",
+      "rows": 27,
+      "validationPath": "Translations/ro/dialogue-batch-407.validation.json",
+      "validationSha256": "9af5b17aaf05eb7adae08cd3e669c2d00c0c8aab65f27937c687aaae1a340776"
+    },
+    {
+      "path": "Translations/ro/ui-batch-001.json",
+      "sha256": "13e0338fead15e61496bdb68746e84f6a732bbfed90487f940b044a83041b962",
+      "collection": "UI",
+      "rows": 50,
+      "validationPath": "Translations/ro/ui-batch-001.validation.json",
+      "validationSha256": "df0e40963abdfa6801900e2edea0a833ec718f6d9213afcd22ab9c33af0c0a49"
+    },
+    {
+      "path": "Translations/ro/ui-batch-002.json",
+      "sha256": "63cab27521fc63a3eba18f1c140dccfb7d7fb7f79e7b68523239f84770cacacf",
+      "collection": "UI",
+      "rows": 48,
+      "validationPath": "Translations/ro/ui-batch-002.validation.json",
+      "validationSha256": "0d712b0c9ab9f0c5e16fa7a15d3ce7e4ee981162e38b271977bddd47001be1be"
+    },
+    {
+      "path": "Translations/ro/ui-batch-003.json",
+      "sha256": "e970c25fa491ee4ab5bbec5526fc6871745cb3d94e2fd0fa317b0b9302f3e60b",
+      "collection": "UI",
+      "rows": 50,
+      "validationPath": "Translations/ro/ui-batch-003.validation.json",
+      "validationSha256": "855855ddadb52931a05eedab111cdf3774270ce6a06aa06048ff7c6a8d13dbc1"
+    },
+    {
+      "path": "Translations/ro/ui-batch-004.json",
+      "sha256": "e1e6f82b9af009147d586e48befee8b58cd82525ede1413a0dbfccad26f99650",
+      "collection": "UI",
+      "rows": 60,
+      "validationPath": "Translations/ro/ui-batch-004.validation.json",
+      "validationSha256": "19299927a654d14242d3457ed241bda3398fce83a5849be39fe096167796b3ee"
+    },
+    {
+      "path": "Translations/ro/ui-batch-005.json",
+      "sha256": "edb7f5631665c62b3f1037123c49e3c979ddd807964c8d26fdee631cb137bd59",
+      "collection": "UI",
+      "rows": 49,
+      "validationPath": "Translations/ro/ui-batch-005.validation.json",
+      "validationSha256": "db79e953fc90994d5ea51b3483d1c112eb0203629719eb4564c19784cf37f9a7"
+    },
+    {
+      "path": "Translations/ro/ui-batch-006.json",
+      "sha256": "12239f31e635b09ddb335802e15961c761aac8f4992694c8099a392fb2adf9e5",
+      "collection": "UI",
+      "rows": 2,
+      "validationPath": "Translations/ro/ui-batch-006.validation.json",
+      "validationSha256": "df7035dd80f5f5c71fe157fc779c7bef12128e478aee8f6f10baae1c6396b2c6"
+    }
+  ],
+  "checks": {
+    "batchStructural": "passed for all 414 batches after 54 affected batch sidecars were regenerated with .venv/bin/python Scripts/validate_game_text_batch.py",
+    "repeatExpansion": "passed: dialogue batches 001 and 005 reproduce exactly from 31 and 48 authored Romanian phrases",
+    "partialPreserveExact": "full post-correction003 16538-unit exact contract passed; read-only project command returned ro 16538/16538 validated=16538 observed=16538 problems=0",
+    "fullSemanticAudit": "passed first source-to-target pass for all 16538 accepted units on pinned pre-correction targets; 71 objective findings were adjudicated and applied in one batch; immutable first-pass evidence retained",
+    "independentDiffAudit": "review02 completed 1403/1403 exact delta plus 41 supplemental full pairs and proposed five corrections; author applied all five in one batch; next five-ID delta awaits a distinct reviewer",
+    "runtime": "not run under owner text-first instruction",
+    "matchedSupplementalLine": "Esenin line has identical Romanian wording in selected Dialogs and ChecksDialogs rows",
+    "immediateEditing": "drafted and immediately edited Anger, Mother, Wheelchair and Firefighter dialogue in batches 401-407 plus 178 static TMP fields; checked context, glossary, speaker attribution, repeated lines, exact spans and credits role labels; complete semantic audit and independent diff review pending",
+    "staticStructural": "passed for 178/178 supplemental static TMP rows after .venv/bin/python Scripts/validate_static_text_draft.py"
+  },
+  "stages": {
+    "scope": "passed",
+    "probe": "unverified beyond existing menu and Settings binding",
+    "source": "accepted for authored text and editorial review; runtime reachability conditional",
+    "glossary": "passed on pinned Romanian layer",
+    "translate-edit": "16538/16538 authored; 71 first-pass, 278 cycle002 and five cycle003 target corrections applied; editorial acceptance pending",
+    "editorial": "first full semantic pass and two independent delta reviews completed; cycle003 exact five-ID delta requires a distinct independent review",
+    "resources": "not in text-only scope; final font suitability unverified",
+    "package": "not in text-only scope",
+    "runtime": "not run under text-first order",
+    "delivery": "pending independent cycle003 review, technical/runtime gates and coordinator integration"
+  },
+  "sharedChangeProposal": "Documentation/ro-shared-validator-proposal.md",
+  "nextAction": "Root assigns a distinct independent reviewer to Translations/ro/correction-cycle-003-handoff.md and immutable correction-cycle-003-closure (4498 IDs). Review the exact five-ID delta, affected compiled branches, three washing units, six successful transfer responses and mandatory catalog; record objective findings or a clean unchanged-hash result. Historical five-file preimage parity remains unverified without genuine old bytes. Runtime and integration remain outside this author pass.",
+  "integration": "Romanian files only; no Git index, commit, push, publication or deployment by this chat",
+  "tokenUsage": "unavailable from this session; no estimate substituted",
+  "authoredMaps": [
+    {
+      "path": "Translations/ro/dialogue-repeats-001.authored.json",
+      "sha256": "f28f51f1f72f77a7e9c2899bb1f91cf7a3d577d6c6f7ef2ccf2750e94e3fd748"
+    },
+    {
+      "path": "Translations/ro/dialogue-repeats-002.authored.json",
+      "sha256": "636e401020bd0017cba06f1b072ae417458c8a66b78a29d89bd5d0cc8105f06c"
+    }
+  ],
+  "preAuditCorrections": [
+    {
+      "reason": "Applied approved glossary visitors=Musafiri (not Oaspeți) to four targets that had been accepted in prior batch receipts; all three touched batches were revalidated and their receipt hashes replaced in this checkpoint.",
+      "sourceGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+      "ids": [
+        110504453386346498,
+        110504453306654724,
+        110504453298266112,
+        110504453268905991
+      ],
+      "batchPaths": [
+        "Translations/ro/dialogue-batch-314.json",
+        "Translations/ro/dialogue-batch-316.json",
+        "Translations/ro/dialogue-batch-317.json"
+      ],
+      "previousBatchSha256": [
+        "7a463269cfa300f76dbe882a280440e37a2f6d623585a1f808ecb53b0de8f357",
+        "4051e5bbbb409dfdebf39d6ba732040288c7b7ab90ec85bf62464e80777e1990",
+        "73e08bd094bb48a9bcb5834194565cbada93dc919def9a322099823658f11e2a"
+      ],
+      "status": "corrected and structurally revalidated; full semantic and independent diff audits pending"
+    },
+    {
+      "reason": "Removed an added conjunction from the ten repeated static instances of the comic service name, preserving the source apposition. Static validation and the full exact-span gate were rerun.",
+      "ids": [
+        "tmp:level1:3856:m_text",
+        "tmp:level1:3892:m_text",
+        "tmp:level1:3939:m_text",
+        "tmp:level1:3981:m_text",
+        "tmp:level1:3989:m_text",
+        "tmp:level1:3997:m_text",
+        "tmp:level1:4087:m_text",
+        "tmp:level1:4135:m_text",
+        "tmp:level1:4218:m_text",
+        "tmp:level1:5014:m_text"
+      ],
+      "previousStaticDraftSha256": "8be3382a59f405ce1ad2eaa067038ddde89a0df28a1f25a55a45683fd1f4c87f",
+      "newStaticDraftSha256": "f3f35cb493a966c4aac0a439277293a14e20d68483e6581abcd66106bffac270",
+      "status": "corrected and structurally revalidated; full semantic and independent diff audits pending"
+    }
+  ],
+  "staticDraft": {
+    "path": "Translations/ro/static-text-draft.json",
+    "sha256": "aa4ce9d5d9cf1e355adc85468646547eba2b798fbea0bf96e693e5bc67530f5c",
+    "validationPath": "Translations/ro/static-text-draft.validation.json",
+    "validationSha256": "86b60ac72295c2514fce7c2b57c5d96e65de282c84eda9ed7b549b475242d75a",
+    "rows": 178,
+    "creditsRoleMapPath": "Translations/ro/credits-role-map.json",
+    "creditsRoleMapSha256": "f7ef4340a6b004f5e057edf64beaa4820182161e3f88ed92ae891395eca82336"
+  },
+  "fullExactGate": {
+    "path": "Translations/ro/correction-cycle-001-full-exact.validation.json",
+    "sha256": "22da2efe204ddebe406e0dd6cf94d5aea145f97d26766d6c0d543b74119dd655",
+    "checkedRows": 16538,
+    "result": "passed",
+    "method": "post-correction all-target preserve_exact.check_value plus Scripts/report_locale_readiness.py --exact --compact; no shared state write"
+  },
+  "correctionCycle001": {
+    "status": "author correction handoff ready; independent review pending",
+    "firstPassProgressPath": "Translations/ro/semantic-review-progress.json",
+    "firstPassProgressSha256": "784cb66888d3001f252a79a1be4b79daa93ff83211c4a6fb88db818bc9ca904b",
+    "findingsParts": 46,
+    "objectiveFindings": 71,
+    "acceptedCorrections": 71,
+    "changedIds": 71,
+    "closureIds": 3090,
+    "planPath": "Translations/ro/correction-cycle-001-plan.json",
+    "planSha256": "df9f621aeff88bbbc4b43d25b0ae53ddceb24cbb91fb0517248ceefbd480bfe0",
+    "closureManifestPath": "Translations/ro/correction-cycle-001-closure-v3/manifest.json",
+    "closureManifestSha256": "7254db26ef4cd24b881a7afb4519bf31f17fb8c6c1c1d799c85c21d43c3faf88",
+    "handoffPath": "Translations/ro/correction-cycle-001-handoff.md",
+    "handoffSha256": "6d12dbe5dc5de159528eebef6a61d14f452c31714507050c52e4ccdec36cf931",
+    "sourceFindingPath": "Translations/ro/source-findings-cycle-001.json",
+    "sourceFindingSha256": "1a61c4dfe1eabd380efa37f565958e3ae2220b1693cba4f7db8366ae8ac76667",
+    "affectedAuthoredFiles": 55,
+    "affectedValidators": "55 passed",
+    "independentReview": "not run",
+    "runtime": "not run"
+  },
+  "remedialCycle002": {
+    "status": "author correction handoff ready; distinct independent remedial review pending",
+    "review01Path": "Translations/ro/independent-review-01/REVIEW.md",
+    "review01ResultSha256": "9384ca7ca602d6cf9e277779bf1a0cc858d9c84b41aee1ee7f5e99c2458c4e6c",
+    "review01ReviewedUnits": 3090,
+    "review01Proposals": 276,
+    "adjudicatedAcceptedCorrections": 278,
+    "adjudicatedRejectedProposals": 1,
+    "authorAddedConnectedCorrections": 3,
+    "affectedAuthoredFiles": 18,
+    "planPath": "Translations/ro/remedial-cycle-002-plan.json",
+    "planSha256": "4824a26b80a6672554204df20593339fd43b6bc7b636aa1ebe5efacf13c323bb",
+    "closureManifestPath": "Translations/ro/remedial-cycle-002-closure-v2/manifest.json",
+    "closureManifestSha256": "d2759f6fb0676d94e05235f0ae27916432afe81b9c9fb98eee4f35c11f39f3a2",
+    "closureIds": 4467,
+    "previousIndependentlyReviewedIdsRetained": 3090,
+    "exactNextReviewDeltaIds": 1403,
+    "retiredIds": 0,
+    "validationEvidencePath": "Translations/ro/remedial-cycle-002-validation-and-preimage.json",
+    "validationEvidenceSha256": "662ea7d0c48dc4c5dd38a9fb3a9b4efcdddfcc3b1b178a68611e1176a84f2636",
+    "handoffPath": "Translations/ro/remedial-cycle-002-handoff.md",
+    "handoffSha256": "0f1151aea06251e2629a6f2b4664ee08937365c53689d0139f7b9889494a7111",
+    "repeatExpansion": "2828/2828 verified; 245 document-transfer labels",
+    "affectedValidators": "18/18 passed",
+    "fullExactGate": "ro 16538/16538 validated=16538 observed=16538 problems=0",
+    "historicalFourNonTargetPreimages": "unverified; exact original bytes unavailable",
+    "currentCycleUiBatch004ReverseByteComparison": "unverified; reverse canonical serialization did not match pinned preimage hash",
+    "independentRemedialReview": "pending distinct reviewer",
+    "runtime": "not run",
+    "supersededClosure": "Translations/ro/remedial-cycle-002-closure/manifest.json: bounded reviewer excerpt omitted five compiled placements",
+    "compiledSelectedNodes": 267,
+    "sourceLinesAbsentFromPinnedCompiledProgram": [
+      12206,
+      15596
+    ]
+  },
+  "correctionCycle003": {
+    "status": "author correction handoff ready; distinct independent delta review pending",
+    "review02AuditManifestPath": "Translations/ro/independent-review-02/audit-manifest.json",
+    "review02AuditManifestSha256": "4fd6b6a5def321ce86d78edc043321ab61845104cf37a2f56fdf62ca158c2558",
+    "review02ExactDeltaReads": 1403,
+    "review02SupplementalContextReads": 41,
+    "review02ObjectiveProposals": 5,
+    "acceptedFullUnitCorrections": 5,
+    "affectedAuthoredFiles": 4,
+    "planPath": "Translations/ro/correction-cycle-003-plan.json",
+    "planSha256": "9e9cee8ce56ab2fcf20549a505cc193ce0993eb9d6fb4b53566550f358bced29",
+    "closureManifestPath": "Translations/ro/correction-cycle-003-closure/manifest.json",
+    "closureManifestSha256": "451443f38751fb62953c2d37522077dc85a49a6a6f3a51f7167db55bbf544de3",
+    "closureIds": 4498,
+    "previousIndependentlyReviewedClosureIdsRetained": 4467,
+    "cleanSupplementalOutsidePriorClosure": 30,
+    "nextExactDeltaIds": 5,
+    "retiredPriorIds": 0,
+    "validationPath": "Translations/ro/correction-cycle-003-validation.json",
+    "validationSha256": "76a3d12de65ffd6f3f10cee36483aede1bcc08e9be3ab6d0b029a03564edf490",
+    "handoffPath": "Translations/ro/correction-cycle-003-handoff.md",
+    "handoffSha256": "5dcee89f9e40be884111792af74c25545c1f865abf9aff09a4201b4c3a7db230",
+    "repeatExpansion": "2828/2828 verified; 245 document transfer labels; maps unchanged",
+    "affectedValidators": "4/4 passed",
+    "fullExactGate": "ro 16538/16538 validated=16538 observed=16538 problems=0",
+    "historicalFiveNonTargetPreimages": "unverified exact original bytes; current parsed schema/version/ID/source/target alignment verified",
+    "currentCyclePreapplicationByteReconstruction": "4/4 exact whole-file matches after reversing five target fields",
+    "independentRemedialReview": "pending distinct reviewer",
+    "runtime": "not run"
+  }
+}

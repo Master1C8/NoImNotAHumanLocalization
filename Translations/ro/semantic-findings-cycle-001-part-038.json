@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 14769-14877",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-014769-014877.jsonl",
+  "reviewedRowsSha256": "4956e969c7438d949094db2375673b44b914a0e87d12917b54d8394e2bf14ba5",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452308410376",
+      "ordinal": 14824,
+      "key": "line:Bestson_Hands_Gun_078fdc1",
+      "source": "Bestson: Эй, да что ты… Они ведь нормальные, да?",
+      "currentTarget": "Bestson: Hei, dar ce faci… Sunt normali, nu?",
+      "reason": "The Russian plural refers to his hands, but Romanian mâinile requires feminine plural normale rather than normali.",
+      "proposedTarget": "Bestson: Hei, dar ce faci… Sunt normale, nu?",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452300021771",
+      "ordinal": 14845,
+      "key": "line:Bestson_Armpit_0e2903e",
+      "source": "Bestson: Я их никогда не брил. Даже не думал об этом.",
+      "currentTarget": "Bestson: Nu i-am ras niciodată. Nici nu mi-a trecut prin cap.",
+      "reason": "The inspected armpits are feminine plural axile in Romanian; i-am uses the wrong masculine object clitic.",
+      "proposedTarget": "Bestson: Nu le-am ras niciodată. Nici nu mi-a trecut prin cap.",
+      "status": "proposed; authored file unchanged"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452295827464",
+      "ordinal": 14860,
+      "key": "line:Bestson_Hands_0d6d142",
+      "source": "Bestson: Обычные. Ну, наверное, обычные.",
+      "currentTarget": "Bestson: Obișnuiți. Cred că-s obișnuiți.",
+      "reason": "In the hands inspection, the plural refers to mâinile; Romanian requires feminine plural obișnuite rather than obișnuiți.",
+      "proposedTarget": "Bestson: Obișnuite. Cred că-s obișnuite.",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

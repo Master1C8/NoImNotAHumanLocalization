@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 9993-10131",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-009993-010131.jsonl",
+  "reviewedRowsSha256": "b4735fb410046b4bd4dd39901e74e92121462e9c11e592546605a38ac53785be",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454489448456",
+      "ordinal": 10042,
+      "key": "line:Scammer_Asking_2_3_5_09d677c",
+      "source": "Scammer: Короче, иди на хуй, а я домой.",
+      "currentTarget": "Scammer: Pe scurt, du-te dracu’, eu plec acasă.",
+      "reason": "The explicit Russian «иди на хуй» is rendered as the milder «du-te dracu’» here, while the same dismissal in the nearby branch at ordinal 10048 is rendered «du-te-n pula mea». Preserve the Scammer’s deliberate coarse register consistently across equivalent branches.",
+      "proposedTarget": "Scammer: Pe scurt, du-te-n pula mea, eu plec acasă.",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}

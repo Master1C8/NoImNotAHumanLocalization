@@ -1,0 +1,969 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "matchesOriginalCorpusPin": true,
+  "methods": [
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "get_Priority",
+      "rva": 37220,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "get_Ending",
+      "rva": 170514,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldc.i4.s",
+          "operand": "9"
+        },
+        {
+          "offset": 3,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "get_AreConditionsMet",
+      "rva": 170518,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 7,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HasWatchedMushroomClock"
+        },
+        {
+          "offset": 12,
+          "op": "brfalse.s",
+          "operand": "21"
+        },
+        {
+          "offset": 14,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "op": "ldfld",
+          "operand": "Field:_cartoonUnlocked"
+        },
+        {
+          "offset": 20,
+          "op": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "op": "ldc.i4.0",
+          "operand": "None"
+        },
+        {
+          "offset": 22,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "TriggerInner",
+      "rva": 16860,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "InitModules",
+      "rva": 170541,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 3,
+          "op": "stfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 8,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 9,
+          "op": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 10,
+          "op": "stfld",
+          "operand": "Field:_stateObjectController"
+        },
+        {
+          "offset": 15,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 16,
+          "op": "ldarg.3",
+          "operand": "None"
+        },
+        {
+          "offset": 17,
+          "op": "stfld",
+          "operand": "Field:_dayNightController"
+        },
+        {
+          "offset": 22,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "WatchClock",
+      "rva": 170564,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 7,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HasWatchedMushroomClock"
+        },
+        {
+          "offset": 12,
+          "op": "brtrue.s",
+          "operand": "26"
+        },
+        {
+          "offset": 14,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 20,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "op": "callvirt",
+          "operand": "MethodDef:set_HasWatchedMushroomClock"
+        },
+        {
+          "offset": 26,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "FindApple",
+      "rva": 170591,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 7,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "op": "callvirt",
+          "operand": "MethodDef:set_HasFoundMushroomApple"
+        },
+        {
+          "offset": 13,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 14,
+          "op": "ldfld",
+          "operand": "Field:_stateObjectController"
+        },
+        {
+          "offset": 19,
+          "op": "ldc.i4.6",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 22,
+          "op": "ldfld",
+          "operand": "Field:_dayNightController"
+        },
+        {
+          "offset": 27,
+          "op": "callvirt",
+          "operand": "MethodDef:get_Day"
+        },
+        {
+          "offset": 32,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 33,
+          "op": "add",
+          "operand": "None"
+        },
+        {
+          "offset": 34,
+          "op": "callvirt",
+          "operand": "MethodDef:SetStateDelayed"
+        },
+        {
+          "offset": 39,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "EatMushroom",
+      "rva": 170631,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 7,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "op": "callvirt",
+          "operand": "MethodDef:set_HasEatenMushroom"
+        },
+        {
+          "offset": 13,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 14,
+          "op": "ldfld",
+          "operand": "Field:_stateObjectController"
+        },
+        {
+          "offset": 19,
+          "op": "ldc.i4.5",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 22,
+          "op": "ldfld",
+          "operand": "Field:_dayNightController"
+        },
+        {
+          "offset": 27,
+          "op": "callvirt",
+          "operand": "MethodDef:get_Day"
+        },
+        {
+          "offset": 32,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 33,
+          "op": "add",
+          "operand": "None"
+        },
+        {
+          "offset": 34,
+          "op": "callvirt",
+          "operand": "MethodDef:SetStateDelayed"
+        },
+        {
+          "offset": 39,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "OpenHatch",
+      "rva": 170671,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 7,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "op": "callvirt",
+          "operand": "MethodDef:set_HatchOpened"
+        },
+        {
+          "offset": 13,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "CheckCondition",
+      "rva": 170688,
+      "instructions": [
+        {
+          "offset": 12,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "op": "switch",
+          "operand": "[32, 46, 60]"
+        },
+        {
+          "offset": 30,
+          "op": "br.s",
+          "operand": "90"
+        },
+        {
+          "offset": 32,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 33,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 38,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HatchOpened"
+        },
+        {
+          "offset": 43,
+          "op": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 44,
+          "op": "br.s",
+          "operand": "101"
+        },
+        {
+          "offset": 46,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 47,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 52,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HatchOpened"
+        },
+        {
+          "offset": 57,
+          "op": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 58,
+          "op": "br.s",
+          "operand": "101"
+        },
+        {
+          "offset": 60,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 61,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 66,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HatchOpened"
+        },
+        {
+          "offset": 71,
+          "op": "brfalse.s",
+          "operand": "86"
+        },
+        {
+          "offset": 73,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 74,
+          "op": "ldfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 79,
+          "op": "callvirt",
+          "operand": "MethodDef:get_HasWatchedMushroomClock"
+        },
+        {
+          "offset": 84,
+          "op": "br.s",
+          "operand": "87"
+        },
+        {
+          "offset": 86,
+          "op": "ldc.i4.0",
+          "operand": "None"
+        },
+        {
+          "offset": 87,
+          "op": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 88,
+          "op": "br.s",
+          "operand": "101"
+        },
+        {
+          "offset": 90,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 91,
+          "op": "box",
+          "operand": "TypeRef:Int32"
+        },
+        {
+          "offset": 96,
+          "op": "call",
+          "operand": "MethodDef:ThrowSwitchExpressionException"
+        },
+        {
+          "offset": 101,
+          "op": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 102,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "ReinitSaveData",
+      "rva": 170791,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 3,
+          "op": "stfld",
+          "operand": "Field:_saveData"
+        },
+        {
+          "offset": 8,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": "UnlockCartoon",
+      "rva": 170800,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 3,
+          "op": "stfld",
+          "operand": "Field:_cartoonUnlocked"
+        },
+        {
+          "offset": 8,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "GameplayEndingMushroom",
+      "method": ".ctor",
+      "rva": 167894,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "call",
+          "operand": "MethodDef:.ctor"
+        },
+        {
+          "offset": 7,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "GetCharacterOnPlace",
+      "rva": 285340,
+      "instructions": [
+        {
+          "offset": 12,
+          "op": "newobj",
+          "operand": "MethodDef:.ctor"
+        },
+        {
+          "offset": 17,
+          "op": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 18,
+          "op": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 19,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "op": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "op": "call",
+          "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x10bcfe700>"
+        },
+        {
+          "offset": 26,
+          "op": "stfld",
+          "operand": "Field:character"
+        },
+        {
+          "offset": 31,
+          "op": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 32,
+          "op": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 37,
+          "op": "ldfld",
+          "operand": "Field:_charactersSODataProvider"
+        },
+        {
+          "offset": 42,
+          "op": "callvirt",
+          "operand": "MethodDef:get_CharactersData"
+        },
+        {
+          "offset": 47,
+          "op": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 48,
+          "op": "ldftn",
+          "operand": "MethodDef:<GetCharacterOnPlace>b__0"
+        },
+        {
+          "offset": 54,
+          "op": "newobj",
+          "operand": "MemberRef:.ctor"
+        },
+        {
+          "offset": 59,
+          "op": "call",
+          "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x10bcc3190>"
+        },
+        {
+          "offset": 64,
+          "op": "stfld",
+          "operand": "Field:characterData"
+        },
+        {
+          "offset": 69,
+          "op": "ldstr",
+          "operand": "characterName_"
+        },
+        {
+          "offset": 74,
+          "op": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 79,
+          "op": "ldfld",
+          "operand": "Field:_charactersManager"
+        },
+        {
+          "offset": 84,
+          "op": "callvirt",
+          "operand": "MethodDef:get_CharactersInside"
+        },
+        {
+          "offset": 89,
+          "op": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 90,
+          "op": "ldftn",
+          "operand": "MethodDef:<GetCharacterOnPlace>b__1"
+        },
+        {
+          "offset": 96,
+          "op": "newobj",
+          "operand": "MemberRef:.ctor"
+        },
+        {
+          "offset": 101,
+          "op": "call",
+          "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x10bcfe850>"
+        },
+        {
+          "offset": 106,
+          "op": "stloc.1",
+          "operand": "None"
+        },
+        {
+          "offset": 107,
+          "op": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 109,
+          "op": "constrained.",
+          "operand": "TypeDef:ECharacterType"
+        },
+        {
+          "offset": 115,
+          "op": "callvirt",
+          "operand": "MemberRef:ToString"
+        },
+        {
+          "offset": 120,
+          "op": "call",
+          "operand": "MemberRef:Concat"
+        },
+        {
+          "offset": 125,
+          "op": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 130,
+          "op": "call",
+          "operand": "MethodSpec:<dnfile.codedindex.MethodDefOrRef object at 0x10bc9d430>"
+        },
+        {
+          "offset": 135,
+          "op": "call",
+          "operand": "MethodDef:GetLocalization"
+        },
+        {
+          "offset": 140,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__0",
+      "rva": 286466,
+      "instructions": [
+        {
+          "offset": 1,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 2,
+          "op": "callvirt",
+          "operand": "MethodDef:get_CharacterType"
+        },
+        {
+          "offset": 7,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 8,
+          "op": "ldfld",
+          "operand": "Field:character"
+        },
+        {
+          "offset": 13,
+          "op": "ceq",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__1",
+      "rva": 286484,
+      "instructions": [
+        {
+          "offset": 12,
+          "op": "ldsfld",
+          "operand": "Field:_instance"
+        },
+        {
+          "offset": 17,
+          "op": "ldfld",
+          "operand": "Field:_charactersManager"
+        },
+        {
+          "offset": 22,
+          "op": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 23,
+          "op": "callvirt",
+          "operand": "MethodDef:GetPlace"
+        },
+        {
+          "offset": 28,
+          "op": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 29,
+          "op": "ldfld",
+          "operand": "Field:characterData"
+        },
+        {
+          "offset": 34,
+          "op": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 35,
+          "op": "brtrue.s",
+          "operand": "49"
+        },
+        {
+          "offset": 37,
+          "op": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 38,
+          "op": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 40,
+          "op": "initobj",
+          "operand": "0x1b000197"
+        },
+        {
+          "offset": 46,
+          "op": "ldloc.1",
+          "operand": "None"
+        },
+        {
+          "offset": 47,
+          "op": "br.s",
+          "operand": "59"
+        },
+        {
+          "offset": 49,
+          "op": "call",
+          "operand": "MethodDef:get_Place"
+        },
+        {
+          "offset": 54,
+          "op": "newobj",
+          "operand": "MemberRef:.ctor"
+        },
+        {
+          "offset": 59,
+          "op": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 60,
+          "op": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 62,
+          "op": "call",
+          "operand": "MemberRef:GetValueOrDefault"
+        },
+        {
+          "offset": 67,
+          "op": "ceq",
+          "operand": "None"
+        },
+        {
+          "offset": 69,
+          "op": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 71,
+          "op": "call",
+          "operand": "MemberRef:get_HasValue"
+        },
+        {
+          "offset": 76,
+          "op": "and",
+          "operand": "None"
+        },
+        {
+          "offset": 77,
+          "op": "ret",
+          "operand": "None"
+        }
+      ]
+    }
+  ]
+}

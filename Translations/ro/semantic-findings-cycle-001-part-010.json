@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "locale": "ro",
+  "auditCycle": 1,
+  "correctionBatch": 1,
+  "scope": "first complete semantic pass, canonical ordinals 4420-4659",
+  "sourceManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossarySha256": "c67cc629aa173a6710090c12cb5ccfea5adb0bbeb0136fc5df06039196b499c9",
+  "reviewedRowsPath": "Translations/ro/semantic-review-rows-004420-004659.jsonl",
+  "reviewedRowsSha256": "e2102abff6e062a2afa76295922e609cc140c7050116f9350de9eba1719af866",
+  "findings": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456418828294",
+      "ordinal": 4549,
+      "key": "line:entrance_wifefema_07f8656",
+      "source": "Кем работает ваш муж?",
+      "currentTarget": "Unde lucrează soțul dumneavoastră?",
+      "reason": "The question «Кем работает ваш муж?» asks what occupation or role her husband has. Romanian «Unde lucrează…?» instead asks where he works, changing the question type. The nearby earlier-job question at ordinal 4537 correctly uses «Cu ce se ocupa…».",
+      "proposedTarget": "Cu ce se ocupă soțul dumneavoastră?",
+      "status": "proposed; authored file unchanged"
+    }
+  ]
+}
