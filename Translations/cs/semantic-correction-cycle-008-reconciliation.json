@@ -1,0 +1,67 @@
+{
+  "kind": "cs-cycle-008-exact-delta-reconciliation",
+  "dateUtc": "2026-10-10T07:47:58.898036+00:00",
+  "priorIndependentClosurePath": "Translations/cs/semantic-correction-cycle-007-closure.json",
+  "priorIndependentClosureSha256": "48d1007909017d043c6814d3d41aba65aff3445549a95b1fdf92f41125107317",
+  "review03VerdictSha256": "8d4d424acde72450f94e8fc0127e9290b22516781846ba08396b9260830e1af8",
+  "review03ManifestSha256": "a478dfc381edcf0290f74860eb5662a2eddcaa30c6b41e5a3bedb1f1cf921b0b",
+  "currentClosurePath": "Translations/cs/semantic-correction-cycle-008-closure.json",
+  "currentClosureSha256": "08d61cdd3931b65f1e7db05d055611f7237a9fdbf09e37a119fd8704de616519",
+  "selectorPath": "Translations/cs/semantic-closure-selector-v9.py",
+  "selectorSha256": "d96525c157562e2f61d87d8efd760d902abcdeb89ffae44b8976b919a4d1c72f",
+  "beforeSha256": "7c4b5059423556a40ea9e797c2c37b3e4f94620c3209aa26a7caf5acd9bfedb6",
+  "applicationSha256": "bd08cfd6ad116b022cded4de3c711cc5658ab5db712b16b09b41aef573d48399",
+  "historicalBatch020ReconciliationSha256": "9bb901716446cfd0b300309c214a566129e74f83bea7df8d0925fc5eb43c6f8a",
+  "regressionResultSha256": "9d08ed94901960fb146fa56f1208a6e881768bce17edbb62ee16b518273a1f8d",
+  "wholeCorpusReceiptSha256": "245f42dbe5f68ec0e59b3d42743fc0721c18e9c9b2ea96de22cc0ff9404ee15a",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "staticInventorySha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "glossarySha256": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "authoredFileSetSha256": "0b29b8dfb5d3423f4d05f200071a804b51aca6328a1585a3f851ea31df2093c6",
+  "acceptedUnits": 16538,
+  "previousClosureCount": 1131,
+  "currentClosureCount": 1131,
+  "correctedIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280772"
+  ],
+  "correctedIdsSha256": "378823a931ec4f3b588b38d3a307ccb5245e83b66f321773e38377c93ff4c2e0",
+  "newDependencyIds": [],
+  "retiredDependencyIds": [],
+  "explicitInvalidatedPriorIds": [],
+  "nextDeltaIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280772"
+  ],
+  "nextDeltaCount": 1,
+  "nextDeltaIdsSha256": "378823a931ec4f3b588b38d3a307ccb5245e83b66f321773e38377c93ff4c2e0",
+  "deltaFormula": "corrected current-cycle IDs union (current closure minus review03 independently reviewed closure) union explicit invalidated prior IDs; canonical accepted-ID order",
+  "closureIdsUnchanged": true,
+  "fullClosureTargetDiffIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280772"
+  ],
+  "allOther1130ClosureRowsExactUnchanged": true,
+  "committeeConceptCount": 521,
+  "mandatoryCatalogGroups": 12,
+  "mandatoryCatalogIds": 178,
+  "componentCounts": {
+    "changed": 110,
+    "context": 496,
+    "repetitions": 111,
+    "glossaryReferents": 629,
+    "runtimeBindings": 55,
+    "mandatoryRegressions": 178
+  },
+  "componentHashes": {
+    "changed": "f4fce42d2e7fdb44635fdcdd5f7f4c56d3ee0067722c74d0f406c902fffc9db3",
+    "context": "f1ec48053c597ceddc887ad72fe0f11a93ad2c18474e9e8e3318f2f686f18e48",
+    "repetitions": "e33054f9d7c17b4a81025381930a3ef8f32e9559ea61338f73d23b1fa655a5fd",
+    "glossaryReferents": "c45f7c89b5083e68e4adc504fd5cf23e5d60ecf5cc6cf7bb0c174612aa54b9f5",
+    "runtimeBindings": "2e3f962eefdec217d2ea4a2ec330acacb3f323a9730671f357a5f3480a473382",
+    "mandatoryRegressions": "9fad307d15a9b0dc72df0533edb4fb49e6d6eae833ac7ab71f3e412248847ffe"
+  },
+  "topologyGaps": [],
+  "missingAcceptedIds": [],
+  "extraIds": [],
+  "byteReproduction": "selector v9 rerun matched existing cycle008 closure exactly",
+  "limits": "No universal restart condition: source, glossary, exact grammar, runtime bindings and selector domain unchanged. Author result is not independent acceptance; runtime/visual not run."
+}

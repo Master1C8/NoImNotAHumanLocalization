@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root/cs_independent_review_03",
+  "findings": [
+    {
+      "findingId": "cs-independent-03-01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280772",
+      "key": "line:Provocateur_Asking_4_3_1_0d298a4",
+      "source": "Provocateur: Сообщу им, что вы тут устроили и насколько вы опасны. Вас упекут далеко и надолго. Вот увидите.",
+      "sourceSha256": "dd3b1a40c1eb09ece188b7541d3cbba8d83d1c476dcd166de2ff7f64246a15c3",
+      "before": "Provocateur: Řeknu jim, co jste tu provedl a jak jste nebezpečný. Zavřou vás na dlouho. Uvidíte.",
+      "beforeSha256": "12efbb42f33bb20e7c02bf4967fb680821528e750034fdd3e87d45e09b65e32e",
+      "proposedFullReplacement": "Provocateur: Řeknu jim, co jste tu provedl a jak jste nebezpečný. Zavřou vás někde daleko a na dlouho. Uvidíte.",
+      "proposedSha256": "969a848398dc829b1ed728ab49a0c1e26d3542fde7ff6a21939eb803f4415813",
+      "category": "omitted-distance",
+      "objectiveReason": "Russian Вас упекут далеко и надолго explicitly includes distance and duration. Czech Zavřou vás na dlouho retains duration but omits далеко. Restore far-away incarceration without changing the speaker, addressee, threatening modality or surrounding sentences.",
+      "compiledNodes": [
+        "Provocateur_Asking_4_3_1"
+      ],
+      "contextEvidence": "compiled-context.json: node instructions0–4; the speaker stays until the next night and will report the player to committee personnel.",
+      "authoredPath": "Translations/cs/dialogue-batch-192.json",
+      "priorDecisionDelta": "This is a new dependency in cycle007. Complete source/current pair and actual compiled node reveal the factual omission; no stylistic reopening or corpus restart.",
+      "proposalPreflight": "complete replacement passes unchanged owning preserve-exact grammar; author application still required"
+    }
+  ],
+  "objectiveFullReplacementUnits": 1,
+  "all15AppliedCorrections": "passed",
+  "scope": "one consolidated finding after all561 complete pairs; no authored mutation"
+}

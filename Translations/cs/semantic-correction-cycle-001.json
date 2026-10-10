@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-semantic-correction-cycle",
+  "locale": "cs",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+  "previousPartialEvidence": {
+    "path": "Translations/cs/semantic-pass-partial-001.json",
+    "sha256": "2e40a8bf9c37442b72e09298eb1b84073d91379d9debab531e4a6d824e22ab89"
+  },
+  "invalidatedSourceIndices": [
+    11,
+    12
+  ],
+  "changedIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641"
+  ],
+  "closureIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641"
+  ],
+  "closureComponents": {
+    "context": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641"
+    ],
+    "exactRepetitions": [],
+    "glossaryReferents": [],
+    "runtimeBindings": [
+      {
+        "nodeName": "phone_daughtersfriend_2_1_1_1",
+        "ids": [
+          "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+          "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641"
+        ]
+      }
+    ],
+    "mandatoryRegressions": [
+      "speaker prefix Phone:",
+      "question and exclamation intent"
+    ]
+  },
+  "reviewRows": [
+    {
+      "sourceIndex": 11,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360642",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_1"
+      ],
+      "source": "Phone: Идите вы куда подальше!",
+      "sourceSha256": "4556b39524d0d3e7d00dba6f6e04d77ac16fb27f44a7db2a672857b46068d15e",
+      "previousTarget": "Phone: Jděte někam!",
+      "previousTargetSha256": "496f01aabae98e5ebc59467133294073e8ccb84cf2c22ecfe9c8b8c02eb2ebab",
+      "correctedTarget": "Phone: Jděte k čertu!",
+      "correctedTargetSha256": "169ba8ee255a2b870deb039698c32534b936f250070c53cf9864eb3db4089351",
+      "reason": "Prior author edit used the adjacent numeric ID; verified source-to-ID mapping and restored the correct meaning."
+    },
+    {
+      "sourceIndex": 12,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360641",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_1_1"
+      ],
+      "source": "Phone: Ой, да зачем я перед вами вообще оправдываюсь?",
+      "sourceSha256": "49f5ea429d9b7a1d1944c33bc2a410bb263d03a38042fe13b134b2796cc07710",
+      "previousTarget": "Phone: Jděte k čertu!",
+      "previousTargetSha256": "169ba8ee255a2b870deb039698c32534b936f250070c53cf9864eb3db4089351",
+      "correctedTarget": "Phone: Proč se vám vlastně vůbec ospravedlňuju?",
+      "correctedTargetSha256": "e4a65be4de25bed75ae09e23efd07314257a9647c01da7690d752840c0d3d394",
+      "reason": "Prior author edit used the adjacent numeric ID; verified source-to-ID mapping and restored the correct meaning."
+    }
+  ],
+  "batch": "Translations/cs/dialogue-batch-001.json",
+  "batchSha256": "aa4b5a7c36f15be83f686c0f84dd7ae71bf6471a84980d5d151c1a7afe4074eb",
+  "validationSha256": "b6be4ecf846623aace0cf4f8629da13b1a33a02615046c24de934920c8154cdd",
+  "status": "author correction and structural revalidation complete; independent reviewer pending",
+  "newlineConvention": "LF"
+}

@@ -1,0 +1,46 @@
+{
+  "reviewer": "/root/cs_independent_review_01",
+  "dateUtc": "2026-10-09T19:43:33.191571+00:00",
+  "locale": "cs",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "findings; editorial acceptance pending",
+  "reviewedClosureRows": 268,
+  "reviewedRowsSha256": "6aa14425b67f564a2971f853d8881fd0ef6b1fac3274d8f53c51ea7ff2139350",
+  "reviewedCompiledContextNodes": 96,
+  "reviewedMatchingPlaceLabels": 14,
+  "primaryObjectiveDefectUnits": 7,
+  "dependentReplacementUnits": 1,
+  "needsReviewContextIds": [
+    "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139714"
+  ],
+  "regressionCatalog": "incomplete;33 pinned IDs read but coverage omissions remain",
+  "selector": "exact reproduced; completeness fails",
+  "authoredFileSetSha256": "f09dfc26a3acbe6f734874c3576c6cbc9461bc19a6ff0eba59a59e666515dc43",
+  "closureFileSha256": "d8cdb0ed1255f3c29c59d8f5dbd1d1fa5cb6df43df8dd499c8d07737bee5e576",
+  "closureIdsSha256": "8d4baa3c86b2c390ad1381694756cc9f57d67a0ba2780a365937ec608323dcc9",
+  "fullAuthoredBeforeReconstructedSha256": "346360bb3b13dcabde68c231c5d95480b70211577d103b125062a27f49a78500",
+  "unchangedHashGate": "all411 authored files and all baseline refs unchanged",
+  "finalPreserveExactRows": 16538,
+  "finalPreserveExactResult": "passed",
+  "model": "Exact model ID not exposed to this agent; parent/session telemetry must identify it",
+  "reasoning": "Not exposed to this agent",
+  "tokens": {
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "status": "Actual request/session telemetry not exposed in agent tool responses. No estimates or zeros substituted."
+  },
+  "runtime": "not run; prohibited",
+  "releaseAcceptance": false,
+  "limitations": [
+    "Two unresolved context questions",
+    "Missing mandatory catalog surfaces and concept/runtime dependencies",
+    "Full CharacterSO ManagedReferencesRegistry parse unavailable; bounded ordinary-prefix context only",
+    "Static compiled order does not prove reachability, rendered fonts/wrapping/layout, runtime variants or package installation"
+  ],
+  "nextAction": "Adjudicate consolidated full replacements and repair reusable closure/catalog recipe; apply one complete accepted batch, regenerate new immutable closure, review exact correction/new/invalidated delta. Several older unrelated defects found: use one consolidated bounded remedial pass if further historical defects emerge, rather than one-error cycles."
+}

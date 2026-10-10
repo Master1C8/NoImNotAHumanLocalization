@@ -1,0 +1,55 @@
+{
+  "kind": "cs-final-gate-v2-mutable-current-sidecar-repair",
+  "locale": "cs",
+  "scope": "Refresh one mutable current structural sidecar through its owning normal CLI. Authored wording is unchanged.",
+  "command": [
+    ".venv/bin/python",
+    "Scripts/validate_game_text_batch.py",
+    "Translations/cs/dialogue-batch-192.json"
+  ],
+  "normalCliExitCode": 0,
+  "owningValidator": {
+    "path": "Scripts/validate_game_text_batch.py",
+    "sha256": "d5141beeb1dfd55476935a1828257603d7302f85bd5a2818bff223a476647253"
+  },
+  "changedAuthoredFile": {
+    "path": "Translations/cs/dialogue-batch-192.json",
+    "sha256": "3a578783d1897cda685795c76e89395e2b3ea65e5d886cbdcb6f76cf26aa5361",
+    "byteChange": false
+  },
+  "currentSidecarPreimage": {
+    "originalPath": "Translations/cs/dialogue-batch-192.validation.json",
+    "archivePath": "Translations/cs/final-gate-v2/dialogue-batch-192.validation.preimage.json",
+    "sha256": "0552c4ce248d8a7c263f1faf758f9b6994db7a2053888ba6f29ba28984dfd5e0"
+  },
+  "normalCliStdout": {
+    "path": "Translations/cs/final-gate-v2/batch192-validator.stdout.json",
+    "sha256": "6a7307d81141ab9036b59b2356ba6a5ca9634eaaac642bde9727203c89816c36"
+  },
+  "currentOwningValidationReceipt": {
+    "path": "Translations/cs/dialogue-batch-192.validation.json",
+    "sha256": "f4fc74c026015615347a62f235c01fe6341a5bdf00c295dce7436afd4cae7da9"
+  },
+  "currentSidecarsChecked": 411,
+  "refreshedCurrentSidecars": 1,
+  "otherCurrentSidecarsUnchanged": 410,
+  "historicalEvidenceApplicability": "The old administrative sidecar SHA is retained as the exact archived preimage. No source, glossary, text, parser, binding, coverage, reviewer or corpus receipt changed; no universal restart condition. The old final-gate boundary remains historical in v1.",
+  "firstSemanticPassUnitsReused": 16538,
+  "independentReviewer": "/root/cs_independent_review_04",
+  "currentClosureRows": 1131,
+  "independentFreshReads": 1,
+  "independentPriorDecisions": 1130,
+  "mandatoryUniqueIds": 178,
+  "mandatoryFreshReads": 0,
+  "mandatoryUnchangedIndependentDecisions": 178,
+  "canonicalPreserveExactReceiptUnchanged": {
+    "path": "Translations/cs/final-gate/preserve-exact.json",
+    "sha256": "4b01cc656af8d21687b7e4b0b0566853a4d774117c6b6bfdd11a2e8e2ac43e29"
+  },
+  "fullCorpusReceiptUnchanged": {
+    "path": "Translations/cs/semantic-correction-cycle-008-full-corpus-receipt.json",
+    "sha256": "245f42dbe5f68ec0e59b3d42743fc0721c18e9c9b2ea96de22cc0ff9404ee15a"
+  },
+  "progressRewrite": "not needed; existing administrative files unchanged and pinned in pre-repair-pins.json",
+  "acceptance": "not issued; root owns acceptance/build/commit"
+}

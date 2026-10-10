@@ -1,0 +1,295 @@
+{
+  "status": "not clean; incomplete catalog",
+  "pinnedMandatoryIds": [
+    "string:0cbd8a7a4f543344bb95659de87f67a5:3660792356130820",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:3660989769437180",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:3661098318024700",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:35317810561011700",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:55219394371637248",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:78616001506955264",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:118142792813256704",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:131611744537665536",
+    "string:0cbd8a7a4f543344bb95659de87f67a5:131613735687020544",
+    "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891657",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891656",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891655",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891654",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963787",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457106694144",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499851",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139714",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456997642245",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456586600459",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454237790215",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454233595910",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454007103495",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966154",
+    "tmp:level0:1941:m_text",
+    "tmp:level1:4230:m_text",
+    "tmp:level5:59:m_text"
+  ],
+  "count": 33,
+  "all33SourceTargetRowsRead": true,
+  "sourceTargetSemanticDefectsInMandatoryComponent": [],
+  "coverageGaps": [
+    {
+      "surface": "save/load",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "Common_ContinueGame",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:55224549817176064",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "common_sureToClose",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075013436723200",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "object_kombucha",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:73342396577599488",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "consumable_kombucha_gameplayDescription",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572482784808960",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "Continue/restore and loss-of-unsaved-progress warning are absent; save action alone does not cover them."
+    },
+    {
+      "surface": "menus/titles",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "Common_NewGame",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:55224523648913408",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "Common_GameName",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3668215154331650",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "New-game and actual dynamic game title absent."
+    },
+    {
+      "surface": "input prompts",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "control_key_UseFridgeItem",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78999771271647232",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "control_key_Run",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78722207886069760",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "control_key_RotateHandle",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358146",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "Only hang-up plus Space input sample selected; held-input and rotary-controller prompts absent."
+    },
+    {
+      "surface": "HUD/dynamic items",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "message_got_item",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527090041180160",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "message_given_item",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527150292357120",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "FridgeItem_Enerjeka_GameplayDescription",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13170523483394000",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "Item count/name join, markup spans and HUD sprite/quantity displays absent."
+    },
+    {
+      "surface": "environment/location",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "RoomName_Entrance",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:16302985216",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "RoomName_Bathroom",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131918974976",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "RoomName_BedRoom",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:187787104256",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "No room/location names selected."
+    },
+    {
+      "surface": "speaker/name labels",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "characterName_Anxiety",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Marauder",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Esenin",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Bestson",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_TaxiDriver",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_WolfHound",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Nun",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Fairytaller",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Widow",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_FormerFema",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Tourist",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Daughter",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Couple",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        },
+        {
+          "key": "characterName_Experienced",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "All14 matching-place characterName labels actually consumed by five corrected dynamic nodes absent."
+    },
+    {
+      "surface": "exact-symbol/mixed systems",
+      "status": "catalog omission",
+      "examples": [
+        {
+          "key": "Radio_NoiseCharacters",
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:56531188432228352",
+          "inClosure": false,
+          "inMandatoryComponent": false
+        }
+      ],
+      "reason": "Protected radio exact-symbol asset absent; existing preserve-exact check does not replace a named editorial regression surface."
+    }
+  ],
+  "additionalGaps": [
+    {
+      "surface": "canonically hidden/unknown speakers",
+      "reason": "No stable catalog mapping each unknown phone/radio/TV role to concrete pronoun/address/title/profession examples or justified N/A is supplied. Existing Phone extrasens excerpts do not establish that roster coverage."
+    },
+    {
+      "surface": "layout/markup/branch constraints",
+      "reason": "33-ID component does not identify a dense UI case, all actual dynamic label joins, emphasis span semantic correspondence, or contrasting branch outcomes. Full parser exact gate passes but does not establish these semantic/rendered surfaces."
+    }
+  ],
+  "explicitNotApplicable": [
+    "Images and textures excluded by owner",
+    "RTL/bidi/shaping not applicable to Czech wording; rendering and Czech accents still unverified"
+  ],
+  "covered": [
+    "Locale-selection label/name",
+    "Basic save/quit/menu actions",
+    "Credits full unit and names",
+    "Static Space and placeholder label",
+    "Selected gender/agency/kinship/dialogue regressions",
+    "Selected placeholder-bearing occupied-room lines"
+  ],
+  "requiredRepair": "Define the stable shared required-surface catalog and declare exact Czech applicability; repair the selector/spec and regenerate a new closure, then review exact current-minus-previous IDs and corrected/explicitly invalidated rows."
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "locale": "cs",
+  "status": "applied; selected-scope exact readiness preflight passed",
+  "sourceManifest": "Source/preserve-exactly-v4.json",
+  "checksCorrection": {
+    "obsoleteEvidence": "Translations/cs/obsolete-checks-row-001.json",
+    "selectedId": "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+    "source": "Esenin: Спасибо, что в жопу мне не залез!",
+    "target": "Esenin: Díky, že ses mi ještě nehrabal v prdeli!",
+    "recipe": "Use selected ChecksDialogs IDs from text-source-scope-v7 selectedSupplementalStringRows, not any inventory ChecksDialogs row."
+  },
+  "staticCorrection": {
+    "stableId": "tmp:level0:1941:m_text",
+    "source": "Space",
+    "obsoleteTarget": "Mezerník",
+    "target": "Space",
+    "previousDraftSha256": "9a34479d0e568b3cfb10ffb22c50cf0a52ced1d4e658f95dd68ffb021328df92",
+    "recipe": "Preserve source verbatim whenever parser-derived preserve-exactly-v4 marks wholeTextExact=true; this keycap label is exact.",
+    "allWholeTextExactSpaceIds": [
+      "tmp:level1:3910:m_text",
+      "tmp:level1:3955:m_text",
+      "tmp:level1:4100:m_text",
+      "tmp:level1:4143:m_text",
+      "tmp:level1:4153:m_text",
+      "tmp:level1:4180:m_text",
+      "tmp:level1:4284:m_text",
+      "tmp:level1:4626:m_text",
+      "tmp:level4:332:m_text",
+      "tmp:level5:62:m_text"
+    ],
+    "numericCorrection": {
+      "stableId": "tmp:level0:1996:m_text",
+      "source": "Summon in 6th night",
+      "obsoleteTarget": "Přivolat šestou noc",
+      "target": "Přivolat během 6. noci",
+      "recipe": "Preserve ordered numeric tokens in every selected static field."
+    }
+  },
+  "preflight": {
+    "command": ".venv/bin/python Scripts/report_locale_readiness.py --exact --compact",
+    "result": "cs 16538/16538 validated=16538 observed=16538 problems=0",
+    "checksBatchSha256": "a7bfb21699293c83c61bd032f61bac0527e5d9db5044b9dbbe8cc0c1e9736519",
+    "staticDraftSha256": "d7df6c2a19096b28bc1bbcb4ad7e2e00f4bbb9b47af7644aaa2415f69e80f81c",
+    "creditsRoleMapSha256": "f47a96c5ba8b46aed5b129ef378b58e05f304cc81f9c4fbd09d2282712111600"
+  }
+}

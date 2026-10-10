@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "locale": "cs",
+  "sourceStringsSha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+  "findings": [
+    {
+      "sourceIndex": 292,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891648",
+      "authoredFile": "Translations/cs/dialogue-batch-009.json",
+      "source": "Phone: Ощути на себе груз тупой шутки не вовремя.",
+      "reason": "Source uses an informal singular imperative; the earlier Czech future/polite form changed person and mood.",
+      "appliedTarget": "Phone: Pociť na vlastní kůži tíhu hloupého žertu v nevhodnou chvíli.",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 327,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457832308738",
+      "authoredFile": "Translations/cs/dialogue-batch-010.json",
+      "source": "Phone: Я… я просто не могу выдержать это всё. Солнце, Гости, безумные люди. Всё это так страшно. Я чувствую, как меня парализует.",
+      "reason": "Source describes an ongoing feeling of paralysis; earlier Czech reduced it to a static state.",
+      "appliedTarget": "Phone: Já… já už to všechno nedokážu snést. Slunce, Hosté, šílení lidé. Je to tak děsivé. Cítím, jak mě to ochromuje.",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 369,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531529",
+      "authoredFile": "Translations/cs/dialogue-batch-011.json",
+      "source": "Phone: Какой брат? У меня нет…",
+      "reason": "Bare Russian question asks which brother; Czech locative Jakém bratrovi required a preposition absent from the line.",
+      "appliedTarget": "Phone: Jaký bratr? Já žádného…",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 378,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531520",
+      "authoredFile": "Translations/cs/dialogue-batch-012.json",
+      "source": "Phone: Быть может, однажды вы сами поймёте всё и согласитесь с нашими трактовками происходящего.",
+      "reason": "Source refers to plural interpretations; earlier Czech singular výklad changed the count.",
+      "appliedTarget": "Phone: Možná jednou sami všechno pochopíte a budete souhlasit s našimi výklady toho, co se děje.",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 388,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457811337217",
+      "authoredFile": "Translations/cs/dialogue-batch-012.json",
+      "source": "Зачем вы вообще вступили в культ?",
+      "reason": "Source asks why the woman joined the cult; earlier Czech merely asked why she is in it.",
+      "appliedTarget": "Proč jste vůbec vstoupila do toho kultu?",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 478,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782793",
+      "authoredFile": "Translations/cs/dialogue-batch-014.json",
+      "source": "Phone: К сожалению,на этом я вынужден закончить наш сеанс.",
+      "reason": "The approved glossary specifically calls for the consultant’s compelled-to-end wording; earlier Czech only said must.",
+      "appliedTarget": "Phone: Bohužel jsem nucen naše sezení ukončit.",
+      "status": "applied; batch validator passed"
+    },
+    {
+      "sourceIndex": 490,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457773588487",
+      "authoredFile": "Translations/cs/dialogue-batch-015.json",
+      "source": "Phone: У вас не Гостевой, а Духовой. Дух мёртвого человека.",
+      "reason": "Source distinguishes two coined spirit categories; earlier Czech erased the second category and repeated the explanation.",
+      "appliedTarget": "Phone: Nemáte Hostovce, ale Duchovce. Ducha mrtvého člověka.",
+      "status": "applied; batch validator passed"
+    }
+  ],
+  "independentReview": "pending"
+}

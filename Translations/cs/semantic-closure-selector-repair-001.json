@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "Czech selector repair before immutable closure finalization",
+  "locale": "cs",
+  "oldCandidatePath": "Translations/cs/semantic-correction-cycle-002-closure-candidate-001.json",
+  "oldCandidateSha256": "7c42d4508ee180f51d6dd35ca8136fd3d63409e401c45225d814421e41446ea9",
+  "oldSelectorSha256": "8c480f13e372a78f479a98c700459bc6d2b32c17ddf2a28d574ddb65c9ce281a",
+  "newSelectorSha256": "0c1104394bd52dbc09e5a75a00b9f9bd904520e5120e8bf400e0f50dbad00261",
+  "verifiedMissingDependencies": [
+    {
+      "sourceIndex": 10678,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454158098432",
+      "source": "Tourist: Подождите, что не так? У меня же даже ушной серы нет.",
+      "reason": "Earwax concept variant uses ушная сера or сера в ушах; initial ушные пробки selector missed this dialogue callback."
+    },
+    {
+      "sourceIndex": 11765,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453763833866",
+      "source": "Jacob: Открою секрет. Человек с серой в ушах — это нормально.",
+      "reason": "Earwax concept variant uses ушная сера or сера в ушах; initial ушные пробки selector missed this dialogue callback."
+    },
+    {
+      "sourceIndex": 12655,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453134688260",
+      "source": "Provocateur: Какого чёрта вы каждый раз достаёте ружьё? В чём странность иметь серу в ушах? Куда катиться мир…",
+      "reason": "Earwax concept variant uses ушная сера or сера в ушах; initial ушные пробки selector missed this dialogue callback."
+    }
+  ],
+  "repair": "Extend the reusable earwax concept rule with both word orders and inflections, then rerun normal selector over canonical accepted inventory; do not append IDs to generated closure.",
+  "expectedOutcome": "all three previously missing IDs appear in glossaryReferents component and closure; zero unexplained extra IDs"
+}

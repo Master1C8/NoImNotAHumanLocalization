@@ -1,0 +1,243 @@
+{
+  "kind": "cs-cycle-006-author-handoff-for-distinct-reviewer",
+  "dateUtc": "2026-10-09T20:40:24.109606+00:00",
+  "locale": "cs",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "author corrections complete; distinct dependency-aware review pending; static editorial acceptance pending",
+  "originalIndependentReview": {
+    "path": "Translations/cs/independent-review-01/final-verdict-v2.json",
+    "sha256": "90cf18db5fa360b0926e6bc607939b1d783cac271a42895874507a522152cce7",
+    "reviewedClosureUnits": 268,
+    "reviewedCompiledContexts": 96
+  },
+  "firstPassFrozen": {
+    "path": "Translations/cs/semantic-review-first-pass-frozen.json",
+    "sha256": "a381736af9450819c2f3fa2d17d625a0ff17ff856529864581810a2253063f22",
+    "acceptedUnits": 16538,
+    "reviewedUnits": 16538
+  },
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "glossaryFingerprint": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "authoredFileSetSha256": "3f17948171a28ae3236d47b803517acb78df93ab2a96e3d076128e9e12cc7cf0",
+  "authorCorrectionApplications": [
+    {
+      "cycle": 3,
+      "before": "Translations/cs/semantic-correction-cycle-003-before.json",
+      "beforeSha256": "a61a0411ef99b8a27cc96bc1fa5ce4b744007efbd81811a2cf0314ee242e6304",
+      "application": "Translations/cs/semantic-correction-cycle-003-application.json",
+      "applicationSha256": "d87814de51dacc9df70616e37be594593d7c4796b3f600113b3d72a78c10bcdb",
+      "correctedCount": 7
+    },
+    {
+      "cycle": 4,
+      "before": "Translations/cs/semantic-correction-cycle-004-before.json",
+      "beforeSha256": "fd083fbf2f16bea98f8497c0e0abe5981efd9dd30516b2bafda688507fef4f19",
+      "application": "Translations/cs/semantic-correction-cycle-004-application.json",
+      "applicationSha256": "7458ec6e81f642ce41981c4148b6d3454370372d233ab6b1f3d9d2fdaf7935f8",
+      "correctedCount": 7
+    },
+    {
+      "cycle": 5,
+      "before": "Translations/cs/semantic-correction-cycle-005-before.json",
+      "beforeSha256": "be1e020df89be5353658467847144002162000630c1ece5ecc56ad997418ace3",
+      "application": "Translations/cs/semantic-correction-cycle-005-application.json",
+      "applicationSha256": "aa24f6a76bfd189a3ab360621b072ea98b7e6be77233d8b4454b29ca7186fdea",
+      "correctedCount": 1
+    },
+    {
+      "cycle": 6,
+      "before": "Translations/cs/semantic-correction-cycle-006-before.json",
+      "beforeSha256": "76aedc4a61f625babb7ebcadb83afb64ab645862146b424bb2a27bca4cf9d511",
+      "application": "Translations/cs/semantic-correction-cycle-006-application.json",
+      "applicationSha256": "95508ead7ebd519322d38a3d29ada3bbc353dd2745bb5c9d17de3d34edc074ce",
+      "correctedCount": 4
+    }
+  ],
+  "correctionTotalSinceIndependentReview": 19,
+  "reasonForMultipleAuthorApplications": "A broader bounded KČS grammatical-subject sweep after the seven independent-review replacements revealed 12 additional agent-agreement errors. Interim author evidence was preserved exactly; only the final cycle-006 closure is current. This was a repair of the author-side batching sequence, not additional independent review.",
+  "currentClosure": {
+    "path": "Translations/cs/semantic-correction-cycle-006-closure.json",
+    "sha256": "eb3679a836629b84564211cae68e1c15c46d8a0fb7ae2fd74ae0cbde9ad4ea6b",
+    "selector": "Translations/cs/semantic-closure-selector-v7.py",
+    "selectorSha256": "d10c9d999690a9aa1e854dfc89373519281c3db27356fdec03b451d1133c5ff7",
+    "catalog": "Translations/cs/semantic-regression-catalog-v2.json",
+    "catalogSha256": "2e96c3f50517411e1312ea32b5d27c11bd37b80202d2c9245304609628f922f2",
+    "closureCount": 1077,
+    "closureIdsSha256": "e2cb094e566ad86a3bcabba3b15a9646e6be958d1847d587233a08b910625d83",
+    "components": {
+      "changed": {
+        "count": 94,
+        "sha256": "bc649cf3c9809969895696dfcd0a084d093b96e1753739b2119e89f68978eaba"
+      },
+      "context": {
+        "count": 435,
+        "sha256": "1ddb5c9b85d48a255674a97f332738475ddfc1eabc0cc366ae9537b4e1a2ff0a"
+      },
+      "repetitions": {
+        "count": 95,
+        "sha256": "245509b8fd4d5f01cf4107ccff0f9e05f4b19b7fb846edf4b13d5b8a806e8623"
+      },
+      "glossaryReferents": {
+        "count": 607,
+        "sha256": "a2bf72e83c6ec14303c1dbc021ccd82d3866b6316947aa996ba60cd4e559f1d9"
+      },
+      "runtimeBindings": {
+        "count": 55,
+        "sha256": "2e3f962eefdec217d2ea4a2ec330acacb3f323a9730671f357a5f3480a473382"
+      },
+      "mandatoryRegressions": {
+        "count": 178,
+        "sha256": "9fad307d15a9b0dc72df0533edb4fb49e6d6eae833ac7ab71f3e412248847ffe"
+      }
+    },
+    "correctedIdsCount": 19,
+    "correctedIdsSha256": "3672272cbd44da9af1f187101d27b0b3a395082c7962dc82be4db9e5abadf05e",
+    "newDependencyIdsCount": 809,
+    "newDependencyIdsSha256": "39f4c72fae44dc4ceb98905e6037a1dd51edc938e62150ff0ec0da569b896e1a",
+    "explicitInvalidatedPriorCount": 13,
+    "retiredDependencyIdsCount": 0,
+    "nextDeltaCount": 825,
+    "nextDeltaIdsSha256": "5e19021144348ebd2788f7e476ee5359584b29cf0837ebf3f6c30f93ee68e840",
+    "nextDeltaFormula": "correctedIds union (current closure minus previous independently reviewed closure) union explicitInvalidatedPriorIds; canonical accepted-ID order; UTF-8 ID plus LF per row"
+  },
+  "selectorReproduction": ".venv/bin/python Translations/cs/semantic-closure-selector-v7.py reproduces the immutable current closure byte-for-byte",
+  "reconciliation": {
+    "path": "Translations/cs/semantic-correction-cycle-006-reconciliation.json",
+    "sha256": "9bed0011d7313e5db9120893e788e0af27cb10ab400ffba0319d4a99c7d437b3",
+    "missingAcceptedIds": 0,
+    "extraIds": 0,
+    "duplicateIds": 0,
+    "topologyGaps": 0,
+    "previousReviewerOmissionIdsMissing": 0,
+    "kcsConceptOccurrencesIncluded": 497,
+    "actualAdmissibleResidentLabelsIncluded": 14
+  },
+  "boundedRemedialRead": {
+    "path": "Translations/cs/semantic-correction-cycle-006-remedial-read.json",
+    "sha256": "4df551087a7ed05a62585c7fd3a88bd427248304d16c6fe5f0a07dce9a949d60",
+    "scope": "29 broad KČS feminine-token candidates before systemic correction; 12 objective committee-agent cases corrected, 18 residual source/target cases adjudicated as other subjects/word classes; overlap one corrected Widow unit retains her own feminine first-person form"
+  },
+  "validation": {
+    "affectedBatches": [
+      {
+        "batch": "Translations/cs/dialogue-batch-027.json",
+        "batchSha256": "4470ff02b8baa9d9507f3ab9431da5ffe2530a2544a037ff99c460196a1fa7e9",
+        "validation": "Translations/cs/dialogue-batch-027.validation.json",
+        "validationSha256": "734dbc932858987e7bcf63f60fb8cc89a18f0e27d64a4e93dbbd56801146f316"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-036.json",
+        "batchSha256": "8f46815b001faa1072d85fb930b3e3796a698d4ee7d63cbfe52b5f065b6fc7d3",
+        "validation": "Translations/cs/dialogue-batch-036.validation.json",
+        "validationSha256": "502d54528b0cb4ef1d5a808d42934b238b8d4de575d50d556b63056434a9c4d9"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-067.json",
+        "batchSha256": "e41781f90b727d8db0b6c0ae6c010ae3e05a5d81917564cb72399172766b23b4",
+        "validation": "Translations/cs/dialogue-batch-067.validation.json",
+        "validationSha256": "f6dc84718c0871e21abf6605ad4518819e39757bd35cc046181bbe85401c8eb2"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-158.json",
+        "batchSha256": "17a54d51142bc5d55fd9bf28f7bc65224f53a060b3704f4c1781221f7c5d4765",
+        "validation": "Translations/cs/dialogue-batch-158.validation.json",
+        "validationSha256": "74a6cc1a4e24f25c1dced8dd243af778f20c0847d8c19ff1ce1243901312e1ac"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-162.json",
+        "batchSha256": "b2c3d78689a9a5c40c9b6a6d77e3a1e6a8d4e9cc0c99d3e1d04bfcba739f61e0",
+        "validation": "Translations/cs/dialogue-batch-162.validation.json",
+        "validationSha256": "5ae7c35f10c0a3467090c73a971d3266c97bfffb4b66de9292122e07c4e7b9a0"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-200.json",
+        "batchSha256": "f4a6e829b1b026949b68c3693d0b6242c07a06866edb4fbefa3ae3cb9451bee5",
+        "validation": "Translations/cs/dialogue-batch-200.validation.json",
+        "validationSha256": "0041bb63d27275e05195a0dfb47adfb880dd3eb82c012ae11cae9fed7e748ee2"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-201.json",
+        "batchSha256": "c8651288b26a39d29b836336e480da8f5ad11e428463c9b98e08c643f08defe4",
+        "validation": "Translations/cs/dialogue-batch-201.validation.json",
+        "validationSha256": "c52eaada3fd15264fc8a5c72a93c157d5d0360a67dcd9ee00c23ee752c3c0dc7"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-203.json",
+        "batchSha256": "0030923d3c2f1e9baaa1c2fcdb32190f41588f412542197eabf2aa02123e9129",
+        "validation": "Translations/cs/dialogue-batch-203.validation.json",
+        "validationSha256": "9ac027a200afd14bbc3587306a39bafd3f4b4361f4304426c79dadc2a3bf490b"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-210.json",
+        "batchSha256": "5144a9e58b5c13b2132d3241a059e36d65c6fe7a0b3b36798da6142f89348f4b",
+        "validation": "Translations/cs/dialogue-batch-210.validation.json",
+        "validationSha256": "2487b851de6d99542b19c2cda3e76591d6df01e224c337b2aa70ad2dafcb495e"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-235.json",
+        "batchSha256": "9d0b407959adc4112f5068c0c4fdd3b18fad1f6bb90c08e760c67c3b76c1ac14",
+        "validation": "Translations/cs/dialogue-batch-235.validation.json",
+        "validationSha256": "7e8dbe4b22545d79551bf194502cdee4df4908ab97a7832fab64958ac5b6ec94"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-237.json",
+        "batchSha256": "cd3799b1271e402dfa8a5e997d7ea0eea734a3b25790e8c4c56712adafedda76",
+        "validation": "Translations/cs/dialogue-batch-237.validation.json",
+        "validationSha256": "12a84fb2cd6dd33a533cca4f6c06f4c898f5d9b062f887a0688c5cb3068a9d28"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-256.json",
+        "batchSha256": "80c572be821a29ed5aaebed78c13c276123818c61dd0a7103ccf244bdd9de480",
+        "validation": "Translations/cs/dialogue-batch-256.validation.json",
+        "validationSha256": "6690a1ff73755abd383d3c5054950fd3f78b95273d3efe07bdf65f467fe82fd1"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-332.json",
+        "batchSha256": "4067b156f3f8a1869b624d738503b0dded05d68437be483092e36d1797eb76e7",
+        "validation": "Translations/cs/dialogue-batch-332.validation.json",
+        "validationSha256": "d4e945e43b49ee4bede36c3668ba17a9fb44284aa7fc5b958fd37449898c2412"
+      },
+      {
+        "batch": "Translations/cs/dialogue-batch-361.json",
+        "batchSha256": "54754a13058406e553694bcc9d2d23e80024e1c1d6c2175fcfe4b1a4a054781c",
+        "validation": "Translations/cs/dialogue-batch-361.validation.json",
+        "validationSha256": "9422aeccb50fd2f54debfdaa31409ca13903856aebd18b55c3b48df1339bee42"
+      }
+    ],
+    "affectedBatchCount": 14,
+    "fullReadiness": "cs 16538/16538 validated=16538 observed=16538 problems=0",
+    "fullPreserveExactly": {
+      "path": "Translations/cs/semantic-correction-cycle-006-preserve-exact.json",
+      "sha256": "8ed08098b9da04ff185389aef6a938402a1ddb55877aa8d368d668d65300d903",
+      "rows": 16538,
+      "result": "passed"
+    },
+    "commonOptionsExpansion": "2763-row verify passed; authored common-options input and generated batch003 unchanged",
+    "staticText": "178-row validator passed; static draft unchanged"
+  },
+  "decisions": {
+    "tentativeSummons": "Dismissed as insufficiently proven; Vystavit left unchanged per adjudication-caveat.json.",
+    "unresolvedSourceContext": [
+      {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+        "issue": "Third-verse он referent remains unconfirmed by serialized clue/ending evidence; Czech on retains the pronoun without naming a referent."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139714",
+        "issue": "Rifle attachment to the daughter versus the father remains unconfirmed; current Czech punctuation leans daughter and awaits stronger source evidence or source-faithful neutral full phrasing retaining the rifle/person relation."
+      }
+    ],
+    "unreferencedDiagnostic": "independent-review-01/character-assets.json is an unrelated false-positive 38 MB diagnostic, not evidence for current editorial conclusions; leave it untouched."
+  },
+  "limits": [
+    "Author corrections and bounded self-read do not replace independent delta review.",
+    "Static compiled and serialized evidence do not prove active runtime reachability, wrapping, fonts, layout, or packaging.",
+    "Game runtime and visual QA were not launched under this assignment.",
+    "No Git/index or shared source/glossary/script/state change by this author."
+  ],
+  "nextAction": "Distinct reviewer reads the 825 current nextDeltaIds from the final closure in canonical source order with full source/current target, compiled scene and dynamic-consumer context, checks all 12 catalog surface groups, and records a clean or findings verdict on unchanged hashes. Keep the two source-context questions explicit; then run the final unchanged-hash deterministic gate and let the integration coordinator handle Git/runtime work."
+}

@@ -1,0 +1,33 @@
+{
+  "classification": "serialization-only historical reverse mismatch independently reproduced",
+  "reversedEdits": 2,
+  "expandedSha256": "67e8223109930805765fbd593c134ce4e388c5771ff2ca8f55617e83cc688068",
+  "legacySha256": "7d43879288a85eab9500bdd7f772276615a4b47b8657d6752a7042fee3c6ae53",
+  "historicalPinnedSha256": "7d43879288a85eab9500bdd7f772276615a4b47b8657d6752a7042fee3c6ae53",
+  "legacyBytes": 3839,
+  "firstDivergenceOffsetZeroBased": 405,
+  "all32SourceIdsOrderTargetsReconciled": true,
+  "firstPassEvidence": [
+    {
+      "path": "Translations/cs/semantic-pass-partial-010.jsonl",
+      "sha256": "232abdb79f304940be42db67c1c8e3b02b8fa873d0007c14dc60c87871be931b"
+    },
+    {
+      "path": "Translations/cs/semantic-pass-partial-011.jsonl",
+      "sha256": "bed28759e7e8b3d5269f67979f09c2f81e5e2253676f11eb649324a05f431a1f"
+    }
+  ],
+  "adjacentFormatControls": [
+    {
+      "path": "Translations/cs/dialogue-batch-019.json",
+      "sha256": "bfa6eb921e7c6f82b549cc826ce9297dbd585c28bfc9235ed05dc4d165b24aff",
+      "exactByteMatch": true
+    },
+    {
+      "path": "Translations/cs/dialogue-batch-021.json",
+      "sha256": "4cfa4416bd7a379d5828314c3329183aaab90fd6a21dd4c9193838921275429a",
+      "exactByteMatch": true
+    }
+  ],
+  "limits": "Original persisted preimage unavailable separately. Matching exact historical SHA and unchanged neighboring byte controls establish reconstruction; no historical persisted file inspection claimed; no semantic restart."
+}

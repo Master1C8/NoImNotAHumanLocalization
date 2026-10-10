@@ -1,0 +1,29 @@
+{
+  "kind": "cs-standard-text-mandatory-regression-catalog-v2",
+  "sourceLocale": "ru",
+  "targetLocale": "cs",
+  "scope": "Accepted visible text IDs only; image and texture localization excluded by owner. Rendered layout and runtime remain unverified.",
+  "uiSurfaces": [
+    {"name": "save-load-menu-title-locale", "exactKeys": ["Pause_Language", "Common_Quit", "Common_Menu", "Common_LanguageName", "Action_Save", "mainMenu_collection", "common_sureToCloseSave", "common_sureToClose", "Common_SaveAndQuit", "Common_ContinueGame", "Common_NewGame", "Common_GameName", "Game_MushroomList"], "keyPrefixes": ["Common_Save", "Common_Load"]},
+    {"name": "input-prompts", "keyPrefixes": ["control_key_"]},
+    {"name": "hud-dynamic-item-joins", "exactKeys": ["message_got_item", "message_given_item", "FridgeItem_Enerjeka_GameplayDescription", "object_kombucha", "consumable_kombucha_gameplayDescription"], "keyPrefixes": ["FridgeItem_"]},
+    {"name": "environment-location", "keyPrefixes": ["RoomName_", "LocationName_"]},
+    {"name": "speaker-and-dynamic-resident-labels", "keyPrefixes": ["characterName_"]},
+    {"name": "exact-symbol-and-mixed-systems", "exactKeys": ["Radio_NoiseCharacters"]}
+  ],
+  "dialogueSurfaces": [
+    {"name": "radio-rescue-unknown-roles", "glossaryIds": ["radio-rescue-dispatcher", "radio-rescue-caller"], "keyPrefixes": ["line:radio_1_"]},
+    {"name": "radio-code-unknown-roles", "glossaryIds": ["radio-dispatcher", "radio-employee-32-8", "radio-employee-28-8"], "keyPrefixes": ["line:radio_6_"]},
+    {"name": "radio-hidden-warnings", "glossaryIds": ["radio-day-7-warning", "radio-day-10-warning", "radio-day-11-warning"], "keyPrefixes": ["line:radio_7_", "line:radio_10_", "line:radio_11_"]},
+    {"name": "telephone-short-unknown-role", "glossaryIds": ["phone-roulette-short-caller", "phone-roulette-reception"], "keyPrefixes": ["line:phone_phoneroulette_2_"], "exactKeys": ["line:phone_phoneroulette_05e3bc8"]},
+    {"name": "television-earwax-hidden-metaphor", "glossaryIds": ["ear-wax", "female-tv-presenter"], "keyPrefixes": ["line:tv_8_necessary_"]},
+    {"name": "contrasting-branches-and-speaker-risk", "sourceIndexExamples": [2324, 2325, 2326, 3797, 10457, 10471, 11098, 11224, 1282, 1638, 2211, 2212, 2248, 2631, 283, 284, 285, 286, 2418]}
+  ],
+  "fixedAcceptedIds": ["tmp:level5:59:m_text", "tmp:level0:1941:m_text", "tmp:level1:4230:m_text"],
+  "selectedChecksDialog": "21377524158749",
+  "dynamicResidentTopology": "Translations/cs/independent-review-01/admissible-label-context.json",
+  "dynamicResidentRule": "For each bounded serialized matching-place occupant, require UI key characterName_<occupant> and exact source/ID parity; include all such accepted labels in runtime bindings.",
+  "roleStrategy": "Do not infer identity or gender from Phone/Radio/TV service prefixes; retain source speaker changes, pronoun uncertainty and fragmentary broadcasts.",
+  "notApplicable": ["Text-bearing images and textures excluded by owner", "RTL and bidi shaping not applicable to Czech"],
+  "stillUnverified": ["Actual runtime reachability", "Rendered Czech fonts, wrapping, and layout", "Package and installation"]
+}

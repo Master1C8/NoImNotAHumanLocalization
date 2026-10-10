@@ -1,0 +1,41 @@
+{
+  "kind": "cs-cycle-008-batch020-historical-format-reconciliation",
+  "dateUtc": "2026-10-10T07:45:48.982538+00:00",
+  "historicalPinnedPreimageSha256": "7d43879288a85eab9500bdd7f772276615a4b47b8657d6752a7042fee3c6ae53",
+  "review03ReverseExpandedSha256": "67e8223109930805765fbd593c134ce4e388c5771ff2ca8f55617e83cc688068",
+  "reconstructedLegacyPreimageSha256": "7d43879288a85eab9500bdd7f772276615a4b47b8657d6752a7042fee3c6ae53",
+  "reconstructedLegacyBytes": 3839,
+  "firstDivergenceOffsetZeroBased": 405,
+  "firstDivergence": "Immediately after entries opening bracket, original batch uses a four-space inline JSON entry; cycle007 author writer used indented multi-line JSON entries. The reverse-two-edits check retained the new serialization.",
+  "firstPassEvidence": [
+    {
+      "path": "Translations/cs/semantic-pass-partial-010.jsonl",
+      "sha256": "232abdb79f304940be42db67c1c8e3b02b8fa873d0007c14dc60c87871be931b"
+    },
+    {
+      "path": "Translations/cs/semantic-pass-partial-011.jsonl",
+      "sha256": "bed28759e7e8b3d5269f67979f09c2f81e5e2253676f11eb649324a05f431a1f"
+    }
+  ],
+  "firstPassBatch020Rows": 32,
+  "firstPassIdsOrderMatch": true,
+  "firstPassTargetsSha256Match": true,
+  "firstPassTargetsMatchReverseTwoEdits": true,
+  "metadataBasis": "Current parsed metadata/order plus all 32 first-pass targets; no intervening batch020 corrections in cycles002-006, and pinned preimage SHA repeated in cycle002-006 preserve-exact reports and cycle007 before evidence.",
+  "adjacentUnchangedLegacyFormatControls": [
+    {
+      "path": "Translations/cs/dialogue-batch-019.json",
+      "sha256": "bfa6eb921e7c6f82b549cc826ce9297dbd585c28bfc9235ed05dc4d165b24aff",
+      "legacySerializerByteMatch": true
+    },
+    {
+      "path": "Translations/cs/dialogue-batch-021.json",
+      "sha256": "4cfa4416bd7a379d5828314c3329183aaab90fd6a21dd4c9193838921275429a",
+      "legacySerializerByteMatch": true
+    }
+  ],
+  "cycle007AuthorApplicationSha256": "d3760723be7d1f843d197550ea7afe2fb5cde73abe80ceb3c97b88abc9e8b4c9",
+  "currentBatch020Sha256": "e4318a340cac6dbb6f8f920510ec394e8e317dfbab0977bdc47f513526c5afc2",
+  "classification": "serialization-only historical reverse mismatch; no additional target wording or ID/order difference established",
+  "limit": "Original persisted preimage bytes are not separately retained; reconstructed legacy bytes match the independently pinned original SHA-256 and two unchanged neighboring file formatting controls. No runtime or semantic acceptance inferred."
+}

@@ -1,0 +1,85 @@
+{
+  "kind": "cs-kcs-institution-selector-and-agreement-regression-v8",
+  "concept": "KČS / Výbor pro mimořádné situace",
+  "selectionRule": "Source КЧС or Czech KČS; Russian комитет noun inflections or Czech Výbor noun inflections with word boundaries. Exclude unrelated výborně. Select from accepted authored ID set only. No manually appended IDs.",
+  "expectedAbbreviationIds": 497,
+  "expectedFullNameIds": 26,
+  "expectedOverlapIds": 2,
+  "expectedUnionIds": 521,
+  "expectedPriorMissedFullNameIds": 16,
+  "selectorExamples": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457610010629",
+      "source": "TV: По мнению комитета, Гость – это человек, вошедший в контакт с вирусом или другой биологической угрозой.",
+      "target": "TV: Podle Výboru je Host člověk, který přišel do kontaktu s virem nebo jinou biologickou hrozbou.",
+      "expected": true,
+      "why": "Actual committee noun inflection/full title"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427720",
+      "source": "TV: Комитет по Чрезвычайным Ситуациям – недавно сформированная специальная служба, созданная для ослабления возникшего кризиса.",
+      "target": "TV: Výbor pro mimořádné situace je nedávno založená zvláštní služba vytvořená ke zmírnění vzniklé krize.",
+      "expected": true,
+      "why": "Actual committee noun inflection/full title"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811268",
+      "source": "Phone: Благодарим вас за содействие Комитету по Чрезвычайным Ситуациям.",
+      "target": "Phone: Děkujeme vám za spolupráci s Výborem pro mimořádné situace.",
+      "expected": true,
+      "why": "Actual committee noun inflection/full title"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456435605508",
+      "source": "Raskolnikov: О, отлично! Значит, ты сможешь убивать всех Гостей, что придут сюда.",
+      "target": "Raskolnikov: Ó, výborně! Takže dokážeš zabít všechny Hosty, kteří sem přijdou.",
+      "expected": false,
+      "why": "Czech výborně means excellent, not Výbor"
+    }
+  ],
+  "grammarRegressionExamples": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334022",
+      "mustContain": "KČS dorazil",
+      "mustNotContain": "KČS dorazilo",
+      "why": "masculine institution; plural staff jim retained"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455298949131",
+      "mustContain": "Zasraný KČS",
+      "mustNotContain": "Zasraná KČS",
+      "why": "masculine adjective"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480137",
+      "mustContain": "pro něj",
+      "mustNotContain": "pro ni",
+      "why": "masculine bare institution pronoun"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454669803526",
+      "mustContain": "KČS, který",
+      "mustNotContain": "KČS, která",
+      "why": "masculine relative"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457664536577",
+      "mustContain": "dorazila zpráva od KČS",
+      "mustNotContain": "",
+      "why": "feminine report, not committee"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456829870084",
+      "mustContain": "ti z KČS pochválili",
+      "mustNotContain": "",
+      "why": "explicit plural staff, not committee"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454711746563",
+      "mustContain": "udala ta svině sousedka",
+      "mustNotContain": "",
+      "why": "feminine neighbor is agent"
+    }
+  ],
+  "scope": "Regression examples assert selected concept and actual grammatical subject; do not force masculine agreement on zpráva, sousedka, explicit staff or predicate plural Hosté."
+}

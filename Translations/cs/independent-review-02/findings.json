@@ -1,0 +1,278 @@
+{
+  "reviewer": "/root/cs_independent_review_02",
+  "status": "findings; all assigned delta read; no authored wording applied",
+  "fullReplacementCount": 15,
+  "findings": [
+    {
+      "findingId": "cs-independent-02-01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868234",
+      "deltaIndex": 130,
+      "category": "radio-patrol-reference",
+      "source": "Изб…гайте патрулей КЧС, они ……таются убить в…с.",
+      "currentTarget": "Vyhý…bejte se hlídkám KČS, oni se ……naží zabít v…s.",
+      "proposedFullReplacement": "Vyhý…bejte se hlídkám KČS, ty se ……naží zabít v…s.",
+      "sourceSha256": "1e813768798ee4b08b39dd36b71e1058fd664cd447ad93da23a14a8559522ea1",
+      "currentTargetSha256": "429376dc0f5f3c87269238dccae000cd61d2117a84399273dae80998a6e0312d",
+      "proposedTargetSha256": "17e8522b6354c729e8dba58907d8412fc35951a523a80614fe92fac7854ee688",
+      "authoredFile": "Translations/cs/dialogue-batch-020.json",
+      "objectiveReason": "The explicit antecedent hlídkám names feminine plural patrols. Masculine oni disagrees with that antecedent and unnecessarily marks an anonymous group. Ty preserves the patrol group without assigning individual sex.",
+      "compiledNodes": [
+        "radio_10"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-02",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673921",
+      "deltaIndex": 144,
+      "category": "radio-medium-addition",
+      "source": "Говорит диспетчер. Проверьте, что случилось в карантинной зоне. Код 51. Докладывают о взрывах в 3 часа ночи.",
+      "currentTarget": "U telefonu dispečer. Zjistěte, co se stalo v karanténní zóně. Kód 51. Hlásí výbuchy ve 3 ráno.",
+      "proposedFullReplacement": "Zde dispečer. Zjistěte, co se stalo v karanténní zóně. Kód 51. Hlásí výbuchy ve 3 ráno.",
+      "sourceSha256": "bf5b1131b51b51ede5d30d56529c14813c0e4804cce4dbb86b2521d4977d16c3",
+      "currentTargetSha256": "52cc5ec10d7a0dc250d0272cb552f2dcc4411da1381b684b842319f5b53e0023",
+      "proposedTargetSha256": "5474465df11fda8050a7950e12f8a65a0a5b910bb55c14d6c0787be24bf49dca",
+      "authoredFile": "Translations/cs/dialogue-batch-020.json",
+      "objectiveReason": "The Russian generic speaking formula and pinned radio-dispatcher role identify radio communication; U telefonu adds a telephone-specific medium. Zde preserves the speaker role, order and all instructions/codes/time without that addition.",
+      "compiledNodes": [
+        "radio_6"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-03",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334022",
+      "deltaIndex": 254,
+      "category": "kcs-neuter-agreement",
+      "source": "Vigilante: КЧС только к вечеру подтянулись, типа зачищать. Я им говорю: «Поздно, я уже порядок навёл».",
+      "currentTarget": "Vigilante: KČS dorazilo až večer, že to tu prý vyčistí. Říkám jim: „Pozdě, už jsem tu udělal pořádek.“",
+      "proposedFullReplacement": "Vigilante: KČS dorazil až večer, že to tu prý vyčistí. Říkám jim: „Pozdě, už jsem tu udělal pořádek.“",
+      "sourceSha256": "453cee348d49bd9440a711cfcb7a5ca70f962a5789a057c4dee3631e34e4f1e9",
+      "currentTargetSha256": "348c1b5891998ef5c65b245c89f0bacb1699ff5fb703e90143fd8cffed7bf4d4",
+      "proposedTargetSha256": "b10f425d0f33a7df786ea55554fb75e060e98e9822e0ad0ebed766c50ea70e51",
+      "authoredFile": "Translations/cs/dialogue-batch-068.json",
+      "objectiveReason": "KČS is the arriving agent. Its approved expansion Výbor is masculine singular; dorazilo is neuter. Subsequent jim still refers to the people arriving and remains plural.",
+      "compiledNodes": [
+        "Vigilante_Entrance_3_2"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-04",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168193",
+      "deltaIndex": 255,
+      "category": "kcs-neuter-agreement",
+      "source": "Vigilante: КЧС забили на этот город? Или только на район?",
+      "currentTarget": "Vigilante: KČS se na tohle město vykašlalo? Nebo jen na tuhle čtvrť?",
+      "proposedFullReplacement": "Vigilante: KČS se na tohle město vykašlal? Nebo jen na tuhle čtvrť?",
+      "sourceSha256": "68241cca5d7c63d19b376ce09ac1626d1e0e3ed198670ca70e2027058ffe940c",
+      "currentTargetSha256": "b83ea5f7125896209e4b3d0dbd0299a898ba105643fb6761257bed6ab9e8d6cf",
+      "proposedTargetSha256": "de5fa2a79a78cd547add4829afee1c1ca8a79d1b4f2f1db9e37866d8f25e227b",
+      "authoredFile": "Translations/cs/dialogue-batch-070.json",
+      "objectiveReason": "The subject of vykašlalo is KČS, not the neuter město object. Výbor requires masculine vykašlal; preserve both alternative scopes.",
+      "compiledNodes": [
+        "entrance_vigilante_10"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-05",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456905367562",
+      "deltaIndex": 259,
+      "category": "kcs-neuter-agreement",
+      "source": "Courier: Моего коллегу забрали КЧС…",
+      "currentTarget": "Courier: KČS odvedlo mého kolegu…",
+      "proposedFullReplacement": "Courier: KČS odvedl mého kolegu…",
+      "sourceSha256": "0376eb150ef6914eda94f98bdc98286e81c285d125c0c64167b1c761f59624a9",
+      "currentTargetSha256": "a3f223e4b786cdbab8a2b27e3940b75542f86da5d68e02e5afc9e8fb98c1c9ba",
+      "proposedTargetSha256": "11b16986155fc3836c0364e09a086f22c460760d4a034c6ad82af8e2248d0618",
+      "authoredFile": "Translations/cs/dialogue-batch-081.json",
+      "objectiveReason": "KČS is the agent taking the colleague; odvedlo assigns neuter agreement to the masculine Výbor.",
+      "compiledNodes": [
+        "Courier_Entrance_3_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-06",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455349280771",
+      "deltaIndex": 625,
+      "category": "kcs-number-agreement",
+      "source": "Provocateur: Я остаюсь здесь до следующей ночи, пока КЧС вас не заберут.",
+      "currentTarget": "Provocateur: Zůstanu tady do příští noci, než si vás KČS odvedou.",
+      "proposedFullReplacement": "Provocateur: Zůstanu tady do příští noci, než si vás KČS odvede.",
+      "sourceSha256": "df74654de9d3bf7394536526b319bdf941ba270714d7e2a504c60edd0d52881d",
+      "currentTargetSha256": "0c0d6a2e097d611d13e3ee103f8a829f2b934915aa4101c6a81f1c0a38da22cb",
+      "proposedTargetSha256": "d6fd4581592cf83cfbee3c6b438dc67854379c0ffef9e5c9b7c39afeb44f27ca",
+      "authoredFile": "Translations/cs/dialogue-batch-192.json",
+      "objectiveReason": "A bare KČS names singular Výbor, requiring odvede. Source institutional agency, addressee and deadline remain the same; later plural references to personnel remain possible.",
+      "compiledNodes": [
+        "Provocateur_Asking_4_3_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-07",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455298949131",
+      "deltaIndex": 628,
+      "category": "kcs-adjective-agreement",
+      "source": "TaxiDriver: Сраные КЧС… Это тачка была для меня всем! Ублюдки…",
+      "currentTarget": "TaxiDriver: Zasraná KČS… To auto pro mě znamenalo všechno! Hajzlové…",
+      "proposedFullReplacement": "TaxiDriver: Zasraný KČS… To auto pro mě znamenalo všechno! Hajzlové…",
+      "sourceSha256": "6f52d80fc5731cf2ac5fa2beea8da41dbe8bdddd6629311d762ebe09d42c2249",
+      "currentTargetSha256": "d4af023f62dbf18da263fbe2891bf8898b7be2c7d23c2c9ae1d7a8b918ea67fe",
+      "proposedTargetSha256": "20028204367e2415efc7f578c76c25d8c91b94ad77629a79a9ae5f42f8183e0f",
+      "authoredFile": "Translations/cs/dialogue-batch-196.json",
+      "objectiveReason": "Zasraná directly modifies bare KČS. The approved committee head Výbor is masculine; the adjective must be Zasraný. The following auto sentence and insult are retained.",
+      "compiledNodes": [
+        "TaxiDriver_Asking_3_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-08",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455286366212",
+      "deltaIndex": 631,
+      "category": "kcs-number-agreement",
+      "source": "Всё ещё думаешь, что КЧС придут за тобой?",
+      "currentTarget": "Pořád si myslíš, že si pro tebe KČS přijdou?",
+      "proposedFullReplacement": "Pořád si myslíš, že si pro tebe KČS přijde?",
+      "sourceSha256": "708fbaa93ea2f1c143c0bbbd965d9d8ad920646fc269b7c246f64d68361b9ad5",
+      "currentTargetSha256": "4139cdf739c09a4b55a971e14397f3d086147a1eadc0bf56b6877d2f830abb13",
+      "proposedTargetSha256": "e2c90bd468fe97dafe0df330567cb8627031c05a1654ba86ee72fcd16badfb48",
+      "authoredFile": "Translations/cs/dialogue-batch-197.json",
+      "objectiveReason": "Bare KČS names singular Výbor; direct přijdou incorrectly uses plural agreement. The question still concerns coming for the addressee.",
+      "compiledNodes": [
+        "talk_taxidriver_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-09",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455202480137",
+      "deltaIndex": 648,
+      "category": "kcs-pronoun-agreement",
+      "source": "Doctor: Честно вам скажу, я сам не до конца знаю мотивы КЧС. Даже несмотря на то, что работал на них некоторое время.",
+      "currentTarget": "Doctor: Upřímně řečeno, ani já úplně nevím, co KČS sleduje. Přestože jsem pro ni nějakou dobu pracoval.",
+      "proposedFullReplacement": "Doctor: Upřímně řečeno, ani já úplně nevím, co KČS sleduje. Přestože jsem pro něj nějakou dobu pracoval.",
+      "sourceSha256": "041e7783feafee8eaa3014bba6087e3173609dc849245c713dcca7fbb10c7e0f",
+      "currentTargetSha256": "c7b033b0d81c137677e80622765863a3094a808d52647aaf9210a416db1d592c",
+      "proposedTargetSha256": "3a7d50f214856ddc199239e1f789d532622ab56829ce04c402d3449be1e969a8",
+      "authoredFile": "Translations/cs/dialogue-batch-202.json",
+      "objectiveReason": "Pro ni refers to KČS without an explicit feminine organizing noun. The approved antecedent Výbor requires pro něj; Doctor remains the masculine worker, duration and uncertainty retained.",
+      "compiledNodes": [
+        "Doctor_Asking_2_2"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-10",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454816604168",
+      "deltaIndex": 680,
+      "category": "kcs-pronoun-number",
+      "source": "Fatman: Когду уже КЧС порядок наведут? Их зря учредили, что ли?",
+      "currentTarget": "Fatman: Kdy už KČS nastolí pořádek? K čemu je vůbec zakládali?",
+      "proposedFullReplacement": "Fatman: Kdy už KČS nastolí pořádek? K čemu ho vůbec zakládali?",
+      "sourceSha256": "6ac04d16112eb1230af404ce94fd8a9075941a1683c62a9aebb6dde8feb795dd",
+      "currentTargetSha256": "070bab42bae80745285a2a54c923a2db52c969bb716ce4625c116caa3b5a3dc9",
+      "proposedTargetSha256": "1cc8165f8b2fe74bb1771bbb6038a1ec32d15ba64783d076a00a378f9fa38bc1",
+      "authoredFile": "Translations/cs/dialogue-batch-229.json",
+      "objectiveReason": "Je in zakládali je is plural accusative, referring to the institution that was founded. The singular approved Výbor requires ho. The implicit plural founders remain unchanged.",
+      "compiledNodes": [
+        "Fatman_Asking_2_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-11",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454669803526",
+      "deltaIndex": 691,
+      "category": "kcs-relative-pronoun-agreement",
+      "source": "Wifefema: Чем вы лучше КЧС, у которых есть полномочия на это, скажите мне?",
+      "currentTarget": "Wifefema: V čem jste lepší než KČS, která k tomu má pravomoc? Řekněte mi to.",
+      "proposedFullReplacement": "Wifefema: V čem jste lepší než KČS, který k tomu má pravomoc? Řekněte mi to.",
+      "sourceSha256": "6b0cf22ba5ca657a979ebfcd44ad9d64416756f72818c212fd13fa372a57474e",
+      "currentTargetSha256": "b0ce17b6a63291528da306ef1be4d07665c491148cf8f0099348f8a5214b7cec",
+      "proposedTargetSha256": "b4fffea3282560bd788203e502cd4e08f5333fff3ed6a861e2865e571c6201a1",
+      "authoredFile": "Translations/cs/dialogue-batch-240.json",
+      "objectiveReason": "The relative která directly refers to KČS, not Wifefema. Masculine Výbor requires který; her own gender and the comparison are preserved.",
+      "compiledNodes": [
+        "Wifefema_Asking_6"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-12",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454476865537",
+      "deltaIndex": 707,
+      "category": "kcs-number-agreement",
+      "source": "Scammer: Короче, КЧС явно тут главные.",
+      "currentTarget": "Scammer: KČS jsou tady očividně hlavní.",
+      "proposedFullReplacement": "Scammer: KČS tady očividně velí.",
+      "sourceSha256": "9bc32dbd36ac5a1842584fbf5876612e3e7b20e8adbb33b330b9deebfd815400",
+      "currentTargetSha256": "b0dc405dd96f9360650111e645ea5f11875d4f821ad2e2b25f5ec2002441b590",
+      "proposedTargetSha256": "675a41281513245edccdf2ae575e01d74b1aa6948006cd543e482caa915f35e3",
+      "authoredFile": "Translations/cs/dialogue-batch-253.json",
+      "objectiveReason": "Bare singular Výbor conflicts with jsou hlavní. Velí preserves the source claim that the committee is in charge without changing the institutional identity, participants or scene information.",
+      "compiledNodes": [
+        "Scammer_Asking_2_3"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-13",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451993837576",
+      "deltaIndex": 818,
+      "category": "kcs-neuter-agreement",
+      "source": "Widow: Ну нажми на курок. КЧС убили во мне душу, ты тело добей.",
+      "currentTarget": "Widow: Tak stiskni spoušť. KČS ve mně zabilo duši, ty doraž tělo.",
+      "proposedFullReplacement": "Widow: Tak stiskni spoušť. KČS ve mně zabil duši, ty doraž tělo.",
+      "sourceSha256": "7ceb45fecd2ff5b05389f14036779f752c475b47bc107719e2555676a2582bb5",
+      "currentTargetSha256": "f0fefd2de395e1f8a560f962aafd2c01ed8aa3f41c2806250e7cf9cd3c5db9db",
+      "proposedTargetSha256": "8f746d0f6430fda79ba5f5d27ff01439165cf37c41832cb40d690a5be4d277ff",
+      "authoredFile": "Translations/cs/dialogue-batch-390.json",
+      "objectiveReason": "KČS, not duše or tělo, is the killer of the soul in the metaphor. Masculine Výbor requires zabil rather than neuter zabilo. The separate player action against her body remains intact.",
+      "compiledNodes": [
+        "Widow_Armpit_Gun"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-14",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451964477446",
+      "deltaIndex": 819,
+      "category": "kcs-neuter-agreement",
+      "source": "Esenin: КЧС мозги проели тебе?",
+      "currentTarget": "Esenin: To ti KČS vyžralo mozek?",
+      "proposedFullReplacement": "Esenin: To ti KČS vyžral mozek?",
+      "sourceSha256": "0ecab3502530702568a63b6b43b96e3b903675f593afc9325230832e36aed923",
+      "currentTargetSha256": "66ad3836e12e76ccc480b05dce31b13aada081846ae680f3d41e52eebef0894a",
+      "proposedTargetSha256": "49e5137f48ccbf90cdd3f96031e5414d89804289cb3bd256216b29a2ca736be4",
+      "authoredFile": "Translations/cs/dialogue-batch-392.json",
+      "objectiveReason": "KČS is the metaphorical agent; neuter vyžralo conflicts with approved masculine Výbor. The question and coarse register remain intact.",
+      "compiledNodes": [
+        "Esenin_Armpit"
+      ],
+      "proposalPreserveExactly": "passed; not applied"
+    },
+    {
+      "findingId": "cs-independent-02-15",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139714",
+      "deltaIndex": null,
+      "category": "unsupported-rifle-attachment",
+      "source": "Vigilante: Думал, что сдохли. Но нихера — через пару дней они нашли меня сами, и знаешь, кто пришёл первым? Дочь этого мужика с ружьём.",
+      "currentTarget": "Vigilante: Myslel jsem, že jsou mrtví. Ale kdepak — po pár dnech si mě našli sami. A víš, kdo přišel první? Dcera toho chlapa, s puškou.",
+      "proposedFullReplacement": "Vigilante: Myslel jsem, že jsou mrtví. Ale kdepak — po pár dnech si mě našli sami. A víš, kdo přišel první? Dcera toho chlapa s puškou.",
+      "sourceSha256": "fb45f5ec19f1cbf82788b1118c514d5e52a9fda3ec032a1b1415256238ca0053",
+      "currentTargetSha256": "ec39c962fc4352a64a044d5263e15de8cf370692d69711295579cb828d92b758",
+      "proposedTargetSha256": "65a1bc5dc72425bd2ffb7149b18df8be416534d1744c4a15518b5229b3a41df3",
+      "objectiveReason": "Russian daughter-of-that-man-with-a-rifle leaves the prepositional attachment ambiguous. The Czech comma sets s puškou apart and asserts that the arriving daughter has the rifle. Removing only the comma restores the same attachment ambiguity without choosing father or daughter. Every other sentence is retained.",
+      "compiledNodes": [
+        "Vigilante_Entrance_3_1"
+      ],
+      "proposalPreserveExactly": "passed; not applied",
+      "decisionDelta": "The prior review left this source uncertainty pending and did not accept a rifle-owner correction. The current solution preserves the uncertainty through identical source-order noun attachment; it does not claim new evidence of an owner."
+    }
+  ],
+  "scope": "14 delta rows plus one explicitly requested prior ambiguity unit; all complete units, no excerpts"
+}

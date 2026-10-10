@@ -1,0 +1,47 @@
+{
+  "reason": "actual affected concept dependencies omitted by pinned literal selector",
+  "rows": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "source": "TV: Колокола для них громче. Серы – больше.",
+      "target": "TV: Zvony pro ně znějí hlasitěji. Síry je víc.",
+      "sourceSha256": "1412783d2c9a703d876f410164311dd062d85a1cfb99fcfcb7adbda3d8927c62",
+      "targetSha256": "59172f4169ed7ae2d618396b1044cfebacefaf493504352ad8ace1737ced2bca"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "source": "TV: Остаётся только сера. Грязные мысли.",
+      "target": "TV: Zůstává jen síra. Špinavé myšlenky.",
+      "sourceSha256": "22806c84a5bf71a5b376c4a491d46244bcc992aa80789353250ecf3cc7d2ef0b",
+      "targetSha256": "921135070265131c21c1d982a1a18c15ab14a63262df903fe3b7d162a28ac84f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453948383235",
+      "source": "Tough: Что ты такое там увидел? Серу? Или что?",
+      "target": "Tough: Co jsi tam viděl? Ušní maz? Nebo co?",
+      "sourceSha256": "cac6cf0db14897f580c227c45549a89b03f9761e70cb590ba9b7f4656957bcdd",
+      "targetSha256": "4eb212c4326875f8e64af4b26a1d54c06cb29a9a281fd0b48a839499869d309e"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451805093889",
+      "source": "Mother: Я давно их не чистила. Может, уже пробка образовалась.",
+      "target": "Mother: Už jsem si je dlouho nečistila. Možná se mi tam udělal špunt.",
+      "sourceSha256": "9b4b7d3d91a9ed9c2e908d3c4fca65f1275a947d415932c0e6b4df49cbeeeb72",
+      "targetSha256": "92d7f08c0abf8e8b55d87d085012a65c9c09c3a92e01431d90c8f32a7b8b7d47"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787841",
+      "source": "TV: Ей и живут Гости.",
+      "target": "TV: Právě z ní Hosté žijí.",
+      "sourceSha256": "977eb2b45db0720a3b924209bf5e1d5ad7f45dbdbb50b95c08f8aa76a20ee8d6",
+      "targetSha256": "25fdc769a68b32a19dcfc3e013e5f1868fd5299f6d43e97a4a611bcf8cda744a"
+    }
+  ],
+  "compiledKeys": [
+    "line:tv_8_necessary_0965bc3",
+    "line:tv_8_necessary_0d292a8",
+    "line:Tough_Ears_Gun_0a0fd7e",
+    "line:Mother_Ears_0f474b8"
+  ],
+  "regression": "all four concept variants plus dependent pronoun must enter the next normally generated closure; no manual append-only patch to previous immutable closure"
+}

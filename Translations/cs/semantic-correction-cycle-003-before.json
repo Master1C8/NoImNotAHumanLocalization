@@ -1,0 +1,148 @@
+{
+  "kind": "cs-cycle-003-complete-batch-preflight-and-before",
+  "dateUtc": "2026-10-09T20:21:09.289795+00:00",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "approvedGlossarySha256": "15387d7d390dd7fde7556b067854fbb08139b46e2831cca0357f5f6b32521d24",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "reviewerVerdictSha256": "90cf18db5fa360b0926e6bc607939b1d783cac271a42895874507a522152cce7",
+  "reviewerFindingsSha256": "8f26bfb80d77d29fd8256f4ff635541c161cb8b47b8266dae905a9f5dfc1cf75",
+  "reviewerCaveatSha256": "34b69ee856b3a6991d4faa15d80c5dfde60ab3bd43135dfcf2d46aa61e37628e",
+  "priorClosureSha256": "d8cdb0ed1255f3c29c59d8f5dbd1d1fa5cb6df43df8dd499c8d07737bee5e576",
+  "candidatePlanSha256": "bc3a86aea2a2e42e7557c5a80bdcbb110363feb842360cedc36496d2fc3c9281",
+  "authoredFileSetSha256Before": "f09dfc26a3acbe6f734874c3576c6cbc9461bc19a6ff0eba59a59e666515dc43",
+  "authoredFileCount": 411,
+  "changedFileHashesBefore": {
+    "Translations/cs/dialogue-batch-361.json": "457e35fab75f8db4c5c0c9682231a1867c1861d58df1694427f07e8b5bb59f0b",
+    "Translations/cs/dialogue-batch-067.json": "a90435975e22a9724cb3af752a5d7232823182c10d969eae4088af072ecdb9e7",
+    "Translations/cs/dialogue-batch-235.json": "11614a303eac436ead6eed099a5a49bf547ececc40cafa5e160591c2af68d734",
+    "Translations/cs/dialogue-batch-036.json": "aba952f5d70ef42c694fee2091bc58fe9d8f237871bc91d755a5daf3be720bee",
+    "Translations/cs/dialogue-batch-027.json": "8937822cc12d135811431d3db507cd8ecb34e4791367ce57ee9deec4b722f4c3"
+  },
+  "rows": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452501348361",
+      "findingId": "cs-independent-01-01",
+      "source": "Wheelchair: Если… если ты не доверяешь этому признаку, то как я могу им доверять?",
+      "sourceSha256": "c26421daa1aa90d6df3d17ecec6b19612ba746088f5c7ca96a0785f507a47060",
+      "before": "Wheelchair: Jestli… jestli tomu příznaku nevěříš ty, jak mu mám věřit já?",
+      "beforeSha256": "9c9d662c949eeb67c59c17c64071ada6d3eb1917ac1a721cdd98454f6b7587d0",
+      "after": "Wheelchair: Jestli… jestli tomu příznaku nevěříš ty, jak jim mám věřit já?",
+      "afterSha256": "32d8a049274677dec01fb6af629a4f6202e0d005917ba6ef7e726faafd39fff1",
+      "authoredFile": "Translations/cs/dialogue-batch-361.json",
+      "authoredFileSha256Before": "457e35fab75f8db4c5c0c9682231a1867c1861d58df1694427f07e8b5bb59f0b",
+      "reason": "Russian им and following все они refer to plural signs; jim retains the plural without adding a new qualifier.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457106694149",
+      "findingId": "cs-independent-01-02",
+      "source": "BigLebowski: Не нужно было и время тратить на тебя…",
+      "sourceSha256": "bb7c9d2ec1b8a222cb12ff9c4fa6b676c7a86e36565628bc5460ee5aca343c6b",
+      "before": "BigLebowski: Neměl jsem s tebou vůbec ztrácet čas…",
+      "beforeSha256": "58cc4a3f2fe5a13abd54af8466a7ec99c43b33310e9e5cc16136b572ce641365",
+      "after": "BigLebowski: Neměla jsem s tebou vůbec ztrácet čas…",
+      "afterSha256": "cb86b1d5880feb0a4a208467006675e0cd0f3bbc8b62f4c1d13a361a571ed027",
+      "authoredFile": "Translations/cs/dialogue-batch-067.json",
+      "authoredFileSha256Before": "a90435975e22a9724cb3af752a5d7232823182c10d969eae4088af072ecdb9e7",
+      "reason": "The approved female speaker needs feminine past agreement in the refusal branch.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454741106690",
+      "findingId": "cs-independent-01-03",
+      "source": "Bestson: А что, если бабушка оказалась Гостем и убила их? Что, если КЧС их остановили и забрали…",
+      "sourceSha256": "a2b0b09f09b36e17febfaa2685a7a1090559783c83907d6e7ee8fe0844a808f5",
+      "before": "Bestson: Co když se ukázalo, že babička je Host, a zabila je? Co když je zastavila KČS a odvedla je…",
+      "beforeSha256": "dbe0d8954ed24faaa1628fa1fdb7befa9dc14ed4febe18b289e93838e5e2f924",
+      "after": "Bestson: Co když se ukázalo, že babička je Host, a zabila je? Co když je zastavil KČS a odvedl je…",
+      "afterSha256": "f5cdf60abcb76c997f925071e62e0ffcf7ab7735ba087f0267dbf80080112c4e",
+      "authoredFile": "Translations/cs/dialogue-batch-235.json",
+      "authoredFileSha256Before": "11614a303eac436ead6eed099a5a49bf547ececc40cafa5e160591c2af68d734",
+      "reason": "Keep feminine grandmother agency; KČS expands to masculine Výbor and requires masculine verbs.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238470",
+      "findingId": "cs-independent-01-04",
+      "source": "FunnyGuy: Всем с этим катаклизмом уже посрать на все эти финансы, банки, кредиты.",
+      "sourceSha256": "6c0a83968860a919eb4799810f89ed28a8e7c91a57425589590da289a17d1449",
+      "before": "FunnyGuy: S touhle katastrofou už všem budou všechny finance, banky a půjčky u prdele.",
+      "beforeSha256": "0943957e9fe9a8b77048e448947c7da7ae033ed44c2fb42ce99c1ff728cf3d7e",
+      "after": "FunnyGuy: S touhle katastrofou už mají všichni všechny ty finance, banky a půjčky u prdele.",
+      "afterSha256": "e79535d1526fcbc0b7fea254dd4d7cc4684ae1d23c51a550c5c2ea8b686c687f",
+      "authoredFile": "Translations/cs/dialogue-batch-036.json",
+      "authoredFileSha256Before": "aba952f5d70ef42c694fee2091bc58fe9d8f237871bc91d755a5daf3be720bee",
+      "reason": "Russian уже places universal financial disregard in the present.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "findingId": "cs-independent-01-06",
+      "source": "TV: Остаётся только сера. Грязные мысли.",
+      "sourceSha256": "22806c84a5bf71a5b376c4a491d46244bcc992aa80789353250ecf3cc7d2ef0b",
+      "before": "TV: Zůstává jen síra. Špinavé myšlenky.",
+      "beforeSha256": "921135070265131c21c1d982a1a18c15ab14a63262df903fe3b7d162a28ac84f",
+      "after": "TV: Zůstává jen ušní maz. Špinavé myšlenky.",
+      "afterSha256": "2173fa21c0e53ce509b1e603673bbdaa2956cab613263d406ec42ed68a42282f",
+      "authoredFile": "Translations/cs/dialogue-batch-027.json",
+      "authoredFileSha256Before": "8937822cc12d135811431d3db507cd8ecb34e4791367ce57ee9deec4b722f4c3",
+      "reason": "Approved eighth-day TV ear-wax concept is earwax, not chemical sulfur.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787841",
+      "findingId": "cs-independent-01-08",
+      "source": "TV: Ей и живут Гости.",
+      "sourceSha256": "977eb2b45db0720a3b924209bf5e1d5ad7f45dbdbb50b95c08f8aa76a20ee8d6",
+      "before": "TV: Právě z ní Hosté žijí.",
+      "beforeSha256": "25fdc769a68b32a19dcfc3e013e5f1868fd5299f6d43e97a4a611bcf8cda744a",
+      "after": "TV: Právě z něj Hosté žijí.",
+      "afterSha256": "7a5c954e054a1c7697af5527a61a840d8b4cbc840cd28373e76cf56d459e09d2",
+      "authoredFile": "Translations/cs/dialogue-batch-027.json",
+      "authoredFileSha256Before": "8937822cc12d135811431d3db507cd8ecb34e4791367ce57ee9deec4b722f4c3",
+      "reason": "Dependent pronoun agrees with masculine maz in the preceding TV line.",
+      "preserveExactly": "passed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "findingId": "cs-independent-01-07",
+      "source": "TV: Колокола для них громче. Серы – больше.",
+      "sourceSha256": "1412783d2c9a703d876f410164311dd062d85a1cfb99fcfcb7adbda3d8927c62",
+      "before": "TV: Zvony pro ně znějí hlasitěji. Síry je víc.",
+      "beforeSha256": "59172f4169ed7ae2d618396b1044cfebacefaf493504352ad8ace1737ced2bca",
+      "after": "TV: Zvony pro ně znějí hlasitěji. Mazu je víc.",
+      "afterSha256": "2fd204ffc4d06be17b7c6fa1867076ee8d1a11e64b7079462e58df1ea8fd8b01",
+      "authoredFile": "Translations/cs/dialogue-batch-027.json",
+      "authoredFileSha256Before": "8937822cc12d135811431d3db507cd8ecb34e4791367ce57ee9deec4b722f4c3",
+      "reason": "The linked TV callback refers to more earwax, not chemical sulfur.",
+      "preserveExactly": "passed"
+    }
+  ],
+  "changedCount": 7,
+  "preflight": {
+    "fullUnitSourcesAndTargets": "exact reviewer/source/current match",
+    "factsAgencyTimingParticipantsReveal": "adjudicated against pinned scene evidence in plan",
+    "approvedGlossary": "checked",
+    "protectedSyntax": "all seven passed parser-derived preserve-exact rules",
+    "noAuthoredTargetAppliedYet": true
+  },
+  "dismissed": [
+    {
+      "findingId": "cs-independent-01-05",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455638687752",
+      "reason": "The consumer confirms handover of an existing document but does not disprove issuing language; the independent caveat downgrades this to a preference-level proposal. Leave Vystavit unchanged."
+    }
+  ],
+  "needsReview": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "reason": "The full three-verse poem, compiled clue consumer and managed ending fields do not establish who or what masculine он names. Current Czech on retains source pronoun without naming a referent."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139714",
+      "reason": "Compiled account establishes the daughter returned first but does not attach the rifle to daughter or father. Current Czech punctuation leans toward daughter; a safe neutral full sentence retaining a person-with-rifle relation was not established. Keep unresolved rather than guess."
+    }
+  ]
+}
