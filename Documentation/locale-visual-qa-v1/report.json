@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUTC": "2026-10-10T10:45:05.021209+00:00",
+  "gameVersion": "1.3.19",
+  "sourceCanonicalHead": "3f79120e97c9a603a9d46557c930e8dc118fadf1",
+  "requestedLocales": [
+    "id",
+    "cs",
+    "hu",
+    "nl",
+    "fa",
+    "ro",
+    "hi",
+    "fil",
+    "el",
+    "bg",
+    "sr",
+    "sw",
+    "he"
+  ],
+  "completedSuccessfulLocales": 0,
+  "failedLocales": [
+    "id"
+  ],
+  "unrunLocales": [
+    "cs",
+    "hu",
+    "nl",
+    "fa",
+    "ro",
+    "hi",
+    "fil",
+    "el",
+    "bg",
+    "sr",
+    "sw",
+    "he"
+  ],
+  "batchState": "stopped-at-first-failed-locale under game-localization-visual-qa",
+  "result": "visual-review-failed",
+  "imagesTextures": "excluded",
+  "testedArchive": {
+    "path": "dist/NoImNotAHuman-id-preview-v1.zip",
+    "sha256": "b13e11c6178c24ab3c1b05124f7b45d6c34b5ee28761baf91f577b42654c86a0",
+    "installedArtifactHashes": 31,
+    "nativeLoader": "diagnostic winhttp.dll disabled for the exact-archive check",
+    "installationBoundary": "Verified overlay on the existing pinned Thai checkpoint, not a fresh original-game installation"
+  },
+  "captureContract": {
+    "defaultRequestedScreens": 5,
+    "capturedReviewedScreens": 2,
+    "pendingScreens": [
+      "real multi-line dialogue",
+      "choices or text-rich gameplay description",
+      "next semantic gameplay state"
+    ],
+    "viewportLogical": [
+      1440,
+      900
+    ],
+    "nativeDimensions": [
+      2880,
+      1800
+    ],
+    "screenshotsUnannotated": true
+  },
+  "automatedResult": "pass for archive install, menu readiness, owned capture, one guarded Settings input and shutdown/restoration",
+  "activeLocale": {
+    "runtimeCode": "id",
+    "publishingCode": "id",
+    "verification": [
+      "SelectedLanguage=id in copied preferences",
+      "Localized Indonesian menu actions match the current authored UI",
+      "Settings selector visibly reads Bahasa Indonesia"
+    ],
+    "status": "passed"
+  },
+  "visualReview": {
+    "status": "fail",
+    "findings": [
+      {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3660989769437180",
+        "collection": "UI",
+        "key": "Common_Quit",
+        "target": "Keluar dari permainan",
+        "component": "level0:2108",
+        "expected": "Exit label stays inside its button without clipping or overlap",
+        "observed": "The centered exit label extends past the left and right button borders in the native menu and Settings frames",
+        "serializedLayout": {
+          "m_enableAutoSizing": 1,
+          "m_fontSizeMin": 24.0,
+          "m_fontSizeMax": 28.0,
+          "m_fontSize": 28.0,
+          "m_margin": {
+            "x": 20.0,
+            "y": 0.0,
+            "z": 20.0,
+            "w": 0.0
+          }
+        },
+        "diagnosticLimit": "The packaged parameters are verified. Actual live font size and preferred width were not instrumented; no layout repair was applied."
+      }
+    ],
+    "settings": "Visible Indonesian headings, language selector, typewriter and gamepad labels are readable; lower/scroll settings not exercised",
+    "missingGlyphOrPrintedRichTextObserved": false,
+    "earlierCommunicationCorrection": "A partial field selector omitted m_enableAutoSizing and incorrectly said autosizing was disabled. Full schema read proves enabled with a 24-28 range."
+  },
+  "frames": [
+    {
+      "path": "Documentation/locale-visual-qa-v1/upload/id-01-title-menu.png",
+      "sha256": "212eee2eeb7c33e5c4a2502a32d8b53ac03bcfcab2b9f12965a9bc5b3435fa77",
+      "nativeDimensions": [
+        2880,
+        1800
+      ],
+      "captureEvidence": "outputs/locale-visual-qa-v1/id/menu/evidence.json",
+      "captureEvidenceSha256": "94b29f05e1d4ec69873eb03f9de9c44b3b16533259200a22ea33d96b8fa591c2",
+      "screen": "menu",
+      "visualReview": "fail"
+    },
+    {
+      "path": "Documentation/locale-visual-qa-v1/upload/id-02-settings.png",
+      "sha256": "8ff1c6d661b1d6327eae2b612e89cde7d9d97a268e1c66091888800c324d2539",
+      "nativeDimensions": [
+        2880,
+        1800
+      ],
+      "captureEvidence": "outputs/locale-visual-qa-v1/id/settings/evidence.json",
+      "captureEvidenceSha256": "514fb7c79259a529dbe3d19f496c7ec5e19231db9d9b381b6b05f46d4a2e2c15",
+      "screen": "settings",
+      "visualReview": "pass for visible settings panel"
+    }
+  ],
+  "logs": {
+    "path": "outputs/locale-visual-qa-v1/id/Player.log",
+    "sha256": "5766352961b04309ce7252bb80b25f064061c5fe797cc154846a03fbeb01e876",
+    "matchedWarningCounts": {
+      "CRC Mismatch": 0,
+      "Unable to load asset": 0,
+      "No translation found": 0,
+      "KeyNotFoundException": 0,
+      "NullReferenceException": 0,
+      "missing from the": 0,
+      "Unicode value": 0,
+      "WindowsVideoMedia": 0,
+      "DOTWEEN": 0
+    },
+    "limit": "Absence of these messages does not establish visual correctness or gameplay behavior"
+  },
+  "cleanup": {
+    "fixtureStopped": true,
+    "fixture31FilePayloadRestored": true,
+    "diagnosticLoaderRestored": true,
+    "preferencesRestoredByteForByte": true,
+    "original31GameFileHashesUnchanged": true,
+    "unitySaveRootChanges": [
+      "Player-prev.log",
+      "Player.log"
+    ],
+    "cloudSaveRootInsideFixture": true,
+    "cloudSaveRootChangesAfterPreGameplayCheckpoint": [],
+    "cloudSaveInitialLaunchHashBaseline": "not captured before this first launch; preserve this limitation",
+    "gameplayInputActions": 0,
+    "normalSaveWriteClaim": "No gameplay action was performed; do not claim an unavailable pre-launch cloud-save comparison"
+  },
+  "runtimeProgression": "not-run",
+  "languagePickerSelectionAndPersistence": "not-run; exact saved-locale selection only",
+  "otherLocalesFontBidiShapingLayout": "not-run",
+  "repairApplied": false,
+  "translationAndArchiveChanges": false,
+  "nextRequiredAction": "Fix the menu text-fit mechanism, then repeat the representative exact-archive case and continue the sequential 13-locale QA",
+  "execution": {
+    "initialRunner": "Documentation/locale-visual-qa-v1/execution/run_locale_visual_qa.py",
+    "initialRunnerSha256": "50292caf66a000a8ee0028e00052c11fe699f178871b8ee2f2cf3ab765fc214a",
+    "frozenHelpers": "outputs/locale-visual-qa-v1/id/frozen-helpers",
+    "frozenHelperHashes": {
+      "prepare_renderer_probe.py": "dc6e7385dbf59afe248909544f122020871ba74004ff44568544438c0f4cc321",
+      "audit_embedded_text_assets.py": "ef533a11297ce4e4a03d9edf4b3b4caad045c945900dedd27b9ae01dbf9d1e62",
+      "report_locale_readiness.py": "820eb0e14eabe4a3a24d407b09be571d9be608d4c0b9a399ef029203801ea6fa",
+      "check_locale_build_gates.py": "a76422086d2e5bf0e8a0b4619a1323b3a83a621fe9a2ad90c310701c32e7d3cf",
+      "prepare_th_clean_fixture.py": "8985497a6d8cf6a5c8b4e88be912cfc508c1f288bb173993c6edf52bb4f39b75",
+      "apply_th_semantic_corrections.py": "71346f3547cfa9bfc9ec69aaa11d1c78290207b878dfe2544b3eff2368733c67",
+      "build_locale_probe.py": "ff395f759b169242810dac417b60cc40b87f893ed94fcbb2088da152a967c57c",
+      "audit_other_serialized_text.py": "ff49e0f715375cb3871940404e153880b29cff21ff9cfb3598092f63886b9b74",
+      "start_dialogue_probe.py": "78ff384c1024797443b51c49424dcc6cd76d2076c31f1c6e046466f07a509b2d",
+      "assemble_glossary_translation.py": "94aca43899bd3fe97bb6a31e5cc56a8041521b935787dc91eeb324efe3a2603c",
+      "validate_locale_corpus.py": "989265c54de53d13b968fee3c70f06e45c710e491bf3667efb2e930edc4e62a2",
+      "accept_locale_text.py": "2367bda4bd4fa0948589e4a1aebeab0cff838ee9591e742841a95d20cc581b70",
+      "prepare_th_semantic_audit.py": "cfbfae0e4d9b8b0a0405fe960faa96e74a981aed2b4fa60ed979c0331d0378c6",
+      "accept_text_source_scope.py": "59de3222ca33fea0be19c2dee96a668dbfb6556f8f552d9f9cd1692296f70505",
+      "classify_static_text_roles.py": "82876b88ea3fd9195db44b9f784d2a8f69f86f2abd91e5c2d82db594cfe7a604",
+      "audit_static_text_scope.py": "c3afb64bf11f88f5e3a0f3c7d9157aa0eb15efe8f01eeb43873b01f8b266ccf5",
+      "validate_static_text_draft.py": "e784f69b1867f432ee3aa0c7aa5aa244ac1640e8f389cf09adc3e292a59e4660",
+      "audit_missing_ui_key.py": "cf27cddb577db5fa82725578fa77a14839df85560cafbf8412a670b7242ec34c",
+      "review_source_textures.py": "e3bf1ee26486e43dbfca141aacb1148dbac57c71e6f62d55f7b39aa50a9e420a",
+      "archive_th_only_package.py": "4242080259a06af24fe84785e431baea9398e5fd14089477035557c3b4943b5e",
+      "verify_th_only_package.py": "7e5cb82af938bd776bc802834553b687fb8706a69d0594d7840c49ecd928e22e",
+      "run_th_clean_runtime_probe.py": "b15cc0dc21324d5b6f6c22535700daca6f891d27413d54639afc1944ce046d9c",
+      "audit_all_static_text.py": "a7a6c8537808c2d06c694859ea3f39caf3ecb2a7602c4f697a62576c7c0373d0",
+      "build_th_semantic_regressions.py": "39f81afd83b5864c9a2f0f8284d1d59d2649d25c022ad43d49a06150222b2d89",
+      "probe_fonts.py": "09278daf3a36b03d9be1bcd4789fa37a1266511d4590051a8a1e7fb0cddd3782",
+      "fixture_preferences.py": "a6980eb2994d78c03f43417a38e03f8caeeb53de3f12fb97eeb617b378aa4e4f",
+      "verify_th_text_draft.py": "8bea0b87aaf978282eea28adf1ac4949362224fad6566392054511a1b0ed5500",
+      "run_saved_locale_probe.py": "05d9f17545ea9340622de48aa0b910964cd44326dd4835771707e9c3a405f944",
+      "extract_glossary_corpus.py": "489b349d511fc8c9c303bc17bc00e1eb0dd20243427c00f92ce8a1d1f20f6bcb",
+      "probe_menu_features.py": "5cff623bae2b4c56ddf9c2ae23b48b41e2dd2435cb1c4bf664aaaa085765caf0",
+      "install_th_only_package.py": "7ac7d1e22bfe7dba9c6f84b0e524db8624f7adb82d588e945ca7d091e53d3088",
+      "preserve_exact.py": "2387fc3eb5c1e2eb28f7524c94d61b348911f12c6e61956e11d6f90daa31f0ab",
+      "install_th_text_draft.py": "1a96a9da369164b5c3a162c4e8294541823fbd9d2428fde68916308a933c5107",
+      "run_locale_visual_qa.py": "50292caf66a000a8ee0028e00052c11fe699f178871b8ee2f2cf3ab765fc214a",
+      "verify_th_semantic_acceptance.py": "70a8bafdc0c2a94d67673e4ad564517a0f4d5d70da93bc4b8941a1b92c00ebe1",
+      "assemble_th_only_package.py": "f61bcab23476c650c2b2136cc747704c437f78a4b39c541129e789f3374d7cd9",
+      "audit_translation_alignment.py": "87f528581e9cef9598f5e45584ca53b3e17d6db2e3bdf33f5bd31b73078c4e68",
+      "package_locale_text.py": "827fcde7f4804141c1684e2529f0a8835c62958bb20f41488a0537da2f2b5330",
+      "dialogue_probe_action.py": "3b56ea1808abb4f30a93e71714eb4eeddf98f1e13d4b536853af797e706222d0",
+      "build_source_glossary.py": "7a83433d69784eae2334bd2e3f402618e65dac5cff3783094725c67e85a2db6a",
+      "install_runtime_loader.py": "1061ac6b5fe3ed17f06ee9c1fcb09a3cb332a258f5d3203079166c8b200ef272",
+      "build_localization_inventory.py": "d7582425d33a022bc32756d9a4a80702c9bb702e107cce91b68700e31c726a57",
+      "build_th_text_draft.py": "1e708c57d9cdb8065802bc6fe3e0cce189fca0ca5b94322ee805075be5f67a6d",
+      "restore_dialogue_probe.py": "14ec074ba0a9061cc6f4c7de2f7f4c2fe494d71adf8451c62c971c33f9d20c29",
+      "audit_locale_deliveries.py": "11d9926b92438166819f2d78514160bc353a0fa1ca63df6c1ccac1c12e9f7341",
+      "addressables_catalog.py": "d40c3d38cd0c1bf36a76064f98eca2a38f92cafe9992a01fecb0a1b4de60a564",
+      "package_glossary_translations.py": "ee2f6f1cc812b361f227dbec128e997556b38afdc88f5a9a5ea6cff426b88543",
+      "rehearse_th_archive_install.py": "97dcaa0614142d52575e96abf5e16ebb2cd119a7f5a53488f3626c28b05aa656",
+      "validate_game_text_batch.py": "d5141beeb1dfd55476935a1828257603d7302f85bd5a2818bff223a476647253",
+      "install_locale_probe.py": "887f117bebb3e2e1f6cb12c1361926f51107b9cb5afc49742948841489662129",
+      "verify_locale_text.py": "07e69836760ac937e071e36b9f3421f3ebb15fc70b3a162a4c61cc6b138b2686",
+      "verify_locale_native.py": "cc188dfe325d281874aa119f29a7727065270c0b4075099cb8e544efc65eddcc",
+      "preflight_th_fresh_install.py": "5075b4796010a05a43401b86835b53979cf722e8c284c2e32ba0474e32947343",
+      "unity_types.py": "090d8595b22e69df5a3f98b306d4ea256344689a2132172e6b81c698f2bae8bd",
+      "continue_locale_chats.py": "0ed011e07b8f02b2358a92bff4db6156cedd802170b8559beaf90142c06bbc7c",
+      "audit_legacy_ui_text.py": "1a6b01b977a700b8d3588fa95f1c12f8ffed141a7ab2854fe3a1189e63a23f32",
+      "build_locale_text.py": "1170a513f909e5c31f80ae4605da52cda48b7de5869e234d1dc3187844773290",
+      "expand_exact_text_batch.py": "1077b55c202be586260d2041d751236e945d404078409d2ba9e52794da891719",
+      "probe_assets.py": "94e82057445deab0a95c779ebe5dfb9477f9f4d37aad44b7d2941002daa20c90",
+      "install_renderer_module.py": "072ab4718c1ad4975f6cb0fd46f1a231884677dec8c2a838c79dbdc7fd50a6a4",
+      "render_font_reference.swift": "2ff301b1b74855c258cde74f64ec0d175221361e8bc7746695f73f28ebc0093b",
+      "locale_text_inputs.py": "ca8d6c5b062155611db4c52c4a6467ec6453689df29fffacb731aad53d5d678c",
+      "audit_text_source_scope.py": "2da2f08fb940490925dd1bc4d49366cae6ecbd6f470d0647ec906d81d8c53d49",
+      "visual-qa/target_input.swift": "bf7d1b7cb456928103d7d53f545a80c3dad1c73300810dd3f38b0fc0fe7e7fb2",
+      "visual-qa/guarded_click.py": "41d73b8f61cfc62033348e131c45451ac08cc763cbc4c27b687354b2ab2939dd",
+      "visual-qa/window_info.swift": "170814360b5c0382254feff6e02db6f08aa88b5177ce22077081681aade6a06e",
+      "visual-qa/run_capture.py": "403cbbcba5b34e34a2f65e359fb96e10d6d4c0161538c72879fcbc8924ab9a11",
+      "visual-qa/probe_capture.sikuli/probe_capture.py": "2b28fdf43d08842cd01621e2023452e3a73de0b0f1a92180da9f1a523291d076"
+    },
+    "runnerRecipeUpdate": "Later runner adds both save-root inventories, escaping-link rejection, loaded-helper version checks and action-name guard; no launch repeated"
+  },
+  "guardTests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -B -m unittest discover -s Tests -p test_locale_visual_qa.py -v",
+    "passed": 2,
+    "boundary": "Actual file/directory traversal: positive copied file, then escaping file or directory symlink; does not test Wine or game rendering"
+  },
+  "canonicalEvidenceHashes": {
+    "Documentation/locale-visual-qa-v1/execution/run_locale_visual_qa.py": "50292caf66a000a8ee0028e00052c11fe699f178871b8ee2f2cf3ab765fc214a",
+    "Documentation/locale-visual-qa-v1/review/layout-diagnosis.json": "83431262334a8a58332e63b47f93f0e3d7e18b14d9d29391720be0fc9333084b",
+    "Documentation/locale-visual-qa-v1/review/run-status.json": "df6173e99577d413e263d4f7818b9045a682eb93d57df7d76414bac7d98c6d71",
+    "Documentation/locale-visual-qa-v1/review/open-settings-action.json": "5953c2813c9413d8ac8318d52822f75b317283f53a279dc628c1c527c2f1c2e8",
+    "Documentation/locale-visual-qa-v1/review/cloud-save-after-launch-before-gameplay.json": "ce3172b681a8cfb44c6001c656bc40821647725829c5f0719f671571c6f6fefc",
+    "Documentation/locale-visual-qa-v1/review/stop.json": "2c39be3754a20569b12c97d46ae95b77949f137b9416c2b57227e710e165cd3a",
+    "Documentation/locale-visual-qa-v1/review/cloud-save-after-shutdown.json": "92b6d4a887d26a0327b465730d137af17c12eaeee8df9f1159ca272b1fe6409c",
+    "Documentation/locale-visual-qa-v1/upload/id-02-settings.png": "8ff1c6d661b1d6327eae2b612e89cde7d9d97a268e1c66091888800c324d2539",
+    "Documentation/locale-visual-qa-v1/upload/id-01-title-menu.png": "212eee2eeb7c33e5c4a2502a32d8b53ac03bcfcab2b9f12965a9bc5b3435fa77"
+  }
+}
