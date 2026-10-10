@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "cycle": 2,
+  "adjudicationSha256": "78fe044c2574ae16781b2a4cf5e918a2a18b099fcf8507c3c68afe29150cf704",
+  "acceptedFullUnits": 38,
+  "changedAuthoredFiles": 16,
+  "sourceTargetIdentity": "passed against immutable independent review rows and current authored hashes",
+  "protectedSyntax": "passed unchanged shared preserve_exact.check_value for all 38 full replacements",
+  "consumerPreviews": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "findingId": "NL-IR01-004",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "U hebt hier gezelschap: man zonder ogen...",
+        "U hebt hier gezelschap: vrouw met een kat...",
+        "U hebt hier gezelschap: twee zussen..."
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385928",
+      "findingId": "NL-IR01-005",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "Doctor: Hm, ik zie wie je hier in huis hebt: man zonder ogen.",
+        "Doctor: Hm, ik zie wie je hier in huis hebt: vrouw met een kat.",
+        "Doctor: Hm, ik zie wie je hier in huis hebt: twee zussen."
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "findingId": "NL-IR01-008",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "NotTrue: Hemeltje! Die stoel bij je is al bezet: man zonder ogen.",
+        "NotTrue: Hemeltje! Die stoel bij je is al bezet: vrouw met een kat.",
+        "NotTrue: Hemeltje! Die stoel bij je is al bezet: twee zussen."
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "findingId": "NL-IR01-009",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "Hunter: Je hebt hier al gezelschap: man zonder ogen.",
+        "Hunter: Je hebt hier al gezelschap: vrouw met een kat.",
+        "Hunter: Je hebt hier al gezelschap: twee zussen."
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "findingId": "NL-IR01-010",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "Mother: Hm… Je hebt hier gezelschap: man zonder ogen. Mijn kleintje is al zo vaak bang geweest…",
+        "Mother: Hm… Je hebt hier gezelschap: vrouw met een kat. Mijn kleintje is al zo vaak bang geweest…",
+        "Mother: Hm… Je hebt hier gezelschap: twee zussen. Mijn kleintje is al zo vaak bang geweest…"
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+      "findingId": "NL-IR01-012",
+      "consumer": "GetCharacterOnPlace → exact article-free UI characterName label",
+      "assembledSamples": [
+        "BigLebowski: Shit, nee. Jouw fijne plekje is al bezet: man zonder ogen, dus ja.",
+        "BigLebowski: Shit, nee. Jouw fijne plekje is al bezet: vrouw met een kat, dus ja.",
+        "BigLebowski: Shit, nee. Jouw fijne plekje is al bezet: twee zussen, dus ja."
+      ]
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456389468161",
+      "findingId": "NL-IR01-014",
+      "consumer": "unbound accepted source key; live consumer unverified",
+      "assembledSamples": [
+        "NotTrue: O, vriendje… wat heb je hier in huis — man zonder ogen?",
+        "NotTrue: O, vriendje… wat heb je hier in huis — vrouw met een kat?",
+        "NotTrue: O, vriendje… wat heb je hier in huis — twee zussen?"
+      ]
+    }
+  ],
+  "consumerExceptions": [
+    "NL-IR01-014 is absent from pinned compiled program; no live reachability claim"
+  ],
+  "branchAndMeaning": "compiled review consumer context checked for occupied labels, rhyme/free-place choice, clock, glasses, Leper and Firefighter scenes; unchanged full-unit sentences retained",
+  "approvedToApply": true
+}

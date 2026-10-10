@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "cycle": 2,
+  "status": "38 independent findings adjudicated and accepted; author corrections, independent delta pending",
+  "previousClosurePath": "Translations/nl/semantic-cycle-1/closure-v2/closure-manifest.json",
+  "previousClosureSha256": "4126276fde69a4b581c1ee883618b51b42c0b49558e757a4cd7ddaef1f0a223d",
+  "independentReviewEvidenceSha256": "890ffe1b399968bedf5bd10589634abb71bbff0d9af6eda7310febca19a2e882",
+  "independentFindingsSha256": "61437caf576839f410baa928373288d4db345e14cbbfe9d43086c4baa07885c9",
+  "consumerContextSha256": "be9bddc27714426e67f966a96d1c402fed8a1d8c6f1d95cd9462dd421b7f368f",
+  "pins": {
+    "sourceAcceptance": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "sourceInventory": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticInventory": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "preserveExactManifest": {
+      "path": "Source/preserve-exactly-v4.json",
+      "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+    },
+    "glossarySnapshot": {
+      "path": "Documentation/glossary-translations/nl/layer.json",
+      "sha256": "d431299bc246601d685ba9aa3dae0052ebf6d771dfd2d7e71b366f5dc30ca507"
+    },
+    "glossaryCanonicalRaw": {
+      "path": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translations.json",
+      "sha256": "30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a"
+    }
+  },
+  "beforeAuthoredHashes": [
+    {
+      "path": "Translations/nl/dialogue-batch-071.json",
+      "sha256": "34b651e50eb4cbf107a2dd33df031ec31d63e5ccf2d7ceb96e84e398785ecf8f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-079.json",
+      "sha256": "3b14b129d724634ceb6d7ee8e867e17b75ebd5cb4ffb4a5054abea4a5bce0f61"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-088.json",
+      "sha256": "61c85fe1777ea48f4242b6c1f86a615abecedc0573ff27c56659283ecc922b1a"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-100.json",
+      "sha256": "2995759c53ff872fc302757f3b77f7d3f0a69e618ff87599a7100ebbc5f04076"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-118.json",
+      "sha256": "d8378905dc491dc567e1644b07e90856d5e2c40891f0835e8a64baf74b3ab383"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-127.json",
+      "sha256": "1b5d3a29079c2ebd29562c39ffab2324daf0a05fddb68ff19982e3ab69eb3dec"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-145.json",
+      "sha256": "9f1abb23335f5c988c57821990c69418c60d4ccd26542d4892d01671042fbfd0"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-152.json",
+      "sha256": "51861843c91f5f4f7614ec9815cf0e814ebea0c208a9c570c51fe65889036ddb"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-153.json",
+      "sha256": "7723b06bea57909407baf92ab636b1825af8563f2846a0dba5f4121ebdbd915a"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-154.json",
+      "sha256": "5c3842bc8623dc9f876700db44572a78585febb09b9cfa1d7ed8375c1c1158ae"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-164.json",
+      "sha256": "18567b1e375abf24a437cfa1994fe6389c14fd9c95825efbb46e63a8333447ba"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-175.json",
+      "sha256": "97b6d86112bc1f9ba89f523502adcbd4623599a60ad4968f467cd6afcaabdaf3"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-176.json",
+      "sha256": "9ef0f9cc596d8c8ade6cf5ad17434f88a43d3939065a68a4ba39dbfe96a6b12c"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-245.json",
+      "sha256": "6db4fc502b5697d146176c68122e5957f11de6c942b411125133e1d8248a1163"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-265.json",
+      "sha256": "283d1c2cb933c44bbcb6c0c5cc18ccda8cd01fcf8728fb100adc6fbe258a6727"
+    },
+    {
+      "path": "Translations/nl/ui-batch-006.json",
+      "sha256": "03708748721f22e5fe76e2a39f92cfec42e9fa55e908f796f8d1fe14533c97ed"
+    }
+  ],
+  "corrections": [
+    {
+      "findingId": "NL-IR01-001",
+      "ordinal": 212,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715969077248",
+      "authoredPath": "Translations/nl/ui-batch-006.json",
+      "collection": "UI",
+      "key": "FridgeItem_Mushroom_NarrativeDescription",
+      "nodeNames": [],
+      "source": "Странный гриб. Как он вообще пророс в картошке?",
+      "before": "Een vreemde paddenstoel. Hoe kon die nou tussen de aardappels groeien?",
+      "after": "Een vreemde paddenstoel. Hoe kon die nou in een aardappel groeien?",
+      "objectiveReason": "The source в картошке and approved strange-mushroom entry locate growth inside a potato; tussen de aardappels changes it to among potatoes.",
+      "concept": "strange-mushroom",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Fridge narrative and approved strange-mushroom glossary locate growth inside a potato.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-002",
+      "ordinal": 1166,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "authoredPath": "Translations/nl/dialogue-batch-071.json",
+      "collection": "Dialogs",
+      "key": "line:tv_8_necessary_0965bc3",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: Колокола для них громче. Серы – больше.",
+      "before": "TV: Voor hen klinken de klokken luider. Er is meer zwavel.",
+      "after": "TV: Voor hen klinken de klokken luider. Er is meer oorsmeer.",
+      "objectiveReason": "The day-8 television scene concerns growth in ears; approved ear-wax expressly forbids substituting industrial sulfur. zwavel selects the wrong sense of сера.",
+      "concept": "ear-wax",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Day-8 television ear scene and approved ear-wax term establish oorsmeer.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-003",
+      "ordinal": 1169,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "authoredPath": "Translations/nl/dialogue-batch-071.json",
+      "collection": "Dialogs",
+      "key": "line:tv_8_necessary_0d292a8",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "source": "TV: Остаётся только сера. Грязные мысли.",
+      "before": "TV: Alleen zwavel blijft over. Vuile gedachten.",
+      "after": "TV: Alleen oorsmeer blijft over. Vuile gedachten.",
+      "objectiveReason": "Same day-8 earwax motif and explicit approved ear-wax meaning; zwavel changes the referent.",
+      "concept": "ear-wax",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Same day-8 ear scene; oorsmeer is the repeated referent.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-004",
+      "ordinal": 2215,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "authoredPath": "Translations/nl/dialogue-batch-088.json",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_SirinOccupied_0a2ff8b",
+      "nodeNames": [
+        "Twins_Entrance_SirinOccupied"
+      ],
+      "source": "У вас тут {0}...",
+      "before": "U hebt hier {0}...",
+      "after": "U hebt hier gezelschap: {0}...",
+      "objectiveReason": "GetCharacterOnPlace inserts the article-free UI character label. U hebt hier vrouw met een kat is ungrammatical. A colon introduces the exact label without choosing singular/plural articles.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled occupied-sister branch supplies an article-free characterName UI label.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-005",
+      "ordinal": 2353,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385928",
+      "authoredPath": "Translations/nl/dialogue-batch-265.json",
+      "collection": "Dialogs",
+      "key": "line:Doctor_Entrance_Occupied_0d13a29",
+      "nodeNames": [
+        "Doctor_Entrance_Occupied"
+      ],
+      "source": "Doctor: Хм, вижу у тебя тут {0} в доме.",
+      "before": "Doctor: Hm, ik zie dat je {0} in huis hebt.",
+      "after": "Doctor: Hm, ik zie wie je hier in huis hebt: {0}.",
+      "objectiveReason": "Finding 46 changed address but retained an invalid join: GetCharacterOnPlace returns characterName_<enum> from UI with no article, producing ik zie dat je man zonder ogen in huis hebt. Use a label introduction.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled Doctor occupied branch calls GetCharacterOnPlace; article-free characterName label follows the colon.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-006",
+      "ordinal": 2355,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385926",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Entrance_Occupied_NoLet_03996a5",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied_NoLet"
+      ],
+      "source": "NotTrue: Ох, милок, милок. Ну, ничего, можешь бабушке стульчик вынести?",
+      "before": "NotTrue: Och, jongen toch. Ach, kun je voor oma misschien een stoeltje naar buiten brengen?",
+      "after": "NotTrue: Och, lieverd, lieverd. Nou ja, kun je voor oma misschien een stoeltje naar buiten brengen?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept with full-unit refinement",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-007",
+      "ordinal": 2356,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385925",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Entrance_Occupied_YesLet_03ec379",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied_YesLet"
+      ],
+      "source": "NotTrue: Ой, спасибо, дружок! Выручил бабушку! Жаль, конечно, что тебе пришлось выгнать кого-то ради меня…",
+      "before": "NotTrue: O, dank je, jongen! Je hebt oma geholpen. Jammer dat je iemand voor mij weg moest sturen…",
+      "after": "NotTrue: O, dank je, vriendje! Je hebt oma geholpen. Jammer dat je iemand voor mij weg moest sturen…",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-008",
+      "ordinal": 2361,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Entrance_Occupied_028412a",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied"
+      ],
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "before": "NotTrue: Hemeltje! Er zit al {0} bij je in de stoel.",
+      "after": "NotTrue: Hemeltje! Die stoel bij je is al bezet: {0}.",
+      "objectiveReason": "The exact label is article-free; Er zit al vrouw met een kat bij je in de stoel has a missing determiner. Keep already-occupied chair and identity using a label introduction.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled NotTrue occupied-chair branch calls GetCharacterOnPlace; chair remains occupied.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-009",
+      "ordinal": 2406,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "authoredPath": "Translations/nl/dialogue-batch-245.json",
+      "collection": "Dialogs",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "nodeNames": [
+        "Hunter_Entrance_Occupied"
+      ],
+      "source": "Hunter: У тебя тут уже {0}.",
+      "before": "Hunter: Je hebt hier al {0}.",
+      "after": "Hunter: Je hebt hier al gezelschap: {0}.",
+      "objectiveReason": "The getter inserts an article-free label; Je hebt hier al man ... is an invalid assembled noun phrase. A label introduction supports one person or a pair.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled Hunter occupied branch calls GetCharacterOnPlace; label follows a colon.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-010",
+      "ordinal": 2465,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "authoredPath": "Translations/nl/dialogue-batch-100.json",
+      "collection": "Dialogs",
+      "key": "line:Mother_Entrance_Occupied_0515549",
+      "nodeNames": [
+        "Mother_Entrance_Occupied"
+      ],
+      "source": "Mother: Хм… У тебя тут {0}. Мой малыш и так всего набоялся…",
+      "before": "Mother: Hm… Je hebt {0} hier. Mijn kleintje is al zo vaak bang geweest…",
+      "after": "Mother: Hm… Je hebt hier gezelschap: {0}. Mijn kleintje is al zo vaak bang geweest…",
+      "objectiveReason": "Finding 51 retained Je hebt vrouw ... hier, an invalid assembled noun phrase. The getter inserts the UI label exactly; a label introduction supports its number without inventing an article.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled Mother occupied branch calls GetCharacterOnPlace; article-free label follows a colon.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-011",
+      "ordinal": 2586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499851",
+      "authoredPath": "Translations/nl/dialogue-batch-164.json",
+      "collection": "Dialogs",
+      "key": "line:BigLebowski_Entrance_Occupied_0aeab90",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ],
+      "source": "BigLebowski: Если решил впустить, то и местечко для меня, типа, надо освободить.",
+      "before": "BigLebowski: Als je me binnenlaat, moet je ook voor mij een plekje vrijlaten.",
+      "after": "BigLebowski: Als je me binnenlaat, maak dan ook een plekje voor me vrij, maat.",
+      "objectiveReason": "Finding 53 uses vrijlaten (leave/keep free) where source освободить and compiled occupied branch require freeing an already-occupied spot. binnenlaat/vrijlaten also lacks the claimed matching finite-form rhyme. This replacement retains freeing, conversational filler and binnenlaat/maat rhyme before the next explicit rhyme comment.",
+      "concept": "occupied-rhyme",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled occupied-place choice requires freeing a place; binnenlaat/maat rhymes before the explicit rhyme comment.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-012",
+      "ordinal": 2587,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+      "authoredPath": "Translations/nl/dialogue-batch-164.json",
+      "collection": "Dialogs",
+      "key": "line:BigLebowski_Entrance_Occupied_053789b",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ],
+      "source": "BigLebowski: Блин, не. У тебя на классном местечке уже {0}, короче.",
+      "before": "BigLebowski: Shit, nee. Op jouw fijne plekje zit al {0}, dus ja.",
+      "after": "BigLebowski: Shit, nee. Jouw fijne plekje is al bezet: {0}, dus ja.",
+      "objectiveReason": "The getter inserts an article-free label; Op jouw fijne plekje zit al man ... is an invalid noun phrase. Preserve the already-occupied nice place and exact label.",
+      "concept": "dynamic-occupant",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled BigLebowski occupied branch supplies an article-free label for an already occupied place.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-013",
+      "ordinal": 2899,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447942",
+      "authoredPath": "Translations/nl/dialogue-batch-079.json",
+      "collection": "Dialogs",
+      "key": "line:MushroomEater_Entrance_3_5_068bcf4",
+      "nodeNames": [
+        "MushroomEater_Entrance_3_5"
+      ],
+      "source": "MushroomEater: Погоди-ка секунду. Можешь показать часы?",
+      "before": "MushroomEater: Wacht even. Kun je me je horloge laten zien?",
+      "after": "MushroomEater: Wacht even. Kun je me laten zien hoe laat het is?",
+      "objectiveReason": "Finding 57 says the previous target only requests being told the time, but laten zien explicitly requests a visual display. Source часы and compiled node do not establish a wristwatch; je horloge introduces an unsupported object restriction. Restore the source-compatible visual time request rather than assume a wristwatch.",
+      "concept": "clock-at-twelve",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled MushroomEater scene immediately reacts to midnight; source asks for a visual time display, without specifying a wristwatch.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-014",
+      "ordinal": 4632,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456389468161",
+      "authoredPath": "Translations/nl/dialogue-batch-175.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Entrance_Occupied_0abf2b1",
+      "nodeNames": [],
+      "source": "NotTrue: Ой, дружочек… а что это у тебя тут, {0}?",
+      "before": "NotTrue: O, vriendje… wat heb je hier in huis, {0}?",
+      "after": "NotTrue: O, vriendje… wat heb je hier in huis? {0}?",
+      "objectiveReason": "The current comma makes the inserted occupant label read as an addressee after vriendje. Separate the queried label. Exact key is absent from the pinned compiled program, so live consumer/reachability remains unverified; proposed wording is safe for label substitution and requires author adjudication.",
+      "concept": "dynamic-occupant-unbound",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Source key is absent from pinned compiled program; safe textual label introduction, live consumer remains unverified.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-015",
+      "ordinal": 9757,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454594306056",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_4_0ab093b",
+      "nodeNames": [
+        "NotTrue_Asking_4"
+      ],
+      "source": "NotTrue: Жизнь, милок, словно остановилась.",
+      "before": "NotTrue: Het leven lijkt stil te staan, jongen.",
+      "after": "NotTrue: Het leven lijkt stil te staan, lieverd.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-016",
+      "ordinal": 9763,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454594306050",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_4_08cea21",
+      "nodeNames": [
+        "NotTrue_Asking_4"
+      ],
+      "source": "NotTrue: Ох, милок…",
+      "before": "NotTrue: Och, jongen…",
+      "after": "NotTrue: Och, lieverd…",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-017",
+      "ordinal": 9799,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454581723138",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_3_0001fba",
+      "nodeNames": [
+        "NotTrue_Asking_3"
+      ],
+      "source": "NotTrue: А, так умер хрыщ старый, милок.",
+      "before": "NotTrue: O, die ouwe zak is dood, jongen.",
+      "after": "NotTrue: O, die ouwe zak is dood, lieverd.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-018",
+      "ordinal": 9823,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454573334531",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_2_0fb538a",
+      "nodeNames": [
+        "NotTrue_Asking_2"
+      ],
+      "source": "NotTrue: Ох, милок, хорошо хоть я без муженька. Тот ещё старый хрыщ. Тьфу на него.",
+      "before": "NotTrue: Och, jongen, gelukkig ben ik van mijn man af. Wat een ouwe zak was het. Bah.",
+      "after": "NotTrue: Och, lieverd, gelukkig ben ik van mijn man af. Wat een ouwe zak was het. Bah.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-019",
+      "ordinal": 9839,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454564945931",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_2_0fe1dca",
+      "nodeNames": [
+        "NotTrue_Asking_2"
+      ],
+      "source": "NotTrue: Да забыли все про меня, милок.",
+      "before": "NotTrue: Iedereen is me vergeten, jongen.",
+      "after": "NotTrue: Iedereen is me vergeten, lieverd.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-020",
+      "ordinal": 9859,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751619",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_1_091d0e1",
+      "nodeNames": [
+        "NotTrue_Asking_1"
+      ],
+      "source": "NotTrue: А дачи у меня нет. Да и родни тоже нет. И внуков… Ох, милок…",
+      "before": "NotTrue: Ik heb geen buitenhuisje. En ook geen familie. Of kleinkinderen… Och, jongen…",
+      "after": "NotTrue: Ik heb geen buitenhuisje. En ook geen familie. Of kleinkinderen… Och, lieverd…",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-021",
+      "ordinal": 9860,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751618",
+      "authoredPath": "Translations/nl/dialogue-batch-153.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Asking_1_0623167",
+      "nodeNames": [
+        "NotTrue_Asking_1"
+      ],
+      "source": "NotTrue: Я городская, милок. Жила себе в квартирке.",
+      "before": "NotTrue: Ik ben een stadsvrouw, jongen. Ik woonde gewoon in een flatje.",
+      "after": "NotTrue: Ik ben een stadsvrouw, lieverd. Ik woonde gewoon in een flatje.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-022",
+      "ordinal": 11249,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+      "authoredPath": "Translations/nl/dialogue-batch-127.json",
+      "collection": "Dialogs",
+      "key": "line:Leper_Ears_DontShoot_0517384",
+      "nodeNames": [
+        "Leper_Ears_DontShoot"
+      ],
+      "source": "Leper: Ёбаный свет…",
+      "before": "Leper: Dat verdomde licht…",
+      "after": "Leper: Godverdomme…",
+      "objectiveReason": "Finding 121 reads Ёбаный свет literally as a light reference. In this compiled post-gun ear scene it is an idiomatic exclamation followed by complaints about the gun/ear criterion, with no light referent; Dat verdomde licht introduces one. Restore the expletive.",
+      "concept": "idiomatic-expletive",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled post-gun ear scene has no lighting referent; idiomatic expletive is retained.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-023",
+      "ordinal": 11280,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+      "authoredPath": "Translations/nl/dialogue-batch-127.json",
+      "collection": "Dialogs",
+      "key": "line:Leper_Teeth_Gun_0501ea2",
+      "nodeNames": [
+        "Leper_Teeth_Gun"
+      ],
+      "source": "Leper: Ёбаный свет, ты что?",
+      "before": "Leper: Dat verdomde licht, wat doe je?",
+      "after": "Leper: Godverdomme, wat doe je?",
+      "objectiveReason": "Finding 122 similarly literalizes the established exclamation Ёбаный свет in response to drawing a gun. The source addresses the players action, not a lighting observation.",
+      "concept": "idiomatic-expletive",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Compiled gun response has no lighting referent; idiomatic expletive is retained.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-024",
+      "ordinal": 12843,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453168242699",
+      "authoredPath": "Translations/nl/dialogue-batch-145.json",
+      "collection": "Dialogs",
+      "key": "line:Marauder_Eyes_DontShoot_095f150",
+      "nodeNames": [
+        "Marauder_Eyes_DontShoot"
+      ],
+      "source": "Marauder: Снял их, посмотрел на линзы – а на них отпечатки пальцев остались. Всё представлял, как этот ребёнок их носил, как смотрел на мир…",
+      "before": "Marauder: Ik pakte hem op en keek naar de glazen. Er stonden nog vingerafdrukken op. Ik bleef me voorstellen hoe dat kind hem droeg en de wereld zag…",
+      "after": "Marauder: Ik zette hem af en keek naar de glazen. Er stonden nog vingerafdrukken op. Ik bleef me voorstellen hoe dat kind hem droeg en de wereld zag…",
+      "objectiveReason": "Снял их describes taking the glasses off; pakte hem op describes picking them up. Compiled scene narrates finding the childs glasses, then inspecting them, then worrying the child cannot see. Retain the removal action, fingerprints and every remaining sentence.",
+      "concept": "glasses-removal",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Russian снял их names removing the glasses; compiled scene first mentions finding them on a table. The intervening handling is not fully shown, so the literal removal is retained without inventing where they were worn.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-025",
+      "ordinal": 13480,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669895",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Ears_Gun_0a594f5",
+      "nodeNames": [
+        "NotTrue_Ears_Gun"
+      ],
+      "source": "NotTrue: Ну и что это такое, дружок? Что ж по ушам-то можно понять?",
+      "before": "NotTrue: Wat is dit nu weer, jongen? Wat kun je aan oren zien?",
+      "after": "NotTrue: Wat is dit nu weer, vriendje? Wat kun je aan oren zien?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-026",
+      "ordinal": 13489,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452849475588",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Ears_0d357c4",
+      "nodeNames": [
+        "NotTrue_Ears"
+      ],
+      "source": "NotTrue: Хах, дружок, ну и придумал.",
+      "before": "NotTrue: Haha, jongen, wat heb je nu bedacht.",
+      "after": "NotTrue: Haha, vriendje, wat heb je nu bedacht.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-027",
+      "ordinal": 13492,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452849475585",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Photo_05180ff",
+      "nodeNames": [
+        "NotTrue_Photo"
+      ],
+      "source": "NotTrue: И что скажешь теперь, дружок?",
+      "before": "NotTrue: Nou, wat zeg je nu, jongen?",
+      "after": "NotTrue: Nou, wat zeg je nu, vriendje?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-028",
+      "ordinal": 15467,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452077723652",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Eyes_DontShoot_05e05d7",
+      "nodeNames": [
+        "NotTrue_Eyes_DontShoot"
+      ],
+      "source": "NotTrue: «К шестипалой неправде в избу…» Ко мне, дружок. Ну, заходи.",
+      "before": "NotTrue: “Naar de zesvingerige onwaarheid het huis in…” Naar mij, jongen. Kom maar binnen.",
+      "after": "NotTrue: “Naar de zesvingerige onwaarheid het huis in…” Naar mij, vriendje. Kom maar binnen.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-029",
+      "ordinal": 15470,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452077723649",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Teeth_DontShoot_043dee7",
+      "nodeNames": [
+        "NotTrue_Teeth_DontShoot"
+      ],
+      "source": "NotTrue: Так и живу, дружок, с этим незавершённым делом во рту.",
+      "before": "NotTrue: Zo leef ik dus, jongen, met dat onafgemaakte karwei in mijn mond.",
+      "after": "NotTrue: Zo leef ik dus, vriendje, met dat onafgemaakte karwei in mijn mond.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-030",
+      "ordinal": 15474,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452073529353",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Death_068d960",
+      "nodeNames": [
+        "NotTrue_Death"
+      ],
+      "source": "NotTrue: Ну вот. Я ж не против, я только за. Мне-то что, дружок? Я давно уже хочу к Богу.",
+      "before": "NotTrue: Nou ja. Ik heb er niets op tegen, integendeel. Wat kan mij het schelen, jongen? Ik wil al lang naar God toe.",
+      "after": "NotTrue: Nou ja. Ik heb er niets op tegen, integendeel. Wat kan mij het schelen, vriendje? Ik wil al lang naar God toe.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-031",
+      "ordinal": 15477,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452073529350",
+      "authoredPath": "Translations/nl/dialogue-batch-176.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Ears_Gun_0a4ca9a",
+      "nodeNames": [],
+      "source": "NotTrue: Ну и что это такое, дружок? Что ж по ушам-то можно понять?",
+      "before": "NotTrue: Wat is dit nu weer, jongen? Wat kun je aan oren zien?",
+      "after": "NotTrue: Wat is dit nu weer, vriendje? Wat kun je aan oren zien?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-032",
+      "ordinal": 15484,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452069335051",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Armpit_Gun_0da7567",
+      "nodeNames": [
+        "NotTrue_Armpit_Gun"
+      ],
+      "source": "NotTrue: Да это ж, дружок, как отпечаток старости – все, кто свой век доживает, получает вот такой вот подарочек. А ты не знал?",
+      "before": "NotTrue: Het is, jongen, een stempel van de ouderdom. Iedereen die zijn leven bijna achter de rug heeft, krijgt zo’n cadeautje. Wist je dat niet?",
+      "after": "NotTrue: Het is, vriendje, een stempel van de ouderdom. Iedereen die zijn leven bijna achter de rug heeft, krijgt zo’n cadeautje. Wist je dat niet?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-033",
+      "ordinal": 15502,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452065140741",
+      "authoredPath": "Translations/nl/dialogue-batch-176.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Ears_0782a53",
+      "nodeNames": [],
+      "source": "NotTrue: Хах, дружок, ну и придумал.",
+      "before": "NotTrue: Haha, jongen, wat heb je nu bedacht.",
+      "after": "NotTrue: Haha, vriendje, wat heb je nu bedacht.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-034",
+      "ordinal": 15505,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452065140738",
+      "authoredPath": "Translations/nl/dialogue-batch-176.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Photo_043551a",
+      "nodeNames": [],
+      "source": "NotTrue: И что скажешь теперь, дружок?",
+      "before": "NotTrue: Nou, wat zeg je nu, jongen?",
+      "after": "NotTrue: Nou, wat zeg je nu, vriendje?",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-035",
+      "ordinal": 15515,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452060946435",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Eyes_0c04892",
+      "nodeNames": [
+        "NotTrue_Eyes"
+      ],
+      "source": "NotTrue: Не заглядывай, дружок. Там пусто.",
+      "before": "NotTrue: Kijk er niet in, jongen. Er zit niets.",
+      "after": "NotTrue: Kijk er niet in, vriendje. Er zit niets.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-036",
+      "ordinal": 15518,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452060946432",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_Eyes_0341a49",
+      "nodeNames": [
+        "NotTrue_Eyes"
+      ],
+      "source": "NotTrue: Ой, дружок… а ты уверен, что хочешь этого?..",
+      "before": "NotTrue: O, jongen… weet je zeker dat je dat wilt?..",
+      "after": "NotTrue: O, vriendje… weet je zeker dat je dat wilt?..",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-037",
+      "ordinal": 15535,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452052557830",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "collection": "Dialogs",
+      "key": "line:NotTrue_WannaCheck_055f8c3",
+      "nodeNames": [
+        "NotTrue_WannaCheck"
+      ],
+      "source": "NotTrue: Хех. Ну давай, убедись, дружок. Всё одно ничего нового для себя не увидишь.",
+      "before": "NotTrue: Hehe. Kijk maar goed, jongen. Je zult toch niets nieuws zien.",
+      "after": "NotTrue: Hehe. Kijk maar goed, vriendje. Je zult toch niets nieuws zien.",
+      "objectiveReason": "Finding 78 correctly identified loss of NotTrue’s affectionate address in bare jongen, but the same risk remains here. Approved babushka explicitly uses lieverd for милок and vriendje for дружок; preserve this recurring voice and the source’s affection, not just the addressee’s age.",
+      "concept": "babushka",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Approved babushka voice: милок → lieverd and дружок → vriendje; preserve the remaining source sentences.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    },
+    {
+      "findingId": "NL-IR01-038",
+      "ordinal": 16304,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451742179331",
+      "authoredPath": "Translations/nl/dialogue-batch-118.json",
+      "collection": "Dialogs",
+      "key": "line:Firefighter_Ears_DontShoot_0fb7423",
+      "nodeNames": [
+        "Firefighter_Ears_DontShoot"
+      ],
+      "source": "Firefighter: Когда огонь ревёт вокруг, ты понимаешь, как дорога эта тишина. Кх-кх, ушам теперь всё равно, а вот душе -- ещё нет.",
+      "before": "Firefighter: Als het vuur om je heen raast, besef je hoe kostbaar stilte is. Kuch-kuch, mijn oren zijn er nu doof voor, maar mijn ziel nog niet.",
+      "after": "Firefighter: Als het vuur om je heen raast, besef je hoe kostbaar stilte is. Kuch-kuch, mijn oren kan het nu niet meer schelen, maar mijn ziel nog wel.",
+      "objectiveReason": "ушам теперь всё равно says ears no longer care, contrasting with the soul; zijn er nu doof voor introduces deafness rather than preserving that emotional/metaphorical contrast. Keep the source-level statement without inventing a clinical loss of hearing.",
+      "concept": "hearing-versus-indifference",
+      "decision": "accept full-unit proposal",
+      "contextAdjudication": "Firefighter contrasts ears that no longer care with a soul that still does; deafness was not asserted in source.",
+      "protectedValueCheck": "passed unchanged shared preserve_exact.check_value"
+    }
+  ]
+}

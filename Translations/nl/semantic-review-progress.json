@@ -1,0 +1,2838 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "audit": "universal full source-to-target semantic pass 1",
+  "status": "full semantic pass 1 complete; proposed findings awaiting one correction batch; independent review not started",
+  "acceptedUnits": 16538,
+  "reviewedUnits": 16538,
+  "reviewedOrdinalRange": [
+    1,
+    16538
+  ],
+  "nextOrdinal": null,
+  "nextId": null,
+  "canonicalOrder": "Source/preserve-exactly-v4.json tableRows then staticRows",
+  "pins": {
+    "sourceAcceptance": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "sourceInventory": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticInventory": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "preserveExactManifest": {
+      "path": "Source/preserve-exactly-v4.json",
+      "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+    },
+    "glossarySnapshot": {
+      "path": "Documentation/glossary-translations/nl/layer.json",
+      "sha256": "d431299bc246601d685ba9aa3dae0052ebf6d771dfd2d7e71b366f5dc30ca507"
+    },
+    "glossaryCanonicalRaw": {
+      "path": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translations.json",
+      "sha256": "30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a"
+    }
+  },
+  "authoredBatchSetSha256": "e14533cf7863180302e42400359fcf4a10305439e9d8c55b694c67900ad4349d",
+  "staticDraftSha256": "93c8c82cfd1800e95427f966826534968e1913accbb2b0a6937893157d6bd9f6",
+  "exactPreservationReportSha256": "2f2288b35498f7702906e5a888af50613537f136a2b532d9474a6b2fc9c42637",
+  "reviewedFileHashes": [
+    {
+      "path": "Translations/nl/checks-batch-001.json",
+      "sha256": "841bdab4f9594e5572df041f3dd0e550d20735bba3bf0649ce57e96e7b3b3f0f",
+      "firstReviewedOrdinal": 260,
+      "lastReviewedOrdinal": 260,
+      "reviewedRows": 1,
+      "fileRows": 1
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-001.json",
+      "sha256": "2ed8e6b45eeb149824cdfbed446a1e51ab998589aa3abd1f5d415e99973eaa96",
+      "firstReviewedOrdinal": 1995,
+      "lastReviewedOrdinal": 5770,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-002.json",
+      "sha256": "d36a9d68a62147fab0bccf42425eb5214b8a0ad6c136af5cbaf50a5ccee015ce",
+      "firstReviewedOrdinal": 4857,
+      "lastReviewedOrdinal": 4891,
+      "reviewedRows": 35,
+      "fileRows": 35
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-003.json",
+      "sha256": "9a71c9d4e44b0b5f7271e8fd016b14fdfbb29f7608a11e1b668c71a7cb1309c8",
+      "firstReviewedOrdinal": 7139,
+      "lastReviewedOrdinal": 9993,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-004.json",
+      "sha256": "0bab1836df3b021ee217910d93d9e8eec3f02fe15a7b536eed676743689eb029",
+      "firstReviewedOrdinal": 890,
+      "lastReviewedOrdinal": 910,
+      "reviewedRows": 21,
+      "fileRows": 21
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-005.json",
+      "sha256": "72f6056f5c9fed5e146e01dd547968e3a258408b22bf6a0e3baea0d2c2d2273b",
+      "firstReviewedOrdinal": 467,
+      "lastReviewedOrdinal": 889,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-006.json",
+      "sha256": "5a586127d7bdcea311c797d854432eece2f6afbd2b7c9687fce983b1bf3788b1",
+      "firstReviewedOrdinal": 455,
+      "lastReviewedOrdinal": 868,
+      "reviewedRows": 52,
+      "fileRows": 52
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-007.json",
+      "sha256": "e6516a581c2d9ff7196b4fb944d4a6506eaa5994fb7b850c66a9927836139a06",
+      "firstReviewedOrdinal": 306,
+      "lastReviewedOrdinal": 325,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-008.json",
+      "sha256": "c431e2662886d14cd9448f1a1b29708928e057b311f1b8f5271d559e87d95e9c",
+      "firstReviewedOrdinal": 5771,
+      "lastReviewedOrdinal": 16359,
+      "reviewedRows": 2091,
+      "fileRows": 2091
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-009.json",
+      "sha256": "842c064045a64b0739ccfaefa6945289c2347a9f43baf850df3581d14b30e9ae",
+      "firstReviewedOrdinal": 1470,
+      "lastReviewedOrdinal": 10852,
+      "reviewedRows": 548,
+      "fileRows": 548
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-010.json",
+      "sha256": "275aa2e7b800d7a79aa8ddf6ef5b0a4bf64de4e01a6a7734a7a11a7b408eef92",
+      "firstReviewedOrdinal": 269,
+      "lastReviewedOrdinal": 305,
+      "reviewedRows": 37,
+      "fileRows": 37
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-011.json",
+      "sha256": "649a81f1663009ac1600255b076f8181076627cb8a263cbc608017dbc8f9d4fa",
+      "firstReviewedOrdinal": 326,
+      "lastReviewedOrdinal": 328,
+      "reviewedRows": 3,
+      "fileRows": 3
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-012.json",
+      "sha256": "6128b6ad3490c46e2339d37e90aaec091d363e39662ba22f50daac75b001aec7",
+      "firstReviewedOrdinal": 4820,
+      "lastReviewedOrdinal": 4851,
+      "reviewedRows": 32,
+      "fileRows": 32
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-013.json",
+      "sha256": "1812e72af98ca7c8e8f2d70a486e9ac9ae8da8b15a34b2e8c15082566131a74a",
+      "firstReviewedOrdinal": 4784,
+      "lastReviewedOrdinal": 4815,
+      "reviewedRows": 28,
+      "fileRows": 28
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-014.json",
+      "sha256": "e675b4fae9feed9e5e9a5df5f3ea5ad0dee43c7928ef08adaf40e14d6b1d3f86",
+      "firstReviewedOrdinal": 8342,
+      "lastReviewedOrdinal": 9944,
+      "reviewedRows": 71,
+      "fileRows": 71
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-015.json",
+      "sha256": "35e8a62d3106d52d1ec007b410764c68a6258932f1cb17b14c96080135831c68",
+      "firstReviewedOrdinal": 2362,
+      "lastReviewedOrdinal": 15577,
+      "reviewedRows": 16,
+      "fileRows": 16
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-016.json",
+      "sha256": "84a7a30b29953d8fe8138be2f1cc0275c1e8d96ccf9122938701b0c78c7fab89",
+      "firstReviewedOrdinal": 613,
+      "lastReviewedOrdinal": 10916,
+      "reviewedRows": 174,
+      "fileRows": 174
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-017.json",
+      "sha256": "b17d03812c77e9a44255b5a76c9d5fa228fd49588b1998e3b563c5dc437bc350",
+      "firstReviewedOrdinal": 12115,
+      "lastReviewedOrdinal": 12153,
+      "reviewedRows": 31,
+      "fileRows": 31
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-018.json",
+      "sha256": "d2faccdba21b563dfa8fe88619f8376ea75174862b8cf95e4de4c6d6c52a69c8",
+      "firstReviewedOrdinal": 12154,
+      "lastReviewedOrdinal": 12186,
+      "reviewedRows": 25,
+      "fileRows": 25
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-019.json",
+      "sha256": "9c1bfd54aa98b1462298077607b3f79ae86acac694da891a6bdb0076dfd9285c",
+      "firstReviewedOrdinal": 12187,
+      "lastReviewedOrdinal": 13587,
+      "reviewedRows": 12,
+      "fileRows": 12
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-020.json",
+      "sha256": "b1eb1f6b7b6e1a77691c2b5f7a926cd9ef10b6643eeb7702323ede7ca6464d86",
+      "firstReviewedOrdinal": 13588,
+      "lastReviewedOrdinal": 15570,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-021.json",
+      "sha256": "d2933883af43326444864734077cd6efe60c63d1acfe6885aae2c9ecb55b9029",
+      "firstReviewedOrdinal": 2163,
+      "lastReviewedOrdinal": 3156,
+      "reviewedRows": 30,
+      "fileRows": 30
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-022.json",
+      "sha256": "8fc1ac46929acfe419e0c8072713a634a7f7c8c754278a54824dc30afa5579e0",
+      "firstReviewedOrdinal": 2127,
+      "lastReviewedOrdinal": 3145,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-023.json",
+      "sha256": "2bdb1cddf9dea86c466077c4026e0d5d6153ed5f244dbdf4373579af34fa7caa",
+      "firstReviewedOrdinal": 774,
+      "lastReviewedOrdinal": 801,
+      "reviewedRows": 26,
+      "fileRows": 26
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-024.json",
+      "sha256": "3dba72f0d9a1c1ab8a937fb7e1f88deba68ada4e444e4774610ded29e48b481d",
+      "firstReviewedOrdinal": 433,
+      "lastReviewedOrdinal": 772,
+      "reviewedRows": 30,
+      "fileRows": 30
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-025.json",
+      "sha256": "44e15b62e6502d54fa1cae7d884cdd5c063aa22f87c81782f17624fd2640d6aa",
+      "firstReviewedOrdinal": 432,
+      "lastReviewedOrdinal": 742,
+      "reviewedRows": 26,
+      "fileRows": 26
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-026.json",
+      "sha256": "dfcdfca8ab3130a43802637c51b0708794dc7b78cf429dfdf76c19a86376a441",
+      "firstReviewedOrdinal": 329,
+      "lastReviewedOrdinal": 357,
+      "reviewedRows": 29,
+      "fileRows": 29
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-027.json",
+      "sha256": "375fd37a4235a97f0b06c255e9a1db529033afdf0d4c7e819be3dd3cb8e349bd",
+      "firstReviewedOrdinal": 358,
+      "lastReviewedOrdinal": 383,
+      "reviewedRows": 26,
+      "fileRows": 26
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-028.json",
+      "sha256": "d700e951abde58360052de87025a60a0ce8937d3dac5fe1378bea811351149ce",
+      "firstReviewedOrdinal": 384,
+      "lastReviewedOrdinal": 431,
+      "reviewedRows": 48,
+      "fileRows": 48
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-029.json",
+      "sha256": "4215a0da00ec4008bbb35fd320a5fedd8ead5bb67bcf09b834c8684370c01654",
+      "firstReviewedOrdinal": 262,
+      "lastReviewedOrdinal": 828,
+      "reviewedRows": 13,
+      "fileRows": 13
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-030.json",
+      "sha256": "3633f75975cc5298285ca98a0c1ce51fd14d5ad8e0a9b0d73ab15615847eb5c5",
+      "firstReviewedOrdinal": 493,
+      "lastReviewedOrdinal": 538,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-031.json",
+      "sha256": "b300f9973284d2bcd8f0d1fa0ce20779ee3cd694bbc8a366b2244c28b80aa9af",
+      "firstReviewedOrdinal": 634,
+      "lastReviewedOrdinal": 671,
+      "reviewedRows": 38,
+      "fileRows": 38
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-032.json",
+      "sha256": "b7ca6db306e6d7d27ce7daee6d6317fbbf7fb31c9d5cd5e03e927e5a43b43dd8",
+      "firstReviewedOrdinal": 672,
+      "lastReviewedOrdinal": 711,
+      "reviewedRows": 37,
+      "fileRows": 37
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-033.json",
+      "sha256": "ed184ed0abc442ce7a70ef5fddc820b6f66ef6d9bb06e8c569bf23e3a4d131ec",
+      "firstReviewedOrdinal": 438,
+      "lastReviewedOrdinal": 817,
+      "reviewedRows": 33,
+      "fileRows": 33
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-034.json",
+      "sha256": "ac3e0809a25559e738d42d4ec001f531ea44d25b9312c5db6a7d628c8691ad32",
+      "firstReviewedOrdinal": 548,
+      "lastReviewedOrdinal": 576,
+      "reviewedRows": 29,
+      "fileRows": 29
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-035.json",
+      "sha256": "f6f32ff80ca122781a09cc1dc051a24bd25954dc2ab3e195ede45ba928601341",
+      "firstReviewedOrdinal": 605,
+      "lastReviewedOrdinal": 633,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-036.json",
+      "sha256": "e4c61808dd43bbd6bbad6d0518b46b0625c2195081a53444a979a28852c0955c",
+      "firstReviewedOrdinal": 577,
+      "lastReviewedOrdinal": 604,
+      "reviewedRows": 28,
+      "fileRows": 28
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-037.json",
+      "sha256": "0308eac5841d3cfca9250373b7f43a093654b9a82334feada4a393a4c601aa83",
+      "firstReviewedOrdinal": 539,
+      "lastReviewedOrdinal": 547,
+      "reviewedRows": 9,
+      "fileRows": 9
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-038.json",
+      "sha256": "2903c4b505654c289d76f7387e05bf19317d29723be0a56f9f49dd83bb930a22",
+      "firstReviewedOrdinal": 2743,
+      "lastReviewedOrdinal": 2788,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-039.json",
+      "sha256": "a0b3b80b4dcd67b2faeda375cb2acc69ab61c5746f206f3448cea1170e0da54b",
+      "firstReviewedOrdinal": 2019,
+      "lastReviewedOrdinal": 5439,
+      "reviewedRows": 54,
+      "fileRows": 54
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-040.json",
+      "sha256": "68b0bfc43772ec08ad56ccf8228bb578cb18d406c20d9f6e23d11efdaacd7a4c",
+      "firstReviewedOrdinal": 2009,
+      "lastReviewedOrdinal": 5437,
+      "reviewedRows": 65,
+      "fileRows": 65
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-041.json",
+      "sha256": "a332030debf7081aeb1764fa8aeb2f22b2d848f2261d5afe78f16be178736548",
+      "firstReviewedOrdinal": 4753,
+      "lastReviewedOrdinal": 4780,
+      "reviewedRows": 24,
+      "fileRows": 24
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-042.json",
+      "sha256": "164d95410691f63ed939790f4f518ee53375b35eae3713a4b21c59f20ae4be86",
+      "firstReviewedOrdinal": 3624,
+      "lastReviewedOrdinal": 3664,
+      "reviewedRows": 37,
+      "fileRows": 37
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-043.json",
+      "sha256": "011dd2e336f906e60d246a11508c7dbbca0124236cfb5ebebff46595ec43697e",
+      "firstReviewedOrdinal": 3578,
+      "lastReviewedOrdinal": 3614,
+      "reviewedRows": 31,
+      "fileRows": 31
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-044.json",
+      "sha256": "51f89ddffac489031f686cf5ccad39b6ba962a7f31a72035401c4c38d17aa5f3",
+      "firstReviewedOrdinal": 2004,
+      "lastReviewedOrdinal": 3572,
+      "reviewedRows": 59,
+      "fileRows": 59
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-045.json",
+      "sha256": "55f796709b6d873a0102e7442f8bfbb783b4fc7e7b1d8f3230f6d74dd1ae1e31",
+      "firstReviewedOrdinal": 473,
+      "lastReviewedOrdinal": 1316,
+      "reviewedRows": 52,
+      "fileRows": 52
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-046.json",
+      "sha256": "19678d92a84bf0c8636e6b04fb4f34269284df8fb94bc9bb189a32cd78aee8a2",
+      "firstReviewedOrdinal": 2275,
+      "lastReviewedOrdinal": 4396,
+      "reviewedRows": 14,
+      "fileRows": 14
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-047.json",
+      "sha256": "82522a2d41d2d12ca7186c445a8619b01c7717cf1421c96de4578b5b8c8da7e9",
+      "firstReviewedOrdinal": 5399,
+      "lastReviewedOrdinal": 5493,
+      "reviewedRows": 15,
+      "fileRows": 15
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-048.json",
+      "sha256": "27d5f47cff085c99e1751b90f943ac10f357af6851cd56a8fe99e145f4a11d3b",
+      "firstReviewedOrdinal": 1711,
+      "lastReviewedOrdinal": 12104,
+      "reviewedRows": 55,
+      "fileRows": 55
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-049.json",
+      "sha256": "968d52d99553007e4001075cbb6447d2516d1a584293fc30f2e9c7aaeae2ad0b",
+      "firstReviewedOrdinal": 2042,
+      "lastReviewedOrdinal": 5043,
+      "reviewedRows": 16,
+      "fileRows": 16
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-050.json",
+      "sha256": "40a696b2fc8202b5de0644186eb244e2e9eee1f53a1a36b57eafb4bff1bffdf0",
+      "firstReviewedOrdinal": 7340,
+      "lastReviewedOrdinal": 12565,
+      "reviewedRows": 59,
+      "fileRows": 59
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-051.json",
+      "sha256": "7c58cd8bd4becdaa909834a9a94df5b96cbe6e6786f1c53f71df63d142ad02e2",
+      "firstReviewedOrdinal": 7299,
+      "lastReviewedOrdinal": 12499,
+      "reviewedRows": 71,
+      "fileRows": 71
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-052.json",
+      "sha256": "9c8870d54d3fbb859f4a4b592bb51160b6673e7c535f0b72a36cd07d7e70740e",
+      "firstReviewedOrdinal": 7271,
+      "lastReviewedOrdinal": 12427,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-053.json",
+      "sha256": "b7502e7bb1f3f1f1e0097b46e382e407a3a78f3b7f5ec9f2beac91691999dcce",
+      "firstReviewedOrdinal": 2026,
+      "lastReviewedOrdinal": 3058,
+      "reviewedRows": 57,
+      "fileRows": 57
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-054.json",
+      "sha256": "08f6a0ef058c36054ebf5c43c1ff34626c5992092586520b77d10674ce9ee377",
+      "firstReviewedOrdinal": 3062,
+      "lastReviewedOrdinal": 3123,
+      "reviewedRows": 58,
+      "fileRows": 58
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-055.json",
+      "sha256": "997f7e4ca4662ba87aa9a22d71e68eb18f67cb9934a1d3b54e9aa8290f74211a",
+      "firstReviewedOrdinal": 5430,
+      "lastReviewedOrdinal": 5660,
+      "reviewedRows": 32,
+      "fileRows": 32
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-056.json",
+      "sha256": "3c15ac11cb36b7fe57564c72bdbe404781f142067782dc1c4fb652263cc43402",
+      "firstReviewedOrdinal": 5661,
+      "lastReviewedOrdinal": 5708,
+      "reviewedRows": 47,
+      "fileRows": 47
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-057.json",
+      "sha256": "ccf55877dde0a0b6595d41456cabd39be055c78c57f5a60329668d08ce963e7f",
+      "firstReviewedOrdinal": 5362,
+      "lastReviewedOrdinal": 5385,
+      "reviewedRows": 24,
+      "fileRows": 24
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-058.json",
+      "sha256": "46fa468b1223066384273c60b5fd2ce7557eb3de2f4587156ca2434e30d85d19",
+      "firstReviewedOrdinal": 5392,
+      "lastReviewedOrdinal": 5481,
+      "reviewedRows": 19,
+      "fileRows": 19
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-059.json",
+      "sha256": "5ea108f861ba2691d903fa86db53233173604421eca3d397b432396a4ec6305c",
+      "firstReviewedOrdinal": 5390,
+      "lastReviewedOrdinal": 5727,
+      "reviewedRows": 19,
+      "fileRows": 19
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-060.json",
+      "sha256": "7eeed439e5dfdf58b25a3c46daf8c8d941539ab53c66257a1c14fced9cdea367",
+      "firstReviewedOrdinal": 5454,
+      "lastReviewedOrdinal": 5744,
+      "reviewedRows": 25,
+      "fileRows": 25
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-061.json",
+      "sha256": "b5a834606d04796f6fb52439349ed8e6a5efcd14271170f3cc8eaae24b5650cb",
+      "firstReviewedOrdinal": 5463,
+      "lastReviewedOrdinal": 5761,
+      "reviewedRows": 19,
+      "fileRows": 19
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-062.json",
+      "sha256": "d73403370bee57015fa270ce9d9c7656fd5b5d655cdcd870232e16b2d8bff5aa",
+      "firstReviewedOrdinal": 11964,
+      "lastReviewedOrdinal": 12111,
+      "reviewedRows": 23,
+      "fileRows": 23
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-063.json",
+      "sha256": "ef110030de83f31e1135b5a6bf120970338867ac7fa10e452dca080f171c3177",
+      "firstReviewedOrdinal": 5414,
+      "lastReviewedOrdinal": 5559,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-064.json",
+      "sha256": "2edc18b88b472f56c807d28d800b31a0a56f8f98ebab7604c144530eef886362",
+      "firstReviewedOrdinal": 1270,
+      "lastReviewedOrdinal": 1467,
+      "reviewedRows": 10,
+      "fileRows": 10
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-065.json",
+      "sha256": "eb3300eee52c37d7d46d0d0a80189149354af06bf87eea04cec7ee4aa54110df",
+      "firstReviewedOrdinal": 717,
+      "lastReviewedOrdinal": 1461,
+      "reviewedRows": 29,
+      "fileRows": 29
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-066.json",
+      "sha256": "0cf6b9f1302a9b7d653caea1fe8a14e60343d418105d527e77de04bf05a62e72",
+      "firstReviewedOrdinal": 1248,
+      "lastReviewedOrdinal": 1431,
+      "reviewedRows": 28,
+      "fileRows": 28
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-067.json",
+      "sha256": "237e385d8e0d1e894f82456e1fd252643d33d889a8cee988b984a30c090c6580",
+      "firstReviewedOrdinal": 716,
+      "lastReviewedOrdinal": 1408,
+      "reviewedRows": 23,
+      "fileRows": 23
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-068.json",
+      "sha256": "fc03db19752b9a5d33769f26e3428366ba29c572bb9ace5e47d22e25be271442",
+      "firstReviewedOrdinal": 715,
+      "lastReviewedOrdinal": 1382,
+      "reviewedRows": 16,
+      "fileRows": 16
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-069.json",
+      "sha256": "e4a5ebb30b0bb4c81f44b493ee17289d87c396542db0deffeac8cce6fcc6c3ed",
+      "firstReviewedOrdinal": 713,
+      "lastReviewedOrdinal": 1234,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-070.json",
+      "sha256": "ac6fdc795f0e9a66e7f09d4c676458cc98730f64db9469c77081d9e9872120bd",
+      "firstReviewedOrdinal": 261,
+      "lastReviewedOrdinal": 1220,
+      "reviewedRows": 24,
+      "fileRows": 24
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-071.json",
+      "sha256": "f6ae5588044f43f83a862ffeb43c2ace5e9b6b0df2df292f790ee1b9b6e6ebce",
+      "firstReviewedOrdinal": 265,
+      "lastReviewedOrdinal": 1180,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-072.json",
+      "sha256": "ac8a6289987d3992f5472327c9f7451a4aebb367c88708577d7ce06b44c9e280",
+      "firstReviewedOrdinal": 1135,
+      "lastReviewedOrdinal": 1157,
+      "reviewedRows": 23,
+      "fileRows": 23
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-073.json",
+      "sha256": "1623d56576e46828f8ed9dc34a7c7659f7dea001fa4e40543d070bb5d9503931",
+      "firstReviewedOrdinal": 1113,
+      "lastReviewedOrdinal": 1134,
+      "reviewedRows": 22,
+      "fileRows": 22
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-074.json",
+      "sha256": "c2b4ba821c33356d0ae6ed7f0ce9f4b0703b1b3e6f349fcc152fcf449ef7070f",
+      "firstReviewedOrdinal": 1096,
+      "lastReviewedOrdinal": 1112,
+      "reviewedRows": 17,
+      "fileRows": 17
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-075.json",
+      "sha256": "2a5b9fbcdc606bdb73d6be117796dff798ecddd8ae3553c28756790cba3a63cf",
+      "firstReviewedOrdinal": 1082,
+      "lastReviewedOrdinal": 1095,
+      "reviewedRows": 14,
+      "fileRows": 14
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-076.json",
+      "sha256": "eb10fc6cf5abff86a058bd7ffb879e7871ca4151b3d3702147a75cba40879d33",
+      "firstReviewedOrdinal": 1067,
+      "lastReviewedOrdinal": 1081,
+      "reviewedRows": 15,
+      "fileRows": 15
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-077.json",
+      "sha256": "72ba0d4092edbd99cb3de8969a64d0ed0fea3d87762e54364d8a381b66798962",
+      "firstReviewedOrdinal": 2966,
+      "lastReviewedOrdinal": 3009,
+      "reviewedRows": 42,
+      "fileRows": 42
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-078.json",
+      "sha256": "55979fe3818f3a53b8b3432604a7e20cb12e6882bec421719dc3017c51638458",
+      "firstReviewedOrdinal": 1998,
+      "lastReviewedOrdinal": 2965,
+      "reviewedRows": 36,
+      "fileRows": 36
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-079.json",
+      "sha256": "e84d4ee253dbb1884cd80729d37713698e7185e80d8d825e6e7a427f724d0c00",
+      "firstReviewedOrdinal": 2000,
+      "lastReviewedOrdinal": 2931,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-080.json",
+      "sha256": "9494d3b5e4a8056052213a2eb33d92bcd79ca2d7f30e3b5ce69b7730953fb678",
+      "firstReviewedOrdinal": 5426,
+      "lastReviewedOrdinal": 5623,
+      "reviewedRows": 19,
+      "fileRows": 19
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-081.json",
+      "sha256": "ab6a7a4b55d509c4d4a0a41853edbc33f3adb15fe8e035f268eb504825359918",
+      "firstReviewedOrdinal": 7112,
+      "lastReviewedOrdinal": 7134,
+      "reviewedRows": 15,
+      "fileRows": 15
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-082.json",
+      "sha256": "5aceb6bab220240d9d88cd6e891d8f13eb21b938df5f1696b60a5bdca8adf4f5",
+      "firstReviewedOrdinal": 5406,
+      "lastReviewedOrdinal": 5538,
+      "reviewedRows": 33,
+      "fileRows": 33
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-083.json",
+      "sha256": "32b76746d20807f8997a811f24deb19e7c2f5dc889e214e5bb9583c61f15956c",
+      "firstReviewedOrdinal": 2090,
+      "lastReviewedOrdinal": 2109,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-084.json",
+      "sha256": "95426cddef7bc4c575f84d8d35534b0de98eb02c8538572de84bb53ec76f0da1",
+      "firstReviewedOrdinal": 6717,
+      "lastReviewedOrdinal": 6763,
+      "reviewedRows": 9,
+      "fileRows": 9
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-085.json",
+      "sha256": "79f40a4ed947d512c838671f6c4e21a2f806c123879402f19256eddfcf54f033",
+      "firstReviewedOrdinal": 2523,
+      "lastReviewedOrdinal": 4433,
+      "reviewedRows": 42,
+      "fileRows": 42
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-086.json",
+      "sha256": "6f612738ca90164b180d16fc1cc8d57df6f72c05b3f389e79af7db351a50c225",
+      "firstReviewedOrdinal": 9354,
+      "lastReviewedOrdinal": 9426,
+      "reviewedRows": 67,
+      "fileRows": 67
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-087.json",
+      "sha256": "cdfc27b4746924fc211bd61393c655799733662ec46b4d1043be294e3715b57e",
+      "firstReviewedOrdinal": 14879,
+      "lastReviewedOrdinal": 14954,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-088.json",
+      "sha256": "7b6b432e012f5e6af22161d1f1a5052ab5961861de285c8f5b10fe8680289419",
+      "firstReviewedOrdinal": 2201,
+      "lastReviewedOrdinal": 4708,
+      "reviewedRows": 48,
+      "fileRows": 48
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-089.json",
+      "sha256": "9a0889159779c8b45f13575d54605e6a5e3bd596353a220d335f49c378e076bc",
+      "firstReviewedOrdinal": 477,
+      "lastReviewedOrdinal": 488,
+      "reviewedRows": 10,
+      "fileRows": 10
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-090.json",
+      "sha256": "3ab110ba0e43b3f7a6157026ff6bea6a7e0a146fa9452453429186a9810a86c3",
+      "firstReviewedOrdinal": 2794,
+      "lastReviewedOrdinal": 2877,
+      "reviewedRows": 76,
+      "fileRows": 76
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-091.json",
+      "sha256": "ee27bf7241eb70a1888ee1cfde0bc69a2607e690888186a04dd3502de3c5d26e",
+      "firstReviewedOrdinal": 9653,
+      "lastReviewedOrdinal": 9703,
+      "reviewedRows": 26,
+      "fileRows": 26
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-092.json",
+      "sha256": "8aa37176ac9800d87dd1ef7478f715b114309af749786c7e39a7937a3a1fecc3",
+      "firstReviewedOrdinal": 12064,
+      "lastReviewedOrdinal": 15402,
+      "reviewedRows": 68,
+      "fileRows": 68
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-093.json",
+      "sha256": "7cbf671a0d82a0eb75770f9b469fc15ff0e7d430d15bd15119fe4267e4b8a643",
+      "firstReviewedOrdinal": 7049,
+      "lastReviewedOrdinal": 9751,
+      "reviewedRows": 35,
+      "fileRows": 35
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-094.json",
+      "sha256": "5d83ede46b510fb8c6f8e2e123b2de6f180b3cc0fa13adb5d5ba514f35131ff6",
+      "firstReviewedOrdinal": 12067,
+      "lastReviewedOrdinal": 15462,
+      "reviewedRows": 67,
+      "fileRows": 67
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-095.json",
+      "sha256": "a46ecf350e24fb356843f4d80b8c910981ad57be168bd316029cbec6ffead4f9",
+      "firstReviewedOrdinal": 1893,
+      "lastReviewedOrdinal": 6615,
+      "reviewedRows": 49,
+      "fileRows": 49
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-096.json",
+      "sha256": "e2446dc7a6f06b909d051319d1401d2e38e495e39273a2e587a45c223c91856f",
+      "firstReviewedOrdinal": 11781,
+      "lastReviewedOrdinal": 11863,
+      "reviewedRows": 53,
+      "fileRows": 53
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-097.json",
+      "sha256": "6d5a8637751afd141d22ef3b14733f5ac21d6b65ca448a4e975ed76dc4952327",
+      "firstReviewedOrdinal": 2236,
+      "lastReviewedOrdinal": 4031,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-098.json",
+      "sha256": "d15aee40c432f4a2f2c5e03ab8ff2bc620ad276f0ff4bb87a1c53afbf6541520",
+      "firstReviewedOrdinal": 8552,
+      "lastReviewedOrdinal": 8598,
+      "reviewedRows": 32,
+      "fileRows": 32
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-099.json",
+      "sha256": "ad63c8edcdcd768005bb9caca56194b4985d86e51744bc72de1a677f4b8402d1",
+      "firstReviewedOrdinal": 13959,
+      "lastReviewedOrdinal": 14028,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-100.json",
+      "sha256": "acb6c6500245402757394043fc2666f0838639639cbc64d536d16f9e8bba9f8f",
+      "firstReviewedOrdinal": 2457,
+      "lastReviewedOrdinal": 5277,
+      "reviewedRows": 33,
+      "fileRows": 33
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-101.json",
+      "sha256": "3d60593b85285f2ee8c9a27a2152a25e77483c2471bd4999a6db4da1a99876d0",
+      "firstReviewedOrdinal": 7059,
+      "lastReviewedOrdinal": 10753,
+      "reviewedRows": 29,
+      "fileRows": 29
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-102.json",
+      "sha256": "23cb1b710eca97419a3e596c728c9880308970b9a5ffb9de82920ecd97f68380",
+      "firstReviewedOrdinal": 14236,
+      "lastReviewedOrdinal": 16182,
+      "reviewedRows": 35,
+      "fileRows": 35
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-103.json",
+      "sha256": "15ada3c67097e219043c9694823418320e1dffa89c72e2910b189734eea4bcfe",
+      "firstReviewedOrdinal": 483,
+      "lastReviewedOrdinal": 6969,
+      "reviewedRows": 7,
+      "fileRows": 7
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-104.json",
+      "sha256": "4bc51ef9e61d8401374805c38fa54f48f31c6b7c9b57aa8f6eee7c5b4b2bf135",
+      "firstReviewedOrdinal": 1505,
+      "lastReviewedOrdinal": 1684,
+      "reviewedRows": 33,
+      "fileRows": 33
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-105.json",
+      "sha256": "ce7c5d9ab4ac717259e5924e6679bc7802656e32ef3598e5325f8ba1d680421a",
+      "firstReviewedOrdinal": 6133,
+      "lastReviewedOrdinal": 6167,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-106.json",
+      "sha256": "7d3326740b6004b3166626dac8035b4bc447e42272f87a3b2425418fc2034b64",
+      "firstReviewedOrdinal": 11168,
+      "lastReviewedOrdinal": 11244,
+      "reviewedRows": 47,
+      "fileRows": 47
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-107.json",
+      "sha256": "2125133c85ba2dfccb08b753d26d313f90cb2cc0b19622c30d177c34a6dc92ab",
+      "firstReviewedOrdinal": 5896,
+      "lastReviewedOrdinal": 5916,
+      "reviewedRows": 21,
+      "fileRows": 21
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-108.json",
+      "sha256": "281fcf00037e222d250045c9d0c1429a5b6ce498cde51f16aedfc9ffcf26a1de",
+      "firstReviewedOrdinal": 2341,
+      "lastReviewedOrdinal": 3447,
+      "reviewedRows": 22,
+      "fileRows": 22
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-109.json",
+      "sha256": "f8a67732a8d8748f668bba850dfa7fc6052a6c16c25682a0e32478e06cd9685d",
+      "firstReviewedOrdinal": 7047,
+      "lastReviewedOrdinal": 7936,
+      "reviewedRows": 56,
+      "fileRows": 56
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-110.json",
+      "sha256": "7dc1563a09074415c3e2f3fc1d8f8dc31945717869901fd08bfad9bc9a30a1af",
+      "firstReviewedOrdinal": 13161,
+      "lastReviewedOrdinal": 13224,
+      "reviewedRows": 34,
+      "fileRows": 34
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-111.json",
+      "sha256": "d6f073b116061fbb09fd34c1a7e34a46bc451d619f6a7f44be4b42b55f0082a3",
+      "firstReviewedOrdinal": 2251,
+      "lastReviewedOrdinal": 5317,
+      "reviewedRows": 35,
+      "fileRows": 35
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-112.json",
+      "sha256": "fae39c98cbc7c2d7bd8ba5fd0632c086db606fe2331e0e4a3da1a3b828a2632e",
+      "firstReviewedOrdinal": 10757,
+      "lastReviewedOrdinal": 10801,
+      "reviewedRows": 38,
+      "fileRows": 38
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-113.json",
+      "sha256": "cc6f86c52255d084df24d511b72aab14269b60e1fb18fc0626d489fe71486fc8",
+      "firstReviewedOrdinal": 10805,
+      "lastReviewedOrdinal": 10851,
+      "reviewedRows": 44,
+      "fileRows": 44
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-114.json",
+      "sha256": "3d641e611030bee140b26b701f2a53ae4ed3beba8d5d0981035d343aa1a5a110",
+      "firstReviewedOrdinal": 14335,
+      "lastReviewedOrdinal": 16219,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-115.json",
+      "sha256": "5be2f605acbe4d8c9987ac4d531a9f0af5764b14a39bae0d18331ad437a03d2c",
+      "firstReviewedOrdinal": 16222,
+      "lastReviewedOrdinal": 16303,
+      "reviewedRows": 53,
+      "fileRows": 53
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-116.json",
+      "sha256": "f2a880c0394c5a60425ab31accad8035cf4e9f8223599a0908f4fb0c5a809f91",
+      "firstReviewedOrdinal": 4593,
+      "lastReviewedOrdinal": 5356,
+      "reviewedRows": 48,
+      "fileRows": 48
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-117.json",
+      "sha256": "6da6fb0f8b32916fd0c80ee5a1b025cc7cc487c7cc006fa4060a8f53d877e092",
+      "firstReviewedOrdinal": 10855,
+      "lastReviewedOrdinal": 10915,
+      "reviewedRows": 48,
+      "fileRows": 48
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-118.json",
+      "sha256": "e09b9aca1686b83ff1945ebc2a2258c1404c4da3e7734c546b55b35a085d75f1",
+      "firstReviewedOrdinal": 15284,
+      "lastReviewedOrdinal": 16360,
+      "reviewedRows": 33,
+      "fileRows": 33
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-119.json",
+      "sha256": "13592604d9c6f5ea6dc8bb7409abaa578c8960391bade3252f9795f7939781be",
+      "firstReviewedOrdinal": 1536,
+      "lastReviewedOrdinal": 1775,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-120.json",
+      "sha256": "df8bb46f4a621282ddfe008545e235431a952305c54e67e440b5aa6485f4b89f",
+      "firstReviewedOrdinal": 6266,
+      "lastReviewedOrdinal": 6315,
+      "reviewedRows": 44,
+      "fileRows": 44
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-121.json",
+      "sha256": "042ed10e2840b3019ec1117bd6e82087e8da857718737e18ff36188754f7603a",
+      "firstReviewedOrdinal": 11419,
+      "lastReviewedOrdinal": 11508,
+      "reviewedRows": 60,
+      "fileRows": 60
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-122.json",
+      "sha256": "419d7f4a8f85922af773b78d7560bee683b4415bbb28d8b3a1ca5363889baf12",
+      "firstReviewedOrdinal": 1554,
+      "lastReviewedOrdinal": 1853,
+      "reviewedRows": 28,
+      "fileRows": 28
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-123.json",
+      "sha256": "e1f3b0fa5bd53ed1067ecc6baa767bfa42b74d587309b8b7fbf69532af2f200e",
+      "firstReviewedOrdinal": 6393,
+      "lastReviewedOrdinal": 6436,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-124.json",
+      "sha256": "9f5a5fc5756d57ecb26fe43be55e8e216fedf57547da1b1ed66715d87f584ab9",
+      "firstReviewedOrdinal": 11597,
+      "lastReviewedOrdinal": 11686,
+      "reviewedRows": 60,
+      "fileRows": 60
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-125.json",
+      "sha256": "27fdf1b1a1ffe29c58a52cefed5fcce0dc29668b0575807feb06693a8f537704",
+      "firstReviewedOrdinal": 1516,
+      "lastReviewedOrdinal": 1716,
+      "reviewedRows": 30,
+      "fileRows": 30
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-126.json",
+      "sha256": "13367271493e6a899f38f0ca16dc34033c6e40eecc728fbf8ae35f71faa155f0",
+      "firstReviewedOrdinal": 6172,
+      "lastReviewedOrdinal": 6221,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-127.json",
+      "sha256": "f0f84243d4f6ca407b8844402cce69f0826cb29467f38d3f0215433956707972",
+      "firstReviewedOrdinal": 11245,
+      "lastReviewedOrdinal": 11328,
+      "reviewedRows": 54,
+      "fileRows": 54
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-128.json",
+      "sha256": "1380db526ded2ab909c9898685c3fafa20fdf8887bcadc2c424e8ea26b548c0c",
+      "firstReviewedOrdinal": 2554,
+      "lastReviewedOrdinal": 9558,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-129.json",
+      "sha256": "1d341baa629d575b7c10869d9803ceed94f0d3e383942305390cb66732469d72",
+      "firstReviewedOrdinal": 9559,
+      "lastReviewedOrdinal": 15175,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-130.json",
+      "sha256": "72bf7d247f114449d2683a3e42c1d1e9daffbeb2cb693e78d2102c66fcdc2484",
+      "firstReviewedOrdinal": 15176,
+      "lastReviewedOrdinal": 15209,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-131.json",
+      "sha256": "ed1013921d3365cb6c6db085b0a06393c4151869e2546ca4ca22a90229ab799d",
+      "firstReviewedOrdinal": 2334,
+      "lastReviewedOrdinal": 3421,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-132.json",
+      "sha256": "abba23e25fad90de4fd6b49a81e6595f21e7b21303722cdc18402ce49f46f434",
+      "firstReviewedOrdinal": 7823,
+      "lastReviewedOrdinal": 13090,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-133.json",
+      "sha256": "236d7b17e7aaa21bd044c00165d47642b9ce7d6b06ee6abbfa0f0fb7ea7f2870",
+      "firstReviewedOrdinal": 13091,
+      "lastReviewedOrdinal": 13160,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-134.json",
+      "sha256": "10a5a24e8a3e34f7c757987b3dcd02d361ab964bcc80ad5d2f9bbe4bfe8ee750",
+      "firstReviewedOrdinal": 2186,
+      "lastReviewedOrdinal": 7527,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-135.json",
+      "sha256": "bb4489ae9aad7111932f5b43e0c1b2df232d579c2532e6f11daf345f0a8d8a56",
+      "firstReviewedOrdinal": 7528,
+      "lastReviewedOrdinal": 12766,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-136.json",
+      "sha256": "cc1de6f11b4e45ff4291c305e3bc421ea7a7c0c4ffd670126efa304811d8ad09",
+      "firstReviewedOrdinal": 12767,
+      "lastReviewedOrdinal": 12834,
+      "reviewedRows": 38,
+      "fileRows": 38
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-137.json",
+      "sha256": "976947ea295723ae2a063171f5983422681dbc1e9123495c59eb18d7fb0cfcc4",
+      "firstReviewedOrdinal": 2565,
+      "lastReviewedOrdinal": 4586,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-138.json",
+      "sha256": "b306511cf40449e86f86c347f53562b2f33159c6865a15396df216c0fcf7210e",
+      "firstReviewedOrdinal": 4587,
+      "lastReviewedOrdinal": 15213,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-139.json",
+      "sha256": "f79b10b61f960515605b0b0a7d3ec5d1d0fbda130db008752426b53c564a1527",
+      "firstReviewedOrdinal": 15214,
+      "lastReviewedOrdinal": 15283,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-140.json",
+      "sha256": "9815407d30df74bbc780c56c235528c863d7a4fb6c41db1fae274ce988cd995c",
+      "firstReviewedOrdinal": 1468,
+      "lastReviewedOrdinal": 5946,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-141.json",
+      "sha256": "e19927d9a31be9dd5a1826f901b43832f56cbc9ff8f66f294623e85851eae757",
+      "firstReviewedOrdinal": 5947,
+      "lastReviewedOrdinal": 10927,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-142.json",
+      "sha256": "e987bdee2e72454b260903190bef4662ec7e0eb4ea5ee3694c909fc25621aea4",
+      "firstReviewedOrdinal": 10928,
+      "lastReviewedOrdinal": 11000,
+      "reviewedRows": 44,
+      "fileRows": 44
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-143.json",
+      "sha256": "3e30e7909a3f5784526aab5922aed2d4ab74a03264fbf236d026a8fc5c74aabd",
+      "firstReviewedOrdinal": 2191,
+      "lastReviewedOrdinal": 7573,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-144.json",
+      "sha256": "1690c40249a0649b74e8edaefff2e592b2522a4bf73295fb1a8486d1bfb34d96",
+      "firstReviewedOrdinal": 7574,
+      "lastReviewedOrdinal": 12838,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-145.json",
+      "sha256": "9f1abb23335f5c988c57821990c69418c60d4ccd26542d4892d01671042fbfd0",
+      "firstReviewedOrdinal": 12839,
+      "lastReviewedOrdinal": 12912,
+      "reviewedRows": 44,
+      "fileRows": 44
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-146.json",
+      "sha256": "eb104ad4cb8a0d0223f195604904a27d6cdcf573763bdcbd1ff58d8565e2d795",
+      "firstReviewedOrdinal": 1476,
+      "lastReviewedOrdinal": 6002,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-147.json",
+      "sha256": "ba2f878aebc083869aaffc5ba13580ae18ca937412650adaa130dc2714cb9937",
+      "firstReviewedOrdinal": 6003,
+      "lastReviewedOrdinal": 11009,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-148.json",
+      "sha256": "69122dcec02ce70ddcac8a9a37b6bd4c090467e6b03be75ab53bb8018fdc0dbc",
+      "firstReviewedOrdinal": 11010,
+      "lastReviewedOrdinal": 11083,
+      "reviewedRows": 44,
+      "fileRows": 44
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-149.json",
+      "sha256": "105c256fc8498d3c1f1a6b2b1268d41e85f97433a420d1afed1c657d6d025549",
+      "firstReviewedOrdinal": 1524,
+      "lastReviewedOrdinal": 6229,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-150.json",
+      "sha256": "25f95c3ec002617246424bdbf7dda8c94ec41506149c796675887ff58edc67d9",
+      "firstReviewedOrdinal": 6230,
+      "lastReviewedOrdinal": 11343,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-151.json",
+      "sha256": "9fa82f87796c9c36c823f5bc5c7280fe36af60c58a8624f409857d4618fc87c2",
+      "firstReviewedOrdinal": 11344,
+      "lastReviewedOrdinal": 11418,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-152.json",
+      "sha256": "de2782e16bcdfee728cadb6500c2a2174fa5f5b9245504b5a5a90316c4c8f898",
+      "firstReviewedOrdinal": 2354,
+      "lastReviewedOrdinal": 9761,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-153.json",
+      "sha256": "7723b06bea57909407baf92ab636b1825af8563f2846a0dba5f4121ebdbd915a",
+      "firstReviewedOrdinal": 9762,
+      "lastReviewedOrdinal": 13477,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-154.json",
+      "sha256": "fcea0973757cf525308a691acaea0e638c7acb409b786866e16d0b57820755a9",
+      "firstReviewedOrdinal": 13480,
+      "lastReviewedOrdinal": 15535,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-155.json",
+      "sha256": "b7569aacb369b4e2de4196afc5e99884d5379318fbb85c970a1d152d625b389e",
+      "firstReviewedOrdinal": 2261,
+      "lastReviewedOrdinal": 8979,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-156.json",
+      "sha256": "84fcb762ad9e575317702d79ce025e5e1c84d1115733ce2a6a9514ec0394ddd9",
+      "firstReviewedOrdinal": 8980,
+      "lastReviewedOrdinal": 14536,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-157.json",
+      "sha256": "50ade463c58d9be09f5c26635577af1a0dc5ced5f57b46d7e35f5ad4f072afe8",
+      "firstReviewedOrdinal": 14537,
+      "lastReviewedOrdinal": 14606,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-158.json",
+      "sha256": "bbfa3623bd179a3c839b5ad7759fd02cc4c9764914af29028798b24da10e4f45",
+      "firstReviewedOrdinal": 2544,
+      "lastReviewedOrdinal": 9500,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-159.json",
+      "sha256": "2428848d5f6b717789f1b093fc8b7f4bcf7368998bf42dd845253a801b06bc09",
+      "firstReviewedOrdinal": 9501,
+      "lastReviewedOrdinal": 15059,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-160.json",
+      "sha256": "eb79dca7cc90c28c2d679df2bfa47c50cef4ea62ccde458cca05a103b65f80ed",
+      "firstReviewedOrdinal": 15060,
+      "lastReviewedOrdinal": 15134,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-161.json",
+      "sha256": "ecf91006f7b612a95c77780eb19280807913e4a8bb3874178778548942b63b8e",
+      "firstReviewedOrdinal": 2416,
+      "lastReviewedOrdinal": 5867,
+      "reviewedRows": 45,
+      "fileRows": 45
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-162.json",
+      "sha256": "9f275e600d8362d4385baef29d403428422745b8149435d748c2dc50fbdceb54",
+      "firstReviewedOrdinal": 5868,
+      "lastReviewedOrdinal": 10649,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-163.json",
+      "sha256": "f3f020a31da066f8d27a44b4512a02237e69e87ca377dbcc037c870952a26812",
+      "firstReviewedOrdinal": 10650,
+      "lastReviewedOrdinal": 16034,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-164.json",
+      "sha256": "7ea8ebc123e00d62d56be3d1502ea15d0f155ef495d7102e94c80d7d71f58968",
+      "firstReviewedOrdinal": 2580,
+      "lastReviewedOrdinal": 8623,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-165.json",
+      "sha256": "24a2fb169031542a1f416161d950af00bc01192045fbcc8a810e71a344a2db01",
+      "firstReviewedOrdinal": 8624,
+      "lastReviewedOrdinal": 14052,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-166.json",
+      "sha256": "44b3d1f88e3b28da935c8506c0f2b3bbb2196d97b364ad39d1cd5f783f38a651",
+      "firstReviewedOrdinal": 14053,
+      "lastReviewedOrdinal": 14124,
+      "reviewedRows": 42,
+      "fileRows": 42
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-167.json",
+      "sha256": "156112a3c2c2f8089f961a99237f04f7a78aab247c535d6873e173137d56f8a0",
+      "firstReviewedOrdinal": 2534,
+      "lastReviewedOrdinal": 9442,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-168.json",
+      "sha256": "c12edd13a1af288608e716905669e92bf340cc91241c9255e4ea64ba8aeea59a",
+      "firstReviewedOrdinal": 9443,
+      "lastReviewedOrdinal": 14961,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-169.json",
+      "sha256": "7ca4d76cbcc1641d5eec91e47be87ea87713a1e404918000a99f04c6bca7bb25",
+      "firstReviewedOrdinal": 14962,
+      "lastReviewedOrdinal": 15035,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-170.json",
+      "sha256": "9176779fd6837a1215e102dddad82f012a86fa1d093e46caeab6f230c6f1324c",
+      "firstReviewedOrdinal": 2326,
+      "lastReviewedOrdinal": 7765,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-171.json",
+      "sha256": "78c0382fe24cd8ab5f6fa46f6999f0254ac0f167cf220a157519278bcb1dc010",
+      "firstReviewedOrdinal": 7766,
+      "lastReviewedOrdinal": 12997,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-172.json",
+      "sha256": "709ca56e0d46f26d2c9d0a500929830bca53e532351ced9f3db46ed6f501c2b1",
+      "firstReviewedOrdinal": 12998,
+      "lastReviewedOrdinal": 13083,
+      "reviewedRows": 56,
+      "fileRows": 56
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-173.json",
+      "sha256": "cbc633914c15e1f242ed64114fa87606913fcbec50208a0ebc4543441e239fbe",
+      "firstReviewedOrdinal": 4609,
+      "lastReviewedOrdinal": 4622,
+      "reviewedRows": 14,
+      "fileRows": 14
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-174.json",
+      "sha256": "40cace210bc6c673ef0a109d481843913e2b60bed2d00136b0210a7e53637e9f",
+      "firstReviewedOrdinal": 1198,
+      "lastReviewedOrdinal": 1450,
+      "reviewedRows": 64,
+      "fileRows": 64
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-175.json",
+      "sha256": "7f403e5f786c9b214954674bf03a6ac83920d82ce4fca493db65be972a090802",
+      "firstReviewedOrdinal": 4623,
+      "lastReviewedOrdinal": 9813,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-176.json",
+      "sha256": "7981823a25745654ab8c4947fdba73c795195cfa37654fb856ec69fdad5c6524",
+      "firstReviewedOrdinal": 9814,
+      "lastReviewedOrdinal": 15506,
+      "reviewedRows": 30,
+      "fileRows": 30
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-177.json",
+      "sha256": "395b6961e313c296204684f27dfa3bc33f3251a2520dff06cbd199df9824db05",
+      "firstReviewedOrdinal": 943,
+      "lastReviewedOrdinal": 992,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-178.json",
+      "sha256": "9077d74e2ef65a8be1180907b404ca43a5dc591abed7d38eaa1047caf6a329e2",
+      "firstReviewedOrdinal": 993,
+      "lastReviewedOrdinal": 1042,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-179.json",
+      "sha256": "74c0fe377fd363f31b6f046b2bc207a6b0e759cf61f2de14aa98c4e2be68fc41",
+      "firstReviewedOrdinal": 1043,
+      "lastReviewedOrdinal": 1330,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-180.json",
+      "sha256": "92fdba77f5568d2feeb20a38e31ab898a339520a1f2b9db026384fc8cc432dbb",
+      "firstReviewedOrdinal": 1326,
+      "lastReviewedOrdinal": 5544,
+      "reviewedRows": 48,
+      "fileRows": 48
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-181.json",
+      "sha256": "cecae02a7392882ac0bfe75e111493942f9e00eee1f076d52f2c80028f8bb8c3",
+      "firstReviewedOrdinal": 676,
+      "lastReviewedOrdinal": 16252,
+      "reviewedRows": 52,
+      "fileRows": 52
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-182.json",
+      "sha256": "eeaa2fcdf5cc46e6e53596dae69a9197c34d8aea0c021a4edc2f52737ab819ad",
+      "firstReviewedOrdinal": 2380,
+      "lastReviewedOrdinal": 8364,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-183.json",
+      "sha256": "058a13714520c6286c73abb4d9966eac2b96f96b38e2a8ad6445eb4946461c3c",
+      "firstReviewedOrdinal": 8365,
+      "lastReviewedOrdinal": 13669,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-184.json",
+      "sha256": "ca64182e8ed83bb144ae804e4f7af10a799af9070c661a7c910951ca16ef4455",
+      "firstReviewedOrdinal": 13670,
+      "lastReviewedOrdinal": 13739,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-185.json",
+      "sha256": "5898eb11a3fb31b2db6438efb343b8f573a06eb7cdc7f9eb757e7ba3804ebca4",
+      "firstReviewedOrdinal": 13740,
+      "lastReviewedOrdinal": 13764,
+      "reviewedRows": 15,
+      "fileRows": 15
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-186.json",
+      "sha256": "641746ce999449f2ae20043feea81adf38616dccff7b1a3ddb0654dc13c67a2f",
+      "firstReviewedOrdinal": 1545,
+      "lastReviewedOrdinal": 6335,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-187.json",
+      "sha256": "a5224011f1c2cb39711d7e2662f29311d310cdbdaf4e339251ae0876954e7e42",
+      "firstReviewedOrdinal": 6338,
+      "lastReviewedOrdinal": 11510,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-188.json",
+      "sha256": "4030420c6ba73ccd8c0146751474b596b437035a936376350645e5f35e2cf012",
+      "firstReviewedOrdinal": 11511,
+      "lastReviewedOrdinal": 11596,
+      "reviewedRows": 56,
+      "fileRows": 56
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-189.json",
+      "sha256": "8925e4fbaf2d04bd297c11ea099ff073494c54d13180a7be22a0779806c164c4",
+      "firstReviewedOrdinal": 2288,
+      "lastReviewedOrdinal": 5854,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-190.json",
+      "sha256": "84b80ad19fe443d1128fdde59368466a84f49566db98989d053966828e5bd86e",
+      "firstReviewedOrdinal": 7375,
+      "lastReviewedOrdinal": 12589,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-191.json",
+      "sha256": "052e50f5b8277551ab65afca488768ea3670c64ec2418a1dd11a06de4a26422a",
+      "firstReviewedOrdinal": 12590,
+      "lastReviewedOrdinal": 12675,
+      "reviewedRows": 56,
+      "fileRows": 56
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-192.json",
+      "sha256": "26fa31e72fd23652fcdb0cad6f2734f6948e8d6dbed6fb88bbfbecf4e525f081",
+      "firstReviewedOrdinal": 2044,
+      "lastReviewedOrdinal": 6981,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-193.json",
+      "sha256": "f2eeaaf91e170ebe1e08b760de3091daa44b8b329c5c9012a73f2717d704f288",
+      "firstReviewedOrdinal": 6982,
+      "lastReviewedOrdinal": 7043,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-194.json",
+      "sha256": "44c203016c2ccecbf8cbcc2052f8d312c92d66e4aab5727ff52b5d363251d65e",
+      "firstReviewedOrdinal": 11968,
+      "lastReviewedOrdinal": 12063,
+      "reviewedRows": 66,
+      "fileRows": 66
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-195.json",
+      "sha256": "8ab78e26c72c3effeeaba98e5412e80edb1c3271d0b2affbfa7944b8d25f5542",
+      "firstReviewedOrdinal": 2466,
+      "lastReviewedOrdinal": 4150,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-196.json",
+      "sha256": "87f15253dc114e242af2e3e83ad895167aeafce97c806f334445ba0c8e5fe508",
+      "firstReviewedOrdinal": 4151,
+      "lastReviewedOrdinal": 8822,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-197.json",
+      "sha256": "01c138b43a8f939e91cb6c7d0964617c6df2f5365ec6d8e96f1cbeed06c9643e",
+      "firstReviewedOrdinal": 8823,
+      "lastReviewedOrdinal": 14303,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-198.json",
+      "sha256": "ff516da9cee59004b2a2a4f65e891827ff9a009d49725fe769fc93f37aa040cb",
+      "firstReviewedOrdinal": 14304,
+      "lastReviewedOrdinal": 14334,
+      "reviewedRows": 19,
+      "fileRows": 19
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-199.json",
+      "sha256": "afdefb767acbb3e2754dc013a62f1aa53bf0df7b6bb6141bddcef038681efa48",
+      "firstReviewedOrdinal": 1490,
+      "lastReviewedOrdinal": 6056,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-200.json",
+      "sha256": "4bf73579c799f157acf8d870a969bbcce4ae689d9a6fb20956d0ea7a6d880500",
+      "firstReviewedOrdinal": 6057,
+      "lastReviewedOrdinal": 6114,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-201.json",
+      "sha256": "066e63ab90ed5992696011565786bb5b583880d4a4bd3fe42861c8999393bc42",
+      "firstReviewedOrdinal": 6115,
+      "lastReviewedOrdinal": 11135,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-202.json",
+      "sha256": "9c1648d050114545f8a87680602371d7a1f8238547d7aaf524f8b8f27f9a7f72",
+      "firstReviewedOrdinal": 11138,
+      "lastReviewedOrdinal": 11167,
+      "reviewedRows": 18,
+      "fileRows": 18
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-203.json",
+      "sha256": "9db5844c490b4a23fefbbff92e8934bb7082921c141def1a70542f1104eb9313",
+      "firstReviewedOrdinal": 2510,
+      "lastReviewedOrdinal": 9188,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-204.json",
+      "sha256": "4cf52b4c8d44b10aa8427d3bd617096fe2dc1648847352089c80248730cfcdb2",
+      "firstReviewedOrdinal": 9189,
+      "lastReviewedOrdinal": 9242,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-205.json",
+      "sha256": "e8e450a98e9e6fbed0a690c2f0967510766c4a45f31d76fe745e45527a390861",
+      "firstReviewedOrdinal": 9244,
+      "lastReviewedOrdinal": 14732,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-206.json",
+      "sha256": "aeb369d1d4d47c7a334d2b8aa5b7dce9ec5513c5fcc70972f00def3d554509c8",
+      "firstReviewedOrdinal": 14733,
+      "lastReviewedOrdinal": 14769,
+      "reviewedRows": 21,
+      "fileRows": 21
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-207.json",
+      "sha256": "29f2e5499d3bbf23f6b0eb64672ddb276e2939172f0c21d3e0a135e1947fb721",
+      "firstReviewedOrdinal": 2256,
+      "lastReviewedOrdinal": 5919,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-208.json",
+      "sha256": "0dd22a74a8a9b734622d95ba801d62513641421e3ff8dd1a81ad1562f8843ea9",
+      "firstReviewedOrdinal": 5920,
+      "lastReviewedOrdinal": 8946,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-209.json",
+      "sha256": "1f9bad852dff9eed41b5dd40efb48fc878a78b51c8d213f59c66c6edbeabc92f",
+      "firstReviewedOrdinal": 8947,
+      "lastReviewedOrdinal": 14478,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-210.json",
+      "sha256": "7e3331c80edd155bc9a355cd940ba2a6476a99c289150c39283ac3f1af3dc7cb",
+      "firstReviewedOrdinal": 14479,
+      "lastReviewedOrdinal": 14511,
+      "reviewedRows": 21,
+      "fileRows": 21
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-211.json",
+      "sha256": "68c034c316c677f0416f43a4d199ac8ade0cab64e784c355b997c5848ccfdb4b",
+      "firstReviewedOrdinal": 2448,
+      "lastReviewedOrdinal": 5230,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-212.json",
+      "sha256": "4544830230409028ba67b002ca4020e3e300b0902194a5e7e322e88dd757419f",
+      "firstReviewedOrdinal": 5231,
+      "lastReviewedOrdinal": 10705,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-213.json",
+      "sha256": "fbb682b43fc707da7b8ebeddbf036e027d1aef25a080d83a90a9b3ac61bf3f87",
+      "firstReviewedOrdinal": 10706,
+      "lastReviewedOrdinal": 16068,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-214.json",
+      "sha256": "75f0b0d13be5521396d3555e1b738c2a19c0846c0e2b5c820eb97b15225f5f58",
+      "firstReviewedOrdinal": 16069,
+      "lastReviewedOrdinal": 16123,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-215.json",
+      "sha256": "dbbe49aea81a81be6cd59558b30b0e4da98346f7fa130616d47ec4577cc06bf0",
+      "firstReviewedOrdinal": 2221,
+      "lastReviewedOrdinal": 8250,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-216.json",
+      "sha256": "e1696d2120c152c223ad329c2d7e70217373ce163feaf7f5e935c93bded5a848",
+      "firstReviewedOrdinal": 8251,
+      "lastReviewedOrdinal": 8313,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-217.json",
+      "sha256": "4b291d1e4ce63d0e4d45c871a4fa725d358a69766a6771221788882c602a75c5",
+      "firstReviewedOrdinal": 8314,
+      "lastReviewedOrdinal": 13533,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-218.json",
+      "sha256": "2800bd2bddf58ce5656413d21c1cefb5c135cb3af8956aa1b4577db6f33514e4",
+      "firstReviewedOrdinal": 13536,
+      "lastReviewedOrdinal": 13584,
+      "reviewedRows": 29,
+      "fileRows": 29
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-219.json",
+      "sha256": "c847cda5318b333ecab326d8dc1d0515f9be16a7b168a2590386fd169cc03cc3",
+      "firstReviewedOrdinal": 2319,
+      "lastReviewedOrdinal": 7648,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-220.json",
+      "sha256": "125ef5e8bb4d8dfebcbe7bbb76f8e0de67c4d4ca29c425736e55b5df2d3d7dfd",
+      "firstReviewedOrdinal": 7649,
+      "lastReviewedOrdinal": 7705,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-221.json",
+      "sha256": "03ccaab43c6a8f620387bd72fef1ba02b6acfefa971b1109dc1560c48b3a5639",
+      "firstReviewedOrdinal": 7706,
+      "lastReviewedOrdinal": 12922,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-222.json",
+      "sha256": "bc3616ff2227520bdb347d9ff03c25c0611c667a7edaa16ade98a59ec4fbbcbb",
+      "firstReviewedOrdinal": 12923,
+      "lastReviewedOrdinal": 12992,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-223.json",
+      "sha256": "0613c894ebc1eb15c076ccc81408fc186766a50ee5bd7f8b0a04d343ded1c82e",
+      "firstReviewedOrdinal": 2294,
+      "lastReviewedOrdinal": 7414,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-224.json",
+      "sha256": "4c607cc8a937cdecaa90dabdbb892de1f9c9ba038c9bf89734de39ba16f5531c",
+      "firstReviewedOrdinal": 7415,
+      "lastReviewedOrdinal": 7468,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-225.json",
+      "sha256": "0200182bf4271610283cb47946142a5d00c4af29bb5dc1f43af3094834a93c92",
+      "firstReviewedOrdinal": 7469,
+      "lastReviewedOrdinal": 12682,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-226.json",
+      "sha256": "5ce5672911485a6c92e3728145480c35fc64fecb39ff1f9461b95c8557d00301",
+      "firstReviewedOrdinal": 12683,
+      "lastReviewedOrdinal": 12752,
+      "reviewedRows": 40,
+      "fileRows": 40
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-227.json",
+      "sha256": "d7386598abcf46a6039df71c299ffeaf0755bccc1fe653a097f7924d5b2556af",
+      "firstReviewedOrdinal": 2270,
+      "lastReviewedOrdinal": 9279,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-228.json",
+      "sha256": "12c61e3736a360c3ced7a4091c8e21eb1ebbd7b0ec17183cd8bf76014de46ae9",
+      "firstReviewedOrdinal": 9280,
+      "lastReviewedOrdinal": 9332,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-229.json",
+      "sha256": "58a1384bad1d012cbc546c1ff8e4e586b336205fc0fd83ca97a0d721c81c4eb1",
+      "firstReviewedOrdinal": 9336,
+      "lastReviewedOrdinal": 14807,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-230.json",
+      "sha256": "2b509fe44158d25bf03bd5f33bd8f27134415b127ce9af0b0e13c0dbb689a7cb",
+      "firstReviewedOrdinal": 14808,
+      "lastReviewedOrdinal": 14878,
+      "reviewedRows": 41,
+      "fileRows": 41
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-231.json",
+      "sha256": "90f56461c07e3b747c56c8ace9ed83e0d5b3725ddb2d8a44370e4f12a95229ed",
+      "firstReviewedOrdinal": 2474,
+      "lastReviewedOrdinal": 7072,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-232.json",
+      "sha256": "14f9ef4d2eb392bc222b88add011625823f1653393676fcc3675c7eb3d32e867",
+      "firstReviewedOrdinal": 7073,
+      "lastReviewedOrdinal": 8841,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-233.json",
+      "sha256": "04f426f70a074ce0b3b075a69dbee8a8d9e159d220f63c3b1c5e518188b3dae6",
+      "firstReviewedOrdinal": 8842,
+      "lastReviewedOrdinal": 14347,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-234.json",
+      "sha256": "c416a631cd0689aca67aa2862e0b5ef46afc7b2c4b16a95c9cd70c884457bbbf",
+      "firstReviewedOrdinal": 14348,
+      "lastReviewedOrdinal": 14419,
+      "reviewedRows": 42,
+      "fileRows": 42
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-235.json",
+      "sha256": "cb0cc9897458c2dfe793fcb62b48124286d9a86550736a84e0df625bdbea5738",
+      "firstReviewedOrdinal": 2194,
+      "lastReviewedOrdinal": 8100,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-236.json",
+      "sha256": "f5b2d33d99800dc53cd8b2018e5ff8ecf8d2215c3869e15ed4411b30dcc0274b",
+      "firstReviewedOrdinal": 8101,
+      "lastReviewedOrdinal": 8153,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-237.json",
+      "sha256": "6d2972736033299942814513d2793c878ec8c1c21add85e180720d3258e85976",
+      "firstReviewedOrdinal": 8154,
+      "lastReviewedOrdinal": 13323,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-238.json",
+      "sha256": "a7f9040f918a28154ae34bc1eafe0d67bd455e72680ecacd91f688fc253fc4d9",
+      "firstReviewedOrdinal": 13324,
+      "lastReviewedOrdinal": 13395,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-239.json",
+      "sha256": "0395064427d0f280bfd04244d305346ea727fdcc83eeb919a5772dcf46bf990f",
+      "firstReviewedOrdinal": 13396,
+      "lastReviewedOrdinal": 13414,
+      "reviewedRows": 11,
+      "fileRows": 11
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-240.json",
+      "sha256": "e3f8a530677cef95d33bfcabd3c8866e9b1d991a25a424371023d9cf9c70bc81",
+      "firstReviewedOrdinal": 2590,
+      "lastReviewedOrdinal": 7156,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-241.json",
+      "sha256": "771f5cc21a2f2ccce7e0bc81d07203811097ad404528444e9147c0f492bd92cc",
+      "firstReviewedOrdinal": 7157,
+      "lastReviewedOrdinal": 7209,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-242.json",
+      "sha256": "475a93f4af0479926db56146169a066b0735fef8749081ef682eb965e6f69fbc",
+      "firstReviewedOrdinal": 7210,
+      "lastReviewedOrdinal": 7265,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-243.json",
+      "sha256": "1f933a3e62fd8e8a35a98d2bb8348d363bc76a92ee35603046b042ebd5f6a248",
+      "firstReviewedOrdinal": 7266,
+      "lastReviewedOrdinal": 12338,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-244.json",
+      "sha256": "221eec68781994c0b29402ac6b586fa739392d8b4801aed7e40024eac7f887b5",
+      "firstReviewedOrdinal": 12341,
+      "lastReviewedOrdinal": 12363,
+      "reviewedRows": 13,
+      "fileRows": 13
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-245.json",
+      "sha256": "f35a7c06b74c4c567dace2ccfa6f00f1171c54cd04a9cc29e69e3bb37bf6cf35",
+      "firstReviewedOrdinal": 2402,
+      "lastReviewedOrdinal": 8444,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-246.json",
+      "sha256": "1ec7a71f07e059e4049e50905380f0aa7e4c634787726b6beea6e0dd1dbed8b7",
+      "firstReviewedOrdinal": 8445,
+      "lastReviewedOrdinal": 8499,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-247.json",
+      "sha256": "b4a2f1fcdf7a5a47ed61139c95c4690545fead03d7818ba3cbd3ce3424e8a73f",
+      "firstReviewedOrdinal": 8501,
+      "lastReviewedOrdinal": 13817,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-248.json",
+      "sha256": "866201fb7efdc2e19a7d1c203d99ce306f67fe557d78abd66825c5a4125c6011",
+      "firstReviewedOrdinal": 13818,
+      "lastReviewedOrdinal": 13887,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-249.json",
+      "sha256": "0e1fb2870654f73f01bb3f9779611bde74616a7a6fc633b9ad90c7aff929dd79",
+      "firstReviewedOrdinal": 13888,
+      "lastReviewedOrdinal": 13911,
+      "reviewedRows": 14,
+      "fileRows": 14
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-250.json",
+      "sha256": "0899db7fe074a6c24031bfc86c6f4e9cb32097696d69c6561bb82796ef4509aa",
+      "firstReviewedOrdinal": 2388,
+      "lastReviewedOrdinal": 10279,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-251.json",
+      "sha256": "d237c200ce14ffa6505b02e1661890643f82c36cd7ef747c888f4ea76f62751f",
+      "firstReviewedOrdinal": 10280,
+      "lastReviewedOrdinal": 10338,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-252.json",
+      "sha256": "0786286c9e5c0822c574fa836244598323c5502bb730adb16b152d7d52de6731",
+      "firstReviewedOrdinal": 10339,
+      "lastReviewedOrdinal": 12242,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-253.json",
+      "sha256": "a3f65644a60f596d87bf23f4f97088b9c9e052adb75b2b98d1e5ae47037be01c",
+      "firstReviewedOrdinal": 12245,
+      "lastReviewedOrdinal": 15768,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-254.json",
+      "sha256": "1e84be8cb4f9bfd960664ddd32d08e41c3d51b6c5dbf7a6c85d0cdb262efc4ac",
+      "firstReviewedOrdinal": 15769,
+      "lastReviewedOrdinal": 15789,
+      "reviewedRows": 15,
+      "fileRows": 15
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-255.json",
+      "sha256": "b536d8cbed501cc67249d555d23b81ae0497e81808edb6364cbd089529755059",
+      "firstReviewedOrdinal": 1922,
+      "lastReviewedOrdinal": 1979,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-256.json",
+      "sha256": "65224badd2c627c6cd10e53c56b74082430486dff97cf60f2302e3f671f5d64b",
+      "firstReviewedOrdinal": 1980,
+      "lastReviewedOrdinal": 6664,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-257.json",
+      "sha256": "8df7cb5873ba5e5929ae3a6afc703d7365d70eef90fe1a27f46b0e03895625e3",
+      "firstReviewedOrdinal": 6665,
+      "lastReviewedOrdinal": 11865,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-258.json",
+      "sha256": "b46700af3d4961b41903ac7cfcbddc73d53cc6024cfc9f30cd277a31f34ead4b",
+      "firstReviewedOrdinal": 11866,
+      "lastReviewedOrdinal": 11935,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-259.json",
+      "sha256": "226cb93a1ac2433e0c902715079424b9f54045d4bf028a5ea760ed6d8517d2e5",
+      "firstReviewedOrdinal": 11936,
+      "lastReviewedOrdinal": 11963,
+      "reviewedRows": 18,
+      "fileRows": 18
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-260.json",
+      "sha256": "aabeb7006b540882a80beb0806b62e3fa54a89aa4f4d90764d1566ed5f8f2930",
+      "firstReviewedOrdinal": 1857,
+      "lastReviewedOrdinal": 6462,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-261.json",
+      "sha256": "c28e3a8d1f203d68d42cf5f8f918e888ac5de146dc702b63c2959093379c68a2",
+      "firstReviewedOrdinal": 6463,
+      "lastReviewedOrdinal": 6519,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-262.json",
+      "sha256": "dd0a8e9a45d9d9d83ea267372e7dd4c0d9a4dbafcc9be49237bc01985cd17346",
+      "firstReviewedOrdinal": 6520,
+      "lastReviewedOrdinal": 6571,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-263.json",
+      "sha256": "99ae8d67760e58cf0e340b28441effc036f73828da35d59fce193e5ea77c2751",
+      "firstReviewedOrdinal": 6572,
+      "lastReviewedOrdinal": 11750,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-264.json",
+      "sha256": "11440f09081bd33e98b95d84037a558bb751543349f0314760a186b806db16d8",
+      "firstReviewedOrdinal": 11751,
+      "lastReviewedOrdinal": 11780,
+      "reviewedRows": 18,
+      "fileRows": 18
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-265.json",
+      "sha256": "eaba100edf2d2f8a2e30bd1388f23e5ab39df996e366fe856043cd2631b015eb",
+      "firstReviewedOrdinal": 2346,
+      "lastReviewedOrdinal": 7959,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-266.json",
+      "sha256": "abc7177593846f6dc455b32ab3d379c71fb75f4643543739bc7eb6608a68abe6",
+      "firstReviewedOrdinal": 7960,
+      "lastReviewedOrdinal": 8009,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-267.json",
+      "sha256": "4649caaa08140872caba2ce3a6a5a51db01853fcc7bdf49ec9c28f64c95a72f3",
+      "firstReviewedOrdinal": 8010,
+      "lastReviewedOrdinal": 8065,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-268.json",
+      "sha256": "d478599cd6c38798a368f19f01cfb6c3b9cbf197c7bf714f9627a5c8ca1d1ba8",
+      "firstReviewedOrdinal": 8066,
+      "lastReviewedOrdinal": 13284,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-269.json",
+      "sha256": "4f1814896a8d7f3b032782955a1d73bd4d08f16f149b8de9b8b7f452e4701f06",
+      "firstReviewedOrdinal": 13285,
+      "lastReviewedOrdinal": 13320,
+      "reviewedRows": 24,
+      "fileRows": 24
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-270.json",
+      "sha256": "dfe524987988623cb2f00892a65b082937719fdb3d00a432373d73760e436764",
+      "firstReviewedOrdinal": 2265,
+      "lastReviewedOrdinal": 9033,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-271.json",
+      "sha256": "439c2bd73a41a0e61d1b6abbb8c258c37da6f8158639341f8608ecf440a17877",
+      "firstReviewedOrdinal": 9034,
+      "lastReviewedOrdinal": 9090,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-272.json",
+      "sha256": "4104301da966eb9bb96490e1f4c205ffad4eb1111cae767606a697deed769446",
+      "firstReviewedOrdinal": 9091,
+      "lastReviewedOrdinal": 9147,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-273.json",
+      "sha256": "2f696f7d5fbbff5e2ac8595cabd060e6394e0460bae970010e3f73a6ae0aad7c",
+      "firstReviewedOrdinal": 9148,
+      "lastReviewedOrdinal": 14650,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-274.json",
+      "sha256": "4c84d26b8ee411065431e6b0f695946e8157c1c77f0674ba2163d6a09648a51a",
+      "firstReviewedOrdinal": 14651,
+      "lastReviewedOrdinal": 14689,
+      "reviewedRows": 25,
+      "fileRows": 25
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-275.json",
+      "sha256": "0b6b2215ceb4ad6fe8b23b90468431310d4ec60b31f96acd5435eef5a3f1db46",
+      "firstReviewedOrdinal": 2043,
+      "lastReviewedOrdinal": 10524,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-276.json",
+      "sha256": "afc30a58f8512ae7e87d9105939a57e6f6a9e2a0d2fa6d7b241df7dce736d960",
+      "firstReviewedOrdinal": 10525,
+      "lastReviewedOrdinal": 10580,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-277.json",
+      "sha256": "38cb81654cab1d45057eb728de4febb2f50b17d000b6d28686c17c003ca0f717",
+      "firstReviewedOrdinal": 10581,
+      "lastReviewedOrdinal": 13949,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-278.json",
+      "sha256": "144114094e1d9a249b17eaaed964fed3b719e6d850fd7a3664119eb10e72bcae",
+      "firstReviewedOrdinal": 13950,
+      "lastReviewedOrdinal": 15935,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-279.json",
+      "sha256": "afc0114cb12d11424d23dcb2dc7f5a50dd94fcc2e989e05d4d86e8b8f0bf3505",
+      "firstReviewedOrdinal": 15936,
+      "lastReviewedOrdinal": 15971,
+      "reviewedRows": 26,
+      "fileRows": 26
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-280.json",
+      "sha256": "ac888046bbf82dbcb96a5b15cce07d0cb3afd36fb75ab47d167346d90499e9c8",
+      "firstReviewedOrdinal": 2240,
+      "lastReviewedOrdinal": 8665,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-281.json",
+      "sha256": "4e18c0a0371dd6478214b37fdc3a61630213b2cbea8014eee04a60722d701c4b",
+      "firstReviewedOrdinal": 8666,
+      "lastReviewedOrdinal": 8717,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-282.json",
+      "sha256": "669ce61c2aa9960632dbfc6d647f0b67c842f0a54505be35ef85996f2a4aeabe",
+      "firstReviewedOrdinal": 8718,
+      "lastReviewedOrdinal": 8779,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-283.json",
+      "sha256": "82f41034cc41cf0b8ed2508c7e2451f7352446158f450e56e4c8cf487713bfc0",
+      "firstReviewedOrdinal": 14125,
+      "lastReviewedOrdinal": 14190,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-284.json",
+      "sha256": "36ea6adba1ac7568f195e03e8fe5bc3d49c4e4644e761bde1d68e06d4f52ca64",
+      "firstReviewedOrdinal": 14191,
+      "lastReviewedOrdinal": 14231,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-285.json",
+      "sha256": "a4e8b66536ef69a95562c0bff74b03250b2315dd42aba2ce4f0a3f774d7c921a",
+      "firstReviewedOrdinal": 2227,
+      "lastReviewedOrdinal": 10161,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-286.json",
+      "sha256": "2a7c9871e79f78895792748542d72e6b6287caaa4da4d5aff7af18dd829b1991",
+      "firstReviewedOrdinal": 10162,
+      "lastReviewedOrdinal": 10214,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-287.json",
+      "sha256": "a80efbdd6d103e72e58d8c6e576a882589eb5b78988b885b5ba127d971b2181c",
+      "firstReviewedOrdinal": 10215,
+      "lastReviewedOrdinal": 10270,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-288.json",
+      "sha256": "7ec0dc3cba2334f8a3b50bde3c032dd588261c5409959c2d66ea30e3def69b40",
+      "firstReviewedOrdinal": 10271,
+      "lastReviewedOrdinal": 15697,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-289.json",
+      "sha256": "fede34ce331b48975dc40c1b36b855fc5f59ab674de995157063e39cea7ade6d",
+      "firstReviewedOrdinal": 15698,
+      "lastReviewedOrdinal": 15743,
+      "reviewedRows": 34,
+      "fileRows": 34
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-290.json",
+      "sha256": "f9d14077002289ed4237c99576c57e1dc3cbc28b12864b31dcf7110a7359332e",
+      "firstReviewedOrdinal": 2373,
+      "lastReviewedOrdinal": 10016,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-291.json",
+      "sha256": "50773ef2fbde7439250e88a66ad1afb1840c673c2fa1ff801bdc12009bea9708",
+      "firstReviewedOrdinal": 10017,
+      "lastReviewedOrdinal": 10070,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-292.json",
+      "sha256": "cda1465e0f2077456d04ed1ebf34d8ea73b488ff48b554fddfe41fa3a8a0a76f",
+      "firstReviewedOrdinal": 10071,
+      "lastReviewedOrdinal": 10123,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-293.json",
+      "sha256": "46eca448b1ad04b71f84df342d0c7527ef77397c0fb67619c6883a41ccc858c3",
+      "firstReviewedOrdinal": 10124,
+      "lastReviewedOrdinal": 15605,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-294.json",
+      "sha256": "fb15670bcba7b8a5403ff90662dad32f74de1c09b0cb1c6dc1e15da6ff272a8e",
+      "firstReviewedOrdinal": 15606,
+      "lastReviewedOrdinal": 15664,
+      "reviewedRows": 41,
+      "fileRows": 41
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-295.json",
+      "sha256": "784bc103b64950019f415c9d2f4ff7894eae070dc7bb9ba1f112a7444f7b99f0",
+      "firstReviewedOrdinal": 2394,
+      "lastReviewedOrdinal": 10377,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-296.json",
+      "sha256": "ec243749aadc97d0453ccd98966aadf7fd347a5e14a10cdd4872a53b402feb72",
+      "firstReviewedOrdinal": 10378,
+      "lastReviewedOrdinal": 10433,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-297.json",
+      "sha256": "a36bb77b284135a886571f4bdc3c545a3c7216bc162f8875fd64e129291cc86e",
+      "firstReviewedOrdinal": 10434,
+      "lastReviewedOrdinal": 10488,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-298.json",
+      "sha256": "d0c7190fdda3f3efd9e74b37f300a308bdc078048baaacf9c47d9b8f2b0aff78",
+      "firstReviewedOrdinal": 10489,
+      "lastReviewedOrdinal": 15811,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-299.json",
+      "sha256": "8da6310197694dac6b010b3b89f3165910f1dfeec3f459b7f3a89284945264ee",
+      "firstReviewedOrdinal": 15812,
+      "lastReviewedOrdinal": 15877,
+      "reviewedRows": 46,
+      "fileRows": 46
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-300.json",
+      "sha256": "19a28d4ba69d449ca3bfc2eaa72fce1df75cf239652a803937be9c546775a6fe",
+      "firstReviewedOrdinal": 1580,
+      "lastReviewedOrdinal": 1990,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-301.json",
+      "sha256": "5df9ee429ce893fc92a8c3fdd7f748b6355cb96bc41139c063354675754db56e",
+      "firstReviewedOrdinal": 2086,
+      "lastReviewedOrdinal": 3046,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-302.json",
+      "sha256": "366b52521df47d47e4806e081b05abb8406a75773fb58f83d16747429e847c11",
+      "firstReviewedOrdinal": 3047,
+      "lastReviewedOrdinal": 3514,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-303.json",
+      "sha256": "0fcc6932e8c50e4f1723dd13a22afa064859fd3cf0d329be923814af859184cd",
+      "firstReviewedOrdinal": 3515,
+      "lastReviewedOrdinal": 3927,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-304.json",
+      "sha256": "7d1c9231854e4611e395d8f367a0f0073931a102ea0ae905cb44750795def7c8",
+      "firstReviewedOrdinal": 3928,
+      "lastReviewedOrdinal": 4390,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-305.json",
+      "sha256": "5b5246117f423c1772a5485af7cace30ac8ea8cc8a2a3c38f1b6a28fa092e562",
+      "firstReviewedOrdinal": 4391,
+      "lastReviewedOrdinal": 4939,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-306.json",
+      "sha256": "b247f848677a2225ec14425efe3f56cc98f755a95c927e79a88bfca21c550fc9",
+      "firstReviewedOrdinal": 4963,
+      "lastReviewedOrdinal": 5320,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-307.json",
+      "sha256": "07ac51b77232ae5c3a02c0990f2fd6df0870b63e6129a93a6950dde29f4b1c3a",
+      "firstReviewedOrdinal": 5321,
+      "lastReviewedOrdinal": 5607,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-308.json",
+      "sha256": "d4bb4321e9b404780b55ab37ab48c31e5b9aae451f5b28ebaedb58803c7a5e08",
+      "firstReviewedOrdinal": 5608,
+      "lastReviewedOrdinal": 5608,
+      "reviewedRows": 1,
+      "fileRows": 1
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-309.json",
+      "sha256": "21a843e4b26dab00ec51e57a94c7e1ca541a40ae5aaaf8f0b5227adac8e2e2c9",
+      "firstReviewedOrdinal": 1997,
+      "lastReviewedOrdinal": 3818,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-310.json",
+      "sha256": "ea1b5d77ea45711e58f8359c9c4ed66707440c3a48c0e9cad07d0a3303f21b98",
+      "firstReviewedOrdinal": 3819,
+      "lastReviewedOrdinal": 3873,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-311.json",
+      "sha256": "cf2170f1e8bf2d63d90558b46bd837a541c4fa9f9075b262bfa6677c9b8e9b57",
+      "firstReviewedOrdinal": 3874,
+      "lastReviewedOrdinal": 3931,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-312.json",
+      "sha256": "5ae884d2535ac262f2485abe10a287bfd0277dcefc6ef356439c885957bf977f",
+      "firstReviewedOrdinal": 3932,
+      "lastReviewedOrdinal": 3988,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-313.json",
+      "sha256": "4daf0939a8d0690801f02aff9f1e69066a08525521e089cfa069b36f0f5cdc08",
+      "firstReviewedOrdinal": 3989,
+      "lastReviewedOrdinal": 5129,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-314.json",
+      "sha256": "dab347cf51cebf839a1f52e01028818ef7bf0f8d257cf0dadbadd16c0a72cab5",
+      "firstReviewedOrdinal": 5130,
+      "lastReviewedOrdinal": 5161,
+      "reviewedRows": 30,
+      "fileRows": 30
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-315.json",
+      "sha256": "facfc1a6ca5966796be67f5bdc270e9a0be8596ff2cb27e570797ac29b94b739",
+      "firstReviewedOrdinal": 5440,
+      "lastReviewedOrdinal": 6049,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-316.json",
+      "sha256": "8f5055be0b95ac33d3e8f4033018359d5298caaffe2116066321315ee546e7e8",
+      "firstReviewedOrdinal": 6050,
+      "lastReviewedOrdinal": 6502,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-317.json",
+      "sha256": "0e096af1daf0debbaf019351884b9810a5e445ad3b82a26ee3b6edf806604611",
+      "firstReviewedOrdinal": 6503,
+      "lastReviewedOrdinal": 7248,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-318.json",
+      "sha256": "80ed357f1110c11575b3633739abc2d1a284701b027ecb3edd8db3df9b4485c3",
+      "firstReviewedOrdinal": 7249,
+      "lastReviewedOrdinal": 7567,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-319.json",
+      "sha256": "becb1fa5b2f7c312e49319ff98dc8ef62e1a9c70387b7524fa5031a5aba48ca7",
+      "firstReviewedOrdinal": 7568,
+      "lastReviewedOrdinal": 8046,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-320.json",
+      "sha256": "99c3f76ca58e71ec9c26d1c81059a9782c87aec13eebbabe1f18389a72dca516",
+      "firstReviewedOrdinal": 8047,
+      "lastReviewedOrdinal": 8660,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-321.json",
+      "sha256": "d7d062bef58d33a2d467aac8d988d643efed88324d0ef55d576e172e9eb7c694",
+      "firstReviewedOrdinal": 8661,
+      "lastReviewedOrdinal": 9073,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-322.json",
+      "sha256": "cc6427f975bf13c7c7f6e3457d38f0ce38415a7b2df7de625760708d27cd7ec4",
+      "firstReviewedOrdinal": 9074,
+      "lastReviewedOrdinal": 9571,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-323.json",
+      "sha256": "6f63fb14c7d9902f5b1778f4eecadd1e88db9e8a310815da66052ce923243867",
+      "firstReviewedOrdinal": 9580,
+      "lastReviewedOrdinal": 10040,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-324.json",
+      "sha256": "ac087c3e81f5a30455075b79207967dfb42a45fc0f49ef69dfcdbf573450a658",
+      "firstReviewedOrdinal": 10099,
+      "lastReviewedOrdinal": 10655,
+      "reviewedRows": 50,
+      "fileRows": 50
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-325.json",
+      "sha256": "bf1814dc53c291935cc4681d6e4c2a6404013c45dda0f69b55ee98a8a40a470d",
+      "firstReviewedOrdinal": 10661,
+      "lastReviewedOrdinal": 10918,
+      "reviewedRows": 42,
+      "fileRows": 42
+    },
+    {
+      "path": "Translations/nl/static-text-draft.json",
+      "sha256": "93c8c82cfd1800e95427f966826534968e1913accbb2b0a6937893157d6bd9f6",
+      "firstReviewedOrdinal": 16361,
+      "lastReviewedOrdinal": 16538,
+      "reviewedRows": 178,
+      "fileRows": 178
+    },
+    {
+      "path": "Translations/nl/ui-batch-001.json",
+      "sha256": "819bb64bd0997fe3a86e047454b5a66e62f7b67175358cb4ed152a615922d6fd",
+      "firstReviewedOrdinal": 1,
+      "lastReviewedOrdinal": 35,
+      "reviewedRows": 35,
+      "fileRows": 35
+    },
+    {
+      "path": "Translations/nl/ui-batch-002.json",
+      "sha256": "2016d1c2767a67f161722870d8f079ac52d6c60e9c24d8a0eee4a85db322b44d",
+      "firstReviewedOrdinal": 36,
+      "lastReviewedOrdinal": 80,
+      "reviewedRows": 27,
+      "fileRows": 27
+    },
+    {
+      "path": "Translations/nl/ui-batch-003.json",
+      "sha256": "1d5a9e3a9860d89b799942f4968edec2c77985c8ca71aeeb1f9ba488871dbbb8",
+      "firstReviewedOrdinal": 81,
+      "lastReviewedOrdinal": 140,
+      "reviewedRows": 60,
+      "fileRows": 60
+    },
+    {
+      "path": "Translations/nl/ui-batch-004.json",
+      "sha256": "3b2749256e007f2df4a69f3caab9719eb4c59169155e913bb8a778643fbd5dd0",
+      "firstReviewedOrdinal": 141,
+      "lastReviewedOrdinal": 183,
+      "reviewedRows": 43,
+      "fileRows": 43
+    },
+    {
+      "path": "Translations/nl/ui-batch-005.json",
+      "sha256": "2b672b49462a6202a9f203e55c6ca42da820849e5246e27b6269d53c651e7f4f",
+      "firstReviewedOrdinal": 184,
+      "lastReviewedOrdinal": 205,
+      "reviewedRows": 21,
+      "fileRows": 21
+    },
+    {
+      "path": "Translations/nl/ui-batch-006.json",
+      "sha256": "03708748721f22e5fe76e2a39f92cfec42e9fa55e908f796f8d1fe14533c97ed",
+      "firstReviewedOrdinal": 206,
+      "lastReviewedOrdinal": 225,
+      "reviewedRows": 20,
+      "fileRows": 20
+    },
+    {
+      "path": "Translations/nl/ui-batch-007.json",
+      "sha256": "28adc6ba95ac6a3839c6a72e26e8353b6a11ab99d048e80ff191b629fd0d1f85",
+      "firstReviewedOrdinal": 51,
+      "lastReviewedOrdinal": 78,
+      "reviewedRows": 18,
+      "fileRows": 18
+    },
+    {
+      "path": "Translations/nl/ui-batch-008.json",
+      "sha256": "12f700bf80542124dc2a224a41ecf48b04c3f7825d7687be5716952951cbcd3c",
+      "firstReviewedOrdinal": 196,
+      "lastReviewedOrdinal": 259,
+      "reviewedRows": 35,
+      "fileRows": 35
+    }
+  ],
+  "reviewRows": {
+    "path": "Translations/nl/semantic-review-rows-pass1.jsonl",
+    "sha256": "74a340cfd67d0db59068a7ba8c237aa886bcd6c1dac4da98bc6e7a0f882a0a6b",
+    "rows": 16538,
+    "newline": "LF after every JSONL row"
+  },
+  "findings": {
+    "path": "Translations/nl/semantic-findings-pass1.json",
+    "sha256": "508c70fb2673c50b7dd4b43337fd1f5b23ea834a63413e98dd99a85af4a6706f",
+    "proposedCount": 138,
+    "correctionsApplied": 0
+  },
+  "contextReviewed": [
+    "UI rows 1-259: key/surface meaning, object and action labels, consumables, settings, character labels, calendar, radio instructions, ending descriptions, multilingual locale names, mushroom poem; applicable approved glossary entries",
+    "ChecksDialogs row 260: Esenin armpit inspection sarcasm and protected speaker prefix",
+    "Dialogs rows 261-420: For Rest TV/order labels, body disposal bulletin, daughter-friend telephone branch, and phone roulette branch; speaker, addressee, referents and branch context reviewed",
+    "Dialogs rows 421-560: phone roulette close, psychics questions, KChS hotline and recruiter, neighbour call options, home object narration, foreign embassy logistics; scene roles, register, player address and branch variants reviewed",
+    "Dialogs rows 561-660: KChS recruiter and wife, Alkonost twin’s husband, best son’s sister, and angry man’s wife cult calls; kinship, player choice direction, hidden referents, profanity, Death terminology and phone register reviewed",
+    "Dialogs rows 661-860: angry man’s wife, mother’s husband and missing children, For Rest TV/order call, psychic service branches and paid séances, KChS medical advice, neighbour’s daughter promise; speaker/addressee, family referents, protected service prefixes and glossary distinctions reviewed",
+    "Dialogs rows 861-1060: neighbour calls, glitched day-10-to-13 KChS radio transmissions, displaced residents, quarantine zone reports and window scenes through day 1; branch timing, person status, scene referents, glossary terminology and narrator information state reviewed",
+    "Dialogs rows 1061-1360: neighbour window scenes, TV day 2–13 KChS announcements, For Rest and product advertisements, early radio; reviewed speaker claims versus world facts, service and symptom glossary terms, generic employee gender, source modality and repeated unbound window/TV rows",
+    "Dialogs rows 1361-1460: duplicate early window narration and TV day 2–5 KChS reports, For Rest ads, weather and visitor-sign bulletins; reviewed scene information state, generic-role gender, source variant changes and repeated ad wordplay",
+    "Dialogs rows 1461-1660: repeated early TV breaking-news bulletin; Tourist, Alt, FunnyGuy, Fairytaller and Leper entrance and occupied-house branches; checked placeholder referents, address/register, mortgage-bank callback, character voices and player gender against glossary.",
+    "Dialogs rows 1661-1860: Fairytaller landlord/step-family account and fairy-tale rhetoric; Leper and Nervous refuge histories; Bald mortgage-family and profanity voice; Tough survival account; Jacket student-dormitory/KChS account and Experienced occupied-house opening; checked scene chronology and confirmed character facts.",
+    "Dialogs rows 1861-2010: ex-con prison slang and release, rocker rehearsal and guitar, Unstable night wandering/Enerzjeka, courier pickup prompts, Gasmask order, and SuperFake entrance; checked glossary roles, character voice, source agency, object references and repeated variants.",
+    "Dialogs rows 2011-2160: Vigilante sign denials, cult-priest Death doctrine, Jacob’s missing daughter and KChS pursuit, StaticBoy house/parent exchange, and courier friend-loss/inspection branches; checked chronology, hidden referents, player address, medical and service terms.",
+    "Dialogs rows 2161-2360: courier delivery and education account; bribe exchanges; twins’ occupied-house conflicts and male acquaintance; wheelchair proof joke; Fugitive and Wifefema threats; ex-KChS worker, surgeon, and grandmother occupied-house exchanges; checked placeholders, kinship/gender clues, character rules, player action and address.",
+    "Dialogs rows 2361-2560: occupied-house variants for the daughter, anxious and hostile visitors, mother and child, hunter, fanatic, fortune teller, courier fugitive, nun, twins and others; traced dynamic resident personhood, gender, player address, threats, service wording and profanity against character guidance.",
+    "Dialogs rows 2561-2860: Wifefema, theorist, BigLebowski and FatalDame relationship branches; vigilante investigations, armed threats, brother/daughter chronology and order-keeping; miner’s rope and tunnel branches; reviewed conditional action, repeated dialogue variants, scene callbacks, safety agency and spoken tone.",
+    "Dialogs rows 2861-3010: miner’s first tunnel discoveries and mushroom-man ritual/festival branches; reviewed rope context, source uncertainty, watch action, Mycelium versus mushrooms, ritual outcome and the approved ceremonial voice.",
+    "Dialogs rows 3011-3210: cult-priest Death doctrine and contingent threat to burn the house; courier friend-loss and For Rest delivery branches; Intruder dreams and former KChS worker’s prior jobs; reviewed speaker assertions, agent/action, service terminology, information timing and entity-versus-ordinary-death context.",
+    "Dialogs rows 3211-3410: former KChS worker, gravedigger, marauder, law-obsessed Provocateur, taxi driver KChS encounter and Edgar’s gangrene/death account; checked person/object identity, house versus room scope, reference chronology, threatened actions and character register.",
+    "Dialogs rows 3411-3660: Edgar’s cellar/death account, Foreigner’s sewn-mouth exchange, surgeon’s hospital offer, Wolfhound’s evacuation story and SuperFake’s Guest-count bargain; checked addressee, source uncertainty, visitor status and repeated player choices.",
+    "Dialogs rows 3661-3910: SuperFake follow-up, Greatmother’s KChS evacuation, Cold’s death wish, Hunter’s weapons and Guest claims, Prophet’s book/cellar/entity warnings and Gasmask’s forced removal; checked scene chronology, pronouns, action scope, player-choice referents and formal address.",
+    "Dialogs rows 3911-4110: Gasmask’s escalating KChS seizures, blast threat and clinical justification; Luka’s despair and hope, BigLebowski’s family/basement account, and the couple’s contrasting voices; checked participant number, register, source modality and explicit versus implied claims.",
+    "Dialogs rows 4111-4310: Ballerina’s cat and bald-man callbacks, kindergarten teacher’s guardianship and fire account, Dude’s film/zombie references, Blind man’s unnamed creature and minister’s heat account; checked character identity, disclosure timing, caregiving, referents and protected speaker labels.",
+    "Dialogs rows 4311-4410: Buddy’s jokes and source profanity, Bestson’s missing-parent chronology and news avoidance, Fugitive’s KChS experiments and escape; checked conditions, who acts, relationship, time sequence and ambiguity.",
+    "Dialogs rows 4411-4610: Fugitive’s KChS escape and injury, nun’s profanity/house demands, Raskolnikov’s fear of killing, Wifefema’s customs/KChS history, Theorist’s parasite claim, firefighter’s quarantine letter and twins’ occupied-house entry; checked threats, personhood, agency, register and branch variants.",
+    "Dialogs rows 4611-4810: twins’ depression and lack of an anchor, old woman’s affectionate voice and solo-travel questions, SuperFake’s occupancy threat, child’s panic and first fire account; checked approved character address, placeholders, spatial referents and marked speech elongation.",
+    "Dialogs rows 4811-4910: daughter’s father, school friend, stutter and visit; neighbour’s sister/cousin branches, household protection and first Guest/Sun explanation; checked kinship, pronouns, scene disclosure timing and repeated lines.",
+    "Dialogs rows 4911-5110: Scammer’s survival pitch, Widow’s husband-loss account, Esenin’s pub departure, Anxiety’s cashier/Guest story, Fanatic’s solar doctrine and Prophet’s person-with-cat instruction and book prophecy; checked speaker profanity, conditional claims, seller agency, hidden referents and admission conditions.",
+    "Dialogs rows 5111-5310: Prophet’s book divination, Gasmask’s initial KChS examination, FortuneTeller’s astrology/affirmations, Anger’s violent-versus-passive camps, Mother’s missing children and wheelchair visitor’s mistaken address; checked clinical modality, family identity, register, indirect threats and repeated branch variants.",
+    "Dialogs rows 5311-5410: wheelchair address reveal, firefighter’s smoke, illness and letter, solitary-house ending, KChS endings and brief death/rock ending fragments; checked protected ellipses, viewpoint, action direction, agency and first-person family recollection.",
+    "Dialogs rows 5411-5610: Rock and Rage endings, armed vigilante reveal, cultist/Death ending, KChS recruitment and employment pressure, Prophet’s warnings and firefighter fragments; checked narrative viewpoint, threatening register, Death entity, job terms, chronology and player action.",
+    "Dialogs rows 5611-5810: Mushroom/Mycelium ending, Death’s poetic dialogue, empty-house and survivor endings, neighbour intro and repeated resident KChS-reporting/inspection choices; checked approved entity terms, ordinary death versus De Dood, lyric fragments, second-person address and exact repeated commands.",
+    "Dialogs rows 5811-5910: remaining repeated KChS choices, Esenin’s poem, Intruder’s nightmare/dream search, FortuneTeller’s affirmation event and wheelchair visitor’s mobility reveal; checked protected symbols, speaker voice, referents, source uncertainty and repeated choice meaning.",
+    "Dialogs rows 5911-6010: wheelchair visitor’s mobility and family history, Dude’s drugged cigarette, Tourist’s journey regrets and Alt’s radio news; checked character voice, profanity, referents and branch-specific replies.",
+    "Dialogs rows 6011-6210: Alt’s radio career and fraudulent guest, FunnyGuy’s frozen bank accounts and tenant/rental story, Fairytaller’s parables, and Leper’s KChS fears; checked who owns and occupies the apartment, family referents and institutional claims.",
+    "Dialogs rows 6211-6410: Leper’s prejudice story, Nervous’s institutionalization and school fight, Bald’s theater/debt and family story, Tough’s survival and trauma, and Jacket’s KChS brother; checked agency, time, kinship, voice and repeated branches.",
+    "Dialogs rows 6411-6610: Jacket’s brother and forced KChS removal, Experienced’s prison argot and clothing/heat reasoning, and Rocker’s grief, practice rooms and planned night trip; checked agency, register, scene wordplay and time.",
+    "Dialogs rows 6611-6810: Rocker’s loss, Unstable’s departure and bar story, Ballerina’s shot/dance branches, postcard exchanges, and the first repeated KChS reporting actions; checked voice, referents, protected literal strings and repeated action equivalence.",
+    "Dialogs rows 6811-7010: remaining repeated KChS reporting actions, Jacob’s immortal/daughter and KChS account, with beer and home-distilling context; checked canonical entity terms, allegation strength and drink referents.",
+    "Dialogs rows 7011-7310: Jacob’s reincarnation account, telephone-contact placeholders, Teacher’s despair, cat interaction, Neighbour’s phone number, FatalDame’s Child/pregnancy dialogue and cultists’ Death ritual; checked pronouns, source certainty, exact placeholders and character-specific speech.",
+    "Dialogs rows 7311-7510: cultist Death doctrine, Intruder’s dreams and the former KChS worker’s protocol breach and discharge; checked personification, institutional agency, conditional claims and weapon/action choices.",
+    "Dialogs rows 7511-7710: grave digger’s missing body and memory theory, marauder’s corpse-looting account, Provocateur’s accusations and legal threats; checked memory versus thought, speaker accusation, formality and repeated branches.",
+    "Dialogs rows 7711-7910: Provocateur’s lease dispute, TaxiDriver’s father and car history, Edgar’s encounter, Foreigner’s protected encoded speech and gestures; checked legal and family referents, time, protected gibberish and social voice.",
+    "Dialogs rows 7911-8110: Foreigner’s remaining encoded speech, Doctor’s quarantine-zone work and regret, Wolfhound’s armed confrontation; checked preserved strings, clinical testimony, agency and branching threats.",
+    "Dialogs rows 8111-8310: Wolfhound’s pack doctrine and taxi-driver assault, Greatmother’s family and invasion threat; checked leader metaphors, addressee, home referents and repeated action labels.",
+    "Dialogs rows 8311-8510: Greatmother’s home and kinship questions, Cold’s disclosure, Hunter’s pale intruder and beer-gated story; checked source uncertainty, who is threatened, bodily temperature and time.",
+    "Dialogs rows 8511-8710: Hunter’s remaining story, Luka’s grief and forgiveness, BigLebowski’s father and abuse, Couple’s violent departure branches; checked gender correction, relationship roles, consent/threats and repeated player actions.",
+    "Dialogs rows 8711-8910: Couple’s coercive dialogue, Mother’s child, Ballerina’s waiting, Teacher’s lost children and Dude’s complaints; checked who/why question distinction, character voice, kinship and branching replies.",
+    "Dialogs rows 8911-9910: Dude’s home and TV, Blind’s nightmares, Fatman’s trades, Buddy’s dog, Bestson’s half-sister, Fugitive’s armed pursuer, Nun’s monastery, Raskolnikov’s alley, Wifefema’s KChS application, Theorist’s documents, the sisters’ family crisis, NotTrue’s stories and Daughter’s grief; checked weapon specificity, kinship, character register, branch repetition and philosophical claims.",
+    "Dialogs rows 9911-10610: Daughter’s father and fire, Neighbour’s survival tutorial, Scammer’s betting and KChS schemes, Widow’s husband and funeral, Esenin’s anxiety and pub, Anxiety’s Guest conversion and assault account, Fanatic’s solar cult and family, and FortuneTeller’s opening advice; checked branch parallels, pronouns, speaker register, death imagery, cult claims and player actions.",
+    "Dialogs rows 10611-11410: FortuneTeller’s self-help testimony, Anger’s wife and cult, Mother’s family, WheelChair’s injuries and cycling metaphor, Firefighter’s fatal illness and duty, Tourist’s inspection branches, Alt’s body modifications and KChS critique, FunnyGuy’s lost factory work, Fairytaller’s inspection and childhood injury, Leper’s condition, Nervous’s history and inspection; checked subjects, source-specific referents, time, pronouns and repeated inspection actions.",
+    "Dialogs rows 11411-12010: Nervous’s last inspection line, Bald’s family, eye and drinking stories, Tough’s appearance and gun reactions, Jacket’s fear of being a Guest, Experienced’s prison slang and vegetable insult, Rocker’s band loss and body modifications, Unstable’s energy drink and eye-color concerns, Jacob’s distrust of KChS; checked character motifs, inspection anatomy, branch timing, bodily action and protected player options.",
+    "Dialogs rows 12011-12610: Jacob’s immortality claim and missing daughter, Sirin and Alkonost’s grief, player self-inspection of ears/skin/eyes/hands/teeth, Daughter’s friend, father, playground and childhood game, Esenin’s anger at gunpoint, FatalDame’s psychological readings, three Cultists’ death theology, and Intruder’s insomnia/dream account; checked protected Death terminology, family reference, branch timing, anatomy and player option labels.",
+    "Dialogs rows 12611-13310: Intruder’s insomnia and gun inspection; FormerFema’s former KChS role and sign checks; GraveDigger’s grave whispers and gold teeth; Marauder’s scavenging memories; Provocateur’s scepticism; TaxiDriver’s traumatic passenger account; Edgar’s deceased partner and decaying hand; Foreigner’s deliberately garbled speech; Doctor’s medical ethics, aura discussion and eye/teeth inspection. Checked scene chronology, speaker roles, hand anatomy, symptom terms, character voice, player options and exact-garbled source.",
+    "Dialogs rows 13311-14110: Doctor’s teeth close; Wolfhound’s confrontational inspection and gun branches; Sirin and Alkonost’s grief and aura claims; NotTrue’s camera and ear inspection; Greatmother’s health and insect fear; Daughter’s father and photography; Scammer’s con and camera; Widow’s husband loss; Cold’s existential and bodily cold; Esenin’s fear of KChS orders; Anxiety’s abuse and Guest fears; Hunter’s hunting account; Fanatic’s sun and beer doctrine; FortuneTeller’s ear-noise claim; Luka’s reflective voice; BigLebowski’s family pressure, allergy and gun defiance. Checked interlocutor, anatomy, object roles, tone and protected player options.",
+    "Dialogs rows 14111-15110: BigLebowski’s teeth and family-pressure close; Couple’s spouse protection, body checks and deference; Ballerina’s Death/blood/cat scenes; Wheelchair’s doubt; Teacher’s school fire and survivor guilt; Dude’s ear plug, intoxication and bodily estrangement; Blind’s unnamed entity and dream imagery; Fatman’s former minister role; Buddy’s dog/grandmother grief and ear/teeth inspections; Bestson’s absent parents; Fugitive’s KChS quarantine escape; Nun’s faith and bodily signs; Raskolnikov’s weakness and punishment motifs. Checked pronouns, inspected body parts, scene voice and institutional euphemism.",
+    "Dialogs rows 15111-16360: Raskolnikov’s fear and self-punishment; Wifefema’s KChS aspiration and spouse; Theorist’s conspiracy claims; Sirin and Alkonost’s later grief/death branches; NotTrue’s camera, aging and dental account; Daughter’s inspection reactions; Scammer’s coercive payment scheme; Widow’s grief; Esenin’s signs skepticism; Anxiety’s signs and memory gaps; Fanatic’s solar doctrine; FortuneTeller’s astrology; Anger’s grandmother and self-harm; Mother’s exhaustion; Wheelchair’s disability, racing and sign doubt; Firefighter’s burns and family loss. Checked branch conditions, character voice, object/actor roles, anatomy, number and social register.",
+    "Supplemental static rows 16361-16538: Unity TMP unbound interface/debug strings, command labels, psychic phone name, placeholder dialogue, beer item/sprite text and full credits. Checked repeated strings, exact technical tokens, names, role descriptions, line/tag spans and source-to-target content; renderer fit and runtime reachability remain untested."
+  ],
+  "reviewDecisionNotes": [
+    "TV For Rest wording at ordinal 261 retained: approved glossary describes food and consumables delivery, so “boodschappenbezorging” does not create a proven factual error.",
+    "The three controller settings and the daughter-friend fragment have proposed Dutch grammar corrections; body-disposal bulletin has a proposed semantic correction.",
+    "Exact-preserved language names, technical labels, placeholders and punctuation were checked in context; unchanged source text was not counted as an omission.",
+    "Strong source profanity at ordinal 555 is recorded for correction. The foreign-embassy response and staff-availability wording at 511/516 are recorded as Dutch idiom corrections.",
+    "For Rest advertising at ordinals 261/716 uses “boodschappenbezorging”; a narrower “maaltijdbezorgdienst” in the service greeting at 828 is proposed for correction, with all three IDs reserved for dependency review.",
+    "Radio ordinals 911/912/914 form one “subject” terminology cluster. Proposed text at 914 also restores “not permitted”; broken-signal fragments require exact preflight before later correction. Window ordinals 979/987/1000/1001 and neighbouring-house references remain in the closure context for gender and possessor findings.",
+    "The day-12 TV sign at ordinal 1086 conflicts with approved glossary “Snel bewegende pupil”; it is recorded as an exact-term correction. Body-disposal ordinals 265/1132/1162 share a concept and must enter one dependency closure. For Rest ad ordinal 1267 explicitly says grocery delivery and supports reviewing narrower meal-delivery wording at 828/892.",
+    "Ordinal 1383 preserves unverified detainee status, distinct from confirmed Gasten. The repeat at 1388 shares the generic KChS employee pronoun risk at 1241. The For Rest walking pun at 1426 is reviewed with adjacent ordinal 1427 and earlier ad 1268/1269.",
+    "The tourist’s “geachte heer” at 1473 agrees with the glossary-confirmed male player character; it is not a new gender inference. The Jacket character is canonically a student, so “studentenflat” at 1846/1848/1850/1852 remains supportable in this context.",
+    "FunnyGuy’s “банки” at 1495 refers to financial banks: 1641 explicitly lists finances, banks and loans. Fairytaller’s 1678 “под предлогом” and “сводных родственников” both require correction. Tourist 1571/1576 share one Dutch grammar defect.",
+    "The approved ex-con glossary explicitly permits prison-slang forms such as “sukkel” and “jochie”; the 1892 greeting was retained after that character-rule check. Foreigner is glossary-confirmed male, so the male reference in 2341 is supported.",
+    "StaticBoy 2100 is read with 2102 “Родители?”; the source leaves the need for parents as a general challenge, not a question about the player’s own need. The courier at 2165 is delivering an order at the door; the target “mee” would change the handoff.",
+    "The mother’s 2464/2465 address is unambiguously informal in Russian; both target “u” forms are proposed for one coordinated correction. Hunter 2405 concerns a dynamic resident whose sex is not established by the source line, so neutral “persoon” is the safe rendering.",
+    "The fanatic glossary explicitly requires preserving swearing, supporting 2409. BigLebowski 2585 says the preceding 2586 line rhymed; the proposed Dutch correction restores an internal rhyme without adding a new fact. Vigilante 2734 is read against his shooting narrative at 2664 and order-keeping passages; he threatens killing, not eviction.",
+    "The miner has an actual rope and a second miner below in 2810/2829/2848. “Подстрахую” at 2802 is an active belay/safety promise and cannot be replaced by passive watching.",
+    "MushroomEater 2899 asks to see a watch, a distinct action from merely hearing the time. For Rest courier greetings at 3152/3156 join the earlier 828/892 service-scope finding and require the same dependency closure after corrections.",
+    "The cultist’s 3089 assertion describes a felt presence at the house, not an experience attributed to the player. At 3094, “в любом случае” is a discourse connector rather than a guarantee under every later event. Edgar 3384 names ordinary lowercase death; the glossary distinguishes that from the separate entity De Dood, so avoid inventing a male personification.",
+    "Ordinal 3457/3461 Doctor informal-address variants and 3529/3530/3545/3546 SuperFake ambiguous removals are proposed for the single correction batch. Greatmother evacuation, Cold gun request, Hunter counterfactual threat, Prophet book/vision and Gasmask threats were read in context without an additional proven meaning error in this segment.",
+    "This segment proposes six objective fixes: Gasmask profanity/register (3924) and result certainty (3989), Luka’s contrast (4010), Ballerina’s person-versus-human callback (4137/4142), and the teacher’s guardianship (4173). Repeated or dependent variants remain reserved for the later single correction and closure. No authored translation is edited in pass 1.",
+    "Ten proposals in 4411–4910: Raskolnikov’s necessity-versus-free-choice killing, old woman porch and four affectionate-address lines, sisters’ anchor metaphor, two pluralized questions to a single old woman, and daughter’s vowel elongation. These are held for one later correction batch; no authored text changed.",
+    "Five proposals in 4911–5410: repeated fanatic profanity (5040), seller inability versus refusal (5053), admission of the person plus cat (5081), smoke as help rather than guaranteed prevention (5354), and the ending’s look into rather than out of the window (5372). Hold all for one correction batch; authored text unchanged.",
+    "Four proposals in 5411–5910: the vigilante’s smartass insult (5434), Anger’s self-defense rather than escape from capture (5476), and the KChS recruitment sequence and rotating shifts (5489/5491). Other poetic/ending fragments and repeated action labels were read with their adjacent scene context; no authored text changed.",
+    "Four proposals in 5911–6410: FunnyGuy tenant versus housemate (6081), the same reversed calamity/person agency in two Tough branches (6340/6347), and false labeling of a failed measure as safety (6380). Repeated profanity/elliptical expressions and Jacket’s hypothetical future were examined but not proposed as objective changes. Authored text unchanged.",
+    "Eight proposals in 6411–7310: Experienced’s vegetable/radish wordplay (6497), rocker night versus evening (6600), Jacob’s repeated alcoholic drink request (6987/7005/7018/7032/7046), and the television-lies accusation (6990). Jacket’s quarantine-arrival phrasing was checked in context and not treated as a source-supported error. Ambiguous figurative expressions were left unchanged. Authored text unchanged; all proposals held for one correction batch after the complete pass.",
+    "Four proposals in 7311–8910: the grave digger’s recalled-memory motif (7521), the doctor dismissal’s good-riddance tone (7994), Luka’s male-to-female pronoun correction (8586), and Ballerina’s why-versus-what question (8790). Other scene ambiguities were read without objective proposals. Authored text unchanged; all proposals held for one correction batch after the complete pass.",
+    "Five proposals in 8911–9910: Fugitive’s automatic weapon specificity in three branch lines (9373/9381/9393), Sirin’s developing versus expanding universe (9685), and NotTrue’s agonizing death versus mortal fear (9802). Contextual metaphors and idioms without a proven meaning error were left unchanged. No authored text changed; all proposals held for the one correction batch after the full pass.",
+    "Two proposals in 9911–10610: Esenin’s explicit predicted calamity after the Earth shakes people (10316), and Anxiety’s benevolent-intent claim about Guests versus a specific promise of help (10382). Scammer profanity and the Widow’s fragmented grief were read with context; idiomatic shifts without a proven content change were not proposed. Authored text unchanged; all proposals held for the one full-pass correction batch.",
+    "Six proposals in 10611–11410: FortuneTeller first-person agency (10649), Alt’s information summaries and identifying signs (11083), Fairytaller’s eye color compliment (11176), Leper’s explicit curse at the light in two lines (11249/11280), and Nervous’s omitted nighttime condition (11364). Figurative, idiomatic and profane register was assessed in adjacent scenes; no authored text changed. All proposals remain held for one full-pass correction batch.",
+    "Four proposals in 11411–12010: Bald’s minor-ailment versus disaster proverb (11459), earwax versus sulfur in Tough’s ear check (11529), Experienced’s repeated radish insult linked to finding 6497 (11687), and Rocker’s teeth absorbing rather than inhaling smoke (11856). Other slang was read in character context without a proven content shift. Authored text unchanged; all proposals held for the one correction batch after the complete pass.",
+    "One proposal in 12011–12610: the self-inspection gunpowder line names fingerprints rather than fingertips (12093). The Daughter’s story, cultists’ Death references and other inspection branches were read in context without further source-proven shifts. Authored text unchanged; proposal held for the one correction batch after the complete pass.",
+    "Two proposals in 12611–13310: FormerFema’s team prepared no sign guidance, versus Dutch saying they received none (12716); Edgar’s inspected preserved hand became an arm (13097). The remaining rows were read in scene context without a source-proven shift. Authored text unchanged; proposals held for the one correction batch after the complete pass.",
+    "One proposal in 13311–14110: NotTrue’s “из этого” uses the camera to take pictures, but Dutch makes it the photographed object (13483). Other rows were read in scene context without a source-proven shift. Authored text unchanged; proposal held for the one correction batch after the complete pass.",
+    "Three proposals in 14111–15110: the Couple’s ear question loses access to the brain (14148); Buddy’s ears become teeth (14731); the Fugitive’s threatening quarantine “cleaning” of people becomes literal washing (14945). Remaining rows were read in scene context without a source-proven shift. Authored text unchanged; proposals held for the one correction batch after the complete pass.",
+    "Four additional proposals found or confirmed in 15111–16538: repeated NotTrue camera instrument/object reversal (15480), repeated Scammer payment-conditioning loss (15601 and earlier 13604), and Firefighter subject–verb/meaning clarity in the ears-versus-soul line (16304). All 178 supplemental static entries were read; no additional source-proven shift recorded. All proposals remain unapplied for one adjudicated correction batch."
+  ],
+  "nextAction": "First semantic pass is complete through ordinal 16538; there is no next accepted ID. Adjudicate all 138 proposed findings against source and scene context, apply one coordinated Dutch correction batch to authored files, rerun exact/structural validation and rebuild reviewed-file dependency hashes. Then arrange an identifiable independent source-to-target diff review and editorial acceptance. Do not claim runtime readiness.",
+  "updatedAt": "2026-10-09T10:46:59.984625+00:00"
+}

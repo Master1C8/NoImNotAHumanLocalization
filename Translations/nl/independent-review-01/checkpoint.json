@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "game": "No, I’m not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "locale": "nl",
+  "reviewer": "/root/nl_independent_review",
+  "closureManifestSha256": "4126276fde69a4b581c1ee883618b51b42c0b49558e757a4cd7ddaef1f0a223d",
+  "pairReadCoverage": {
+    "read": 1440,
+    "total": 1440
+  },
+  "findingsCount": 38,
+  "mandatoryRegressionResult": "findings",
+  "independentVerdict": "corrections required; not clean",
+  "editorialAcceptance": "not awarded",
+  "runtime": "not-run; owner forbids game launch",
+  "imagesTextures": "excluded by owner",
+  "unchangedContextLimitation": "Finding 78 key is unbound in pinned compiled program; no claim of live reachability. Supplemental static/debug strings are reviewed within accepted text inventory, not asserted visible.",
+  "nextAction": "Author adjudicates full findings batch, repairs bounded selector/recipe for all affected dynamic-label and old-woman-address uses, applies accepted corrections, rebuilds immutable closure and prepares exact delta: corrected IDs + new closure IDs + explicitly invalidated prior evidence. Do not rerun the full 16,538-unit semantic pass.",
+  "usage": {
+    "inputTokens": "unknown",
+    "cachedInputTokens": "unknown",
+    "outputTokens": "unknown",
+    "totalTokens": "unknown",
+    "reasoningTokens": "unknown"
+  },
+  "evidence": {
+    "prepare-context.py": "63f836406943f774adda4737e511c8d4f316c086eb1218b72375197e5e65bf6f",
+    "consumer-context.json": "be9bddc27714426e67f966a96d1c402fed8a1d8c6f1d95cd9462dd421b7f368f",
+    "findings.json": "61437caf576839f410baa928373288d4db345e14cbbfe9d43086c4baa07885c9",
+    "record-review.py": "81b0cd957dca4d30d98cb87f0e0546d521b9a1918bc1f6984833fcd345c7ab31",
+    "review-decisions.jsonl": "33e1df9476e718ea191127c2855cd467197e392c716d26591b32540d6ad47db7",
+    "preflight.json": "0f49685ed535057ae4590869bb191243196704e0343146a804c0fc2284c09759",
+    "reviewed-ids.txt": "f3004091734943c912e3f0081881e112ade1b5c0b25d5ff03fe1863c9c579292"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "concepts": {
+    "strange-mushroom": {
+      "regex": "(?iu)(странн[а-яё]* гриб|гриб[а-яё]*.*картош|картош[а-яё]*.*гриб)",
+      "count": 1,
+      "idsSha256": "dd947a39478d67633cbef3eee77819a928148d80454920128725c2542975b555"
+    },
+    "ear-wax": {
+      "regex": "(?iu)(\\bсер[ауы]\\b|ушн[а-яё]* сер[а-яё]*)",
+      "count": 5,
+      "idsSha256": "676b09f81983faa3c7301630f49de218d6985063acc386221bec6165f1ee0447"
+    },
+    "old-woman-address": {
+      "regex": "(?iu)(дружоч[а-яё]*|дружок|милок|милочка)",
+      "count": 31,
+      "idsSha256": "45c6120beaba0265086af3b68bd6af2b324a9cd337ff8b84a3ae8f7443db9202"
+    },
+    "occupied-place-rhyme": {
+      "regex": "(?iu)(рифм[а-яё]*|местечк[а-яё]*|освобод[а-яё]* мест)",
+      "count": 7,
+      "idsSha256": "c9c6463d32a02d20e28b81ef9599bb07431fb40e4b74a419204723d6a328b581"
+    },
+    "clock-ritual": {
+      "regex": "(?iu)(показать часы|полночь|часы на 12)",
+      "count": 2,
+      "idsSha256": "c23cdf7dad8102d92a8e609d641347932026985b0f14a6f14288e15b48948373"
+    },
+    "leper-expletive": {
+      "regex": "(?iu)([её]баный свет)",
+      "count": 2,
+      "idsSha256": "2f5bb9a7143552cd50aa2884e40640d5c2b38af34b5d0d7847797ac33cb82d3e"
+    },
+    "child-glasses": {
+      "regex": "(?iu)(детск[а-яё]* очк|линз[а-яё]*.*отпечатк|отпечатк[а-яё]*.*линз)",
+      "count": 2,
+      "idsSha256": "ab7b95a3e772b720a192d2a2097ffe6eac59246b692c0860275ce310c2257e25"
+    },
+    "firefighter-ears": {
+      "regex": "(?iu)(ушам теперь всё равно|душе -- ещё нет)",
+      "count": 1,
+      "idsSha256": "6a1604c636f856976dfd4fd68ea7f2cf43de6cbc3753e3e55294ec383cf8fa71"
+    }
+  },
+  "mandatory": {
+    "format-markup": {
+      "regex": "\\{[0-9]+\\}|<[^<>]+>",
+      "count": 59,
+      "idsSha256": "79ea576e7a3005212be1031c4b1f7b5c64f7cf8d638f049c4c09e41d3d0f82d3"
+    },
+    "gender-and-kinship": {
+      "regex": "(?iu)(сестр|брат|матер|мать|мам|отец|пап|доч|сын|ж[её]н|муж|бабуш|дедуш|девуш|парен|женщин|мужчин|\\b(?:он|она|его|её|ее|ему|ей|им|них|ними)\\b)",
+      "count": 73,
+      "idsSha256": "e1e20c9df191d1e1f4b88897725e4936b49eee8971267c5afbe69a55e3e1e9c4"
+    },
+    "guest-and-human": {
+      "regex": "(?iu)(гост[ьи]|человек|люд[ией]|нечеловек|фема|FEMA|визит[её]р)",
+      "count": 50,
+      "idsSha256": "ea0702acad98172c361dc9bb8eee7d54c2d2ed356e53973047b541014d7da00a"
+    },
+    "profanity-wordplay": {
+      "regex": "(?iu)(бля|нахуй|нахер|ху[йяеюи]|говн|жоп|пизд|[её]б|долбо|сука|шутк|смешн|редиск|овощ|рифм)",
+      "count": 57,
+      "idsSha256": "38dc6591cdf992693c9681d565917e27ce17c2ef0f3e867f9804ef94a002bd64"
+    },
+    "ui-and-static": {
+      "regex": "all UI and supplemental static",
+      "count": 437,
+      "idsSha256": "2fd58e80c30f4d7ff1dc7425c70a3ec2fb069125529ab17d28b965df662df112"
+    }
+  },
+  "dynamicOccupant": {
+    "selector": "accepted table rows with Occupied in source key and format slot; exclude documented item-gift branch",
+    "manifestCandidates": 59,
+    "characterLabelConsumers": 58,
+    "excludedGiftItemStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+    "consumerIdsSha256": "cf3c64a7c31bf31953b8404230c88a2df116dcfe301abcd3b59651eec31003ab",
+    "uiCharacterNameLabels": 57,
+    "labelIdsSha256": "1a63d7a9f54853aa3182a38a71cb4c7c0792eed700a9cb0dadc3be30eb8e0cc0"
+  }
+}

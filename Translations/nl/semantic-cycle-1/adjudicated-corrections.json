@@ -1,0 +1,2733 @@
+{
+  "schemaVersion": 1,
+  "locale": "nl",
+  "cycle": 1,
+  "status": "all 138 objective findings adjudicated and accepted; independent review pending",
+  "reviewPassSha256": "f966dbec76255902cc3518c2e82b9fa89e9e90236092ec6421e3e1c082e790ea",
+  "reviewRowsSha256": "74a340cfd67d0db59068a7ba8c237aa886bcd6c1dac4da98bc6e7a0f882a0a6b",
+  "findingFileSha256": "508c70fb2673c50b7dd4b43337fd1f5b23ea834a63413e98dd99a85af4a6706f",
+  "pins": {
+    "sourceAcceptance": {
+      "path": "Documentation/text-source-acceptance-v1.json",
+      "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+    },
+    "sourceInventory": {
+      "path": "Source/localization-inventory-v3/strings.jsonl",
+      "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+    },
+    "staticInventory": {
+      "path": "Source/localization-inventory-v3/static-text.jsonl",
+      "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+    },
+    "preserveExactManifest": {
+      "path": "Source/preserve-exactly-v4.json",
+      "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+    },
+    "glossarySnapshot": {
+      "path": "Documentation/glossary-translations/nl/layer.json",
+      "sha256": "d431299bc246601d685ba9aa3dae0052ebf6d771dfd2d7e71b366f5dc30ca507"
+    },
+    "glossaryCanonicalRaw": {
+      "path": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary-translations.json",
+      "sha256": "30dae35474d8ad22fe10b2616e7fd294bad6fe20ab42fb45334edd52db9c492a"
+    }
+  },
+  "beforeAuthoredHashes": [
+    {
+      "path": "Translations/nl/dialogue-batch-004.json",
+      "sha256": "0bab1836df3b021ee217910d93d9e8eec3f02fe15a7b536eed676743689eb029"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-010.json",
+      "sha256": "275aa2e7b800d7a79aa8ddf6ef5b0a4bf64de4e01a6a7734a7a11a7b408eef92"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-013.json",
+      "sha256": "1812e72af98ca7c8e8f2d70a486e9ac9ae8da8b15a34b2e8c15082566131a74a"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-021.json",
+      "sha256": "d2933883af43326444864734077cd6efe60c63d1acfe6885aae2c9ecb55b9029"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-024.json",
+      "sha256": "3dba72f0d9a1c1ab8a937fb7e1f88deba68ada4e444e4774610ded29e48b481d"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-025.json",
+      "sha256": "44e15b62e6502d54fa1cae7d884cdd5c063aa22f87c81782f17624fd2640d6aa"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-029.json",
+      "sha256": "4215a0da00ec4008bbb35fd320a5fedd8ead5bb67bcf09b834c8684370c01654"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-030.json",
+      "sha256": "3633f75975cc5298285ca98a0c1ce51fd14d5ad8e0a9b0d73ab15615847eb5c5"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-032.json",
+      "sha256": "b7ca6db306e6d7d27ce7daee6d6317fbbf7fb31c9d5cd5e03e927e5a43b43dd8"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-034.json",
+      "sha256": "ac3e0809a25559e738d42d4ec001f531ea44d25b9312c5db6a7d628c8691ad32"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-038.json",
+      "sha256": "2903c4b505654c289d76f7387e05bf19317d29723be0a56f9f49dd83bb930a22"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-039.json",
+      "sha256": "a0b3b80b4dcd67b2faeda375cb2acc69ab61c5746f206f3448cea1170e0da54b"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-040.json",
+      "sha256": "68b0bfc43772ec08ad56ccf8228bb578cb18d406c20d9f6e23d11efdaacd7a4c"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-044.json",
+      "sha256": "51f89ddffac489031f686cf5ccad39b6ba962a7f31a72035401c4c38d17aa5f3"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-045.json",
+      "sha256": "55f796709b6d873a0102e7442f8bfbb783b4fc7e7b1d8f3230f6d74dd1ae1e31"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-047.json",
+      "sha256": "82522a2d41d2d12ca7186c445a8619b01c7717cf1421c96de4578b5b8c8da7e9"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-049.json",
+      "sha256": "968d52d99553007e4001075cbb6447d2516d1a584293fc30f2e9c7aaeae2ad0b"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-054.json",
+      "sha256": "08f6a0ef058c36054ebf5c43c1ff34626c5992092586520b77d10674ce9ee377"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-057.json",
+      "sha256": "ccf55877dde0a0b6595d41456cabd39be055c78c57f5a60329668d08ce963e7f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-058.json",
+      "sha256": "46fa468b1223066384273c60b5fd2ce7557eb3de2f4587156ca2434e30d85d19"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-062.json",
+      "sha256": "d73403370bee57015fa270ce9d9c7656fd5b5d655cdcd870232e16b2d8bff5aa"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-064.json",
+      "sha256": "2edc18b88b472f56c807d28d800b31a0a56f8f98ebab7604c144530eef886362"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-067.json",
+      "sha256": "237e385d8e0d1e894f82456e1fd252643d33d889a8cee988b984a30c090c6580"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-070.json",
+      "sha256": "ac6fdc795f0e9a66e7f09d4c676458cc98730f64db9469c77081d9e9872120bd"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-071.json",
+      "sha256": "f6ae5588044f43f83a862ffeb43c2ace5e9b6b0df2df292f790ee1b9b6e6ebce"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-073.json",
+      "sha256": "1623d56576e46828f8ed9dc34a7c7659f7dea001fa4e40543d070bb5d9503931"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-075.json",
+      "sha256": "2a5b9fbcdc606bdb73d6be117796dff798ecddd8ae3553c28756790cba3a63cf"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-076.json",
+      "sha256": "eb10fc6cf5abff86a058bd7ffb879e7871ca4151b3d3702147a75cba40879d33"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-079.json",
+      "sha256": "e84d4ee253dbb1884cd80729d37713698e7185e80d8d825e6e7a427f724d0c00"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-083.json",
+      "sha256": "32b76746d20807f8997a811f24deb19e7c2f5dc889e214e5bb9583c61f15956c"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-085.json",
+      "sha256": "79f40a4ed947d512c838671f6c4e21a2f806c123879402f19256eddfcf54f033"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-086.json",
+      "sha256": "6f612738ca90164b180d16fc1cc8d57df6f72c05b3f389e79af7db351a50c225"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-087.json",
+      "sha256": "cdfc27b4746924fc211bd61393c655799733662ec46b4d1043be294e3715b57e"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-088.json",
+      "sha256": "7b6b432e012f5e6af22161d1f1a5052ab5961861de285c8f5b10fe8680289419"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-090.json",
+      "sha256": "3ab110ba0e43b3f7a6157026ff6bea6a7e0a146fa9452453429186a9810a86c3"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-091.json",
+      "sha256": "ee27bf7241eb70a1888ee1cfde0bc69a2607e690888186a04dd3502de3c5d26e"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-095.json",
+      "sha256": "a46ecf350e24fb356843f4d80b8c910981ad57be168bd316029cbec6ffead4f9"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-096.json",
+      "sha256": "e2446dc7a6f06b909d051319d1401d2e38e495e39273a2e587a45c223c91856f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-097.json",
+      "sha256": "6d5a8637751afd141d22ef3b14733f5ac21d6b65ca448a4e975ed76dc4952327"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-098.json",
+      "sha256": "d15aee40c432f4a2f2c5e03ab8ff2bc620ad276f0ff4bb87a1c53afbf6541520"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-100.json",
+      "sha256": "acb6c6500245402757394043fc2666f0838639639cbc64d536d16f9e8bba9f8f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-104.json",
+      "sha256": "4bc51ef9e61d8401374805c38fa54f48f31c6b7c9b57aa8f6eee7c5b4b2bf135"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-106.json",
+      "sha256": "7d3326740b6004b3166626dac8035b4bc447e42272f87a3b2425418fc2034b64"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-116.json",
+      "sha256": "f2a880c0394c5a60425ab31accad8035cf4e9f8223599a0908f4fb0c5a809f91"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-118.json",
+      "sha256": "e09b9aca1686b83ff1945ebc2a2258c1404c4da3e7734c546b55b35a085d75f1"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-119.json",
+      "sha256": "13592604d9c6f5ea6dc8bb7409abaa578c8960391bade3252f9795f7939781be"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-121.json",
+      "sha256": "042ed10e2840b3019ec1117bd6e82087e8da857718737e18ff36188754f7603a"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-127.json",
+      "sha256": "f0f84243d4f6ca407b8844402cce69f0826cb29467f38d3f0215433956707972"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-131.json",
+      "sha256": "ed1013921d3365cb6c6db085b0a06393c4151869e2546ca4ca22a90229ab799d"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-133.json",
+      "sha256": "236d7b17e7aaa21bd044c00165d47642b9ce7d6b06ee6abbfa0f0fb7ea7f2870"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-134.json",
+      "sha256": "10a5a24e8a3e34f7c757987b3dcd02d361ab964bcc80ad5d2f9bbe4bfe8ee750"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-140.json",
+      "sha256": "9815407d30df74bbc780c56c235528c863d7a4fb6c41db1fae274ce988cd995c"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-146.json",
+      "sha256": "eb104ad4cb8a0d0223f195604904a27d6cdcf573763bdcbd1ff58d8565e2d795"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-148.json",
+      "sha256": "69122dcec02ce70ddcac8a9a37b6bd4c090467e6b03be75ab53bb8018fdc0dbc"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-151.json",
+      "sha256": "9fa82f87796c9c36c823f5bc5c7280fe36af60c58a8624f409857d4618fc87c2"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-152.json",
+      "sha256": "de2782e16bcdfee728cadb6500c2a2174fa5f5b9245504b5a5a90316c4c8f898"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-154.json",
+      "sha256": "fcea0973757cf525308a691acaea0e638c7acb409b786866e16d0b57820755a9"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-158.json",
+      "sha256": "bbfa3623bd179a3c839b5ad7759fd02cc4c9764914af29028798b24da10e4f45"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-161.json",
+      "sha256": "ecf91006f7b612a95c77780eb19280807913e4a8bb3874178778548942b63b8e"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-162.json",
+      "sha256": "9f275e600d8362d4385baef29d403428422745b8149435d748c2dc50fbdceb54"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-164.json",
+      "sha256": "7ea8ebc123e00d62d56be3d1502ea15d0f155ef495d7102e94c80d7d71f58968"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-174.json",
+      "sha256": "40cace210bc6c673ef0a109d481843913e2b60bed2d00136b0210a7e53637e9f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-175.json",
+      "sha256": "7f403e5f786c9b214954674bf03a6ac83920d82ce4fca493db65be972a090802"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-176.json",
+      "sha256": "7981823a25745654ab8c4947fdba73c795195cfa37654fb856ec69fdad5c6524"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-177.json",
+      "sha256": "395b6961e313c296204684f27dfa3bc33f3251a2520dff06cbd199df9824db05"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-178.json",
+      "sha256": "9077d74e2ef65a8be1180907b404ca43a5dc591abed7d38eaa1047caf6a329e2"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-187.json",
+      "sha256": "a5224011f1c2cb39711d7e2662f29311d310cdbdaf4e339251ae0876954e7e42"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-188.json",
+      "sha256": "4030420c6ba73ccd8c0146751474b596b437035a936376350645e5f35e2cf012"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-193.json",
+      "sha256": "f2eeaaf91e170ebe1e08b760de3091daa44b8b329c5c9012a73f2717d704f288"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-195.json",
+      "sha256": "8ab78e26c72c3effeeaba98e5412e80edb1c3271d0b2affbfa7944b8d25f5542"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-196.json",
+      "sha256": "87f15253dc114e242af2e3e83ad895167aeafce97c806f334445ba0c8e5fe508"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-199.json",
+      "sha256": "afdefb767acbb3e2754dc013a62f1aa53bf0df7b6bb6141bddcef038681efa48"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-205.json",
+      "sha256": "e8e450a98e9e6fbed0a690c2f0967510766c4a45f31d76fe745e45527a390861"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-219.json",
+      "sha256": "c847cda5318b333ecab326d8dc1d0515f9be16a7b168a2590386fd169cc03cc3"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-226.json",
+      "sha256": "5ce5672911485a6c92e3728145480c35fc64fecb39ff1f9461b95c8557d00301"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-231.json",
+      "sha256": "90f56461c07e3b747c56c8ace9ed83e0d5b3725ddb2d8a44370e4f12a95229ed"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-245.json",
+      "sha256": "f35a7c06b74c4c567dace2ccfa6f00f1171c54cd04a9cc29e69e3bb37bf6cf35"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-251.json",
+      "sha256": "d237c200ce14ffa6505b02e1661890643f82c36cd7ef747c888f4ea76f62751f"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-261.json",
+      "sha256": "c28e3a8d1f203d68d42cf5f8f918e888ac5de146dc702b63c2959093379c68a2"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-263.json",
+      "sha256": "99ae8d67760e58cf0e340b28441effc036f73828da35d59fce193e5ea77c2751"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-265.json",
+      "sha256": "eaba100edf2d2f8a2e30bd1388f23e5ab39df996e366fe856043cd2631b015eb"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-266.json",
+      "sha256": "abc7177593846f6dc455b32ab3d379c71fb75f4643543739bc7eb6608a68abe6"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-275.json",
+      "sha256": "0b6b2215ceb4ad6fe8b23b90468431310d4ec60b31f96acd5435eef5a3f1db46"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-283.json",
+      "sha256": "82f41034cc41cf0b8ed2508c7e2451f7352446158f450e56e4c8cf487713bfc0"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-293.json",
+      "sha256": "46eca448b1ad04b71f84df342d0c7527ef77397c0fb67619c6883a41ccc858c3"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-296.json",
+      "sha256": "ec243749aadc97d0453ccd98966aadf7fd347a5e14a10cdd4872a53b402feb72"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-305.json",
+      "sha256": "5b5246117f423c1772a5485af7cace30ac8ea8cc8a2a3c38f1b6a28fa092e562"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-311.json",
+      "sha256": "cf2170f1e8bf2d63d90558b46bd837a541c4fa9f9075b262bfa6677c9b8e9b57"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-313.json",
+      "sha256": "4daf0939a8d0690801f02aff9f1e69066a08525521e089cfa069b36f0f5cdc08"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-316.json",
+      "sha256": "8f5055be0b95ac33d3e8f4033018359d5298caaffe2116066321315ee546e7e8"
+    },
+    {
+      "path": "Translations/nl/dialogue-batch-317.json",
+      "sha256": "0e096af1daf0debbaf019351884b9810a5e445ad3b82a26ee3b6edf806604611"
+    },
+    {
+      "path": "Translations/nl/ui-batch-003.json",
+      "sha256": "1d5a9e3a9860d89b799942f4968edec2c77985c8ca71aeeb1f9ba488871dbbb8"
+    }
+  ],
+  "corrections": [
+    {
+      "findingNumber": 1,
+      "ordinal": 134,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216557715456",
+      "authoredPath": "Translations/nl/ui-batch-003.json",
+      "source": "Вибрация геймпада",
+      "before": "Trillen van controller",
+      "after": "Controllertrilling",
+      "reason": "The Dutch setting label uses the infinitive “Trillen” and omits the article, so it does not name controller vibration naturally.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "settings_vibrator",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 2,
+      "ordinal": 135,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075584",
+      "authoredPath": "Translations/nl/ui-batch-003.json",
+      "source": "Чувствительность геймпада",
+      "before": "Gevoeligheid van controller",
+      "after": "Controllergevoeligheid",
+      "reason": "“Gevoeligheid van controller” omits the article and is unidiomatic as a Dutch settings label.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "settings_gamepad_sensitivity",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 3,
+      "ordinal": 136,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075585",
+      "authoredPath": "Translations/nl/ui-batch-003.json",
+      "source": "Чувствительность геймпада в комнатах",
+      "before": "Gevoeligheid van controller in kamers",
+      "after": "Controllergevoeligheid in kamers",
+      "reason": "The room-specific setting repeats the unidiomatic articleless “van controller” construction.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "settings_room_gamepad_sensitivity",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 4,
+      "ordinal": 265,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360649",
+      "authoredPath": "Translations/nl/dialogue-batch-071.json",
+      "source": "TV: Далее репортаж о временной приостановке утилизации тел.",
+      "before": "TV: Hierna een reportage over de tijdelijke opschorting van de verwijdering van lichamen.",
+      "after": "TV: Hierna een reportage over de tijdelijke opschorting van de verwerking van lichamen.",
+      "reason": "Russian “утилизация тел” refers to disposal/processing of bodies; “verwijdering” only states removal and loses the disposal procedure in the TV report.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_8_necessary"
+      ],
+      "key": "line:tv_8_necessary_0e75517",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 5,
+      "ordinal": 289,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972041",
+      "authoredPath": "Translations/nl/dialogue-batch-010.json",
+      "source": "Phone: По всем признакам.",
+      "before": "Phone: Aan alle tekenen.",
+      "after": "Phone: Aan alle tekenen te zien.",
+      "reason": "“Aan alle tekenen” is an incomplete and unnatural Dutch fragment for “По всем признакам” in this phone branch.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "key": "line:phone_daughtersfriend_2_1_2_0e12303",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 6,
+      "ordinal": 511,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474567",
+      "authoredPath": "Translations/nl/dialogue-batch-030.json",
+      "source": "Phone: Мы его на руках тоже домой не отвезём. Если так хотите помочь, отвезите вы.",
+      "before": "Phone: Wij kunnen hem ook niet op onze armen naar huis dragen. Wilt u zo graag helpen, breng hem dan zelf.",
+      "after": "Phone: Wij kunnen hem ook niet naar huis dragen. Wilt u zo graag helpen, breng hem dan zelf.",
+      "reason": "“Op onze armen naar huis dragen” is an unnatural Dutch rendering of the embassy worker’s sarcastic statement that they cannot carry him home.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Embassy phone answer: the staff cannot physically carry him home and tells the caller to take him instead.",
+      "nodeNames": [
+        "phone_foreignembassy_6"
+      ],
+      "key": "line:phone_foreigner_6_04ff771",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 7,
+      "ordinal": 516,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474562",
+      "authoredPath": "Translations/nl/dialogue-batch-030.json",
+      "source": "Phone: Наши сотрудники все заняты. Вы слышали, может, что штаты посольств сильно урезают.",
+      "before": "Phone: Al onze medewerkers zijn bezet. Misschien hebt u gehoord dat ambassades flink op personeel bezuinigen.",
+      "after": "Phone: Al onze medewerkers hebben het druk. Misschien hebt u gehoord dat ambassades flink op personeel bezuinigen.",
+      "reason": "For embassy staff, “zijn bezet” suggests occupied lines/seats rather than staff being busy; the Russian says all employees are occupied with work.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_foreignembassy_5"
+      ],
+      "key": "line:phone_foreigner_5_0f658de",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 8,
+      "ordinal": 555,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457840697354",
+      "authoredPath": "Translations/nl/dialogue-batch-034.json",
+      "source": "Phone: Как же заебали эти шутники.",
+      "before": "Phone: Ik ben die grappenmakers zo verschrikkelijk zat.",
+      "after": "Phone: Ik ben die kutgrappenmakers helemaal zat.",
+      "reason": "The recruiter’s strongly vulgar “заебали” is softened to ordinary “verschrikkelijk zat”; this loses the anger and profanity in this interruption scene.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_femarecruiter_2_1"
+      ],
+      "key": "line:phone_wifefema_2_1_067e3fc",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 9,
+      "ordinal": 699,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457794560001",
+      "authoredPath": "Translations/nl/dialogue-batch-032.json",
+      "source": "Phone: И мне теперь всё разгребать…",
+      "before": "Phone: En nu mag ik alle rommel weer oplossen...",
+      "after": "Phone: En nu mag ik de hele puinhoop weer opruimen...",
+      "reason": "“Alle rommel weer oplossen” combines a noun for mess with a verb that does not idiomatically take it; the Russian means cleaning up or sorting out the whole mess.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_mothershusband_3"
+      ],
+      "key": "line:phone_mother_3_0b66b99",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 10,
+      "ordinal": 724,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457786171392",
+      "authoredPath": "Translations/nl/dialogue-batch-025.json",
+      "source": "Phone: Как вы оцените проведённый сеанс?",
+      "before": "Phone: Hoe beoordeelt u het gesprek?",
+      "after": "Phone: Hoe beoordeelt u de sessie?",
+      "reason": "The paid psychic service calls its ritual a “сеанс”; “gesprek” removes its séance/session framing, which the service repeats consistently.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_psychics_12"
+      ],
+      "key": "line:phone_psychics_12_01340d8",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 11,
+      "ordinal": 731,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457781977093",
+      "authoredPath": "Translations/nl/dialogue-batch-025.json",
+      "source": "Phone: Как вы оцените проведённый сеанс?",
+      "before": "Phone: Hoe beoordeelt u het gesprek?",
+      "after": "Phone: Hoe beoordeelt u de sessie?",
+      "reason": "Same paid séance label as ordinal 724 in a separate branch; keep the service’s recurring terminology.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_psychics_11"
+      ],
+      "key": "line:phone_psychics_11_0c5f631",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 12,
+      "ordinal": 737,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782795",
+      "authoredPath": "Translations/nl/dialogue-batch-025.json",
+      "source": "Phone: Сеанс с экспертом по изгнанию Гостевого завершён. Спасибо, что воспользовались нашими услугами.",
+      "before": "Phone: Het gesprek met de expert in het uitdrijven van Gastgeesten is afgelopen. Bedankt dat u van onze diensten gebruik hebt gemaakt.",
+      "after": "Phone: De sessie met de expert in het uitdrijven van Gastgeesten is afgelopen. Bedankt dat u van onze diensten gebruik hebt gemaakt.",
+      "reason": "“Сеанс” denotes the psychic session, not merely a telephone conversation; keep the service’s recurring claim.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_psychics_10"
+      ],
+      "key": "line:phone_psychics_10_0af9d3c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 13,
+      "ordinal": 739,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782793",
+      "authoredPath": "Translations/nl/dialogue-batch-025.json",
+      "source": "Phone: К сожалению,на этом я вынужден закончить наш сеанс.",
+      "before": "Phone: Helaas moet ik ons gesprek nu beëindigen.",
+      "after": "Phone: Helaas moet ik onze sessie nu beëindigen.",
+      "reason": "“Наш сеанс” is the psychic session; the current Dutch “gesprek” loses that service term.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_psychics_10"
+      ],
+      "key": "line:phone_psychics_10_0b50e9b",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 14,
+      "ordinal": 746,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457777782786",
+      "authoredPath": "Translations/nl/dialogue-batch-024.json",
+      "source": "Phone: Сеанс с экспертом по изгнанию Гостевого завершён. Спасибо, что воспользовались нашими услугами.",
+      "before": "Phone: Het gesprek met de expert in het uitdrijven van Gastgeesten is afgelopen. Bedankt dat u van onze diensten gebruik hebt gemaakt.",
+      "after": "Phone: De sessie met de expert in het uitdrijven van Gastgeesten is afgelopen. Bedankt dat u van onze diensten gebruik hebt gemaakt.",
+      "reason": "Same séance-completion line as ordinal 737 in a separate branch; keep the service’s recurring terminology.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "phone_psychics_9"
+      ],
+      "key": "line:phone_psychics_9_0ba6e19",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 15,
+      "ordinal": 828,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457748422660",
+      "authoredPath": "Translations/nl/dialogue-batch-029.json",
+      "source": "Phone: Здравствуйте, это компания доставки еды For Rest.",
+      "before": "Phone: Goedendag, u spreekt met de maaltijdbezorgdienst For Rest.",
+      "after": "Phone: Goedendag, u spreekt met For Rest, de bezorgdienst voor eten.",
+      "reason": "“Maaltijdbezorgdienst” implies prepared meals, while For Rest takes orders for coffee, energy drinks, cigarettes and cat food; the Russian “доставка еды” is a broader food delivery label.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "For Rest supplies food and consumables; it is not limited to prepared meals.",
+      "nodeNames": [
+        "phone_forrest"
+      ],
+      "key": "line:phone_forrest_0658226",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 16,
+      "ordinal": 892,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451138",
+      "authoredPath": "Translations/nl/dialogue-batch-004.json",
+      "source": "Phone: Но если вдруг ты захочешь себе что-нибудь особенное – есть служба доставки еды For Rest.",
+      "before": "Phone: Maar als je iets bijzonders wilt, is er nog de maaltijdbezorgdienst For Rest.",
+      "after": "Phone: Maar als je iets bijzonders wilt, is er nog For Rest, de bezorgdienst voor eten.",
+      "reason": "“Maaltijdbezorgdienst” narrows For Rest to prepared meals although this branch refers to its general food delivery service and the same service sells several non-meal items; align with the broader source concept and greeting at ordinal 828.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The neighbour suggests For Rest after discussing stored food; the service still has broader stock.",
+      "nodeNames": [
+        "phone_neighbour_day2_3"
+      ],
+      "key": "line:phone_neighbour_day2_3_084ac7d",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 17,
+      "ordinal": 911,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "authoredPath": "Translations/nl/dialogue-batch-045.json",
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "before": "Ik herh…l: roep verst…rking. We krijgen dit obj…ct niet onder contr…le.",
+      "after": "Ik herh…l: roep verst…rking. We krijgen dit subj…ct niet onder contr…le.",
+      "reason": "KChS calls the entity a “субъект” (subject); Dutch “object” changes its person-versus-object status in this broken radio message.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "radio_13"
+      ],
+      "key": "line:radio_13_0e310a4",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 18,
+      "ordinal": 912,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062534",
+      "authoredPath": "Translations/nl/dialogue-batch-045.json",
+      "source": "Субъ…кт покинул террит…рию города. Ср…чно вызывайте подкр…пление.",
+      "before": "Het obj…ct heeft de stad verl…ten. Roep dr…ngend verst…rking.",
+      "after": "Het subj…ct heeft de stad verl…ten. Roep dr…ngend verst…rking.",
+      "reason": "The same radio entity is again “субъект”; “object” repeats the status change.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "radio_13"
+      ],
+      "key": "line:radio_13_00e01fd",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 19,
+      "ordinal": 914,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+      "authoredPath": "Translations/nl/dialogue-batch-045.json",
+      "source": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+      "before": "Ik herh…l: code 451 wordt ing…trokken. Het verbr…nden van lich…men helpt niet om de dre…ging van het obj…ct in te dammen………",
+      "after": "Ik herh…l: code 451 wordt ing…trokken. Het verbr…nden van lich…men is niet toeg…staan om de dre…ging van het subj…ct in te dammen………",
+      "reason": "The source cancels code 451 and says burning bodies is impermissible for containing the threat from the “subject”; Dutch instead says burning does not help and calls it an object.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "radio_12"
+      ],
+      "key": "line:radio_12_0b4364c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 20,
+      "ordinal": 975,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091010",
+      "authoredPath": "Translations/nl/dialogue-batch-177.json",
+      "source": "Window: Рядом с телами рассыпаны гильзы. Похоже, тот охотник убил людей и, скорее всего, забрал трофеи.",
+      "before": "Window: Naast de lichamen liggen hulzen verspreid. Kennelijk heeft die jager de mensen gedood en waarschijnlijk hun trofeeën meegenomen.",
+      "after": "Window: Naast de lichamen liggen hulzen verspreid. Kennelijk heeft die jager de mensen gedood en waarschijnlijk trofeeën meegenomen.",
+      "reason": "“Hun trofeeën” makes the dead people possess the trophies; the source says the hunter killed them and probably took trophies.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "window_10_3"
+      ],
+      "key": "line:window_10_3_0509274",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 21,
+      "ordinal": 1000,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457689702401",
+      "authoredPath": "Translations/nl/dialogue-batch-178.json",
+      "source": "Window: На столбе висит повешенный человек с табличкой «Вы забрали у меня всё».",
+      "before": "Window: Aan de paal hangt een man met een bord waarop staat: ‘U hebt me alles afgenomen.’",
+      "after": "Window: Aan de paal hangt een persoon die is opgehangen, met een bord waarop staat: ‘U hebt me alles afgenomen.’",
+      "reason": "The source calls the hanged figure “человек” (person) without identifying gender; “man” adds unsupported identity information at this scene point.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "window_7_1"
+      ],
+      "key": "line:window_7_1_0d841c2",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 22,
+      "ordinal": 1006,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457685508102",
+      "authoredPath": "Translations/nl/dialogue-batch-178.json",
+      "source": "Window: Скорее всего, они хотят укрыться в сгоревшем доме соседа.",
+      "before": "Window: Waarschijnlijk willen ze schuilen in het afgebrande huis van de buren.",
+      "after": "Window: Waarschijnlijk willen ze schuilen in het afgebrande huis van de buurman.",
+      "reason": "“Соседа” is singular and refers to the established neighbouring household; “de buren” changes the house possessor to plural in this line.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "window_7_3"
+      ],
+      "key": "line:window_7_3_005baa7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 23,
+      "ordinal": 1078,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457660342279",
+      "authoredPath": "Translations/nl/dialogue-batch-076.json",
+      "source": "TV: В связи с неспособностью дальнейшей работы парламента, на КЧС возлагается роль временного правительства.",
+      "before": "TV: Omdat het parlement niet verder kan functioneren, neemt de KChS de rol van tijdelijke regering op zich.",
+      "after": "TV: Omdat het parlement niet verder kan functioneren, krijgt de KChS de rol van tijdelijke regering toebedeeld.",
+      "reason": "The Russian passive “возлагается роль” leaves who assigns the temporary-government role unspecified; “neemt ... op zich” makes KChS actively assume it, changing the agency in this TV claim.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_13_necessary"
+      ],
+      "key": "line:tv_13_necessary_0996518",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 24,
+      "ordinal": 1081,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457660342276",
+      "authoredPath": "Translations/nl/dialogue-batch-076.json",
+      "source": "TV: Экстренное включение.",
+      "before": "TV: Een extra nieuwsuitzending.",
+      "after": "TV: Spoeduitzending.",
+      "reason": "“Экстренное включение” announces urgent breaking coverage; “extra nieuwsuitzending” drops the emergency status.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_13_necessary"
+      ],
+      "key": "line:tv_13_necessary_075cd73",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 25,
+      "ordinal": 1086,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457656147978",
+      "authoredPath": "Translations/nl/dialogue-batch-075.json",
+      "source": "TV: Быстро бегающий зрачок.",
+      "before": "TV: Snel bewegende pupillen.",
+      "after": "TV: Snel bewegende pupil.",
+      "reason": "The source and approved rapid-pupil glossary entry describe a singular rapidly moving pupil; “pupillen” changes the diagnostic number.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_12_necessary"
+      ],
+      "key": "line:tv_12_necessary_00a0821",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 26,
+      "ordinal": 1132,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370757",
+      "authoredPath": "Translations/nl/dialogue-batch-073.json",
+      "source": "TV: Тем временем утилизация тел на улицах города возобновляется, однако появились новые трудности.",
+      "before": "TV: Ondertussen wordt de verwijdering van lichamen op straat hervat, maar er zijn nieuwe problemen opgedoken.",
+      "after": "TV: Ondertussen wordt de verwerking van lichamen op straat hervat, maar er zijn nieuwe problemen opgedoken.",
+      "reason": "“Утилизация тел” denotes disposal/processing of bodies; “verwijdering” only states removal, repeating the loss found at ordinal 265 in the resumption bulletin.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_10_necessary"
+      ],
+      "key": "line:tv_10_necessary_09897a5",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 27,
+      "ordinal": 1162,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787847",
+      "authoredPath": "Translations/nl/dialogue-batch-071.json",
+      "source": "TV: Из-за того, что город оцеплен, утилизация тел в близлежащих районах временно приостановлена.",
+      "before": "TV: Omdat de stad is afgesloten, is de verwijdering van lichamen in de omliggende wijken tijdelijk opgeschort.",
+      "after": "TV: Omdat de stad is afgesloten, is de verwerking van lichamen in de omliggende wijken tijdelijk opgeschort.",
+      "reason": "The TV bulletin again says body disposal/processing is suspended; “verwijdering” again narrows it to removal, dependent on ordinals 265/1132.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_8_extra1"
+      ],
+      "key": "line:tv_8_extra1_0900a80",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 28,
+      "ordinal": 1220,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457605816331",
+      "authoredPath": "Translations/nl/dialogue-batch-070.json",
+      "source": "TV: Кто же такие Гости? Люди с того света? Гости из-под земли?",
+      "before": "TV: Wie zijn de Gasten eigenlijk? Mensen uit het hiernamaals? Gasten uit de aarde?",
+      "after": "TV: Wie zijn de Gasten eigenlijk? Mensen uit het hiernamaals? Gasten van onder de grond?",
+      "reason": "“Гости из-под земли” means Guests from beneath the ground; “uit de aarde” can mean from the earth as a whole and loses the underground origin.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_7_extra1"
+      ],
+      "key": "line:tv_5_extra1_0bed19d",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 29,
+      "ordinal": 1241,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457601622017",
+      "authoredPath": "Translations/nl/dialogue-batch-067.json",
+      "source": "TV: Если к вам на порог придёт сотрудник КЧС, рекомендуем содействовать ему и следовать указаниям.",
+      "before": "TV: Als er een KChS-medewerker bij u voor de deur staat, raden we u aan mee te werken en zijn aanwijzingen te volgen.",
+      "after": "TV: Als er een KChS-medewerker bij u voor de deur staat, raden we u aan mee te werken en de aanwijzingen op te volgen.",
+      "reason": "The generic KChS employee has no established gender in this instruction; “zijn aanwijzingen” adds an avoidable male reference.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_4_extra2"
+      ],
+      "key": "line:tv_3_extra2_04fd75c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 30,
+      "ordinal": 1383,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457547096067",
+      "authoredPath": "Translations/nl/dialogue-batch-067.json",
+      "source": "TV: Также КЧС выявил новый признак Гостя в результате экспериментов с задержанными…",
+      "before": "TV: Ook heeft de KChS na experimenten met gevangengenomen Gasten een nieuw kenmerk ontdekt…",
+      "after": "TV: Ook heeft de KChS na experimenten met arrestanten een nieuw teken van een Gast ontdekt…",
+      "reason": "The source says KChS experimented on “задержанными” (detainees), whose true status is not established; “gevangengenomen Gasten” labels them confirmed Gasten too early.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_4_necessary"
+      ],
+      "key": "line:tv_4_necessary_0f55933",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 31,
+      "ordinal": 1388,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457542901771",
+      "authoredPath": "Translations/nl/dialogue-batch-174.json",
+      "source": "TV: Если к вам на порог придёт сотрудник КЧС, рекомендуем содействовать ему и следовать указаниям.",
+      "before": "TV: Als er een KChS-medewerker bij u voor de deur staat, raden we u aan mee te werken en zijn aanwijzingen te volgen.",
+      "after": "TV: Als er een KChS-medewerker bij u voor de deur staat, raden we u aan mee te werken en de aanwijzingen op te volgen.",
+      "reason": "The repeated TV advice refers to a generic KChS employee without established gender; “zijn aanwijzingen” adds an avoidable male reference, as at ordinal 1241.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:tv_3_extra_2_04fd75c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 32,
+      "ordinal": 1426,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457530318854",
+      "authoredPath": "Translations/nl/dialogue-batch-174.json",
+      "source": "TV: А теперь будете ходит так: Алло, хочу заказать еду.",
+      "before": "TV: En nu doet u dit: ‘Hallo, ik wil eten bestellen.’",
+      "after": "TV: En voortaan loopt het zo: ‘Hallo, ik wil eten bestellen.’",
+      "reason": "The For Rest ad repeats “ходить” from the preceding walking-to-shop line; “doet u dit” removes the walking wordplay in this variant.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "TV advertisement contrasts walking to shop with phoning to order; preserve the walking-to-calling turn.",
+      "nodeNames": [],
+      "key": "line:tv_2_extra_1_00c3eaf",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 33,
+      "ordinal": 1467,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457513541632",
+      "authoredPath": "Translations/nl/dialogue-batch-064.json",
+      "source": "TV: Срочные новости!",
+      "before": "TV: Extra nieuws!",
+      "after": "TV: Dringend nieuws!",
+      "reason": "Repeated urgent-news bulletin: “Срочные новости!” announces breaking/urgent news; “Extra nieuws!” implies additional news and loses urgency.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "tv_1_necessary"
+      ],
+      "key": "line:tv_1_necessary_0aafc38",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 34,
+      "ordinal": 1495,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958723",
+      "authoredPath": "Translations/nl/dialogue-batch-199.json",
+      "source": "FunnyGuy: Вот ты мне напоминаешь эти же самые банки. Да ёпта.",
+      "before": "FunnyGuy: Jij doet me denken aan die blikken. Verdomme.",
+      "after": "FunnyGuy: Jij doet me denken aan die banken. Verdomme.",
+      "reason": "FunnyGuy is discussing his mortgage, finances, banks and loans in the same entrance exchange. Russian “банки” means financial banks here; “blikken” means cans and breaks the callback.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "FunnyGuy_Entrance_Bribe"
+      ],
+      "key": "line:FunnyGuy_Entrance_Bribe_06ae70c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 35,
+      "ordinal": 1571,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404297",
+      "authoredPath": "Translations/nl/dialogue-batch-140.json",
+      "source": "Тебе прям совсем некуда поехать?",
+      "before": "Heb je echt nergens om heen te gaan?",
+      "after": "Heb je echt helemaal nergens heen te gaan?",
+      "reason": "“Heb je echt nergens om heen te gaan?” is ungrammatical Dutch for the question asking whether he has anywhere to go.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Tourist_Entrance_2"
+      ],
+      "key": "line:Tourist_Entrance_2_061d8c0",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 36,
+      "ordinal": 1576,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457467404292",
+      "authoredPath": "Translations/nl/dialogue-batch-140.json",
+      "source": "Тебе прям совсем некуда поехать?",
+      "before": "Heb je echt nergens om heen te gaan?",
+      "after": "Heb je echt helemaal nergens heen te gaan?",
+      "reason": "The repeated tourist question has the same ungrammatical “nergens om heen te gaan”.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Tourist_Entrance_1"
+      ],
+      "key": "line:Tourist_Entrance_1_011f8a8",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 37,
+      "ordinal": 1593,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015690",
+      "authoredPath": "Translations/nl/dialogue-batch-146.json",
+      "source": "Alt: Здесь хотя бы по ночам воздух успевает остыть. И никто не смотрит новости круглые сутки.",
+      "before": "Alt: Hier koelt de lucht tenminste ’s nachts af. En niemand kijkt de hele dag naar het nieuws.",
+      "after": "Alt: Hier koelt de lucht tenminste ’s nachts af. En niemand kijkt dag en nacht naar het nieuws.",
+      "reason": "“Круглые сутки” means around the clock; “de hele dag” drops the overnight scope of the news-watching contrast.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Alt_Entrance_4"
+      ],
+      "key": "line:Alt_Entrance_4_0f86fde",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 38,
+      "ordinal": 1669,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457433849856",
+      "authoredPath": "Translations/nl/dialogue-batch-104.json",
+      "source": "Fairytaller: Чем-то это даже напоминает детские сказки. Где существует зло, которое захватывает мир.",
+      "before": "Fairytaller: Het doet zelfs een beetje denken aan de sprookjes uit mijn jeugd. Met een kwaad dat de wereld in zijn greep krijgt.",
+      "after": "Fairytaller: Het doet zelfs een beetje denken aan kindersprookjes, waarin het kwaad de wereld overneemt.",
+      "reason": "“Детские сказки” describes children’s fairy tales; “sprookjes uit mijn jeugd” invents the speaker’s own childhood memory.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fairytaller_Entrance_2"
+      ],
+      "key": "line:Fairytaller_Entrance_2_0144257",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 39,
+      "ordinal": 1678,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457429655554",
+      "authoredPath": "Translations/nl/dialogue-batch-104.json",
+      "source": "Fairytaller: А после этих событий выселил под предлогом отсутствия у меня работы, заселив своих сводных родственников.",
+      "before": "Fairytaller: Na die gebeurtenissen zette hij me uit huis omdat ik geen werk had. In mijn plaats kwamen zijn aangetrouwde familieleden.",
+      "after": "Fairytaller: Na die gebeurtenissen zette hij me onder het voorwendsel dat ik geen werk had uit huis en liet hij zijn stieffamilieleden erin trekken.",
+      "reason": "The landlord evicted him “под предлогом” (under the pretext) of his unemployment and housed “сводных родственников” (step relatives). The target states unemployment as a direct reason and substitutes relatives by marriage.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Fairytaller says the landlord used unemployment as a pretext and moved step relatives in.",
+      "nodeNames": [
+        "Fairytaller_Entrance_1"
+      ],
+      "key": "line:Fairytaller_Entrance_1_0402033",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 40,
+      "ordinal": 1762,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+      "authoredPath": "Translations/nl/dialogue-batch-119.json",
+      "source": "Bald: Ты подойди ко мне, как время будет. У меня столько ахуитительных историй будет, что ты… ахуеешь, ахах.",
+      "before": "Bald: Kom maar eens bij me langs als je tijd hebt. Ik heb zoveel fucking geweldige verhalen dat je… versteld zult staan, haha.",
+      "after": "Bald: Kom maar eens bij me langs als je tijd hebt. Ik heb zoveel fucking geweldige verhalen dat je… er fucking van achterover slaat, haha.",
+      "reason": "Bald repeats the same coarse “аху-” root in “ахуитительных … ахуеешь” as a comic profanity echo. The target keeps only one expletive and loses the second coarse payoff.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Bald_Entrance_YesLet"
+      ],
+      "key": "line:Bald_Entrance_YesLet_0c6059a",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 41,
+      "ordinal": 2090,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457282854923",
+      "authoredPath": "Translations/nl/dialogue-batch-083.json",
+      "source": "StaticBoy: Я перепутал дом.",
+      "before": "StaticBoy: Ik heb me in het huis vergist.",
+      "after": "StaticBoy: Ik ben bij het verkeerde huis beland.",
+      "reason": "“Ik heb me in het huis vergist” is an unnatural Dutch calque for having mistaken which house this is. The boy has reached the wrong house.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "StaticBoy_Entrance_4"
+      ],
+      "key": "line:StaticBoy_Entrance_4_00f8f62",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 42,
+      "ordinal": 2094,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457282854919",
+      "authoredPath": "Translations/nl/dialogue-batch-083.json",
+      "source": "StaticBoy: Я перепутал дом.",
+      "before": "StaticBoy: Ik heb me in het huis vergist.",
+      "after": "StaticBoy: Ik ben bij het verkeerde huis beland.",
+      "reason": "The repeated StaticBoy line has the same Dutch calque “Ik heb me in het huis vergist”.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "StaticBoy_Entrance_3"
+      ],
+      "key": "line:StaticBoy_Entrance_3_0715f57",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 43,
+      "ordinal": 2100,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457282854913",
+      "authoredPath": "Translations/nl/dialogue-batch-083.json",
+      "source": "StaticBoy: А нужны ли они вообще?..",
+      "before": "StaticBoy: Maar heb je ze eigenlijk wel nodig?..",
+      "after": "StaticBoy: Maar zijn ze eigenlijk wel nodig?..",
+      "reason": "The source asks generally whether “they” (parents, named two lines later in the exchange) are needed at all; “heb je ze” changes the question to whether the player needs them.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "StaticBoy_Entrance_2"
+      ],
+      "key": "line:StaticBoy_Entrance_2_034cf1d",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 44,
+      "ordinal": 2165,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457257689091",
+      "authoredPath": "Translations/nl/dialogue-batch-021.json",
+      "source": "Courier: Ладно, ты вроде как заказ должен забрать. Возьмёшь его?",
+      "before": "Courier: Goed, jij moest geloof ik een bestelling aannemen. Neem je hem mee?",
+      "after": "Courier: Goed, je zou geloof ik je bestelling in ontvangst nemen. Neem je die aan?",
+      "reason": "The player is receiving a courier delivery at the door. “Neem je hem mee?” asks whether the player will take the order away, changing the handoff action in “Возьмёшь его?”.",
+      "decision": "accept with full-unit refinement",
+      "sceneNote": "Courier offers the order again; the adjacent player choice is to take the order.",
+      "nodeNames": [
+        "Courier_Entrance_2_1_X"
+      ],
+      "key": "line:Courier_Entrance_2_1_X_08ffebc",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 45,
+      "ordinal": 2213,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911874",
+      "authoredPath": "Translations/nl/dialogue-batch-088.json",
+      "source": "Знаете, до того, как я встретила своего мужа, у меня… в общем, этот человек очень напоминает мне моего знакомого.",
+      "before": "Weet u, voordat ik mijn man ontmoette, had ik… nou ja, die persoon doet me sterk denken aan iemand van vroeger.",
+      "after": "Weet u, voordat ik mijn man ontmoette, had ik… nou ja, die persoon doet me sterk denken aan een man die ik vroeger kende.",
+      "reason": "“Моего знакомого” refers to a male acquaintance in the twin’s account; neutral “iemand van vroeger” removes that source clue before the following “этим мужчиной” line.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Twins_Entrance_SirinOccupied"
+      ],
+      "key": "line:Twins_Entrance_SirinOccupied_0aa0324",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 46,
+      "ordinal": 2353,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385928",
+      "authoredPath": "Translations/nl/dialogue-batch-265.json",
+      "source": "Doctor: Хм, вижу у тебя тут {0} в доме.",
+      "before": "Doctor: Hm, ik zie dat u {0} in huis hebt.",
+      "after": "Doctor: Hm, ik zie dat je {0} in huis hebt.",
+      "reason": "The surgeon addresses the homeowner with informal “у тебя” here; “u ... hebt” switches to formal address in this line without source support.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Doctor_Entrance_Occupied"
+      ],
+      "key": "line:Doctor_Entrance_Occupied_0d13a29",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 47,
+      "ordinal": 2405,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608705",
+      "authoredPath": "Translations/nl/dialogue-batch-245.json",
+      "source": "Hunter: Чувствую кровь на руках этого человека. Не знаю, зачем ты его впустил к себе. Может, тебе нравится щекотать себе нервы?..",
+      "before": "Hunter: Ik voel dat deze man bloed aan zijn handen heeft. Geen idee waarom je hem hebt binnengelaten. Houd je soms van een beetje spanning?..",
+      "after": "Hunter: Ik voel dat deze persoon bloed aan de handen heeft. Geen idee waarom je die hebt binnengelaten. Houd je soms van een beetje spanning?..",
+      "reason": "The source describes “этого человека” (this person) without assigning a sex to the dynamic housemate; “deze man” adds a male identity to the referent.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The occupied-house referent is selected dynamically; do not assign a male identity in Dutch.",
+      "nodeNames": [
+        "Hunter_Entrance_Occupied"
+      ],
+      "key": "line:Hunter_Entrance_Occupied_026bbc3",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 48,
+      "ordinal": 2409,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414409",
+      "authoredPath": "Translations/nl/dialogue-batch-049.json",
+      "source": "Fanatic: Ну и пошёл ты нахуй!",
+      "before": "Fanatic: Loop dan maar naar de hel!",
+      "after": "Fanatic: Flikker dan maar op!",
+      "reason": "The fanatic’s “пошёл ты нахуй” is a strongly profane dismissal, and the approved character rule calls for preserving his swearing. “Loop ... naar de hel” substantially softens the outburst.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fan_Entrance_Occupied_NoLet"
+      ],
+      "key": "line:Fanatic_Entrance_Occupied_NoLet_0c2375b",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 49,
+      "ordinal": 2420,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457161220106",
+      "authoredPath": "Translations/nl/dialogue-batch-161.json",
+      "source": "FortuneTeller: От него нужно избавиться, иначе не миновать беды, понимаешь, да?",
+      "before": "FortuneTeller: Je moet ervan af, anders komt er ellende van, begrijp je?",
+      "after": "FortuneTeller: Je moet van hem af, anders komt er ellende van, begrijp je?",
+      "reason": "The source’s “от него” refers to a male person named in the adjacent occupied-house branch; “ervan” treats the referent like an object.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "FortuneTeller_Entrance_Occupied"
+      ],
+      "key": "line:FortuneTeller_Entrance_Occupied_0bde497",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 50,
+      "ordinal": 2464,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637186",
+      "authoredPath": "Translations/nl/dialogue-batch-100.json",
+      "source": "Mother: Может, можешь… как-нибудь… выгнать этого человека, чтоб ребёнок хоть раз уснул спокойно?",
+      "before": "Mother: Kunt u die persoon misschien… op de een of andere manier… wegsturen? Dan kan mijn kind eindelijk eens rustig slapen.",
+      "after": "Mother: Kun je die persoon misschien… op de een of andere manier… wegsturen? Dan kan mijn kind eindelijk eens rustig slapen.",
+      "reason": "The mother uses informal “можешь” to address the homeowner; “Kunt u” changes the relationship to formal address.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Mother_Entrance_Occupied"
+      ],
+      "key": "line:Mother_Entrance_Occupied_0388e24",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 51,
+      "ordinal": 2465,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "authoredPath": "Translations/nl/dialogue-batch-100.json",
+      "source": "Mother: Хм… У тебя тут {0}. Мой малыш и так всего набоялся…",
+      "before": "Mother: Hm… Bij u is {0}. Mijn kleintje is al zo vaak bang geweest…",
+      "after": "Mother: Hm… Je hebt {0} hier. Mijn kleintje is al zo vaak bang geweest…",
+      "reason": "The same mother uses informal “у тебя”; “Bij u” switches to formal address and is stilted Dutch for having someone in the house.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Mother_Entrance_Occupied"
+      ],
+      "key": "line:Mother_Entrance_Occupied_0515549",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 52,
+      "ordinal": 2525,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457127665665",
+      "authoredPath": "Translations/nl/dialogue-batch-085.json",
+      "source": "Fugitive: Что, боишься, что КЧС за мной будет охотиться? Да пиздец!..",
+      "before": "Fugitive: Wat, ben je bang dat de KChS achter me aan zit? Wat een kutzooi!..",
+      "after": "Fugitive: Wat, ben je bang dat de KChS jacht op me zal maken? Wat een kutzooi!..",
+      "reason": "The source asks whether KChS will hunt the fugitive in the future (“будет охотиться”); “achter me aan zit” asserts pursuit already underway.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fugitive_Entrance_Occupied_NoLet"
+      ],
+      "key": "line:Fugitive_Entrance_Occupied_NoLet_0f63065",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 53,
+      "ordinal": 2586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499851",
+      "authoredPath": "Translations/nl/dialogue-batch-164.json",
+      "source": "BigLebowski: Если решил впустить, то и местечко для меня, типа, надо освободить.",
+      "before": "BigLebowski: Als je me binnenlaat, moet je dus ook een plekje voor me vrijmaken.",
+      "after": "BigLebowski: Als je me binnenlaat, moet je ook voor mij een plekje vrijlaten.",
+      "reason": "The next BigLebowski line explicitly laughs that this sentence rhymed. Russian “впустить/освободить” rhymes internally; current Dutch “binnenlaat/vrijmaken” does not, breaking the immediate joke.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The next line calls attention to a rhyme; binnenlaat/vrijlaat retains that local joke and the free-space requirement.",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ],
+      "key": "line:BigLebowski_Entrance_Occupied_0aeab90",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 54,
+      "ordinal": 2734,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168198",
+      "authoredPath": "Translations/nl/dialogue-batch-039.json",
+      "source": "Vigilante: Стоит проявиться хоть одному – сразу дух вон из такого.",
+      "before": "Vigilante: Zodra ook maar één teken opduikt, schop ik zo iemand eruit.",
+      "after": "Vigilante: Zodra ook maar één teken verschijnt, maak ik zo iemand meteen af.",
+      "reason": "The vigilante’s “дух вон из такого” threatens to kill anyone showing even one sign; “schop ik zo iemand eruit” changes the threat to eviction, conflicting with his shooting/cleansing scene.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Vigilante_Entrance_2_1"
+      ],
+      "key": "line:Vigilante_Entrance_2_1_0b9ada4",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 55,
+      "ordinal": 2751,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457047973889",
+      "authoredPath": "Translations/nl/dialogue-batch-038.json",
+      "source": "Vigilante: Так ты тоже тут следишь за порядком. Это хорошо.",
+      "before": "Vigilante: Jij houdt hier dus ook de orde in de gaten. Dat is goed.",
+      "after": "Vigilante: Jij handhaaft hier dus ook de orde. Dat is goed.",
+      "reason": "“Следишь за порядком” in the vigilante’s law-enforcement exchange means maintaining/keeping order; “de orde in de gaten houden” only observes order.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Vigilante_Entrance_1_8"
+      ],
+      "key": "line:Vigilante_Entrance_1_8_02c5555",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 56,
+      "ordinal": 2802,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457031196672",
+      "authoredPath": "Translations/nl/dialogue-batch-090.json",
+      "source": "Miner: А кто тогда вытащит, если что? Ты? Ну, без обид, но ты же сплошные кожа да кости. Вот и думаю: ты спускайся, а я тебя подстрахую.",
+      "before": "Miner: Wie trekt er dan iemand omhoog als er iets misgaat? Jij? Neem me niet kwalijk, maar je bent vel over been. Dus jij daalt af, en ik houd je in de gaten.",
+      "after": "Miner: En wie haalt mij er dan uit als er iets gebeurt? Jij? Neem me niet kwalijk, maar je bent vel over been. Dus daal jij maar af, dan zeker ik je van bovenaf.",
+      "reason": "The miner says he will “подстрахую” the descending player, an active rope safety/belay role. “Ik houd je in de gaten” only watches; the line also obscures who would haul the miner out if he descended.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Miner refuses to descend because the player cannot pull him up, and offers to belay the player from above.",
+      "nodeNames": [
+        "Miner_Entrance_3_3"
+      ],
+      "key": "line:Miner_Entrance_3_3_01129d7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 57,
+      "ordinal": 2899,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456993447942",
+      "authoredPath": "Translations/nl/dialogue-batch-079.json",
+      "source": "MushroomEater: Погоди-ка секунду. Можешь показать часы?",
+      "before": "MushroomEater: Wacht even. Kun je me laten zien hoe laat het is?",
+      "after": "MushroomEater: Wacht even. Kun je me je horloge laten zien?",
+      "reason": "The source asks to see the physical watch/clock (“показать часы”), and the next line reacts to midnight. The Dutch asks only to be told the time and drops the requested display action.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "MushroomEater_Entrance_3_5"
+      ],
+      "key": "line:MushroomEater_Entrance_3_5_068bcf4",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 58,
+      "ordinal": 3089,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456926339076",
+      "authoredPath": "Translations/nl/dialogue-batch-054.json",
+      "source": "CultistPriest: Но зайдут мои люди. У тебя здесь чувствуется приближение Смерти.",
+      "before": "CultistPriest: Maar mijn mensen komen wel binnen. In jouw huis voel je De Dood naderen.",
+      "after": "CultistPriest: Maar mijn mensen komen wel binnen. Hier bij jou is de komst van De Dood al voelbaar.",
+      "reason": "“У тебя здесь чувствуется приближение Смерти” reports that Death’s approach is perceptible at the homeowner’s place; “In jouw huis voel je” transfers the perception to the player, who has not claimed to feel it.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "CultistPriest_Entrance_8_6"
+      ],
+      "key": "line:CultistPriest_Entrance_8_6_016d1d7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 59,
+      "ordinal": 3094,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456922144779",
+      "authoredPath": "Translations/nl/dialogue-batch-054.json",
+      "source": "CultistPriest: В любом случае, пожалуйста, впусти моих людей и охраняй их.",
+      "before": "CultistPriest: Laat mijn mensen alsjeblieft binnen en bescherm hen, wat er ook gebeurt.",
+      "after": "CultistPriest: Hoe dan ook, laat mijn mensen alsjeblieft binnen en bescherm hen.",
+      "reason": "“В любом случае” means “in any case” as the cultist resumes his request. “Wat er ook gebeurt” instead demands protection under every future circumstance, an added unconditional promise.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "CultistPriest_Entrance_8_5"
+      ],
+      "key": "line:CultistPriest_Entrance_8_5_0d2e111",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 60,
+      "ordinal": 3152,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456905367553",
+      "authoredPath": "Translations/nl/dialogue-batch-021.json",
+      "source": "Courier: Здравствуйте, доставка еды For Rest.",
+      "before": "Courier: Goedendag, maaltijdbezorging van For Rest.",
+      "after": "Courier: Goedendag, For Rest, bezorging van eten.",
+      "reason": "For Rest is the broader food-delivery service (“доставка еды”), including grocery and non-meal items in its other scenes. “Maaltijdbezorging” narrows this courier greeting to prepared meals, as in the earlier phone-service findings at 828/892.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "entrance_courier_day2"
+      ],
+      "key": "line:entrance_courier_2_0c951df",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 61,
+      "ordinal": 3156,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456901173258",
+      "authoredPath": "Translations/nl/dialogue-batch-021.json",
+      "source": "Courier: Здравствуйте, доставка еды For Rest.",
+      "before": "Courier: Goedendag, maaltijdbezorging van For Rest.",
+      "after": "Courier: Goedendag, For Rest, bezorging van eten.",
+      "reason": "The day-one courier repeats “доставка еды For Rest”; “maaltijdbezorging” again narrows the service to prepared meals despite the broader food-delivery inventory.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "entrance_courier_day1"
+      ],
+      "key": "line:entrance_courier_1_0f57a42",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 62,
+      "ordinal": 3335,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456838258697",
+      "authoredPath": "Translations/nl/dialogue-batch-219.json",
+      "source": "Provocateur: Что значит просто пускаете? Вы волонтёр? Сдаёте жильё бомжам?",
+      "before": "Provocateur: Wat bedoelt u met zomaar binnenlaten? Bent u vrijwilliger? Verhuurt u uw huis aan daklozen?",
+      "after": "Provocateur: Wat bedoelt u met zomaar binnenlaten? Bent u vrijwilliger? Verhuurt u woonruimte aan daklozen?",
+      "reason": "The source asks whether the homeowner rents “жильё” (accommodation) to homeless people. “Uw huis” adds that the entire house is rented, although this scene concerns shelter or space within it.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Provocateur_Entrance_2"
+      ],
+      "key": "line:Provocateur_Entrance_2_07801af",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 63,
+      "ordinal": 3384,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456821481480",
+      "authoredPath": "Translations/nl/dialogue-batch-131.json",
+      "source": "Edgar: Буду ждать, когда смерть приберёт меня в мягкие объятия.",
+      "before": "Edgar: Ik zal wachten tot de dood me zachtjes in zijn armen neemt.",
+      "after": "Edgar: Ik zal wachten tot de dood me in een zachte omhelzing opneemt.",
+      "reason": "Edgar speaks of ordinary death taking him into a soft embrace; “in zijn armen” adds a male personification absent from the line and from the glossary’s context-sensitive distinction between ordinary death and De Dood.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Edgar_Entrance_NoLet"
+      ],
+      "key": "line:Edgar_Entrance_NoLet_017add9",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 64,
+      "ordinal": 3457,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456796315654",
+      "authoredPath": "Translations/nl/dialogue-batch-265.json",
+      "source": "Doctor: Если впустишь, я расскажу, что произошло с больницами.",
+      "before": "Doctor: Als u me binnenlaat, vertel ik wat er met de ziekenhuizen is gebeurd.",
+      "after": "Doctor: Als je me binnenlaat, vertel ik wat er met de ziekenhuizen is gebeurd.",
+      "reason": "Doctor uses informal “впустишь” for the homeowner; “u” changes this particular line to formal address, as in the same-scene finding at 2353.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Doctor_Entrance_4"
+      ],
+      "key": "line:Doctor_Entrance_4_033d743",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 65,
+      "ordinal": 3461,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456796315650",
+      "authoredPath": "Translations/nl/dialogue-batch-265.json",
+      "source": "Doctor: Если впустишь, я расскажу что произошло с больницами.",
+      "before": "Doctor: Als u me binnenlaat, vertel ik wat er met de ziekenhuizen is gebeurd.",
+      "after": "Doctor: Als je me binnenlaat, vertel ik wat er met de ziekenhuizen is gebeurd.",
+      "reason": "The repeated Doctor line again uses informal “впустишь”; “u” changes the source relationship to formal address.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Doctor_Entrance_3"
+      ],
+      "key": "line:Doctor_Entrance_3_039d775",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 66,
+      "ordinal": 3529,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456771149829",
+      "authoredPath": "Translations/nl/dialogue-batch-044.json",
+      "source": "Я убрал из дома несколько лишних",
+      "before": "Ik heb een paar ongewenste mensen uit huis gezet",
+      "after": "Ik heb een paar overtollige mensen uit huis verwijderd",
+      "reason": "“Убрал из дома” says the speaker removed some extra people from the house without saying how; “uit huis gezet” specifies eviction and removes the ominous ambiguity in this Guest-count branch.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The player's admission to SuperFake leaves removal method deliberately unstated.",
+      "nodeNames": [
+        "SuperFake_Entrance_13_4"
+      ],
+      "key": "line:SuperFake_Entrance_13_4_0d522bb",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 67,
+      "ordinal": 3530,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456771149828",
+      "authoredPath": "Translations/nl/dialogue-batch-044.json",
+      "source": "Я убрал из дома всех лишних",
+      "before": "Ik heb alle ongewenste mensen uit huis gezet",
+      "after": "Ik heb alle overtollige mensen uit huis verwijderd",
+      "reason": "“Убрал из дома” says the speaker removed all extra people from the house without saying how; “uit huis gezet” specifies eviction and removes the ominous ambiguity in this Guest-count branch.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "SuperFake_Entrance_13_4"
+      ],
+      "key": "line:SuperFake_Entrance_13_4_01fe91e",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 68,
+      "ordinal": 3545,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456766955521",
+      "authoredPath": "Translations/nl/dialogue-batch-044.json",
+      "source": "Я убрал из дома несколько лишних",
+      "before": "Ik heb een paar ongewenste mensen uit huis gezet",
+      "after": "Ik heb een paar overtollige mensen uit huis verwijderd",
+      "reason": "The repeated “убрал из дома” choice leaves the method of removing some extra people unstated; “uit huis gezet” narrows it to eviction.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "SuperFake_Entrance_13_3"
+      ],
+      "key": "line:SuperFake_Entrance_13_3_0d2eaac",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 69,
+      "ordinal": 3546,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456766955520",
+      "authoredPath": "Translations/nl/dialogue-batch-044.json",
+      "source": "Я убрал из дома всех лишних",
+      "before": "Ik heb alle ongewenste mensen uit huis gezet",
+      "after": "Ik heb alle overtollige mensen uit huis verwijderd",
+      "reason": "The repeated “убрал из дома” choice leaves the method of removing all extra people unstated; “uit huis gezet” narrows it to eviction.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "SuperFake_Entrance_13_3"
+      ],
+      "key": "line:SuperFake_Entrance_13_3_08130c2",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 70,
+      "ordinal": 3924,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456632737802",
+      "authoredPath": "Translations/nl/dialogue-batch-311.json",
+      "source": "Gasmask: Если будете выёбываться, мы просто всех в этом доме увезём.",
+      "before": "Gasmask: Als u moeilijk doet, voeren we gewoon iedereen in dit huis af.",
+      "after": "Gasmask: Als u zo blijft lopen te kutten, voeren we gewoon iedereen in dit huis af.",
+      "reason": "Gasmask’s “выёбываться” is a coarse profane accusation of defiance; neutral “moeilijk doet” removes that part of his threatening voice while he threatens to take everyone.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Entrance_Gasmask_10_1"
+      ],
+      "key": "line:Entrance_Gasmask_13_1_0d7df2c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 71,
+      "ordinal": 3989,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456611766279",
+      "authoredPath": "Translations/nl/dialogue-batch-313.json",
+      "source": "Gasmask: Результаты слишком неоднозначны.",
+      "before": "Gasmask: De resultaten zijn te tegenstrijdig.",
+      "after": "Gasmask: De resultaten zijn te onduidelijk.",
+      "reason": "“Неоднозначны” says the study results are inconclusive or ambiguous; “tegenstrijdig” claims they directly contradict one another, a stronger unsupported scientific result.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Entrance_Gasmask_5_2"
+      ],
+      "key": "line:Entrance_Gasmask_5_2_0035783",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 72,
+      "ordinal": 4010,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456603377675",
+      "authoredPath": "Translations/nl/dialogue-batch-097.json",
+      "source": "Luka: Когда-то у них цель была не выжить, а сделать что-то … приятное для всех.",
+      "before": "Luka: Ooit wilden mensen niet alleen overleven, maar ook iets… prettigs voor iedereen doen.",
+      "after": "Luka: Ooit was hun doel niet om te overleven, maar om iets… prettigs voor iedereen te doen.",
+      "reason": "Luka contrasts a former goal of doing something pleasant for everyone with mere survival (“не выжить, а”); “niet alleen ... maar ook” adds survival as part of that goal.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Luka_Entrance_4"
+      ],
+      "key": "line:Luka_Entrance_4_0d32a66",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 73,
+      "ordinal": 4137,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456561434629",
+      "authoredPath": "Translations/nl/dialogue-batch-195.json",
+      "source": "Ты мне напоминаешь одного… человека",
+      "before": "Je doet me denken aan een… mens",
+      "after": "Je doet me denken aan een… persoon",
+      "reason": "In the Bald-man callback, hesitant “одного… человека” means a particular person; “een… mens” shifts the line toward human-versus-Guest identity before the next question.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Ballerina_Entrance_4"
+      ],
+      "key": "line:Ballerina_Entrance_4_0e54d86",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 74,
+      "ordinal": 4142,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456561434624",
+      "authoredPath": "Translations/nl/dialogue-batch-195.json",
+      "source": "Ты мне напоминаешь одного… человека",
+      "before": "Je doet me denken aan een… mens",
+      "after": "Je doet me denken aan een… persoon",
+      "reason": "The repeated Bald-man callback has hesitant “одного… человека” (a particular person); “een… mens” instead suggests a human being as a species claim.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Ballerina_Entrance_3"
+      ],
+      "key": "line:Ballerina_Entrance_3_0d95c35",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 75,
+      "ordinal": 4173,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456548851717",
+      "authoredPath": "Translations/nl/dialogue-batch-231.json",
+      "source": "Teacher: Кто-то прознал, что я беру к себе под опеку детей с признаками Гостей.",
+      "before": "Teacher: Iemand kwam erachter dat ik kinderen met tekenen van Gasten in huis nam.",
+      "after": "Teacher: Iemand kwam erachter dat ik kinderen met tekenen van Gasten onder mijn hoede nam.",
+      "reason": "The teacher says she took children with Guest signs “к себе под опеку”, under her care. “In huis nam” only states shelter and drops the caregiving/guardianship relation central to this scene.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Teacher_Entrance_4"
+      ],
+      "key": "line:Teacher_Entrance_4_0a706c1",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 76,
+      "ordinal": 4508,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456435605505",
+      "authoredPath": "Translations/nl/dialogue-batch-158.json",
+      "source": "Raskolnikov: Наверное, даже голыми руками можешь убить кого надо.",
+      "before": "Raskolnikov: Waarschijnlijk kun je zelfs met je blote handen doden wie je maar wilt.",
+      "after": "Raskolnikov: Waarschijnlijk kun je zelfs met je blote handen doden wie gedood moet worden.",
+      "reason": "“Кого надо” means a person when necessary or the person who must be killed; “wie je maar wilt” changes this to anyone the homeowner wishes to kill.",
+      "decision": "accept with full-unit refinement",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Raskolnikov_Entrance_1"
+      ],
+      "key": "line:Raskolnikov_Entrance_1_0c48402",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 77,
+      "ordinal": 4629,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456389468164",
+      "authoredPath": "Translations/nl/dialogue-batch-175.json",
+      "source": "NotTrue: Лучше ты уж с ними, если уж они тебе милее. А я постою на крыльце, подожду, пока ветры перемен утихнут. Не серчай, но я в такие бури не хожу.",
+      "before": "NotTrue: Blijf jij maar bij hen als je hen liever hebt. Ik wacht op de stoep tot de wind van verandering is gaan liggen. Neem me niet kwalijk, maar zulke stormen ga ik niet in.",
+      "after": "NotTrue: Blijf jij maar bij hen als je hen liever hebt. Ik wacht op de veranda tot de wind van verandering is gaan liggen. Neem me niet kwalijk, maar zulke stormen ga ik niet in.",
+      "reason": "The old woman waits on the house’s “крыльце” (porch); “stoep” moves her to the pavement and conflicts with the same house-entry location rendered as veranda elsewhere.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:NotTrue_Entrance_Occupied_0c12762",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 78,
+      "ordinal": 4632,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456389468161",
+      "authoredPath": "Translations/nl/dialogue-batch-175.json",
+      "source": "NotTrue: Ой, дружочек… а что это у тебя тут, {0}?",
+      "before": "NotTrue: O, jongen… wat heb je hier in huis, {0}?",
+      "after": "NotTrue: O, vriendje… wat heb je hier in huis, {0}?",
+      "reason": "The old woman’s affectionate “дружочек” matches the approved character rule’s “vriendje”; bare “jongen” drops her characteristic endearment in this dynamic-housemate line.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:NotTrue_Entrance_Occupied_0abf2b1",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 79,
+      "ordinal": 4689,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496640",
+      "authoredPath": "Translations/nl/dialogue-batch-088.json",
+      "source": "Twins: Мы с ней вместе ушли из дома родителей. Больше у нас нет никакого якоря в жизни.",
+      "before": "Twins: We zijn samen weggegaan uit het huis van onze ouders. We hebben verder niets meer wat ons aan het leven bindt.",
+      "after": "Twins: We zijn samen weggegaan uit het huis van onze ouders. Verder hebben we geen enkel houvast meer in het leven.",
+      "reason": "“Нет никакого якоря в жизни” means the sisters have no stable anchor in life after leaving home; “niets ... wat ons aan het leven bindt” instead suggests they have no reason to remain alive.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Twins_Entrance_4"
+      ],
+      "key": "line:Twins_Entrance_4_03836ff",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 80,
+      "ordinal": 4720,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456355913733",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "source": "NotTrue: Спасибо, дружок!",
+      "before": "NotTrue: Dank je, jongen!",
+      "after": "NotTrue: Dank je, vriendje!",
+      "reason": "The old woman’s “дружок” is an affectionate address; “jongen” removes the “vriendje” voice specified in her approved character rule.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "NotTrue_Entrance_YesLet"
+      ],
+      "key": "line:NotTrue_Entrance_YesLet_0043263",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 81,
+      "ordinal": 4728,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456351719433",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "source": "NotTrue: Ты меня будто не слушаешь, милок.",
+      "before": "NotTrue: Het lijkt alsof je niet naar me luistert, jongen.",
+      "after": "NotTrue: Het lijkt alsof je niet naar me luistert, lieverd.",
+      "reason": "The old woman addresses the homeowner affectionately as “милок”; “jongen” does not carry her approved “lieverd” address.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "NotTrue_Entrance_4"
+      ],
+      "key": "line:NotTrue_Entrance_4_043e1fb",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 82,
+      "ordinal": 4738,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456347525131",
+      "authoredPath": "Translations/nl/dialogue-batch-152.json",
+      "source": "NotTrue: Таки дела, милок.",
+      "before": "NotTrue: Zo is het, jongen.",
+      "after": "NotTrue: Zo is het, lieverd.",
+      "reason": "“Милок” repeats the old woman’s affectionate form; “jongen” again removes her approved “lieverd” voice.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "NotTrue_Entrance_2"
+      ],
+      "key": "line:NotTrue_Entrance_2_02ce620",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 83,
+      "ordinal": 4749,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456347525120",
+      "authoredPath": "Translations/nl/dialogue-batch-305.json",
+      "source": "Долго шли?",
+      "before": "Hebben jullie lang gelopen?",
+      "after": "Hebt u lang gelopen?",
+      "reason": "The old woman is a single traveller and nearby player questions use formal singular “u”; “jullie” turns this question into an unsupported plural addressee.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "entrance_nottrue"
+      ],
+      "key": "line:entrance_nottrue_00d015b",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 84,
+      "ordinal": 4750,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456343330827",
+      "authoredPath": "Translations/nl/dialogue-batch-305.json",
+      "source": "Вы прям сюда шли?",
+      "before": "Zijn jullie rechtstreeks hierheen gekomen?",
+      "after": "Bent u rechtstreeks hierheen gekomen?",
+      "reason": "This second question to the lone old woman uses formal singular “Вы”; “jullie” wrongly addresses a group.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "entrance_nottrue"
+      ],
+      "key": "line:entrance_nottrue_02e563f",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 85,
+      "ordinal": 4788,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456330747911",
+      "authoredPath": "Translations/nl/dialogue-batch-013.json",
+      "source": "Daughter: Мне стра-а-а-шно.",
+      "before": "Daughter: Ik ben b-b-bang.",
+      "after": "Daughter: Ik ben ba-a-a-ang.",
+      "reason": "The daughter’s “стра-а-а-шно” stretches a vowel in fear. “b-b-bang” switches the performance to a consonant stutter, contrary to the scene’s distinct stretches and the approved character rule.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Daughter_Entrance_YesLet"
+      ],
+      "key": "line:Daughter_Entrance_4_YesLet_0cd9205",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 86,
+      "ordinal": 5040,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456246861831",
+      "authoredPath": "Translations/nl/dialogue-batch-049.json",
+      "source": "Fanatic: Ну и иди тогда нахуй, я СПАСУ КОГО-НИБУДЬ ЕЩЁ-Ё-Ё!",
+      "before": "Fanatic: Loop dan maar naar de hel, ik ga IEMAND ANDERS REDDE-E-E-N!",
+      "after": "Fanatic: Flikker dan maar op, ik ga IEMAND ANDERS REDDE-E-E-N!",
+      "reason": "The fanatic’s “иди ... нахуй” is a strongly profane dismissal, as at the earlier 2409 finding; “Loop ... naar de hel” again softens the approved character voice.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fan_Entrance_FullRefuse"
+      ],
+      "key": "line:Fanatic_Entrance_NoLet_01111e7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 87,
+      "ordinal": 5053,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456242667526",
+      "authoredPath": "Translations/nl/dialogue-batch-275.json",
+      "source": "Fanatic: Больше не будет ни смертей, ни воровства, ни жадных ублюдков, которые не могу продать мне то, что я хочу, за справедливую цену.",
+      "before": "Fanatic: Er zal geen dood meer zijn, geen diefstal en geen hebzuchtige klootzakken die weigeren me voor een eerlijke prijs te verkopen wat ik wil.",
+      "after": "Fanatic: Er zal geen dood meer zijn, geen diefstal en geen hebzuchtige klootzakken die me niet voor een eerlijke prijs kunnen verkopen wat ik wil.",
+      "reason": "“Не могу продать” says the sellers cannot sell the desired item at a fair price; “weigeren” asserts that they refuse to sell it and changes their agency.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fanatic_Entrance_3"
+      ],
+      "key": "line:Fanatic_Entrance_3_0f3e5a9",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 88,
+      "ordinal": 5081,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456234278914",
+      "authoredPath": "Translations/nl/dialogue-batch-313.json",
+      "source": "Prophet: Скоро придёт персона с котом. Тебе важно впустить их домой.",
+      "before": "Prophet: Binnenkort komt er iemand met een kat. Het is belangrijk dat je die persoon binnenlaat.",
+      "after": "Prophet: Binnenkort komt er iemand met een kat. Het is belangrijk dat je hen allebei binnenlaat.",
+      "reason": "The plural “их” refers to the person with the cat arriving together; “die persoon binnenlaat” mentions only the person and drops the cat from the required admission.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Prophet means both the person and their cat must enter.",
+      "nodeNames": [
+        "Entrance_Prophet_3_5"
+      ],
+      "key": "line:Entrance_Prophet_3_5_06adbe0",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 89,
+      "ordinal": 5354,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456137809922",
+      "authoredPath": "Translations/nl/dialogue-batch-116.json",
+      "source": "Firefighter: Завеса из дыма помогает не сгореть живьём, кх-кх, но всё равно страшно.",
+      "before": "Firefighter: Het rookgordijn voorkomt dat je levend verbrandt, kuch-kuch, maar het blijft eng.",
+      "after": "Firefighter: Het rookgordijn helpt voorkomen dat je levend verbrandt, kuch-kuch, maar het blijft eng.",
+      "reason": "Smoke “помогает не сгореть” helps prevent burning; “voorkomt” presents it as fully preventing death, overstating the firefighter’s protective claim.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Firefighter_Entrance_1"
+      ],
+      "key": "line:Firefighter_Entrance_1_018124f",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 90,
+      "ordinal": 5372,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456125227020",
+      "authoredPath": "Translations/nl/dialogue-batch-057.json",
+      "source": "До сих пор руки трясутся, когда я думаю посмотреть в то окно.",
+      "before": "Mijn handen trillen nog steeds als ik eraan denk uit dat raam te kijken.",
+      "after": "Mijn handen trillen nog steeds als ik eraan denk door dat raam te kijken.",
+      "reason": "The ending’s “посмотреть в то окно” is to look into that window; “uit dat raam” reverses the direction to looking out of it.",
+      "decision": "accept with full-unit refinement",
+      "sceneNote": "Collapsed-house ending recalls looking through a particular window; direction outside/inside is not stated.",
+      "nodeNames": [
+        "AloneEnding_3"
+      ],
+      "key": "line:AloneEnding_3_0606f4d",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 91,
+      "ordinal": 5434,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456104255498",
+      "authoredPath": "Translations/nl/dialogue-batch-040.json",
+      "source": "Vigilante: Пизда тебе, умник ёбаный!",
+      "before": "Vigilante: Je bent er geweest, achterlijke klootzak!",
+      "after": "Vigilante: Je bent er geweest, godverdomde wijsneus!",
+      "reason": "The vigilante calls the player “умник” (smartass) while threatening him; “achterlijke” calls him stupid, reversing the insult in this reveal.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Vigilante_Entrance_EarsKill"
+      ],
+      "key": "line:Vigilante_Entrance_EarsKill_0ea85fd",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 92,
+      "ordinal": 5476,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456091672580",
+      "authoredPath": "Translations/nl/dialogue-batch-058.json",
+      "source": "Со мной возился, потому что я себя в обиду не дам. А с другими что?",
+      "before": "Met mij had hij moeite, omdat ik me niet zomaar laat pakken. Maar de anderen dan?",
+      "after": "Met mij had hij moeite, omdat ik niet over me heen laat lopen. Maar de anderen dan?",
+      "reason": "The enraged speaker says the gunman struggled with him because “я себя в обиду не дам” (he will stand up for himself); “ik me niet zomaar laat pakken” narrows that to avoiding capture.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "RageEnding_2"
+      ],
+      "key": "line:RageEnding_2_09554de",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 93,
+      "ordinal": 5489,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456087478275",
+      "authoredPath": "Translations/nl/dialogue-batch-047.json",
+      "source": "Вообще, странно вот так брать людей и сразу нанимать.",
+      "before": "Het is sowieso vreemd om zomaar mensen aan te nemen.",
+      "after": "Het is sowieso vreemd om mensen zo mee te nemen en meteen aan te nemen.",
+      "reason": "The narration remarks on taking people and hiring them immediately; “zomaar mensen aannemen” omits the immediate conversion from taking to employment in this forced KChS recruitment scene.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "NewfemaEnding_2"
+      ],
+      "key": "line:NewfemaEnding_2_0f54c86",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 94,
+      "ordinal": 5491,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456087478273",
+      "authoredPath": "Translations/nl/dialogue-batch-047.json",
+      "source": "Работы там много. Наверно, и смены вахтовые.",
+      "before": "Er is daar veel werk. Waarschijnlijk draait u lange diensten.",
+      "after": "Er is daar veel werk. Waarschijnlijk werken ze er in ploegendiensten.",
+      "reason": "“Смены вахтовые” indicates rotational/shift duty; “lange diensten” asserts long shifts and loses the rotation arrangement.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "New KChS recruitment scene speculates about rotating shift duty, not length of shifts.",
+      "nodeNames": [
+        "NewfemaEnding_1"
+      ],
+      "key": "line:NewfemaEnding_1_085ee45",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 95,
+      "ordinal": 6081,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455881957377",
+      "authoredPath": "Translations/nl/dialogue-batch-316.json",
+      "source": "Как там твои жильцы?",
+      "before": "Hoe gaat het met je huisgenoten?",
+      "after": "Hoe gaat het met je huurders?",
+      "reason": "The player asks about FunnyGuy’s tenants in his rented apartment; “huisgenoten” changes them into his own housemates.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "FunnyGuy owns a rental flat; his occupants are tenants, as his next mortgage line confirms.",
+      "nodeNames": [
+        "talk_funnyguy_2"
+      ],
+      "key": "line:talk_funnyguy_2_05bedb7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 96,
+      "ordinal": 6340,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793876997",
+      "authoredPath": "Translations/nl/dialogue-batch-187.json",
+      "source": "Tough: Но на деле ты просто такой же зашуганный человек, которого чудом не снесло несчастьями.",
+      "before": "Tough: Maar eigenlijk ben je net zo’n angstig mens als de rest, iemand die de ellende op wonderbaarlijke wijze niet heeft weggevaagd.",
+      "after": "Tough: Maar eigenlijk ben je net zo’n angstig mens als de rest, iemand die op wonderbaarlijke wijze niet door alle ellende is weggevaagd.",
+      "reason": "The Dutch relative clause makes the frightened person the agent who did not sweep away the calamities, reversing the Russian “которого … не снесло несчастьями”: the calamities almost swept him away.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Tough_Asking_3_2"
+      ],
+      "key": "line:Tough_Asking_3_2_09255a0",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 97,
+      "ordinal": 6347,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455789682698",
+      "authoredPath": "Translations/nl/dialogue-batch-187.json",
+      "source": "Tough: Но на деле ты просто такой же зашуганный человек, которого чудом не снесло несчастьями.",
+      "before": "Tough: Maar eigenlijk ben je net zo’n angstig mens als de rest, iemand die de ellende op wonderbaarlijke wijze niet heeft weggevaagd.",
+      "after": "Tough: Maar eigenlijk ben je net zo’n angstig mens als de rest, iemand die op wonderbaarlijke wijze niet door alle ellende is weggevaagd.",
+      "reason": "Repeated branch of ordinal 6340: the Dutch relative clause reverses the agency of the calamities almost sweeping the person away.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Tough_Asking_3_1"
+      ],
+      "key": "line:Tough_Asking_3_1_027259e",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 98,
+      "ordinal": 6380,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455781294080",
+      "authoredPath": "Translations/nl/dialogue-batch-316.json",
+      "source": "Получается херня, а не безопасность",
+      "before": "Dat is waardeloze veiligheid",
+      "after": "Dit is onzin, geen veiligheid",
+      "reason": "The Russian explicitly rejects this as safety (“херня, а не безопасность”); “waardeloze veiligheid” still labels it as safety.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_tough_2"
+      ],
+      "key": "line:talk_tough_2_02a832b",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 99,
+      "ordinal": 6497,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455739351041",
+      "authoredPath": "Translations/nl/dialogue-batch-261.json",
+      "source": "Experienced: Короче, все люди вокруг — это редиски.",
+      "before": "Experienced: Kortom, alle mensen om me heen zijn rotzakken.",
+      "after": "Experienced: Kortom, alle mensen om me heen zijn een stel rotte radijsjes.",
+      "reason": "The Russian “редиски” is a vegetable insult answering the player’s “овощами” choice at ordinal 6495; “rotzakken” drops the answer’s vegetable wordplay.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The earlier player choice compares people to vegetables; the radish insult pays it off.",
+      "nodeNames": [
+        "Experienced_Asking_3_1"
+      ],
+      "key": "line:Experienced_Asking_3_1_07be420",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 100,
+      "ordinal": 6600,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455701602315",
+      "authoredPath": "Translations/nl/dialogue-batch-095.json",
+      "source": "Rocker: Надо бы завтра ночью кое-куда сгонять.",
+      "before": "Rocker: Morgenavond moet ik ergens heen.",
+      "after": "Rocker: Ik moet morgennacht ergens heen.",
+      "reason": "“Завтра ночью” specifies tomorrow night; “morgenavond” specifies tomorrow evening, a different time for the rocker’s planned trip.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Rocker_Asking_2"
+      ],
+      "key": "line:Rocker_Asking_2_0611d84",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 101,
+      "ordinal": 6987,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455571578885",
+      "authoredPath": "Translations/nl/dialogue-batch-317.json",
+      "source": "Jacob: Как же выпить охота...",
+      "before": "Jacob: Wat zou ik graag iets drinken…",
+      "after": "Jacob: Wat heb ik toch zin in een borrel...",
+      "reason": "Jacob’s “выпить охота” in his beer and home-distilling scene asks for an alcoholic drink; “iets drinken” can mean any drink.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_jacob_5"
+      ],
+      "key": "line:talk_jacob_5_05a9869",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 102,
+      "ordinal": 6990,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455571578882",
+      "authoredPath": "Translations/nl/dialogue-batch-193.json",
+      "source": "Jacob: Уверен, всё то, что говорят по телевизору — полный пиздёж.",
+      "before": "Jacob: Ik weet zeker dat alles wat ze op televisie zeggen complete onzin is.",
+      "after": "Jacob: Ik weet zeker dat alles wat ze op televisie zeggen één grote leugen is.",
+      "reason": "“Полный пиздёж” accuses the television claims of being lies; “complete onzin” weakens this to nonsense without the accusation of deceit.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Jacob_Asking_4"
+      ],
+      "key": "line:Jacob_Asking_4_0859069",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 103,
+      "ordinal": 7005,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384576",
+      "authoredPath": "Translations/nl/dialogue-batch-317.json",
+      "source": "Jacob: Как же выпить охота...",
+      "before": "Jacob: Wat zou ik graag iets drinken…",
+      "after": "Jacob: Wat heb ik toch zin in een borrel...",
+      "reason": "Repeated Jacob alcohol request: “выпить охота” asks for alcohol, while “iets drinken” is generic.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_jacob_4"
+      ],
+      "key": "line:talk_jacob_4_0ecf2b8",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 104,
+      "ordinal": 7018,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455558995979",
+      "authoredPath": "Translations/nl/dialogue-batch-317.json",
+      "source": "Jacob: Как же выпить охота...",
+      "before": "Jacob: Wat zou ik graag iets drinken…",
+      "after": "Jacob: Wat heb ik toch zin in een borrel...",
+      "reason": "Repeated Jacob alcohol request: “выпить охота” asks for alcohol, while “iets drinken” is generic.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_jacob_3"
+      ],
+      "key": "line:talk_jacob_3_0441b91",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 105,
+      "ordinal": 7032,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455554801674",
+      "authoredPath": "Translations/nl/dialogue-batch-317.json",
+      "source": "Jacob: Как же выпить охота...",
+      "before": "Jacob: Wat zou ik graag iets drinken…",
+      "after": "Jacob: Wat heb ik toch zin in een borrel...",
+      "reason": "Repeated Jacob alcohol request: “выпить охота” asks for alcohol, while “iets drinken” is generic.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_jacob_2"
+      ],
+      "key": "line:talk_jacob_2_096bf23",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 106,
+      "ordinal": 7046,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607368",
+      "authoredPath": "Translations/nl/dialogue-batch-317.json",
+      "source": "Jacob: Как же выпить охота...",
+      "before": "Jacob: Wat zou ik graag iets drinken…",
+      "after": "Jacob: Wat heb ik toch zin in een borrel...",
+      "reason": "Repeated Jacob alcohol request: “выпить охота” asks for alcohol, while “iets drinken” is generic.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "talk_jacob_1"
+      ],
+      "key": "line:talk_jacob_1_0521998",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 107,
+      "ordinal": 7521,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455391223814",
+      "authoredPath": "Translations/nl/dialogue-batch-134.json",
+      "source": "GraveDigger: И чем больше ты боишься — тем ближе они. Потому что ты их вспоминаешь. А всё, что вспоминается, — хочет жить.",
+      "before": "GraveDigger: En hoe banger je voor ze bent, hoe dichterbij ze komen. Want dan denk je aan ze. En alles waaraan je denkt, wil leven.",
+      "after": "GraveDigger: En hoe banger je voor ze bent, hoe dichterbij ze komen. Want je haalt ze terug in je herinnering. En alles wat je je herinnert, wil leven.",
+      "reason": "The grave digger’s theory hinges on remembered people and things (“вспоминаешь”, “всё, что вспоминается”); “denkt” broadens both clauses to any current thought and loses the memory motif carried into the next lines.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "GraveDigger's theory is about remembered people returning, not ordinary current thought.",
+      "nodeNames": [
+        "GraveDigger_Asking_5"
+      ],
+      "key": "line:GraveDigger_Asking_5_0332528",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 108,
+      "ordinal": 7994,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063049",
+      "authoredPath": "Translations/nl/dialogue-batch-266.json",
+      "source": "Тогда скатертью дорожка",
+      "before": "Nou, goede reis dan",
+      "after": "Nou, opgeruimd staat netjes",
+      "reason": "“Скатертью дорожка” is a dismissive good-riddance response to the doctor leaving; “goede reis” reads as an ordinary well-wish and reverses the choice’s tone.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "key": "line:Doctor_Asking_3_2_00cda40",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 109,
+      "ordinal": 8586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455013736452",
+      "authoredPath": "Translations/nl/dialogue-batch-098.json",
+      "source": "Luka: Я однажды… вспылил на человека, который хотел помочь мне... И его… её больше нет с нами…",
+      "before": "Luka: Ik ben ooit… tegen iemand uitgevallen die me wilde helpen... En die persoon… die is er niet meer…",
+      "after": "Luka: Ik ben ooit… tegen iemand uitgevallen die me wilde helpen... En hij… zij is er niet meer…",
+      "reason": "Luka audibly corrects “его” to “её”, revealing the absent helper was female; the neutral “die persoon… die” erases this deliberate correction.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Luka audibly self-corrects the absent person's pronoun from male to female.",
+      "nodeNames": [
+        "Luka_Asking_2"
+      ],
+      "key": "line:Luka_Asking_2_02cb8ff",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 110,
+      "ordinal": 8790,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454942433288",
+      "authoredPath": "Translations/nl/dialogue-batch-196.json",
+      "source": "Ballerina: Я жду. А ты почему ждёшь?",
+      "before": "Ballerina: Ik wacht. Waar wacht jij op?",
+      "after": "Ballerina: Ik wacht. Maar waarom wacht jij?",
+      "reason": "“А ты почему ждёшь?” asks why the player is waiting; “Waar wacht jij op?” asks what or whom the player awaits. The scene separately asks “Кого ты ждёшь?” at ordinal 8797, confirming the distinction.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Ballerina_Asking_5"
+      ],
+      "key": "line:Ballerina_Asking_5_08f7899",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 111,
+      "ordinal": 9373,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454728523781",
+      "authoredPath": "Translations/nl/dialogue-batch-086.json",
+      "source": "Fugitive: Он заметил у меня на лице сомнение, достал автомат и нацелился на меня. Я смог перехватить огнестрел, и мы сцепились в схватке.",
+      "before": "Fugitive: Hij zag de twijfel op mijn gezicht, trok zijn geweer en richtte het op me. Ik kon het grijpen en we raakten slaags.",
+      "after": "Fugitive: Hij zag de twijfel op mijn gezicht, trok zijn automatische geweer en richtte het op me. Ik kon het grijpen en we raakten slaags.",
+      "reason": "The Russian specifies an automatic weapon (автомат); the Dutch reduces it to a generic rifle, while the adjacent player question retains “automatische geweer”.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fugitive_Asking_3"
+      ],
+      "key": "line:Fugitive_Asking_3_06c3ed4",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 112,
+      "ordinal": 9381,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454724329481",
+      "authoredPath": "Translations/nl/dialogue-batch-086.json",
+      "source": "Fugitive: Краем глаза увидел у него на спине автомат, ожерелья из зубов и ногтей, а за ним переулок, усеянный телами.",
+      "before": "Fugitive: Uit mijn ooghoek zag ik een geweer op zijn rug, kettingen van tanden en nagels en achter hem een steeg vol lichamen.",
+      "after": "Fugitive: Uit mijn ooghoek zag ik een automatisch geweer op zijn rug, kettingen van tanden en nagels en achter hem een steeg vol lichamen.",
+      "reason": "The Russian specifies an automatic weapon (автомат) on his back; “geweer” drops that detail, which the player question in the same scene retains.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fugitive_Asking_2_4"
+      ],
+      "key": "line:Fugitive_Asking_2_4_0cde6f5",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 113,
+      "ordinal": 9393,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454720135177",
+      "authoredPath": "Translations/nl/dialogue-batch-086.json",
+      "source": "Fugitive: Краем глаза увидел у него на спине автомат, ожерелья из зубов и ногтей, а за ним переулок, усеянный телами.",
+      "before": "Fugitive: Uit mijn ooghoek zag ik een geweer op zijn rug, kettingen van tanden en nagels en achter hem een steeg vol lichamen.",
+      "after": "Fugitive: Uit mijn ooghoek zag ik een automatisch geweer op zijn rug, kettingen van tanden en nagels en achter hem een steeg vol lichamen.",
+      "reason": "The repeated branch likewise specifies an automatic weapon (автомат) on his back; “geweer” drops that detail.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fugitive_Asking_2_3"
+      ],
+      "key": "line:Fugitive_Asking_2_3_0631161",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 114,
+      "ordinal": 9685,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454619471880",
+      "authoredPath": "Translations/nl/dialogue-batch-091.json",
+      "source": "Sirin: В бесконечно развивающейся Вселенной мы – никто.",
+      "before": "Sirin: In een universum dat zich eindeloos uitbreidt, zijn wij niemand.",
+      "after": "Sirin: In een universum dat zich eindeloos blijft ontwikkelen, zijn wij niemand.",
+      "reason": "“Бесконечно развивающейся” describes a universe that develops or evolves endlessly; “zich eindeloos uitbreidt” instead asserts spatial expansion.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Sirin_Asking_3"
+      ],
+      "key": "line:Sirin_Asking_3_0ecf1e2",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 115,
+      "ordinal": 9802,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454577528844",
+      "authoredPath": "Translations/nl/dialogue-batch-175.json",
+      "source": "NotTrue: То ли боялся в муках умереть от взрыва солнца, то ли ещё что.",
+      "before": "NotTrue: Misschien was hij bang om in doodsangst te sterven door de explosie van de zon, of misschien was het iets anders.",
+      "after": "NotTrue: Misschien was hij bang om door de explosie van de zon een pijnlijke dood te sterven, of misschien was het iets anders.",
+      "reason": "“В муках умереть” means to die in agony; “in doodsangst te sterven” shifts the agony to mortal fear, although fear is already expressed by “боялся”.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:NotTrue_Asking_3_2_051e4cb",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 116,
+      "ordinal": 10316,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454376202249",
+      "authoredPath": "Translations/nl/dialogue-batch-251.json",
+      "source": "Esenin: Однажды так нас тряхнёт, жди беды.",
+      "before": "Esenin: Op een dag worden we zo door elkaar geschud dat we ons schrap moeten zetten.",
+      "after": "Esenin: Op een dag worden we zo door elkaar geschud dat ons een ramp te wachten staat.",
+      "reason": "“Жди беды” explicitly predicts calamity after the shaking; “dat we ons schrap moeten zetten” only says to brace, dropping the expected disaster.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Esenin_Asking_3_2"
+      ],
+      "key": "line:Esenin_Asking_3_2_07aca0f",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 117,
+      "ordinal": 10382,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454355230723",
+      "authoredPath": "Translations/nl/dialogue-batch-296.json",
+      "source": "Anxiety: ОНИ ХОТЯТ НАМ ДОБРА! ПУСТИТЕ ГОСТЕЙ!",
+      "before": "Anxiety: ZE WILLEN ONS HELPEN! LAAT DE GASTEN BINNEN!",
+      "after": "Anxiety: ZE BEDOELEN HET GOED MET ONS! LAAT DE GASTEN BINNEN!",
+      "reason": "“Они хотят нам добра” claims the Guests mean people well; “Ze willen ons helpen” makes the more specific claim that they intend to help. The cultic assertion of benevolent intent should remain distinct from promised help.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Anxiety_Asking_4"
+      ],
+      "key": "line:Anxiety_Asking_4_0460f55",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 118,
+      "ordinal": 10649,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454262956035",
+      "authoredPath": "Translations/nl/dialogue-batch-162.json",
+      "source": "FortuneTeller: Вложила всю энергию в этот образ.",
+      "before": "FortuneTeller: Ze stak al haar energie in dit beeld.",
+      "after": "FortuneTeller: Ik stak al mijn energie in dat beeld.",
+      "reason": "The subject of “Вложила” is FortuneTeller herself: the adjacent line says “А я однажды закрыла глаза и представила мечту.” Dutch “Ze” changes the actor to another woman.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "FortuneTeller's adjacent clause says she closed her eyes and imagined her dream.",
+      "nodeNames": [
+        "FortuneTeller_Asking_2"
+      ],
+      "key": "line:FortuneTeller_Asking_2_01c088c",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 119,
+      "ordinal": 11083,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454107766785",
+      "authoredPath": "Translations/nl/dialogue-batch-148.json",
+      "source": "Alt: Если они там инфосводки кое-как собирали, боюсь представить, как шла работа с выявлениями признаков.",
+      "before": "Alt: Als ze die politierapporten al zo slordig opstelden, vraag ik me af hoe ze de kenmerken dan hebben vastgesteld.",
+      "after": "Alt: Als ze de informatieoverzichten daar al zo slordig samenstelden, durf ik me niet voor te stellen hoe ze naar de kenmerken van Gasten zochten.",
+      "reason": "“Инфосводки” are information summaries, not police reports; “работа с выявлениями признаков” concerns identifying signs, not establishing what the signs are.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Alt_WannaCheck"
+      ],
+      "key": "line:Alt_WannaCheck_032b65a",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 120,
+      "ordinal": 11176,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454074212352",
+      "authoredPath": "Translations/nl/dialogue-batch-106.json",
+      "source": "Fairytaller: Цвет глаз, кстати, у вас красивый.",
+      "before": "Fairytaller: U hebt trouwens mooie ogen.",
+      "after": "Fairytaller: U hebt trouwens een mooie oogkleur.",
+      "reason": "The compliment is specifically about the player’s eye color (“Цвет глаз”), not their eyes in general; the next inspection line discusses eye color comparisons.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Fairytaller_Eyes_DontShoot"
+      ],
+      "key": "line:Fairytaller_Eyes_DontShoot_06edfa0",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 121,
+      "ordinal": 11249,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+      "authoredPath": "Translations/nl/dialogue-batch-127.json",
+      "source": "Leper: Ёбаный свет…",
+      "before": "Leper: Godverdomme…",
+      "after": "Leper: Dat verdomde licht…",
+      "reason": "The curse explicitly names the light (“Ёбаный свет”); “Godverdomme” drops that referent in Leper’s sunlight-sensitive inspection scene.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Leper_Ears_DontShoot"
+      ],
+      "key": "line:Leper_Ears_DontShoot_0517384",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 122,
+      "ordinal": 11280,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+      "authoredPath": "Translations/nl/dialogue-batch-127.json",
+      "source": "Leper: Ёбаный свет, ты что?",
+      "before": "Leper: Godverdomme, wat doe je?",
+      "after": "Leper: Dat verdomde licht, wat doe je?",
+      "reason": "This repeated exclamation again curses the light (“Ёбаный свет”); “Godverdomme” drops the referent.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Leper_Teeth_Gun"
+      ],
+      "key": "line:Leper_Teeth_Gun_0501ea2",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 123,
+      "ordinal": 11364,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454007103490",
+      "authoredPath": "Translations/nl/dialogue-batch-151.json",
+      "source": "Nervous: Я же не убил тебя ночью, пока ты спал!",
+      "before": "Nervous: Ik heb je toch niet vermoord terwijl je sliep!",
+      "after": "Nervous: Ik heb je toch niet ’s nachts vermoord terwijl je sliep!",
+      "reason": "“Ночью” explicitly places the hypothetical killing at night, relevant to the player’s sleep and Night/Guest threat; Dutch omits the time.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Nervous_Eyes_Gun"
+      ],
+      "key": "line:Nervous_Eyes_Gun_0be43f1",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 124,
+      "ordinal": 11459,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453973549056",
+      "authoredPath": "Translations/nl/dialogue-batch-121.json",
+      "source": "Bald: К доктору, конечно, не пойду, потому что, как говорится: “Хуйня пройдёт, а пиздец не лечится”.",
+      "before": "Bald: Naar de dokter ga ik zeker niet. Zoals ze zeggen: “Onzin gaat vanzelf over, maar ellende is ongeneeslijk.”",
+      "after": "Bald: Naar de dokter ga ik zeker niet. Zoals ze zeggen: “Een kutkwaaltje gaat vanzelf over, maar de echte ellende is ongeneeslijk.”",
+      "reason": "In the eye/doctor scene, “хуйня” is a minor ailment or trouble that may pass, not “onzin” (nonsense); the proverb contrasts a passing small problem with an incurable disaster.",
+      "decision": "accept with full-unit refinement",
+      "sceneNote": "Bald's doctor joke contrasts a passing minor ailment with incurable disaster; preserve coarse register.",
+      "nodeNames": [
+        "Bald_Eyes_Gun"
+      ],
+      "key": "line:Bald_Eyes_Gun_0b69de8",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 125,
+      "ordinal": 11529,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453948383235",
+      "authoredPath": "Translations/nl/dialogue-batch-188.json",
+      "source": "Tough: Что ты такое там увидел? Серу? Или что?",
+      "before": "Tough: Wat heb je daar dan gezien? Zwavel? Of wat?",
+      "after": "Tough: Wat heb je daar dan gezien? Oorsmeer? Of wat?",
+      "reason": "In an ear inspection, “сера” is earwax. Dutch “zwavel” means sulfur and changes the physical finding.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Tough_Ears_Gun"
+      ],
+      "key": "line:Tough_Ears_Gun_0a0fd7e",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 126,
+      "ordinal": 11687,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453889662980",
+      "authoredPath": "Translations/nl/dialogue-batch-263.json",
+      "source": "Experienced: Редиска паршивая!",
+      "before": "Experienced: Verdomde rotzak!",
+      "after": "Experienced: Jij rot radijsje!",
+      "reason": "Experienced repeats his earlier vegetable insult “редиски” (finding 6497) in the death line “Редиска паршивая!”; “rotzak” drops this established character motif.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Experienced repeats the radish insult from the earlier vegetable exchange.",
+      "nodeNames": [
+        "Experienced_Death"
+      ],
+      "key": "line:Experienced_Death_00f458a",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 127,
+      "ordinal": 11856,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453826748427",
+      "authoredPath": "Translations/nl/dialogue-batch-096.json",
+      "source": "Rocker: Да-а-а-а, столько крепкого дыма впитали эти зубы.",
+      "before": "Rocker: Jaaaa, deze tanden hebben heel wat zware rook ingeademd.",
+      "after": "Rocker: Jaaaa, deze tanden hebben heel wat zware rook opgezogen.",
+      "reason": "The source says his teeth absorbed (“впитали”) strong smoke; Dutch “ingeademd” makes the teeth inhale it, changing the action.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Rocker_Teeth"
+      ],
+      "key": "line:Rocker_Teeth_09d399f",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 128,
+      "ordinal": 12093,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453591867396",
+      "authoredPath": "Translations/nl/dialogue-batch-062.json",
+      "source": "Есть следы от пороха на отпечатках пальцев. Но это мелочь.",
+      "before": "Er zitten kruitsporen op mijn vingertoppen. Maar dat stelt weinig voor.",
+      "after": "Er zitten kruitsporen op mijn vingerafdrukken. Maar dat stelt weinig voor.",
+      "reason": "“На отпечатках пальцев” specifies fingerprints; “vingertoppen” says fingertips and drops the print detail in the self-inspection observation.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "selfcheck_hands"
+      ],
+      "key": "line:selfcheck_hands_058c712",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 129,
+      "ordinal": 12716,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453239545858",
+      "authoredPath": "Translations/nl/dialogue-batch-226.json",
+      "source": "FormerFema: Прикалываешься? Мы не готовили материалы по этому признаку. Не знаю, что было у других, но наши на такое не проверяли.",
+      "before": "FormerFema: Maak je een grapje? Wij kregen geen materiaal over dit teken. Ik weet niet wat anderen deden, maar wij controleerden daar niet op.",
+      "after": "FormerFema: Maak je een grapje? Wij hebben geen materiaal over dit teken opgesteld. Ik weet niet wat anderen deden, maar onze mensen controleerden daar niet op.",
+      "reason": "“Мы не готовили материалы” says his KChS team did not prepare materials on this sign; “Wij kregen geen materiaal” says they did not receive materials. This reverses who was responsible for producing the guidance. “Наши” also refers to his team, not only himself.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Former KChS worker speaks about materials his own team failed to prepare.",
+      "nodeNames": [
+        "FormerFema_Ears"
+      ],
+      "key": "line:FormerFema_Ears_0b1a335",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 130,
+      "ordinal": 13097,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453046607872",
+      "authoredPath": "Translations/nl/dialogue-batch-133.json",
+      "source": "Edgar: Я так долго пытался сохранить руку…",
+      "before": "Edgar: Ik heb zo lang geprobeerd mijn arm te behouden…",
+      "after": "Edgar: Ik heb zo lang geprobeerd mijn hand te behouden…",
+      "reason": "In Edgar’s hand-inspection scene he compares his preserved and decaying hands. “Руку” here refers to the inspected hand; “arm” changes the body part.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Edgar_Hands_DontShoot"
+      ],
+      "key": "line:Edgar_Hands_DontShoot_0466f2a",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 131,
+      "ordinal": 13483,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452853669892",
+      "authoredPath": "Translations/nl/dialogue-batch-154.json",
+      "source": "NotTrue: Что, из этого тоже будешь щёлкать?",
+      "before": "NotTrue: Ga je hier ook een foto van maken?",
+      "after": "NotTrue: Ga je hiermee ook foto’s maken?",
+      "reason": "“Из этого тоже будешь щёлкать?” asks whether the player will take pictures with this device. Dutch “hier ... een foto van maken” makes the device the subject of the picture, reversing instrument and object in NotTrue’s camera exchange.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "NotTrue_Photo_Gun"
+      ],
+      "key": "line:NotTrue_Photo_Gun_05dacf6",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 132,
+      "ordinal": 13604,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755336",
+      "authoredPath": "Translations/nl/dialogue-batch-293.json",
+      "source": "Scammer: Ты меня не разводи, ты этих лохов прогревай.",
+      "before": "Scammer: Probeer mij niet op te lichten. Bereid die sukkels maar voor.",
+      "after": "Scammer: Probeer mij niet op te lichten. Houd die sukkels maar aan het lijntje zodat ze blijven betalen.",
+      "reason": "In the Scammer’s paying-occupants branch, “этих лохов прогревай” means to work the marks so they keep paying. Dutch “Bereid die sukkels maar voor” only says to prepare them and leaves out the financial manipulation.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Scammer's preceding line says the marks must keep paying.",
+      "nodeNames": [
+        "Scammer_Photo_DontShoot"
+      ],
+      "key": "line:Scammer_Photo_DontShoot_02dafb7",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 133,
+      "ordinal": 14148,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452564262922",
+      "authoredPath": "Translations/nl/dialogue-batch-283.json",
+      "source": "Couple: Глаза тоже. Подмышки… ну допустим. Но с ушами что? Что-то из-за лёгкого доступа к мозгу?",
+      "before": "Couple: De ogen ook. De oksels… vooruit dan. Maar wat is er met de oren? Omdat ze zo dicht bij de hersenen zitten?",
+      "after": "Couple: De ogen ook. De oksels… vooruit dan. Maar wat is er met de oren? Bieden die soms makkelijke toegang tot de hersenen?",
+      "reason": "“Из-за лёгкого доступа к мозгу” asks whether ears provide easy access to the brain; Dutch says only that they sit close to it, dropping the access mechanism in this ear-sign speculation.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Couple_Ears_Gun"
+      ],
+      "key": "line:Couple_Ears_Gun_0427463",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 134,
+      "ordinal": 14731,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452341964810",
+      "authoredPath": "Translations/nl/dialogue-batch-205.json",
+      "source": "Buddy: Самые обычные, можешь даже потрогать.",
+      "before": "Buddy: Heel gewone tanden. Je mag ze zelfs aanraken.",
+      "after": "Buddy: Heel gewone oren. Je mag ze zelfs aanraken.",
+      "reason": "This line is in Buddy_Ears and the next line identifies the object as ears. Dutch inserts “tanden”, changing the inspected body part from ears to teeth.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Buddy_Ears scene; the following line identifies ordinary ears.",
+      "nodeNames": [
+        "Buddy_Ears"
+      ],
+      "key": "line:Buddy_Ears_0dcb593",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 135,
+      "ordinal": 14945,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452266467336",
+      "authoredPath": "Translations/nl/dialogue-batch-087.json",
+      "source": "Fugitive: Дерьмо, а не улыбка, знаю. Карантин – он не про гигиену, там чистят людей, а не зубы. Если ты понимаешь, о чём я…",
+      "before": "Fugitive: Een kutglimlach, ik weet het. In quarantaine draait het niet om hygiëne: ze maken mensen schoon, geen tanden. Als je begrijpt wat ik bedoel…",
+      "after": "Fugitive: Een kutglimlach, ik weet het. In quarantaine draait het niet om hygiëne: daar worden mensen gezuiverd, geen tanden gepoetst. Als je begrijpt wat ik bedoel…",
+      "reason": "In the quarantine account “там чистят людей, а не зубы” uses “cleaning” as a threatening euphemism for purging people, contrasted with brushing teeth. “Ze maken mensen schoon” reads as physically washing people and loses that meaning.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "Fugitive's quarantine line uses cleaning as a purge euphemism against tooth cleaning.",
+      "nodeNames": [
+        "Fugitive_Teeth"
+      ],
+      "key": "line:Fugitive_Teeth_082e5ba",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 136,
+      "ordinal": 15480,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452073529347",
+      "authoredPath": "Translations/nl/dialogue-batch-176.json",
+      "source": "NotTrue: Что, из этого тоже будешь щёлкать?",
+      "before": "NotTrue: Ga je hier ook een foto van maken?",
+      "after": "NotTrue: Ga je hiermee ook foto’s maken?",
+      "reason": "Repeated NotTrue camera line (also ordinal 13483): “из этого ... щёлкать” asks whether the player will take pictures with this device. Dutch makes the device the photographed object.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:NotTrue_Photo_Gun_09deabe",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 137,
+      "ordinal": 15601,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452027392002",
+      "authoredPath": "Translations/nl/dialogue-batch-293.json",
+      "source": "Scammer: Ты меня не разводи, ты этих лохов прогревай.",
+      "before": "Scammer: Probeer mij niet op te lichten. Bereid die sukkels maar voor.",
+      "after": "Scammer: Probeer mij niet op te lichten. Houd die sukkels maar aan het lijntje zodat ze blijven betalen.",
+      "reason": "Repeated Scammer paying-occupants line (also ordinal 13604): “прогревай” asks the player to work the marks for payment; “Bereid ... voor” leaves out the financial manipulation.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [],
+      "key": "line:Scammer_PhotoDontShoot_0300a30",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    },
+    {
+      "findingNumber": 138,
+      "ordinal": 16304,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451742179331",
+      "authoredPath": "Translations/nl/dialogue-batch-118.json",
+      "source": "Firefighter: Когда огонь ревёт вокруг, ты понимаешь, как дорога эта тишина. Кх-кх, ушам теперь всё равно, а вот душе -- ещё нет.",
+      "before": "Firefighter: Als het vuur om je heen raast, besef je hoe kostbaar stilte is. Kuch-kuch, mijn oren maakt het nu niet meer uit, maar mijn ziel nog wel.",
+      "after": "Firefighter: Als het vuur om je heen raast, besef je hoe kostbaar stilte is. Kuch-kuch, mijn oren zijn er nu doof voor, maar mijn ziel nog niet.",
+      "reason": "Dutch “mijn oren maakt het nu niet meer uit” has subject–verb disagreement and an unnatural personification that obscures the Firefighter’s contrast between damaged hearing and a still-sensitive soul.",
+      "decision": "accept proposed full unit",
+      "sceneNote": "The pass-1 finding identifies a concrete source/target divergence in this unit.",
+      "nodeNames": [
+        "Firefighter_Ears_DontShoot"
+      ],
+      "key": "line:Firefighter_Ears_DontShoot_0fb7423",
+      "protectedExact": "passed shared preserve_exact.check_value on the entire replacement"
+    }
+  ]
+}

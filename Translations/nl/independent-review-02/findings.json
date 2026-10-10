@@ -1,0 +1,4022 @@
+{
+  "reviewer": "/root/nl_independent_review; same independent reviewer as review 01, distinct from author",
+  "model": "exact serving model/reasoning not exposed",
+  "closureManifestSha256": "2065cdbc8c29ec50f15c5c3d31fb0126c54a8294d30a6374b11f00a392b325e7",
+  "deltaReviewRowsSha256": "6e0d71688bb9a446e55d3492078a337c4e51f65a18515bd20ec9d5d0ce45d6a4",
+  "reviewedPairCount": 367,
+  "findings": [
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-140.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Tourist_Entrance_Occupied_068c936",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "ordinal": 1472,
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "sourceSha256": "f02c61a1075c36235a57b52bab243c2a07ca98b018a3d7883d3b2d7331eba5c8",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "target": "Tourist: {0} is hier. Ik weet niet zeker of we met elkaar overweg kunnen.",
+      "targetSha256": "e4db5d9456e9f3033ae9aefb2a228a29a8a121b01e696f3ff07aabeda7964357",
+      "deltaRow": 5,
+      "findingId": "NL-IR02-001",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Tourist: Kijk wie hier is: {0}. Ik weet niet zeker of we met elkaar overweg kunnen.",
+      "proposedReplacementSha256": "da587e94a4727d6175498e9698c1a409acb11008f8f503f5d599b65cc645d48c",
+      "consumerBindings": [
+        {
+          "node": "Tourist_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Tourist_Entrance_Occupied_068c936"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Tourist"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-146.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Alt_Entrance_Occupied_06f0f99",
+      "nodeNames": [
+        "Alt_Entrance_Occupied"
+      ],
+      "ordinal": 1487,
+      "source": "Alt: Опа, {0} здесь.",
+      "sourceSha256": "5216ea5ac3560d30c4fa4d64307bb7857de2fc943e77e0aad1044a65ba121346",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153025",
+      "target": "Alt: Hé, {0} is hier.",
+      "targetSha256": "7b51c2c7d98014f634a6b9960183ef2157121fee60884695e5b82f699768a73a",
+      "deltaRow": 10,
+      "findingId": "NL-IR02-002",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Alt: Hé, kijk wie hier is: {0}.",
+      "proposedReplacementSha256": "71ec5decf7449d2477498e5036a668e2365fd1084309617c706c0e10fdd01c45",
+      "consumerBindings": [
+        {
+          "node": "Alt_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Alt_Entrance_Occupied_06f0f99"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Alt"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-104.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Fairytaller_Entrance_Occupied_0d170bf",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "ordinal": 1510,
+      "source": "Fairytaller: Но боюсь, что мне будет некомфортно, пока в одном помещении со мной есть {0}.",
+      "sourceSha256": "392c4360e8cc8ad166b08a512c37a897066fe9b7dc6ca305c8ec0cc92e3948a6",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570115",
+      "target": "Fairytaller: Maar ik vrees dat ik me ongemakkelijk zal voelen zolang {0} met mij in dezelfde ruimte is.",
+      "targetSha256": "be506de36c126c734e40a095c7d443cf0e19a785c77c02474836c8b30b7dcd99",
+      "deltaRow": 16,
+      "findingId": "NL-IR02-003",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Fairytaller: Maar ik vrees dat ik me ongemakkelijk zal voelen zolang ik de ruimte deel met dit gezelschap: {0}.",
+      "proposedReplacementSha256": "f2893b7b23211fec4b4025063787ea30a768d1a083f491db3605d1a3fe090964",
+      "consumerBindings": [
+        {
+          "node": "Fairytaller_Entrance_Occupied",
+          "instructionIndex": 7,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Fairytaller_Entrance_Occupied_0d170bf"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Fairytaller"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-125.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Leper_Entrance_Occupied_06e50d7",
+      "nodeNames": [
+        "Leper_Entrance_Occupied"
+      ],
+      "ordinal": 1522,
+      "source": "Leper: Тут уже есть {0}, а именно этот человек чмырил меня за внешность.",
+      "sourceSha256": "8a5a866d3df1a681e23de724a4ff9d45ef9b8324db5e2edd3da8c3cd593a59be",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375810",
+      "target": "Leper: {0} is hier al, en die persoon kleineerde me om mijn uiterlijk.",
+      "targetSha256": "64e0681861e771e32186e941373b955dc920a2f51d83947fa9f3731e36004ecb",
+      "deltaRow": 21,
+      "findingId": "NL-IR02-004",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Leper: Kijk wie hier al is: {0}. Juist die persoon kleineerde me om mijn uiterlijk.",
+      "proposedReplacementSha256": "1c71f3433af0c3d3ebe19129ea91e40359216a1d5a1580b273e74aacd062b13c",
+      "consumerBindings": [
+        {
+          "node": "Leper_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Leper_Entrance_Occupied_06e50d7"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Leper"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-149.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Nervous_Entrance_Occupied_03f5f29",
+      "nodeNames": [
+        "Nervous_Entrance_Occupied"
+      ],
+      "ordinal": 1535,
+      "source": "Nervous: А, тут есть {0}.",
+      "sourceSha256": "75d5bf6a269d455da1ec19183dc9737519da2592904d731d89e6653d9762911f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181504",
+      "target": "Nervous: O, {0} is hier.",
+      "targetSha256": "af65d613120438df21b6d39c72d0fe02abc8ff0609355d974ec40c3e58156f35",
+      "deltaRow": 27,
+      "findingId": "NL-IR02-005",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Nervous: O, kijk wie hier is: {0}.",
+      "proposedReplacementSha256": "175e3bd3a7e09361c7e4a3771782fe1f1bc6a194a83960bb9492b47f8006223c",
+      "consumerBindings": [
+        {
+          "node": "Nervous_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Nervous_Entrance_Occupied_03f5f29"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Nervous"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-119.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Bald_Entrance_Occupied_0b1927e",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "ordinal": 1543,
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "sourceSha256": "277861c65d75f83fe4e800ad34c5165817038c7313bf94d33b38d45cd0ea2e35",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "target": "Bald: {0} zit hier bij je. Zullen we die misschien op de een of andere manier eruit werken?",
+      "targetSha256": "2102ee24de2c912ba41873b552a527d2adb33dd6a598ea734aaabf254fc62eaa",
+      "deltaRow": 29,
+      "findingId": "NL-IR02-006",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Bald: Kijk wie hier bij je zit: {0}. Zullen we die misschien op de een of andere manier eruit werken?",
+      "proposedReplacementSha256": "1859811b1cd3c0e11b6e61238bf70d38239b2bb8db50be6e019e5c91c08e961a",
+      "consumerBindings": [
+        {
+          "node": "Bald_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Bald_Entrance_Occupied_0b1927e"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Bald"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-186.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Tough_Entrance_Occupied_08be726",
+      "nodeNames": [
+        "Tough_Entrance_Occupied"
+      ],
+      "ordinal": 1553,
+      "source": "Tough: Кто это у тебя тут, {0}?",
+      "sourceSha256": "ebb6b546ec0308dc838951c89b5cf0d622e7aefed34d1cd03c9f16329d97ad6f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792901",
+      "target": "Tough: Wie heb je hier in huis, {0}?",
+      "targetSha256": "93b5d54efa612d318356831ff401d878ffb20f1ce2b3d8de7be7f408119adfa5",
+      "deltaRow": 33,
+      "findingId": "NL-IR02-007",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "The comma before the occupant label makes the label read as the addressee of the question. The source asks the player who occupies the home, so mark the label as the questioned occupant, not a vocative.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Tough: Wie heb je hier in huis — {0}?",
+      "proposedReplacementSha256": "d66879cad0adc4f04bac40fee9ddad0d16fbd885563fb81186d7e1299c81f8c1",
+      "consumerBindings": [
+        {
+          "node": "Tough_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Tough_Entrance_Occupied_08be726"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Tough"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-122.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Jacket_Entrance_Occupied_088628d",
+      "nodeNames": [
+        "Jacket_Entrance_Occupied"
+      ],
+      "ordinal": 1825,
+      "source": "Jacket: Ой… Извините, но у вас {0}. Я не очень доверяю таким людям…",
+      "sourceSha256": "4c65aafbc67c71dbd623c7430d8bb0258a353d8ce09bc128ec2a42a78eb3c823",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323904",
+      "target": "Jacket: O… Het spijt me, maar u hebt {0} in huis. Ik vertrouw zulke mensen niet erg…",
+      "targetSha256": "3d10f0f19e6810f000e19f063661a162438a4bdd1fdc7f23dc62c70527754f60",
+      "deltaRow": 36,
+      "findingId": "NL-IR02-008",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Jacket: O… Het spijt me, maar u hebt gezelschap in huis: {0}. Ik vertrouw zulke mensen niet erg…",
+      "proposedReplacementSha256": "90ae92deb8659801387618243f942f767c3f3324b6c3c8d8f909eda2103aff71",
+      "consumerBindings": [
+        {
+          "node": "Jacket_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Jacket_Entrance_Occupied_088628d"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Jacket"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-260.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Experienced_Entrance_Occupied_0ec9683",
+      "nodeNames": [
+        "Experienced_Entrance_Occupied"
+      ],
+      "ordinal": 1860,
+      "source": "Experienced: Мне не по душе {0}.",
+      "sourceSha256": "7381211711001b18646b99d4fdaf8f3a4dfd4409caf0e4f1f85898557a45116d",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740994",
+      "target": "Experienced: {0} bevalt me niet.",
+      "targetSha256": "4623577550050bc7d509c1a6da4eec781c3226e7b045a6faeec51edb95d72ae8",
+      "deltaRow": 38,
+      "findingId": "NL-IR02-009",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Experienced: Dit gezelschap bevalt me niet: {0}.",
+      "proposedReplacementSha256": "687d52c3f62edbf28b31a45fa41e7e195d124d7e0785494ca044f05e2774479e",
+      "consumerBindings": [
+        {
+          "node": "Experienced_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Experienced_Entrance_Occupied_0ec9683"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Experienced"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-255.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Unstable_Entrance_Occupied_09de6e6",
+      "nodeNames": [
+        "Unstable_Entrance_Occupied"
+      ],
+      "ordinal": 1938,
+      "source": "Unstable: Опа, у тебя тут {0}.",
+      "sourceSha256": "fbd7e26c448502e9304a87826c8d80c5c8a18ef8b6c5b239f34c6e8ee3257276",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380872",
+      "target": "Unstable: Hé, je hebt hier {0}.",
+      "targetSha256": "7b3ba8dfa9642f1980c5315f064d2c0bbcb4c9940dfb48e0f2ea029444cc9425",
+      "deltaRow": 46,
+      "findingId": "NL-IR02-010",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Unstable: Hé, je hebt hier gezelschap: {0}.",
+      "proposedReplacementSha256": "0f49e974c3fe84b55c0ae821eaeaed0a6f0e8d7f1fb1764a43065d503ab86507",
+      "consumerBindings": [
+        {
+          "node": "Unstable_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Unstable_Entrance_Occupied_09de6e6"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Unstable"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-235.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Wolfhound_Entrance_Occupied_0b92df6",
+      "nodeNames": [
+        "Wolfhound_Entrance_Occupied"
+      ],
+      "ordinal": 2199,
+      "source": "Wolfhound: У тебя {0} уже греет очаг? Сразу вижу, что это волчица в овечьей шкуре.",
+      "sourceSha256": "a572cfd9e58b0bcf60cf2a3dc5e45b53cdb3c5d1cfb8e1f78a9d139a31b9d6a2",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106180",
+      "target": "Wolfhound: Zit {0} hier al bij je haard? Ik zie meteen dat het een wolvin in schaapskleren is.",
+      "targetSha256": "635bd451829882442a28bb93ca55bf06f0b7f65f41e1007a15774582c4c43df9",
+      "deltaRow": 55,
+      "findingId": "NL-IR02-011",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Wolfhound: Wie zit hier al bij je haard — {0}? Ik zie meteen dat het een wolvin in schaapskleren is.",
+      "proposedReplacementSha256": "db8be0408d9d410e1a22acb3a4a1c8d76b64b37015fe74ed9cb49c7ad0b7b7ee",
+      "consumerBindings": [
+        {
+          "node": "Wolfhound_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Wolfhound_Entrance_Occupied_0b92df6"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "WolfHound"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-088.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Twins_Entrance_AlkonostOccupied_0a0e768",
+      "nodeNames": [
+        "Twins_Entrance_AlkonostOccupied"
+      ],
+      "ordinal": 2220,
+      "source": "Twins: Боюсь, что у вас уже сидит {0}.",
+      "sourceSha256": "c04c64eb962fe92f88c0a45b3eff7438df3ed07e7e2e9d4db740de8835c7050f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "target": "Twins: Ik vrees dat {0} al bij u woont.",
+      "targetSha256": "59ab6186ac9496fb386411c500cf5cb65259d4a4480fab62919efe4311bf411c",
+      "deltaRow": 64,
+      "findingId": "NL-IR02-012",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Twins: Ik vrees dat u al gezelschap in huis hebt: {0}.",
+      "proposedReplacementSha256": "41d590e0d17dd1f54c842a7ec8a33f0a4018a4e9c79c2e258efdff25ddc44858",
+      "consumerBindings": [
+        {
+          "node": "Twins_Entrance_AlkonostOccupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Twins_Entrance_AlkonostOccupied_0a0e768"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Alkonost"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-215.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Greatmother_Entrance_Occupied_00fa855",
+      "nodeNames": [
+        "Greatmother_Entrance_Occupied"
+      ],
+      "ordinal": 2226,
+      "source": "Greatmother: Опа, это {0} сидит у тебя тут, что ли?  Вот так встреча!",
+      "sourceSha256": "f3a65ee901013888906fe04220b0c3f8d56a9f82c7fa228aab96b256e7d2fdaa",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717569",
+      "target": "Greatmother: Hé, zit {0} hier bij jou? Wat een ontmoeting!",
+      "targetSha256": "215b8887df318617e1ecfe84a01ce1d0c28825e07f6a4e9b06ba0d57c7cb676e",
+      "deltaRow": 69,
+      "findingId": "NL-IR02-013",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Greatmother: Hé, wie zit hier bij jou — {0}? Wat een ontmoeting!",
+      "proposedReplacementSha256": "c8a26cc145107dc14dc114e324b9cc2a66b4c340ad187190cdea9ae2050d83b8",
+      "consumerBindings": [
+        {
+          "node": "Greatmother_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Greatmother_Entrance_Occupied_00fa855"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Greatmother"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-285.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Widow_Entrance_Occupied_0d12664",
+      "nodeNames": [
+        "Widow_Entrance_Occupied"
+      ],
+      "ordinal": 2232,
+      "source": "Widow: У тебя тут {0}?",
+      "sourceSha256": "8580998785ce89f22e3999cd88027dcedead607418ea367349847a2817c8938f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457232523271",
+      "target": "Widow: Is {0} hier bij jou?",
+      "targetSha256": "b8529b655751bc1870ab9155d0e9f583c7b2a22b37f3331366e06615fc3da669",
+      "deltaRow": 74,
+      "findingId": "NL-IR02-014",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Widow: Wie is hier bij jou — {0}?",
+      "proposedReplacementSha256": "837d9285566c99f519803a09519e623213f7b4f6113bd30df257bf67859b8bb3",
+      "consumerBindings": [
+        {
+          "node": "Widow_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Widow_Entrance_Occupied_0d12664"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Widow"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-223.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:FormerFema_Entrance_Occupied_02d91db",
+      "nodeNames": [
+        "FormerFema_Entrance_Occupied"
+      ],
+      "ordinal": 2304,
+      "source": "FormerFema: О-ох… вижу, в ванной уже {0}.",
+      "sourceSha256": "75868ef8321be41948e9d551225ce367a43be2a969b10ad5a88d48597be31f85",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457207357443",
+      "target": "FormerFema: O… ik zie dat {0} al in de badkamer is.",
+      "targetSha256": "5f2c7f7d20731d01ffd6d6ec00cb13225475f8f80a960868d1d841730843e055",
+      "deltaRow": 82,
+      "findingId": "NL-IR02-015",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "FormerFema: O… ik zie wie er al in de badkamer is: {0}.",
+      "proposedReplacementSha256": "3b405d217245d1e080c82e135edb9be49bf4c6a04685c2f42133cb60a92350eb",
+      "consumerBindings": [
+        {
+          "node": "FormerFema_Entrance_Occupied",
+          "instructionIndex": 5,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:FormerFema_Entrance_Occupied_02d91db"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "FormerFema"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-134.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:GraveDigger_Entrance_Occupied_0b2fe8b",
+      "nodeNames": [
+        "GraveDigger_Entrance_Occupied"
+      ],
+      "ordinal": 2311,
+      "source": "GraveDigger: Ё-маё, да у тебя тут уже {0}.",
+      "sourceSha256": "d7512ddb74fa24c2933f2912aa0c1bc473614b9d15ffbb477c0b16847ad5d1a5",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457203163141",
+      "target": "GraveDigger: Potverdorie, je hebt {0} al in huis.",
+      "targetSha256": "a2df7b006677d0bc20b9ba60667d90a45fb3f1266ff3efa68fc6978e8ef2cdea",
+      "deltaRow": 87,
+      "findingId": "NL-IR02-016",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "GraveDigger: Potverdorie, je hebt al gezelschap in huis: {0}.",
+      "proposedReplacementSha256": "e632c90afea9db1dc74798b88e3a9929011ce6ff0bb5b357cffe881e420018ee",
+      "consumerBindings": [
+        {
+          "node": "GraveDigger_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:GraveDigger_Entrance_Occupied_0b2fe8b"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GraveDigger"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-219.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Provocateur_Entrance_Occupied_0b239f6",
+      "nodeNames": [
+        "Provocateur_Entrance_Occupied"
+      ],
+      "ordinal": 2325,
+      "source": "Provocateur: Мда… вижу у вас уже в доме {0}.",
+      "sourceSha256": "312c106d4f9031384325a95b93bfede3521f76868e56eeca8d33addf8e560fbd",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968834",
+      "target": "Provocateur: Tja… ik zie dat u {0} al in huis hebt.",
+      "targetSha256": "dc2ab41a698aad8ffa523e6a208c134a893ae46ca6860f028a7bc8dd039b28d6",
+      "deltaRow": 94,
+      "findingId": "NL-IR02-017",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Provocateur: Tja… ik zie wie u al in huis hebt: {0}.",
+      "proposedReplacementSha256": "f9f14dbf69cce3c366a2a529596b996da6d45397753c0b3f958c5377cf4504b5",
+      "consumerBindings": [
+        {
+          "node": "Provocateur_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Provocateur_Entrance_Occupied_0b239f6"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Provocateur"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-170.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:TaxiDriver_Entrance_Occupied_02a5fb2",
+      "nodeNames": [
+        "TaxiDriver_Entrance_Occupied"
+      ],
+      "ordinal": 2333,
+      "source": "TaxiDriver: Ты, как бы, не пойми меня неправильно, но у тебя дома {0}.",
+      "sourceSha256": "33ea2ab51127b2fa7edb6fee179c38b1637d7f2b4bd6001523dd0f320d6b2885",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457194774534",
+      "target": "TaxiDriver: Begrijp me niet verkeerd, maar je hebt {0} in huis.",
+      "targetSha256": "93978608b0017fafe52881d2aed314c6b9991f170145dc605872e650b051cbec",
+      "deltaRow": 98,
+      "findingId": "NL-IR02-018",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "TaxiDriver: Begrijp me niet verkeerd, maar je hebt gezelschap in huis: {0}.",
+      "proposedReplacementSha256": "483ce62cfbde1461446bd39fba27ea18d50a66b1d111c0803f6b472c671c92a2",
+      "consumerBindings": [
+        {
+          "node": "TaxiDriver_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:TaxiDriver_Entrance_Occupied_02a5fb2"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "TaxiDriver"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-131.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Edgar_Entrance_Occupied_0801104",
+      "nodeNames": [
+        "Edgar_Entrance_Occupied"
+      ],
+      "ordinal": 2340,
+      "source": "Edgar: Я бы вошёл, но там уже {0}. Этот человек всё ещё тревожится о завтра…",
+      "sourceSha256": "d8a9ce362a58a590148e22bfa61657082fc9fef344379d6ecdf374c46e03f3a4",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457190580234",
+      "target": "Edgar: Ik zou binnenkomen, maar {0} is daar al. Die persoon maakt zich nog altijd zorgen over morgen…",
+      "targetSha256": "71d442d6d3a68d6b40c9d6e4b8d81907efb9b8f7694a289de14ba7152555ed63",
+      "deltaRow": 101,
+      "findingId": "NL-IR02-019",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Edgar: Ik zou binnenkomen, maar kijk wie daar al is: {0}. Die persoon maakt zich nog altijd zorgen over morgen…",
+      "proposedReplacementSha256": "eb644658e6298ae5f1914e71967ab0d6125fed6b723426db784e754a2ae71b54",
+      "consumerBindings": [
+        {
+          "node": "Edgar_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Edgar_Entrance_Occupied_0801104"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Edgar"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-108.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Foreigner_Entrance_Occupied_0b5a0dd",
+      "nodeNames": [
+        "Foreigner_Entrance_Occupied"
+      ],
+      "ordinal": 2344,
+      "source": "Foreigner: (Похоже, ему не нравится {0}. Он указывает на него, потом на себя, потом опять на него).",
+      "sourceSha256": "4cd390a19738d1c46a7350b5028aed2a2e6ab0f29f75869b970e9378a4b3397a",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457190580230",
+      "target": "Foreigner: (Het lijkt erop dat hij {0} niet mag. Hij wijst naar hem, dan naar zichzelf en daarna weer naar hem.)",
+      "targetSha256": "064cfe3def5e1c1228223aa05c5a10cf33b0eed9ab4a7fe5ed9f55cbf06a25b6",
+      "deltaRow": 103,
+      "findingId": "NL-IR02-020",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Foreigner: (Het lijkt erop dat hij die bewoner niet mag — {0}. Hij wijst naar hem, dan naar zichzelf en daarna weer naar hem.)",
+      "proposedReplacementSha256": "d68268ba8571cad7e414bd437f9a983546147373b7ec24c2837e35185b1e3605",
+      "consumerBindings": [
+        {
+          "node": "Foreigner_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Foreigner_Entrance_Occupied_0b5a0dd"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Foreigner"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-015.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Daughter_Entrance_Occupied_099f4da",
+      "nodeNames": [
+        "Daughter_Entrance_Occupied"
+      ],
+      "ordinal": 2371,
+      "source": "Daughter: Ой, {0} тут.",
+      "sourceSha256": "b9f23b747535f945d2a0b8828bf11bf278cee505fa2335f3e22992694c445a96",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457177997323",
+      "target": "Daughter: O, {0} is hier.",
+      "targetSha256": "09674a54bd73bcfac6837eb4e75c6737b3657e709e130a404804e5a84002ee95",
+      "deltaRow": 113,
+      "findingId": "NL-IR02-021",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Daughter: O, kijk wie hier is: {0}.",
+      "proposedReplacementSha256": "aab26ebee3bc01443bd0e7e5c7577c5b662e5e3a6283806df3d6adbfb4edddd0",
+      "consumerBindings": [
+        {
+          "node": "Daughter_Entrance_Occupied",
+          "instructionIndex": 5,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Daughter_Entrance_Occupied_099f4da"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Daughter"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-290.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Scammer_Entrance_Occupied_0145e70",
+      "nodeNames": [
+        "Scammer_Entrance_Occupied"
+      ],
+      "ordinal": 2379,
+      "source": "Scammer: Слышь, у тебя тут уже {0}. С такого ни денег не стрясти, ни историй каких прикольных.",
+      "sourceSha256": "7ebdb4412498f5e168745f40f3e11f44c4fcbecb36a7236ea7457fb418f3aefb",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457177997315",
+      "target": "Scammer: Hé, je hebt hier al {0}. Daar valt geen geld of leuk verhaal uit te halen.",
+      "targetSha256": "72df7aa0777720fa7e933502beeeaf1c53d099193a4753d268ba18d5b40c6808",
+      "deltaRow": 117,
+      "findingId": "NL-IR02-022",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Scammer: Hé, je hebt hier al gezelschap: {0}. Daar valt geen geld of leuk verhaal uit te halen.",
+      "proposedReplacementSha256": "b7cb407f719a8a5d423cf1603316a527049532eda41badf9d3aac9403babfdf4",
+      "consumerBindings": [
+        {
+          "node": "Scammer_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Scammer_Entrance_Occupied_0145e70"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Scammer"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-182.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Cold_Entrance_Occupied_06babc2",
+      "nodeNames": [
+        "Cold_Entrance_Occupied"
+      ],
+      "ordinal": 2387,
+      "source": "Cold: Спасибо… А, у тебя уже тут кто-то есть. Я не зайду, пока здесь {0}.",
+      "sourceSha256": "0e309f4a4b3dc0c6bcd42a7cee2abde3cc90f64e24102cccc79f6f5c7d0feee7",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457173803015",
+      "target": "Cold: Bedankt… O, er is hier al iemand. Ik kom niet binnen zolang {0} hier is.",
+      "targetSha256": "4091a48a91f8a1bd44670a5a8039801b891e6dcc55748e4e7806164ac53e384d",
+      "deltaRow": 120,
+      "findingId": "NL-IR02-023",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Cold: Bedankt… O, er is hier al iemand. Ik kom niet binnen zolang dit gezelschap hier is: {0}.",
+      "proposedReplacementSha256": "71bfff754c50528d84936e1ed01612f79ac0145967a4a2133519d4377eedb89e",
+      "consumerBindings": [
+        {
+          "node": "Cold_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Cold_Entrance_Occupied_06babc2"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Cold"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-250.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Esenin_Entrance_Occupied_0c50315",
+      "nodeNames": [
+        "Esenin_Entrance_Occupied"
+      ],
+      "ordinal": 2393,
+      "source": "Esenin: Пусть сперва свалит {0}, потом поговорим.",
+      "sourceSha256": "ba3920f64dbbbfd9c6de118ccff4ca28931dba9634d6ece91c1359af7aedc940",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457173803009",
+      "target": "Esenin: Laat {0} eerst oprotten, dan praten we verder.",
+      "targetSha256": "c69525b33ebdf06c4e8f9f40dfdc120ef6cd2e4019b9f59bf1f11ce0a694335a",
+      "deltaRow": 123,
+      "findingId": "NL-IR02-024",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Esenin: Laat die hier eerst oprotten: {0}. Dan praten we verder.",
+      "proposedReplacementSha256": "6d503b2a1cd3c36a7e381c5d5412f73917045d524b0864f728686090e1a3e43e",
+      "consumerBindings": [
+        {
+          "node": "Esenin_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Esenin_Entrance_Occupied_0c50315"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Esenin"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-049.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Fanatic_Entrance_Occupied_01deafb",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ],
+      "ordinal": 2415,
+      "source": "Fanatic: Человек! СОЛНЦЕ велит не входить, покуда в доме таится {0}.",
+      "sourceSha256": "9f06351c2454dc819ddd91a8e0c9fe33e48fe8881bb98d4dd508fa86912567b0",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414403",
+      "target": "Fanatic: Mens! De ZON gebiedt me niet binnen te gaan zolang {0} zich in je huis schuilhoudt.",
+      "targetSha256": "24c3a4c629cc68cf1c525dc6f07a1dfade4de2e4fb75682b846d64e006f8af15",
+      "deltaRow": 132,
+      "findingId": "NL-IR02-025",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Fanatic: Mens! De ZON gebiedt me niet binnen te gaan zolang dit gezelschap zich in je huis schuilhoudt: {0}.",
+      "proposedReplacementSha256": "bd842ab1284c91c2130d78a9c2e4a13dfa9a492bfeeec136a9583341e48aae7b",
+      "consumerBindings": [
+        {
+          "node": "Fan_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Fanatic_Entrance_Occupied_01deafb"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Fan"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-097.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Luka_Entrance_Occupied_0cee69b",
+      "nodeNames": [
+        "Luka_Entrance_Occupied"
+      ],
+      "ordinal": 2434,
+      "source": "Luka: С удовольствием вошёл бы, но сейчас там {0}.",
+      "sourceSha256": "06dec514b8624800396ac6dfc7bf8627fbbb0c2196392602d901ac7d4355c71c",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025800",
+      "target": "Luka: Ik zou graag binnenkomen, maar op dit moment is {0} daar.",
+      "targetSha256": "f2eb56b46c921d0f05e9c8102c5ef52670770a8820cb2f5751d663cd83365f93",
+      "deltaRow": 136,
+      "findingId": "NL-IR02-026",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Luka: Ik zou graag binnenkomen, maar kijk wie daar op dit moment is: {0}.",
+      "proposedReplacementSha256": "5f0c784c7b9b0b049eeb5b592dcf680973c3c353efc38b1b0b15648e78c33fe9",
+      "consumerBindings": [
+        {
+          "node": "Luka_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Luka_Entrance_Occupied_0cee69b"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Luka"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-280.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Couple_Entrance_Occupied_03995e6",
+      "nodeNames": [
+        "Couple_Entrance_Occupied"
+      ],
+      "ordinal": 2444,
+      "source": "Couple: Ох, мне, конечно, очень неудобно вас напрягать, но мы не сможем жить, когда рядом {0}…",
+      "sourceSha256": "3d9952e82a6b15da40e28e9efa98b87224e50b5568c8eae881c9628b623db027",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457152831498",
+      "target": "Couple: O, ik vind het heel vervelend om u hiermee lastig te vallen, maar we kunnen niet samenleven met {0} in de buurt…",
+      "targetSha256": "8779e4c6657ced8d274db7397af3bbd593f1e30ad2f75025461cfdf89d8cdc14",
+      "deltaRow": 139,
+      "findingId": "NL-IR02-027",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Couple: O, ik vind het heel vervelend om u hiermee lastig te vallen, maar we kunnen niet samenleven met dit gezelschap in de buurt: {0}…",
+      "proposedReplacementSha256": "c6e77b1591fa408ab5304969135c72fbe178dc5fe1d1427ec263a1ca2a46047d",
+      "consumerBindings": [
+        {
+          "node": "Couple_Entrance_Occupied",
+          "instructionIndex": 6,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Couple_Entrance_Occupied_03995e6"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Couple"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-211.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Anger_Entrance_Occupied_0ed7227",
+      "nodeNames": [
+        "Anger_Entrance_Occupied"
+      ],
+      "ordinal": 2456,
+      "source": "Anger: У тебя тут {0}?",
+      "sourceSha256": "e58d7042a25e51cd128e09499e6746f5d45cf7101936e6fa37b7e812509e6513",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+      "target": "Anger: Is {0} hier bij jou?",
+      "targetSha256": "b154ac76a15b9225e95bb49d018298907a9cb4aa74eb39e6efa1a22418532910",
+      "deltaRow": 144,
+      "findingId": "NL-IR02-028",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Anger: Wie is hier bij jou — {0}?",
+      "proposedReplacementSha256": "bb17b9ef5ffe37a65e690ed7b959fe0f35a5fa33e1d85ce78654c30ca6beb6be",
+      "consumerBindings": [
+        {
+          "node": "Anger_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Anger_Entrance_Occupied_0ed7227"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Anger"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-195.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Ballerina_Entrance_Occupied_0a88b7b",
+      "nodeNames": [
+        "Ballerina_Entrance_Occupied"
+      ],
+      "ordinal": 2473,
+      "source": "Ballerina: У тебя есть {0}?",
+      "sourceSha256": "0b906494728144019985de6cda7641d511232eebe8961e519bb181b9360532ec",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+      "target": "Ballerina: Heb je {0}?",
+      "targetSha256": "2eb58a51292f6adba06c41197eaa88b9d23be1fa74e0f08aa5f42a64f21e5c42",
+      "deltaRow": 148,
+      "findingId": "NL-IR02-029",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Ballerina: Wie heb je in huis — {0}?",
+      "proposedReplacementSha256": "c18b8ab22714d544c00c20aaad766be2b2a071a6466594a3ac834573d3045b3a",
+      "consumerBindings": [
+        {
+          "node": "Ballerina_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Ballerina_Entrance_Occupied_0a88b7b"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Ballerina"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-231.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Teacher_Entrance_Occupied_0183941",
+      "nodeNames": [
+        "Teacher_Entrance_Occupied"
+      ],
+      "ordinal": 2481,
+      "source": "Teacher: Простите, я вижу, у вас тут {0}?",
+      "sourceSha256": "2ccd3c53aa45587d7c2d9e90e815f673a5e9157266212fe016dda2cc3d17f78f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457140248585",
+      "target": "Teacher: Neem me niet kwalijk, maar is {0} hier bij u?",
+      "targetSha256": "c580261383e74d222d642c9214ee7c451c1c4a9fba1abe3722f50a08ccdeedb4",
+      "deltaRow": 154,
+      "findingId": "NL-IR02-030",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Teacher: Neem me niet kwalijk, ik zie wie hier bij u is — {0}?",
+      "proposedReplacementSha256": "9644466c3686560dd4aacab663c0066ccff6862114186da052fef7bb04d65629",
+      "consumerBindings": [
+        {
+          "node": "Teacher_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Teacher_Entrance_Occupied_0183941"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Teacher"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-155.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Blind_Entrance_Occupied_0fedfcd",
+      "nodeNames": [
+        "Blind_Entrance_Occupied"
+      ],
+      "ordinal": 2501,
+      "source": "Blind: Я чувствую, что у тебя здесь {0}. Что-то не так с этим человеком.",
+      "sourceSha256": "a4803b196e8b7f907bab9bc566e1a55dcfe4991ab343efd01ac101099555f533",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457136054274",
+      "target": "Blind: Ik voel dat {0} hier bij je is. Er klopt iets niet aan die persoon.",
+      "targetSha256": "cc7d5b031aa98e3b16bf253803d686a4e5a5d7f056dd7a55f0351455f22a78ad",
+      "deltaRow": 163,
+      "findingId": "NL-IR02-031",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Blind: Ik voel wie hier bij je is: {0}. Er klopt iets niet aan die persoon.",
+      "proposedReplacementSha256": "dfe0919104756726fc2661971be29f6d958867873bd936fbd9d5df5088db75be",
+      "consumerBindings": [
+        {
+          "node": "Blind_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Blind_Entrance_Occupied_0fedfcd"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Blind"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-270.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "mandatory-regressions"
+      ],
+      "key": "line:Fatman_Entrance_Occupied_0b49840",
+      "nodeNames": [
+        "Fatman_Entrance_Occupied"
+      ],
+      "ordinal": 2508,
+      "source": "Fatman: Я лучше тебе что-нибудь подгоню, чтобы ты… их своей пушкой… того-этого!",
+      "sourceSha256": "a9b8feccf70829a2be9578a0697910ddda3c4a3885d063010212e55f09f32e1e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859974",
+      "target": "Fatman: Ik geef je liever iets waarmee je… ze met je geweer… je weet wel!",
+      "targetSha256": "11780a1d034d79952c7c92fd71f0173987d1a438b6bf9f863d8f95b406098275",
+      "deltaRow": 165,
+      "findingId": "NL-IR02-032",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "The source offers to give the player something so that the player shoots the occupants with the player’s gun. waarmee makes the offered object the means used to shoot, changing the offered inducement into a shooting tool. Preserve purpose with zodat and every pause/referent.",
+      "concept": "bribe-versus-tool",
+      "proposedReplacement": "Fatman: Ik geef je liever iets, zodat je… ze met je geweer… je weet wel!",
+      "proposedReplacementSha256": "7b787f2d932b9970ef63c433ca17d0c6e2a9100d274767867b40d0fb119ae87d",
+      "consumerBindings": [
+        {
+          "node": "Fatman_Entrance_Occupied",
+          "instructionIndex": 4,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Fatman_Entrance_Occupied_0b49840"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  0.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "line:Fatman_Entrance_Occupied_0be05e8"
+                  ]
+                ]
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-270.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Fatman_Entrance_Occupied_0be05e8",
+      "nodeNames": [
+        "Fatman_Entrance_Occupied"
+      ],
+      "ordinal": 2509,
+      "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+      "sourceSha256": "17c1061e8c67356041b3e14b5ed8ddccd2099786e59e6f5d76534124bc4ec662",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+      "target": "Fatman: Verdomme, je hebt hier… {0}. Jaag die de deur uit! Ik ben niet klaar om… voor een bad te vechten.",
+      "targetSha256": "fa5d54a27a456c670c59eb4cf3fd361b8376b9c776b128b7951e60149677eaa4",
+      "deltaRow": 166,
+      "findingId": "NL-IR02-033",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Fatman: Verdomme, je hebt hier gezelschap… {0}. Jaag die de deur uit! Ik ben niet klaar om… voor een bad te vechten.",
+      "proposedReplacementSha256": "3364cc9ae5407f3f532a0d8a33799272d6707874163630ed6ec28a5dd2060def",
+      "consumerBindings": [
+        {
+          "node": "Fatman_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Fatman_Entrance_Occupied_0be05e8"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Fatman"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-203.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "glossary-referents",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Buddy_Entrance_Occupied_0900d8b",
+      "nodeNames": [
+        "Buddy_Entrance_Occupied"
+      ],
+      "ordinal": 2514,
+      "source": "Buddy: О-о, корешок, гляжу у тебя уже {0} греет местечко.",
+      "sourceSha256": "f0e11821508aac1f663ddf1e14f82ac3a4c4772276f03f888c5bbd976685f1eb",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859968",
+      "target": "Buddy: O, maatje, ik zie dat {0} bij jou al een plekje warmhoudt.",
+      "targetSha256": "60b84557afc10a78c54dddddcacef47831a7fe4967905a6a1da182d91b5857e4",
+      "deltaRow": 169,
+      "findingId": "NL-IR02-034",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Buddy: O, maatje, ik zie wie bij jou al een plekje warmhoudt: {0}.",
+      "proposedReplacementSha256": "140a5b74db761d349698f25d19874998b9379155b1d3f7f8d9af35f1480462b0",
+      "consumerBindings": [
+        {
+          "node": "Buddy_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Buddy_Entrance_Occupied_0900d8b"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Buddy"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-227.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Bestson_Entrance_Occupied_0309a57",
+      "nodeNames": [
+        "Bestson_Entrance_Occupied"
+      ],
+      "ordinal": 2522,
+      "source": "Bestson: Я вижу, у тебя уже {0} на диване. Меня… ну… меня пугают такие мужчины.",
+      "sourceSha256": "386b5b0407b0d7574c2a40fb83e27b3494e9d768538f4f6a9ab441d26c64a60e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457127665668",
+      "target": "Bestson: Ik zie dat {0} al op je bank zit. Ik… nou… ik ben bang voor zulke mannen.",
+      "targetSha256": "7e2e3e2b652689f3e4f2c2bb89dee841fd349b08c384029f7f643b3840aa6eb3",
+      "deltaRow": 172,
+      "findingId": "NL-IR02-035",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Bestson: Ik zie wie er al op je bank zit: {0}. Ik… nou… ik ben bang voor zulke mannen.",
+      "proposedReplacementSha256": "f4d73c8fa5f9b5dcd67ec649374906d632c49a0c01555fd4b284b57c2104fd0f",
+      "consumerBindings": [
+        {
+          "node": "Bestson_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Bestson_Entrance_Occupied_0309a57"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Bestson"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-085.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Fugitive_Entrance_Occupied_02bb908",
+      "nodeNames": [
+        "Fugitive_Entrance_Occupied"
+      ],
+      "ordinal": 2533,
+      "source": "Fugitive: Не могу… Приятель, я, бывало, на таких людей натыкался. У тебя вот в доме  {0}.",
+      "sourceSha256": "c048c717547c035e0fe81f92fe9bc4c0b9bbe5853ea7280046009b285c47929e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471364",
+      "target": "Fugitive: Dat kan ik niet… Vriend, ik ben zulke mensen wel eens tegengekomen. Bij jou woont  {0}.",
+      "targetSha256": "c888816c0cb0c127f14e5b64f01d479a48dd351feea1c02126a68a84813d3fe4",
+      "deltaRow": 176,
+      "findingId": "NL-IR02-036",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Fugitive: Dat kan ik niet… Vriend, ik ben zulke mensen wel eens tegengekomen. Kijk wie bij jou in huis woont: {0}.",
+      "proposedReplacementSha256": "0e368360601bb6d87270f812eae41884642cfc7ba97293c6a997f79b94e11044",
+      "consumerBindings": [
+        {
+          "node": "Fugitive_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Fugitive_Entrance_Occupied_02bb908"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Fugitive"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-167.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Nun_Entrance_Occupied_08f7764",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "ordinal": 2543,
+      "source": "Nun: Так, кто это тут у вас — {0}.",
+      "sourceSha256": "d034a948c95e08ce3c41fb9baa7673dd4e93406e82ddf56f5f69163f842e354e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277062",
+      "target": "Nun: Zo, wie hebt u hier wonen? {0}.",
+      "targetSha256": "3110e65bc432834999da87862a5071578dfb9d952943c7ec3839045956923155",
+      "deltaRow": 180,
+      "findingId": "NL-IR02-037",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "The source introduces the queried occupant with an em dash. The target separates the lower-case runtime label into a new sentence after the question; restore its syntactic connection to the identity question.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Nun: Zo, wie hebt u hier wonen — {0}?",
+      "proposedReplacementSha256": "fcea0c0d66f6c18b0717578a59cef072e075750b9d2bc2c11bd5034a55a7b33b",
+      "consumerBindings": [
+        {
+          "node": "Nun_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Nun_Entrance_Occupied_08f7764"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Nun"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-158.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Raskolnikov_Entrance_Occupied_0729667",
+      "nodeNames": [
+        "Raskolnikov_Entrance_Occupied"
+      ],
+      "ordinal": 2553,
+      "source": "Raskolnikov: Ты прости, я не хочу показаться грубым, но у тебя уже {0}.",
+      "sourceSha256": "242329cfe9226bdc3602bb7cb5a4bd0c1eff9a4e952dc51222994553afd6ff78",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082760",
+      "target": "Raskolnikov: Neem me niet kwalijk, ik wil niet onbeleefd klinken, maar je hebt al {0}.",
+      "targetSha256": "228227412a526e9a4ae0daf8c20ce7eeb0d9a1ba5621a0ed8b82e23c70d9ec29",
+      "deltaRow": 183,
+      "findingId": "NL-IR02-038",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent.",
+      "concept": "dynamic-occupant",
+      "proposedReplacement": "Raskolnikov: Neem me niet kwalijk, ik wil niet onbeleefd klinken, maar je hebt al gezelschap: {0}.",
+      "proposedReplacementSha256": "8cc034e4d627ed12af5a53d9ee6980049e03968d3d0dd5a0cd848af5718a3c91",
+      "consumerBindings": [
+        {
+          "node": "Raskolnikov_Entrance_Occupied",
+          "instructionIndex": 3,
+          "instruction": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              [
+                [
+                  1,
+                  "line:Raskolnikov_Entrance_Occupied_0729667"
+                ]
+              ]
+            ],
+            [
+              2,
+              [
+                [
+                  3,
+                  1.0
+                ]
+              ]
+            ]
+          ],
+          "precedingInstructions": [
+            [
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "Raskolnikov"
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                [
+                  [
+                    3,
+                    1.0
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                [
+                  [
+                    1,
+                    "GetCharacterOnPlace"
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-173.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Twins_Entrance_Occupied_0880fa9",
+      "nodeNames": [],
+      "ordinal": 4613,
+      "source": "Twins: Пожалуй, нет, здесь {0}.",
+      "sourceSha256": "19a44cf8351b2b267786f9cf414aa557d14e2b23610977edaad54bcbf85acf4f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "target": "Twins: Ik denk het niet, {0} is hier.",
+      "targetSha256": "0128e8abbc500d86c7f3a59af15173c67e9e500f3342d42058f91f6aba5a19f9",
+      "deltaRow": 207,
+      "findingId": "NL-IR02-039",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent. Exact accepted key is absent from the pinned compiled program; this text finding does not establish live reachability or its actual consumer.",
+      "concept": "dynamic-occupant-unbound",
+      "proposedReplacement": "Twins: Ik denk het niet. Kijk wie hier is: {0}.",
+      "proposedReplacementSha256": "7578bc4da2be63474114a6bda939b9af3a03dd4f84e3e77997e9b017ad8677dd",
+      "consumerBindings": [],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    },
+    {
+      "authoredPath": "Translations/nl/dialogue-batch-211.json",
+      "collection": "Dialogs",
+      "components": [
+        "context",
+        "runtime-bindings",
+        "mandatory-regressions"
+      ],
+      "key": "line:Anger_Entrance_Occupied_076f124",
+      "nodeNames": [],
+      "ordinal": 4653,
+      "source": "Anger: ...Ага. Понятно. Здесь уже {0}. Я только глянул — и сразу ясно: все тут тихо дышат, прогибаются, лишь бы не тронули. Таких я не переношу.",
+      "sourceSha256": "6897327f8e77fb8ee0f5c202a0865d59e5c4d2ce70d8a1e96135e2122b98189a",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079553",
+      "target": "Anger: ...Aha. Duidelijk. {0} is hier al. Eén blik was genoeg: iedereen hier houdt zich stil en kruipt voor een ander, als ze maar met rust worden gelaten. Zulke mensen kan ik niet uitstaan.",
+      "targetSha256": "edd6dc3bbb722c62ea64ebe1baab1d8fd683e04dc667383648777b4c2166cf43",
+      "deltaRow": 217,
+      "findingId": "NL-IR02-040",
+      "decision": "objective correction proposed; author adjudication required",
+      "reason": "GetCharacterOnPlace returns the exact article-free UI characterName_<enum> label. In this sentence the inserted singular descriptive label is used as a complete noun phrase without its required determiner (and bare plural labels must not be forced into singular agreement). Introduce the exact label separately while retaining the source facts and referent. Exact accepted key is absent from the pinned compiled program; this text finding does not establish live reachability or its actual consumer.",
+      "concept": "dynamic-occupant-unbound",
+      "proposedReplacement": "Anger: ...Aha. Duidelijk. Kijk wie hier al is: {0}. Eén blik was genoeg: iedereen hier houdt zich stil en kruipt voor een ander, als ze maar met rust worden gelaten. Zulke mensen kan ik niet uitstaan.",
+      "proposedReplacementSha256": "7d42ee4c3ed25ce65a973b6153d200c7a1c807409b40537d3811d70a3a378d5e",
+      "consumerBindings": [],
+      "protectedSyntaxPreflight": "passed shared preserve_exact.check_value on full unit"
+    }
+  ]
+}

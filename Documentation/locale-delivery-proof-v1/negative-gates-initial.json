@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "results": [
+    {
+      "case": "incomplete actual corpus",
+      "result": "rejected",
+      "reason": "Incomplete accepted target coverage",
+      "dependencies": "real parser/source/glossary/selected IDs/exact rules; corpus directory replaced"
+    },
+    {
+      "case": "stale",
+      "result": "rejected before output creation",
+      "reason": "Duplicate or stale pinned input: Translations/nl/checks-batch-001.json",
+      "dependencies": "real acceptance/text loader; only exact receipt condition changed with matching acceptance receipt hash"
+    },
+    {
+      "case": "incomplete-report",
+      "result": "rejected before output creation",
+      "reason": "Authored input set changed after exact/semantic gate",
+      "dependencies": "real acceptance/text loader; only exact receipt condition changed with matching acceptance receipt hash"
+    },
+    {
+      "case": "matching positive control",
+      "result": "passed real acceptance preflight",
+      "authoredFiles": 335,
+      "dependencies": "current canonical corpus/evidence, original accepted receipt"
+    }
+  ],
+  "inputModuleSha256": "ca8d6c5b062155611db4c52c4a6467ec6453689df29fffacb731aad53d5d678c",
+  "builderSha256": "1170a513f909e5c31f80ae4605da52cda48b7de5869e234d1dc3187844773290",
+  "runtime": "not-run"
+}

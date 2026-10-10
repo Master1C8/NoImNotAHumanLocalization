@@ -1,0 +1,33 @@
+{
+  "verdict": "clean independent 40-ID text delta on unchanged pins",
+  "findings": [],
+  "objectiveTextFindings": 0,
+  "sourceRuntimeLimits": [
+    {
+      "consumerStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375810",
+      "character": "Neighbour",
+      "expectedKey": "characterName_Neighbour"
+    },
+    {
+      "consumerStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "character": "Alkonost",
+      "expectedKey": "characterName_Alkonost"
+    },
+    {
+      "consumerStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+      "character": "Twins",
+      "expectedKey": "characterName_Twins"
+    },
+    {
+      "consumerStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457136054274",
+      "character": "Neighbour",
+      "expectedKey": "characterName_Neighbour"
+    },
+    {
+      "consumerStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082760",
+      "character": "Alkonost",
+      "expectedKey": "characterName_Alkonost"
+    }
+  ],
+  "sourceLimitClassification": "exact getter-key candidates are static place-compatible only; missing key observations are baseline runtime questions, not newly introduced Dutch defects or proof of reachable failure"
+}
