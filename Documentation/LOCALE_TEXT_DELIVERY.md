@@ -73,6 +73,15 @@ evidence remain separate. Running one old CLI per batch repeatedly parses the
 not start additional validator pools; reconcile exact owned jobs before changing
 their execution strategy or stopping redundant local processes.
 
+When generating review applicability tables, compute each immutable evidence
+file's digest once before the row loop and reuse that exact digest. Recheck the
+complete input pin set immediately before sealing. A 7,848-row review exposed
+full prior-decision and mandatory-catalog files being hashed for each row; this
+added repeated I/O without strengthening the proof. Regression scenario: 7,425
+reused decisions must reference one identical prior-file digest computed once
+for generation, while the final pin recheck still rejects any changed input.
+Preserve a live sealer's execution version; apply this recipe to the next run.
+
 ## Verified boundaries
 
 `Documentation/locale-delivery-proof-v1/` preserves the initial delivery evidence:
