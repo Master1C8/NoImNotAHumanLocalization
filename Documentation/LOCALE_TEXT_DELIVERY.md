@@ -103,3 +103,25 @@ passes and is then renamed; writing the separate archive receipt is a later
 operation. No original game/saves, installation, publication or deployment are
 part of these commands. Source and artifact pins are rechecked before acceptance
 and at package read-back; a missing source mount is an environment prerequisite.
+
+## Complete delivery reconciliation
+
+After all thirteen source/evidence changes are committed on `main`, run:
+
+```sh
+.venv/bin/python Scripts/audit_locale_deliveries.py --output Documentation/locale-final-delivery-audit-v1.json
+```
+
+The audit verifies current accepted inputs, the committed authored/evidence
+blobs, source and tool hashes, all actual package artifacts and every ZIP member.
+It reuses serialized field comparisons only on their exact unchanged bindings.
+It also checks the original Thai archive, original game build inputs and pinned
+positive/negative build-gate evidence. This is an offline reconciliation;
+runtime, installation, rendering and linguistic rereads are not newly performed.
+Use a new receipt path after any failed or completed invocation.
+
+When generating Python through a JavaScript tool call, preserve heredoc escapes
+with `String.raw`, or use `apply_patch` for durable source. Check the write's
+actual exit status before launching a dependent job. Regression: a converted
+`\n` inside a Python string causes a syntax error; that failed preparation must
+not launch an acceptance/build job against a missing handoff.
