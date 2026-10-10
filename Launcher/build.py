@@ -6,6 +6,22 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE=Path('/Users/antonkrutov/Desktop/StardewTranslationInstaller')
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def run(args, **kw): subprocess.run([str(x) for x in args],check=True,**kw)
+def resource(kind, ident, data):
+    header=struct.pack('<IIHHHHIHHII',len(data),32,65535,kind,65535,ident,0,0x30,0x409,0,0)
+    return header+data+b'\0'*((-len(data))%4)
+def windows_resources():
+    result=struct.pack('<IIHHHHIHHII',0,32,65535,0,65535,0,0,0,0,0,0)
+    result+=resource(24,1,(ROOT/'Launcher/Windows.manifest').read_bytes())
+    ico=(ROOT/'Launcher/Icons/Game.ico').read_bytes()
+    reserved,kind,count=struct.unpack_from('<HHH',ico)
+    assert (reserved,kind)==(0,1) and count>0, 'Game icon must be a Windows ICO'
+    group=struct.pack('<HHH',0,1,count)
+    for i in range(count):
+        w,h,colors,reserved,planes,bits,size,offset=struct.unpack_from('<BBBBHHII',ico,6+16*i)
+        assert offset>=6+16*count and offset+size<=len(ico)
+        result+=resource(3,i+1,ico[offset:offset+size])
+        group+=struct.pack('<BBBBHHIH',w,h,colors,reserved,planes,bits,size,i+1)
+    return result+resource(14,1,group)
 def build(payload,out,zig):
     assert payload.is_relative_to(ROOT/'outputs') and out.is_relative_to(ROOT/'outputs')
     assert not out.exists(), 'Use a new versioned build directory'
@@ -19,10 +35,7 @@ def build(payload,out,zig):
     c=[ROOT/'Launcher/engine.c',ROOT/'Launcher/vendor/zstd/zstddeclib.c']
     win=out/'No Human Launcher Windows';(win/'Resources').mkdir(parents=True)
     # Standard Microsoft .res header avoids an extra host resource compiler.
-    manifest=(ROOT/'Launcher/Windows.manifest').read_bytes()
-    null=struct.pack('<IIHHHHIHHII',0,32,65535,0,65535,0,0,0,0,0,0)
-    header=struct.pack('<IIHHHHIHHII',len(manifest),32,65535,24,65535,1,0,0x30,0x409,0,0)
-    (out/'Windows.res').write_bytes(null+header+manifest+b'\0'*((-len(manifest))%4))
+    (out/'Windows.res').write_bytes(windows_resources())
     run([zig,'cc','-target','x86_64-windows-gnu',*flags,'-municode','-Wl,--subsystem,windows',ROOT/'Launcher/Windows.c',*c,out/'Windows.res','-lcomctl32','-lshell32','-lole32','-luuid','-lbcrypt','-ladvapi32','-lgdi32','-o',win/'No Human Launcher.exe'],env=env)
     pe=(win/'No Human Launcher.exe').read_bytes();header=struct.unpack_from('<I',pe,0x3c)[0]
     assert pe[header:header+4]==b'PE\0\0' and struct.unpack_from('<H',pe,header+24+68)[0]==2, 'Windows GUI subsystem required'
@@ -32,17 +45,23 @@ def build(payload,out,zig):
         run(['clang','-target',arch+'-apple-macos14',*flags,'-DNOHUMAN_CLI','-Wno-deprecated-declarations',*c,'-o',out/('engine-'+arch)])
         run(['swiftc','-parse-as-library','-O','-target',arch+'-apple-macos14','-module-cache-path','/private/tmp/nohuman-swift-cache',ROOT/'Launcher/macOS.swift','-o',out/('ui-'+arch)])
     for name,prefix in [('nohuman-engine','engine-'),('No Human Launcher','ui-')]:run(['lipo','-create',out/(prefix+'arm64'),out/(prefix+'x86_64'),'-output',mac/name])
-    shutil.copytree(payload,res/'Payload');shutil.copy(BASE/'App/App.icns',res/'App.icns')
-    info={'CFBundleName':'No Human Launcher','CFBundleDisplayName':'VN Revival — No, I’m not a Human','CFBundleExecutable':'No Human Launcher','CFBundleIdentifier':'fun.vnrevival.nohuman.launcher','CFBundleVersion':'1','CFBundleShortVersionString':'0.2.0','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'14.0','NSHighResolutionCapable':True,'CFBundleIconFile':'App.icns'}
+    shutil.copytree(payload,res/'Payload');shutil.copy(ROOT/'Launcher/Icons/Game.icns',res/'App.icns')
+    info={'CFBundleName':'No Human Launcher','CFBundleDisplayName':'VN Revival — No, I’m not a Human','CFBundleExecutable':'No Human Launcher','CFBundleIdentifier':'fun.vnrevival.nohuman.launcher','CFBundleVersion':'2','CFBundleShortVersionString':'0.2.0','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'14.0','NSHighResolutionCapable':True,'CFBundleIconFile':'App.icns'}
     (app/'Contents/Info.plist').write_bytes(plistlib.dumps(info))
     for destination in [res,win/'Resources']:
         shutil.copytree(ROOT/'Launcher/Licenses',destination/'Licenses')
         shutil.copy(ROOT/'Launcher/README.md',destination/'README.md')
+        locales=[line.split('\t')[0] for line in (payload/'locales.tsv').read_text().splitlines()]
+        provenance=json.loads((payload/'provenance.json').read_text())
+        assert len(set(locales))==len(locales) and set(locales)=={p['locale'] for p in provenance['reviewedProfiles']}
+        required=['Payload/'+line.split('\t')[0] for line in (payload/'inventory.tsv').read_text().splitlines()]+['Payload/inventory.tsv']
+        manifest={'schemaVersion':1,'gameSlug':'no-im-not-a-human','platform':'macos' if destination==res else 'windows','releaseVersion':'0.2.0-preview','locales':{locale:{'requiredPaths':required} for locale in locales}}
+        (destination/'vnrevival-locales.json').write_text(json.dumps(manifest,indent=2)+'\n')
     run(['codesign','--force','--deep','--sign','-',app]);run(['codesign','--verify','--deep','--strict',app])
     # Delivery archives are generated only after compilation and signature validation.
     archives={}
     for platform,folder in [('macOS',app),('Windows',win)]:
-        target=out/('NoHuman-Launcher-'+platform+'-preview-v2.zip')
+        target=out/('NoHuman-Launcher-'+platform+'-preview-v4.zip')
         if platform=='macOS':run(['ditto','-c','-k','--sequesterRsrc','--keepParent',folder,target])
         else:
             with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:

@@ -6,6 +6,8 @@ Requires installed game version 1.3.19, build GUID `c003ddc7de634775a85305fef3b9
 
 Languages: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi, Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew.
 
+The archives include `vnrevival-locales.json` for the site's locale audit. Each declared language comes from the pinned reviewed profile inventory and references the shared compressed payload. The launcher uses the installed game's original icon on each platform.
+
 This preview combines the exact frozen translations used for six-scene visual QA (`outputs/six-scenes-all-locales-v8/batch.json`) with the verified native 32-locale catalog and shared fonts. It excludes the subsequent Foreigner/radio mechanics changes and does not imply full-game linguistic acceptance. A native static-text adapter follows the game's selected locale for the 178 serialized static fields, preserves gameplay's dynamic replacements, and retains the original text for original locales. The Hindi and Hebrew bindings are combined from their exact reviewed renderer sources. The verified version-bound interop cache is bundled for first launch. Generation-only Unity base libraries are omitted; automatic regeneration is disabled because this installer accepts only the exact game and metadata hashes. GameAssembly and IL2CPP metadata hashes are checked before installation.
 
 ## Adaptation and provenance
