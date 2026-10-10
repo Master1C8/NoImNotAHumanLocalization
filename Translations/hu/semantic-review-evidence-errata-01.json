@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "auditKind": "primary semantic evidence erratum",
+  "oldHashes": {
+    "segmentSha256": "b85fa77a1edce47237a51f6ecb59e696111c71508c467d83bc12a678b77a8efe",
+    "correctionBatchSha256": "e5474b044c218c529e27556ce9a83bcf7ca4e772358872694563af5e0d95844d",
+    "progressSha256": "16ef65a0c884e3b1fdb58e0d03e655f074ccee3e8dfef9df55e11463424dc724",
+    "documentationSha256": "37ef425a908eee58ca5325404c2a053b93c2af56f057f5be29ad18040334395a"
+  },
+  "changes": [
+    {
+      "findingIndex": 0,
+      "reason": "Evidence association error: semantic reason and proposed target belong to the adjacent accepted source row named in context, while recorded stable ID/source/current target belonged to a different row.",
+      "oldOrdinal": 197,
+      "newOrdinal": 120,
+      "oldFinding": {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85988737455738880",
+        "reason": "The Russian «раций» means two-way radios or walkie-talkies; «rádiókról» broadens it to ordinary radios in the handwritten radio note.",
+        "proposedTarget": "leszedtem az adóvevőkről a hullámblokkolót\nmenjenek a picsába!",
+        "context": "radio_instruction_pencil; keep the first-person scribble, profanity, and exact newline",
+        "source": "блять теперь не работает",
+        "currentTarget": "bassza meg, most már nem működik",
+        "authoredFile": "Translations/hu/ui-batch-003.json",
+        "authoredFileSha256": "280776dc7e05622aa2ed9cc402e9067c20fd62d8de4e141fa023c2900170cfd8"
+      },
+      "correctedFinding": {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+        "reason": "The Russian «раций» means two-way radios or walkie-talkies; «rádiókról» broadens it to ordinary radios in the handwritten radio note.",
+        "proposedTarget": "leszedtem az adóvevőkről a hullámblokkolót\nmenjenek a picsába!",
+        "context": "radio_instruction_pencil; keep the first-person scribble, profanity, and exact newline",
+        "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+        "currentTarget": "leszedtem a rádiókról a hullámblokkolót\nmenjenek a picsába!",
+        "authoredFile": "Translations/hu/ui-batch-002.json",
+        "authoredFileSha256": "3fe99abe561352ad793468aa24751d47557f10e29ef57620eb83d0d6e2477a98"
+      }
+    },
+    {
+      "findingIndex": 1,
+      "reason": "Evidence association error: semantic reason and proposed target belong to the adjacent accepted source row named in context, while recorded stable ID/source/current target belonged to a different row.",
+      "oldOrdinal": 195,
+      "newOrdinal": 194,
+      "oldFinding": {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499734798880768",
+        "reason": "Russian «Празднования» is plural, whereas «ünnepe» is singular in this calendar-day label.",
+        "proposedTarget": "A nyár búcsúztatásának ünnepségei",
+        "context": "calendar_day_12; preserve plural event count",
+        "source": "День ",
+        "currentTarget": "Nap ",
+        "authoredFile": "Translations/hu/ui-batch-005.json",
+        "authoredFileSha256": "b4dda740c06392e4d68c5c9f4e8f91820998e8cc8a5bf8a6857c02525207ccb5"
+      },
+      "correctedFinding": {
+        "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499724829020160",
+        "reason": "Russian «Празднования» is plural, whereas «ünnepe» is singular in this calendar-day label.",
+        "proposedTarget": "A nyár búcsúztatásának ünnepségei",
+        "context": "calendar_day_12; preserve plural event count",
+        "source": "Празднования ухода лета",
+        "currentTarget": "A nyár búcsúztatásának ünnepe",
+        "authoredFile": "Translations/hu/ui-batch-003.json",
+        "authoredFileSha256": "280776dc7e05622aa2ed9cc402e9067c20fd62d8de4e141fa023c2900170cfd8"
+      }
+    }
+  ],
+  "newSegmentSha256": "e44e1dcef453f64c7cc79b5fd015d0a31d290d6d1543777cc3ca5b826c1ffff5",
+  "newCorrectionBatchSha256": "4e1a203bce4a88fdd0b4e6a88a1762806ba2aa413ddd59a5a8b5482b849d3acc",
+  "authoredTextChanged": false,
+  "reviewedUnitCountChanged": false
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    11680,
+    12479
+  ],
+  "findingGroups": 11,
+  "affectedUnits": 15,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0145",
+      "objectiveReason": "грабил is robbed people, and his nearby 11761 line distinguishes воровал (stole) from грабил (robbed). Nilikuwa naiba collapses the robbery into ordinary theft in the ex-convict's account.",
+      "affected": [
+        {
+          "sourceIndex": 11707,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453881274373",
+          "key": "line:Experienced_Photo_Gun_0b93be7",
+          "source": "Experienced: Я ж просто грабил, да и отсидел уже своё — вышел недавно.",
+          "currentTarget": "Experienced: Nilikuwa naiba tu, na nilishatumikia kifungo changu. Nimetoka hivi karibuni.",
+          "proposedTarget": "Experienced: Nilikuwa napora watu tu, na nilishatumikia kifungo changu. Nimetoka hivi karibuni.",
+          "authoredPath": "Translations/sw/dialogue-batch-148.json",
+          "authoredSha256": "18945604e29b594a5337ef61dd85f4d9230bf713e838e687db42d1bc480d328c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0146",
+      "objectiveReason": "Rocker refers to playing music with bandmates in the immediately preceding song line; kucheza naye says dancing or playing a game with someone and loses the band context.",
+      "affected": [
+        {
+          "sourceIndex": 11783,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453851914251",
+          "key": "line:Rocker_Ears_DontShoot_0304c10",
+          "source": "Rocker: Нашу… говорю так, будто есть с кем играть.",
+          "currentTarget": "Rocker: Wimbo wetu… naongea kana kwamba kuna mtu wa kucheza naye.",
+          "proposedTarget": "Rocker: Wimbo wetu… naongea kana kwamba kuna mtu wa kupiga muziki naye.",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0147",
+      "objectiveReason": "без крышки means the camera cap was off for this photograph. bila kufungua kifuniko says it was taken without opening the cap, reversing the condition discussed in 11824 after a dark photograph.",
+      "affected": [
+        {
+          "sourceIndex": 11802,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453847719940",
+          "key": "line:Rocker_Photo_Gun_020d5eb",
+          "source": "Rocker: А, это без крышки.",
+          "currentTarget": "Rocker: Aha, hii imepigwa bila kufungua kifuniko.",
+          "proposedTarget": "Rocker: Aha, kumbe kifuniko kilikuwa kimeondolewa.",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0148",
+      "objectiveReason": "The Unstable character describes hand cramps and twisting after too much caffeine: судороги/судорога and перекрутил. Degedege suggests a seizure, and nimeikaza says he clenched rather than twisted his hands, changing the physical symptom used in the hand inspection.",
+      "affected": [
+        {
+          "sourceIndex": 11901,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453809971211",
+          "key": "line:Unstable_Hands_Gun_033d669",
+          "source": "Unstable: Или судороги какой-то новый признак теперь?",
+          "currentTarget": "Unstable: Au degedege sasa ni dalili mpya?",
+          "proposedTarget": "Unstable: Au mikazo ya misuli sasa ni dalili mpya?",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        },
+        {
+          "sourceIndex": 11941,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388294",
+          "key": "line:Unstable_Hands_02c83eb",
+          "source": "Unstable: Хех, от избытка кофеина судорога началась.",
+          "currentTarget": "Unstable: Heh, kafeini nyingi imenisababishia degedege.",
+          "proposedTarget": "Unstable: Heh, kafeini nyingi imenisababishia mkazo wa misuli.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        },
+        {
+          "sourceIndex": 11942,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388293",
+          "key": "line:Unstable_Hands_0c988be",
+          "source": "Unstable: Как-то я их перекрутил.",
+          "currentTarget": "Unstable: Nimeikaza vibaya kwa namna fulani.",
+          "proposedTarget": "Unstable: Nimepinda mikono yangu vibaya kwa namna fulani.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0149",
+      "objectiveReason": "руки показать is the visitor agreeing to show his own hands in the hand-check branch; nionyeshe mikono commands the player to show their hands, reversing the speaker and examiner.",
+      "affected": [
+        {
+          "sourceIndex": 11946,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388289",
+          "key": "line:Unstable_Hands_0018bf5",
+          "source": "Unstable: Так-с, руки показать. Ну давай.",
+          "currentTarget": "Unstable: Basi, nionyeshe mikono. Sawa.",
+          "proposedTarget": "Unstable: Basi, nikuonyeshe mikono yangu. Sawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0150",
+      "objectiveReason": "яйца Гостям лижут is Jacob's deliberately obscene accusation that KHD lick the Visitors' testicles; sehemu za siri generalizes it to private parts and removes the concrete insult.",
+      "affected": [
+        {
+          "sourceIndex": 11979,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453784805376",
+          "key": "line:Jacob_Armpit_DontShoot_091facc",
+          "source": "Jacob: Может, они там ещё яйца Гостям лижут, чтобы новые признаки выявить?",
+          "currentTarget": "Jacob: Labda hata wanawalamba Wageni sehemu za siri ili kugundua dalili mpya?",
+          "proposedTarget": "Jacob: Labda hata wanalamba makende ya Wageni ili kugundua dalili mpya?",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0151",
+      "objectiveReason": "Я бессмертный is first person singular. Mimi hafi uses the third-person negative verb form (he/she does not die), making Jacob's repeated claim grammatically refer to someone else.",
+      "affected": [
+        {
+          "sourceIndex": 12010,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453772222466",
+          "key": "line:Jacob_Eyes_Gun_033bb62",
+          "source": "Jacob: Я бессмертный. Меня не убить.",
+          "currentTarget": "Jacob: Mimi hafi. Huwezi kuniua.",
+          "proposedTarget": "Jacob: Mimi siwezi kufa. Huwezi kuniua.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        },
+        {
+          "sourceIndex": 12015,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453768028168",
+          "key": "line:Jacob_Hands_Gun_0c5027b",
+          "source": "Jacob: Я-то бессмертный, но если нажмёшь на курок…",
+          "currentTarget": "Jacob: Mimi hafi, lakini ukivuta kifyatulio…",
+          "proposedTarget": "Jacob: Mimi siwezi kufa, lakini ukivuta kifyatulio…",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0152",
+      "objectiveReason": "Любуйся tells the player to look at/admire Jacob's armpits after the inspection; Jitazame tells the player to look at themself, reversing the object.",
+      "affected": [
+        {
+          "sourceIndex": 12036,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453759639560",
+          "key": "line:Jacob_Armpit_03b9e6e",
+          "source": "Jacob: Любуйся.",
+          "currentTarget": "Jacob: Jitazame.",
+          "proposedTarget": "Jacob: Haya, yatazame upendezwe.",
+          "authoredPath": "Translations/sw/dialogue-batch-151.json",
+          "authoredSha256": "661d73a6936bc640886c2ffefd87852eb8216053115a63a6e7c7320cb48a54fd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0153",
+      "objectiveReason": "The Daughter climbed the playground slide established at 12153, not a mountain; mlima relocates her story. The hyperbole also escalates from a whole sea to an ocean, but bahari kubwa kabisa repeats 'big sea' instead of naming the ocean.",
+      "affected": [
+        {
+          "sourceIndex": 12150,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453562507265",
+          "key": "line:Daughter_Eyes_DontShoot_030e054",
+          "source": "Daughter: И я так много туда поднималась, что готова была выпить целое море. Нет, океан!",
+          "currentTarget": "Daughter: Nilipanda mlima huo mara nyingi sana hata nilikuwa tayari kunywa bahari nzima. Hapana, bahari kubwa kabisa!",
+          "proposedTarget": "Daughter: Nilipanda slaidi hiyo mara nyingi sana hata nilikuwa tayari kunywa bahari nzima. Hapana, bahari kuu nzima!",
+          "authoredPath": "Translations/sw/dialogue-batch-151.json",
+          "authoredSha256": "661d73a6936bc640886c2ffefd87852eb8216053115a63a6e7c7320cb48a54fd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0154",
+      "objectiveReason": "маму is the Daughter's own mother, recalled through her father; mama yetu says 'our mother' to the player, inventing a shared parent.",
+      "affected": [
+        {
+          "sourceIndex": 12165,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453554118659",
+          "key": "line:Daughter_Hands_DontShoot_06cf86d",
+          "source": "Daughter: Папа говорит, что я такой красавицей уродилась в нашу маму!",
+          "currentTarget": "Daughter: Baba anasema nilizaliwa mrembo kama mama yetu!",
+          "proposedTarget": "Daughter: Baba anasema nilizaliwa mrembo kama mama yangu!",
+          "authoredPath": "Translations/sw/dialogue-batch-152.json",
+          "authoredSha256": "c96e541400bdf7a39cd9cc1a0c20bace528986f30c58b86156b7950841916fa3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0155",
+      "objectiveReason": "Иди-ка ты нахуй and иди нахуй are repeated blunt profane dismissals in Esenin's frightened, hostile scene. Nenda zako (plus jamani in one line) makes both ordinary requests to go away and removes the force of his register.",
+      "affected": [
+        {
+          "sourceIndex": 12205,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453533147139",
+          "key": "line:Esenin_Armpit_DontShoot_0337120",
+          "source": "Esenin: Иди-ка ты нахуй, а...",
+          "currentTarget": "Esenin: Nenda zako, jamani...",
+          "proposedTarget": "Esenin: Nenda kuzimu, a...",
+          "authoredPath": "Translations/sw/dialogue-batch-152.json",
+          "authoredSha256": "c96e541400bdf7a39cd9cc1a0c20bace528986f30c58b86156b7950841916fa3"
+        },
+        {
+          "sourceIndex": 12227,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453512175622",
+          "key": "line:Esenin_Teeth_DontShoot_0589293",
+          "source": "Esenin: Ну вот и иди нахуй.",
+          "currentTarget": "Esenin: Basi nenda zako.",
+          "proposedTarget": "Esenin: Basi nenda kuzimu.",
+          "authoredPath": "Translations/sw/dialogue-batch-152.json",
+          "authoredSha256": "c96e541400bdf7a39cd9cc1a0c20bace528986f30c58b86156b7950841916fa3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

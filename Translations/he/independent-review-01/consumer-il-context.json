@@ -1,0 +1,367 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "method": "GetLocalization",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "call",
+          "operand": "get_StringDatabase"
+        },
+        {
+          "offset": 17,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 18,
+          "opcode": "call",
+          "operand": "op_Implicit"
+        },
+        {
+          "offset": 23,
+          "opcode": "ldnull",
+          "operand": "None"
+        },
+        {
+          "offset": 24,
+          "opcode": "callvirt",
+          "operand": "GetTable"
+        },
+        {
+          "offset": 29,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 30,
+          "opcode": "callvirt",
+          "operand": "GetEntry"
+        },
+        {
+          "offset": 35,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 36,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 37,
+          "opcode": "brtrue.s",
+          "operand": "67"
+        },
+        {
+          "offset": 39,
+          "opcode": "ldstr",
+          "operand": "\"Can't find \""
+        },
+        {
+          "offset": 44,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 45,
+          "opcode": "ldstr",
+          "operand": "' in '"
+        },
+        {
+          "offset": 50,
+          "opcode": "ldarg.1",
+          "operand": "None"
+        },
+        {
+          "offset": 51,
+          "opcode": "call",
+          "operand": "Concat"
+        },
+        {
+          "offset": 56,
+          "opcode": "call",
+          "operand": "LogError"
+        },
+        {
+          "offset": 61,
+          "opcode": "ldstr",
+          "operand": "'-'"
+        },
+        {
+          "offset": 66,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 67,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 68,
+          "opcode": "callvirt",
+          "operand": "get_IsSmart"
+        },
+        {
+          "offset": 73,
+          "opcode": "brtrue.s",
+          "operand": "83"
+        },
+        {
+          "offset": 75,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 76,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 77,
+          "opcode": "callvirt",
+          "operand": "GetLocalizedString"
+        },
+        {
+          "offset": 82,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 83,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 84,
+          "opcode": "brfalse.s",
+          "operand": "90"
+        },
+        {
+          "offset": 86,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 87,
+          "opcode": "ldlen",
+          "operand": "None"
+        },
+        {
+          "offset": 88,
+          "opcode": "brtrue.s",
+          "operand": "97"
+        },
+        {
+          "offset": 90,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 91,
+          "opcode": "callvirt",
+          "operand": "GetLocalizedString"
+        },
+        {
+          "offset": 96,
+          "opcode": "ret",
+          "operand": "None"
+        },
+        {
+          "offset": 97,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 98,
+          "opcode": "ldarg.2",
+          "operand": "None"
+        },
+        {
+          "offset": 99,
+          "opcode": "callvirt",
+          "operand": "GetLocalizedString"
+        },
+        {
+          "offset": 104,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    {
+      "method": "GetCharacterOnPlace",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 17,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 18,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "opcode": "call",
+          "operand": "token(0x2B00030A)"
+        },
+        {
+          "offset": 26,
+          "opcode": "stfld",
+          "operand": "character"
+        },
+        {
+          "offset": 31,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 32,
+          "opcode": "ldsfld",
+          "operand": "_instance"
+        },
+        {
+          "offset": 37,
+          "opcode": "ldfld",
+          "operand": "_charactersSODataProvider"
+        },
+        {
+          "offset": 42,
+          "opcode": "callvirt",
+          "operand": "get_CharactersData"
+        },
+        {
+          "offset": 47,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 48,
+          "opcode": "ldftn",
+          "operand": "<GetCharacterOnPlace>b__0"
+        },
+        {
+          "offset": 54,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 59,
+          "opcode": "call",
+          "operand": "token(0x2B000191)"
+        },
+        {
+          "offset": 64,
+          "opcode": "stfld",
+          "operand": "characterData"
+        },
+        {
+          "offset": 69,
+          "opcode": "ldstr",
+          "operand": "'characterName_'"
+        },
+        {
+          "offset": 74,
+          "opcode": "ldsfld",
+          "operand": "_instance"
+        },
+        {
+          "offset": 79,
+          "opcode": "ldfld",
+          "operand": "_charactersManager"
+        },
+        {
+          "offset": 84,
+          "opcode": "callvirt",
+          "operand": "get_CharactersInside"
+        },
+        {
+          "offset": 89,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 90,
+          "opcode": "ldftn",
+          "operand": "<GetCharacterOnPlace>b__1"
+        },
+        {
+          "offset": 96,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 101,
+          "opcode": "call",
+          "operand": "token(0x2B00030B)"
+        },
+        {
+          "offset": 106,
+          "opcode": "stloc.1",
+          "operand": "None"
+        },
+        {
+          "offset": 107,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 109,
+          "opcode": "constrained.",
+          "operand": "ECharacterType"
+        },
+        {
+          "offset": 115,
+          "opcode": "callvirt",
+          "operand": "ToString"
+        },
+        {
+          "offset": 120,
+          "opcode": "call",
+          "operand": "Concat"
+        },
+        {
+          "offset": 125,
+          "opcode": "ldstr",
+          "operand": "'UI'"
+        },
+        {
+          "offset": 130,
+          "opcode": "call",
+          "operand": "token(0x2B0000A3)"
+        },
+        {
+          "offset": 135,
+          "opcode": "call",
+          "operand": "GetLocalization"
+        },
+        {
+          "offset": 140,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    }
+  ],
+  "interpretation": "GetCharacterOnPlace finds the character occupying the visitor preferred place and supplies the localized character label. Read-only source assembly inspection; rendered runtime not tested."
+}

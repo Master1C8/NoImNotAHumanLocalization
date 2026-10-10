@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/he_independent_review_02",
+  "independentFromAuthor": true,
+  "closureManifestSha256": "7da80a9f9754f64ca770fa9eb95cc54240d5a603d090e56aaf71f84c663ad74d",
+  "deltaRowsSha256": "be7c42e2f784df8d50827ab91db36e74e7f4070a1a11614b2724d167abf53f16",
+  "findingCount": 7,
+  "findings": [
+    {
+      "findingId": "HE-IR02-001",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906824",
+      "deltaOrdinalZeroBased": 63,
+      "category": "register",
+      "source": "Bald: Впустишь перекантоваться? А то к какому другу ни зайду, либо его дома нет, либо выгнали к херам, либо ещё чего.",
+      "currentTarget": "Bald: תיתן לי מקום להישאר לזמן מה? כל חבר שניסיתי לבקר — או שלא היה בבית, או שגירשו אותו, או שקרה משהו אחר.",
+      "proposedFullTarget": "Bald: תיתן לי מקום להישאר לזמן מה? כל חבר שניסיתי לבקר — או שלא היה בבית, או שהעיפו אותו קיבינימט, או שקרה משהו אחר.",
+      "reason": "The full source contains the overt vulgar intensifier к херам in the second alternative. The current full target removes it and makes that alternative neutral. This is a loss of the speaker's coarse register, not a preference between equivalent swear words. The later Bald_Entrance_1 explains that his friends have suffered disruptions; this proposal retains the current friend referent and does not resolve the source's omitted object differently.",
+      "actualContext": "Compiled entrance_bald emits this full line before the account of unsuccessful friends and the mother/grandmother eviction. Approved Bald voice is casual and coarse.",
+      "nodeNames": [
+        "entrance_bald"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "547e5a633bd414b11b9de3a544ee762fcdc5d01c3939904eccf03fd9468650d7",
+      "currentTargetValueSha256": "af542c8d1a3b9dee4381c12983e68a188d430ec94fa8553e19e288f439a3fb39",
+      "proposedTargetValueSha256": "18da300050ddcc9981c6f3b1d03d1b4c0d9b46ffdaf5e62b31cf917151160c15",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-300.json",
+      "offset": 26,
+      "authoredFileSha256": "3de1c288dc05e413befb4288e762825944269f524cc44839ed5de1aacfbfa6e7"
+    },
+    {
+      "findingId": "HE-IR02-002",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717571",
+      "deltaOrdinalZeroBased": 76,
+      "category": "gender",
+      "source": "Greatmother: Давай-ка выгоним лучше, а я усядусь там!",
+      "currentTarget": "Greatmother: בוא נגרש אותו, ואני אשב שם במקומו!",
+      "proposedFullTarget": "Greatmother: בוא נגרש את מי שכאן, ואני אשב שם!",
+      "reason": "The preceding GetCharacterOnPlace(Greatmother) supplies place-20 residents including the female Teacher. אותו and במקומו then unconditionally refer to that resident as masculine. Russian выгоним / я усядусь там adds no sex. Preserve the actual occupant and the speaker's replacement action without fixed masculine references.",
+      "actualContext": "Compiled Greatmother_Entrance_Occupied: dynamic label → incompatibility → eviction/replacement line → player options. Teacher is an allowed occupant, not a guessed input.",
+      "nodeNames": [
+        "Greatmother_Entrance_Occupied"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "ac13b97ea74d654499e122d83d30b0b93c4ea188645a06574dac25b17e7a0795",
+      "currentTargetValueSha256": "6cec7bf3bd46ec0e13b8e25fec67f4b0092ed43a960e50481b68afe609be8879",
+      "proposedTargetValueSha256": "f9885dcd13a3fdcd03cddb871ff9e6e581e6c994f55400147451fb45ce61f1bb",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-215.json",
+      "offset": 1,
+      "authoredFileSha256": "60a7f46194b827eb87cdea50f995597604707ba66c7303a28f4c4c25e5e46089"
+    },
+    {
+      "findingId": "HE-IR02-003",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414404",
+      "deltaOrdinalZeroBased": 90,
+      "category": "gender/source-domain-conflict",
+      "source": "Fanatic: Его тень, нет, даже он сам гасит праведный свет! Нужно выгнать еретика!",
+      "currentTarget": "Fanatic: הצל שלו, לא, הוא עצמו אפילו מכבה את אור הצדק! צריך לגרש את הכופר!",
+      "proposedFullTarget": "Fanatic: הצל של מי שכאן — לא, אפילו עצם הנוכחות כאן — מכבה את אור הצדק! צריך לגרש את מי שכאן בגלל הכפירה הזאת!",
+      "reason": "The actual preceding GetCharacterOnPlace(Fan) domain is Alt (female) or Dude (male). The continuation unconditionally says שלו / הוא עצמו / הכופר. This conflicts with the female occupant and defeats the corrected neutral variable sentence immediately before it. Russian also has a fixed masculine continuation; record that source/domain conflict explicitly rather than treating the source noun or pronoun as evidence that Alt is male. The proposed neutral full unit keeps the occupant's shadow, the self-correction to the occupant's own presence, extinguished righteous light and the demand to expel the heretical resident.",
+      "actualContext": "Compiled Fan_Entrance_Occupied immediately emits this continuation after the corrected dynamic label. Exact configured domain and approved punk-girl female rule; no hypothetical occupants.",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "cb9bcf1647d38f1eda4e6d0584f07c1a5981b582741ac89cb432262ef1a86d46",
+      "currentTargetValueSha256": "e44a0f589fed40ea35708813dfdeb4966345858dbacb7313f521d25b45ec88bf",
+      "proposedTargetValueSha256": "0b8df88f973bd0f6e1699b11669c16e8c74c88283cc5c15e2653d1b375cd23bc",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-049.json",
+      "offset": 6,
+      "authoredFileSha256": "60c34cda8e7176ae860e7b8ab6445b2c0f65392901e4d4fcfadb2efb5f1a202c"
+    },
+    {
+      "findingId": "HE-IR02-004",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025801",
+      "deltaOrdinalZeroBased": 95,
+      "category": "gender/source-domain-conflict",
+      "source": "Luka: Не хочу теснить человека – вдруг ему эта крыша нужнее.",
+      "currentTarget": "Luka: אני לא רוצה לדחוק אדם אחר. אולי הוא זקוק לקורת הגג הזאת יותר.",
+      "proposedFullTarget": "Luka: אני לא רוצה לדחוק אדם אחר. אולי קורת הגג הזאת נחוצה יותר למי שכבר כאן.",
+      "reason": "GetCharacterOnPlace(Luka) supplies Greatmother or Teacher (female), Intruder or Jacket (male). The continuation's הוא זקוק fixes the actual resident as male. Russian grammatical человеку / ему does not establish the canonical sex of the resident. Neutral wording must preserve Luka as the person declining to displace the resident and the possibility that the resident needs the roof more.",
+      "actualContext": "Compiled Luka_Entrance_Occupied emits the dynamic occupant sentence, this altruistic explanation, then the request to free a corner.",
+      "nodeNames": [
+        "Luka_Entrance_Occupied"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "e13f876e2baaa2ac5410ee0f245267eec7a7c04e7f012427ab81b9b86a327849",
+      "currentTargetValueSha256": "360f38f7be2a9c8a844e77c7e50d38e31053427ffc4d07633304d40d2bf8352e",
+      "proposedTargetValueSha256": "55987d7426c7fe512a2a76be069fed836f3246faab0c8466b021b253b42eeac4",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-097.json",
+      "offset": 11,
+      "authoredFileSha256": "f73167411d3c59f3c6064bdbf28ef460986f75aac0ef7117cb399736c3306a9f"
+    },
+    {
+      "findingId": "HE-IR02-005",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277064",
+      "deltaOrdinalZeroBased": 107,
+      "category": "number",
+      "source": "Nun: Изгоняйте их яки демонов, и будет вам благодать!",
+      "currentTarget": "Nun: גרשו אותם כמו שדים, ותשרה עליכם הברכה!",
+      "proposedFullTarget": "Nun: גרש אותם כמו שדים, ותשרה עליך הברכה!",
+      "reason": "The command is addressed to the one male householder. גרשו and עליכם turn that addressee into a group while the corrected scene-opening line uses singular אצלך. The Russian formal/pious plural imperative remains singular address in this actual exchange. Preserve the resident objects אותם and the prayer register while making the player address singular.",
+      "actualContext": "Compiled Nun_Entrance_Occupied addresses the player at the entrance, names the occupant, admonishes the householder, and offers player eviction/admission choices. No household audience is introduced.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "99f581031328a7c75dae2735b8fa62c8d8235808a7b84babc572e46efa94612b",
+      "currentTargetValueSha256": "50d04668f8f54e1385ed4e31be36b579781fc8b780f7cf8244559046469142e3",
+      "proposedTargetValueSha256": "7d3ecd8590621a0ba6e9fde6b75c8c7ded34c3bfbd05db38804fc46e69416642",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 4,
+      "authoredFileSha256": "26fb9af9ae3db9d65b62166a94897411ccb0abab7457805c8247425b06b1c563"
+    },
+    {
+      "findingId": "HE-IR02-006",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277063",
+      "deltaOrdinalZeroBased": 108,
+      "category": "number",
+      "source": "Nun: Да для отмаливания их грехов ни одной жизни не хватит! Побоялись бы Бога с такими водиться!",
+      "currentTarget": "Nun: חיים שלמים לא יספיקו כדי לכפר על חטאיהם! יראו את האל לפני שתתרועעו עם שכמותם!",
+      "proposedFullTarget": "Nun: חיים שלמים לא יספיקו כדי לכפר על חטאיהם! ירא את האל לפני שתתרועע עם שכמותם!",
+      "reason": "The imperative יראו and verb שתתרועעו address several people. This branch addresses the one male householder, consistent with its corrected singular אצלך opening. Retain the plural residents/sinners in חטאיהם / שכמותם and the full lifetime-for-atonement sentence; only the addressee should be singular.",
+      "actualContext": "Same actual compiled Nun entrance exchange; player identity and pronoun strategy from the approved glossary.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ],
+      "sourceValueSha256": "50732684d82c251308478adb0e98908d6c922fe0ad8e989f076bf2b8d91b1fb6",
+      "currentTargetValueSha256": "8f099c576782d993f40f976ff25cb9e9ea5e90661dd1183fb68ceeb2420cab0d",
+      "proposedTargetValueSha256": "c8fecadc584fd8cdf7aa19948dd9c4c704ef7a4f617f3698c01f5eeeffb41363",
+      "priorDecision": null,
+      "decisionDelta": "new closure unit; no previous independent decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 5,
+      "authoredFileSha256": "26fb9af9ae3db9d65b62166a94897411ccb0abab7457805c8247425b06b1c563"
+    },
+    {
+      "findingId": "HE-IR02-007",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848521",
+      "deltaOrdinalZeroBased": 152,
+      "category": "grammar/register",
+      "source": "Bald: Это был полный пиздец…",
+      "currentTarget": "Bald: זה היה זוועה מוחלטת…",
+      "proposedFullTarget": "Bald: זה היה חרא מוחלט…",
+      "reason": "The source's full unit Это был полный пиздец… is an explicitly profane assessment. זוועה מוחלטת removes the profanity; זה היה זוועה also leaves an awkward masculine construction with the feminine noun זוועה. The coarse wording is supported by the surrounding Bald account and approved voice, and retains the complete assessment and ellipsis. This explicitly invalidated old decision is reopened on the objective source-register and noun-agreement evidence, not to prefer a different valid synonym.",
+      "actualContext": "Compiled Bald_Asking_4: mother/grandmother with broken limbs → this assessment → two thugs → his flight. Prior clean decision exists but this full context is explicitly invalidated by the cycle-02 set.",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "components": [
+        "retained-prior-closure",
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "explicitly-invalidated"
+      ],
+      "sourceValueSha256": "0867dfc8cf27f0262fdcb0e9324ba6f1a9276f7879776e0076d1e93c6250181a",
+      "currentTargetValueSha256": "091cb0b6bc1c7017e68b6d06cccb7c3ae679c11b2f26fe0969ca49e551c6fbc4",
+      "proposedTargetValueSha256": "97d95f964f97851e612d0caf2e3dbfd5c9818acf439d4fcc95e5ddffe3aa94b2",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848521",
+        "closureOrdinalZeroBased": 865,
+        "sourceValueSha256": "0867dfc8cf27f0262fdcb0e9324ba6f1a9276f7879776e0076d1e93c6250181a",
+        "currentTargetValueSha256": "091cb0b6bc1c7017e68b6d06cccb7c3ae679c11b2f26fe0969ca49e551c6fbc4",
+        "components": [
+          "glossary-referent-and-register",
+          "scene-context"
+        ],
+        "nodeNames": [
+          "Bald_Asking_4"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "decisionDelta": "new objective context evidence invalidates prior no-finding decision",
+      "protectedSyntax": "full proposed unit passes pinned source preserve-exact contract",
+      "fullUnitRetention": "complete unit retained; proposal not applied",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 7,
+      "authoredFileSha256": "d8121b6d2a35e1bd310aa2c38195ea74799fb9eab9462eeb2bfc09c8f86dfd85"
+    }
+  ],
+  "status": "consolidated full 194-unit pass; proposals not applied",
+  "scope": "All findings collected together. No authored/shared/source/glossary/Git writes."
+}

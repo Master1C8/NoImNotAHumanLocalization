@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    9280,
+    10079
+  ],
+  "findingGroups": 14,
+  "affectedUnits": 14,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0108",
+      "objectiveReason": "стрелял в меня сзади says the gunman fired at the Fugitive from behind; alinipiga risasi mgongoni says the bullet hit his back. This invents the wound location while the nearby account puts his pain in his abdomen.",
+      "affected": [
+        {
+          "sourceIndex": 9402,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454715940875",
+          "key": "line:Fugitive_Asking_2_2_0674e4f",
+          "source": "Fugitive: В смысле… когда он стрелял в меня сзади.",
+          "currentTarget": "Fugitive: Yaani… alipokuwa akinipiga risasi mgongoni.",
+          "proposedTarget": "Fugitive: Yaani… alipokuwa akinifyatulia risasi kutoka nyuma.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0109",
+      "objectiveReason": "сами не живём и другим не дадим says people themselves fail to live and prevent others from living; hatutaki kuishi says they do not want to live, adding a suicidal intention absent from the line.",
+      "affected": [
+        {
+          "sourceIndex": 9412,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454715940865",
+          "key": "line:Fugitive_Asking_2_0f34e74",
+          "source": "Fugitive: Но нет, сами не живём и другим не дадим.",
+          "currentTarget": "Fugitive: Lakini hapana, hatutaki kuishi wala kuwaruhusu wengine waishi.",
+          "proposedTarget": "Fugitive: Lakini hapana, sisi wenyewe hatuishi wala hatuwaachi wengine waishi.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0110",
+      "objectiveReason": "довольна собой says the neighbor is pleased with herself; anajisifu says she boasts or praises herself, changing her private feeling into an outward act.",
+      "affected": [
+        {
+          "sourceIndex": 9420,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454711746565",
+          "key": "line:Fugitive_Asking_1_0041b02",
+          "source": "Fugitive: Небось довольна собой, гнида.",
+          "currentTarget": "Fugitive: Labda anajisifu, yule mchafu.",
+          "proposedTarget": "Fugitive: Labda ameridhika na alichofanya, yule mchafu.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0111",
+      "objectiveReason": "готов поспорить marks the Fugitive's wager rather than certainty, and тварь is an insult directed at the female neighbor; nina hakika overstates certainty while yule jirani mwanamke drops the insult. Сдала also means reporting him to KHD, as confirmed in Wifefema's scene.",
+      "affected": [
+        {
+          "sourceIndex": 9422,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454711746563",
+          "key": "line:Fugitive_Asking_1_0fe9935",
+          "source": "Fugitive: Но готов поспорить, что это соседка, тварь, сдала меня КЧС.",
+          "currentTarget": "Fugitive: Lakini nina hakika yule jirani mwanamke ndiye aliyenisaliti kwa KHD.",
+          "proposedTarget": "Fugitive: Lakini ningeweka dau kwamba yule jirani mwanaharamu ndiye aliyenichongea kwa KHD.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0112",
+      "objectiveReason": "осквернили Божий храм means they desecrated or defiled God's temple; walilikufuru hekalu says they blasphemed the temple, which changes the action and is awkward religious usage.",
+      "affected": [
+        {
+          "sourceIndex": 9470,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454694969347",
+          "key": "line:Nun_Asking_3_043de22",
+          "source": "Nun: Они осквернили Божий храм, будь они прокляты!",
+          "currentTarget": "Nun: Walilikufuru hekalu la Mungu, walaaniwe!",
+          "proposedTarget": "Nun: Walilitia unajisi hekalu la Mungu, walaaniwe!",
+          "authoredPath": "Translations/sw/dialogue-batch-128.json",
+          "authoredSha256": "95cd1b3d4f36b40f093612eb950ed2caebca3fb3fd9f40bd498cf45a4c3366ee"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0113",
+      "objectiveReason": "Десятки тел specifies dozens of bodies; Miili mingi gives only an unbounded 'many', losing the scale of Raskolnikov's alley scene.",
+      "affected": [
+        {
+          "sourceIndex": 9522,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454673997835",
+          "key": "line:Raskolnikov_Asking_2_02647b1",
+          "source": "Raskolnikov: Десятки тел лежали тут и там.",
+          "currentTarget": "Raskolnikov: Miili mingi ilitapakaa huku na kule.",
+          "proposedTarget": "Raskolnikov: Makumi ya miili yalikuwa yametapakaa huku na kule.",
+          "authoredPath": "Translations/sw/dialogue-batch-128.json",
+          "authoredSha256": "95cd1b3d4f36b40f093612eb950ed2caebca3fb3fd9f40bd498cf45a4c3366ee"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0114",
+      "objectiveReason": "The theorist calls his phrase an alternative expansion of the KЧС acronym. In Swahili the approved KHD initials do not match Ibada ya Kifo cha Binadamu; claiming it is a decoding of KHD creates a false initialism. The constrained proposal presents it as a dark wordplay on the name while preserving both the approved KHD form and the cult-of-human-death meaning.",
+      "affected": [
+        {
+          "sourceIndex": 9625,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454640443397",
+          "key": "line:Theorist_Asking_2_04f4138",
+          "source": "Theorist: Занимательная теория, мне в ней нравится ещё альтернативная расшифровка аббревиатуры КЧС – Культ Человеческой Смерти.",
+          "currentTarget": "Theorist: Nadharia ya kuvutia; napenda pia tafsiri nyingine ya kifupi KHD — «Ibada ya Kifo cha Binadamu».",
+          "proposedTarget": "Theorist: Nadharia ya kuvutia; napenda pia mchezo wa maneno kwa jina la KHD — «Ibada ya Kifo cha Binadamu».",
+          "authoredPath": "Translations/sw/dialogue-batch-129.json",
+          "authoredSha256": "ed6e0e347a4d8539860737fa5d09ebee7555326f20dc027f5e0ff5bcc8d33ef7"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0115",
+      "objectiveReason": "бесконечно развивающейся Вселенной is an endlessly developing/evolving universe; unaopanuka bila mwisho specifically says expanding, replacing Sirin's broader image with a cosmological mechanism.",
+      "affected": [
+        {
+          "sourceIndex": 9683,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454619471880",
+          "key": "line:Sirin_Asking_3_0ecf1e2",
+          "source": "Sirin: В бесконечно развивающейся Вселенной мы – никто.",
+          "currentTarget": "Sirin: Katika Ulimwengu unaopanuka bila mwisho, sisi si kitu.",
+          "proposedTarget": "Sirin: Katika Ulimwengu unaoendelea kubadilika bila mwisho, sisi si kitu.",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0116",
+      "objectiveReason": "взрывается asks if the sun is exploding; linapasuka describes cracking or splitting, inconsistent with nearby Alkonost lines that correctly use kulipuka for this event.",
+      "affected": [
+        {
+          "sourceIndex": 9693,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454615277577",
+          "key": "line:Sirin_Asking_2_0e6130c",
+          "source": "Sirin: Знал ли ты про солнце? Оно взрывается?",
+          "currentTarget": "Sirin: Ulijua kuhusu jua? Linapasuka?",
+          "proposedTarget": "Sirin: Ulijua kuhusu jua? Linalipuka?",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0117",
+      "objectiveReason": "в ванне is a bathtub large enough for Alkonost's sister to climb into; kwenye beseni alone suggests a basin and changes the bathroom object. Clarify the bathing tub without changing the action.",
+      "affected": [
+        {
+          "sourceIndex": 9748,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454598500355",
+          "key": "line:Alkonost_Asking_1_0f83f25",
+          "source": "Alkonost: Вчера мне удалось искупать ее в ванне. Дома она не могла даже залезть туда.",
+          "currentTarget": "Alkonost: Jana nilifanikiwa kumwogesha kwenye beseni. Nyumbani hakuweza hata kuingia humo.",
+          "proposedTarget": "Alkonost: Jana nilifanikiwa kumwogesha kwenye beseni la kuogea. Nyumbani hakuweza hata kuingia humo.",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0118",
+      "objectiveReason": "носит его кругами portrays the man as being led or carried in circles, part of the storyteller's uncanny account; alikuwa anazunguka duara says he himself walked in a circle, erasing that passive agency. The later footprints line already covers his physical circling.",
+      "affected": [
+        {
+          "sourceIndex": 9774,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454590111744",
+          "key": "line:NotTrue_Asking_4_0a021f1",
+          "source": "NotTrue: Да тут-то и понял, что носит его кругами.",
+          "currentTarget": "NotTrue: Hapo ndipo alipoelewa kwamba alikuwa anazunguka duara.",
+          "proposedTarget": "NotTrue: Hapo ndipo alipoelewa kwamba alikuwa akizungushwa katika duara lilelile.",
+          "authoredPath": "Translations/sw/dialogue-batch-131.json",
+          "authoredSha256": "1be9ed7cbd17c245d1725a4782a31039da72393aa9fb66cd6e8cb7cd3816ca02"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0119",
+      "objectiveReason": "заторможенной describes the daughter's slowed responses after trauma; mnyonge means weak or frail, changing an observed mental/behavioral state into physical weakness.",
+      "affected": [
+        {
+          "sourceIndex": 9871,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454556557314",
+          "key": "line:Daughter_Asking_3_6_067ad08",
+          "source": "Daughter: (Вы замечаете, что девочка стала заторможенной. Она явно о чём-то думает.)",
+          "currentTarget": "Daughter: (Unaona msichana amekuwa mnyonge na mwenye mawazo. Ni wazi anafikiria kitu.)",
+          "proposedTarget": "Daughter: (Unaona msichana ameanza kuitikia kwa kuchelewa. Ni wazi anafikiria jambo fulani.)",
+          "authoredPath": "Translations/sw/dialogue-batch-132.json",
+          "authoredSha256": "c381f20bb75fc5fc85602c286636806f74837624d6d9ad50e881f4cd3628a39f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0120",
+      "objectiveReason": "если не захочешь больше ни с кем говорить is the player's choice not to speak with anyone; ukichoka kuzungumza makes tiredness from conversation the condition, changing the gameplay advice.",
+      "affected": [
+        {
+          "sourceIndex": 9946,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391488",
+          "key": "line:Neighbour_Asking_5_0e5de86",
+          "source": "Neighbour: Оно сильно клонит в сон. Так что если не захочешь больше ни с кем говорить – пей пиво и отдыхай.",
+          "currentTarget": "Neighbour: Bia inakuletea usingizi sana. Kwa hiyo ukichoka kuzungumza na watu, kunywa bia upumzike.",
+          "proposedTarget": "Neighbour: Bia inakuletea usingizi sana. Kwa hiyo ikiwa hutataka tena kuzungumza na mtu yeyote, kunywa bia upumzike.",
+          "authoredPath": "Translations/sw/dialogue-batch-133.json",
+          "authoredSha256": "73d749f48f727e4aadd5376b8ed01247658b038feeddc9f99ea9e145629fcc83"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0121",
+      "objectiveReason": "брат жены establishes a brother-in-law without age; Kaka ya mke wangu specifies an older brother. Use ndugu wa kiume to preserve the known relationship without inventing age.",
+      "affected": [
+        {
+          "sourceIndex": 9948,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454527197194",
+          "key": "line:Neighbour_Asking_5_0a41e87",
+          "source": "Neighbour: Кстати, я тебе там ящик пива принёс. У меня брат жены в пивоварне работает.",
+          "currentTarget": "Neighbour: Kwa njia, nimekuletea kreti ya bia. Kaka ya mke wangu anafanya kazi kwenye kiwanda cha bia.",
+          "proposedTarget": "Neighbour: Kwa njia, nimekuletea kreti ya bia. Ndugu wa kiume wa mke wangu anafanya kazi kwenye kiwanda cha bia.",
+          "authoredPath": "Translations/sw/dialogue-batch-133.json",
+          "authoredSha256": "73d749f48f727e4aadd5376b8ed01247658b038feeddc9f99ea9e145629fcc83"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

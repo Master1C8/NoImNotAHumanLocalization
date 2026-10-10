@@ -18,8 +18,19 @@ The Dutch adapter receipt is `Translations/nl/root-acceptance-v1/root-handoff.js
 It reconciles the single administrative progress-document change with the exact
 archived reviewed preimage. All translation/source/glossary/closure inputs and
 40 fresh decisions remain unchanged; the mandatory union is 40 fresh plus 529
-exact applicable prior decisions. Serbian has an independently replayed final
-gate; its package is still pending.
+exact applicable prior decisions. Serbian's final gate and delivered package
+have also passed; its receipts are in `Documentation/sr-delivery-proof-v1/`.
+
+When an author handoff uses a different report schema, preserve it and create
+a pinned coordinator adapter under `Translations/<locale>/root-acceptance-v1/`.
+Normalize only the required count fields and generate a compatible exact
+receipt if needed. Record the actual reviewed chain and its remaining limits;
+schema adaptation does not substitute for editorial verification.
+
+Dynamic output counts belong to each locale's measured consumer inventory.
+Do not copy a count from another locale into an audit brief. Regression case:
+a six-output count from Persian is not a Bulgarian six-ID inventory; Bulgarian
+coverage follows its own compiled producers, managed methods and catalog.
 
 ## Shared commands
 

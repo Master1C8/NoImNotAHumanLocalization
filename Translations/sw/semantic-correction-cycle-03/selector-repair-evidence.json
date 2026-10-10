@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-03",
+  "selectorRecipe": {
+    "path": "Translations/sw/semantic-correction-cycle-03/enumerate-remedial-surface-v2.py",
+    "sha256": "32a66c52d3f674ff1e75572c6bb4038237c2a23200c78e53a0dbdb9d2c41e4f8"
+  },
+  "closureRecipe": {
+    "path": "Translations/sw/semantic-correction-cycle-03/build-review-delta.py",
+    "sha256": "13920aa19d2515f1e3fa38a3a1a28ae69a156b0e328b07e6e0b2b5336500e4c3"
+  },
+  "boundedInventory": {
+    "path": "Translations/sw/semantic-correction-cycle-03/bounded-risk-inventory-v2.jsonl",
+    "sha256": "46285d42b2ad2a92714b8423b86efefff4296d71fde92413162d5f2b95494639",
+    "readUnits": 355
+  },
+  "selectedSurface": {
+    "armpitSourceInflections": 98,
+    "armpitTargetNouns": 94,
+    "compiledArmpitNeighbors": 272,
+    "applicableRemedialDependencyUnits": 338,
+    "glassesOnlySupportReadButNotDependency": 17
+  },
+  "missedPriorDependenciesRepaired": [
+    {
+      "sourceIndex": 11126,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454090989570",
+      "compiledNodes": [
+        "FunnyGuy_Ears"
+      ],
+      "selectionReasons": [
+        "corrected",
+        "new-closure-dependency"
+      ],
+      "components": [
+        "changed",
+        "containing-context",
+        "exact-and-spelling-repetitions",
+        "glossary-referents",
+        "bounded-remedial-grammar-and-consumers"
+      ]
+    },
+    {
+      "sourceIndex": 11177,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454070018056",
+      "compiledNodes": [
+        "Fairytaller_Hands_DontShoot"
+      ],
+      "selectionReasons": [
+        "corrected",
+        "new-closure-dependency"
+      ],
+      "components": [
+        "changed",
+        "containing-context",
+        "exact-and-spelling-repetitions",
+        "glossary-referents",
+        "bounded-remedial-grammar-and-consumers"
+      ]
+    }
+  ],
+  "priorDependenciesRetained": 5948,
+  "retiredPriorDependencies": 0,
+  "rule": "Recompute from accepted source/target noun and inflection predicates, full corrected consumer nodes, immediate compiled neighbors and retained prior components; do not append stable IDs manually.",
+  "grammarDecisions": "kwapa/makwapa use class 5/6 agreement; colloquial standalone kwapa is retained where no erroneous agreement occurs. miwani is class 4, so i- agreement in the examined glasses context is valid.",
+  "independentReview": "pending"
+}

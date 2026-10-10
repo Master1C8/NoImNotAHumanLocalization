@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    4480,
+    5279
+  ],
+  "findingGroups": 6,
+  "affectedUnits": 9,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0066",
+      "objectiveReason": "The recurring психопат describes the same kind of psychopathic person. kichaa and mwenye wazimu say mad/insane, while mtu wa kutisha says merely frightening; the character's specific accusation is lost across these three lines.",
+      "affected": [
+        {
+          "sourceIndex": 4488,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456439799814",
+          "key": "line:Raskolnikov_Entrance_4_0934dca",
+          "source": "Raskolnikov: Нет, нет, не подумай, я не про того психопата с ружьём.",
+          "currentTarget": "Raskolnikov: Hapana, hapana, usinielewe vibaya, simaanishi yule kichaa mwenye bunduki.",
+          "proposedTarget": "Raskolnikov: Hapana, hapana, usinielewe vibaya, simaanishi yule saikopati mwenye bunduki.",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        },
+        {
+          "sourceIndex": 4494,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456439799808",
+          "key": "line:Raskolnikov_Entrance_3_0796125",
+          "source": "Raskolnikov: Я не хотел показаться каким-то психопатом. Просто, знаешь…",
+          "currentTarget": "Raskolnikov: Sikutaka kuonekana kama mtu wa kutisha. Ni kwamba, unajua…",
+          "proposedTarget": "Raskolnikov: Sikutaka kuonekana kama saikopati. Ni kwamba, unajua…",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        },
+        {
+          "sourceIndex": 4501,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456435605510",
+          "key": "line:Raskolnikov_Entrance_2_06f0016",
+          "source": "Raskolnikov: Просто я столкнулся с одним вооружённым психопатом, который при мне допрашивал человека: не Гость ли тот.",
+          "currentTarget": "Raskolnikov: Nilimkuta tu mtu mmoja mwenye silaha na mwenye wazimu, aliyekuwa akimhoji mtu mbele yangu kama yeye ni Mgeni.",
+          "proposedTarget": "Raskolnikov: Nilimkuta tu saikopati mmoja mwenye silaha, aliyekuwa akimhoji mtu mbele yangu kama yeye ni Mgeni.",
+          "authoredPath": "Translations/sw/dialogue-batch-069.json",
+          "authoredSha256": "da414063d19e115b4dadfea7cf86913786a71ced0adf44b16e0e87e6c0dc5d3c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0067",
+      "objectiveReason": "выдохнуть как следует means breathe out fully in the storyteller's list of comforts; kuvuta pumzi describes breathing in.",
+      "affected": [
+        {
+          "sourceIndex": 4730,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456351719429",
+          "key": "line:NotTrue_Entrance_3_0da4235",
+          "source": "NotTrue: И выдохнуть как следует.",
+          "currentTarget": "NotTrue: Na kuvuta pumzi vizuri.",
+          "proposedTarget": "NotTrue: Na kutoa pumzi vizuri.",
+          "authoredPath": "Translations/sw/dialogue-batch-072.json",
+          "authoredSha256": "d2a35b7847979f974bb660737e54ebb6eea804731807b94628f16ad86a6a9a61"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0068",
+      "objectiveReason": "кто-то шепчется leaves one unknown whisperer in the rooms; watu wakinong’ona asserts multiple people, changing what SuperFake can hear in this branch.",
+      "affected": [
+        {
+          "sourceIndex": 4756,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456343330819",
+          "key": "line:SuperFake_Entrance_3_NotAlone_0fc1c66",
+          "source": "SuperFake: Я слышу, как кто-то шепчется в твоих комнатах.",
+          "currentTarget": "SuperFake: Nasikia watu wakinong’ona ndani ya vyumba vyako.",
+          "proposedTarget": "SuperFake: Nasikia mtu fulani akinong’ona ndani ya vyumba vyako.",
+          "authoredPath": "Translations/sw/dialogue-batch-072.json",
+          "authoredSha256": "d2a35b7847979f974bb660737e54ebb6eea804731807b94628f16ad86a6a9a61"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0069",
+      "objectiveReason": "The child's фу is a disgust interjection about beer; pua is the Swahili noun for nose and does not express that reaction.",
+      "affected": [
+        {
+          "sourceIndex": 4842,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456318164993",
+          "key": "line:Daughter_Entrance_1_2_056221f",
+          "source": "Daughter: Я сегодня попробовала пиво, которое он пьет, фу, гадость какая!",
+          "currentTarget": "Daughter: Leo nilionja bia anayokunywa, pua! Ni mbaya sana!",
+          "proposedTarget": "Daughter: Leo nilionja bia anayokunywa, puu! Ni mbaya sana!",
+          "authoredPath": "Translations/sw/dialogue-batch-073.json",
+          "authoredSha256": "671e3ef6076327d3068aa6cfb736495624a7afa895e75a412cef0b9d32d3eb9a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0070",
+      "objectiveReason": "чтобы тебя точно не угробили says the Neighbour came to prevent the homeowner being killed; hupatwi na madhara only promises protection from unspecified harm, weakening the explicit mortal threat.",
+      "affected": [
+        {
+          "sourceIndex": 4873,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456305582085",
+          "key": "line:Neighbour_Entrance_4_0285b6d",
+          "source": "Neighbour: Поэтому я пришёл, чтобы тебя точно не угробили.",
+          "currentTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hupatwi na madhara.",
+          "proposedTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hakuna atakayekuua.",
+          "authoredPath": "Translations/sw/dialogue-batch-073.json",
+          "authoredSha256": "671e3ef6076327d3068aa6cfb736495624a7afa895e75a412cef0b9d32d3eb9a"
+        },
+        {
+          "sourceIndex": 4883,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387783",
+          "key": "line:Neighbour_Entrance_3_01fe7bc",
+          "source": "Neighbour: Поэтому я пришёл, чтобы тебя точно не угробили.",
+          "currentTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hupatwi na madhara.",
+          "proposedTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hakuna atakayekuua.",
+          "authoredPath": "Translations/sw/dialogue-batch-074.json",
+          "authoredSha256": "1baf9d4c00a054aa4afd1b714b824c5f492aeaca0abca1795c25dc808328595b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0071",
+      "objectiveReason": "садисты identifies people who take pleasure in others' suffering; watu wenye ukatili only describes cruel people and loses that motive in Anger's two-camp account.",
+      "affected": [
+        {
+          "sourceIndex": 5231,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456179752966",
+          "key": "line:Anger_Entrance_2_002fd97",
+          "source": "Anger: Одни – ебучие садисты. Хуже любых Гостей.",
+          "currentTarget": "Anger: Kundi moja ni watu wenye ukatili wa kutupwa. Wabaya kuliko Wageni wowote.",
+          "proposedTarget": "Anger: Kundi moja ni watu wanaofurahia kuwatesa wengine. Wabaya kuliko Wageni wowote.",
+          "authoredPath": "Translations/sw/dialogue-batch-078.json",
+          "authoredSha256": "df12b63cb0550d8412303bb89e2e81c7cbd82bfc8e346230f7594be7f5bb37b1"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

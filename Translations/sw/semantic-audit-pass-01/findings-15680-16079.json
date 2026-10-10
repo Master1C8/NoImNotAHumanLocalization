@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    15680,
+    16079
+  ],
+  "findingGroups": 6,
+  "affectedUnits": 7,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0201",
+      "objectiveReason": "запечатлеть его смерть asks whether the player wants to capture her husband's death; kuihifadhi picha ya kifo chake means preserve a photograph of his death, changing the act in Widow's accusation.",
+      "affected": [
+        {
+          "sourceIndex": 15704,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451985448960",
+          "key": "line:Widow_Photo_0932d65",
+          "source": "Widow: ВЫ ХОТИТЕ ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ?",
+          "currentTarget": "Widow: MNATAKA KUIHIFADHI PICHA YA KIFO CHAKE?",
+          "proposedTarget": "Widow: MNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+          "authoredPath": "Translations/sw/dialogue-batch-176.json",
+          "authoredSha256": "73a678e12268bada1565d972028253ff80013db608aa71655645aa1cb5171f54"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0202",
+      "objectiveReason": "стреляться is reflexive and asks whether Fanatic should shoot himself; Tupigane risasi asks whether two people should exchange gunfire.",
+      "affected": [
+        {
+          "sourceIndex": 15896,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451905757190",
+          "key": "line:Fanatic_Eyes_DontShoot_09c5c73",
+          "source": "Fanatic: Ну и что? Стреляться теперь?",
+          "currentTarget": "Fanatic: Kwa hiyo nini? Tupigane risasi sasa?",
+          "proposedTarget": "Fanatic: Kwa hiyo nini? Nijipige risasi sasa?",
+          "authoredPath": "Translations/sw/dialogue-batch-178.json",
+          "authoredSha256": "ef76147f38aee7162a2b330d16748c3f67766f83db5536f05623906f3c79454c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0203",
+      "objectiveReason": "ты сам посмотри asks the player to look at Fanatic/the situation; Jiangalie mwenyewe instructs the player to look at himself, reversing the object of inspection.",
+      "affected": [
+        {
+          "sourceIndex": 15959,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451880591366",
+          "key": "line:Fanatic_Teeth_06956fa",
+          "source": "Fanatic: Да ты сам посмотри, что я тут в самом деле.",
+          "currentTarget": "Fanatic: Jiangalie mwenyewe uone mimi ni nani hapa.",
+          "proposedTarget": "Fanatic: Wewe mwenyewe angalia nilivyo hapa.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0204",
+      "objectiveReason": "обоссанные жёлтые зубы compares the yellow teeth to being pissed on; yaliyochafuka merely says dirty and removes the explicit urine image in Anger's bitter contrast with his grandmother's gold tooth.",
+      "affected": [
+        {
+          "sourceIndex": 16056,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842628",
+          "key": "line:Anger_Teeth_DontShoot_0ef93d6",
+          "source": "Anger: И вот теперь у меня не солнце во рту, а просто обоссанные жёлтые зубы.",
+          "currentTarget": "Anger: Sasa sina jua mdomoni; nina meno ya manjano yaliyochafuka tu.",
+          "proposedTarget": "Anger: Sasa sina jua mdomoni; nina meno ya manjano kama mkojo tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0205",
+      "objectiveReason": "катись нахуй and мудак бесчувственный are direct coarse abuse of the player; nenda zako and mtu asiye na hisia remove the abuse and reduce Anger's hostile final outburst to neutral descriptions.",
+      "affected": [
+        {
+          "sourceIndex": 16062,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451838648328",
+          "key": "line:Anger_Death_0c8784c",
+          "source": "Anger: Ну и катись нахуй.",
+          "currentTarget": "Anger: Basi nenda zako.",
+          "proposedTarget": "Anger: Basi potelea mbali, mshenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        },
+        {
+          "sourceIndex": 16063,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451838648327",
+          "key": "line:Anger_Death_0736f19",
+          "source": "Anger: А ты, блять, вообще мудак бесчувственный.",
+          "currentTarget": "Anger: Na wewe ni mtu asiye na hisia kabisa.",
+          "proposedTarget": "Anger: Na wewe, laana, ni mshenzi asiye na hisia kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0206",
+      "objectiveReason": "сука directly insults the player; the target omits that address while retaining only the insult directed at the photo.",
+      "affected": [
+        {
+          "sourceIndex": 16071,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451834454025",
+          "key": "line:Anger_Photo_Gun_07b678c",
+          "source": "Anger: Ты, сука, хочешь в меня выстрелить из-за ёбаной фотки?",
+          "currentTarget": "Anger: Unataka kunipiga risasi kwa sababu ya picha ya laana?",
+          "proposedTarget": "Anger: Wewe, mshenzi, unataka kunipiga risasi kwa sababu ya picha ya laana?",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

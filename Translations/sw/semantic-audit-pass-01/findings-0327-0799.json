@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    327,
+    799
+  ],
+  "findingGroups": 13,
+  "affectedUnits": 19,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0002",
+      "objectiveReason": "The Russian он refers to the inherited house in this branch; Swahili angeungua makes the father the subject.",
+      "affected": [
+        {
+          "sourceIndex": 334,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389120",
+          "key": "line:phone_phoneroulette_1_1_X_7_0897b68",
+          "source": "Лучше бы он сгорел",
+          "currentTarget": "Afadhali angeungua moto",
+          "proposedTarget": "Afadhali ingeungua moto",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0003",
+      "objectiveReason": "нравимся друг другу expresses mutual liking/attraction; tulipendana states a stronger mutual love.",
+      "affected": [
+        {
+          "sourceIndex": 361,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806215",
+          "key": "line:phone_phoneroulette_1_1_X_00861b2",
+          "source": "Phone: И потом поняла, что мы нравимся друг другу.",
+          "currentTarget": "Phone: Kisha niligundua kwamba tulipendana.",
+          "proposedTarget": "Phone: Kisha niligundua kwamba tulikuwa tukivutiana.",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0004",
+      "objectiveReason": "Тоскую leaves its object open until the following clause; Ninawakosa names the people before that qualification.",
+      "affected": [
+        {
+          "sourceIndex": 367,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806209",
+          "key": "line:phone_phoneroulette_1_1_4_074283c",
+          "source": "Phone: Тоскую. Но скорее не по родному городу, а по людям, которые там остались…",
+          "currentTarget": "Phone: Ninawakosa. Lakini labda si mji wangu wa nyumbani, bali watu waliobaki huko…",
+          "proposedTarget": "Phone: Nina hamu... Lakini labda si kwa mji wangu wa nyumbani, bali kwa watu waliobaki huko…",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0005",
+      "objectiveReason": "могут governs both not disappearing and replacing friends; Watachukua states the replacement as certain future.",
+      "affected": [
+        {
+          "sourceIndex": 389,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417603",
+          "key": "line:phone_phoneroulette_1_1_1_0688e59",
+          "source": "Phone: Ведь Гости могут никуда не пропасть. Заменить наших друзей и близких, а мы даже не узнаем об этом…",
+          "currentTarget": "Phone: Huenda Wageni hawatatoweka. Watachukua nafasi ya marafiki na wapendwa wetu, nasi hata hatutajua…",
+          "proposedTarget": "Phone: Wageni huenda wasitoweke. Wanaweza kuchukua nafasi ya marafiki na wapendwa wetu, nasi hata tusijue…",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0006",
+      "objectiveReason": "Вы не против asks whether the listener minds; Unaweza asks about ability.",
+      "affected": [
+        {
+          "sourceIndex": 409,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029001",
+          "key": "line:phone_phoneroulette_1_04ba42e",
+          "source": "Phone: Вы не против послушать меня?",
+          "currentTarget": "Phone: Unaweza kunisikiliza?",
+          "proposedTarget": "Phone: Je, hutajali kunisikiliza?",
+          "authoredPath": "Translations/sw/dialogue-batch-005.json",
+          "authoredSha256": "cd08479671f2ab3d6746f7968add5e871b1a70e7fb67fd18cab65c445feabd95"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0007",
+      "objectiveReason": "Больше не смотрю is a current habit; Sitaangalia tena changes it to a future refusal.",
+      "affected": [
+        {
+          "sourceIndex": 488,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863171",
+          "key": "line:bedroom_window_0e97f86",
+          "source": "Нет, туда я не смотрю. Больше не смотрю.",
+          "currentTarget": "Hapana, siangalii huko. Sitaangalia tena.",
+          "proposedTarget": "Hapana, siangalii huko. Siangalii huko tena.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0008",
+      "objectiveReason": "на энтузиазме says the staff carry on through enthusiasm; kwa kujitolea can assert unpaid volunteer work.",
+      "affected": [
+        {
+          "sourceIndex": 508,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474568",
+          "key": "line:phone_foreigner_6_0b7dc5b",
+          "source": "Phone: Бюджеты срезали настолько, что мы почти на энтузиазме работаем.",
+          "currentTarget": "Phone: Bajeti zimepunguzwa sana kiasi kwamba karibu tunafanya kazi kwa kujitolea.",
+          "proposedTarget": "Phone: Bajeti zimepunguzwa sana kiasi kwamba karibu tunafanya kazi kwa ari pekee.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0009",
+      "objectiveReason": "языка has no possessive; lugha yao adds one and may refer to the foreigner’s own language.",
+      "affected": [
+        {
+          "sourceIndex": 516,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474560",
+          "key": "line:phone_foreigner_4_0b4c193",
+          "source": "Он языка даже не знает",
+          "currentTarget": "Hata lugha yao haijui",
+          "proposedTarget": "Hata lugha yenyewe haijui",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        },
+        {
+          "sourceIndex": 520,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457853280264",
+          "key": "line:phone_foreigner_3_0c6c270",
+          "source": "Он языка даже не знает",
+          "currentTarget": "Hata lugha yao haijui",
+          "proposedTarget": "Hata lugha yenyewe haijui",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0010",
+      "objectiveReason": "The crew cannot endure staying aboard on the water; kukaa majini puts them in the water.",
+      "affected": [
+        {
+          "sourceIndex": 530,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085962",
+          "key": "line:phone_foreigner_1_0e1a41a",
+          "source": "Phone: Плюс, вода отражает солнце на корабли, экипаж не выдерживает долгое пребывание на воде.",
+          "currentTarget": "Phone: Isitoshe, maji hurudisha mwanga wa jua kwenye meli, na wafanyakazi hawawezi kukaa majini kwa muda mrefu.",
+          "proposedTarget": "Phone: Isitoshe, maji hurudisha mwanga wa jua kwenye meli, na wafanyakazi wa meli hawawezi kustahimili kukaa baharini kwa muda mrefu.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0011",
+      "objectiveReason": "The Russian зву… cuts off mid-word; the target completes sauti before the ellipsis.",
+      "affected": [
+        {
+          "sourceIndex": 543,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891656",
+          "key": "line:phone_fortuneteller_0f8e46a",
+          "source": "Phone: Хоть и манят её зву…,",
+          "currentTarget": "Phone: Ingawa sauti zinamvutia…",
+          "proposedTarget": "Phone: Ingawa sau… zinamvutia,",
+          "authoredPath": "Translations/sw/dialogue-batch-007.json",
+          "authoredSha256": "b26e78d5a71879a8561590bb23ff52bee010c8e2dd604c5e4b2ea82d208bfc0b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0012",
+      "objectiveReason": "отдавать скоро будет некому means no giver will remain; wa kumpa chochote adds the wife as recipient.",
+      "affected": [
+        {
+          "sourceIndex": 596,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457828114436",
+          "key": "line:phone_alkonost_1_062c735",
+          "source": "Phone: Да и отдавать скоро будет некому.",
+          "currentTarget": "Phone: Na hivi karibuni hakutakuwa na mtu wa kumpa chochote.",
+          "proposedTarget": "Phone: Na hivi karibuni hakutakuwa na mtu wa kutoa chochote.",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0013",
+      "objectiveReason": "брат/брата gives a male sibling with no relative age; kaka specifies an older brother. The approved glossary uses ndugu wa kiume.",
+      "affected": [
+        {
+          "sourceIndex": 605,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457823920135",
+          "key": "line:phone_bestson_4_0a606bd",
+          "source": "Phone: Я готова приютить брата. Передайте ему это. Он знает мой адрес.",
+          "currentTarget": "Phone: Niko tayari kumpa kaka yangu hifadhi. Tafadhali mwambie hilo. Anaijua anwani yangu.",
+          "proposedTarget": "Phone: Niko tayari kumpa ndugu yangu wa kiume hifadhi. Tafadhali mwambie hilo. Anaijua anwani yangu.",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 626,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531531",
+          "key": "line:phone_bestson_1_0bfeb6b",
+          "source": "Phone: А, вы про кровного брата, верно?",
+          "currentTarget": "Phone: Ah, unamzungumzia kaka yangu wa damu, sivyo?",
+          "proposedTarget": "Phone: Ah, unamzungumzia ndugu yangu wa kiume wa damu, sivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 628,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531529",
+          "key": "line:phone_bestson_1_0c9de30",
+          "source": "Phone: Какой брат? У меня нет…",
+          "currentTarget": "Phone: Kaka gani? Sina...",
+          "proposedTarget": "Phone: Ndugu gani wa kiume? Sina...",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 629,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531528",
+          "key": "line:phone_bestson_0e0a816",
+          "source": "Вы можете помочь вашему брату?",
+          "currentTarget": "Unaweza kumsaidia kaka yako?",
+          "proposedTarget": "Unaweza kumsaidia ndugu yako wa kiume?",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 630,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531527",
+          "key": "line:phone_bestson_0317f9c",
+          "source": "Здравствуйте. Ваш брат дал мне номер",
+          "currentTarget": "Habari. Kaka yako alinipa namba hii",
+          "proposedTarget": "Habari. Ndugu yako wa kiume alinipa namba hii",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0014",
+      "objectiveReason": "Персональный что? withholds the computer concept as a joke; Kompyuta gani? supplies it too early.",
+      "affected": [
+        {
+          "sourceIndex": 775,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199878",
+          "key": "line:phone_psychics_4_0d603e5",
+          "source": "Персональный что?",
+          "currentTarget": "Kompyuta gani?",
+          "proposedTarget": "Binafsi nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        },
+        {
+          "sourceIndex": 780,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199873",
+          "key": "line:phone_psychics_3_0c2a3d5",
+          "source": "Персональный что?",
+          "currentTarget": "Kompyuta gani?",
+          "proposedTarget": "Binafsi nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

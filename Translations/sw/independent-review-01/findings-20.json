@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/sw_independent_review",
+  "completeAssignedPass": false,
+  "findings": [
+    {
+      "findingId": "sw-independent-0044",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321222",
+      "key": "line:Tourist_Hands_071f08d",
+      "closureIndexZeroBased": 3723,
+      "source": "Tourist: Они слегка обгорели на солнце. Но это не заражение всё-таки.",
+      "currentTarget": "Tourist: Yameungua kidogo juani. Lakini si maambukizi.",
+      "proposedFullTarget": "Tourist: Imeungua kidogo juani. Lakini si maambukizi.",
+      "objectiveReason": "The antecedent is mikono (hands), class 4, from this exact check node. Yameungua is class 6; Imeungua agrees with hands.",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0045",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454141321216",
+      "key": "line:Tourist_Teeth_036ac44",
+      "closureIndexZeroBased": 3724,
+      "source": "Tourist: Ровные, да? У нас в городе недорогие услуги стоматолога.",
+      "currentTarget": "Tourist: Imepangwa vizuri, sivyo? Huduma za daktari wa meno ni nafuu mjini kwetu.",
+      "proposedFullTarget": "Tourist: Yamepangwa vizuri, sivyo? Huduma za daktari wa meno ni nafuu mjini kwetu.",
+      "objectiveReason": "This is the teeth check, explicitly introduced as meno. Class 6 requires Yamepangwa, not Imepangwa.",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0046",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454111961089",
+      "key": "line:Alt_Teeth_06afc5a",
+      "closureIndexZeroBased": 3759,
+      "source": "Alt: Недавно как раз обточили, дёсны ещё не зажили. Зато я как маньяк какой!",
+      "currentTarget": "Alt: Nimezinoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama kichaa fulani!",
+      "proposedFullTarget": "Alt: Nimeyanoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama kichaa fulani!",
+      "objectiveReason": "The displayed check is TEETH; object is meno, class 6. Current -zi- is class 10 rather than the teeth; -ya- agrees.",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0047",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454082600968",
+      "key": "line:FunnyGuy_Eyes_0958ea7",
+      "closureIndexZeroBased": 3777,
+      "source": "FunnyGuy: Но когда живёшь с ним всю жизнь, оно как-то свыкается, забывается.",
+      "currentTarget": "FunnyGuy: Lakini ukiishi nayo maisha yote, unaizoea na kuisahau.",
+      "proposedFullTarget": "FunnyGuy: Lakini ukiishi nalo maisha yote, unalizoea na kulisahau.",
+      "objectiveReason": "This unit refers to the dark spot, doa, introduced and shown in the preceding ordered units. All three current references use class 9 instead of doa class 5.",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0048",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454078406660",
+      "key": "line:FunnyGuy_Teeth_01fc2b9",
+      "closureIndexZeroBased": 3783,
+      "source": "FunnyGuy: Да а чё чистить зубы, так эмаль сотрёшь.",
+      "currentTarget": "FunnyGuy: Kwa nini nisafishe meno? Nitakwangua tabaka lake la kinga.",
+      "proposedFullTarget": "FunnyGuy: Kwa nini nisafishe meno? Nitakwangua tabaka la kinga la meno.",
+      "objectiveReason": "The possessive lake treats the teeth as a singular referent. Making the protective layer explicitly of meno preserves the source dental enamel and plural teeth.",
+      "adjudication": "pending complete independent pass"
+    }
+  ]
+}

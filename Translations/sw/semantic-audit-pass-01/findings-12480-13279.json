@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    12480,
+    13279
+  ],
+  "findingGroups": 9,
+  "affectedUnits": 10,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0156",
+      "objectiveReason": "The Intruder contrasts an ordinary camera with one that photographs an aura; ina aura fulani says the device itself has an aura, assigning the aura to the wrong object.",
+      "affected": [
+        {
+          "sourceIndex": 12634,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453281488903",
+          "key": "line:Intruder_Photo_01ba756",
+          "source": "Intruder: А, так это не обычный, а с какой-то аурой?",
+          "currentTarget": "Intruder: Aha, kwa hiyo hii si kamera ya kawaida, ina aura fulani?",
+          "proposedTarget": "Intruder: Aha, kwa hiyo hii si kamera ya kawaida, inaweza kupiga picha ya aura?",
+          "authoredPath": "Translations/sw/dialogue-batch-155.json",
+          "authoredSha256": "3b66671d280e1e22d6b5c16797eed7db4ec92c9ed98cc063873ebdcdde945b0a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0157",
+      "objectiveReason": "сонливости means drowsiness, consistent with the Intruder's prolonged inability to sleep; kwa sababu ya usingizi says 'because of sleep' and reverses the condition causing his forgetfulness in both variants.",
+      "affected": [
+        {
+          "sourceIndex": 12662,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453268905988",
+          "key": "line:Intruder_Teeth_0acaeea",
+          "source": "Intruder: Из-за сонливости я, конечно, что-то забываю. Но за зубами ухаживаю.",
+          "currentTarget": "Intruder: Kwa sababu ya usingizi, nasahau mambo fulani. Lakini ninatunza meno yangu.",
+          "proposedTarget": "Intruder: Kwa sababu ya kusinzia, nasahau mambo fulani. Lakini ninatunza meno yangu.",
+          "authoredPath": "Translations/sw/dialogue-batch-155.json",
+          "authoredSha256": "3b66671d280e1e22d6b5c16797eed7db4ec92c9ed98cc063873ebdcdde945b0a"
+        },
+        {
+          "sourceIndex": 12665,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453268905985",
+          "key": "line:Intruder_Teeth_0321c28",
+          "source": "Intruder: Из-за сонливости я, конечно, что-то забываю.",
+          "currentTarget": "Intruder: Kwa sababu ya usingizi, nasahau mambo fulani.",
+          "proposedTarget": "Intruder: Kwa sababu ya kusinzia, nasahau mambo fulani.",
+          "authoredPath": "Translations/sw/dialogue-batch-155.json",
+          "authoredSha256": "3b66671d280e1e22d6b5c16797eed7db4ec92c9ed98cc063873ebdcdde945b0a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0158",
+      "objectiveReason": "всё сужается describes his visual field narrowing behind the mask; ulimwengu unakubana says the world presses/squeezes him, replacing a specific eyesight symptom with a different physical metaphor.",
+      "affected": [
+        {
+          "sourceIndex": 12728,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453231157249",
+          "key": "line:FormerFema_Eyes_028ca5f",
+          "source": "FormerFema: Начинаешь хуже видеть. Будто всё сужается у тебя. Как будто через маску с дырками для глаз смотришь…",
+          "currentTarget": "FormerFema: Unaona kwa shida zaidi. Kana kwamba ulimwengu unakubana. Ni kama kuangalia kupitia barakoa yenye matundu ya macho…",
+          "proposedTarget": "FormerFema: Unaona kwa shida zaidi. Kana kwamba eneo unaloweza kuona linazidi kuwa jembamba. Ni kama kuangalia kupitia barakoa yenye matundu ya macho…",
+          "authoredPath": "Translations/sw/dialogue-batch-155.json",
+          "authoredSha256": "3b66671d280e1e22d6b5c16797eed7db4ec92c9ed98cc063873ebdcdde945b0a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0159",
+      "objectiveReason": "окоченевший means stiff or rigid like a corpse; baridi kama maiti says cold like a corpse, changing the gravedigger's bodily image even in the photo.",
+      "affected": [
+        {
+          "sourceIndex": 12757,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453214380037",
+          "key": "line:GraveDigger_Photo_DontShoot_0392f87",
+          "source": "GraveDigger: Я давно окоченевший... Даже на снимке…",
+          "currentTarget": "GraveDigger: Nimekuwa baridi kama maiti zamani… Hata kwenye picha…",
+          "proposedTarget": "GraveDigger: Nimekakamaa kama maiti kwa muda mrefu... Hata kwenye picha…",
+          "authoredPath": "Translations/sw/dialogue-batch-155.json",
+          "authoredSha256": "3b66671d280e1e22d6b5c16797eed7db4ec92c9ed98cc063873ebdcdde945b0a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0160",
+      "objectiveReason": "паскуда is a coarse insult for a despicable person; mpumbavu means a fool and loses the Marauder's contempt in his death fragment.",
+      "affected": [
+        {
+          "sourceIndex": 12833,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453168242707",
+          "key": "line:Marauder_Death_076eba6",
+          "source": "Marauder: К паскуде такой…",
+          "currentTarget": "Marauder: Kwa yule mpumbavu…",
+          "proposedTarget": "Marauder: Kwa yule mwanaharamu…",
+          "authoredPath": "Translations/sw/dialogue-batch-156.json",
+          "authoredSha256": "40202016ea8af3630780bd41766eeecf8a03a2171cd4f38b335ffc6d407b3799"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0161",
+      "objectiveReason": "выжил means he survived after losing the stolen goods; nimepona means he recovered from an illness or injury, adding a medical event absent from the Marauder's line.",
+      "affected": [
+        {
+          "sourceIndex": 12892,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453143076871",
+          "key": "line:Marauder_Hands_0412f37",
+          "source": "Marauder: А ничего из этого мне теперь не принадлежит. Может, оно и хорошо. Зато выжил.",
+          "currentTarget": "Marauder: Na sasa hakuna hata kimoja kati ya vitu hivyo kilicho changu. Labda ni afadhali. Angalau nimepona.",
+          "proposedTarget": "Marauder: Na sasa hakuna hata kimoja kati ya vitu hivyo kilicho changu. Labda ni afadhali. Angalau nimenusurika.",
+          "authoredPath": "Translations/sw/dialogue-batch-156.json",
+          "authoredSha256": "40202016ea8af3630780bd41766eeecf8a03a2171cd4f38b335ffc6d407b3799"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0162",
+      "objectiveReason": "давайте и этому верить is a sarcastic invitation to believe the new claim; tuliamini says 'we believed it' in the past and changes the Provocateur's current challenge into a report of acceptance.",
+      "affected": [
+        {
+          "sourceIndex": 12930,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453126299656",
+          "key": "line:Provocateur_Armpit_Gun_0978b12",
+          "source": "Provocateur: Гениально! В этом вообще нет логики, но действительно, давайте и этому верить.",
+          "currentTarget": "Provocateur: Wazo la kipaji! Halina mantiki yoyote, lakini sawa, tuliamini hilo pia.",
+          "proposedTarget": "Provocateur: Wazo la kipaji! Halina mantiki yoyote, lakini sawa, basi tuamini hilo pia.",
+          "authoredPath": "Translations/sw/dialogue-batch-157.json",
+          "authoredSha256": "78290ebf98840835bed756453dfc45b46f5b18d036969bed8ea17de30dfd6fd3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0163",
+      "objectiveReason": "который молчит is a passenger who is silent; ambaye hanyamki is a passenger who does not keep quiet, the opposite condition in the taxi driver's unsettling scenario.",
+      "affected": [
+        {
+          "sourceIndex": 12994,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453096939521",
+          "key": "line:TaxiDriver_Ears_DontShoot_07acda0",
+          "source": "TaxiDriver: Хах, значешь, что самое страшное, когда едешь с пассажиром, который молчит?",
+          "currentTarget": "TaxiDriver: Ha, unajua kinachotisha zaidi ukiendesha gari na abiria ambaye hanyamki?",
+          "proposedTarget": "TaxiDriver: Ha, unajua kinachotisha zaidi ukiendesha gari na abiria anayenyamaza?",
+          "authoredPath": "Translations/sw/dialogue-batch-157.json",
+          "authoredSha256": "78290ebf98840835bed756453dfc45b46f5b18d036969bed8ea17de30dfd6fd3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0164",
+      "objectiveReason": "не сорваться совсем means not to snap or lose control while driving; nisivunjike moyo means not to lose heart, replacing his agitation with discouragement.",
+      "affected": [
+        {
+          "sourceIndex": 13065,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453059190786",
+          "key": "line:TaxiDriver_Hands_043f0a3",
+          "source": "TaxiDriver: Обычные руки, так-то… ногти грязные, я знаю. Часто ковыряю руль. Просто чтобы… э-э, не сорваться совсем.",
+          "currentTarget": "TaxiDriver: Mikono ya kawaida tu… najua kucha ni chafu. Mara nyingi nakwangua usukani. Ili tu… ee, nisivunjike moyo kabisa.",
+          "proposedTarget": "TaxiDriver: Mikono ya kawaida tu… najua kucha ni chafu. Mara nyingi nakwangua usukani. Ili tu… ee, nisipoteze udhibiti kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-157.json",
+          "authoredSha256": "78290ebf98840835bed756453dfc45b46f5b18d036969bed8ea17de30dfd6fd3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

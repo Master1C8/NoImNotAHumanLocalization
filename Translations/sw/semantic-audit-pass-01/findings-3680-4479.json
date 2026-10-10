@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    3680,
+    4479
+  ],
+  "findingGroups": 7,
+  "affectedUnits": 8,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0059",
+      "objectiveReason": "The Hunter has just accused the single homeowner of possibly being a Guest; the implicit subject of Ещё ночью бы меня прирезал is that addressee. angenichinja shifts the threatened attack to a third person and Vinginevyo adds an unsupported condition.",
+      "affected": [
+        {
+          "sourceIndex": 3735,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456699846657",
+          "key": "line:Hunter_Entrance_NoLet_0294103",
+          "source": "Hunter: Ещё ночью бы меня прирезал.",
+          "currentTarget": "Hunter: Vinginevyo angenichinja usiku.",
+          "proposedTarget": "Hunter: Ungenichinja usiku.",
+          "authoredPath": "Translations/sw/dialogue-batch-055.json",
+          "authoredSha256": "5ce29aa5776f7fd70080435c338d35fbf0fbcc1da48c158c0d24b016aae3cf0a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0060",
+      "objectiveReason": "уродец dismissively calls the possible caller a little freak/oddity; mtu wa ajabu neutrally says a strange person, losing the husband's hostile characterization.",
+      "affected": [
+        {
+          "sourceIndex": 4092,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456578211840",
+          "key": "line:Couple_Entrance_1_0b10101",
+          "source": "Couple: Большой дом на отшибе, соседи на расстоянии. Шансы, что придёт какой-нибудь уродец, малы.",
+          "currentTarget": "Couple: Nyumba kubwa pembezoni, majirani wako mbali. Nafasi ya mtu wa ajabu kuja ni ndogo.",
+          "proposedTarget": "Couple: Nyumba kubwa pembezoni, majirani wako mbali. Uwezekano wa kituko fulani kufika hapa ni mdogo.",
+          "authoredPath": "Translations/sw/dialogue-batch-063.json",
+          "authoredSha256": "bc58d4b591ee86a83ab6fffd76cc3ddfb63130f5856b9b1e01f9a8b9b79a0916"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0061",
+      "objectiveReason": "In this dance exchange Я балетка is the woman's colloquial self-description as a ballet dancer; Mimi ni kiatu cha baleti identifies her as a ballet shoe.",
+      "affected": [
+        {
+          "sourceIndex": 4121,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456565628935",
+          "key": "line:Ballerina_Entrance_7_0ad8655",
+          "source": "Ballerina: Я балетка.",
+          "currentTarget": "Ballerina: Mimi ni kiatu cha baleti.",
+          "proposedTarget": "Ballerina: Mimi ni mcheza baleti.",
+          "authoredPath": "Translations/sw/dialogue-batch-064.json",
+          "authoredSha256": "34304cac75bd0e1b199a959d15525ae1f45b7fef3de7e76e06b2d38696fd6b30"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0062",
+      "objectiveReason": "переваривало depicts the creature slowly digesting the bodies; kikiyeyusha says it was melting them.",
+      "affected": [
+        {
+          "sourceIndex": 4261,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456519491586",
+          "key": "line:Blind_Entrance_3_06d6fff",
+          "source": "Blind: Медленно переваривало отвратительные чёрные тела, похожие на угли, У МЕНЯ НА ГЛАЗАХ!",
+          "currentTarget": "Blind: Kilikuwa kikiyeyusha polepole miili myeusi ya kutisha iliyofanana na makaa, MBELE YA MACHO YANGU!",
+          "proposedTarget": "Blind: Kilikuwa kikimeng’enya polepole miili myeusi ya kutisha iliyofanana na makaa, MBELE YA MACHO YANGU!",
+          "authoredPath": "Translations/sw/dialogue-batch-066.json",
+          "authoredSha256": "f48f63891a2f25d1ba189e4cadacca84500992ef94067800c9ac6735609e287a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0063",
+      "objectiveReason": "The Russian expletive remains as the English SHIT in the Swahili text, breaking target-language coverage in this character's two lines.",
+      "affected": [
+        {
+          "sourceIndex": 4396,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456473354243",
+          "key": "line:Fugitive_Entrance_NoLet_0f40012",
+          "source": "Fugitive: БЛЯТЬ.",
+          "currentTarget": "Fugitive: SHIT!",
+          "proposedTarget": "Fugitive: LAANA!",
+          "authoredPath": "Translations/sw/dialogue-batch-067.json",
+          "authoredSha256": "ccf73cdeccacfa99586abd05590e90593bb96030563d8700249386d75826178e"
+        },
+        {
+          "sourceIndex": 4406,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456469159942",
+          "key": "line:Fugitive_Entrance_4_005b2fe",
+          "source": "Fugitive: БЛЯТЬ, у меня на глазах забрали человека и увели в одну из палаток!",
+          "currentTarget": "Fugitive: SHIT, niliona mtu akichukuliwa mbele ya macho yangu na kupelekwa kwenye moja ya mahema!",
+          "proposedTarget": "Fugitive: LAANA, niliona mtu akichukuliwa mbele ya macho yangu na kupelekwa kwenye moja ya mahema!",
+          "authoredPath": "Translations/sw/dialogue-batch-067.json",
+          "authoredSha256": "ccf73cdeccacfa99586abd05590e90593bb96030563d8700249386d75826178e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0064",
+      "objectiveReason": "аллергия describes the Nun's allergy to dirt; huathiriwa only says she is affected, losing the claimed medical reaction that motivates her demands.",
+      "affected": [
+        {
+          "sourceIndex": 4453,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382727",
+          "key": "line:Nun_Entrance_3_08585d7",
+          "source": "Nun: Я просто хочу знать, насколько хороший у вас дом. А то у меня аллергия на всякую грязь, знаете ли.",
+          "currentTarget": "Nun: Nataka tu kujua nyumba yako iko vizuri kiasi gani. Unajua, mimi huathiriwa na uchafu.",
+          "proposedTarget": "Nun: Nataka tu kujua nyumba yako iko vizuri kiasi gani. Unajua, nina mzio wa uchafu wa kila aina.",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0065",
+      "objectiveReason": "психопат means psychopath; muuaji wa kikatili asserts a brutal killer, which the source does not say.",
+      "affected": [
+        {
+          "sourceIndex": 4475,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456443994120",
+          "key": "line:Raskolnikov_Entrance_NoLet_00465a3",
+          "source": "Raskolnikov: Наверное, я показался тебе сумасшедшим или психопатом…",
+          "currentTarget": "Raskolnikov: Labda nimeonekana kama mwendawazimu au muuaji wa kikatili…",
+          "proposedTarget": "Raskolnikov: Labda nilionekana kwako kama mwendawazimu au saikopati…",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

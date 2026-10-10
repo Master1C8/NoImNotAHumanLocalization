@@ -1,0 +1,3591 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "DialogManager",
+      "method": "SubscribeEvents",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 18,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 19,
+          "opcode": "ldftn",
+          "operand": "OnEmotionChanged"
+        },
+        {
+          "offset": 25,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 30,
+          "opcode": "callvirt",
+          "operand": "remove_EmotionChanged"
+        },
+        {
+          "offset": 35,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 36,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 41,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 42,
+          "opcode": "ldftn",
+          "operand": "OnCharacterExiled"
+        },
+        {
+          "offset": 48,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 53,
+          "opcode": "callvirt",
+          "operand": "remove_CharacterExiled"
+        },
+        {
+          "offset": 58,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 59,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 64,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 65,
+          "opcode": "ldftn",
+          "operand": "OnSignShowed"
+        },
+        {
+          "offset": 71,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 76,
+          "opcode": "callvirt",
+          "operand": "remove_SignShowed"
+        },
+        {
+          "offset": 81,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 82,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 87,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 88,
+          "opcode": "ldftn",
+          "operand": "OnPlayerSignShowed"
+        },
+        {
+          "offset": 94,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 99,
+          "opcode": "callvirt",
+          "operand": "remove_PlayerSignShowed"
+        },
+        {
+          "offset": 104,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 105,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 110,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 111,
+          "opcode": "ldftn",
+          "operand": "OnStoppedShowingSign"
+        },
+        {
+          "offset": 117,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 122,
+          "opcode": "callvirt",
+          "operand": "remove_StoppedShowingSign"
+        },
+        {
+          "offset": 127,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 128,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 133,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 134,
+          "opcode": "ldftn",
+          "operand": "OnGunSetUp"
+        },
+        {
+          "offset": 140,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 145,
+          "opcode": "callvirt",
+          "operand": "remove_GunSetUp"
+        },
+        {
+          "offset": 150,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 151,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 156,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 157,
+          "opcode": "ldftn",
+          "operand": "OnGunShot"
+        },
+        {
+          "offset": 163,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 168,
+          "opcode": "callvirt",
+          "operand": "remove_GunShot"
+        },
+        {
+          "offset": 173,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 174,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 179,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 180,
+          "opcode": "ldftn",
+          "operand": "OnFakeShot"
+        },
+        {
+          "offset": 186,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 191,
+          "opcode": "callvirt",
+          "operand": "remove_FakedShot"
+        },
+        {
+          "offset": 196,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 197,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 202,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 203,
+          "opcode": "ldftn",
+          "operand": "OnDead"
+        },
+        {
+          "offset": 209,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 214,
+          "opcode": "callvirt",
+          "operand": "remove_Dead"
+        },
+        {
+          "offset": 219,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 220,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 225,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 226,
+          "opcode": "ldftn",
+          "operand": "OnEndingTriggered"
+        },
+        {
+          "offset": 232,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 237,
+          "opcode": "callvirt",
+          "operand": "remove_EndingTriggered"
+        },
+        {
+          "offset": 242,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 243,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 248,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 249,
+          "opcode": "ldftn",
+          "operand": "OnCutsceneTriggered"
+        },
+        {
+          "offset": 255,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 260,
+          "opcode": "callvirt",
+          "operand": "remove_CutsceneTriggered"
+        },
+        {
+          "offset": 265,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 266,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 271,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 272,
+          "opcode": "ldftn",
+          "operand": "OnGotItem"
+        },
+        {
+          "offset": 278,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 283,
+          "opcode": "callvirt",
+          "operand": "remove_GotItem"
+        },
+        {
+          "offset": 288,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 289,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 294,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 295,
+          "opcode": "ldftn",
+          "operand": "OnTryGiveItem"
+        },
+        {
+          "offset": 301,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 306,
+          "opcode": "callvirt",
+          "operand": "remove_TryGiveItem"
+        },
+        {
+          "offset": 311,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 312,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 317,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 318,
+          "opcode": "ldftn",
+          "operand": "OnStateChanged"
+        },
+        {
+          "offset": 324,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 329,
+          "opcode": "callvirt",
+          "operand": "remove_StateChanged"
+        },
+        {
+          "offset": 334,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 335,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 340,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 341,
+          "opcode": "ldftn",
+          "operand": "OnGotItemCount"
+        },
+        {
+          "offset": 347,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 352,
+          "opcode": "callvirt",
+          "operand": "remove_GotItemCount"
+        },
+        {
+          "offset": 357,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 358,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 363,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 364,
+          "opcode": "ldftn",
+          "operand": "OnFadedIn"
+        },
+        {
+          "offset": 370,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 375,
+          "opcode": "callvirt",
+          "operand": "remove_FadedIn"
+        },
+        {
+          "offset": 380,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 381,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 386,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 387,
+          "opcode": "ldftn",
+          "operand": "OnFadedOut"
+        },
+        {
+          "offset": 393,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 398,
+          "opcode": "callvirt",
+          "operand": "remove_FadedOut"
+        },
+        {
+          "offset": 403,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 404,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 409,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 410,
+          "opcode": "ldftn",
+          "operand": "OnGotCat"
+        },
+        {
+          "offset": 416,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 421,
+          "opcode": "callvirt",
+          "operand": "remove_GotCat"
+        },
+        {
+          "offset": 426,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 427,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 432,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 433,
+          "opcode": "ldftn",
+          "operand": "OnHasCompletedMushroomCheck"
+        },
+        {
+          "offset": 439,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 444,
+          "opcode": "callvirt",
+          "operand": "remove_HasCompletedMushroom"
+        },
+        {
+          "offset": 449,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 450,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 455,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 456,
+          "opcode": "ldftn",
+          "operand": "OnWentToLocation"
+        },
+        {
+          "offset": 462,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 467,
+          "opcode": "callvirt",
+          "operand": "remove_WentToLocation"
+        },
+        {
+          "offset": 472,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 473,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 478,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 479,
+          "opcode": "ldftn",
+          "operand": "OnCultistsBegun"
+        },
+        {
+          "offset": 485,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 490,
+          "opcode": "callvirt",
+          "operand": "remove_CultistsBegun"
+        },
+        {
+          "offset": 495,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 496,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 501,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 502,
+          "opcode": "ldftn",
+          "operand": "OnCatPet"
+        },
+        {
+          "offset": 508,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 513,
+          "opcode": "callvirt",
+          "operand": "remove_CatPet"
+        },
+        {
+          "offset": 518,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 519,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 524,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 525,
+          "opcode": "ldftn",
+          "operand": "OnCatTaken"
+        },
+        {
+          "offset": 531,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 536,
+          "opcode": "callvirt",
+          "operand": "remove_CatTaken"
+        },
+        {
+          "offset": 541,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 542,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 547,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 548,
+          "opcode": "ldftn",
+          "operand": "OnExiledByFEMA"
+        },
+        {
+          "offset": 554,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 559,
+          "opcode": "callvirt",
+          "operand": "remove_CharacterExiledByFEMA"
+        },
+        {
+          "offset": 564,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 565,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 570,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 571,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedPhoneSubscriber"
+        },
+        {
+          "offset": 577,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 582,
+          "opcode": "callvirt",
+          "operand": "remove_UnlockedPhoneNumber"
+        },
+        {
+          "offset": 587,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 588,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 593,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 594,
+          "opcode": "ldftn",
+          "operand": "OnGotPhoneNumber"
+        },
+        {
+          "offset": 600,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 605,
+          "opcode": "callvirt",
+          "operand": "remove_GotPhoneNumber"
+        },
+        {
+          "offset": 610,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 611,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 616,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 617,
+          "opcode": "ldftn",
+          "operand": "OnCouldOrderCourier"
+        },
+        {
+          "offset": 623,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 628,
+          "opcode": "callvirt",
+          "operand": "remove_CouldOrderCourier"
+        },
+        {
+          "offset": 633,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 634,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 639,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 640,
+          "opcode": "ldftn",
+          "operand": "OnOrderedCourier"
+        },
+        {
+          "offset": 646,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 651,
+          "opcode": "callvirt",
+          "operand": "remove_OrderedCourier"
+        },
+        {
+          "offset": 656,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 657,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 662,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 663,
+          "opcode": "ldftn",
+          "operand": "OnGotCourierOrder"
+        },
+        {
+          "offset": 669,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 674,
+          "opcode": "callvirt",
+          "operand": "remove_GotCourierOrder"
+        },
+        {
+          "offset": 679,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 680,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 685,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 686,
+          "opcode": "ldftn",
+          "operand": "OnStartedWindowNoise"
+        },
+        {
+          "offset": 692,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 697,
+          "opcode": "callvirt",
+          "operand": "remove_StartedWindowNoise"
+        },
+        {
+          "offset": 702,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 703,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 708,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 709,
+          "opcode": "ldftn",
+          "operand": "OnCalledFEMA"
+        },
+        {
+          "offset": 715,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 720,
+          "opcode": "callvirt",
+          "operand": "remove_CalledFema"
+        },
+        {
+          "offset": 725,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 726,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 731,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 732,
+          "opcode": "ldftn",
+          "operand": "OnPoseChanged"
+        },
+        {
+          "offset": 738,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 743,
+          "opcode": "callvirt",
+          "operand": "remove_PoseChanged"
+        },
+        {
+          "offset": 748,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 749,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 754,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 755,
+          "opcode": "ldftn",
+          "operand": "OnPoseChangedTomorrow"
+        },
+        {
+          "offset": 761,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 766,
+          "opcode": "callvirt",
+          "operand": "remove_PoseChangedTomorrow"
+        },
+        {
+          "offset": 771,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 772,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 777,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 778,
+          "opcode": "ldftn",
+          "operand": "OnGotEnergy"
+        },
+        {
+          "offset": 784,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 789,
+          "opcode": "callvirt",
+          "operand": "remove_GotEnergy"
+        },
+        {
+          "offset": 794,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 795,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 800,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 801,
+          "opcode": "ldftn",
+          "operand": "OnSetFridgeActivity"
+        },
+        {
+          "offset": 807,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 812,
+          "opcode": "callvirt",
+          "operand": "remove_SetFridgeActivity"
+        },
+        {
+          "offset": 817,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 818,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 823,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 824,
+          "opcode": "ldftn",
+          "operand": "OnArmpitsWashed"
+        },
+        {
+          "offset": 830,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 835,
+          "opcode": "callvirt",
+          "operand": "remove_ArmpitsWashed"
+        },
+        {
+          "offset": 840,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 841,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 846,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 847,
+          "opcode": "ldftn",
+          "operand": "OnNeedToGetDeficitItem"
+        },
+        {
+          "offset": 853,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 858,
+          "opcode": "callvirt",
+          "operand": "remove_NeededToGetDeficitItem"
+        },
+        {
+          "offset": 863,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 864,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 869,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 870,
+          "opcode": "ldftn",
+          "operand": "OnPeekedDeficitItem"
+        },
+        {
+          "offset": 876,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 881,
+          "opcode": "callvirt",
+          "operand": "remove_PeekedDeficitItem"
+        },
+        {
+          "offset": 886,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 887,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 892,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 893,
+          "opcode": "ldftn",
+          "operand": "OnDeficitDayUpdated"
+        },
+        {
+          "offset": 899,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 904,
+          "opcode": "callvirt",
+          "operand": "remove_DeficitDayUpdated"
+        },
+        {
+          "offset": 909,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 910,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 915,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 916,
+          "opcode": "ldftn",
+          "operand": "OnPlayerRevealedByVigilante"
+        },
+        {
+          "offset": 922,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 927,
+          "opcode": "callvirt",
+          "operand": "remove_PlayerRevealedByVigilante"
+        },
+        {
+          "offset": 932,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 933,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 938,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 939,
+          "opcode": "ldftn",
+          "operand": "OnCultistsSaved"
+        },
+        {
+          "offset": 945,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 950,
+          "opcode": "callvirt",
+          "operand": "remove_CultistsSaved"
+        },
+        {
+          "offset": 955,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 956,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 961,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 962,
+          "opcode": "ldftn",
+          "operand": "OnSounded"
+        },
+        {
+          "offset": 968,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 973,
+          "opcode": "callvirt",
+          "operand": "remove_Sounded"
+        },
+        {
+          "offset": 978,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 979,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 984,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 985,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedDeathEnding"
+        },
+        {
+          "offset": 991,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 996,
+          "opcode": "callvirt",
+          "operand": "remove_UnlockedDeathEnding"
+        },
+        {
+          "offset": 1001,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1002,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1007,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1008,
+          "opcode": "ldftn",
+          "operand": "OnPlayedAnimation"
+        },
+        {
+          "offset": 1014,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1019,
+          "opcode": "callvirt",
+          "operand": "remove_PlayedAnimation"
+        },
+        {
+          "offset": 1024,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1025,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1030,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1031,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedMushroomEnding"
+        },
+        {
+          "offset": 1037,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1042,
+          "opcode": "callvirt",
+          "operand": "remove_UnlockedMushroomEnding"
+        },
+        {
+          "offset": 1047,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1048,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1053,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1054,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedKillerEnding"
+        },
+        {
+          "offset": 1060,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1065,
+          "opcode": "callvirt",
+          "operand": "remove_UnlockedKillerEnding"
+        },
+        {
+          "offset": 1070,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1071,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1076,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1077,
+          "opcode": "ldftn",
+          "operand": "OnIntroSkipped"
+        },
+        {
+          "offset": 1083,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1088,
+          "opcode": "callvirt",
+          "operand": "remove_IntroSkipped"
+        },
+        {
+          "offset": 1093,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1094,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1099,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1100,
+          "opcode": "ldftn",
+          "operand": "OnWasEverCompletedGame"
+        },
+        {
+          "offset": 1106,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1111,
+          "opcode": "callvirt",
+          "operand": "remove_WasEverCompletedGame"
+        },
+        {
+          "offset": 1116,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1117,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1122,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1123,
+          "opcode": "ldftn",
+          "operand": "OnHadSeenDream"
+        },
+        {
+          "offset": 1129,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1134,
+          "opcode": "callvirt",
+          "operand": "remove_HadSeenDream"
+        },
+        {
+          "offset": 1139,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1140,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1145,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1146,
+          "opcode": "ldftn",
+          "operand": "OnSmokeEnabled"
+        },
+        {
+          "offset": 1152,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1157,
+          "opcode": "callvirt",
+          "operand": "remove_SmokeEnabled"
+        },
+        {
+          "offset": 1162,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1163,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1168,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1169,
+          "opcode": "ldftn",
+          "operand": "OnRoomKilled"
+        },
+        {
+          "offset": 1175,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1180,
+          "opcode": "callvirt",
+          "operand": "remove_RoomKilled"
+        },
+        {
+          "offset": 1185,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1186,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 1191,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1192,
+          "opcode": "ldftn",
+          "operand": "OnEnergyConsumed"
+        },
+        {
+          "offset": 1198,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1203,
+          "opcode": "callvirt",
+          "operand": "remove_EnergyConsumed"
+        },
+        {
+          "offset": 1208,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1209,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 1214,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1215,
+          "opcode": "ldftn",
+          "operand": "OnDayDialogSelected"
+        },
+        {
+          "offset": 1221,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1226,
+          "opcode": "callvirt",
+          "operand": "remove_DayDialogSelected"
+        },
+        {
+          "offset": 1231,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1232,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 1237,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1238,
+          "opcode": "ldftn",
+          "operand": "OnBaseDialogLineShowed"
+        },
+        {
+          "offset": 1244,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1249,
+          "opcode": "callvirt",
+          "operand": "remove_BaseDialogLineShowed"
+        },
+        {
+          "offset": 1254,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1255,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 1260,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1261,
+          "opcode": "ldftn",
+          "operand": "OnButtonsDialogLineShowed"
+        },
+        {
+          "offset": 1267,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1272,
+          "opcode": "callvirt",
+          "operand": "remove_ButtonsDialogLineShowed"
+        },
+        {
+          "offset": 1277,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1278,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 1283,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1284,
+          "opcode": "ldftn",
+          "operand": "OnWereBadBoy"
+        },
+        {
+          "offset": 1290,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1295,
+          "opcode": "callvirt",
+          "operand": "remove_WereBadBoy"
+        },
+        {
+          "offset": 1300,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1301,
+          "opcode": "ldfld",
+          "operand": "_charactersManager"
+        },
+        {
+          "offset": 1306,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1307,
+          "opcode": "ldftn",
+          "operand": "OnCharacterAdded"
+        },
+        {
+          "offset": 1313,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1318,
+          "opcode": "callvirt",
+          "operand": "remove_CharacterAdded"
+        },
+        {
+          "offset": 1323,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1324,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1329,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1330,
+          "opcode": "ldftn",
+          "operand": "OnEmotionChanged"
+        },
+        {
+          "offset": 1336,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1341,
+          "opcode": "callvirt",
+          "operand": "add_EmotionChanged"
+        },
+        {
+          "offset": 1346,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1347,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1352,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1353,
+          "opcode": "ldftn",
+          "operand": "OnCharacterExiled"
+        },
+        {
+          "offset": 1359,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1364,
+          "opcode": "callvirt",
+          "operand": "add_CharacterExiled"
+        },
+        {
+          "offset": 1369,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1370,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1375,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1376,
+          "opcode": "ldftn",
+          "operand": "OnSignShowed"
+        },
+        {
+          "offset": 1382,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1387,
+          "opcode": "callvirt",
+          "operand": "add_SignShowed"
+        },
+        {
+          "offset": 1392,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1393,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1398,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1399,
+          "opcode": "ldftn",
+          "operand": "OnPlayerSignShowed"
+        },
+        {
+          "offset": 1405,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1410,
+          "opcode": "callvirt",
+          "operand": "add_PlayerSignShowed"
+        },
+        {
+          "offset": 1415,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1416,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1421,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1422,
+          "opcode": "ldftn",
+          "operand": "OnStoppedShowingSign"
+        },
+        {
+          "offset": 1428,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1433,
+          "opcode": "callvirt",
+          "operand": "add_StoppedShowingSign"
+        },
+        {
+          "offset": 1438,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1439,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1444,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1445,
+          "opcode": "ldftn",
+          "operand": "OnGunSetUp"
+        },
+        {
+          "offset": 1451,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1456,
+          "opcode": "callvirt",
+          "operand": "add_GunSetUp"
+        },
+        {
+          "offset": 1461,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1462,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1467,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1468,
+          "opcode": "ldftn",
+          "operand": "OnGunShot"
+        },
+        {
+          "offset": 1474,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1479,
+          "opcode": "callvirt",
+          "operand": "add_GunShot"
+        },
+        {
+          "offset": 1484,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1485,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1490,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1491,
+          "opcode": "ldftn",
+          "operand": "OnFakeShot"
+        },
+        {
+          "offset": 1497,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1502,
+          "opcode": "callvirt",
+          "operand": "add_FakedShot"
+        },
+        {
+          "offset": 1507,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1508,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1513,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1514,
+          "opcode": "ldftn",
+          "operand": "OnDead"
+        },
+        {
+          "offset": 1520,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1525,
+          "opcode": "callvirt",
+          "operand": "add_Dead"
+        },
+        {
+          "offset": 1530,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1531,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1536,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1537,
+          "opcode": "ldftn",
+          "operand": "OnEndingTriggered"
+        },
+        {
+          "offset": 1543,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1548,
+          "opcode": "callvirt",
+          "operand": "add_EndingTriggered"
+        },
+        {
+          "offset": 1553,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1554,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1559,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1560,
+          "opcode": "ldftn",
+          "operand": "OnCutsceneTriggered"
+        },
+        {
+          "offset": 1566,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1571,
+          "opcode": "callvirt",
+          "operand": "add_CutsceneTriggered"
+        },
+        {
+          "offset": 1576,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1577,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1582,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1583,
+          "opcode": "ldftn",
+          "operand": "OnGotItem"
+        },
+        {
+          "offset": 1589,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1594,
+          "opcode": "callvirt",
+          "operand": "add_GotItem"
+        },
+        {
+          "offset": 1599,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1600,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1605,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1606,
+          "opcode": "ldftn",
+          "operand": "OnTryGiveItem"
+        },
+        {
+          "offset": 1612,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1617,
+          "opcode": "callvirt",
+          "operand": "add_TryGiveItem"
+        },
+        {
+          "offset": 1622,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1623,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1628,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1629,
+          "opcode": "ldftn",
+          "operand": "OnStateChanged"
+        },
+        {
+          "offset": 1635,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1640,
+          "opcode": "callvirt",
+          "operand": "add_StateChanged"
+        },
+        {
+          "offset": 1645,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1646,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1651,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1652,
+          "opcode": "ldftn",
+          "operand": "OnGotItemCount"
+        },
+        {
+          "offset": 1658,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1663,
+          "opcode": "callvirt",
+          "operand": "add_GotItemCount"
+        },
+        {
+          "offset": 1668,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1669,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1674,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1675,
+          "opcode": "ldftn",
+          "operand": "OnFadedIn"
+        },
+        {
+          "offset": 1681,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1686,
+          "opcode": "callvirt",
+          "operand": "add_FadedIn"
+        },
+        {
+          "offset": 1691,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1692,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1697,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1698,
+          "opcode": "ldftn",
+          "operand": "OnFadedOut"
+        },
+        {
+          "offset": 1704,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1709,
+          "opcode": "callvirt",
+          "operand": "add_FadedOut"
+        },
+        {
+          "offset": 1714,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1715,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1720,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1721,
+          "opcode": "ldftn",
+          "operand": "OnGotCat"
+        },
+        {
+          "offset": 1727,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1732,
+          "opcode": "callvirt",
+          "operand": "add_GotCat"
+        },
+        {
+          "offset": 1737,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1738,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1743,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1744,
+          "opcode": "ldftn",
+          "operand": "OnHasCompletedMushroomCheck"
+        },
+        {
+          "offset": 1750,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1755,
+          "opcode": "callvirt",
+          "operand": "add_HasCompletedMushroom"
+        },
+        {
+          "offset": 1760,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1761,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1766,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1767,
+          "opcode": "ldftn",
+          "operand": "OnWentToLocation"
+        },
+        {
+          "offset": 1773,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1778,
+          "opcode": "callvirt",
+          "operand": "add_WentToLocation"
+        },
+        {
+          "offset": 1783,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1784,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1789,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1790,
+          "opcode": "ldftn",
+          "operand": "OnCultistsBegun"
+        },
+        {
+          "offset": 1796,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1801,
+          "opcode": "callvirt",
+          "operand": "add_CultistsBegun"
+        },
+        {
+          "offset": 1806,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1807,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1812,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1813,
+          "opcode": "ldftn",
+          "operand": "OnCatPet"
+        },
+        {
+          "offset": 1819,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1824,
+          "opcode": "callvirt",
+          "operand": "add_CatPet"
+        },
+        {
+          "offset": 1829,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1830,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1835,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1836,
+          "opcode": "ldftn",
+          "operand": "OnCatTaken"
+        },
+        {
+          "offset": 1842,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1847,
+          "opcode": "callvirt",
+          "operand": "add_CatTaken"
+        },
+        {
+          "offset": 1852,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1853,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1858,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1859,
+          "opcode": "ldftn",
+          "operand": "OnExiledByFEMA"
+        },
+        {
+          "offset": 1865,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1870,
+          "opcode": "callvirt",
+          "operand": "add_CharacterExiledByFEMA"
+        },
+        {
+          "offset": 1875,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1876,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1881,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1882,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedPhoneSubscriber"
+        },
+        {
+          "offset": 1888,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1893,
+          "opcode": "callvirt",
+          "operand": "add_UnlockedPhoneNumber"
+        },
+        {
+          "offset": 1898,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1899,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1904,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1905,
+          "opcode": "ldftn",
+          "operand": "OnGotPhoneNumber"
+        },
+        {
+          "offset": 1911,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1916,
+          "opcode": "callvirt",
+          "operand": "add_GotPhoneNumber"
+        },
+        {
+          "offset": 1921,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1922,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1927,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1928,
+          "opcode": "ldftn",
+          "operand": "OnCouldOrderCourier"
+        },
+        {
+          "offset": 1934,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1939,
+          "opcode": "callvirt",
+          "operand": "add_CouldOrderCourier"
+        },
+        {
+          "offset": 1944,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1945,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1950,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1951,
+          "opcode": "ldftn",
+          "operand": "OnOrderedCourier"
+        },
+        {
+          "offset": 1957,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1962,
+          "opcode": "callvirt",
+          "operand": "add_OrderedCourier"
+        },
+        {
+          "offset": 1967,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1968,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1973,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1974,
+          "opcode": "ldftn",
+          "operand": "OnGotCourierOrder"
+        },
+        {
+          "offset": 1980,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 1985,
+          "opcode": "callvirt",
+          "operand": "add_GotCourierOrder"
+        },
+        {
+          "offset": 1990,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1991,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 1996,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 1997,
+          "opcode": "ldftn",
+          "operand": "OnStartedWindowNoise"
+        },
+        {
+          "offset": 2003,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2008,
+          "opcode": "callvirt",
+          "operand": "add_StartedWindowNoise"
+        },
+        {
+          "offset": 2013,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2014,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2019,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2020,
+          "opcode": "ldftn",
+          "operand": "OnCalledFEMA"
+        },
+        {
+          "offset": 2026,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2031,
+          "opcode": "callvirt",
+          "operand": "add_CalledFema"
+        },
+        {
+          "offset": 2036,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2037,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2042,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2043,
+          "opcode": "ldftn",
+          "operand": "OnPoseChanged"
+        },
+        {
+          "offset": 2049,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2054,
+          "opcode": "callvirt",
+          "operand": "add_PoseChanged"
+        },
+        {
+          "offset": 2059,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2060,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2065,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2066,
+          "opcode": "ldftn",
+          "operand": "OnPoseChangedTomorrow"
+        },
+        {
+          "offset": 2072,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2077,
+          "opcode": "callvirt",
+          "operand": "add_PoseChangedTomorrow"
+        },
+        {
+          "offset": 2082,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2083,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2088,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2089,
+          "opcode": "ldftn",
+          "operand": "OnGotEnergy"
+        },
+        {
+          "offset": 2095,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2100,
+          "opcode": "callvirt",
+          "operand": "add_GotEnergy"
+        },
+        {
+          "offset": 2105,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2106,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2111,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2112,
+          "opcode": "ldftn",
+          "operand": "OnSetFridgeActivity"
+        },
+        {
+          "offset": 2118,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2123,
+          "opcode": "callvirt",
+          "operand": "add_SetFridgeActivity"
+        },
+        {
+          "offset": 2128,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2129,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2134,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2135,
+          "opcode": "ldftn",
+          "operand": "OnArmpitsWashed"
+        },
+        {
+          "offset": 2141,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2146,
+          "opcode": "callvirt",
+          "operand": "add_ArmpitsWashed"
+        },
+        {
+          "offset": 2151,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2152,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2157,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2158,
+          "opcode": "ldftn",
+          "operand": "OnNeedToGetDeficitItem"
+        },
+        {
+          "offset": 2164,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2169,
+          "opcode": "callvirt",
+          "operand": "add_NeededToGetDeficitItem"
+        },
+        {
+          "offset": 2174,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2175,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2180,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2181,
+          "opcode": "ldftn",
+          "operand": "OnPeekedDeficitItem"
+        },
+        {
+          "offset": 2187,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2192,
+          "opcode": "callvirt",
+          "operand": "add_PeekedDeficitItem"
+        },
+        {
+          "offset": 2197,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2198,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2203,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2204,
+          "opcode": "ldftn",
+          "operand": "OnDeficitDayUpdated"
+        },
+        {
+          "offset": 2210,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2215,
+          "opcode": "callvirt",
+          "operand": "add_DeficitDayUpdated"
+        },
+        {
+          "offset": 2220,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2221,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2226,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2227,
+          "opcode": "ldftn",
+          "operand": "OnPlayerRevealedByVigilante"
+        },
+        {
+          "offset": 2233,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2238,
+          "opcode": "callvirt",
+          "operand": "add_PlayerRevealedByVigilante"
+        },
+        {
+          "offset": 2243,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2244,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2249,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2250,
+          "opcode": "ldftn",
+          "operand": "OnCultistsSaved"
+        },
+        {
+          "offset": 2256,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2261,
+          "opcode": "callvirt",
+          "operand": "add_CultistsSaved"
+        },
+        {
+          "offset": 2266,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2267,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2272,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2273,
+          "opcode": "ldftn",
+          "operand": "OnSounded"
+        },
+        {
+          "offset": 2279,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2284,
+          "opcode": "callvirt",
+          "operand": "add_Sounded"
+        },
+        {
+          "offset": 2289,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2290,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2295,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2296,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedDeathEnding"
+        },
+        {
+          "offset": 2302,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2307,
+          "opcode": "callvirt",
+          "operand": "add_UnlockedDeathEnding"
+        },
+        {
+          "offset": 2312,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2313,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2318,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2319,
+          "opcode": "ldftn",
+          "operand": "OnPlayedAnimation"
+        },
+        {
+          "offset": 2325,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2330,
+          "opcode": "callvirt",
+          "operand": "add_PlayedAnimation"
+        },
+        {
+          "offset": 2335,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2336,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2341,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2342,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedMushroomEnding"
+        },
+        {
+          "offset": 2348,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2353,
+          "opcode": "callvirt",
+          "operand": "add_UnlockedMushroomEnding"
+        },
+        {
+          "offset": 2358,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2359,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2364,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2365,
+          "opcode": "ldftn",
+          "operand": "OnUnlockedKillerEnding"
+        },
+        {
+          "offset": 2371,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2376,
+          "opcode": "callvirt",
+          "operand": "add_UnlockedKillerEnding"
+        },
+        {
+          "offset": 2381,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2382,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2387,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2388,
+          "opcode": "ldftn",
+          "operand": "OnIntroSkipped"
+        },
+        {
+          "offset": 2394,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2399,
+          "opcode": "callvirt",
+          "operand": "add_IntroSkipped"
+        },
+        {
+          "offset": 2404,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2405,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2410,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2411,
+          "opcode": "ldftn",
+          "operand": "OnWasEverCompletedGame"
+        },
+        {
+          "offset": 2417,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2422,
+          "opcode": "callvirt",
+          "operand": "add_WasEverCompletedGame"
+        },
+        {
+          "offset": 2427,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2428,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2433,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2434,
+          "opcode": "ldftn",
+          "operand": "OnHadSeenDream"
+        },
+        {
+          "offset": 2440,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2445,
+          "opcode": "callvirt",
+          "operand": "add_HadSeenDream"
+        },
+        {
+          "offset": 2450,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2451,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2456,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2457,
+          "opcode": "ldftn",
+          "operand": "OnSmokeEnabled"
+        },
+        {
+          "offset": 2463,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2468,
+          "opcode": "callvirt",
+          "operand": "add_SmokeEnabled"
+        },
+        {
+          "offset": 2473,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2474,
+          "opcode": "ldfld",
+          "operand": "_commandsInstance"
+        },
+        {
+          "offset": 2479,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2480,
+          "opcode": "ldftn",
+          "operand": "OnRoomKilled"
+        },
+        {
+          "offset": 2486,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2491,
+          "opcode": "callvirt",
+          "operand": "add_RoomKilled"
+        },
+        {
+          "offset": 2496,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2497,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 2502,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2503,
+          "opcode": "ldftn",
+          "operand": "OnDayDialogSelected"
+        },
+        {
+          "offset": 2509,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2514,
+          "opcode": "callvirt",
+          "operand": "add_DayDialogSelected"
+        },
+        {
+          "offset": 2519,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2520,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 2525,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2526,
+          "opcode": "ldftn",
+          "operand": "OnEnergyConsumed"
+        },
+        {
+          "offset": 2532,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2537,
+          "opcode": "callvirt",
+          "operand": "add_EnergyConsumed"
+        },
+        {
+          "offset": 2542,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2543,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 2548,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2549,
+          "opcode": "ldftn",
+          "operand": "OnBaseDialogLineShowed"
+        },
+        {
+          "offset": 2555,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2560,
+          "opcode": "callvirt",
+          "operand": "add_BaseDialogLineShowed"
+        },
+        {
+          "offset": 2565,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2566,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 2571,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2572,
+          "opcode": "ldftn",
+          "operand": "OnButtonsDialogLineShowed"
+        },
+        {
+          "offset": 2578,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2583,
+          "opcode": "callvirt",
+          "operand": "add_ButtonsDialogLineShowed"
+        },
+        {
+          "offset": 2588,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2589,
+          "opcode": "ldfld",
+          "operand": "_dialogView"
+        },
+        {
+          "offset": 2594,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2595,
+          "opcode": "ldftn",
+          "operand": "OnWereBadBoy"
+        },
+        {
+          "offset": 2601,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2606,
+          "opcode": "callvirt",
+          "operand": "add_WereBadBoy"
+        },
+        {
+          "offset": 2611,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2612,
+          "opcode": "ldfld",
+          "operand": "_charactersManager"
+        },
+        {
+          "offset": 2617,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2618,
+          "opcode": "ldftn",
+          "operand": "OnCharacterAdded"
+        },
+        {
+          "offset": 2624,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 2629,
+          "opcode": "callvirt",
+          "operand": "remove_CharacterAdded"
+        },
+        {
+          "offset": 2634,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnPeekedDeficitItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "_consumablesController"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "GetDeficitItem"
+        },
+        {
+          "offset": 23,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 24,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 26,
+          "opcode": "constrained.",
+          "operand": "EConsumable"
+        },
+        {
+          "offset": 32,
+          "opcode": "callvirt",
+          "operand": "ToString"
+        },
+        {
+          "offset": 37,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "add_PeekedDeficitItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "PeekedDeficitItem"
+        },
+        {
+          "offset": 18,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 19,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 20,
+          "opcode": "stloc.1",
+          "operand": null
+        },
+        {
+          "offset": 21,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 22,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 23,
+          "opcode": "call",
+          "operand": "Combine"
+        },
+        {
+          "offset": 28,
+          "opcode": "castclass",
+          "operand": "token(0x1B000027)"
+        },
+        {
+          "offset": 33,
+          "opcode": "stloc.2",
+          "operand": null
+        },
+        {
+          "offset": 34,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 35,
+          "opcode": "ldflda",
+          "operand": "PeekedDeficitItem"
+        },
+        {
+          "offset": 40,
+          "opcode": "ldloc.2",
+          "operand": null
+        },
+        {
+          "offset": 41,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 42,
+          "opcode": "call",
+          "operand": "CompareExchange"
+        },
+        {
+          "offset": 47,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 48,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 49,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 50,
+          "opcode": "bne.un.s",
+          "operand": "19"
+        },
+        {
+          "offset": 52,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    }
+  ],
+  "interpretation": "DialogManager registers OnPeekedDeficitItem with add_PeekedDeficitItem. Its handler calls ConsumablesController.GetDeficitItem and converts the enum to its name. Event backing-field writes use ldflda and CompareExchange, not stfld.",
+  "erratum": "place-and-item-binding-il.json note prematurely described static delegate initialization; these instructions provide the actual event registration and handler. Its GetPlace/LetIn instructions remain valid."
+}

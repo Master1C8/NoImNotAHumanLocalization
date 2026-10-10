@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "status": "31 objective findings accepted with full-unit wording; preflight passed; application pending",
+  "inputPinsSha256": "d643bec3fac7a1fc54b58ed2153c5a2524e1ccf8953235c1ee128aafc939ca4c",
+  "findingCount": 31,
+  "records": [
+    {
+      "findingIndex": 0,
+      "findingId": "HE-IR01-001",
+      "findingRecordSha256": "f7dfe37822184a694b560c8e6734853423a66b33575df33948d5d55f6e939513",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "path": "Translations/he/ui-batch-007.json",
+      "offset": 22,
+      "source": "дёрганый",
+      "before": "העצבני",
+      "reviewerProposal": "הקופצני",
+      "after": "הקופצני",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Approved jerky-man glossary term; the existing UI name differs.",
+      "nodeNames": []
+    },
+    {
+      "findingIndex": 1,
+      "findingId": "HE-IR01-002",
+      "findingRecordSha256": "8506e0a664173d07a0b3817e8333a9234c54472cd8acadbc814fcd1e5f43fa2b",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "path": "Translations/he/dialogue-batch-045.json",
+      "offset": 4,
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "before": "אני חו…זר, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הנו…שא.",
+      "reviewerProposal": "אח…זור, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הי…שות.",
+      "after": "אח…זור, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הי…שות.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Anonymous radio speaker and subject entity require neutral wording.",
+      "nodeNames": [
+        "radio_13"
+      ]
+    },
+    {
+      "findingIndex": 2,
+      "findingId": "HE-IR01-005",
+      "findingRecordSha256": "3f35df167694bab79367da2271471883187f64d3b287efd05f60b7a0ad1fa0f3",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+      "path": "Translations/he/dialogue-batch-045.json",
+      "offset": 7,
+      "source": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+      "before": "אני חו…זר, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+      "reviewerProposal": "אח…זור, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+      "after": "אח…זור, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Remove masculine speaker agreement while retaining the prior entity correction.",
+      "nodeNames": [
+        "radio_12"
+      ]
+    },
+    {
+      "findingIndex": 3,
+      "findingId": "HE-IR01-006",
+      "findingRecordSha256": "e7d282ed25c1aa06d5795b6a39e9e2834542585a4812ad91d5ede7b6f72406ab",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "path": "Translations/he/dialogue-batch-140.json",
+      "offset": 2,
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "before": "Tourist: נמצא כאן {0}. אני לא בטוח שנסתדר.",
+      "reviewerProposal": "Tourist: יש כאן {0}. אני לא בטוח שנסתדר.",
+      "after": "Tourist: {0} כאן. אני לא בטוח שנסתדר.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Slot-first clause works with definite, feminine and plural character labels.",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 4,
+      "findingId": "HE-IR01-007",
+      "findingRecordSha256": "e4c7c140eaa4cbe84593449b5439a1bc7280f20725e63494cdb687033038e7b7",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "path": "Translations/he/dialogue-batch-146.json",
+      "offset": 1,
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "before": "Alt: טוב. {0} יספיק?",
+      "reviewerProposal": "Alt: טוב. אפשר להסתדר עם {0}?",
+      "after": "Alt: טוב. אפשר להסתדר עם {0}?",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The item can be feminine; אפשר clause preserves the suitability question.",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ]
+    },
+    {
+      "findingIndex": 5,
+      "findingId": "HE-IR01-008",
+      "findingRecordSha256": "80f958f09536eaccd42e39596bcefab00580f58cddcc618ceeb069dcc19efa36",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570115",
+      "path": "Translations/he/dialogue-batch-104.json",
+      "offset": 3,
+      "source": "Fairytaller: Но боюсь, что мне будет некомфортно, пока в одном помещении со мной есть {0}.",
+      "before": "Fairytaller: אבל אני חושש שלא ארגיש בנוח כל עוד {0} נמצא איתי באותו חדר.",
+      "reviewerProposal": "Fairytaller: אבל אני חושש שלא ארגיש בנוח כל עוד אני חולק חדר עם {0}.",
+      "after": "Fairytaller: אבל אני חושש שלא ארגיש בנוח כל עוד אני חולק חדר עם {0}.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The occupying character may be feminine; first-person construction preserves shared-room meaning.",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 6,
+      "findingId": "HE-IR01-009",
+      "findingRecordSha256": "2853130a99480ffd244808f1ff23d3a76f75752cd00b0b8c3c15a0870b39eb65",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "path": "Translations/he/dialogue-batch-119.json",
+      "offset": 4,
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "before": "Bald: יש אצלך את {0}. אולי נצליח איכשהו להעיף אותו מפה?",
+      "reviewerProposal": "Bald: יש אצלך את {0}. אולי נצליח איכשהו להעיף מפה?",
+      "after": "Bald: יש אצלך את {0}. אולי נצליח איכשהו לגרש את מי שכאן?",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Keep the Russian ejection action and object without assuming the occupant's gender.",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 7,
+      "findingId": "HE-IR01-003",
+      "findingRecordSha256": "7984034a407b4f8160d4195d25f1282474df00b1e56b226e33495a2ed46ad33a",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "path": "Translations/he/dialogue-batch-300.json",
+      "offset": 24,
+      "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+      "before": "Bald: גרתי פה קודם עם אמא ואבא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "reviewerProposal": "Bald: גרתי פה קודם עם אמא וסבתא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "after": "Bald: גרתי פה קודם עם אמא וסבתא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Bald's ма и ба are mother and grandmother in the scene.",
+      "nodeNames": [
+        "entrance_bald"
+      ]
+    },
+    {
+      "findingIndex": 8,
+      "findingId": "HE-IR01-010",
+      "findingRecordSha256": "7895fca5d87f39bbca876dab242fcdf2083cccb513aa0e66db589a7c06121dcf",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740994",
+      "path": "Translations/he/dialogue-batch-260.json",
+      "offset": 1,
+      "source": "Experienced: Мне не по душе {0}.",
+      "before": "Experienced: {0} לא מוצא חן בעיניי.",
+      "reviewerProposal": "Experienced: {0} לא לטעמי.",
+      "after": "Experienced: {0} לא לטעמי.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The occupant may be female; לא לטעמי preserves his dislike.",
+      "nodeNames": [
+        "Experienced_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 9,
+      "findingId": "HE-IR01-011",
+      "findingRecordSha256": "4be88c902c50a6ae8a988afbc285a2f78d7517b4701c7bdf385daea87f4d47d0",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106180",
+      "path": "Translations/he/dialogue-batch-235.json",
+      "offset": 3,
+      "source": "Wolfhound: У тебя {0} уже греет очаг? Сразу вижу, что это волчица в овечьей шкуре.",
+      "before": "Wolfhound: {0} כבר מתחממת אצלך בבית? אני רואה מיד שזאת זאבה בעור כבש.",
+      "reviewerProposal": "Wolfhound: {0} כבר אצלך בבית, בחום ובנחת? אני רואה מיד שזאת זאבה בעור כבש.",
+      "after": "Wolfhound: הבית שלך כבר חם בזכות {0}? אני רואה מיד שזאת זאבה בעור כבש.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Retain the source's warm-hearth agency and fixed she-wolf metaphor without gendering the variable.",
+      "nodeNames": [
+        "Wolfhound_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 10,
+      "findingId": "HE-IR01-012",
+      "findingRecordSha256": "e0b9c43c1834b3bdab52a60d018edd1a05424a0058071a242257591496971ed1",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717569",
+      "path": "Translations/he/dialogue-batch-215.json",
+      "offset": 3,
+      "source": "Greatmother: Опа, это {0} сидит у тебя тут, что ли?  Вот так встреча!",
+      "before": "Greatmother: אה, זה {0} שיושב אצלך פה? איזו פגישה!",
+      "reviewerProposal": "Greatmother: אה, {0} פה אצלך, מה? איזו פגישה!",
+      "after": "Greatmother: אה, {0} פה אצלך, מה? איזו פגישה!",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The occupant may be female; neutral location preserves the surprised meeting.",
+      "nodeNames": [
+        "Greatmother_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 11,
+      "findingId": "HE-IR01-013",
+      "findingRecordSha256": "25e2538945fb7c9b975bdd6b657a72dff86907c0613dd21a70d70e4f9f8eb4d4",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "path": "Translations/he/dialogue-batch-111.json",
+      "offset": 2,
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "before": "Wheelchair: לא מכניס אותי? מיד נסדר את זה! הנה {0}. לוקחים אותו, מנופפים בו בכניסה ו—הופ!—אתה בלתי נראה.",
+      "reviewerProposal": "Wheelchair: לא מכניס אותי? מיד נסדר את זה! הנה {0}. לוקחים את זה, מנופפים עם זה בכניסה ו—הופ!—אתה בלתי נראה.",
+      "after": "Wheelchair: לא מכניס אותי? מיד נסדר את זה! הנה {0}. לוקחים את זה, מנופפים בזה בכניסה ו—הופ!—אתה בלתי נראה.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Natural object-neutral Hebrew for every actual deficit item label.",
+      "nodeNames": [
+        "Wheelchair_Entrance_Bribe"
+      ]
+    },
+    {
+      "findingIndex": 12,
+      "findingId": "HE-IR01-014",
+      "findingRecordSha256": "8e784012d81737c83d774503ab2c6998d86f57300ebecaff5ffaf407dc6a5b65",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "path": "Translations/he/dialogue-batch-152.json",
+      "offset": 5,
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "before": "NotTrue: אוי ואבוי! כבר יושב לך בכורסה {0}.",
+      "reviewerProposal": "NotTrue: אוי ואבוי! כבר יש אצלך בכורסה את {0}.",
+      "after": "NotTrue: אוי ואבוי! {0} כבר אצלך בכורסה.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Slot-first clause avoids agreement and the proposed definite-marker collision.",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 13,
+      "findingId": "HE-IR01-015",
+      "findingRecordSha256": "6f08e8f34558c478b3d8c07573fc7ea902e3ee5cd616430fe5ce862977288a5d",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414403",
+      "path": "Translations/he/dialogue-batch-049.json",
+      "offset": 7,
+      "source": "Fanatic: Человек! СОЛНЦЕ велит не входить, покуда в доме таится {0}.",
+      "before": "Fanatic: בן אדם! השמש מצווה שלא להיכנס כל עוד {0} מסתתר בבית.",
+      "reviewerProposal": "Fanatic: בן אדם! השמש מצווה שלא להיכנס כל עוד {0} במסתור בבית.",
+      "after": "Fanatic: בן אדם! השמש מצווה שלא להיכנס כל עוד {0} במסתור בבית.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The occupant may be female; nominal hiding phrase avoids agreement.",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 14,
+      "findingId": "HE-IR01-016",
+      "findingRecordSha256": "1a5d3bc7a0a89e10d60d3c7b70febfbccfd7e48e1f05d11740ca3b15acdba036",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025800",
+      "path": "Translations/he/dialogue-batch-097.json",
+      "offset": 12,
+      "source": "Luka: С удовольствием вошёл бы, но сейчас там {0}.",
+      "before": "Luka: הייתי שמח להיכנס, אבל עכשיו נמצא שם {0}.",
+      "reviewerProposal": "Luka: הייתי שמח להיכנס, אבל עכשיו יש שם {0}.",
+      "after": "Luka: הייתי שמח להיכנס, אבל {0} שם עכשיו.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Slot-first clause avoids יש plus a definite character label.",
+      "nodeNames": [
+        "Luka_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 15,
+      "findingId": "HE-IR01-017",
+      "findingRecordSha256": "3c2f804a66a71ac2b9ebcdcee47c48b5f4d04f65727403cb02aff53796ee8c5e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+      "path": "Translations/he/dialogue-batch-270.json",
+      "offset": 8,
+      "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+      "before": "Fatman: לעזאזל, יש אצלך… {0}. תעיף אותם קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+      "reviewerProposal": "Fatman: לעזאזל, יש אצלך… {0}. תעיף מפה, קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+      "after": "Fatman: לעזאזל, יש אצלך… {0}. תעיף מפה את מי שכאן, קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Keep the order to evict the occupant with a neutral object; proposed תעיף מפה was incomplete.",
+      "nodeNames": [
+        "Fatman_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 16,
+      "findingId": "HE-IR01-018",
+      "findingRecordSha256": "62a7668be44d706f40956783bbebaf51a120add960ddc88d3887faa7c5e74a7f",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859968",
+      "path": "Translations/he/dialogue-batch-203.json",
+      "offset": 2,
+      "source": "Buddy: О-о, корешок, гляжу у тебя уже {0} греет местечко.",
+      "before": "Buddy: אוֹה, אחי, אני רואה ש־{0} כבר תפס אצלך מקום חם.",
+      "reviewerProposal": "Buddy: אוֹה, אחי, אני רואה שהמקום החם אצלך כבר תפוס בידי {0}.",
+      "after": "Buddy: אוֹה, אחי, אני רואה שכבר נעים וחם אצלך בזכות {0}.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Keep the warm-place idiom and casual voice with neutral causation.",
+      "nodeNames": [
+        "Buddy_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 17,
+      "findingId": "HE-IR01-019",
+      "findingRecordSha256": "6d135f2b883c34fb8ab9bf33c142213abd411f00265b0acd191d02b8bd1cd9f1",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277062",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 6,
+      "source": "Nun: Так, кто это тут у вас — {0}.",
+      "before": "Nun: נו, מי נמצא אצלכם כאן — {0}.",
+      "reviewerProposal": "Nun: נו, מי כאן אצלך — {0}.",
+      "after": "Nun: נו, מי כאן אצלך — {0}.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Nun addresses the one male player; singular is required.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 18,
+      "findingId": "HE-IR01-020",
+      "findingRecordSha256": "010d06f0c90fcc5fd7f45f84a9c9e8d131da8f32b83d036272b44b06aba00581",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+      "path": "Translations/he/dialogue-batch-164.json",
+      "offset": 5,
+      "source": "BigLebowski: Блин, не. У тебя на классном местечке уже {0}, короче.",
+      "before": "BigLebowski: שיט, לא. במקום המגניב שלך כבר נמצא {0}, בקיצור.",
+      "reviewerProposal": "BigLebowski: שיט, לא. במקום המגניב שלך כבר יש {0}, בקיצור.",
+      "after": "BigLebowski: שיט, לא. {0} כבר במקום המגניב שלך, בקיצור.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Slot-first clause handles actual definite labels without יש plus definiteness.",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ]
+    },
+    {
+      "findingIndex": 19,
+      "findingId": "HE-IR01-021",
+      "findingRecordSha256": "d52340a46e60e8480672486cbc48d9ba176ef10976fe7fbd4793b76d17e24a5b",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530183",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 17,
+      "source": "FortuneTeller: И вот с помощью аффирмаций мы сможем дойти до глубин вашего космоса, понимаете, да?",
+      "before": "FortuneTeller: ובאמצעות הצהרות חיוביות נוכל להגיע למעמקי היקום הפנימי שלכם, אתם מבינים, נכון?",
+      "reviewerProposal": "FortuneTeller: ובאמצעות הצהרות חיוביות נוכל להגיע למעמקי היקום הפנימי שלך, אתה מבין, נכון?",
+      "after": "FortuneTeller: ובאמצעות הצהרות חיוביות נוכל להגיע למעמקי היקום הפנימי שלך, אתה מבין, נכון?",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "FortuneTeller addresses the one male player; formal Russian Вы is singular in this exchange.",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ]
+    },
+    {
+      "findingIndex": 20,
+      "findingId": "HE-IR01-022",
+      "findingRecordSha256": "490358491643872fbf848da1b9a85eb45ca87e9a78792d758c8b73ba53d2fac8",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530182",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 18,
+      "source": "FortuneTeller: Вы совмещаете в себе несколько созвездий сразу, вы комплексный человек.",
+      "before": "FortuneTeller: אתם משלבים בתוככם כמה קבוצות כוכבים בבת אחת. האישיות שלכם מורכבת.",
+      "reviewerProposal": "FortuneTeller: אתה משלב בתוכך כמה קבוצות כוכבים בבת אחת. האישיות שלך מורכבת.",
+      "after": "FortuneTeller: אתה משלב בתוכך כמה קבוצות כוכבים בבת אחת. האישיות שלך מורכבת.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Singular player address; retain prior complex-personality correction.",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ]
+    },
+    {
+      "findingIndex": 21,
+      "findingId": "HE-IR01-023",
+      "findingRecordSha256": "339a892805ff662260eacd9cfef1b0021afc444f447321564bbf7e0a933a81ef",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530181",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 19,
+      "source": "FortuneTeller: Я понимаю, что для вас это всё стресс, поскольку вы – асцендентный козерог.",
+      "before": "FortuneTeller: אני מבינה שזה מלחיץ אתכם, מפני שהמזל העולה שלכם הוא גדי.",
+      "reviewerProposal": "FortuneTeller: אני מבינה שזה מלחיץ אותך, מפני שהמזל העולה שלך הוא גדי.",
+      "after": "FortuneTeller: אני מבינה שזה מלחיץ אותך, מפני שהמזל העולה שלך הוא גדי.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Singular player address; retain the female speaker and astrological claim.",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ]
+    },
+    {
+      "findingIndex": 22,
+      "findingId": "HE-IR01-024",
+      "findingRecordSha256": "7a69b2edb083d7f5b7740dbb40aabe242dfbfae01dfec3a8be888c8d469f5ec1",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283978",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 5,
+      "source": "Gasmask: Ждём вас.",
+      "before": "Gasmask: אנחנו מחכים לכם.",
+      "reviewerProposal": "Gasmask: אנחנו מחכים לך.",
+      "after": "Gasmask: אנחנו מחכים לך.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Gasmask recruitment branch addresses the one male player.",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ]
+    },
+    {
+      "findingIndex": 23,
+      "findingId": "HE-IR01-025",
+      "findingRecordSha256": "e4b5694c8e95a067e6c016b4170cabc9a3c5ac725d5a886a66e1d92092627c5e",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283977",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 6,
+      "source": "Gasmask: Сюда возвращаться будет не за чем. По крайней мере, в ближайшее время.",
+      "before": "Gasmask: לא תהיה לכם סיבה לחזור לכאן. לפחות לא בזמן הקרוב.",
+      "reviewerProposal": "Gasmask: לא תהיה לך סיבה לחזור לכאן. לפחות לא בזמן הקרוב.",
+      "after": "Gasmask: לא תהיה לך סיבה לחזור לכאן. לפחות לא בזמן הקרוב.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Same Gasmask recruitment branch; singular player return.",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ]
+    },
+    {
+      "findingIndex": 24,
+      "findingId": "HE-IR01-026",
+      "findingRecordSha256": "8da23627a1d7ffb15f0929609af7db3d2375ae2d9a807aab17ac152366b9297d",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283976",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 7,
+      "source": "Gasmask: Отлично. Берите самое важное, жильё вам предоставят.",
+      "before": "Gasmask: מצוין. קחו את הדברים החשובים ביותר, נדאג לכם למגורים.",
+      "reviewerProposal": "Gasmask: מצוין. קח את הדברים החשובים ביותר, נדאג לך למגורים.",
+      "after": "Gasmask: מצוין. קח את הדברים החשובים ביותר, נדאג לך למגורים.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Same Gasmask recruitment branch; singular imperative and beneficiary.",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ]
+    },
+    {
+      "findingIndex": 25,
+      "findingId": "HE-IR01-027",
+      "findingRecordSha256": "2365b8dee90f1b235e859d89889f6fe6c08d63dbd5f8704efbd5fcabeb4f9357",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455819042817",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 3,
+      "source": "Bald: Но, сука, как же я себя ненавижу. За то, что не смог защитить их. За то, что убежал, как мразь. За то, что не вернулся.",
+      "before": "Bald: אבל, לעזאזל, כמה שאני שונא את עצמי. כי לא הצלחתי להגן עליהם. כי ברחתי כמו חלאה. כי לא חזרתי.",
+      "reviewerProposal": "Bald: אבל, לעזאזל, כמה שאני שונא את עצמי. כי לא הצלחתי להגן עליהן. כי ברחתי כמו חלאה. כי לא חזרתי.",
+      "after": "Bald: אבל, לעזאזל, כמה שאני שונא את עצמי. כי לא הצלחתי להגן עליהן. כי ברחתי כמו חלאה. כי לא חזרתי.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Bald's mother and grandmother are both female; object pronoun must be feminine plural.",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ]
+    },
+    {
+      "findingIndex": 26,
+      "findingId": "HE-IR01-004",
+      "findingRecordSha256": "553c3bea283778e8167888e59b27931427de2a721e711136eae0fb9acaeba2fa",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 8,
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "before": "Bald: איכשהו חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "reviewerProposal": "Bald: פעם חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "after": "Bald: פעם חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Как-то is a past occasion here, not a claim that he somehow managed to return.",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ]
+    },
+    {
+      "findingIndex": 27,
+      "findingId": "HE-IR01-028",
+      "findingRecordSha256": "45047d3c06430fe7b82f7f4f34f58e8c540fb8e5c7867aae043bc8e2952b296a",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455798071302",
+      "path": "Translations/he/dialogue-batch-186.json",
+      "offset": 38,
+      "source": "Tough: Он сказал, что нужно зайти домой ненадолго, передать что-то его матери. Я не захотела идти с ним.",
+      "before": "Tough: הוא אמר שעליי להיכנס לבית לרגע כדי למסור משהו לאמו. לא רציתי ללכת איתו.",
+      "reviewerProposal": "Tough: הוא אמר שצריך להיכנס הביתה לרגע, למסור משהו לאמו. לא רציתי ללכת איתו.",
+      "after": "Tough: הוא אמר שצריך להיכנס הביתה לרגע, למסור משהו לאמו. לא רציתי ללכת איתו.",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Tough reports his need to go home while she stayed outside; subjectless Hebrew retains agency.",
+      "nodeNames": [
+        "Tough_Asking_4"
+      ]
+    },
+    {
+      "findingIndex": 28,
+      "findingId": "HE-IR01-029",
+      "findingRecordSha256": "10da19556dab768ab67cf85dd0140c7b0bac7d371c7acfdf297d1b069a198039",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599115",
+      "path": "Translations/he/dialogue-batch-281.json",
+      "offset": 47,
+      "source": "Couple: Чего вам надо от меня?",
+      "before": "Couple: מה אתם רוצים ממני?",
+      "reviewerProposal": "Couple: מה אתה רוצה ממני?",
+      "after": "Couple: מה אתה רוצה ממני?",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "The husband addresses the one male player in the armed confrontation.",
+      "nodeNames": [
+        "Couple_Asking_5_2"
+      ]
+    },
+    {
+      "findingIndex": 29,
+      "findingId": "HE-IR01-030",
+      "findingRecordSha256": "0a4771bd0892b4b181d0f7eeadc52336e0c52b0ea7d10cbd251e72e5ec4b4724",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+      "path": "Translations/he/dialogue-batch-127.json",
+      "offset": 4,
+      "source": "Leper: Ёбаный свет…",
+      "before": "Leper: האור המזוין…",
+      "reviewerProposal": "Leper: כוס אמק…",
+      "after": "Leper: כוס אמק…",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "A coarse light-based oath has no literal light referent in this inspection scene.",
+      "nodeNames": [
+        "Leper_Ears_DontShoot"
+      ]
+    },
+    {
+      "findingIndex": 30,
+      "findingId": "HE-IR01-031",
+      "findingRecordSha256": "7aaeba8bbef68c2221ed7cd01867e7793a6863c2548e7b1fe45d9db545fe31d6",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+      "path": "Translations/he/dialogue-batch-127.json",
+      "offset": 22,
+      "source": "Leper: Ёбаный свет, ты что?",
+      "before": "Leper: האור המזוין, מה יש לך?",
+      "reviewerProposal": "Leper: כוס אמק, מה יש לך?",
+      "after": "Leper: כוס אמק, מה יש לך?",
+      "decision": "accepted with full-unit wording adjudicated",
+      "reason": "Same coarse interjection during the gun confrontation; no literal light referent.",
+      "nodeNames": [
+        "Leper_Teeth_Gun"
+      ]
+    }
+  ]
+}

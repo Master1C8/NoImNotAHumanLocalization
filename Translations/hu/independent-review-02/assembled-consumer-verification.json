@@ -1,0 +1,90 @@
+{
+  "assembliesChecked": 3491,
+  "eachSerializedSourceTargetAndCandidateTupleCompared": true,
+  "sourceAssemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "sourceAssemblyCurrentFileHashMatches": true,
+  "consumerIlSha256": "9f9ca1b1eb2d60b6043af1b5c3196f422ecf6dd540963e1bfb43b7c758abeba7",
+  "expandedConsumerIlSha256": "cc6b73e48ff9abd89d3113078fd1a77a2b6f76e7bfcf493b88663ad05fa8d590",
+  "itemLabelsRead": 7,
+  "residentLabelsRead": 57,
+  "templatesRead": 8,
+  "itemBobeerActualOutput": "Sör",
+  "fridgeBobeerStandaloneOutput": "Bober Cserni",
+  "assemblySha256": "c3bc9098fd96ff7ea8b170fd9406857ed61e1e39889289b6706661ac8974b7fd",
+  "templateDecisions": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106177",
+      "candidateDomain": "item-name-domain.json",
+      "assemblyCount": 7,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 3192,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 57,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 57,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328969",
+      "candidateDomain": "item-name-domain.json",
+      "assemblyCount": 7,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457152831498",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 57,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 57,
+      "compiledOccurrence": true,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "candidateDomain": "resident-name-domain.json",
+      "assemblyCount": 57,
+      "compiledOccurrence": false,
+      "decision": "static-composition-valid",
+      "grammar": "Bare quoted resident labels or a quantified label are inserted as nominative noun phrases; clauses require no candidate-dependent suffix or gender inflection. Singular existential van accepts a Hungarian numeral phrase. Two-name enumeration retains conjunction and each label. Item noun labels stand alone before the unchanged offer."
+    }
+  ],
+  "semanticMethod": "Read all seven actual item labels, all 57 resident labels and all eight complete templates; inspect instantiated boundaries and both singular/plural label behavior; exhaustively compare all 3491 emitted tuples to independently assembled compositions. This is compositional static review, not 3491 independent story contexts or runtime-state observations.",
+  "unverified": [
+    "DeficitConsumables configuration and actual selected enum values",
+    "Character-place configuration, current occupants and admissible pairs",
+    "Reachability of the one absent compiled template",
+    "Fonts, layout, dialogue advancement, package insertion and game execution"
+  ],
+  "probeHistory": [
+    "An initial read of consumer-il-expanded.json expected assemblyPath and raised KeyError after the primary assembly hash successfully matched; inspected its actual schema and verified its assemblySha256 against the primary verified binary. No external request or game mutation."
+  ]
+}

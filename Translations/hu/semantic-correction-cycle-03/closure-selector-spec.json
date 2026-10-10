@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "locale": "hu",
+  "acceptedUnits": 16538,
+  "sourceOrder": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "previousReview": "independent-review-01 complete 2902-row closure",
+  "sceneSelection": "all accepted rows sharing a corrected node; retain prior scene groups; include Twins and Couple entrance branch families",
+  "glossaryAndReferentSelectors": [
+    {"id": "ear-wax", "sourceRegex": "\\bсер(?:а|ы)\\b", "targetRegex": "fülzsír"},
+    {"id": "sister-birth-order", "sourceRegex": "^Twins:.*сестр", "targetRegex": "^Twins:.*(?:húgom|lánytestvérem|testvérem)"},
+    {"id": "negative-have-temperature", "sourceRegex": "не жарко.*одежд|одежд.*не жарко", "targetRegex": "(?:nem|nincs) melege"},
+    {"id": "couple-husband-wife", "sourceRegex": "^Couple:.*(?:жен|жён|мат|мам)", "targetRegex": "^Couple:.*(?:feleség|anyj|anyá)"},
+    {"id": "cultist-armpit", "sourceRegex": "^Cultist2:.*подмыш", "targetRegex": "^Cultist2:.*hónalj"},
+    {"id": "wishlist-action", "sourceRegex": "^В желаемое$", "targetRegex": "Kívánságlistára"},
+    {"id": "publisher-proper-name", "sourceRegex": "CRITICAL REFLEX", "targetRegex": "CRITICAL REFLEX"}
+  ],
+  "mandatoryRegressionCatalog": {
+    "retainPriorCatalog": true,
+    "riskExtension": "all 196 bounded catalog candidates from independent-review-01, with per-ID applicability classification",
+    "formatSlots": "all 111 accepted source format-slot units, whether compiled or not",
+    "otherProtectedSyntax": "full 16538-unit preserve-exact gate",
+    "excludedImagesAndTextures": true
+  },
+  "runtimeConsumerDomain": {
+    "residentCandidateSource": "all 57 accepted characterName_* UI rows; conservative occupancy superset",
+    "itemCandidateSource": "only seven accepted consumable_<EConsumable lowercase>_name UI rows supplied by LocalizeItem",
+    "inadmissiblePriorCandidates": "three FridgeItem_*_Name UI labels: valid standalone UI rows, not LocalizeItem outputs",
+    "bobeerConsumerOutput": "consumable_bobeer_name is Sör; FridgeItem_Bobeer_Name is Bober Cserni and is not substituted",
+    "templates": "eight prior scene format-slot templates, one not present in inspected compiled program",
+    "assembly": "all seven item outputs for each Bribe template; all 57 resident labels for one-slot Occupied; all ordered distinct resident pairs for two-slot Occupied",
+    "scopeCaveat": "source-defined conservative supersets; deficit configuration, occupancy restrictions and runtime reachability unverified"
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/he_independent_review",
+  "independentFromAuthor": true,
+  "status": "complete closure finding batch; corrections proposed, not applied",
+  "closureManifestSha256": "63e4016d92013069a95c3b44aed707e23a568190d7e1dc6849cba2cb8a1cce7c",
+  "reviewRowsSha256": "e7f9737800b70241c44dc901193bae839328c3c1e448023a66157c48d0b2ac81",
+  "glossarySha256": "2842f9f75fc312fee81aa15c8753ac8c3926064b6cd79cbf6b1035786d6de886",
+  "findingCount": 31,
+  "findings": [
+    {
+      "findingId": "HE-IR01-001",
+      "closureOrdinalZeroBased": 237,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "key": "characterName_Unstable",
+      "nodeNames": [],
+      "source": "дёрганый",
+      "currentTarget": "העצבני",
+      "proposedFullTarget": "הקופצני",
+      "sourceValueSha256": "05fdab95a0fb3c9d3e1727cfa5ed12c40c532d0b860da317616338f89992f2a8",
+      "currentTargetValueSha256": "88a437fa8b8ae91470a37f924027b157faa0049ebe7a638d0dca4f5e880674f4",
+      "proposedTargetValueSha256": "f1e274b05eaae058c25d70df7583cc1ce39d8025829deebfca52ac4af6c5ece8",
+      "reason": "The character identity key characterName_Unstable uses העצבני, while the approved jerky-man glossary term is הקופצני. This UI label is the exact label the GetCharacterOnPlace consumer fetches by characterName_ + ECharacterType. Use the approved canonical designation.",
+      "context": [
+        "Documentation/glossary-translations/he/layer.json:jerky-man",
+        "consumer-il-context.json:GetCharacterOnPlace"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal.",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "path": "Translations/he/ui-batch-007.json",
+      "offset": 22,
+      "authoredFileSha256": "15bd94a180f5d798620e486b47271f14c701ff81ce0c0d1ba7c7a21ea5b4cc0c",
+      "components": [
+        "mandatory-regressions"
+      ]
+    },
+    {
+      "findingId": "HE-IR01-002",
+      "closureOrdinalZeroBased": 291,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "key": "line:radio_13_0e310a4",
+      "nodeNames": [
+        "radio_13"
+      ],
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "currentTarget": "אני חו…זר, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הנו…שא.",
+      "proposedFullTarget": "אח…זור, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הי…שות.",
+      "sourceValueSha256": "446cddcd442d4d9d3641ecb886765a2bfba61c336f99cc8c5fe7a1994d98e5f8",
+      "currentTargetValueSha256": "74ba0528a638f44d2f576913d91708cd6dc7a6c9ef0bf2a242b50fe0eb58c397",
+      "proposedTargetValueSha256": "ac5761474af86f9e4755b247d0ae5239f79f99c55f634a1035cc8f1c017460c0",
+      "reason": "Russian субъект is the threatening entity that has left the city, not a topic/subject of discussion. הנו…שא means the topic. The preceding delivered radio_13 cell now correctly calls it הי…שות; this final cell must retain the same referent. The approved radio-employee-18-8 role has unspecified sex. The first-person formula אח…זור preserves the repetition without assigning masculine speaker agreement.",
+      "context": [
+        "selected-consumer-context.json:radio_13",
+        "closure rows 292 and 294 current entity wording"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal.",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "path": "Translations/he/dialogue-batch-045.json",
+      "offset": 4,
+      "authoredFileSha256": "28d7de5410d9689fc2de0137b2c4384c796189a02a4cf79a20192f8daea00aca",
+      "components": [
+        "glossary-referent-and-register",
+        "scene-context"
+      ]
+    },
+    {
+      "closureOrdinalZeroBased": 294,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+      "source": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+      "currentTarget": "אני חו…זר, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+      "proposedFullTarget": "אח…זור, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+      "reason": "The approved radio-day-12-dispatcher role has unspecified sex, and Повт…ряю does not specify sex. אני חו…זר assigns masculine speaker agreement. The first-person formula אחזור expresses the repetition without specifying speaker sex; preserve the correctly restored entity referent, protocol 451 and transmission interruptions.",
+      "findingId": "HE-IR01-005",
+      "path": "Translations/he/dialogue-batch-045.json",
+      "offset": 7,
+      "authoredFileSha256": "28d7de5410d9689fc2de0137b2c4384c796189a02a4cf79a20192f8daea00aca",
+      "key": "line:radio_12_0b4364c",
+      "nodeNames": [
+        "radio_12"
+      ],
+      "components": [
+        "changed",
+        "exact-repetitions-and-wording",
+        "glossary-referent-and-register",
+        "runtime-bindings",
+        "scene-context"
+      ],
+      "sourceValueSha256": "15f9e5e55adf57fd10b7b810852933158b03441000864bd1ee979644025df4a1",
+      "currentTargetValueSha256": "c5ac4ca855df88448d5a58048aae2ff71d35bb46945824c88dba7abbfcd2133f",
+      "proposedTargetValueSha256": "b122af646131782ddee76693a4ab23caf9a35837abd0e58702f13dfb876a34be",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 379,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "currentTarget": "Tourist: נמצא כאן {0}. אני לא בטוח שנסתדר.",
+      "proposedFullTarget": "Tourist: יש כאן {0}. אני לא בטוח שנסתדר.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-006",
+      "path": "Translations/he/dialogue-batch-140.json",
+      "offset": 2,
+      "authoredFileSha256": "907b27885aa0ce01db0e059b0f87e1ab7513791479e7918997b1eee9c1663c81",
+      "key": "line:Tourist_Entrance_Occupied_068c936",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "f02c61a1075c36235a57b52bab243c2a07ca98b018a3d7883d3b2d7331eba5c8",
+      "currentTargetValueSha256": "5f18cc3a67786e87a213e1e1e9b14961e47c8237790bb0cafa72c9aa9db1e9f0",
+      "proposedTargetValueSha256": "6104a4e721be5483bb88fac5b0d7ecb1ba2375cef7dcf20e49c0a7458430c811",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 380,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "currentTarget": "Alt: טוב. {0} יספיק?",
+      "proposedFullTarget": "Alt: טוב. אפשר להסתדר עם {0}?",
+      "reason": "The actual PeekDeficitItem / LocalizeItem domain includes feminine Cigarette and Kombucha labels. יספיק agrees as masculine directly with the inserted label. Ask about suitability without gendering the item.",
+      "findingId": "HE-IR01-007",
+      "path": "Translations/he/dialogue-batch-146.json",
+      "offset": 1,
+      "authoredFileSha256": "dce8a2b4d7aaacf75d526430ee373d2e7704a08f25397fe5cd3d761904d0f4d2",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "081bbe9e0fa6a652e9ef263a809bdae4b3ae0186fac3d02d8a016db0475e9935",
+      "currentTargetValueSha256": "8b54e22efd0248e02129f2d82702bc8b4fa7110e814a227f30d10277ad665476",
+      "proposedTargetValueSha256": "4b4a3319b32796f1f0a1f7acb42d1000e82fca768ac9ea228c2eda4cf4631fad",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 385,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570115",
+      "source": "Fairytaller: Но боюсь, что мне будет некомфортно, пока в одном помещении со мной есть {0}.",
+      "currentTarget": "Fairytaller: אבל אני חושש שלא ארגיש בנוח כל עוד {0} נמצא איתי באותו חדר.",
+      "proposedFullTarget": "Fairytaller: אבל אני חושש שלא ארגיש בנוח כל עוד אני חולק חדר עם {0}.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-008",
+      "path": "Translations/he/dialogue-batch-104.json",
+      "offset": 3,
+      "authoredFileSha256": "17b7c76828fd0bc333686f4e8410fb10f51ab4041a99b3073917a887a2486a66",
+      "key": "line:Fairytaller_Entrance_Occupied_0d170bf",
+      "nodeNames": [
+        "Fairytaller_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "392c4360e8cc8ad166b08a512c37a897066fe9b7dc6ca305c8ec0cc92e3948a6",
+      "currentTargetValueSha256": "cfc90a0a47baea673ddd18937b2b14792b5ffc9100b285c9772a017f562eac08",
+      "proposedTargetValueSha256": "472642080735ec30903b3c875cdadbe0f0104aba724e615446cd926fb7c9ef49",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 391,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "currentTarget": "Bald: יש אצלך את {0}. אולי נצליח איכשהו להעיף אותו מפה?",
+      "proposedFullTarget": "Bald: יש אצלך את {0}. אולי נצליח איכשהו להעיף מפה?",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-009",
+      "path": "Translations/he/dialogue-batch-119.json",
+      "offset": 4,
+      "authoredFileSha256": "645e5159d7cc5dc60335d364b214c6d5f391db7c7c8f139c7788efd4c05436b1",
+      "key": "line:Bald_Entrance_Occupied_0b1927e",
+      "nodeNames": [
+        "Bald_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "277861c65d75f83fe4e800ad34c5165817038c7313bf94d33b38d45cd0ea2e35",
+      "currentTargetValueSha256": "b1ba5845260687f109ab0667fdc6af150d6dab21c5613c50391a26cb4af64673",
+      "proposedTargetValueSha256": "caf709d9f6f92f59070330c0c2d0ed95c2abe04d9fc246c939a062bc1d0c000a",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "findingId": "HE-IR01-003",
+      "closureOrdinalZeroBased": 401,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "key": "line:entrance_bald_0b08f06",
+      "nodeNames": [
+        "entrance_bald"
+      ],
+      "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+      "currentTarget": "Bald: גרתי פה קודם עם אמא ואבא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "proposedFullTarget": "Bald: גרתי פה קודם עם אמא וסבתא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "sourceValueSha256": "625b192a601491097a26df6104e46f5e07df91518e2708b9bb48401d86de5c0d",
+      "currentTargetValueSha256": "843de84e05049feafbcd8cbee029636611cc1261ebf50fddca9e2d56966f1ff3",
+      "proposedTargetValueSha256": "6944522aa1e6291de7047784bd1e1abf16f514842723e8ff0ffb6551195a045d",
+      "reason": "ма и ба abbreviates mother and grandmother in this character story. Bald_Asking_4 explicitly says Я жил с мамой и бабушкой, then says the father left. The approved theater-man glossary also states mother and grandmother. אמא ואבא changes the grandmother into a father.",
+      "context": [
+        "Documentation/glossary-translations/he/layer.json:theater-man",
+        "selected-consumer-context.json:entrance_bald and Bald_Asking_4",
+        "closure rows 866,875,876"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal.",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "path": "Translations/he/dialogue-batch-300.json",
+      "offset": 24,
+      "authoredFileSha256": "493e3db476896437e49bd50bd00515854e038d3876414523be407509d65efb7d",
+      "components": [
+        "glossary-referent-and-register"
+      ]
+    },
+    {
+      "closureOrdinalZeroBased": 410,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740994",
+      "source": "Experienced: Мне не по душе {0}.",
+      "currentTarget": "Experienced: {0} לא מוצא חן בעיניי.",
+      "proposedFullTarget": "Experienced: {0} לא לטעמי.",
+      "reason": "The GetCharacterOnPlace argument is Experienced, whose place-12 alternatives include Daughter and BigLebowski, both female. Fixed masculine מוצא does not agree with their feminine UI labels. The full replacement retains his dislike of the occupant.",
+      "findingId": "HE-IR01-010",
+      "path": "Translations/he/dialogue-batch-260.json",
+      "offset": 1,
+      "authoredFileSha256": "7952a39e4d775af689a9afa7e2804ddb659b17353ba1c6785e066777e8486606",
+      "key": "line:Experienced_Entrance_Occupied_0ec9683",
+      "nodeNames": [
+        "Experienced_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "7381211711001b18646b99d4fdaf8f3a4dfd4409caf0e4f1f85898557a45116d",
+      "currentTargetValueSha256": "0143e64eb1576dfb89d4efd9d1fc85a674d0f8a7b105e9cb9fd3ad8eff2a05d8",
+      "proposedTargetValueSha256": "af5ef1b91be2327be18d4b94d40d1cd5f2a693d85152a78f72a73e3a7e6077a8",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 442,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106180",
+      "source": "Wolfhound: У тебя {0} уже греет очаг? Сразу вижу, что это волчица в овечьей шкуре.",
+      "currentTarget": "Wolfhound: {0} כבר מתחממת אצלך בבית? אני רואה מיד שזאת זאבה בעור כבש.",
+      "proposedFullTarget": "Wolfhound: {0} כבר אצלך בבית, בחום ובנחת? אני רואה מיד שזאת זאבה בעור כבש.",
+      "reason": "GetCharacterOnPlace(WolfHound) supplies a place-33 occupant. Alternatives include male Fairytaller as well as female Ballerina and Nun. Fixed feminine מתחממת is invalid for the male value. Neutral occupancy wording retains the source feminine wolf metaphor in the second sentence.",
+      "findingId": "HE-IR01-011",
+      "path": "Translations/he/dialogue-batch-235.json",
+      "offset": 3,
+      "authoredFileSha256": "4e5174793c0d16114a92dd3c55b3e8b7fc9137a9f4ad930075299d012e0bd611",
+      "key": "line:Wolfhound_Entrance_Occupied_0b92df6",
+      "nodeNames": [
+        "Wolfhound_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "a572cfd9e58b0bcf60cf2a3dc5e45b53cdb3c5d1cfb8e1f78a9d139a31b9d6a2",
+      "currentTargetValueSha256": "fd270480f68c533ca02834db92c729393ec7bdc0cbe6e7262e1eaa0a1563ab39",
+      "proposedTargetValueSha256": "1bc78fce8489538ac026be79bc48c533b0fd4dec02fb0ff7257aa32d4200911c",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 447,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717569",
+      "source": "Greatmother: Опа, это {0} сидит у тебя тут, что ли?  Вот так встреча!",
+      "currentTarget": "Greatmother: אה, זה {0} שיושב אצלך פה? איזו פגישה!",
+      "proposedFullTarget": "Greatmother: אה, {0} פה אצלך, מה? איזו פגישה!",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-012",
+      "path": "Translations/he/dialogue-batch-215.json",
+      "offset": 3,
+      "authoredFileSha256": "72598296d5566be811214f6b3fae5c2e933317105c35a9844e02b7d4d1c01e8b",
+      "key": "line:Greatmother_Entrance_Occupied_00fa855",
+      "nodeNames": [
+        "Greatmother_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "f3a65ee901013888906fe04220b0c3f8d56a9f82c7fa228aab96b256e7d2fdaa",
+      "currentTargetValueSha256": "6294a9efebb969b184a212d633924a21af33dd6bb421901d44708668e780fa8b",
+      "proposedTargetValueSha256": "d70e7d2fd5de172b39c33fa5e9c5d0c95358ec33ffc078e7f523d06a796c3837",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 451,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "currentTarget": "Wheelchair: לא מכניס אותי? מיד נסדר את זה! הנה {0}. לוקחים אותו, מנופפים בו בכניסה ו—הופ!—אתה בלתי נראה.",
+      "proposedFullTarget": "Wheelchair: לא מכניס אותי? מיד נסדר את זה! הנה {0}. לוקחים את זה, מנופפים עם זה בכניסה ו—הופ!—אתה בלתי נראה.",
+      "reason": "Masculine אותו/בו imposes gender on an item slot whose visible item labels include feminine forms. Generic demonstratives preserve the take/wave actions.",
+      "findingId": "HE-IR01-013",
+      "path": "Translations/he/dialogue-batch-111.json",
+      "offset": 2,
+      "authoredFileSha256": "0aeead0337f78d6a9baa54b007336b190ad39528cc433b68b42ac8b24b9ce4ab",
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "nodeNames": [
+        "Wheelchair_Entrance_Bribe"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "52f5a783bf7e4e2072e89c40a4c148a997f20c257f92cbc2f3f2db0ef90bca8a",
+      "currentTargetValueSha256": "c54a6be368fdf8ccb54ddf4c6333702eeba39455e07559e79c782777ce1c1a4b",
+      "proposedTargetValueSha256": "b1513af6a682e5dfe17f33ba103609addd866cccbc60e906e5ef8f87049508b4",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 471,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "currentTarget": "NotTrue: אוי ואבוי! כבר יושב לך בכורסה {0}.",
+      "proposedFullTarget": "NotTrue: אוי ואבוי! כבר יש אצלך בכורסה את {0}.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-014",
+      "path": "Translations/he/dialogue-batch-152.json",
+      "offset": 5,
+      "authoredFileSha256": "77e6b168ec916a29d5d639a38c79866b9ece9180c76521ed31d40ff810904f83",
+      "key": "line:NotTrue_Entrance_Occupied_028412a",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "b43dd3ea10b35ea30af4447ecbba752ed8621c4b91cb726fa90e0b87d72b152f",
+      "currentTargetValueSha256": "ea4cdc259eba2fa94821f7189b805bde1da1fd9952cdf71c965f47f1777022cb",
+      "proposedTargetValueSha256": "9db28d3264a00a55febd863e5b5999d0987356bb399793cc06e01fb31377f57e",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 486,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414403",
+      "source": "Fanatic: Человек! СОЛНЦЕ велит не входить, покуда в доме таится {0}.",
+      "currentTarget": "Fanatic: בן אדם! השמש מצווה שלא להיכנס כל עוד {0} מסתתר בבית.",
+      "proposedFullTarget": "Fanatic: בן אדם! השמש מצווה שלא להיכנס כל עוד {0} במסתור בבית.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-015",
+      "path": "Translations/he/dialogue-batch-049.json",
+      "offset": 7,
+      "authoredFileSha256": "06934b140bcc83279741f4be81968a48a6eb6821c6a482f6371748ac8a04624c",
+      "key": "line:Fanatic_Entrance_Occupied_01deafb",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "9f06351c2454dc819ddd91a8e0c9fe33e48fe8881bb98d4dd508fa86912567b0",
+      "currentTargetValueSha256": "75e5aae4e97c42ad51ac99b4c5baf5f1541b7ae41bebe0318c1efa665a401729",
+      "proposedTargetValueSha256": "73c4896558f4e787240234a517889919ba610751d22639da23cd47cea44f4192",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 488,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025800",
+      "source": "Luka: С удовольствием вошёл бы, но сейчас там {0}.",
+      "currentTarget": "Luka: הייתי שמח להיכנס, אבל עכשיו נמצא שם {0}.",
+      "proposedFullTarget": "Luka: הייתי שמח להיכנס, אבל עכשיו יש שם {0}.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-016",
+      "path": "Translations/he/dialogue-batch-097.json",
+      "offset": 12,
+      "authoredFileSha256": "f6c1bfc47eb456b5c805a8ca85d3d75fc04f9c19ea595ef142863b5de625c3c6",
+      "key": "line:Luka_Entrance_Occupied_0cee69b",
+      "nodeNames": [
+        "Luka_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "06dec514b8624800396ac6dfc7bf8627fbbb0c2196392602d901ac7d4355c71c",
+      "currentTargetValueSha256": "fd04f6806598976d24aa6e787c0106c0858f639b692f38aa3420d52ea66365b8",
+      "proposedTargetValueSha256": "882b3223154e56b842c80ea49c17b951e5c9fcc6b7e9c33962a67995ffa1ddd2",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 500,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+      "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+      "currentTarget": "Fatman: לעזאזל, יש אצלך… {0}. תעיף אותם קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+      "proposedFullTarget": "Fatman: לעזאזל, יש אצלך… {0}. תעיף מפה, קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+      "reason": "The actual GetCharacterOnPlace(Fatman) domain at place 41 includes single occupants Widow, FormerFema and Tourist. אותם makes the singular occupant plural; the Russian imperative in this display unit does not specify a plural object. Keep the imperative and omit the gender/number-specific object.",
+      "findingId": "HE-IR01-017",
+      "path": "Translations/he/dialogue-batch-270.json",
+      "offset": 8,
+      "authoredFileSha256": "ca451588c782e10469ee7ecb1c78c47fe8566b828b8f3d2529ade9ff0d06dd9e",
+      "key": "line:Fatman_Entrance_Occupied_0be05e8",
+      "nodeNames": [
+        "Fatman_Entrance_Occupied"
+      ],
+      "components": [
+        "glossary-referent-and-register",
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "17c1061e8c67356041b3e14b5ed8ddccd2099786e59e6f5d76534124bc4ec662",
+      "currentTargetValueSha256": "6f411fba40815f2e7f9dffaae404d6440e223e984a57e8220588bacfbbf17ebf",
+      "proposedTargetValueSha256": "3663f0e89cb24cb40197238b4a7908a495f752c6eac685f98475ae94dc02540c",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 501,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859968",
+      "source": "Buddy: О-о, корешок, гляжу у тебя уже {0} греет местечко.",
+      "currentTarget": "Buddy: אוֹה, אחי, אני רואה ש־{0} כבר תפס אצלך מקום חם.",
+      "proposedFullTarget": "Buddy: אוֹה, אחי, אני רואה שהמקום החם אצלך כבר תפוס בידי {0}.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-018",
+      "path": "Translations/he/dialogue-batch-203.json",
+      "offset": 2,
+      "authoredFileSha256": "23efe9c1009ecc67a96936fd0b8c895f33d74d19bdb85a3f50aa8ebd7f40aa2d",
+      "key": "line:Buddy_Entrance_Occupied_0900d8b",
+      "nodeNames": [
+        "Buddy_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "f0e11821508aac1f663ddf1e14f82ac3a4c4772276f03f888c5bbd976685f1eb",
+      "currentTargetValueSha256": "8a5c523d94d76f1496b6f660c92833f0b3370bfbff3cff79e6d96d9e08451e1f",
+      "proposedTargetValueSha256": "82b5cff60ce4e0abef8b402749e05e5096a41b840b57da296f64dd91c9348595",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 508,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277062",
+      "source": "Nun: Так, кто это тут у вас — {0}.",
+      "currentTarget": "Nun: נו, מי נמצא אצלכם כאן — {0}.",
+      "proposedFullTarget": "Nun: נו, מי כאן אצלך — {0}.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-019",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 6,
+      "authoredFileSha256": "50d7a52b60a0e2ea7313de79b997de4c218516e119514736acebaf34121a3be4",
+      "key": "line:Nun_Entrance_Occupied_08f7764",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "d034a948c95e08ce3c41fb9baa7673dd4e93406e82ddf56f5f69163f842e354e",
+      "currentTargetValueSha256": "01448328ea982cbed66099af8ad504528510c91c79be8a1357888186b100fd3c",
+      "proposedTargetValueSha256": "c820bf5a27f55485de7bf60df0e10b3382e9f00d3b03d002216c919d91f92f76",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 514,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+      "source": "BigLebowski: Блин, не. У тебя на классном местечке уже {0}, короче.",
+      "currentTarget": "BigLebowski: שיט, לא. במקום המגניב שלך כבר נמצא {0}, בקיצור.",
+      "proposedFullTarget": "BigLebowski: שיט, לא. במקום המגניב שלך כבר יש {0}, בקיצור.",
+      "reason": "The actual preferred-place occupant domain includes female or plural occupants; the fixed target agreement is invalid for allowed substituted values. Neutral syntax preserves the original occupant and condition.",
+      "findingId": "HE-IR01-020",
+      "path": "Translations/he/dialogue-batch-164.json",
+      "offset": 5,
+      "authoredFileSha256": "19cba04bcafd81cb92c50341af4d4536ad0935daa39fa94ad5903b56ca9bbf06",
+      "key": "line:BigLebowski_Entrance_Occupied_053789b",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ],
+      "components": [
+        "mandatory-regressions"
+      ],
+      "sourceValueSha256": "1744c61b91b93f9436f585b99a008f639ec9be808eb384c97cecf4bbf747f55f",
+      "currentTargetValueSha256": "fe99fad83b9d01d93b56f8086e3b1b8aa13d3476f3705b593dd5a2a54de23518",
+      "proposedTargetValueSha256": "647630b94c33c3c94c6666f5b9012797e1b69d2cf6479344f6578b7aa5ee1d58",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 684,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530183",
+      "source": "FortuneTeller: И вот с помощью аффирмаций мы сможем дойти до глубин вашего космоса, понимаете, да?",
+      "currentTarget": "FortuneTeller: ובאמצעות הצהרות חיוביות נוכל להגיע למעמקי היקום הפנימי שלכם, אתם מבינים, נכון?",
+      "proposedFullTarget": "FortuneTeller: ובאמצעות הצהרות חיוביות נוכל להגיע למעמקי היקום הפנימי שלך, אתה מבין, נכון?",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-021",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 17,
+      "authoredFileSha256": "688ab3f3f222dbeb14fbed83c7ed969efabc296ae88dd3c492ea8069b2d2a7b7",
+      "key": "line:FortuneTeller_Entrance_3_01169a9",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "sourceValueSha256": "b7a1e9a129aa741b5756d31945f99f473e0dff2c0139a1cdbccfe85be13e5c98",
+      "currentTargetValueSha256": "3d80e5817a4778b1228e2572f80af77487e0ed8342d54d9a38b1531c083e8e89",
+      "proposedTargetValueSha256": "92184e32b604b8d8c053cd0b5c4794501c4a52c48febf7aa762c77bfec3cacd5",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 685,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530182",
+      "source": "FortuneTeller: Вы совмещаете в себе несколько созвездий сразу, вы комплексный человек.",
+      "currentTarget": "FortuneTeller: אתם משלבים בתוככם כמה קבוצות כוכבים בבת אחת. האישיות שלכם מורכבת.",
+      "proposedFullTarget": "FortuneTeller: אתה משלב בתוכך כמה קבוצות כוכבים בבת אחת. האישיות שלך מורכבת.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-022",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 18,
+      "authoredFileSha256": "688ab3f3f222dbeb14fbed83c7ed969efabc296ae88dd3c492ea8069b2d2a7b7",
+      "key": "line:FortuneTeller_Entrance_3_0d3ae72",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ],
+      "components": [
+        "changed",
+        "exact-repetitions-and-wording",
+        "scene-context"
+      ],
+      "sourceValueSha256": "67093e1d4a4810d961347a9e9446c050534fe5d66ccb558b8c244a4b8a328320",
+      "currentTargetValueSha256": "b0c1bd739fed1f8a3f568039c531512fc6565ea1ae01656eba0ce4524a36cb79",
+      "proposedTargetValueSha256": "27d36c46c7df6ae9170b3750593102c4d9f5ef4871be7990cd11e3ad6a4bb2f2",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 686,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530181",
+      "source": "FortuneTeller: Я понимаю, что для вас это всё стресс, поскольку вы – асцендентный козерог.",
+      "currentTarget": "FortuneTeller: אני מבינה שזה מלחיץ אתכם, מפני שהמזל העולה שלכם הוא גדי.",
+      "proposedFullTarget": "FortuneTeller: אני מבינה שזה מלחיץ אותך, מפני שהמזל העולה שלך הוא גדי.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-023",
+      "path": "Translations/he/dialogue-batch-161.json",
+      "offset": 19,
+      "authoredFileSha256": "688ab3f3f222dbeb14fbed83c7ed969efabc296ae88dd3c492ea8069b2d2a7b7",
+      "key": "line:FortuneTeller_Entrance_3_02ad2a6",
+      "nodeNames": [
+        "FortuneTeller_Entrance_3"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "sourceValueSha256": "976094491c62c2ec68ad631d6310f97c983c95569fc2c614f71a766a4e836f5c",
+      "currentTargetValueSha256": "c58b0596ddb02c5281307e045dc187a1edde2b15111066abab3bbe9e678f2b64",
+      "proposedTargetValueSha256": "40d1fc8daf0caa3a0f1c5d86b4f69f3ee8af28caa09a1deeeed920634c5b6549",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 709,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283978",
+      "source": "Gasmask: Ждём вас.",
+      "currentTarget": "Gasmask: אנחנו מחכים לכם.",
+      "proposedFullTarget": "Gasmask: אנחנו מחכים לך.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-024",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 5,
+      "authoredFileSha256": "844edc95c87d6025c13c54154cfc0586db08c6712038402d8c30f98521f92a64",
+      "key": "line:entrance_gasmask_18_4_083d06c",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "2b47d06a49297ef2a97fc76aec7e271dec6881e09a5821fad80ecddcf27198fa",
+      "currentTargetValueSha256": "643d92b11e7933f9b3a20e3f0b62112df33462bb8237422cd128c2b1d5d1d9dc",
+      "proposedTargetValueSha256": "c7e9f4279599e3ab470e4c9203827fe2cc37781f181831679e5c1b3ad26688d5",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 710,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283977",
+      "source": "Gasmask: Сюда возвращаться будет не за чем. По крайней мере, в ближайшее время.",
+      "currentTarget": "Gasmask: לא תהיה לכם סיבה לחזור לכאן. לפחות לא בזמן הקרוב.",
+      "proposedFullTarget": "Gasmask: לא תהיה לך סיבה לחזור לכאן. לפחות לא בזמן הקרוב.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-025",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 6,
+      "authoredFileSha256": "844edc95c87d6025c13c54154cfc0586db08c6712038402d8c30f98521f92a64",
+      "key": "line:entrance_gasmask_18_4_0fe2b92",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "c3fd3331eff581ecba516d1f1e31b23c801631dfefdfefe7889b9add63007357",
+      "currentTargetValueSha256": "15c9e9a24f26e98fdde8be1e768a9d5117347b9eef060a71b696ddc18db61662",
+      "proposedTargetValueSha256": "ebd7a14c87dc4899350aebfaf33fe7c239f5f542ce6f5a6aa1352563c5afd77d",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 711,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283976",
+      "source": "Gasmask: Отлично. Берите самое важное, жильё вам предоставят.",
+      "currentTarget": "Gasmask: מצוין. קחו את הדברים החשובים ביותר, נדאג לכם למגורים.",
+      "proposedFullTarget": "Gasmask: מצוין. קח את הדברים החשובים ביותר, נדאג לך למגורים.",
+      "reason": "Formal singular Russian addresses the one male protagonist; Hebrew plural changes participant number.",
+      "findingId": "HE-IR01-026",
+      "path": "Translations/he/dialogue-batch-307.json",
+      "offset": 7,
+      "authoredFileSha256": "844edc95c87d6025c13c54154cfc0586db08c6712038402d8c30f98521f92a64",
+      "key": "line:entrance_gasmask_18_4_054afe8",
+      "nodeNames": [
+        "entrance_gasmask_15_4"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "232652ba7154da859dc319d1d1404ba2992834d7bf14f9fda1e99074be0daa6f",
+      "currentTargetValueSha256": "eb449517b625689ffd092aa87874a11624944220c32eda3fcc95df7e4e5dcc9e",
+      "proposedTargetValueSha256": "571272b2bb656bd47ab8e86ecf7d5a6dc2037146f55d2e070acee1df19ee37be",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 861,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455819042817",
+      "source": "Bald: Но, сука, как же я себя ненавижу. За то, что не смог защитить их. За то, что убежал, как мразь. За то, что не вернулся.",
+      "currentTarget": "Bald: אבל, לעזאזל, כמה שאני שונא את עצמי. כי לא הצלחתי להגן עליהם. כי ברחתי כמו חלאה. כי לא חזרתי.",
+      "proposedFullTarget": "Bald: אבל, לעזאזל, כמה שאני שונא את עצמי. כי לא הצלחתי להגן עליהן. כי ברחתי כמו חלאה. כי לא חזרתי.",
+      "reason": "The protected relatives are mother and grandmother; masculine plural pronoun changes their gender.",
+      "findingId": "HE-IR01-027",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 3,
+      "authoredFileSha256": "814d477c30b89fc3c0361d6227303e5d9c88b704d391ad272b3ea25e71b1d104",
+      "key": "line:Bald_Asking_4_0b4950e",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "components": [
+        "scene-context"
+      ],
+      "sourceValueSha256": "01785eb9721e8ce218a5fae8e96d968fdabb801b4724ad122e2539f0c7a47ad1",
+      "currentTargetValueSha256": "7e9cd7d70353cb49cc73cc460d4bbc6f8a3e155270cad2937d90a8b1b0ff6b55",
+      "proposedTargetValueSha256": "797455389525e13b63afe550b439bc37fb771d572de1e5fd8fa720afae66a0e2",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "findingId": "HE-IR01-004",
+      "closureOrdinalZeroBased": 866,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "key": "line:Bald_Asking_4_0fa8dc8",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "currentTarget": "Bald: איכשהו חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "proposedFullTarget": "Bald: פעם חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "sourceValueSha256": "7698230d31aef86c97ccf6e3f900c0d153856c9b9b9ccb850dae2088d8813d16",
+      "currentTargetValueSha256": "2b1fd056cbe54b1bb75197b97290bb25a70afdee69e1a2db206f219c23e1573b",
+      "proposedTargetValueSha256": "24b78d7447c55054bc9c051f029aeb177944733ca89986a03fbdeaca8224c143",
+      "reason": "Я как-то вернулся домой introduces one occasion in the remembered incident. איכשהו means somehow and changes that temporal setup into an account of how he managed to return. פעם retains the one-occasion meaning; every following sentence remains unchanged.",
+      "context": [
+        "selected-consumer-context.json:Bald_Asking_4",
+        "closure rows 875 and 876"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal.",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 8,
+      "authoredFileSha256": "814d477c30b89fc3c0361d6227303e5d9c88b704d391ad272b3ea25e71b1d104",
+      "components": [
+        "changed",
+        "exact-repetitions-and-wording",
+        "glossary-referent-and-register",
+        "scene-context"
+      ]
+    },
+    {
+      "closureOrdinalZeroBased": 889,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455798071302",
+      "source": "Tough: Он сказал, что нужно зайти домой ненадолго, передать что-то его матери. Я не захотела идти с ним.",
+      "currentTarget": "Tough: הוא אמר שעליי להיכנס לבית לרגע כדי למסור משהו לאמו. לא רציתי ללכת איתו.",
+      "proposedFullTarget": "Tough: הוא אמר שצריך להיכנס הביתה לרגע, למסור משהו לאמו. לא רציתי ללכת איתו.",
+      "reason": "He needed to stop at home; her refusal to accompany him confirms his role. שעליי makes her the person required to enter.",
+      "findingId": "HE-IR01-028",
+      "path": "Translations/he/dialogue-batch-186.json",
+      "offset": 38,
+      "authoredFileSha256": "6178116f1652e1a60edd78695f0ef9375165a28b48919c0c5b382b49c07818d9",
+      "key": "line:Tough_Asking_4_01386bb",
+      "nodeNames": [
+        "Tough_Asking_4"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "236cd7890e5e21c8a094b733628dfae9f42e6426a06bc9855cce02d718402bee",
+      "currentTargetValueSha256": "b7c972682ec8cd82f4715ee6f41e962b5a1f07eaa947bc9cd832e7096b69b596",
+      "proposedTargetValueSha256": "da80ef236df0b2bb10441514f465eabd6060d5dd40b881e04a08b40a68158e23",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 1367,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599115",
+      "source": "Couple: Чего вам надо от меня?",
+      "currentTarget": "Couple: מה אתם רוצים ממני?",
+      "proposedFullTarget": "Couple: מה אתה רוצה ממני?",
+      "reason": "The husband asks the single male householder what he wants. Russian formal singular вам is translated into plural Hebrew אתם.",
+      "findingId": "HE-IR01-029",
+      "path": "Translations/he/dialogue-batch-281.json",
+      "offset": 47,
+      "authoredFileSha256": "dd77e7b4278c37cfffdd38b42012c6efb16ae0f40425e01d8e9da4faaae0ed4a",
+      "key": "line:Couple_Asking_5_2_06c908e",
+      "nodeNames": [
+        "Couple_Asking_5_2"
+      ],
+      "components": [
+        "glossary-referent-and-register",
+        "scene-context"
+      ],
+      "sourceValueSha256": "62ee500796ef2a21ad88159284c8cdb86f08ab25d354f9f3d6de0d9719e80e1c",
+      "currentTargetValueSha256": "66a978c782d0d15ca8e241fbf0f4922c8a78c478fa1060ad6513684428a38959",
+      "proposedTargetValueSha256": "daa74ef53ff8bbce4473ed49a9f2a9ffb413dca9dd1fc35cac55166b305395e0",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 1643,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+      "source": "Leper: Ёбаный свет…",
+      "currentTarget": "Leper: האור המזוין…",
+      "proposedFullTarget": "Leper: כוס אמק…",
+      "reason": "Ёбаный свет is an exasperated curse here, immediately after a gun threat and before Ты меня так до инфаркта доведёшь. האור המזוין is a literal noun phrase about light, which introduces a different referent. Retain the coarse interjection.",
+      "findingId": "HE-IR01-030",
+      "path": "Translations/he/dialogue-batch-127.json",
+      "offset": 4,
+      "authoredFileSha256": "d26f934f3f9e1522d03176ce802013d041d1fa8e86462aeb020a390b9eb45e14",
+      "key": "line:Leper_Ears_DontShoot_0517384",
+      "nodeNames": [
+        "Leper_Ears_DontShoot"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "13b0b3aa4a2a976b67ae6879a3b09cb6eb7996784524832d038d7076a3e7d41f",
+      "currentTargetValueSha256": "87df02b6bf8520f7e07458c793a5df7e2142e690cf88132db8fee922e1b82811",
+      "proposedTargetValueSha256": "f2fe5eb374cc7ba050596fd8d8759c4c28f3bc27b8ffe47bbc3b612d65cc4642",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    },
+    {
+      "closureOrdinalZeroBased": 1648,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+      "source": "Leper: Ёбаный свет, ты что?",
+      "currentTarget": "Leper: האור המזוין, מה יש לך?",
+      "proposedFullTarget": "Leper: כוס אמק, מה יש לך?",
+      "reason": "In Leper_Teeth_Gun, SetupGun true precedes this frightened curse. Ёбаный свет is an expletive, not literal light. Keep the player-directed question and the coarse interjection.",
+      "findingId": "HE-IR01-031",
+      "path": "Translations/he/dialogue-batch-127.json",
+      "offset": 22,
+      "authoredFileSha256": "d26f934f3f9e1522d03176ce802013d041d1fa8e86462aeb020a390b9eb45e14",
+      "key": "line:Leper_Teeth_Gun_0501ea2",
+      "nodeNames": [
+        "Leper_Teeth_Gun"
+      ],
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "sourceValueSha256": "df9ae1cbf145272f53c5cccff9797e4cf512e42db7b71c03460e4e809d0f181b",
+      "currentTargetValueSha256": "90d6a60d87df95198d4f10d881edef9843815409ecf46873357bc08d2f824b96",
+      "proposedTargetValueSha256": "20a2441d1414807d0698384da39d132f1cf6c09428d4238e98a59cd77eec096d",
+      "decision": "objective correction proposed; not applied",
+      "fullUnitRetention": "Entire replacement unit supplied, including all unchanged sentences.",
+      "protectedSyntax": "Source preserve-exact contract passes for this full proposal."
+    }
+  ],
+  "uncreditedEarlierCandidates": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "closureOrdinalZeroBased": 446,
+      "earlierProposal": "Twins: אני חוששת שכבר יש אצלך {0}.",
+      "decision": "not credited as objective correction",
+      "reason": "The compiled line calls GetCharacterOnPlace(Alkonost), not Twins/Sirin. Place 68 has male Raskolnikov as the confirmed alternative, so masculine נמצא agrees."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "closureOrdinalZeroBased": 650,
+      "earlierProposal": "Twins: כנראה שלא, יש כאן {0}.",
+      "decision": "not credited as objective correction",
+      "reason": "This legacy row has no current node binding. The earlier proposal assumed a mixed occupant domain without a proven binding. No gender defect is established."
+    }
+  ],
+  "proposalRefinements": [
+    {
+      "ordinal": 291,
+      "reason": "Neutral anonymous-speaker agreement and restored entity referent."
+    },
+    {
+      "ordinal": 391,
+      "reason": "Keep current first-person plural suggestion, removing the occupant-specific pronoun."
+    },
+    {
+      "ordinal": 442,
+      "reason": "Keep existing occupancy and warmth rather than suggesting only reserving a place."
+    }
+  ]
+}

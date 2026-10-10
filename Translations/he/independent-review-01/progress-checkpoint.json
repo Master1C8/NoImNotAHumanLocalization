@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-09T13:04:39.482121+00:00",
+  "reviewer": "/root/he_independent_review",
+  "independentFromAuthor": true,
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "locale": "he",
+  "scope": "text-only independent first correction closure; no images/textures; no game launch",
+  "status": "partial independent review; editorial acceptance pending",
+  "closureManifestSha256": "63e4016d92013069a95c3b44aed707e23a568190d7e1dc6849cba2cb8a1cce7c",
+  "reviewRowsSha256": "e7f9737800b70241c44dc901193bae839328c3c1e448023a66157c48d0b2ac81",
+  "inputVerificationPath": "Translations/he/independent-review-01/input-verification.json",
+  "inputVerificationSha256": "c5eaf83dc416024e4e26c410583cd11fe066cbb97ebb238d713d7a231d6dbbec",
+  "hashesUnchangedAtCheckpoint": true,
+  "hashChecksReconfirmed": 456,
+  "sourceCurrentTargetAlignmentRows": 2111,
+  "closureRowsTotal": 2111,
+  "sourceTargetPairReadRows": 722,
+  "pendingPairReadRows": 1389,
+  "pairReadZeroBasedOrdinals": {
+    "rangesInclusive": [
+      [
+        0,
+        519
+      ],
+      [
+        1933,
+        2110
+      ]
+    ],
+    "additional": [
+      568,
+      586,
+      650,
+      651,
+      654,
+      673,
+      771,
+      778,
+      866,
+      875,
+      876,
+      1154,
+      1155,
+      1156,
+      1157,
+      1158,
+      1170,
+      1243,
+      1311,
+      1447,
+      1471,
+      1482,
+      1745,
+      1887
+    ]
+  },
+  "pairReadIds": {
+    "path": "Translations/he/independent-review-01/pair-read-ids.txt",
+    "count": 722,
+    "sha256": "e7dc90f00239315d65531e3abd95a04caf6ff9477e78de4a1e64f0a69bb96071"
+  },
+  "pendingPairReadIds": {
+    "path": "Translations/he/independent-review-01/pending-pair-read-ids.txt",
+    "count": 1389,
+    "sha256": "08e577403a9636bc657a96ab16e4dd48389a442a59d029e48d224eb924f4e8af"
+  },
+  "mandatoryRegressionRows": 549,
+  "mandatoryRegressionPairsRead": 549,
+  "mandatoryRegressionVerdict": "pending full contextual/dynamic consumer review; terminology finding in UI regression row",
+  "findingsCount": 4,
+  "findings": {
+    "path": "Translations/he/independent-review-01/findings.json",
+    "sha256": "975baf31b4fc6c2da14d7f3dadad1ae957fbc673430877195993084c6905d7ec"
+  },
+  "decisions": {
+    "path": "Translations/he/independent-review-01/pair-read-decisions.json",
+    "sha256": "d638e435bcfd8cddbe7abf2b3b6e0628bc2d88da3762125a34a9a1ce7f3e1eff"
+  },
+  "consumerContexts": [
+    {
+      "path": "Translations/he/independent-review-01/consumer-il-context.json",
+      "sha256": "76dd40b3bf96117dbb4360211f578ff9504efd2c3b87ba9cb739798a28cebf7a"
+    },
+    {
+      "path": "Translations/he/independent-review-01/selected-consumer-context.json",
+      "sha256": "40fefa639ac373dffc331f307d10fd8828f2cfbe25627f292033021f8b01fad2"
+    }
+  ],
+  "remainingWork": [
+    "Read all 1389 pending source/current-target pairs without repeating already pair-read units merely for stylistic alternatives.",
+    "Complete needed source-node/speaker/addressee/branch context for dialogue pair-read rows whose decisions mark contextual review pending.",
+    "Resolve actual allowed occupant and item values for GetCharacterOnPlace and bribe inputs; examine gender agreement against those domains. Several Hebrew נמצא/אותו constructions are gendered, but no runtime-domain finding is credited from synthetic assumptions.",
+    "Inspect all 120 corrections in their full units and containing scenes, including immutable adjudication reasons, then report the complete closure finding batch.",
+    "On an unchanged complete closure, issue independent verdict; correction deltas follow the universal exact-set rule. Final deterministic gate belongs to the coordinator."
+  ],
+  "nextUnreadClosureOrdinalZeroBased": 520,
+  "nextUnreadStableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334022",
+  "runtime": "not-run per owner instruction",
+  "visual": "not-run",
+  "imagesTextures": "excluded by owner",
+  "model": "model identifier not exposed to this agent",
+  "reasoning": "not exposed",
+  "usage": {
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "status": "unknown; actual telemetry not exposed; no text-length estimate",
+    "cutoff": "checkpoint creation; reporting tail unmeasured"
+  }
+}

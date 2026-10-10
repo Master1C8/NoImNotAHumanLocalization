@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "status": "14/14 objective full-unit findings accepted; eight selector controls reconciled; other Bald roster rows unchanged",
+  "inputPinsSha256": "c74edb6a3bc591d1236d184158eecf01fb753f62aad0916b6478f7ef005a4120",
+  "baldVoiceLedgerSha256": "a2cda7b7c73cf0504bba1605bc363da4ec094669a6cf835d6f10a75172a5cadc",
+  "records": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+      "findingId": "HE-IR03-010",
+      "path": "Translations/he/dialogue-batch-119.json",
+      "offset": 8,
+      "id": 110504457400295426,
+      "source": "Bald: Ты подойди ко мне, как время будет. У меня столько ахуитительных историй будет, что ты… ахуеешь, ахах.",
+      "before": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים מטורפים, שתעוף לך המוח, חחח.",
+      "after": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים פאקינג מטורפים, שאתה… תתחרפן לגמרי, חחח.",
+      "reason": "The spelling variants ахуитительных and ахуеешь are overt vulgar excitement; the current unit has no coarse expression. It also says שתעוף לך המוח, using feminine תעוף with masculine מוח. This full replacement retains the invitation, many amazing stories, the interrupted reaction and laughter while repairing register/agreement. The row is retained in the current closure but omitted from the explicitly invalidated set.",
+      "nodeNames": [
+        "Bald_Entrance_YesLet"
+      ],
+      "sourceValueSha256": "9c6d397e65fd48fca8e2a22ded3977786bdeb19eb3bdffd62a0abdd935744d8a",
+      "beforeValueSha256": "aedc8c4a76c0a940fd4d06fdbf15ad4fae300a7ed6637e845840d1da5572675d",
+      "afterValueSha256": "6412b2154f5d1baaa4cf5a907e4e1b2312ddb657f35c4ac9f79e83825ea78b4b",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382725",
+      "findingId": "HE-IR03-001",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 19,
+      "id": 110504456452382725,
+      "source": "Ты охуела?",
+      "before": "את השתגעת לגמרי?",
+      "after": "את פאקינג השתגעת?",
+      "reason": "охуела is explicitly obscene; השתגעת לגמרי conveys surprise/insanity without coarse language. The compiled Nun_Entrance_2 option reaches Nun_Entrance_4, where she explicitly complains that the player answers матом. The current option breaks that supported callback.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+      "beforeValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+      "afterValueSha256": "a4d6019b7333fbfd878e86c6c8251d6e405965a0de07aac0eafe1c0ef291716e",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188424",
+      "findingId": "HE-IR03-002",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 27,
+      "id": 110504456448188424,
+      "source": "Ты охуела?",
+      "before": "את השתגעת לגמרי?",
+      "after": "את פאקינג השתגעת?",
+      "reason": "The identical obscene player option in Nun_Entrance_1 is neutralized. Its actual compiled option leads into the Nun complaint about answering in profanity. Female singular address to Nun is retained; this is an objective source-register/callback correction.",
+      "nodeNames": [
+        "Nun_Entrance_1"
+      ],
+      "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+      "beforeValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+      "afterValueSha256": "a4d6019b7333fbfd878e86c6c8251d6e405965a0de07aac0eafe1c0ef291716e",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654214",
+      "findingId": "HE-IR03-003",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 20,
+      "id": 110504455810654214,
+      "source": "Bald: Злость с бессилием и невозможностью как-то изменить ситуацию тупо вводят в ступор, и ты начинаешь тупо ненавидеть и всех вокруг, и себя…",
+      "before": "Bald: הכעס, חוסר האונים וחוסר היכולת לשנות משהו פשוט משתק אותך, ואתה מתחיל לשנוא את כולם סביבך וגם את עצמך…",
+      "after": "Bald: הכעס, חוסר האונים וחוסר היכולת לשנות משהו פשוט משתקים אותך, ואתה מתחיל לשנוא את כולם סביבך וגם את עצמך…",
+      "reason": "Three coordinated subjects הכעס, חוסר האונים וחוסר היכולת are followed by singular משתק. The source likewise has the coordinated plural вводят. Change only the predicate to משתקים; retain the following singular player reference and complete sentence.",
+      "nodeNames": [
+        "Bald_Asking_3"
+      ],
+      "sourceValueSha256": "1c72efbb62ad513e38650f0bd3888e7185287b2c2fb33c0e21c1da72202dfc3f",
+      "beforeValueSha256": "b92b9990959895a6316489f78edaac779d507e11f8da6398368fa56ba268abba",
+      "afterValueSha256": "f9d35f248668d63a049917a6be3321b4e3226ba83045106a080a0c2ab23b8ad8",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654211",
+      "findingId": "HE-IR03-004",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 23,
+      "id": 110504455810654211,
+      "source": "Bald: А кого-то убили… понимаешь, сука, убили, из-за того, что он показался Гостем!",
+      "before": "Bald: ואחרים הרגו… אתה מבין, לעזאזל, הרגו אותם רק כי הם נראו כמו אורחים!",
+      "after": "Bald: ומישהו נהרג… אתה מבין, לעזאזל, הרגו אותו רק כי הוא נראה כמו אורח!",
+      "reason": "The source introduces one indefinite victim (кого-то, он) contrasted with the preceding sun-burned person. Hebrew ואחרים / אותם / הם turns that individual into multiple victims, and ואחרים הרגו can initially read as others doing the killing. Preserve the one killed person and the reason for the killing; do not infer a new identity.",
+      "nodeNames": [
+        "Bald_Asking_3"
+      ],
+      "sourceValueSha256": "ad0e74eacf7f0996545e0ae27d7e277846805e5c7a7ee843b84a9c8b4798307f",
+      "beforeValueSha256": "c569fb27cb7f1809dffffaf9b79188757010ce29f72a6884f033d8a480e7d6cf",
+      "afterValueSha256": "e0dc8ac7d50bf2d606cadf62e6ab10236736eb75d42d7a45e9aa87e5088c5715",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455806459912",
+      "findingId": "HE-IR03-011",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 29,
+      "id": 110504455806459912,
+      "source": "Bald: Они либо пользовались мной, потому что я был удобный, либо хуесосили меня за спиной.",
+      "before": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או לכלכו עליי מאחורי הגב.",
+      "after": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או דיברו עליי חרא מאחורי הגב.",
+      "reason": "хуесосили is obscene verbal abuse behind his back; לכלכו עליי is colloquial but removes the obscenity. Retain both alternatives and the reason he was used, restoring coarse speech without naming or adding participants.",
+      "nodeNames": [
+        "Bald_Asking_2"
+      ],
+      "sourceValueSha256": "5e681cd681ccf2a74c0b785fd3bb2aadacd8031351d23e9a1d83dacb8ebf0074",
+      "beforeValueSha256": "93c616cc938de0eec6b63ebda97c4c7be68d3c9a91651484f7415527396023ab",
+      "afterValueSha256": "6c95000199592a22fb4bae6d8f06591a06dd2a8aebc1ca2e461578dcad692062",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454699163657",
+      "findingId": "HE-IR03-005",
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 10,
+      "id": 110504454699163657,
+      "source": "Nun: Да хоть потоп, но это храм господа Бога, а не какой-то притон для уродцев.",
+      "before": "Nun: גם אם יבוא המבול, זהו מקדש ה׳ ולא איזה מאורה ליצורים מעוותים.",
+      "after": "Nun: גם אם יבוא המבול, זהו מקדש ה׳ ולא איזו מאורה ליצורים מעוותים.",
+      "reason": "מאורה is feminine; איזה מאורה has incorrect demonstrative agreement. איזו מאורה repairs only agreement and preserves the full flood/temple/den comparison and disdain.",
+      "nodeNames": [
+        "Nun_Asking_4_1"
+      ],
+      "sourceValueSha256": "63c751723f03395233424125c24c3943d9926f9089edada2434ea41c025b4531",
+      "beforeValueSha256": "cfea116625fbd6bdaadbddd3fb17e8d6635828acf797bc590edb734f3ed7dee9",
+      "afterValueSha256": "17fd7823dd0616fbe36af9275aa38f5e7d039d5eb6112803f647b6be4fbbd488",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937665",
+      "findingId": "HE-IR03-006",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 14,
+      "id": 110504453981937665,
+      "source": "Bald: А у меня нихера не осталось…",
+      "before": "Bald: ולי לא נשאר כלום…",
+      "after": "Bald: ולי לא נשאר פאקינג כלום…",
+      "reason": "нихера adds overt vulgar emphasis to the complete lack of money. לא נשאר כלום is neutral. The compiled scene first states treatment would cost a lot, then this full unit. Restore coarse emphasis while retaining the financial lack and ellipsis.",
+      "nodeNames": [
+        "Bald_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "c78fd3da71ee018d807dd2ecb60e203e0c13bc00e5eda6e61cfb045d98168d31",
+      "beforeValueSha256": "19e5f446b4bb779bc6fd5ebceaf969ec4b8bb5915cba333826008ec532599967",
+      "afterValueSha256": "395f4f58f5e7fdc19638f779e31acdbf2b93c4c95234b87c997de3700d9fcdc1",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743370",
+      "findingId": "HE-IR03-012",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 17,
+      "id": 110504453977743370,
+      "source": "Bald: Хотя писос как страшно сначала было.",
+      "before": "Bald: אבל בהתחלה זה היה מפחיד בטירוף.",
+      "after": "Bald: אבל בהתחלה זה היה מפחיד אחושרמוטה.",
+      "reason": "писос is the source's slang spelling/euphemistic deformation in the same coarse Bald voice. מפחיד בטירוף keeps intensity but no coarse expression. Restore the colloquial obscene intensity while preserving fear and initially; this actual eye-inspection neighbor was omitted by the literal selector.",
+      "nodeNames": [
+        "Bald_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "eaf9420ffdb2d9a6c2bedb29cc3b40b3addd5e89ee79f393c760a90de3897b12",
+      "beforeValueSha256": "791d40a3f80b55311df0e9cfb310f20c667b8ac2586980d9479511bf6d9fad9e",
+      "afterValueSha256": "76e93c5efbcf0873f84db944d3901455aca82edbfd7ae1cab7a9294a41119daf",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743369",
+      "findingId": "HE-IR03-013",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 18,
+      "id": 110504453977743369,
+      "source": "Bald: Но обосрался я знатно. После этого бросил пить. А то так и сдохнуть можно…",
+      "before": "Bald: אבל פחדתי פחד מוות. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "after": "Bald: אבל ממש חרבנתי במכנסיים מרוב פחד. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "reason": "обосрался is the coarse scared-shitless expression following his delirium-tremens account. פחדתי פחד מוות neutralizes that register. Preserve the figurative fear, quitting drinking afterward, possibility of death and final ellipsis in one complete replacement.",
+      "nodeNames": [
+        "Bald_Hands_DontShoot"
+      ],
+      "sourceValueSha256": "373adba5d0d91ac61d648d14cef213a3f8cf297fde90a220ea13ca4e6d3bcca4",
+      "beforeValueSha256": "5579aab8625f1196125040b4acfa701ad20fd73889b2c7a49cc93911e9297d53",
+      "afterValueSha256": "e4742dec651678627d605efc07b048c4b5a278f56a34614ae86d7d6b86161ddd",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743367",
+      "findingId": "HE-IR03-007",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 20,
+      "id": 110504453977743367,
+      "source": "Bald: Я аж руки свои нихера не узнавал. Было ощущение, будто я смотрю фильм от первого лица.",
+      "before": "Bald: אפילו את הידיים שלי כבר לא זיהיתי. הרגשתי כאילו אני צופה בסרט מנקודת מבט של הגוף הראשון.",
+      "after": "Bald: פאק, אפילו את הידיים שלי כבר לא זיהיתי. הרגשתי כאילו אני צופה בסרט מנקודת מבט של הגוף הראשון.",
+      "reason": "нихера is an overt vulgar intensifier in the source's account of not recognizing his own hands. The Hebrew retains the two facts but removes all profanity. Restore the register and retain the entire first-person-film sentence; do not supply an excerpt as a replacement.",
+      "nodeNames": [
+        "Bald_Hands_DontShoot"
+      ],
+      "sourceValueSha256": "b4e08d87243b217d00816679f2fa81f6af912d51b957706a1042267786190ec2",
+      "beforeValueSha256": "34c20f98a7056f37e5175dea7aca700f8836e54510000a6a0ba7817f5543d334",
+      "afterValueSha256": "21215f1cf44b85a1919f34c22718fa2fe5191a91a74d04ee8373533b95ae42b7",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453973549057",
+      "findingId": "HE-IR03-008",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 30,
+      "id": 110504453973549057,
+      "source": "Bald: Мне кажется, что тут хуйня…",
+      "before": "Bald: נראה לי שזאת סתם שטות…",
+      "after": "Bald: נראה לי שיש פה איזה חרא…",
+      "reason": "The full unit contains хуйня; סתם שטות removes the profanity and additionally settles the ambiguous тут хуйня as merely nonsense. The actual eye/gun node follows the profane doctor proverb. Preserve the vague assessment here with coarse wording without naming an unsupported diagnosis.",
+      "nodeNames": [
+        "Bald_Eyes_Gun"
+      ],
+      "sourceValueSha256": "6e12855dd108c3f278d8033c8c7189b277d14afd45c145512592a3b378662ecc",
+      "beforeValueSha256": "48f6fb8a47edadefabef453950a1be864b236f9a5f16e4bd4f840d0ef9631571",
+      "afterValueSha256": "68f156853ebe598bd2069239e2e75ac9338b460720f96627adbc3d8289c5158b",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966151",
+      "findingId": "HE-IR03-014",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 44,
+      "id": 110504453960966151,
+      "source": "Bald: Я хрен знает, когда она появилась, но я обосрался.",
+      "before": "Bald: אין לי מושג מתי זה הופיע, אבל נבהלתי בטירוף.",
+      "after": "Bald: אין לי מושג מתי לעזאזל זה הופיע, אבל חרבנתי במכנסיים מרוב פחד.",
+      "reason": "хрен знает and обосрался are coarse source expressions, both neutralized by אין לי מושג / נבהלתי בטירוף. Restore mild cursing and the figurative scared-shitless expression while retaining uncertainty about when the eye mark appeared.",
+      "nodeNames": [
+        "Bald_Eyes"
+      ],
+      "sourceValueSha256": "fd884a084667206dd93c6ec0752991ed8bffb7447b402d53dc58fa3b1eabb776",
+      "beforeValueSha256": "20a3b2b48eb0b2c3decdb1c25f01700945713ed1624585227053c812827cf04c",
+      "afterValueSha256": "18d8c0623279efbc6b62d1383670a4449aea78dde9a4d714866058412eae2259",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966149",
+      "findingId": "HE-IR03-009",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 45,
+      "id": 110504453960966149,
+      "source": "Bald: Как ты мог, наверное, уже заметить, у меня хуйнюшка на глазу.",
+      "before": "Bald: כמו שבטח כבר שמת לב, יש לי איזו בעיה קטנה בעין.",
+      "after": "Bald: כמו שבטח כבר שמת לב, יש לי איזה משהו מחורבן קטן על העין.",
+      "reason": "хуйнюшка is a coarse diminutive for the thing on his eye. איזו בעיה קטנה is entirely neutral. Restore the small/vague/coarse reference and the source's על העין location without inventing a diagnosis; retain the notice-by-player clause.",
+      "nodeNames": [
+        "Bald_Eyes"
+      ],
+      "sourceValueSha256": "b8e599c4c73fb439835bf06195605aee354c13d3fb32e56a66998cf887e697e1",
+      "beforeValueSha256": "d947822087236ad7926321266cb23a483383aa37d0102b05e8f972d3a4df6001",
+      "afterValueSha256": "51a04c3f5a97b8a2a0bb6000d109626b43196b8b7baaa63fda45ef77a0e18f33",
+      "decision": "accepted objective full-unit correction after source, glossary and compiled-node adjudication"
+    }
+  ]
+}

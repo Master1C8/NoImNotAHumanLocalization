@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "status": "complete 16538-unit first semantic pass and four immutable correction/review cycles verified",
+  "firstSemanticPass": {
+    "path": "Translations/he/semantic-correction-cycle-01/baseline-semantic-review-progress.json",
+    "sha256": "8080f46aa6a23fa13dd2564132720bc1c0835a71988db8b02325450f4bd60916",
+    "reviewedUnits": 16538,
+    "findings": 120
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "closure": {
+        "path": "Translations/he/semantic-correction-cycle-01/closure-manifest.json",
+        "sha256": "63e4016d92013069a95c3b44aed707e23a568190d7e1dc6849cba2cb8a1cce7c",
+        "count": 2111
+      },
+      "handoff": {
+        "path": "Translations/he/semantic-correction-cycle-01/independent-review-handoff.json",
+        "sha256": "9eb4a792d5cb80742da062841802be5f84e026407dba37a4bc67991758bfc3ae"
+      },
+      "independentReview": {
+        "path": "Translations/he/independent-review-01/final-review.json",
+        "sha256": "d748397cf4593226fa30903359da87388396879abbd29c0efc22f82e059c7d76"
+      },
+      "findings": {
+        "path": "Translations/he/independent-review-01/final-findings.json",
+        "sha256": "4088a5b526379ce2847054b7fbff1b815b66dd1e3b01c634be8b37a27d414947",
+        "count": 31
+      },
+      "verdict": "corrections required"
+    },
+    {
+      "cycle": 2,
+      "closure": {
+        "path": "Translations/he/semantic-correction-cycle-02/closure-manifest.json",
+        "sha256": "7da80a9f9754f64ca770fa9eb95cc54240d5a603d090e56aaf71f84c663ad74d",
+        "count": 2191
+      },
+      "handoff": {
+        "path": "Translations/he/semantic-correction-cycle-02/independent-review-handoff.json",
+        "sha256": "dd9ff85b9ed4aeb051c6506e9a5ce94a92704b3e6bcb357f5e2e646e76327d64"
+      },
+      "independentReview": {
+        "path": "Translations/he/independent-review-02/final-review.json",
+        "sha256": "26c8a776f9b3d76e4346c8d457e9877af7de7d8d1adfe2333478e7c8a64b4e57"
+      },
+      "findings": {
+        "path": "Translations/he/independent-review-02/final-findings.json",
+        "sha256": "93ffcade746fb4222828af548bbd757ef65bc0a1340b0c2e1c882a3868abb5f3",
+        "count": 7
+      },
+      "verdict": "corrections required"
+    },
+    {
+      "cycle": 3,
+      "closure": {
+        "path": "Translations/he/semantic-correction-cycle-03/closure-manifest.json",
+        "sha256": "04a9f8cae90d6ba168c8640abd67f52f440ed552009b08fa240063aa7c87aced",
+        "count": 2382
+      },
+      "handoff": {
+        "path": "Translations/he/semantic-correction-cycle-03/independent-review-handoff.json",
+        "sha256": "75916c2ee8cc23279bf1bbdefbbe8377520ba3b65cd301357bec2e8b0749c355"
+      },
+      "independentReview": {
+        "path": "Translations/he/independent-review-03/final-review.json",
+        "sha256": "4ff43e9fa1bc7fc45806fa73581d32d40566fbc88fd7d6f6de0ed88620660463"
+      },
+      "findings": {
+        "path": "Translations/he/independent-review-03/final-findings.json",
+        "sha256": "4cf8836b572975432b2b3bdbee0ef5572199f253d0d798ca58cbebe7aefce792",
+        "count": 14
+      },
+      "verdict": "corrections required"
+    },
+    {
+      "cycle": 4,
+      "closure": {
+        "path": "Translations/he/semantic-correction-cycle-04/closure-manifest.json",
+        "sha256": "cfa11ebe2e2249319c264001347cc8105b0414dfef8112033b1d23324c82be86",
+        "count": 2407
+      },
+      "handoff": {
+        "path": "Translations/he/semantic-correction-cycle-04/independent-review-handoff.json",
+        "sha256": "abe5c4103ba1607adc4e88dc6b0ce511ffc240469b08b3a13b7b8db01d27f618"
+      },
+      "independentReview": {
+        "path": "Translations/he/independent-review-04/final-review.json",
+        "sha256": "583c3016a9d2e9ed0530754b47583048108c01094554feb9a727afa1fdd1c5fe"
+      },
+      "findings": {
+        "path": "Translations/he/independent-review-04/final-findings.json",
+        "sha256": "d9e03cdfd8476651eb26962d056332a69c6600a3e4e675f82504c71b0d05f64a",
+        "count": 0
+      },
+      "verdict": "clean unchanged-hash independent delta"
+    }
+  ],
+  "reuseRule": "The first pass remains reusable because source, glossary and accepted ID mapping are unchanged. Each correction cycle has a separate pinned closure; review 04 is the first clean independent delta."
+}

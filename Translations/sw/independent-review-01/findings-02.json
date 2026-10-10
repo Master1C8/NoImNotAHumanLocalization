@@ -1,0 +1,38 @@
+{
+  "reviewer": "/root/sw_independent_review",
+  "completeAssignedPass": false,
+  "findings": [
+    {
+      "findingId": "sw-independent-0005",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457677119490",
+      "closureIndexZeroBased": 570,
+      "sourceIndex": 1033,
+      "source": "Window: Голову переполнили тревожные мысли, и вас охватило чувство непонимания и беспомощности.",
+      "currentTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kushindwa kusaidia.",
+      "proposedFullTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kutokuwa na uwezo wa kufanya lolote.",
+      "objectiveReason": "беспомощность describes being powerless/helpless, not just being unable to help somebody. kushindwa kusaidia narrows the feeling to inability to assist. This is the same semantic distinction already corrected in closure row 734, with a differently worded source repetition.",
+      "context": "window_4_3 full node: neighbouring house burned, family outcome unknown; the player feels powerless, not merely unable to provide assistance.",
+      "authoredPath": "Translations/sw/dialogue-batch-014.json",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0004",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457710673920",
+      "closureIndexZeroBased": null,
+      "scope": "context-only row outside current closure; reviewed as relevant neighbouring scene context",
+      "source": "Window: Что бы ни случилось, это наверняка произойдёт теперь с вами.",
+      "currentTarget": "Window: Lolote lililotokea, hakika sasa litakutokea wewe.",
+      "proposedFullTarget": "Window: Lolote litakalotokea, hakika sasa litakutokea wewe.",
+      "objectiveReason": "Что бы ни случилось is a future hypothetical threat after all neighbouring houses were destroyed. Lolote lililotokea means whatever happened in the past and changes the chronology. The second clause remains future, making the current tense combination inconsistent.",
+      "context": "window_12_1 full node; the surviving house and its owner face any further threat.",
+      "authoredPath": "Translations/sw/dialogue-batch-013.json",
+      "adjudication": "pending complete independent pass"
+    }
+  ],
+  "boundClosureSha256": "54319c89fd507fd6aa18aaf936deb5f8d214c53e999f119d28facc5c3b1484ed",
+  "contextReviewedRows": {
+    "path": "Translations/sw/independent-review-01/context-reviewed-02.jsonl",
+    "sha256": "14ef20c66e93b91e347be7694b8e10a851b0296be7ac42e5b2dcebd054944d04",
+    "count": 133
+  }
+}

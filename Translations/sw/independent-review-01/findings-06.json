@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root/sw_independent_review",
+  "completeAssignedPass": false,
+  "findings": [
+    {
+      "findingId": "sw-independent-0009",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456523685894",
+      "closureIndexZeroBased": null,
+      "scope": "context-only row outside closure; full entrance_dude read for closure1493",
+      "source": "Dude: Растолкуй мне по-братски, что я пропустил.",
+      "currentTarget": "Dude: Nieleeze kama ndugu, nimekosa nini?",
+      "proposedFullTarget": "Dude: Nieleze kama ndugu, nimekosa nini?",
+      "objectiveReason": "Nieleeze has an extra e; the inflected request from eleza is Nieleze. Preserve the whole unit and informal brother address.",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0010",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520071",
+      "closureIndexZeroBased": 1512,
+      "source": "Buddy: Да и без выпивки смотреть на всё ясным взглядом… Тяжело.",
+      "currentTarget": "Buddy: Na hata kutazama yote haya kwa macho makavu bila pombe… Ni vigumu.",
+      "proposedFullTarget": "Buddy: Na hata kutazama yote haya kwa akili iliyo wazi bila pombe… Ni vigumu.",
+      "objectiveReason": "ясным взглядом is a lucid/sober view of the catastrophe in an alcohol conversation. macho makavu says dry eyes (no tears/dryness), changing the quality of the perspective. akili iliyo wazi preserves lucidity and the source relation to drinking.",
+      "authoredPath": "Translations/sw/dialogue-batch-066.json",
+      "adjudication": "pending complete independent pass"
+    }
+  ],
+  "boundClosureSha256": "54319c89fd507fd6aa18aaf936deb5f8d214c53e999f119d28facc5c3b1484ed"
+}

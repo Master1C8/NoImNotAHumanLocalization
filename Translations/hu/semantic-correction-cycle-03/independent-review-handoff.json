@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "gameVersion": "1.3.19",
+  "status": "author corrections and reproducible dependency closure complete; distinct independent review pending",
+  "acceptedUnits": 16538,
+  "authoredCoverage": "16538/16538 text-only",
+  "priorIndependentReview": {
+    "verdictPath": "Translations/hu/independent-review-01/review-verdict.json",
+    "verdictSha256": "6c168829ce7bb2573fb9ebebaff6e62d797d05be6b3b30cd4688a6b3ef14f021",
+    "reviewedPairs": 2902,
+    "sceneGroups": 110,
+    "previousClosureManifestPath": "Translations/hu/semantic-correction-cycle-01/evidence/closure-manifest.json",
+    "previousClosureManifestSha256": "b5d79362a18ca726dcfd76207edc11765584a71b621d9124b33418cd2e2985c1"
+  },
+  "authorCorrections": {
+    "cumulativeCount": 15,
+    "adjudicatedPlanPath": "Translations/hu/semantic-correction-cycle-03/adjudicated-plan.json",
+    "adjudicatedPlanSha256": "dbed6bd0623fab962e0e072b5defd89d64bfe4a253a69d2dbb35c567a5bbc751",
+    "exactChangedDeltaPath": "Translations/hu/semantic-correction-cycle-03/evidence/changed-delta.jsonl",
+    "exactChangedDeltaSha256": "677044d3ee998be115605211b5926103ab3e31abe798c5190aa622711427f488",
+    "authorDiffCheckPath": "Translations/hu/semantic-correction-cycle-03/author-diff-check.json",
+    "authorDiffCheckSha256": "10898cf1e065d782141fa27d4d96f6acc0494f6b39e61ea6a9b4ebccd56a0ce9",
+    "supersededIntermediateAuthorClosureSha256": "3b617b4a2a23d73c518bddc312fbb9d05d66ba817bc51290f0160ce84d982f55"
+  },
+  "boundedCatalogRead": {
+    "reviewGapEvidencePath": "Translations/hu/independent-review-01/catalog-risk-surface-gaps.json",
+    "reviewGapEvidenceSha256": "1d3a57539e063644eecaa87be10a9fff62d7cb0f09b5a47f1a2e44170ec1f613",
+    "classifiedCandidateCount": 196,
+    "classificationPath": "Translations/hu/semantic-correction-cycle-03/bounded-remedial-read.json",
+    "classificationSha256": "849e34186c0cf65fae2d696edd86d020bc616bedddaa95382ac898561df58f54",
+    "additionalExpandedClosurePairsRead": 41,
+    "additionalReadPath": "Translations/hu/semantic-correction-cycle-03/additional-closure-read.json",
+    "additionalReadSha256": "77924838667f82d1d319f982b07e5f0f05eed92817e342b7ce0ef2b00cf605ec",
+    "additionalObjectiveCorrectionCount": 1
+  },
+  "currentClosure": {
+    "manifestPath": "Translations/hu/semantic-correction-cycle-03/evidence/closure-manifest.json",
+    "manifestSha256": "86bd61ab9857dd7795cd6d3e9873c3f55909ec8abb7d5136ee5c2e243561cc16",
+    "closureCount": 3140,
+    "previousClosureCount": 2902,
+    "newlySelectedCount": 238,
+    "correctedCount": 15,
+    "explicitlyInvalidatedPriorCount": 12,
+    "nextReviewDeltaCount": 264,
+    "nextReviewDeltaPath": "Translations/hu/semantic-correction-cycle-03/evidence/next-review-delta.jsonl",
+    "nextReviewDeltaSha256": "4e7bda1d69d6523fdab346ee4e6303da46dfef751c250355685964f9845ad7b7",
+    "nextReviewIdListSha256": "39364a8d6051f347ddab1003308b62abd0343172575d3f1ca7b66bb0ebe6f7cd",
+    "componentListsAndHashes": "see currentComponents and previousComponents in closure-manifest.json",
+    "sceneGroupCount": 21,
+    "mandatoryRegressionIds": 1697,
+    "runtimeAssemblies": 3491,
+    "retirementPath": "Translations/hu/semantic-correction-cycle-03/evidence/retirement.json",
+    "retirementSha256": "72a946477d50226f3810fc44d82b8b7a1d6c90d4ef9a61d14c18c318cf546d67"
+  },
+  "consumerDomain": {
+    "sourceBinding": "LocalizeItem produces consumable_<enum lowercase>_name",
+    "itemLabels": 7,
+    "residentLabels": 57,
+    "bribeTemplates": 2,
+    "allTemplates": 8,
+    "notFoundInInspectedCompiledProgram": 1,
+    "retiredAsConsumerCandidates": 3,
+    "bobeerOutput": "Sör",
+    "fridgeBrandOutput": "Bober Cserni",
+    "assembledContextPath": "Translations/hu/semantic-correction-cycle-03/evidence/assembled-consumer-context.jsonl",
+    "assembledContextSha256": "c3bc9098fd96ff7ea8b170fd9406857ed61e1e39889289b6706661ac8974b7fd",
+    "protectedFragmentsAndCompiledOccurrencePath": "Translations/hu/semantic-correction-cycle-03/evidence/runtime-consumer-context.json",
+    "protectedFragmentsAndCompiledOccurrenceSha256": "47a282a7443b105c032993225dc2af2412c814e57f3c15b973f6c2b34361c237"
+  },
+  "validation": {
+    "path": "Translations/hu/semantic-correction-cycle-03/validation-after.json",
+    "sha256": "d47a5f6eda7bf611fb432bb05cb6008067727e266f5fdfb2ef417a0ca573e492",
+    "affectedDialogueBatchValidatorsPassed": 9,
+    "staticDraftSidecarCurrent": true,
+    "fullAcceptedPreserveExact": "16538/16538, problems=0",
+    "authoredFileCount": 474
+  },
+  "reviewInstructions": [
+    "Verify the 264-row next-review-delta.jsonl and its exact ID list against the 2902 previously reviewed pairs; do not repeat unchanged full audit.",
+    "Review source/current/after whole units with scene, compiled branch and approved character glossary context.",
+    "Inspect all 3491 assembled consumer examples with the seven actual item labels; retain FridgeItem rows only as standalone UI.",
+    "Confirm catalog applicability and 196 per-ID author classifications, plus 41 additional expanded-context rows and one post-closure parallel-branch note.",
+    "Check corrected target semantics and full preserve-exact independently; report objective proposals without editing authored files."
+  ],
+  "contextNotePath": "Translations/hu/semantic-correction-cycle-03/post-closure-context-note-01.json",
+  "contextNoteSha256": "2371368ce7d3ad3d85ee7f6d934ffba2f03b0d0e907c21b05d4135f7f8ccdac2",
+  "knownLimits": [
+    "Author checks are not independent acceptance.",
+    "One source template was absent from inspected compiled program; static source candidate remains in closure.",
+    "Compiled order does not prove reachability; 83 prior closure dialogue IDs were absent from inspected compiled occurrences.",
+    "Actual deficit item configuration and resident occupancy restrictions remain unverified.",
+    "KCsSz backronym, interrupted gr… and Widow_Photo dual reading retained as documented ambiguities.",
+    "No game launch, fonts, layout, package or runtime acceptance."
+  ],
+  "editorialAcceptance": "pending distinct reviewer and owner integration",
+  "runtimeAcceptance": "not-run",
+  "gitIntegration": "root coordinator only"
+}

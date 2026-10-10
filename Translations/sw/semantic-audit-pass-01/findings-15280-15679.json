@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    15280,
+    15679
+  ],
+  "findingGroups": 7,
+  "affectedUnits": 8,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0194",
+      "objectiveReason": "она refers to Sirin's song identified in the following line; alivyo mrembo depicts a beautiful female person, and lilikuwa disagrees with Swahili wimbo, leaving the intended song referent unclear.",
+      "affected": [
+        {
+          "sourceIndex": 15339,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452123860996",
+          "key": "line:Sirin_Death_0219186",
+          "source": "Sirin: Как она прекрасна!",
+          "currentTarget": "Sirin: Jinsi alivyo mrembo!",
+          "proposedTarget": "Sirin: Jinsi ulivyo mzuri!",
+          "authoredPath": "Translations/sw/dialogue-batch-173.json",
+          "authoredSha256": "ee7e8c0b025c7f1e043c75ace303e368eaf514542e5d670ca9188f9b9edf68ce"
+        },
+        {
+          "sourceIndex": 15340,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452123860995",
+          "key": "line:Sirin_Death_0301f09",
+          "source": "Sirin: Но она предназначалась тебе!",
+          "currentTarget": "Sirin: Lakini lilikuwa limekusudiwa wewe!",
+          "proposedTarget": "Sirin: Lakini ulikuwa umekusudiwa wewe!",
+          "authoredPath": "Translations/sw/dialogue-batch-173.json",
+          "authoredSha256": "ee7e8c0b025c7f1e043c75ace303e368eaf514542e5d670ca9188f9b9edf68ce"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0195",
+      "objectiveReason": "вышибешь их asks whether the player will knock out Sirin's teeth; Utanitoa hayo means vaguely remove those things and omits the violent act and body part.",
+      "affected": [
+        {
+          "sourceIndex": 15392,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452102889481",
+          "key": "line:Sirin_Teeth_07849c0",
+          "source": "Sirin: Вышибешь их мне?",
+          "currentTarget": "Sirin: Utanitoa hayo?",
+          "proposedTarget": "Sirin: Utanipiga hadi meno yatoke?",
+          "authoredPath": "Translations/sw/dialogue-batch-174.json",
+          "authoredSha256": "052992701539cfdf4f664fe1337e860335a83bd8fd86f964588f6ec8ec72c0ec"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0196",
+      "objectiveReason": "меня всё заебло is Alkonost's emphatic profane exhaustion; nimechoka na yote haya removes the force of her abrupt outburst.",
+      "affected": [
+        {
+          "sourceIndex": 15405,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452098695175",
+          "key": "line:Alkonost_Eyes_DontShoot_0fa5bc5",
+          "source": "Alkonost: Знаешь, меня всё заебло.",
+          "currentTarget": "Alkonost: Unajua, nimechoka na yote haya.",
+          "proposedTarget": "Alkonost: Unajua, nimechoshwa na haya yote ya kishenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-174.json",
+          "authoredSha256": "052992701539cfdf4f664fe1337e860335a83bd8fd86f964588f6ec8ec72c0ec"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0197",
+      "objectiveReason": "молочные зубки specifically means milk or baby teeth; meno ya utotoni merely locates teeth in childhood and does not identify the dental stage.",
+      "affected": [
+        {
+          "sourceIndex": 15567,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452039974917",
+          "key": "line:Daughter_Teeth_04b3012",
+          "source": "Daughter: Зачем? У меня еще молочные зубки. Папа говорил…",
+          "currentTarget": "Daughter: Kwa nini? Bado nina meno ya utotoni. Baba alisema…",
+          "proposedTarget": "Daughter: Kwa nini? Bado nina meno ya maziwa. Baba alisema…",
+          "authoredPath": "Translations/sw/dialogue-batch-175.json",
+          "authoredSha256": "d744bb539f15a5fbd4292d227c05d98c80ce2c336f0b996f47285ae8799dc18f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0198",
+      "objectiveReason": "Нахуй тебя и твой дом is an abusive rejection of both player and house; acheni kunisumbua asks them to stop bothering him, changing the speech act and tone.",
+      "affected": [
+        {
+          "sourceIndex": 15595,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452027392006",
+          "key": "line:Scammer_PhotoShoot_00b0114",
+          "source": "Scammer: Нахуй тебя и твой дом, я пошел.",
+          "currentTarget": "Scammer: Wewe na nyumba yako acheni kunisumbua; naondoka.",
+          "proposedTarget": "Scammer: Wewe na nyumba yako, nendeni kuzimu; naondoka.",
+          "authoredPath": "Translations/sw/dialogue-batch-175.json",
+          "authoredSha256": "d744bb539f15a5fbd4292d227c05d98c80ce2c336f0b996f47285ae8799dc18f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0199",
+      "objectiveReason": "выбили все зубы describes all of the brother's teeth knocked out by violence; Walimng’oa says he was pulled out and lacks an object for the teeth.",
+      "affected": [
+        {
+          "sourceIndex": 15653,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452006420480",
+          "key": "line:Scammer_Teeth_065a7fe",
+          "source": "Scammer: Ему выбили, прикинь, все зубы нахуй ХАХАХАХАХАХА.",
+          "currentTarget": "Scammer: Walimng’oa, fikiria, meno yote kabisa HAHAHAHAHA.",
+          "proposedTarget": "Scammer: Walimpiga hadi meno yake yote yakang’oka, fikiria! HAHAHAHAHAHAHAHA.",
+          "authoredPath": "Translations/sw/dialogue-batch-176.json",
+          "authoredSha256": "73a678e12268bada1565d972028253ff80013db608aa71655645aa1cb5171f54"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0200",
+      "objectiveReason": "Ахуеть is Widow's shocked profane reaction to the gun threat; Sasa nimeona maajabu reads as marveling at wonders rather than alarmed outrage.",
+      "affected": [
+        {
+          "sourceIndex": 15678,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451993837575",
+          "key": "line:Widow_Armpit_Gun_09f044d",
+          "source": "Widow: Ахуеть.",
+          "currentTarget": "Widow: Sasa nimeona maajabu.",
+          "proposedTarget": "Widow: Hii ni balaa la kishenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-176.json",
+          "authoredSha256": "73a678e12268bada1565d972028253ff80013db608aa71655645aa1cb5171f54"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

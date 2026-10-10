@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "game": "No, I’m not a Human",
+  "gameVersion": "1.3.19",
+  "locale": "hu",
+  "sourceLocale": "ru",
+  "reviewer": "/root/hu_independent_review_02",
+  "status": "clean-independent-delta-static-editorial",
+  "reviewedFullUnits": 264,
+  "objectiveFindings": 0,
+  "correctedIds": 15,
+  "newlySelectedIds": 238,
+  "explicitlyInvalidatedPriorIds": 12,
+  "unionOverlap": 1,
+  "currentClosureIds": 3140,
+  "previousIndependentlyReviewedIds": 2902,
+  "closureManifestSha256": "86bd61ab9857dd7795cd6d3e9873c3f55909ec8abb7d5136ee5c2e243561cc16",
+  "deltaIdListSha256": "39364a8d6051f347ddab1003308b62abd0343172575d3f1ca7b66bb0ebe6f7cd",
+  "deltaReviewRowsSha256": "4e7bda1d69d6523fdab346ee4e6303da46dfef751c250355685964f9845ad7b7",
+  "unchangedAtFinalCheck": true,
+  "recipe": {
+    "path": "Translations/hu/semantic-correction-cycle-03/build-closure.py",
+    "sha256": "59bd75fb8ae7ba657de32f92e6b728b9fd92ee4d831d03b701785fd6cbc5bf59",
+    "allOutputsByteIdentical": true,
+    "reproducedOutputs": 24,
+    "currentAndPriorComponentHashesVerified": true
+  },
+  "priorApplicability": {
+    "path": "prior-applicability.json",
+    "sha256": "42dde7d6acc0cd24da4e98877775c16e77976592c0eab4a48f8a830579d79c73",
+    "unchangedPairTargetsReusableExceptExplicitInvalidation": true,
+    "sourceAndGlossaryHashesUnchanged": true,
+    "priorObjectiveFindingsAllCoveredByCorrectedDelta": true,
+    "retiredClosureIds": [],
+    "retiredRuntimeCandidates": 3,
+    "retirementReason": "FridgeItem UI labels do not enter LocalizeItem; they retain standalone UI review."
+  },
+  "mandatoryCatalog": {
+    "count": 1697,
+    "passedStaticEditorial": true,
+    "currentDeltaDecisions": 218,
+    "verifiedPriorIndependentDecisions": 1479,
+    "decisionsPath": "mandatory-catalog-decisions.jsonl",
+    "decisionsSha256": "ec0d8035e4eb21afd45d064db04dae2fcf29409b01e743a71f491fc57fd79061",
+    "independentExtensionClassifications": 196,
+    "authorClassificationsAreNotCoverage": true,
+    "additionalExpandedContextUnitsIndependentlyReadInDelta": 41,
+    "limit": "The recorded catalog and exact historical candidate regex sets are checked; this is not a claim of exhaustive natural-language gender detection."
+  },
+  "consumers": {
+    "assembledCount": 3491,
+    "verifiedByFullDomainAndTemplateReadPlusExhaustiveTupleComparison": true,
+    "decisionPath": "assembled-consumer-verification.json",
+    "sha256": "e7578c1da5754064cd870a4b5b6eb60f7642d023f84951e6cfeb4449afe13080",
+    "syntheticDomainNotActualState": true,
+    "deficitConfiguration": "unverified",
+    "occupancyRestrictions": "unverified"
+  },
+  "preserveExact": {
+    "checkedRows": 16538,
+    "result": "passed",
+    "reportPath": "preserve-exact.json",
+    "sha256": "5fc6ed4e6d5b8e1cce9f5c54e838674882997d0201085b191cb0bfd2152c5d9a"
+  },
+  "fullUnitDecisions": {
+    "path": "full-unit-decisions.jsonl",
+    "sha256": "d57fac5ec03c1ce84b4f99c217b4b04ec6a912d52cb57cc236aeec449bc0b0df",
+    "count": 264
+  },
+  "ambiguitiesRetained": [
+    {
+      "key": "line:Theorist_Asking_2_04f4138",
+      "decision": "prior unchanged decision remains applicable; retain KCsSz Russian-origin backronym, no invented reinitialization"
+    },
+    {
+      "key": "line:phone_fortuneteller_0a136ed",
+      "decision": "prior unchanged decision remains applicable; retain unidentified gr… interruption without supplying a word"
+    },
+    {
+      "keys": [
+        "line:Widow_Photo_06bb696",
+        "line:Widow_Photo_09ce21a"
+      ],
+      "decision": "prior unchanged dual-reading adjudication remains applicable; physical no-touch and leave-me-alone readings not collapsed; active06bb696 versus uncompiled09ce21a distinction remains"
+    },
+    {
+      "key": "line:Anger_Entrance_YesLet_061398f",
+      "decision": "compiled negative predecessor licenses retained infinitive Vagy szétverni valakit; the parallel finite affirmative was corrected under a separate ID"
+    },
+    {
+      "key": "line:Nervous_Entrance_1_0c56256",
+      "decision": "the source says girl in a yellow raincoat; retain that local referent rather than equating it to the independently catalogued male raincoat character"
+    }
+  ],
+  "limits": [
+    "No game launch, images, textures, fonts, layout, package build, insertion, installation or runtime validation.",
+    "Saved compiled program establishes235 delta dialogue occurrences; other delta dialogue IDs absent from it retain static review only.",
+    "Compiled instruction order and guards do not establish runtime reachability.",
+    "One of eight assembled templates is absent from inspected compilation.",
+    "Actual deficit enum selection and occupant admissibility remain unverified.",
+    "No new full16538-unit semantic reread was performed; prior full semantic and independent records are reused only under verified applicability.",
+    "Root coordinator owns final gate, acceptance, checkpoint and canonical integration."
+  ],
+  "telemetry": {
+    "agent": "/root/hu_independent_review_02",
+    "model": "GPT-6 family per inherited system identity; exact serving subtype unavailable",
+    "reasoningLevel": null,
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoningTokens": null,
+    "total": null,
+    "measurement": "Per-request counters and an agent-specific session telemetry identifier are not exposed; unknown, never zero. Initial failed schema probe is included in this assignment but cannot be separately measured. Coordinator/orchestration usage is a separate root measurement. Reporting tail and platform overhead unmeasured."
+  }
+}

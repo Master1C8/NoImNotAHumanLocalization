@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "locale": "he",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "final offline Hebrew text gate passed; root integration and runtime remain separate",
+  "acceptedUnits": 16538,
+  "firstSemanticPassUnits": 16538,
+  "unresolvedObjectiveFindings": 0,
+  "independentClean": true,
+  "independentReviewer": "/root/he_independent_review_04",
+  "currentHashesUnchanged": true,
+  "textCoverage": "16538/16538 accepted visible units (100%)",
+  "sourceGlossaryApplicability": {
+    "path": "Translations/he/final-gate/source-glossary-applicability.json",
+    "sha256": "7470b749dfbf8bb74d862b73ff49f9bba4d26ef635f9d8562079ab31c70609ea"
+  },
+  "correctionChain": {
+    "path": "Translations/he/final-gate/correction-chain.json",
+    "sha256": "7e3cd5c3cbbf30a088d01f522b326e2ed97887933c0636958d008a17958b1cf8"
+  },
+  "independentReviewApplicability": {
+    "path": "Translations/he/final-gate/independent-review-applicability.json",
+    "sha256": "22a228317b76ae224c97bdbe8b6f9e431eca899adf6b218d9c4f3c4d50dd2a7d"
+  },
+  "mandatoryRegression": {
+    "path": "Translations/he/final-gate/mandatory-regression-applicability.json",
+    "sha256": "1cba63bff6ef45ebad2afe2959990df0c691ed138d47100de1f574e413a46a43",
+    "count": 549,
+    "freshReads": 0,
+    "reusedUnchangedIndependentDecisions": 549
+  },
+  "structuralValidation": {
+    "path": "Translations/he/final-gate/structural-validation.json",
+    "sha256": "a2d825efb3d1dba0f6a024e6ca895aac8e86e7230f3ce1247ffbfecf8c2805cb",
+    "rows": 16538,
+    "files": 337
+  },
+  "derivedStatic": {
+    "path": "Translations/he/final-gate/derived-static.json",
+    "sha256": "a141900472f394b5284235ca903a8e83960047c737caf6198bda52ee44706184",
+    "rows": 178
+  },
+  "preserveExactReport": {
+    "path": "Translations/he/final-gate/preserve-exact-v4.json",
+    "sha256": "56dcfe85b312ce979c3d0f8a80525ce59a1754cfe55d0272cfa610db8b09e7aa",
+    "checkedRows": 16538
+  },
+  "readinessScan": "he  16538/16538 (100.000%) validated=16538 observed=16538 problems=0",
+  "currentAuthoredFileSetSha256": "d2e048221db76b5dcdeaecfe4fead188f364e4e80f749fca90e7602a3e8f22c4",
+  "review04": {
+    "path": "Translations/he/independent-review-04/final-review.json",
+    "sha256": "583c3016a9d2e9ed0530754b47583048108c01094554feb9a727afa1fdd1c5fe",
+    "deltaPairs": 72,
+    "findings": 0
+  },
+  "checkpointPreimages": [
+    {
+      "path": "Translations/he/progress.json",
+      "sha256": "c871c893961470fe4e4cb9d7bf4bcbb243fe2f610c953595dacf1f473828a07a"
+    },
+    {
+      "path": "Translations/he/semantic-review-progress.json",
+      "sha256": "e30ea3133f561e4b897710fc15915580ba22feaf33ed3a479929b304d1214941"
+    }
+  ],
+  "adminCheckpointChange": "none; reviewed operational progress files kept byte-identical",
+  "runtime": "not-run per owner instruction",
+  "visual": "not-run",
+  "imagesTextures": "outside text-only scope",
+  "knownIntegrationLimits": [
+    "characterName_Twins has no exact accepted UI key; runtime fallback remains unverified",
+    "Hebrew mixed-direction rendering, fonts, wrapping, clipping and dialogue progression require later runtime/visual QA"
+  ],
+  "editorialAcceptance": "root decision after independent verification; no author self-acceptance"
+}

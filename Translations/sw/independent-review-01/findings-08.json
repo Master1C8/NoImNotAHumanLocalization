@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/sw_independent_review",
+  "completeAssignedPass": false,
+  "findings": [
+    {
+      "findingId": "sw-independent-0013",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456129421319",
+      "closureIndexZeroBased": 1783,
+      "source": "Нет, как и дома.",
+      "currentTarget": "Hapana, sawa tu na nilivyokuwa nyumbani.",
+      "proposedFullTarget": "Haipo, kama vile nyumba nayo haipo.",
+      "objectiveReason": "Source reiterates that the oppressive feeling is gone, like the collapsed house. Current target instead says the state is just as the player was at home, changing the referent of the comparison and losing the house being gone.",
+      "authoredPath": "Translations/sw/dialogue-batch-080.json",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0014",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456100061186",
+      "closureIndexZeroBased": 1803,
+      "source": "Сфокусироваться на нём очень сложно.",
+      "currentTarget": "Ni vigumu sana kumkazia macho.",
+      "proposedFullTarget": "Ni vigumu sana kuikazia macho.",
+      "objectiveReason": "Antecedent is the small house from previous line. kumkazia uses a person object marker rather than class9 nyumba; kuikazia preserves the house as focus.",
+      "authoredPath": "Translations/sw/dialogue-batch-081.json",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0015",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456058118150",
+      "closureIndexZeroBased": 1820,
+      "source": "Но ты явно что-то делаешь не так. Ты только приблизил смерть.",
+      "currentTarget": "Lakini ni wazi kuna jambo unalofanya vibaya. Umeikaribisha kifo tu.",
+      "proposedFullTarget": "Lakini ni wazi kuna jambo unalofanya vibaya. Umekikaribisha kifo tu.",
+      "objectiveReason": "Object kifo is class7; Umeikaribisha has class9 object agreement. Umekikaribisha retains the existing meaning and tense with matching object concord.",
+      "authoredPath": "Translations/sw/dialogue-batch-082.json",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0016",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456104255493",
+      "closureIndexZeroBased": 1795,
+      "source": "Vigilante: Ах ты сука! Гость ёбаный, думал меня одурачить?",
+      "currentTarget": "Vigilante: Wewe mpuuzi! Ulikuwa Mgeni ukidhani unaweza kunidanganya?",
+      "proposedFullTarget": "Vigilante: Wewe mpuuzi! Wewe ni Mgeni, ukidhani unaweza kunidanganya?",
+      "objectiveReason": "The source currently identifies the player as a Visitor after IsImposter, not a former Visitor. Ulikuwa shifts this identification into past was. Present wewe ni retains current identity and the accusation of attempted deception.",
+      "authoredPath": "Translations/sw/dialogue-batch-080.json",
+      "adjudication": "pending complete independent pass"
+    },
+    {
+      "findingId": "sw-independent-0017",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456087478282",
+      "closureIndexZeroBased": null,
+      "scope": "context-only row outside closure; NewfemaEnding_3 read for closure1790",
+      "source": "Вы жалеете только, что не забрали с собой плакат.",
+      "currentTarget": "Unajuta tu kwamba hukuichukua bango pamoja nawe.",
+      "proposedFullTarget": "Unajuta tu kwamba hukulichukua bango pamoja nawe.",
+      "objectiveReason": "bango is class5. The direct-object inflection must be li, not i. Other facts and syntax are preserved.",
+      "adjudication": "pending complete independent pass"
+    }
+  ]
+}

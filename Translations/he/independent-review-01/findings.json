@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "status": "partial review findings; not an exhaustive closure verdict",
+  "reviewer": "/root/he_independent_review",
+  "closureManifestSha256": "63e4016d92013069a95c3b44aed707e23a568190d7e1dc6849cba2cb8a1cce7c",
+  "glossarySha256": "2842f9f75fc312fee81aa15c8753ac8c3926064b6cd79cbf6b1035786d6de886",
+  "findings": [
+    {
+      "findingId": "HE-IR01-001",
+      "closureOrdinalZeroBased": 237,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "key": "characterName_Unstable",
+      "nodeNames": [],
+      "source": "дёрганый",
+      "currentTarget": "העצבני",
+      "proposedFullTarget": "הקופצני",
+      "sourceValueSha256": "05fdab95a0fb3c9d3e1727cfa5ed12c40c532d0b860da317616338f89992f2a8",
+      "currentTargetValueSha256": "88a437fa8b8ae91470a37f924027b157faa0049ebe7a638d0dca4f5e880674f4",
+      "proposedTargetValueSha256": "f1e274b05eaae058c25d70df7583cc1ce39d8025829deebfca52ac4af6c5ece8",
+      "reason": "The character identity key characterName_Unstable uses העצבני, while the approved jerky-man glossary term is הקופצני. This UI label is the exact label the GetCharacterOnPlace consumer fetches by characterName_ + ECharacterType. Use the approved canonical designation.",
+      "context": [
+        "Documentation/glossary-translations/he/layer.json:jerky-man",
+        "consumer-il-context.json:GetCharacterOnPlace"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "No format slots, TMP tags, numeric values, line breaks or comparison literals changed; service prefix retained where present.",
+      "fullUnitRetention": "Proposal includes the entire current replacement unit; all unchanged sentences are retained."
+    },
+    {
+      "findingId": "HE-IR01-002",
+      "closureOrdinalZeroBased": 291,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062535",
+      "key": "line:radio_13_0e310a4",
+      "nodeNames": [
+        "radio_13"
+      ],
+      "source": "Повт…ряю, вызывайте подкр…пление. Нам не спр…виться с субъ…ктом.",
+      "currentTarget": "אני חו…זר, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הנו…שא.",
+      "proposedFullTarget": "אני חו…זר, הזעיקו תג…בורת. לא נצ…ליח להתמודד עם הי…שות.",
+      "sourceValueSha256": "446cddcd442d4d9d3641ecb886765a2bfba61c336f99cc8c5fe7a1994d98e5f8",
+      "currentTargetValueSha256": "74ba0528a638f44d2f576913d91708cd6dc7a6c9ef0bf2a242b50fe0eb58c397",
+      "proposedTargetValueSha256": "b7de4f064425cb7a2d754c548fbbe85304937ee8a7a7ff4e4a97c8e1f91d3a88",
+      "reason": "Russian субъект is the threatening entity that has left the city, not a topic/subject of discussion. הנו…שא means the topic. The preceding delivered radio_13 cell now correctly calls it הי…שות; this final cell must retain the same referent.",
+      "context": [
+        "selected-consumer-context.json:radio_13",
+        "closure rows 292 and 294 current entity wording"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "No format slots, TMP tags, numeric values, line breaks or comparison literals changed; service prefix retained where present.",
+      "fullUnitRetention": "Proposal includes the entire current replacement unit; all unchanged sentences are retained."
+    },
+    {
+      "findingId": "HE-IR01-003",
+      "closureOrdinalZeroBased": 401,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "key": "line:entrance_bald_0b08f06",
+      "nodeNames": [
+        "entrance_bald"
+      ],
+      "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+      "currentTarget": "Bald: גרתי פה קודם עם אמא ואבא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "proposedFullTarget": "Bald: גרתי פה קודם עם אמא וסבתא, אבל גובי החובות גירשו אותנו מהדירה. סיפור מחורבן לגמרי. אם תכניס אותי, אספר לך פעם.",
+      "sourceValueSha256": "625b192a601491097a26df6104e46f5e07df91518e2708b9bb48401d86de5c0d",
+      "currentTargetValueSha256": "843de84e05049feafbcd8cbee029636611cc1261ebf50fddca9e2d56966f1ff3",
+      "proposedTargetValueSha256": "6944522aa1e6291de7047784bd1e1abf16f514842723e8ff0ffb6551195a045d",
+      "reason": "ма и ба abbreviates mother and grandmother in this character story. Bald_Asking_4 explicitly says Я жил с мамой и бабушкой, then says the father left. The approved theater-man glossary also states mother and grandmother. אמא ואבא changes the grandmother into a father.",
+      "context": [
+        "Documentation/glossary-translations/he/layer.json:theater-man",
+        "selected-consumer-context.json:entrance_bald and Bald_Asking_4",
+        "closure rows 866,875,876"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "No format slots, TMP tags, numeric values, line breaks or comparison literals changed; service prefix retained where present.",
+      "fullUnitRetention": "Proposal includes the entire current replacement unit; all unchanged sentences are retained."
+    },
+    {
+      "findingId": "HE-IR01-004",
+      "closureOrdinalZeroBased": 866,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "key": "line:Bald_Asking_4_0fa8dc8",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "currentTarget": "Bald: איכשהו חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "proposedFullTarget": "Bald: פעם חזרתי הביתה. הדלת פתוחה. הכול הפוך. אמא וסבתא שוכבות שם עם… פאק… עם אצבעות ורגליים שבורות, ו…",
+      "sourceValueSha256": "7698230d31aef86c97ccf6e3f900c0d153856c9b9b9ccb850dae2088d8813d16",
+      "currentTargetValueSha256": "2b1fd056cbe54b1bb75197b97290bb25a70afdee69e1a2db206f219c23e1573b",
+      "proposedTargetValueSha256": "24b78d7447c55054bc9c051f029aeb177944733ca89986a03fbdeaca8224c143",
+      "reason": "Я как-то вернулся домой introduces one occasion in the remembered incident. איכשהו means somehow and changes that temporal setup into an account of how he managed to return. פעם retains the one-occasion meaning; every following sentence remains unchanged.",
+      "context": [
+        "selected-consumer-context.json:Bald_Asking_4",
+        "closure rows 875 and 876"
+      ],
+      "decision": "objective correction proposed; not applied",
+      "protectedSyntax": "No format slots, TMP tags, numeric values, line breaks or comparison literals changed; service prefix retained where present.",
+      "fullUnitRetention": "Proposal includes the entire current replacement unit; all unchanged sentences are retained."
+    }
+  ]
+}

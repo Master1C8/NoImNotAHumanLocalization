@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    10880,
+    11679
+  ],
+  "findingGroups": 10,
+  "affectedUnits": 12,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0135",
+      "objectiveReason": "загар is a suntan in the Tourist's explanation and question; ngozi iliyochomwa/kuchomwa describes sunburn instead. The nearby 10981 separately says his hands were lightly burned, so the distinction is part of this symptom exchange.",
+      "affected": [
+        {
+          "sourceIndex": 10930,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454158098439",
+          "key": "line:Tourist_Hands_DontShoot_068c773",
+          "source": "Tourist: Господи, это же всего лишь загар!",
+          "currentTarget": "Tourist: Ee Mungu, hiyo ni rangi ya ngozi iliyochomwa na jua tu!",
+          "proposedTarget": "Tourist: Ee Mungu, hiyo ni rangi ya ngozi iliyokolea kwa jua tu!",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        },
+        {
+          "sourceIndex": 10950,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904128",
+          "key": "line:Tourist_Hands_Gun_0a78276",
+          "source": "Tourist: Загар что — признак заражения?",
+          "currentTarget": "Tourist: Ngozi kuchomwa na jua ni dalili ya maambukizi?",
+          "proposedTarget": "Tourist: Rangi ya ngozi iliyokolea kwa jua ni dalili ya maambukizi?",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0136",
+      "objectiveReason": "клоуны are the clowns who followed Alt out of the metaphorical circus; vichekesho are jokes or comedy, changing the people in her bitter accusation into abstract amusement.",
+      "affected": [
+        {
+          "sourceIndex": 11000,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454137126912",
+          "key": "line:Alt_Death_00ec8ce",
+          "source": "Alt: Ушла из ёбаного цирка, чтобы клоуны догнали тут.",
+          "currentTarget": "Alt: Nilitoka kwenye sarakasi ya kipuuzi, kumbe vichekesho vimenifuata hadi hapa.",
+          "proposedTarget": "Alt: Nilitoka kwenye sarakasi ya kulaaniwa, kumbe wachekeshaji wamenifuata hadi hapa.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0137",
+      "objectiveReason": "надгробное фото is a photograph for a tombstone; picha ya kaburini suggests a photo taken at a grave and loses the intended use while Alt fears being shot.",
+      "affected": [
+        {
+          "sourceIndex": 11019,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454128738310",
+          "key": "line:Alt_Photo_Gun_0d1c8e7",
+          "source": "Alt: Точно не хотела себе надгробное фото делать сейчас.",
+          "currentTarget": "Alt: Kwa hakika sikutaka kujipiga picha ya kaburini sasa hivi.",
+          "proposedTarget": "Alt: Hakika sikutaka kupigwa picha ya kuwekwa kwenye jiwe la kaburi langu sasa hivi.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0138",
+      "objectiveReason": "преет тело describes skin becoming sore/macerated in the heat during tattoo removal; hutota jasho only describes sweating, omitting the second painful physical effect.",
+      "affected": [
+        {
+          "sourceIndex": 11024,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454128738305",
+          "key": "line:Alt_Armpit_Gun_0b95c8d",
+          "source": "Alt: Мало того, что это очень больно, так ещё и преет тело очень сильно.",
+          "currentTarget": "Alt: Mbali na maumivu makali, mwili pia hutota jasho sana.",
+          "proposedTarget": "Alt: Mbali na kuwa na maumivu makali, ngozi pia huchubuka sana kwa jasho.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0139",
+      "objectiveReason": "говнюк is a contemptible, rude man who shoves Alt out of her taxi; mjinga calls him stupid and loses the moral insult tied to his action.",
+      "affected": [
+        {
+          "sourceIndex": 11063,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454111961096",
+          "key": "line:Alt_Hands_03fed10",
+          "source": "Alt: Но в моё такси сел очень наглый говнюк. Он оттолкнул меня, улыбнулся и сел в машину.",
+          "currentTarget": "Alt: Lakini mjinga mmoja asiye na adabu aliingia kwenye teksi yangu. Alinisukuma, akatabasamu na kuketi ndani.",
+          "proposedTarget": "Alt: Lakini mwanaharamu mmoja asiye na adabu aliingia kwenye teksi yangu. Alinisukuma, akatabasamu na kuketi ndani.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0140",
+      "objectiveReason": "маньяк compares Alt's newly filed teeth to a maniac; muuaji wa kichaa explicitly makes her look like a murderer, adding a killing allegation absent from her joke.",
+      "affected": [
+        {
+          "sourceIndex": 11070,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454111961089",
+          "key": "line:Alt_Teeth_06afc5a",
+          "source": "Alt: Недавно как раз обточили, дёсны ещё не зажили. Зато я как маньяк какой!",
+          "currentTarget": "Alt: Nimezinoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama muuaji wa kichaa!",
+          "proposedTarget": "Alt: Nimezinoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama mwenye wazimu fulani!",
+          "authoredPath": "Translations/sw/dialogue-batch-144.json",
+          "authoredSha256": "f90d6fd0405e36baa82f7e5902f27c599cf4a0e0e6da79cbed4fb23fe154fcbd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0141",
+      "objectiveReason": "радужке is the iris, the colored part of the eye; mboni ya jicho is the pupil. This changes the stated location of FunnyGuy's dark spot, his eye-check clue.",
+      "affected": [
+        {
+          "sourceIndex": 11147,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454082600964",
+          "key": "line:FunnyGuy_Eyes_0853c9c",
+          "source": "FunnyGuy: У меня есть тёмное пятно на радужке.",
+          "currentTarget": "FunnyGuy: Nina doa jeusi kwenye mboni ya jicho.",
+          "proposedTarget": "FunnyGuy: Nina doa jeusi kwenye sehemu yenye rangi ya jicho.",
+          "authoredPath": "Translations/sw/dialogue-batch-144.json",
+          "authoredSha256": "f90d6fd0405e36baa82f7e5902f27c599cf4a0e0e6da79cbed4fb23fe154fcbd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0142",
+      "objectiveReason": "Ёбаный свет is the Leper's repeated profane curse at the light. Nuru ya kupindukia changes it to excessive brightness, and Jamani at 11278 omits the light entirely.",
+      "affected": [
+        {
+          "sourceIndex": 11247,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+          "key": "line:Leper_Ears_DontShoot_0517384",
+          "source": "Leper: Ёбаный свет…",
+          "currentTarget": "Leper: Nuru ya kupindukia…",
+          "proposedTarget": "Leper: Nuru ya kulaaniwa…",
+          "authoredPath": "Translations/sw/dialogue-batch-145.json",
+          "authoredSha256": "8f8542cb0d42aab557397c8f06fe3a1445dbf322294d0c59cb5e3d53a76a95e9"
+        },
+        {
+          "sourceIndex": 11278,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+          "key": "line:Leper_Teeth_Gun_0501ea2",
+          "source": "Leper: Ёбаный свет, ты что?",
+          "currentTarget": "Leper: Jamani, umefanya nini?",
+          "proposedTarget": "Leper: Nuru ya kulaaniwa, unafanya nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-145.json",
+          "authoredSha256": "8f8542cb0d42aab557397c8f06fe3a1445dbf322294d0c59cb5e3d53a76a95e9"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0143",
+      "objectiveReason": "гнида is a vicious insult meaning a louse or scumbag; mpuuzi merely calls the shooter a fool and weakens Bald's furious death line.",
+      "affected": [
+        {
+          "sourceIndex": 11418,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453986131971",
+          "key": "line:Bald_Death_0ae4381",
+          "source": "Bald: Ах ты гнида!",
+          "currentTarget": "Bald: Wewe mpuuzi!",
+          "proposedTarget": "Bald: Wewe mwanaharamu!",
+          "authoredPath": "Translations/sw/dialogue-batch-146.json",
+          "authoredSha256": "57472b2c29269419ee7ce6966dad7befbed4b24d85f8ba0a950b71f1c5fc913c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0144",
+      "objectiveReason": "ублюдку is a direct coarse insult toward a potential attacker; mtu mbaya is only a generic bad person, flattening Tough's confrontational voice.",
+      "affected": [
+        {
+          "sourceIndex": 11584,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453927411719",
+          "key": "line:Tough_Teeth_0e2d14a",
+          "source": "Tough: При желании я и выдрать их могу какому-нибудь ублюдку.",
+          "currentTarget": "Tough: Nikitaka, naweza hata kuyang’oa kwa mtu mbaya fulani.",
+          "proposedTarget": "Tough: Nikitaka, naweza hata kuyang’oa kwa mwanaharamu fulani.",
+          "authoredPath": "Translations/sw/dialogue-batch-147.json",
+          "authoredSha256": "e4c8da561708e0bf670f95d8417ed4c57cf10a51f6241ab857974e453bcf4b2f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

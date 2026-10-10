@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-01",
+  "sourceAuditProgressSha256": "ec390d6578865673a5c9ea0e5600456716d776ed93fa195f6bd49a604e8708e7",
+  "findingRange": [
+    201,
+    211
+  ],
+  "adjudicatedGroups": 11,
+  "acceptedGroups": 11,
+  "dismissedGroups": 0,
+  "affectedUnits": 21,
+  "adjudications": [
+    {
+      "findingId": "sw-sem-0201",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "запечатлеть его смерть asks whether the player wants to capture her husband's death; kuihifadhi picha ya kifo chake means preserve a photograph of his death, changing the act in Widow's accusation.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 15704,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451985448960",
+          "source": "Widow: ВЫ ХОТИТЕ ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ?",
+          "oldTarget": "Widow: MNATAKA KUIHIFADHI PICHA YA KIFO CHAKE?",
+          "selectedFullTarget": "Widow: MNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+          "authoredPath": "Translations/sw/dialogue-batch-176.json",
+          "authoredSha256": "73a678e12268bada1565d972028253ff80013db608aa71655645aa1cb5171f54"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0202",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "стреляться is reflexive and asks whether Fanatic should shoot himself; Tupigane risasi asks whether two people should exchange gunfire.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 15896,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451905757190",
+          "source": "Fanatic: Ну и что? Стреляться теперь?",
+          "oldTarget": "Fanatic: Kwa hiyo nini? Tupigane risasi sasa?",
+          "selectedFullTarget": "Fanatic: Kwa hiyo nini? Nijipige risasi sasa?",
+          "authoredPath": "Translations/sw/dialogue-batch-178.json",
+          "authoredSha256": "ef76147f38aee7162a2b330d16748c3f67766f83db5536f05623906f3c79454c"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0203",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "ты сам посмотри asks the player to look at Fanatic/the situation; Jiangalie mwenyewe instructs the player to look at himself, reversing the object of inspection.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 15959,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451880591366",
+          "source": "Fanatic: Да ты сам посмотри, что я тут в самом деле.",
+          "oldTarget": "Fanatic: Jiangalie mwenyewe uone mimi ni nani hapa.",
+          "selectedFullTarget": "Fanatic: Wewe mwenyewe angalia nilivyo hapa.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0204",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "обоссанные жёлтые зубы compares the yellow teeth to being pissed on; yaliyochafuka merely says dirty and removes the explicit urine image in Anger's bitter contrast with his grandmother's gold tooth.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Retain the literal urine-soaked image rather than reducing it to yellow color.",
+      "affected": [
+        {
+          "sourceIndex": 16056,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451842842628",
+          "source": "Anger: И вот теперь у меня не солнце во рту, а просто обоссанные жёлтые зубы.",
+          "oldTarget": "Anger: Sasa sina jua mdomoni; nina meno ya manjano yaliyochafuka tu.",
+          "selectedFullTarget": "Anger: Sasa sina jua mdomoni; nina meno ya manjano kana kwamba yamemwagiwa mkojo tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0205",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "катись нахуй and мудак бесчувственный are direct coarse abuse of the player; nenda zako and mtu asiye na hisia remove the abuse and reduce Anger's hostile final outburst to neutral descriptions.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16062,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451838648328",
+          "source": "Anger: Ну и катись нахуй.",
+          "oldTarget": "Anger: Basi nenda zako.",
+          "selectedFullTarget": "Anger: Basi potelea mbali, mshenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        },
+        {
+          "sourceIndex": 16063,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451838648327",
+          "source": "Anger: А ты, блять, вообще мудак бесчувственный.",
+          "oldTarget": "Anger: Na wewe ni mtu asiye na hisia kabisa.",
+          "selectedFullTarget": "Anger: Na wewe, laana, ni mshenzi asiye na hisia kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0206",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-15680-16079.json",
+      "findingEvidenceSha256": "a61eb6b3fb081fa514ced64a4607c5ba4e0b04095800f0bc36f0e44ac7e5dae7",
+      "findingObjectiveReason": "сука directly insults the player; the target omits that address while retaining only the insult directed at the photo.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16071,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451834454025",
+          "source": "Anger: Ты, сука, хочешь в меня выстрелить из-за ёбаной фотки?",
+          "oldTarget": "Anger: Unataka kunipiga risasi kwa sababu ya picha ya laana?",
+          "selectedFullTarget": "Anger: Wewe, mshenzi, unataka kunipiga risasi kwa sababu ya picha ya laana?",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0207",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-16080-16358.json",
+      "findingEvidenceSha256": "4e6ff13e1d785e0bb66d0160bce2ee656033ffbeda1e3d91eda1bc5cb5a6a4c0",
+      "findingObjectiveReason": "сука and еблет are direct coarse insults in Anger's threat to punch the player's face; the target omits both insults, weakening his hostile voice at gunpoint.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16082,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451830259719",
+          "source": "Anger: Ты, сука, что, думаешь, я с такой лапой не смогу тебе в еблет прописать быстрее, чем ты нажмёшь на курок?",
+          "oldTarget": "Anger: Unadhani siwezi kukupiga usoni kwa mkono huu mkubwa kabla hujavuta kifyatulio?",
+          "selectedFullTarget": "Anger: Wewe, mshenzi, unadhani siwezi kukupiga kwenye sura yako ya kipumbavu kwa mkono huu mkubwa kabla hujavuta kifyatulio?",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0208",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-16080-16358.json",
+      "findingEvidenceSha256": "4e6ff13e1d785e0bb66d0160bce2ee656033ffbeda1e3d91eda1bc5cb5a6a4c0",
+      "findingObjectiveReason": "девчонку is a singular girl Anger could pick up; wasichana is multiple girls and changes the number of people in his boast.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16101,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451821871113",
+          "source": "Anger: Что, цвет нравится? Голубые. Всегда такие были. Мне кроме них ничего и не надо было, чтобы девчонку склеить.",
+          "oldTarget": "Anger: Unapenda rangi? Ni buluu. Daima zilikuwa hivyo. Nilihitaji macho haya tu kuwavutia wasichana.",
+          "selectedFullTarget": "Anger: Unapenda rangi? Ni buluu. Daima zilikuwa hivyo. Nilihitaji macho haya tu kumvutia msichana.",
+          "authoredPath": "Translations/sw/dialogue-batch-180.json",
+          "authoredSha256": "343d6c05c3bc362d5dfc85d63d359c2ef04f439e14ca8579aebca1891aaeac6e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0209",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-16080-16358.json",
+      "findingEvidenceSha256": "4e6ff13e1d785e0bb66d0160bce2ee656033ffbeda1e3d91eda1bc5cb5a6a4c0",
+      "findingObjectiveReason": "не смог бы is hypothetical inability without his hands; sikuweza states he actually could not drive, shifting from a conditional fear to past fact.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16286,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451746373640",
+          "source": "Wheelchair: Без рук я вообще гонять не смог бы.",
+          "oldTarget": "Wheelchair: Bila mikono sikuweza kuendesha kwa kasi kabisa.",
+          "selectedFullTarget": "Wheelchair: Bila mikono, nisingeweza kabisa kuendesha kwa kasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-181.json",
+          "authoredSha256": "2a18251566c3bf255a1bf9c71dc835888220f58f3ca0692b8aa732ecce190d81"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0210",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-16359-16537.json",
+      "findingEvidenceSha256": "b56404d34da822d2e499616f4400b142aac70836c563ec4a28b2ec775d5c8b99",
+      "findingObjectiveReason": "Гавнасэнсы is a coarse scatological pun on экстрасенсы; wenye upuuzi wa ziada replaces the shit element with generic nonsense across ten repeated static TMP labels.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16446,
+          "stableId": "tmp:level1:3856:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16449,
+          "stableId": "tmp:level1:3892:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16456,
+          "stableId": "tmp:level1:3939:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16464,
+          "stableId": "tmp:level1:3981:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16466,
+          "stableId": "tmp:level1:3989:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16468,
+          "stableId": "tmp:level1:3997:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16476,
+          "stableId": "tmp:level1:4087:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16486,
+          "stableId": "tmp:level1:4135:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16499,
+          "stableId": "tmp:level1:4218:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        },
+        {
+          "sourceIndex": 16529,
+          "stableId": "tmp:level1:5014:m_text",
+          "source": "Экстрасенсы Гавнасэнсы",
+          "oldTarget": "Wenye uwezo wa hisia za ziada, wenye upuuzi wa ziada",
+          "selectedFullTarget": "Wenye hisia za ziada, wenye hisia za mavi",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0211",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-16359-16537.json",
+      "findingEvidenceSha256": "b56404d34da822d2e499616f4400b142aac70836c563ec4a28b2ec775d5c8b99",
+      "findingObjectiveReason": "Vot eto titry transliterates Вот это титры and names the credits; Hizi ndizo sifa says these are qualities or praise, not the credits shown in this scene.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 16495,
+          "stableId": "tmp:level1:4209:m_text",
+          "source": "Vot eto titry...",
+          "oldTarget": "Hizi ndizo sifa...",
+          "selectedFullTarget": "Hizi ndizo taarifa za watengenezaji...",
+          "authoredPath": "Translations/sw/static-text-draft.json",
+          "authoredSha256": "afaf347a0531cf51192bdeec11834a630ba2acc98efe6a89b7b7ea074bce5e2f"
+        }
+      ]
+    }
+  ]
+}

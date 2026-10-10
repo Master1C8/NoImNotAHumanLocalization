@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    6880,
+    7679
+  ],
+  "findingGroups": 6,
+  "affectedUnits": 6,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0080",
+      "objectiveReason": "отмывали правительственные деньги specifically accuses KHD of laundering government money; wanafuja says they squandered or embezzled it, changing the alleged financial scheme.",
+      "affected": [
+        {
+          "sourceIndex": 6995,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455567384584",
+          "key": "line:Jacob_Asking_4_06d2c09",
+          "source": "Jacob: Они просто отмывали правительственные деньги.",
+          "currentTarget": "Jacob: Walikuwa wanafuja pesa za serikali tu.",
+          "proposedTarget": "Jacob: Walikuwa wakitakatisha fedha za serikali tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-102.json",
+          "authoredSha256": "f4c5e560ad077e00da27409254fc3982d6783460b5a63168093418132a065ad7"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0081",
+      "objectiveReason": "монстры из под земли calls the underground beings monsters; majini identifies them as jinn/spirits, adding a religious supernatural identity the line does not assert.",
+      "affected": [
+        {
+          "sourceIndex": 7020,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455558995975",
+          "key": "line:Jacob_Asking_2_08d936d",
+          "source": "Jacob: А монстры из под земли добивают тех, кто остался!",
+          "currentTarget": "Jacob: Na majini kutoka chini ya ardhi wanawaangamiza waliosalia!",
+          "proposedTarget": "Jacob: Na viumbe wa kutisha kutoka chini ya ardhi wanawaangamiza waliosalia!",
+          "authoredPath": "Translations/sw/dialogue-batch-103.json",
+          "authoredSha256": "61a30fa8ebe4b3c7c309c8bf20090bfb72aaf708048b68fab5146575aaecbdc7"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0082",
+      "objectiveReason": "Мне надо вас проверить is the player's choice to check this specific teacher; Nahitaji kufanya ukaguzi only says 'I need to carry out an inspection' and omits its addressee.",
+      "affected": [
+        {
+          "sourceIndex": 7107,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455529635847",
+          "key": "line:talk_teacher_5_0f6c260",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0083",
+      "objectiveReason": "The cultist personifies Смерть as one female agent, consistent with nearby Alituita and Hasababishi; Hawapendi switches the subject to plural 'they do not like'.",
+      "affected": [
+        {
+          "sourceIndex": 7319,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455458332680",
+          "key": "line:Cultist2_Asking_2_08b1d70",
+          "source": "Cultist2: Она не любит богохульников, которые считают её несправедливой, и наказывает их сильнее всего.",
+          "currentTarget": "Cultist2: Hawapendi wanaokufuru wanaomwona kuwa hana haki, na huwaadhibu kuliko wote.",
+          "proposedTarget": "Cultist2: Hapendi wanaokufuru wanaomwona kuwa hana haki, na huwaadhibu kuliko wote.",
+          "authoredPath": "Translations/sw/dialogue-batch-106.json",
+          "authoredSha256": "3e52bb61f17d499291a5efc855affe1a0cf9b56b4afddc5f4904947cf375902a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0084",
+      "objectiveReason": "подсознание is the subconscious, whose message the Intruder wants to interpret through dreams; dhamiri yako ya ndani means inner conscience, shifting the concept to moral judgment.",
+      "affected": [
+        {
+          "sourceIndex": 7394,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455433166855",
+          "key": "line:Intruder_Asking_2_01ca96f",
+          "source": "Intruder: Тебе разве не интересно, что хочет сказать твоё подсознание?",
+          "currentTarget": "Intruder: Huna hamu ya kujua dhamiri yako ya ndani inajaribu kukuambia nini?",
+          "proposedTarget": "Intruder: Huna hamu ya kujua kile ambacho akili yako ya chini ya fahamu inajaribu kukuambia?",
+          "authoredPath": "Translations/sw/dialogue-batch-107.json",
+          "authoredSha256": "8fd8553f74d9eb05f2bf1e086f63beaca977d4167704abde077522f8628e2815"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0085",
+      "objectiveReason": "заключить со мной договор means conclude a formal contract with the Provocateur; kufanya makubaliano means make a general agreement, losing the contract at issue in his transaction.",
+      "affected": [
+        {
+          "sourceIndex": 7654,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455345086467",
+          "key": "line:Provocateur_Asking_4_2_05f12c7",
+          "source": "Provocateur: Сначала я не придал значения тому, что вы не можете нормально заключить со мной договор.",
+          "currentTarget": "Provocateur: Mwanzoni sikujali uliposhindwa kufanya makubaliano nami vizuri.",
+          "proposedTarget": "Provocateur: Mwanzoni sikutilia maanani kwamba hukuweza kufunga mkataba nami ipasavyo.",
+          "authoredPath": "Translations/sw/dialogue-batch-110.json",
+          "authoredSha256": "ff00c6220b54d67f675c5a0d68957bebc4810fca775af64cb70d3990cc718e1f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

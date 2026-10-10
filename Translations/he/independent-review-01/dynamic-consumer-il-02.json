@@ -1,0 +1,657 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "ConsumablesController",
+      "method": "IsNeedToGetDeficitItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "_getDay"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 23,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 24,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 29,
+          "opcode": "callvirt",
+          "operand": "get_DeficitItemDay"
+        },
+        {
+          "offset": 34,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 35,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 36,
+          "opcode": "bge.s",
+          "operand": "40"
+        },
+        {
+          "offset": 38,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 39,
+          "opcode": "ret",
+          "operand": null
+        },
+        {
+          "offset": 40,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 41,
+          "opcode": "ldfld",
+          "operand": "_otherGameSoData"
+        },
+        {
+          "offset": 46,
+          "opcode": "callvirt",
+          "operand": "get_DeficitConsumables"
+        },
+        {
+          "offset": 51,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 52,
+          "opcode": "ldftn",
+          "operand": "<IsNeedToGetDeficitItem>b__15_0"
+        },
+        {
+          "offset": 58,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 63,
+          "opcode": "call",
+          "operand": "Count"
+        },
+        {
+          "offset": 68,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 69,
+          "opcode": "cgt",
+          "operand": null
+        },
+        {
+          "offset": 71,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "ConsumablesController",
+      "method": "GetDeficitItem",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "_otherGameSoData"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "get_DeficitConsumables"
+        },
+        {
+          "offset": 23,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 24,
+          "opcode": "ldftn",
+          "operand": "<GetDeficitItem>b__16_0"
+        },
+        {
+          "offset": 30,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 35,
+          "opcode": "call",
+          "operand": "Where"
+        },
+        {
+          "offset": 40,
+          "opcode": "ldsfld",
+          "operand": "<>9__16_1"
+        },
+        {
+          "offset": 45,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 46,
+          "opcode": "brtrue.s",
+          "operand": "71"
+        },
+        {
+          "offset": 48,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 49,
+          "opcode": "ldsfld",
+          "operand": "<>9"
+        },
+        {
+          "offset": 54,
+          "opcode": "ldftn",
+          "operand": "<GetDeficitItem>b__16_1"
+        },
+        {
+          "offset": 60,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 65,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 66,
+          "opcode": "stsfld",
+          "operand": "<>9__16_1"
+        },
+        {
+          "offset": 71,
+          "opcode": "call",
+          "operand": "Select"
+        },
+        {
+          "offset": 76,
+          "opcode": "call",
+          "operand": "GetRandomElement"
+        },
+        {
+          "offset": 81,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "ConsumablesController",
+      "method": "<GetDeficitItem>b__16_0",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarga.s",
+          "operand": "argument(0x0001)"
+        },
+        {
+          "offset": 3,
+          "opcode": "call",
+          "operand": "get_Value"
+        },
+        {
+          "offset": 8,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 9,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 14,
+          "opcode": "callvirt",
+          "operand": "get_Storage"
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarga.s",
+          "operand": "argument(0x0001)"
+        },
+        {
+          "offset": 21,
+          "opcode": "call",
+          "operand": "get_Key"
+        },
+        {
+          "offset": 26,
+          "opcode": "callvirt",
+          "operand": "get_Item"
+        },
+        {
+          "offset": 31,
+          "opcode": "clt",
+          "operand": null
+        },
+        {
+          "offset": 33,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 34,
+          "opcode": "ceq",
+          "operand": null
+        },
+        {
+          "offset": 36,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "<>c",
+      "method": "<GetDeficitItem>b__16_1",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarga.s",
+          "operand": "argument(0x0001)"
+        },
+        {
+          "offset": 3,
+          "opcode": "call",
+          "operand": "get_Key"
+        },
+        {
+          "offset": 8,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "IsNeedToGetDeficitItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldsfld",
+          "operand": "_instance"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldfld",
+          "operand": "NeededToGetDeficitItem"
+        },
+        {
+          "offset": 11,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 12,
+          "opcode": "brtrue.s",
+          "operand": "17"
+        },
+        {
+          "offset": 14,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 15,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 16,
+          "opcode": "ret",
+          "operand": null
+        },
+        {
+          "offset": 17,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 22,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "PeekDeficitItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldsfld",
+          "operand": "_instance"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldfld",
+          "operand": "PeekedDeficitItem"
+        },
+        {
+          "offset": 11,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 12,
+          "opcode": "brtrue.s",
+          "operand": "18"
+        },
+        {
+          "offset": 14,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 15,
+          "opcode": "ldnull",
+          "operand": null
+        },
+        {
+          "offset": 16,
+          "opcode": "br.s",
+          "operand": "23"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 23,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 24,
+          "opcode": "brtrue.s",
+          "operand": "32"
+        },
+        {
+          "offset": 26,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 27,
+          "opcode": "ldstr",
+          "operand": ""
+        },
+        {
+          "offset": 32,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "LocalizeItem",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldstr",
+          "operand": "consumable_"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 7,
+          "opcode": "callvirt",
+          "operand": "ToLower"
+        },
+        {
+          "offset": 12,
+          "opcode": "ldstr",
+          "operand": "_name"
+        },
+        {
+          "offset": 17,
+          "opcode": "call",
+          "operand": "Concat"
+        },
+        {
+          "offset": 22,
+          "opcode": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 27,
+          "opcode": "call",
+          "operand": "Empty"
+        },
+        {
+          "offset": 32,
+          "opcode": "call",
+          "operand": "GetLocalization"
+        },
+        {
+          "offset": 37,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__0",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 2,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 7,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 8,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 13,
+          "opcode": "ceq",
+          "operand": null
+        },
+        {
+          "offset": 15,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__1",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldsfld",
+          "operand": "_instance"
+        },
+        {
+          "offset": 17,
+          "opcode": "ldfld",
+          "operand": "_charactersManager"
+        },
+        {
+          "offset": 22,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 23,
+          "opcode": "callvirt",
+          "operand": "GetPlace"
+        },
+        {
+          "offset": 28,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 29,
+          "opcode": "ldfld",
+          "operand": "characterData"
+        },
+        {
+          "offset": 34,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 35,
+          "opcode": "brtrue.s",
+          "operand": "49"
+        },
+        {
+          "offset": 37,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 38,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 40,
+          "opcode": "initobj",
+          "operand": "token(0x1B000197)"
+        },
+        {
+          "offset": 46,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 47,
+          "opcode": "br.s",
+          "operand": "59"
+        },
+        {
+          "offset": 49,
+          "opcode": "call",
+          "operand": "get_Place"
+        },
+        {
+          "offset": 54,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 59,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 60,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 62,
+          "opcode": "call",
+          "operand": "GetValueOrDefault"
+        },
+        {
+          "offset": 67,
+          "opcode": "ceq",
+          "operand": null
+        },
+        {
+          "offset": 69,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 71,
+          "opcode": "call",
+          "operand": "get_HasValue"
+        },
+        {
+          "offset": 76,
+          "opcode": "and",
+          "operand": null
+        },
+        {
+          "offset": 77,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    }
+  ],
+  "consumableEnum": {
+    "Bobeer": 0,
+    "Cigarette": 1,
+    "Coffee": 2,
+    "Enerjeka": 3,
+    "Pills": 4,
+    "Mushroom": 5,
+    "CatFood": 6,
+    "Povistka": 7,
+    "Kombucha": 8,
+    "Photo": 9,
+    "Cockroach": 100
+  },
+  "allowedDeficitItemKeys": [
+    3,
+    1,
+    2,
+    6,
+    8,
+    7
+  ],
+  "interpretation": "Wheelchair_Entrance_Bribe calls PeekDeficitItem then LocalizeItem; deficit policy includes Cigarette and Kombucha, whose Hebrew names are feminine. GetCharacterOnPlace predicate compares preferred _place for actual occupants; the character-domain file enumerates source configuration. Runtime execution not run."
+}

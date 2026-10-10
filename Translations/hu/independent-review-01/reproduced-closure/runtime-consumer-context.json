@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "templates": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106177",
+      "source": "Twins: {0}. Возьмите, может, вам пригодится.",
+      "target": "Twins: {0}. Vegye el, talán hasznát veszi.",
+      "nodeNames": [
+        "Twins_Entrance_Bribe"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "item-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878",
+      "source": "Twins: Я вижу, что у вас в доме уже сидят люди: {0} и {1}.",
+      "target": "Twins: Látom, már vannak emberek a házában: {0} és {1}.",
+      "nodeNames": [
+        "Twins_Entrance_BothOccupied"
+      ],
+      "formatSlots": [
+        "{0}",
+        "{1}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "source": "У вас тут {0}...",
+      "target": "Önnél van itt {0}...",
+      "nodeNames": [
+        "Twins_Entrance_SirinOccupied"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "source": "Twins: Боюсь, что у вас уже сидит {0}.",
+      "target": "Twins: Attól tartok, {0} már önnél van.",
+      "nodeNames": [
+        "Twins_Entrance_AlkonostOccupied"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328969",
+      "source": "Couple: {0}? Я готов последнее отдать, лишь бы моя дорогая смогла передохнуть.",
+      "target": "Couple: {0}? Az utolsómat is odaadnám, csak hogy a drágám pihenhessen egyet.",
+      "nodeNames": [
+        "Couple_Entrance_Bribe"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "item-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457152831498",
+      "source": "Couple: Ох, мне, конечно, очень неудобно вас напрягать, но мы не сможем жить, когда рядом {0}…",
+      "target": "Couple: Ó, nagyon kellemetlen nekem, hogy ezzel terhelem önt, de nem tudunk itt lakni, ha {0} is a közelben van…",
+      "nodeNames": [
+        "Couple_Entrance_Occupied"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "source": "Mother: Хм… У тебя тут {0}. Мой малыш и так всего набоялся…",
+      "target": "Mother: Hm… Itt van nálad {0}. A kicsim így is halálra rémült…",
+      "nodeNames": [
+        "Mother_Entrance_Occupied"
+      ],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "source": "Twins: Пожалуй, нет, здесь {0}.",
+      "target": "Twins: Azt hiszem, nem. Itt {0}.",
+      "nodeNames": [],
+      "formatSlots": [
+        "{0}"
+      ],
+      "candidateDomain": "resident-name-domain.json"
+    }
+  ],
+  "residentNameDomainPath": "resident-name-domain.json",
+  "residentDomainCount": 57,
+  "itemNameDomainPath": "item-name-domain.json",
+  "itemDomainCount": 10,
+  "assemblyCount": 3497,
+  "assemblySha256": "b17ea81382bdb09d0a0a89f61c3c86181f426baccad897642484df968909416b",
+  "bindingInterpretation": "Occupied branches use resident-name candidates; Bribe branches use item-name candidates. These source-defined domains are conservative supersets.",
+  "runtimeLimit": "Static assembly verifies grammar and preserved slot semantics, not exact item/occupancy restrictions, renderer layout or game runtime.",
+  "nontranslatableProtectedFragments": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106177",
+      "speakerPrefix": "Twins: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878",
+      "speakerPrefix": "Twins: ",
+      "formatSlots": [
+        "{0}",
+        "{1}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "speakerPrefix": null,
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "speakerPrefix": "Twins: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328969",
+      "speakerPrefix": "Couple: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457152831498",
+      "speakerPrefix": "Couple: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "speakerPrefix": "Mother: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "speakerPrefix": "Twins: ",
+      "formatSlots": [
+        "{0}"
+      ],
+      "tmpTags": []
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-01",
+  "sourceAuditProgressSha256": "ec390d6578865673a5c9ea0e5600456716d776ed93fa195f6bd49a604e8708e7",
+  "findingRange": [
+    126,
+    150
+  ],
+  "adjudicatedGroups": 25,
+  "acceptedGroups": 25,
+  "dismissedGroups": 0,
+  "affectedUnits": 30,
+  "adjudications": [
+    {
+      "findingId": "sw-sem-0126",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "Съеби is a rude command to get lost, deliberately juxtaposed with пожалуйста; tafadhali niondokee makes the whole dismissal polite and loses his abrupt register.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10312,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454376202251",
+          "source": "Esenin: Съеби, пожалуйста. Нехорошо мне.",
+          "oldTarget": "Esenin: Tafadhali niondokee. Sijisikii vizuri.",
+          "selectedFullTarget": "Esenin: Tokomea, tafadhali. Sijisikii vizuri.",
+          "authoredPath": "Translations/sw/dialogue-batch-136.json",
+          "authoredSha256": "f81ded38624d1e5fa3fa400d2ccf0b9870fa78a88d56979626e1ffdf8019afa9"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0127",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "обосранных штанов explicitly evokes pants soiled with excrement; kujiletea aibu na matatizo substitutes an abstract sense of shame and trouble and removes the image.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Use the fecal image in обосранных; kujinyea means to wet oneself with urine.",
+      "affected": [
+        {
+          "sourceIndex": 10320,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454376202243",
+          "source": "Esenin: Как будто мы ну никак не можем жить без обосранных штанов.",
+          "oldTarget": "Esenin: Ni kana kwamba hatuwezi kuishi bila kujiletea aibu na matatizo.",
+          "selectedFullTarget": "Esenin: Ni kana kwamba hatuwezi kuishi bila kunyea suruali.",
+          "authoredPath": "Translations/sw/dialogue-batch-137.json",
+          "authoredSha256": "047508508691d5492e1eeefc1d3473e741ed6e16273235e870d94d28f6b87ea9"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0128",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "солод is malt, not unprocessed barley; shayiri names barley and loses the beer ingredient in Esenin's line.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10345,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454367813634",
+          "source": "Esenin: Слёзы в пене помехой не будут, хмель и солод с солёным вкуснее.",
+          "oldTarget": "Esenin: Machozi katika povu hayataharibu bia; humle na shayiri huwa tamu zaidi zikiwa na chumvi.",
+          "selectedFullTarget": "Esenin: Machozi katika povu hayataharibu bia; humle na kimea cha shayiri huwa vitamu zaidi vikiwa na chumvi.",
+          "authoredPath": "Translations/sw/dialogue-batch-137.json",
+          "authoredSha256": "047508508691d5492e1eeefc1d3473e741ed6e16273235e870d94d28f6b87ea9"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0129",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "угостишь asks the player to offer/share beer as a treat; utaninunulia asks the player to buy him a drink, changing the item handoff into a purchase.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10523,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454304899078",
+          "source": "Fanatic: Может, угостишь напоследок, человек?",
+          "oldTarget": "Fanatic: Labda utaninunulia kinywaji cha mwisho, Binadamu?",
+          "selectedFullTarget": "Fanatic: Labda utanipa bia moja ya mwisho, Binadamu?",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0130",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "обоссанных specifies urine-soaked heretics/rags in the Fanatic's repeated rant; waliochafuka and matambara machafu only say dirty, losing the repeated grotesque urine image.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Retain urine-soaked heretics without importing rags from the later separate line.",
+      "affected": [
+        {
+          "sourceIndex": 10536,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454300704773",
+          "source": "Fanatic: СМЕРТЬ ИММИГРАНТАМ ПОДЗЕМНЫМ!!! СМЕРТЬ ОБОССАННЫМ ЕРЕТИКАМ!!! СМЕРТЬ ГРЕШНИКАМ!!!",
+          "oldTarget": "Fanatic: KIFO KWA WAGENI WA CHINI YA ARDHI!!! KIFO KWA WAZUSHI WALIOCHAFUKA!!! KIFO KWA WENYE DHAMBI!!!",
+          "selectedFullTarget": "Fanatic: KIFO KWA WAGENI WA CHINI YA ARDHI!!! KIFO KWA WAZUSHI WALIOLOANA MKOJO!!! KIFO KWA WENYE DHAMBI!!!",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        },
+        {
+          "sourceIndex": 10539,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454300704770",
+          "source": "Fanatic: Проявляет еретиков в обоссанных тряпках, что стыдливо прячутся под масками.",
+          "oldTarget": "Fanatic: Linafichua wazushi waliovaa matambara machafu wanaojificha nyuma ya vinyago.",
+          "selectedFullTarget": "Fanatic: Linafichua wazushi waliovaa matambara yaliyolowa mkojo, wanaojificha kwa aibu nyuma ya vinyago.",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0131",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "вассалы means subordinate vassals, while watumwa asserts the Visitors were slaves, a different social relationship in the Fanatic's origin story.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10585,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454283927555",
+          "source": "Fanatic: ЧЁРТОВЫ ВАССАЛЫ, которых поселили в землю, и те взращивались ВЕКАМИ!",
+          "oldTarget": "Fanatic: WATUMWA WA KULANIWA waliowekwa ardhini na kukuzwa huko kwa KARNE NYINGI!",
+          "selectedFullTarget": "Fanatic: WAVASALI WA KULANIWA waliowekwa ardhini na kukuzwa huko kwa KARNE NYINGI!",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0132",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "Я еле могу с кровати подняться describes the Mother's present inability to get out of bed; Sikuweza casts this in the past, changing her current condition.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10738,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454229401610",
+          "source": "Mother: Что? Да куда там… Я еле могу с кровати подняться. Всё болит, сил вообще нет. Иногда кажется, что живу только за счёт злости.",
+          "oldTarget": "Mother: Nini? Sikuweza hata kuinuka kitandani kwa urahisi. Kila kitu kinauma na sina nguvu. Wakati mwingine nahisi ninaishi kwa nguvu ya hasira tu.",
+          "selectedFullTarget": "Mother: Nini? Haiwezekani… Ni vigumu hata kuinuka kitandani. Kila kitu kinauma, sina nguvu kabisa. Wakati mwingine nahisi ninaishi kwa hasira tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-141.json",
+          "authoredSha256": "b2610affa1ee1c1a0a8b2f68e258884c353769bc80c922d158d2b8b5a98d92cd"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0133",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "Чего мучить тебя asks why he should torment the listener with the account; nikuchokeshe only asks why he should bore or tire them, softening the intended distress.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10755,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454225207301",
+          "source": "WheelChair: Ну, я и не стану рассказывать. Чего мучить тебя?",
+          "oldTarget": "WheelChair: Basi sitakusimulia. Kwa nini nikuchokeshe?",
+          "selectedFullTarget": "WheelChair: Basi sitakusimulia. Kwa nini nikuteshe?",
+          "authoredPath": "Translations/sw/dialogue-batch-141.json",
+          "authoredSha256": "b2610affa1ee1c1a0a8b2f68e258884c353769bc80c922d158d2b8b5a98d92cd"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0134",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "ГОНЩИКА means a racer of the wheelchair, while MKIMBIAJI means a runner, contradicting his joke that wheels replace his legs.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Make the racer a competitor rather than the potentially running champion in the wheelchair joke.",
+      "affected": [
+        {
+          "sourceIndex": 10822,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454200041482",
+          "source": "WheelChair: Всё из-за того, что у меня вместо ног колёса великого ГОНЩИКА?",
+          "oldTarget": "WheelChair: Yote ni kwa sababu badala ya miguu nina magurudumu ya MKIMBIAJI mkuu?",
+          "selectedFullTarget": "WheelChair: Yote ni kwa sababu badala ya miguu nina magurudumu ya MSHINDANI MKUU WA MBIO?",
+          "authoredPath": "Translations/sw/dialogue-batch-142.json",
+          "authoredSha256": "6fb04b3822f3f40067460e768c5e01c9fafbd5587613707bdac63dd756c8102f"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0135",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "загар is a suntan in the Tourist's explanation and question; ngozi iliyochomwa/kuchomwa describes sunburn instead. The nearby 10981 separately says his hands were lightly burned, so the distinction is part of this symptom exchange.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10930,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454158098439",
+          "source": "Tourist: Господи, это же всего лишь загар!",
+          "oldTarget": "Tourist: Ee Mungu, hiyo ni rangi ya ngozi iliyochomwa na jua tu!",
+          "selectedFullTarget": "Tourist: Ee Mungu, hiyo ni rangi ya ngozi iliyokolea kwa jua tu!",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        },
+        {
+          "sourceIndex": 10950,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454153904128",
+          "source": "Tourist: Загар что — признак заражения?",
+          "oldTarget": "Tourist: Ngozi kuchomwa na jua ni dalili ya maambukizi?",
+          "selectedFullTarget": "Tourist: Rangi ya ngozi iliyokolea kwa jua ni dalili ya maambukizi?",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0136",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "клоуны are the clowns who followed Alt out of the metaphorical circus; vichekesho are jokes or comedy, changing the people in her bitter accusation into abstract amusement.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11000,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454137126912",
+          "source": "Alt: Ушла из ёбаного цирка, чтобы клоуны догнали тут.",
+          "oldTarget": "Alt: Nilitoka kwenye sarakasi ya kipuuzi, kumbe vichekesho vimenifuata hadi hapa.",
+          "selectedFullTarget": "Alt: Nilitoka kwenye sarakasi ya kulaaniwa, kumbe wachekeshaji wamenifuata hadi hapa.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0137",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "надгробное фото is a photograph for a tombstone; picha ya kaburini suggests a photo taken at a grave and loses the intended use while Alt fears being shot.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11019,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454128738310",
+          "source": "Alt: Точно не хотела себе надгробное фото делать сейчас.",
+          "oldTarget": "Alt: Kwa hakika sikutaka kujipiga picha ya kaburini sasa hivi.",
+          "selectedFullTarget": "Alt: Hakika sikutaka kupigwa picha ya kuwekwa kwenye jiwe la kaburi langu sasa hivi.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0138",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "преет тело describes skin becoming sore/macerated in the heat during tattoo removal; hutota jasho only describes sweating, omitting the second painful physical effect.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11024,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454128738305",
+          "source": "Alt: Мало того, что это очень больно, так ещё и преет тело очень сильно.",
+          "oldTarget": "Alt: Mbali na maumivu makali, mwili pia hutota jasho sana.",
+          "selectedFullTarget": "Alt: Mbali na kuwa na maumivu makali, ngozi pia huchubuka sana kwa jasho.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0139",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "говнюк is a contemptible, rude man who shoves Alt out of her taxi; mjinga calls him stupid and loses the moral insult tied to his action.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11063,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454111961096",
+          "source": "Alt: Но в моё такси сел очень наглый говнюк. Он оттолкнул меня, улыбнулся и сел в машину.",
+          "oldTarget": "Alt: Lakini mjinga mmoja asiye na adabu aliingia kwenye teksi yangu. Alinisukuma, akatabasamu na kuketi ndani.",
+          "selectedFullTarget": "Alt: Lakini mwanaharamu mmoja asiye na adabu aliingia kwenye teksi yangu. Alinisukuma, akatabasamu na kuketi ndani.",
+          "authoredPath": "Translations/sw/dialogue-batch-143.json",
+          "authoredSha256": "58599bd695ac30ad5f986f8b4f98b5c5ad5b064e39d2a0c6e7dc414df0797e25"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0140",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "маньяк compares Alt's newly filed teeth to a maniac; muuaji wa kichaa explicitly makes her look like a murderer, adding a killing allegation absent from her joke.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Keep the maniac comparison concise and colloquial without inventing murder.",
+      "affected": [
+        {
+          "sourceIndex": 11070,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454111961089",
+          "source": "Alt: Недавно как раз обточили, дёсны ещё не зажили. Зато я как маньяк какой!",
+          "oldTarget": "Alt: Nimezinoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama muuaji wa kichaa!",
+          "selectedFullTarget": "Alt: Nimezinoa karibuni tu, fizi bado hazijapona. Lakini sasa naonekana kama kichaa fulani!",
+          "authoredPath": "Translations/sw/dialogue-batch-144.json",
+          "authoredSha256": "f90d6fd0405e36baa82f7e5902f27c599cf4a0e0e6da79cbed4fb23fe154fcbd"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0141",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "радужке is the iris, the colored part of the eye; mboni ya jicho is the pupil. This changes the stated location of FunnyGuy's dark spot, his eye-check clue.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11147,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454082600964",
+          "source": "FunnyGuy: У меня есть тёмное пятно на радужке.",
+          "oldTarget": "FunnyGuy: Nina doa jeusi kwenye mboni ya jicho.",
+          "selectedFullTarget": "FunnyGuy: Nina doa jeusi kwenye sehemu yenye rangi ya jicho.",
+          "authoredPath": "Translations/sw/dialogue-batch-144.json",
+          "authoredSha256": "f90d6fd0405e36baa82f7e5902f27c599cf4a0e0e6da79cbed4fb23fe154fcbd"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0142",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "Ёбаный свет is the Leper's repeated profane curse at the light. Nuru ya kupindukia changes it to excessive brightness, and Jamani at 11278 omits the light entirely.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Keep the expletive aimed at the light and preserve the rhetorical rebuke in ты что.",
+      "affected": [
+        {
+          "sourceIndex": 11247,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+          "source": "Leper: Ёбаный свет…",
+          "oldTarget": "Leper: Nuru ya kupindukia…",
+          "selectedFullTarget": "Leper: Nuru ya kulaaniwa…",
+          "authoredPath": "Translations/sw/dialogue-batch-145.json",
+          "authoredSha256": "8f8542cb0d42aab557397c8f06fe3a1445dbf322294d0c59cb5e3d53a76a95e9"
+        },
+        {
+          "sourceIndex": 11278,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+          "source": "Leper: Ёбаный свет, ты что?",
+          "oldTarget": "Leper: Jamani, umefanya nini?",
+          "selectedFullTarget": "Leper: Nuru ya kulaaniwa, una nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-145.json",
+          "authoredSha256": "8f8542cb0d42aab557397c8f06fe3a1445dbf322294d0c59cb5e3d53a76a95e9"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0143",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "гнида is a vicious insult meaning a louse or scumbag; mpuuzi merely calls the shooter a fool and weakens Bald's furious death line.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11418,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453986131971",
+          "source": "Bald: Ах ты гнида!",
+          "oldTarget": "Bald: Wewe mpuuzi!",
+          "selectedFullTarget": "Bald: Wewe mwanaharamu!",
+          "authoredPath": "Translations/sw/dialogue-batch-146.json",
+          "authoredSha256": "57472b2c29269419ee7ce6966dad7befbed4b24d85f8ba0a950b71f1c5fc913c"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0144",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10880-11679.json",
+      "findingEvidenceSha256": "db3690db6efcf4bf9311d1587f55915dc93730174ec4b3c01f2f92d63d602cc5",
+      "findingObjectiveReason": "ублюдку is a direct coarse insult toward a potential attacker; mtu mbaya is only a generic bad person, flattening Tough's confrontational voice.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11584,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453927411719",
+          "source": "Tough: При желании я и выдрать их могу какому-нибудь ублюдку.",
+          "oldTarget": "Tough: Nikitaka, naweza hata kuyang’oa kwa mtu mbaya fulani.",
+          "selectedFullTarget": "Tough: Nikitaka, naweza hata kuyang’oa kwa mwanaharamu fulani.",
+          "authoredPath": "Translations/sw/dialogue-batch-147.json",
+          "authoredSha256": "e4c8da561708e0bf670f95d8417ed4c57cf10a51f6241ab857974e453bcf4b2f"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0145",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "грабил is robbed people, and his nearby 11761 line distinguishes воровал (stole) from грабил (robbed). Nilikuwa naiba collapses the robbery into ordinary theft in the ex-convict's account.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11707,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453881274373",
+          "source": "Experienced: Я ж просто грабил, да и отсидел уже своё — вышел недавно.",
+          "oldTarget": "Experienced: Nilikuwa naiba tu, na nilishatumikia kifungo changu. Nimetoka hivi karibuni.",
+          "selectedFullTarget": "Experienced: Nilikuwa napora watu tu, na nilishatumikia kifungo changu. Nimetoka hivi karibuni.",
+          "authoredPath": "Translations/sw/dialogue-batch-148.json",
+          "authoredSha256": "18945604e29b594a5337ef61dd85f4d9230bf713e838e687db42d1bc480d328c"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0146",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "Rocker refers to playing music with bandmates in the immediately preceding song line; kucheza naye says dancing or playing a game with someone and loses the band context.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11783,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453851914251",
+          "source": "Rocker: Нашу… говорю так, будто есть с кем играть.",
+          "oldTarget": "Rocker: Wimbo wetu… naongea kana kwamba kuna mtu wa kucheza naye.",
+          "selectedFullTarget": "Rocker: Wimbo wetu… naongea kana kwamba kuna mtu wa kupiga muziki naye.",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0147",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "без крышки means the camera cap was off for this photograph. bila kufungua kifuniko says it was taken without opening the cap, reversing the condition discussed in 11824 after a dark photograph.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11802,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453847719940",
+          "source": "Rocker: А, это без крышки.",
+          "oldTarget": "Rocker: Aha, hii imepigwa bila kufungua kifuniko.",
+          "selectedFullTarget": "Rocker: Aha, kumbe kifuniko kilikuwa kimeondolewa.",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0148",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "The Unstable character describes hand cramps and twisting after too much caffeine: судороги/судорога and перекрутил. Degedege suggests a seizure, and nimeikaza says he clenched rather than twisted his hands, changing the physical symptom used in the hand inspection.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11901,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453809971211",
+          "source": "Unstable: Или судороги какой-то новый признак теперь?",
+          "oldTarget": "Unstable: Au degedege sasa ni dalili mpya?",
+          "selectedFullTarget": "Unstable: Au mikazo ya misuli sasa ni dalili mpya?",
+          "authoredPath": "Translations/sw/dialogue-batch-149.json",
+          "authoredSha256": "90003f17ebab3f7bef72e3d595e7defded52162a4cd856493d99c4eb1d8a5f08"
+        },
+        {
+          "sourceIndex": 11941,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388294",
+          "source": "Unstable: Хех, от избытка кофеина судорога началась.",
+          "oldTarget": "Unstable: Heh, kafeini nyingi imenisababishia degedege.",
+          "selectedFullTarget": "Unstable: Heh, kafeini nyingi imenisababishia mkazo wa misuli.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        },
+        {
+          "sourceIndex": 11942,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388293",
+          "source": "Unstable: Как-то я их перекрутил.",
+          "oldTarget": "Unstable: Nimeikaza vibaya kwa namna fulani.",
+          "selectedFullTarget": "Unstable: Nimepinda mikono yangu vibaya kwa namna fulani.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0149",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "руки показать is the visitor agreeing to show his own hands in the hand-check branch; nionyeshe mikono commands the player to show their hands, reversing the speaker and examiner.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11946,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453797388289",
+          "source": "Unstable: Так-с, руки показать. Ну давай.",
+          "oldTarget": "Unstable: Basi, nionyeshe mikono. Sawa.",
+          "selectedFullTarget": "Unstable: Basi, nikuonyeshe mikono yangu. Sawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0150",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-11680-12479.json",
+      "findingEvidenceSha256": "dd92f750ed0bf66304fd0b83c6bca8c884e4febaf60c35317d3d73a68badeb36",
+      "findingObjectiveReason": "яйца Гостям лижут is Jacob's deliberately obscene accusation that KHD lick the Visitors' testicles; sehemu za siri generalizes it to private parts and removes the concrete insult.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 11979,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453784805376",
+          "source": "Jacob: Может, они там ещё яйца Гостям лижут, чтобы новые признаки выявить?",
+          "oldTarget": "Jacob: Labda hata wanawalamba Wageni sehemu za siri ili kugundua dalili mpya?",
+          "selectedFullTarget": "Jacob: Labda hata wanalamba makende ya Wageni ili kugundua dalili mpya?",
+          "authoredPath": "Translations/sw/dialogue-batch-150.json",
+          "authoredSha256": "b58663a3a4e61a75721d1e26ab7d34ca626dcb190907371c5057f1a2a391cb8e"
+        }
+      ]
+    }
+  ]
+}

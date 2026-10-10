@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-09T13:04:35.051146+00:00",
+  "reviewer": "/root/sw_independent_review",
+  "independentOfAuthor": true,
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "targetLocale": "sw",
+  "status": "partial-independent-review; findings-and-context-checkpoint; no-editorial-acceptance",
+  "closureRows": 5211,
+  "sourceTargetRowsActuallyRead": 991,
+  "unreadRows": 4220,
+  "fullContextAcceptanceCount": 0,
+  "contextAcceptanceExplanation": "Text comparisons and selected instruction contexts are recorded separately. No row batch is credited as a clean complete independent closure audit while catalog/consumer review remains incomplete.",
+  "completedTextComparisonCategories": {
+    "UI": 259,
+    "SupplementalStatic": 178,
+    "changedIds": 273
+  },
+  "regressionSemanticStatus": "two text comparison categories read; complete 1592-ID mandatory catalog pending",
+  "boundHashes": {
+    "dependencyClosure": "1dcb6a5164f18ac1e90cc894eb2dd362450ba8d507a23f9411b0ef914202a932",
+    "closureIds": "54319c89fd507fd6aa18aaf936deb5f8d214c53e999f119d28facc5c3b1484ed",
+    "payloadManifest": "14cbbe70fd445ccb3c5faabdfe5c279c97da67f5fe676d6c403611e1e87399f6",
+    "validation": "8a47c77de17047702f82e66aff8a7d5c086669b462c8c141e670ff4449e9cd68",
+    "sourceGlossary": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+    "swGlossary": "95fe1a773cf228dfabad22f97b085694a725bf5d3e2d83e0a07f8fda316beeb3",
+    "sourceBindings": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+    "compiledProgram": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "readRows": "f8bc4d76eadf3050014505263b0b285e5b815d1bd70a5b763268083974826dd3",
+    "unreadRows": "d3d3433d8db83774a4c9442945588735f1f2b006c8750d16253e243cb8573f92",
+    "findings": "23e1850b58a85e5c543e18ded67ae61bd7947e9228f4d52c856406cd6919f4ed",
+    "inputVerification": "317a8c1c9f93499fa985ca7f86fa4ac477ad0bbca9d3ba7bc31e9939e207c381"
+  },
+  "preservedPriorFullPass": "16538/16538 semantic pass unchanged; no restart condition identified",
+  "findingGroups": 3,
+  "findingIds": 4,
+  "pending": [
+    "Read all unread closure rows against source/glossary and actual consumer context",
+    "Complete context review for text-only reads",
+    "Review remaining mandatory regression catalog IDs",
+    "Adjudicate all findings together only after the entire assigned pass",
+    "Enumerate formal-single versus plural target address risk in whole accepted inventory, then actual scene-context classification; no global replacement"
+  ],
+  "nextAction": "Continue with unread-rows-01.jsonl from its first row, preserving existing reads and this cycle; use saved compiled source bytes for actual instruction order. Do not accept partial review or apply one-error cycles.",
+  "runtime": "not-run-per-owner",
+  "imagesTextures": "excluded-per-owner",
+  "sourceAuthoredMutation": "none",
+  "gitIndexTouched": false,
+  "model": "inherited; exact variant not exposed",
+  "reasoning": "not exposed",
+  "usage": {
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "total": null,
+    "status": "unknown; no per-request telemetry exposed"
+  },
+  "failedAttemptAccounting": [
+    "read_compiled_context.py v1 rejected actual operand field assumptions; preserved, not accepted",
+    "first credit-pair display command had SyntaxError; no writes or semantic coverage credited from that call",
+    "web requests for historical Yarn schema returned cache misses; no runtime code/schema changed"
+  ]
+}

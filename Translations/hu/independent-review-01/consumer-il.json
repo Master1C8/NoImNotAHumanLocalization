@@ -1,0 +1,111 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "DialogCommandsInstance",
+      "method": "IsCharacterPlaceEmpty",
+      "il": [
+        "12 newobj .ctor",
+        "17 stloc.0 None",
+        "18 ldloc.0 None",
+        "19 ldarg.0 None",
+        "20 ldc.i4.1 None",
+        "21 call 721421066",
+        "26 stfld 67113710",
+        "31 ldloc.0 None",
+        "32 ldsfld 67113641",
+        "37 ldfld 67113639",
+        "42 callvirt get_CharactersData",
+        "47 ldloc.0 None",
+        "48 ldftn <IsCharacterPlaceEmpty>b__0",
+        "54 newobj .ctor",
+        "59 call 721420689",
+        "64 stfld 67113711",
+        "69 ldsfld 67113641",
+        "74 ldfld 67113638",
+        "79 callvirt get_CharactersInside",
+        "84 ldloc.0 None",
+        "85 ldftn <IsCharacterPlaceEmpty>b__1",
+        "91 newobj .ctor",
+        "96 call 721420768",
+        "101 ldc.i4.0 None",
+        "102 ceq None",
+        "104 ret None"
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "GetCharacterOnPlace",
+      "il": [
+        "12 newobj .ctor",
+        "17 stloc.0 None",
+        "18 ldloc.0 None",
+        "19 ldarg.0 None",
+        "20 ldc.i4.1 None",
+        "21 call 721421066",
+        "26 stfld 67113712",
+        "31 ldloc.0 None",
+        "32 ldsfld 67113641",
+        "37 ldfld 67113639",
+        "42 callvirt get_CharactersData",
+        "47 ldloc.0 None",
+        "48 ldftn <GetCharacterOnPlace>b__0",
+        "54 newobj .ctor",
+        "59 call 721420689",
+        "64 stfld 67113713",
+        "69 ldstr characterName_",
+        "74 ldsfld 67113641",
+        "79 ldfld 67113638",
+        "84 callvirt get_CharactersInside",
+        "89 ldloc.0 None",
+        "90 ldftn <GetCharacterOnPlace>b__1",
+        "96 newobj .ctor",
+        "101 call 721421067",
+        "106 stloc.1 None",
+        "107 ldloca.s local(0x0001)",
+        "109 constrained. 33555327",
+        "115 callvirt ToString",
+        "120 call Concat",
+        "125 ldstr UI",
+        "130 call 721420451",
+        "135 call GetLocalization",
+        "140 ret None"
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "PeekDeficitItem",
+      "il": [
+        "1 ldsfld 67113641",
+        "6 ldfld 67113693",
+        "11 dup None",
+        "12 brtrue.s 18",
+        "14 pop None",
+        "15 ldnull None",
+        "16 br.s 23",
+        "18 callvirt Invoke",
+        "23 dup None",
+        "24 brtrue.s 32",
+        "26 pop None",
+        "27 ldstr ",
+        "32 ret None"
+      ]
+    },
+    {
+      "type": "DialogCommandsInstance",
+      "method": "LocalizeItem",
+      "il": [
+        "1 ldstr consumable_",
+        "6 ldarg.0 None",
+        "7 callvirt ToLower",
+        "12 ldstr _name",
+        "17 call Concat",
+        "22 ldstr UI",
+        "27 call 721420451",
+        "32 call GetLocalization",
+        "37 ret None"
+      ]
+    }
+  ]
+}

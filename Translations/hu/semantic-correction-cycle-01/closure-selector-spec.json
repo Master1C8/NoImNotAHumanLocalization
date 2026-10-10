@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "acceptedUnits": 16538,
+  "sourceOrder": "Source/preserve-exactly-v4.json tableRows followed by staticRows",
+  "idListSerialization": "one stable ID followed by LF per row, including final LF",
+  "sceneSelection": {
+    "allRowsInChangedNodeNames": true,
+    "fallbackChangedKeyFamilies": ["window_2_3", "Widow_Photo"],
+    "uiKeyFamilies": ["radio_instruction_", "calendar_day_", "characterName_"],
+    "relatedBranchPrefixes": ["Twins_Entrance", "Couple_Entrance"]
+  },
+  "glossaryAndReferentSelectors": [
+    {"id": "fema-acronym", "sourceRegex": "КЧС", "targetRegex": "KCsSz"},
+    {"id": "death-entity", "sourceRegex": "Смерт", "targetRegex": "Halál"},
+    {"id": "visitor-signs-status", "sourceRegex": "признак|статус", "targetRegex": "státusz|ismertetőjegy"},
+    {"id": "radio-transceivers", "sourceRegex": "раци", "targetRegex": "adóvevő"},
+    {"id": "inner-cheeks", "sourceRegex": "щ[её]к", "targetRegex": "orcám belső"},
+    {"id": "pale-skinny-visitor", "sourceRegex": "бледн|тощ", "targetRegex": "sápadt, sovány"},
+    {"id": "sun-explosion", "sourceRegex": "взрыв солнца|солнц[^.!?]{0,60}взорв|взорв[^.!?]{0,60}солнц|солнечн[^.!?]{0,30}вспыш", "targetRegex": "Nap felrobban|napkitörés"},
+    {"id": "ficus-plant", "sourceRegex": "Фикус", "targetRegex": "Fikusz"},
+    {"id": "skin-fit-and-condition", "sourceRegex": "кож[^.!?]{0,50}(размер|дефект|проблем)|проблем[^.!?]{0,30}кож", "targetRegex": "bőrproblém|rendellenes bőr"},
+    {"id": "physical-no-touch", "sourceRegex": "не трогай|не трогайте", "targetRegex": "hozzám ne érj|ne nyúljon"},
+    {"id": "underwear", "sourceRegex": "трус", "targetRegex": "alsógaty"},
+    {"id": "bald-familiar-address", "sourceRegex": "^Bald:.*(братан|брат)", "targetRegex": "^Bald:.*(tesó|haver)"}
+  ],
+  "mandatoryRegressionCatalog": {
+    "allUI": true,
+    "allAcceptedChecks": true,
+    "allSupplementalStaticIncludingCredits": true,
+    "technicalManifestFields": ["formatSlots", "tmpTags", "numbers", "lineBreaks", "trailingWhitespace", "wholeTextExact"],
+    "kinshipSourceRegex": "мать|матери|маму|отец|отца|сын|сына|дочь|дочери|муж|жена|жену|сестр|брат|ребён|дети|детей|семь",
+    "professionTitleSourceRegex": "врач|доктор|хирург|учител|пожарн|министр|священ|монахин|командир|господин|госпожа|товарищ",
+    "oneSourceOrderedRepresentativePerProtectedSpeakerPrefix": true,
+    "protectedSpeakerPrefixes": "all 11250 prefixed units remain in the full deterministic preserve-exact gate; representative semantic rows are in this catalog",
+    "textBearingImages": "excluded by owner; accepted image-text units: 0"
+  },
+  "runtimeConsumerDomain": {
+    "residentCandidateSource": "all 57 accepted UI characterName_* rows",
+    "itemCandidateSource": "all 10 accepted UI FridgeItem_*_Name and consumable_*_name rows",
+    "templates": "all format-slot rows in selected scene branches",
+    "assembly": "substitute item labels in Bribe templates, resident labels in Occupied templates; enumerate every candidate for one slot and every ordered pair of distinct resident IDs for two slots",
+    "scopeCaveat": "static conservative supersets; exact item/occupancy restrictions and runtime binding are not asserted without game execution"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    2080,
+    2879
+  ],
+  "findingGroups": 15,
+  "affectedUnits": 17,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0036",
+      "objectiveReason": "от твоего дома ничего не останется threatens destruction of the house itself; nyumba yako haitabaki na kitu instead says the house will have nothing in it.",
+      "affected": [
+        {
+          "sourceIndex": 2113,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457274466313",
+          "key": "line:CultistPriest_Entrance_Occupied_NoLet_03239a2",
+          "source": "CultistPriest: Ты пригляди за моими людьми. И помни: умрёт один — от твоего дома ничего не останется.",
+          "currentTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako haitabaki na kitu.",
+          "proposedTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako itaangamizwa kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-032.json",
+          "authoredSha256": "1d777ce36987e7ad979d20c927050a70c4b03cd7bb8186ee2cf73203c54af067"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0037",
+      "objectiveReason": "с приставленными сотрудниками КЧС с автоматами specifies armed officers assigned to the inspections and automatic firearms; pamoja na wafanyakazi wenye bunduki omits both details.",
+      "affected": [
+        {
+          "sourceIndex": 2133,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457270272000",
+          "key": "line:Courier_Entrance_4_1_2_039fa30",
+          "source": "Courier: Эти вечные утренние осмотры с приставленными сотрудниками КЧС с автоматами…",
+          "currentTarget": "Courier: Ukaguzi huu wa kila asubuhi pamoja na wafanyakazi wa KHD wenye bunduki…",
+          "proposedTarget": "Courier: Ukaguzi huu wa kila asubuhi unaosimamiwa na maafisa wa KHD wenye bunduki za kiotomatiki…",
+          "authoredPath": "Translations/sw/dialogue-batch-032.json",
+          "authoredSha256": "1d777ce36987e7ad979d20c927050a70c4b03cd7bb8186ee2cf73203c54af067"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0038",
+      "objectiveReason": "Лучше уйдите is a plural imperative addressed to the twins; uondoke addresses only one person.",
+      "affected": [
+        {
+          "sourceIndex": 2203,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911882",
+          "key": "line:Twins_Entrance_BothOccupied_071fdd4",
+          "source": "Лучше уйдите",
+          "currentTarget": "Ni afadhali uondoke",
+          "proposedTarget": "Bora muondoke",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 2208,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911877",
+          "key": "line:Twins_Entrance_SirinOccupied_00c7167",
+          "source": "Лучше уйдите",
+          "currentTarget": "Ni afadhali uondoke",
+          "proposedTarget": "Bora muondoke",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 2214,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717579",
+          "key": "line:Twins_Entrance_AlkonostOccupied_0e07c59",
+          "source": "Лучше уйдите",
+          "currentTarget": "Ni afadhali uondoke",
+          "proposedTarget": "Bora muondoke",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0039",
+      "objectiveReason": "The husband addresses one householder with polite Russian вы; mnasemaje and mtatusaidia make the Swahili addressee plural.",
+      "affected": [
+        {
+          "sourceIndex": 2239,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328970",
+          "key": "line:Couple_Entrance_Bribe_0f950e0",
+          "source": "Couple: Так что скажете? Поможете нам?",
+          "currentTarget": "Couple: Basi mnasemaje? Mtatusaidia?",
+          "proposedTarget": "Couple: Basi unasemaje? Utatusaidia?",
+          "authoredPath": "Translations/sw/dialogue-batch-033.json",
+          "authoredSha256": "73b9633260169abe03e3a39f40fd7dd7ada917ffed617a9a019fa6b156ba5761"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0040",
+      "objectiveReason": "простите за мою настойчивость makes the husband apologize for his own insistence; tusamehe changes the apologizer to the couple.",
+      "affected": [
+        {
+          "sourceIndex": 2246,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328963",
+          "key": "line:Couple_Entrance_Bribe_0141f74",
+          "source": "Couple: Вы простите, пожалуйста, за мою настойчивость, но вы попробуйте войти в наше положение.",
+          "currentTarget": "Couple: Tafadhali tusamehe kwa kusisitiza sana, lakini jaribu kuelewa hali yetu.",
+          "proposedTarget": "Couple: Tafadhali nisamehe kwa kusisitiza sana, lakini jaribu kuelewa hali yetu.",
+          "authoredPath": "Translations/sw/dialogue-batch-033.json",
+          "authoredSha256": "73b9633260169abe03e3a39f40fd7dd7ada917ffed617a9a019fa6b156ba5761"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0041",
+      "objectiveReason": "The Doctor's нормального наблюдения means adequate medical observation; kumwangalia vizuri says only that he cannot look after the patient well.",
+      "affected": [
+        {
+          "sourceIndex": 2350,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385929",
+          "key": "line:Doctor_Entrance_Occupied_07d8fb8",
+          "source": "Doctor: Я не могу обеспечить ему нормального наблюдения.",
+          "currentTarget": "Doctor: Siwezi kumwangalia vizuri kama anavyohitaji.",
+          "proposedTarget": "Doctor: Siwezi kumfuatilia kiafya ipasavyo.",
+          "authoredPath": "Translations/sw/dialogue-batch-035.json",
+          "authoredSha256": "22843692c16d5ae8a7cb9ea1347aca25c191522359c2e85e837e1d1ad54751ac"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0042",
+      "objectiveReason": "нас же впустили leaves the inviter implicit in a scene with one homeowner; wameturuhusu asserts multiple inviters.",
+      "affected": [
+        {
+          "sourceIndex": 2437,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025795",
+          "key": "line:Couple_Entrance_Occupied_YesLet_030cce0",
+          "source": "Couple: Что ты ногами не шевелишь, пойдём, нас же впустили.",
+          "currentTarget": "Couple: Mbona husogezi miguu? Twende, wameturuhusu tuingie.",
+          "proposedTarget": "Couple: Mbona husogezi miguu? Twende, tumeruhusiwa kuingia.",
+          "authoredPath": "Translations/sw/dialogue-batch-036.json",
+          "authoredSha256": "4360061ae4e71627bec48d4b4748f55f3572a52bcaf5802bf39896882c7caca5"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0043",
+      "objectiveReason": "дядя is a child's generic address for the unfamiliar man at the door; mjomba can assert a maternal-uncle relationship that the scene does not establish.",
+      "affected": [
+        {
+          "sourceIndex": 2458,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637190",
+          "key": "line:Mother_Entrance_Occupied_YesLet_05788a3",
+          "source": "Mother: Давай, не стой на месте, проходи, дядя не будет ждать вечность.",
+          "currentTarget": "Mother: Twende, usisimame hapo, pita, mjomba hatakusubiri milele.",
+          "proposedTarget": "Mother: Twende, usisimame hapo, ingia, yule bwana hatatusubiri milele.",
+          "authoredPath": "Translations/sw/dialogue-batch-036.json",
+          "authoredSha256": "4360061ae4e71627bec48d4b4748f55f3572a52bcaf5802bf39896882c7caca5"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0044",
+      "objectiveReason": "пушистика leaves the furry one's identity unnamed before the next line reveals the cat; paka names it early.",
+      "affected": [
+        {
+          "sourceIndex": 2464,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637184",
+          "key": "line:Ballerina_Entrance_Occupied_NoLet_06b8e95",
+          "source": "Ballerina: Видишь пушистика?",
+          "currentTarget": "Ballerina: Unamwona paka huyu mwenye manyoya laini?",
+          "proposedTarget": "Ballerina: Unamwona yule mwenye manyoya laini?",
+          "authoredPath": "Translations/sw/dialogue-batch-036.json",
+          "authoredSha256": "4360061ae4e71627bec48d4b4748f55f3572a52bcaf5802bf39896882c7caca5"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0045",
+      "objectiveReason": "Выглядишь необычно neutrally calls the appearance unusual; wa kipekee adds a positive 'special' judgment.",
+      "affected": [
+        {
+          "sourceIndex": 2633,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457085722635",
+          "key": "line:entrance_fataldame_09d015c",
+          "source": "Выглядишь необычно",
+          "currentTarget": "Unaonekana wa kipekee",
+          "proposedTarget": "Una mwonekano usio wa kawaida",
+          "authoredPath": "Translations/sw/dialogue-batch-038.json",
+          "authoredSha256": "817933e3f9481c272af442d172116d581947a6c9dcf03ecf120991ad5a108d8b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0046",
+      "objectiveReason": "подставили says these apparently normal people put everyone at risk or in trouble; walitusababishia matatizo loses the all-participants scope and stronger agency.",
+      "affected": [
+        {
+          "sourceIndex": 2638,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457085722630",
+          "key": "line:Vigilante_Entrance_3_Photo_0e68fda",
+          "source": "Vigilante: Ничего особого. Но таких «нормальных», которые в итоге всех подставили, уже не счесть.",
+          "currentTarget": "Vigilante: Hakuna cha pekee. Lakini watu wengi wanaoonekana “wa kawaida” walitusababishia matatizo mwishowe.",
+          "proposedTarget": "Vigilante: Hakuna cha pekee. Lakini watu wengi wanaoonekana “wa kawaida” walitutumbukiza sote matatani mwishowe.",
+          "authoredPath": "Translations/sw/dialogue-batch-038.json",
+          "authoredSha256": "817933e3f9481c272af442d172116d581947a6c9dcf03ecf120991ad5a108d8b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0047",
+      "objectiveReason": "Вытащил семью refers to the father just described; Niliitoa makes the Vigilante the one who led the family out.",
+      "affected": [
+        {
+          "sourceIndex": 2678,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139713",
+          "key": "line:Vigilante_Entrance_3_1_0e4eed0",
+          "source": "Vigilante: Вытащил семью через заднюю дверь и ушёл в лес. Я Гостей-то мочканул, но семья так и не вернулась.",
+          "currentTarget": "Vigilante: Niliitoa familia kwa mlango wa nyuma na kuelekea msituni. Niliwaua Wageni, lakini familia haikurudi tena.",
+          "proposedTarget": "Vigilante: Aliitoa familia kupitia mlango wa nyuma na akaenda msituni. Mimi niliwaua Wageni, lakini familia haikurudi tena.",
+          "authoredPath": "Translations/sw/dialogue-batch-039.json",
+          "authoredSha256": "6add05d87e0e19c5a414bce94997937437485a2715c10a65e5e5d286321a664d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0048",
+      "objectiveReason": "The wife and child belong to the Vigilante's brother; mke na mtoto wako is ambiguous and can identify the child as the player's. Make the possessor explicit.",
+      "affected": [
+        {
+          "sourceIndex": 2682,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457068945417",
+          "key": "line:Vigilante_Entrance_3_1_07c9b82",
+          "source": "Vigilante: Сдался, как тряпка. Итог сам видишь — жена с ребёнком или в яме, или хуй знает где.",
+          "currentTarget": "Vigilante: Alikata tamaa kama mtu asiye na nguvu. Matokeo unayaona — mke na mtoto wako shimoni au sijui wapi.",
+          "proposedTarget": "Vigilante: Alikata tamaa kama mtu asiye na nguvu. Matokeo unayaona — mkewe na mtoto wake huenda wako shimoni au sijui wapi.",
+          "authoredPath": "Translations/sw/dialogue-batch-039.json",
+          "authoredSha256": "6add05d87e0e19c5a414bce94997937437485a2715c10a65e5e5d286321a664d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0049",
+      "objectiveReason": "быстрее всех остальных превращаются compares transformation speed; kabla ya wengine wote says they transform before everyone else.",
+      "affected": [
+        {
+          "sourceIndex": 2704,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457060556810",
+          "key": "line:Vigilante_Entrance_2_Hands_07acb5d",
+          "source": "Vigilante: Вот что я тебе скажу: те, кто нормально выглядит, потом быстрее всех остальных превращаются.",
+          "currentTarget": "Vigilante: Ngoja nikwambie: watu wanaoonekana wa kawaida hugeuka kabla ya wengine wote.",
+          "proposedTarget": "Vigilante: Ngoja nikwambie: watu wanaoonekana wa kawaida baadaye hubadilika haraka kuliko wengine wote.",
+          "authoredPath": "Translations/sw/dialogue-batch-039.json",
+          "authoredSha256": "6add05d87e0e19c5a414bce94997937437485a2715c10a65e5e5d286321a664d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0050",
+      "objectiveReason": "часть недавно засыпало says part of the tunnels was filled by a collapse; ilifunikwa only says it was covered.",
+      "affected": [
+        {
+          "sourceIndex": 2862,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457006030859",
+          "key": "line:Miner_Entrance_1_3_0f7502d",
+          "source": "Miner: Вообще их было больше, но часть недавно засыпало.",
+          "currentTarget": "Miner: Kwa kweli yalikuwa mengi zaidi, lakini sehemu yake ilifunikwa hivi karibuni.",
+          "proposedTarget": "Miner: Kwa kweli yalikuwa mengi zaidi, lakini sehemu ya mahandaki iliporomoka na kuzibwa hivi karibuni.",
+          "authoredPath": "Translations/sw/dialogue-batch-042.json",
+          "authoredSha256": "fb51f9b427c2ac7fd71df7df8759fab392036088b280992796e3278af2283106"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

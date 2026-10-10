@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    5280,
+    6079
+  ],
+  "findingGroups": 5,
+  "affectedUnits": 9,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0072",
+      "objectiveReason": "The Russian profanity is left as English Shit in four Swahili target lines, leaving untranslated English dialogue. Earlier first-pass finding sw-sem-0063 covers the same recurring defect in the Fugitive's lines.",
+      "affected": [
+        {
+          "sourceIndex": 5289,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456158781448",
+          "key": "line:Wheelchair_Entrance_4_0662a5b",
+          "source": "Wheelchair: Бля…",
+          "currentTarget": "Wheelchair: Shit…",
+          "proposedTarget": "Wheelchair: Laana…",
+          "authoredPath": "Translations/sw/dialogue-batch-079.json",
+          "authoredSha256": "006c3ca4c35469594393921c2eea09dbce6b1f50acea8ad2e78a728d4fdf9681"
+        },
+        {
+          "sourceIndex": 5896,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455940677641",
+          "key": "line:WheelChair_Asking_SpecialEvent_5_0d95ac5",
+          "source": "WheelChair: Бля, ну ты чё?",
+          "currentTarget": "WheelChair: Shit, mbona hivyo?",
+          "proposedTarget": "WheelChair: Laana, mbona hivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        },
+        {
+          "sourceIndex": 5913,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455936483333",
+          "key": "line:WheelChair_Asking_SpecialEvent_0ac0e5b",
+          "source": "WheelChair: Бля, чëт ноги болят.",
+          "currentTarget": "WheelChair: Shit, miguu inaniuma.",
+          "proposedTarget": "WheelChair: Laana, miguu inaniuma.",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        },
+        {
+          "sourceIndex": 6010,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455902928904",
+          "key": "line:Alt_Asking_2_099b4b9",
+          "source": "Alt: Блять, кто вообще так говорит?",
+          "currentTarget": "Alt: Shit, nani huzungumza hivyo?",
+          "proposedTarget": "Alt: Laana, nani huzungumza hivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-088.json",
+          "authoredSha256": "c799362ebf4949c56e94257477e9d2e41ffe365dbec3a34471b3790740b77cee"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0073",
+      "objectiveReason": "In the Cultist ending Death addresses the group (вы, matching surrounding plural вас/вам); umevuta switches to one addressee.",
+      "affected": [
+        {
+          "sourceIndex": 5577,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456053923846",
+          "key": "line:talk_CultistEnds_5_0756018",
+          "source": "Появившись из ниоткуда, вы привлекли к себе внимание.",
+          "currentTarget": "Kwa kuonekana kutoka mahali pasipojulikana, umevuta macho yao.",
+          "proposedTarget": "Kwa kuonekana kutoka mahali pasipojulikana, mmejivutia usikivu.",
+          "authoredPath": "Translations/sw/dialogue-batch-082.json",
+          "authoredSha256": "3962c953e5de997b0b03ecc0f06252ce65f4a579c89cb1c2f20f133cea7d39a0"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0074",
+      "objectiveReason": "Если экономить, еды должно хватить concerns rationing the survivors' food; Mkibana matumizi means cutting expenditure and shifts the scarce resource from food to money/spending.",
+      "affected": [
+        {
+          "sourceIndex": 5740,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455995203594",
+          "key": "line:Ending_LivingVisitors_1_0119d18",
+          "source": "Если экономить, еды должно хватить на месяц-другой.",
+          "currentTarget": "Mkibana matumizi, chakula kitatosha kwa mwezi mmoja au miwili.",
+          "proposedTarget": "Mkikitumia chakula kwa uangalifu, kitatosha kwa mwezi mmoja au miwili.",
+          "authoredPath": "Translations/sw/dialogue-batch-084.json",
+          "authoredSha256": "ec8b1ac70589f88a12f4d6bd2ff12d3eff7a8420533b7c5752b678fd8e59ba43"
+        },
+        {
+          "sourceIndex": 5757,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455991009284",
+          "key": "line:Ending_Living_1_0d3f98f",
+          "source": "Если экономить, еды должно хватить на месяц-другой.",
+          "currentTarget": "Mkibana matumizi, chakula kitatosha kwa mwezi mmoja au miwili.",
+          "proposedTarget": "Mkikitumia chakula kwa uangalifu, kitatosha kwa mwezi mmoja au miwili.",
+          "authoredPath": "Translations/sw/dialogue-batch-084.json",
+          "authoredSha256": "ec8b1ac70589f88a12f4d6bd2ff12d3eff7a8420533b7c5752b678fd8e59ba43"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0075",
+      "objectiveReason": "слизняк is a shell-less slug in the Intruder's disturbing dream; konokono alone identifies a snail, generally shelled.",
+      "affected": [
+        {
+          "sourceIndex": 5839,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455961649159",
+          "key": "line:Intruder_Asking_SpecialEvent_Nightmare_1_06dd1ad",
+          "source": "Intruder: Там ты ползаешь по коридору, словно гадкий слизняк.",
+          "currentTarget": "Intruder: Humo unatambaa kwenye ukanda kama konokono mchafu.",
+          "proposedTarget": "Intruder: Humo unatambaa kwenye ukanda kama konokono mchafu asiye na gamba.",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0076",
+      "objectiveReason": "полететь asks where the Tourist wanted to fly; kusafiri loses the specific air-travel mode of the player's question.",
+      "affected": [
+        {
+          "sourceIndex": 5992,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455911317505",
+          "key": "line:talk_tourist_1_07bcee2",
+          "source": "Расскажи, куда полететь-то хотел?",
+          "currentTarget": "Nieleze, ulitaka kusafiri kwenda wapi?",
+          "proposedTarget": "Nieleze, ulitaka kusafiri kwa ndege kwenda wapi?",
+          "authoredPath": "Translations/sw/dialogue-batch-087.json",
+          "authoredSha256": "95b6f2055b2f83cf288bef9d70f157b1bb259c81c76ad83dc518a39112a2cb79"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

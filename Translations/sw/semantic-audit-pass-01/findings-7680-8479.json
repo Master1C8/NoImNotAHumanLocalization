@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    7680,
+    8479
+  ],
+  "findingGroups": 11,
+  "affectedUnits": 12,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0086",
+      "objectiveReason": "The player's Как же ты меня заебал is an explicit obscene outburst in both branches; Umenichosha sana, jamani turns it into mild exasperation and weakens the confrontational register.",
+      "affected": [
+        {
+          "sourceIndex": 7711,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455324114951",
+          "key": "line:Provocateur_Asking_2_2_07646f2",
+          "source": "Как же ты меня заебал",
+          "currentTarget": "Umenichosha sana, jamani",
+          "proposedTarget": "Umenikera kupindukia, shenzi wewe",
+          "authoredPath": "Translations/sw/dialogue-batch-111.json",
+          "authoredSha256": "e221c6d511663db60afe1fc01577ba5e96edd4f8cd7e7bc0adaed450601b6452"
+        },
+        {
+          "sourceIndex": 7714,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455324114948",
+          "key": "line:Provocateur_Asking_2_1_008d4a6",
+          "source": "Как же ты меня заебал",
+          "currentTarget": "Umenichosha sana, jamani",
+          "proposedTarget": "Umenikera kupindukia, shenzi wewe",
+          "authoredPath": "Translations/sw/dialogue-batch-111.json",
+          "authoredSha256": "e221c6d511663db60afe1fc01577ba5e96edd4f8cd7e7bc0adaed450601b6452"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0087",
+      "objectiveReason": "звериный оскал describes a threatening bared-teeth snarl; tabasamu la kinyama describes a smile, reversing the Taxi Driver's visual threat cue.",
+      "affected": [
+        {
+          "sourceIndex": 7768,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455303143433",
+          "key": "line:TaxiDriver_Asking_4_05d169a",
+          "source": "TaxiDriver: Аккуратный пиджак, лысая голова и звериный оскал …",
+          "currentTarget": "TaxiDriver: Koti nadhifu, kichwa kipara na tabasamu la kinyama…",
+          "proposedTarget": "TaxiDriver: Koti nadhifu, kichwa kipara na meno aliyoyakenua kama mnyama…",
+          "authoredPath": "Translations/sw/dialogue-batch-111.json",
+          "authoredSha256": "e221c6d511663db60afe1fc01577ba5e96edd4f8cd7e7bc0adaed450601b6452"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0088",
+      "objectiveReason": "хлопаете его по плечу is a pat on the Foreigner's shoulder; unampapasa says to stroke or caress him, changing the player's gesture.",
+      "affected": [
+        {
+          "sourceIndex": 7913,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455244423174",
+          "key": "line:Foreigner_Asking_3_09d3761",
+          "source": "Foreigner: (Вы хлопаете его по плечу и показываете на раны у рта)",
+          "currentTarget": "Foreigner: (Unampapasa begani na kuonyesha majeraha karibu na mdomo wake.)",
+          "proposedTarget": "Foreigner: (Unampigapiga begani na kuonyesha majeraha karibu na mdomo wake.)",
+          "authoredPath": "Translations/sw/dialogue-batch-112.json",
+          "authoredSha256": "822391e9a985c1c7413f2ddb762bf5bbf8fc743cd864b620d7077b58f2857993"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0089",
+      "objectiveReason": "бессилен против ситуации с Гостями means the Doctor is powerless against the wider situation with Guests; sina uwezo wa kutibu hali says he cannot medically treat a condition, narrowing his claim.",
+      "affected": [
+        {
+          "sourceIndex": 7994,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063047",
+          "key": "line:Doctor_Asking_3_2_0a88d9a",
+          "source": "Doctor: Простите, если не оправдал ваших надежд. Боюсь, я бессилен против ситуации с Гостями.",
+          "currentTarget": "Doctor: Samahani ikiwa sikutimiza matarajio yako. Ninaogopa sina uwezo wa kutibu hali ya Wageni.",
+          "proposedTarget": "Doctor: Samahani ikiwa sikutimiza matarajio yako. Ninaogopa sina uwezo wa kukabiliana na hali inayohusu Wageni.",
+          "authoredPath": "Translations/sw/dialogue-batch-113.json",
+          "authoredSha256": "1aa26cf2e52052fc4b34fa036acc04b97a51ed8c2171cec08f63affdb7600b88"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0090",
+      "objectiveReason": "эпидемиологическую обстановку names epidemiological conditions; hali ya mlipuko wa ugonjwa asserts a disease outbreak, although the Doctor explicitly disputes a viral explanation in this scene.",
+      "affected": [
+        {
+          "sourceIndex": 8067,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897222",
+          "key": "line:Doctor_Asking_1_0150009",
+          "source": "Doctor: В конце концов появились КЧС. А они посчитали, что толпы людей нарушают эпидемиологическую обстановку…",
+          "currentTarget": "Doctor: Hatimaye KHD walitokea. Wakaamua kwamba umati wa watu unazidisha hali ya mlipuko wa ugonjwa…",
+          "proposedTarget": "Doctor: Hatimaye KHD walitokea. Wakaamua kwamba umati wa watu unaharibu hali ya afya ya umma…",
+          "authoredPath": "Translations/sw/dialogue-batch-114.json",
+          "authoredSha256": "b28e16195f07c143fb09fb08f770cefd592c9cecdc5c645d7561528ed795d49e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0091",
+      "objectiveReason": "Мне надо вас проверить is the player's choice to inspect this Doctor specifically; Nahitaji kufanya ukaguzi omits the person being inspected. The same error was found earlier at index 7107.",
+      "affected": [
+        {
+          "sourceIndex": 8072,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897217",
+          "key": "line:talk_doctor_1_07c05f9",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0092",
+      "objectiveReason": "Убрать ружьё is the choice to put the gun away; shusha bunduki merely lowers it and changes the described action before Wolfhound's armed response.",
+      "affected": [
+        {
+          "sourceIndex": 8083,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455185702913",
+          "key": "line:Wolfhound_Asking_3_9_0a1023b",
+          "source": "(Убрать ружьё)",
+          "currentTarget": "(shusha bunduki)",
+          "proposedTarget": "(Weka bunduki kando)",
+          "authoredPath": "Translations/sw/dialogue-batch-114.json",
+          "authoredSha256": "b28e16195f07c143fb09fb08f770cefd592c9cecdc5c645d7561528ed795d49e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0093",
+      "objectiveReason": "хищники means predators, in Wolfhound's animal-nature argument; wawindaji means hunters and allows ordinary human hunting instead of the predator identity he asserts.",
+      "affected": [
+        {
+          "sourceIndex": 8201,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455143759875",
+          "key": "line:Wolfhound_Asking_1_03eb0db",
+          "source": "Wolfhound: А мы не хищники по-твоему?",
+          "currentTarget": "Wolfhound: Na unafikiri sisi si wawindaji?",
+          "proposedTarget": "Wolfhound: Na kwa maoni yako sisi si wanyama wanaowinda wengine?",
+          "authoredPath": "Translations/sw/dialogue-batch-115.json",
+          "authoredSha256": "40be08f029711025e1472e93dd44567b2cceb99cdbc6e7a19ae3770d18f6000c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0094",
+      "objectiveReason": "Greatmother's ОТДАЙ ЕГО НАМ refers to the house identified in her next line; TUPE YEYE! uses an animate person referent and is ungrammatical for the object. Keep the house unnamed until her following reveal.",
+      "affected": [
+        {
+          "sourceIndex": 8207,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455139565577",
+          "key": "line:Greatmother_Asking_3_10_0cdbcf6",
+          "source": "ОТДАЙ ЕГО НАМ!",
+          "currentTarget": "TUPE YEYE!",
+          "proposedTarget": "TUKABIDHI HIYO!",
+          "authoredPath": "Translations/sw/dialogue-batch-115.json",
+          "authoredSha256": "40be08f029711025e1472e93dd44567b2cceb99cdbc6e7a19ae3770d18f6000c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0095",
+      "objectiveReason": "Почему со мной так? asks why this condition is happening to Cold; Kwa nini wananitendea hivi? invents plural agents who are treating him badly.",
+      "affected": [
+        {
+          "sourceIndex": 8371,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455085039623",
+          "key": "line:Cold_Asking_4_1_0ea65d2",
+          "source": "Cold: Почему со мной так?",
+          "currentTarget": "Cold: Kwa nini wananitendea hivi?",
+          "proposedTarget": "Cold: Kwa nini mambo yananitokea hivi?",
+          "authoredPath": "Translations/sw/dialogue-batch-117.json",
+          "authoredSha256": "fa3092fb5ffab97dcf0b6fb226787dd7831c19ecdd42f6f581a43800e8fc3acd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0096",
+      "objectiveReason": "сверхновые are supernovae; nyota kubwa means merely large stars, losing the specific cosmic phenomenon in Cold's metaphor.",
+      "affected": [
+        {
+          "sourceIndex": 8398,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455076651014",
+          "key": "line:Cold_Asking_2_09bd309",
+          "source": "Cold: Существуют галактики по своим правилам, взрываются сверхновые.",
+          "currentTarget": "Cold: Galaksi zinaishi kwa kanuni zao, nyota kubwa hulipuka.",
+          "proposedTarget": "Cold: Galaksi zipo kwa kanuni zao, supanova hulipuka.",
+          "authoredPath": "Translations/sw/dialogue-batch-117.json",
+          "authoredSha256": "fa3092fb5ffab97dcf0b6fb226787dd7831c19ecdd42f6f581a43800e8fc3acd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "preflight": {
+    "path": "Translations/sw/semantic-correction-cycle-02/assembled-consumer-preflight.jsonl",
+    "sha256": "e52a0d91d2db1309728c8b8748b614e2f99dd7e3d5683b77b3703e5291bc11a5"
+  },
+  "nodes": 79,
+  "slotsCompared": 549,
+  "actualFinalTargetsEqualPlannedAssembledTargets": true,
+  "dynamicSlots": [
+    {
+      "nodeName": "FortuneTeller_Asking_2",
+      "instructionIndex": 30,
+      "key": "line:FortuneTeller_Asking_2_01fd0c9",
+      "actualProducerInstructions": [
+        {
+          "index": 27,
+          "opcode": 6,
+          "operands": [
+            "Extrasens"
+          ]
+        },
+        {
+          "index": 28,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 29,
+          "opcode": 12,
+          "operands": [
+            "GetPhoneNumber"
+          ]
+        }
+      ],
+      "sourceAssembledSymbolically": "FortuneTeller: Я тебе запишу их номер: ⟦GetPhoneNumber(\"Extrasens\")⟧.",
+      "currentTargetAssembledSymbolically": "FortuneTeller: Nitakuandikia nambari yao: ⟦GetPhoneNumber(\"Extrasens\")⟧.",
+      "placeholderExact": "{0}",
+      "runtimeValue": "not executed; concrete number depends on live phone-number state, which is outside this owner-prohibited runtime review"
+    }
+  ],
+  "optionOperandEquality": true,
+  "nonDialogueCorrectedUnit": "UI consumable_kombucha_narrativeDescription full unit reread; unchanged managed binding/dependency component and prior independent surface evidence verified",
+  "dynamicBindingScope": "zero-substitution dialogue lines/options compared against compiled slots; one actual GetPhoneNumber stack producer and symbolic assembled source/current target compared; unchanged other UI/title/input/dynamic/static consumers reuse verified component and prior independent surface evidence",
+  "runtime": "not-run-per-owner"
+}

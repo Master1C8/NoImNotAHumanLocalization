@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "status": "corrections-required",
+  "finalProposalBatch": "consolidated-proposals-v2.json",
+  "finalProposalBatchSha256": "618f2dfd1c69e813ac72e07ce73e6551ca09c08d25491b62b580d10d9caf8cfe",
+  "objectiveProposalCount": 14,
+  "reviewRows": 2902,
+  "unchangedAuthoredFiles": 474,
+  "deterministicClosure": {
+    "outputs": 18,
+    "allByteIdentical": true
+  },
+  "preserveExactProposedTargets": {
+    "passed": 14,
+    "failed": 0
+  },
+  "mandatoryCatalog": {
+    "complete": false,
+    "riskCandidateIdsOutsideClosure": 196,
+    "gapEvidence": "catalog-risk-surface-gaps.json",
+    "qualification": "Candidate source risk surfaces, including childhood usages. Not all196 are newly affected semantic dependencies; author must classify and bind exact source IDs. No claim of exhaustive gender detection."
+  },
+  "dynamicConsumers": {
+    "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+    "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "sourceBindingsInspected": [
+      "GetCharacterOnPlace",
+      "IsCharacterPlaceEmpty",
+      "PeekDeficitItem",
+      "LocalizeItem",
+      "OnPeekedDeficitItem",
+      "GetDeficitItem",
+      "GetCharacterOnPlace predicates"
+    ],
+    "itemConsumer": "LocalizeItem builds consumable_<lowercase EConsumable>_name; FridgeItem labels are not consumer inputs. Source enum has11 values, only7 accepted consumable name rows. Source deficit configuration and actual state selection not established.",
+    "residentConsumer": "GetCharacterOnPlace parses caller character, finds configured place, then current resident on that place and uses characterName_<enum>.57 labels are a conservative superset; source config/state admissibility not established.",
+    "assemblies": "3497 exact reproduced compositional examples; each template and each candidate label read. No additional translation coverage.3FridgeItem labels make6 inadmissible bribe assemblies.",
+    "templatesCompiled": 7,
+    "templatesUncompiled": 1,
+    "uncompiledTemplate": "line:Twins_Entrance_Occupied_0880fa9",
+    "allClosureFormatSlotPairsRead": 111
+  },
+  "boundedAmbiguities": [
+    {
+      "key": "line:Theorist_Asking_2_04f4138",
+      "decision": "retain",
+      "reason": "Russian-origin explanation makes transliterated KCsSz and differently initialized Hungarian expansion intelligible; semantic theory and uncertainty retained. No objective preference change."
+    },
+    {
+      "key": "line:phone_fortuneteller_0a136ed",
+      "decision": "retain",
+      "reason": "The saved phone_extrasens instruction sequence provides no resolution of interrupted гр…;gr… preserves unidentified fragment without guessing a speaker or word."
+    },
+    {
+      "key": "line:Widow_Photo_06bb696 / line:Widow_Photo_09ce21a",
+      "decision": "no proposal; author should document contextual adjudication",
+      "reason": "Identical RU no-touch wording has leave-me-alone vs physical-no-touch targets. Both readings are contextually possible. The compiled active instruction references06bb696; changed09ce21a is not in saved compiled program. Do not claim correction of active runtime occurrence."
+    },
+    {
+      "key": "tmp:level5:59:m_text",
+      "decision": "retain exact credit MA3AII",
+      "reason": "All204 complete source/current target lines read; suspected glyph mismatch disproved by exact source comparison."
+    }
+  ],
+  "limits": [
+    "No game launch or package/runtime/layout/font checks.",
+    "Compiled order is not reachability proof.83closure dialogue IDs absent from inspected compiled occurrences.",
+    "Actual deficit configuration and current occupancy constraints not verified.",
+    "Mandatory semantic regression catalog needs source-based extension before editorial acceptance.",
+    "Proposal batch needs author adjudication; no authored targets applied.",
+    "Per-request model/reasoning/token telemetry not exposed; unknown, not zero."
+  ],
+  "telemetry": {
+    "agent": "/root/hu_independent_review_01",
+    "model": "inherited GPT-6 family; exact serving model unavailable",
+    "reasoning": null,
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "total": null,
+    "failedAttemptsIncludedInMeasurement": "not measurable; preserve writer/probe failures in evidence history"
+  }
+}

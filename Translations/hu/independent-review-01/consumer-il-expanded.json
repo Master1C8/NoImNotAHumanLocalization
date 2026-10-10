@@ -1,0 +1,121 @@
+{
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "OtherGameSOData",
+      "method": "get_DeficitConsumables",
+      "il": [
+        "1 ldarg.0 None",
+        "2 ldfld _deficitConsumables",
+        "7 ret None"
+      ]
+    },
+    {
+      "type": "ConsumablesController",
+      "method": "GetDeficitItem",
+      "il": [
+        "12 ldarg.0 None",
+        "13 ldfld _otherGameSoData",
+        "18 callvirt get_DeficitConsumables",
+        "23 ldarg.0 None",
+        "24 ldftn <GetDeficitItem>b__16_0",
+        "30 newobj .ctor",
+        "35 call 721420845",
+        "40 ldsfld <>9__16_1",
+        "45 dup None",
+        "46 brtrue.s 71",
+        "48 pop None",
+        "49 ldsfld <>9",
+        "54 ldftn <GetDeficitItem>b__16_1",
+        "60 newobj .ctor",
+        "65 dup None",
+        "66 stsfld <>9__16_1",
+        "71 call 721420846",
+        "76 call 721420847",
+        "81 ret None"
+      ]
+    },
+    {
+      "type": "ConsumablesController",
+      "method": "<GetDeficitItem>b__16_0",
+      "il": [
+        "1 ldarga.s argument(0x0001)",
+        "3 call get_Value",
+        "8 ldarg.0 None",
+        "9 ldfld _saveData",
+        "14 callvirt get_Storage",
+        "19 ldarga.s argument(0x0001)",
+        "21 call get_Key",
+        "26 callvirt get_Item",
+        "31 clt None",
+        "33 ldc.i4.0 None",
+        "34 ceq None",
+        "36 ret None"
+      ]
+    },
+    {
+      "type": "<>c",
+      "method": "<GetDeficitItem>b__16_1",
+      "il": [
+        "1 ldarga.s argument(0x0001)",
+        "3 call get_Key",
+        "8 ret None"
+      ]
+    },
+    {
+      "type": "DialogManager",
+      "method": "OnPeekedDeficitItem",
+      "il": [
+        "12 ldarg.0 None",
+        "13 ldfld _consumablesController",
+        "18 callvirt GetDeficitItem",
+        "23 stloc.0 None",
+        "24 ldloca.s local(0x0000)",
+        "26 constrained. EConsumable",
+        "32 callvirt ToString",
+        "37 ret None"
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__0",
+      "il": [
+        "1 ldarg.1 None",
+        "2 callvirt get_CharacterType",
+        "7 ldarg.0 None",
+        "8 ldfld character",
+        "13 ceq None",
+        "15 ret None"
+      ]
+    },
+    {
+      "type": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__1",
+      "il": [
+        "12 ldsfld _instance",
+        "17 ldfld _charactersManager",
+        "22 ldarg.1 None",
+        "23 callvirt GetPlace",
+        "28 ldarg.0 None",
+        "29 ldfld characterData",
+        "34 dup None",
+        "35 brtrue.s 49",
+        "37 pop None",
+        "38 ldloca.s local(0x0001)",
+        "40 initobj 452985239",
+        "46 ldloc.1 None",
+        "47 br.s 59",
+        "49 call get_Place",
+        "54 newobj .ctor",
+        "59 stloc.0 None",
+        "60 ldloca.s local(0x0000)",
+        "62 call GetValueOrDefault",
+        "67 ceq None",
+        "69 ldloca.s local(0x0000)",
+        "71 call get_HasValue",
+        "76 and None",
+        "77 ret None"
+      ]
+    }
+  ]
+}

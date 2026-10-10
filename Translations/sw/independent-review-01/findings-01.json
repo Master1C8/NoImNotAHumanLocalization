@@ -1,0 +1,75 @@
+{
+  "reviewer": "/root/sw_independent_review",
+  "completeAssignedPass": false,
+  "findings": [
+    {
+      "findingId": "sw-independent-0001",
+      "closureIndexZeroBased": 89,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572547771355136",
+      "sourceIndex": 89,
+      "source": "Это вообще мой любимый гриб. От него я чувствую себя хорошо, лучше работает память. Напоминает о хороших временах.",
+      "currentTarget": "Kwa kweli huu ndio uyoga ninaoupenda zaidi. Huninifanya nijisikie vizuri na kuboresha kumbukumbu yangu. Hunikumbusha nyakati nzuri.",
+      "proposedFullTarget": "Kwa kweli huu ndio uyoga ninaoupenda zaidi. Hunifanya nijisikie vizuri na huboresha kumbukumbu yangu. Hunikumbusha nyakati nzuri.",
+      "authoredPath": "Translations/sw/ui-batch-002.json",
+      "objectiveReason": "Huninifanya is not the intended Swahili causative verb form; the extra ni makes the sentence malformed. The coordinated memory clause also needs the same mushroom subject.",
+      "sourceSha256": "e496d6ebe8a31236407bd4573204e45ffdb6b0e97a1d84390a185ce4c6e5ed39",
+      "currentTargetSha256": "f762148f716041257721d916cad4b53a1059b3c0cbf1124e8971bd7f0181e42c",
+      "proposedTargetSha256": "396ca357c4f34f26545ea8810e432185b1d9fbc29704e6b758e5727061e4cf41",
+      "scope": "proposal only; authored inputs unchanged",
+      "adjudication": "pending-author/context-address-policy-review"
+    },
+    {
+      "findingId": "sw-independent-0002",
+      "closureIndexZeroBased": 4365,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452765589508",
+      "sourceIndex": 13657,
+      "source": "Widow: ВЫ ХОТИТЕ ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ?",
+      "currentTarget": "Widow: MNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+      "proposedFullTarget": "Widow: UNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+      "authoredPath": "Translations/sw/dialogue-batch-161.json",
+      "objectiveReason": "The speaker addresses the single player: the actual node begins with Тебе and continues with Делай/не трогай/уйди. Russian ВЫ is formal singular here. MNATAKA switches grammatical address to plural inside this single-addressee exchange.",
+      "sourceSha256": "64edb9386221cd6d5595cdd9b8a52159d323097ad028ebb234aeb10c160bea1c",
+      "currentTargetSha256": "86bc0cd000b9cec27fddd51cfc6afebc7e1e2988a694db37a5c335cdc28cbd10",
+      "proposedTargetSha256": "25c8232e697f003ba232f72ff0917e6cdf682c9a9bd58c81bf208aa1d23aff61",
+      "scope": "proposal only; authored inputs unchanged",
+      "adjudication": "pending-author/context-address-policy-review"
+    },
+    {
+      "findingId": "sw-independent-0002",
+      "closureIndexZeroBased": 4854,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451985448960",
+      "sourceIndex": 15704,
+      "source": "Widow: ВЫ ХОТИТЕ ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ?",
+      "currentTarget": "Widow: MNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+      "proposedFullTarget": "Widow: UNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+      "authoredPath": "Translations/sw/dialogue-batch-176.json",
+      "objectiveReason": "Exact repetition of the Widow single-player photograph accusation; preserve the same single-addressee correction. This supplemental row has no node metadata and must retain its separate binding/reachability status.",
+      "sourceSha256": "64edb9386221cd6d5595cdd9b8a52159d323097ad028ebb234aeb10c160bea1c",
+      "currentTargetSha256": "86bc0cd000b9cec27fddd51cfc6afebc7e1e2988a694db37a5c335cdc28cbd10",
+      "proposedTargetSha256": "25c8232e697f003ba232f72ff0917e6cdf682c9a9bd58c81bf208aa1d23aff61",
+      "scope": "proposal only; authored inputs unchanged",
+      "adjudication": "pending-author/context-address-policy-review"
+    },
+    {
+      "findingId": "sw-independent-0003",
+      "closureIndexZeroBased": 2933,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454963404809",
+      "sourceIndex": 8728,
+      "source": "Couple: Да она заебала, понимаете?",
+      "currentTarget": "Couple: Amenikera vibaya mno, shenzi huyo, mnaelewa?",
+      "proposedFullTarget": "Couple: Amenikera vibaya mno, shenzi huyo, unaelewa?",
+      "authoredPath": "Translations/sw/dialogue-batch-120.json",
+      "objectiveReason": "The husband discusses his wife in the third person with the single player; he separately turns to the wife using Слышишь/Собирай. mnaelewa is plural player address. Use ordinary singular Swahili agreement while preserving the full abusive statement.",
+      "sourceSha256": "4b98b8a87af5be2d4f9c9c2e333f1f7b376e48b81a3e5dcde914cbcf892b0e77",
+      "currentTargetSha256": "154d7c3ea083b5c8c4e37eb97e399b4e12c10276af16ac36da8e34085feb9649",
+      "proposedTargetSha256": "cdab4d23394b7596934927b1bb569793412ff059e1038f3b4c46144d51568092",
+      "scope": "proposal only; authored inputs unchanged",
+      "adjudication": "pending-author/context-address-policy-review"
+    }
+  ],
+  "addressGrammarReferences": [
+    "https://kiswahili.ku.edu/sites/kiswahili/files/documents/lessons/lesson_04.pdf",
+    "https://africa.uga.edu/Kiswahili/doe/unit_01/unit1grammar.html"
+  ],
+  "addressCaveat": "Respectful plural usage exists in some settings; the current approved layer does not define it as the selected single-person strategy. Adjudicate these proposals against the bound scene and locale policy; do not apply as a blind global replacement."
+}

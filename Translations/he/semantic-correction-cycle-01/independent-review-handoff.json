@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "locale": "he",
+  "gameVersion": "1.3.19",
+  "status": "ready for independent dependency-aware language review; no independent verdict",
+  "sourceLocale": "ru",
+  "acceptedUnits": 16538,
+  "firstSemanticPass": {
+    "reviewedUnits": 16538,
+    "baselinePath": "Translations/he/semantic-correction-cycle-01/baseline-semantic-review-progress.json",
+    "baselineSha256": "8080f46aa6a23fa13dd2564132720bc1c0835a71988db8b02325450f4bd60916"
+  },
+  "sourceInventory": {
+    "path": "Source/localization-inventory-v3/strings.jsonl",
+    "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+  },
+  "staticSource": {
+    "path": "Source/localization-inventory-v3/static-text.jsonl",
+    "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+  },
+  "approvedGlossary": {
+    "path": "Documentation/glossary-translations/he/layer.json",
+    "sha256": "2842f9f75fc312fee81aa15c8753ac8c3926064b6cd79cbf6b1035786d6de886"
+  },
+  "preserveExactManifest": {
+    "path": "Source/preserve-exactly-v4.json",
+    "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+  },
+  "adjudications": {
+    "path": "Translations/he/semantic-correction-cycle-01/adjudications.json",
+    "sha256": "9f31c1c35de2206b2483a1b1998224d9bf93ce287a0ddf85bdd1fb911744c712",
+    "accepted": 120
+  },
+  "preflight": {
+    "path": "Translations/he/semantic-correction-cycle-01/preflight.json",
+    "sha256": "868f42119fd891502a35bff33f3bfa8d5297d037bccebc034dfc8dac96446da1"
+  },
+  "consumerPreflight": {
+    "path": "Translations/he/semantic-correction-cycle-01/consumer-preflight.json",
+    "sha256": "48034684fbebe684210fd217adbef079acd7fc633edf1916f1fb88dd2616b62c"
+  },
+  "application": {
+    "path": "Translations/he/semantic-correction-cycle-01/application.json",
+    "sha256": "73b6321a126d7c21cfb96549bfe7aa056c87b7c63636147673556de7ca7cdd45"
+  },
+  "postValidation": {
+    "path": "Translations/he/semantic-correction-cycle-01/post-validation-summary.json",
+    "sha256": "74622d0ee8ce3bd18ae5c852b8244f61d55633e1d6a0aa9618a48e1bc7f56c3d"
+  },
+  "fullStructuralDiff": {
+    "path": "Translations/he/semantic-correction-cycle-01/full-structural-diff.json",
+    "sha256": "9c7e607e320f42c4a9c9d2a50ab63a9c4b5f7702396172fcfe08d72324987f93"
+  },
+  "closureManifest": {
+    "path": "Translations/he/semantic-correction-cycle-01/closure-manifest.json",
+    "sha256": "63e4016d92013069a95c3b44aed707e23a568190d7e1dc6849cba2cb8a1cce7c",
+    "changedCount": 120,
+    "closureCount": 2111,
+    "firstReviewId": "string:0cbd8a7a4f543344bb95659de87f67a5:16302985216"
+  },
+  "reviewInstruction": "A distinct language reviewer should compare every current review-rows.jsonl closure row against its pinned source, approved glossary and node/consumer context, plus the mandatory-regressions component. Check accepted corrections, newly selected dependencies and stable branch outputs. Record an independent verdict on unchanged hashes; if corrections follow, use the universal delta rule. Do not credit the structural preflight as language review.",
+  "imageTextPlans": "excluded by owner text-only scope; no translated image or texture plan edited",
+  "runtime": "not-run per owner instruction",
+  "visual": "not-run",
+  "editorialAcceptance": "pending independent review and final gate"
+}

@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-01",
+  "sourceAuditProgressSha256": "ec390d6578865673a5c9ea0e5600456716d776ed93fa195f6bd49a604e8708e7",
+  "findingRange": [
+    1,
+    25
+  ],
+  "adjudicatedGroups": 25,
+  "acceptedGroups": 25,
+  "dismissedGroups": 0,
+  "affectedUnits": 36,
+  "adjudications": [
+    {
+      "findingId": "sw-sem-0001",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0000-0326.json",
+      "findingEvidenceSha256": "4eeed6c5ef3f8d317aee6707e80fde04bfcd096d384d99f1de3a7cf8570d5257",
+      "findingObjectiveReason": "Russian \"был бы тот, кто ... смог\" is hypothetical, while \"yupo ambaye\" asserts a currently existing figure. Russian \"выходит на поклон\" includes coming out to bow; the target keeps only the bow.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 56,
+          "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+          "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+          "oldTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nLeo wameujenga mji,\nUyoga umeota kutoka ardhini kwenye chumba cha chini.\nUlikuwa mkubwa, lakini yupo ambaye\nAngeweza kuumeza.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nKuwapokea wageni ni kazi ya wanyonge.\nUyoga uko juu yetu, binadamu wasioalikwa.\nNi mti wa tufaha pekee utakaowapa wote hifadhi\nNa kuwalisha kwa matunda matamu.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nItakuja siku\nAtakapoinama mbele ya uyoga,\nNa kishale kitaelekea juu.\nHarakisha, rafiki yangu!",
+          "selectedFullTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nLeo wameujenga mji,\nUyoga umeota kutoka ardhini kwenye chumba cha chini.\nUlikuwa mkubwa, lakini angekuwapo mmoja\nAmbaye angeweza kuumeza.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nKuwapokea wageni ni kazi ya wanyonge.\nUyoga uko juu yetu, binadamu wasioalikwa.\nNi mti wa tufaha pekee utakaowapa wote hifadhi\nNa kuwalisha kwa matunda matamu.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nItakuja siku\nAtakapotoka na kuinama mbele ya uyoga,\nNa kishale kitaelekea juu.\nHarakisha, rafiki yangu!",
+          "authoredPath": "Translations/sw/ui-batch-002.json",
+          "authoredSha256": null
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0002",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "The Russian он refers to the inherited house in this branch; Swahili angeungua makes the father the subject.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 334,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389120",
+          "source": "Лучше бы он сгорел",
+          "oldTarget": "Afadhali angeungua moto",
+          "selectedFullTarget": "Afadhali ingeungua moto",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0003",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "нравимся друг другу expresses mutual liking/attraction; tulipendana states a stronger mutual love.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 361,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806215",
+          "source": "Phone: И потом поняла, что мы нравимся друг другу.",
+          "oldTarget": "Phone: Kisha niligundua kwamba tulipendana.",
+          "selectedFullTarget": "Phone: Kisha niligundua kwamba tulikuwa tukivutiana.",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0004",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "Тоскую leaves its object open until the following clause; Ninawakosa names the people before that qualification.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 367,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806209",
+          "source": "Phone: Тоскую. Но скорее не по родному городу, а по людям, которые там остались…",
+          "oldTarget": "Phone: Ninawakosa. Lakini labda si mji wangu wa nyumbani, bali watu waliobaki huko…",
+          "selectedFullTarget": "Phone: Nina hamu... Lakini labda si kwa mji wangu wa nyumbani, bali kwa watu waliobaki huko…",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0005",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "могут governs both not disappearing and replacing friends; Watachukua states the replacement as certain future.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 389,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417603",
+          "source": "Phone: Ведь Гости могут никуда не пропасть. Заменить наших друзей и близких, а мы даже не узнаем об этом…",
+          "oldTarget": "Phone: Huenda Wageni hawatatoweka. Watachukua nafasi ya marafiki na wapendwa wetu, nasi hata hatutajua…",
+          "selectedFullTarget": "Phone: Wageni huenda wasitoweke. Wanaweza kuchukua nafasi ya marafiki na wapendwa wetu, nasi hata tusijue…",
+          "authoredPath": "Translations/sw/dialogue-batch-003.json",
+          "authoredSha256": "6c767fa89be04ed1fb400aa7ceb382a430bb41d5656049300bed6c7fb2e4e074"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0006",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "Вы не против asks whether the listener minds; Unaweza asks about ability.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 409,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457891029001",
+          "source": "Phone: Вы не против послушать меня?",
+          "oldTarget": "Phone: Unaweza kunisikiliza?",
+          "selectedFullTarget": "Phone: Je, hutajali kunisikiliza?",
+          "authoredPath": "Translations/sw/dialogue-batch-005.json",
+          "authoredSha256": "cd08479671f2ab3d6746f7968add5e871b1a70e7fb67fd18cab65c445feabd95"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0007",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "Больше не смотрю is a current habit; Sitaangalia tena changes it to a future refusal.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 488,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457865863171",
+          "source": "Нет, туда я не смотрю. Больше не смотрю.",
+          "oldTarget": "Hapana, siangalii huko. Sitaangalia tena.",
+          "selectedFullTarget": "Hapana, siangalii huko. Siangalii huko tena.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0008",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "на энтузиазме says the staff carry on through enthusiasm; kwa kujitolea can assert unpaid volunteer work.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 508,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474568",
+          "source": "Phone: Бюджеты срезали настолько, что мы почти на энтузиазме работаем.",
+          "oldTarget": "Phone: Bajeti zimepunguzwa sana kiasi kwamba karibu tunafanya kazi kwa kujitolea.",
+          "selectedFullTarget": "Phone: Bajeti zimepunguzwa sana kiasi kwamba karibu tunafanya kazi kwa ari pekee.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0009",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "языка has no possessive; lugha yao adds one and may refer to the foreigner’s own language.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 516,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457857474560",
+          "source": "Он языка даже не знает",
+          "oldTarget": "Hata lugha yao haijui",
+          "selectedFullTarget": "Hata lugha yenyewe haijui",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        },
+        {
+          "sourceIndex": 520,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457853280264",
+          "source": "Он языка даже не знает",
+          "oldTarget": "Hata lugha yao haijui",
+          "selectedFullTarget": "Hata lugha yenyewe haijui",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0010",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "The crew cannot endure staying aboard on the water; kukaa majini puts them in the water.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 530,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085962",
+          "source": "Phone: Плюс, вода отражает солнце на корабли, экипаж не выдерживает долгое пребывание на воде.",
+          "oldTarget": "Phone: Isitoshe, maji hurudisha mwanga wa jua kwenye meli, na wafanyakazi hawawezi kukaa majini kwa muda mrefu.",
+          "selectedFullTarget": "Phone: Isitoshe, maji hurudisha mwanga wa jua kwenye meli, na wafanyakazi wa meli hawawezi kustahimili kukaa baharini kwa muda mrefu.",
+          "authoredPath": "Translations/sw/dialogue-batch-006.json",
+          "authoredSha256": "78d11da0d20e6a0d150a5d4b10e466985ecd89877f6776140324009c1fbc2212"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0011",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "The Russian зву… cuts off mid-word; the target completes sauti before the ellipsis.",
+      "decision": "accept-revised",
+      "adjudicationReason": "The source cuts off зву at the end of the line. The audited proposal moved the fragment before a completed verb; keeping sau at the end preserves the interruption and source order.",
+      "affected": [
+        {
+          "sourceIndex": 543,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891656",
+          "source": "Phone: Хоть и манят её зву…,",
+          "oldTarget": "Phone: Ingawa sauti zinamvutia…",
+          "selectedFullTarget": "Phone: Ingawa anavutiwa na sau…,",
+          "authoredPath": "Translations/sw/dialogue-batch-007.json",
+          "authoredSha256": "b26e78d5a71879a8561590bb23ff52bee010c8e2dd604c5e4b2ea82d208bfc0b"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0012",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "отдавать скоро будет некому means no giver will remain; wa kumpa chochote adds the wife as recipient.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 596,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457828114436",
+          "source": "Phone: Да и отдавать скоро будет некому.",
+          "oldTarget": "Phone: Na hivi karibuni hakutakuwa na mtu wa kumpa chochote.",
+          "selectedFullTarget": "Phone: Na hivi karibuni hakutakuwa na mtu wa kutoa chochote.",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0013",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "брат/брата gives a male sibling with no relative age; kaka specifies an older brother. The approved glossary uses ndugu wa kiume.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 605,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457823920135",
+          "source": "Phone: Я готова приютить брата. Передайте ему это. Он знает мой адрес.",
+          "oldTarget": "Phone: Niko tayari kumpa kaka yangu hifadhi. Tafadhali mwambie hilo. Anaijua anwani yangu.",
+          "selectedFullTarget": "Phone: Niko tayari kumpa ndugu yangu wa kiume hifadhi. Tafadhali mwambie hilo. Anaijua anwani yangu.",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 626,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531531",
+          "source": "Phone: А, вы про кровного брата, верно?",
+          "oldTarget": "Phone: Ah, unamzungumzia kaka yangu wa damu, sivyo?",
+          "selectedFullTarget": "Phone: Ah, unamzungumzia ndugu yangu wa kiume wa damu, sivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 628,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531529",
+          "source": "Phone: Какой брат? У меня нет…",
+          "oldTarget": "Phone: Kaka gani? Sina...",
+          "selectedFullTarget": "Phone: Ndugu gani wa kiume? Sina...",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 629,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531528",
+          "source": "Вы можете помочь вашему брату?",
+          "oldTarget": "Unaweza kumsaidia kaka yako?",
+          "selectedFullTarget": "Unaweza kumsaidia ndugu yako wa kiume?",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        },
+        {
+          "sourceIndex": 630,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457815531527",
+          "source": "Здравствуйте. Ваш брат дал мне номер",
+          "oldTarget": "Habari. Kaka yako alinipa namba hii",
+          "selectedFullTarget": "Habari. Ndugu yako wa kiume alinipa namba hii",
+          "authoredPath": "Translations/sw/dialogue-batch-008.json",
+          "authoredSha256": "b8a7da41326f0fa36abfa6a1da0b32e0ba4eb244703f029c0eed0eff74dccf56"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0014",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0327-0799.json",
+      "findingEvidenceSha256": "ea651969709a41694eea4c9bb81e2ec441c36ae79a9022417b9512775f4695c7",
+      "findingObjectiveReason": "Персональный что? withholds the computer concept as a joke; Kompyuta gani? supplies it too early.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 775,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199878",
+          "source": "Персональный что?",
+          "oldTarget": "Kompyuta gani?",
+          "selectedFullTarget": "Binafsi nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        },
+        {
+          "sourceIndex": 780,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457765199873",
+          "source": "Персональный что?",
+          "oldTarget": "Kompyuta gani?",
+          "selectedFullTarget": "Binafsi nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0015",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "кофесодержащих means coffee-containing; vyenye kafeini broadens the abstention to all caffeinated drinks.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 804,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811266",
+          "source": "Phone: Для корректных результатов просим вас воздержаться от питья кофесодержащих напитков.",
+          "oldTarget": "Phone: Ili kupata matokeo sahihi, tafadhali epuka vinywaji vyenye kafeini.",
+          "selectedFullTarget": "Phone: Ili kupata matokeo sahihi, tafadhali epuka vinywaji vyenye kahawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0016",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "Подростков specifies adolescents; vijana wadogo only says young people.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 885,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+          "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+          "oldTarget": "Phone: Umeona kilichotokea nje? Vijana wadogo wameuawa…",
+          "selectedFullTarget": "Phone: Umeona kilichotokea nje? Vijana balehe wameuawa…",
+          "authoredPath": "Translations/sw/dialogue-batch-011.json",
+          "authoredSha256": "dd8fcc32942cb164ceb883ba3bf2904882cfdc306dbd36f699d312cee1c3aa70"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0017",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "ОТС…ДА means from here; the target HAPA makes the command run here, reversing the escape direction.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 918,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868235",
+          "source": "БЕГ…ТЕ ОТС…ДА КАК М…ЖНО СК…РЕЕ………",
+          "oldTarget": "KIMBI...ENI HAPA HARAKA IWE...ZEKANAVYO………",
+          "selectedFullTarget": "KIMBI...ENI KUT...OKA HAPA HARAKA IWE...ZEKANAVYO………",
+          "authoredPath": "Translations/sw/dialogue-batch-012.json",
+          "authoredSha256": "1782a4b0d83382061a3a78fbb00c1c04c364b01134d8a5a73b3dd0ce7d7a58aa"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0018",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "отшельника identifies a recluse; mtu anayeishi peke yake says only that the person lives alone.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 927,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868226",
+          "source": "Это недалеко от дома отшельника.",
+          "oldTarget": "Hapo si mbali na nyumba ya mtu anayeishi peke yake.",
+          "selectedFullTarget": "Hapo si mbali na nyumba ya mtu aliyejitenga na jamii.",
+          "authoredPath": "Translations/sw/dialogue-batch-012.json",
+          "authoredSha256": "1782a4b0d83382061a3a78fbb00c1c04c364b01134d8a5a73b3dd0ce7d7a58aa"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0019",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "Очень навряд ли is very unlikely; Haiwezekani kabisa says completely impossible.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 978,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896713",
+          "source": "Window: Но хватит ли пары человек для отстрела озверевших от голода животных? Очень навряд ли.",
+          "oldTarget": "Window: Lakini watu wawili tu watatosha kuwapiga risasi wanyama waliogeuka wakali kwa njaa? Haiwezekani kabisa.",
+          "selectedFullTarget": "Window: Lakini watu wawili tu watatosha kuwapiga risasi wanyama waliogeuka wakali kwa njaa? Kuna uwezekano mdogo sana.",
+          "authoredPath": "Translations/sw/dialogue-batch-014.json",
+          "authoredSha256": "4b82a2a96745cf1bf76cd7cf4bcd65cdbe1f21d7b600367063741c916fdecef3"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0020",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "Оставайтесь addresses the TV audience in plural; Endelea is singular while adjacent broadcast imperatives are plural.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1094,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457656147968",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "oldTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "selectedFullTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        },
+        {
+          "sourceIndex": 1111,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457647759366",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "oldTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "selectedFullTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        },
+        {
+          "sourceIndex": 1133,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370754",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "oldTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "selectedFullTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        },
+        {
+          "sourceIndex": 1156,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457630982144",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "oldTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "selectedFullTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0021",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "может произойти preserves the possibility of a flood; na kusababisha presents the flood as the direct outcome.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1096,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457651953674",
+          "source": "TV: Если аномальная жара в ближайшее время не спадёт, ледники могут окончательно растаять, вследствие чего может произойти потоп.",
+          "oldTarget": "TV: Joto lisilo la kawaida lisipopungua hivi karibuni, barafu inaweza kuyeyuka kabisa na kusababisha mafuriko makubwa.",
+          "selectedFullTarget": "TV: Joto lisilo la kawaida lisipopungua hivi karibuni, barafu inaweza kuyeyuka kabisa, na huenda mafuriko makubwa yakatokea.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0022",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "как и нашествие Гостей predicts that both crises will be handled; kama ilivyotatua asserts the Visitor invasion was already resolved.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1123,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565062",
+          "source": "TV: Однако нет сомнений, что КЧС урегулирует эту ситуацию, как и нашествие Гостей.",
+          "oldTarget": "TV: Hata hivyo, hakuna shaka kwamba Kamati ya Hali za Dharura itatatua hali hii, kama ilivyotatua uvamizi wa Wageni.",
+          "selectedFullTarget": "TV: Hata hivyo, hakuna shaka kwamba Kamati ya Hali za Dharura itatatua hali hii pamoja na uvamizi wa Wageni.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0023",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-0800-1279.json",
+      "findingEvidenceSha256": "1c7661c9cac15219a4309538bee48b1b3edbb095e7d0b41ea21aba44056a0621",
+      "findingObjectiveReason": "два брата identifies two male siblings; ndugu wawili leaves their sibling sex unspecified.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1192,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399234",
+          "source": "TV: И когда два брата выросли, вместе они основали пивоварню Бобер.",
+          "oldTarget": "TV: Ndugu hao wawili walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "selectedFullTarget": "TV: Ndugu hao wawili wa kiume walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        },
+        {
+          "sourceIndex": 1194,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399232",
+          "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+          "oldTarget": "TV: Zamani za kale, ndugu wawili waliishi karibu na bwawa.",
+          "selectedFullTarget": "TV: Zamani za kale, ndugu wawili wa kiume waliishi karibu na bwawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0024",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-1280-2079.json",
+      "findingEvidenceSha256": "458b9eab85ecebca7ec3e7f8b54c2b1de959b594078fb1afe9d89a4003ae422b",
+      "findingObjectiveReason": "два брата specifies two male siblings; ndugu wawili leaves their sex unspecified, as in the earlier TV repetition.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1296,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456200",
+          "source": "TV: И когда два брата выросли, вместе основали пивоварню Бобер.",
+          "oldTarget": "TV: Ndugu hao wawili walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "selectedFullTarget": "TV: Ndugu hao wawili wa kiume walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        },
+        {
+          "sourceIndex": 1298,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456198",
+          "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+          "oldTarget": "TV: Zamani za kale, ndugu wawili waliishi karibu na bwawa.",
+          "selectedFullTarget": "TV: Zamani za kale, ndugu wawili wa kiume waliishi karibu na bwawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0025",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-1280-2079.json",
+      "findingEvidenceSha256": "458b9eab85ecebca7ec3e7f8b54c2b1de959b594078fb1afe9d89a4003ae422b",
+      "findingObjectiveReason": "доктор наук is an explicit doctoral academic title; mwenye shahada ya juu ya sayansi gives only an unspecified higher degree.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 1302,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456194",
+          "source": "Сегодня мы расскажем всю правду про Гостей. А в гостях у нас уважаемый сотрудник НИИ, доктор наук…",
+          "oldTarget": "Leo tutawaeleza ukweli wote kuhusu Wageni. Mgeni wetu ni mfanyakazi anayeheshimiwa wa taasisi ya utafiti, mwenye shahada ya juu ya sayansi…",
+          "selectedFullTarget": "Leo tutawaeleza ukweli wote kuhusu Wageni. Mgeni wetu ni mfanyakazi anayeheshimiwa wa taasisi ya utafiti, mwenye shahada ya uzamivu katika sayansi…",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ]
+    }
+  ]
+}

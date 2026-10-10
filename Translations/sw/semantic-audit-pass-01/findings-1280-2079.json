@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    1280,
+    2079
+  ],
+  "findingGroups": 12,
+  "affectedUnits": 15,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0024",
+      "objectiveReason": "два брата specifies two male siblings; ndugu wawili leaves their sex unspecified, as in the earlier TV repetition.",
+      "affected": [
+        {
+          "sourceIndex": 1296,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456200",
+          "key": "line:tv_1_necessary_0d31c45",
+          "source": "TV: И когда два брата выросли, вместе основали пивоварню Бобер.",
+          "currentTarget": "TV: Ndugu hao wawili walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "proposedTarget": "TV: Ndugu hao wawili wa kiume walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        },
+        {
+          "sourceIndex": 1298,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456198",
+          "key": "line:tv_1_necessary_09730ee",
+          "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+          "currentTarget": "TV: Zamani za kale, ndugu wawili waliishi karibu na bwawa.",
+          "proposedTarget": "TV: Zamani za kale, ndugu wawili wa kiume waliishi karibu na bwawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0025",
+      "objectiveReason": "доктор наук is an explicit doctoral academic title; mwenye shahada ya juu ya sayansi gives only an unspecified higher degree.",
+      "affected": [
+        {
+          "sourceIndex": 1302,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456194",
+          "key": "line:radio_4_07ccc41",
+          "source": "Сегодня мы расскажем всю правду про Гостей. А в гостях у нас уважаемый сотрудник НИИ, доктор наук…",
+          "currentTarget": "Leo tutawaeleza ukweli wote kuhusu Wageni. Mgeni wetu ni mfanyakazi anayeheshimiwa wa taasisi ya utafiti, mwenye shahada ya juu ya sayansi…",
+          "proposedTarget": "Leo tutawaeleza ukweli wote kuhusu Wageni. Mgeni wetu ni mfanyakazi anayeheshimiwa wa taasisi ya utafiti, mwenye shahada ya uzamivu katika sayansi…",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0026",
+      "objectiveReason": "этой гнили is physical rot/decay imagery in the occult ad; uovu huo changes it to moral evil.",
+      "affected": [
+        {
+          "sourceIndex": 1305,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261899",
+          "key": "line:radio_3_0b0b505",
+          "source": "Не позвольте этой гнили завладеть вашим телом! Срочно звоните нашим экспертам: 777-460.",
+          "currentTarget": "Usiache uovu huo uchukue mwili wako! Wapigie wataalamu wetu simu mara moja: 777-460.",
+          "proposedTarget": "Usiache uozo huo uchukue mwili wako! Wapigie wataalamu wetu simu mara moja: 777-460.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0027",
+      "objectiveReason": "беспомощности is the observer's helplessness; kushindwa kusaidia instead means failing to help someone.",
+      "affected": [
+        {
+          "sourceIndex": 1323,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457568067588",
+          "key": "line:window_4_1_02cd506",
+          "source": "Window: Вашу голову переполнили тревожные мысли и вас охватило чувство непонимания и беспомощности.",
+          "currentTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kushindwa kusaidia.",
+          "proposedTarget": "Window: Kichwa chako kimejaa mawazo ya wasiwasi, na unakumbwa na hisia za kuchanganyikiwa na kutokuwa na uwezo wa kufanya lolote.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0028",
+      "objectiveReason": "подростков specifies adolescents; vijana wadogo only specifies young people. The same term appears in the earlier neighbour call.",
+      "affected": [
+        {
+          "sourceIndex": 1337,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873281",
+          "key": "line:window_3_2_0593a50",
+          "source": "Window: На земле лежат сгоревшие дотла тела подростков.",
+          "currentTarget": "Window: Miili ya vijana wadogo iliyoteketea kabisa imelala ardhini.",
+          "proposedTarget": "Window: Miili ya vijana balehe iliyoteketea kabisa imelala ardhini.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        },
+        {
+          "sourceIndex": 1349,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678976",
+          "key": "line:window_2_2_00489eb",
+          "source": "Window: На земле лежат тела подростков.",
+          "currentTarget": "Window: Miili ya vijana wadogo imelala ardhini.",
+          "proposedTarget": "Window: Miili ya vijana balehe imelala ardhini.",
+          "authoredPath": "Translations/sw/dialogue-batch-018.json",
+          "authoredSha256": "b2e4e535dc96d853153db3ae8519789bcaa9555bd6997722ef4f53d7eb056531"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0029",
+      "objectiveReason": "сопровождениям в карантинные зоны means escorting people to quarantine; watu wanapoandamana suggests the people march together.",
+      "affected": [
+        {
+          "sourceIndex": 1378,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457547096070",
+          "key": "line:tv_4_necessary_0787bf1",
+          "source": "TV: Комитет просит граждан отнестись с пониманием к проверкам и сопровождениям в карантинные зоны.",
+          "currentTarget": "TV: Kamati inawaomba raia waelewe ukaguzi na watu wanapoandamana kupelekwa katika maeneo ya karantini.",
+          "proposedTarget": "TV: Kamati inawaomba raia waelewe ukaguzi na kusindikizwa kwenda kwenye maeneo ya karantini.",
+          "authoredPath": "Translations/sw/dialogue-batch-019.json",
+          "authoredSha256": "bb799da7abde07f2e77c8a5cd8fc1a93994ca0800867e5bbd01231b64198ec9c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0030",
+      "objectiveReason": "мудакам is an insult for contemptible people; wakorofi instead identifies troublemakers and weakens this speaker's explicit invective.",
+      "affected": [
+        {
+          "sourceIndex": 1477,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153033",
+          "key": "line:Alt_Entrance_Occupied_NoLet_0c4a160",
+          "source": "Alt: Жаль, что мудакам везёт.",
+          "currentTarget": "Alt: Inasikitisha kwamba wakorofi huwa na bahati.",
+          "proposedTarget": "Alt: Inasikitisha kwamba mashenzi huwa na bahati.",
+          "authoredPath": "Translations/sw/dialogue-batch-020.json",
+          "authoredSha256": "48a508ba98e3643b722bf9d55adccbe7bf354a93fd1aaa29792de90bcf86532d"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0031",
+      "objectiveReason": "паранойи specifies pervasive suspicion; wasiwasi wa kupita kiasi describes excessive worry instead.",
+      "affected": [
+        {
+          "sourceIndex": 1598,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015683",
+          "key": "line:Alt_Entrance_3_0c2c8dd",
+          "source": "Alt: И чем дальше, тем страшнее. Дышать нечем. Уровень преступности выше. Уровень паранойи в многоэтажках растёт.",
+          "currentTarget": "Alt: Kadiri muda unavyopita, ndivyo hofu inavyoongezeka. Hewa haitoshi. Uhalifu unaongezeka. Watu wa majengo ya ghorofa wanazidi kuwa na wasiwasi wa kupita kiasi.",
+          "proposedTarget": "Alt: Kadiri muda unavyopita, ndivyo hofu inavyoongezeka. Hewa haitoshi. Uhalifu unaongezeka. Kiwango cha mashaka ya kupita kiasi katika majengo ya ghorofa kinaongezeka.",
+          "authoredPath": "Translations/sw/dialogue-batch-021.json",
+          "authoredSha256": "eb912a6a1aa8b94d20e66599cdc2709284adba5fb37cdef1d655fa970cfdec79"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0032",
+      "objectiveReason": "бегу от чего-то means fleeing from something; ninakimbia kitu fulani can mean running something and omits the escape relation.",
+      "affected": [
+        {
+          "sourceIndex": 1601,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457459015680",
+          "key": "line:Alt_Entrance_3_0ac0446",
+          "source": "Alt: С чего вы взяли, что я бегу от чего-то?",
+          "currentTarget": "Alt: Kwa nini unadhani ninakimbia kitu fulani?",
+          "proposedTarget": "Alt: Kwa nini unadhani ninatoroka kitu fulani?",
+          "authoredPath": "Translations/sw/dialogue-batch-021.json",
+          "authoredSha256": "eb912a6a1aa8b94d20e66599cdc2709284adba5fb37cdef1d655fa970cfdec79"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0033",
+      "objectiveReason": "спасёнными деньжищами refers to money saved from the mortgage; pesa ulizojiokoa nazo makes the money the instrument with which the addressee saved himself.",
+      "affected": [
+        {
+          "sourceIndex": 1636,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238473",
+          "key": "line:FunnyGuy_Entrance_2_0777e95",
+          "source": "И что будешь делать со спасёнными деньжищами?",
+          "currentTarget": "Utafanya nini na pesa zote ulizojiokoa nazo?",
+          "proposedTarget": "Utafanya nini na pesa nyingi ulizookoa?",
+          "authoredPath": "Translations/sw/dialogue-batch-022.json",
+          "authoredSha256": "00e360b84623e1dd27c1149a406f6c7df815370ed8e18152de9dd8c520c3947e"
+        },
+        {
+          "sourceIndex": 1644,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457442238465",
+          "key": "line:FunnyGuy_Entrance_1_05c703b",
+          "source": "И что будешь делать со спасёнными деньжищами?",
+          "currentTarget": "Utafanya nini na pesa zote ulizojiokoa nazo?",
+          "proposedTarget": "Utafanya nini na pesa nyingi ulizookoa?",
+          "authoredPath": "Translations/sw/dialogue-batch-022.json",
+          "authoredSha256": "00e360b84623e1dd27c1149a406f6c7df815370ed8e18152de9dd8c520c3947e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0034",
+      "objectiveReason": "редиска is a mild underworld insult; mjanja wewe can praise cleverness, reversing the speaker's attitude.",
+      "affected": [
+        {
+          "sourceIndex": 1860,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740992",
+          "key": "line:Experienced_Entrance_NoLet_03a0333",
+          "source": "Experienced: Адью, редиска.",
+          "currentTarget": "Experienced: Adios, mjanja wewe.",
+          "proposedTarget": "Experienced: Adios, mshenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-027.json",
+          "authoredSha256": "d67992cb1c0e1d151160da08c083b21a3d1bca7338797e156ebecad471f4b852"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0035",
+      "objectiveReason": "в одном поле срать не сяду is a deliberately coarse refusal to share even a field for defecation; hatuwezi hata kukaa sehemu moja removes the action and joke.",
+      "affected": [
+        {
+          "sourceIndex": 1898,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963786",
+          "key": "line:Rocker_Entrance_Occupied_0377f4b",
+          "source": "Rocker: Не, с таким, как этот человек, я в одном поле срать не сяду.",
+          "currentTarget": "Rocker: Hapana, mimi na mtu kama huyo hatuwezi hata kukaa sehemu moja.",
+          "proposedTarget": "Rocker: Hapana, siwezi hata kuchuchumaa kunya kwenye shamba moja na mtu kama huyo.",
+          "authoredPath": "Translations/sw/dialogue-batch-027.json",
+          "authoredSha256": "d67992cb1c0e1d151160da08c083b21a3d1bca7338797e156ebecad471f4b852"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

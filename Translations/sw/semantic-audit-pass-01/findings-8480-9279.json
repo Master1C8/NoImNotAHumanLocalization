@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    8480,
+    9279
+  ],
+  "findingGroups": 11,
+  "affectedUnits": 19,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0097",
+      "objectiveReason": "ломился в дверь describes trying to force entry through the door while begging; aligonga mlango only reports knocking or pounding, dropping the attempted forced entry.",
+      "affected": [
+        {
+          "sourceIndex": 8508,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902286",
+          "key": "line:Hunter_Asking_2_1_0d0aa9e",
+          "source": "Hunter: Ломился в дверь, умолял пустить его. Но он мне сразу не понравился.",
+          "currentTarget": "Hunter: Aligonga mlango kwa nguvu, akaniomba nimruhusu aingie. Lakini sikumpenda tangu mwanzo.",
+          "proposedTarget": "Hunter: Aligonga mlango kwa nguvu akijaribu kuingia, akaniomba nimruhusu aingie. Lakini sikumpenda tangu mwanzo.",
+          "authoredPath": "Translations/sw/dialogue-batch-118.json",
+          "authoredSha256": "4ab15176b15d4a8af97efdea7029c8bd5f5446ee571fae920199c8f17c523037"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0098",
+      "objectiveReason": "Luka audibly self-corrects masculine его to feminine её when recalling the person he hurt. Yeye… mwanamke huyo starts with gender-neutral reference and removes the mistaken male designation that marks his hesitation.",
+      "affected": [
+        {
+          "sourceIndex": 8584,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455013736452",
+          "key": "line:Luka_Asking_2_02cb8ff",
+          "source": "Luka: Я однажды… вспылил на человека, который хотел помочь мне... И его… её больше нет с нами…",
+          "currentTarget": "Luka: Siku moja… nilimkasirikia mtu aliyekuwa anajaribu kunisaidia… Na yeye… mwanamke huyo hayupo tena nasi…",
+          "proposedTarget": "Luka: Siku moja… nilimkasirikia mtu aliyekuwa anajaribu kunisaidia… Na yule mwanaume… mwanamke huyo hayupo tena nasi…",
+          "authoredPath": "Translations/sw/dialogue-batch-119.json",
+          "authoredSha256": "51ac1d2ea357e4b00ecaa9d0a38282776d9e9606685c7bf63d9262214f9cdeb2"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0099",
+      "objectiveReason": "Не совсем радостно means Luka is not exactly cheerful; Sina furaha kabisa says he has no happiness at all, overstating the negative half of his balanced mood.",
+      "affected": [
+        {
+          "sourceIndex": 8596,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455009542149",
+          "key": "line:Luka_Asking_1_09e1e16",
+          "source": "Luka: Не совсем радостно, но и отчаяния я тоже не чувствую.",
+          "currentTarget": "Luka: Sina furaha kabisa, lakini pia sijakata tamaa.",
+          "proposedTarget": "Luka: Sijisikii mwenye furaha sana, lakini pia sijakata tamaa.",
+          "authoredPath": "Translations/sw/dialogue-batch-119.json",
+          "authoredSha256": "51ac1d2ea357e4b00ecaa9d0a38282776d9e9606685c7bf63d9262214f9cdeb2"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0100",
+      "objectiveReason": "In both Couple branches задеваете/зацепишь means a shot at the husband also strikes or grazes the woman incidentally. Unampiga msichana pia and utampiga yeye pia imply the player directly shoots her as a second target.",
+      "affected": [
+        {
+          "sourceIndex": 8669,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454984376325",
+          "key": "line:Couple_Asking_5_3_4_1_06a03eb",
+          "source": "Couple: (Вы стреляете в мужчину, но задеваете и девушку.)",
+          "currentTarget": "Couple: (Unampiga mwanamume risasi, lakini unampiga msichana pia.)",
+          "proposedTarget": "Couple: (Unampiga mwanamume risasi, lakini risasi inampata msichana pia.)",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        },
+        {
+          "sourceIndex": 8693,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454975987718",
+          "key": "line:Couple_Asking_5_3_3_08eb35e",
+          "source": "Couple: Ты убьёшь меня, но её тоже зацепишь. Ты будешь виноват в её смерти.",
+          "currentTarget": "Couple: Ukiniua, utampiga yeye pia. Wewe utalaumiwa kwa kifo chake.",
+          "proposedTarget": "Couple: Ukiniua, risasi itampata yeye pia. Utakuwa na hatia ya kifo chake.",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0101",
+      "objectiveReason": "жене просто скучно says the wife is bored; amechoka says she is tired, changing the husband's stated excuse for her behavior.",
+      "affected": [
+        {
+          "sourceIndex": 8715,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599114",
+          "key": "line:Couple_Asking_5_2_0efcc7c",
+          "source": "Couple: Моей жене просто скучно, вот она занимается какой-то ерундой. И злит меня.",
+          "currentTarget": "Couple: Mke wangu amechoka tu, ndiyo maana anafanya upuuzi fulani. Ananikasirisha.",
+          "proposedTarget": "Couple: Mke wangu amechoshwa tu, ndiyo maana anafanya upuuzi fulani. Ananikasirisha.",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0102",
+      "objectiveReason": "Заебали/заебала is overtly obscene anger in the player's armed demands and the husband's abuse. Mmenichosha kabisa/Amenichosha sana makes both outbursts mild tiredness and removes their force.",
+      "affected": [
+        {
+          "sourceIndex": 8713,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599116",
+          "key": "line:Couple_Asking_5_2_0d727e5",
+          "source": "Мне нужна правда. Вы меня заебали (достаётся ружье)",
+          "currentTarget": "Nataka ukweli. Mmenichosha kabisa (toa bunduki)",
+          "proposedTarget": "Nataka ukweli. Mmenikera vibaya mno, shenzi nyinyi (toa bunduki)",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        },
+        {
+          "sourceIndex": 8718,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599111",
+          "key": "line:Couple_Asking_5_1_022a8c9",
+          "source": "Мне нужна правда. Вы меня заебали (достаётся ружье)",
+          "currentTarget": "Nataka ukweli. Mmenichosha kabisa (toa bunduki)",
+          "proposedTarget": "Nataka ukweli. Mmenikera vibaya mno, shenzi nyinyi (toa bunduki)",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        },
+        {
+          "sourceIndex": 8728,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454963404809",
+          "key": "line:Couple_Asking_5_0e2fdf5",
+          "source": "Couple: Да она заебала, понимаете?",
+          "currentTarget": "Couple: Amenichosha sana, mnaelewa?",
+          "proposedTarget": "Couple: Amenikera vibaya mno, shenzi huyo, mnaelewa?",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0103",
+      "objectiveReason": "Мне надо вас проверить addresses a specific Mother or Teacher for inspection; Nahitaji kufanya ukaguzi removes the person who is to be checked. This repeats the already recorded check-choice defect at earlier IDs.",
+      "affected": [
+        {
+          "sourceIndex": 8785,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454942433291",
+          "key": "line:talk_mother_1_0a1fc41",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8852,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267467",
+          "key": "line:talk_teacher_4_0b02f6d",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8863,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267456",
+          "key": "line:talk_teacher_3_0b497cd",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8879,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454908878853",
+          "key": "line:talk_teacher_2_039e366",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8894,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684544",
+          "key": "line:talk_teacher_1_03556b7",
+          "source": "Мне надо вас проверить",
+          "currentTarget": "Nahitaji kufanya ukaguzi",
+          "proposedTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0104",
+      "objectiveReason": "Выглядишь помято describes the Blind man's visibly rumpled/disheveled appearance; Unaonekana umechoka attributes tiredness instead of that observable state.",
+      "affected": [
+        {
+          "sourceIndex": 8995,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454866935809",
+          "key": "line:talk_blind_3_0acd6e6",
+          "source": "Выглядишь помято",
+          "currentTarget": "Unaonekana umechoka",
+          "proposedTarget": "Unaonekana umeparara",
+          "authoredPath": "Translations/sw/dialogue-batch-123.json",
+          "authoredSha256": "52bc81c2056da4b193152f1b462fc46e3f44f29bb630a15a651134788f0d9735"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0105",
+      "objectiveReason": "считай, ты уже в тюрячке is a threat to consider oneself as good as jailed; tayari umefungwa gerezani asserts that the player is literally jailed already.",
+      "affected": [
+        {
+          "sourceIndex": 9055,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454841770000",
+          "key": "line:Fatman_Asking_4_3_002747d",
+          "source": "Fatman: Можешь паковать вещи, считай, ты уже в тюрячке.",
+          "currentTarget": "Fatman: Unaweza kufunga mizigo yako; tayari umefungwa gerezani.",
+          "proposedTarget": "Fatman: Unaweza kufunga mizigo yako; jione tayari uko gerezani.",
+          "authoredPath": "Translations/sw/dialogue-batch-124.json",
+          "authoredSha256": "14f0dbc22441b81ee08bbd7fa1676b6e89cee84e428ac36e54cf53377e0f0c15"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0106",
+      "objectiveReason": "А, кстати introduces an aside or afterthought; nilikuwa nimesahau asserts Fatman had forgotten, which the source does not state.",
+      "affected": [
+        {
+          "sourceIndex": 9149,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454808215558",
+          "key": "line:Fatman_Asking_1_1_1_0ffb198",
+          "source": "Fatman: А, кстати. Вот, держи.",
+          "currentTarget": "Fatman: Ah, nilikuwa nimesahau. Haya, chukua.",
+          "proposedTarget": "Fatman: Ah, pia. Haya, chukua.",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0107",
+      "objectiveReason": "WA KULANIWA is a misspelling in Buddy's shouted curse, repeated for the taxi driver and the car; correct Kiswahili spelling is WA KULAANIWA.",
+      "affected": [
+        {
+          "sourceIndex": 9186,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454795632644",
+          "key": "line:Buddy_Asking_3_6_0f14fe5",
+          "source": "Buddy: ЁБАНЫЙ ТАКСИСТ!",
+          "currentTarget": "Buddy: DEREVA WA TEKSI WA KULANIWA!",
+          "proposedTarget": "Buddy: DEREVA WA TEKSI WA KULAANIWA!",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        },
+        {
+          "sourceIndex": 9199,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454791438339",
+          "key": "line:Buddy_Asking_3_5_025f904",
+          "source": "Buddy: ЕБУЧИЙ АВТОМОБИЛЬ! Если бы таксист смотрел, куда прёт, она бы прожила дольше.",
+          "currentTarget": "Buddy: GARI LA KULANIWA! Laiti dereva wa teksi angeangalia alikokuwa anaenda, angeishi muda mrefu zaidi.",
+          "proposedTarget": "Buddy: GARI LA KULAANIWA! Laiti dereva wa teksi angeangalia alikokuwa anaenda, angeishi muda mrefu zaidi.",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

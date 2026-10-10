@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "status": "all eight missed-variant controls now selected by complete 132-row source-voice ledger",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "rosterLedger": {
+    "path": "Translations/he/semantic-correction-cycle-04/bald-voice-roster-ledger.json",
+    "sha256": "a2cda7b7c73cf0504bba1605bc363da4ec094669a6cf835d6f10a75172a5cadc",
+    "acceptedSpeakerRows": 132,
+    "riskSelected": 39
+  },
+  "previousClosure": {
+    "path": "Translations/he/semantic-correction-cycle-03/closure-ids.txt",
+    "sha256": "be4b2235dd091d1a02790eb1a269422abda80f614a675bb9cbdd192b48cda47f",
+    "count": 2382
+  },
+  "currentClosure": {
+    "path": "Translations/he/semantic-correction-cycle-04/closure-ids.txt",
+    "sha256": "c005343b2ae8b634a89721e2b6cbde310543696a3a75434d53ef1b743a0fe12b",
+    "count": 2407
+  },
+  "currentDelta": {
+    "path": "Translations/he/semantic-correction-cycle-04/delta-ids.txt",
+    "sha256": "2402f1113192333a5462c41cbfd3655170f86e930c38581748f3f0e326f507fa",
+    "count": 72
+  },
+  "regressionRule": "Verify all 132 source speaker values and per-row classes against the pinned inventory; these eight spellings and forms must remain selected, with 5 corrected and 3 retained targets. A changed roster/value requires reclassification rather than a regex-only pass.",
+  "examples": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+      "sourceForms": [
+        "ахуитительных",
+        "ахуеешь"
+      ],
+      "source": "Bald: Ты подойди ко мне, как время будет. У меня столько ахуитительных историй будет, что ты… ахуеешь, ахах.",
+      "before": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים מטורפים, שתעוף לך המוח, חחח.",
+      "after": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים פאקינג מטורפים, שאתה… תתחרפן לגמרי, חחח.",
+      "review03Decision": "objective correction required",
+      "previousClosure": true,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "9c6d397e65fd48fca8e2a22ded3977786bdeb19eb3bdffd62a0abdd935744d8a",
+      "beforeValueSha256": "aedc8c4a76c0a940fd4d06fdbf15ad4fae300a7ed6637e845840d1da5572675d",
+      "afterValueSha256": "6412b2154f5d1baaa4cf5a907e4e1b2312ddb657f35c4ac9f79e83825ea78b4b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455806459912",
+      "sourceForms": [
+        "хуесосили"
+      ],
+      "source": "Bald: Они либо пользовались мной, потому что я был удобный, либо хуесосили меня за спиной.",
+      "before": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או לכלכו עליי מאחורי הגב.",
+      "after": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או דיברו עליי חרא מאחורי הגב.",
+      "review03Decision": "objective correction required",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "5e681cd681ccf2a74c0b785fd3bb2aadacd8031351d23e9a1d83dacb8ebf0074",
+      "beforeValueSha256": "93c616cc938de0eec6b63ebda97c4c7be68d3c9a91651484f7415527396023ab",
+      "afterValueSha256": "6c95000199592a22fb4bae6d8f06591a06dd2a8aebc1ca2e461578dcad692062"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453986131971",
+      "sourceForms": [
+        "гнида"
+      ],
+      "source": "Bald: Ах ты гнида!",
+      "before": "Bald: יא חלאה!",
+      "after": "Bald: יא חלאה!",
+      "review03Decision": "no objective correction found; target retains the source coarse expression",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "5f9d75780165cc25de327865524223651d2bf885244fa1010729b3d001d574e8",
+      "beforeValueSha256": "2a55038cc374d5da87e764384a7b76514107ed97fef0eefd48969d31d8ee14c5",
+      "afterValueSha256": "2a55038cc374d5da87e764384a7b76514107ed97fef0eefd48969d31d8ee14c5"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743370",
+      "sourceForms": [
+        "писос"
+      ],
+      "source": "Bald: Хотя писос как страшно сначала было.",
+      "before": "Bald: אבל בהתחלה זה היה מפחיד בטירוף.",
+      "after": "Bald: אבל בהתחלה זה היה מפחיד אחושרמוטה.",
+      "review03Decision": "objective correction required",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "eaf9420ffdb2d9a6c2bedb29cc3b40b3addd5e89ee79f393c760a90de3897b12",
+      "beforeValueSha256": "791d40a3f80b55311df0e9cfb310f20c667b8ac2586980d9479511bf6d9fad9e",
+      "afterValueSha256": "76e93c5efbcf0873f84db944d3901455aca82edbfd7ae1cab7a9294a41119daf"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743369",
+      "sourceForms": [
+        "обосрался"
+      ],
+      "source": "Bald: Но обосрался я знатно. После этого бросил пить. А то так и сдохнуть можно…",
+      "before": "Bald: אבל פחדתי פחד מוות. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "after": "Bald: אבל ממש חרבנתי במכנסיים מרוב פחד. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "review03Decision": "objective correction required",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "373adba5d0d91ac61d648d14cef213a3f8cf297fde90a220ea13ca4e6d3bcca4",
+      "beforeValueSha256": "5579aab8625f1196125040b4acfa701ad20fd73889b2c7a49cc93911e9297d53",
+      "afterValueSha256": "e4742dec651678627d605efc07b048c4b5a278f56a34614ae86d7d6b86161ddd"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453965160450",
+      "sourceForms": [
+        "Чёрт"
+      ],
+      "source": "Bald: Чёрт, я давно не мылся. Пардоньте.",
+      "before": "Bald: לעזאזל, לא התרחצתי הרבה זמן. סליחה.",
+      "after": "Bald: לעזאזל, לא התרחצתי הרבה זמן. סליחה.",
+      "review03Decision": "no objective correction found; target retains the source coarse expression",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "b7eb9d005d293529db47d2a21c69ad0f68968a06c4201e6a6f34bbdc56b5945b",
+      "beforeValueSha256": "f0a0e36ff82f77d3e39dc30702cfc2c989841bfd191eef6e3c97c42c9d44ffb6",
+      "afterValueSha256": "f0a0e36ff82f77d3e39dc30702cfc2c989841bfd191eef6e3c97c42c9d44ffb6"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966154",
+      "sourceForms": [
+        "пересрись"
+      ],
+      "source": "Bald: Ты ток не пересрись.",
+      "before": "Bald: רק אל תחרבן מפחד.",
+      "after": "Bald: רק אל תחרבן מפחד.",
+      "review03Decision": "no objective correction found; target retains the source coarse expression",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "da0fb4904be987c6ef0528484fe8db60898683debb8a4399fe59763d311e9ca9",
+      "beforeValueSha256": "38695fa39fad377f3ff68798858f629977176bd24215a4f6e5197c8e97199b38",
+      "afterValueSha256": "38695fa39fad377f3ff68798858f629977176bd24215a4f6e5197c8e97199b38"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966151",
+      "sourceForms": [
+        "хрен",
+        "обосрался"
+      ],
+      "source": "Bald: Я хрен знает, когда она появилась, но я обосрался.",
+      "before": "Bald: אין לי מושג מתי זה הופיע, אבל נבהלתי בטירוף.",
+      "after": "Bald: אין לי מושג מתי לעזאזל זה הופיע, אבל חרבנתי במכנסיים מרוב פחד.",
+      "review03Decision": "objective correction required",
+      "previousClosure": false,
+      "currentClosure": true,
+      "currentDelta": true,
+      "sourceValueSha256": "fd884a084667206dd93c6ec0752991ed8bffb7447b402d53dc58fa3b1eabb776",
+      "beforeValueSha256": "20a3b2b48eb0b2c3decdb1c25f01700945713ed1624585227053c812827cf04c",
+      "afterValueSha256": "18d8c0623279efbc6b62d1383670a4449aea78dde9a4d714866058412eae2259"
+    }
+  ]
+}

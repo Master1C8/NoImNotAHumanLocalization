@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    14880,
+    15279
+  ],
+  "findingGroups": 7,
+  "affectedUnits": 8,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0187",
+      "objectiveReason": "скот dehumanizes quarantined people as livestock; wanyama only says animals and loses the livestock metaphor of people treated as herd animals.",
+      "affected": [
+        {
+          "sourceIndex": 14887,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452287438852",
+          "key": "line:Fugitive_Teeth_DontShoot_02331be",
+          "source": "Fugitive: В карантинной зоне не было зеркал. Нам не нужно было видеть, как мы превращаемся в скот.",
+          "currentTarget": "Fugitive: Kwenye eneo la karantini hakukuwa na vioo. Hatukupaswa kuona jinsi tulivyogeuka wanyama.",
+          "proposedTarget": "Fugitive: Kwenye eneo la karantini hakukuwa na vioo. Hatukupaswa kuona jinsi tulivyogeuka mifugo.",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0188",
+      "objectiveReason": "это не признак для того, чтобы посеять панику asks whether this sign itself could spread more panic; iliyobuniwa asserts that the sign was invented for that purpose, adding a deliberate origin Fugitive does not claim.",
+      "affected": [
+        {
+          "sourceIndex": 14915,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452279050240",
+          "key": "line:Fugitive_Ears_0036756",
+          "source": "Fugitive: Серьёзно? Ты думаешь, это не признак для того, чтобы посеять панику ещё больше?",
+          "currentTarget": "Fugitive: Kweli? Unadhani hii si dalili iliyobuniwa kuongeza hofu zaidi?",
+          "proposedTarget": "Fugitive: Kweli? Unadhani hii si dalili inayoweza kuongeza hofu hata zaidi?",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0189",
+      "objectiveReason": "нехристь identifies the player as unchristian; hamna imani says lacking any faith, changing the Nun's specific religious accusation.",
+      "affected": [
+        {
+          "sourceIndex": 14963,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078729",
+          "key": "line:Nun_Eyes_DontShoot_0c75bdf",
+          "source": "Nun: Вы – нехристь, как и те, кто выгонял меня из моего святого убежища, утратили связь с истинным светом веры.",
+          "currentTarget": "Nun: Ninyi hamna imani, kama wale walionifukuza mahali pangu patakatifu. Mmepoteza mwanga wa kweli wa imani.",
+          "proposedTarget": "Nun: Wewe si Mkristo, kama wale walionifukuza mahali pangu patakatifu. Umepoteza mwanga wa kweli wa imani.",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0190",
+      "objectiveReason": "ndani ya yenu has no grammatical noun after the possessive and obscures the image of darkness in the player's eyes.",
+      "affected": [
+        {
+          "sourceIndex": 14964,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078728",
+          "key": "line:Nun_Eyes_DontShoot_0171b20",
+          "source": "Nun: Глаза – это зеркало души. А у вас в них только… мрак.",
+          "currentTarget": "Nun: Macho ni kioo cha roho. Lakini ndani ya yenu kuna… giza tu.",
+          "proposedTarget": "Nun: Macho ni kioo cha roho. Lakini machoni mwako kuna… giza tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0191",
+      "objectiveReason": "выбил зуб says a bully knocked out a tooth; alinivunja jino says he broke a tooth, changing the injury repeated in both variants.",
+      "affected": [
+        {
+          "sourceIndex": 15055,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452228718592",
+          "key": "line:Raskolnikov_Teeth_DontShoot_00220ef",
+          "source": "Raskolnikov: Но однажды хулиган выбил мне зуб, и с тех пор я пообещал себе: если я не могу быть сильным, я хотя бы буду безупречным.",
+          "currentTarget": "Raskolnikov: Lakini siku moja mnyanyasaji alinivunja jino, na tangu hapo nikajiahidi: kama siwezi kuwa na nguvu, angalau nitakuwa mkamilifu.",
+          "proposedTarget": "Raskolnikov: Lakini siku moja mnyanyasaji alinipiga hadi jino likang’oka, na tangu hapo nikajiahidi: kama siwezi kuwa na nguvu, angalau nitakuwa mkamilifu.",
+          "authoredPath": "Translations/sw/dialogue-batch-172.json",
+          "authoredSha256": "aa2c71f439a8625fcd6e161ce8a36304185c08148498e6c644a78eedbf19e93e"
+        },
+        {
+          "sourceIndex": 15059,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452224524294",
+          "key": "line:Raskolnikov_Teeth_DontShoot_037382d",
+          "source": "Raskolnikov: Но однажды хулиган выбил мне зуб, и как ты думаешь, что я сделал?",
+          "currentTarget": "Raskolnikov: Lakini siku moja mnyanyasaji alinivunja jino; unadhani nilifanya nini?",
+          "proposedTarget": "Raskolnikov: Lakini siku moja mnyanyasaji alinipiga hadi jino likang’oka; unadhani nilifanya nini?",
+          "authoredPath": "Translations/sw/dialogue-batch-172.json",
+          "authoredSha256": "aa2c71f439a8625fcd6e161ce8a36304185c08148498e6c644a78eedbf19e93e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0192",
+      "objectiveReason": "The Teeth scene's они refers to the player's teeth; mikono yako instead threatens the player's hands, a wrong body part.",
+      "affected": [
+        {
+          "sourceIndex": 15142,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164167",
+          "key": "line:Wifefema_Teeth_DontShoot_0c82f30",
+          "source": "Wifefema: Хех, ты ж не думаешь, что у тебя они останутся целыми, если будешь и дальше себя так вести?",
+          "currentTarget": "Wifefema: Heh, hudhani mikono yako itabaki salama ukiendelea kutenda hivi, sivyo?",
+          "proposedTarget": "Wifefema: Heh, hudhani meno yako yatabaki salama ukiendelea kutenda hivi, sivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-172.json",
+          "authoredSha256": "aa2c71f439a8625fcd6e161ce8a36304185c08148498e6c644a78eedbf19e93e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0193",
+      "objectiveReason": "извращенство calls the player's behavior a perversion; tamaa yako ya ajabu reduces it to strange desire and loses her accusation of deviance.",
+      "affected": [
+        {
+          "sourceIndex": 15149,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452195164160",
+          "key": "line:Wifefema_Photo_Gun_03f497c",
+          "source": "Wifefema: Это извращенство, что ли, какое-то? Или настолько испугался моего муженька???",
+          "currentTarget": "Wifefema: Hii ni tamaa yako ya ajabu au nini? Au ulimwogopa sana mume wangu???",
+          "proposedTarget": "Wifefema: Huu ni upotovu fulani au nini? Au ulimwogopa sana mume wangu???",
+          "authoredPath": "Translations/sw/dialogue-batch-172.json",
+          "authoredSha256": "aa2c71f439a8625fcd6e161ce8a36304185c08148498e6c644a78eedbf19e93e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

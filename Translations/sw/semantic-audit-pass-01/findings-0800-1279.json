@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    800,
+    1279
+  ],
+  "findingGroups": 9,
+  "affectedUnits": 13,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0015",
+      "objectiveReason": "кофесодержащих means coffee-containing; vyenye kafeini broadens the abstention to all caffeinated drinks.",
+      "affected": [
+        {
+          "sourceIndex": 804,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811266",
+          "key": "line:phone_fema_asking_3_02819ba",
+          "source": "Phone: Для корректных результатов просим вас воздержаться от питья кофесодержащих напитков.",
+          "currentTarget": "Phone: Ili kupata matokeo sahihi, tafadhali epuka vinywaji vyenye kafeini.",
+          "proposedTarget": "Phone: Ili kupata matokeo sahihi, tafadhali epuka vinywaji vyenye kahawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-010.json",
+          "authoredSha256": "47f4f60abd0765dc320b25eca522df55c7be81427c10b6fbc43e5efb79792d96"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0016",
+      "objectiveReason": "Подростков specifies adolescents; vijana wadogo only says young people.",
+      "affected": [
+        {
+          "sourceIndex": 885,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457727451143",
+          "key": "line:phone_neighbour_day3_0189afb",
+          "source": "Phone: Видел, что на улице произошло? Подростков убили…",
+          "currentTarget": "Phone: Umeona kilichotokea nje? Vijana wadogo wameuawa…",
+          "proposedTarget": "Phone: Umeona kilichotokea nje? Vijana balehe wameuawa…",
+          "authoredPath": "Translations/sw/dialogue-batch-011.json",
+          "authoredSha256": "dd8fcc32942cb164ceb883ba3bf2904882cfdc306dbd36f699d312cee1c3aa70"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0017",
+      "objectiveReason": "ОТС…ДА means from here; the target HAPA makes the command run here, reversing the escape direction.",
+      "affected": [
+        {
+          "sourceIndex": 918,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868235",
+          "key": "line:radio_10_0d71019",
+          "source": "БЕГ…ТЕ ОТС…ДА КАК М…ЖНО СК…РЕЕ………",
+          "currentTarget": "KIMBI...ENI HAPA HARAKA IWE...ZEKANAVYO………",
+          "proposedTarget": "KIMBI...ENI KUT...OKA HAPA HARAKA IWE...ZEKANAVYO………",
+          "authoredPath": "Translations/sw/dialogue-batch-012.json",
+          "authoredSha256": "1782a4b0d83382061a3a78fbb00c1c04c364b01134d8a5a73b3dd0ce7d7a58aa"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0018",
+      "objectiveReason": "отшельника identifies a recluse; mtu anayeishi peke yake says only that the person lives alone.",
+      "affected": [
+        {
+          "sourceIndex": 927,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457714868226",
+          "key": "line:radio_9_08e4440",
+          "source": "Это недалеко от дома отшельника.",
+          "currentTarget": "Hapo si mbali na nyumba ya mtu anayeishi peke yake.",
+          "proposedTarget": "Hapo si mbali na nyumba ya mtu aliyejitenga na jamii.",
+          "authoredPath": "Translations/sw/dialogue-batch-012.json",
+          "authoredSha256": "1782a4b0d83382061a3a78fbb00c1c04c364b01134d8a5a73b3dd0ce7d7a58aa"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0019",
+      "objectiveReason": "Очень навряд ли is very unlikely; Haiwezekani kabisa says completely impossible.",
+      "affected": [
+        {
+          "sourceIndex": 978,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896713",
+          "key": "line:window_9_2_0106baf",
+          "source": "Window: Но хватит ли пары человек для отстрела озверевших от голода животных? Очень навряд ли.",
+          "currentTarget": "Window: Lakini watu wawili tu watatosha kuwapiga risasi wanyama waliogeuka wakali kwa njaa? Haiwezekani kabisa.",
+          "proposedTarget": "Window: Lakini watu wawili tu watatosha kuwapiga risasi wanyama waliogeuka wakali kwa njaa? Kuna uwezekano mdogo sana.",
+          "authoredPath": "Translations/sw/dialogue-batch-014.json",
+          "authoredSha256": "4b82a2a96745cf1bf76cd7cf4bcd65cdbe1f21d7b600367063741c916fdecef3"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0020",
+      "objectiveReason": "Оставайтесь addresses the TV audience in plural; Endelea is singular while adjacent broadcast imperatives are plural.",
+      "affected": [
+        {
+          "sourceIndex": 1094,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457656147968",
+          "key": "line:tv_11_extra1_0f3e1a2",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "currentTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "proposedTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        },
+        {
+          "sourceIndex": 1111,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457647759366",
+          "key": "line:tv_10_extra1_0fbd48a",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "currentTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "proposedTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        },
+        {
+          "sourceIndex": 1133,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370754",
+          "key": "line:tv_9_extra1_082d908",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "currentTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "proposedTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        },
+        {
+          "sourceIndex": 1156,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457630982144",
+          "key": "line:tv_8_extra1_0f61888",
+          "source": "TV: На этом всё. Оставайтесь с нами.",
+          "currentTarget": "TV: Hayo ndiyo yote. Endelea kuwa nasi.",
+          "proposedTarget": "TV: Hayo ndiyo yote. Endeleeni kuwa nasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0021",
+      "objectiveReason": "может произойти preserves the possibility of a flood; na kusababisha presents the flood as the direct outcome.",
+      "affected": [
+        {
+          "sourceIndex": 1096,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457651953674",
+          "key": "line:tv_11_extra1_04dc05f",
+          "source": "TV: Если аномальная жара в ближайшее время не спадёт, ледники могут окончательно растаять, вследствие чего может произойти потоп.",
+          "currentTarget": "TV: Joto lisilo la kawaida lisipopungua hivi karibuni, barafu inaweza kuyeyuka kabisa na kusababisha mafuriko makubwa.",
+          "proposedTarget": "TV: Joto lisilo la kawaida lisipopungua hivi karibuni, barafu inaweza kuyeyuka kabisa, na huenda mafuriko makubwa yakatokea.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0022",
+      "objectiveReason": "как и нашествие Гостей predicts that both crises will be handled; kama ilivyotatua asserts the Visitor invasion was already resolved.",
+      "affected": [
+        {
+          "sourceIndex": 1123,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565062",
+          "key": "line:tv_10_necessary_011eb68",
+          "source": "TV: Однако нет сомнений, что КЧС урегулирует эту ситуацию, как и нашествие Гостей.",
+          "currentTarget": "TV: Hata hivyo, hakuna shaka kwamba Kamati ya Hali za Dharura itatatua hali hii, kama ilivyotatua uvamizi wa Wageni.",
+          "proposedTarget": "TV: Hata hivyo, hakuna shaka kwamba Kamati ya Hali za Dharura itatatua hali hii pamoja na uvamizi wa Wageni.",
+          "authoredPath": "Translations/sw/dialogue-batch-015.json",
+          "authoredSha256": "e703fc7610049f0bdefd6467ce8e7c221f93f3b1a59e90b8e3bb18de2d119d27"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0023",
+      "objectiveReason": "два брата identifies two male siblings; ndugu wawili leaves their sibling sex unspecified.",
+      "affected": [
+        {
+          "sourceIndex": 1192,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399234",
+          "key": "line:tv_6_extra1_011808c",
+          "source": "TV: И когда два брата выросли, вместе они основали пивоварню Бобер.",
+          "currentTarget": "TV: Ndugu hao wawili walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "proposedTarget": "TV: Ndugu hao wawili wa kiume walipokua, walianzisha kiwanda cha bia cha Bober pamoja.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        },
+        {
+          "sourceIndex": 1194,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399232",
+          "key": "line:tv_6_extra1_0b352ba",
+          "source": "TV: Давным-давно два брата жили неподалёку от плотины.",
+          "currentTarget": "TV: Zamani za kale, ndugu wawili waliishi karibu na bwawa.",
+          "proposedTarget": "TV: Zamani za kale, ndugu wawili wa kiume waliishi karibu na bwawa.",
+          "authoredPath": "Translations/sw/dialogue-batch-016.json",
+          "authoredSha256": "cc5e68e4c35ca6ad856cebe971c8b64984525516d3259aa4f51e38d9e965a199"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

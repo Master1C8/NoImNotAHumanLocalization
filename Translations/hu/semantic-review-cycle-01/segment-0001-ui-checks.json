@@ -1,0 +1,2678 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "gameVersion": "1.3.19",
+  "auditKind": "primary complete semantic source-to-target audit, segment 1",
+  "reviewer": "Codex primary chat; self-review, not independent",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "staticInventorySha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "acceptedScopeSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "approvedGlossaryLayerSha256": "8386700825df9e4bdf0b57482c1971b93cf495d18ce1232c2b5a3e281a186cea",
+  "canonicalGlossarySha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "fullTextPreflightSha256": "0f309519b409998819dff3d4ae7acefde5bab9ae39f95c3295a213d618e95c1b",
+  "reviewedFileHashes": {
+    "Translations/hu/checks-batch-001.json": "19d7e2d7326aa30ec03f67ad4ee33abebdaedf45cf9ac961463a205a7b2638c7",
+    "Translations/hu/ui-batch-001.json": "a5336e3b5645c62b915605e3e089a692b532950a363fa72f4e9e3e952635dea9",
+    "Translations/hu/ui-batch-002.json": "3fe99abe561352ad793468aa24751d47557f10e29ef57620eb83d0d6e2477a98",
+    "Translations/hu/ui-batch-003.json": "280776dc7e05622aa2ed9cc402e9067c20fd62d8de4e141fa023c2900170cfd8",
+    "Translations/hu/ui-batch-004.json": "52ef50cf1a8bc7bbab9de124116057ef99cc8467cff0c3816933b63f428f8d1c",
+    "Translations/hu/ui-batch-005.json": "b4dda740c06392e4d68c5c9f4e8f91820998e8cc8a5bf8a6857c02525207ccb5"
+  },
+  "firstOrdinal": 0,
+  "lastOrdinal": 259,
+  "reviewedUnits": 260,
+  "reviewedIdListSha256": "22b77633b17ff822977244572269361d6c2e5e520b220db8bc7bb91181443037",
+  "reviewedIdListSerialization": "UTF-8 stable IDs in canonical order, one ID and LF per row, final LF",
+  "contextReviewed": [
+    "UI room/action/menu, save/load, locale, inventory, radio, phone, calendar, character roster, and ending-display keys",
+    "Approved Hungarian glossary character roster and gender/address evidence for UI descriptors",
+    "ChecksDialogs Esenin alias compared with the matching Dialogs line and neighboring armpit inspection exchange"
+  ],
+  "rows": [
+    {
+      "ordinal": 0,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:16302985216",
+      "collection": "UI",
+      "key": "RoomName_Entrance",
+      "source": "Вход",
+      "target": "Bejárat",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 1,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131918974976",
+      "collection": "UI",
+      "key": "RoomName_Bathroom",
+      "source": "Ванная",
+      "target": "Fürdőszoba",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 2,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:187787104256",
+      "collection": "UI",
+      "key": "RoomName_BedRoom",
+      "source": "Спальня",
+      "target": "Hálószoba",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 3,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:224126554112",
+      "collection": "UI",
+      "key": "RoomName_Office",
+      "source": "Кабинет",
+      "target": "Dolgozószoba",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 4,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:270666551296",
+      "collection": "UI",
+      "key": "RoomName_Kitchen",
+      "source": "Кухня",
+      "target": "Konyha",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 5,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:299816964096",
+      "collection": "UI",
+      "key": "RoomName_Pantry",
+      "source": "Кладовая",
+      "target": "Kamra",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 6,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:350756786176",
+      "collection": "UI",
+      "key": "RoomName_Window",
+      "source": "Окно",
+      "target": "Ablak",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 7,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:153125376000",
+      "collection": "UI",
+      "key": "RoomName_BigRoom",
+      "source": "Гостиная",
+      "target": "Nappali",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 8,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3663488060477440",
+      "collection": "UI",
+      "key": "Common_Leave",
+      "source": "Выйти",
+      "target": "Kilépés",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 9,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3667991568568320",
+      "collection": "UI",
+      "key": "Common_Start",
+      "source": "Старт",
+      "target": "Indítás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 10,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3656455089278980",
+      "collection": "UI",
+      "key": "Message_CantSleepDay",
+      "source": "Не хочу спать сейчас. Я полон энергии!",
+      "target": "Most nincs kedvem aludni. Tele vagyok energiával!",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 11,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3656498731012100",
+      "collection": "UI",
+      "key": "Message_CantSleepNight",
+      "source": "Я не могу спать сейчас. Вдруг кто-то придёт сюда в поисках убежища?",
+      "target": "Most nem alhatok. Mi van, ha valaki menedéket keresve idejön?",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 12,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3656533392740350",
+      "collection": "UI",
+      "key": "Message_NoOneElseWillCome",
+      "source": "Кажется, больше никто не придёт в эту ночь.",
+      "target": "Úgy tűnik, ma éjjel már nem jön senki.",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 13,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3656689349545980",
+      "collection": "UI",
+      "key": "Message_SomebodyWasMurdered",
+      "source": "Пахнет смертью. Кого-то убили.",
+      "target": "Halálszag terjeng. Megöltek valakit.",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 14,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3660792356130820",
+      "collection": "UI",
+      "key": "Pause_Language",
+      "source": "Язык",
+      "target": "Nyelv",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 15,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3660864884035580",
+      "collection": "UI",
+      "key": "Pause_Volume",
+      "source": "Громкость",
+      "target": "Hangerő",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 16,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3660989769437180",
+      "collection": "UI",
+      "key": "Common_Quit",
+      "source": "Выйти из игры",
+      "target": "Kilépés a játékból",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 17,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3661098318024700",
+      "collection": "UI",
+      "key": "Common_Menu",
+      "source": "Выход в меню без сохранения",
+      "target": "Kilépés a menübe mentés nélkül",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 18,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3663275547676670",
+      "collection": "UI",
+      "key": "UI_Open",
+      "source": "Открыть",
+      "target": "Kinyitás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 19,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3668215154331650",
+      "collection": "UI",
+      "key": "Common_GameName",
+      "source": "Нет, я не человек, я {0}",
+      "target": "Nem, nem vagyok ember, {0} vagyok",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 20,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:12124127443537900",
+      "collection": "UI",
+      "key": "Fridge_Bobeer_Used",
+      "source": "Как же меня разморило от пива. Лучше всего сейчас лечь спать",
+      "target": "Jól elálmosított ez a sör. Most a legjobb lefeküdni",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 21,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:12124292694921200",
+      "collection": "UI",
+      "key": "FridgeItem_Bobeer_Name",
+      "source": "Бобер Черни",
+      "target": "Bober Cserni",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 22,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13164343885287400",
+      "collection": "UI",
+      "key": "FridgeItem_Bobeer_NarrativeDescription",
+      "source": "Хоть что-то хорошее осталось в этом мире. Вкусное холодное пиво.",
+      "target": "Még maradt valami jó ezen a világon. Finom, hideg sör.",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 23,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13164348633239600",
+      "collection": "UI",
+      "key": "FridgeItem_Bobeer_GameplayDescription",
+      "source": "Уменьшает   <sprite=0> до 0",
+      "target": "A   <sprite=0> értékét 0-ra csökkenti",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 24,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13170518181793800",
+      "collection": "UI",
+      "key": "FridgeItem_Enerjeka_Name",
+      "source": "Энержека",
+      "target": "Enerzseka",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 25,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13170520799039500",
+      "collection": "UI",
+      "key": "FridgeItem_Enerjeka_NarrativeDescription",
+      "source": "Сплошная химоза. Но почему иногда и не выпить, если нужно подольше не спать?",
+      "target": "Tiszta vegyszer. De néha miért ne innék belőle, ha tovább kell ébren maradnom?",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 26,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13170523483394000",
+      "collection": "UI",
+      "key": "FridgeItem_Enerjeka_GameplayDescription",
+      "source": "+1   <sprite=0>",
+      "target": "+1   <sprite=0>",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 27,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13176150536474600",
+      "collection": "UI",
+      "key": "FridgeItem_Coffee_Name",
+      "source": "Кофе",
+      "target": "Kávé",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 28,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13176152247750700",
+      "collection": "UI",
+      "key": "FridgeItem_Coffee_NarrativeDescription",
+      "source": "Горячий больше не пью. Да и никто, наверно, не станет такой пить.",
+      "target": "Forrón már nem iszom. Valószínűleg más sem inná így.",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 29,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13176153497653300",
+      "collection": "UI",
+      "key": "FridgeItem_Coffee_GameplayDescription",
+      "source": "+1   <sprite=1> на несколько дней",
+      "target": "+1   <sprite=1> néhány napig",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 30,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:35317810561011700",
+      "collection": "UI",
+      "key": "Common_LanguageName",
+      "source": "Русский",
+      "target": "Magyar",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 31,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:36029840414724100",
+      "collection": "UI",
+      "key": "Ending_ThanksWishlist",
+      "source": "Спасибо за игру!\nДобавляй в желаемое",
+      "target": "Köszönjük, hogy játszottál!\nTedd a játékot a kívánságlistádra",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 32,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:43618340848783360",
+      "collection": "UI",
+      "key": null,
+      "source": "NO SIGNAL",
+      "target": "NINCS JEL",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 33,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40739963133480960",
+      "collection": "UI",
+      "key": "Action_Open",
+      "source": "Открыть",
+      "target": "Kinyitás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 34,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40739981814910976",
+      "collection": "UI",
+      "key": "Action_Enter",
+      "source": "Войти",
+      "target": "Belépés",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 35,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40739999804280832",
+      "collection": "UI",
+      "key": "Action_Use",
+      "source": "Использовать",
+      "target": "Használat",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 36,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40740647467732992",
+      "collection": "UI",
+      "key": "Action_Look",
+      "source": "Посмотреть",
+      "target": "Megnézés",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 37,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40741524173737984",
+      "collection": "UI",
+      "key": "Location_Basement",
+      "source": "Подвал",
+      "target": "Alagsor",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 38,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:40741558088880128",
+      "collection": "UI",
+      "key": "Location_HouseInterior",
+      "source": "Дом",
+      "target": "Ház",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 39,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:45436991704911872",
+      "collection": "UI",
+      "key": "Objects_Phone",
+      "source": "Телефон",
+      "target": "Telefon",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 40,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:45437056263639040",
+      "collection": "UI",
+      "key": "Objects_Radio",
+      "source": "Радио",
+      "target": "Rádió",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 41,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:45458898076553216",
+      "collection": "UI",
+      "key": "Objects_Cigarettes",
+      "source": "Сигарета (x{0})",
+      "target": "Cigaretta (x{0})",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 42,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:45458932218187776",
+      "collection": "UI",
+      "key": "Action_Smoke",
+      "source": "Выкурить",
+      "target": "Elszívás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 43,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:49667052037459968",
+      "collection": "UI",
+      "key": "Actions_NailDown",
+      "source": "Заколотить",
+      "target": "Bedeszkázás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 44,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:53377425445216256",
+      "collection": "UI",
+      "key": "AudioGroup_Master",
+      "source": "Общий",
+      "target": "Általános",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 45,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:53377521738047488",
+      "collection": "UI",
+      "key": "AudioGroup_Music",
+      "source": "Музыка",
+      "target": "Zene",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 46,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:53377553434402816",
+      "collection": "UI",
+      "key": "AudioGroup_SFX",
+      "source": "Звуки",
+      "target": "Hangeffektek",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 47,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:55219394371637248",
+      "collection": "UI",
+      "key": "Action_Save",
+      "source": "Сохранить",
+      "target": "Mentés",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 48,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:55224523648913408",
+      "collection": "UI",
+      "key": "Common_NewGame",
+      "source": "Новая игра",
+      "target": "Új játék",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 49,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:55224549817176064",
+      "collection": "UI",
+      "key": "Common_ContinueGame",
+      "source": "Продолжить",
+      "target": "Folytatás",
+      "authoredFile": "Translations/hu/ui-batch-001.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 50,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:56531188432228352",
+      "collection": "UI",
+      "key": "Radio_NoiseCharacters",
+      "source": "ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё",
+      "target": "QWERTZUIOPŐÚASDFGHJKLÉÁŰÍYXCVBNMqwertzuiopőúasdfghjkléáűíyxcvbnm",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 51,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941361121218560",
+      "collection": "UI",
+      "key": "Action_Take",
+      "source": "Взять",
+      "target": "Felvétel",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 52,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941413084450816",
+      "collection": "UI",
+      "key": "Object_Mushroom",
+      "source": "Гриб",
+      "target": "Gomba",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 53,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59941615140851712",
+      "collection": "UI",
+      "key": "Message_TakeMushroom",
+      "source": "Положу его в холодильник. Хотя я бы съел сейчас.",
+      "target": "Beteszem a hűtőbe. Pedig most megenném.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 54,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59946729964556288",
+      "collection": "UI",
+      "key": "Action_Dig",
+      "source": "Копать",
+      "target": "Ásás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 55,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:59946749677785088",
+      "collection": "UI",
+      "key": "Object_TheHole",
+      "source": "Дыра",
+      "target": "Lyuk",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 56,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "collection": "UI",
+      "key": "Game_MushroomList",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "target": "<b><size=40><align=center>-1-</align=center></size></b>\nMa várost emeltek,\nAz alagsorban gomba tört fel a földből.\nHatalmas volt, mégis akadhatna,\nAki egészben elnyelni tudná.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nVendégeket befogadni a gyengék sorsa.\nA gomba felettünk áll, hívatlan emberek fölött.\nCsak az almafa ad mindenkinek menedéket,\nÉdes gyümölcsével táplál titeket.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nEljön a nap, amikor ő\nA gombák elé jár meghajolni,\nA mutató pedig az égbe tör.\nSiess, barátom, siess!",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 57,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:62450848965054464",
+      "collection": "UI",
+      "key": "Object_Cat",
+      "source": "Кот",
+      "target": "Macska",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 58,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:62450821383311360",
+      "collection": "UI",
+      "key": "Action_Pet",
+      "source": "Погладить",
+      "target": "Megsimogatás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 59,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66090579946885120",
+      "collection": "UI",
+      "key": "Common_Settings",
+      "source": "Настройки",
+      "target": "Beállítások",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 60,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66343298049757184",
+      "collection": "UI",
+      "key": "Common_Back",
+      "source": "Назад",
+      "target": "Vissza",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 61,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66346014109061120",
+      "collection": "UI",
+      "key": "Settings_Screen",
+      "source": "Экран",
+      "target": "Képernyő",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 62,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66450728108675072",
+      "collection": "UI",
+      "key": "language_ru",
+      "source": "Русский",
+      "target": "Русский",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 63,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66450829002657792",
+      "collection": "UI",
+      "key": "language_en",
+      "source": "English",
+      "target": "English",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 64,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452242680238080",
+      "collection": "UI",
+      "key": "language_be",
+      "source": "Беларуская",
+      "target": "Беларуская",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 65,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452260287926272",
+      "collection": "UI",
+      "key": "language_zh",
+      "source": "简体中文",
+      "target": "简体中文",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 66,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452283474038784",
+      "collection": "UI",
+      "key": "language_zh-Hant",
+      "source": "繁體中文",
+      "target": "繁體中文",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 67,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452325719068672",
+      "collection": "UI",
+      "key": "language_fr",
+      "source": "Français",
+      "target": "Français",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 68,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452351388209152",
+      "collection": "UI",
+      "key": "language_de",
+      "source": "Deutsch",
+      "target": "Deutsch",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 69,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452370216439808",
+      "collection": "UI",
+      "key": "language_it",
+      "source": "Italiano",
+      "target": "Italiano",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 70,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452396246290432",
+      "collection": "UI",
+      "key": "language_ja",
+      "source": "日本語",
+      "target": "日本語",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 71,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452407965175808",
+      "collection": "UI",
+      "key": "language_ko",
+      "source": "한국어",
+      "target": "한국어",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 72,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452438688452608",
+      "collection": "UI",
+      "key": "language_vi",
+      "source": "Tiếng Việt",
+      "target": "Tiếng Việt",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 73,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452479591305216",
+      "collection": "UI",
+      "key": "language_pt-BR",
+      "source": "Português (Brasil)",
+      "target": "Português (Brasil)",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 74,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452522465480704",
+      "collection": "UI",
+      "key": "language_es-AR",
+      "source": "Español (Latinoamericano)",
+      "target": "Español (Latinoamericano)",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 75,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452549913006080",
+      "collection": "UI",
+      "key": "language_es",
+      "source": "Español (España)",
+      "target": "Español (España)",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 76,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452582032986112",
+      "collection": "UI",
+      "key": "language_tr",
+      "source": "Türkçe",
+      "target": "Türkçe",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 77,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:66452592023818240",
+      "collection": "UI",
+      "key": "language_uk",
+      "source": "Українська",
+      "target": "Українська",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 78,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:68269655268773888",
+      "collection": "UI",
+      "key": "Object_Death",
+      "source": "Смерть",
+      "target": "Halál",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 79,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:68269633731022848",
+      "collection": "UI",
+      "key": "Action_talk",
+      "source": "Говорить",
+      "target": "Beszélgetés",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 80,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:69257185275400192",
+      "collection": "UI",
+      "key": "Common_Text",
+      "source": "Текст",
+      "target": "Szöveg",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 81,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:69259143700795392",
+      "collection": "UI",
+      "key": "settings_typewriter",
+      "source": "Эффект набора текста",
+      "target": "Gépelési effektus",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 82,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:73342396577599488",
+      "collection": "UI",
+      "key": "object_kombucha",
+      "source": "Чайный гриб (x{0})",
+      "target": "Kombucsa (x{0})",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 83,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77551641594417152",
+      "collection": "UI",
+      "key": "action_dont_use",
+      "source": "Не использовать",
+      "target": "Nem használom",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 84,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77560897118916608",
+      "collection": "UI",
+      "key": "consumable_cigarette_gameplayDescription",
+      "source": "Полностью восстанавливает   <sprite=0>, но убирает один   <sprite=1> на следующий день",
+      "target": "Teljesen visszatölti a   <sprite=0> értékét, de másnap eggyel csökkenti a   <sprite=1> értékét",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 85,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77560970431156224",
+      "collection": "UI",
+      "key": "consumable_cigarette_narrativeDescription",
+      "source": "Давно я не курил. В последний раз… когда все уехали, наверно.",
+      "target": "Rég nem dohányoztam. Utoljára talán… amikor mindenki elment.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 86,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+      "collection": "UI",
+      "key": "consumable_cigarette_name",
+      "source": "Сигареты",
+      "target": "Cigaretták",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 87,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+      "collection": "UI",
+      "key": "consumable_kombucha_name",
+      "source": "Чайный гриб",
+      "target": "Kombucsa",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 88,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572482784808960",
+      "collection": "UI",
+      "key": "consumable_kombucha_gameplayDescription",
+      "source": "Сохраняет игру. Прогресс остаётся даже после завершения прохождения.",
+      "target": "Elmenti a játékot. A haladás a végigjátszás befejezése után is megmarad.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 89,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572547771355136",
+      "collection": "UI",
+      "key": "consumable_kombucha_narrativeDescription",
+      "source": "Это вообще мой любимый гриб. От него я чувствую себя хорошо, лучше работает память. Напоминает о хороших временах.",
+      "target": "Ez a kedvenc gombám. Jól érzem magam tőle, és jobban működik a memóriám. A régi szép időkre emlékeztet.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 90,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77614048173871104",
+      "collection": "UI",
+      "key": "character_Podvalny",
+      "source": "Шахтёр",
+      "target": "Bányász",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 91,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326529556992000",
+      "collection": "UI",
+      "key": "fullscreen_settings_ExclusiveFullScreen",
+      "source": "Полноэкранный",
+      "target": "Teljes képernyő",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 92,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326756594667520",
+      "collection": "UI",
+      "key": "fullscreen_settings_FullScreenWindow",
+      "source": "Безрамочный полноэкранный",
+      "target": "Keret nélküli teljes képernyő",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 93,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326760352763904",
+      "collection": "UI",
+      "key": "fullscreen_settings_MaximizedWindow",
+      "source": "Развёрнутое окно",
+      "target": "Maximált ablak",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 94,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326850240892928",
+      "collection": "UI",
+      "key": "fullscreen_settings_Windowed",
+      "source": "Оконный",
+      "target": "Ablakos mód",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 95,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78385109777764352",
+      "collection": "UI",
+      "key": "control_key_ExitRoom",
+      "source": "Выйти",
+      "target": "Kilépés",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 96,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616001506955264",
+      "collection": "UI",
+      "key": "control_key_HangPhone",
+      "source": "Повесить трубку",
+      "target": "Letenni a kagylót",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 97,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616142859194368",
+      "collection": "UI",
+      "key": "control_key_CloseFridge",
+      "source": "Закрыть",
+      "target": "Bezárás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 98,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616236836769792",
+      "collection": "UI",
+      "key": "control_key_PutRadio",
+      "source": "Положить [зажать]",
+      "target": "Rádió letétele [nyomva tartás]",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 99,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78616429665701888",
+      "collection": "UI",
+      "key": "control_key_Leave",
+      "source": "Закрыть",
+      "target": "Bezárás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 100,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78722207886069760",
+      "collection": "UI",
+      "key": "control_key_Run",
+      "source": "Бежать",
+      "target": "Futás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 101,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78999771271647232",
+      "collection": "UI",
+      "key": "control_key_UseFridgeItem",
+      "source": "Использовать [зажать]",
+      "target": "Használat [nyomva tartás]",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 102,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109195730079744",
+      "collection": "UI",
+      "key": "phone_sub_Forrest",
+      "source": "«For Rest»",
+      "target": "«For Rest»",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 103,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109268786466816",
+      "collection": "UI",
+      "key": "phone_sub_Neighbour",
+      "source": "Сосед",
+      "target": "Szomszéd",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 104,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109308955316224",
+      "collection": "UI",
+      "key": "phone_sub_FEMA",
+      "source": "КЧС",
+      "target": "KCsSz",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 105,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80109359555399680",
+      "collection": "UI",
+      "key": "phone_sub_Psychics",
+      "source": "Экстрасенсы",
+      "target": "Médiumok",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 106,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80130372527706112",
+      "collection": "UI",
+      "key": "Object_PhoneNumbers",
+      "source": "Номера телефонов",
+      "target": "Telefonszámok",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 107,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+      "collection": "UI",
+      "key": "consumable_coffee_name",
+      "source": "Кофе",
+      "target": "Kávé",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 108,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+      "collection": "UI",
+      "key": "consumable_enerjeka_name",
+      "source": "Энержека",
+      "target": "Enerzseka",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 109,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80910065015181312",
+      "collection": "UI",
+      "key": "Message_NoMoreRadio",
+      "source": "Кажется, сегодня больше не поймать никаких радиопередач.",
+      "target": "Úgy tűnik, ma már nem fogok be több rádióadást.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 110,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+      "collection": "UI",
+      "key": "characterName_NotTrue",
+      "source": "страшная бабка",
+      "target": "ijesztő öregasszony",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 111,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83008742139613184",
+      "collection": "UI",
+      "key": "control_key_ShowTutor",
+      "source": "Инструкция",
+      "target": "Útmutató",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 112,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079022971179008",
+      "collection": "UI",
+      "key": "cant_open_door_timeOfDay",
+      "source": "Лучше не заходить туда сейчас. Проверю днём.",
+      "target": "Most jobb, ha nem megyek be oda. Nappal megnézem.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 113,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079056223621120",
+      "collection": "UI",
+      "key": "cant_open_window_timeOfDay",
+      "source": "Боюсь, я ослепну от такого. Лучше загляну ночью.",
+      "target": "Attól félek, megvakulnék. Inkább éjjel nézek be.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 114,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079087727038464",
+      "collection": "UI",
+      "key": "cant_open_door_day",
+      "source": "Сегодня не до этого.",
+      "target": "Ma nincs erre időm.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 115,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079202038599680",
+      "collection": "UI",
+      "key": "cant_open_window_day",
+      "source": "Сегодня не до этого.",
+      "target": "Ma nincs erre időm.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 116,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079270019878912",
+      "collection": "UI",
+      "key": "cant_open_peephole_day",
+      "source": "Сегодня не до этого.",
+      "target": "Ma nincs erre időm.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 117,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83079223148531712",
+      "collection": "UI",
+      "key": "cant_open_peephole_timeOfDay",
+      "source": "Никто не будет в это время суток ходить по улице.",
+      "target": "Ilyenkor senki sem járkál az utcán.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 118,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:83741359755481088",
+      "collection": "UI",
+      "key": "message_noMoreBeerToday",
+      "source": "Пожалуй, на сегодня с меня хватит.",
+      "target": "Mára elég volt.",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 119,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609794512867328",
+      "collection": "UI",
+      "key": "radio_instruction_main",
+      "source": "Чтобы уловить сигнал, нужно крутить правую ручку. Для этого зажмите ЛКМ на правой ручке и передвигайте курсор влево или вправо.\n\nСлева — ручка для регулировки громкости.\n",
+      "target": "A jel befogásához a jobb oldali gombot kell forgatni. Tartsd lenyomva rajta a bal egérgombot, és mozgasd a kurzort balra vagy jobbra.\n\nA bal oldali gombbal a hangerőt állíthatod.\n",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 120,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+      "collection": "UI",
+      "key": "radio_instruction_pencil",
+      "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+      "target": "leszedtem a rádiókról a hullámblokkolót\nmenjenek a picsába!",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "finding"
+    },
+    {
+      "ordinal": 121,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075038585769984",
+      "collection": "UI",
+      "key": "common_yes",
+      "source": "Да",
+      "target": "Igen",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 122,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075057707601920",
+      "collection": "UI",
+      "key": "common_no",
+      "source": "Нет",
+      "target": "Nem",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 123,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88075013436723200",
+      "collection": "UI",
+      "key": "common_sureToClose",
+      "source": "Вы уверены, что хотите выйти?\nВесь несохраненный прогресс будет потерян.\n",
+      "target": "Biztosan ki akarsz lépni?\nMinden nem mentett előrehaladás elvész.\n",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 124,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+      "collection": "UI",
+      "key": "characterName_Anger",
+      "source": "злой толстяк с ранами",
+      "target": "dühös kövér férfi sebekkel",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 125,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+      "collection": "UI",
+      "key": "characterName_Sirin",
+      "source": "две сестры",
+      "target": "két lánytestvér",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 126,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:89138519934226432",
+      "collection": "UI",
+      "key": "common_pause",
+      "source": "Пауза",
+      "target": "Szünet",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 127,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93159162333093888",
+      "collection": "UI",
+      "key": "message_demo_phone",
+      "source": "Телефонные линии отрубило до осени. Остаётся ждать…",
+      "target": "A telefonvonalak őszig nem működnek. Csak várni lehet…",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 128,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358144",
+      "collection": "UI",
+      "key": "control_key_Answer",
+      "source": "Ответить",
+      "target": "Fogadás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 129,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358145",
+      "collection": "UI",
+      "key": "control_key_Listen",
+      "source": "Слушать",
+      "target": "Hallgatás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 130,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358146",
+      "collection": "UI",
+      "key": "control_key_RotateHandle",
+      "source": "Искать частоту [крутить]",
+      "target": "Frekvenciakeresés [tekerés]",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 131,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358147",
+      "collection": "UI",
+      "key": "control_key_SwitchToFM",
+      "source": "Сменить диапазон волн на FM",
+      "target": "Átváltás FM-sávra",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 132,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93160860036358148",
+      "collection": "UI",
+      "key": "control_key_SwitchToAM",
+      "source": "Сменить диапазон волн на AM",
+      "target": "Átváltás AM-sávra",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 133,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216557715456",
+      "collection": "UI",
+      "key": "settings_vibrator",
+      "source": "Вибрация геймпада",
+      "target": "Kontrollerrezgés",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 134,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075584",
+      "collection": "UI",
+      "key": "settings_gamepad_sensitivity",
+      "source": "Чувствительность геймпада",
+      "target": "Kontroller érzékenysége",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 135,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075585",
+      "collection": "UI",
+      "key": "settings_room_gamepad_sensitivity",
+      "source": "Чувствительность геймпада в комнатах",
+      "target": "Kontroller érzékenysége a szobákban",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 136,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94373216587075586",
+      "collection": "UI",
+      "key": "settings_mouse_sensitivity",
+      "source": "Чувствительность мыши",
+      "target": "Egér érzékenysége",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 137,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:94374215708037120",
+      "collection": "UI",
+      "key": "settings_controls",
+      "source": "Управление",
+      "target": "Irányítás",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 138,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101498826102919168",
+      "collection": "UI",
+      "key": "objects_calendar",
+      "source": "Календарь",
+      "target": "Naptár",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 139,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499529651277824",
+      "collection": "UI",
+      "key": "calendar_day_0",
+      "source": "День пива",
+      "target": "Sör napja",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 140,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499572638699520",
+      "collection": "UI",
+      "key": "calendar_day_1",
+      "source": "День огурца",
+      "target": "Uborka napja",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 141,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499586869972992",
+      "collection": "UI",
+      "key": "calendar_day_2",
+      "source": "День семьи",
+      "target": "Család napja",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 142,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527090041180160",
+      "collection": "UI",
+      "key": "message_got_item",
+      "source": "<color=#444444>Получено</color> x{0} <color=#225555>{1}</color>",
+      "target": "<color=#444444>Kapott</color> x{0} <color=#225555>{1}</color>",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 143,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527150292357120",
+      "collection": "UI",
+      "key": "message_given_item",
+      "source": "<color=#444444>Отдано</color> x{0} <color=#225555>{1}</color>",
+      "target": "<color=#444444>Átadott</color> x{0} <color=#225555>{1}</color>",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 144,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+      "collection": "UI",
+      "key": "characterName_Hunter",
+      "source": "огромный бородатый мужик",
+      "target": "hatalmas szakállas fickó",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 145,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+      "collection": "UI",
+      "key": "characterName_Blind",
+      "source": "безглазый",
+      "target": "szem nélküli férfi",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 146,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+      "collection": "UI",
+      "key": "characterName_FortuneTeller",
+      "source": "женщина с картами таро",
+      "target": "nő tarotkártyákkal",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 147,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+      "collection": "UI",
+      "key": "characterName_Scammer",
+      "source": "парень в футболке amogus",
+      "target": "fiú amogus pólóban",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 148,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+      "collection": "UI",
+      "key": "characterName_Provocateur",
+      "source": "агрессивный чел с огромной башкой",
+      "target": "agresszív fickó hatalmas fejjel",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 149,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+      "collection": "UI",
+      "key": "characterName_Theorist",
+      "source": "этот в очках и с усами",
+      "target": "a szemüveges, bajszos alak",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 150,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+      "collection": "UI",
+      "key": "characterName_Daughter",
+      "source": "плачущая девочка",
+      "target": "síró kislány",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 151,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+      "collection": "UI",
+      "key": "characterName_BigLebowski",
+      "source": "подросток в кепке",
+      "target": "sapkás kamasz",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 152,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+      "collection": "UI",
+      "key": "characterName_Couple",
+      "source": "семейная пара",
+      "target": "házaspár",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 153,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+      "collection": "UI",
+      "key": "characterName_WolfHound",
+      "source": "лысый бандит в костюме",
+      "target": "kopasz bandita öltönyben",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 154,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+      "collection": "UI",
+      "key": "characterName_Ballerina",
+      "source": "женщина с котом",
+      "target": "nő macskával",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 155,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+      "collection": "UI",
+      "key": "characterName_Nun",
+      "source": "верующая",
+      "target": "hívő nő",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 156,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+      "collection": "UI",
+      "key": "characterName_Esenin",
+      "source": "длиннющий",
+      "target": "égimeszelő",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 157,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+      "collection": "UI",
+      "key": "characterName_Raskolnikov",
+      "source": "парень в фиолетовой бандане",
+      "target": "fiú lila kendőben",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 158,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054044770242560",
+      "collection": "UI",
+      "key": "characterName_Cold",
+      "source": "мерзляк в куртке",
+      "target": "fázós alak kabátban",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 159,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+      "collection": "UI",
+      "key": "characterName_TaxiDriver",
+      "source": "таксист в кепке",
+      "target": "taxisofőr sapkában",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 160,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+      "collection": "UI",
+      "key": "characterName_Bestson",
+      "source": "парень в футболке с номером",
+      "target": "fiú számozott pólóban",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 161,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054046376660992",
+      "collection": "UI",
+      "key": "characterName_AlkonostTwins",
+      "source": "курящая женщина",
+      "target": "dohányzó nő",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 162,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+      "collection": "UI",
+      "key": "characterName_Greatmother",
+      "source": "огромная женщина с чёлкой",
+      "target": "hatalmas nő frufruval",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 163,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+      "collection": "UI",
+      "key": "characterName_Buddy",
+      "source": "здоровый гремлин",
+      "target": "nagydarab gremlin",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 164,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+      "collection": "UI",
+      "key": "characterName_Luka",
+      "source": "мужчина в зелёной кепке",
+      "target": "férfi zöld sapkában",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 165,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+      "collection": "UI",
+      "key": "characterName_Intruder",
+      "source": "мужчина в чёрном худи с капюшоном",
+      "target": "férfi fekete kapucnis pulóverben",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 166,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+      "collection": "UI",
+      "key": "characterName_GraveDigger",
+      "source": "горбатый мужик",
+      "target": "púpos fickó",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 167,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+      "collection": "UI",
+      "key": "characterName_Wifefema",
+      "source": "боевая баба с ярким макияжем",
+      "target": "harcias nő feltűnő sminkben",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 168,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+      "collection": "UI",
+      "key": "characterName_CultistOne",
+      "source": "культист",
+      "target": "kultusztag",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 169,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+      "collection": "UI",
+      "key": "characterName_Edgar",
+      "source": "опрятный мужчина с гангреной",
+      "target": "ápolt férfi üszkösödéssel",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 170,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+      "collection": "UI",
+      "key": "characterName_Teacher",
+      "source": "женщина в вязаном свитере и очках",
+      "target": "nő kötött pulóverben és szemüvegben",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 171,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+      "collection": "UI",
+      "key": "characterName_CultistThree",
+      "source": "культист",
+      "target": "kultusztag",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 172,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+      "collection": "UI",
+      "key": "characterName_Fugitive",
+      "source": "мужчина с раной в животе",
+      "target": "férfi hasi sebbel",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 173,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+      "collection": "UI",
+      "key": "characterName_Mother",
+      "source": "женщина с ребёнком",
+      "target": "nő gyerekkel",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 174,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+      "collection": "UI",
+      "key": "characterName_Widow",
+      "source": "женщина с трупом",
+      "target": "nő holttesttel",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 175,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+      "collection": "UI",
+      "key": "characterName_Fatman",
+      "source": "голый жирдяй",
+      "target": "meztelen dagadék",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 176,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+      "collection": "UI",
+      "key": "characterName_FormerFema",
+      "source": "мужчина в костюме КЧС",
+      "target": "férfi KCsSz-ruhában",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 177,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+      "collection": "UI",
+      "key": "characterName_Fan",
+      "source": "грязный жёлтый мужик",
+      "target": "piszkos sárga fickó",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 178,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+      "collection": "UI",
+      "key": "characterName_Dude",
+      "source": "растаман с дредами",
+      "target": "raszta férfi dreadlockkal",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 179,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+      "collection": "UI",
+      "key": "characterName_Anxiety",
+      "source": "девушка со скалиозом",
+      "target": "gerincferdüléses lány",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 180,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+      "collection": "UI",
+      "key": "characterName_Marauder",
+      "source": "бомж",
+      "target": "hajléktalan",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 181,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+      "collection": "UI",
+      "key": "characterName_Foreigner",
+      "source": "парень с зашитым ртом",
+      "target": "fiú bevarrt szájjal",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 182,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055636873515008",
+      "collection": "UI",
+      "key": "characterName_SirinTwins",
+      "source": "женщина в депрессии",
+      "target": "depressziós nő",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 183,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:103649253699342336",
+      "collection": "UI",
+      "key": "common_skip",
+      "source": "Пропустить",
+      "target": "Átugrás",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 184,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:109486460518277120",
+      "collection": "UI",
+      "key": "gacha_intro_description",
+      "source": "Кусочек спокойной безмятежной жизни, не предвещавшей беды.",
+      "target": "A nyugodt, békés élet egy darabja, amelyben semmi sem vetítette előre a bajt.",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 185,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499609678598144",
+      "collection": "UI",
+      "key": "calendar_day_3",
+      "source": "День против конъюнктивита",
+      "target": "A kötőhártya-gyulladás elleni nap",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 186,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499620114026496",
+      "collection": "UI",
+      "key": "calendar_day_4",
+      "source": "День защиты детей",
+      "target": "A gyermekek védelmének napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 187,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499628875927552",
+      "collection": "UI",
+      "key": "calendar_day_5",
+      "source": "День кассира",
+      "target": "A pénztárosok napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 188,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499641635000320",
+      "collection": "UI",
+      "key": "calendar_day_6",
+      "source": "День поселка городского типа",
+      "target": "A városi jellegű települések napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 189,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499651860713472",
+      "collection": "UI",
+      "key": "calendar_day_7",
+      "source": "День гостеприимства",
+      "target": "A vendégszeretet napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 190,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499664099692544",
+      "collection": "UI",
+      "key": "calendar_day_8",
+      "source": "Всемирный день «Спасибо»",
+      "target": "A köszönet világnapja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 191,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499674375737344",
+      "collection": "UI",
+      "key": "calendar_day_9",
+      "source": "День дипломатии",
+      "target": "A diplomácia napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 192,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499685037658112",
+      "collection": "UI",
+      "key": "calendar_day_10",
+      "source": "День примирений",
+      "target": "A kibékülések napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 193,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499700946653184",
+      "collection": "UI",
+      "key": "calendar_day_11",
+      "source": "День ветряной мельницы",
+      "target": "A szélmalom napja",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 194,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499724829020160",
+      "collection": "UI",
+      "key": "calendar_day_12",
+      "source": "Празднования ухода лета",
+      "target": "A nyár búcsúztatásának ünnepe",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "finding"
+    },
+    {
+      "ordinal": 195,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499734798880768",
+      "collection": "UI",
+      "key": "calendar_day_13",
+      "source": "День ",
+      "target": "Nap ",
+      "authoredFile": "Translations/hu/ui-batch-005.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 196,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:108827407107739648",
+      "collection": "UI",
+      "key": "message_bodyEaterVisit",
+      "source": "Никого не осталось. Это... из-за сна?",
+      "target": "Senki sem maradt. Ez… az álom miatt van?",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 197,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85988737455738880",
+      "collection": "UI",
+      "key": "radio_instruction_pencil2",
+      "source": "блять теперь не работает",
+      "target": "bassza meg, most már nem működik",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 198,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85989059582480384",
+      "collection": "UI",
+      "key": "radio_instruction_main2",
+      "source": "Если поймать сигнал так и не удалось, попробуйте сменить диапазон волны. Для этого нажмите на отжатую кнопку с помощью ЛКМ и продолжайте правой ручкой искать нужную вам волну.",
+      "target": "Ha így sem sikerül befogni a jelet, próbáld meg átváltani a hullámsávot. Ehhez kattints a felengedett gombra a bal egérgombbal, majd a jobb oldali gombbal keresd tovább a kívánt frekvenciát.",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 199,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:93637984313397248",
+      "collection": "UI",
+      "key": "question_marks",
+      "source": "???",
+      "target": "???",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 200,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118142792813256704",
+      "collection": "UI",
+      "key": "mainMenu_collection",
+      "source": "Коллекция",
+      "target": "Gyűjtemény",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 201,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118498831341461504",
+      "collection": "UI",
+      "key": "gacha_select_character",
+      "source": "???",
+      "target": "???",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 202,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119628010817052672",
+      "collection": "UI",
+      "key": "phone_sub_Extrasens",
+      "source": "От гадалки",
+      "target": "A jósnőtől",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 203,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630628608008192",
+      "collection": "UI",
+      "key": "phone_sub_PhoneRoulette",
+      "source": "Телефонная рулетка",
+      "target": "Telefonos rulett",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 204,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630426442555392",
+      "collection": "UI",
+      "key": "phone_sub_BestSonFamily",
+      "source": "Сестра «лучшего сына»",
+      "target": "A «legjobb fiú» lánytestvére",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 205,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630501872918528",
+      "collection": "UI",
+      "key": "phone_sub_MothersHusband",
+      "source": "Муж непутёвой матери",
+      "target": "A felelőtlen anya férje",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 206,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630550598148096",
+      "collection": "UI",
+      "key": "phone_sub_AlkonostsHusband",
+      "source": "Муж близняшки",
+      "target": "A dohányzó lánytestvér férje",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 207,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630801698545664",
+      "collection": "UI",
+      "key": "phone_sub_AngersWife",
+      "source": "Жена злого толстяка",
+      "target": "A dühös kövér férfi felesége",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 208,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630847580037120",
+      "collection": "UI",
+      "key": "phone_sub_FEMARecruiter",
+      "source": "От жены КЧС-ника",
+      "target": "A KCsSz-alkalmazott feleségétől",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 209,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630891322433536",
+      "collection": "UI",
+      "key": "phone_sub_ForeignEmbassy",
+      "source": "Иностранное посольство",
+      "target": "Külföldi nagykövetség",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 210,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:119630935152910336",
+      "collection": "UI",
+      "key": "phone_sub_DaughtersFriend",
+      "source": "Подруга девочки",
+      "target": "A kislány barátnője",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 211,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715969077248",
+      "collection": "UI",
+      "key": "FridgeItem_Mushroom_NarrativeDescription",
+      "source": "Странный гриб. Как он вообще пророс в картошке?",
+      "target": "Furcsa gomba. Hogy nőhetett ki egyáltalán a krumpliból?",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 212,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243072",
+      "collection": "UI",
+      "key": "FridgeItem_Mushroom_GameplayDescription",
+      "source": "Отправляет вас ненадолго в страну грибов",
+      "target": "Rövid időre a Gombák országába visz",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 213,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243073",
+      "collection": "UI",
+      "key": "Message_EatApple",
+      "source": "Съел яблоко. Кислое и сладкое одновременно...",
+      "target": "Megettem az almát. Egyszerre savanyú és édes...",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 214,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:121836715994243074",
+      "collection": "UI",
+      "key": "Message_LookClocks",
+      "source": "Выставил 12, как и сказано на страницах «Учебника улыбок»",
+      "target": "Beállítottam 12-re, ahogy a «Mosolyok tankönyve» lapjain áll",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 215,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165490289352704",
+      "collection": "UI",
+      "key": "gacha_baby_description",
+      "source": "Выстрел прогремел в молоке тумана, и над толпой поднялись крылья, пахнущие пеплом.\n",
+      "target": "Lövés dördült a tejfehér ködben, és a tömeg fölé hamuszagú szárnyak emelkedtek.\n",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 216,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165494445907968",
+      "collection": "UI",
+      "key": "gacha_basement_description",
+      "source": "Подвал стал вселенной: окна замурованы, голоса сливаются с тиканьем часов. Солнце угасает, но разве…это конец мучений?\r",
+      "target": "Az alagsor világegyetemmé vált: az ablakokat befalazták, a hangok az óra ketyegésével olvadnak össze. A nap kihuny, de vajon… ezzel véget ér a szenvedés?\r",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 217,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165596245860352",
+      "collection": "UI",
+      "key": "gacha_basementWitThem_description",
+      "source": "Гости были рядом с тобой всё это время: тёплое дыхание в темноте, шепот и злой смешок за спиной. Свет ты уже не увидишь, даже если его включат.\r",
+      "target": "A Vendégek mindvégig melletted voltak: meleg lehelet a sötétben, suttogás és gonosz kuncogás a hátad mögött. A fényt többé nem látod, még ha fel is kapcsolják.\r",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 218,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165625647931392",
+      "collection": "UI",
+      "key": "gacha_cult_description",
+      "source": "Они молились не о живых. Возможно, их мольба наконец нашла отклик, и мир стал тише.\n",
+      "target": "Nem az élőkért imádkoztak. Talán könyörgésük végre meghallgatásra talált, és a világ elcsendesedett.\n",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 219,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165663648325632",
+      "collection": "UI",
+      "key": "gacha_fema_description",
+      "source": "Тебя увезли под сирены, оставив все воспоминания в старом доме. Вот бы вернуться, чтобы забрать плакат с собой. \r",
+      "target": "Szirénák hangja mellett vittek el, minden emlékedet a régi házban hagytad. Bárcsak visszamehetnél a plakátért. \r",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 220,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165680962412544",
+      "collection": "UI",
+      "key": "gacha_super_description",
+      "source": "Его тень только перешагнула порог, и дом опустел. Так бывает иногда в жизни: от тебя остаются только слухи. \r\n",
+      "target": "Az árnyéka még épp csak átlépte a küszöböt, és a ház kiürült. Néha ilyen az élet: csak pletykák maradnak utánad. \r\n",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 221,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165713078198272",
+      "collection": "UI",
+      "key": "gacha_killer_description",
+      "source": "Каждый встречный казался тебе врагом. Страх только ослеплял, а люди лишь довели начатое до конца.\r",
+      "target": "Minden szembejövő ellenségnek tűnt. A félelem elvakított, az emberek pedig csak befejezték, amit elkezdtek.\r",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 222,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165741096148992",
+      "collection": "UI",
+      "key": "gacha_mushroom_description",
+      "source": "Грибы поднимались из земли, строя чужие города. Ты спешил, но двери в их мир уже закрылись.",
+      "target": "A gombák előtörtek a földből, idegen városokat emelve. Siettél, de a világukba vezető ajtók már bezárultak.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 223,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165774780604416",
+      "collection": "UI",
+      "key": "gacha_rage_description",
+      "source": "Один суд закончился, чтобы начался другой. Теперь в глазах толпы ты — тот, кого должны бояться. ",
+      "target": "Az egyik ítélkezés véget ért, hogy egy másik kezdődjék. A tömeg szemében most te vagy az, akitől félniük kell. ",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 224,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165792199548928",
+      "collection": "UI",
+      "key": "gacha_death_description",
+      "source": "Только стоит сделать этот тяжёлый шаг за черту, и всё, чего ты боялся, перестало иметь вес. Время исчезло, оставив за собой лишь холод, похожий на утешение.",
+      "target": "Elég volt megtenni azt a nehéz lépést a határon túlra, és mindaz, amitől féltél, elvesztette jelentőségét. Az idő eltűnt, csak vigaszra emlékeztető hideget hagyott maga után.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 225,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:124348878002024448",
+      "collection": "UI",
+      "key": "calendar_day_31",
+      "source": "Сплетнославие",
+      "target": "Pletykadicsőítés",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 226,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78987670541029376",
+      "collection": "UI",
+      "key": "message_nail_up_window_1",
+      "source": "Надо защититься. Все способы хороши.",
+      "target": "Meg kell védenem magam. Minden eszköz jó.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 227,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78987749125509120",
+      "collection": "UI",
+      "key": "message_nail_up_window_2",
+      "source": "Если приложить все усилия, выжить можно.\r\nЭтот мир уже проклят.\r",
+      "target": "Ha mindent megteszek, túlélhetem.\r\nEz a világ már átkozott.\r",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 228,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78988993487425536",
+      "collection": "UI",
+      "key": "message_need_to_nail_up_windows",
+      "source": "Надо заколотить окна. Дальше только хуже, но надо попробовать спастись.",
+      "target": "Be kell deszkáznom az ablakokat. Innen csak rosszabb lesz, de meg kell próbálnom életben maradni.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 229,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+      "collection": "UI",
+      "key": "consumable_povistka_name",
+      "source": "Явка в КЧС",
+      "target": "Megjelenés a KCsSz-nél",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 230,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128370639113281536",
+      "collection": "UI",
+      "key": "consumable_bobeer_name",
+      "source": "Пиво",
+      "target": "Sör",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 231,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+      "collection": "UI",
+      "key": "consumable_catfood_name",
+      "source": "Кошачий корм",
+      "target": "Macskaeledel",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 232,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128645536196583424",
+      "collection": "UI",
+      "key": "gacha_locked_ending",
+      "source": "Концовка ещё не разблокирована",
+      "target": "Ez a befejezés még nincs feloldva",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 233,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131611744537665536",
+      "collection": "UI",
+      "key": "common_sureToCloseSave",
+      "source": "Вы уверены, что хотите выйти?\nПрогресс будет сохранён.\n",
+      "target": "Biztosan ki akarsz lépni?\nA játékállás mentve lesz.\n",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 234,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:131613735687020544",
+      "collection": "UI",
+      "key": "Common_SaveAndQuit",
+      "source": "Сохранение и выход на рабочий стол \n",
+      "target": "Mentés és kilépés az asztalra \n",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 235,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:139881039264735232",
+      "collection": "UI",
+      "key": "control_key_SpeedUp",
+      "source": "Ускорить",
+      "target": "Gyorsítás",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 236,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:164644497961066496",
+      "collection": "UI",
+      "key": "gacha_alone_description",
+      "source": "Пока мир наверху умирает, ты остался наедине с обломками собственной жизни. Разрушенное погребено навсегда, и ты — вместе с ним.",
+      "target": "Miközben odafent haldoklik a világ, magadra maradtál saját életed romjaival. Ami összetört, örökre el van temetve, és te is vele együtt.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 237,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "collection": "UI",
+      "key": "characterName_Unstable",
+      "source": "дёрганый",
+      "target": "ideges fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "finding"
+    },
+    {
+      "ordinal": 238,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+      "collection": "UI",
+      "key": "characterName_Rocker",
+      "source": "музыкант какой-то",
+      "target": "valami zenész",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 239,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+      "collection": "UI",
+      "key": "characterName_Experienced",
+      "source": "голый мужчина",
+      "target": "meztelen férfi",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 240,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+      "collection": "UI",
+      "key": "characterName_Jacket",
+      "source": "паренёк в куртке",
+      "target": "fiatal fiú kabátban",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 241,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+      "collection": "UI",
+      "key": "characterName_Tough",
+      "source": "женщина в топике",
+      "target": "nő topban",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 242,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+      "collection": "UI",
+      "key": "characterName_Bald",
+      "source": "лысый",
+      "target": "kopasz férfi",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 243,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+      "collection": "UI",
+      "key": "characterName_Nervous",
+      "source": "чудной парень в майке",
+      "target": "furcsa srác trikóban",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 244,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+      "collection": "UI",
+      "key": "characterName_Leper",
+      "source": "мужик с проблемами кожи",
+      "target": "bőrbeteg fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "finding"
+    },
+    {
+      "ordinal": 245,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+      "collection": "UI",
+      "key": "characterName_Fairytaller",
+      "source": "мечтательный студентик",
+      "target": "álmodozó diák",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 246,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+      "collection": "UI",
+      "key": "characterName_FunnyGuy",
+      "source": "волосатый здоровяк",
+      "target": "szőrös nagydarab fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 247,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+      "collection": "UI",
+      "key": "characterName_Alt",
+      "source": "девушка с тату",
+      "target": "tetovált lány",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 248,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+      "collection": "UI",
+      "key": "characterName_Tourist",
+      "source": "парень с загаром",
+      "target": "napbarnított fiú",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 249,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179147632767213568",
+      "collection": "UI",
+      "key": "language_pl",
+      "source": "Polski",
+      "target": "Polski",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 250,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179147632809156608",
+      "collection": "UI",
+      "key": "language_ar",
+      "source": "العربية",
+      "target": "العربية",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 251,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:179157896413650944",
+      "collection": "UI",
+      "key": "language_pt-PT",
+      "source": "Português (Portugal)",
+      "target": "Português (Portugal)",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 252,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193168367047221248",
+      "collection": "UI",
+      "key": "characterName_CultistTwo",
+      "source": "культист",
+      "target": "kultusztag",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 253,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+      "collection": "UI",
+      "key": "characterName_Doc",
+      "source": "доктор",
+      "target": "orvos",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 254,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167156193599488",
+      "collection": "UI",
+      "key": "characterName_Wheelchair",
+      "source": "парень без ног",
+      "target": "láb nélküli fiú",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 255,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:203009390581719040",
+      "collection": "UI",
+      "key": "radio_instruction_main_gamepad",
+      "source": "Чтобы уловить сигнал, нужно крутить правую ручку. Для этого крутите правый стик геймпада по или против часовой стрелки.\n\nСлева — ручка для регулировки громкости.",
+      "target": "A jel befogásához a jobb oldali gombot kell forgatni. Ehhez forgasd a kontroller jobb karját az óramutató járásával megegyező vagy ellentétes irányba.\n\nA bal oldali gombbal a hangerőt állíthatod.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 256,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:203009496299151360",
+      "collection": "UI",
+      "key": "radio_instruction_main2_gamepad",
+      "source": "Если поймать сигнал так и не удалось, попробуйте сменить диапазон волны. Для этого нажмите левый или правый бампер и продолжайте искать нужную вам волну с помощью правого стика.",
+      "target": "Ha így sem sikerül befogni a jelet, próbáld meg átváltani a hullámsávot. Ehhez nyomd meg a bal vagy a jobb vállgombot, majd keresd tovább a kívánt frekvenciát a jobb karral.",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 257,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:229762759966924800",
+      "collection": "UI",
+      "key": "settings_invertYMouse",
+      "source": "Инверс. Y (мышь)",
+      "target": "Y tengely megfordítása (egér)",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 258,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:229762825867829248",
+      "collection": "UI",
+      "key": "settings_invertYGamepad",
+      "source": "Инверс. Y (геймпад)",
+      "target": "Y tengely megfordítása (kontroller)",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "reviewResult": "pass"
+    },
+    {
+      "ordinal": 259,
+      "stableId": "string:389c6d80595013c41b85a7197838c4b6:21377524158749",
+      "collection": "ChecksDialogs",
+      "key": "line:Esenin_Armpit_0a58dc6",
+      "source": "Esenin: Спасибо, что в жопу мне не залез!",
+      "target": "Esenin: Kösz, hogy nem másztál bele a seggembe!",
+      "authoredFile": "Translations/hu/checks-batch-001.json",
+      "reviewResult": "pass"
+    }
+  ],
+  "findings": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+      "reason": "The Russian «раций» means two-way radios or walkie-talkies; «rádiókról» broadens it to ordinary radios in the handwritten radio note.",
+      "proposedTarget": "leszedtem az adóvevőkről a hullámblokkolót\nmenjenek a picsába!",
+      "context": "radio_instruction_pencil; keep the first-person scribble, profanity, and exact newline",
+      "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+      "currentTarget": "leszedtem a rádiókról a hullámblokkolót\nmenjenek a picsába!",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "authoredFileSha256": "3fe99abe561352ad793468aa24751d47557f10e29ef57620eb83d0d6e2477a98"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499724829020160",
+      "reason": "Russian «Празднования» is plural, whereas «ünnepe» is singular in this calendar-day label.",
+      "proposedTarget": "A nyár búcsúztatásának ünnepségei",
+      "context": "calendar_day_12; preserve plural event count",
+      "source": "Празднования ухода лета",
+      "currentTarget": "A nyár búcsúztatásának ünnepe",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "authoredFileSha256": "280776dc7e05622aa2ed9cc402e9067c20fd62d8de4e141fa023c2900170cfd8"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "reason": "«дёрганый» and the approved jerky-man glossary term describe twitchiness; «ideges» only says nervous.",
+      "proposedTarget": "rángatózó férfi",
+      "context": "characterName_Unstable; approved glossary term Rángatózó férfi",
+      "source": "дёрганый",
+      "currentTarget": "ideges fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "authoredFileSha256": "52ef50cf1a8bc7bbab9de124116057ef99cc8467cff0c3816933b63f428f8d1c"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+      "reason": "«мужик с проблемами кожи» says a man with skin problems, while «bőrbeteg» asserts a skin disease; the approved glossary uses Bőrproblémás fickó and warns against a diagnostic inference.",
+      "proposedTarget": "bőrproblémás fickó",
+      "context": "characterName_Leper; no unsupported diagnosis",
+      "source": "мужик с проблемами кожи",
+      "currentTarget": "bőrbeteg fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "authoredFileSha256": "52ef50cf1a8bc7bbab9de124116057ef99cc8467cff0c3816933b63f428f8d1c"
+    }
+  ],
+  "pendingCorrectionBatch": "semantic-correction-batch-01.json",
+  "status": "reviewed, findings pending adjudication; no authored correction applied"
+}

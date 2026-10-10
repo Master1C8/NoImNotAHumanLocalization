@@ -1,0 +1,50 @@
+[
+  {
+    "closureOrdinalZeroBased": 380,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+    "source": "Alt: Хорошо. {0} подойдёт?",
+    "currentTarget": "Alt: טוב. {0} יספיק?",
+    "proposedFullTarget": "Alt: טוב. אפשר להסתדר עם {0}?",
+    "reason": "The actual PeekDeficitItem / LocalizeItem domain includes feminine Cigarette and Kombucha labels. יספיק agrees as masculine directly with the inserted label. Ask about suitability without gendering the item."
+  },
+  {
+    "closureOrdinalZeroBased": 410,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740994",
+    "source": "Experienced: Мне не по душе {0}.",
+    "currentTarget": "Experienced: {0} לא מוצא חן בעיניי.",
+    "proposedFullTarget": "Experienced: {0} לא לטעמי.",
+    "reason": "The GetCharacterOnPlace argument is Experienced, whose place-12 alternatives include Daughter and BigLebowski, both female. Fixed masculine מוצא does not agree with their feminine UI labels. The full replacement retains his dislike of the occupant."
+  },
+  {
+    "closureOrdinalZeroBased": 500,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+    "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+    "currentTarget": "Fatman: לעזאזל, יש אצלך… {0}. תעיף אותם קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+    "proposedFullTarget": "Fatman: לעזאזל, יש אצלך… {0}. תעיף מפה, קיבינימט! אני לא מוכן ללכת מכות… בשביל אמבטיה.",
+    "reason": "The actual GetCharacterOnPlace(Fatman) domain at place 41 includes single occupants Widow, FormerFema and Tourist. אותם makes the singular occupant plural; the Russian imperative in this display unit does not specify a plural object. Keep the imperative and omit the gender/number-specific object."
+  },
+  {
+    "closureOrdinalZeroBased": 1643,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454044852228",
+    "source": "Leper: Ёбаный свет…",
+    "currentTarget": "Leper: האור המזוין…",
+    "proposedFullTarget": "Leper: כוס אמק…",
+    "reason": "Ёбаный свет is an exasperated curse here, immediately after a gun threat and before Ты меня так до инфаркта доведёшь. האור המזוין is a literal noun phrase about light, which introduces a different referent. Retain the coarse interjection."
+  },
+  {
+    "closureOrdinalZeroBased": 1648,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454036463622",
+    "source": "Leper: Ёбаный свет, ты что?",
+    "currentTarget": "Leper: האור המזוין, מה יש לך?",
+    "proposedFullTarget": "Leper: כוס אמק, מה יש לך?",
+    "reason": "In Leper_Teeth_Gun, SetupGun true precedes this frightened curse. Ёбаный свет is an expletive, not literal light. Keep the player-directed question and the coarse interjection."
+  },
+  {
+    "closureOrdinalZeroBased": 294,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457719062532",
+    "source": "Повт…ряю, код 451 от…еняется. Сожжение тру…ов недопуст…мо для сдерж…вания угрозы от субъ…кта………",
+    "currentTarget": "אני חו…זר, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+    "proposedFullTarget": "אח…זור, קוד 451 מבו…טל. שרפת גו…פות אינה מתא…ימה לבל…ימת האיום מצד הי…שות………",
+    "reason": "The approved radio-day-12-dispatcher role has unspecified sex, and Повт…ряю does not specify sex. אני חו…זר assigns masculine speaker agreement. The first-person formula אחזור expresses the repetition without specifying speaker sex; preserve the correctly restored entity referent, protocol 451 and transmission interruptions."
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    14080,
+    14879
+  ],
+  "findingGroups": 11,
+  "affectedUnits": 12,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0176",
+      "objectiveReason": "выбью глаз explicitly threatens to knock out the player's eye; nitakupiga jichoni only threatens to hit the eye and softens the threatened injury.",
+      "affected": [
+        {
+          "sourceIndex": 14100,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452581040133",
+          "key": "line:BigLebowski_Eyes_01970dc",
+          "source": "BigLebowski: Напоминаю. Если что стрёмное задумал, то я тебе глаз выбью сама!",
+          "currentTarget": "BigLebowski: Nakukumbusha: ukipanga jambo baya, nitakupiga jichoni mwenyewe!",
+          "proposedTarget": "BigLebowski: Nakukumbusha: ukipanga jambo baya, nitakung’oa jicho mwenyewe!",
+          "authoredPath": "Translations/sw/dialogue-batch-165.json",
+          "authoredSha256": "c8cd5ad281b148cb27826c51d9039a939625b4783fe3cdf01d6423d2d7784c4c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0177",
+      "objectiveReason": "фанат means a fan of the blood she says he is spilling; mpenzi wake means its lover or beloved and changes her taunt.",
+      "affected": [
+        {
+          "sourceIndex": 14272,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452522319876",
+          "key": "line:Ballerina_Eyes_Gun_0d4f521",
+          "source": "Ballerina: Ты же её льёшь тут, я думала, ты… фанат.",
+          "currentTarget": "Ballerina: Wewe unaimwaga damu hapa, nilidhani wewe ni… mpenzi wake.",
+          "proposedTarget": "Ballerina: Wewe unamwaga damu hapa, nilidhani wewe ni… shabiki wa damu.",
+          "authoredPath": "Translations/sw/dialogue-batch-166.json",
+          "authoredSha256": "547bb2c5f7e1c8ef99559f2e60acca7b2f8bcb5ee72c6d8f3b656a59bfd2fc6b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0178",
+      "objectiveReason": "Заёба is Ballerina's coarse expression of exasperation; usumbufu wa ajabu describes an odd inconvenience and removes her established crude voice.",
+      "affected": [
+        {
+          "sourceIndex": 14313,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452509736970",
+          "key": "line:Ballerina_Hands_06c37a9",
+          "source": "Ballerina: Заёба какая-то.",
+          "currentTarget": "Ballerina: Huu ni usumbufu wa ajabu.",
+          "proposedTarget": "Ballerina: Huu ni usumbufu wa kishenzi.",
+          "authoredPath": "Translations/sw/dialogue-batch-166.json",
+          "authoredSha256": "547bb2c5f7e1c8ef99559f2e60acca7b2f8bcb5ee72c6d8f3b656a59bfd2fc6b"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0179",
+      "objectiveReason": "мегарадужкой describes an enormous iris in the eye-shaped ear plug; mboni identifies the pupil, a different anatomical feature.",
+      "affected": [
+        {
+          "sourceIndex": 14422,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452471988225",
+          "key": "line:Dude_Ears_DontShoot_0ebd870",
+          "source": "Dude: Там у меня была крутая плага. Такой здоровенный глаз с мегарадужкой.",
+          "currentTarget": "Dude: Nilikuwa na kipanuzi kizuri sana humo. Jicho kubwa lenye mboni kubwa mno.",
+          "proposedTarget": "Dude: Nilikuwa na kipanuzi kizuri sana humo. Jicho kubwa lenye irisi kubwa ajabu.",
+          "authoredPath": "Translations/sw/dialogue-batch-167.json",
+          "authoredSha256": "4d228f31844ed8e809283304862f29bd402bcdb33af4ec23cab6de14f3ba36f2"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0180",
+      "objectiveReason": "Мистика describes the uncanny image of bones protruding inside a mouth; Miujiza says miracles, a positive supernatural event rather than the eerie perception.",
+      "affected": [
+        {
+          "sourceIndex": 14440,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452459405320",
+          "key": "line:Dude_Teeth_DontShoot_08460d0",
+          "source": "Dude: Прикинь, у тебя во рту торчат кости. Мистика, блин. Я тогда аж боялся рот открыть.",
+          "currentTarget": "Dude: Fikiria, kuna mifupa inayojitokeza ndani ya mdomo wako. Miujiza, jamani. Wakati ule niliogopa hata kufungua mdomo.",
+          "proposedTarget": "Dude: Fikiria, kuna mifupa inayojitokeza ndani ya mdomo wako. Inatisha kama uchawi, jamani. Wakati ule niliogopa hata kufungua mdomo.",
+          "authoredPath": "Translations/sw/dialogue-batch-167.json",
+          "authoredSha256": "4d228f31844ed8e809283304862f29bd402bcdb33af4ec23cab6de14f3ba36f2"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0181",
+      "objectiveReason": "меня палили says people spotted or noticed his red eyes; nimekamatwa says he was arrested, introducing a police outcome absent from this general line.",
+      "affected": [
+        {
+          "sourceIndex": 14484,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452442628097",
+          "key": "line:Dude_Eyes_0b0cab9",
+          "source": "Dude: Красные, да? Ха, привык уже. Ты бы знал, сколько раз меня палили из-за этого.",
+          "currentTarget": "Dude: Ni mekundu, sivyo? Ha, nimezoea. Laiti ungejua mara ngapi nimekamatwa kwa sababu hiyo.",
+          "proposedTarget": "Dude: Ni mekundu, sivyo? Ha, nimezoea. Laiti ungejua mara ngapi watu walinigundua kwa sababu hiyo.",
+          "authoredPath": "Translations/sw/dialogue-batch-168.json",
+          "authoredSha256": "610096f29fcb06bc9f97fb810b8cddb48a4458cbc25df565f0a277e155198277"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0182",
+      "objectiveReason": "закладку in Dude's drug context is a hidden drug stash; kifurushi cha dawa reads as a package of medicine and loses the illicit stash meaning.",
+      "affected": [
+        {
+          "sourceIndex": 14494,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452438433793",
+          "key": "line:Dude_Hands_076adb3",
+          "source": "Dude: Я, это, закладку недавно искал. Соррян за грязь под ногтями.",
+          "currentTarget": "Dude: Nilikuwa natafuta kifurushi cha dawa hivi majuzi. Samahani kwa uchafu chini ya kucha.",
+          "proposedTarget": "Dude: Nilikuwa natafuta dawa za kulevya nilizoficha hivi majuzi. Samahani kwa uchafu chini ya kucha.",
+          "authoredPath": "Translations/sw/dialogue-batch-168.json",
+          "authoredSha256": "610096f29fcb06bc9f97fb810b8cddb48a4458cbc25df565f0a277e155198277"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0183",
+      "objectiveReason": "смертных means mortals; walio hai means the living and contrasts with dead people, not immortal beings.",
+      "affected": [
+        {
+          "sourceIndex": 14520,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452425850886",
+          "key": "line:Blind_Photo_DontShoot_03eeb7b",
+          "source": "Blind: Это только повысит ЕГО силу и воздействие на смертных!",
+          "currentTarget": "Blind: Hilo litaongeza tu NGUVU ZAKE na ushawishi Wake kwa walio hai!",
+          "proposedTarget": "Blind: Hilo litaongeza tu NGUVU ZAKE na ushawishi Wake kwa wanadamu wenye kufa!",
+          "authoredPath": "Translations/sw/dialogue-batch-168.json",
+          "authoredSha256": "610096f29fcb06bc9f97fb810b8cddb48a4458cbc25df565f0a277e155198277"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0184",
+      "objectiveReason": "сука directly insults the dentist in Fatman's quoted outburst; the target omits the insult and weakens his aggressive characterization.",
+      "affected": [
+        {
+          "sourceIndex": 14619,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102145",
+          "key": "line:Fatman_Teeth_DontShoot_008f8e4",
+          "source": "Fatman: Когда-то мне стоматолог говорил: бросай, а то зубы посыпятся. А я ему: «Ты, сука, вообще понимаешь, с чем я дело имею?!»",
+          "currentTarget": "Fatman: Zamani daktari wa meno aliniambia: acha sigara, meno yataanguka. Nikamwambia: «Wewe unaelewa hata ninayoshughulikia?!»",
+          "proposedTarget": "Fatman: Zamani daktari wa meno aliniambia: acha sigara, meno yataanguka. Nikamwambia: «Wewe, mshenzi, unaelewa hata ninayoshughulikia?!»",
+          "authoredPath": "Translations/sw/dialogue-batch-169.json",
+          "authoredSha256": "15a991da3a5184d6d515545114156cc6ba17f78f785f1822882739f51710c91e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0185",
+      "objectiveReason": "выбили says the teeth were knocked out in an assault; yaling’olewa says they were pulled or extracted, changing how Buddy lost them.",
+      "affected": [
+        {
+          "sourceIndex": 14704,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452354547713",
+          "key": "line:Buddy_Teeth_DontShoot_0f36f8d",
+          "source": "Buddy: А потом… Ха, потом их выбили той же ночью. Чисто за улыбку. Смешно, да?",
+          "currentTarget": "Buddy: Kisha… Ha, baadaye yaling’olewa usiku uleule. Kwa kutabasamu tu. Inachekesha, sivyo?",
+          "proposedTarget": "Buddy: Kisha… Ha, usiku uleule walinipiga hadi meno yakang’oka. Kwa kutabasamu tu. Inachekesha, sivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-169.json",
+          "authoredSha256": "15a991da3a5184d6d515545114156cc6ba17f78f785f1822882739f51710c91e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0186",
+      "objectiveReason": "урод/уроды are abusive labels for the people and the player; Mwovu turns the first into a generic evildoer, while majitu in the second evokes literal monsters and linataka changes being shot into intent to shoot.",
+      "affected": [
+        {
+          "sourceIndex": 14877,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452291633154",
+          "key": "line:Fugitive_Death_01153c1",
+          "source": "Fugitive: Урод…",
+          "currentTarget": "Fugitive: Mwovu…",
+          "proposedTarget": "Fugitive: Mshenzi…",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        },
+        {
+          "sourceIndex": 14878,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452291633153",
+          "key": "line:Fugitive_Death_020a6d6",
+          "source": "Fugitive: Блять, сбежал от одних уродов, чтобы меня застрелил другой…",
+          "currentTarget": "Fugitive: Laana, nilikimbia kutoka kwa majitu fulani, kumbe lingine linataka kunipiga risasi…",
+          "proposedTarget": "Fugitive: Laana, nilitoroka mashenzi fulani, ili mshenzi mwingine anipige risasi…",
+          "authoredPath": "Translations/sw/dialogue-batch-171.json",
+          "authoredSha256": "2dde486d8e884a4302939eb3b206479c8d5288ebd469b1da7ad586926b6f83bd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

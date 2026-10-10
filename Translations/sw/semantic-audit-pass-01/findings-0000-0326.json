@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    0,
+    326
+  ],
+  "status": "proposals-collected; not applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0001",
+      "sourceIndex": 56,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "key": "Game_MushroomList",
+      "authoredPath": "Translations/sw/ui-batch-002.json",
+      "kind": "modality and event omission",
+      "objectiveReason": "Russian \"был бы тот, кто ... смог\" is hypothetical, while \"yupo ambaye\" asserts a currently existing figure. Russian \"выходит на поклон\" includes coming out to bow; the target keeps only the bow.",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "currentTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nLeo wameujenga mji,\nUyoga umeota kutoka ardhini kwenye chumba cha chini.\nUlikuwa mkubwa, lakini yupo ambaye\nAngeweza kuumeza.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nKuwapokea wageni ni kazi ya wanyonge.\nUyoga uko juu yetu, binadamu wasioalikwa.\nNi mti wa tufaha pekee utakaowapa wote hifadhi\nNa kuwalisha kwa matunda matamu.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nItakuja siku\nAtakapoinama mbele ya uyoga,\nNa kishale kitaelekea juu.\nHarakisha, rafiki yangu!",
+      "proposedTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nLeo wameujenga mji,\nUyoga umeota kutoka ardhini kwenye chumba cha chini.\nUlikuwa mkubwa, lakini angekuwapo mmoja\nAmbaye angeweza kuumeza.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nKuwapokea wageni ni kazi ya wanyonge.\nUyoga uko juu yetu, binadamu wasioalikwa.\nNi mti wa tufaha pekee utakaowapa wote hifadhi\nNa kuwalisha kwa matunda matamu.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nItakuja siku\nAtakapotoka na kuinama mbele ya uyoga,\nNa kishale kitaelekea juu.\nHarakisha, rafiki yangu!",
+      "proposalStatus": "for full-pass correction batch; no draft edit yet",
+      "structuralPreflight": "TMP tags, ordered digits, and line-break sequence match source; runtime/layout not checked"
+    }
+  ]
+}

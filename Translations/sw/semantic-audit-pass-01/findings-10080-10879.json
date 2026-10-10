@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    10080,
+    10879
+  ],
+  "findingGroups": 13,
+  "affectedUnits": 14,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0122",
+      "objectiveReason": "Считай marks the Scammer's self-serving assumption that the debt can be treated as gone; sasa sina madeni tena states as fact that he has no debts, even though he has just speculated that banks may disappear.",
+      "affected": [
+        {
+          "sourceIndex": 10094,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454468476934",
+          "key": "line:Scammer_Asking_2_0474369",
+          "source": "Scammer: Пффф. Забудь про них. Считай, у меня больше нет долгов. Солнце чисто зарешало.",
+          "currentTarget": "Scammer: Pah. Yasahau hayo. Sasa sina madeni tena. Jua limeyamaliza tu.",
+          "proposedTarget": "Scammer: Pah. Yasahau hayo. Unaweza kusema sina madeni tena. Jua limeyamaliza tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-134.json",
+          "authoredSha256": "319e74efe54051a93bb06cc8e55f029572e9c59cce91b00cf80383bab9522598"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0123",
+      "objectiveReason": "Занял у кого-нибудь means borrow money from someone as the solution to having none; omba mkopo is only to ask for a loan, with no borrowing accomplished.",
+      "affected": [
+        {
+          "sourceIndex": 10112,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454464282625",
+          "key": "line:Scammer_Asking_1_2_0a132ad",
+          "source": "Scammer: А если денег нет, то это вообще не проблема. Занял у кого-нибудь, да и всё.",
+          "currentTarget": "Scammer: Na kama huna pesa, hakuna tatizo. Omba mkopo kwa mtu, basi.",
+          "proposedTarget": "Scammer: Na kama huna pesa, hakuna tatizo. Kopa kwa mtu, basi.",
+          "authoredPath": "Translations/sw/dialogue-batch-134.json",
+          "authoredSha256": "319e74efe54051a93bb06cc8e55f029572e9c59cce91b00cf80383bab9522598"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0124",
+      "objectiveReason": "долбоёбов calls the morgue staff incompetent fools whose disorder lets her enter; wahuni calls them delinquents instead, changing the Widow's accusation.",
+      "affected": [
+        {
+          "sourceIndex": 10166,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454439116808",
+          "key": "line:Widow_Asking_4_3_0af8290",
+          "source": "Widow: У таких долбоëбов вечно бардак, поэтому мне достаточно было нацепить халат врачей и пройти в морг.",
+          "currentTarget": "Widow: Wahuni kama hao wana fujo daima, kwa hiyo ilinibidi tu kuvaa koti la daktari na kuingia chumba cha maiti.",
+          "proposedTarget": "Widow: Wapumbavu kama hao huwa na vurugu kila wakati, kwa hiyo ilinibidi tu kuvaa koti la daktari na kuingia chumba cha maiti.",
+          "authoredPath": "Translations/sw/dialogue-batch-135.json",
+          "authoredSha256": "a80936bf0380130213bfdeca64de7b0dae8228f08fcb1aac13082f0567268974"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0125",
+      "objectiveReason": "пиздец and пугает до усрачки express Esenin's coarse, extreme distress, including the explicit fear-of-soiling-himself image. The target replaces both with neutral descriptions of fear.",
+      "affected": [
+        {
+          "sourceIndex": 10277,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454388785161",
+          "key": "line:Esenin_Asking_5_0068548",
+          "source": "Esenin: Это какой-то пиздец. Меня всё пугает до усрачки.",
+          "currentTarget": "Esenin: Haya ni mambo ya kutisha. Kila kitu kinanitisha kupita kiasi.",
+          "proposedTarget": "Esenin: Haya ni maafa ya kishenzi. Kila kitu kinanitisha hadi nahisi nitajinyea.",
+          "authoredPath": "Translations/sw/dialogue-batch-136.json",
+          "authoredSha256": "f81ded38624d1e5fa3fa400d2ccf0b9870fa78a88d56979626e1ffdf8019afa9"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0126",
+      "objectiveReason": "Съеби is a rude command to get lost, deliberately juxtaposed with пожалуйста; tafadhali niondokee makes the whole dismissal polite and loses his abrupt register.",
+      "affected": [
+        {
+          "sourceIndex": 10312,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454376202251",
+          "key": "line:Esenin_Asking_3_2_01de29d",
+          "source": "Esenin: Съеби, пожалуйста. Нехорошо мне.",
+          "currentTarget": "Esenin: Tafadhali niondokee. Sijisikii vizuri.",
+          "proposedTarget": "Esenin: Tokomea, tafadhali. Sijisikii vizuri.",
+          "authoredPath": "Translations/sw/dialogue-batch-136.json",
+          "authoredSha256": "f81ded38624d1e5fa3fa400d2ccf0b9870fa78a88d56979626e1ffdf8019afa9"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0127",
+      "objectiveReason": "обосранных штанов explicitly evokes pants soiled with excrement; kujiletea aibu na matatizo substitutes an abstract sense of shame and trouble and removes the image.",
+      "affected": [
+        {
+          "sourceIndex": 10320,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454376202243",
+          "key": "line:Esenin_Asking_3_1_0fcd0e2",
+          "source": "Esenin: Как будто мы ну никак не можем жить без обосранных штанов.",
+          "currentTarget": "Esenin: Ni kana kwamba hatuwezi kuishi bila kujiletea aibu na matatizo.",
+          "proposedTarget": "Esenin: Ni kana kwamba hatuwezi kuishi bila kujinyea suruali.",
+          "authoredPath": "Translations/sw/dialogue-batch-137.json",
+          "authoredSha256": "047508508691d5492e1eeefc1d3473e741ed6e16273235e870d94d28f6b87ea9"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0128",
+      "objectiveReason": "солод is malt, not unprocessed barley; shayiri names barley and loses the beer ingredient in Esenin's line.",
+      "affected": [
+        {
+          "sourceIndex": 10345,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454367813634",
+          "key": "line:Esenin_Asking_1_088ed13",
+          "source": "Esenin: Слёзы в пене помехой не будут, хмель и солод с солёным вкуснее.",
+          "currentTarget": "Esenin: Machozi katika povu hayataharibu bia; humle na shayiri huwa tamu zaidi zikiwa na chumvi.",
+          "proposedTarget": "Esenin: Machozi katika povu hayataharibu bia; humle na kimea cha shayiri huwa vitamu zaidi vikiwa na chumvi.",
+          "authoredPath": "Translations/sw/dialogue-batch-137.json",
+          "authoredSha256": "047508508691d5492e1eeefc1d3473e741ed6e16273235e870d94d28f6b87ea9"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0129",
+      "objectiveReason": "угостишь asks the player to offer/share beer as a treat; utaninunulia asks the player to buy him a drink, changing the item handoff into a purchase.",
+      "affected": [
+        {
+          "sourceIndex": 10523,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454304899078",
+          "key": "line:Fanatic_Asking_3_044dd4f",
+          "source": "Fanatic: Может, угостишь напоследок, человек?",
+          "currentTarget": "Fanatic: Labda utaninunulia kinywaji cha mwisho, Binadamu?",
+          "proposedTarget": "Fanatic: Labda utanipa bia moja ya mwisho, Binadamu?",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0130",
+      "objectiveReason": "обоссанных specifies urine-soaked heretics/rags in the Fanatic's repeated rant; waliochafuka and matambara machafu only say dirty, losing the repeated grotesque urine image.",
+      "affected": [
+        {
+          "sourceIndex": 10536,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454300704773",
+          "key": "line:Fanatic_Asking_2_2_08ff254",
+          "source": "Fanatic: СМЕРТЬ ИММИГРАНТАМ ПОДЗЕМНЫМ!!! СМЕРТЬ ОБОССАННЫМ ЕРЕТИКАМ!!! СМЕРТЬ ГРЕШНИКАМ!!!",
+          "currentTarget": "Fanatic: KIFO KWA WAGENI WA CHINI YA ARDHI!!! KIFO KWA WAZUSHI WALIOCHAFUKA!!! KIFO KWA WENYE DHAMBI!!!",
+          "proposedTarget": "Fanatic: KIFO KWA WAGENI WA CHINI YA ARDHI!!! KIFO KWA WAZUSHI WALIOVAA MATAMBAA YALIYOLOWA MKOJO!!! KIFO KWA WENYE DHAMBI!!!",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        },
+        {
+          "sourceIndex": 10539,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454300704770",
+          "key": "line:Fanatic_Asking_2_2_09e26fb",
+          "source": "Fanatic: Проявляет еретиков в обоссанных тряпках, что стыдливо прячутся под масками.",
+          "currentTarget": "Fanatic: Linafichua wazushi waliovaa matambara machafu wanaojificha nyuma ya vinyago.",
+          "proposedTarget": "Fanatic: Linafichua wazushi waliovaa matambara yaliyolowa mkojo, wanaojificha kwa aibu nyuma ya vinyago.",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0131",
+      "objectiveReason": "вассалы means subordinate vassals, while watumwa asserts the Visitors were slaves, a different social relationship in the Fanatic's origin story.",
+      "affected": [
+        {
+          "sourceIndex": 10585,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454283927555",
+          "key": "line:Fanatic_Asking_1_1_041eae0",
+          "source": "Fanatic: ЧЁРТОВЫ ВАССАЛЫ, которых поселили в землю, и те взращивались ВЕКАМИ!",
+          "currentTarget": "Fanatic: WATUMWA WA KULANIWA waliowekwa ardhini na kukuzwa huko kwa KARNE NYINGI!",
+          "proposedTarget": "Fanatic: WAVASALI WA KULANIWA waliowekwa ardhini na kukuzwa huko kwa KARNE NYINGI!",
+          "authoredPath": "Translations/sw/dialogue-batch-139.json",
+          "authoredSha256": "adb997c05b8a08780e8ef0bf8d9374f4550fd87d4e7808b696fa712e028b837e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0132",
+      "objectiveReason": "Я еле могу с кровати подняться describes the Mother's present inability to get out of bed; Sikuweza casts this in the past, changing her current condition.",
+      "affected": [
+        {
+          "sourceIndex": 10738,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454229401610",
+          "key": "line:Mother_Asking_3_0e0d932",
+          "source": "Mother: Что? Да куда там… Я еле могу с кровати подняться. Всё болит, сил вообще нет. Иногда кажется, что живу только за счёт злости.",
+          "currentTarget": "Mother: Nini? Sikuweza hata kuinuka kitandani kwa urahisi. Kila kitu kinauma na sina nguvu. Wakati mwingine nahisi ninaishi kwa nguvu ya hasira tu.",
+          "proposedTarget": "Mother: Nini? Haiwezekani… Ni vigumu hata kuinuka kitandani. Kila kitu kinauma, sina nguvu kabisa. Wakati mwingine nahisi ninaishi kwa hasira tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-141.json",
+          "authoredSha256": "b2610affa1ee1c1a0a8b2f68e258884c353769bc80c922d158d2b8b5a98d92cd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0133",
+      "objectiveReason": "Чего мучить тебя asks why he should torment the listener with the account; nikuchokeshe only asks why he should bore or tire them, softening the intended distress.",
+      "affected": [
+        {
+          "sourceIndex": 10755,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454225207301",
+          "key": "line:Wheelchair_Asking_5_2_0a52af4",
+          "source": "WheelChair: Ну, я и не стану рассказывать. Чего мучить тебя?",
+          "currentTarget": "WheelChair: Basi sitakusimulia. Kwa nini nikuchokeshe?",
+          "proposedTarget": "WheelChair: Basi sitakusimulia. Kwa nini nikuteshe?",
+          "authoredPath": "Translations/sw/dialogue-batch-141.json",
+          "authoredSha256": "b2610affa1ee1c1a0a8b2f68e258884c353769bc80c922d158d2b8b5a98d92cd"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0134",
+      "objectiveReason": "ГОНЩИКА means a racer of the wheelchair, while MKIMBIAJI means a runner, contradicting his joke that wheels replace his legs.",
+      "affected": [
+        {
+          "sourceIndex": 10822,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454200041482",
+          "key": "line:Wheelchair_Asking_2_2_0936188",
+          "source": "WheelChair: Всё из-за того, что у меня вместо ног колёса великого ГОНЩИКА?",
+          "currentTarget": "WheelChair: Yote ni kwa sababu badala ya miguu nina magurudumu ya MKIMBIAJI mkuu?",
+          "proposedTarget": "WheelChair: Yote ni kwa sababu badala ya miguu nina magurudumu ya BINGWA WA MBIO?",
+          "authoredPath": "Translations/sw/dialogue-batch-142.json",
+          "authoredSha256": "6fb04b3822f3f40067460e768c5e01c9fafbd5587613707bdac63dd756c8102f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

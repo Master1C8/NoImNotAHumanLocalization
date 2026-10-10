@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-02",
+  "createdAtUtc": "2026-10-09T18:23:13.825348+00:00",
+  "reviewFindingsSha256": "c1f30b142f670c567eb990bb1b9ba0a8aa22e202a0f46736827fa003f7365a55",
+  "range": [
+    1,
+    20
+  ],
+  "findingGroups": 20,
+  "units": 20,
+  "acceptedUnits": 20,
+  "items": [
+    {
+      "ordinal": 1,
+      "findingId": "sw-independent-0001",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572547771355136",
+      "key": "consumable_kombucha_narrativeDescription",
+      "collection": "UI",
+      "source": "Это вообще мой любимый гриб. От него я чувствую себя хорошо, лучше работает память. Напоминает о хороших временах.",
+      "oldTarget": "Kwa kweli huu ndio uyoga ninaoupenda zaidi. Huninifanya nijisikie vizuri na kuboresha kumbukumbu yangu. Hunikumbusha nyakati nzuri.",
+      "reviewerProposedFullTarget": "Kwa kweli huu ndio uyoga ninaoupenda zaidi. Hunifanya nijisikie vizuri na huboresha kumbukumbu yangu. Hunikumbusha nyakati nzuri.",
+      "decision": "accept",
+      "selectedFullTarget": "Kwa kweli huu ndio uyoga ninaoupenda zaidi. Hunifanya nijisikie vizuri na huboresha kumbukumbu yangu. Hunikumbusha nyakati nzuri.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/ui-batch-002.json",
+      "authoredSha256": "b86b86ddf9f9e5b57a75f1df03f7dc11bed5f8ec0eb59fa76376f8256f1b0682",
+      "compiledConsumers": [],
+      "sourceNodeNames": [],
+      "originEvidence": "findings-01.json"
+    },
+    {
+      "ordinal": 2,
+      "findingId": "sw-independent-0090",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457870057475",
+      "key": "line:pantry_box_096775c",
+      "collection": "Dialogs",
+      "source": "Он тогда сказал: «Когда меня не станет – сам решишь, смотреть или нет в эту коробку».",
+      "oldTarget": "Wakati ule alisema: «Nisipoendelea kuwepo, utaamua mwenyewe kama utalitazama sanduku hili au la».",
+      "reviewerProposedFullTarget": "Wakati ule alisema: «Nisipoendelea kuwepo, utaamua mwenyewe kama utaangalia ndani ya sanduku hili au la».",
+      "decision": "accept",
+      "selectedFullTarget": "Wakati ule alisema: «Nisipoendelea kuwepo, utaamua mwenyewe kama utaangalia ndani ya sanduku hili au la».",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-005.json",
+      "authoredSha256": "1df165b98e8ec221ddd31859c20383ddc76282d1088298a85413de26522e404c",
+      "compiledConsumers": [
+        [
+          "pantry_box",
+          0
+        ]
+      ],
+      "sourceNodeNames": [
+        "pantry_box"
+      ],
+      "originEvidence": "findings-38.json"
+    },
+    {
+      "ordinal": 3,
+      "findingId": "sw-independent-0091",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457807142918",
+      "key": "line:phone_anger_X_006a667",
+      "collection": "Dialogs",
+      "source": "Phone: Вы, наверное, не в курсе, но он уже просил других извиняться за себя.",
+      "oldTarget": "Phone: Labda hujui, lakini tayari amewataka watu wengine kuniombea msamaha kwa niaba yake.",
+      "reviewerProposedFullTarget": "Phone: Labda hujui, lakini tayari amewataka watu wengine kuniomba msamaha kwa niaba yake.",
+      "decision": "accept",
+      "selectedFullTarget": "Phone: Labda hujui, lakini tayari amewataka watu wengine kuniomba msamaha kwa niaba yake.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-009.json",
+      "authoredSha256": "70d2e3cc0baf838e9b0f1c456c2df52eff0912c16883ab1781c220255a32a106",
+      "compiledConsumers": [
+        [
+          "phone_angerswife_X",
+          0
+        ]
+      ],
+      "sourceNodeNames": [
+        "phone_angerswife_X"
+      ],
+      "originEvidence": "findings-39.json"
+    },
+    {
+      "ordinal": 4,
+      "findingId": "sw-independent-0005",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457677119490",
+      "key": "line:window_4_3_02cd506",
+      "collection": "Dialogs",
+      "source": "Window: Голову переполнили тревожные мысли, и вас охватило чувство непонимания и беспомощности.",
+      "oldTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kushindwa kusaidia.",
+      "reviewerProposedFullTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kutokuwa na uwezo wa kufanya lolote.",
+      "decision": "accept",
+      "selectedFullTarget": "Window: Mawazo ya wasiwasi yamejaa kichwani mwako, nawe unahisi kuchanganyikiwa na kutokuwa na uwezo wa kufanya lolote.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-014.json",
+      "authoredSha256": "4b7c3f878e14a2326cea32cb9796542fd001581d9c469483b4bd38de45edf918",
+      "compiledConsumers": [
+        [
+          "window_4_3",
+          5
+        ]
+      ],
+      "sourceNodeNames": [
+        "window_4_3"
+      ],
+      "originEvidence": "findings-02.json"
+    },
+    {
+      "ordinal": 5,
+      "findingId": "sw-independent-0007",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "key": "line:entrance_bald_0b08f06",
+      "collection": "Dialogs",
+      "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+      "oldTarget": "Bald: Hapo awali nilikuwa nikiishi hapa na mama na baba, lakini wadai wa madeni walitufukuza katika nyumba yetu. Ni hadithi mbaya sana. Ukiniruhusu niingie, nitakusimulia siku nyingine.",
+      "reviewerProposedFullTarget": "Bald: Hapo awali nilikuwa nikiishi hapa na mama na bibi, lakini wadai wa madeni walitufukuza katika nyumba yetu. Ni hadithi mbaya sana. Ukiniruhusu niingie, nitakusimulia siku nyingine.",
+      "decision": "accept",
+      "selectedFullTarget": "Bald: Hapo awali nilikuwa nikiishi hapa na mama na bibi, lakini wadai wa madeni walitufukuza katika nyumba yetu. Ni hadithi mbaya sana. Ukiniruhusu niingie, nitakusimulia siku nyingine.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-026.json",
+      "authoredSha256": "fcc2857dbb84c4fbe31ec019e3a9bfbadb1893d4a2b207faca4dd4af577c57be",
+      "compiledConsumers": [
+        [
+          "entrance_bald",
+          3
+        ]
+      ],
+      "sourceNodeNames": [
+        "entrance_bald"
+      ],
+      "originEvidence": "findings-04.json"
+    },
+    {
+      "ordinal": 6,
+      "findingId": "sw-independent-0008",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456943116297",
+      "key": "line:CultistPriest_Entrance_11_2_0707cca",
+      "collection": "Dialogs",
+      "source": "CultistPriest: Знаешь… если Смерть выбрала тебя, то я помогу ей увидеть тебя поближе.",
+      "oldTarget": "CultistPriest: Unajua… ikiwa Kifo kimekuchagua, nitakusaidia kikuone kwa karibu zaidi.",
+      "reviewerProposedFullTarget": "CultistPriest: Unajua… ikiwa Kifo kimekuchagua, nitakisaidia kikuone kwa karibu zaidi.",
+      "decision": "accept",
+      "selectedFullTarget": "CultistPriest: Unajua… ikiwa Kifo kimekuchagua, nitakisaidia kikuone kwa karibu zaidi.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-045.json",
+      "authoredSha256": "78527bd575952a1790d47691a88a8a65a02c0abebcb0d198a2fc6a6be2372e03",
+      "compiledConsumers": [
+        [
+          "CultistPriest_Entrance_11_TheyDead",
+          2
+        ]
+      ],
+      "sourceNodeNames": [
+        "CultistPriest_Entrance_11_TheyDead"
+      ],
+      "originEvidence": "findings-05.json"
+    },
+    {
+      "ordinal": 7,
+      "findingId": "sw-independent-0010",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456498520071",
+      "key": "line:Buddy_Entrance_4_00fdf44",
+      "collection": "Dialogs",
+      "source": "Buddy: Да и без выпивки смотреть на всё ясным взглядом… Тяжело.",
+      "oldTarget": "Buddy: Na hata kutazama yote haya kwa macho makavu bila pombe… Ni vigumu.",
+      "reviewerProposedFullTarget": "Buddy: Na hata kutazama yote haya kwa akili iliyo wazi bila pombe… Ni vigumu.",
+      "decision": "accept",
+      "selectedFullTarget": "Buddy: Na hata kutazama yote haya kwa akili iliyo wazi bila pombe… Ni vigumu.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-066.json",
+      "authoredSha256": "d27a3e9f11e345cee17d538e663174ca69e5f0f9be669a1185d034ce2abdf832",
+      "compiledConsumers": [
+        [
+          "Buddy_Entrance_4",
+          5
+        ]
+      ],
+      "sourceNodeNames": [
+        "Buddy_Entrance_4"
+      ],
+      "originEvidence": "findings-06.json"
+    },
+    {
+      "ordinal": 8,
+      "findingId": "sw-independent-0011",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456234278914",
+      "key": "line:Entrance_Prophet_3_5_06adbe0",
+      "collection": "Dialogs",
+      "source": "Prophet: Скоро придёт персона с котом. Тебе важно впустить их домой.",
+      "oldTarget": "Prophet: Hivi karibuni atakuja mtu mwenye paka. Ni muhimu umkaribishe nyumbani.",
+      "reviewerProposedFullTarget": "Prophet: Hivi karibuni atakuja mtu mwenye paka. Ni muhimu uwakaribishe wote wawili nyumbani.",
+      "decision": "accept",
+      "selectedFullTarget": "Prophet: Hivi karibuni atakuja mtu mwenye paka. Ni muhimu uwakaribishe wote wawili nyumbani.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-076.json",
+      "authoredSha256": "256a349ecf1caeb559941d2d7de7e961c77056cda94223367fdce6f3c09bb9eb",
+      "compiledConsumers": [
+        [
+          "Entrance_Prophet_3_5",
+          3
+        ]
+      ],
+      "sourceNodeNames": [
+        "Entrance_Prophet_3_5"
+      ],
+      "originEvidence": "findings-07.json"
+    },
+    {
+      "ordinal": 9,
+      "findingId": "sw-independent-0013",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456129421319",
+      "key": "line:AloneEnding_4_090b098",
+      "collection": "Dialogs",
+      "source": "Нет, как и дома.",
+      "oldTarget": "Hapana, sawa tu na nilivyokuwa nyumbani.",
+      "reviewerProposedFullTarget": "Haipo, kama vile nyumba nayo haipo.",
+      "decision": "accept",
+      "selectedFullTarget": "Haipo, kama vile nyumba nayo haipo.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-080.json",
+      "authoredSha256": "545bd0b14f61e7b07a0e0e48b3c9b6d0308d780166fab6c83852d8a13fc3d83b",
+      "compiledConsumers": [
+        [
+          "AloneEnding_4",
+          7
+        ]
+      ],
+      "sourceNodeNames": [
+        "AloneEnding_4"
+      ],
+      "originEvidence": "findings-08.json"
+    },
+    {
+      "ordinal": 10,
+      "findingId": "sw-independent-0016",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456104255493",
+      "key": "line:Vigilante_Entrance_2_FoundImposter_0617ab5",
+      "collection": "Dialogs",
+      "source": "Vigilante: Ах ты сука! Гость ёбаный, думал меня одурачить?",
+      "oldTarget": "Vigilante: Wewe mpuuzi! Ulikuwa Mgeni ukidhani unaweza kunidanganya?",
+      "reviewerProposedFullTarget": "Vigilante: Wewe mpuuzi! Wewe ni Mgeni, ulidhani unaweza kunidanganya?",
+      "decision": "accept",
+      "selectedFullTarget": "Vigilante: Wewe mpuuzi! Wewe ni Mgeni, ulidhani unaweza kunidanganya?",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-080.json",
+      "authoredSha256": "545bd0b14f61e7b07a0e0e48b3c9b6d0308d780166fab6c83852d8a13fc3d83b",
+      "compiledConsumers": [
+        [
+          "Vigilante_Entrance_2_FoundImposter",
+          1
+        ]
+      ],
+      "sourceNodeNames": [
+        "Vigilante_Entrance_2_FoundImposter"
+      ],
+      "originEvidence": "findings-08.json"
+    },
+    {
+      "ordinal": 11,
+      "findingId": "sw-independent-0014",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456100061186",
+      "key": "line:Ending_LivingVisitors_4_09cb707",
+      "collection": "Dialogs",
+      "source": "Сфокусироваться на нём очень сложно.",
+      "oldTarget": "Ni vigumu sana kumkazia macho.",
+      "reviewerProposedFullTarget": "Ni vigumu sana kuikazia macho.",
+      "decision": "accept",
+      "selectedFullTarget": "Ni vigumu sana kuikazia macho.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-081.json",
+      "authoredSha256": "20f6d0e27c4ae5cff2c28777d8bf8f7021cda5644128beccfd153ccb4370f5ac",
+      "compiledConsumers": [
+        [
+          "Ending_LivingVisitors_4",
+          2
+        ]
+      ],
+      "sourceNodeNames": [
+        "Ending_LivingVisitors_4"
+      ],
+      "originEvidence": "findings-08.json"
+    },
+    {
+      "ordinal": 12,
+      "findingId": "sw-independent-0015",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456058118150",
+      "key": "line:entrance_prophet_16_1_0da0d80",
+      "collection": "Dialogs",
+      "source": "Но ты явно что-то делаешь не так. Ты только приблизил смерть.",
+      "oldTarget": "Lakini ni wazi kuna jambo unalofanya vibaya. Umeikaribisha kifo tu.",
+      "reviewerProposedFullTarget": "Lakini ni wazi kuna jambo unalofanya vibaya. Umekikaribisha kifo tu.",
+      "decision": "accept",
+      "selectedFullTarget": "Lakini ni wazi kuna jambo unalofanya vibaya. Umekikaribisha kifo tu.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-082.json",
+      "authoredSha256": "7bc4fd4402a7571af33cdafe86190744257ffcb7329b7e38fcc80f44694d2242",
+      "compiledConsumers": [
+        [
+          "entrance_prophet_17_1",
+          3
+        ]
+      ],
+      "sourceNodeNames": [
+        "entrance_prophet_17_1"
+      ],
+      "originEvidence": "findings-08.json"
+    },
+    {
+      "ordinal": 13,
+      "findingId": "sw-independent-0027",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455353475080",
+      "key": "line:Marauder_Asking_1_017e31e",
+      "collection": "Dialogs",
+      "source": "Marauder: Я, может, и лез в твой дом, чтобы поживиться, но тут живые же.",
+      "oldTarget": "Marauder: Labda nilijaribu kuingia nyumbani kwako ili nipate kitu, lakini hapa kuna watu walio hai.",
+      "reviewerProposedFullTarget": "Marauder: Hata kama nilijaribu kuingia nyumbani kwako ili nipate kitu, hapa kuna watu walio hai.",
+      "decision": "accept",
+      "selectedFullTarget": "Marauder: Hata kama nilijaribu kuingia nyumbani kwako ili nipate kitu, hapa kuna watu walio hai.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-110.json",
+      "authoredSha256": "189ddb6c9a7ab0bd22f5bc44042d124b5b5dddda47d3adf006d0cc11a209ad51",
+      "compiledConsumers": [
+        [
+          "Marauder_Asking_1",
+          14
+        ]
+      ],
+      "sourceNodeNames": [
+        "Marauder_Asking_1"
+      ],
+      "originEvidence": "findings-12.json"
+    },
+    {
+      "ordinal": 14,
+      "findingId": "sw-independent-0028",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455206674444",
+      "key": "line:Doctor_Asking_3_014b46c",
+      "collection": "Dialogs",
+      "source": "Doctor: Уже светало. Я собирался домой, как вдруг меня окликнул один из КЧС-ников.",
+      "oldTarget": "Doctor: Alfajiri ilikuwa inakaribia. Nilikuwa naenda nyumbani, ghafla mmoja wa watu wa KHD akaniita.",
+      "reviewerProposedFullTarget": "Doctor: Tayari kulikuwa kunapambazuka. Nilikuwa naenda nyumbani, ghafla mmoja wa watu wa KHD akaniita.",
+      "decision": "accept",
+      "selectedFullTarget": "Doctor: Tayari kulikuwa kunapambazuka. Nilikuwa naenda nyumbani, ghafla mmoja wa watu wa KHD akaniita.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-113.json",
+      "authoredSha256": "8b283fc07ec1a97010453e53ffa4c32c24fe6a7d233cfb180c91d339fa79d066",
+      "compiledConsumers": [
+        [
+          "Doctor_Asking_3_Backstory",
+          0
+        ]
+      ],
+      "sourceNodeNames": [
+        "Doctor_Asking_3_Backstory"
+      ],
+      "originEvidence": "findings-13.json"
+    },
+    {
+      "ordinal": 15,
+      "findingId": "sw-independent-0029",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455139565576",
+      "key": "line:Greatmother_Asking_3_10_061919a",
+      "collection": "Dialogs",
+      "source": "Greatmother: Хочешь, чтобы он сгорел.",
+      "oldTarget": "Greatmother: Unataka aungue.",
+      "reviewerProposedFullTarget": "Greatmother: Unataka iungue.",
+      "decision": "accept",
+      "selectedFullTarget": "Greatmother: Unataka iungue.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-115.json",
+      "authoredSha256": "ee04f1d2a9ecbdc190155b3ad99ea1e9c9d10fc59e1ca7a17d9ede9221eacb70",
+      "compiledConsumers": [
+        [
+          "Greatmother_Asking_3_10",
+          3
+        ]
+      ],
+      "sourceNodeNames": [
+        "Greatmother_Asking_3_10"
+      ],
+      "originEvidence": "findings-13.json"
+    },
+    {
+      "ordinal": 16,
+      "findingId": "sw-independent-0030",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455135371276",
+      "key": "line:Greatmother_Asking_3_9_01bbaa8",
+      "collection": "Dialogs",
+      "source": "Greatmother: Детки, ползите сюда, я здесь. Ползите сюда, я нашла новый дом.",
+      "oldTarget": "Greatmother: Wanangu, tambaeni mje hapa, niko hapa. Tambaa mje hapa, nimepata nyumba mpya.",
+      "reviewerProposedFullTarget": "Greatmother: Wanangu, tambaeni mje hapa, niko hapa. Tambaeni mje hapa, nimepata nyumba mpya.",
+      "decision": "accept",
+      "selectedFullTarget": "Greatmother: Wanangu, tambaeni mje hapa, niko hapa. Tambaeni mje hapa, nimepata nyumba mpya.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-116.json",
+      "authoredSha256": "7c63ac7487ee0d0492111f6741e424ce6e2caddedc6e3e27178623ed7904136e",
+      "compiledConsumers": [
+        [
+          "Greatmother_Asking_3_9",
+          1
+        ]
+      ],
+      "sourceNodeNames": [
+        "Greatmother_Asking_3_9"
+      ],
+      "originEvidence": "findings-13.json"
+    },
+    {
+      "ordinal": 17,
+      "findingId": "sw-independent-0031",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455131176970",
+      "key": "line:Greatmother_Asking_3_7_0f37cb1",
+      "collection": "Dialogs",
+      "source": "Greatmother: Ползите сюда, ему этот дом больше не пригодится.",
+      "oldTarget": "Greatmother: Tambaa mje hapa, yeye hataihitaji tena nyumba hii.",
+      "reviewerProposedFullTarget": "Greatmother: Tambaeni mje hapa, yeye hataihitaji tena nyumba hii.",
+      "decision": "accept",
+      "selectedFullTarget": "Greatmother: Tambaeni mje hapa, yeye hataihitaji tena nyumba hii.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-116.json",
+      "authoredSha256": "7c63ac7487ee0d0492111f6741e424ce6e2caddedc6e3e27178623ed7904136e",
+      "compiledConsumers": [
+        [
+          "Greatmother_Asking_3_7",
+          2
+        ]
+      ],
+      "sourceNodeNames": [
+        "Greatmother_Asking_3_7"
+      ],
+      "originEvidence": "findings-13.json"
+    },
+    {
+      "ordinal": 18,
+      "findingId": "sw-independent-0032",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455076651014",
+      "key": "line:Cold_Asking_2_09bd309",
+      "collection": "Dialogs",
+      "source": "Cold: Существуют галактики по своим правилам, взрываются сверхновые.",
+      "oldTarget": "Cold: Galaksi zipo kwa kanuni zao, supanova hulipuka.",
+      "reviewerProposedFullTarget": "Cold: Galaksi zipo kwa kanuni zake, supanova hulipuka.",
+      "decision": "accept",
+      "selectedFullTarget": "Cold: Galaksi zipo kwa kanuni zake, supanova hulipuka.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-117.json",
+      "authoredSha256": "3d8aad5f081bb2df7e48506b8f7a4b8b055a39bcf417f52d57bf81230346a91f",
+      "compiledConsumers": [
+        [
+          "Cold_Asking_2",
+          21
+        ]
+      ],
+      "sourceNodeNames": [
+        "Cold_Asking_2"
+      ],
+      "originEvidence": "findings-14.json"
+    },
+    {
+      "ordinal": 19,
+      "findingId": "sw-independent-0033",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455055679500",
+      "key": "line:Hunter_Asking_3_1_0f59ad9",
+      "collection": "Dialogs",
+      "source": "Hunter: Я очень напрягся. Обыскал весь дом, но так и не нашёл его.",
+      "oldTarget": "Hunter: Nilipata wasiwasi mkubwa. Nilipekua nyumba nzima lakini sikumpata.",
+      "reviewerProposedFullTarget": "Hunter: Nilipata wasiwasi mkubwa. Nilipekua nyumba nzima lakini sikuipata.",
+      "decision": "accept",
+      "selectedFullTarget": "Hunter: Nilipata wasiwasi mkubwa. Nilipekua nyumba nzima lakini sikuipata.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-118.json",
+      "authoredSha256": "07526bb505194fb9986f0827405ead9f9587154655fe18c9ee5448819b0d6795",
+      "compiledConsumers": [
+        [
+          "Hunter_Asking_3_1",
+          8
+        ]
+      ],
+      "sourceNodeNames": [
+        "Hunter_Asking_3_1"
+      ],
+      "originEvidence": "findings-14.json"
+    },
+    {
+      "ordinal": 20,
+      "findingId": "sw-independent-0034",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455038902287",
+      "key": "line:Hunter_Asking_2_1_08620f8",
+      "collection": "Dialogs",
+      "source": "Hunter: Подозрительным был каким-то. Весь бледный, будто увидел смерть. И непонятно, как он оказался в лесной чаще.",
+      "oldTarget": "Hunter: Alikuwa na shaka. Alikuwa amepauka kabisa, kana kwamba ameona kifo. Sijui hata alifikaje katikati ya msitu.",
+      "reviewerProposedFullTarget": "Hunter: Alionekana wa kutiliwa shaka. Alikuwa amepauka kabisa, kana kwamba ameona kifo. Sijui hata alifikaje katikati ya msitu.",
+      "decision": "accept",
+      "selectedFullTarget": "Hunter: Alionekana wa kutiliwa shaka. Alikuwa amepauka kabisa, kana kwamba ameona kifo. Sijui hata alifikaje katikati ya msitu.",
+      "adjudicationReason": "Objective meaning, agreement or referent defect confirmed against Russian unit and containing scene; full proposal retains all other source facts.",
+      "authoredPath": "Translations/sw/dialogue-batch-118.json",
+      "authoredSha256": "07526bb505194fb9986f0827405ead9f9587154655fe18c9ee5448819b0d6795",
+      "compiledConsumers": [
+        [
+          "Hunter_Asking_2_1",
+          8
+        ]
+      ],
+      "sourceNodeNames": [
+        "Hunter_Asking_2_1"
+      ],
+      "originEvidence": "findings-14.json"
+    }
+  ]
+}

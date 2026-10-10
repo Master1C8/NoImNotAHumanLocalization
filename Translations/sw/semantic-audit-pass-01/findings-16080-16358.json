@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    16080,
+    16358
+  ],
+  "findingGroups": 3,
+  "affectedUnits": 3,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0207",
+      "objectiveReason": "сука and еблет are direct coarse insults in Anger's threat to punch the player's face; the target omits both insults, weakening his hostile voice at gunpoint.",
+      "affected": [
+        {
+          "sourceIndex": 16082,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451830259719",
+          "key": "line:Anger_Hands_Gun_0144646",
+          "source": "Anger: Ты, сука, что, думаешь, я с такой лапой не смогу тебе в еблет прописать быстрее, чем ты нажмёшь на курок?",
+          "currentTarget": "Anger: Unadhani siwezi kukupiga usoni kwa mkono huu mkubwa kabla hujavuta kifyatulio?",
+          "proposedTarget": "Anger: Wewe, mshenzi, unadhani siwezi kukupiga kwenye sura yako ya kipumbavu kwa mkono huu mkubwa kabla hujavuta kifyatulio?",
+          "authoredPath": "Translations/sw/dialogue-batch-179.json",
+          "authoredSha256": "898e3ba3eb9a033d38c087e0fdc55cdb7aeb094064a23b49dca8cae9bf21086a"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0208",
+      "objectiveReason": "девчонку is a singular girl Anger could pick up; wasichana is multiple girls and changes the number of people in his boast.",
+      "affected": [
+        {
+          "sourceIndex": 16101,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451821871113",
+          "key": "line:Anger_Eyes_08a485b",
+          "source": "Anger: Что, цвет нравится? Голубые. Всегда такие были. Мне кроме них ничего и не надо было, чтобы девчонку склеить.",
+          "currentTarget": "Anger: Unapenda rangi? Ni buluu. Daima zilikuwa hivyo. Nilihitaji macho haya tu kuwavutia wasichana.",
+          "proposedTarget": "Anger: Unapenda rangi? Ni buluu. Daima zilikuwa hivyo. Nilihitaji macho haya tu kumvutia msichana.",
+          "authoredPath": "Translations/sw/dialogue-batch-180.json",
+          "authoredSha256": "343d6c05c3bc362d5dfc85d63d359c2ef04f439e14ca8579aebca1891aaeac6e"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0209",
+      "objectiveReason": "не смог бы is hypothetical inability without his hands; sikuweza states he actually could not drive, shifting from a conditional fear to past fact.",
+      "affected": [
+        {
+          "sourceIndex": 16286,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451746373640",
+          "key": "line:Wheelchair_Hands_04dfb8c",
+          "source": "Wheelchair: Без рук я вообще гонять не смог бы.",
+          "currentTarget": "Wheelchair: Bila mikono sikuweza kuendesha kwa kasi kabisa.",
+          "proposedTarget": "Wheelchair: Bila mikono, nisingeweza kabisa kuendesha kwa kasi.",
+          "authoredPath": "Translations/sw/dialogue-batch-181.json",
+          "authoredSha256": "2a18251566c3bf255a1bf9c71dc835888220f58f3ca0692b8aa732ecce190d81"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

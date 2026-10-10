@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    2880,
+    3679
+  ],
+  "findingGroups": 8,
+  "affectedUnits": 10,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0051",
+      "objectiveReason": "от твоего дома ничего не останется threatens destruction of the house itself; nyumba yako haitabaki na kitu instead says the house will have nothing in it. Same recurring line as prior finding sw-sem-0036.",
+      "affected": [
+        {
+          "sourceIndex": 3074,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456930533381",
+          "key": "line:CultistPriest_Entrance_8_8_02c8d5b",
+          "source": "CultistPriest: Ты пригляди за моими людьми. И помни: умрёт один – от твоего дома ничего не останется.",
+          "currentTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako haitabaki na kitu.",
+          "proposedTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako itaangamizwa kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-045.json",
+          "authoredSha256": "192ca34387d7a3b8f050c68e596a2a77534593b7e9a53ea55d98ead09c2e6016"
+        },
+        {
+          "sourceIndex": 3082,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456926339081",
+          "key": "line:CultistPriest_Entrance_8_7_07fc2d5",
+          "source": "CultistPriest: Ты пригляди за моими людьми. И помни: умрёт один – от твоего дома ничего не останется.",
+          "currentTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako haitabaki na kitu.",
+          "proposedTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako itaangamizwa kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-045.json",
+          "authoredSha256": "192ca34387d7a3b8f050c68e596a2a77534593b7e9a53ea55d98ead09c2e6016"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0052",
+      "objectiveReason": "сектант is a cult/sect adherent with a disparaging force in this player choice; mfuasi wa ibada fulani only says a follower of some worship practice.",
+      "affected": [
+        {
+          "sourceIndex": 3110,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456917950469",
+          "key": "line:CultistPriest_Entrance_8_2_0b7d9e5",
+          "source": "Выглядишь как сектант какой-то",
+          "currentTarget": "Unaonekana kama mfuasi wa ibada fulani",
+          "proposedTarget": "Unaonekana kama mfuasi wa dhehebu fulani la kishabiki",
+          "authoredPath": "Translations/sw/dialogue-batch-046.json",
+          "authoredSha256": "599f7ac7b38daae76e04dfa2bbb775001354016c8774f4e0e1c6a977767a1cb6"
+        },
+        {
+          "sourceIndex": 3117,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456913756171",
+          "key": "line:CultistPriest_Entrance_8_1_090a3f2",
+          "source": "Выглядишь как сектант какой-то",
+          "currentTarget": "Unaonekana kama mfuasi wa ibada fulani",
+          "proposedTarget": "Unaonekana kama mfuasi wa dhehebu fulani la kishabiki",
+          "authoredPath": "Translations/sw/dialogue-batch-046.json",
+          "authoredSha256": "599f7ac7b38daae76e04dfa2bbb775001354016c8774f4e0e1c6a977767a1cb6"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0053",
+      "objectiveReason": "The visitor at the door is a single former committee worker. Mmewaja addresses multiple people as having come for the speaker; the Russian impersonal plural пришли leaves the agents unstated.",
+      "affected": [
+        {
+          "sourceIndex": 3223,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456880201729",
+          "key": "line:entrance_formerfema_055bd25",
+          "source": "В этот раз за мной пришли?",
+          "currentTarget": "Mmewaja kunichukua safari hii?",
+          "proposedTarget": "Wamekuja kunichukua safari hii?",
+          "authoredPath": "Translations/sw/dialogue-batch-047.json",
+          "authoredSha256": "a3f144bd52eb21ce5c58af4632e8f1536c453063a8d184e4c764f539e3a7e675"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0054",
+      "objectiveReason": "верни is singular imperative to this visitor; warudisheni and mliowachukua address multiple people and assert that they abducted the others, while кого забрали leaves the abductors unstated.",
+      "affected": [
+        {
+          "sourceIndex": 3224,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456880201728",
+          "key": "line:entrance_formerfema_091e228",
+          "source": "Сначала верни тех, кого забрали.",
+          "currentTarget": "Kwanza warudisheni wale mliowachukua.",
+          "proposedTarget": "Kwanza warudishe wale waliochukuliwa.",
+          "authoredPath": "Translations/sw/dialogue-batch-047.json",
+          "authoredSha256": "a3f144bd52eb21ce5c58af4632e8f1536c453063a8d184e4c764f539e3a7e675"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0055",
+      "objectiveReason": "глубокая яма is a deep grave pit; shimo refu describes a long pit.",
+      "affected": [
+        {
+          "sourceIndex": 3249,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456867618827",
+          "key": "line:GraveDigger_Entrance_3_04f9f91",
+          "source": "GraveDigger: Уже глубокая яма получилась. И тут понимаю, что лопата во что-то упирается.",
+          "currentTarget": "GraveDigger: Tayari shimo lilikuwa refu. Kisha nikagundua koleo limegonga kitu.",
+          "proposedTarget": "GraveDigger: Shimo lilikuwa tayari na kina kirefu. Kisha nikagundua koleo limegonga kitu.",
+          "authoredPath": "Translations/sw/dialogue-batch-048.json",
+          "authoredSha256": "d1845c84f04a90805ad29e02d62ac52491bc9a7b603eca85b0ee7dc8d763f0b8"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0056",
+      "objectiveReason": "Сдаёте жильё бомжам asks whether the homeowner rents accommodation to homeless people; Unawapa ... nyumba says he gives them houses, losing the rental relationship.",
+      "affected": [
+        {
+          "sourceIndex": 3333,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456838258697",
+          "key": "line:Provocateur_Entrance_2_07801af",
+          "source": "Provocateur: Что значит просто пускаете? Вы волонтёр? Сдаёте жильё бомжам?",
+          "currentTarget": "Provocateur: Unamaanisha nini kwa kuniruhusu tu niingie? Wewe ni mfanyakazi wa kujitolea? Unawapa watu wasio na makazi nyumba?",
+          "proposedTarget": "Provocateur: Unamaanisha nini kwa kuniruhusu tu niingie? Wewe ni mfanyakazi wa kujitolea? Unawakodishia makazi watu wasio na makazi?",
+          "authoredPath": "Translations/sw/dialogue-batch-049.json",
+          "authoredSha256": "bc86517f722091f16899e48c9931e58b380f91bf6c249bf809ccc11ef22f729f"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0057",
+      "objectiveReason": "TaxiDriver refers to тем, что в машине as an impersonal thing in the car; yule aliyekuwa calls it a person, weakening the later Guest reveal.",
+      "affected": [
+        {
+          "sourceIndex": 3353,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456834064385",
+          "key": "line:TaxiDriver_Entrance_4_01729af",
+          "source": "TaxiDriver: Они захотели меня загрести вместе с тем, что в машине.",
+          "currentTarget": "TaxiDriver: Walitaka kunichukua pamoja na yule aliyekuwa ndani ya gari.",
+          "proposedTarget": "TaxiDriver: Walitaka kunichukua pamoja na kile kilichokuwa ndani ya gari.",
+          "authoredPath": "Translations/sw/dialogue-batch-050.json",
+          "authoredSha256": "245023578595ed94efd982057622d98b70ce3233b56d6841a0088f33861539e2"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0058",
+      "objectiveReason": "вы сами дальше справитесь means the addressees will manage on their own if the speaker's group does not; mtaendelea na kazi introduces continuing work.",
+      "affected": [
+        {
+          "sourceIndex": 3573,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456754372616",
+          "key": "line:entrance_superfake_13_0198287",
+          "source": "SuperFake: Если не мы, вы сами дальше справитесь.",
+          "currentTarget": "SuperFake: Ikiwa si sisi, ninyi wenyewe mtaendelea na kazi.",
+          "proposedTarget": "SuperFake: Ikiwa si sisi, ninyi wenyewe mtaweza kukabiliana na mambo yanayofuata.",
+          "authoredPath": "Translations/sw/dialogue-batch-053.json",
+          "authoredSha256": "1405bb8813ad4a2d8fee90c3c2749740f53ffc5ca8a6b7ab36e08b4261be1458"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

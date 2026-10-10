@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-01",
+  "sourceAuditProgressSha256": "ec390d6578865673a5c9ea0e5600456716d776ed93fa195f6bd49a604e8708e7",
+  "findingRange": [
+    51,
+    75
+  ],
+  "adjudicatedGroups": 25,
+  "acceptedGroups": 25,
+  "dismissedGroups": 0,
+  "affectedUnits": 35,
+  "adjudications": [
+    {
+      "findingId": "sw-sem-0051",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "от твоего дома ничего не останется threatens destruction of the house itself; nyumba yako haitabaki na kitu instead says the house will have nothing in it. Same recurring line as prior finding sw-sem-0036.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3074,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456930533381",
+          "source": "CultistPriest: Ты пригляди за моими людьми. И помни: умрёт один – от твоего дома ничего не останется.",
+          "oldTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako haitabaki na kitu.",
+          "selectedFullTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako itaangamizwa kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-045.json",
+          "authoredSha256": "192ca34387d7a3b8f050c68e596a2a77534593b7e9a53ea55d98ead09c2e6016"
+        },
+        {
+          "sourceIndex": 3082,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456926339081",
+          "source": "CultistPriest: Ты пригляди за моими людьми. И помни: умрёт один – от твоего дома ничего не останется.",
+          "oldTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako haitabaki na kitu.",
+          "selectedFullTarget": "CultistPriest: Waangalie watu wangu. Na kumbuka: mmoja akifa, nyumba yako itaangamizwa kabisa.",
+          "authoredPath": "Translations/sw/dialogue-batch-045.json",
+          "authoredSha256": "192ca34387d7a3b8f050c68e596a2a77534593b7e9a53ea55d98ead09c2e6016"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0052",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "сектант is a cult/sect adherent with a disparaging force in this player choice; mfuasi wa ibada fulani only says a follower of some worship practice.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3110,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456917950469",
+          "source": "Выглядишь как сектант какой-то",
+          "oldTarget": "Unaonekana kama mfuasi wa ibada fulani",
+          "selectedFullTarget": "Unaonekana kama mfuasi wa dhehebu fulani la kishabiki",
+          "authoredPath": "Translations/sw/dialogue-batch-046.json",
+          "authoredSha256": "599f7ac7b38daae76e04dfa2bbb775001354016c8774f4e0e1c6a977767a1cb6"
+        },
+        {
+          "sourceIndex": 3117,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456913756171",
+          "source": "Выглядишь как сектант какой-то",
+          "oldTarget": "Unaonekana kama mfuasi wa ibada fulani",
+          "selectedFullTarget": "Unaonekana kama mfuasi wa dhehebu fulani la kishabiki",
+          "authoredPath": "Translations/sw/dialogue-batch-046.json",
+          "authoredSha256": "599f7ac7b38daae76e04dfa2bbb775001354016c8774f4e0e1c6a977767a1cb6"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0053",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "The visitor at the door is a single former committee worker. Mmewaja addresses multiple people as having come for the speaker; the Russian impersonal plural пришли leaves the agents unstated.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3223,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456880201729",
+          "source": "В этот раз за мной пришли?",
+          "oldTarget": "Mmewaja kunichukua safari hii?",
+          "selectedFullTarget": "Wamekuja kunichukua safari hii?",
+          "authoredPath": "Translations/sw/dialogue-batch-047.json",
+          "authoredSha256": "a3f144bd52eb21ce5c58af4632e8f1536c453063a8d184e4c764f539e3a7e675"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0054",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "верни is singular imperative to this visitor; warudisheni and mliowachukua address multiple people and assert that they abducted the others, while кого забрали leaves the abductors unstated.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3224,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456880201728",
+          "source": "Сначала верни тех, кого забрали.",
+          "oldTarget": "Kwanza warudisheni wale mliowachukua.",
+          "selectedFullTarget": "Kwanza warudishe wale waliochukuliwa.",
+          "authoredPath": "Translations/sw/dialogue-batch-047.json",
+          "authoredSha256": "a3f144bd52eb21ce5c58af4632e8f1536c453063a8d184e4c764f539e3a7e675"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0055",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "глубокая яма is a deep grave pit; shimo refu describes a long pit.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3249,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456867618827",
+          "source": "GraveDigger: Уже глубокая яма получилась. И тут понимаю, что лопата во что-то упирается.",
+          "oldTarget": "GraveDigger: Tayari shimo lilikuwa refu. Kisha nikagundua koleo limegonga kitu.",
+          "selectedFullTarget": "GraveDigger: Shimo lilikuwa tayari na kina kirefu. Kisha nikagundua koleo limegonga kitu.",
+          "authoredPath": "Translations/sw/dialogue-batch-048.json",
+          "authoredSha256": "d1845c84f04a90805ad29e02d62ac52491bc9a7b603eca85b0ee7dc8d763f0b8"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0056",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "Сдаёте жильё бомжам asks whether the homeowner rents accommodation to homeless people; Unawapa ... nyumba says he gives them houses, losing the rental relationship.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3333,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456838258697",
+          "source": "Provocateur: Что значит просто пускаете? Вы волонтёр? Сдаёте жильё бомжам?",
+          "oldTarget": "Provocateur: Unamaanisha nini kwa kuniruhusu tu niingie? Wewe ni mfanyakazi wa kujitolea? Unawapa watu wasio na makazi nyumba?",
+          "selectedFullTarget": "Provocateur: Unamaanisha nini kwa kuniruhusu tu niingie? Wewe ni mfanyakazi wa kujitolea? Unawakodishia makazi watu wasio na makazi?",
+          "authoredPath": "Translations/sw/dialogue-batch-049.json",
+          "authoredSha256": "bc86517f722091f16899e48c9931e58b380f91bf6c249bf809ccc11ef22f729f"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0057",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "TaxiDriver refers to тем, что в машине as an impersonal thing in the car; yule aliyekuwa calls it a person, weakening the later Guest reveal.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3353,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456834064385",
+          "source": "TaxiDriver: Они захотели меня загрести вместе с тем, что в машине.",
+          "oldTarget": "TaxiDriver: Walitaka kunichukua pamoja na yule aliyekuwa ndani ya gari.",
+          "selectedFullTarget": "TaxiDriver: Walitaka kunichukua pamoja na kile kilichokuwa ndani ya gari.",
+          "authoredPath": "Translations/sw/dialogue-batch-050.json",
+          "authoredSha256": "245023578595ed94efd982057622d98b70ce3233b56d6841a0088f33861539e2"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0058",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-2880-3679.json",
+      "findingEvidenceSha256": "125e8bbc5ad2efe3f6659fa8879155888144e2b95a3b0e3583d5cef844d56acb",
+      "findingObjectiveReason": "вы сами дальше справитесь means the addressees will manage on their own if the speaker's group does not; mtaendelea na kazi introduces continuing work.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3573,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456754372616",
+          "source": "SuperFake: Если не мы, вы сами дальше справитесь.",
+          "oldTarget": "SuperFake: Ikiwa si sisi, ninyi wenyewe mtaendelea na kazi.",
+          "selectedFullTarget": "SuperFake: Ikiwa si sisi, ninyi wenyewe mtaweza kukabiliana na mambo yanayofuata.",
+          "authoredPath": "Translations/sw/dialogue-batch-053.json",
+          "authoredSha256": "1405bb8813ad4a2d8fee90c3c2749740f53ffc5ca8a6b7ab36e08b4261be1458"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0059",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "The Hunter has just accused the single homeowner of possibly being a Guest; the implicit subject of Ещё ночью бы меня прирезал is that addressee. angenichinja shifts the threatened attack to a third person and Vinginevyo adds an unsupported condition.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 3735,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456699846657",
+          "source": "Hunter: Ещё ночью бы меня прирезал.",
+          "oldTarget": "Hunter: Vinginevyo angenichinja usiku.",
+          "selectedFullTarget": "Hunter: Ungenichinja usiku.",
+          "authoredPath": "Translations/sw/dialogue-batch-055.json",
+          "authoredSha256": "5ce29aa5776f7fd70080435c338d35fbf0fbcc1da48c158c0d24b016aae3cf0a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0060",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "уродец dismissively calls the possible caller a little freak/oddity; mtu wa ajabu neutrally says a strange person, losing the husband's hostile characterization.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4092,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456578211840",
+          "source": "Couple: Большой дом на отшибе, соседи на расстоянии. Шансы, что придёт какой-нибудь уродец, малы.",
+          "oldTarget": "Couple: Nyumba kubwa pembezoni, majirani wako mbali. Nafasi ya mtu wa ajabu kuja ni ndogo.",
+          "selectedFullTarget": "Couple: Nyumba kubwa pembezoni, majirani wako mbali. Uwezekano wa kituko fulani kufika hapa ni mdogo.",
+          "authoredPath": "Translations/sw/dialogue-batch-063.json",
+          "authoredSha256": "bc58d4b591ee86a83ab6fffd76cc3ddfb63130f5856b9b1e01f9a8b9b79a0916"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0061",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "In this dance exchange Я балетка is the woman's colloquial self-description as a ballet dancer; Mimi ni kiatu cha baleti identifies her as a ballet shoe.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4121,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456565628935",
+          "source": "Ballerina: Я балетка.",
+          "oldTarget": "Ballerina: Mimi ni kiatu cha baleti.",
+          "selectedFullTarget": "Ballerina: Mimi ni mcheza baleti.",
+          "authoredPath": "Translations/sw/dialogue-batch-064.json",
+          "authoredSha256": "34304cac75bd0e1b199a959d15525ae1f45b7fef3de7e76e06b2d38696fd6b30"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0062",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "переваривало depicts the creature slowly digesting the bodies; kikiyeyusha says it was melting them.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4261,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456519491586",
+          "source": "Blind: Медленно переваривало отвратительные чёрные тела, похожие на угли, У МЕНЯ НА ГЛАЗАХ!",
+          "oldTarget": "Blind: Kilikuwa kikiyeyusha polepole miili myeusi ya kutisha iliyofanana na makaa, MBELE YA MACHO YANGU!",
+          "selectedFullTarget": "Blind: Kilikuwa kikimeng’enya polepole miili myeusi ya kutisha iliyofanana na makaa, MBELE YA MACHO YANGU!",
+          "authoredPath": "Translations/sw/dialogue-batch-066.json",
+          "authoredSha256": "f48f63891a2f25d1ba189e4cadacca84500992ef94067800c9ac6735609e287a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0063",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "The Russian expletive remains as the English SHIT in the Swahili text, breaking target-language coverage in this character's two lines.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4396,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456473354243",
+          "source": "Fugitive: БЛЯТЬ.",
+          "oldTarget": "Fugitive: SHIT!",
+          "selectedFullTarget": "Fugitive: LAANA!",
+          "authoredPath": "Translations/sw/dialogue-batch-067.json",
+          "authoredSha256": "ccf73cdeccacfa99586abd05590e90593bb96030563d8700249386d75826178e"
+        },
+        {
+          "sourceIndex": 4406,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456469159942",
+          "source": "Fugitive: БЛЯТЬ, у меня на глазах забрали человека и увели в одну из палаток!",
+          "oldTarget": "Fugitive: SHIT, niliona mtu akichukuliwa mbele ya macho yangu na kupelekwa kwenye moja ya mahema!",
+          "selectedFullTarget": "Fugitive: LAANA, niliona mtu akichukuliwa mbele ya macho yangu na kupelekwa kwenye moja ya mahema!",
+          "authoredPath": "Translations/sw/dialogue-batch-067.json",
+          "authoredSha256": "ccf73cdeccacfa99586abd05590e90593bb96030563d8700249386d75826178e"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0064",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "аллергия describes the Nun's allergy to dirt; huathiriwa only says she is affected, losing the claimed medical reaction that motivates her demands.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4453,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382727",
+          "source": "Nun: Я просто хочу знать, насколько хороший у вас дом. А то у меня аллергия на всякую грязь, знаете ли.",
+          "oldTarget": "Nun: Nataka tu kujua nyumba yako iko vizuri kiasi gani. Unajua, mimi huathiriwa na uchafu.",
+          "selectedFullTarget": "Nun: Nataka tu kujua nyumba yako iko vizuri kiasi gani. Unajua, nina mzio wa uchafu wa kila aina.",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0065",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-3680-4479.json",
+      "findingEvidenceSha256": "f704bd5cac84a12ce6d2b764959e98c25cbaa53593a2d19d6897f0341bab5861",
+      "findingObjectiveReason": "психопат means psychopath; muuaji wa kikatili asserts a brutal killer, which the source does not say.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4475,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456443994120",
+          "source": "Raskolnikov: Наверное, я показался тебе сумасшедшим или психопатом…",
+          "oldTarget": "Raskolnikov: Labda nimeonekana kama mwendawazimu au muuaji wa kikatili…",
+          "selectedFullTarget": "Raskolnikov: Labda nilionekana kwako kama mwendawazimu au saikopati…",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0066",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "The recurring психопат describes the same kind of psychopathic person. kichaa and mwenye wazimu say mad/insane, while mtu wa kutisha says merely frightening; the character's specific accusation is lost across these three lines.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4488,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456439799814",
+          "source": "Raskolnikov: Нет, нет, не подумай, я не про того психопата с ружьём.",
+          "oldTarget": "Raskolnikov: Hapana, hapana, usinielewe vibaya, simaanishi yule kichaa mwenye bunduki.",
+          "selectedFullTarget": "Raskolnikov: Hapana, hapana, usinielewe vibaya, simaanishi yule saikopati mwenye bunduki.",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        },
+        {
+          "sourceIndex": 4494,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456439799808",
+          "source": "Raskolnikov: Я не хотел показаться каким-то психопатом. Просто, знаешь…",
+          "oldTarget": "Raskolnikov: Sikutaka kuonekana kama mtu wa kutisha. Ni kwamba, unajua…",
+          "selectedFullTarget": "Raskolnikov: Sikutaka kuonekana kama saikopati. Ni kwamba, unajua…",
+          "authoredPath": "Translations/sw/dialogue-batch-068.json",
+          "authoredSha256": "4f858baf5d166be0db04da1486e757b7985e7fce617910d30508d469102ac9ab"
+        },
+        {
+          "sourceIndex": 4501,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456435605510",
+          "source": "Raskolnikov: Просто я столкнулся с одним вооружённым психопатом, который при мне допрашивал человека: не Гость ли тот.",
+          "oldTarget": "Raskolnikov: Nilimkuta tu mtu mmoja mwenye silaha na mwenye wazimu, aliyekuwa akimhoji mtu mbele yangu kama yeye ni Mgeni.",
+          "selectedFullTarget": "Raskolnikov: Nilimkuta tu saikopati mmoja mwenye silaha, aliyekuwa akimhoji mtu mbele yangu kama yeye ni Mgeni.",
+          "authoredPath": "Translations/sw/dialogue-batch-069.json",
+          "authoredSha256": "da414063d19e115b4dadfea7cf86913786a71ced0adf44b16e0e87e6c0dc5d3c"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0067",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "выдохнуть как следует means breathe out fully in the storyteller's list of comforts; kuvuta pumzi describes breathing in.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4730,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456351719429",
+          "source": "NotTrue: И выдохнуть как следует.",
+          "oldTarget": "NotTrue: Na kuvuta pumzi vizuri.",
+          "selectedFullTarget": "NotTrue: Na kutoa pumzi vizuri.",
+          "authoredPath": "Translations/sw/dialogue-batch-072.json",
+          "authoredSha256": "d2a35b7847979f974bb660737e54ebb6eea804731807b94628f16ad86a6a9a61"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0068",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "кто-то шепчется leaves one unknown whisperer in the rooms; watu wakinong’ona asserts multiple people, changing what SuperFake can hear in this branch.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4756,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456343330819",
+          "source": "SuperFake: Я слышу, как кто-то шепчется в твоих комнатах.",
+          "oldTarget": "SuperFake: Nasikia watu wakinong’ona ndani ya vyumba vyako.",
+          "selectedFullTarget": "SuperFake: Nasikia mtu fulani akinong’ona ndani ya vyumba vyako.",
+          "authoredPath": "Translations/sw/dialogue-batch-072.json",
+          "authoredSha256": "d2a35b7847979f974bb660737e54ebb6eea804731807b94628f16ad86a6a9a61"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0069",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "The child's фу is a disgust interjection about beer; pua is the Swahili noun for nose and does not express that reaction.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4842,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456318164993",
+          "source": "Daughter: Я сегодня попробовала пиво, которое он пьет, фу, гадость какая!",
+          "oldTarget": "Daughter: Leo nilionja bia anayokunywa, pua! Ni mbaya sana!",
+          "selectedFullTarget": "Daughter: Leo nilionja bia anayokunywa, puu! Ni mbaya sana!",
+          "authoredPath": "Translations/sw/dialogue-batch-073.json",
+          "authoredSha256": "671e3ef6076327d3068aa6cfb736495624a7afa895e75a412cef0b9d32d3eb9a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0070",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "чтобы тебя точно не угробили says the Neighbour came to prevent the homeowner being killed; hupatwi na madhara only promises protection from unspecified harm, weakening the explicit mortal threat.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 4873,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456305582085",
+          "source": "Neighbour: Поэтому я пришёл, чтобы тебя точно не угробили.",
+          "oldTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hupatwi na madhara.",
+          "selectedFullTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hakuna atakayekuua.",
+          "authoredPath": "Translations/sw/dialogue-batch-073.json",
+          "authoredSha256": "671e3ef6076327d3068aa6cfb736495624a7afa895e75a412cef0b9d32d3eb9a"
+        },
+        {
+          "sourceIndex": 4883,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456301387783",
+          "source": "Neighbour: Поэтому я пришёл, чтобы тебя точно не угробили.",
+          "oldTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hupatwi na madhara.",
+          "selectedFullTarget": "Neighbour: Ndiyo maana nimekuja kuhakikisha hakuna atakayekuua.",
+          "authoredPath": "Translations/sw/dialogue-batch-074.json",
+          "authoredSha256": "1baf9d4c00a054aa4afd1b714b824c5f492aeaca0abca1795c25dc808328595b"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0071",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-4480-5279.json",
+      "findingEvidenceSha256": "297a36e361b324463b514f97fecfe0b1580d612f914d77432721409b964a2fd7",
+      "findingObjectiveReason": "садисты identifies people who take pleasure in others' suffering; watu wenye ukatili only describes cruel people and loses that motive in Anger's two-camp account.",
+      "decision": "accept-revised",
+      "adjudicationReason": "The audited paraphrase identifies sadism but drops the source's coarse ебучие; retain both the sadist concept and Anger's angry voice.",
+      "affected": [
+        {
+          "sourceIndex": 5231,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456179752966",
+          "source": "Anger: Одни – ебучие садисты. Хуже любых Гостей.",
+          "oldTarget": "Anger: Kundi moja ni watu wenye ukatili wa kutupwa. Wabaya kuliko Wageni wowote.",
+          "selectedFullTarget": "Anger: Kundi moja ni masadisti wa kishenzi. Wabaya kuliko Wageni wowote.",
+          "authoredPath": "Translations/sw/dialogue-batch-078.json",
+          "authoredSha256": "df12b63cb0550d8412303bb89e2e81c7cbd82bfc8e346230f7594be7f5bb37b1"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0072",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-5280-6079.json",
+      "findingEvidenceSha256": "906a7b09f2a5f5e9a2588402cc2abed6d74527490bce935e622a063051ea4525",
+      "findingObjectiveReason": "The Russian profanity is left as English Shit in four Swahili target lines, leaving untranslated English dialogue. Earlier first-pass finding sw-sem-0063 covers the same recurring defect in the Fugitive's lines.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 5289,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456158781448",
+          "source": "Wheelchair: Бля…",
+          "oldTarget": "Wheelchair: Shit…",
+          "selectedFullTarget": "Wheelchair: Laana…",
+          "authoredPath": "Translations/sw/dialogue-batch-079.json",
+          "authoredSha256": "006c3ca4c35469594393921c2eea09dbce6b1f50acea8ad2e78a728d4fdf9681"
+        },
+        {
+          "sourceIndex": 5896,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455940677641",
+          "source": "WheelChair: Бля, ну ты чё?",
+          "oldTarget": "WheelChair: Shit, mbona hivyo?",
+          "selectedFullTarget": "WheelChair: Laana, mbona hivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        },
+        {
+          "sourceIndex": 5913,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455936483333",
+          "source": "WheelChair: Бля, чëт ноги болят.",
+          "oldTarget": "WheelChair: Shit, miguu inaniuma.",
+          "selectedFullTarget": "WheelChair: Laana, miguu inaniuma.",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        },
+        {
+          "sourceIndex": 6010,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455902928904",
+          "source": "Alt: Блять, кто вообще так говорит?",
+          "oldTarget": "Alt: Shit, nani huzungumza hivyo?",
+          "selectedFullTarget": "Alt: Laana, nani huzungumza hivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-088.json",
+          "authoredSha256": "c799362ebf4949c56e94257477e9d2e41ffe365dbec3a34471b3790740b77cee"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0073",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-5280-6079.json",
+      "findingEvidenceSha256": "906a7b09f2a5f5e9a2588402cc2abed6d74527490bce935e622a063051ea4525",
+      "findingObjectiveReason": "In the Cultist ending Death addresses the group (вы, matching surrounding plural вас/вам); umevuta switches to one addressee.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 5577,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456053923846",
+          "source": "Появившись из ниоткуда, вы привлекли к себе внимание.",
+          "oldTarget": "Kwa kuonekana kutoka mahali pasipojulikana, umevuta macho yao.",
+          "selectedFullTarget": "Kwa kuonekana kutoka mahali pasipojulikana, mmejivutia usikivu.",
+          "authoredPath": "Translations/sw/dialogue-batch-082.json",
+          "authoredSha256": "3962c953e5de997b0b03ecc0f06252ce65f4a579c89cb1c2f20f133cea7d39a0"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0074",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-5280-6079.json",
+      "findingEvidenceSha256": "906a7b09f2a5f5e9a2588402cc2abed6d74527490bce935e622a063051ea4525",
+      "findingObjectiveReason": "Если экономить, еды должно хватить concerns rationing the survivors' food; Mkibana matumizi means cutting expenditure and shifts the scarce resource from food to money/spending.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Rationing is the correct scarce-resource relation; the audited kitatosha makes sufficiency certain whereas должно хватить is an expectation.",
+      "affected": [
+        {
+          "sourceIndex": 5740,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455995203594",
+          "source": "Если экономить, еды должно хватить на месяц-другой.",
+          "oldTarget": "Mkibana matumizi, chakula kitatosha kwa mwezi mmoja au miwili.",
+          "selectedFullTarget": "Mkikitumia chakula kwa uangalifu, kinapaswa kutosha kwa mwezi mmoja au miwili.",
+          "authoredPath": "Translations/sw/dialogue-batch-084.json",
+          "authoredSha256": "ec8b1ac70589f88a12f4d6bd2ff12d3eff7a8420533b7c5752b678fd8e59ba43"
+        },
+        {
+          "sourceIndex": 5757,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455991009284",
+          "source": "Если экономить, еды должно хватить на месяц-другой.",
+          "oldTarget": "Mkibana matumizi, chakula kitatosha kwa mwezi mmoja au miwili.",
+          "selectedFullTarget": "Mkikitumia chakula kwa uangalifu, kinapaswa kutosha kwa mwezi mmoja au miwili.",
+          "authoredPath": "Translations/sw/dialogue-batch-084.json",
+          "authoredSha256": "ec8b1ac70589f88a12f4d6bd2ff12d3eff7a8420533b7c5752b678fd8e59ba43"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0075",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-5280-6079.json",
+      "findingEvidenceSha256": "906a7b09f2a5f5e9a2588402cc2abed6d74527490bce935e622a063051ea4525",
+      "findingObjectiveReason": "слизняк is a shell-less slug in the Intruder's disturbing dream; konokono alone identifies a snail, generally shelled.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 5839,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455961649159",
+          "source": "Intruder: Там ты ползаешь по коридору, словно гадкий слизняк.",
+          "oldTarget": "Intruder: Humo unatambaa kwenye ukanda kama konokono mchafu.",
+          "selectedFullTarget": "Intruder: Humo unatambaa kwenye ukanda kama konokono mchafu asiye na gamba.",
+          "authoredPath": "Translations/sw/dialogue-batch-086.json",
+          "authoredSha256": "23d97f227f80dac03e0b00579e187cfd5b24e3d74c48f8f7a82a239d1e7195e5"
+        }
+      ]
+    }
+  ]
+}

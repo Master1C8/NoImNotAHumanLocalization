@@ -1,0 +1,1359 @@
+{
+  "schemaVersion": 1,
+  "status": "all 71 objective full-unit corrections accepted and preflighted; application pending",
+  "inputPinsSha256": "9fbc9672e608629e790b1f7275744efe9326f46509bf3590bd231050cc1d0640",
+  "reviewerFindings": 7,
+  "boundedNunFindings": 61,
+  "boundedBaldFindings": 3,
+  "records": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906824",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-001",
+      "source": "Bald: Впустишь перекантоваться? А то к какому другу ни зайду, либо его дома нет, либо выгнали к херам, либо ещё чего.",
+      "before": "Bald: תיתן לי מקום להישאר לזמן מה? כל חבר שניסיתי לבקר — או שלא היה בבית, או שגירשו אותו, או שקרה משהו אחר.",
+      "after": "Bald: תיתן לי מקום להישאר לזמן מה? כל חבר שניסיתי לבקר — או שלא היה בבית, או שהעיפו אותו קיבינימט, או שקרה משהו אחר.",
+      "reviewerProposal": "Bald: תיתן לי מקום להישאר לזמן מה? כל חבר שניסיתי לבקר — או שלא היה בבית, או שהעיפו אותו קיבינימט, או שקרה משהו אחר.",
+      "path": "Translations/he/dialogue-batch-300.json",
+      "offset": 26,
+      "id": 110504457391906824,
+      "reason": "The full source contains the overt vulgar intensifier к херам in the second alternative. The current full target removes it and makes that alternative neutral. This is a loss of the speaker's coarse register, not a preference between equivalent swear words. The later Bald_Entrance_1 explains that his friends have suffered disruptions; this proposal retains the current friend referent and does not resolve the source's omitted object differently.",
+      "nodeNames": [
+        "entrance_bald"
+      ],
+      "sourceValueSha256": "547e5a633bd414b11b9de3a544ee762fcdc5d01c3939904eccf03fd9468650d7",
+      "beforeValueSha256": "af542c8d1a3b9dee4381c12983e68a188d430ec94fa8553e19e288f439a3fb39",
+      "afterValueSha256": "18da300050ddcc9981c6f3b1d03d1b4c0d9b46ffdaf5e62b31cf917151160c15"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717571",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-002",
+      "source": "Greatmother: Давай-ка выгоним лучше, а я усядусь там!",
+      "before": "Greatmother: בוא נגרש אותו, ואני אשב שם במקומו!",
+      "after": "Greatmother: בוא נגרש את מי שכאן, ואני אשב שם!",
+      "reviewerProposal": "Greatmother: בוא נגרש את מי שכאן, ואני אשב שם!",
+      "path": "Translations/he/dialogue-batch-215.json",
+      "offset": 1,
+      "id": 110504457236717571,
+      "reason": "The preceding GetCharacterOnPlace(Greatmother) supplies place-20 residents including the female Teacher. אותו and במקומו then unconditionally refer to that resident as masculine. Russian выгоним / я усядусь там adds no sex. Preserve the actual occupant and the speaker's replacement action without fixed masculine references.",
+      "nodeNames": [
+        "Greatmother_Entrance_Occupied"
+      ],
+      "sourceValueSha256": "ac13b97ea74d654499e122d83d30b0b93c4ea188645a06574dac25b17e7a0795",
+      "beforeValueSha256": "6cec7bf3bd46ec0e13b8e25fec67f4b0092ed43a960e50481b68afe609be8879",
+      "afterValueSha256": "f9885dcd13a3fdcd03cddb871ff9e6e581e6c994f55400147451fb45ce61f1bb"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414404",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-003",
+      "source": "Fanatic: Его тень, нет, даже он сам гасит праведный свет! Нужно выгнать еретика!",
+      "before": "Fanatic: הצל שלו, לא, הוא עצמו אפילו מכבה את אור הצדק! צריך לגרש את הכופר!",
+      "after": "Fanatic: הצל של מי שכאן — לא, אפילו עצם הנוכחות כאן — מכבה את אור הצדק! צריך לגרש את מי שכאן בגלל הכפירה הזאת!",
+      "reviewerProposal": "Fanatic: הצל של מי שכאן — לא, אפילו עצם הנוכחות כאן — מכבה את אור הצדק! צריך לגרש את מי שכאן בגלל הכפירה הזאת!",
+      "path": "Translations/he/dialogue-batch-049.json",
+      "offset": 6,
+      "id": 110504457165414404,
+      "reason": "The actual preceding GetCharacterOnPlace(Fan) domain is Alt (female) or Dude (male). The continuation unconditionally says שלו / הוא עצמו / הכופר. This conflicts with the female occupant and defeats the corrected neutral variable sentence immediately before it. Russian also has a fixed masculine continuation; record that source/domain conflict explicitly rather than treating the source noun or pronoun as evidence that Alt is male. The proposed neutral full unit keeps the occupant's shadow, the self-correction to the occupant's own presence, extinguished righteous light and the demand to expel the heretical resident.",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ],
+      "sourceValueSha256": "cb9bcf1647d38f1eda4e6d0584f07c1a5981b582741ac89cb432262ef1a86d46",
+      "beforeValueSha256": "e44a0f589fed40ea35708813dfdeb4966345858dbacb7313f521d25b45ec88bf",
+      "afterValueSha256": "0b8df88f973bd0f6e1699b11669c16e8c74c88283cc5c15e2653d1b375cd23bc"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025801",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-004",
+      "source": "Luka: Не хочу теснить человека – вдруг ему эта крыша нужнее.",
+      "before": "Luka: אני לא רוצה לדחוק אדם אחר. אולי הוא זקוק לקורת הגג הזאת יותר.",
+      "after": "Luka: אני לא רוצה לדחוק אדם אחר. אולי קורת הגג הזאת נחוצה יותר למי שכבר כאן.",
+      "reviewerProposal": "Luka: אני לא רוצה לדחוק אדם אחר. אולי קורת הגג הזאת נחוצה יותר למי שכבר כאן.",
+      "path": "Translations/he/dialogue-batch-097.json",
+      "offset": 11,
+      "id": 110504457157025801,
+      "reason": "GetCharacterOnPlace(Luka) supplies Greatmother or Teacher (female), Intruder or Jacket (male). The continuation's הוא זקוק fixes the actual resident as male. Russian grammatical человеку / ему does not establish the canonical sex of the resident. Neutral wording must preserve Luka as the person declining to displace the resident and the possibility that the resident needs the roof more.",
+      "nodeNames": [
+        "Luka_Entrance_Occupied"
+      ],
+      "sourceValueSha256": "e13f876e2baaa2ac5410ee0f245267eec7a7c04e7f012427ab81b9b86a327849",
+      "beforeValueSha256": "360f38f7be2a9c8a844e77c7e50d38e31053427ffc4d07633304d40d2bf8352e",
+      "afterValueSha256": "55987d7426c7fe512a2a76be069fed836f3246faab0c8466b021b253b42eeac4"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471363",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вам воздастся!",
+      "before": "Nun: עוד תבוא עליכם פורענות!",
+      "after": "Nun: עוד תבוא עליך פורענות!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 0,
+      "id": 110504457123471363,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied_NoLet"
+      ],
+      "sourceValueSha256": "42ccd84bcdb9bece7f49be91d78a77d53d34133150a6ca1d1139064747b980fa",
+      "beforeValueSha256": "bf06950e945551beb91596c045e2eb8e3b2e8f3eb889819094407acbd93483ba",
+      "afterValueSha256": "e1119058e5ed4af7b7afadcb26ee76420d77ef3969e8c08ed47f4ef48fd39e8c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471361",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Моя смерть будет на вашей совести.",
+      "before": "Nun: מותי יהיה על מצפונכם.",
+      "after": "Nun: מותי יהיה על מצפונך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 1,
+      "id": 110504457123471361,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied_NoLet"
+      ],
+      "sourceValueSha256": "ea74596adb91a3fb483cabd2c489b179af0cc51b7c30959a028c2bd535c76326",
+      "beforeValueSha256": "8f497dd63a4092044020c6af97370ec225caed46136840aa54599c84afe16842",
+      "afterValueSha256": "c6b0f2b85d9a9d805652012b923da7fc9efcea834941f0c3ffca7ab27a8bacba"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471360",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ишь вы какой! Вам предлагают возможность встать на путь истинный, а вы её упускаете. Неслыханно!",
+      "before": "Nun: תראו מי שמדבר! מציעים לכם הזדמנות לעלות על דרך הישר ואתם מחמיצים אותה. לא ייאמן!",
+      "after": "Nun: תראה אותך! מציעים לך הזדמנות לעלות על דרך הישר ואתה מחמיץ אותה. לא ייאמן!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 2,
+      "id": 110504457123471360,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied_NoLet"
+      ],
+      "sourceValueSha256": "df5a446c1c3e24fbee2f7d04bdb067084beda070ca7ed108bcf9d448dd1a3db9",
+      "beforeValueSha256": "c9762f8eedc1666c9e1d1ecb13fc77e32486ec2e5aa41bd17408035980c3bb0a",
+      "afterValueSha256": "2590395f1f7ef23a41efa49be045d527c7b5e1a2d3e3dfe65593507ac6ae40aa"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277064",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-005",
+      "source": "Nun: Изгоняйте их яки демонов, и будет вам благодать!",
+      "before": "Nun: גרשו אותם כמו שדים, ותשרה עליכם הברכה!",
+      "after": "Nun: גרש אותם כמו שדים, ותשרה עליך הברכה!",
+      "reviewerProposal": "Nun: גרש אותם כמו שדים, ותשרה עליך הברכה!",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 4,
+      "id": 110504457119277064,
+      "reason": "The command is addressed to the one male householder. גרשו and עליכם turn that addressee into a group while the corrected scene-opening line uses singular אצלך. The Russian formal/pious plural imperative remains singular address in this actual exchange. Preserve the resident objects אותם and the prayer register while making the player address singular.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "sourceValueSha256": "99f581031328a7c75dae2735b8fa62c8d8235808a7b84babc572e46efa94612b",
+      "beforeValueSha256": "50d04668f8f54e1385ed4e31be36b579781fc8b780f7cf8244559046469142e3",
+      "afterValueSha256": "7d3ecd8590621a0ba6e9fde6b75c8c7ded34c3bfbd05db38804fc46e69416642"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277063",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-006",
+      "source": "Nun: Да для отмаливания их грехов ни одной жизни не хватит! Побоялись бы Бога с такими водиться!",
+      "before": "Nun: חיים שלמים לא יספיקו כדי לכפר על חטאיהם! יראו את האל לפני שתתרועעו עם שכמותם!",
+      "after": "Nun: חיים שלמים לא יספיקו כדי לכפר על חטאיהם! ירא את האל לפני שתתרועע עם שכמותם!",
+      "reviewerProposal": "Nun: חיים שלמים לא יספיקו כדי לכפר על חטאיהם! ירא את האל לפני שתתרועע עם שכמותם!",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 5,
+      "id": 110504457119277063,
+      "reason": "The imperative יראו and verb שתתרועעו address several people. This branch addresses the one male householder, consistent with its corrected singular אצלך opening. Retain the plural residents/sinners in חטאיהם / שכמותם and the full lifetime-for-atonement sentence; only the addressee should be singular.",
+      "nodeNames": [
+        "Nun_Entrance_Occupied"
+      ],
+      "sourceValueSha256": "50732684d82c251308478adb0e98908d6c922fe0ad8e989f076bf2b8d91b1fb6",
+      "beforeValueSha256": "8f099c576782d993f40f976ff25cb9e9ea5e90661dd1183fb68ceeb2420cab0d",
+      "afterValueSha256": "c8fecadc584fd8cdf7aa19948dd9c4c704ef7a4f617f3698c01f5eeeffb41363"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456456577035",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вам воздастся!",
+      "before": "Nun: עוד תבוא עליכם פורענות!",
+      "after": "Nun: עוד תבוא עליך פורענות!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 7,
+      "id": 110504456456577035,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_NoLet"
+      ],
+      "sourceValueSha256": "42ccd84bcdb9bece7f49be91d78a77d53d34133150a6ca1d1139064747b980fa",
+      "beforeValueSha256": "bf06950e945551beb91596c045e2eb8e3b2e8f3eb889819094407acbd93483ba",
+      "afterValueSha256": "e1119058e5ed4af7b7afadcb26ee76420d77ef3969e8c08ed47f4ef48fd39e8c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456456577033",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Моя смерть будет на вашей совести.",
+      "before": "Nun: מותי יהיה על מצפונכם.",
+      "after": "Nun: מותי יהיה על מצפונך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 8,
+      "id": 110504456456577033,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_NoLet"
+      ],
+      "sourceValueSha256": "ea74596adb91a3fb483cabd2c489b179af0cc51b7c30959a028c2bd535c76326",
+      "beforeValueSha256": "8f497dd63a4092044020c6af97370ec225caed46136840aa54599c84afe16842",
+      "afterValueSha256": "c6b0f2b85d9a9d805652012b923da7fc9efcea834941f0c3ffca7ab27a8bacba"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456456577025",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Я вас спрашиваю, нормальный ли у вас дом, а вы мне матом отвечаете?!",
+      "before": "Nun: אני שואלת אם הבית שלכם ראוי למגורים, ואתם עונים לי בקללות?!",
+      "after": "Nun: אני שואלת אם הבית שלך ראוי למגורים, ואתה עונה לי בקללות?!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 13,
+      "id": 110504456456577025,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_4"
+      ],
+      "sourceValueSha256": "5461d7d518c2021ee5bf3d5ba2e249988ebdaf6429333641b18a35af85e771dd",
+      "beforeValueSha256": "a3651b1cbe81a1e2e5fe4dbefe9a11712ec5f015ff33f23148f8823e859fd1a0",
+      "afterValueSha256": "c5f89efac9deff0933c707394ce42da31138e13cf21431eae0ee0274b1d05686"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456456577024",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Побойтесь Бога! Стыдно должно быть!",
+      "before": "Nun: יראו את האל! התביישו לכם!",
+      "after": "Nun: ירא את האל! תתבייש!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 14,
+      "id": 110504456456577024,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_4"
+      ],
+      "sourceValueSha256": "a088061039016baeadb2007dd40d71a376a48c934df1f6852b1661e40d2ec79f",
+      "beforeValueSha256": "11c9d2262a0adaff4c81d0ce7b3dbcde96c3dd93110d006346c9d5c590e7ae1d",
+      "afterValueSha256": "633329f24c0a627a8904043ddd2580f85ebb70ff8cf518c77532c019601c30a7"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382732",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы хам и наглец!",
+      "before": "Nun: אתם גסי רוח וחצופים!",
+      "after": "Nun: אתה גס רוח וחצוף!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 15,
+      "id": 110504456452382732,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_4"
+      ],
+      "sourceValueSha256": "a024b2a798d9bf5f17dea1ed0430c605dfd8a7b6c6d2cf1aac3d4d1e60cd628e",
+      "beforeValueSha256": "3bfad1a503e4d78134e88703eb39f0cb10670ad49aab115387da2f9205d0963e",
+      "afterValueSha256": "d4ff600a4e9e24c19f01c08a1b17ce9298a5679a019b4f5bdc7aae3ee571a41c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382727",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Я просто хочу знать, насколько хороший у вас дом. А то у меня аллергия на всякую грязь, знаете ли.",
+      "before": "Nun: אני רק רוצה לדעת עד כמה הבית שלכם טוב. יש לי אלרגיה לכל מיני דברים מלוכלכים, שתדעו.",
+      "after": "Nun: אני רק רוצה לדעת עד כמה הבית שלך טוב. יש לי אלרגיה לכל מיני דברים מלוכלכים, שתדע.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 17,
+      "id": 110504456452382727,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_3"
+      ],
+      "sourceValueSha256": "1c1f234bea841acec6368ec70a2bc15189a2b9b2a805692373eef4f921a1c646",
+      "beforeValueSha256": "1c1adb408ecff153e2cafece980e187d91cc524cf0ba20a4b4dfe4ebe40003d3",
+      "afterValueSha256": "b64fdc8890e20c2bd9126283a298bffe7f124ddafe1f9f5530020e9a44f5d534"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382722",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Второе – у вас водятся клопы или крысы? Это очень важно.",
+      "before": "Nun: שנית — יש אצלכם פשפשים או חולדות? זה חשוב מאוד.",
+      "after": "Nun: שנית — יש אצלך פשפשים או חולדות? זה חשוב מאוד.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 22,
+      "id": 110504456452382722,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "c9d875bf2210bac80fc2eb9066034501a4db79992377c16de1a0009820839872",
+      "beforeValueSha256": "950481bf6338ef48004368083e930814ed5b391a09fe84b3f4db63721369b16d",
+      "afterValueSha256": "94e27a09d5aa4bab343e136f8d63bb23a6b597d6a0383ab2a0e8c890cad1cbac"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382721",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Если они у вас есть – лучше сразу скажите об этом.",
+      "before": "Nun: אם יש אצלכם כאלה, מוטב שתגידו לי מיד.",
+      "after": "Nun: אם יש אצלך כאלה, מוטב שתגיד לי מיד.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 23,
+      "id": 110504456452382721,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "a4a0662a94ce79e8a90488aa876b5037b450ec1655cb31d8039515f600ba5b7c",
+      "beforeValueSha256": "ef5cd0f385f43e6cbdc926f8554548cf6e8d12de5512d766f3e19f3a6a92bc1d",
+      "afterValueSha256": "6ccc2abf32924df27b3a5fa9e5c8bed40526e579b2a064115330e90b97c6bb79"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188426",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы же принимаете людей в свой дом, верно? Мне важно несколько вещей.",
+      "before": "Nun: אתם הרי מכניסים אנשים לביתכם, נכון? יש כמה דברים שחשובים לי.",
+      "after": "Nun: אתה הרי מכניס אנשים לבית שלך, נכון? יש כמה דברים שחשובים לי.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 25,
+      "id": 110504456448188426,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "a93da88ed0714edaae1663b143f73e7ccbe39f8514fef0b225667ff344a57ae9",
+      "beforeValueSha256": "15c7ce0a5dde0c4cc26dde89e496309fbdff12ff666c6fd7bfd898c167a823a1",
+      "afterValueSha256": "0458045f277198d99602ed72bc76f43524b3c58c03ceb1da513a2e62fa09c38d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188425",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Мне нужно место в вашем доме.",
+      "before": "Nun: אני צריכה מקום בבית שלכם.",
+      "after": "Nun: אני צריכה מקום בבית שלך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 26,
+      "id": 110504456448188425,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "bd1c19668c0dc7e21af182be4c74585343ee57900ab1cca5cee149df81cefc4e",
+      "beforeValueSha256": "93eb560a2477d9647d38bd4fc10a7df744d7025abbe6509e63fa3c399d9d3db1",
+      "afterValueSha256": "ef145c6a80d1a48dcdeed2bfa60f5f9e8aec1676febe8b8acabfdc947946a796"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188422",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: У вас, надеюсь, есть иконы? Предупреждаю, мне нужна полная тишина, чтобы я могла сосредоточиться на молитве.",
+      "before": "Nun: יש לכם איקונות, אני מקווה? אני מזהירה אתכם: אני זקוקה לשקט מוחלט כדי להתרכז בתפילה.",
+      "after": "Nun: יש לך איקונות, אני מקווה? אני מזהירה אותך: אני זקוקה לשקט מוחלט כדי להתרכז בתפילה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 29,
+      "id": 110504456448188422,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_1"
+      ],
+      "sourceValueSha256": "5f87f10431989dbc486c6210280da05d97fb64506fb36c7f3d8b6b8a7cc9fff0",
+      "beforeValueSha256": "e8fcd43011b8a6466ed4ab37aab80647addaeed9d71dfc87905c48c186589c7d",
+      "afterValueSha256": "cd27a02d75b2ad79922d4c282e1a549b45ca72bb49c84b1e0d4da86a813c3b8d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188421",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: И раз мы затронули эту тему, скажите, пожалуйста…",
+      "before": "Nun: וכיוון שכבר דיברנו על זה, אמרו לי בבקשה…",
+      "after": "Nun: וכיוון שכבר דיברנו על זה, אמור לי בבקשה…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 30,
+      "id": 110504456448188421,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_1"
+      ],
+      "sourceValueSha256": "8ec1b85de3d067ccb3fde68e5255893d73b6b7b026f957da8036b91c606a357f",
+      "beforeValueSha256": "74007202bde0c2df6699465863e2e7ea4c5c0bd88f48c29225f896bd48ef7ace",
+      "afterValueSha256": "b347d3ab9ee022f4d3a9635e59c871fc48b35662b608c6f01968b5ae39e207ba"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188419",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Господи, я ж с вами на одном языке разговариваю…",
+      "before": "Nun: אלוהים, הרי אני מדברת איתכם באותה שפה…",
+      "after": "Nun: אלוהים, הרי אני מדברת איתך באותה שפה…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 32,
+      "id": 110504456448188419,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Entrance_1"
+      ],
+      "sourceValueSha256": "e787ef06bc4aa59ba3847384b32250e37cd2319eb260833e33f439f4d8cd4db9",
+      "beforeValueSha256": "ff025b159f80c50eb49db1b721c3570dd0049ab1798d44f18e96c1cd36189333",
+      "afterValueSha256": "65fd6ec7ea94b983c1b8c76e0c88dc7966030f27280be3a3a391a51687cfd300"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848521",
+      "category": "independent-review-02",
+      "findingId": "HE-IR02-007",
+      "source": "Bald: Это был полный пиздец…",
+      "before": "Bald: זה היה זוועה מוחלטת…",
+      "after": "Bald: זה היה חרא מוחלט…",
+      "reviewerProposal": "Bald: זה היה חרא מוחלט…",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 7,
+      "id": 110504455814848521,
+      "reason": "The source's full unit Это был полный пиздец… is an explicitly profane assessment. זוועה מוחלטת removes the profanity; זה היה זוועה also leaves an awkward masculine construction with the feminine noun זוועה. The coarse wording is supported by the surrounding Bald account and approved voice, and retains the complete assessment and ellipsis. This explicitly invalidated old decision is reopened on the objective source-register and noun-agreement evidence, not to prefer a different valid synonym.",
+      "nodeNames": [
+        "Bald_Asking_4"
+      ],
+      "sourceValueSha256": "0867dfc8cf27f0262fdcb0e9324ba6f1a9276f7879776e0076d1e93c6250181a",
+      "beforeValueSha256": "091cb0b6bc1c7017e68b6d06cccb7c3ae679c11b2f26fe0969ca49e551c6fbc4",
+      "afterValueSha256": "97d95f964f97851e612d0caf2e3dbfd5c9818acf439d4fcc95e5ddffe3aa94b2"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654212",
+      "category": "bounded-bald-coarse-register",
+      "findingId": null,
+      "source": "Bald: Это ж пиздец! Все эти признаки — хуйня какая-то! Пацанов убили просто так…",
+      "before": "Bald: זה פשוט מטורף! כל הסימנים האלה הם שטויות! הרגו את החבר'ה סתם ככה…",
+      "after": "Bald: זה פשוט חרא! כל הסימנים האלה הם חרטא מזוינת! הרגו את החבר'ה סתם ככה…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 22,
+      "id": 110504455810654212,
+      "reason": "Explicit Russian profanity in Bald's established coarse voice was neutralized; restore a coarse full-unit assessment while retaining all other facts.",
+      "nodeNames": [
+        "Bald_Asking_3"
+      ],
+      "sourceValueSha256": "d2f39e5ef044070eb7e8471b7de9e14a2e6d5f301965e3e6ccb6f043e7e22bdb",
+      "beforeValueSha256": "b023af98591935fc6b469311e20a868c2f5e0f460ff4c9bb483d9bd297eb6be2",
+      "afterValueSha256": "93fc08679790720f285ad2c0f088849ee1f4e8829dca93b9891a2d8758339dad"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454707552265",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Прощайте. Бог вас покарает!",
+      "before": "Nun: היו שלום. אלוהים יעניש אתכם!",
+      "after": "Nun: היה שלום. אלוהים יעניש אותך!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 33,
+      "id": 110504454707552265,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_4"
+      ],
+      "sourceValueSha256": "c56eecfcae2b640720c8f20ee906fc0bc7cd8fa3d476089f35799786cee95d24",
+      "beforeValueSha256": "e56f009ddc407d612d9c990581c1ac4465f185b3483b5ec6d45291f018613679",
+      "afterValueSha256": "950f10b7598d1017d487b4db2d9e10ecb3a9d543c360c43f4ae02b504142fd05"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454707552261",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Прощайте. Бог вас покарает!",
+      "before": "Nun: היו שלום. אלוהים יעניש אתכם!",
+      "after": "Nun: היה שלום. אלוהים יעניש אותך!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 37,
+      "id": 110504454707552261,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_3"
+      ],
+      "sourceValueSha256": "c56eecfcae2b640720c8f20ee906fc0bc7cd8fa3d476089f35799786cee95d24",
+      "beforeValueSha256": "e56f009ddc407d612d9c990581c1ac4465f185b3483b5ec6d45291f018613679",
+      "afterValueSha256": "950f10b7598d1017d487b4db2d9e10ecb3a9d543c360c43f4ae02b504142fd05"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454707552260",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Мне не нужен ваш отвратительный дом! Я ни минутой больше здесь не останусь.",
+      "before": "Nun: אני לא צריכה את הבית המבחיל שלכם! לא אשאר כאן עוד דקה.",
+      "after": "Nun: אני לא צריכה את הבית המבחיל שלך! לא אשאר כאן עוד דקה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 38,
+      "id": 110504454707552260,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_3"
+      ],
+      "sourceValueSha256": "8f4d2042fe2095e3fcd96bc3c00fffcb0927a0e0705f271f186d0f936ddac23d",
+      "beforeValueSha256": "2853b51009fa3b9d479a7642e559f74baf71a91c5d19cf5b3f39fb74fb354941",
+      "afterValueSha256": "24e8f84149ddf3ec9db441424e1fce193001f22a3bb3df87cdf0f6b90f025a90"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454707552259",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Решили выставить себя героем?",
+      "before": "Nun: החלטתם להציג את עצמכם כגיבורים?",
+      "after": "Nun: החלטת להציג את עצמך כגיבור?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 39,
+      "id": 110504454707552259,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_3"
+      ],
+      "sourceValueSha256": "6a64873a023ff5fef8de9df13650d6d96ffab819a9b4ad8b7b6008d8e16b463a",
+      "beforeValueSha256": "81fa4667f96f51dc70251ee06e4667b0cf987cdb1405d4e40540832f56e6bd76",
+      "afterValueSha256": "c41c8f2a1459c85511970aa1e11eeaa2e38db97e0e002c1edfcff077b1b6e712"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357961",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Я думала, вы поймёте меня. Но вы такой же глупец, как и те варвары.",
+      "before": "Nun: חשבתי שתבינו אותי. אבל אתם טיפשים בדיוק כמו הברברים האלה.",
+      "after": "Nun: חשבתי שתבין אותי. אבל אתה טיפש בדיוק כמו הברברים האלה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 45,
+      "id": 110504454703357961,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "ee08fabae7aa05c060b2d11b64f480d8bdfbde2f1c76feefffdff3875304abaa",
+      "beforeValueSha256": "4f3c4495bd6e7c00d8f2e1521eb38567dee86e801cb2fb04dc393baad82f3563",
+      "afterValueSha256": "fc1677a1e6b016b2eb0133ffb84a0ecd80273b1b076efea17a806e8891f38a19"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357960",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: БОГОХУЛЬНИК! ВЫ ТАКОЙ ЖЕ БОГОХУЛЬНИК!",
+      "before": "Nun: מגדף! גם אתם מגדפים!",
+      "after": "Nun: מגדף! גם אתה מגדף!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 0,
+      "id": 110504454703357960,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "445c92e5006be4d1c3230794aeb6a95a78c2a82f7582d25de0a7084bb6d89f22",
+      "beforeValueSha256": "8c81933103ff9f92dc7bf68acc4dcd0e7dd1e2cf8c8b8790814e9ef3f41bd48d",
+      "afterValueSha256": "3fa330c83255a906c966ca8126f3421f2d2cac4db4a981f7364b0e47264bfef7"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357959",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Да вы не человек, а настоящий змей!",
+      "before": "Nun: אתם לא בן אדם, אתם נחש ממש!",
+      "after": "Nun: אתה לא בן אדם, אתה נחש ממש!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 1,
+      "id": 110504454703357959,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "7fd9ef4dc3aff47d4933d0bd0829a85bc0606d46807edfe01ae7ebd74c2207ed",
+      "beforeValueSha256": "07640ac1501cc2857c2b1cb906604edbe32385725ad5c946876fb08b7be7d60d",
+      "afterValueSha256": "a815323ca403a20a17f24934e7e076301ba9afa3a6aeaad25478f158471e1db4"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357957",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Злорадствуете и считаете, что я это заслужила!?",
+      "before": "Nun: אתם שמחים לאידי וחושבים שזה הגיע לי?!",
+      "after": "Nun: אתה שמח לאידי וחושב שזה הגיע לי?!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 2,
+      "id": 110504454703357957,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "ae0482a654a3df9d86ffecadbc59ab50b36232a1457a87e388cd1617f0aebe97",
+      "beforeValueSha256": "912c2833e846f35b0672b6ab8ba6d3d1b51af99a8646bac48c5df46ed3cfcb81",
+      "afterValueSha256": "79923a393ee1c80ad5d32fc8e01c19d1a52c0c12ba11d44e27fd855bb14ba68b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357956",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Меня, священнослужителя, выгнали деревенщины из святого места по каким-то своим причинам, а вы…",
+      "before": "Nun: אותי, אשת דת, גירשו כפריים מהמקום הקדוש בגלל איזה עניין שלהם, ואתם…",
+      "after": "Nun: אותי, אשת דת, גירשו כפריים מהמקום הקדוש בגלל איזה עניין שלהם, ואתה…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 3,
+      "id": 110504454703357956,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "76ff8cba28f28cc01fab399599b3d1b357523353586e566e05e47b614ec34371",
+      "beforeValueSha256": "8d9e3668914321dd17f21335180aadcae7b154e580493022f061a92569eaf8db",
+      "afterValueSha256": "13097c68e2411634c2317107f52e7c7e502e383a2d5b8906190b57abca108c2a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357955",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы… совсем из ума выжили!?",
+      "before": "Nun: אתם… איבדתם את השפיות לגמרי?!",
+      "after": "Nun: אתה… איבדת את השפיות לגמרי?!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 4,
+      "id": 110504454703357955,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "5940a5bab6758a3b79e6c1cde8b93846689a13e1551995cce5828c823d511a90",
+      "beforeValueSha256": "88092bb4ee3ebc75d33046706b199c80e539240f6d438cb5099c206fc29c61e3",
+      "afterValueSha256": "0c3bad9bfa94593d5483e91767778e0137d503247e53afba7667f87fe156e910"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454703357954",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ах вы нахал!",
+      "before": "Nun: חצופים שכמותכם!",
+      "after": "Nun: חצוף שכמותך!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 5,
+      "id": 110504454703357954,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_4_2"
+      ],
+      "sourceValueSha256": "11bc16a1f9cde36cc2c38ef7d9797442a195ac6ff196ffe91365a99a932050f8",
+      "beforeValueSha256": "6327b838292349c6d5b519711a573483a3161a25d3091630f9049cdfaba64fe6",
+      "afterValueSha256": "dbc564f7a35e6bad49f19a88f0d4bcda7886b8b98f327efff565f2b7dc036df1"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454690775049",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Но я вас не боюсь. Господь-Боженька меня защитит, если понадобится.",
+      "before": "Nun: אבל אני לא פוחדת מכם. האל הטוב יגן עליי אם יהיה צורך.",
+      "after": "Nun: אבל אני לא פוחדת ממך. האל הטוב יגן עליי אם יהיה צורך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 27,
+      "id": 110504454690775049,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_2"
+      ],
+      "sourceValueSha256": "ee6000bcd79499c5eb0ea42a4dbdad02380523b88b1dfda71524ecc1a6b6637a",
+      "beforeValueSha256": "80d9753f4a032702261e9b1c3801309c552850686f6068182ce89bb616a18c9d",
+      "afterValueSha256": "a8892864b95dadca482a58d391bc6e2c377730bc1a25157b58ec52f1e9526e41"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454690775048",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: А может, вы сам демон! Рожки-то того погляди выступят у вас!",
+      "before": "Nun: ואולי אתם בעצמכם שד! עוד מעט יצמחו לכם קרניים!",
+      "after": "Nun: ואולי אתה בעצמך שד! עוד מעט יצמחו לך קרניים!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 28,
+      "id": 110504454690775048,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_2"
+      ],
+      "sourceValueSha256": "d2a5f3bf66842b7975680a222fbefa22c65785e0e785894f6f9bbfba3ab7cb7e",
+      "beforeValueSha256": "f0b6fbba28a24bfb26201557506ac0004041aa161f9b9ee89ff5b21514c37449",
+      "afterValueSha256": "380654201debaa383cc06e406f848c15060deea130c7e102a7b02e0db1e9f91e"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454690775047",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Убиваете всех, кто вам демоном кажется.",
+      "before": "Nun: אתם הורגים כל מי שנראה לכם שד.",
+      "after": "Nun: אתה הורג כל מי שנראה לך שד.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 29,
+      "id": 110504454690775047,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_2"
+      ],
+      "sourceValueSha256": "f108d3c3debb0e3cfa3cd7145223eeda88c49a8168b5a2579d091be87b800eb7",
+      "beforeValueSha256": "6d17945314fcf663b2865227c1c308f2615b7ed55ce83696f3c867a084629fe0",
+      "afterValueSha256": "3cf80bce322ef94ccb394447cf2afe4e05a1c2ddacf85f2a98642147c91ec517"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454690775046",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Здесь смердит убийством и смертью. А вы небось и рады распространять этот грех!",
+      "before": "Nun: כאן מסריח מרצח וממוות. ואתם בטח שמחים להפיץ את החטא הזה!",
+      "after": "Nun: כאן מסריח מרצח וממוות. ואתה בטח שמח להפיץ את החטא הזה!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 30,
+      "id": 110504454690775046,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_2"
+      ],
+      "sourceValueSha256": "ba7b39002069b6427715f7766b16ca16cbb39d0b98a9c7e1390a853bc8fbf0a4",
+      "beforeValueSha256": "3357a73c77ab64c9d1fe4bb38908aadde52640b11640f6a000cf9dac23c10a77",
+      "afterValueSha256": "5da3ac09519beed5d51cd66accfcb5ea3203b147a350b34ba380e76a73d5d907"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454690775044",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Думаете, мне сильно нужна ваша гнилая лачуга?",
+      "before": "Nun: אתם חושבים שאני כל כך צריכה את הבקתה הרקובה שלכם?",
+      "after": "Nun: אתה חושב שאני כל כך צריכה את הבקתה הרקובה שלך?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 32,
+      "id": 110504454690775044,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_2"
+      ],
+      "sourceValueSha256": "4071ada0d2373b3a8658acb1798ad8ee17694eb21cd652ed6a14ca5819ecba72",
+      "beforeValueSha256": "0768d7b555e75c9c1bb9a9b12098f07d81e630fc358a48903f22cc2a61f5d4d0",
+      "afterValueSha256": "59cd9282ff5ed3320db1b7b96a00006c979333b81a1f60760f7b993951c7501c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454686580746",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ладно, забудьте.",
+      "before": "Nun: טוב, תשכחו מזה.",
+      "after": "Nun: טוב, תשכח מזה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 34,
+      "id": 110504454686580746,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_1"
+      ],
+      "sourceValueSha256": "6e3e97452683507deafc3eee24615d604780fe4460cec434decb273a59719e3e",
+      "beforeValueSha256": "1bcf25254cd267f738d4bfe8d86651274f362acebc2cffb56f6b06b1cc1711c3",
+      "afterValueSha256": "9e28db291800c7eb133bbf8222461d76b83462d48038a75e3e815591bc7be4af"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454686580744",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы не могли повесить крест в комнату получше?",
+      "before": "Nun: לא יכולתם לתלות צלב בחדר טוב יותר?",
+      "after": "Nun: לא יכולת לתלות צלב בחדר טוב יותר?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 35,
+      "id": 110504454686580744,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_1"
+      ],
+      "sourceValueSha256": "bead8ed36e701cf3c10fe38a09c05f5617ca4398c9fcc068b109f219736b4ac3",
+      "beforeValueSha256": "2045f88bf0de8fb1490898f3eb709ca4d3584bf765c0bbfff65083daf3621792",
+      "afterValueSha256": "624932d435086a94c235de7156b08ec023390b7e07fba44d8b27febdb8433765"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454686580742",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: И ещё – вы меня специально в самую убогую комнату поселили?",
+      "before": "Nun: ועוד דבר — בכוונה שיכנתם אותי בחדר הכי עלוב?",
+      "after": "Nun: ועוד דבר — בכוונה שיכנת אותי בחדר הכי עלוב?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 37,
+      "id": 110504454686580742,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Asking_1"
+      ],
+      "sourceValueSha256": "7a2722a49697fb669cd054cc6177fca0b3fea2778f53523e1dbeddcf95bf6576",
+      "beforeValueSha256": "0af12c827025078028644edc8980cd4763db6a6a0f87d8d21f169f0718bf07b8",
+      "afterValueSha256": "169a74d5c32f327e06d1dc8ee2eb03fabfc22f125ca5d10235bbfaa5f1431509"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937674",
+      "category": "bounded-bald-coarse-register",
+      "findingId": null,
+      "source": "Bald: Это пиздец…",
+      "before": "Bald: זה נורא…",
+      "after": "Bald: זה חרא…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 5,
+      "id": 110504453981937674,
+      "reason": "Explicit Russian profanity in Bald's established coarse voice was neutralized; restore a coarse full-unit assessment while retaining all other facts.",
+      "nodeNames": [
+        "Bald_Photo_DontShoot"
+      ],
+      "sourceValueSha256": "29fcd1dca7898bed922f3745a2c96baf6b1c5e46e6c6329a5fc6d03e816b64bc",
+      "beforeValueSha256": "7127769926716a2160c7dc6b91aba64e31d45da7603cf69c33b69a008abe799e",
+      "afterValueSha256": "ebfbff764a60ab8b90851458a7b6e58475f645cc804d6e1442eb4c71dd4f2407"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937668",
+      "category": "bounded-bald-coarse-register",
+      "findingId": null,
+      "source": "Bald: Это пиздец…",
+      "before": "Bald: זה נורא…",
+      "after": "Bald: זה חרא…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 11,
+      "id": 110504453981937668,
+      "reason": "Explicit Russian profanity in Bald's established coarse voice was neutralized; restore a coarse full-unit assessment while retaining all other facts.",
+      "nodeNames": [
+        "Bald_Armpit_DontShoot"
+      ],
+      "sourceValueSha256": "29fcd1dca7898bed922f3745a2c96baf6b1c5e46e6c6329a5fc6d03e816b64bc",
+      "beforeValueSha256": "7127769926716a2160c7dc6b91aba64e31d45da7603cf69c33b69a008abe799e",
+      "afterValueSha256": "ebfbff764a60ab8b90851458a7b6e58475f645cc804d6e1442eb4c71dd4f2407"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452262273029",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вот и всё ваше наследие. Ничего они не говорят, а ты и уши развесил, как осёл…",
+      "before": "Nun: וזו כל המורשת שלכם. הן לא אומרות דבר, ואתה מקשיב להן כמו חמור…",
+      "after": "Nun: וזו כל המורשת שלך. הן לא אומרות דבר, ואתה מקשיב להן כמו חמור…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 44,
+      "id": 110504452262273029,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Photo_DontShoot"
+      ],
+      "sourceValueSha256": "4e76f9d2533567a1c31b37f562fe4e088b76b091070eca9181a25465b982194d",
+      "beforeValueSha256": "bc1002ec310793f79f01e273c6548c786e7124b7aabd5931ff66eb2d0d7c684e",
+      "afterValueSha256": "635f36ac79a3afe1e7bf37d3c0036b46a413f77e5f1fb24c4f54f4c2a30513ea"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452262273027",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Все эти ваши фотокарточки – глупости полнейшие!",
+      "before": "Nun: כל התמונות האלה שלכם הן שטות גמורה!",
+      "after": "Nun: כל התמונות האלה שלך הן שטות גמורה!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 46,
+      "id": 110504452262273027,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Photo_DontShoot"
+      ],
+      "sourceValueSha256": "bddebad074f341d922ddfee702c3abc32660dff77a9e232d634f1172a3804420",
+      "beforeValueSha256": "73c65736b2f2d7e799e885ac042f14fb017f181470f335a73994e0ea71d023e6",
+      "afterValueSha256": "d590f525082265774f0be1eb4abe45a95c2654e0646b94a705f274a634d8d005"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452262273025",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вот вы эти проверки свои проводите, а главное не то ведь, что снаружи. Главное, что внутри.",
+      "before": "Nun: אתם עורכים את הבדיקות האלה, אבל העיקר אינו מה שבחוץ. העיקר הוא מה שבפנים.",
+      "after": "Nun: אתה עורך את הבדיקות האלה, אבל העיקר אינו מה שבחוץ. העיקר הוא מה שבפנים.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 1,
+      "id": 110504452262273025,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Armpit_DontShoot"
+      ],
+      "sourceValueSha256": "a492f4d86bdf0e9125aafbcd12d78a4c5bff0cd9c7a067cf8db480e734db32ba",
+      "beforeValueSha256": "522e475c651b1639f0c3e112b172dcb25758a5097eb8e399c17065b557cf70e9",
+      "afterValueSha256": "577224f788a7edc6556c67e1d61a368314c400cca8e06a99dbaaf79458cc2cca"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452262273024",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Пусть ваша вечная тьма станет вам наказанием, ведь ни вера, ни благодать не поселились в ваших взглядах.",
+      "before": "Nun: מי ייתן ואפלתכם הנצחית תהיה עונשכם, כי לא אמונה ולא חסד שוכנים במבטכם.",
+      "after": "Nun: מי ייתן ואפלתך הנצחית תהיה עונשך, כי לא אמונה ולא חסד שוכנים במבטך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 2,
+      "id": 110504452262273024,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "d844a42b88f44615041656b82ddc28112d0292b0ef4cceeb94f46de812be5d8c",
+      "beforeValueSha256": "45156b3c3b56c1aa01754a815da7dee6d7ff08f1f3250a12151b7898213ef98b",
+      "afterValueSha256": "165a039acd6d2212f1aaa54e799b49dae184cfcdb10b068a19667ddb5e3d5282"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078729",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы – нехристь, как и те, кто выгонял меня из моего святого убежища, утратили связь с истинным светом веры.",
+      "before": "Nun: אתם כופרים, כמו אלה שגירשו אותי ממקלטי הקדוש. איבדתם את הקשר עם אורה האמיתי של האמונה.",
+      "after": "Nun: אתה כופר, כמו אלה שגירשו אותי ממקלטי הקדוש. איבדת את הקשר עם אורה האמיתי של האמונה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 3,
+      "id": 110504452258078729,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "fc7f02300d1452485dfc670da2bdfba8182a9dfea8fe47c565794553c07b432f",
+      "beforeValueSha256": "f27df25b30c0fe3ba9b93baaf1822acfe830bbdc0bfc6d22756d66a4513476e5",
+      "afterValueSha256": "fb7634cdb0d6fafb9aa05ef70da70de6bc7e4f9d5342a5ae35267ec5f3af0e7c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078728",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Глаза – это зеркало души. А у вас в них только… мрак.",
+      "before": "Nun: העיניים הן ראי הנפש. ובשלכם יש רק… חושך.",
+      "after": "Nun: העיניים הן ראי הנפש. ובעיניים שלך יש רק… חושך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 4,
+      "id": 110504452258078728,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "207de91babc5f1dec9c9597ad1366ae3d69996f015dd84a4f6b3fd6b54396443",
+      "beforeValueSha256": "cb56d40d1802a66d051e688710d30c9bc27bb195e381cfdfee7193f1c59c8a66",
+      "afterValueSha256": "a4497cef6b297b306c0f09700485a2f09dff4d12c6ef369870c6e8f734e34a5c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078726",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Знаете, говорят, руки человека – это его жизнь.",
+      "before": "Nun: אומרים שידיו של אדם הן חייו, אתם יודעים.",
+      "after": "Nun: אומרים שידיו של אדם הן חייו, אתה יודע.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 6,
+      "id": 110504452258078726,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Hands_DontShoot"
+      ],
+      "sourceValueSha256": "f3af7594617231c47800147f2a1d49ae0e66a91ae42e233e42ae9b2c9ac7b5de",
+      "beforeValueSha256": "997bb51139cec85b664dfdfa7ce6b76e0af59908da6d7c6db026cc1c2a5840c2",
+      "afterValueSha256": "b81c7a4bb65cf0a91a778a15686439d404436b93c12777755c466ea14c2471d7"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078725",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Сейчас же молодёжь вообще не следит за собой. Жрут всё что ни попадя. Так и без зубов останетесь сильно раньше моего! Если, конечно, доживёте…",
+      "before": "Nun: הצעירים היום כבר אינם שומרים על עצמם בכלל. זוללים כל מה שנקרה בדרכם. כך תאבדו את השיניים הרבה לפני גילי! אם תחיו עד אז, כמובן…",
+      "after": "Nun: הצעירים היום כבר אינם שומרים על עצמם בכלל. זוללים כל מה שנקרה בדרכם. כך תאבד את השיניים הרבה לפני גילי! אם תחיה עד אז, כמובן…",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 7,
+      "id": 110504452258078725,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Teeth_DontShoot"
+      ],
+      "sourceValueSha256": "0ef7723eaf1700393bd06802d20e232986647eff44455e4de1e8bd4d7715009c",
+      "beforeValueSha256": "c1e66b58f90f2608d96068bf573f71228a0b144a5dc8d4eb61ce1524a162ef0e",
+      "afterValueSha256": "d8a8cef9ca2972fd1e2e3128892ab4fbe747b6162229eb7923c672ff8a131934"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078724",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Попробуйте дожить до моего и не потерять ни единого зуба!",
+      "before": "Nun: נסו להגיע לגילי בלי לאבד אפילו שן אחת!",
+      "after": "Nun: נסה להגיע לגילי בלי לאבד אפילו שן אחת!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 8,
+      "id": 110504452258078724,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Teeth_DontShoot"
+      ],
+      "sourceValueSha256": "61f65abe79f279042a9604acd26d9bd606409593aced922a6bf372e80f3e2175",
+      "beforeValueSha256": "206bad8043a4f34eb8e20b0bdac2ca4af444ff65fedcb44ee93bcd5ec21a31ea",
+      "afterValueSha256": "15064ced114a86fa1e0381cfb4acbd62c70b1cd378ce4623e15d94cc6cb933e1"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078720",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ой-ой, испугать решили? Да я за жизнь такого навидалась, что ваша пукалка мне — как детская игрушка!",
+      "before": "Nun: אוי ואבוי, החלטתם להפחיד אותי? ראיתי בחיי דברים כאלה, שהצעצוע הזה שלכם בשבילי — כמו משחק של ילדים!",
+      "after": "Nun: אוי ואבוי, החלטת להפחיד אותי? ראיתי בחיי דברים כאלה, שהצעצוע הזה שלך בשבילי — כמו משחק של ילדים!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 10,
+      "id": 110504452258078720,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Ears_Gun"
+      ],
+      "sourceValueSha256": "80f278d1bbc4a7d981679f94d82c226dd9c2ef078accd66c8913e8afdd347081",
+      "beforeValueSha256": "14c366035b9df5a5316b5884730592b4230e49ba0006f35e327fe4a44986f820",
+      "afterValueSha256": "3474847df74da42673e5368c1caa38a674ad886ef384489ec6264fcff5e82e9d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452253884424",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вас надурили, как простака, а вы и не против, да?",
+      "before": "Nun: עבדו עליכם כמו על פתי, ואתם אפילו לא מתנגדים, נכון?",
+      "after": "Nun: עבדו עליך כמו על פתי, ואתה אפילו לא מתנגד, נכון?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 11,
+      "id": 110504452253884424,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Photo_Gun"
+      ],
+      "sourceValueSha256": "326fef2cba38710d81d070100efa9764fa055825dace5dd7a61fbf189c1fef38",
+      "beforeValueSha256": "c40c33ab1c52d2872d3b927f1edad2037abeaf15d58c7ce491f93809da88e3a9",
+      "afterValueSha256": "399df120a610ad2dd09252caf9aa6df25e6b922f82ef14d16a1d678efac2bed4"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452253884423",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вот это что за цирк, а? Думаете, если меня пристрелите, то кому-то лучше станет? А вы точно не дурак?",
+      "before": "Nun: מה זה הקרקס הזה? אתם חושבים שמישהו ירוויח מזה אם תירו בי? אתם בטוחים שאינכם טיפשים?",
+      "after": "Nun: מה זה הקרקס הזה? אתה חושב שמישהו ירוויח מזה אם תירה בי? אתה בטוח שאינך טיפש?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 12,
+      "id": 110504452253884423,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Photo_Gun"
+      ],
+      "sourceValueSha256": "cb91ef96203d388298c433f16f36e555d6efdf212c22ccb43cff0159b3674a36",
+      "beforeValueSha256": "2e188f832fd2f3665cfd16bf350d9ef53e7593cb72ce26df7a4127154135dbb7",
+      "afterValueSha256": "d38df16d08430135ca2d45acfa5fece0d5a8c6fcbf8581057adeabef091839a0"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452253884420",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Бог всё видит. И то, как вы над бедной старухой, слугой Божьей, издеваетесь, тоже видит! Вам самому не стыдно за такое поведение???",
+      "before": "Nun: אלוהים רואה הכול. הוא רואה גם איך אתם מתעללים בזקנה מסכנה, משרתת האל! אינכם מתביישים בהתנהגות הזאת???",
+      "after": "Nun: אלוהים רואה הכול. הוא רואה גם איך אתה מתעלל בזקנה מסכנה, משרתת האל! אינך מתבייש בהתנהגות הזאת???",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 13,
+      "id": 110504452253884420,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Armpit_Gun"
+      ],
+      "sourceValueSha256": "d7ba1fea16ee6fe77e5dadf58093aa4f48a5dea0a79e10d45dd616406a080ef5",
+      "beforeValueSha256": "1c1f0f1f04eb22c52681238c2c4d458bf515db74e8bcc1868d4da1cf7251e6b8",
+      "afterValueSha256": "fb463efcbcb34ba80329552a806079391dc516c39817b501ff7d91ad7c30e9a3"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452253884417",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ваши глаза мне страшнее. В них пусто.",
+      "before": "Nun: העיניים שלכם מפחידות אותי יותר. הן ריקות.",
+      "after": "Nun: העיניים שלך מפחידות אותי יותר. הן ריקות.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 14,
+      "id": 110504452253884417,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Eyes_Gun"
+      ],
+      "sourceValueSha256": "e79889849619af388aed690aedd9c7e249df57e3a6dfa34226098db7a3d665da",
+      "beforeValueSha256": "d2e5753ac3225c442ed25f4b534107091f1941f2ab5fec754b8031cb59fc4ae9",
+      "afterValueSha256": "37d4399bf0034a5f09afd058d7a75851cc59ff6764d046cf8efa667d5634ae9c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452249690120",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Пули грехи не смывают. Вы считаете, что ружьё подтолкнёт меня к исповеди?",
+      "before": "Nun: כדורים אינם שוטפים חטאים. אתם חושבים שהרובה יגרום לי להתוודות?",
+      "after": "Nun: כדורים אינם שוטפים חטאים. אתה חושב שהרובה יגרום לי להתוודות?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 15,
+      "id": 110504452249690120,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Hands_Gun"
+      ],
+      "sourceValueSha256": "0a7fa5ed7421913e9e9c6ce4599f7de3cfe7a3139893b36d758c299df519a319",
+      "beforeValueSha256": "b26d97c4b406c32fddeb44c7a6a43ec255c42fd293b7aed700f294543a5c23e8",
+      "afterValueSha256": "d2611896fb3f3dae7b21d09d5ee5715d74f0024bae89d574018dfe78890dc5bc"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452249690117",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Пугаете бедную старуху? Побойтесь Бога!",
+      "before": "Nun: אתם מפחידים זקנה מסכנה? יראו את האל!",
+      "after": "Nun: אתה מפחיד זקנה מסכנה? ירא את האל!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 16,
+      "id": 110504452249690117,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Teeth_Gun"
+      ],
+      "sourceValueSha256": "f9e59c0ba1670788f12b1b7e81f7a61b948453790c3e4b53d100bc3dd9abccff",
+      "beforeValueSha256": "ac9512e40da995db0e2bc04c45eb45f98c28fadb527cf70574b4a7d186fcdf9c",
+      "afterValueSha256": "1d8180023bea24d9f600150a1453f6a9c1cdba2e952eaa6df5b4902175977515"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452249690116",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы, видать, совсем стыд потеряли.",
+      "before": "Nun: נראה שאיבדתם כל בושה.",
+      "after": "Nun: נראה שאיבדת כל בושה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 17,
+      "id": 110504452249690116,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Teeth_Gun"
+      ],
+      "sourceValueSha256": "d2c1898dfb0fcfacf815727ec66c5ed5a06793fef20a980a41abe8d424ba6aed",
+      "beforeValueSha256": "43b8f038edee0b58bb80f74978fe58f9c435de9be5d6b78bb97aaed390fa232b",
+      "afterValueSha256": "9b30f823d2c72cbd67335da1a2fa654241a7b2d9eeff1c98640cfe2dd59d6d25"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452249690115",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Руки прочь, я вам не корова на базаре!",
+      "before": "Nun: הסירו את ידיכם ממני, אני לא פרה בשוק!",
+      "after": "Nun: הסר את ידיך ממני, אני לא פרה בשוק!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 18,
+      "id": 110504452249690115,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Ears"
+      ],
+      "sourceValueSha256": "6a1401d3c98ac05cb2a6d30e69ce6d0bdc3e388e8d7002f2ec785318a123053e",
+      "beforeValueSha256": "1a71ca68b4732b92a837692bec873ff76ed2442e1e9df3984d5677a2eec32a65",
+      "afterValueSha256": "cdf12d8bfe27d75f742babe498fb471ba7d408e5950a712e63d68aecee3887af"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452249690113",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Что-о-о?! Уши проверять?! Да вы больной, что ли?",
+      "before": "Nun: מההה?! לבדוק את האוזניים?! אתם חולים או מה?",
+      "after": "Nun: מההה?! לבדוק את האוזניים?! אתה חולה או מה?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 19,
+      "id": 110504452249690113,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Ears"
+      ],
+      "sourceValueSha256": "01f8148d7a9bfb249243239ede36f5b73edbdf12e5cdd663eec67aeaff6d586a",
+      "beforeValueSha256": "cf2562faa16e2fdbe04b277228bca915cd33eafd3ec976bd8e7f698710500c4c",
+      "afterValueSha256": "b21ff9d7a977b0b16e9b50ab21d16430cb37f2ddd57b9cc608c8b45e17b86656"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452245495817",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы что, думаете, что фотографии – это правда? Да вас в детстве обманывали, как тупого гуся! Вон, даже у меня на монастырском дворе голуби умнее.",
+      "before": "Nun: אתם חושבים שתצלומים מראים את האמת? כנראה עבדו עליכם בילדותכם כמו על אווז טיפש! אפילו היונים בחצר המנזר שלי חכמות יותר.",
+      "after": "Nun: אתה חושב שתצלומים מראים את האמת? כנראה עבדו עליך בילדותך כמו על אווז טיפש! אפילו היונים בחצר המנזר שלי חכמות יותר.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 20,
+      "id": 110504452245495817,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Photo"
+      ],
+      "sourceValueSha256": "b81d1356bb6cee78b66416a1555468ab972313a0979c47ca257c56d44aa0a33d",
+      "beforeValueSha256": "c4fb88e3faf8e9caf55f351f0da33585bcd0f5a5dcc6193c49f7e8fd37babdfb",
+      "afterValueSha256": "5cbc8e3b0f332410051311342c3ceeea912c508574e9a1b2b5e71f2dd56d0549"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452245495810",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы же просто так от меня не отстанете?",
+      "before": "Nun: הרי לא תניחו לי סתם כך, נכון?",
+      "after": "Nun: הרי לא תניח לי סתם כך, נכון?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 23,
+      "id": 110504452245495810,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Armpit"
+      ],
+      "sourceValueSha256": "337c28d8841194cd87d2995840f417c79a253ccd51a7d9f5805c75edcfd01982",
+      "beforeValueSha256": "7317d44ad202d03f346ee814e7e5e5c22a6273ef6aedd7ac59f874db23b56720",
+      "afterValueSha256": "c3ef726a8d3a53f9b52ae40940b4ce13f77172220dad6786293bf224b586b134"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452241301511",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ишь шо вздумали! Старую, больную — да поднимать руки, оголяться перед таким негодяем.",
+      "before": "Nun: ראו מה העליתם בדעתכם! לדרוש מזקנה חולה להרים ידיים ולחשוף את גופה בפני נבל כמוכם.",
+      "after": "Nun: ראה מה העלית בדעתך! לדרוש מזקנה חולה להרים ידיים ולחשוף את גופה בפני נבל כמוך.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 26,
+      "id": 110504452241301511,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Armpit"
+      ],
+      "sourceValueSha256": "321613c011ca39131221f79019d27cbc1949c3c99faf87623dda8e6ff7eeec46",
+      "beforeValueSha256": "c07ab87c5085767251f05bbad726a9cbd26dd0074849c625bb1f7a4f486c29dc",
+      "afterValueSha256": "050ddcdfb3aa5f899faf7ad3f5444f3b4111900f0bcbfee5bd31ac04633385cf"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452241301510",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Вы совсем с ума сошли?",
+      "before": "Nun: יצאתם מדעתכם לגמרי?",
+      "after": "Nun: יצאת מדעתך לגמרי?",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 27,
+      "id": 110504452241301510,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Armpit"
+      ],
+      "sourceValueSha256": "44852657c63196109343f7c3ca7ea06b2acdf53970c1cccd1b273a8fa95dccc4",
+      "beforeValueSha256": "da5800cc752ba2b6658d20cfcd606943721bd267d05dba32c2a0063362334f91",
+      "afterValueSha256": "d3ee896ce32f93cdfaac8f1acea5d662ae493fa56d6cb602bcb6e78d33917e97"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452241301507",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Знали бы вы, сколько грехов людских мне пришлось повидать на своём веку!",
+      "before": "Nun: אילו ידעתם כמה מחטאי האנשים ראיתי בחיי!",
+      "after": "Nun: אילו ידעת כמה מחטאי האנשים ראיתי בחיי!",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 28,
+      "id": 110504452241301507,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Eyes"
+      ],
+      "sourceValueSha256": "b38433217b3b8f8b2945e0a78b04904e39f1c585c8161494a454b99561e92596",
+      "beforeValueSha256": "bc09932a450e4eee7558e260e4ca810b8fc3446008d809adcb647eff7c3fb417",
+      "afterValueSha256": "f3aec5568234b6d5a0709917d0853337d36ac70b82953faaea4d777e6668bf94"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452237107212",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Смотрите-смотрите, как же.",
+      "before": "Nun: תסתכלו, תסתכלו, בוודאי.",
+      "after": "Nun: תסתכל, תסתכל, בוודאי.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 33,
+      "id": 110504452237107212,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Hands"
+      ],
+      "sourceValueSha256": "09bb4a062885d93b5b46367a8eaef3584f325fba294045122777e2984636836e",
+      "beforeValueSha256": "00e50a22793ffc146fb39037734f040b5332037ff7deecc891d7da88309775dd",
+      "afterValueSha256": "100a588c5e31c3b35c109132807b6f747b94ba4c33eac336fe24b1bd77513a2f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452237107206",
+      "category": "bounded-nun-single-householder-address",
+      "findingId": null,
+      "source": "Nun: Ну, смотрите, раз уж так хочется.",
+      "before": "Nun: נו, תסתכלו, אם אתם כל כך רוצים.",
+      "after": "Nun: נו, תסתכל, אם אתה כל כך רוצה.",
+      "reviewerProposal": null,
+      "path": "Translations/he/dialogue-batch-169.json",
+      "offset": 36,
+      "id": 110504452237107206,
+      "reason": "The compiled Nun branch addresses the one male householder; Russian formal Вы/imperative was incorrectly rendered as Hebrew plural. Distinct third-party plurals are retained.",
+      "nodeNames": [
+        "Nun_Teeth"
+      ],
+      "sourceValueSha256": "6324fe20ba299dbd5aadb50b309ce9d9c50ffca329c661aea0ee910fe09eeeda",
+      "beforeValueSha256": "a575a7a486544bf34b402f6dd0cdba478abc61fdaab3d501fd343f58012c0422",
+      "afterValueSha256": "3a10feefdc10d631b4b5d807c65fc8645bbea89da6a94e1b13d5bffc8828006d"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/he_independent_review_03",
+  "independentFromAuthor": true,
+  "closureManifestSha256": "04a9f8cae90d6ba168c8640abd67f52f440ed552009b08fa240063aa7c87aced",
+  "deltaRowsSha256": "3a80ad813ba63ba111f5459a5087edfa2c3e4d739a5aad46987a6f25cdd83a17",
+  "findingCount": 14,
+  "deltaFindingCount": 9,
+  "additionalDependencyFindingCount": 5,
+  "findings": [
+    {
+      "findingId": "HE-IR03-001",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382725",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 77,
+      "source": "Ты охуела?",
+      "currentTarget": "את השתגעת לגמרי?",
+      "proposedFullTarget": "את פאקינג השתגעת?",
+      "reason": "охуела is explicitly obscene; השתגעת לגמרי conveys surprise/insanity without coarse language. The compiled Nun_Entrance_2 option reaches Nun_Entrance_4, where she explicitly complains that the player answers матом. The current option breaks that supported callback.",
+      "nodeNames": [
+        "Nun_Entrance_2"
+      ],
+      "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+      "currentTargetValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+      "proposedTargetValueSha256": "a4d6019b7333fbfd878e86c6c8251d6e405965a0de07aac0eafe1c0ef291716e",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456452382725",
+        "closureOrdinalZeroBased": 635,
+        "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+        "currentTargetValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+        "components": [
+          "glossary-referent-and-register"
+        ],
+        "nodeNames": [
+          "Nun_Entrance_2"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "priorDecisionPath": "Translations/he/independent-review-01/complete-review-decisions.json",
+      "decisionDelta": "Concrete newly assessed source register, actual callback and/or agreement evidence invalidates prior generic no-finding decision; no preference reversal.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 19,
+      "authoredFileSha256": "820859ddf0ef5fef3ea73d83fc775b94fa14c839928a2ebbf5267030458bf247",
+      "components": [
+        "retained-prior-closure",
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "explicitly-invalidated"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-002",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188424",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 85,
+      "source": "Ты охуела?",
+      "currentTarget": "את השתגעת לגמרי?",
+      "proposedFullTarget": "את פאקינג השתגעת?",
+      "reason": "The identical obscene player option in Nun_Entrance_1 is neutralized. Its actual compiled option leads into the Nun complaint about answering in profanity. Female singular address to Nun is retained; this is an objective source-register/callback correction.",
+      "nodeNames": [
+        "Nun_Entrance_1"
+      ],
+      "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+      "currentTargetValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+      "proposedTargetValueSha256": "a4d6019b7333fbfd878e86c6c8251d6e405965a0de07aac0eafe1c0ef291716e",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456448188424",
+        "closureOrdinalZeroBased": 636,
+        "sourceValueSha256": "a56ecadfb99c0a3c52b7b0ca84e74d96fc7b4ea005c82c1894916077165d0cdc",
+        "currentTargetValueSha256": "17c6b55dc90a76ff3f7d2727663d4a1566560c412040ae2b2f7ce1c840a48c6f",
+        "components": [
+          "glossary-referent-and-register"
+        ],
+        "nodeNames": [
+          "Nun_Entrance_1"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "priorDecisionPath": "Translations/he/independent-review-01/complete-review-decisions.json",
+      "decisionDelta": "Concrete newly assessed source register, actual callback and/or agreement evidence invalidates prior generic no-finding decision; no preference reversal.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-167.json",
+      "offset": 27,
+      "authoredFileSha256": "820859ddf0ef5fef3ea73d83fc775b94fa14c839928a2ebbf5267030458bf247",
+      "components": [
+        "retained-prior-closure",
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "explicitly-invalidated"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-003",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654214",
+      "category": "grammar",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 112,
+      "source": "Bald: Злость с бессилием и невозможностью как-то изменить ситуацию тупо вводят в ступор, и ты начинаешь тупо ненавидеть и всех вокруг, и себя…",
+      "currentTarget": "Bald: הכעס, חוסר האונים וחוסר היכולת לשנות משהו פשוט משתק אותך, ואתה מתחיל לשנוא את כולם סביבך וגם את עצמך…",
+      "proposedFullTarget": "Bald: הכעס, חוסר האונים וחוסר היכולת לשנות משהו פשוט משתקים אותך, ואתה מתחיל לשנוא את כולם סביבך וגם את עצמך…",
+      "reason": "Three coordinated subjects הכעס, חוסר האונים וחוסר היכולת are followed by singular משתק. The source likewise has the coordinated plural вводят. Change only the predicate to משתקים; retain the following singular player reference and complete sentence.",
+      "nodeNames": [
+        "Bald_Asking_3"
+      ],
+      "sourceValueSha256": "1c72efbb62ad513e38650f0bd3888e7185287b2c2fb33c0e21c1da72202dfc3f",
+      "currentTargetValueSha256": "b92b9990959895a6316489f78edaac779d507e11f8da6398368fa56ba268abba",
+      "proposedTargetValueSha256": "f9d35f248668d63a049917a6be3321b4e3226ba83045106a080a0c2ab23b8ad8",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 20,
+      "authoredFileSha256": "e6c2a7f413a88f1a1aa849e39f5713fefa591151655a21d430d4cfe7a2d2d9ee",
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-004",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654211",
+      "category": "number/agency",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 115,
+      "source": "Bald: А кого-то убили… понимаешь, сука, убили, из-за того, что он показался Гостем!",
+      "currentTarget": "Bald: ואחרים הרגו… אתה מבין, לעזאזל, הרגו אותם רק כי הם נראו כמו אורחים!",
+      "proposedFullTarget": "Bald: ומישהו נהרג… אתה מבין, לעזאזל, הרגו אותו רק כי הוא נראה כמו אורח!",
+      "reason": "The source introduces one indefinite victim (кого-то, он) contrasted with the preceding sun-burned person. Hebrew ואחרים / אותם / הם turns that individual into multiple victims, and ואחרים הרגו can initially read as others doing the killing. Preserve the one killed person and the reason for the killing; do not infer a new identity.",
+      "nodeNames": [
+        "Bald_Asking_3"
+      ],
+      "sourceValueSha256": "ad0e74eacf7f0996545e0ae27d7e277846805e5c7a7ee843b84a9c8b4798307f",
+      "currentTargetValueSha256": "c569fb27cb7f1809dffffaf9b79188757010ce29f72a6884f033d8a480e7d6cf",
+      "proposedTargetValueSha256": "e0dc8ac7d50bf2d606cadf62e6ab10236736eb75d42d7a45e9aa87e5088c5715",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 23,
+      "authoredFileSha256": "e6c2a7f413a88f1a1aa849e39f5713fefa591151655a21d430d4cfe7a2d2d9ee",
+      "components": [
+        "glossary-referent-and-register",
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-005",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454699163657",
+      "category": "grammar",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 144,
+      "source": "Nun: Да хоть потоп, но это храм господа Бога, а не какой-то притон для уродцев.",
+      "currentTarget": "Nun: גם אם יבוא המבול, זהו מקדש ה׳ ולא איזה מאורה ליצורים מעוותים.",
+      "proposedFullTarget": "Nun: גם אם יבוא המבול, זהו מקדש ה׳ ולא איזו מאורה ליצורים מעוותים.",
+      "reason": "מאורה is feminine; איזה מאורה has incorrect demonstrative agreement. איזו מאורה repairs only agreement and preserves the full flood/temple/den comparison and disdain.",
+      "nodeNames": [
+        "Nun_Asking_4_1"
+      ],
+      "sourceValueSha256": "63c751723f03395233424125c24c3943d9926f9089edada2434ea41c025b4531",
+      "currentTargetValueSha256": "cfea116625fbd6bdaadbddd3fb17e8d6635828acf797bc590edb734f3ed7dee9",
+      "proposedTargetValueSha256": "17fd7823dd0616fbe36af9275aa38f5e7d039d5eb6112803f647b6be4fbbd488",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-168.json",
+      "offset": 10,
+      "authoredFileSha256": "5674ce0f64e90b3b6bbf22b3b4905c08b8d8ab1e59ea0f9d922d6ee7131c9fda",
+      "components": [
+        "scene-context"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-006",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937665",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 187,
+      "source": "Bald: А у меня нихера не осталось…",
+      "currentTarget": "Bald: ולי לא נשאר כלום…",
+      "proposedFullTarget": "Bald: ולי לא נשאר פאקינג כלום…",
+      "reason": "нихера adds overt vulgar emphasis to the complete lack of money. לא נשאר כלום is neutral. The compiled scene first states treatment would cost a lot, then this full unit. Restore coarse emphasis while retaining the financial lack and ellipsis.",
+      "nodeNames": [
+        "Bald_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "c78fd3da71ee018d807dd2ecb60e203e0c13bc00e5eda6e61cfb045d98168d31",
+      "currentTargetValueSha256": "19e5f446b4bb779bc6fd5ebceaf969ec4b8bb5915cba333826008ec532599967",
+      "proposedTargetValueSha256": "395f4f58f5e7fdc19638f779e31acdbf2b93c4c95234b87c997de3700d9fcdc1",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 14,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67",
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-007",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743367",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 189,
+      "source": "Bald: Я аж руки свои нихера не узнавал. Было ощущение, будто я смотрю фильм от первого лица.",
+      "currentTarget": "Bald: אפילו את הידיים שלי כבר לא זיהיתי. הרגשתי כאילו אני צופה בסרט מנקודת מבט של הגוף הראשון.",
+      "proposedFullTarget": "Bald: פאק, אפילו את הידיים שלי כבר לא זיהיתי. הרגשתי כאילו אני צופה בסרט מנקודת מבט של הגוף הראשון.",
+      "reason": "нихера is an overt vulgar intensifier in the source's account of not recognizing his own hands. The Hebrew retains the two facts but removes all profanity. Restore the register and retain the entire first-person-film sentence; do not supply an excerpt as a replacement.",
+      "nodeNames": [
+        "Bald_Hands_DontShoot"
+      ],
+      "sourceValueSha256": "b4e08d87243b217d00816679f2fa81f6af912d51b957706a1042267786190ec2",
+      "currentTargetValueSha256": "34c20f98a7056f37e5175dea7aca700f8836e54510000a6a0ba7817f5543d334",
+      "proposedTargetValueSha256": "21215f1cf44b85a1919f34c22718fa2fe5191a91a74d04ee8373533b95ae42b7",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 20,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67",
+      "components": [
+        "glossary-referent-and-register"
+      ],
+      "deltaReasons": [
+        "new-closure"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-008",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453973549057",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 191,
+      "source": "Bald: Мне кажется, что тут хуйня…",
+      "currentTarget": "Bald: נראה לי שזאת סתם שטות…",
+      "proposedFullTarget": "Bald: נראה לי שיש פה איזה חרא…",
+      "reason": "The full unit contains хуйня; סתם שטות removes the profanity and additionally settles the ambiguous тут хуйня as merely nonsense. The actual eye/gun node follows the profane doctor proverb. Preserve the vague assessment here with coarse wording without naming an unsupported diagnosis.",
+      "nodeNames": [
+        "Bald_Eyes_Gun"
+      ],
+      "sourceValueSha256": "6e12855dd108c3f278d8033c8c7189b277d14afd45c145512592a3b378662ecc",
+      "currentTargetValueSha256": "48f6fb8a47edadefabef453950a1be864b236f9a5f16e4bd4f840d0ef9631571",
+      "proposedTargetValueSha256": "68f156853ebe598bd2069239e2e75ac9338b460720f96627adbc3d8289c5158b",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453973549057",
+        "closureOrdinalZeroBased": 1657,
+        "sourceValueSha256": "6e12855dd108c3f278d8033c8c7189b277d14afd45c145512592a3b378662ecc",
+        "currentTargetValueSha256": "48f6fb8a47edadefabef453950a1be864b236f9a5f16e4bd4f840d0ef9631571",
+        "components": [
+          "glossary-referent-and-register"
+        ],
+        "nodeNames": [
+          "Bald_Eyes_Gun"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "priorDecisionPath": "Translations/he/independent-review-01/complete-review-decisions.json",
+      "decisionDelta": "Concrete newly assessed source register, actual callback and/or agreement evidence invalidates prior generic no-finding decision; no preference reversal.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 30,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67",
+      "components": [
+        "glossary-referent-and-register",
+        "retained-prior-closure"
+      ],
+      "deltaReasons": [
+        "explicitly-invalidated"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-009",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966149",
+      "category": "register",
+      "scope": "exact delta",
+      "deltaOrdinalZeroBased": 194,
+      "source": "Bald: Как ты мог, наверное, уже заметить, у меня хуйнюшка на глазу.",
+      "currentTarget": "Bald: כמו שבטח כבר שמת לב, יש לי איזו בעיה קטנה בעין.",
+      "proposedFullTarget": "Bald: כמו שבטח כבר שמת לב, יש לי איזה משהו מחורבן קטן על העין.",
+      "reason": "хуйнюшка is a coarse diminutive for the thing on his eye. איזו בעיה קטנה is entirely neutral. Restore the small/vague/coarse reference and the source's על העין location without inventing a diagnosis; retain the notice-by-player clause.",
+      "nodeNames": [
+        "Bald_Eyes"
+      ],
+      "sourceValueSha256": "b8e599c4c73fb439835bf06195605aee354c13d3fb32e56a66998cf887e697e1",
+      "currentTargetValueSha256": "d947822087236ad7926321266cb23a483383aa37d0102b05e8f972d3a4df6001",
+      "proposedTargetValueSha256": "51a04c3f5a97b8a2a0bb6000d109626b43196b8b7baaa63fda45ef77a0e18f33",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966149",
+        "closureOrdinalZeroBased": 1660,
+        "sourceValueSha256": "b8e599c4c73fb439835bf06195605aee354c13d3fb32e56a66998cf887e697e1",
+        "currentTargetValueSha256": "d947822087236ad7926321266cb23a483383aa37d0102b05e8f972d3a4df6001",
+        "components": [
+          "glossary-referent-and-register"
+        ],
+        "nodeNames": [
+          "Bald_Eyes"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "priorDecisionPath": "Translations/he/independent-review-01/complete-review-decisions.json",
+      "decisionDelta": "Concrete newly assessed source register, actual callback and/or agreement evidence invalidates prior generic no-finding decision; no preference reversal.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 45,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67",
+      "components": [
+        "glossary-referent-and-register",
+        "retained-prior-closure"
+      ],
+      "deltaReasons": [
+        "explicitly-invalidated"
+      ]
+    },
+    {
+      "findingId": "HE-IR03-010",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+      "category": "register/grammar",
+      "scope": "bounded selector-completeness dependency control",
+      "deltaOrdinalZeroBased": null,
+      "source": "Bald: Ты подойди ко мне, как время будет. У меня столько ахуитительных историй будет, что ты… ахуеешь, ахах.",
+      "currentTarget": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים מטורפים, שתעוף לך המוח, חחח.",
+      "proposedFullTarget": "Bald: תבוא אליי כשתמצא זמן. יהיו לי כל כך הרבה סיפורים פאקינג מטורפים, שאתה… תתחרפן לגמרי, חחח.",
+      "reason": "The spelling variants ахуитительных and ахуеешь are overt vulgar excitement; the current unit has no coarse expression. It also says שתעוף לך המוח, using feminine תעוף with masculine מוח. This full replacement retains the invitation, many amazing stories, the interrupted reaction and laughter while repairing register/agreement. The row is retained in the current closure but omitted from the explicitly invalidated set.",
+      "nodeNames": [
+        "Bald_Entrance_YesLet"
+      ],
+      "sourceValueSha256": "9c6d397e65fd48fca8e2a22ded3977786bdeb19eb3bdffd62a0abdd935744d8a",
+      "currentTargetValueSha256": "aedc8c4a76c0a940fd4d06fdbf15ad4fae300a7ed6637e845840d1da5572675d",
+      "proposedTargetValueSha256": "6412b2154f5d1baaa4cf5a907e4e1b2312ddb657f35c4ac9f79e83825ea78b4b",
+      "priorDecision": {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+        "closureOrdinalZeroBased": 399,
+        "sourceValueSha256": "9c6d397e65fd48fca8e2a22ded3977786bdeb19eb3bdffd62a0abdd935744d8a",
+        "currentTargetValueSha256": "aedc8c4a76c0a940fd4d06fdbf15ad4fae300a7ed6637e845840d1da5572675d",
+        "components": [
+          "glossary-referent-and-register"
+        ],
+        "nodeNames": [
+          "Bald_Entrance_YesLet"
+        ],
+        "decision": "no objective correction found in independent closure review",
+        "findingId": null,
+        "contextualReview": "Source/target and glossary read; containing scene and actual consumer reviewed where bound. Unbound legacy cells reviewed as standalone source-pinned units.",
+        "protectedSyntax": "pass",
+        "renderedMixedDirection": "not tested; no game launch authorized"
+      },
+      "priorDecisionPath": "Translations/he/independent-review-01/complete-review-decisions.json",
+      "decisionDelta": "Concrete newly assessed source register, actual callback and/or agreement evidence invalidates prior generic no-finding decision; no preference reversal.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-119.json",
+      "offset": 8,
+      "authoredFileSha256": "90314154eafbf00804e0247617241c1ca570a4b54e37df1f9bbc6c367620f9ee"
+    },
+    {
+      "findingId": "HE-IR03-011",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455806459912",
+      "category": "register",
+      "scope": "bounded selector-completeness dependency control",
+      "deltaOrdinalZeroBased": null,
+      "source": "Bald: Они либо пользовались мной, потому что я был удобный, либо хуесосили меня за спиной.",
+      "currentTarget": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או לכלכו עליי מאחורי הגב.",
+      "proposedFullTarget": "Bald: הם ניצלו אותי כי היה להם נוח איתי, או דיברו עליי חרא מאחורי הגב.",
+      "reason": "хуесосили is obscene verbal abuse behind his back; לכלכו עליי is colloquial but removes the obscenity. Retain both alternatives and the reason he was used, restoring coarse speech without naming or adding participants.",
+      "nodeNames": [
+        "Bald_Asking_2"
+      ],
+      "sourceValueSha256": "5e681cd681ccf2a74c0b785fd3bb2aadacd8031351d23e9a1d83dacb8ebf0074",
+      "currentTargetValueSha256": "93c616cc938de0eec6b63ebda97c4c7be68d3c9a91651484f7415527396023ab",
+      "proposedTargetValueSha256": "6c95000199592a22fb4bae6d8f06591a06dd2a8aebc1ca2e461578dcad692062",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-120.json",
+      "offset": 29,
+      "authoredFileSha256": "e6c2a7f413a88f1a1aa849e39f5713fefa591151655a21d430d4cfe7a2d2d9ee"
+    },
+    {
+      "findingId": "HE-IR03-012",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743370",
+      "category": "register",
+      "scope": "bounded selector-completeness dependency control",
+      "deltaOrdinalZeroBased": null,
+      "source": "Bald: Хотя писос как страшно сначала было.",
+      "currentTarget": "Bald: אבל בהתחלה זה היה מפחיד בטירוף.",
+      "proposedFullTarget": "Bald: אבל בהתחלה זה היה מפחיד אחושרמוטה.",
+      "reason": "писос is the source's slang spelling/euphemistic deformation in the same coarse Bald voice. מפחיד בטירוף keeps intensity but no coarse expression. Restore the colloquial obscene intensity while preserving fear and initially; this actual eye-inspection neighbor was omitted by the literal selector.",
+      "nodeNames": [
+        "Bald_Eyes_DontShoot"
+      ],
+      "sourceValueSha256": "eaf9420ffdb2d9a6c2bedb29cc3b40b3addd5e89ee79f393c760a90de3897b12",
+      "currentTargetValueSha256": "791d40a3f80b55311df0e9cfb310f20c667b8ac2586980d9479511bf6d9fad9e",
+      "proposedTargetValueSha256": "76e93c5efbcf0873f84db944d3901455aca82edbfd7ae1cab7a9294a41119daf",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 17,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67"
+    },
+    {
+      "findingId": "HE-IR03-013",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743369",
+      "category": "register",
+      "scope": "bounded selector-completeness dependency control",
+      "deltaOrdinalZeroBased": null,
+      "source": "Bald: Но обосрался я знатно. После этого бросил пить. А то так и сдохнуть можно…",
+      "currentTarget": "Bald: אבל פחדתי פחד מוות. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "proposedFullTarget": "Bald: אבל ממש חרבנתי במכנסיים מרוב פחד. אחרי זה הפסקתי לשתות. כי ככה אפשר גם למות…",
+      "reason": "обосрался is the coarse scared-shitless expression following his delirium-tremens account. פחדתי פחד מוות neutralizes that register. Preserve the figurative fear, quitting drinking afterward, possibility of death and final ellipsis in one complete replacement.",
+      "nodeNames": [
+        "Bald_Hands_DontShoot"
+      ],
+      "sourceValueSha256": "373adba5d0d91ac61d648d14cef213a3f8cf297fde90a220ea13ca4e6d3bcca4",
+      "currentTargetValueSha256": "5579aab8625f1196125040b4acfa701ad20fd73889b2c7a49cc93911e9297d53",
+      "proposedTargetValueSha256": "e4742dec651678627d605efc07b048c4b5a278f56a34614ae86d7d6b86161ddd",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 18,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67"
+    },
+    {
+      "findingId": "HE-IR03-014",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966151",
+      "category": "register",
+      "scope": "bounded selector-completeness dependency control",
+      "deltaOrdinalZeroBased": null,
+      "source": "Bald: Я хрен знает, когда она появилась, но я обосрался.",
+      "currentTarget": "Bald: אין לי מושג מתי זה הופיע, אבל נבהלתי בטירוף.",
+      "proposedFullTarget": "Bald: אין לי מושג מתי לעזאזל זה הופיע, אבל חרבנתי במכנסיים מרוב פחד.",
+      "reason": "хрен знает and обосрался are coarse source expressions, both neutralized by אין לי מושג / נבהלתי בטירוף. Restore mild cursing and the figurative scared-shitless expression while retaining uncertainty about when the eye mark appeared.",
+      "nodeNames": [
+        "Bald_Eyes"
+      ],
+      "sourceValueSha256": "fd884a084667206dd93c6ec0752991ed8bffb7447b402d53dc58fa3b1eabb776",
+      "currentTargetValueSha256": "20a3b2b48eb0b2c3decdb1c25f01700945713ed1624585227053c812827cf04c",
+      "proposedTargetValueSha256": "18d8c0623279efbc6b62d1383670a4449aea78dde9a4d714866058412eae2259",
+      "priorDecision": null,
+      "priorDecisionPath": null,
+      "decisionDelta": "Newly reviewed unit; no prior independent per-ID decision.",
+      "protectedSyntax": "passed pinned source preserve-exact contract",
+      "fullUnitRetention": "Full replacement preserves all unit clauses/facts; proposal not applied.",
+      "path": "Translations/he/dialogue-batch-121.json",
+      "offset": 44,
+      "authoredFileSha256": "48a4b4d5ef0a1719874762d65527499621da3a7f6342ddf49a151e288818ab67"
+    }
+  ],
+  "closureFindings": [
+    {
+      "findingId": "HE-IR03-SELECTOR-001",
+      "category": "dependency-selector completeness",
+      "recipePath": "Translations/he/semantic-correction-cycle-03/build_closure.py",
+      "recipeSha256": "48fc77d3b4c05998da408dedbc6feee8d8061388af99ac1d01a83fb4edded259",
+      "currentSelector": "(?i)(?:пизд|хер|хуй|бля|[её]бан|сука|мраз)",
+      "objectiveEvidence": "The canonical 132 accepted Bald source units contain eight further coarse spelling/form variants outside the 30-row selector: ахуитительных/ахуеешь, хуесосили, писос, обосрался, хрен, гнида, Чёрт, пересрись. Seven are outside the closure; one is retained without explicit invalidation. Five lose source register, three preserve it.",
+      "affectedIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457400295426",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455806459912",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453986131971",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743370",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743369",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453965160450",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966154",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453960966151"
+      ],
+      "proposal": "Repair the next canonical recipe to reconcile all supported source spellings/inflections and actual node neighbors against the accepted inventory, including these eight controls. Explicitly invalidate the retained 110504457400295426 decision and retain correctly translated controls without rewriting them. Reproduce the next normal closure; do not append only these IDs to one output.",
+      "coverageLimit": "The 132 source strings were read for lexical-selector reconciliation only. This is not a new complete 132-pair semantic audit or full 16,538-unit reread."
+    }
+  ],
+  "status": "Consolidated complete delta finding list plus bounded dependency-completeness controls; no proposals applied."
+}

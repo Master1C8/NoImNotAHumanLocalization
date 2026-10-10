@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "gameVersion": "1.3.19",
+  "result": "passed-offline-final-gate",
+  "acceptedUnits": 16538,
+  "firstSemanticPassUnits": 16538,
+  "unresolvedObjectiveFindings": 0,
+  "independentClean": true,
+  "independentReviewer": "/root/hu_independent_review_02",
+  "currentHashesUnchanged": true,
+  "mandatoryRegression": {
+    "count": 1697,
+    "freshReads": 218,
+    "reusedUnchangedIndependentDecisions": 1479,
+    "result": "passed"
+  },
+  "structural": {
+    "rows": 16538,
+    "tableBatches": 473,
+    "staticRows": 178,
+    "result": "passed"
+  },
+  "derivedStatic": {
+    "rows": 178,
+    "result": "passed"
+  },
+  "preserveExact": {
+    "rows": 16538,
+    "result": "passed"
+  },
+  "reviewVerdictPath": "Translations/hu/independent-review-02/review-verdict.json",
+  "reviewVerdictSha256": "afa9a8b10db795fa66b3846959e15a964e151f79e50b74c86bddef8d2848a04c",
+  "structuralReportPath": "Translations/hu/final-gate/structural-validators.json",
+  "structuralReportSha256": "4063b0e4d27e17ceea9b02bda51f855976b55fdda65a31df9ab62baed6e96f92",
+  "evidence": [
+    {
+      "path": "Translations/hu/final-gate/derived-static.json",
+      "sha256": "951f8f0a70816635b4b53de625720e4aaa11b25ab092e0e6f9a3e4cd39c30751"
+    },
+    {
+      "path": "Translations/hu/final-gate/mandatory-regression.json",
+      "sha256": "43a28cf66d13806d1277af6fc842385e88033500cae87eb8a3eaffcb0ccd0157"
+    },
+    {
+      "path": "Translations/hu/final-gate/preserve-exact-report.json",
+      "sha256": "03a32a89805998ec4a33ccffe8ac33866d506c3cf1e62af7a6e2b0a224a440d7"
+    },
+    {
+      "path": "Translations/hu/final-gate/source-glossary-applicability.json",
+      "sha256": "043aca41aad7c617003b66d7f502bf959bfbae6bf095a06f4381a3b02ae296c8"
+    }
+  ],
+  "scopeLimit": "Offline static text/editorial gate only; no font, layout, package, install or runtime acceptance"
+}

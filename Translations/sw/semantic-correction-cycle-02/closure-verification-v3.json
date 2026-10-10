@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-02",
+  "authoritativeSelectorVersion": "v3",
+  "selectorRecipeSha256": "30c30589ca491f80eaf543583efff94ac16fad04cd74ba1dbae360288ee0c314",
+  "manifestSha256": "ad444b747104ef2e8db7a792f3da4249e86d22c2b3d8f7c58f7bca9b41d46230",
+  "finalPayloadSha256": "528e2666f97e232d41c2577a4cf9eca816040f729ce50f060b55f7ebbc0977b5",
+  "selectorRepairSha256": "92bca6f48eb8363c3aa16cc7aaf2c454c9a9e00ebbff6ecddaf6766ba0dbac24",
+  "acceptedUnits": 16538,
+  "previousClosure": 5211,
+  "currentClosure": 5948,
+  "changed": 85,
+  "new": 737,
+  "explicitlyInvalidated": 44,
+  "retired": 0,
+  "reviewDelta": 834,
+  "checks": [
+    "all references hash match",
+    "all JSONL sets unique and in canonical source order",
+    "previous and current closure set differences exact",
+    "review delta equals corrected union new union explicitly invalidated",
+    "component union equals current closure",
+    "all review rows match final target corpus",
+    "all 32 supplementary findings selected through repaired node-context recipe"
+  ],
+  "runtime": "not-run-per-owner"
+}

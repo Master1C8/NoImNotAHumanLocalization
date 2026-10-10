@@ -1,0 +1,1076 @@
+{
+  "assemblyPath": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "type": "CharacterSOData",
+      "method": "get_Place",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2,
+          "opcode": "ldfld",
+          "operand": "_place"
+        },
+        {
+          "offset": 7,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "CharactersManager",
+      "method": "GetCharacter",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 17,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 18,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 20,
+          "opcode": "stfld",
+          "operand": "characterType"
+        },
+        {
+          "offset": 25,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 26,
+          "opcode": "ldfld",
+          "operand": "_characterData"
+        },
+        {
+          "offset": 31,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 32,
+          "opcode": "ldftn",
+          "operand": "<GetCharacter>b__0"
+        },
+        {
+          "offset": 38,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 43,
+          "opcode": "call",
+          "operand": "FirstOrDefault"
+        },
+        {
+          "offset": 48,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "CharactersManager",
+      "method": "LetIn",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 17,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 18,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 20,
+          "opcode": "stfld",
+          "operand": "<>4__this"
+        },
+        {
+          "offset": 25,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 26,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 27,
+          "opcode": "stfld",
+          "operand": "character"
+        },
+        {
+          "offset": 32,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 33,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 38,
+          "opcode": "callvirt",
+          "operand": "get_CharactersInside"
+        },
+        {
+          "offset": 43,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 44,
+          "opcode": "ldftn",
+          "operand": "<LetIn>b__0"
+        },
+        {
+          "offset": 50,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 55,
+          "opcode": "call",
+          "operand": "FirstOrDefault"
+        },
+        {
+          "offset": 60,
+          "opcode": "stloc.1",
+          "operand": null
+        },
+        {
+          "offset": 61,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 62,
+          "opcode": "brfalse.s",
+          "operand": "147"
+        },
+        {
+          "offset": 64,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 65,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 66,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 71,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 76,
+          "opcode": "beq.s",
+          "operand": "147"
+        },
+        {
+          "offset": 78,
+          "opcode": "ldarg.2",
+          "operand": null
+        },
+        {
+          "offset": 79,
+          "opcode": "brfalse.s",
+          "operand": "90"
+        },
+        {
+          "offset": 81,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 82,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 83,
+          "opcode": "call",
+          "operand": "ExileCharacter"
+        },
+        {
+          "offset": 88,
+          "opcode": "br.s",
+          "operand": "147"
+        },
+        {
+          "offset": 90,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 91,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 96,
+          "opcode": "callvirt",
+          "operand": "get_CharactersInside"
+        },
+        {
+          "offset": 101,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 102,
+          "opcode": "ldftn",
+          "operand": "<LetIn>b__1"
+        },
+        {
+          "offset": 108,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 113,
+          "opcode": "call",
+          "operand": "Select"
+        },
+        {
+          "offset": 118,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 119,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 124,
+          "opcode": "callvirt",
+          "operand": "get_Place"
+        },
+        {
+          "offset": 129,
+          "opcode": "call",
+          "operand": "Contains"
+        },
+        {
+          "offset": 134,
+          "opcode": "brfalse.s",
+          "operand": "147"
+        },
+        {
+          "offset": 136,
+          "opcode": "ldstr",
+          "operand": "This place is already taken"
+        },
+        {
+          "offset": 141,
+          "opcode": "call",
+          "operand": "LogError"
+        },
+        {
+          "offset": 146,
+          "opcode": "ret",
+          "operand": null
+        },
+        {
+          "offset": 147,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 148,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 153,
+          "opcode": "callvirt",
+          "operand": "get_CharactersInside"
+        },
+        {
+          "offset": 158,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 159,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 164,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 169,
+          "opcode": "callvirt",
+          "operand": "Add"
+        },
+        {
+          "offset": 174,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 175,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 180,
+          "opcode": "callvirt",
+          "operand": "get_CharactersCameInDays"
+        },
+        {
+          "offset": 185,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 186,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 191,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 196,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 197,
+          "opcode": "ldfld",
+          "operand": "GetBaseDayNightData"
+        },
+        {
+          "offset": 202,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 203,
+          "opcode": "brtrue.s",
+          "operand": "209"
+        },
+        {
+          "offset": 205,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 206,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 207,
+          "opcode": "br.s",
+          "operand": "219"
+        },
+        {
+          "offset": 209,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 214,
+          "opcode": "ldfld",
+          "operand": "Item1"
+        },
+        {
+          "offset": 219,
+          "opcode": "callvirt",
+          "operand": "Add"
+        },
+        {
+          "offset": 224,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 225,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 230,
+          "opcode": "callvirt",
+          "operand": "get_FEMARating"
+        },
+        {
+          "offset": 235,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 236,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 241,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 246,
+          "opcode": "callvirt",
+          "operand": "ContainsKey"
+        },
+        {
+          "offset": 251,
+          "opcode": "brtrue.s",
+          "operand": "323"
+        },
+        {
+          "offset": 253,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 254,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 259,
+          "opcode": "callvirt",
+          "operand": "get_FEMARating"
+        },
+        {
+          "offset": 264,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 265,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 270,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 275,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 276,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 281,
+          "opcode": "callvirt",
+          "operand": "get_IsImposter"
+        },
+        {
+          "offset": 286,
+          "opcode": "brtrue.s",
+          "operand": "301"
+        },
+        {
+          "offset": 288,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 289,
+          "opcode": "ldfld",
+          "operand": "_otherData"
+        },
+        {
+          "offset": 294,
+          "opcode": "callvirt",
+          "operand": "get_IsHumanRatingValue"
+        },
+        {
+          "offset": 299,
+          "opcode": "br.s",
+          "operand": "306"
+        },
+        {
+          "offset": 301,
+          "opcode": "ldc.r4",
+          "operand": "0.0"
+        },
+        {
+          "offset": 306,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 307,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 312,
+          "opcode": "callvirt",
+          "operand": "get_FEMARatingBonus"
+        },
+        {
+          "offset": 317,
+          "opcode": "add",
+          "operand": null
+        },
+        {
+          "offset": 318,
+          "opcode": "callvirt",
+          "operand": "Add"
+        },
+        {
+          "offset": 323,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 324,
+          "opcode": "ldfld",
+          "operand": "GetRoom"
+        },
+        {
+          "offset": 329,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 330,
+          "opcode": "brtrue.s",
+          "operand": "336"
+        },
+        {
+          "offset": 332,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 333,
+          "opcode": "ldnull",
+          "operand": null
+        },
+        {
+          "offset": 334,
+          "opcode": "br.s",
+          "operand": "352"
+        },
+        {
+          "offset": 336,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 337,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 342,
+          "opcode": "callvirt",
+          "operand": "get_Room"
+        },
+        {
+          "offset": 347,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 352,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 353,
+          "opcode": "brtrue.s",
+          "operand": "358"
+        },
+        {
+          "offset": 355,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 356,
+          "opcode": "br.s",
+          "operand": "375"
+        },
+        {
+          "offset": 358,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 359,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 364,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 369,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 370,
+          "opcode": "call",
+          "operand": "AddCharacter"
+        },
+        {
+          "offset": 375,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 376,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 381,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 386,
+          "opcode": "ldc.i4.s",
+          "operand": "19"
+        },
+        {
+          "offset": 388,
+          "opcode": "bne.un.s",
+          "operand": "457"
+        },
+        {
+          "offset": 390,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 391,
+          "opcode": "ldfld",
+          "operand": "GetBaseDayNightData"
+        },
+        {
+          "offset": 396,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 397,
+          "opcode": "brtrue.s",
+          "operand": "411"
+        },
+        {
+          "offset": 399,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 400,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0003)"
+        },
+        {
+          "offset": 402,
+          "opcode": "initobj",
+          "operand": "token(0x1B0001A1)"
+        },
+        {
+          "offset": 408,
+          "opcode": "ldloc.3",
+          "operand": null
+        },
+        {
+          "offset": 409,
+          "opcode": "br.s",
+          "operand": "421"
+        },
+        {
+          "offset": 411,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 416,
+          "opcode": "newobj",
+          "operand": ".ctor"
+        },
+        {
+          "offset": 421,
+          "opcode": "stloc.2",
+          "operand": null
+        },
+        {
+          "offset": 422,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 423,
+          "opcode": "ldfld",
+          "operand": "_gameEventsManager"
+        },
+        {
+          "offset": 428,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0002)"
+        },
+        {
+          "offset": 430,
+          "opcode": "call",
+          "operand": "get_HasValue"
+        },
+        {
+          "offset": 435,
+          "opcode": "brtrue.s",
+          "operand": "440"
+        },
+        {
+          "offset": 437,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 438,
+          "opcode": "br.s",
+          "operand": "452"
+        },
+        {
+          "offset": 440,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0002)"
+        },
+        {
+          "offset": 442,
+          "opcode": "call",
+          "operand": "GetValueOrDefault"
+        },
+        {
+          "offset": 447,
+          "opcode": "ldfld",
+          "operand": "Item1"
+        },
+        {
+          "offset": 452,
+          "opcode": "callvirt",
+          "operand": "GenerateBabyEvents"
+        },
+        {
+          "offset": 457,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 458,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 459,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 464,
+          "opcode": "call",
+          "operand": "GenerateStatus"
+        },
+        {
+          "offset": 469,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 470,
+          "opcode": "ldfld",
+          "operand": "_saveData"
+        },
+        {
+          "offset": 475,
+          "opcode": "callvirt",
+          "operand": "get_AreCharactersImposters"
+        },
+        {
+          "offset": 480,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 481,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 486,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 491,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 492,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 497,
+          "opcode": "callvirt",
+          "operand": "get_IsImposter"
+        },
+        {
+          "offset": 502,
+          "opcode": "callvirt",
+          "operand": "Add"
+        },
+        {
+          "offset": 507,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 508,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 513,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 518,
+          "opcode": "stloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": 520,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": 522,
+          "opcode": "ldc.i4.s",
+          "operand": "49"
+        },
+        {
+          "offset": 524,
+          "opcode": "beq.s",
+          "operand": "538"
+        },
+        {
+          "offset": 526,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": 528,
+          "opcode": "ldc.i4.s",
+          "operand": "50"
+        },
+        {
+          "offset": 530,
+          "opcode": "beq.s",
+          "operand": "538"
+        },
+        {
+          "offset": 532,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0004)"
+        },
+        {
+          "offset": 534,
+          "opcode": "ldc.i4.s",
+          "operand": "51"
+        },
+        {
+          "offset": 536,
+          "opcode": "bne.un.s",
+          "operand": "565"
+        },
+        {
+          "offset": 538,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 539,
+          "opcode": "ldfld",
+          "operand": "_dataModelService"
+        },
+        {
+          "offset": 544,
+          "opcode": "callvirt",
+          "operand": "get_MetaPrefsDataHandler"
+        },
+        {
+          "offset": 549,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 550,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 555,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 560,
+          "opcode": "callvirt",
+          "operand": "MeetCharacter"
+        },
+        {
+          "offset": 565,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 566,
+          "opcode": "ldfld",
+          "operand": "CharacterAdded"
+        },
+        {
+          "offset": 571,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 572,
+          "opcode": "brtrue.s",
+          "operand": "576"
+        },
+        {
+          "offset": 574,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 575,
+          "opcode": "ret",
+          "operand": null
+        },
+        {
+          "offset": 576,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 577,
+          "opcode": "ldfld",
+          "operand": "character"
+        },
+        {
+          "offset": 582,
+          "opcode": "callvirt",
+          "operand": "get_CharacterType"
+        },
+        {
+          "offset": 587,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 588,
+          "opcode": "callvirt",
+          "operand": "Invoke"
+        },
+        {
+          "offset": 593,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "type": "CharactersManager",
+      "method": "GetPlace",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 2,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 3,
+          "opcode": "call",
+          "operand": "GetCharacter"
+        },
+        {
+          "offset": 8,
+          "opcode": "callvirt",
+          "operand": "get_Place"
+        },
+        {
+          "offset": 13,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    }
+  ],
+  "note": "GetPlace resolves original CharacterSOData._place. LetIn rejects an occupied place unless the occupant is exiled. PeekedDeficitItem is connected to the consumables controller in static delegate initialization."
+}

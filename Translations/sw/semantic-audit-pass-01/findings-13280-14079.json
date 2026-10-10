@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-pass-01",
+  "reviewedSourceIndices": [
+    13280,
+    14079
+  ],
+  "findingGroups": 11,
+  "affectedUnits": 11,
+  "status": "proposed; none applied",
+  "findings": [
+    {
+      "findingId": "sw-sem-0165",
+      "objectiveReason": "по знакомству means the dental work was free through a personal connection; kupitia undugu wetu claims a family/kinship relationship with the friend, which the doctor does not state.",
+      "affected": [
+        {
+          "sourceIndex": 13306,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452941750272",
+          "key": "line:Doctor_Teeth_07841a6",
+          "source": "Doctor: Мне друг по знакомству бесплатно такие поставил.",
+          "currentTarget": "Doctor: Rafiki yangu aliniwekea haya bure kupitia undugu wetu.",
+          "proposedTarget": "Doctor: Rafiki yangu aliniwekea haya bure kwa sababu tulifahamiana.",
+          "authoredPath": "Translations/sw/dialogue-batch-159.json",
+          "authoredSha256": "f57d02eefc09a89ec088e37f21d6a0785bb6e2ea875a5bfe274d8dadff761769"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0166",
+      "objectiveReason": "Идеальные praises the doctor's teeth as perfect overall; yamenyooka kabisa says only that they are straight, narrowing his boast to alignment.",
+      "affected": [
+        {
+          "sourceIndex": 13307,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452937555976",
+          "key": "line:Doctor_Teeth_0ad5afc",
+          "source": "Doctor: Идеальные, да?",
+          "currentTarget": "Doctor: Yamenyooka kabisa, sivyo?",
+          "proposedTarget": "Doctor: Meno haya ni makamilifu, sivyo?",
+          "authoredPath": "Translations/sw/dialogue-batch-159.json",
+          "authoredSha256": "f57d02eefc09a89ec088e37f21d6a0785bb6e2ea875a5bfe274d8dadff761769"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0167",
+      "objectiveReason": "Ошибся я в тебе means Wolfhound misjudged the player's character; Nilikukosea says he wronged the player, reversing who was harmed or at fault.",
+      "affected": [
+        {
+          "sourceIndex": 13330,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452929167364",
+          "key": "line:Wolfhound_Eyes_DontShoot_0b7bf78",
+          "source": "Wolfhound: Ошибся я в тебе.",
+          "currentTarget": "Wolfhound: Nilikukosea.",
+          "proposedTarget": "Wolfhound: Nilikukadiria vibaya.",
+          "authoredPath": "Translations/sw/dialogue-batch-159.json",
+          "authoredSha256": "f57d02eefc09a89ec088e37f21d6a0785bb6e2ea875a5bfe274d8dadff761769"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0168",
+      "objectiveReason": "гороскопов names horoscopes, the specific divination practice Alkonost rejects alongside aura; nyota names stars, replacing a belief system with celestial objects.",
+      "affected": [
+        {
+          "sourceIndex": 13470,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452857864198",
+          "key": "line:Alkonost_Photo_08cff6b",
+          "source": "Alkonost: Всё, что мы делаем или где оказываемся, зависит от нас самих, а не от ауры, гороскопов и других штук.",
+          "currentTarget": "Alkonost: Kila tunalofanya na kila tunakoishia hutegemea sisi wenyewe, si aura, nyota au mambo mengine.",
+          "proposedTarget": "Alkonost: Kila tunalofanya na kila tunakoishia hutegemea sisi wenyewe, si aura, utabiri wa nyota au mambo mengine.",
+          "authoredPath": "Translations/sw/dialogue-batch-160.json",
+          "authoredSha256": "033ff59678cdadfb0f29466ddffc4016dd5374cd9680c453c967e17fa9307697"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0169",
+      "objectiveReason": "ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ asks whether the player wants to capture her husband's death itself; KUIHIFADHI PICHA YA KIFO CHAKE says to preserve an existing photograph of his death, changing the threatened act in the Widow's protest.",
+      "affected": [
+        {
+          "sourceIndex": 13657,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452765589508",
+          "key": "line:Widow_Photo_0d30fbf",
+          "source": "Widow: ВЫ ХОТИТЕ ЗАПЕЧАТЛЕТЬ ЕГО СМЕРТЬ?",
+          "currentTarget": "Widow: MNATAKA KUIHIFADHI PICHA YA KIFO CHAKE?",
+          "proposedTarget": "Widow: MNATAKA KUNASA KIFO CHAKE KWENYE PICHA?",
+          "authoredPath": "Translations/sw/dialogue-batch-161.json",
+          "authoredSha256": "456318a1336f7f2cd48cb3caba7cf7922b2c60932dbd8ed2cd0889e45ebf6136"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0170",
+      "objectiveReason": "вымереть как вид means humanity going extinct as a species; kutoweka kama jamii means a community or society disappearing, reducing the biological scope of Cold's fear.",
+      "affected": [
+        {
+          "sourceIndex": 13674,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452757200901",
+          "key": "line:Cold_Armpit_DontShoot_09dbadc",
+          "source": "Cold: Когда не было вероятности вымереть как вид.",
+          "currentTarget": "Cold: Wakati hatukuwa katika hatari ya kutoweka kama jamii.",
+          "proposedTarget": "Cold: Wakati hatukuwa katika hatari ya kutoweka kama spishi.",
+          "authoredPath": "Translations/sw/dialogue-batch-162.json",
+          "authoredSha256": "7a887c46269a2aa01a7879646bf1035a7eda2f3db32a733e0612c8449200da79"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0171",
+      "objectiveReason": "душить Гостей specifies strangling the Visitors; kuwaua only says killing them, removing the Hunter's stated method of violence.",
+      "affected": [
+        {
+          "sourceIndex": 13825,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452685897735",
+          "key": "line:Hunter_Hands_DontShoot_07f21e8",
+          "source": "Hunter: Этой ночью пойдёшь тоже душить Гостей?",
+          "currentTarget": "Hunter: Usiku huu nawe utaenda kuwaua Wageni?",
+          "proposedTarget": "Hunter: Usiku huu nawe utaenda kuwanyonga Wageni?",
+          "authoredPath": "Translations/sw/dialogue-batch-163.json",
+          "authoredSha256": "f1eacb7d38ed280ee9dfbd22a8128d0aca64b56a36eadf713b182d4980ceedda"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0172",
+      "objectiveReason": "Выдыхай is an instruction to exhale and steady the gun; Vuta pumzi instructs the player to inhale, the opposite breathing action.",
+      "affected": [
+        {
+          "sourceIndex": 13856,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452673314827",
+          "key": "line:Hunter_Hands_Gun_0a7ccd1",
+          "source": "Hunter: Выдыхай давай, не нажми случайно на курок.",
+          "currentTarget": "Hunter: Vuta pumzi, usivute kifyatulio kwa bahati mbaya.",
+          "proposedTarget": "Hunter: Toa pumzi, usivute kifyatulio kwa bahati mbaya.",
+          "authoredPath": "Translations/sw/dialogue-batch-163.json",
+          "authoredSha256": "f1eacb7d38ed280ee9dfbd22a8128d0aca64b56a36eadf713b182d4980ceedda"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0173",
+      "objectiveReason": "то ли землю, то ли говно distinguishes earth from excrement thrown into the Hunter's eyes; udongo au uchafu contrasts earth with generic dirt/filth and loses the concrete coarse substance.",
+      "affected": [
+        {
+          "sourceIndex": 13886,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452664926209",
+          "key": "line:Hunter_Eyes_0699b69",
+          "source": "Hunter: Когда я одного из Гостей мочил, кинул мне то ли землю, то ли говно какое в глаза. Постоянно болят теперь.",
+          "currentTarget": "Hunter: Nilipokuwa nikimpiga mmoja wa Wageni, alinitupia udongo au uchafu fulani machoni. Tangu hapo yanauma kila wakati.",
+          "proposedTarget": "Hunter: Nilipokuwa nikimpiga mmoja wa Wageni, alinitupia udongo au mavi fulani machoni. Tangu hapo yanauma kila wakati.",
+          "authoredPath": "Translations/sw/dialogue-batch-163.json",
+          "authoredSha256": "f1eacb7d38ed280ee9dfbd22a8128d0aca64b56a36eadf713b182d4980ceedda"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0174",
+      "objectiveReason": "The feminine singular она refers to the photograph in Luka's photo-check scene; hayo is plural and has no clear singular photo referent, obscuring what he thought might be his last.",
+      "affected": [
+        {
+          "sourceIndex": 13971,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452631371781",
+          "key": "line:Luka_Photo_Gun_09de48a",
+          "source": "Luka: Я не думал, что она может стать последней.",
+          "currentTarget": "Luka: Sikudhani hayo yangekuwa ya mwisho.",
+          "proposedTarget": "Luka: Sikudhani picha hii ingeweza kuwa ya mwisho.",
+          "authoredPath": "Translations/sw/dialogue-batch-164.json",
+          "authoredSha256": "13459ce7fc1bc149f31bb029334492af421f28444c8d6aac14d4686fa4e27b89"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    },
+    {
+      "findingId": "sw-sem-0175",
+      "objectiveReason": "пиздец is BigLebowski's shocked coarse description of a dreadful situation; upuuzi says it is nonsense, changing her distress into a judgment of foolishness.",
+      "affected": [
+        {
+          "sourceIndex": 14066,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452593623048",
+          "key": "line:BigLebowski_Armpit_Gun_0aac158",
+          "source": "BigLebowski: Это пиздец какой-то! Ты вообще понимаешь, что творишь?",
+          "currentTarget": "BigLebowski: Huu ni upuuzi kabisa! Unaelewa hata unachofanya?",
+          "proposedTarget": "BigLebowski: Hii ni balaa la kishenzi! Unaelewa hata unachofanya?",
+          "authoredPath": "Translations/sw/dialogue-batch-165.json",
+          "authoredSha256": "c8cd5ad281b148cb27826c51d9039a939625b4783fe3cdf01d6423d2d7784c4c"
+        }
+      ],
+      "proposalStatus": "collect for one full-pass correction batch; draft unchanged",
+      "structuralPreflight": "prefix, tags, digits, exact substrings and line-break sequence checked; layout/runtime pending"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-01",
+  "sourceAuditProgressSha256": "ec390d6578865673a5c9ea0e5600456716d776ed93fa195f6bd49a604e8708e7",
+  "findingRange": [
+    101,
+    125
+  ],
+  "adjudicatedGroups": 25,
+  "acceptedGroups": 25,
+  "dismissedGroups": 0,
+  "affectedUnits": 32,
+  "adjudications": [
+    {
+      "findingId": "sw-sem-0101",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "жене просто скучно says the wife is bored; amechoka says she is tired, changing the husband's stated excuse for her behavior.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 8715,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599114",
+          "source": "Couple: Моей жене просто скучно, вот она занимается какой-то ерундой. И злит меня.",
+          "oldTarget": "Couple: Mke wangu amechoka tu, ndiyo maana anafanya upuuzi fulani. Ananikasirisha.",
+          "selectedFullTarget": "Couple: Mke wangu amechoshwa tu, ndiyo maana anafanya upuuzi fulani. Ananikasirisha.",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0102",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "Заебали/заебала is overtly obscene anger in the player's armed demands and the husband's abuse. Mmenichosha kabisa/Amenichosha sana makes both outbursts mild tiredness and removes their force.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 8713,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599116",
+          "source": "Мне нужна правда. Вы меня заебали (достаётся ружье)",
+          "oldTarget": "Nataka ukweli. Mmenichosha kabisa (toa bunduki)",
+          "selectedFullTarget": "Nataka ukweli. Mmenikera vibaya mno, shenzi nyinyi (toa bunduki)",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        },
+        {
+          "sourceIndex": 8718,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454967599111",
+          "source": "Мне нужна правда. Вы меня заебали (достаётся ружье)",
+          "oldTarget": "Nataka ukweli. Mmenichosha kabisa (toa bunduki)",
+          "selectedFullTarget": "Nataka ukweli. Mmenikera vibaya mno, shenzi nyinyi (toa bunduki)",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        },
+        {
+          "sourceIndex": 8728,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454963404809",
+          "source": "Couple: Да она заебала, понимаете?",
+          "oldTarget": "Couple: Amenichosha sana, mnaelewa?",
+          "selectedFullTarget": "Couple: Amenikera vibaya mno, shenzi huyo, mnaelewa?",
+          "authoredPath": "Translations/sw/dialogue-batch-120.json",
+          "authoredSha256": "68f6d2e787cee36daa24f7407ca022fa33659716e9a783f9558ce701c098968a"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0103",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "Мне надо вас проверить addresses a specific Mother or Teacher for inspection; Nahitaji kufanya ukaguzi removes the person who is to be checked. This repeats the already recorded check-choice defect at earlier IDs.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 8785,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454942433291",
+          "source": "Мне надо вас проверить",
+          "oldTarget": "Nahitaji kufanya ukaguzi",
+          "selectedFullTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8852,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267467",
+          "source": "Мне надо вас проверить",
+          "oldTarget": "Nahitaji kufanya ukaguzi",
+          "selectedFullTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8863,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267456",
+          "source": "Мне надо вас проверить",
+          "oldTarget": "Nahitaji kufanya ukaguzi",
+          "selectedFullTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8879,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454908878853",
+          "source": "Мне надо вас проверить",
+          "oldTarget": "Nahitaji kufanya ukaguzi",
+          "selectedFullTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        },
+        {
+          "sourceIndex": 8894,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684544",
+          "source": "Мне надо вас проверить",
+          "oldTarget": "Nahitaji kufanya ukaguzi",
+          "selectedFullTarget": "Nahitaji kukukagua",
+          "authoredPath": "Translations/sw/dialogue-batch-004.json",
+          "authoredSha256": "205f23e8b1c744f593eb101db141f7a909f1e845d3914ffb506e55721bcc6019"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0104",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "Выглядишь помято describes the Blind man's visibly rumpled/disheveled appearance; Unaonekana umechoka attributes tiredness instead of that observable state.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 8995,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454866935809",
+          "source": "Выглядишь помято",
+          "oldTarget": "Unaonekana umechoka",
+          "selectedFullTarget": "Unaonekana umeparara",
+          "authoredPath": "Translations/sw/dialogue-batch-123.json",
+          "authoredSha256": "52bc81c2056da4b193152f1b462fc46e3f44f29bb630a15a651134788f0d9735"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0105",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "считай, ты уже в тюрячке is a threat to consider oneself as good as jailed; tayari umefungwa gerezani asserts that the player is literally jailed already.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9055,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454841770000",
+          "source": "Fatman: Можешь паковать вещи, считай, ты уже в тюрячке.",
+          "oldTarget": "Fatman: Unaweza kufunga mizigo yako; tayari umefungwa gerezani.",
+          "selectedFullTarget": "Fatman: Unaweza kufunga mizigo yako; jione tayari uko gerezani.",
+          "authoredPath": "Translations/sw/dialogue-batch-124.json",
+          "authoredSha256": "14f0dbc22441b81ee08bbd7fa1676b6e89cee84e428ac36e54cf53377e0f0c15"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0106",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "А, кстати introduces an aside or afterthought; nilikuwa nimesahau asserts Fatman had forgotten, which the source does not state.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Use an idiomatic Swahili aside for the Russian by-the-way rather than the awkward Ah, pia.",
+      "affected": [
+        {
+          "sourceIndex": 9149,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454808215558",
+          "source": "Fatman: А, кстати. Вот, держи.",
+          "oldTarget": "Fatman: Ah, nilikuwa nimesahau. Haya, chukua.",
+          "selectedFullTarget": "Fatman: Ah, na jambo jingine. Haya, chukua.",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0107",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-8480-9279.json",
+      "findingEvidenceSha256": "ac43b000327b9fad814a48e3aa0f1d4284315ee57bdb3489429a8acdf2e3f0a2",
+      "findingObjectiveReason": "WA KULANIWA is a misspelling in Buddy's shouted curse, repeated for the taxi driver and the car; correct Kiswahili spelling is WA KULAANIWA.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9186,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454795632644",
+          "source": "Buddy: ЁБАНЫЙ ТАКСИСТ!",
+          "oldTarget": "Buddy: DEREVA WA TEKSI WA KULANIWA!",
+          "selectedFullTarget": "Buddy: DEREVA WA TEKSI WA KULAANIWA!",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        },
+        {
+          "sourceIndex": 9199,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454791438339",
+          "source": "Buddy: ЕБУЧИЙ АВТОМОБИЛЬ! Если бы таксист смотрел, куда прёт, она бы прожила дольше.",
+          "oldTarget": "Buddy: GARI LA KULANIWA! Laiti dereva wa teksi angeangalia alikokuwa anaenda, angeishi muda mrefu zaidi.",
+          "selectedFullTarget": "Buddy: GARI LA KULAANIWA! Laiti dereva wa teksi angeangalia alikokuwa anaenda, angeishi muda mrefu zaidi.",
+          "authoredPath": "Translations/sw/dialogue-batch-125.json",
+          "authoredSha256": "f6109374d162f806ddd6b4b3b4c8b5e23c12322d2fc1b935cf4f1df85dde1fbe"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0108",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "стрелял в меня сзади says the gunman fired at the Fugitive from behind; alinipiga risasi mgongoni says the bullet hit his back. This invents the wound location while the nearby account puts his pain in his abdomen.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9402,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454715940875",
+          "source": "Fugitive: В смысле… когда он стрелял в меня сзади.",
+          "oldTarget": "Fugitive: Yaani… alipokuwa akinipiga risasi mgongoni.",
+          "selectedFullTarget": "Fugitive: Yaani… alipokuwa akinifyatulia risasi kutoka nyuma.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0109",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "сами не живём и другим не дадим says people themselves fail to live and prevent others from living; hatutaki kuishi says they do not want to live, adding a suicidal intention absent from the line.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9412,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454715940865",
+          "source": "Fugitive: Но нет, сами не живём и другим не дадим.",
+          "oldTarget": "Fugitive: Lakini hapana, hatutaki kuishi wala kuwaruhusu wengine waishi.",
+          "selectedFullTarget": "Fugitive: Lakini hapana, sisi wenyewe hatuishi wala hatuwaachi wengine waishi.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0110",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "довольна собой says the neighbor is pleased with herself; anajisifu says she boasts or praises herself, changing her private feeling into an outward act.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9420,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454711746565",
+          "source": "Fugitive: Небось довольна собой, гнида.",
+          "oldTarget": "Fugitive: Labda anajisifu, yule mchafu.",
+          "selectedFullTarget": "Fugitive: Labda ameridhika na alichofanya, yule mchafu.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0111",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "готов поспорить marks the Fugitive's wager rather than certainty, and тварь is an insult directed at the female neighbor; nina hakika overstates certainty while yule jirani mwanamke drops the insult. Сдала also means reporting him to KHD, as confirmed in Wifefema's scene.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9422,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454711746563",
+          "source": "Fugitive: Но готов поспорить, что это соседка, тварь, сдала меня КЧС.",
+          "oldTarget": "Fugitive: Lakini nina hakika yule jirani mwanamke ndiye aliyenisaliti kwa KHD.",
+          "selectedFullTarget": "Fugitive: Lakini ningeweka dau kwamba yule jirani mwanaharamu ndiye aliyenichongea kwa KHD.",
+          "authoredPath": "Translations/sw/dialogue-batch-127.json",
+          "authoredSha256": "adccf1a46b5e1cfb5bf4f25630d6c870ad0150c5ea1e94f94c131e0e34d09089"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0112",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "осквернили Божий храм means they desecrated or defiled God's temple; walilikufuru hekalu says they blasphemed the temple, which changes the action and is awkward religious usage.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9470,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454694969347",
+          "source": "Nun: Они осквернили Божий храм, будь они прокляты!",
+          "oldTarget": "Nun: Walilikufuru hekalu la Mungu, walaaniwe!",
+          "selectedFullTarget": "Nun: Walilitia unajisi hekalu la Mungu, walaaniwe!",
+          "authoredPath": "Translations/sw/dialogue-batch-128.json",
+          "authoredSha256": "95cd1b3d4f36b40f093612eb950ed2caebca3fb3fd9f40bd498cf45a4c3366ee"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0113",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "Десятки тел specifies dozens of bodies; Miili mingi gives only an unbounded 'many', losing the scale of Raskolnikov's alley scene.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9522,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454673997835",
+          "source": "Raskolnikov: Десятки тел лежали тут и там.",
+          "oldTarget": "Raskolnikov: Miili mingi ilitapakaa huku na kule.",
+          "selectedFullTarget": "Raskolnikov: Makumi ya miili yalikuwa yametapakaa huku na kule.",
+          "authoredPath": "Translations/sw/dialogue-batch-128.json",
+          "authoredSha256": "95cd1b3d4f36b40f093612eb950ed2caebca3fb3fd9f40bd498cf45a4c3366ee"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0114",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "The theorist calls his phrase an alternative expansion of the KЧС acronym. In Swahili the approved KHD initials do not match Ibada ya Kifo cha Binadamu; claiming it is a decoding of KHD creates a false initialism. The constrained proposal presents it as a dark wordplay on the name while preserving both the approved KHD form and the cult-of-human-death meaning.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9625,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454640443397",
+          "source": "Theorist: Занимательная теория, мне в ней нравится ещё альтернативная расшифровка аббревиатуры КЧС – Культ Человеческой Смерти.",
+          "oldTarget": "Theorist: Nadharia ya kuvutia; napenda pia tafsiri nyingine ya kifupi KHD — «Ibada ya Kifo cha Binadamu».",
+          "selectedFullTarget": "Theorist: Nadharia ya kuvutia; napenda pia mchezo wa maneno kwa jina la KHD — «Ibada ya Kifo cha Binadamu».",
+          "authoredPath": "Translations/sw/dialogue-batch-129.json",
+          "authoredSha256": "ed6e0e347a4d8539860737fa5d09ebee7555326f20dc027f5e0ff5bcc8d33ef7"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0115",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "бесконечно развивающейся Вселенной is an endlessly developing/evolving universe; unaopanuka bila mwisho specifically says expanding, replacing Sirin's broader image with a cosmological mechanism.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9683,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454619471880",
+          "source": "Sirin: В бесконечно развивающейся Вселенной мы – никто.",
+          "oldTarget": "Sirin: Katika Ulimwengu unaopanuka bila mwisho, sisi si kitu.",
+          "selectedFullTarget": "Sirin: Katika Ulimwengu unaoendelea kubadilika bila mwisho, sisi si kitu.",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0116",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "взрывается asks if the sun is exploding; linapasuka describes cracking or splitting, inconsistent with nearby Alkonost lines that correctly use kulipuka for this event.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9693,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454615277577",
+          "source": "Sirin: Знал ли ты про солнце? Оно взрывается?",
+          "oldTarget": "Sirin: Ulijua kuhusu jua? Linapasuka?",
+          "selectedFullTarget": "Sirin: Ulijua kuhusu jua? Linalipuka?",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0117",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "в ванне is a bathtub large enough for Alkonost's sister to climb into; kwenye beseni alone suggests a basin and changes the bathroom object. Clarify the bathing tub without changing the action.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9748,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454598500355",
+          "source": "Alkonost: Вчера мне удалось искупать ее в ванне. Дома она не могла даже залезть туда.",
+          "oldTarget": "Alkonost: Jana nilifanikiwa kumwogesha kwenye beseni. Nyumbani hakuweza hata kuingia humo.",
+          "selectedFullTarget": "Alkonost: Jana nilifanikiwa kumwogesha kwenye beseni la kuogea. Nyumbani hakuweza hata kuingia humo.",
+          "authoredPath": "Translations/sw/dialogue-batch-130.json",
+          "authoredSha256": "abe8b3c051db305d76f32003978761cf3e1d38a0e83d38b855451cbc0801da8d"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0118",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "носит его кругами portrays the man as being led or carried in circles, part of the storyteller's uncanny account; alikuwa anazunguka duara says he himself walked in a circle, erasing that passive agency. The later footprints line already covers his physical circling.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9774,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454590111744",
+          "source": "NotTrue: Да тут-то и понял, что носит его кругами.",
+          "oldTarget": "NotTrue: Hapo ndipo alipoelewa kwamba alikuwa anazunguka duara.",
+          "selectedFullTarget": "NotTrue: Hapo ndipo alipoelewa kwamba alikuwa akizungushwa katika duara lilelile.",
+          "authoredPath": "Translations/sw/dialogue-batch-131.json",
+          "authoredSha256": "1be9ed7cbd17c245d1725a4782a31039da72393aa9fb66cd6e8cb7cd3816ca02"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0119",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "заторможенной describes the daughter's slowed responses after trauma; mnyonge means weak or frail, changing an observed mental/behavioral state into physical weakness.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9871,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454556557314",
+          "source": "Daughter: (Вы замечаете, что девочка стала заторможенной. Она явно о чём-то думает.)",
+          "oldTarget": "Daughter: (Unaona msichana amekuwa mnyonge na mwenye mawazo. Ni wazi anafikiria kitu.)",
+          "selectedFullTarget": "Daughter: (Unaona msichana ameanza kuitikia kwa kuchelewa. Ni wazi anafikiria jambo fulani.)",
+          "authoredPath": "Translations/sw/dialogue-batch-132.json",
+          "authoredSha256": "c381f20bb75fc5fc85602c286636806f74837624d6d9ad50e881f4cd3628a39f"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0120",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "если не захочешь больше ни с кем говорить is the player's choice not to speak with anyone; ukichoka kuzungumza makes tiredness from conversation the condition, changing the gameplay advice.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9946,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391488",
+          "source": "Neighbour: Оно сильно клонит в сон. Так что если не захочешь больше ни с кем говорить – пей пиво и отдыхай.",
+          "oldTarget": "Neighbour: Bia inakuletea usingizi sana. Kwa hiyo ukichoka kuzungumza na watu, kunywa bia upumzike.",
+          "selectedFullTarget": "Neighbour: Bia inakuletea usingizi sana. Kwa hiyo ikiwa hutataka tena kuzungumza na mtu yeyote, kunywa bia upumzike.",
+          "authoredPath": "Translations/sw/dialogue-batch-133.json",
+          "authoredSha256": "73d749f48f727e4aadd5376b8ed01247658b038feeddc9f99ea9e145629fcc83"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0121",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-9280-10079.json",
+      "findingEvidenceSha256": "80b3f7c7a17283f9c36a54261322872682caa0c9808c3941a19c50ed34538c67",
+      "findingObjectiveReason": "брат жены establishes a brother-in-law without age; Kaka ya mke wangu specifies an older brother. Use ndugu wa kiume to preserve the known relationship without inventing age.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 9948,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454527197194",
+          "source": "Neighbour: Кстати, я тебе там ящик пива принёс. У меня брат жены в пивоварне работает.",
+          "oldTarget": "Neighbour: Kwa njia, nimekuletea kreti ya bia. Kaka ya mke wangu anafanya kazi kwenye kiwanda cha bia.",
+          "selectedFullTarget": "Neighbour: Kwa njia, nimekuletea kreti ya bia. Ndugu wa kiume wa mke wangu anafanya kazi kwenye kiwanda cha bia.",
+          "authoredPath": "Translations/sw/dialogue-batch-133.json",
+          "authoredSha256": "73d749f48f727e4aadd5376b8ed01247658b038feeddc9f99ea9e145629fcc83"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0122",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "Считай marks the Scammer's self-serving assumption that the debt can be treated as gone; sasa sina madeni tena states as fact that he has no debts, even though he has just speculated that banks may disappear.",
+      "decision": "accept-revised",
+      "adjudicationReason": "Keep the speaker’s self-serving hypothetical framing rather than a factual statement.",
+      "affected": [
+        {
+          "sourceIndex": 10094,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454468476934",
+          "source": "Scammer: Пффф. Забудь про них. Считай, у меня больше нет долгов. Солнце чисто зарешало.",
+          "oldTarget": "Scammer: Pah. Yasahau hayo. Sasa sina madeni tena. Jua limeyamaliza tu.",
+          "selectedFullTarget": "Scammer: Pah. Yasahau hayo. Chukulia kwamba sina madeni tena. Jua limeyamaliza tu.",
+          "authoredPath": "Translations/sw/dialogue-batch-134.json",
+          "authoredSha256": "319e74efe54051a93bb06cc8e55f029572e9c59cce91b00cf80383bab9522598"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0123",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "Занял у кого-нибудь means borrow money from someone as the solution to having none; omba mkopo is only to ask for a loan, with no borrowing accomplished.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10112,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454464282625",
+          "source": "Scammer: А если денег нет, то это вообще не проблема. Занял у кого-нибудь, да и всё.",
+          "oldTarget": "Scammer: Na kama huna pesa, hakuna tatizo. Omba mkopo kwa mtu, basi.",
+          "selectedFullTarget": "Scammer: Na kama huna pesa, hakuna tatizo. Kopa kwa mtu, basi.",
+          "authoredPath": "Translations/sw/dialogue-batch-134.json",
+          "authoredSha256": "319e74efe54051a93bb06cc8e55f029572e9c59cce91b00cf80383bab9522598"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0124",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "долбоёбов calls the morgue staff incompetent fools whose disorder lets her enter; wahuni calls them delinquents instead, changing the Widow's accusation.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10166,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454439116808",
+          "source": "Widow: У таких долбоëбов вечно бардак, поэтому мне достаточно было нацепить халат врачей и пройти в морг.",
+          "oldTarget": "Widow: Wahuni kama hao wana fujo daima, kwa hiyo ilinibidi tu kuvaa koti la daktari na kuingia chumba cha maiti.",
+          "selectedFullTarget": "Widow: Wapumbavu kama hao huwa na vurugu kila wakati, kwa hiyo ilinibidi tu kuvaa koti la daktari na kuingia chumba cha maiti.",
+          "authoredPath": "Translations/sw/dialogue-batch-135.json",
+          "authoredSha256": "a80936bf0380130213bfdeca64de7b0dae8228f08fcb1aac13082f0567268974"
+        }
+      ]
+    },
+    {
+      "findingId": "sw-sem-0125",
+      "findingEvidencePath": "Translations/sw/semantic-audit-pass-01/findings-10080-10879.json",
+      "findingEvidenceSha256": "79dc745e1ba3497bd8a5eee744284805b4de7925fac5f1d5cd347fbc4551a08b",
+      "findingObjectiveReason": "пиздец and пугает до усрачки express Esenin's coarse, extreme distress, including the explicit fear-of-soiling-himself image. The target replaces both with neutral descriptions of fear.",
+      "decision": "accept-as-proposed",
+      "adjudicationReason": "Objective source-to-target defect confirmed in source and scene context.",
+      "affected": [
+        {
+          "sourceIndex": 10277,
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454388785161",
+          "source": "Esenin: Это какой-то пиздец. Меня всё пугает до усрачки.",
+          "oldTarget": "Esenin: Haya ni mambo ya kutisha. Kila kitu kinanitisha kupita kiasi.",
+          "selectedFullTarget": "Esenin: Haya ni maafa ya kishenzi. Kila kitu kinanitisha hadi nahisi nitajinyea.",
+          "authoredPath": "Translations/sw/dialogue-batch-136.json",
+          "authoredSha256": "f81ded38624d1e5fa3fa400d2ccf0b9870fa78a88d56979626e1ffdf8019afa9"
+        }
+      ]
+    }
+  ]
+}

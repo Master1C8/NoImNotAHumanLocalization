@@ -1,0 +1,44 @@
+{
+  "programSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "deltaNodes": 26,
+  "freshVisibleSlots": 131,
+  "additionalFreshContextUnits": 62,
+  "correctedPreflightNodes": 11,
+  "correctedPreflightSlots": 49,
+  "actualTargetsAndOptionOperandsEqualPreflight": true,
+  "deltaSubstitutionSlots": 0,
+  "freshDynamicContext": [
+    {
+      "node": "tv_11_necessary",
+      "instructionIndex": 10,
+      "actualProducerInstructions": [
+        {
+          "index": 7,
+          "opcode": 6,
+          "operands": [
+            "FEMA"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 12,
+          "operands": [
+            "GetPhoneNumber"
+          ]
+        }
+      ],
+      "symbolicSource": "TV: Если к вам придут культисты, немедленно свяжитесь с КЧС по горячей линии – ⟦GetPhoneNumber(\"FEMA\")⟧.",
+      "symbolicCurrentTarget": "TV: Ikiwa wafuasi wa ibada watafika kwako, wasiliana mara moja na Kamati ya Hali za Dharura kwenye laini maalumu: ⟦GetPhoneNumber(\"FEMA\")⟧.",
+      "liveValue": "not executed"
+    }
+  ],
+  "unchangedDynamicSupport": "prior reviewed FortuneTeller GetPhoneNumber Extrasens slot source/target and complete compiled program unchanged",
+  "runtime": "not-run-per-owner"
+}

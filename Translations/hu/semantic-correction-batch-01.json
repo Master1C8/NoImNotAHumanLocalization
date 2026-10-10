@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": 1,
+  "locale": "hu",
+  "status": "proposed; collect full-pass findings before adjudication and application",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryLayerSha256": "8386700825df9e4bdf0b57482c1971b93cf495d18ce1232c2b5a3e281a186cea",
+  "findings": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:85609992173637632",
+      "reason": "The Russian «раций» means two-way radios or walkie-talkies; «rádiókról» broadens it to ordinary radios in the handwritten radio note.",
+      "proposedTarget": "leszedtem az adóvevőkről a hullámblokkolót\nmenjenek a picsába!",
+      "context": "radio_instruction_pencil; keep the first-person scribble, profanity, and exact newline",
+      "source": "я убрал блокатор волн с раций\nпошли они нахер!",
+      "currentTarget": "leszedtem a rádiókról a hullámblokkolót\nmenjenek a picsába!",
+      "authoredFile": "Translations/hu/ui-batch-002.json",
+      "authoredFileSha256": "3fe99abe561352ad793468aa24751d47557f10e29ef57620eb83d0d6e2477a98"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101499724829020160",
+      "reason": "Russian «Празднования» is plural, whereas «ünnepe» is singular in this calendar-day label.",
+      "proposedTarget": "A nyár búcsúztatásának ünnepségei",
+      "context": "calendar_day_12; preserve plural event count",
+      "source": "Празднования ухода лета",
+      "currentTarget": "A nyár búcsúztatásának ünnepe",
+      "authoredFile": "Translations/hu/ui-batch-003.json",
+      "authoredFileSha256": "280776dc7e05622aa2ed9cc402e9067c20fd62d8de4e141fa023c2900170cfd8"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134476406784",
+      "reason": "«дёрганый» and the approved jerky-man glossary term describe twitchiness; «ideges» only says nervous.",
+      "proposedTarget": "rángatózó férfi",
+      "context": "characterName_Unstable; approved glossary term Rángatózó férfi",
+      "source": "дёрганый",
+      "currentTarget": "ideges fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "authoredFileSha256": "52ef50cf1a8bc7bbab9de124116057ef99cc8467cff0c3816933b63f428f8d1c"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+      "reason": "«мужик с проблемами кожи» says a man with skin problems, while «bőrbeteg» asserts a skin disease; the approved glossary uses Bőrproblémás fickó and warns against a diagnostic inference.",
+      "proposedTarget": "bőrproblémás fickó",
+      "context": "characterName_Leper; no unsupported diagnosis",
+      "source": "мужик с проблемами кожи",
+      "currentTarget": "bőrbeteg fickó",
+      "authoredFile": "Translations/hu/ui-batch-004.json",
+      "authoredFileSha256": "52ef50cf1a8bc7bbab9de124116057ef99cc8467cff0c3816933b63f428f8d1c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457920389132",
+      "reason": "This choice invites the daughter to visit; «játszani» adds play and collapses its distinction from the adjacent choice that explicitly asks to visit and play.",
+      "proposedTarget": "Szeretném meghívni a lányát hozzánk vendégségbe. A barátnője kéri",
+      "context": "phone_daughtersfriend_1; compare adjacent choice line:phone_daughtersfriend_003260e",
+      "source": "Я хочу позвать вашу дочь к нам в гости. Её подруга просит",
+      "currentTarget": "Szeretném meghívni a lányát hozzánk játszani. A barátnője kéri",
+      "authoredFile": "Translations/hu/dialogue-batch-002.json",
+      "authoredFileSha256": "9cd0d5840f69dd32fb6ac409dbac63abc9556c620e364a7c64e53c6e51d44473"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417610",
+      "reason": "Russian «у них отрубили телефонные линии» states that the phone lines were cut off; «megszakadtak» makes the outage happen by itself and drops the implied external action.",
+      "proposedTarget": "Phone: Később megtudtam az okát: náluk lekapcsolták a telefonvonalakat.",
+      "context": "phone_phoneroulette_1_1_2; the speaker says she could not reach people in her home city after flying away",
+      "source": "Phone: И позже я узнала, в чём причина, — у них отрубили телефонные линии.",
+      "currentTarget": "Phone: Később megtudtam, miért: megszakadtak náluk a telefonvonalak.",
+      "authoredFile": "Translations/hu/dialogue-batch-005.json",
+      "authoredFileSha256": "daa114ccd6333469fab6848d6f36ed830f1e554911a316822fe4534ad710320d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891655",
+      "reason": "The Russian stops after «гр…», an unidentified word fragment. «fenye…» selects a different Hungarian word and supplies content that the unfinished speech has not disclosed.",
+      "proposedTarget": "Phone: Félj a… gr…",
+      "context": "phone_fortuneteller_0a136ed; preserve the fragment and the caller’s unknown identity; do not identify this speaker with the jósnő",
+      "source": "Phone: Бойся ты … гр…",
+      "currentTarget": "Phone: Félj a… fenye…",
+      "authoredFile": "Translations/hu/dialogue-batch-009.json",
+      "authoredFileSha256": "4be4aab7e913c35d3576be10eafcfe80aa1ea2740c9a2c9300316cc6a1645c8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457840697355",
+      "reason": "Russian explicitly says someone may be getting killed by Guests while the line is occupied; the Hungarian target omits the victim and uses a definite verb without its object.",
+      "proposedTarget": "Phone: Amíg maga lefoglalja a vonalat, valaki más nem tud telefonálni. Lehet, hogy épp most gyilkolnak meg valakit a Vendégek.",
+      "context": "phone_wifefema_2_1; retain the hypothetical possibility and the unidentified victim",
+      "source": "Phone: Пока вы занимаете линию, кто-то не может дозвониться. Возможно, кого-то сейчас убивают Гости.",
+      "currentTarget": "Phone: Amíg maga lefoglalja a vonalat, valaki más nem tud telefonálni. Lehet, hogy épp most ölik meg a Vendégek.",
+      "authoredFile": "Translations/hu/dialogue-batch-009.json",
+      "authoredFileSha256": "4be4aab7e913c35d3576be10eafcfe80aa1ea2740c9a2c9300316cc6a1645c8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811264",
+      "reason": "The screening caller asks to establish the player’s «статус» (Human/Guest status); «állapotát» means condition and changes the result being tested.",
+      "proposedTarget": "Phone: Hogy megbízhatóan megállapíthassuk a státuszát, kérjük, a vizsgálatig ne mosson kezet.",
+      "context": "phone_fema_asking_2; handwashing before Guest-status screening",
+      "source": "Phone: Чтобы мы могли достоверно узнать ваш статус, просим вас воздержаться от мытья рук до обследования.",
+      "currentTarget": "Phone: Hogy megbízhatóan megállapíthassuk az állapotát, kérjük, a vizsgálatig ne mosson kezet.",
+      "authoredFile": "Translations/hu/dialogue-batch-016.json",
+      "authoredFileSha256": "51af15a6fd7d3aaef201233f30a47fdc7f5c28dc30a48891c52ed162fd84b1b4"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457740034056",
+      "reason": "«Как ... они выявили признаки?» asks how the agency identified the signs. «Honnan tudják, milyen jeleket keressenek?» asks how they know which signs to look for, changing the question.",
+      "proposedTarget": "Phone: Például hogyan állapították meg az ismertetőjegyeket? Miért nem különböznek ezek a jelek a hétköznapi emberi jegyektől?",
+      "context": "phone_neighbour_day4_3; the neighbor questions the KCsSz’s claimed knowledge of Guest signs",
+      "source": "Phone: Как, например, они выявили признаки? Почему признаки совсем не отличаются от простых человеческих?",
+      "currentTarget": "Phone: Például honnan tudják, milyen jeleket keressenek? Miért nem különböznek ezek a jelek a hétköznapi emberi jegyektől?",
+      "authoredFile": "Translations/hu/dialogue-batch-017.json",
+      "authoredFileSha256": "140a0214da52d201533717a674eea6bbf384274b59bc59bf09660af88e5e55a9"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457698091009",
+      "reason": "«объедают» says the hungry stray dogs are eating the remains; «marcangolják» says they tear them apart and drops the feeding action.",
+      "proposedTarget": "Window: Az egész csoport halott; a maradványaikat éhes kóbor kutyák falják.",
+      "context": "window_10_3; aftermath of the armed hunter attack; retain the starving dogs eating the remains",
+      "source": "Window: Вся группа мертва, их останки объедают голодные бродячие собаки.",
+      "currentTarget": "Window: Az egész csoport halott; a maradványaikat éhes kóbor kutyák marcangolják.",
+      "authoredFile": "Translations/hu/dialogue-batch-022.json",
+      "authoredFileSha256": "72ab8b73e60bc6a765afb6afc7a12193c2969c8e980a7aab2dfdd2dd2aefc594"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457668730890",
+      "reason": "«Эта кожа ему не по размеру» says the skin does not fit him; «túl szűk» selects a too-small direction that the source does not specify.",
+      "proposedTarget": "Window: Mintha ez a bőr nem illene rá.",
+      "context": "window_2_1; the pale stranger’s ill-fitting skin, without inferring whether it is too small or too large",
+      "source": "Window: Кажется, эта кожа ему не по размеру.",
+      "currentTarget": "Window: Mintha ez a bőr túl szűk lenne rá.",
+      "authoredFile": "Translations/hu/dialogue-batch-025.json",
+      "authoredFileSha256": "df96fb6fcdd9dfbbcb6144e887bda5bb549aca883d67faad507493c9e36b7fed"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457622593540",
+      "reason": "«Диверсии» identifies a sabotage operation; «támadás» broadens it to an attack and loses the sabotage meaning in the investigation report.",
+      "proposedTarget": "TV: A szabotázsakció okai nem ismertek pontosan, és az sem, voltak-e társai a lövésznek.",
+      "context": "tv_8_necessary; broadcast’s uncertain account of the armed quarantine-zone incident",
+      "source": "TV: Доподлинно не известно о причинах диверсии, а также, имел ли стрелок сообщников.",
+      "currentTarget": "TV: A támadás indítéka nem ismert pontosan, és az sem, voltak-e társai a lövésznek.",
+      "authoredFile": "Translations/hu/dialogue-batch-028.json",
+      "authoredFileSha256": "589b6856ac04853ba01731c243eb472be2975dacc24ca6959a6691a8c5888573"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457614204934",
+      "reason": "«Солнце наносит ответный удар» personifies the Sun as striking back; «újabb csapást mér» means it strikes again and loses the retaliatory relation.",
+      "proposedTarget": "TV: A Nap visszavág: hatalmas erdőtüzek tombolnak.",
+      "context": "tv_6_necessary; dramatic TV headline introducing the forest fires",
+      "source": "TV: Солнце наносит ответный удар – в лесах бушуют массовые пожары.",
+      "currentTarget": "TV: A Nap újabb csapást mér: hatalmas erdőtüzek tombolnak.",
+      "authoredFile": "Translations/hu/dialogue-batch-029.json",
+      "authoredFileSha256": "829eabc58b4f33ceabeb90b41edc6d2fb75dce1e2452925933bc31c6316dc071"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678981",
+      "reason": "This repeated «кожа ему не по размеру» does not say whether the skin is too small or too large; «túl szűk» asserts it is too tight.",
+      "proposedTarget": "Window: Mintha ez a bőr nem illene rá.",
+      "context": "window_2_3 variant of the pale stranger; same semantic issue as ordinal 1050, distinct accepted ID",
+      "source": "Window: Кажется, эта кожа ему не по размеру.",
+      "currentTarget": "Window: Mintha ez a bőr túl szűk lenne rá.",
+      "authoredFile": "Translations/hu/dialogue-batch-035.json",
+      "authoredFileSha256": "705cff83a9ffa657edb09715fab2ad8b3169572647fa20ef27c41ccb131f1c2b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457551290377",
+      "reason": "The stray dog looks «жалобно», plaintively or pleadingly, while «szánalmasan» describes it as pathetic and changes the narrator’s sympathetic tone.",
+      "proposedTarget": "Window: Esdeklőn néz körül, ennivalót keres.",
+      "context": "window_0_2; hungry stray dog on the field path; retain sympathetic observation",
+      "source": "Window: Она жалобно смотрит по сторонам в попытке найти какую-нибудь еду.",
+      "currentTarget": "Window: Szánalmasan körülnéz, ennivalót keres.",
+      "authoredFile": "Translations/hu/dialogue-batch-035.json",
+      "authoredFileSha256": "705cff83a9ffa657edb09715fab2ad8b3169572647fa20ef27c41ccb131f1c2b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457517735943",
+      "reason": "«Он» refers back to the one eyewitness introduced in the previous TV line; «Egy férfi» introduces an indefinite man and loses that link.",
+      "proposedTarget": "TV: Ez a szemtanú egy tökéletesen fehér fogú hajléktalanba botlott, akiről kiderült, hogy Vendég.",
+      "context": "tv_1_necessary; immediately follows the example of one eyewitness at ordinal 1453",
+      "source": "TV: Он наткнулся на бездомного с идеальными белыми зубами, который оказался Гостем.",
+      "currentTarget": "TV: Egy férfi egy tökéletesen fehér fogú hajléktalanba botlott, akiről kiderült, hogy Vendég.",
+      "authoredFile": "Translations/hu/dialogue-batch-043.json",
+      "authoredFileSha256": "3c3844bf5f0c0fd575b306cb2500e928b028d9ebf78317efe4cea4b9e572380b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911882",
+      "reason": "The choice «Лучше уйдите» addresses the pair of sisters in the Twins branch; «Jobb, ha elmegy» is singular, unlike the adjacent plural invitation.",
+      "proposedTarget": "Jobb, ha elmentek",
+      "context": "Twins_Entrance_BothOccupied; both sisters arrive together; compare plural «Ладно, заходите» at ordinal 2200",
+      "source": "Лучше уйдите",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911877",
+      "reason": "This Twins branch has both sisters at the door; Russian «уйдите» is plural in scene context, but Hungarian «elmegy» addresses one person.",
+      "proposedTarget": "Jobb, ha elmentek",
+      "context": "Twins_Entrance_SirinOccupied; retain plural departure for the sisters",
+      "source": "Лучше уйдите",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717579",
+      "reason": "This Twins branch has both sisters at the door; Russian «уйдите» is plural in scene context, but Hungarian «elmegy» addresses one person.",
+      "proposedTarget": "Jobb, ha elmentek",
+      "context": "Twins_Entrance_AlkonostOccupied; retain plural departure for the sisters",
+      "source": "Лучше уйдите",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637186",
+      "reason": "«Выгнать этого человека» asks the player to eject the resident; «kérni ... hogy menjen el» changes the action to merely asking the resident to leave.",
+      "proposedTarget": "Mother: Esetleg meg tudnád… valahogy… kirakni ezt az embert, hogy a gyerek legalább egyszer nyugodtan alhasson?",
+      "context": "Mother_Entrance_Occupied; hesitant request to remove the frightening resident so her child can sleep",
+      "source": "Mother: Может, можешь… как-нибудь… выгнать этого человека, чтоб ребёнок хоть раз уснул спокойно?",
+      "currentTarget": "Mother: Esetleg meg tudnád… valahogy… kérni ezt az embert, hogy menjen el, hogy a gyerek legalább egyszer nyugodtan alhasson?",
+      "authoredFile": "Translations/hu/dialogue-batch-086.json",
+      "authoredFileSha256": "6586cd3332a5fdb218beb46061f330c1b853e3da66ad419ba6a5442de8f7e333"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457077334021",
+      "reason": "«Грохнул» says he killed the woman, then the man; «lőttem le» specifies shooting, which this account does not state.",
+      "proposedTarget": "Vigilante: Először a nőt öltem meg, aztán a férfit. A gyerekek a szomszédokkal együtt valahogy el tudtak tűnni.",
+      "context": "Vigilante_Entrance_3_2; his account of killing the parents; do not infer the method",
+      "source": "Vigilante: Её грохнул первой, потом мужика. Дети с соседями куда-то успели смыться.",
+      "currentTarget": "Vigilante: Először a nőt lőttem le, aztán a férfit. A gyerekek a szomszédokkal együtt valahogy el tudtak tűnni.",
+      "authoredFile": "Translations/hu/dialogue-batch-095.json",
+      "authoredFileSha256": "4747e2896ccfab5957246b2872c1d694d8fe6344fc8333c7f2fdb4904a647f7d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457073139713",
+      "reason": "«Мочканул» says he killed the Guests; «lelőttem» specifies shooting, which this account does not state.",
+      "proposedTarget": "Vigilante: A hátsó ajtón kimenekítette a családját, aztán az erdőbe mentek. Én megöltem a Vendégeket, de a család nem tért vissza.",
+      "context": "Vigilante_Entrance_3_1; distinguish father’s family escape from Vigilante’s killing of the Guests without inferring the method",
+      "source": "Vigilante: Вытащил семью через заднюю дверь и ушёл в лес. Я Гостей-то мочканул, но семья так и не вернулась.",
+      "currentTarget": "Vigilante: A hátsó ajtón kimenekítette a családját, aztán az erdőbe mentek. Én lelőttem a Vendégeket, de a család nem tért vissza.",
+      "authoredFile": "Translations/hu/dialogue-batch-095.json",
+      "authoredFileSha256": "4747e2896ccfab5957246b2872c1d694d8fe6344fc8333c7f2fdb4904a647f7d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456917950466",
+      "reason": "«Сожгли» describes people burned to death; «megégettek» can mean only burned or scorched, weakening the reported killing.",
+      "proposedTarget": "CultistPriest: Egyeseket elégettek, másokat kirángattak a rejtekhelyükről és megöltek.",
+      "context": "CultistPriest_Entrance_8_2; the priest lists violent deaths around the house, contrasting victims burned with victims dragged out and killed.",
+      "source": "CultistPriest: Кого-то сожгли, кого-то вытащили из укрытия и убили.",
+      "currentTarget": "CultistPriest: Egyeseket megégettek, másokat kirángattak a rejtekhelyükről és megöltek.",
+      "authoredFile": "Translations/hu/dialogue-batch-112.json",
+      "authoredFileSha256": "4c31a3b5e67dda7cce0764f758a1012d8a7043c043f51e2db26c5d44be3a325f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456800509961",
+      "reason": "«Брови ... поднимаются домиком» specifies a peaked eyebrow shape; «meglepetten» instead asserts surprise, which the silent character’s expression does not explicitly establish.",
+      "proposedTarget": "Foreigner: (A férfi szemöldöke háztető alakot ölt).",
+      "context": "Foreigner_Entrance_2; the mute visitor communicates only through muffled sounds and facial expressions, so retain the visible eyebrow shape without assigning an emotion.",
+      "source": "Foreigner: (Брови собеседника поднимаются домиком).",
+      "currentTarget": "Foreigner: (A férfi meglepetten felvonja a szemöldökét).",
+      "authoredFile": "Translations/hu/dialogue-batch-126.json",
+      "authoredFileSha256": "b38418d4770042907621d35829a093a60ee7857866dccd2a7f4157a2c04ff643"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456582406152",
+      "reason": "The player addresses both members of the couple; «elmegy» is formal singular, while this rejection choice must address the pair.",
+      "proposedTarget": "Jobb, ha elmennek",
+      "context": "Couple_Entrance_4; husband and wife arrive together; adjacent 4070 says «нас же впустили» and later player question 4086 is explicitly plural.",
+      "source": "Вам лучше уйти",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456582406151",
+      "reason": "The player invites both members of the couple; «Fáradjon be» is formal singular and excludes the wife.",
+      "proposedTarget": "Fáradjanak be",
+      "context": "Couple_Entrance_4; husband and wife arrive together; adjacent 4070 says «нас же впустили» and later player question 4086 is explicitly plural.",
+      "source": "Проходите",
+      "currentTarget": "Fáradjon be",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456582406146",
+      "reason": "The player addresses both members of the couple; «elmegy» is formal singular, while this rejection choice must address the pair.",
+      "proposedTarget": "Jobb, ha elmennek",
+      "context": "Couple_Entrance_3; husband and wife arrive together; 4082 says «поговорить с нами» and 4086 uses plural to address them.",
+      "source": "Вам лучше уйти",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456582406145",
+      "reason": "The player invites both members of the couple; «Fáradjon be» is formal singular and excludes the wife.",
+      "proposedTarget": "Fáradjanak be",
+      "context": "Couple_Entrance_3; husband and wife arrive together; 4082 says «поговорить с нами» and 4086 uses plural to address them.",
+      "source": "Проходите",
+      "currentTarget": "Fáradjon be",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456418828294",
+      "reason": "«Кем работает ваш муж?» asks for the husband’s occupation or role; «Hol dolgozik a férje?» asks for his workplace instead. The preceding branch separately asks what he did before.",
+      "proposedTarget": "Mivel foglalkozik a férje?",
+      "context": "Wifefema entrance; her husband was transferred to KCsSz and she answers the occupation question with his present KCsSz work, while the player has a separate question about how she arrived.",
+      "source": "Кем работает ваш муж?",
+      "currentTarget": "Hol dolgozik a férje?",
+      "authoredFile": "Translations/hu/dialogue-batch-161.json",
+      "authoredFileSha256": "a1eb3ee6a17b742a90e31266c75fb2eae773f865be753866617366f76c7e2704"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496642",
+      "reason": "The refusal is addressed to both sisters at the door; «elmegy» is formal singular and leaves the second sister out.",
+      "proposedTarget": "Jobb, ha elmennek",
+      "context": "Twins_Entrance_4; the pair arrive together, 4688 says «мы с ней», and the player later addresses «вы обе» at 4708.",
+      "source": "Вам лучше уйти",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496641",
+      "reason": "The invitation admits both sisters; «Fáradjon be» is formal singular and leaves the second sister out.",
+      "proposedTarget": "Fáradjanak be",
+      "context": "Twins_Entrance_4; the pair arrive together, 4685 asks for help carrying the sister inside, and 4708 addresses both women.",
+      "source": "Проходите",
+      "currentTarget": "Fáradjon be",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456364302345",
+      "reason": "The refusal is addressed to both sisters at the door; «elmegy» is formal singular and leaves the second sister out.",
+      "proposedTarget": "Jobb, ha elmennek",
+      "context": "Twins_Entrance_3; the pair arrive together; 4696 refers to finding a place for the sister and 4708 addresses both women.",
+      "source": "Вам лучше уйти",
+      "currentTarget": "Jobb, ha elmegy",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456364302344",
+      "reason": "The invitation admits both sisters; «Fáradjon be» is formal singular and leaves the second sister out.",
+      "proposedTarget": "Fáradjanak be",
+      "context": "Twins_Entrance_3; the pair arrive together; 4696 refers to finding a place for the sister and 4708 addresses both women.",
+      "source": "Проходите",
+      "currentTarget": "Fáradjon be",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456007786501",
+      "reason": "This ending’s narrator addresses the player with formal Russian «Вас»; the Hungarian «léteztél» changes to informal second person within the narration.",
+      "proposedTarget": "Mintha Ön sosem létezett volna ebben a világegyetemben.",
+      "context": "Ending_SuperComes_3. The narrator uses «От вас» at ordinal 5389 and «Вас» here; the direct informal speech in Ending_SuperComes without a numbered suffix belongs to a separate scene voice.",
+      "source": "Вас в этой вселенной будто и не существовало.",
+      "currentTarget": "Mintha sosem léteztél volna ebben a világegyetemben.",
+      "authoredFile": "Translations/hu/dialogue-batch-199.json",
+      "authoredFileSha256": "48d60a3f7412abc461275374cb9d0802d8bda0e0e6be4a748c3cab8d7e2612d3"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456007786500",
+      "reason": "The Russian «После смерти» leaves whose death unspoken. «A halálod után» adds the player as possessor and changes the formal narrative voice to informal second person.",
+      "proposedTarget": "A halál után mindez eltűnt.",
+      "context": "Ending_SuperComes_3, immediately after the narrator’s formal «Вас» at ordinal 5708 and before general reflections on a person disappearing after death.",
+      "source": "После смерти всё это исчезло.",
+      "currentTarget": "A halálod után mindez eltűnt.",
+      "authoredFile": "Translations/hu/dialogue-batch-199.json",
+      "authoredFileSha256": "48d60a3f7412abc461275374cb9d0802d8bda0e0e6be4a748c3cab8d7e2612d3"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848516",
+      "reason": "The household rule says not to answer an unexpected knock («отвечать нельзя»). «Nem nyithatsz ajtót» prohibits opening the door instead and still allows responding through it.",
+      "proposedTarget": "Bald: Tisztán emlékszem a szigorú szabályunkra: ha valaki kopog, és senkit sem vársz, nem szabad válaszolni.",
+      "context": "Bald_Asking_4; he describes his mother and grandmother hiding from debt collectors before he finds them injured.",
+      "source": "Bald: Так и помню, что у нас были жёсткие правила: если кто-то стучит в дверь, а ты никого не ждёшь, то отвечать нельзя.",
+      "currentTarget": "Bald: Tisztán emlékszem a szigorú szabályunkra: ha valaki kopog, és senkit sem vársz, nem nyithatsz ajtót.",
+      "authoredFile": "Translations/hu/dialogue-batch-215.json",
+      "authoredFileSha256": "1d372d018eb7e2f874112167538a60d6d1b37e81ab1898e6e60deac8ed7979a1"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455793877002",
+      "reason": "«Чтобы спастись» means to save herself or survive. The Hungarian «hogy túléljem» uses a definite transitive verb with no stated or recoverable object in this line and leaves the clause incomplete.",
+      "proposedTarget": "Tough: Azért teszem, mert mindenre kész vagyok, hogy megmeneküljek.",
+      "context": "Tough_Asking_4; she explains why she searched the player’s belongings to assess her own safety.",
+      "source": "Tough: Я делаю это, потому что готова на всё, чтобы спастись.",
+      "currentTarget": "Tough: Azért teszem, mert mindenre kész vagyok, hogy túléljem.",
+      "authoredFile": "Translations/hu/dialogue-batch-217.json",
+      "authoredFileSha256": "ab9d9e4541348fddc136146411a6553d7140aee39e09f8e2450298a58e7fdc3c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455475109888",
+      "reason": "Russian «Смерть едина для всех и всего» says Death is one and the same for everyone and everything. Hungarian «A Halál mindenkié és mindené» says Death belongs to everyone and everything, changing the universal-equality claim into possession. The next Russian line explicitly develops equality before Death.",
+      "proposedTarget": "Cultist3: A Halál mindenki és minden számára ugyanaz. Neki minden mindegy.",
+      "context": "Cultist3_Asking_3; ritual theology immediately followed by “для Смерти все равны”; retain the distinction between universal sameness and Death’s indifference.",
+      "source": "Cultist3: Смерть едина для всех и всего. И ей всё едино.",
+      "currentTarget": "Cultist3: A Halál mindenkié és mindené. Neki minden mindegy.",
+      "authoredFile": "Translations/hu/dialogue-batch-245.json",
+      "authoredFileSha256": "228010f8e36d07465e4227c7c146b9ae4b706bec9dc4e21bf0cd94ed13c8a0cf"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455189897217",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses the Doctor with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and therefore drops that formal address, while this Doctor conversation consistently uses formal second person.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_doctor_1 player option; maintain formal address used throughout Doctor dialogue; check the authored phrase-map dependency when applying the single correction batch.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455118594049",
+      "reason": "After predicting a sea of blood and heaps of bodies, Greatmother says her relatives will overturn the quarantine zone and «никого не оставят» (spare no one). «Senkit sem hagynak ott» instead says they will leave nobody there, allowing a rescue or removal reading and losing the threat.",
+      "proposedTarget": "Greatmother: Ha a földdel nem boldogulnak, felforgatnak mindent a karanténzónában. És senkit sem kímélnek.",
+      "context": "Greatmother_Asking_3_1; her relatives will break out of quarantine; compare her blood-and-bodies prediction in Greatmother_Asking_3_3.",
+      "source": "Greatmother: А если с землёй не получится, они всё вверх дном перевернут в карантинной зоне. И никого не оставят.",
+      "currentTarget": "Greatmother: Ha a földdel nem boldogulnak, felforgatnak mindent a karanténzónában. Senkit sem hagynak ott.",
+      "authoredFile": "Translations/hu/dialogue-batch-273.json",
+      "authoredFileSha256": "a36323bf5ef62e5b58e6e66aee320801a742f1973735f35d6858948892e5e484"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455072456712",
+      "reason": "In the discussion of body temperature and sweating, «мне уже некуда холодеть» means he cannot become any colder. Hungarian «már nem is fázhatok jobban» means he cannot feel colder, switching the physical-temperature claim to a subjective sensation.",
+      "proposedTarget": "Cold: Azt hiszem, már nem lehetek hidegebb.",
+      "context": "Cold_Asking_1_1; this is his reply to whether he sweats under his coat; the next line says sweat cools the body.",
+      "source": "Cold: Думаю, мне уже некуда холодеть.",
+      "currentTarget": "Cold: Azt hiszem, már nem is fázhatok jobban.",
+      "authoredFile": "Translations/hu/dialogue-batch-276.json",
+      "authoredFileSha256": "370b8a5bafd8418bfde3d8317568051322a378653c04bd38cb9299b3e2685796"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455051485187",
+      "reason": "Hunter’s Russian «Я повидал там такое дерьмо…» explicitly uses coarse «дерьмо» for the disturbing things he witnessed. Hungarian «Láttam ott egy s mást…» is a neutral “I saw a thing or two” and removes both the vulgar register and severity at the moment he explains why he cannot tell the story sober.",
+      "proposedTarget": "Hunter: Hé, fiú, légy türelemmel. Olyan szart láttam ott…",
+      "context": "Hunter_Asking_2_1_6; after the first part of the tall pale Guest encounter, Hunter defers the rest until he has another beer; keep his rough voice.",
+      "source": "Hunter: Эй, парень, имей терпение. Я повидал там такое дерьмо…",
+      "currentTarget": "Hunter: Hé, fiú, légy türelemmel. Láttam ott egy s mást…",
+      "authoredFile": "Translations/hu/dialogue-batch-278.json",
+      "authoredFileSha256": "10f913fec5821e9fe7b499062e793272ad736df697b82bef889178cc6754cb03"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454975987716",
+      "reason": "In the gun standoff, Russian «Убирай пистолет, я уберу ружьё» offers to put away the rifle if the man puts away his pistol. Hungarian «én is leeresztem a puskát» only promises to lower the rifle, changing the de-escalation offer.",
+      "proposedTarget": "Nyugodj meg. Tedd el a pisztolyt, én is elteszem a puskát.",
+      "context": "Couple_Asking_5_3 gun-standoff branch; the man has the woman hostage. This repeated choice occurs in two branch IDs and both need the same correction.",
+      "source": "Успокойся. Убирай пистолет, я уберу ружьё",
+      "currentTarget": "Nyugodj meg. Tedd el a pisztolyt, én is leeresztem a puskát.",
+      "authoredFile": "Translations/hu/dialogue-batch-282.json",
+      "authoredFileSha256": "aecbe745ed9ac2ddb2584ca6824cdd95124650f02eb0775bf8c40afbb0ba82c8"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454971793420",
+      "reason": "In the gun standoff, Russian «Убирай пистолет, я уберу ружьё» offers to put away the rifle if the man puts away his pistol. Hungarian «én is leeresztem a puskát» only promises to lower the rifle, changing the de-escalation offer.",
+      "proposedTarget": "Nyugodj meg. Tedd el a pisztolyt, én is elteszem a puskát.",
+      "context": "Couple_Asking_5_3 gun-standoff branch; the man has the woman hostage. This repeated choice occurs in two branch IDs and both need the same correction.",
+      "source": "Успокойся. Убирай пистолет, я уберу ружьё",
+      "currentTarget": "Nyugodj meg. Tedd el a pisztolyt, én is leeresztem a puskát.",
+      "authoredFile": "Translations/hu/dialogue-batch-283.json",
+      "authoredFileSha256": "c2692abd4e56b127c53875cff2e554dd89199228a9b0d1b589f8f6b0cd419dfb"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454942433291",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and loses the formal address; other informal «тебя» check options retain «téged».",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother_1; formal address to the mother; repeated phrase-map expansion in dialogue-batch-003, requiring dependency closure when the single correction batch is applied.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267467",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and loses the formal address; other informal «тебя» check options retain «téged».",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_teacher; formal address to the teacher; repeated phrase-map expansion in dialogue-batch-003, requiring dependency closure when the single correction batch is applied.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454917267456",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and loses the formal address; other informal «тебя» check options retain «téged».",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_teacher; formal address to the teacher; repeated phrase-map expansion in dialogue-batch-003, requiring dependency closure when the single correction batch is applied.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454908878853",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and loses the formal address; other informal «тебя» check options retain «téged».",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_teacher; formal address to the teacher; repeated phrase-map expansion in dialogue-batch-003, requiring dependency closure when the single correction batch is applied.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454904684544",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and loses the formal address; other informal «тебя» check options retain «téged».",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_teacher; formal address to the teacher; repeated phrase-map expansion in dialogue-batch-003, requiring dependency closure when the single correction batch is applied.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454732718088",
+      "reason": "Russian «бледный тощий Гость» describes a pale, skinny Guest. Hungarian «magas, sápadt Vendég» substitutes tall for skinny, changing the identifying physical trait and potentially confusing this Guest with a tall one.",
+      "proposedTarget": "Fugitive: De szeretném hinni, hogy valaki más elkapta. Akár az a sápadt, sovány Vendég.",
+      "context": "Fugitive_Asking_3_1; he hopes someone else, even a pale skinny Guest, reached the armed maniac who shot him. Preserve the speaker prefix and the approved Vendég term.",
+      "source": "Fugitive: Но хочется верить, что до него добрался кто-то другой. Да хоть тот бледный тощий Гость.",
+      "currentTarget": "Fugitive: De szeretném hinni, hogy valaki más elkapta. Akár az a magas, sápadt Vendég.",
+      "authoredFile": "Translations/hu/dialogue-batch-300.json",
+      "authoredFileSha256": "caf015bdb524d5debcdb330ad951e9a4dda5b828af3b8473c0cab60f539a0925"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454640443397",
+      "reason": "The Russian alternative expansion «Культ Человеческой Смерти» has initials КЧС. Hungarian calls «Emberi Halál Kultusza» a KCsSz expansion, but its initials are EHK; the acronym wordplay and the logical link asserted by the line no longer work.",
+      "proposedTarget": "Theorist: Érdekes elmélet. Tetszik benne a KCsSz orosz eredetű rövidítésének alternatív feloldása is: „az Emberi Halál Kultusza”.",
+      "context": "Theorist_Asking_2; a paper claims KCsSz personnel are Guests and supplies a conspiratorial backronym. This is his reported theory, not game canon. The approved KCsSz term is retained; proposed wording signals that the initials come from the Russian name rather than the translated Hungarian phrase.",
+      "source": "Theorist: Занимательная теория, мне в ней нравится ещё альтернативная расшифровка аббревиатуры КЧС – Культ Человеческой Смерти.",
+      "currentTarget": "Theorist: Érdekes elmélet. Tetszik benne a KCsSz betűszó másik feloldása is: az Emberi Halál Kultusza.",
+      "authoredFile": "Translations/hu/dialogue-batch-306.json",
+      "authoredFileSha256": "5d2699e74440f50462dcceb6e6e2576c40cb0f62d003233c50420be1ed402a4e"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454363619338",
+      "reason": "Russian «Взрыв солнца» in this list means the Sun exploding; Hungarian «napkitörés» denotes a solar flare or eruption. The same scene asks whether the Sun will explode, so this changes the stated catastrophe.",
+      "proposedTarget": "Esenin: A Nap felrobbanása, a Vendégek érkezése, a gazdasági válság, és így tovább, és így tovább.",
+      "context": "Esenin_Asking_1; Esenin lists catastrophes behind the pub crowd’s panic. Preserve his uncertainty elsewhere and distinguish the Sun exploding from flares occurring on the Sun.",
+      "source": "Esenin: Взрыв солнца, приход Гостей, экономический кризис, и прочее, и прочее.",
+      "currentTarget": "Esenin: A napkitörés, a Vendégek érkezése, a gazdasági válság, és így tovább, és így tovább.",
+      "authoredFile": "Translations/hu/dialogue-batch-324.json",
+      "authoredFileSha256": "0624e89ad8acbe8651965b6c97237a8b10617983829b59bae384007a5d821f6a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454359425029",
+      "reason": "Russian «МЫ КАК ВАШЕ ОТРАЖЕНИЕ» is a comparison: the speakers are like the host’s reflection. Hungarian «AZ ÖN TÜKÖRKÉPE VAGYUNK» asserts identity and drops «как». This repeated line should retain the simile.",
+      "proposedTarget": "Anxiety: OLYANOK VAGYUNK, MINT AZ ÖN TÜKÖRKÉPE.",
+      "context": "Anxiety_Asking_4; after declaring herself a Guest, she tells the host the Guests and humans are similar. Repeated in two branches; check phrase-map/dependency closure when applying the correction batch.",
+      "source": "Anxiety: МЫ КАК ВАШЕ ОТРАЖЕНИЕ.",
+      "currentTarget": "Anxiety: AZ ÖN TÜKÖRKÉPE VAGYUNK.",
+      "authoredFile": "Translations/hu/dialogue-batch-325.json",
+      "authoredFileSha256": "20805133c0fd3bcfc2a92aad3d30f9a408803fec8cebc290f63a6db085922a16"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454355230729",
+      "reason": "Russian «МЫ КАК ВАШЕ ОТРАЖЕНИЕ» is a comparison: the speakers are like the host’s reflection. Hungarian «AZ ÖN TÜKÖRKÉPE VAGYUNK» asserts identity and drops «как». This repeated line should retain the simile.",
+      "proposedTarget": "Anxiety: OLYANOK VAGYUNK, MINT AZ ÖN TÜKÖRKÉPE.",
+      "context": "Anxiety_Asking_4; after declaring herself a Guest, she tells the host the Guests and humans are similar. Repeated in two branches; check phrase-map/dependency closure when applying the correction batch.",
+      "source": "Anxiety: МЫ КАК ВАШЕ ОТРАЖЕНИЕ.",
+      "currentTarget": "Anxiety: AZ ÖN TÜKÖRKÉPE VAGYUNK.",
+      "authoredFile": "Translations/hu/dialogue-batch-325.json",
+      "authoredFileSha256": "20805133c0fd3bcfc2a92aad3d30f9a408803fec8cebc290f63a6db085922a16"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454304899074",
+      "reason": "Russian «истинные причины происходящего» means the true causes of the events. Hungarian «mi történik valójában» means what is really happening, omitting the causal claim central to the Fanatic’s argument.",
+      "proposedTarget": "Fanatic: Azt hiszem, tévedtem veled kapcsolatban, ember. Egyáltalán nem érted a történtek valódi okait.",
+      "context": "Fanatic_Asking_3; the Sun worshipper rebukes the host for questioning the sacred meaning he claims to explain. Preserve the causes as his belief, not game canon.",
+      "source": "Fanatic: Кажется, я в тебе ошибся, человек. Ты совсем не понимаешь истинные причины происходящего.",
+      "currentTarget": "Fanatic: Azt hiszem, tévedtem veled kapcsolatban, ember. Egyáltalán nem érted, mi történik valójában.",
+      "authoredFile": "Translations/hu/dialogue-batch-329.json",
+      "authoredFileSha256": "b01c60f5aea2b56f75bf7f1c5c806cf469398aba26ef6ba6f82607a3831df421"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454288121858",
+      "reason": "Russian «который» is masculine and refers to Фикус, the plant the deceased man can no longer water. Hungarian «amelyet» grammatically attaches to «lelkét» (the soul), implying that he waters the soul.",
+      "proposedTarget": "Fanatic: Fogadd őt tárt karokkal. És talán Fikusz lelkét is – hiszen a gazdája már nem tudja meglocsolni…",
+      "context": "Fanatic_Asking_1; the Fanatic prays for a dead man and perhaps for his named ficus plant. Keep the plant and its soul distinct, and preserve the deceased man as the one who used to water it.",
+      "source": "Fanatic: Прими его с распростёртыми объятиями. И пожалуй, душу Фикуса, который он уже не сможет полить…",
+      "currentTarget": "Fanatic: Fogadd őt tárt karokkal. És talán a Fikusz lelkét is, amelyet ő már nem öntözhet meg…",
+      "authoredFile": "Translations/hu/dialogue-batch-331.json",
+      "authoredFileSha256": "218111d110850f1b7954d7ad2151bdc641a263cb71004343b8b36aa4ae88b1f1"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454237790215",
+      "reason": "Russian «знаешь» switches to informal singular address in this vulnerable confession. Hungarian «tudja» keeps formal address and removes that shift, while the rest of the sentence has no address constraint.",
+      "proposedTarget": "Mother: Tudom, hogy ez borzalmas. Annyira sajnálom… De tudod, most érzem először, milyen könnyű minden.",
+      "context": "Mother_Asking_6; the mother admits feeling relief while the children are absent. Her otherwise formal address to the host makes this one informal source form noticeable.",
+      "source": "Mother: Знаю, что это кошмар. Мне так жаль… Но, знаешь, я вот впервые чувствую, как легко.",
+      "currentTarget": "Mother: Tudom, hogy ez borzalmas. Annyira sajnálom… De tudja, most érzem először, milyen könnyű minden.",
+      "authoredFile": "Translations/hu/dialogue-batch-336.json",
+      "authoredFileSha256": "0a92898b8dcdbe5d79216470a585401954f926c717088d394a659e90d9124672"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454237790213",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454233595914",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454233595907",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454229401609",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454229401602",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454225207304",
+      "reason": "Russian «Мне надо вас проверить» explicitly addresses this character with formal «вас». Hungarian «Meg kell vizsgálnom» omits the object and formal address; the previously reviewed equivalent options use «önt» in the proposed correction.",
+      "proposedTarget": "Meg kell vizsgálnom önt",
+      "context": "talk_mother; six repeated formal examination options in the Mother dialogue. Apply with the already recorded identical phrase-map corrections and validate dependency closure.",
+      "source": "Мне надо вас проверить",
+      "currentTarget": "Meg kell vizsgálnom",
+      "authoredFile": "Translations/hu/dialogue-batch-003.json",
+      "authoredFileSha256": "160a074e3453b725e99bbd66fe83756543304ed944421488aff3119229d8db8b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454057435146",
+      "reason": "Russian «Забавный результат» calls the photo result amusing; Hungarian «Érdekes eredmény» only calls it interesting and drops the humorous reaction.",
+      "proposedTarget": "Fairytaller: Hm… Mulatságos eredmény.",
+      "context": "Fairytaller daytime examination; keep his polite, slightly fanciful voice and the photo and childhood hand-scar explanations.",
+      "source": "Fairytaller: Хм… Забавный результат.",
+      "currentTarget": "Fairytaller: Hm… Érdekes eredmény.",
+      "authoredFile": "Translations/hu/dialogue-batch-351.json",
+      "authoredFileSha256": "e37020afa0d0f58be064ed102f5ea13c7e15f194f33a7f3a0aaf6084149ef283"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454053240834",
+      "reason": "Russian «повис на шкафу» says the friend hung from the cabinet, causing it to fall. Hungarian «kapaszkodott a szekrényre» reads as clinging or climbing onto it and loses the hanging action.",
+      "proposedTarget": "Fairytaller: De az egyik barátunk úgy ráakaszkodott a szekrényre, hogy az rám dőlt, és mintát nyomott a kézfejembe. Talán egy életre.",
+      "context": "Fairytaller daytime examination; keep his polite, slightly fanciful voice and the photo and childhood hand-scar explanations.",
+      "source": "Fairytaller: Но товарищ наш один повис на шкафу так, что тот упал мне на руки и впечатал узор в кисть, того гляди и на всю жизнь.",
+      "currentTarget": "Fairytaller: De az egyik barátunk úgy kapaszkodott a szekrényre, hogy az rám dőlt, és mintát nyomott a kézfejembe. Talán egy életre.",
+      "authoredFile": "Translations/hu/dialogue-batch-351.json",
+      "authoredFileSha256": "e37020afa0d0f58be064ed102f5ea13c7e15f194f33a7f3a0aaf6084149ef283"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454023880709",
+      "reason": "Russian «дефектную кожу» describes abnormal skin and is consistent with the character’s stated congenital skin condition. Hungarian «sérült bőrömet» means injured skin and implies acquired damage.",
+      "proposedTarget": "Leper: Hát itt sajnos látni fogod a bőrhibámat.",
+      "context": "Leper examination, hands branch; keep his unexplained skin condition without implying a confirmed leprosy diagnosis or a new injury.",
+      "source": "Leper: Ну, тут, к сожалению, ты увидишь дефектную кожу.",
+      "currentTarget": "Leper: Hát itt sajnos látni fogod a sérült bőrömet.",
+      "authoredFile": "Translations/hu/dialogue-batch-353.json",
+      "authoredFileSha256": "36a43badadd96668c6700ea3a2aa23bee22979c469e66980ffeb4d659dc689cc"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454011297800",
+      "reason": "Russian «щёки» means cheeks; Hungarian «az arcom belsejét» says the inside of the face, losing the specific inner cheeks he bites.",
+      "proposedTarget": "Nervous: Azért hagytam abba az ujjaim bőrének tépkedését, mert elkezdtem az orcám belső felét és az ajkaimat harapdálni.",
+      "context": "Nervous examination; preserve his account of skin picking and inner-cheek biting, nervous laughter and broken speech without inventing a diagnosis.",
+      "source": "Nervous: А перестал обдирать пальцы я как раз потому, что начал грызть щёки и губы.",
+      "currentTarget": "Nervous: Azért hagytam abba az ujjaim bőrének tépkedését, mert elkezdtem az arcom belsejét és az ajkaimat harapdálni.",
+      "authoredFile": "Translations/hu/dialogue-batch-354.json",
+      "authoredFileSha256": "66fb1547ca58d1f5204a08dce07123e33e8be741da798faf23b819577c76ad17"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453990326280",
+      "reason": "Russian «заусенцы» specifies hangnails, loose strips of skin beside nails; Hungarian «körömágybőr» names the cuticle or nail-bed skin more broadly and changes the target of the picking.",
+      "proposedTarget": "Nervous: Az utóbbi időben egyedül a körmöm melletti bőrfoszlányok tépkedéséről szoktam le.",
+      "context": "Nervous examination; preserve his account of skin picking and inner-cheek biting, nervous laughter and broken speech without inventing a diagnosis.",
+      "source": "Nervous: В последнее время я отучился только выдирать заусенцы.",
+      "currentTarget": "Nervous: Az utóbbi időben egyedül a körömágybőr tépkedéséről szoktam le.",
+      "authoredFile": "Translations/hu/dialogue-batch-355.json",
+      "authoredFileSha256": "63d8371be51b904b8e9717669a3c3ffb18ac821f684f41c9ea29a0d981e754ae"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453990326276",
+      "reason": "Russian «щёки внутри» specifies the inner cheeks; Hungarian «belülről ... az arcomat» says the face from inside rather than the cheek lining.",
+      "proposedTarget": "Nervous: Ezekkel a szemfogakkal könnyű az orcám belső oldalát harapdálni. Rétegről rétegre letépni egy-egy kis darab bőrt.",
+      "context": "Nervous examination; preserve his account of skin picking and inner-cheek biting, nervous laughter and broken speech without inventing a diagnosis.",
+      "source": "Nervous: Эти клыки удобны, чтобы раскусывать щеки внутри. Снимать небольшие участки кожи слой за слоем.",
+      "currentTarget": "Nervous: Ezekkel a szemfogakkal könnyű belülről harapdálni az arcomat. Rétegről rétegre letépni egy-egy kis darab bőrt.",
+      "authoredFile": "Translations/hu/dialogue-batch-355.json",
+      "authoredFileSha256": "63d8371be51b904b8e9717669a3c3ffb18ac821f684f41c9ea29a0d981e754ae"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453981937667",
+      "reason": "Russian «брат» is this visitor’s repeated form of familiar address. The approved Hungarian character rule specifies «tesó», and his previously reviewed entrance and theatre-story lines consistently use «tesó»; this target switches to «haver».",
+      "proposedTarget": "Bald: Veszélyes ember vagy, tesó, mert te döntheted el, kit küldesz a másvilágra, és kit hagysz életben.",
+      "context": "Bald theatre-university visitor; his prior entrance and story dialogue at canonical ordinals 1536, 1543, 1762, 1765, 1768 and 6308–6314 establishes familiar «tesó» address, producer studies and theatre-university friends.",
+      "source": "Bald: Ты опасный, брат, тем, что можешь решать, кого отправить на тот свет, а кому остаться жить.",
+      "currentTarget": "Bald: Veszélyes ember vagy, haver, mert te döntheted el, kit küldesz a másvilágra, és kit hagysz életben.",
+      "authoredFile": "Translations/hu/dialogue-batch-356.json",
+      "authoredFileSha256": "f9fe98288da4b70c8e9fbee96a86b525b5c65e0e3836908bfacd8ad8a98ca49a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453977743365",
+      "reason": "Russian «чуваками из театрального» refers to people from his theatre university. Earlier Bald dialogue explicitly says they met at that university and that he trained as a theatre producer. Hungarian «színész haverjaimmal» asserts the friends were actors, which is not established.",
+      "proposedTarget": "Bald: Egyszer delíriumosra ittam magam a színházi egyetemről ismert haverjaimmal.",
+      "context": "Bald theatre-university visitor; his prior entrance and story dialogue at canonical ordinals 1536, 1543, 1762, 1765, 1768 and 6308–6314 establishes familiar «tesó» address, producer studies and theatre-university friends.",
+      "source": "Bald: Я однажды нажрался до белочки со своими чуваками из театрального.",
+      "currentTarget": "Bald: Egyszer delíriumosra ittam magam a színész haverjaimmal.",
+      "authoredFile": "Translations/hu/dialogue-batch-356.json",
+      "authoredFileSha256": "f9fe98288da4b70c8e9fbee96a86b525b5c65e0e3836908bfacd8ad8a98ca49a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453969354763",
+      "reason": "Russian «брат» is this visitor’s repeated form of familiar address. The approved Hungarian character rule and his earlier dialogue use «tesó»; this target switches to «haver».",
+      "proposedTarget": "Bald: Ugyan már, tesó! Hagyd abba! Nem haldoklom itt.",
+      "context": "Bald theatre-university visitor; his prior entrance and story dialogue at canonical ordinals 1536, 1543, 1762, 1765, 1768 and 6308–6314 establishes familiar «tesó» address, producer studies and theatre-university friends.",
+      "source": "Bald: Да ладно тебе, брат! Будет! Я не в агонии какой-то.",
+      "currentTarget": "Bald: Ugyan már, haver! Hagyd abba! Nem haldoklom itt.",
+      "authoredFile": "Translations/hu/dialogue-batch-357.json",
+      "authoredFileSha256": "fe549894819bdd0b1676fc247ea1ace46045a42bda93514f809a1517a268cd22"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453969354756",
+      "reason": "Russian «братан» is this visitor’s repeated form of familiar address. The approved Hungarian character rule and his earlier dialogue use «tesó»; this target switches to «haver».",
+      "proposedTarget": "Bald: Hé, tesó, mit csinálsz? Ne viccelj így. Olyan jól elbeszélgettünk…",
+      "context": "Bald theatre-university visitor; his prior entrance and story dialogue at canonical ordinals 1536, 1543, 1762, 1765, 1768 and 6308–6314 establishes familiar «tesó» address, producer studies and theatre-university friends.",
+      "source": "Bald: Эй, братан, ты что? Давай, не шути так. Нормально же общались…",
+      "currentTarget": "Bald: Hé, haver, mit csinálsz? Ne viccelj így. Olyan jól elbeszélgettünk…",
+      "authoredFile": "Translations/hu/dialogue-batch-357.json",
+      "authoredFileSha256": "fe549894819bdd0b1676fc247ea1ace46045a42bda93514f809a1517a268cd22"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453956771840",
+      "reason": "Russian «братан» is this visitor’s repeated form of familiar address. The approved Hungarian character rule and his earlier dialogue use «tesó»; this target switches to «haver».",
+      "proposedTarget": "Bald: Persze, semmi gond, tesó. Mit mutassak?",
+      "context": "Bald theatre-university visitor; his prior entrance and story dialogue at canonical ordinals 1536, 1543, 1762, 1765, 1768 and 6308–6314 establishes familiar «tesó» address, producer studies and theatre-university friends.",
+      "source": "Bald: Да, без проблем, братан. Шо показать?",
+      "currentTarget": "Bald: Persze, semmi gond, haver. Mit mutassak?",
+      "authoredFile": "Translations/hu/dialogue-batch-357.json",
+      "authoredFileSha256": "fe549894819bdd0b1676fc247ea1ace46045a42bda93514f809a1517a268cd22"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453893857284",
+      "reason": "Russian «язвы» specifies ulcers developing after he bites his cheeks; Hungarian «sebek» only says wounds and loses the named lesion.",
+      "proposedTarget": "Jacket: És utána még fekélyek is keletkeznek… Szóval kellemetlen.",
+      "context": "Jacket teeth examination; his bite makes him accidentally bite the inside of his cheeks and leads to oral ulcers. Keep the two details and his otherwise formal address.",
+      "source": "Jacket: И потом ещё язвы появляются… Неприятно, в общем.",
+      "currentTarget": "Jacket: És utána még sebek is keletkeznek… Szóval kellemetlen.",
+      "authoredFile": "Translations/hu/dialogue-batch-361.json",
+      "authoredFileSha256": "fa3538815eed7a4f36f1e3feb557ce07f67c6121f59801ef7aea09f3cb92c4ba"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453893857283",
+      "reason": "Russian «щёки» specifies his cheeks; Hungarian «az arcom belsejét» says the inside of his face rather than the inner cheeks.",
+      "proposedTarget": "Jacket: Harapási rendellenességem van. Evés közben néha sikerül megharapnom az orcám belső felét.",
+      "context": "Jacket teeth examination; his bite makes him accidentally bite the inside of his cheeks and leads to oral ulcers. Keep the two details and his otherwise formal address.",
+      "source": "Jacket: У меня проблемы с прикусом. Порой умудряюсь себе щёки кусать во время еды.",
+      "currentTarget": "Jacket: Harapási rendellenességem van. Evés közben néha sikerül megharapnom a saját arcom belsejét.",
+      "authoredFile": "Translations/hu/dialogue-batch-361.json",
+      "authoredFileSha256": "fa3538815eed7a4f36f1e3feb557ce07f67c6121f59801ef7aea09f3cb92c4ba"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453868691461",
+      "reason": "Russian «могилку ... забабахать» says the player wants to make him a grave; Hungarian «sírkövet ... csináltatni» specifies a gravestone, an object not named in the source.",
+      "proposedTarget": "Experienced: Öcskös, már a síromat akarod megcsinálni? Minek neked a fényképem?",
+      "context": "Experienced photo examination; his prison slang and anxiety at being photographed again as though for a prison file. Keep the grave image without adding a gravestone.",
+      "source": "Experienced: Фраер, ты мне могилку, что ли, хочешь забабахать? Зачем тебе фотка моя?",
+      "currentTarget": "Experienced: Öcskös, sírkövet akarsz nekem csináltatni? Minek neked a fényképem?",
+      "authoredFile": "Translations/hu/dialogue-batch-363.json",
+      "authoredFileSha256": "60812e13de5c8d80d936e9a4ed339193b84b07a4e750c7afbb83f25dfcd3c7ae"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453843525640",
+      "reason": "Russian «За оружие взялся» means taking up or reaching for the weapon. Hungarian «Miért kaptál fegyvert?» means receiving or obtaining a weapon, changing the action in the gun confrontation.",
+      "proposedTarget": "Rocker: Nyugodj már meg. Minek nyúltál a fegyverhez?",
+      "context": "Rocker daytime examination; retain his rough music slang, gun confrontation, ear tunnel history, and the source’s Unstable speaker prefix in the eye branch.",
+      "source": "Rocker: Да расслабься ты. За оружие взялся зачем-то.",
+      "currentTarget": "Rocker: Nyugodj már meg. Miért kaptál fegyvert?",
+      "authoredFile": "Translations/hu/dialogue-batch-364.json",
+      "authoredFileSha256": "75c4964f96e03b7ee7914e14d4f2c1066df6f3ab9dbd85908fa2910e5d2f2840"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453839331336",
+      "reason": "Russian «Делал себе туннели» describes making ear tunnels in his own ears. Hungarian «Fültágítókat csináltattam» reads as having ear-stretcher objects made, while the following line describes his torn ears after giving up the modification.",
+      "proposedTarget": "Rocker: Tágítottam a fülcimpámat. Aztán… valahogy elegem lett belőle.",
+      "context": "Rocker daytime examination; retain his rough music slang, gun confrontation, ear tunnel history, and the source’s Unstable speaker prefix in the eye branch.",
+      "source": "Rocker: Делал себе туннели. А потом… как-то заебло.",
+      "currentTarget": "Rocker: Fültágítókat csináltattam. Aztán… valahogy elegem lett belőlük.",
+      "authoredFile": "Translations/hu/dialogue-batch-365.json",
+      "authoredFileSha256": "f5a273cbb973e4248af4b1c16cc57b6f6dc436b9c8286644cc56dcd8e473af55"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453772222473",
+      "reason": "Russian «серебро зарядил туда» says silver was loaded into the weapon without specifying bullet type. Hungarian «ezüstgolyót» adds a silver bullet, a narrower ammunition object not supplied by the source.",
+      "proposedTarget": "Jacob: Remélem, ezüstöt töltöttél bele.",
+      "context": "Jacob gun confrontation after he compares Guests to vampires and claims immortality. Preserve the silver reference without specifying a bullet or treating his claim as established fact.",
+      "source": "Jacob: Я надеюсь, ты серебро зарядил туда.",
+      "currentTarget": "Jacob: Remélem, ezüstgolyót töltöttél bele.",
+      "authoredFile": "Translations/hu/dialogue-batch-369.json",
+      "authoredFileSha256": "ee8e4813923b198f3e7f34d9153f805efa421484aa35e31cbd16b9c2c46ffcb4"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453503787010",
+      "reason": "Russian «булки ... раздвигать» explicitly means spreading the buttocks. Hungarian «terpesztsem szét ... a seggem» refers to spreading the ass or legs and loses the named buttocks and precise action.",
+      "proposedTarget": "Esenin: Most szét kell húznom előtted a farpofáimat, vagy mi?",
+      "context": "Esenin armpit gun confrontation; retain his coarse insult and the exact physical indignity he sarcastically imagines. The internal code is not a personal name.",
+      "source": "Esenin: Мне теперь булки перед тобой раздвигать или что?",
+      "currentTarget": "Esenin: Most terpesztsem szét előtted a seggem, vagy mi?",
+      "authoredFile": "Translations/hu/dialogue-batch-375.json",
+      "authoredFileSha256": "8edf64a84f6637f9e23d2086d54e8663c5fb34abf3cf3e4209121e0a3f85a39b"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453487009794",
+      "reason": "Russian «с людьми ты держишься на расстоянии» says he keeps his distance from people. Hungarian «Az embereket ... távol tartod magadtól» says he actively keeps people away from himself, shifting the agency in her observation.",
+      "proposedTarget": "FatalDame: Fényképed bizonyára sok van. Az emberektől viszont távolságot tartasz.",
+      "context": "FatalDame daytime examination; retain her soft, intimate psychological observations and conditional claims without turning emotional trauma into a physical wound or introducing unspoken certainty.",
+      "source": "FatalDame: Фотографий у тебя, наверно, не мало. Но с людьми ты держишься на расстоянии.",
+      "currentTarget": "FatalDame: Fényképed bizonyára sok van. Az embereket viszont távol tartod magadtól.",
+      "authoredFile": "Translations/hu/dialogue-batch-376.json",
+      "authoredFileSha256": "e30dfe385363efa7d38b40abab2eea0192975066dd85dc001ce80d960bdfd7e9"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453478621188",
+      "reason": "Russian «себя травмировать ... триггеры» concerns retraumatizing oneself when encountering triggers. Hungarian «sebet ejtened magadon» means inflicting a physical wound, changing the psychological sense.",
+      "proposedTarget": "FatalDame: Nincs értelme újra meg újra traumatizálnod magad, valahányszor valami felkavaró dologgal találkozol.",
+      "context": "FatalDame daytime examination; retain her soft, intimate psychological observations and conditional claims without turning emotional trauma into a physical wound or introducing unspoken certainty.",
+      "source": "FatalDame: Нет смысла себя травмировать каждый раз, когда видишь триггеры.",
+      "currentTarget": "FatalDame: Nincs értelme újra meg újra sebet ejtened magadon, valahányszor valami felkavaró dologgal találkozol.",
+      "authoredFile": "Translations/hu/dialogue-batch-376.json",
+      "authoredFileSha256": "e30dfe385363efa7d38b40abab2eea0192975066dd85dc001ce80d960bdfd7e9"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453470232578",
+      "reason": "Russian «Своей ненадёжностью» makes beauty’s unreliability the suggested cause of fear. Hungarian «Mert nem bízol benne» changes it to the player’s distrust of beauty.",
+      "proposedTarget": "FatalDame: Megijeszt a szépség? A megbízhatatlansága miatt, vagy van más oka?",
+      "context": "FatalDame daytime examination; retain her soft, intimate psychological observations and conditional claims without turning emotional trauma into a physical wound or introducing unspoken certainty.",
+      "source": "FatalDame: Тебя пугает красота? Своей ненадёжностью или есть что-то ещё?",
+      "currentTarget": "FatalDame: Félsz a szépségtől? Mert nem bízol benne, vagy más miatt?",
+      "authoredFile": "Translations/hu/dialogue-batch-377.json",
+      "authoredFileSha256": "81e741f9c6bd2493d6c2ed9c34794db1e41a0c789500ff32f13055c1597c0b8a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453449261058",
+      "reason": "Russian «искать информацию или сомневаться» offers seeking information OR doubting as human tendencies. Hungarian «információt keres és kételkedik» changes that relation to AND.",
+      "proposedTarget": "FatalDame: Csak egy paradigmát követsz. Pedig az ember természetéből fakad, hogy információt keres vagy kételkedik valamiben.",
+      "context": "FatalDame daytime examination; retain her soft, intimate psychological observations and conditional claims without turning emotional trauma into a physical wound or introducing unspoken certainty.",
+      "source": "FatalDame: Только следование парадигме. А человеку свойственно искать информацию или сомневаться в чём-то.",
+      "currentTarget": "FatalDame: Csak egy paradigmát követsz. Pedig az ember természetéből fakad, hogy információt keres és kételkedik.",
+      "authoredFile": "Translations/hu/dialogue-batch-377.json",
+      "authoredFileSha256": "81e741f9c6bd2493d6c2ed9c34794db1e41a0c789500ff32f13055c1597c0b8a"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453419900929",
+      "reason": "Russian «Всё важное удержится в памяти» says every important thing will remain in memory. Hungarian «Minden fontos emlék megmarad» narrows the subject to memories already formed and omits the explicit memory location.",
+      "proposedTarget": "Cultist3: Minden fontos dolog megmarad az emlékezetünkben.",
+      "context": "Cultist3 as the third disciple; preserve his beliefs about preparation, memory and Death as his beliefs. Religious «brothers» does not establish blood kinship.",
+      "source": "Cultist3: Всё важное удержится в памяти.",
+      "currentTarget": "Cultist3: Minden fontos emlék megmarad.",
+      "authoredFile": "Translations/hu/dialogue-batch-379.json",
+      "authoredFileSha256": "02795b948825451d51a0561bf3001e6914fa5f82bff615c935ad5c5805afacbd"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453394735108",
+      "reason": "Russian «Это должно привлечь Смерть. Спасти нас.» gives the expected purpose of attracting Death: to save them. Hungarian «Megment minket» asserts unconditionally that Death saves them, rather than presenting the hoped-for result.",
+      "proposedTarget": "Cultist3: Ennek magához kell vonzania a Halált, hogy megmentsen minket.",
+      "context": "Cultist3 as the third disciple; preserve his beliefs about preparation, memory and Death as his beliefs. Religious «brothers» does not establish blood kinship.",
+      "source": "Cultist3: Это должно привлечь Смерть. Спасти нас.",
+      "currentTarget": "Cultist3: Ennek magához kell vonzania a Halált. Megment minket.",
+      "authoredFile": "Translations/hu/dialogue-batch-379.json",
+      "authoredFileSha256": "02795b948825451d51a0561bf3001e6914fa5f82bff615c935ad5c5805afacbd"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453260517378",
+      "reason": "Russian «тратишь силы на их проверку» neutrally says he spends effort on checking people. Hungarian «pazarolsz erőt» calls that effort a waste, adding a judgment the question does not state.",
+      "proposedTarget": "FormerFema: Azon tűnődöm… miért csinálod ezt az egészet? Miért engedsz be embereket, miért fáradozol az átvizsgálásukkal?",
+      "context": "FormerFema examination; his confessions about work and a possibly human person shot on command remain his account. Do not infer he is still in active service from the uniform.",
+      "source": "FormerFema: Вот мне интересно… зачем ты всё это делаешь? Зачем впускаешь людей, тратишь силы на их проверку?",
+      "currentTarget": "FormerFema: Azon tűnődöm… miért csinálod ezt az egészet? Miért engedsz be embereket, miért pazarolsz erőt az átvizsgálásukra?",
+      "authoredFile": "Translations/hu/dialogue-batch-386.json",
+      "authoredFileSha256": "1c0caf6c060d0c7c7ee5e1ee40dbde76e631b337917e5a4a788d661cc54d9e05"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453222768646",
+      "reason": "Russian «Командир пасть ему открыл» explicitly says the commander opened the captured person’s mouth. Hungarian «A parancsnok kinyitotta a száját» leaves the possessor ambiguous and can mean the commander opened his own mouth, obscuring the action before the shooting.",
+      "proposedTarget": "FormerFema: Tudod, egyszer történt velünk valami… Elfogtunk valakit. A parancsnok szétnyitotta az illető száját, belenézett, és azt mondta, Vendég. Egy pillanattal később… bumm.",
+      "context": "FormerFema examination; his confessions about work and a possibly human person shot on command remain his account. Do not infer he is still in active service from the uniform.",
+      "source": "FormerFema: Знаешь, был у нас случай… Поймали одного. Командир пасть ему открыл, посмотрел — сказал, что это Гость. Секунду спустя… бах.",
+      "currentTarget": "FormerFema: Tudod, egyszer történt velünk valami… Elfogtunk valakit. A parancsnok kinyitotta a száját, belenézett, és azt mondta, Vendég. Egy pillanattal később… bumm.",
+      "authoredFile": "Translations/hu/dialogue-batch-387.json",
+      "authoredFileSha256": "6ea28f8fa7e48904a48fa8e1c15154480393f3aceae627605e1b65c8c2cc5147"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453168242692",
+      "reason": "Russian says the acquaintance had his head torn off without naming an agent, and «Зубы – последнее, о чём он думал» means teeth were the least of his concerns. Hungarian adds unnamed people as agents («letépték») and says teeth were literally his final thought («fogai jártak utoljára a fejében»), reversing the point.",
+      "proposedTarget": "Marauder: Aztán leszakadt a feje. A fogaira gondolt akkor a legkevésbé. Talán… Igazából nem tudom, mire gondolt, hm…",
+      "context": "Marauder examination and gun branches; the homeless man scavenges belongings and speaks ruefully about owners. His technical code is not proof that every reference calls him a bandit; preserve his masculine voice and the original timing of identity disclosure.",
+      "source": "Marauder: А потом ему голову оторвало. Зубы – последнее, о чём он думал в тот момент. Наверное… Я так-то не знаю, что он думал, хм…",
+      "currentTarget": "Marauder: Aztán letépték a fejét. Biztos a fogai jártak utoljára a fejében. Talán… Igazából nem tudom, mire gondolt, hm…",
+      "authoredFile": "Translations/hu/dialogue-batch-391.json",
+      "authoredFileSha256": "b5a48e3d2fb481b4921d66844d82cdfda495dcf394f3c0c04f50207fafafda17"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453138882565",
+      "reason": "Russian «свои» refers back to plural «зубы»: he will show his own teeth before telling the story. Hungarian «a sajátomat» is singular and does not preserve the plural referent.",
+      "proposedTarget": "Marauder: Egyszer láttam ilyen fogakat. Á, igen. Előbb a saját fogaimat mutatom meg, aztán jöhet a történet.",
+      "context": "Marauder examination and gun branches; the homeless man scavenges belongings and speaks ruefully about owners. His technical code is not proof that every reference calls him a bandit; preserve his masculine voice and the original timing of identity disclosure.",
+      "source": "Marauder: Я однажды видел такие зубы. А, ну, да. Сначала свои показать, а потом уже история.",
+      "currentTarget": "Marauder: Egyszer láttam ilyen fogakat. Á, igen. Előbb a sajátomat mutatom meg, aztán jöhet a történet.",
+      "authoredFile": "Translations/hu/dialogue-batch-392.json",
+      "authoredFileSha256": "4bec860fc7b21309ebc5c16e22664482492996ec13a1aded48b5aa13d78b2fe5"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453096939521",
+      "reason": "Russian «пассажиром, который молчит» describes a passenger who is silent during the ride. Hungarian «néma utassal» can describe a person unable to speak, introducing a different reason for their silence in the driver’s fearful anecdote.",
+      "proposedTarget": "TaxiDriver: Heh, tudod, mi a legijesztőbb, amikor olyan utassal autózol, aki egy szót sem szól?",
+      "context": "TaxiDriver examination and gun branches. He recounts passengers, his family and losing his car in colloquial speech with hedges and swearing; no implied link to other residents is treated as established.",
+      "source": "TaxiDriver: Хах, значешь, что самое страшное, когда едешь с пассажиром, который молчит?",
+      "currentTarget": "TaxiDriver: Heh, tudod, mi a legijesztőbb, amikor egy néma utassal autózol?",
+      "authoredFile": "Translations/hu/dialogue-batch-395.json",
+      "authoredFileSha256": "f8ff9b9e6cecd2d8eaa9910de7463aa3a0712a46196a9869ac4d94581001d1df"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452975304708",
+      "reason": "Russian «Когда ... закончится» presents the Sun crisis ending as a future event; Hungarian «ha véget ér» changes it to an if-condition and adds uncertainty.",
+      "proposedTarget": "Doctor: Amikor véget ér ez az egész Nap körüli ügy, persze.",
+      "context": "Doctor examination and gun branches. He is the resident surgeon, not the KCsSz telephone doctor; he formerly worked with KCsSz and speaks with restrained empathy. His clinical hygiene references concern medical work, and his remarks about KCsSz remain character claims.",
+      "source": "Doctor: Когда вся эта история с Солнцем закончится, конечно.",
+      "currentTarget": "Doctor: Persze, ha véget ér ez az egész Nap körüli ügy.",
+      "authoredFile": "Translations/hu/dialogue-batch-400.json",
+      "authoredFileSha256": "7c013674432dfa18cc8b468e866ea472221676cd71b2c8087183312316e77f5c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452962721797",
+      "reason": "Russian «без санитарных условий» refers to the absence of sanitary or clinical hygiene conditions for a doctor. Hungarian «nincsenek meg a tisztálkodás feltételei» narrows this to the conditions needed to wash oneself, weakening the medical-work context.",
+      "proposedTarget": "Doctor: Várjon, maga szerint hogy kellene kinéznie egy orvos kezének higiéniai feltételek nélkül?",
+      "context": "Doctor examination and gun branches. He is the resident surgeon, not the KCsSz telephone doctor; he formerly worked with KCsSz and speaks with restrained empathy. His clinical hygiene references concern medical work, and his remarks about KCsSz remain character claims.",
+      "source": "Doctor: Подождите, но как по-вашему должны выглядеть руки врача, который остался без санитарных условий?",
+      "currentTarget": "Doctor: Várjon, maga szerint hogy kellene kinéznie egy orvos kezének, ha nincsenek meg a tisztálkodás feltételei?",
+      "authoredFile": "Translations/hu/dialogue-batch-400.json",
+      "authoredFileSha256": "7c013674432dfa18cc8b468e866ea472221676cd71b2c8087183312316e77f5c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452958527488",
+      "reason": "Russian «Мне все говорили» says everyone told him his appearance was unusual. Hungarian «Mindig azt mondták» changes the quantifier from people to time: they always said it.",
+      "proposedTarget": "Doctor: Mindenki azt mondta nekem, hogy szokatlan a külsőm.",
+      "context": "Doctor examination and gun branches. He is the resident surgeon, not the KCsSz telephone doctor; he formerly worked with KCsSz and speaks with restrained empathy. His clinical hygiene references concern medical work, and his remarks about KCsSz remain character claims.",
+      "source": "Doctor: Мне все говорили, что у меня необычная внешность.",
+      "currentTarget": "Doctor: Mindig azt mondták, szokatlan a külsőm.",
+      "authoredFile": "Translations/hu/dialogue-batch-401.json",
+      "authoredFileSha256": "8b82c4e8f0e9d1964e6e2f65dc363a8b6679761cba2025d20334ebec12aa581c"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452933361668",
+      "reason": "Russian «Из такого я уже выбирался» says he has escaped this kind of situation before. Hungarian «ennél rosszabból» claims he escaped a worse situation, adding a comparative boast absent from the source.",
+      "proposedTarget": "Wolfhound: Kerültem már ki ilyen helyzetből.",
+      "context": "Wolfhound examination and gun branches. The bald suited bandit speaks with calm confidence that turns into explicit threats and violence; WolfHound asset/UI and Wolfhound dialogue codes identify the same character.",
+      "source": "Wolfhound: Из такого я уже выбирался.",
+      "currentTarget": "Wolfhound: Kerültem már ki ennél rosszabból is.",
+      "authoredFile": "Translations/hu/dialogue-batch-402.json",
+      "authoredFileSha256": "f08f7b7e6667874446d7d55082eeaafff794bfff8b6d16f44c4bd440290f09db"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452891418630",
+      "reason": "Russian «шею ... прокушу» threatens to bite through the listener’s neck. Hungarian «torkodat» changes the anatomical target to the throat; the neighboring line already has the correct «nyakadat» but is attached to the wrong source.",
+      "proposedTarget": "Wolfhound: Ha rám támadsz, ezekkel a fogakkal harapom át a nyakadat.",
+      "context": "Wolfhound examination and gun branches. The bald suited bandit speaks with calm confidence that turns into explicit threats and violence; WolfHound asset/UI and Wolfhound dialogue codes identify the same character.",
+      "source": "Wolfhound: Если нападёшь — я тебе шею этими зубами прокушу.",
+      "currentTarget": "Wolfhound: Ha rám támadsz, ezekkel a fogakkal harapom át a torkodat.",
+      "authoredFile": "Translations/hu/dialogue-batch-403.json",
+      "authoredFileSha256": "b6d42533bbc9a9655565abaaffe68e30a7d4b061d27b509773d869e255a45786"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452891418629",
+      "reason": "Russian «Смотри у меня» is a short final warning. Hungarian repeats the preceding sentence’s long neck-biting threat, replacing this distinct line and duplicating the previous threat.",
+      "proposedTarget": "Wolfhound: Csak vigyázz!",
+      "context": "Wolfhound examination and gun branches. The bald suited bandit speaks with calm confidence that turns into explicit threats and violence; WolfHound asset/UI and Wolfhound dialogue codes identify the same character.",
+      "source": "Wolfhound: Смотри у меня.",
+      "currentTarget": "Wolfhound: Ha rám támadsz, ezekkel a fogakkal harapom át a nyakadat.",
+      "authoredFile": "Translations/hu/dialogue-batch-403.json",
+      "authoredFileSha256": "b6d42533bbc9a9655565abaaffe68e30a7d4b061d27b509773d869e255a45786"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452832698375",
+      "reason": "Russian «Тебя надурили на деньги» says the player was tricked out of money without giving an amount. Hungarian «egy csomó pénzzel» adds that it was a lot of money, an unsupported quantity in the aura-photo accusation.",
+      "proposedTarget": "Greatmother: Ugyan miféle aura, fiam? Pénzt csaltak ki belőled, te meg bedőltél nekik, mint egy balek.",
+      "context": "Greatmother examination and gun branches. She speaks forcefully and mocks the aura-photo check; her “children” are not necessarily ordinary human children. This woman is distinct from Mother.",
+      "source": "Greatmother: Да какая аура, сынок? Тебя надурили на деньги, а ты как простак повёлся.",
+      "currentTarget": "Greatmother: Ugyan miféle aura, fiam? Lehúztak egy csomó pénzzel, te meg bedőltél nekik, mint egy balek.",
+      "authoredFile": "Translations/hu/dialogue-batch-407.json",
+      "authoredFileSha256": "54fd026c60d3bb59bed2a3c26b7a144f3ed974f4d3c9bce64f36a14501209300"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452803338242",
+      "reason": "Russian «наверно» marks the child’s uncertainty or hopeful expectation that he will come soon. Hungarian «Biztos» asserts certainty instead.",
+      "proposedTarget": "Daughter: Szerintem hamarosan eljön.",
+      "context": "The Neighbor’s young daughter speaks during ear and photo checks. She expects her father to come for her and promises to tell him the player is not a Guest. Preserve her child voice, hesitation and the distinction between probable arrival and assumed eventual arrival.",
+      "source": "Daughter: Он, наверно, скоро придёт.",
+      "currentTarget": "Daughter: Biztos hamarosan eljön.",
+      "authoredFile": "Translations/hu/dialogue-batch-409.json",
+      "authoredFileSha256": "201d4cff1b0bbf5d831ce04093669b5b979d66dc96e031ace3d2da7c8db7138f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452803338241",
+      "reason": "Russian «Когда он придёт за мной» says when he comes for her, treating his eventual arrival as expected. Hungarian «Ha értem jön» makes it conditional, as if he may not come; this reverses the child’s stated expectation in the adjacent line.",
+      "proposedTarget": "Daughter: Amikor értem jön, biztos elmondom neki, hogy ön egyáltalán nem Vendég.",
+      "context": "The Neighbor’s young daughter speaks during ear and photo checks. She expects her father to come for her and promises to tell him the player is not a Guest. Preserve her child voice, hesitation and the distinction between probable arrival and assumed eventual arrival.",
+      "source": "Daughter: Когда он придёт за мной, обязательно скажу, что вы никакой не Гость.",
+      "currentTarget": "Daughter: Ha értem jön, biztos elmondom neki, hogy ön egyáltalán nem Vendég.",
+      "authoredFile": "Translations/hu/dialogue-batch-409.json",
+      "authoredFileSha256": "201d4cff1b0bbf5d831ce04093669b5b979d66dc96e031ace3d2da7c8db7138f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452790755329",
+      "reason": "Russian «мне и то не так досталось» compares how badly he suffered consequences after gambling away his aunt’s house with the present threat. Hungarian «nem kaptam így a fejemre» narrows the earlier consequences to being scolded, which the source does not specify.",
+      "proposedTarget": "Scammer: Egyszer kártyán elvesztettem a nagynéném házát, de még akkor sem jártam ilyen rosszul. Erre most egy fotó miatt...",
+      "context": "Scammer ear and photo checks. He boasts about suspect money-making schemes and responds with slang and aggression; “amogus” is text on his shirt, not his name. In the gun branch he contrasts the trouble from gambling away his aunt’s house with a current threat over a photograph.",
+      "source": "Scammer: Я как-то раз в карты проиграл дом своей тётки, мне и то не так досталось. А тут за фотку...",
+      "currentTarget": "Scammer: Egyszer kártyán elvesztettem a nagynéném házát, de még akkor sem kaptam így a fejemre. Erre most egy fotó miatt...",
+      "authoredFile": "Translations/hu/dialogue-batch-410.json",
+      "authoredFileSha256": "47417094bd1d9d8dc2b9fbd0312cc2e1800fd217f7971fa6ccdbc42ba3257923"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452606205955",
+      "reason": "In the eye-colour context Russian «Главное, что глаза видят» means the important thing is that the eyes can see. Hungarian «hogy mit látnak a szemek» makes the objects they see important instead, reversing the point of dismissing eye colour.",
+      "proposedTarget": "BigLebowski: Nem tök mindegy? Az a lényeg, hogy látnak a szemeim…",
+      "context": "BigLebowski eye examination branch. The teenage girl dismisses worry about eye colour and says the important thing is that eyes still work, before describing classmates who claimed mood changed their eye colour.",
+      "source": "BigLebowski: Разве не насрать? Главное, что глаза видят…",
+      "currentTarget": "BigLebowski: Nem tök mindegy? Az a lényeg, hogy mit látnak a szemek…",
+      "authoredFile": "Translations/hu/dialogue-batch-421.json",
+      "authoredFileSha256": "314d01db6a719afee7a279ced7dce7fdb01f247f4f3e61da7fffe301d034f646"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452539097088",
+      "reason": "Russian «Вы не трогайте мою дорогую» asks the player not to touch his exhausted wife during an examination. Hungarian «ne zaklassa» asks only not to bother or harass her and drops the physical-contact limit.",
+      "proposedTarget": "Couple: Ó, igen, persze. A kedvesemhez ne nyúljon, nagyon fáradt.",
+      "context": "Couple examination. The husband speaks for himself and about his exhausted wife, asking the player not to touch her. The pair are two people; the gun and later branching actions are his, not hers.",
+      "source": "Couple: Ой, да, конечно. Вы не трогайте мою дорогую, она очень устала.",
+      "currentTarget": "Couple: Ó, igen, persze. A kedvesemet ne zaklassa, nagyon fáradt.",
+      "authoredFile": "Translations/hu/dialogue-batch-425.json",
+      "authoredFileSha256": "59c409558f881fd408775d5f3d65ae0ae98691b66202ae24e79eddf6df93f2b7"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452497154059",
+      "reason": "Russian «когда вырастет» reports that the little girl wanted similar earrings when she grew up, from the earlier expectation that she would grow up. Hungarian «ha felnő» changes this to if she grows up, importing later tragic uncertainty into the remembered wish.",
+      "proposedTarget": "Teacher: Néha megérintem a fülcimpáimat, és eszembe jut egy kislány, aki imádta a fülbevalóimat… Ugyanolyat szeretett volna, amikor felnő.",
+      "context": "Teacher recalls a girl who adored her earrings and wanted matching ones upon growing up. The recollection precedes the children’s death in the fire; later lines describe her inability to save them.",
+      "source": "Teacher: Я иногда трогаю мочки ушей и вспоминаю, как одна девочка обожала мои серёжки… Хотела такие же, когда вырастет.",
+      "currentTarget": "Teacher: Néha megérintem a fülcimpáimat, és eszembe jut egy kislány, aki imádta a fülbevalóimat… Ugyanolyat szeretett volna, ha felnő.",
+      "authoredFile": "Translations/hu/dialogue-batch-428.json",
+      "authoredFileSha256": "cf5ea3a4b0714a4091de04b35f9e2d8e4913d90f267cdaa7feb277af4cbe0b6d"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452392296448",
+      "reason": "Russian «бумаги подчищали» says documents were cleaned up or doctored as part of attempts to erase him. Hungarian «iratokat hamisítottak» asserts forgery, a more specific act not present in the source.",
+      "proposedTarget": "Fatman: Fényképeket égettek el, iratokat kozmetikáztak, egyszer még merényletet is megkíséreltek ellenem! És mire mentek vele?",
+      "context": "Fatman recalls his former authority as a minister; these lines describe attempts to erase him and his wish that someone had decided his own fate.",
+      "source": "Fatman: Фотографии сжигали, бумаги подчищали, даже покушение однажды было! А толку?",
+      "currentTarget": "Fatman: Fényképeket égettek el, iratokat hamisítottak, egyszer még merényletet is megkíséreltek ellenem! És mire mentek vele?",
+      "authoredFile": "Translations/hu/dialogue-batch-434.json",
+      "authoredFileSha256": "f90349cad60e68750393ea277c033a15294800b1e27fc0dd30364d591b051e84"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452388102147",
+      "reason": "Russian «лучше б кто-то расписался на моей» reverses his former power to decide other people’s fates with a signature: he wishes someone had signed on his own fate. Hungarian «az enyémet írja alá» makes the fate itself the object being signed, obscuring who decides it.",
+      "proposedTarget": "Fatman: Volt idő, amikor egyetlen aláírásommal eldönthettem mások sorsát. Most nézem… és arra gondolok: bárcsak valaki egy aláírással az én sorsomról is döntött volna.",
+      "context": "Fatman recalls his former authority as a minister; these lines describe attempts to erase him and his wish that someone had decided his own fate.",
+      "source": "Fatman: Было время, когда я мог одной подписью решить чужую судьбу. Теперь вот смотрю… и думаю: лучше б кто-то расписался на моей.",
+      "currentTarget": "Fatman: Volt idő, amikor egyetlen aláírásommal eldönthettem mások sorsát. Most nézem… és arra gondolok: jobb lett volna, ha valaki az enyémet írja alá.",
+      "authoredFile": "Translations/hu/dialogue-batch-434.json",
+      "authoredFileSha256": "f90349cad60e68750393ea277c033a15294800b1e27fc0dd30364d591b051e84"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452291633153",
+      "reason": "Russian «от одних уродов, чтобы меня застрелил другой» contrasts several pursuers with one other individual who shoots him. Hungarian «az egyik csapat ... egy másik» makes the shooter another group by ellipsis from «csapat», changing the number of perpetrators.",
+      "proposedTarget": "Fugitive: A kurva életbe, egy csapat rohadék elől menekültem, hogy egy másik rohadék lőjön le…",
+      "context": "Fugitive dies after fleeing the KCsSz or other pursuers. His final curse singles out the player as the one new killer, distinct from the plural pursuers.",
+      "source": "Fugitive: Блять, сбежал от одних уродов, чтобы меня застрелил другой…",
+      "currentTarget": "Fugitive: A kurva életbe, az egyik csapat rohadék elől menekültem, hogy egy másik lőjön le…",
+      "authoredFile": "Translations/hu/dialogue-batch-440.json",
+      "authoredFileSha256": "69db9a64e5dd42f04ac2dedd852a59b8b797e8e52265c6fbb12cce626c36357f"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078725",
+      "reason": "Russian switches from speaking about today’s young people to addressing the player directly with «останетесь» and «доживёте». Hungarian «kihullik a foguk» stays in third person, so the Nun no longer directs the toothless warning at the player.",
+      "proposedTarget": "Nun: A mai fiatalok egyáltalán nem törődnek magukkal. Zabálnak összevissza. Maga is jóval az én korom előtt fogak nélkül marad! Ha egyáltalán megéri…",
+      "context": "Nun teeth examination. The old woman rebukes the player in the formal second person while complaining about young people’s habits; her next line challenges the player to reach her age with all teeth.",
+      "source": "Nun: Сейчас же молодёжь вообще не следит за собой. Жрут всё что ни попадя. Так и без зубов останетесь сильно раньше моего! Если, конечно, доживёте…",
+      "currentTarget": "Nun: A mai fiatalok egyáltalán nem törődnek magukkal. Zabálnak összevissza. Így jóval az én korom előtt kihullik a foguk! Ha egyáltalán megérik…",
+      "authoredFile": "Translations/hu/dialogue-batch-442.json",
+      "authoredFileSha256": "8b3f08ccebb78cf4cc209af34791df4c460e1c81f0dd015d6a0c74bedadd63ca"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452228718600",
+      "reason": "Russian «Вдруг дрожь заметят» expresses fear that others might notice his trembling. Hungarian «Hátha észreveszik» can express hope that they will notice, reversing the anxious motive for hiding his hands.",
+      "proposedTarget": "Raskolnikov: De most már csak… elrejtem a kezem. Mi van, ha észreveszik a remegést…",
+      "context": "Raskolnikov examines his damaged hands and remembers hiding their tremor, hitting the wall and punishing himself for weakness. His words show fear and guilt, not confidence.",
+      "source": "Raskolnikov: Но теперь я просто… прячу руки. Вдруг дрожь заметят…",
+      "currentTarget": "Raskolnikov: De most már csak… elrejtem a kezem. Hátha észreveszik a remegést…",
+      "authoredFile": "Translations/hu/dialogue-batch-444.json",
+      "authoredFileSha256": "bd5dd66a69a6c27751a12ec15ab89358792e039f7c2d9e1987bc16f57b5aa9ad"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452228718596",
+      "reason": "Russian «заслужу силу, если достаточно себя накажу» frames strength as something he might deserve through self-punishment. Hungarian «erőre tehetnék szert» reduces this to gaining strength and loses his moral self-judgment.",
+      "proposedTarget": "Raskolnikov: Mintha a fájdalom eltörölhetné a gyengeséget. Mintha kiérdemelhetném az erőt, ha eléggé megbüntetem magam.",
+      "context": "Raskolnikov examines his damaged hands and remembers hiding their tremor, hitting the wall and punishing himself for weakness. His words show fear and guilt, not confidence.",
+      "source": "Raskolnikov: Как будто боль могла стереть слабость. Как будто я заслужу силу, если достаточно себя накажу.",
+      "currentTarget": "Raskolnikov: Mintha a fájdalom eltörölhetné a gyengeséget. Mintha erőre tehetnék szert, ha eléggé megbüntetem magam.",
+      "authoredFile": "Translations/hu/dialogue-batch-444.json",
+      "authoredFileSha256": "bd5dd66a69a6c27751a12ec15ab89358792e039f7c2d9e1987bc16f57b5aa9ad"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452031586311",
+      "reason": "Russian «Ты бы ещё трусы попросил показать» jokes that the player might ask to see his underpants. Hungarian «a gatyámat is levetetnéd» says the player would make him take off his trousers, changing both the garment and the requested action.",
+      "proposedTarget": "Scammer: Várj már, várj! Még azt is kérnéd, hogy mutassam meg az alsógatyámat.",
+      "context": "Scammer underarm examination under a gun threat. He protests the invasive check with a crude joke about showing his underwear; he is not describing forced removal of outer trousers.",
+      "source": "Scammer: Да подожди-подожди! Ты бы ещё трусы попросил показать.",
+      "currentTarget": "Scammer: Várj már, várj! Még a gatyámat is levetetnéd velem.",
+      "authoredFile": "Translations/hu/dialogue-batch-454.json",
+      "authoredFileSha256": "a92406e453e08a9e72ad3e4ae51915e7ded44fc4eb3ebf27e306819a4c2b9756"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451985448963",
+      "reason": "Russian «не трогай меня» is an explicit request not to touch her. Hungarian «engem hagyj békén» asks only to be left alone, losing the physical-contact boundary.",
+      "proposedTarget": "Widow: Csinálj, amit akarsz, de hozzám ne érj.",
+      "context": "Widow photo examination: she allows the player to do what he wants but tells him not to touch her after arriving with her dead husband.",
+      "source": "Widow: Делай что хочешь и не трогай меня.",
+      "currentTarget": "Widow: Csinálj, amit akarsz, de engem hagyj békén.",
+      "authoredFile": "Translations/hu/dialogue-batch-457.json",
+      "authoredFileSha256": "b62158653052dc154ed5e005554c6e3ae418408c0ea92e9d506df8fa2fd11cd0"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451981254664",
+      "reason": "Russian «мой...» is an unfinished affectionate address to her dead husband. Hungarian «én…» becomes an unfinished first-person pronoun, dropping the addressee and altering who the fragment refers to.",
+      "proposedTarget": "Widow: De téged mégsem tudtalak megmenteni, drágám…",
+      "context": "Widow death line addressing her husband after his death. The source breaks off on an affectionate possessive address; the proposal keeps the direct intimate address and trailing pause.",
+      "source": "Widow: Но я так и не сохранила тебя, мой...",
+      "currentTarget": "Widow: De téged mégsem tudtalak megmenteni, én…",
+      "authoredFile": "Translations/hu/dialogue-batch-457.json",
+      "authoredFileSha256": "b62158653052dc154ed5e005554c6e3ae418408c0ea92e9d506df8fa2fd11cd0"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451947700226",
+      "reason": "Russian «оказалась Гостем по этому признаку» asks how this sign could classify or reveal her as a Visitor. Hungarian «lettem Vendég ettől a jeltől» says the sign caused her to become a Visitor, changing diagnosis into transformation.",
+      "proposedTarget": "Anxiety: De hogy lehetek Vendég e jel alapján? Miért?",
+      "context": "Anxiety eye examination. She fears the player will decide she is a Visitor from a visible sign; her worry is about the unreliable judgment, not a sign physically transforming her.",
+      "source": "Anxiety: Но как я оказалась Гостем по этому признаку? Почему?",
+      "currentTarget": "Anxiety: De hogyan lettem Vendég ettől a jeltől? Miért?",
+      "authoredFile": "Translations/hu/dialogue-batch-459.json",
+      "authoredFileSha256": "0a9f144b771bc4a45e5b46564d61e7284836cbe3ce5d20bda0575199992495f1"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451729596421",
+      "reason": "Russian «обгорели до хрящей» says his ears burned down to the cartilage. Hungarian «porccá égtek» says they burned into cartilage, changing exposed anatomical depth into transformation.",
+      "proposedTarget": "Firefighter: Egyszerű: a füleim a porcukig leégtek.",
+      "context": "Firefighter ear examination. He is badly burned, coughs and fears losing hearing; the source describes tissue burned away as far as cartilage.",
+      "source": "Firefighter: Тут всё просто – обгорели до хрящей.",
+      "currentTarget": "Firefighter: Egyszerű ez: porccá égtek.",
+      "authoredFile": "Translations/hu/dialogue-batch-471.json",
+      "authoredFileSha256": "b9acbabef30dc37abc59364bcb6259980eb8082aa027b89a80cb5e6d79aa4612"
+    }
+  ]
+}

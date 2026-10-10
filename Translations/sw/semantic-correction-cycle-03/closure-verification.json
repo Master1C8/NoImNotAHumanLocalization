@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "cycle": "sw-semantic-correction-03",
+  "selectorRecipeSha256": "13920aa19d2515f1e3fa38a3a1a28ae69a156b0e328b07e6e0b2b5336500e4c3",
+  "closureManifestSha256": "4ce92ecd76a067b52d3e6ac7a7e93128da014d88e3f3c62d3c422b18da829d37",
+  "acceptedUnits": 16538,
+  "priorClosure": 5948,
+  "currentClosure": 6004,
+  "changed": 11,
+  "new": 56,
+  "explicitlyInvalidated": 4,
+  "retired": 0,
+  "reviewDelta": 69,
+  "checks": [
+    "all manifest references hash match",
+    "all JSONL sets unique and in canonical source order",
+    "prior/current closure differences exact",
+    "review delta equals corrected union new union explicitly invalidated",
+    "component union equals current closure",
+    "all review rows match pinned final target corpus",
+    "bounded grammar selector component matches immutable inventory predicates"
+  ],
+  "independentReview": "pending",
+  "editorialAcceptance": "pending",
+  "runtime": "not-run-per-owner"
+}
