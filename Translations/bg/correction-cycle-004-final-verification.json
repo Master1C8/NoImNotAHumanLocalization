@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "locale": "bg",
+  "status": "cycle004 author handoff verified; independent delta pending",
+  "acceptedUnits": 16538,
+  "draftCoveragePercent": 100,
+  "semanticFirstPassReviewedUnits": 16538,
+  "appliedFullUnits": 3,
+  "affectedAuthoredFiles": 3,
+  "unchangedAuthoredFiles": 408,
+  "unchangedFullUnits": 16535,
+  "allAuthoredFilesAndSidecars": 411,
+  "fullOwningLocaleGuard": {
+    "rows": 16538,
+    "structural": "passed",
+    "preserveExact": "passed",
+    "derivedCredits": "passed",
+    "receiptSha256": "c1f18ac2d7a9882db346f91910f4b7f6258edfa3c399ed20819c7460316342b1",
+    "sidecarRefresh": "three receipts derived from whole corpus guard; no per-batch pools"
+  },
+  "sourceFamilyRegressions": {
+    "temporalMatches": 76,
+    "allOtvechayuMatches": 5,
+    "standaloneAssurancesSelectedBySource": 2,
+    "exactFullReplacementChecks": 3,
+    "unchangedAssuranceResponsibilityControls": 3,
+    "noMechanicalReplacement": true
+  },
+  "voiceMechanismRegressions": {
+    "lexicon": "unchanged v6",
+    "sourceSelectionMatches": 741,
+    "speakerCategories": 112,
+    "positiveNegativeControls": "passed",
+    "historicalCandidateTargets": "v6 kept immutable; use cycle004 current closure targets",
+    "selectorDefect": "none found by Review03; no v6 rule change"
+  },
+  "independentEvidence": {
+    "Review03ManifestSha256": "7528f1c522bf30a4a2f6999568e3dcfed48a684cea7122f720b29a791c733f61",
+    "priorCycle003CorrectionsAccepted": 41,
+    "priorDismissalsUpheld": 3,
+    "newCycle004IndependentReview": "pending; no self credit"
+  },
+  "closureIds": 2911,
+  "nextReviewIds": 120,
+  "correctedIds": 3,
+  "newUnreviewedDependencies": 72,
+  "withoutApplicablePriorRead": 75,
+  "explicitInvalidations": 45,
+  "exactPriorApplicable": 2836,
+  "retired": 0,
+  "mandatory": {
+    "total": 908,
+    "fresh": 1,
+    "retainedExact": 907
+  },
+  "compiledConsumer": {
+    "programSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "nodes": 3255,
+    "managedAssemblies": "actual bytes unchanged",
+    "deltaRowsWithCompiledUses": 118,
+    "deltaWithoutCompiledUses": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451960283141",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451817676809"
+    ],
+    "freshMandatory": {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "collection": "Dialogs",
+      "sourceIndex": 1542,
+      "key": "line:Bald_Entrance_Occupied_0b1927e",
+      "sceneNodes": [
+        "Bald_Entrance_Occupied"
+      ],
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "target": "Bald: Тук при теб е {0}. Дай да го изритаме някак, а?",
+      "authoredPath": "Translations/bg/dialogue-batch-033.json",
+      "components": [
+        "glossaryReferents",
+        "mandatoryRegressions"
+      ],
+      "uses": [
+        {
+          "node": "Bald_Entrance_Occupied",
+          "instruction": 4,
+          "opcode": 2
+        }
+      ],
+      "producer": "Bald argument -> GetCharacterOnPlace -> localized characterName_{occupant} -> slot0",
+      "admissibleContextLimit": "Compiled producer and original managed IL reconciled. No assumed finite runtime output count. Fresh independent review must check admitted occupant names, agreement/referent of го, and assembled consumer context against source character/room domain; physical gameplay unrun."
+    }
+  },
+  "inputPins": {
+    "Translations/bg/correction-batch-004.json": "1ce6d5dd0db80b2d3973fe57138472e1851df21ee2cdb0905e2416244a17964b",
+    "Translations/bg/correction-batch-004-result.json": "74704b9e0494214fe86d2a587a82cbcd383fe12095ef1da197279365c0c7669c",
+    "Translations/bg/correction-cycle-004-sourcepairs.json": "e92855f165f23d6d11c92224b86723978715b1220d9163450921db6efb873866",
+    "Translations/bg/correction-cycle-004-baseline/manifest.json": "ca54b4851a2f461837e399c671c0338bb6148c4417934592edfd9e4366503ee1",
+    "Translations/bg/idiom-dependency-spec-cycle-004.json": "18e1d5a2af72683e637c837cf62a4f06eabc7bab9584afcae30183712a7bd19f",
+    "Translations/bg/correction-cycle-004-bounded-review.json": "e6f8c0f97b1d085e90619575fd502712529d29e76085f41265aa8d99e2ab45dd",
+    "Translations/bg/semantic-closure-selector-cycle-004.json": "d98a2c8dc661a68794313de9bd55df3b0c7e8651d514cb913e9c13855ca2816f",
+    "Translations/bg/build_semantic_closure_cycle_004.py": "d4dde0f590fe1b9508bb00f5224a0771a75a54f850a32ae6cac950bfea7e8cd5",
+    "Translations/bg/semantic-closure-cycle-004.json": "20964a9924f424be568526e2221db934f9b55e22c0dc524e0ab62dc4f6b2a2e7",
+    "Translations/bg/build_semantic_delta_cycle_004.py": "8b1e0461b8aa27ba25c4cd8785b4a3cc5202e5230fe18d7c495b5356e8d1067e",
+    "Translations/bg/semantic-delta-cycle-004.json": "ff1abeb6ddf431d3a81ba15f539031ff0da636b05de36c7f38a00ed1ddc049b2",
+    "Translations/bg/locale-corpus-cycle-004.json": "c1f18ac2d7a9882db346f91910f4b7f6258edfa3c399ed20819c7460316342b1",
+    "Translations/bg/preserve-exact-cycle-004.json": "d48d8a08076802783dfef98e5f4f8f928d035051fc33937c48249ef796fa1713",
+    "Translations/bg/independent-review-03-author-adjudication.json": "a84a170768f955734ec66c9ef0c420ce3e8c68988372c0a5881ff3578cda6141",
+    "Translations/bg/verify_cycle_004.py": "513faf353e211cb84f7d45a58bd14ffaf484c9cb6ce7eb16e3f7de80b624855f",
+    "Translations/bg/credits-role-map.json": "db505408d0387425fff5113551dc939a77f9ed1e29cf1c50177e9f5c335bf03e"
+  },
+  "baselineProgressSnapshotSha256": "a21e862d373bb0bb87814d8e6470623f012e7627434d75eee81c6436cfe826b8",
+  "restart": "none; accepted inventory/glossary/gender policies/consumer topology unchanged",
+  "limits": [
+    "independent delta not yet assigned in this chat",
+    "editorial acceptance pending root",
+    "integration/runtime/font/layout/build/release gates pending; no game launch",
+    "images/textures excluded"
+  ],
+  "telemetry": {
+    "actualTokenUsage": "unknown; no exposed counters",
+    "subagents": "none"
+  }
+}

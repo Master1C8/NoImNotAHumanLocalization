@@ -1,0 +1,46 @@
+{
+  "sealedAtUtc": "2026-10-10T08:01:23.953733+00:00",
+  "status": "complete independent review; not clean",
+  "normalClosureVerify": {
+    "passed": true,
+    "closureIds": 2839,
+    "sha256": "f31cb84fd91ca88c23d4626b0d559947b1ad6105199e08be86d5fadbe36957a7"
+  },
+  "normalDeltaVerify": {
+    "passed": true,
+    "reviewIds": 311,
+    "sha256": "423dcb03e4ddb29e4394e58aac4f24f072e3759b227c3f471d872271b042cd3e"
+  },
+  "normalVoiceSelectorVerify": {
+    "passed": true,
+    "candidates": 741,
+    "speakerCategories": 112,
+    "manuallyAppendedIds": 0
+  },
+  "independentEvidenceVerify": {
+    "passed": true,
+    "deltaDecisions": 311,
+    "supplementaryDecisions": 3,
+    "correctedAccepted": 41,
+    "dismissalsUpheld": 3,
+    "mandatoryFresh": 4,
+    "mandatoryPriorExactApplicable": 904,
+    "findings": 3,
+    "selectorDefects": 0,
+    "fullProposedUnitsPreserveExactPassed": 3
+  },
+  "freshCorpusGuard": {
+    "passed": true,
+    "rows": 16538,
+    "sha256": "9b4704717c5da6f0c7c4f9baa9fe2ef15e4cda2a8060141b412aed1c4266ec39"
+  },
+  "mutatedAuthoredSourceGlossarySharedEvidenceGitBuildGameImagesTextures": false,
+  "diagnostics": [
+    {
+      "boundary": "bounded compiled scene inspection",
+      "result": "A nonexistent guessed node Experienced_Asking_1_2 raised KeyError after earlier valid node reads; inspected actual compiled Experienced_Asking_1_2_End and branch targets instead. No input or receipt changed."
+    }
+  ],
+  "runtime": "not run; owner prohibited launch",
+  "telemetry": "Parent collects measured usage; counters unavailable here; reporting tail unmeasured."
+}

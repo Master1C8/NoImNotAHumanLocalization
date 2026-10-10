@@ -1,0 +1,91 @@
+{
+  "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+  "fullSource": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+  "fullTarget": "Bald: Тук при теб е {0}. Дай да го изритаме някак, а?",
+  "compiledUse": [
+    {
+      "node": "Bald_Entrance_Occupied",
+      "instruction": 4,
+      "opcode": 2
+    }
+  ],
+  "producerChain": "Bald literal -> GetCharacterOnPlace -> parse ECharacterType -> select Bald CharacterSOData -> first current character with equal GetPlace/Bald.Place -> characterName_ + occupant enum -> UI localization -> Yarn slot0 -> markup handling -> speaker-prefix removal",
+  "fieldBoundary": "Original CharacterSOData prefix including character/room/place was parsed under generated schema with enabled-field alignment, checked against native header and byte-exact prefix roundtrip. Unsupported trailing polymorphic registry was not parsed; complete asset and object hashes remain pinned.",
+  "serializedDefinitionsExamined": 72,
+  "metadataSamePlaceCandidates": [
+    {
+      "character": "Anxiety",
+      "place": 51,
+      "room": 4,
+      "allowedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "uiKey": "characterName_Anxiety",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+      "sourceName": "девушка со скалиозом",
+      "targetName": "момичето със сколиоза",
+      "assembledTarget": "Bald: Тук при теб е момичето със сколиоза. Дай да го изритаме някак, а?",
+      "applicability": "normal occupied incoming-Bald case admits Anxiety or Marauder. Bald itself is same-place metadata, not established as an incumbent during its own incoming scene.",
+      "agreement": "neuter го with момичето; feminine person identity remains explicit"
+    },
+    {
+      "character": "Bald",
+      "place": 51,
+      "room": 4,
+      "allowedDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "uiKey": "characterName_Bald",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+      "sourceName": "лысый",
+      "targetName": "плешивият",
+      "assembledTarget": "Bald: Тук при теб е плешивият. Дай да го изритаме някак, а?",
+      "applicability": "normal occupied incoming-Bald case admits Anxiety or Marauder. Bald itself is same-place metadata, not established as an incumbent during its own incoming scene.",
+      "agreement": "masculine го with masculine occupant descriptor"
+    },
+    {
+      "character": "Marauder",
+      "place": 51,
+      "room": 4,
+      "allowedDays": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "uiKey": "characterName_Marauder",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+      "sourceName": "бомж",
+      "targetName": "бездомникът",
+      "assembledTarget": "Bald: Тук при теб е бездомникът. Дай да го изритаме някак, а?",
+      "applicability": "normal occupied incoming-Bald case admits Anxiety or Marauder. Bald itself is same-place metadata, not established as an incumbent during its own incoming scene.",
+      "agreement": "masculine го with masculine occupant descriptor"
+    }
+  ],
+  "decision": "accepted",
+  "reason": "The actual feminine incumbent is named момичето със сколиоза, a neuter noun. Bulgarian го is its grammatical neuter object pronoun and preserves the girl identity. The masculine incumbent бездомникът likewise permits го. This is noun agreement, not a claim that all admitted people are male. Both outputs keep the intended incumbent as object of proposed ejection. Някак preserves manner, а? keeps the tentative invitation.",
+  "outputScope": "Static admitted name/domain evidence for this compiled Bald consumer. No fixed count of all managed outputs, mutated save states, universal all-state behavior, null/default fallback reachability or physical gameplay is claimed.",
+  "diagnostics": "Initial full-object parsing could not decode stripped reference types. First corrected bounded-prefix enumeration used enum-name selection (71 records); final enumeration filters actual CharacterSOData type (72 records). The extra record does not change place51 membership. Both corrected raw enumeration versions are retained.",
+  "physicalRuntime": "not run"
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/bg_independent_review_03",
+  "independence": "Separate no-history reviewer; no delegation; owns only NEW independent-review-03 evidence",
+  "model": "GPT-6 family; exact backend identifier not exposed",
+  "reasoningLevel": "not exposed",
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "targetLocale": "bg",
+  "status": "independent review complete with3 objective full-unit findings; CLEAN rejected",
+  "deltaSha256": "423dcb03e4ddb29e4394e58aac4f24f072e3759b227c3f471d872271b042cd3e",
+  "closureSha256": "f31cb84fd91ca88c23d4626b0d559947b1ad6105199e08be86d5fadbe36957a7",
+  "correctionPlanSha256": "14f37de52ed68f6be232e0e8b21ef262d7c99c8bc24e7c8d0c15f6ad4430fde5",
+  "coverage": {
+    "completeDeltaPairsRead": 311,
+    "indicesInclusive": [
+      0,
+      310
+    ],
+    "supplementaryUniqueFullPairsRead": 3,
+    "totalDistinctFreshIndependentPairs": 314,
+    "correctedFullUnitsReadAndAccepted": 41,
+    "dismissedProposalsReadAndUpheld": 3,
+    "priorReadingApplicableCount": 2649,
+    "invalidatedReasonsIndependentlyReconstructed": 121,
+    "closureIds": 2839,
+    "retired": 0,
+    "mandatoryIds": 908,
+    "freshMandatoryReads": 4,
+    "exactPriorApplicableMandatoryReads": 904,
+    "author982ScopeNotCountedAsIndependent": true,
+    "allCorpusRereadClaim": false,
+    "readIdsSha256": "44f5cbd7ae603f2e5d5f5d9835d2dbee0a50f045658edf588ca10714af76b1fc"
+  },
+  "findings": {
+    "fullUnitCount": 3,
+    "inDelta": 2,
+    "supplementary": 1,
+    "selectorDefects": 0,
+    "applied": false,
+    "path": "Translations/bg/independent-review-03/findings.json",
+    "sha256": "32c07d6b23fdb4bf73a38a11d12c1799dd2bcb443ccd2941ea898fe8a0d678a4"
+  },
+  "specialChecks": {
+    "BaldFamily": "mother and grandmother retained; father appears separately in later source/glossary",
+    "LeperExclamation": "bothЁбаный свет units are idiomatic exclamations, no literal light",
+    "WheelchairPlural": "compiled IsImposter branch: instruction6 pluralим→7все они; corresponding Bulgarianим→всички те accepted. Duplicate source table pair accepted without inventing a current consumer.",
+    "NaturalProfanity": "all41 full replacements checked in complete scenes; idiomatic beatings,omитай,майната,Ебаси,през кура and contextual oath use accepted. No generic-oath quota applied; three dismissals independently upheld.",
+    "MalformedGrammar": "WheelchairЭто…пиздец nowпълен шибан ужас; no malformedпълна шибания remains in that corrected unit"
+  },
+  "preflight": {
+    "freshOwningWholeLocaleGuard": "passed16538 unique current authored units including preserve-exact grammar; new ownreceipt",
+    "currentAuthoredAndSidecarPins": "411+411verified",
+    "historicalReview02ChangedPins": 70,
+    "all41HistoricalFullPreimages": "exact independently sealed rows,including one supplemental pair",
+    "sourceGlossaryParity": "source hash unchanged; all201 approvedBG glossary entries equal currentcanonical layer",
+    "ordinaryClosureDeltaVoiceReproduction": "passed without overwriting historical evidence"
+  },
+  "context": {
+    "compiledRawProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "compiledNodes": 3255,
+    "compiledReparse": "normalized exact equality with immutable prior parsednodes",
+    "deltaRowsWithCurrentCompiledUses": 302,
+    "deltaRowsWithoutCurrentCompiledUses": 9,
+    "noCurrentConsumerIds": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457563873290",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079560",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079559",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079558",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451788316681",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451788316680",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451788316679",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451788316678",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451763150854"
+    ],
+    "deltaFormatSlots": 0,
+    "closureFormatSlots": 111,
+    "dynamicProducerCalls": {
+      "GetPhoneNumber": 18,
+      "GetCharacterOnPlace": 56
+    },
+    "managedSources": {
+      "Assembly-CSharp.dll": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+      "YarnSpinner.Unity.dll": "727e3827d0f71c0e54d5669c22ec4b0ee5936508113a13eddc15ebb3912841b5"
+    },
+    "dynamicBindingApplicability": "Current assemblies, runner, compiled program, table bindings and source rows exactly match prior independent pins. Current delta contains no format slots. Dynamic output and mandatory slot evidence retain unchanged prior independent decisions; no arbitrary six-output count is asserted.",
+    "methodsChecked": "GetLocalization,SetupConsumable,InitGotTexts,GetCharacterOnPlace,GetLocalizedLine,HandleLine/HandleOptions expansion before markup; runSelectedOptionAsLine=false; localized name/narrative distinct; literal quantity suffix retained",
+    "physicalRuntime": "not run; ownerprohibited game launch",
+    "visualFontsLayout": "not run",
+    "builtBGArtifact": "not built; editorial review of authored text only"
+  },
+  "acceptance": {
+    "independentClean": false,
+    "mandatoryCatalogClean": true,
+    "editorialAccepted": false,
+    "runtimeAccepted": false,
+    "releaseAccepted": false,
+    "imagesAndTextures": "excluded by owner"
+  },
+  "telemetry": "Parent collects measured token usage; this agent has no per-request counters; unknown here, notzero; reporting tail unmeasured",
+  "nextAction": "Adjudicate all3 findings together; carry the two assurance occurrences as one shared bounded defect; consolidated remedial idiom/dependency pass and one exact final independent delta. Preserve source/glossary and unchanged evidence; no full restart warranted by these bounded findings."
+}

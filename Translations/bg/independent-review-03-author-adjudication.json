@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "locale": "bg",
+  "proposalCount": 3,
+  "acceptedCount": 3,
+  "dismissedCount": 0,
+  "additionalCorrectionCount": 0,
+  "adjudications": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-151.json",
+      "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+      "currentFullTarget": "Bald: Прибрах се някак. Вратата отворена. Всичко с главата надолу. Мама и баба лежат със… мамка му… със счупени пръсти, крака и…",
+      "acceptedFullTarget": "Bald: Веднъж се прибрах вкъщи. Вратата отворена. Всичко с главата надолу. Мама и баба лежат със… мамка му… със счупени пръсти, крака и…",
+      "basis": "bg-independent-03-001",
+      "compiledUses": [
+        {
+          "node": "Bald_Asking_4",
+          "instruction": 25,
+          "opcode": 2
+        }
+      ],
+      "disposition": "accepted",
+      "reason": "Compiled Bald_Asking_4:25 describes one past arrival, before injured family, approaching thugs and flight. Keep mother AND grandmother, open door, chaos, broken fingers/legs, coarse hesitation and unfinished speech; change only temporal opening, restoring explicit home.",
+      "reviewerProposedFullTarget": "Bald: Веднъж се прибрах вкъщи. Вратата отворена. Всичко с главата надолу. Мама и баба лежат със… мамка му… със счупени пръсти, крака и…"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454481059851",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-246.json",
+      "source": "Scammer: Надо видеть тех, кто управляет ситуацией и держаться с ними. Это выигрышная стратегия. Отвечаю.",
+      "currentFullTarget": "Scammer: Трябва да видиш кой управлява положението и да си с него. Това е печеливша стратегия. Отговарям.",
+      "acceptedFullTarget": "Scammer: Трябва да видиш кой управлява положението и да си с него. Това е печеливша стратегия. Гарантирам.",
+      "basis": "bg-independent-03-002",
+      "compiledUses": [
+        {
+          "node": "Scammer_Asking_2_3_2",
+          "instruction": 3,
+          "opcode": 2
+        }
+      ],
+      "disposition": "accepted",
+      "reason": "Compiled Scammer_Asking_2_3_2:3 vouches for a winning strategy before KIS advice. Keep actor, strategy and affiliation statement; Гарантирам is a natural unqualified assurance, not an answer.",
+      "reviewerProposedFullTarget": "Scammer: Трябва да видиш кой управлява положението и да си с него. Това е печеливша стратегия. Гарантирам."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454460088329",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-247.json",
+      "source": "Scammer: Мутить темки со ставками вообще было как нехер делать, ёпта. Отвечаю.",
+      "currentFullTarget": "Scammer: Да въртя схеми със залози беше лесно като детска игра, мамка му. Отговарям.",
+      "acceptedFullTarget": "Scammer: Да въртя схеми със залози беше лесно като детска игра, мамка му. Гарантирам.",
+      "basis": "bg-independent-03-003",
+      "compiledUses": [
+        {
+          "node": "Scammer_Asking_1_2",
+          "instruction": 3,
+          "opcode": 2
+        }
+      ],
+      "disposition": "accepted",
+      "reason": "Compiled Scammer_Asking_1_2:3 vouches for betting schemes after earnings, before bookmaker scam methods. Keep past action, ease comparison and coarse oath; replace only the assurance calque.",
+      "reviewerProposedFullTarget": "Scammer: Да въртя схеми със залози беше лесно като детска игра, мамка му. Гарантирам."
+    }
+  ],
+  "upheldPriorDismissals": "Review03 upheld Review02 -010, -014 and -029; no new contradictory evidence, preserved unchanged.",
+  "planSha256": "1ce6d5dd0db80b2d3973fe57138472e1851df21ee2cdb0905e2416244a17964b",
+  "baselineManifestSha256": "ca54b4851a2f461837e399c671c0338bb6148c4417934592edfd9e4366503ee1",
+  "independence": "author adjudication only; no clean independent review or acceptance"
+}

@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "locale": "bg",
+  "gameVersion": "1.3.19",
+  "status": "adjudicated; authored corrections not yet applied",
+  "firstPassEvidencePath": "Translations/bg/semantic-first-pass-cycle-000.json",
+  "firstPassEvidenceSha256": "c5a8b2a604bf4b78d2525bbbe1ef5a66a661397d3558e8a95fda6f509a7bde86",
+  "bindings": {
+    "acceptedScopePath": "Documentation/text-source-acceptance-v1.json",
+    "acceptedScopeSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+    "sourceInventoryPath": "Source/localization-inventory-v3/strings.jsonl",
+    "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+    "staticInventoryPath": "Source/localization-inventory-v3/static-text.jsonl",
+    "staticInventorySha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+    "preserveExactlyPath": "Source/preserve-exactly-v4.json",
+    "preserveExactlySha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+    "glossaryLayerPath": "Documentation/glossary-translations/canonical-reviews/artifacts/bg/layer.json",
+    "glossaryLayerSha256": "28d7eb651d95b56a72a5a4acefcba5f434dcbe6925a2233126655e13b0e01cab",
+    "sourceGlossaryPath": "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary.json",
+    "sourceGlossarySha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+    "checkpointPath": "Documentation/bg-text-checkpoint.json",
+    "checkpointSha256": "24230d8f60fb56a46856134ac1cf9cfff9fe38d28d87e1bd7efc18b033480c2f"
+  },
+  "acceptedUnits": 16538,
+  "reviewedUnits": 16538,
+  "findingCount": 60,
+  "decisions": [
+    {
+      "findingIndex": 0,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:16302985216",
+      "collection": "UI",
+      "batchPath": "Translations/bg/ui-batch-001.json",
+      "source": "Вход",
+      "currentTarget": "Антре",
+      "acceptedFullTarget": "Вход",
+      "objectiveReason": "approved glossary calls this room Вход; draft Антре changes the room label",
+      "sceneNodes": [],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 1,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:63931917744721920",
+      "collection": "UI",
+      "batchPath": "Translations/bg/ui-batch-002.json",
+      "source": "<b><size=40><align=center>-1-</align=center></size></b>\nСегодня город возвели,\nВ подвале гриб лез из земли.\nОн был велик, но был бы тот,\nКто поглотить бы его смог.\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nПринять гостей — удел для слабых.\nГриб выше нас, людей незваных,\nЛишь яблоня приют всем даст\nИ плодом сладким вскормит вас.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nНастанет день, когда же он\nК грибам выходит на поклон,\nА стрелка устремится ввысь.\nСкорей, дружок, поторопись!",
+      "currentTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nДнес градът бе издигнат от хората,\nв мазето гъба поникна от земята.\nГоляма беше, но кой ли ще успее\nцяла да я погълне и да оцелее?\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nДа приемаш гости е за слабите.\nГъбата е по-висока от нас, неканените.\nСамо ябълковото дърво ще приюти всички\nи ще ви нахрани със сладкия си плод.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nЩе дойде ден, когато той\nпред гъбите ще се поклони.\nА стрелката нагоре ще полети.\nПобързай, приятелю, не се бави!",
+      "acceptedFullTarget": "<b><size=40><align=center>-1-</align=center></size></b>\nДнес издигнаха града,\nв мазето гъба изникна от земята.\nГоляма беше, ала кой ли би могъл\nда я погълне цяла?\n\n\n\n<b><size=40><align=center>-2-</align=center></size></b>\nДа приемаш гости е за слабите.\nГъбата е по-висока от нас, неканените.\nСамо ябълковото дърво ще приюти всички\nи ще ви нахрани със сладкия си плод.\n\n\n\n<b><size=40><align=center>-3-</align=center></size></b>\nЩе дойде ден, когато той\nпред гъбите ще се поклони.\nА стрелката нагоре ще полети.\nПобързай, приятелю, не се бави!",
+      "objectiveReason": "first stanza adds human builders and survival, neither stated by Russian",
+      "sceneNodes": [],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 2,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:118165596245860352",
+      "collection": "UI",
+      "batchPath": "Translations/bg/ui-batch-006.json",
+      "source": "Гости были рядом с тобой всё это время: тёплое дыхание в темноте, шепот и злой смешок за спиной. Свет ты уже не увидишь, даже если его включат.\r",
+      "currentTarget": "Гостите бяха до теб през цялото време: топъл дъх в мрака, шепот и злобен смях зад гърба ти. Вече няма да видиш светлината, дори някой да я запали.\r",
+      "acceptedFullTarget": "Гостите бяха до теб през цялото време: топъл дъх в мрака, шепот и злобен смях зад гърба ти. Вече няма да видиш светлината, дори да я включат.\r",
+      "objectiveReason": "Russian says the light is switched on; запали suggests lighting/igniting it",
+      "sceneNodes": [],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 3,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457941360650",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-001.json",
+      "source": "2 кошачьи консервы, пожалуйста",
+      "currentTarget": "2 консерви за котарака, моля",
+      "acceptedFullTarget": "2 консерви котешка храна, моля",
+      "objectiveReason": "кошачьи консервы denotes canned cat food; за котарака makes the recipient a particular cat",
+      "sceneNodes": [
+        "phone_forrest_order"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 4,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457937166343",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-001.json",
+      "source": "Phone: Теперь мне только жаль, что мы не узнали у подменной дочери, что оно сделало с нашей малюткой...",
+      "currentTarget": "Phone: Сега съжалявам само, че не попитахме детето, което се представяше за дъщеря ни, какво е направило с нашата мъничка...",
+      "acceptedFullTarget": "Phone: Сега съжалявам само, че не попитахме онова, което беше вместо дъщеря ни, какво е сторило с нашата мъничка...",
+      "objectiveReason": "draft says the child was impersonating the daughter; source says a substitute daughter without asserting intent to impersonate",
+      "sceneNodes": [
+        "phone_daughtersfriend_2_1_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 5,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457932972033",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-002.json",
+      "source": "Phone: Все признаки совпадали, и муж настоял.",
+      "currentTarget": "Phone: Всички признаци съвпадаха, а съпругът ми настояваше.",
+      "acceptedFullTarget": "Phone: Всички признаци съвпадаха, а съпругът ми настоя.",
+      "objectiveReason": "муж настоял is a completed past action; настояваше changes it to ongoing insistence",
+      "sceneNodes": [
+        "phone_daughtersfriend_2_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 6,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457924583426",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-003.json",
+      "source": "В смысле, тоже?",
+      "currentTarget": "Как така и той?",
+      "acceptedFullTarget": "Какво значи „също“?",
+      "objectiveReason": "В смысле, тоже? leaves the referent unstated until the next line; Как така и той? names a male referent early",
+      "sceneNodes": [
+        "phone_daughtersfriend_1_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 7,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457903611915",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-004.json",
+      "source": "Phone: Он так сокрушался об этом... Жалел, что не сделал их раньше. Я хотела помочь ему, но не знала, чем.",
+      "currentTarget": "Phone: Толкова съжаляваше за това... Ядосваше се, че не си ги е извадил по-рано. Исках да му помогна, но не знаех как.",
+      "acceptedFullTarget": "Phone: Толкова се терзаеше за това... Съжаляваше, че не си ги беше извадил по-рано. Исках да му помогна, но не знаех как.",
+      "objectiveReason": "Жалел reports regret; Ядосваше се changes it to anger despite the document context",
+      "sceneNodes": [
+        "phone_phoneroulette_1_1_3"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 8,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223307",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-004.json",
+      "source": "Phone: Почти безопасный клочок земли у чёрта на рогах.",
+      "currentTarget": "Phone: Късче земя вдън горите, където е почти безопасно.",
+      "acceptedFullTarget": "Phone: Почти безопасно късче земя насред нищото.",
+      "objectiveReason": "у чёрта на рогах means very remote; вдън горите invents a forest",
+      "sceneNodes": [
+        "phone_phoneroulette_1_1_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 9,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457844891654",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-008.json",
+      "source": "Phone: Строение яблока: надъяблочник, страна грибов и бумаги.",
+      "currentTarget": "Phone: Устройство на ябълката: надябълник, страна на гъбите и хартии.",
+      "acceptedFullTarget": "Phone: Устройство на ябълката: надябълник, Страната на гъбите и хартии.",
+      "objectiveReason": "страна грибов refers to the glossary location Страната на гъбите; draft uses a generic lowercase phrase instead of the approved name",
+      "sceneNodes": [
+        "phone_extrasens"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 10,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457802948611",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-011.json",
+      "source": "Phone: Ладно… бывайте. Живите счастливо.",
+      "currentTarget": "Phone: Добре… бъди здрав. Живей щастливо.",
+      "acceptedFullTarget": "Phone: Добре… бъдете здрави. Живейте щастливо.",
+      "objectiveReason": "бывайте / живите are plural or polite forms; draft switches the closing wish to singular imperatives",
+      "sceneNodes": [
+        "phone_mothershusband_8"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 11,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457740034056",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-015.json",
+      "source": "Phone: Как, например, они выявили признаки? Почему признаки совсем не отличаются от простых человеческих?",
+      "currentTarget": "Phone: Например как са разпознали признаците? Защо те изобщо не се различават от обикновените човешки белези?",
+      "acceptedFullTarget": "Phone: Например как са установили тези признаци? Защо те изобщо не се различават от обикновените човешки белези?",
+      "objectiveReason": "выявили признаки asks how the committee established/discovered the signs; разпознали asks how it recognized already known signs",
+      "sceneNodes": [
+        "phone_neighbour_day4_3"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 12,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457723256843",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-016.json",
+      "source": "Phone: Но, думаю, лучше не торопиться с выводами, если найдёшь хотя бы один признак у человека.",
+      "currentTarget": "Phone: Но мисля, че не бива да бързаш с изводите, ако откриеш у някого само един признак.",
+      "acceptedFullTarget": "Phone: Но мисля, че не бива да бързаш с изводите, ако откриеш у някого дори един признак.",
+      "objectiveReason": "хотя бы один means even one sign; само един narrows the condition to exactly one",
+      "sceneNodes": [
+        "phone_neighbour_day2_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 13,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457685508105",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-019.json",
+      "source": "Window: Его куртка вся увешана вырванными зубами, глазами и чем-то ещё. Сложно разглядеть из окна.",
+      "currentTarget": "Window: По якето му висят изтръгнати зъби, очи и още нещо. Трудно е да разберете през прозореца.",
+      "acceptedFullTarget": "Window: По якето му висят изтръгнати зъби, очи и още нещо. Трудно е да се различи през прозореца.",
+      "objectiveReason": "разглядеть из окна is a visual inability to make out the dangling objects; да разберете shifts it to understanding",
+      "sceneNodes": [
+        "window_7_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 14,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457668730888",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-020.json",
+      "source": "Window: На тропе стоит бледный как сама смерть человек.",
+      "currentTarget": "Window: На пътеката стои мъж, блед като самата смърт.",
+      "acceptedFullTarget": "Window: На пътеката стои човек, блед като самата смърт.",
+      "objectiveReason": "человек leaves the pale figure unnamed as to sex at this scene point; мъж explicitly reveals male before the later source descriptions do",
+      "sceneNodes": [
+        "window_2_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 15,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457639370757",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-022.json",
+      "source": "TV: Тем временем утилизация тел на улицах города возобновляется, однако появились новые трудности.",
+      "currentTarget": "TV: Междувременно извозването на телата по улиците на града се подновява, но възникнаха нови затруднения.",
+      "acceptedFullTarget": "TV: Междувременно обезвреждането на телата по улиците на града се подновява, но възникнаха нови затруднения.",
+      "objectiveReason": "утилизация тел means disposal; извозването narrows the stated operation to transport only",
+      "sceneNodes": [
+        "tv_10_necessary"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 16,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457630982149",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-023.json",
+      "source": "TV: К счастью, жильцы пошли на контакт с КЧС и решили помочь, предоставив свой дом.",
+      "currentTarget": "TV: За щастие обитателите се свързаха с КИС и решиха да помогнат, като предоставиха дома си.",
+      "acceptedFullTarget": "TV: За щастие обитателите се съгласиха да съдействат на КИС и решиха да помогнат, като предоставиха дома си.",
+      "objectiveReason": "пошли на контакт says the residents cooperated or engaged with КЧС; се свързаха says they initiated contact",
+      "sceneNodes": [
+        "tv_9_necessary"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 17,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787847",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-023.json",
+      "source": "TV: Из-за того, что город оцеплен, утилизация тел в близлежащих районах временно приостановлена.",
+      "currentTarget": "TV: Поради кордона около града извозването на телата в близките райони временно е спряно.",
+      "acceptedFullTarget": "TV: Поради кордона около града обезвреждането на телата в близките райони временно е спряно.",
+      "objectiveReason": "утилизация тел means disposal; извозването again narrows the operation to transport only",
+      "sceneNodes": [
+        "tv_8_extra1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 18,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457572261898",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-027.json",
+      "source": "В вас вселился злой дух: Гостевой!",
+      "currentTarget": "Във вас се е вселил зъл дух: Гостовият!",
+      "acceptedFullTarget": "Във вас се е вселил зъл дух: Гостният дух!",
+      "objectiveReason": "Гостевой is the approved distinct spirit term Гостният дух; Гостовият leaves дух out and can blur the Visitor/spirit distinction",
+      "sceneNodes": [
+        "radio_3"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 19,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678979",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-028.json",
+      "source": "Window: На тропе стоит бледный, как сама смерть, человек.",
+      "currentTarget": "Window: На пътеката стои мъж, блед като самата смърт.",
+      "acceptedFullTarget": "Window: На пътеката стои човек, блед като самата смърт.",
+      "objectiveReason": "same early window reveal as source index 792: человек leaves sex unstated at this point, while мъж states it",
+      "sceneNodes": [],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 20,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457425461255",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-036.json",
+      "source": "Fairytaller: Я только окончил универ этим летом. По специальности работу найти не просто. Поэтому устроился на подработку в кафе.",
+      "currentTarget": "Fairytaller: Едва това лято завърших университета. Не е лесно да намеря работа по специалността си. Затова започнах допълнителна работа в кафене.",
+      "acceptedFullTarget": "Fairytaller: Едва това лято завърших университета. Не е лесно да намеря работа по специалността си. Затова започнах почасова работа в кафене.",
+      "objectiveReason": "подработка in this jobless graduate scene is part-time work; допълнителна работа implies an additional job alongside a main job he does not have",
+      "sceneNodes": [
+        "Fairytaller_Entrance_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 21,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456402051076",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-109.json",
+      "source": "Firefighter: Хоть не на сырой земле придётся умирать.",
+      "currentTarget": "Firefighter: Поне няма да умирам на голата земя.",
+      "acceptedFullTarget": "Firefighter: Поне няма да умирам на влажната земя.",
+      "objectiveReason": "сырая земля specifies damp ground; голата земя instead says bare ground, changing the physical detail of where the Firefighter expects to die",
+      "sceneNodes": [
+        "Firefighter_Entrance_YesLet1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 22,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456343330826",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-113.json",
+      "source": "NotTrue: Отдохнуть у тя можно?",
+      "currentTarget": "NotTrue: Може ли да си почина у вас?",
+      "acceptedFullTarget": "NotTrue: Може ли да си почина у теб?",
+      "objectiveReason": "у тя is informal singular address to the player; у вас switches this line to formal/plural despite her informal милок and adjacent ти address",
+      "sceneNodes": [
+        "entrance_nottrue"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 23,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530178",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-124.json",
+      "source": "FortuneTeller: Сначала ты, потом тебе, понимаешь, да?",
+      "currentTarget": "FortuneTeller: Първо ти, после на теб, разбирате, нали?",
+      "acceptedFullTarget": "FortuneTeller: Първо ти, после на теб, разбираш, нали?",
+      "objectiveReason": "понимаешь is informal singular, matching ты/тебе in this same line; разбирате switches the final address to formal/plural",
+      "sceneNodes": [
+        "FortuneTeller_Entrance_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 24,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456188141572",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-124.json",
+      "source": "Anger: Или кого-то ебашить.",
+      "currentTarget": "Anger: Или да пречукам някого.",
+      "acceptedFullTarget": "Anger: Или да пребия някого.",
+      "objectiveReason": "ебашить кого-то denotes beating someone; пречукам can mean killing someone, adding a lethal outcome the source does not state",
+      "sceneNodes": [
+        "Anger_Entrance_YesLet"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 25,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198536",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-127.json",
+      "source": "Firefighter: Хоть не на сырой земле придётся умирать.",
+      "currentTarget": "Firefighter: Поне няма да умирам на голата земя.",
+      "acceptedFullTarget": "Firefighter: Поне няма да умирам на влажната земя.",
+      "objectiveReason": "сырая земля specifies damp ground; голата земя instead says bare ground, changing the physical detail of where the Firefighter expects to die",
+      "sceneNodes": [
+        "Firefighter_Entrance_YesLet"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 26,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455961649159",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-140.json",
+      "source": "Intruder: Там ты ползаешь по коридору, словно гадкий слизняк.",
+      "currentTarget": "Intruder: Там пълзиш по коридор като гнусен охлюв.",
+      "acceptedFullTarget": "Intruder: Там пълзиш по коридор като гнусен гол охлюв.",
+      "objectiveReason": "слизняк is a slug without a shell; охлюв on its own denotes a snail and changes the creature in the Intruder dream simile",
+      "sceneNodes": [
+        "Intruder_Asking_SpecialEvent_Nightmare_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 27,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455944871938",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-141.json",
+      "source": "Esenin: Я у тебя одну книжку нашёл со стихами.",
+      "currentTarget": "Esenin: Намерих у вас една стихосбирка.",
+      "acceptedFullTarget": "Esenin: Намерих у теб една книжка със стихове.",
+      "objectiveReason": "у тебя addresses the player in informal singular, matching the Esenin conversation; у вас changes address to formal/plural, and стихосбирка unnecessarily specifies a poetry collection rather than a book with poems",
+      "sceneNodes": [
+        "Esenin_Asking_SpecialEvent"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 28,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455894540296",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-145.json",
+      "source": "Alt: Типа, «не переживай, вот твоя супермазь от всех проблем. Просто поставь воду напротив радио, она заберёт все твои проблемы».",
+      "currentTarget": "Alt: Нещо като: „Не се тревожете, ето ви супермехлем срещу всички проблеми. Просто сложете вода срещу радиото и тя ще поеме всичките ви грижи“.",
+      "acceptedFullTarget": "Alt: Нещо като: „Не се тревожи, ето ти супермехлем срещу всички проблеми. Просто сложи вода срещу радиото и тя ще поеме всичките ти грижи“.",
+      "objectiveReason": "the mock sales pitch addresses a singular listener with не переживай, твоя, поставь, твои; the Bulgarian quote switches throughout to formal/plural address",
+      "sceneNodes": [
+        "Alt_Asking_1_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 29,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848516",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-151.json",
+      "source": "Bald: Так и помню, что у нас были жёсткие правила: если кто-то стучит в дверь, а ты никого не ждёшь, то отвечать нельзя.",
+      "currentTarget": "Bald: Помня, че имахме строги правила: ако някой чука на вратата, а не чакаш никого, не отваряш.",
+      "acceptedFullTarget": "Bald: Помня, че имахме строги правила: ако някой чука на вратата, а не чакаш никого, не трябва да отговаряш.",
+      "objectiveReason": "отвечать нельзя prohibits answering an unexpected knock at all; не отваряш prohibits only opening the door and permits a response, changing the family safety rule",
+      "sceneNodes": [
+        "Bald_Asking_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 30,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455756128261",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-155.json",
+      "source": "Experienced: А я уже человек состоявшийся, жизнь уже и так идёт к концу.",
+      "currentTarget": "Experienced: А аз вече съм човек на години, животът ми и без това отива към края си.",
+      "acceptedFullTarget": "Experienced: А аз вече съм изградена личност, животът ми и без това върви към края си.",
+      "objectiveReason": "человек состоявшийся describes an established, fully formed person in his explanation that he cannot adapt; човек на години states only his age and drops that characterization",
+      "sceneNodes": [
+        "Experienced_Asking_4_X"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 31,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455751933955",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-156.json",
+      "source": "Experienced: А потом… кризис ударил. И я стал грабить, чтобы было чем прокормить семью.",
+      "currentTarget": "Experienced: А после… дойде кризата. И започнах да крада, за да изхранвам семейството си.",
+      "acceptedFullTarget": "Experienced: А после… дойде кризата. И започнах да грабя, за да изхранвам семейството си.",
+      "objectiveReason": "грабить means to rob, as confirmed by his later conviction for грабёж; крада can mean non-confrontational stealing and weakens the account of his crime",
+      "sceneNodes": [
+        "Experienced_Asking_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 32,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455701602315",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-159.json",
+      "source": "Rocker: Надо бы завтра ночью кое-куда сгонять.",
+      "currentTarget": "Rocker: Трябва утре вечер да отскоча до едно място.",
+      "acceptedFullTarget": "Rocker: Трябва утре през нощта да отскоча до едно място.",
+      "objectiveReason": "завтра ночью specifies the following night; утре вечер specifies the evening, changing the time of the Rocker planned trip that is discussed in the next scene",
+      "sceneNodes": [
+        "Rocker_Asking_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 33,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455336697862",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-186.json",
+      "source": "Provocateur: А, ну конечно, это ведь не вы, извините за мат, ебёте мозги всеми этими проверками.",
+      "currentTarget": "Provocateur: А, разбира се, нали не вие, извинете за израза, побърквате всички с тези проверки.",
+      "acceptedFullTarget": "Provocateur: А, разбира се, нали не вие, извинете за псувнята, ми ебавате майката с всички тези проверки.",
+      "objectiveReason": "the speaker explicitly apologizes for мат and immediately uses vulgar ебёте мозги; побърквате removes the profanity and makes the apology lose its purpose",
+      "sceneNodes": [
+        "Provocateur_Asking_3_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 34,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455282171904",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-190.json",
+      "source": "Edgar: Они устремились к девушке и схватили её. Просто утащили. Думаю, мы оба знаем, зачем.",
+      "currentTarget": "Edgar: Те се втурнаха към момичето и я хванаха. Просто я отведоха. Мисля, че и двамата знаем защо.",
+      "acceptedFullTarget": "Edgar: Те се втурнаха към момичето и я хванаха. Просто я отмъкнаха. Мисля, че и двамата знаем защо.",
+      "objectiveReason": "утащили describes forcibly dragging the woman away after seizing her; отведоха says only that they led her away, erasing the coercion in this KIS abduction scene",
+      "sceneNodes": [
+        "Edgar_Asking_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 35,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455198285826",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-195.json",
+      "source": "Doctor: Вы напрасно называете меня ублюдком. Вы не знаете всей правды.",
+      "currentTarget": "Doctor: Напразно ме наричате изрод. Не знаете цялата истина.",
+      "acceptedFullTarget": "Doctor: Напразно ме наричате копеле. Не знаете цялата истина.",
+      "objectiveReason": "ублюдок is a bastard/scoundrel insult in the accusation about his KIS service; изрод instead calls him a monster, changing the specific charge and the Doctor’s echo of the player’s wording",
+      "sceneNodes": [
+        "Doctor_Asking_1_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 36,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091530",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-195.json",
+      "source": "Выходит, вы просто ещё один ублюдок из КЧС",
+      "currentTarget": "Значи сте просто още един изрод от КИС",
+      "acceptedFullTarget": "Значи сте просто още едно копеле от КИС",
+      "objectiveReason": "ублюдок is a bastard/scoundrel insult; изрод changes the player’s accusation to monster and breaks the lexical echo in the Doctor’s response",
+      "sceneNodes": [
+        "Doctor_Asking_1_2"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 37,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091522",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-196.json",
+      "source": "Выходит, вы просто ещё один ублюдок из КЧС",
+      "currentTarget": "Значи сте просто още един изрод от КИС",
+      "acceptedFullTarget": "Значи сте просто още едно копеле от КИС",
+      "objectiveReason": "same player accusation recurs in the alternate Doctor branch; изрод substitutes monster for ублюдок",
+      "sceneNodes": [
+        "Doctor_Asking_1_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 38,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508613",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-196.json",
+      "source": "Wolfhound: Лучше уходи подобру-поздорову. Либо я тебя убью.",
+      "currentTarget": "Wolfhound: По-добре си тръгвай доброволно. Иначе ще те убия.",
+      "acceptedFullTarget": "Wolfhound: По-добре си тръгвай по живо, по здраво. Иначе ще те убия.",
+      "objectiveReason": "подобру-поздорову means leave safely/in one piece under threat; доброволно describes willingness and loses the safety ultimatum",
+      "sceneNodes": [
+        "Wolfhound_Asking_3_8"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 39,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455181508610",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-196.json",
+      "source": "Wolfhound: Лучше уходи подобру-поздорову. Либо я тебя убью.",
+      "currentTarget": "Wolfhound: По-добре си тръгвай доброволно. Иначе ще те убия.",
+      "acceptedFullTarget": "Wolfhound: По-добре си тръгвай по живо, по здраво. Иначе ще те убия.",
+      "objectiveReason": "same safety ultimatum recurs in the alternate Wolfhound branch; доброволно changes it to a question of willingness",
+      "sceneNodes": [
+        "Wolfhound_Asking_3_7"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 40,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455168925700",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-197.json",
+      "source": "Wolfhound: Если бы я стерпел, то мой авторитет пошатнулся к херам.",
+      "currentTarget": "Wolfhound: Ако го бях преглътнал, авторитетът ми щеше да отиде по дяволите.",
+      "acceptedFullTarget": "Wolfhound: Ако го бях преглътнал, авторитетът ми щеше да отиде на майната си.",
+      "objectiveReason": "к херам is deliberately coarse profanity from this violent speaker; по дяволите softens the register and weakens the explicit vulgar emphasis",
+      "sceneNodes": [
+        "Wolfhound_Asking_2_6"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 41,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455164731398",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-197.json",
+      "source": "Wolfhound: Если бы я стерпел, то мой авторитет пошатнулся к херам.",
+      "currentTarget": "Wolfhound: Ако го бях преглътнал, авторитетът ми щеше да отиде по дяволите.",
+      "acceptedFullTarget": "Wolfhound: Ако го бях преглътнал, авторитетът ми щеше да отиде на майната си.",
+      "objectiveReason": "same coarse к херам line recurs in the alternate branch; по дяволите softens the register",
+      "sceneNodes": [
+        "Wolfhound_Asking_2_5"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 42,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454971793416",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-212.json",
+      "source": "Couple: Слышишь, это последняя ночь тут. Давай, готовься, хватит хуйнёй заниматься.",
+      "currentTarget": "Couple: Чуваш ли, това е последната ни нощ тук. Хайде, приготвяй се, стига си се занимавала с глупости.",
+      "acceptedFullTarget": "Couple: Чуваш ли, това е последната ни нощ тук. Хайде, приготвяй се, стига си се занимавала с тия шибани глупости.",
+      "objectiveReason": "хватит хуйнёй заниматься is an explicitly obscene order in the husband’s escalating threats; the plain глупости removes the abusive register of this specific line",
+      "sceneNodes": [
+        "Couple_Asking_5_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 43,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454632054789",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-235.json",
+      "source": "Отпустить",
+      "currentTarget": "Пусни го",
+      "acceptedFullTarget": "Пусни я",
+      "objectiveReason": "Sirin is a woman in the approved character glossary; the inspection choice releases Sirin, but го is masculine and points to a man",
+      "sceneNodes": [
+        "Sirin_Asking_6"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 44,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454627860489",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-235.json",
+      "source": "Отпустить",
+      "currentTarget": "Пусни го",
+      "acceptedFullTarget": "Пусни я",
+      "objectiveReason": "Alkonost is a woman in the approved character glossary; the inspection choice releases Alkonost, but го is masculine and points to a man",
+      "sceneNodes": [
+        "Alkonost_Asking_6"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 45,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454594306049",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-238.json",
+      "source": "NotTrue: Ходят, плутают, а как выйти?",
+      "currentTarget": "NotTrue: Ходят, лутат се, а как да намерят изхода?",
+      "acceptedFullTarget": "NotTrue: Вървят, лутат се, а как да намерят изхода?",
+      "objectiveReason": "Ходят is an untranslated Russian verb left in the Bulgarian target; replace it with Bulgarian Вървят while keeping the narrator’s plural form",
+      "sceneNodes": [],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 46,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454560751623",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-240.json",
+      "source": "NotTrue: Как ни зайдёшь в подъезд — вечно кто-то лежит на полу под белой скатертью.",
+      "currentTarget": "NotTrue: Щом влезеш във входа, все някой лежи на пода, покрит с бял чаршаф.",
+      "acceptedFullTarget": "NotTrue: Щом влезеш във входа, все някой лежи на пода, покрит с бяла покривка за маса.",
+      "objectiveReason": "скатерть is a tablecloth; чаршаф is a bedsheet, changing the specific covering in the narrator’s image",
+      "sceneNodes": [
+        "NotTrue_Asking_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 47,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454367813633",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-253.json",
+      "source": "Esenin: Я поднялся на стол, кричу им что-то вроде: «Заебали винить всё вокруг себя. Давайте людьми оставаться».",
+      "currentTarget": "Esenin: Качих се на масата и им крещя нещо от рода на: „Писна ми да обвинявате всичко около себе си. Нека останем хора.“",
+      "acceptedFullTarget": "Esenin: Качих се на масата и им крещя нещо от рода на: „Мамка му, писна ми да обвинявате всичко около себе си. Нека останем хора.“",
+      "objectiveReason": "Заебали is explicit profanity in Esenin’s quoted drunken outburst; the draft removes its coarse register from the quotation",
+      "sceneNodes": [
+        "Esenin_Asking_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 48,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454355230721",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-254.json",
+      "source": "Anxiety: ВСЕ ЕДИНЫ ПЕРЕД СМЕРТЬЮ.",
+      "currentTarget": "Anxiety: ПРЕД СМЪРТТА ВСИЧКИ СМЕ РАВНИ.",
+      "acceptedFullTarget": "Anxiety: ПРЕД СМЪРТТА ВСИЧКИ СМЕ ЕДНО.",
+      "objectiveReason": "едины means united/as one, matching her next claim that Guests and people form one whole; равни changes this cult claim to equality before death",
+      "sceneNodes": [
+        "Anxiety_Asking_4"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 49,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454191652871",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-265.json",
+      "source": "WheelChair: У него травма случилась.",
+      "currentTarget": "WheelChair: Получил травма.",
+      "acceptedFullTarget": "WheelChair: Получи травма.",
+      "objectiveReason": "Получил is a Russian past-tense form left inside the Bulgarian target; Получи is the Bulgarian form for the male subject",
+      "sceneNodes": [
+        "Wheelchair_Asking_1"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 50,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454007103495",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-278.json",
+      "source": "Nervous: А, без волос — это признак Гостя…",
+      "currentTarget": "Nervous: А, липсата на коса е признак на Гост…",
+      "acceptedFullTarget": "Nervous: А, липсата на окосмяване е признак на Гост…",
+      "objectiveReason": "In the armpit inspection, коса denotes head hair; the Russian без волос refers to absent body/armpit hair, a different diagnostic sign.",
+      "sceneNodes": [
+        "Nervous_Armpit_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 51,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453939994631",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-283.json",
+      "source": "Tough: Ты не от тех защищаешься.",
+      "currentTarget": "Tough: Не се защитаваш от правилните хора.",
+      "acceptedFullTarget": "Tough: Защитаваш се от грешните хора.",
+      "objectiveReason": "The Bulgarian не се защитаваш от правилните хора suggests the correct people are the threat; the source says he is defending himself from the wrong people.",
+      "sceneNodes": [
+        "Tough_Teeth_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 52,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453847719940",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-289.json",
+      "source": "Rocker: А, это без крышки.",
+      "currentTarget": "Rocker: А, капачката е още на обектива.",
+      "acceptedFullTarget": "Rocker: А, значи е без капачка.",
+      "objectiveReason": "The source states без крышки, while the Bulgarian says the cap is still on the lens, reversing the presence of the cap.",
+      "sceneNodes": [
+        "Rocker_Photo_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 53,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452564262913",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-348.json",
+      "source": "Couple: Неужели, всё дело в волосах?",
+      "currentTarget": "Couple: Наистина ли всичко е заради косата?",
+      "acceptedFullTarget": "Couple: Наистина ли всичко е заради космите?",
+      "objectiveReason": "In the armpit inspection, косата means head hair; the Russian волосы here denotes armpit/body hair.",
+      "sceneNodes": [
+        "Couple_Armpit_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 54,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452312604676",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-364.json",
+      "source": "Bestson: Эй… Ты же не всерьёз из-за этого?!",
+      "currentTarget": "Bestson: Ей… Нали не говориш сериозно заради това?!",
+      "acceptedFullTarget": "Bestson: Ей… Нали няма да стреляш заради това?!",
+      "objectiveReason": "The gun branch asks whether the player is seriously threatening to shoot over this sign; не говориш сериозно wrongly frames it as a remark about speech.",
+      "sceneNodes": [
+        "Bestson_Armpit_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 55,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452144832515",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-376.json",
+      "source": "Отпустить",
+      "currentTarget": "Пусни го",
+      "acceptedFullTarget": "Пусни я",
+      "objectiveReason": "Sirin is female; the target choice uses masculine object го instead of feminine я, unlike the corresponding Sirin release choices.",
+      "sceneNodes": [
+        "Sirin_Gun_Cry"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 56,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452119666698",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-378.json",
+      "source": "Sirin: Вечная агония и предвкушение смерти.",
+      "currentTarget": "Sirin: Вечна агония и предчувствие за смъртта.",
+      "acceptedFullTarget": "Sirin: Вечна агония и предвкусване на смъртта.",
+      "objectiveReason": "Предвкушение is eager anticipation or savoring, consistent with Sirin awaiting death; предчувствие is a premonition and changes her attitude.",
+      "sceneNodes": [
+        "Sirin_Eyes_DontShoot"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 57,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452094500866",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-380.json",
+      "source": "Alkonost: Какой смысл? Тебе взгляд показался слишком пустым?",
+      "currentTarget": "Alkonost: Какъв е смисълът? Погледът ми се стори твърде празен?",
+      "acceptedFullTarget": "Alkonost: Какъв е смисълът? Стори ли ти се погледът ми твърде празен?",
+      "objectiveReason": "The Russian asks whether her gaze seemed empty to the player; Погледът ми се стори in Bulgarian can say it seemed empty to the speaker, reversing the experiencer.",
+      "sceneNodes": [
+        "Alkonost_Eyes_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 58,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452094500865",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-380.json",
+      "source": "Alkonost: Какой смысл? Тебе взгляд показался слишком быстрым или пустым?",
+      "currentTarget": "Alkonost: Какъв е смисълът? Погледът ми се стори твърде бърз или празен?",
+      "acceptedFullTarget": "Alkonost: Какъв е смисълът? Стори ли ти се погледът ми твърде бърз или празен?",
+      "objectiveReason": "The Russian asks whether her gaze seemed too quick or empty to the player; Погледът ми се стори can make the speaker the experiencer.",
+      "sceneNodes": [
+        "Alkonost_Eyes_Gun"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    },
+    {
+      "findingIndex": 59,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451914145796",
+      "collection": "Dialogs",
+      "batchPath": "Translations/bg/dialogue-batch-391.json",
+      "source": "Отпустить",
+      "currentTarget": "Пусни я",
+      "acceptedFullTarget": "Пусни го",
+      "objectiveReason": "Fanatic is male; the target choice Пусни я uses the feminine object, unlike his other release choices.",
+      "sceneNodes": [
+        "Fanatic_Armpit"
+      ],
+      "decision": "accept proposed full replacement after source, current draft, scene and protected-contract reconciliation"
+    }
+  ],
+  "nextAction": "Apply the 60 accepted replacements as one Bulgarian-only correction batch; validate each changed authored batch and exact preserve contract; update authored and semantic checkpoints; construct reproducible dependency closure and request independent diff review later."
+}

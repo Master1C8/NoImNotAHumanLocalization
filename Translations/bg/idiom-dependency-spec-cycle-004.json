@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "locale": "bg",
+  "status": "canonical bounded temporal/assurance source-family rule for cycle004",
+  "sourceSha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "rules": [
+    {
+      "name": "occasionVersusManner",
+      "sourceRegex": "(?iu)\\bкак[-‐‑\\s]+то\\b",
+      "expectedInventoryMatches": 76,
+      "interpretation": "Read complete unit and scene: past anecdote -> occasion; means/degree/current uncertainty -> manner or downtoner. No automatic replacement."
+    },
+    {
+      "name": "answerResponsibilityVersusAssurance",
+      "sourceRegex": "(?iu)\\bотвечаю\\b",
+      "expectedInventoryMatches": 5,
+      "standaloneAssuranceRegex": "(?iu)(?:^|[.!?]\\s+)Отвечаю[.!?](?:\\s|$)",
+      "expectedStandaloneMatches": 2,
+      "interpretation": "Standalone Scammer Отвечаю vouches for his claim. Answering a question and being responsible for something are different constructions."
+    }
+  ],
+  "regressionCases": {
+    "temporalPositive": "Bald: Я как-то вернулся домой. Дверь открыта.",
+    "temporalNegativeSense": "Unstable: Как-то я их перекрутил.",
+    "temporalNegativeLexical": "Bald: Я вернулся домой.",
+    "assurancePositive": [
+      "Scammer: Это выигрышная стратегия. Отвечаю.",
+      "Scammer: Мутить темки было как нехер делать, ёпта. Отвечаю."
+    ],
+    "assuranceNegativeStandalone": [
+      "Miner: Я тут за всё отвечаю.",
+      "Scammer: За базар отвечаю.",
+      "Experienced: Я тебе отвечаю!"
+    ],
+    "responsibilityTarget": "Miner: ...отговарям за всичко.",
+    "occasionRepair": "Веднъж се прибрах вкъщи.",
+    "rejectedOccasionCalque": "Прибрах се някак.",
+    "assuranceRepair": "Гарантирам.",
+    "rejectedAssuranceCalque": "Отговарям."
+  },
+  "glossaryRules": [
+    "theater-man: male; mother and grandmother; coarse familiar voice; distinguish Wolfhound.",
+    "player: male; retain revelation order.",
+    "Scammer service prefix preserved; actual compiled betting/KIS scene controls assurance; no invented name or speaker attribution."
+  ],
+  "bounds": "All accepted source matches, not a speaker whitelist or generated-ID append. Exact target controls checked separately. Voice v6 unchanged; Review03 found no voice selector defect."
+}

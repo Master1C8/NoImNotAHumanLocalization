@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "/root/bg_independent_review_01",
+  "independence": "Separately assigned no-history reviewer; authored input not modified; no delegation",
+  "model": "Codex GPT-6 family; exact backend identifier not exposed to reviewer",
+  "reasoningLevel": "not exposed",
+  "game": "No, I'm not a Human",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "targetLocale": "bg",
+  "scope": "text only; images/textures excluded",
+  "status": "independent review completed with findings; CLEAN acceptance rejected",
+  "closureSha256": "02f71990ef36924e648faabace5eddef3a2c6729738c83b082e3adb2ef689c2f",
+  "handoffSha256": "2efc282ea0117f274e710134de9c11ba4d9d04aa197666f37807b7e3eedbef64",
+  "handoffPinsVerifiedUnchangedAtEnd": {
+    "semantic-first-pass-cycle-000.json": "c5a8b2a604bf4b78d2525bbbe1ef5a66a661397d3558e8a95fda6f509a7bde86",
+    "correction-batch-001.json": "f253008c279f842b367d92381542892a62bf1fc337dcc52aa39a922deb557db0",
+    "correction-batch-001-result.json": "53b09aa6d7e0556986b9565f9f5b6218443f76c3db56e792b9f6420cf71cc228",
+    "semantic-closure-selector-cycle-001.json": "4314438702fdd6a76662b54271bd1dd4c7d552c3c22cb1991bbe5ac1cf984b2b",
+    "build_semantic_closure.py": "d561f78b5ceb9ac4ba0428bde147f24ce1aa90a56f0c646f18c4c7553b699dd0",
+    "verify_correction_delta.py": "e25671f3fefe115858fb7de05501c0d5543dda57f62d4ec6c52de5c0616517ca",
+    "semantic-closure-cycle-001.json": "02f71990ef36924e648faabace5eddef3a2c6729738c83b082e3adb2ef689c2f",
+    "semantic-cycle-001-closure.ids": "1e902d1254709186f20a571cb07c1a80be70ae07eb1dadda3ecec3f6904516aa"
+  },
+  "sourcePins": {
+    "Documentation/text-source-acceptance-v1.json": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+    "Source/localization-inventory-v3/strings.jsonl": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+    "Source/localization-inventory-v3/static-text.jsonl": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+    "Source/preserve-exactly-v4.json": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+    "Documentation/glossary-translations/canonical-reviews/artifacts/bg/layer.json": "28d7eb651d95b56a72a5a4acefcba5f434dcbe6925a2233126655e13b0e01cab",
+    "/Users/antonkrutov/Desktop/SiteForMods/data/games/no-im-not-a-human/glossary.json": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+    "Documentation/bg-text-checkpoint.json": "1cd6e45e75b2bc02e00baa3b7382b6f9126dd184406e28752bd4a8125cb21dec",
+    "Translations/bg/semantic-first-pass-cycle-000.json": "c5a8b2a604bf4b78d2525bbbe1ef5a66a661397d3558e8a95fda6f509a7bde86",
+    "Translations/bg/correction-batch-001.json": "f253008c279f842b367d92381542892a62bf1fc337dcc52aa39a922deb557db0",
+    "Translations/bg/correction-batch-001-result.json": "53b09aa6d7e0556986b9565f9f5b6218443f76c3db56e792b9f6420cf71cc228",
+    "Source/glossary-corpus-v2/current-dialogs.jsonl": "dee07c8895a52dba6463a575c65d95e77fc3fafb6efb85ce19f3e445bf2d6c7c",
+    "Source/glossary-corpus-v2/runtime-bindings.json": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+    "Documentation/static-text-scope-v2.json": "1236570c4ff15bb00eed3b5d4b7cbf8a2b2291772e4c028c69c0836cbb11edaa",
+    "Documentation/embedded-text-assets-scope-v2.json": "6b160d5b0d88fa5b59ce9f723de7f1c6de47edbbf3050e07a4b2e2b45e2531bc"
+  },
+  "approvedGlossaryPath": "Documentation/glossary-translations/bg/layer.json",
+  "approvedGlossarySha256": "28d7eb651d95b56a72a5a4acefcba5f434dcbe6925a2233126655e13b0e01cab",
+  "approvedArtifactParity": true,
+  "coverage": {
+    "closurePairsRead": 1506,
+    "closureIndicesInclusive": [
+      0,
+      1505
+    ],
+    "readIdsPath": "Translations/bg/independent-review-01/read.ids",
+    "readIdsSha256": "1e902d1254709186f20a571cb07c1a80be70ae07eb1dadda3ecec3f6904516aa",
+    "mandatoryPairsRead": 908,
+    "mandatoryIdsSha256": "acc6de6767b9ae5de65be692bd5101068f6842985c124d7298570aee53134f49",
+    "supplementaryPairsRead": 50,
+    "supplementaryIdsPath": "Translations/bg/independent-review-01/supplementary-read.ids",
+    "supplementaryIdsSha256": "b8146552ac373725fc52949976458db076d55b30f52c135e736178d7b00464c3",
+    "fullCorpusClaim": "No new full 16538-unit review claimed. Author cycle-000 remains separately pinned evidence."
+  },
+  "findings": {
+    "closureFullUnitProposals": 32,
+    "closureProfanityProposals": 21,
+    "supplementaryFullUnitProposals": 19,
+    "totalFullUnitProposals": 51,
+    "selectorFindings": 1,
+    "applied": 0,
+    "proposalStatus": "Must be adjudicated by author against source/context, applied through owning tools if accepted, and reviewed through next immutable delta closure."
+  },
+  "mandatoryRegressions": {
+    "allUiMenusSaveLocaleHudTitles": {
+      "read": 259,
+      "status": "No objective semantic finding in this group"
+    },
+    "allStaticCreditsEnvironmentAndTechnicalLiterals": {
+      "read": 178,
+      "status": "findings: cat designation, wishlist truncation, publisher proper name, beer pronoun"
+    },
+    "acceptedChecksDialogue": {
+      "read": 1,
+      "status": "no objective semantic finding"
+    },
+    "genderSensitiveReleaseChoices": {
+      "read": 364,
+      "status": "363 contextually correct; Nun_Ears masculine object is wrong"
+    },
+    "dialogueFormatSlotsAndMarkup": {
+      "read": 106,
+      "status": "protected placeholders and displayed meaning read; no objective new placeholder/markup proposal. Physical rendering is not verified."
+    }
+  },
+  "context": {
+    "sourceTableRowsWithCompiledUses": 1036,
+    "sourceTableRowsWithoutCurrentCompiledUses": 32,
+    "acceptedSupplementalRows": "The source gate already accepts table rows absent from current compiled program. Their stored speaker/key and glossary context were read; no current consumer is invented. Runtime reachability remains unverified.",
+    "compiledContextPath": "Translations/bg/independent-review-01/compiled-context.json",
+    "rawCompiledNodesPath": "Translations/bg/independent-review-01/compiled-nodes.json",
+    "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+    "compiledNodeCount": 3255,
+    "managedConsumerPath": "Translations/bg/independent-review-01/managed-context.json",
+    "managedSourceHashes": {
+      "Assembly-CSharp.dll": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+      "YarnSpinner.Unity.dll": "727e3827d0f71c0e54d5669c22ec4b0ee5936508113a13eddc15ebb3912841b5"
+    },
+    "consumerObservations": [
+      "Pinned Unity line provider retrieves localized RawText and source substitutions; DialogueRunner expands substitutions before ParseMarkup for lines and options.",
+      "LocalizedLine removes character markup range for TextWithoutCharacterName. LineView and OptionView consume the parsed result.",
+      "runSelectedOptionAsLine is false in the pinned runner binding, preserving options as choices instead of repeating them as dialogue lines.",
+      "Compiled option order and destinations were examined for edited nodes; source table order is not treated as dialogue order.",
+      "GetCharacterOnPlace retrieves an occupant and its UI characterName_ localization. Dynamic character strings are separate inputs and not inferred to be a single common gender.",
+      "ConsumableCloseUpView uses the selected consumable to fetch localized name and narrative separately and appends the literal quantity format \" (x{0})\".",
+      "CultistPriest_Entrance_Occupied fragments are separate compiled line instructions with GetCharacterOnPlace inputs, not fabricated by concatenating flattened neighbors.",
+      "Phone key aliases resolve to phone_extrasens and phone_mothershusband_8; NotTrue_Asking_4_2 has no current compiled node and is kept as supplemental source context."
+    ],
+    "physicalRuntime": "not run; owner prohibited game launch",
+    "renderingAndLayout": "not run; no graphical parity claimed"
+  },
+  "preflight": {
+    "initialClosureVerify": "passed",
+    "initialCorrectionDelta": "passed; exactly 60 target-field replacements across 50 files; 361 files unchanged",
+    "finalUnchangedClosureVerify": "passed",
+    "finalUnchangedCorrectionDelta": "passed",
+    "proposalProtectedPrefixAndSlotCheck": "passed for recorded closure proposals; not an authored build or consumer execution test"
+  },
+  "acceptance": {
+    "completeAssignedPairRead": true,
+    "cleanIndependentDiffAudit": false,
+    "selectorComplete": false,
+    "finalEditorialAcceptance": false,
+    "runtimeVisualBuildIntegration": "pending; outside reviewer scope"
+  },
+  "telemetry": {
+    "inputTokens": null,
+    "cachedInputTokens": null,
+    "outputTokens": null,
+    "reasoningTokens": null,
+    "totalTokens": null,
+    "note": "Per-request usage counters are not exposed to this reviewer. Unknown is not zero. Parent coordinator may have session telemetry; this report does not estimate counts or costs."
+  },
+  "nextAction": "Author adjudicates one consolidated proposal set, repairs canonical selector recipe, applies accepted corrections together, rebuilds immutable next closure, and assigns exact delta review. Do not restart unchanged full corpus unless universal restart conditions arise.",
+  "inspectionAttempts": [
+    {
+      "step": "Raw Yarn labels",
+      "initialResult": "Parser expected explicit zero-valued map label; default omitted field caused IndexError",
+      "changedHypothesis": "Read absent map value as protobuf default zero",
+      "finalResult": "Parsed 3255 nodes successfully"
+    },
+    {
+      "step": "Supplementary voice candidates",
+      "initialResult": "Overbroad Cyrillic еб subpattern matched ordinary words such as тебя; 130 candidates; truncated output not credited",
+      "changedHypothesis": "Bound lexical prefixes and initial swear stems instead of arbitrary letters around еб",
+      "finalResult": "50 untruncated supplementary pairs read;19 proposals"
+    }
+  ]
+}

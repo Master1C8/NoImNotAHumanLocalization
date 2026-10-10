@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "locale": "bg",
+  "cycle": "001",
+  "closureSha256": "02f71990ef36924e648faabace5eddef3a2c6729738c83b082e3adb2ef689c2f",
+  "findingCount": 32,
+  "profanityFindingCount": 21,
+  "findings": [
+    {
+      "findingId": "bg-independent-01-001",
+      "closureIndex": 389,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457668730890",
+      "authoredPath": "Translations/bg/dialogue-batch-020.json",
+      "key": "line:window_2_1_0328fae",
+      "sceneNodes": [
+        "window_2_1"
+      ],
+      "source": "Window: Кажется, эта кожа ему не по размеру.",
+      "currentFullTarget": "Window: Сякаш тази кожа му е тясна.",
+      "proposedFullTarget": "Window: Сякаш тази кожа не му е по мярка.",
+      "category": "unsupported specificity",
+      "objectiveReason": "Russian says the skin does not fit his size, without saying whether it is too tight or too loose. Тясна asserts too tight; the preceding folds do not authorize that direction. The compiled window_2_1 sequence is pale person → folds → size mismatch → gaze → fear.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-002",
+      "closureIndex": 444,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457559678981",
+      "authoredPath": "Translations/bg/dialogue-batch-028.json",
+      "key": "line:window_2_3_0328fae",
+      "sceneNodes": [
+        "window_2_3"
+      ],
+      "source": "Window: Кажется, эта кожа ему не по размеру.",
+      "currentFullTarget": "Window: Сякаш тази кожа му е тясна.",
+      "proposedFullTarget": "Window: Сякаш тази кожа не му е по мярка.",
+      "category": "unsupported specificity",
+      "objectiveReason": "Exact Russian-source repetition of closure row 389. This is an accepted supplemental row without a current compiled use; the same unsupported tightness assertion must not survive in the retained translated table.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-003",
+      "closureIndex": 565,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456779538432",
+      "authoredPath": "Translations/bg/dialogue-batch-082.json",
+      "key": "line:Wolfhound_Entrance_1_07832cc",
+      "sceneNodes": [
+        "Wolfhound_Entrance_1"
+      ],
+      "source": "Wolfhound: Эти ваши социальные нормы и прочая херня больше не работают.",
+      "currentFullTarget": "Wolfhound: Тия ваши обществени норми и всякакви други простотии вече не важат.",
+      "proposedFullTarget": "Wolfhound: Тия ваши обществени норми и всякакви други шибани простотии вече не важат.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-004",
+      "closureIndex": 594,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456196530179",
+      "authoredPath": "Translations/bg/dialogue-batch-124.json",
+      "key": "line:FortuneTeller_Entrance_2_0ee9b30",
+      "sceneNodes": [
+        "FortuneTeller_Entrance_2"
+      ],
+      "source": "Нахер ты меня этим грузишь?",
+      "currentFullTarget": "Защо, по дяволите, ме занимаваш с това?",
+      "proposedFullTarget": "Защо, мамка му, ме занимаваш с това?",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-005",
+      "closureIndex": 634,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455819042820",
+      "authoredPath": "Translations/bg/dialogue-batch-151.json",
+      "key": "line:Bald_Asking_4_0976cfe",
+      "sceneNodes": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: И это просто пиздец…",
+      "currentFullTarget": "Bald: И това е пълен кошмар…",
+      "proposedFullTarget": "Bald: И това е пълен шибан кошмар…",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-006",
+      "closureIndex": 641,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848521",
+      "authoredPath": "Translations/bg/dialogue-batch-151.json",
+      "key": "line:Bald_Asking_4_0ee241c",
+      "sceneNodes": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: Это был полный пиздец…",
+      "currentFullTarget": "Bald: Беше пълен ужас…",
+      "proposedFullTarget": "Bald: Беше пълен шибан ужас…",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-007",
+      "closureIndex": 643,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848519",
+      "authoredPath": "Translations/bg/dialogue-batch-151.json",
+      "key": "line:Bald_Asking_4_0d1418a",
+      "sceneNodes": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: Ну и со всем пиздецом, что тут начал происходить, люди озверели, а коллекторы тем более.",
+      "currentFullTarget": "Bald: А с целия този ад, който настана тук, хората озверяха, особено събирачите на дългове.",
+      "proposedFullTarget": "Bald: А с целия този шибан ад, който настана тук, хората озверяха, особено събирачите на дългове.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-008",
+      "closureIndex": 644,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848518",
+      "authoredPath": "Translations/bg/dialogue-batch-151.json",
+      "key": "line:Bald_Asking_4_0df4246",
+      "sceneNodes": [
+        "Bald_Asking_4"
+      ],
+      "source": "Bald: Короче, пиздец полный.",
+      "currentFullTarget": "Bald: С две думи, пълен ужас.",
+      "proposedFullTarget": "Bald: С две думи, пълен шибан ужас.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-009",
+      "closureIndex": 669,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455751933958",
+      "authoredPath": "Translations/bg/dialogue-batch-155.json",
+      "key": "line:Experienced_Asking_4_030b3c8",
+      "sceneNodes": [
+        "Experienced_Asking_4"
+      ],
+      "source": "Experienced: Жена нашла себе другого, ребёнок боялся меня, а на работу я уже не могу устроиться из-за судимости.",
+      "currentFullTarget": "Experienced: Жена ми си намери друг, детето се страхуваше от мен, а заради присъдата вече не можех да си намеря работа.",
+      "proposedFullTarget": "Experienced: Жена ми си намери друг, детето се страхуваше от мен, а заради присъдата вече не мога да си намеря работа.",
+      "category": "tense",
+      "objectiveReason": "Source contrasts past family events with current inability to obtain work (не могу). Target не можех makes the employment problem past. Compiled Experienced_Asking_4 instruction 21 places this after the account of his third imprisonment and before the player asks what prevents returning now.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-010",
+      "closureIndex": 674,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455751933953",
+      "authoredPath": "Translations/bg/dialogue-batch-156.json",
+      "key": "line:Experienced_Asking_4_0128363",
+      "sceneNodes": [
+        "Experienced_Asking_4"
+      ],
+      "source": "Experienced: Будучи первоходом, я думал — вот освобожусь, сразу завяжу.",
+      "currentFullTarget": "Experienced: След първия си престой в затвора си мислех: само да изляза и веднага спирам.",
+      "proposedFullTarget": "Experienced: Когато бях в затвора за първи път, си мислех: само да изляза и веднага спирам.",
+      "category": "chronology",
+      "objectiveReason": "Будучи первоходом and вот освобожусь locate the thought during first imprisonment. След първия си престой says after that imprisonment, contradicting the still-future release. Compiled Experienced_Asking_4 instruction 16 precedes the account of finding a wife after release.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-011",
+      "closureIndex": 679,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455701602314",
+      "authoredPath": "Translations/bg/dialogue-batch-159.json",
+      "key": "line:Rocker_Asking_2_0413ed7",
+      "sceneNodes": [
+        "Rocker_Asking_2"
+      ],
+      "source": "Rocker: Пиздец, а не жизнь, короче…",
+      "currentFullTarget": "Rocker: Животът е пълна гадост, с две думи…",
+      "proposedFullTarget": "Rocker: Животът е пълна шибана гадост, с две думи…",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-012",
+      "closureIndex": 683,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455701602310",
+      "authoredPath": "Translations/bg/dialogue-batch-159.json",
+      "key": "line:Rocker_Asking_2_0271cd7",
+      "sceneNodes": [
+        "Rocker_Asking_2"
+      ],
+      "source": "Rocker: Лучше разъебошить старую гитару, чем голову. Гитару можно склеить если что, голову — нет.",
+      "currentFullTarget": "Rocker: По-добре да потроша стара китара, отколкото главата си. Китарата можеш да залепиш, ако се наложи, главата — не.",
+      "proposedFullTarget": "Rocker: По-добре да разеба стара китара, отколкото главата си. Китарата можеш да залепиш, ако се наложи, главата — не.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-013",
+      "closureIndex": 684,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455701602309",
+      "authoredPath": "Translations/bg/dialogue-batch-159.json",
+      "key": "line:Rocker_Asking_2_0ecd9b7",
+      "sceneNodes": [
+        "Rocker_Asking_2"
+      ],
+      "source": "Rocker: Каждый раз заканчивали песню паузой. Сидим, молчим, и кто-то тихо добавляет: «Этот куплет был за такого-то братка». И всё, без плача, без хуйни.",
+      "currentFullTarget": "Rocker: Всеки път завършвахме песента с пауза. Седим, мълчим и някой тихо добавя: „Този куплет беше за еди-кой си приятел“. И толкова — без плач, без глупости.",
+      "proposedFullTarget": "Rocker: Всеки път завършвахме песента с пауза. Седим, мълчим и някой тихо добавя: „Този куплет беше за еди-кой си приятел“. И толкова — без плач, без шибани глупости.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-014",
+      "closureIndex": 772,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454963404809",
+      "authoredPath": "Translations/bg/dialogue-batch-212.json",
+      "key": "line:Couple_Asking_5_0e2fdf5",
+      "sceneNodes": [
+        "Couple_Asking_5"
+      ],
+      "source": "Couple: Да она заебала, понимаете?",
+      "currentFullTarget": "Couple: Писна ми от нея, разбирате ли?",
+      "proposedFullTarget": "Couple: Мамка му, писна ми от нея, разбирате ли?",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-015",
+      "closureIndex": 815,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454363619339",
+      "authoredPath": "Translations/bg/dialogue-batch-253.json",
+      "key": "line:Esenin_Asking_1_07b40a2",
+      "sceneNodes": [
+        "Esenin_Asking_1"
+      ],
+      "source": "Esenin: Они все ёбнулись. Кто на фоне стресса,  кто от алкоголя.",
+      "currentFullTarget": "Esenin: Всички са откачили. Някои от стрес, други от алкохола.",
+      "proposedFullTarget": "Esenin: Всички са откачили, мамка му. Някои от стрес, други от алкохола.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-016",
+      "closureIndex": 831,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454246178822",
+      "authoredPath": "Translations/bg/dialogue-batch-261.json",
+      "key": "line:Anger_Asking_2_06ebb11",
+      "sceneNodes": [
+        "Anger_Asking_2"
+      ],
+      "source": "Anger: Ебанутые. Они даже нормальных людей склоняют к своей бредовой вере, как мою…",
+      "currentFullTarget": "Anger: Откачалки. Привличат дори нормални хора към налудничавата си вяра, като моята…",
+      "proposedFullTarget": "Anger: Шибани откачалки. Привличат дори нормални хора към налудничавата си вяра, като моята…",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-017",
+      "closureIndex": 842,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454191652873",
+      "authoredPath": "Translations/bg/dialogue-batch-265.json",
+      "key": "line:Wheelchair_Asking_1_07f1362",
+      "sceneNodes": [
+        "Wheelchair_Asking_1"
+      ],
+      "source": "WheelChair: Я сам-то не разбираюсь. И мне похер.",
+      "currentFullTarget": "WheelChair: Аз самият не разбирам много. И не ми пука.",
+      "proposedFullTarget": "WheelChair: Аз самият не разбирам много. И ми е през кура.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-018",
+      "closureIndex": 904,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453935800322",
+      "authoredPath": "Translations/bg/dialogue-batch-283.json",
+      "key": "line:Tough_Armpit_0713917",
+      "sceneNodes": [
+        "Tough_Armpit"
+      ],
+      "source": "Tough: Ты же не из тех фриков, которые будут доёбываться с этим признаком?",
+      "currentFullTarget": "Tough: Нали не си от ония изроди, които ще се заяждат заради този признак?",
+      "proposedFullTarget": "Tough: Нали не си от ония изроди, които ще се заяждат заради този шибан признак?",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-019",
+      "closureIndex": 940,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453788999685",
+      "authoredPath": "Translations/bg/dialogue-batch-293.json",
+      "key": "line:Nun_Ears_07379ed",
+      "sceneNodes": [
+        "Nun_Ears"
+      ],
+      "source": "Отпустить",
+      "currentFullTarget": "Пусни го",
+      "proposedFullTarget": "Пусни я",
+      "category": "character agreement",
+      "objectiveReason": "This option ends the ear check on the canonically female nun. Compiled Nun_Ears instruction 6 is this exact option, following ShowSign Nun EAR and before the gun option. Approved glossary nun requires feminine agreement; masculine го points to a male.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-020",
+      "closureIndex": 952,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453747056649",
+      "authoredPath": "Translations/bg/dialogue-batch-296.json",
+      "key": "line:Anger_Teeth_0bca946",
+      "sceneNodes": [
+        "Anger_Teeth"
+      ],
+      "source": "Anger: Меня это напрягает просто пиздец. Но я слишком поздно ловлю себя на этой херне.",
+      "currentFullTarget": "Anger: Това адски ме напряга. Но се усещам твърде късно, че пак го правя.",
+      "proposedFullTarget": "Anger: Това адски ме напряга, ебаси. Но се усещам твърде късно, че пак го правя.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-021",
+      "closureIndex": 959,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453528952836",
+      "authoredPath": "Translations/bg/dialogue-batch-299.json",
+      "key": "line:Esenin_Eyes_DontShoot_0ef70dc",
+      "sceneNodes": [
+        "Esenin_Eyes_DontShoot"
+      ],
+      "source": "Esenin: Но я не к этому. Я к тому, что как только ты опустишь ружьё после такой хуйни, так тебя бы отпиздили знатно.",
+      "currentFullTarget": "Esenin: Но не е там работата. Работата е, че щом свалиш пушката след такава простотия, ще те пребият здравата.",
+      "proposedFullTarget": "Esenin: Но не е там работата. Работата е, че щом свалиш пушката след такава шибана простотия, ще те пребият здравата.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-022",
+      "closureIndex": 1071,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452786561026",
+      "authoredPath": "Translations/bg/dialogue-batch-334.json",
+      "key": "line:Scammer_Ears_065972d",
+      "sceneNodes": [
+        "Scammer_Ears"
+      ],
+      "source": "Scammer: Смотришь, говоришь, что внутри Гостевой, требуешь с человека деньги за то, что никому не рассказываешь об этом.",
+      "currentFullTarget": "Scammer: Гледаш човека, казваш му, че вътре в него има Гост, и му искаш пари, за да не разказваш на никого.",
+      "proposedFullTarget": "Scammer: Гледаш човека, казваш му, че в него е Гостният дух, и му искаш пари, за да не разказваш на никого.",
+      "category": "approved concept distinction",
+      "objectiveReason": "Source explicitly uses Гостевой, the spirit term, not Гость. Approved visitor-spirit requires Гостният дух and forbids merging it with a Guest creature. Compiled Scammer_Ears instruction 1 is his account of a blackmail scam, between his claim to have invented it and asking not to use it against him.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-023",
+      "closureIndex": 1146,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452383907842",
+      "authoredPath": "Translations/bg/dialogue-batch-360.json",
+      "key": "line:Fatman_Armpit_Gun_0754963",
+      "sceneNodes": [
+        "Fatman_Armpit_Gun"
+      ],
+      "source": "Fatman: Ну подумаешь, с подмышками проблемы! Кто в наше время без херни какой-то?",
+      "currentFullTarget": "Fatman: Голяма работа, имам проблем с подмишниците! Кой в днешно време няма някакви гадости?",
+      "proposedFullTarget": "Fatman: Голяма работа, имам проблем с подмишниците! Кой в днешно време няма някакви шибани гадости?",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-024",
+      "closureIndex": 1292,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451851231235",
+      "authoredPath": "Translations/bg/dialogue-batch-395.json",
+      "key": "line:Anger_Ears_DontShoot_0a8f53c",
+      "sceneNodes": [
+        "Anger_Ears_DontShoot"
+      ],
+      "source": "Anger: Раньше думал, что это нервная херня.",
+      "currentFullTarget": "Anger: Преди мислех, че е някаква нервна простотия.",
+      "proposedFullTarget": "Anger: Преди мислех, че е някаква шибана нервна простотия.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-025",
+      "closureIndex": 1293,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451847036936",
+      "authoredPath": "Translations/bg/dialogue-batch-395.json",
+      "key": "line:Anger_Photo_DontShoot_0590dc4",
+      "sceneNodes": [
+        "Anger_Photo_DontShoot"
+      ],
+      "source": "Anger: Я тогда ржал, говорил ей: «Ну бабуль, ну хуйня же это».",
+      "currentFullTarget": "Anger: Тогава се смеех и ѝ казвах: „Абе, бабо, това са пълни глупости.“",
+      "proposedFullTarget": "Anger: Тогава се смеех и ѝ казвах: „Абе, бабо, това са пълни шибани глупости.“",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-026",
+      "closureIndex": 1294,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451847036934",
+      "authoredPath": "Translations/bg/dialogue-batch-395.json",
+      "key": "line:Anger_Photo_DontShoot_0dcc2f6",
+      "sceneNodes": [
+        "Anger_Photo_DontShoot"
+      ],
+      "source": "Anger: У меня даже фото бабушки не сохранилось. Она не любила эту херню.",
+      "currentFullTarget": "Anger: Не ми е останала дори снимка на баба ми. Не обичаше тези глупости.",
+      "proposedFullTarget": "Anger: Не ми е останала дори снимка на баба ми. Не обичаше тези шибани глупости.",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-027",
+      "closureIndex": 1298,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451834454022",
+      "authoredPath": "Translations/bg/dialogue-batch-396.json",
+      "key": "line:Anger_Armpit_Gun_094b8a5",
+      "sceneNodes": [
+        "Anger_Armpit_Gun"
+      ],
+      "source": "Anger: Поверить не могу. Да ты просто ебанутый!..",
+      "currentFullTarget": "Anger: Не мога да повярвам. Ти си напълно откачен!..",
+      "proposedFullTarget": "Anger: Не мога да повярвам. Ти си просто шибан откачалник!..",
+      "category": "profanity",
+      "objectiveReason": "The full Russian unit contains explicit coarse profanity, while its current Bulgarian rendering removes it. The approved character voice and universal contract retain profanity; the author already accepted equivalent register restoration in correction decisions 40–42 and 47. This proposal restores coarse register in this complete unit without changing the speaker, event or referent.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-028",
+      "closureIndex": 1302,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451826065414",
+      "authoredPath": "Translations/bg/dialogue-batch-396.json",
+      "key": "line:Anger_Photo_0566de4",
+      "sceneNodes": [
+        "Anger_Photo"
+      ],
+      "source": "Anger: Херачь.",
+      "currentFullTarget": "Anger: Давай, стреляй.",
+      "proposedFullTarget": "Anger: Давай, снимай, мамка му.",
+      "category": "action and consumer",
+      "objectiveReason": "This is permission to take an aura photograph, not permission to fire the shotgun. Compiled Anger_Photo instruction 0 is followed immediately by ShowSign Anger AURAPHOTO; drawing the gun is a later separate player option. Bulgarian стреляй instructs gun firing and changes the action. The replacement keeps an impatient coarse tone.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-029",
+      "closureIndex": 1342,
+      "stableId": "tmp:level0:2005:m_text",
+      "authoredPath": "Translations/bg/static-text-draft.json",
+      "key": null,
+      "sceneNodes": [],
+      "source": "Unlock cat",
+      "currentFullTarget": "Отключи котката",
+      "proposedFullTarget": "Отключи котарака",
+      "category": "approved cat designation",
+      "objectiveReason": "The source debug action unlocks the game cat. Approved cat explicitly preserves котарак and the source male grammatical designation without claiming independently established biological sex. Котката departs from that specified designation; it is not a reason to change the glossary or infer biological facts.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-030",
+      "closureIndex": 1366,
+      "stableId": "tmp:level0:2140:m_text",
+      "authoredPath": "Translations/bg/static-text-draft.json",
+      "key": null,
+      "sceneNodes": [],
+      "source": "В желаемое",
+      "currentFullTarget": "Добави в списъка с желани",
+      "proposedFullTarget": "Добави в списъка с желания",
+      "category": "word truncation",
+      "objectiveReason": "Желани is a truncated adjective, not the noun желания required by wishlist. Source В желаемое and the correctly translated full UI wishlist unit identify the action. Serialized scope maps this exact label to a missing source-table binding, so its retained authored fallback text also needs to be correct.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-031",
+      "closureIndex": 1419,
+      "stableId": "tmp:level1:3899:m_text",
+      "authoredPath": "Translations/bg/static-text-draft.json",
+      "key": null,
+      "sceneNodes": [],
+      "source": "ВОТ ЭТО ДА! CRITICAL REFLEX!",
+      "currentFullTarget": "ЛЕЛЕ! КРИТИЧЕН РЕФЛЕКС!",
+      "proposedFullTarget": "ЛЕЛЕ! CRITICAL REFLEX!",
+      "category": "proper name",
+      "objectiveReason": "CRITICAL REFLEX is the unchanged Latin proper name in the Russian-source exclamation, alongside retained developer names in the same static inventory. Translating it to КРИТИЧЕН РЕФЛЕКС replaces the publisher name with an ordinary phrase. Serialized scope identifies the unbound Notepad/LeftPage text.",
+      "status": "proposal for author adjudication; not applied"
+    },
+    {
+      "findingId": "bg-independent-01-032",
+      "closureIndex": 1493,
+      "stableId": "tmp:level1:4913:m_text",
+      "authoredPath": "Translations/bg/static-text-draft.json",
+      "key": null,
+      "sceneNodes": [],
+      "source": "A friend brought it. Even beer makes me sleepy...",
+      "currentFullTarget": "Приятел го донесе. Дори бирата ме приспива...",
+      "proposedFullTarget": "Приятел я донесе. Дори бирата ме приспива...",
+      "category": "object agreement",
+      "objectiveReason": "The description refers to beer, labeled Бира in the adjacent same consumable display, and Бира is feminine in the approved glossary. Го disagrees with that named drink. Serialized scope places this in ConsumablesCloseUp/NarrativeDescriptionPanel; the actual SetupConsumable consumer sets localized name and narrative for the same selected consumable. This is a retained static initial value, not a claim it remains visible after SetupConsumable overwrites it.",
+      "status": "proposal for author adjudication; not applied"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "sealedAtUtc": "2026-10-10T07:13:16.231515+00:00",
+  "closureVerify": {
+    "exitCode": 0,
+    "closureIds": 2686,
+    "evidenceSha256": "b7c3dea683dc2f9ccee390d0f4d2dc9a5a246d4956be57adabc42ee870e4c16b"
+  },
+  "deltaVerify": {
+    "exitCode": 0,
+    "reviewIds": 2110,
+    "deltaSha256": "cd27c80ced85ef57fb765c3dd83abd3b4098d70e4659cf7e977c3e4742700266",
+    "retired": 0
+  },
+  "independentEvidenceVerify": {
+    "verified": true,
+    "pins": 851,
+    "deltaPairs": 2110,
+    "mandatoryFresh": 401,
+    "mandatoryPriorApplicable": 507,
+    "findings": 43,
+    "voiceCandidates": 735,
+    "selectorMisses": 6
+  },
+  "diagnosticAttempts": [
+    {
+      "script": "verify_evidence.py",
+      "exitCode": 1,
+      "boundary": "candidate matchedWords list equality",
+      "reason": "Reviewer diagnostic sorted/deduplicated words; canonical selector preserves source-token order and repetition. All 735 ordered candidate IDs matched.",
+      "repair": "Immutable verify_evidence_v2.py preserves exact source word order, repetitions and exclusion semantics; exact candidate IDs and matchedWords then passed."
+    },
+    {
+      "boundary": "raw compiled-node equality",
+      "reason": "Python tuples versus JSON arrays; JSON-normalized equality of all 3255 nodes passed; no game or source change."
+    }
+  ],
+  "mutatedAuthoredSourceSharedEvidence": false,
+  "telemetry": "Token counters unavailable to this agent; unknown, not zero; reporting tail unmeasured."
+}

@@ -1,0 +1,12 @@
+{
+  "findingId": "bg-independent-01-selector",
+  "selectorPath": "Translations/bg/semantic-closure-selector-cycle-001.json",
+  "rule": "vulgarCharacterVoice",
+  "objectiveReason": "The current rule selects еб... and заеб..., хер..., хуйн..., and ублюд..., but misses enumerated profanity in the same selected speakers: пизд-, initial ёб-, prefixed доёб-/уеб-/наеб-, and хуя/хуй forms. The accepted corrections explicitly restore profanity for these voices. Fifty accepted source IDs outside the current closure match the bounded supplementary selector, including nineteen units whose current full target removes coarse register.",
+  "boundedSupplementarySelector": "(?iu)^(?:Provocateur|Wolfhound|Couple|Esenin|Anger):.*\\b(?:пизд[а-яё]*|(?:на|по|ни|до)?ху[йея][а-яё]*|[её]б(?:а|у|н)[а-яё]*|(?:за|до|у|на|от|разъ|вы)[её]б[а-яё]*)\\b",
+  "additionalReadIdsPath": "Translations/bg/independent-review-01/supplementary-read.ids",
+  "additionalReadCount": 50,
+  "supplementaryFindingCount": 19,
+  "repairInstruction": "Author should expand the canonical rule or specification to retain these still-applicable source spelling/inflection dependencies, reconcile full accepted source and authored target inputs, then regenerate an immutable next cycle including the containing scenes, repetitions and mandatory regressions. Do not append these IDs only to a generated list. The fifty matches are an evidenced lower bound for missing dependencies, not proof that this proposed supplementary regex covers every possible profanity form or all speakers.",
+  "fullRestart": "No source/glossary/mapping change found. This bounded pattern can be repaired with dependency expansion; full corpus acceptance remains pending until the expanded evidence is reviewed."
+}
