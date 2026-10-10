@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "decision": "Root reviewed final author chain and actual independent decision applicability; accepted text offline",
+  "authorHandoff": {
+    "path": "Translations/hi/final-gate/root-handoff.json",
+    "sha256": "a3a2c8d680f424c4da5732ffcef5cdc9ff2b961a02f02f1652ca918b4769aa51"
+  },
+  "readOnlyVerifier": {
+    "path": "Translations/hi/final-gate/verify.py",
+    "sha256": "81ffea3e069662f081f0a4e1fb96456c3693443a59741d3ec5266455ac60346c",
+    "rootReplayExitCode": 0
+  },
+  "checkedCounts": {
+    "firstPassUnits": 16538,
+    "correctionApplications": 134,
+    "uniqueCorrectedIds": 131,
+    "closure": 5216,
+    "fresh": 9,
+    "reused": 5207,
+    "mandatory": 4805
+  },
+  "administrativeTransition": "Exactly one stale owning sidecar archived and refreshed through its real validator; current authored semantic inputs, independent verdict and source/glossary/consumer bindings unchanged. Historical receipts retain their exact preimages.",
+  "schemaChanges": "Keep authored/evidence/exact fields; remove future root acceptance/build/commit statements from remainingLimits only. Root delivery proofs record those later boundaries. No wording or evidence is replaced.",
+  "runtime": "not-run",
+  "fontRenderingLayout": "not-run",
+  "imagesTextures": "excluded",
+  "installation": "not-run",
+  "publicationDeployment": "not-run"
+}

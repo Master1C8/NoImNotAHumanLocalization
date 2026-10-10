@@ -1,0 +1,686 @@
+{
+  "assemblyPath": "Runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "assemblySha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "methods": [
+    {
+      "methodToken": "0x600153f",
+      "owner": "DialogCommandsInstance",
+      "method": "GetPhoneNumber",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 13,
+          "opcode": "ldc.i4.1",
+          "operand": null
+        },
+        {
+          "offset": 14,
+          "opcode": "call",
+          "operand": {
+            "token": "0x2b000308",
+            "table": "MethodSpec",
+            "name": "",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 19,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 20,
+          "opcode": "ldstr",
+          "operand": {
+            "token": "0x700165fd",
+            "string": "0 - "
+          }
+        },
+        {
+          "offset": 25,
+          "opcode": "ldsfld",
+          "operand": {
+            "token": "0x40012a9",
+            "table": "Field",
+            "name": "_instance",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 30,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012d6",
+            "table": "Field",
+            "name": "GotPhoneNumber",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 35,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 36,
+          "opcode": "brtrue.s",
+          "operand": "42"
+        },
+        {
+          "offset": 38,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 39,
+          "opcode": "ldnull",
+          "operand": null
+        },
+        {
+          "offset": 40,
+          "opcode": "br.s",
+          "operand": "48"
+        },
+        {
+          "offset": 42,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 43,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0xa00067c",
+            "table": "MemberRef",
+            "name": "Invoke",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 48,
+          "opcode": "call",
+          "operand": {
+            "token": "0xa00009b",
+            "table": "MemberRef",
+            "name": "Concat",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 53,
+          "opcode": "call",
+          "operand": {
+            "token": "0xa0000a0",
+            "table": "MemberRef",
+            "name": "Log",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 58,
+          "opcode": "ldsfld",
+          "operand": {
+            "token": "0x40012a9",
+            "table": "Field",
+            "name": "_instance",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 63,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012d6",
+            "table": "Field",
+            "name": "GotPhoneNumber",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 68,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 69,
+          "opcode": "brtrue.s",
+          "operand": "74"
+        },
+        {
+          "offset": 71,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 72,
+          "opcode": "ldnull",
+          "operand": null
+        },
+        {
+          "offset": 73,
+          "opcode": "ret",
+          "operand": null
+        },
+        {
+          "offset": 74,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 75,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0xa00067c",
+            "table": "MemberRef",
+            "name": "Invoke",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 80,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "methodToken": "0x6001543",
+      "owner": "DialogCommandsInstance",
+      "method": "GetCharacterOnPlace",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "newobj",
+          "operand": {
+            "token": "0x600156c",
+            "table": "MethodDef",
+            "name": ".ctor",
+            "methodOwner": "<>c__DisplayClass224_0"
+          }
+        },
+        {
+          "offset": 17,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 18,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 20,
+          "opcode": "ldc.i4.1",
+          "operand": null
+        },
+        {
+          "offset": 21,
+          "opcode": "call",
+          "operand": {
+            "token": "0x2b00030a",
+            "table": "MethodSpec",
+            "name": "",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 26,
+          "opcode": "stfld",
+          "operand": {
+            "token": "0x40012f0",
+            "table": "Field",
+            "name": "character",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 31,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 32,
+          "opcode": "ldsfld",
+          "operand": {
+            "token": "0x40012a9",
+            "table": "Field",
+            "name": "_instance",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 37,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012a7",
+            "table": "Field",
+            "name": "_charactersSODataProvider",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 42,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0x60006cb",
+            "table": "MethodDef",
+            "name": "get_CharactersData",
+            "methodOwner": "ICharactersSODataProvider"
+          }
+        },
+        {
+          "offset": 47,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 48,
+          "opcode": "ldftn",
+          "operand": {
+            "token": "0x600156d",
+            "table": "MethodDef",
+            "name": "<GetCharacterOnPlace>b__0",
+            "methodOwner": "<>c__DisplayClass224_0"
+          }
+        },
+        {
+          "offset": 54,
+          "opcode": "newobj",
+          "operand": {
+            "token": "0xa000453",
+            "table": "MemberRef",
+            "name": ".ctor",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 59,
+          "opcode": "call",
+          "operand": {
+            "token": "0x2b000191",
+            "table": "MethodSpec",
+            "name": "",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 64,
+          "opcode": "stfld",
+          "operand": {
+            "token": "0x40012f1",
+            "table": "Field",
+            "name": "characterData",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 69,
+          "opcode": "ldstr",
+          "operand": {
+            "token": "0x70016607",
+            "string": "characterName_"
+          }
+        },
+        {
+          "offset": 74,
+          "opcode": "ldsfld",
+          "operand": {
+            "token": "0x40012a9",
+            "table": "Field",
+            "name": "_instance",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 79,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012a6",
+            "table": "Field",
+            "name": "_charactersManager",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 84,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0x6001643",
+            "table": "MethodDef",
+            "name": "get_CharactersInside",
+            "methodOwner": "ICharactersManager"
+          }
+        },
+        {
+          "offset": 89,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 90,
+          "opcode": "ldftn",
+          "operand": {
+            "token": "0x600156e",
+            "table": "MethodDef",
+            "name": "<GetCharacterOnPlace>b__1",
+            "methodOwner": "<>c__DisplayClass224_0"
+          }
+        },
+        {
+          "offset": 96,
+          "opcode": "newobj",
+          "operand": {
+            "token": "0xa0004ac",
+            "table": "MemberRef",
+            "name": ".ctor",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 101,
+          "opcode": "call",
+          "operand": {
+            "token": "0x2b00030b",
+            "table": "MethodSpec",
+            "name": "",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 106,
+          "opcode": "stloc.1",
+          "operand": null
+        },
+        {
+          "offset": 107,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 109,
+          "opcode": "constrained.",
+          "operand": {
+            "token": "0x200037f",
+            "table": "TypeDef",
+            "name": "ECharacterType",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 115,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0xa00009a",
+            "table": "MemberRef",
+            "name": "ToString",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 120,
+          "opcode": "call",
+          "operand": {
+            "token": "0xa00009b",
+            "table": "MemberRef",
+            "name": "Concat",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 125,
+          "opcode": "ldstr",
+          "operand": {
+            "token": "0x7001368e",
+            "string": "UI"
+          }
+        },
+        {
+          "offset": 130,
+          "opcode": "call",
+          "operand": {
+            "token": "0x2b0000a3",
+            "table": "MethodSpec",
+            "name": "",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 135,
+          "opcode": "call",
+          "operand": {
+            "token": "0x6000511",
+            "table": "MethodDef",
+            "name": "GetLocalization",
+            "methodOwner": "LocalizationExtension"
+          }
+        },
+        {
+          "offset": 140,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "methodToken": "0x600156d",
+      "owner": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__0",
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 2,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0x6001580",
+            "table": "MethodDef",
+            "name": "get_CharacterType",
+            "methodOwner": "CharacterSOData"
+          }
+        },
+        {
+          "offset": 7,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 8,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012f0",
+            "table": "Field",
+            "name": "character",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 13,
+          "opcode": "ceq",
+          "operand": null
+        },
+        {
+          "offset": 15,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    },
+    {
+      "methodToken": "0x600156e",
+      "owner": "<>c__DisplayClass224_0",
+      "method": "<GetCharacterOnPlace>b__1",
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldsfld",
+          "operand": {
+            "token": "0x40012a9",
+            "table": "Field",
+            "name": "_instance",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 17,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012a6",
+            "table": "Field",
+            "name": "_charactersManager",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 22,
+          "opcode": "ldarg.1",
+          "operand": null
+        },
+        {
+          "offset": 23,
+          "opcode": "callvirt",
+          "operand": {
+            "token": "0x600165e",
+            "table": "MethodDef",
+            "name": "GetPlace",
+            "methodOwner": "ICharactersManager"
+          }
+        },
+        {
+          "offset": 28,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 29,
+          "opcode": "ldfld",
+          "operand": {
+            "token": "0x40012f1",
+            "table": "Field",
+            "name": "characterData",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 34,
+          "opcode": "dup",
+          "operand": null
+        },
+        {
+          "offset": 35,
+          "opcode": "brtrue.s",
+          "operand": "49"
+        },
+        {
+          "offset": 37,
+          "opcode": "pop",
+          "operand": null
+        },
+        {
+          "offset": 38,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 40,
+          "opcode": "initobj",
+          "operand": {
+            "token": "0x1b000197"
+          }
+        },
+        {
+          "offset": 46,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 47,
+          "opcode": "br.s",
+          "operand": "59"
+        },
+        {
+          "offset": 49,
+          "opcode": "call",
+          "operand": {
+            "token": "0x600158f",
+            "table": "MethodDef",
+            "name": "get_Place",
+            "methodOwner": "CharacterSOData"
+          }
+        },
+        {
+          "offset": 54,
+          "opcode": "newobj",
+          "operand": {
+            "token": "0xa0006dc",
+            "table": "MemberRef",
+            "name": ".ctor",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 59,
+          "opcode": "stloc.0",
+          "operand": null
+        },
+        {
+          "offset": 60,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 62,
+          "opcode": "call",
+          "operand": {
+            "token": "0xa0006dd",
+            "table": "MemberRef",
+            "name": "GetValueOrDefault",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 67,
+          "opcode": "ceq",
+          "operand": null
+        },
+        {
+          "offset": 69,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0000)"
+        },
+        {
+          "offset": 71,
+          "opcode": "call",
+          "operand": {
+            "token": "0xa0006de",
+            "table": "MemberRef",
+            "name": "get_HasValue",
+            "methodOwner": null
+          }
+        },
+        {
+          "offset": 76,
+          "opcode": "and",
+          "operand": null
+        },
+        {
+          "offset": 77,
+          "opcode": "ret",
+          "operand": null
+        }
+      ]
+    }
+  ],
+  "limit": "Static original managed IL and accepted-source fingerprint; no runtime execution or event reachability proof."
+}

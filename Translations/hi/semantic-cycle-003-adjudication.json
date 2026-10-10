@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "gameVersion": "1.3.19",
+  "status": "complete author-adjudicated 18-unit proposal; no authored edit",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "staticInventorySha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "glossaryLayerSha256": "80bfe4cf64f7dca7a6671081cbf27ee36e0beb1813822750bfbd4015a531023a",
+  "compiledRuntimeBindingsSha256": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "review02FinalReportSha256": "e8d97f60c73e1ad80c74749017ab78f3e3350bea37c2908b9ec7af3fb8a3fc3b",
+  "review02FindingsSha256": "556c8186db37389b698c12179e489ea05bb6e7fd70a406215c8cb2f070869e49",
+  "review02FinalDecisionsSha256": "b3efb4abaabf219cda3b8329d947ec8c14311c56e4f8ea6e491894493b5dd68d",
+  "review02FinalCoverageSha256": "86dc86fad8642b2868e0dbbd84c0275b88d90b8c5fef076375c08fccaecb0fd4",
+  "previousClosureSha256": "64b1a62fbaca7360e9c34b6251cc481440aa8b64b426c38032eef2b4393a2a16",
+  "independentFindingCount": 17,
+  "additionalBoundedFindingCount": 1,
+  "dismissedContextCandidatesSha256": "733f185542bdc99e102e97e73a4f78641e7abd7c5afae3675f1da3b6678b3586",
+  "boundedRemedialRead": {
+    "sourceSearchPatterns": {
+      "earwax_source": "(?i)\\bсер[аы]\\b|ушн\\w*\\s+сер\\w*",
+      "psychic_mycelium_source": "(?i)мицелий",
+      "kinship_remarriage_source": "(?i)ма и ба|мам\\w*.*бабушк|за другого хахаля|жена.*вышла",
+      "exam_agency_source": "(?i)делая.*обследован",
+      "theft_source": "(?i)всё пиздить",
+      "firefighter_timing_source": "(?i)я бы хотел тушить|погибну",
+      "sustained_recovery_source": "(?i)придёт в себя",
+      "vibration_source": "(?i)вибрац",
+      "speaker_reveal_source": "(?i)как мою…|новую веру"
+    },
+    "sourceFamilyRows": {
+      "earwax_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+          "key": "line:tv_8_necessary_0965bc3",
+          "source": "TV: Колокола для них громче. Серы – больше.",
+          "target": "TV: उनके लिए घंटियों की आवाज़ और ऊँची है। गंधक भी ज़्यादा है।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+          "key": "line:tv_8_necessary_0d292a8",
+          "source": "TV: Остаётся только сера. Грязные мысли.",
+          "target": "TV: बस गंधक बचता है। गंदे विचार।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454158098432",
+          "key": "line:Tourist_Ears_Gun_0a1245d",
+          "source": "Tourist: Подождите, что не так? У меня же даже ушной серы нет.",
+          "target": "Tourist: रुकिए, क्या गड़बड़ है? मेरे कानों में तो मैल भी नहीं है।"
+        }
+      ],
+      "psychic_mycelium_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457773588481",
+          "key": "line:phone_psychics_8_049857b",
+          "source": "Phone: Если бы вы его пили, внутри мог прорасти мицелий, и начать контролировать вас, словно марионетку.",
+          "target": "Phone: अगर आप उसे पीते, तो आपके भीतर कवकजाल उग सकता था और आपको कठपुतली की तरह नियंत्रित कर सकता था।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457769394181",
+          "key": "line:phone_psychics_7_01d9005",
+          "source": "Phone: От него в вас прорастает мицелий. Из-за него дух легко сможет контролировать вас как марионетку.",
+          "target": "Phone: उससे आपके भीतर कवकजाल उगता है। उसकी मदद से आत्मा आपको कठपुतली की तरह आसानी से नियंत्रित कर सकेगी।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456989253645",
+          "key": "line:MushroomEater_Entrance_3_4_0d3eb11",
+          "source": "MushroomEater: Да, там мы не застанем фестиваль, но остальные люди… мицелий…",
+          "target": "MushroomEater: हाँ, वहाँ हम उत्सव का सामना नहीं करेंगे, मगर बाक़ी लोग… माइसीलियम…"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456985059339",
+          "key": "line:MushroomEater_Entrance_3_2_08be584",
+          "source": "MushroomEater: А он, в свою очередь, означает лишь одно – мицелий не в порядке.",
+          "target": "MushroomEater: और उसका अर्थ बस एक ही है—माइसीलियम की हालत ठीक नहीं है।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456985059332",
+          "key": "line:MushroomEater_Entrance_3_1_0540a1b",
+          "source": "MushroomEater: Грибы, словно печень у человека, выводят эту гадость, чтобы мицелий мог здравствовать.",
+          "target": "MushroomEater: मनुष्य के जिगर की तरह मशरूम यह गंदगी बाहर निकालते हैं, ताकि माइसीलियम स्वस्थ रह सके।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456985059330",
+          "key": "line:MushroomEater_Entrance_3_1_095305c",
+          "source": "MushroomEater: Мицелий… Похоже, он совсем не в порядке…",
+          "target": "MushroomEater: माइसीलियम… लगता है उसकी हालत बिल्कुल ठीक नहीं…"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865028",
+          "key": "line:MushroomEater_Entrance_2_4_06d5af5",
+          "source": "MushroomEater: Мицелий – вот что обладает разумом. Но, к прискорбию, я могу лишь слушать его. Он не ведает человеческой речи…",
+          "target": "MushroomEater: बुद्धि माइसीलियम में है। मगर अफ़सोस, मैं केवल उसकी बात सुन सकता हूँ। वह मनुष्य की भाषा नहीं जानता…"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456955699211",
+          "key": "line:MushroomEater_Entrance_1_3_078a2ba",
+          "source": "MushroomEater: Мицелий служит способом связи и общения между грибами.",
+          "target": "MushroomEater: माइसीलियम के ज़रिए मशरूम एक-दूसरे से जुड़े रहते और बात करते हैं।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456955699208",
+          "key": "line:MushroomEater_Entrance_1_2_098af83",
+          "source": "Мицелий?",
+          "target": "माइसीलियम?"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456955699205",
+          "key": "line:MushroomEater_Entrance_1_2_0e3a48d",
+          "source": "MushroomEater: Конечно, знаю. Мицелий рассказал, кто ты такой.",
+          "target": "MushroomEater: बिल्कुल जानता हूँ। माइसीलियम ने मुझे बताया कि तुम कौन हो।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456955699203",
+          "key": "line:MushroomEater_Entrance_1_1_05fad94",
+          "source": "Мицелий?",
+          "target": "माइसीलियम?"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456955699200",
+          "key": "line:MushroomEater_Entrance_1_1_0f6b2a8",
+          "source": "MushroomEater: Но не время рассказывать о себе. Мицелий поведал мне о страшных вещах…",
+          "target": "MushroomEater: मगर यह अपनी बात करने का समय नहीं। माइसीलियम ने मुझे डरावनी बातें बताई हैं…"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340936",
+          "key": "line:Mushroom_end_4_0d1b8fc",
+          "source": "Надо остановить мицелий, пока гриб совсем не разросся!",
+          "target": "मशरूम और फैल जाए उससे पहले माइसीलियम को रोकना होगा!"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340934",
+          "key": "line:Mushroom_end_3_05498f8",
+          "source": "Но похоже, мицелий обезумел от той злобы, что в нём накопилась.",
+          "target": "मगर लगता है कि भीतर जमा हुए द्वेष से माइसीलियम पागल हो गया है।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340932",
+          "key": "line:Mushroom_end_3_0eee842",
+          "source": "Наш ритуал должен был отрезвить мицелий.",
+          "target": "हमारे अनुष्ठान से माइसीलियम को होश में आना चाहिए था।"
+        }
+      ],
+      "kinship_remarriage_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+          "key": "line:entrance_bald_0b08f06",
+          "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+          "target": "Bald: मैं माँ-बाप के साथ रहता था, फिर कर्ज़ वसूलने वालों ने हमें घर से निकाल दिया। बड़ी साली ख़राब कहानी है। अंदर आने देगा तो कभी सुनाऊँगा।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457362546693",
+          "key": "line:Experienced_Entrance_4_09511b8",
+          "source": "Experienced: Бабок нет, жена давно уже за другого хахаля вышла, и мне некуда пристроиться.",
+          "target": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और के साथ चली गई, और मेरे पास जाने को कोई जगह नहीं।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457358352393",
+          "key": "line:Experienced_Entrance_3_00a6e99",
+          "source": "Experienced: Бабок нет, жена давно уже за другого хахаля вышла, и мне некуда пристроиться.",
+          "target": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और के साथ चली गई, और मेरे पास जाने को कोई जगह नहीं।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848520",
+          "key": "line:Bald_Asking_4_0fa8dc8",
+          "source": "Bald: Я как-то вернулся домой. Дверь открыта. Всё в хаосе. Ма и ба валяются с… блять… со сломанными пальцами, ногами, и…",
+          "target": "Bald: किसी तरह घर लौटा। दरवाज़ा खुला था। सब अस्त-व्यस्त। माँ और बा पड़ी थीं, उनके… साला… उँगलियाँ और पैर टूटे हुए थे, और…"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455814848514",
+          "key": "line:Bald_Asking_4_0169d9f",
+          "source": "Bald: Поэтому мама взяла долг. Не у знакомых, а у фирмы какой-то. Чтобы нам было что кушать. А то у бабушки пенсии еле-еле на хлеб хватало.",
+          "target": "Bald: इसलिए माँ ने क़र्ज़ लिया। जान-पहचान वालों से नहीं, किसी कंपनी से। ताकि हमारे पास खाने को कुछ हो। बा की पेंशन से तो मुश्किल से रोटी आती थी।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455810654218",
+          "key": "line:Bald_Asking_4_07451c1",
+          "source": "Bald: Я жил с мамой и бабушкой.",
+          "target": "Bald: मैं माँ और बा के साथ रहता था।"
+        }
+      ],
+      "exam_agency_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270",
+          "key": "line:phone_fema_asking_4_06e41f9",
+          "source": "Phone: Делая достоверные обследования, вы помогаете не только себе, но и всему человечеству.",
+          "target": "Phone: भरोसेमंद जाँच कराकर आप केवल अपनी ही नहीं, पूरी मानवता की मदद करते हैं।"
+        }
+      ],
+      "theft_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963776",
+          "key": "line:Rocker_Entrance_2_0804a1e",
+          "source": "Rocker: Репал до рассвета, а потом нашу точку накрыли какие-то безумцы. Начали всё пиздить. Мы с ними подрались. Суки мою гитару сломали!",
+          "target": "Rocker: सुबह होने तक अभ्यास करता रहा, फिर कुछ पागलों ने हमारे अड्डे पर धावा बोल दिया। सब कुछ तोड़ने लगे। हम उनसे भिड़ गए। कमीनों ने मेरा गिटार तोड़ दिया!"
+        }
+      ],
+      "firefighter_timing_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198528",
+          "key": "line:Firefighter_Entrance_4_040351d",
+          "source": "Firefighter: Я бы хотел тушить лес дальше. Лучше я там погибну, а не ребята.",
+          "target": "Firefighter: मैं जंगल की आग बुझाता रहना चाहता था। बेहतर होता मैं वहाँ मरता, उन साथियों के बजाय।"
+        }
+      ],
+      "sustained_recovery_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496645",
+          "key": "line:Twins_Entrance_YesLet_015d8b6",
+          "source": "Twins: Может, у вас она немного придёт в себя.",
+          "target": "Twins: शायद आपके यहाँ उसे थोड़ा होश आए।"
+        }
+      ],
+      "vibration_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452165804040",
+          "key": "line:Theorist_Ears_Gun_0d7a8f0",
+          "source": "Theorist: Цельтесь в Гостей, у них будет другая вибрация!",
+          "target": "Theorist: अतिथियों पर निशाना लगाइए, उनकी कंपन अलग होगी!"
+        }
+      ],
+      "speaker_reveal_source": [
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456917950470",
+          "key": "line:CultistPriest_Entrance_8_3_0d26ada",
+          "source": "CultistPriest: Мы несём новую веру.",
+          "target": "CultistPriest: हम एक नई आस्था ला रहे हैं।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373124",
+          "key": "line:Anger_Asking_3_0ce7f67",
+          "source": "Anger: Как началась вся хуйня, она обрела новую веру в нового покровителя.",
+          "target": "Anger: यह सब बकवास शुरू होते ही उसे धरती के भीतर से आए किसी नए संरक्षक पर आस्था हो गई।"
+        },
+        {
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454246178822",
+          "key": "line:Anger_Asking_2_06ebb11",
+          "source": "Anger: Ебанутые. Они даже нормальных людей склоняют к своей бредовой вере, как мою…",
+          "target": "Anger: पागल हैं वे। मेरी पत्नी जैसे साधारण लोगों को भी अपने बेतुके धर्म में फँसा लेते हैं…"
+        }
+      ]
+    },
+    "targetTermIds": {
+      "कवकजाल": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457773588481",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457769394181"
+      ],
+      "गंधक": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840"
+      ],
+      "माँ-बाप": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455860985866",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455848402946",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456590794754",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456586600458",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454988570632",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452606205961",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452585234435",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452576845829",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454883713030",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454883713029",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454908878857",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457278660610",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454745301003",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454741106694",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454736912391",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454736912385"
+      ],
+      "होश आए": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496645"
+      ],
+      "जाँच कराकर": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270"
+      ]
+    },
+    "exactRepeatedSourceIds": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457773588481",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457769394181",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457362546693",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457358352393",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963776",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496645",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456234278914",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198528",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455944871942",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373124",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454246178822",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453952577542",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452165804040",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452090306564"
+    ],
+    "method": "Pinned authored corpus enumeration plus complete context reads of reviewer findings; retain prior contextual candidate dismissals."
+  },
+  "items": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787843",
+      "key": "line:tv_8_necessary_0965bc3",
+      "source": "TV: Колокола для них громче. Серы – больше.",
+      "sourceSha256": "1412783d2c9a703d876f410164311dd062d85a1cfb99fcfcb7adbda3d8927c62",
+      "authoredPath": "Translations/hi/dialogue-batch-071.json",
+      "before": "TV: उनके लिए घंटियों की आवाज़ और ऊँची है। गंधक भी ज़्यादा है।",
+      "beforeSha256": "633e8be6e0199003eae6f96b1c09d36e9195f801ccec33f4d6fd9b78fcc9b564",
+      "acceptedFullTarget": "TV: उनके लिए घंटियों की आवाज़ और ऊँची है। कानों का मैल भी ज़्यादा है।",
+      "acceptedFullTargetSha256": "95fbfab4f5209f991d6477aad4b8a294c181ba1ef8138d0694ab7d3bf2ea2ef2",
+      "reason": "Earwax is rendered as chemical sulfur. Approved ear-wax entry explicitly forbids गंधक for this eighth-day broadcast.",
+      "findingId": "HI-R02-001",
+      "sceneContext": "Read full tv_8_necessary scene: something grows in ears, then only earwax/dirty thoughts remain."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457626787840",
+      "key": "line:tv_8_necessary_0d292a8",
+      "source": "TV: Остаётся только сера. Грязные мысли.",
+      "sourceSha256": "22806c84a5bf71a5b376c4a491d46244bcc992aa80789353250ecf3cc7d2ef0b",
+      "authoredPath": "Translations/hi/dialogue-batch-071.json",
+      "before": "TV: बस गंधक बचता है। गंदे विचार।",
+      "beforeSha256": "883498e899938ef51ae0f115c36c96a01a72d980284aa5465d7bbede9f9aed46",
+      "acceptedFullTarget": "TV: बस कानों का मैल बचता है। गंदे विचार।",
+      "acceptedFullTargetSha256": "89f868cd3f3e43a2635f3b5ad1098e91f873ec5a6faf803eee46972e31d2336d",
+      "reason": "Same earwax-for-sulfur mistranslation in the adjacent actual compiled broadcast; outside assigned delta, found through bounded scene context.",
+      "findingId": "HI-R02-002",
+      "sceneContext": "Approved ear-wax entry; tv_8_necessary full scene. Enumerate сера/серы variants and Hindi गंधक dependent uses in next normal closure recipe."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457391906826",
+      "key": "line:entrance_bald_0b08f06",
+      "source": "Bald: Я тут до этого с ма и ба жил, да нас коллекторы выгнали из квартиры. История просто пиздец. Если впустишь, расскажу как-нибудь.",
+      "sourceSha256": "625b192a601491097a26df6104e46f5e07df91518e2708b9bb48401d86de5c0d",
+      "authoredPath": "Translations/hi/dialogue-batch-300.json",
+      "before": "Bald: मैं माँ-बाप के साथ रहता था, फिर कर्ज़ वसूलने वालों ने हमें घर से निकाल दिया। बड़ी साली ख़राब कहानी है। अंदर आने देगा तो कभी सुनाऊँगा।",
+      "beforeSha256": "48e49a6e757335acbf6c3b14c3944a32a922cf51b8bd4f14778af4f538e224f3",
+      "acceptedFullTarget": "Bald: मैं माँ और बा के साथ रहता था, फिर कर्ज़ वसूलने वालों ने हमें घर से निकाल दिया। बड़ी साली ख़राब कहानी है। अंदर आने देगा तो कभी सुनाऊँगा।",
+      "acceptedFullTargetSha256": "945b1e526bba5cd3025920b7040dd85b23f0d782a33157aeac40b836a8f309d8",
+      "reason": "Russian shorthand ма и ба identifies mother and grandmother, but माँ-बाप means mother and father. This contradicts both later scene and approved theater-man biography.",
+      "findingId": "HI-R02-003",
+      "sceneContext": "Bald_Asking_4 says Я жил с мамой и бабушкой and father left; current Hindi already uses माँ और बा in that later scene."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457362546693",
+      "key": "line:Experienced_Entrance_4_09511b8",
+      "source": "Experienced: Бабок нет, жена давно уже за другого хахаля вышла, и мне некуда пристроиться.",
+      "sourceSha256": "eb86e50078fd1f4cc819c3da0c90b719f0628d7b239b5deea746439f4e4f2448",
+      "authoredPath": "Translations/hi/dialogue-batch-260.json",
+      "before": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और के साथ चली गई, और मेरे पास जाने को कोई जगह नहीं।",
+      "beforeSha256": "b3732effe0bc1e1bb85f0fbb3e5c6ffb4b0dc057b4526a2f3ec249d261526cd6",
+      "acceptedFullTarget": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और से शादी कर चुकी है, और मेरे पास जाने को कोई जगह नहीं।",
+      "acceptedFullTargetSha256": "8cd7508f855f8b086f4082c0d92f4716c980398f1c2008baefe986d075527be4",
+      "reason": "Wife has remarried another man (за другого ... вышла), not merely left with someone. Hindi omits the completed marriage relationship in both repetitions.",
+      "findingId": "HI-R02-004",
+      "sceneContext": "Entrance branches 3 and 4; already approved ex-con glossary identifies ex-wife."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457358352393",
+      "key": "line:Experienced_Entrance_3_00a6e99",
+      "source": "Experienced: Бабок нет, жена давно уже за другого хахаля вышла, и мне некуда пристроиться.",
+      "sourceSha256": "eb86e50078fd1f4cc819c3da0c90b719f0628d7b239b5deea746439f4e4f2448",
+      "authoredPath": "Translations/hi/dialogue-batch-260.json",
+      "before": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और के साथ चली गई, और मेरे पास जाने को कोई जगह नहीं।",
+      "beforeSha256": "b3732effe0bc1e1bb85f0fbb3e5c6ffb4b0dc057b4526a2f3ec249d261526cd6",
+      "acceptedFullTarget": "Experienced: पैसे नहीं हैं, बीवी कब की किसी और से शादी कर चुकी है, और मेरे पास जाने को कोई जगह नहीं।",
+      "acceptedFullTargetSha256": "8cd7508f855f8b086f4082c0d92f4716c980398f1c2008baefe986d075527be4",
+      "reason": "Wife has remarried another man (за другого ... вышла), not merely left with someone. Hindi omits the completed marriage relationship in both repetitions.",
+      "findingId": "HI-R02-005",
+      "sceneContext": "Entrance branches 3 and 4; already approved ex-con glossary identifies ex-wife."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457756811270",
+      "key": "line:phone_fema_asking_4_06e41f9",
+      "source": "Phone: Делая достоверные обследования, вы помогаете не только себе, но и всему человечеству.",
+      "sourceSha256": "6151f5fd8ae72d4fd983596d712544aba7f915f76b914cbf28f2e73aef46f750",
+      "authoredPath": "Translations/hi/dialogue-batch-033.json",
+      "before": "Phone: भरोसेमंद जाँच कराकर आप केवल अपनी ही नहीं, पूरी मानवता की मदद करते हैं।",
+      "beforeSha256": "7e7f7845a91fd08a22af7a279bdcf8d4b78b7795a44bb37f2530f13d8c61d104",
+      "acceptedFullTarget": "Phone: भरोसेमंद जाँच करके आप केवल अपनी ही नहीं, पूरी मानवता की मदद करते हैं।",
+      "acceptedFullTargetSha256": "ded123b4c86ef8c085da1c18303b3575e85dbe7a1e88b7f4c82c99b7649485f4",
+      "reason": "Делая обследования means doing examinations; कराकर says having them performed by someone else and shifts the player agency.",
+      "findingId": "HI-R02-006",
+      "sceneContext": "Hotline advises player how to conduct accurate armpit checks; preceding water/shower advice read in full."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963776",
+      "key": "line:Rocker_Entrance_2_0804a1e",
+      "source": "Rocker: Репал до рассвета, а потом нашу точку накрыли какие-то безумцы. Начали всё пиздить. Мы с ними подрались. Суки мою гитару сломали!",
+      "sourceSha256": "e41a62491eaef4e0794dd8e6936c0f6feb6428a2daab238326cf3012b8fa4d23",
+      "authoredPath": "Translations/hi/dialogue-batch-095.json",
+      "before": "Rocker: सुबह होने तक अभ्यास करता रहा, फिर कुछ पागलों ने हमारे अड्डे पर धावा बोल दिया। सब कुछ तोड़ने लगे। हम उनसे भिड़ गए। कमीनों ने मेरा गिटार तोड़ दिया!",
+      "beforeSha256": "18ac40fd879bf0a44b8e0a6b44592eef7b575488d2c60c7860e0181608258b00",
+      "acceptedFullTarget": "Rocker: सुबह होने तक अभ्यास करता रहा, फिर कुछ पागलों ने हमारे अड्डे पर धावा बोल दिया। सब कुछ चुराने लगे। हम उनसे भिड़ गए। कमीनों ने मेरा गिटार तोड़ दिया!",
+      "acceptedFullTargetSha256": "e563a62d8796a46a99170a66d61f3d088a7516fb035996866cda7787bcda9ac6",
+      "reason": "Russian всё пиздить with objects denotes stealing; Hindi substitutes smashing everything, then redundantly reports guitar breaking. Preserve theft and subsequent fight/damage as distinct actions.",
+      "findingId": "HI-R02-007",
+      "sceneContext": "Full compiled Rocker_Entrance_2 order read; theft precedes fight and guitar break."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456146198528",
+      "key": "line:Firefighter_Entrance_4_040351d",
+      "source": "Firefighter: Я бы хотел тушить лес дальше. Лучше я там погибну, а не ребята.",
+      "sourceSha256": "eabe7acd5b9612b69cf4a7447e39fbd58a9b1a189d72f013d0904e76c8909e5d",
+      "authoredPath": "Translations/hi/dialogue-batch-116.json",
+      "before": "Firefighter: मैं जंगल की आग बुझाता रहना चाहता था। बेहतर होता मैं वहाँ मरता, उन साथियों के बजाय।",
+      "beforeSha256": "17d5d4b350dd4ef0246fef6dbae13356180d47534915e4f53e01c8d77389c7b8",
+      "acceptedFullTarget": "Firefighter: मैं जंगल की आग बुझाता रहना चाहता हूँ। बेहतर है कि वहाँ मैं मरूँ, वे साथी नहीं।",
+      "acceptedFullTargetSha256": "910e139ede14d9ea4d9a545455f56d81f6e0d4ef4ce8027abbb1122a9805756a",
+      "reason": "Current wish and prospective self-sacrifice (я бы хотел; погибну) become past wish and counterfactual death. Colleagues are still dying elsewhere.",
+      "findingId": "HI-R02-008",
+      "sceneContext": "Compiled Firefighter_Entrance_4 starts with this present wish, then says superiors forbade further work; Firefighter_Asking_1 distinguishes ongoing colleagues dying from speaker here."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455944871942",
+      "key": "line:Esenin_Asking_SpecialEvent_1_055e5e0",
+      "source": "Esenin: Такой вот стих. Как тебе?",
+      "sourceSha256": "b8e27e938a52415a184ffb826c87f2dfe42d457f7e409ab434232daa65d08398",
+      "authoredPath": "Translations/hi/dialogue-batch-250.json",
+      "before": "Esenin: ऐसी है मेरी कविता। कैसी लगी?",
+      "beforeSha256": "e558e80d59c1b4931ae2995fb6d1dc997fb9d773be189c89e5a36ea1815d0210",
+      "acceptedFullTarget": "Esenin: ऐसी कविता है। कैसी लगी?",
+      "acceptedFullTargetSha256": "c93f65dce531286656b9e2d42973b62776293decbcfd171c58b423398059a974",
+      "reason": "Adds first-person poem ownership/authorship मेरी absent source; speaker is reading a poem found in a book in the player house.",
+      "findingId": "HI-R02-009",
+      "sceneContext": "Compiled Esenin_Asking_SpecialEvent says found poetry book, asks to read; successor recites and asks how it was."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456234278914",
+      "key": "line:Entrance_Prophet_3_5_06adbe0",
+      "source": "Prophet: Скоро придёт персона с котом. Тебе важно впустить их домой.",
+      "sourceSha256": "222a45d700e82d1a28620fce2f58996aa99a299c604f298b2db5a0bafac9d5e0",
+      "authoredPath": "Translations/hi/dialogue-batch-313.json",
+      "before": "Prophet: जल्द कोई बिल्ली के साथ आएगा। उसे घर में आने देना ज़रूरी है।",
+      "beforeSha256": "7a3358a0e7ac061ef17687d8173a1a0dcb6b148afe59650dc2b44271bf5f9660",
+      "acceptedFullTarget": "Prophet: जल्द कोई बिल्ली के साथ आएगा। दोनों को घर में आने देना ज़रूरी है।",
+      "acceptedFullTargetSha256": "61c66899f70eaafcc7dba9ede5147b4173a831cd9d15f0c8ed2084ddc73b8e4c",
+      "reason": "Russian их refers to arriving person and cat; singular उसे drops the cat from the explicit invitation instruction.",
+      "findingId": "HI-R02-010",
+      "sceneContext": "Full compiled prophecy branches 3_4 and 3_5 read; keep unnamed person ambiguity and both arrivals."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456368496645",
+      "key": "line:Twins_Entrance_YesLet_015d8b6",
+      "source": "Twins: Может, у вас она немного придёт в себя.",
+      "sourceSha256": "8eed059346b531c944497c5e5ba934cbf4a7e91747c0840c0809f84348aa6f78",
+      "authoredPath": "Translations/hi/dialogue-batch-088.json",
+      "before": "Twins: शायद आपके यहाँ उसे थोड़ा होश आए।",
+      "beforeSha256": "9eab012933ceba45e12fbaf5c567547f89b0e8d4b665cafaba236bcb44c325cb",
+      "acceptedFullTarget": "Twins: शायद आपके यहाँ उसकी हालत कुछ सँभल जाए।",
+      "acceptedFullTargetSha256": "e0d9705ebb9da7db9c0da3e91c47ce8a13b2ae19856a33d3f47977bc14cd7922",
+      "reason": "Come to oneself in sustained depressive/catatonic exhaustion becomes regain consciousness होश आए; source never establishes unconsciousness. Preserve improvement without adding consciousness diagnosis.",
+      "findingId": "HI-R02-011",
+      "sceneContext": "Compiled preceding line: parents death worsened her longstanding state; approved Sirin/Alkonost context and later care/bathing scenes describe depression/exhaustion."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452165804040",
+      "key": "line:Theorist_Ears_Gun_0d7a8f0",
+      "source": "Theorist: Цельтесь в Гостей, у них будет другая вибрация!",
+      "sourceSha256": "c5f9bfdea08385129576efcd6c63ce15d240ab8df02186127fdbf9f7a158d7b6",
+      "authoredPath": "Translations/hi/dialogue-batch-139.json",
+      "before": "Theorist: अतिथियों पर निशाना लगाइए, उनकी कंपन अलग होगी!",
+      "beforeSha256": "c3c43d53b41e134caea9bc3661f78d7bc2170683e6b4356822992d06390ef916",
+      "acceptedFullTarget": "Theorist: अतिथियों पर निशाना लगाइए, उनका कंपन अलग होगा!",
+      "acceptedFullTargetSha256": "2b35b9cc4d3564c51fb7209f6eece4e80e714ea1598a8000ebc536ed46b382cc",
+      "reason": "Hindi noun कंपन is masculine; उनकी...होगी is incompatible noun agreement. Correct oblique possessive and predicate gender together.",
+      "findingId": "HI-R02-012",
+      "sceneContext": "Compiled ear-check visitor branch: resonance/vibration; referent is कंपन, not visitor biological sex."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452090306564",
+      "key": "line:Alkonost_Teeth_Gun_00b923d",
+      "source": "Alkonost: Нам и так досталось с сестрой в жизни. Оставь ты это ружьё.",
+      "sourceSha256": "ad61a9a917954a8f81dbda7830fd734c299551e2f4dc8c9afc4c7ab5bc0f8e5b",
+      "authoredPath": "Translations/hi/dialogue-batch-094.json",
+      "before": "Alkonost: मैं और मेरी बहन पहले ही बहुत झेल चुके हैं। यह बंदूक नीचे रख दो।",
+      "beforeSha256": "e38f62b4ee7f8a0df39eacf709e7227a0dfab23d4eda8e10c06aa8d3a262e89d",
+      "acceptedFullTarget": "Alkonost: मैं और मेरी बहन पहले ही बहुत झेल चुकी हैं। यह बंदूक नीचे रख दो।",
+      "acceptedFullTargetSha256": "2de08ded7b0b3b54876f3bc80be3e36425164e1cf04383f31fd1e313706c7ad0",
+      "reason": "दोनों subjects are established female sisters, but झेल चुके हैं is masculine plural. Use feminine plural चुकी हैं.",
+      "findingId": "HI-R02-013",
+      "sceneContext": "Approved two-sister referents and compiled Alkonost_Teeth_Gun directly identify sister and speaker, not occupant slot."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453952577542",
+      "key": "line:Tough_Ears_DontShoot_0f30496",
+      "source": "Tough: Вот мне интересно, когда всё кончится, как будут чувствовать себя те, кто позволял слишком много? М?",
+      "sourceSha256": "7ba200bab37730f10f9781609817870794d3dd6380d559ecb91a9e04b1373ec4",
+      "authoredPath": "Translations/hi/dialogue-batch-188.json",
+      "before": "Tough: सोचती हूँ, यह सब ख़त्म होने पर उन लोगों को कैसा लगेगा जिन्होंने हद से ज़्यादा छूट दी? हम्म?",
+      "beforeSha256": "f04d530e3d09c5cc4814ba7685749fbbdd60095cb404803b250636ea7ac0df03",
+      "acceptedFullTarget": "Tough: सोचती हूँ, यह सब ख़त्म होने पर उन लोगों को कैसा लगेगा जिन्होंने हद से ज़्यादा मनमानी की? हम्म?",
+      "acceptedFullTargetSha256": "62b1c1e43078d20f0a750e4967a33fe601b65ef254ea4ddead73fdb566a0f394",
+      "reason": "Context condemns people allowing themselves excess abuse; Hindi जिन्होंने...छूट दी describes giving others leeway, shifting agency to permissive bystanders.",
+      "findingId": "HI-R02-014",
+      "sceneContext": "Compiled after player aims weapon then lowers it; second sentence asks how those offenders will feel. Preserve criticism of excessive acts."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457773588481",
+      "key": "line:phone_psychics_8_049857b",
+      "source": "Phone: Если бы вы его пили, внутри мог прорасти мицелий, и начать контролировать вас, словно марионетку.",
+      "sourceSha256": "370de08f73cdc4ae166ecc615b859fbc8efe6f0b115bf73a65943ca50de75390",
+      "authoredPath": "Translations/hi/dialogue-batch-024.json",
+      "before": "Phone: अगर आप उसे पीते, तो आपके भीतर कवकजाल उग सकता था और आपको कठपुतली की तरह नियंत्रित कर सकता था।",
+      "beforeSha256": "d67a5e5fb3107a177c29e4628e2bf135a6048ca4d55bc2d2db860c0c2bcabc2b",
+      "acceptedFullTarget": "Phone: अगर आप उसे पीते, तो आपके भीतर माइसीलियम उग सकता था और आपको कठपुतली की तरह नियंत्रित कर सकता था।",
+      "acceptedFullTargetSha256": "7989dfd567d090244446ff491f287941de16e4e005dbf9c15204775ae8a5c6bf",
+      "reason": "कवकजाल is a semantic synonym but breaks the approved canonical माइसीलियम term linking the psychic claim and Mushroom discourse. This is terminology consistency, not a claim the synonym denotes something else.",
+      "findingId": "HI-R02-015",
+      "sceneContext": "Approved mycelium meaning explicitly includes separate psychic human-internal claim; use term consistently while retaining conditional service claim."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454246178822",
+      "key": "line:Anger_Asking_2_06ebb11",
+      "source": "Anger: Ебанутые. Они даже нормальных людей склоняют к своей бредовой вере, как мою…",
+      "sourceSha256": "f0705a8de1376de37d0bb820da68870d0d98f90a060f61ba2a2410f336ff7be7",
+      "authoredPath": "Translations/hi/dialogue-batch-212.json",
+      "before": "Anger: पागल हैं वे। मेरी पत्नी जैसे साधारण लोगों को भी अपने बेतुके धर्म में फँसा लेते हैं…",
+      "beforeSha256": "6b4da779feaa3b639a5facbd30377bfc74e6fc19a97fd505e9057dec87c8b484",
+      "acceptedFullTarget": "Anger: पागल हैं वे। साधारण लोगों को भी अपने बेतुके धर्म में फँसा लेते हैं, जैसे मेरी…",
+      "acceptedFullTargetSha256": "e779d4bad49ec274bf76f24170e798b4ee7ebfbfadcba54d31a392e66d730958",
+      "reason": "Completes source unfinished feminine possessive мою… into पत्नी, removing withheld family-role disclosure and the speaker interruption.",
+      "findingId": "HI-R02-016",
+      "sceneContext": "Compiled Asking2 ends unfinished мою… then pause; Asking3 later explicitly says Моя жена… before explanation."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454250373124",
+      "key": "line:Anger_Asking_3_0ce7f67",
+      "source": "Anger: Как началась вся хуйня, она обрела новую веру в нового покровителя.",
+      "sourceSha256": "758ff36244f11f198c4653c087a065539349f717a343e94f73d2980101b459e8",
+      "authoredPath": "Translations/hi/dialogue-batch-212.json",
+      "before": "Anger: यह सब बकवास शुरू होते ही उसे धरती के भीतर से आए किसी नए संरक्षक पर आस्था हो गई।",
+      "beforeSha256": "f6c7c6fa1a7592fc11e91a40793ce304934bbeee8420856a1b39478074c2ea10",
+      "acceptedFullTarget": "Anger: यह सब बकवास शुरू होते ही उसे किसी नए संरक्षक पर नई आस्था हो गई।",
+      "acceptedFullTargetSha256": "ccc9a02bb453594f1d97b309f5d8db833a1342c2618ad4b62f6790b8387455b8",
+      "reason": "Adds origin धरती के भीतर से आए absent this source unit. Prior Asking2 mentions the underground patron, but that does not authorize inserting repeated exposition into this sentence. Preserve exact new-faith/new-patron statement.",
+      "findingId": "HI-R02-017",
+      "sceneContext": "Full compiled Asking2 and3 order read; earlier underground information acknowledged, no claim this is a new global spoiler."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457769394181",
+      "key": "line:phone_psychics_7_01d9005",
+      "source": "Phone: От него в вас прорастает мицелий. Из-за него дух легко сможет контролировать вас как марионетку.",
+      "sourceSha256": "3f5493dcaef558ee7e2db50ef17b697d54c0505c5d72f72e644dd9faed90dd78",
+      "authoredPath": "Translations/hi/dialogue-batch-024.json",
+      "before": "Phone: उससे आपके भीतर कवकजाल उगता है। उसकी मदद से आत्मा आपको कठपुतली की तरह आसानी से नियंत्रित कर सकेगी।",
+      "beforeSha256": "f3b2180fde1816b81fcd9778f7d8f170e774b0204905e62a0b7ebcf22e557717",
+      "acceptedFullTarget": "Phone: उससे आपके भीतर माइसीलियम उगता है। उसकी मदद से आत्मा आपको कठपुतली की तरह आसानी से नियंत्रित कर सकेगी।",
+      "acceptedFullTargetSha256": "8cae28f430a95305c523c320d3c758b0c91c3907117aa107bde5088cf24a46aa",
+      "reason": "The adjacent psychic hotline claim also names мицелий. The approved mycelium entry requires माइसीलियम while retaining this speaker's unqualified assertion.",
+      "findingId": "HI-AUTHOR-R02-BOUNDED-001",
+      "sceneContext": "Compiled phone_psychics_7 precedes conditional phone_psychics_8; the speaker's epistemic scope differs, but the named substance is the same."
+    }
+  ]
+}

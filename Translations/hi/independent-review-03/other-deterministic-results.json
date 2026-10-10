@@ -1,0 +1,49 @@
+{
+  "cycle003NormalSelectorVerify": {
+    "command": ".venv/bin/python Translations/hi/build-semantic-cycle-003-closure.py --verify",
+    "exitCode": 0,
+    "closure": 5207,
+    "delta": 141,
+    "new": 74,
+    "invalidated": 51,
+    "retired": 0,
+    "scope": "Full current target16,538 exact spans;14 before/after file target-only comparisons;normal byte reproduction of structural gate/applied evidence/closure/delta. Selector reproduction does not prove concept completeness."
+  },
+  "readiness": {
+    "command": ".venv/bin/python Scripts/report_locale_readiness.py --exact --compact",
+    "exitCode": 0,
+    "locale": "hi",
+    "authored": 16538,
+    "validated": 16538,
+    "observed": 16538,
+    "problems": 0,
+    "all13ScanInvokedOnce": true,
+    "otherLocaleResultsNotClaimedAsEditorialEvidence": true
+  },
+  "commonOptionExpansionVerify": [
+    {
+      "recipe": "Translations/hi/common-options-001.authored.json",
+      "output": "Translations/hi/dialogue-batch-900.json",
+      "rows": 2593,
+      "exitCode": 0
+    },
+    {
+      "recipe": "Translations/hi/common-options-002.authored.json",
+      "output": "Translations/hi/dialogue-batch-901.json",
+      "rows": 245,
+      "exitCode": 0
+    },
+    {
+      "recipe": "Translations/hi/common-options-003.authored.json",
+      "output": "Translations/hi/dialogue-batch-902.json",
+      "rows": 45,
+      "exitCode": 0
+    }
+  ],
+  "attempts": {
+    "systemPythonNormalVerifier": "failed before validation: UnityPy unavailable; no writes; project .venv subsequently passed",
+    "initialCapture": "expected unchanged-check assertion caught legitimately updated operational checkpoint; source/glossary/target mapping unchanged; checkpoint classified separately and capture succeeded",
+    "readonlyOwningPerBatchValidator": "verifiedlive PID80330;terminated only after root instruction due repeated source/index boundary; no final-gate credit",
+    "sidecarWrites": false
+  }
+}

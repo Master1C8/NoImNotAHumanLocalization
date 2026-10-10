@@ -1,0 +1,1894 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "gameVersion": "1.3.19",
+  "sourceLocale": "ru",
+  "status": "open correction batch; proposals recorded during incomplete full semantic pass; do not apply until pass is complete",
+  "sourceOrderSha256": "4190402823aaa3e5c776efef272c9488c2a3db6a7341a1c7ff4dec387bd4055a",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryLayerSha256": "80bfe4cf64f7dca7a6671081cbf27ee36e0beb1813822750bfbd4015a531023a",
+  "findings": [
+    {
+      "reviewIndex": 26,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:13170520799039500",
+      "collection": "UI",
+      "key": "FridgeItem_Enerjeka_NarrativeDescription",
+      "source": "Сплошная химоза. Но почему иногда и не выпить, если нужно подольше не спать?",
+      "currentTarget": "पूरी तरह रसायनों से भरा है। लेकिन जब ज़्यादा देर जागना हो, तो कभी-कभी एक कैन पीने में क्या हर्ज है?",
+      "targetFile": "Translations/hi/ui-batch-001.json",
+      "objectiveReason": "unsupported item quantity/container: source says to drink occasionally, with no can or count",
+      "proposedFullTarget": "पूरी तरह रसायनों से भरा है। लेकिन जब ज़्यादा देर जागना हो, तो कभी-कभी इसे पीने में क्या हर्ज है?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 90,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572547771355136",
+      "collection": "UI",
+      "key": "consumable_kombucha_narrativeDescription",
+      "source": "Это вообще мой любимый гриб. От него я чувствую себя хорошо, лучше работает память. Напоминает о хороших временах.",
+      "currentTarget": "यह मेरा पसंदीदा मशरूम है। इससे मुझे अच्छा महसूस होता है, याददाश्त भी बेहतर चलती है। पुराने अच्छे दिनों की याद दिलाता है।",
+      "targetFile": "Translations/hi/ui-batch-003.json",
+      "objectiveReason": "Hindi grammar: याददाश्त बेहतर चलती है is unnatural for memory functioning better",
+      "proposedFullTarget": "यह मेरा पसंदीदा मशरूम है। इससे मुझे अच्छा महसूस होता है, याददाश्त भी बेहतर हो जाती है। पुराने अच्छे दिनों की याद दिलाता है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 94,
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:78326760352763904",
+      "collection": "UI",
+      "key": "fullscreen_settings_MaximizedWindow",
+      "source": "Развёрнутое окно",
+      "currentTarget": "बड़ी की गई विंडो",
+      "targetFile": "Translations/hi/ui-batch-003.json",
+      "objectiveReason": "display-mode distinction lost: maximized window became merely enlarged window",
+      "proposedFullTarget": "अधिकतम आकार की विंडो",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 368,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457907806210",
+      "collection": "Dialogs",
+      "key": "line:phone_phoneroulette_1_1_4_058a460",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_4"
+      ],
+      "source": "Phone: И больше всего по моему лучшему другу…",
+      "currentTarget": "Phone: और सबसे ज़्यादा अपने सबसे अच्छे दोस्त को…",
+      "targetFile": "Translations/hi/dialogue-batch-027.json",
+      "objectiveReason": "split line follows unit 369, whose Hindi clause ends याद आती है ... लोगों की; current दोस्त को breaks the required genitive case",
+      "relatedReviewIndices": [
+        369
+      ],
+      "proposedFullTarget": "Phone: और सबसे ज़्यादा अपने सबसे अच्छे दोस्त की…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 385,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457899417609",
+      "collection": "Dialogs",
+      "key": "line:phone_phoneroulette_1_1_2_09b403f",
+      "nodeNames": [
+        "phone_phoneroulette_1_1_2"
+      ],
+      "source": "Phone: Но когда я прилетела, не могла ни до кого дозвониться.",
+      "currentTarget": "Phone: लेकिन जब मैं वहाँ पहुँची, किसी से फ़ोन पर संपर्क नहीं कर पाई।",
+      "targetFile": "Translations/hi/dialogue-batch-028.json",
+      "objectiveReason": "caller flew away from her hometown and is now safe here (units 382 and 387); वहाँ reverses the scene location and the flight is omitted",
+      "relatedReviewIndices": [
+        382,
+        387
+      ],
+      "proposedFullTarget": "Phone: लेकिन जब मैं उड़कर यहाँ पहुँची, तो किसी से भी फ़ोन पर संपर्क नहीं कर पाई।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 400,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457895223303",
+      "collection": "Dialogs",
+      "key": "line:phone_phoneroulette_1_1_0b970f3",
+      "nodeNames": [
+        "phone_phoneroulette_1_1"
+      ],
+      "source": "Почему вы решили позвонить сюда, а не своим друзьям?",
+      "currentTarget": "अपने दोस्तों को फ़ोन करने के बजाय आपने यहाँ क्यों किया?",
+      "targetFile": "Translations/hi/dialogue-batch-028.json",
+      "objectiveReason": "the Hindi question omits फ़ोन after यहाँ, leaving an incomplete predicate for the source question why the caller called this number",
+      "relatedReviewIndices": [],
+      "proposedFullTarget": "अपने दोस्तों को फ़ोन करने के बजाय आपने यहाँ फ़ोन क्यों किया?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 533,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457849085961",
+      "collection": "Dialogs",
+      "key": "line:phone_foreigner_1_0cc54f5",
+      "nodeNames": [
+        "phone_foreignembassy_1"
+      ],
+      "source": "Phone: Сейчас доступны паромы, но не получится доплыть – слишком велик риск ночных тайфунов.",
+      "currentTarget": "Phone: अभी फ़ेरी उपलब्ध हैं, लेकिन उनसे पहुँचना मुमकिन नहीं—रात के तूफ़ानों का ख़तरा बहुत ज़्यादा है।",
+      "targetFile": "Translations/hi/dialogue-batch-030.json",
+      "objectiveReason": "Russian specifies night typhoons; generic तूफ़ानों drops the storm type in the travel hazard",
+      "relatedReviewIndices": [],
+      "proposedFullTarget": "Phone: अभी फ़ेरी उपलब्ध हैं, लेकिन उनसे पहुँचना मुमकिन नहीं—रात में टाइफ़ून आने का ख़तरा बहुत ज़्यादा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 588,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457832308738",
+      "collection": "Dialogs",
+      "key": "line:phone_alkonost_3_0831e62",
+      "nodeNames": [
+        "phone_alkonostshusband_3"
+      ],
+      "source": "Phone: Я… я просто не могу выдержать это всё. Солнце, Гости, безумные люди. Всё это так страшно. Я чувствую, как меня парализует.",
+      "currentTarget": "Phone: मैं… मैं यह सब और नहीं सह सकता। सूरज, अतिथि, पागल लोग। यह सब इतना डरावना है। लगता है डर से मेरा शरीर सुन्न पड़ गया है।",
+      "targetFile": "Translations/hi/dialogue-batch-036.json",
+      "objectiveReason": "Russian says fear is paralyzing him; Hindi says his body has gone numb, changing the physical effect",
+      "relatedReviewIndices": [],
+      "proposedFullTarget": "Phone: मैं… मैं यह सब और नहीं सह सकता। सूरज, अतिथि, पागल लोग। यह सब इतना डरावना है। मुझे महसूस हो रहा है कि डर से मैं जैसे हिल भी नहीं पा रहा।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 607,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457823920135",
+      "collection": "Dialogs",
+      "key": "line:phone_bestson_4_0a606bd",
+      "nodeNames": [
+        "phone_bestsonfamily_4"
+      ],
+      "source": "Phone: Я готова приютить брата. Передайте ему это. Он знает мой адрес.",
+      "currentTarget": "Phone: मैं अपने भाई को अपने घर में रख सकती हूँ। उसे बता दीजिए। उसे मेरा पता मालूम है।",
+      "targetFile": "Translations/hi/dialogue-batch-035.json",
+      "objectiveReason": "готова приютить states willingness to shelter her brother; रख सकती हूँ states ability instead",
+      "relatedReviewIndices": [],
+      "proposedFullTarget": "Phone: मैं अपने भाई को अपने घर में शरण देने के लिए तैयार हूँ। उसे बता दीजिए। उसे मेरा पता मालूम है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 787,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457761005576",
+      "collection": "Dialogs",
+      "key": "line:phone_psychics_2_09ae03b",
+      "nodeNames": [
+        "phone_psychics_2"
+      ],
+      "source": "Какой ещё ломтик хлеба?",
+      "currentTarget": "कैसी ब्रेड का टुकड़ा?",
+      "targetFile": "Translations/hi/dialogue-batch-023.json",
+      "objectiveReason": "response to the psychic’s bread-slice question uses कैसी ब्रेड का टुकड़ा, an ungrammatical and different question about bread type",
+      "relatedReviewIndices": [
+        789
+      ],
+      "proposedFullTarget": "ब्रेड का टुकड़ा? आप किस टुकड़े की बात कर रहे हैं?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 792,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457761005571",
+      "collection": "Dialogs",
+      "key": "line:phone_psychics_1_046bc72",
+      "nodeNames": [
+        "phone_psychics_1"
+      ],
+      "source": "Какой ещё ломтик хлеба?",
+      "currentTarget": "कैसी ब्रेड का टुकड़ा?",
+      "targetFile": "Translations/hi/dialogue-batch-023.json",
+      "objectiveReason": "same bread-slice response error as unit 787 in a second branch",
+      "relatedReviewIndices": [
+        794
+      ],
+      "proposedFullTarget": "ब्रेड का टुकड़ा? आप किस टुकड़े की बात कर रहे हैं?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 979,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896714",
+      "collection": "Dialogs",
+      "key": "line:window_9_1_058f612",
+      "nodeNames": [
+        "window_9_1"
+      ],
+      "source": "Window: Двое КЧС-ников стоят рядом с фонарным столбом и задумчиво смотрят на повешенного.",
+      "currentTarget": "Window: आपात समिति के दो कर्मचारी बिजली के खंभे के पास खड़े हैं और फाँसी पर लटके आदमी को सोचते हुए देख रहे हैं।",
+      "targetFile": "Translations/hi/dialogue-batch-177.json",
+      "objectiveReason": "фонарный столб is a streetlamp post; बिजली का खंभा changes the observed scene prop",
+      "relatedReviewIndices": [
+        977
+      ],
+      "proposedFullTarget": "Window: आपात समिति के दो कर्मचारी सड़कबत्ती के खंभे के पास खड़े हैं और फाँसी पर लटके आदमी को सोच में डूबे हुए देख रहे हैं।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 987,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457693896706",
+      "collection": "Dialogs",
+      "key": "line:window_8_1_061473e",
+      "nodeNames": [
+        "window_8_1"
+      ],
+      "source": "Window: Теперь висельник смотрится как мрачная табличка «Добро пожаловать».",
+      "currentTarget": "Window: अब फाँसी पर लटका आदमी उदास ‘स्वागत है’ के बोर्ड जैसा लगता है।",
+      "targetFile": "Translations/hi/dialogue-batch-177.json",
+      "objectiveReason": "мрачная makes the welcome sign grim/ominous in the hanging scene; उदास makes it merely sad",
+      "relatedReviewIndices": [
+        979,
+        1000
+      ],
+      "proposedFullTarget": "Window: अब फाँसी पर लटका आदमी एक मनहूस ‘स्वागत है’ की तख्ती जैसा लगता है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1023,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457681313793",
+      "collection": "Dialogs",
+      "key": "line:window_5_2_0f3b0d8",
+      "nodeNames": [
+        "window_5_2"
+      ],
+      "source": "Window: Вся эта мрачная экспозиция выглядит как угроза. Наверняка оставленная тем жутким бледным Гостем.",
+      "currentTarget": "Window: यह पूरा उदास दृश्य किसी धमकी जैसा लगता है। ज़रूर उस डरावने फीके अतिथि ने इसे छोड़ा है।",
+      "targetFile": "Translations/hi/dialogue-batch-178.json",
+      "objectiveReason": "мрачная экспозиция is a grim display left as a threat; उदास दृश्य makes the gore display sad rather than ominous",
+      "relatedReviewIndices": [
+        1024,
+        1026
+      ],
+      "proposedFullTarget": "Window: यह पूरा भयावह दृश्य किसी धमकी जैसा लगता है। ज़रूर उस डरावने फीके अतिथि ने इसे छोड़ा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1194,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457618399234",
+      "collection": "Dialogs",
+      "key": "line:tv_6_extra1_011808c",
+      "nodeNames": [
+        "tv_4_extra1"
+      ],
+      "source": "TV: И когда два брата выросли, вместе они основали пивоварню Бобер.",
+      "currentTarget": "TV: जब दोनों भाई बड़े हुए, तो उन्होंने मिलकर बोबर नाम की बीयर बनाने की कंपनी खोली।",
+      "targetFile": "Translations/hi/dialogue-batch-067.json",
+      "objectiveReason": "пивоварню is a brewery; a generic beer-making company changes the establishment founded by the two brothers",
+      "relatedReviewIndices": [
+        1196
+      ],
+      "proposedFullTarget": "TV: जब दोनों भाई बड़े हुए, तो उन्होंने मिलकर बोबर नाम की ब्रुअरी खोली।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1207,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457614204929",
+      "collection": "Dialogs",
+      "key": "line:tv_5_extra2_0154b6d",
+      "nodeNames": [
+        "tv_6_extra1"
+      ],
+      "source": "TV: Феноменальная новинка – специальная фотоплёнка!",
+      "currentTarget": "TV: अनोखी नई चीज़—विशेष आभा की फ़ोटो फ़िल्म!",
+      "targetFile": "Translations/hi/dialogue-batch-069.json",
+      "objectiveReason": "the advert first reveals only special photographic film; आभा discloses the aura mechanism before the later line that explains it",
+      "relatedReviewIndices": [
+        1205,
+        1206
+      ],
+      "proposedFullTarget": "TV: अनोखी नई चीज़—ख़ास फ़ोटो फ़िल्म!",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1253,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427713",
+      "collection": "Dialogs",
+      "key": "line:tv_3_extra1_0031074",
+      "nodeNames": [
+        "tv_3_extra1"
+      ],
+      "source": "TV: Отважные герои из Комитета по Чрезвычайным Ситуациям защитят нас от нашествия Гостей.",
+      "currentTarget": "TV: आपातकालीन परिस्थितियों की समिति के बहादुर कर्मचारी हमें अतिथियों के आक्रमण से बचाएँगे।",
+      "targetFile": "Translations/hi/dialogue-batch-066.json",
+      "objectiveReason": "отважные герои calls the committee members brave heroes as propaganda; बहादुर कर्मचारी drops the hero claim",
+      "relatedReviewIndices": [
+        1254,
+        1400
+      ],
+      "proposedFullTarget": "TV: आपातकालीन परिस्थितियों की समिति के बहादुर नायक हमें अतिथियों के आक्रमण से बचाएँगे।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1288,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457580650503",
+      "collection": "Dialogs",
+      "key": "line:window_5_2_0f762ac",
+      "nodeNames": [],
+      "source": "Window: Вся эта мрачная экспозиция выглядит как угроза. Наверняка, оставленная тем жутким бледным Гостем.",
+      "currentTarget": "Window: यह पूरा उदास दृश्य किसी धमकी जैसा लगता है। ज़रूर उस डरावने फीके अतिथि ने इसे छोड़ा है।",
+      "targetFile": "Translations/hi/dialogue-batch-179.json",
+      "objectiveReason": "repeat of unit 1023: мрачная экспозиция is a grim display left as a threat, not merely a sad scene",
+      "relatedReviewIndices": [
+        1023,
+        1289,
+        1291
+      ],
+      "proposedFullTarget": "Window: यह पूरा भयावह दृश्य किसी धमकी जैसा लगता है। ज़रूर उस डरावने फीके अतिथि ने इसे छोड़ा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1298,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457576456200",
+      "collection": "Dialogs",
+      "key": "line:tv_1_necessary_0d31c45",
+      "nodeNames": [],
+      "source": "TV: И когда два брата выросли, вместе основали пивоварню Бобер.",
+      "currentTarget": "TV: फिर दोनों भाई बड़े हुए और मिलकर बोबर नाम की मदिरा बनाने की जगह खोली।",
+      "targetFile": "Translations/hi/dialogue-batch-174.json",
+      "objectiveReason": "пивоварню is specifically a brewery; मदिरा बनाने की जगह removes beer specificity and changes the establishment",
+      "relatedReviewIndices": [
+        1194,
+        1300
+      ],
+      "proposedFullTarget": "TV: फिर दोनों भाई बड़े हुए और मिलकर बोबर नाम की ब्रुअरी खोली।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1366,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457551290376",
+      "collection": "Dialogs",
+      "key": "line:window_0_2_090ad84",
+      "nodeNames": [
+        "window_0_2"
+      ],
+      "source": "Window: На тропинке, что идёт сквозь поля, стоит худая дворняга.",
+      "currentTarget": "Window: खेतों से गुज़रती पगडंडी पर एक दुबली आवारा कुतिया खड़ी है।",
+      "targetFile": "Translations/hi/dialogue-batch-180.json",
+      "objectiveReason": "дворняга is a grammatically feminine noun for a stray dog; कुतिया asserts biological female sex not established in this scene",
+      "relatedReviewIndices": [
+        1365
+      ],
+      "proposedFullTarget": "Window: खेतों से गुज़रती पगडंडी पर एक दुबला आवारा कुत्ता खड़ा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1423,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457530318857",
+      "collection": "Dialogs",
+      "key": "line:tv_2_extra_2_04d0a8f",
+      "nodeNames": [],
+      "source": "TV: На улицах города появился бледный маньяк.",
+      "currentTarget": "TV: शहर की सड़कों पर एक पीला हत्यारा दिखाई दिया है।",
+      "targetFile": "Translations/hi/dialogue-batch-174.json",
+      "objectiveReason": "бледный маньяк includes madness/maniacal characterization; पीला हत्यारा omits it while the matching report calls him पागल हत्यारा",
+      "relatedReviewIndices": [
+        1265,
+        1428
+      ],
+      "proposedFullTarget": "TV: शहर की सड़कों पर एक पीला पड़ा पागल हत्यारा दिखाई दिया है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 1472,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "collection": "Dialogs",
+      "key": "line:Tourist_Entrance_Occupied_068c936",
+      "nodeNames": [
+        "Tourist_Entrance_Occupied"
+      ],
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "currentTarget": "Tourist: यहाँ {0} है। मुझे नहीं लगता कि हमारी बनेगी।",
+      "targetFile": "Translations/hi/dialogue-batch-140.json",
+      "objectiveReason": "Я не уверен expresses uncertainty about getting along; मुझे नहीं लगता asserts a stronger negative expectation",
+      "relatedReviewIndices": [
+        1470,
+        1473
+      ],
+      "proposedFullTarget": "Tourist: यहाँ {0} है। मुझे यक़ीन नहीं कि हम दोनों की बनेगी।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 2219,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717576",
+      "collection": "Dialogs",
+      "key": "line:Twins_Entrance_AlkonostOccupied_0df5a23",
+      "nodeNames": [
+        "Twins_Entrance_AlkonostOccupied"
+      ],
+      "source": "Twins: Я чувствую, что на мою сестрёнку посыпятся слова осуждений от этого человека.",
+      "currentTarget": "Twins: मुझे लगता है वह आदमी मेरी बहन को बहुत उलाहने देगा।",
+      "targetFile": "Translations/hi/dialogue-batch-088.json",
+      "objectiveReason": "The occupied character is Alkonost; the approved sisters-together glossary identifies Alkonost and Sirin as women, but आदमी and देगा describe Alkonost as male.",
+      "relatedReviewIndices": [
+        2218,
+        2220
+      ],
+      "proposedFullTarget": "Twins: मुझे लगता है वह औरत मेरी छोटी बहन पर तानों की बौछार कर देगी।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 2415,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414403",
+      "collection": "Dialogs",
+      "key": "line:Fanatic_Entrance_Occupied_01deafb",
+      "nodeNames": [
+        "Fan_Entrance_Occupied"
+      ],
+      "source": "Fanatic: Человек! СОЛНЦЕ велит не входить, покуда в доме таится {0}.",
+      "currentTarget": "Fanatic: इंसान! सूरज का आदेश है कि जब तक घर में {0} छिपा है, अंदर मत आना।",
+      "targetFile": "Translations/hi/dialogue-batch-049.json",
+      "objectiveReason": "In this doorstep refusal branch, the Sun forbids the Fanatic speaker to enter while {0} remains inside; अंदर मत आना instead directs the householder not to enter.",
+      "relatedReviewIndices": [
+        2407,
+        2409,
+        2414
+      ],
+      "proposedFullTarget": "Fanatic: इंसान! सूरज का आदेश है कि जब तक घर में {0} छिपा है, मैं अंदर न जाऊँ।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 2586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499851",
+      "collection": "Dialogs",
+      "key": "line:BigLebowski_Entrance_Occupied_0aeab90",
+      "nodeNames": [
+        "BigLebowski_Entrance_Occupied"
+      ],
+      "source": "BigLebowski: Если решил впустить, то и местечко для меня, типа, надо освободить.",
+      "currentTarget": "BigLebowski: अगर अंदर बुलाने का मन बना लिया है, तो मेरे लिए थोड़ी जगह भी खाली करनी होगी, समझे।",
+      "targetFile": "Translations/hi/dialogue-batch-164.json",
+      "objectiveReason": "The next BigLebowski line explicitly celebrates an accidental rhyme between впустить and освободить. The current Hindi line has no corresponding rhyme, so the next spoken line points to a missing sound pattern.",
+      "relatedReviewIndices": [
+        2585,
+        2587
+      ],
+      "proposedFullTarget": "BigLebowski: मतलब, अगर मुझे अंदर बुलाना है, तो मेरे लिए जगह भी बनाना है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 2734,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168198",
+      "collection": "Dialogs",
+      "key": "line:Vigilante_Entrance_2_1_0b9ada4",
+      "nodeNames": [
+        "Vigilante_Entrance_2_1"
+      ],
+      "source": "Vigilante: Стоит проявиться хоть одному – сразу дух вон из такого.",
+      "currentTarget": "Vigilante: उसका एक भी लक्षण दिखा, तो ऐसे आदमी को तुरंत निकाल बाहर करो।",
+      "targetFile": "Translations/hi/dialogue-batch-039.json",
+      "objectiveReason": "дух вон из такого is the Vigilante’s immediate lethal response to one sign; निकाल बाहर करो changes it to eviction and alters his violent character rule.",
+      "relatedReviewIndices": [
+        2727,
+        2735,
+        2737
+      ],
+      "proposedFullTarget": "Vigilante: एक भी लक्षण दिखे तो ऐसे इंसान को फ़ौरन मार डालो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 2736,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457052168196",
+      "collection": "Dialogs",
+      "key": "line:Vigilante_Entrance_2_1_0b40c71",
+      "nodeNames": [
+        "Vigilante_Entrance_2_1"
+      ],
+      "source": "Vigilante: Блять, так же, как и ты, я думаю!",
+      "currentTarget": "Vigilante: साला, मेरी तरह ही सोचकर, और कैसे!",
+      "targetFile": "Translations/hi/dialogue-batch-039.json",
+      "objectiveReason": "так же, как и ты compares the Vigilante’s method with the player’s; मेरी तरह reverses the comparison and implies the player follows him.",
+      "relatedReviewIndices": [
+        2734,
+        2737,
+        2738
+      ],
+      "proposedFullTarget": "Vigilante: साला, तुम्हारी ही तरह, मेरा ख़याल है!",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 3140,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456909561858",
+      "collection": "Dialogs",
+      "key": "line:Courier_Entrance_3_2_003210e",
+      "nodeNames": [
+        "Courier_Entrance_3_1"
+      ],
+      "source": "Courier: А что, если и у меня от бессонницы глаза покраснеют? Меня тоже заберут в эти ёбаные карантинные зоны?",
+      "currentTarget": "Courier: अगर नींद न आने से मेरी आँखें भी लाल हो गईं तो? क्या मुझे भी उन कमबख़्त क्वारंटीन इलाक़ों में ले जाएँगे?",
+      "targetFile": "Translations/hi/dialogue-batch-022.json",
+      "objectiveReason": "The approved quarantine-zone glossary term is संगरोध क्षेत्र; क्वारंटीन इलाक़ों is the sole transliterated variant in the reviewed prefix and breaks the established term for the same КЧС destination.",
+      "relatedReviewIndices": [
+        1837,
+        1842,
+        3141,
+        3143
+      ],
+      "proposedFullTarget": "Courier: अगर नींद न आने से मेरी आँखें भी लाल हो गईं तो? क्या मुझे भी उन कमबख़्त संगरोध क्षेत्रों में ले जाएँगे?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4094,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456578211840",
+      "collection": "Dialogs",
+      "key": "line:Couple_Entrance_1_0b10101",
+      "nodeNames": [
+        "Couple_Entrance_1"
+      ],
+      "source": "Couple: Большой дом на отшибе, соседи на расстоянии. Шансы, что придёт какой-нибудь уродец, малы.",
+      "currentTarget": "Couple: अलग-थलग बड़ा घर है, पड़ोसी भी दूर हैं। किसी घटिया आदमी के आने की संभावना कम है। अच्छी जगह है।",
+      "targetFile": "Translations/hi/dialogue-batch-280.json",
+      "objectiveReason": "source has no concluding “good place” sentence; target adds an evaluation",
+      "relatedReviewIndices": [
+        4095,
+        4096,
+        4100
+      ],
+      "proposedFullTarget": "Couple: अलग-थलग बड़ा घर है, पड़ोसी भी दूर हैं। किसी घटिया आदमी के आने की संभावना कम है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4151,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456557240322",
+      "collection": "Dialogs",
+      "key": "line:Ballerina_Entrance_2_09e7821",
+      "nodeNames": [
+        "Ballerina_Entrance_2"
+      ],
+      "source": "Ballerina: Ящик пива. Тумбочка. Окорок. Не знаю. Что хочешь, то и дай.",
+      "currentTarget": "Ballerina: बीयर की पेटी। छोटी अलमारी। मांस का टुकड़ा। पता नहीं। जो चाहो दे दो।",
+      "targetFile": "Translations/hi/dialogue-batch-196.json",
+      "objectiveReason": "окорок names a ham or haunch, while मांस का टुकड़ा loses the specific item in the offered-items list",
+      "relatedReviewIndices": [
+        4154,
+        4155
+      ],
+      "proposedFullTarget": "Ballerina: बीयर की पेटी। छोटी अलमारी। मांस की रान। पता नहीं। जो चाहो दे दो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4244,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456523685896",
+      "collection": "Dialogs",
+      "key": "line:entrance_dude_0987200",
+      "nodeNames": [
+        "entrance_dude"
+      ],
+      "source": "Из земли начали вылезать существа, похожие на людей",
+      "currentTarget": "ज़मीन से इंसानों जैसी दिखने वाली चीज़ें निकलने लगी हैं।",
+      "targetFile": "Translations/hi/dialogue-batch-304.json",
+      "objectiveReason": "существа are beings; चीज़ें presents the humanoid creatures as mere things",
+      "relatedReviewIndices": [
+        4232,
+        4233,
+        4245,
+        4375
+      ],
+      "proposedFullTarget": "ज़मीन से इंसानों जैसे दिखने वाले जीव निकलने लगे हैं।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4344,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456490131464",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Entrance_1_01ad37a",
+      "nodeNames": [
+        "Buddy_Entrance_1"
+      ],
+      "source": "Buddy: Так что я смело могу по кабакам ходить, если вдруг захочешь выпить.",
+      "currentTarget": "Buddy: तो अगर कभी पीने का मन हो, बेझिझक मेरे साथ शराबखाने चल सकते हो।",
+      "targetFile": "Translations/hi/dialogue-batch-203.json",
+      "objectiveReason": "source says the Buddy himself can go to bars if the player wants a drink; target instead offers the player permission to go with him",
+      "relatedReviewIndices": [
+        4345,
+        4348
+      ],
+      "proposedFullTarget": "Buddy: तो अगर तुम्हारा कभी पीने का मन हो, मैं बेझिझक तुम्हारे साथ शराबखाने जा सकता हूँ।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4488,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456439799816",
+      "collection": "Dialogs",
+      "key": "line:Raskolnikov_Entrance_4_032f608",
+      "nodeNames": [
+        "Raskolnikov_Entrance_4"
+      ],
+      "source": "Raskolnikov: Сейчас любой тут же жмёт на спусковой крючок, если ты хоть немного похож на Гостя.",
+      "currentTarget": "Raskolnikov: अब कोई ज़रा-सा भी अतिथि जैसा लगे तो लोग तुरंत गोली चला देते हैं।",
+      "targetFile": "Translations/hi/dialogue-batch-158.json",
+      "objectiveReason": "source addresses the player as the potential person mistaken for a Visitor; target changes that second-person risk to any third party",
+      "relatedReviewIndices": [
+        4489,
+        4494,
+        4505
+      ],
+      "proposedFullTarget": "Raskolnikov: अब अगर तुम ज़रा-से भी अतिथि जैसे दिखो, तो कोई भी फ़ौरन ट्रिगर दबा देता है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4508,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456435605505",
+      "collection": "Dialogs",
+      "key": "line:Raskolnikov_Entrance_1_0c48402",
+      "nodeNames": [
+        "Raskolnikov_Entrance_1"
+      ],
+      "source": "Raskolnikov: Наверное, даже голыми руками можешь убить кого надо.",
+      "currentTarget": "Raskolnikov: शायद नंगे हाथों से भी जिसे चाहो मार सकते हो।",
+      "targetFile": "Translations/hi/dialogue-batch-158.json",
+      "objectiveReason": "кого надо refers to whoever needs to be killed; जिसे चाहो makes the killing a matter of personal whim",
+      "relatedReviewIndices": [
+        4509,
+        4510
+      ],
+      "proposedFullTarget": "Raskolnikov: शायद जिसे मारना ज़रूरी हो, उसे तुम नंगे हाथों से भी मार सकते हो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4749,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456347525120",
+      "collection": "Dialogs",
+      "key": "line:entrance_nottrue_00d015b",
+      "nodeNames": [
+        "entrance_nottrue"
+      ],
+      "source": "Долго шли?",
+      "currentTarget": "दूर से आई हैं?",
+      "targetFile": "Translations/hi/dialogue-batch-305.json",
+      "objectiveReason": "Долго шли? asks how long the visitor has been walking; दूर से आई हैं asks how far away she came from, and the response at 4742 discusses duration",
+      "relatedReviewIndices": [
+        4739,
+        4740,
+        4742,
+        4752
+      ],
+      "proposedFullTarget": "काफ़ी देर से चल रही हैं?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 4830,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456322359299",
+      "collection": "Dialogs",
+      "key": "line:Daughter_Entrance_1_4_041fb2b",
+      "nodeNames": [
+        "Daughter_Entrance_1_4"
+      ],
+      "source": "Daughter: Если меня мой друг из школы ударил больно — он тоже Гость?",
+      "currentTarget": "Daughter: अगर स्कूल में मेरा दोस्त मुझे ज़ोर से मारता है, तो क्या वह भी अतिथि है?",
+      "targetFile": "Translations/hi/dialogue-batch-012.json",
+      "objectiveReason": "ударил is a completed hit by the school friend; मारता है makes the hit habitual or ongoing",
+      "relatedReviewIndices": [
+        4831,
+        4832
+      ],
+      "proposedFullTarget": "Daughter: अगर मेरे स्कूल के दोस्त ने मुझे ज़ोर से मारा, तो क्या वह भी अतिथि है?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5085,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456230084618",
+      "collection": "Dialogs",
+      "key": "line:Entrance_Prophet_3_4_0633f72",
+      "nodeNames": [
+        "Entrance_Prophet_3_4"
+      ],
+      "source": "Prophet: А пока я подумаю над значением твоего выбора в гадании.",
+      "currentTarget": "Prophet: और मैं तब तक किताब से किए तुम्हारे चुनाव का मतलब सोचूँगा।",
+      "targetFile": "Translations/hi/dialogue-batch-313.json",
+      "objectiveReason": "выбора в гадании identifies the choice as part of divination; किताब से किए चुनाव states a book choice but omits its divinatory function",
+      "relatedReviewIndices": [
+        5079,
+        5083,
+        5120
+      ],
+      "proposedFullTarget": "Prophet: और तब तक मैं किताब से भविष्य देखने के लिए किए तुम्हारे चुनाव का मतलब सोचूँगा।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5445,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456100061195",
+      "collection": "Dialogs",
+      "key": "line:talk_CultistEnds_3_05fdb51",
+      "nodeNames": [
+        "talk_CultistEnds_3"
+      ],
+      "source": "Я спрячу вас.",
+      "currentTarget": "आपको छिपाने के लिए मेरे पास जगह है।",
+      "targetFile": "Translations/hi/dialogue-batch-315.json",
+      "objectiveReason": "Я спрячу вас promises that the speaking entity will hide the addressees; मेरे पास जगह है asserts available space instead of that act",
+      "relatedReviewIndices": [
+        5444,
+        5446,
+        5448
+      ],
+      "proposedFullTarget": "मैं आपको छिपा दूँगी।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5480,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456091672576",
+      "collection": "Dialogs",
+      "key": "line:RageEnding_1_00aafa9",
+      "nodeNames": [
+        "RageEnding_1"
+      ],
+      "source": "Но вы только выжидаете и надеетесь, что ничего не произойдёт.",
+      "currentTarget": "मगर तुम बस इंतज़ार करते रहते हो और उम्मीद करते हो कि कुछ नहीं होगा।",
+      "targetFile": "Translations/hi/dialogue-batch-058.json",
+      "objectiveReason": "The ending narrator uses formal Вы; तुम changes the established direct-address register, while adjacent narration uses आप",
+      "relatedReviewIndices": [
+        5481,
+        5482,
+        5484
+      ],
+      "proposedFullTarget": "मगर आप बस इंतज़ार करते रहते हैं और उम्मीद करते हैं कि कुछ नहीं होगा।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5481,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456087478283",
+      "collection": "Dialogs",
+      "key": "line:RageEnding_1_04d3a74",
+      "nodeNames": [
+        "RageEnding_1"
+      ],
+      "source": "Вы слышите, как безумец агрессивно выплёвывает слова за дверью.",
+      "currentTarget": "तुम सुनते हो कि दरवाज़े के पार एक पागल आदमी गुस्से से शब्द उगल रहा है।",
+      "targetFile": "Translations/hi/dialogue-batch-058.json",
+      "objectiveReason": "The ending narrator uses formal Вы; तुम changes the established direct-address register, while adjacent narration uses आप",
+      "relatedReviewIndices": [
+        5480,
+        5482,
+        5484
+      ],
+      "proposedFullTarget": "आप सुनते हैं कि दरवाज़े के पार एक पागल आदमी गुस्से से शब्द उगल रहा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5498,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456083283974",
+      "collection": "Dialogs",
+      "key": "line:entrance_gasmask_18_3_02655cc",
+      "nodeNames": [
+        "entrance_gasmask_15_3"
+      ],
+      "source": "Gasmask: Собирайте вещи или мы затащим вас в машину сами.",
+      "currentTarget": "Gasmask: सामान समेटिए, वरना हम ख़ुद आपको गाड़ी में बिठा ले जाएँगे।",
+      "targetFile": "Translations/hi/dialogue-batch-307.json",
+      "objectiveReason": "затащим вас в машину threatens to drag the player into the vehicle; बिठा ले जाएँगे turns the forced dragging into ordinary seating",
+      "relatedReviewIndices": [
+        5497,
+        5499,
+        5500
+      ],
+      "proposedFullTarget": "Gasmask: सामान समेटिए, वरना हम आपको ख़ुद घसीटकर गाड़ी में डाल देंगे।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5582,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456053923843",
+      "collection": "Dialogs",
+      "key": "line:talk_CultistEnds_4_0a991ad",
+      "nodeNames": [],
+      "source": "Ending: Я спрячу вас. Верну вас, где и должны были быть изначально.",
+      "currentTarget": "Ending: आपको छिपाने के लिए मेरे पास जगह है। आपको वहीं लौटाना है जहाँ शुरू से होना चाहिए था।",
+      "targetFile": "Translations/hi/dialogue-batch-315.json",
+      "objectiveReason": "The Death speaker promises in first person to hide and return the player (Я спрячу; Верну); the target turns both finite actions into a place to hide and an impersonal obligation, obscuring agency.",
+      "relatedReviewIndices": [
+        5444,
+        5445,
+        5576,
+        5583
+      ],
+      "proposedFullTarget": "Ending: मैं आपको छिपा दूँगी। आपको वहीं लौटा दूँगी जहाँ आपको शुरू से होना चाहिए था।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5675,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456020369412",
+      "collection": "Dialogs",
+      "key": "line:Death_Income_5_01a757a",
+      "nodeNames": [
+        "Death_Income_5"
+      ],
+      "source": "Я – непризнанный брат, отщепенец в народной семье.",
+      "currentTarget": "मैं अनचाहा भाई हूँ, अपने ही लोगों के परिवार से ठुकराया हुआ।",
+      "targetFile": "Translations/hi/dialogue-batch-056.json",
+      "objectiveReason": "непризнанный брат means an unrecognized or unacknowledged brother, as the approved death glossary explains; अनचाहा makes him unwanted instead and changes the stated relation.",
+      "relatedReviewIndices": [
+        5661,
+        5662,
+        5676
+      ],
+      "proposedFullTarget": "मैं वह भाई हूँ जिसे मान्यता नहीं मिली, लोगों के परिवार से बहिष्कृत।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 5841,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455961649159",
+      "collection": "Dialogs",
+      "key": "line:Intruder_Asking_SpecialEvent_Nightmare_1_06dd1ad",
+      "nodeNames": [
+        "Intruder_Asking_SpecialEvent_Nightmare_1"
+      ],
+      "source": "Intruder: Там ты ползаешь по коридору, словно гадкий слизняк.",
+      "currentTarget": "Intruder: वहाँ तुम किसी घिनौने घोंघे की तरह गलियारे में रेंगते हो।",
+      "targetFile": "Translations/hi/dialogue-batch-189.json",
+      "objectiveReason": "слизняк is a slug; घोंघा is a snail with a shell, changing the creature in the Intruder’s bodily nightmare image.",
+      "relatedReviewIndices": [
+        5835,
+        5836,
+        5839
+      ],
+      "proposedFullTarget": "Intruder: वहाँ तुम किसी घिनौने, खोलरहित घोंघे की तरह गलियारे में रेंगते हो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 6081,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455881957377",
+      "collection": "Dialogs",
+      "key": "line:talk_funnyguy_2_05bedb7",
+      "nodeNames": [
+        "talk_funnyguy_2"
+      ],
+      "source": "Как там твои жильцы?",
+      "currentTarget": "तुम्हारे घरवालों का क्या हाल है?",
+      "targetFile": "Translations/hi/dialogue-batch-316.json",
+      "objectiveReason": "жильцы refers to the tenants living in FunnyGuy’s mortgaged flat in this scene; घरवालों instead refers to household or family members.",
+      "relatedReviewIndices": [
+        6083,
+        6086,
+        6092,
+        6094,
+        6108
+      ],
+      "proposedFullTarget": "तुम्हारे किराएदारों का क्या हाल है?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 6447,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455756128262",
+      "collection": "Dialogs",
+      "key": "line:Experienced_Asking_4_X_0fe3889",
+      "nodeNames": [
+        "Experienced_Asking_4_X"
+      ],
+      "source": "Experienced: Как говорится, тумбочка в отряде по 20 лет стоит. Как была деревянной, так и остаётся.",
+      "currentTarget": "Experienced: कहते हैं, बैरक में 20 साल से अलमारी रखी है; जैसी लकड़ी की थी, वैसी ही है।",
+      "targetFile": "Translations/hi/dialogue-batch-260.json",
+      "objectiveReason": "тумбочка in the prison-barracks saying is a small bedside cabinet/table; अलमारी denotes a wardrobe, replacing the pictured object in the character’s aphorism.",
+      "relatedReviewIndices": [
+        6446,
+        6448,
+        6449
+      ],
+      "proposedFullTarget": "Experienced: कहते हैं, बैरक में एक छोटी सिरहाने वाली मेज़ बीस साल से रखी है; पहले भी लकड़ी की थी, आज भी लकड़ी की है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 6497,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455739351041",
+      "collection": "Dialogs",
+      "key": "line:Experienced_Asking_3_1_07be420",
+      "nodeNames": [
+        "Experienced_Asking_3_1"
+      ],
+      "source": "Experienced: Короче, все люди вокруг — это редиски.",
+      "currentTarget": "Experienced: कुल मिलाकर, आसपास के सारे लोग नालायक हैं।",
+      "targetFile": "Translations/hi/dialogue-batch-261.json",
+      "objectiveReason": "редиски retains a literal radish image as a mild insult; नालायक keeps only the insult, so the adjacent player reply about calling people vegetables (review unit 6495) loses its setup.",
+      "relatedReviewIndices": [
+        6495,
+        6496,
+        6498
+      ],
+      "proposedFullTarget": "Experienced: कुल मिलाकर, आसपास के सारे लोग मूली जैसे नालायक हैं।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 7541,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455382835210",
+      "collection": "Dialogs",
+      "key": "line:talk_gravedigger_4_012e925",
+      "nodeNames": [
+        "talk_gravedigger_4"
+      ],
+      "source": "Не ходил раскапывать новых могил?",
+      "currentTarget": "कहीं नई क़ब्रें खोदने तो नहीं गए थे?",
+      "targetFile": "Translations/hi/dialogue-batch-318.json",
+      "objectiveReason": "раскапывать новых могил asks whether he went to dig up recently filled graves; नई क़ब्रें खोदने asks whether he dug new graves, reversing the grave-digger’s action and the follow-up confession.",
+      "relatedReviewIndices": [
+        7537,
+        7539,
+        7547,
+        7549
+      ],
+      "proposedFullTarget": "कहीं तुम नई दफ़न की गई क़ब्रें फिर से खोदकर देखने तो नहीं गए थे?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 7654,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455345086469",
+      "collection": "Dialogs",
+      "key": "line:Provocateur_Asking_4_2_09812bf",
+      "nodeNames": [
+        "Provocateur_Asking_4_2"
+      ],
+      "source": "Provocateur: Теперь картинка сложилась. Это не ваш дом. Вы убили хозяина и выдаёте себя за него.",
+      "currentTarget": "Provocateur: अब सब साफ़ हो गया। यह आपका घर नहीं है। आपने मालिक को मारकर उसकी जगह ले ली है।",
+      "targetFile": "Translations/hi/dialogue-batch-220.json",
+      "objectiveReason": "выдаёте себя за него specifically accuses the player of impersonating the murdered homeowner; उसकी जगह ले ली है says only that the player took his place and omits the impersonation claim.",
+      "relatedReviewIndices": [
+        7653,
+        7655,
+        7661,
+        7662
+      ],
+      "proposedFullTarget": "Provocateur: अब सब साफ़ हो गया। यह आपका घर नहीं है। आपने मालिक को मार दिया और अब ख़ुद को वही बता रहे हैं।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 7661,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455340892170",
+      "collection": "Dialogs",
+      "key": "line:Provocateur_Asking_4_1_0caf27a",
+      "nodeNames": [
+        "Provocateur_Asking_4_1"
+      ],
+      "source": "Provocateur: Это не ваш дом. Вы убили хозяина и выдаёте себя за него. И я собираюсь связаться с КЧС.",
+      "currentTarget": "Provocateur: यह आपका घर नहीं है। आपने मालिक को मारकर उसकी जगह ले ली है। मैं आपात समिति से संपर्क करूँगा।",
+      "targetFile": "Translations/hi/dialogue-batch-220.json",
+      "objectiveReason": "выдаёте себя за него specifically accuses the player of impersonating the murdered homeowner; उसकी जगह ले ली है says only that the player took his place and omits the impersonation claim in this alternate branch.",
+      "relatedReviewIndices": [
+        7653,
+        7654,
+        7662
+      ],
+      "proposedFullTarget": "Provocateur: यह आपका घर नहीं है। आपने मालिक को मार दिया और अब ख़ुद को वही बता रहे हैं। मैं आपात समिति से संपर्क करूँगा।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 7960,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455227645959",
+      "collection": "Dialogs",
+      "key": "line:Doctor_Asking_3_Disappointed_1_X_1_0afdbab",
+      "nodeNames": [
+        "Doctor_Asking_3_Disappointed_1_X_1"
+      ],
+      "source": "Doctor: Я не мог просто сидеть и смотреть, как людей убивают поодиночке.",
+      "currentTarget": "Doctor: मैं चुपचाप बैठकर लोगों को एक-एक करके मरते नहीं देख सकता था।",
+      "targetFile": "Translations/hi/dialogue-batch-266.json",
+      "objectiveReason": "The Russian passive убивают explicitly says people were being killed one by one; मरते says they were dying, erasing the killers in the doctor’s account of quarantine zones.",
+      "relatedReviewIndices": [
+        7958,
+        7959,
+        7964,
+        7965,
+        7972
+      ],
+      "proposedFullTarget": "Doctor: मैं चुपचाप बैठकर यह नहीं देख सकता था कि लोगों को एक-एक करके मारा जा रहा है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 7994,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455215063049",
+      "collection": "Dialogs",
+      "key": "line:Doctor_Asking_3_2_00cda40",
+      "nodeNames": [
+        "Doctor_Asking_3_2"
+      ],
+      "source": "Тогда скатертью дорожка",
+      "currentTarget": "तो फिर ख़ुशी से जाइए",
+      "targetFile": "Translations/hi/dialogue-batch-266.json",
+      "objectiveReason": "скатертью дорожка is a hostile good-riddance dismissal; ख़ुशी से जाइए sounds like a courteous farewell and reverses the response tone.",
+      "relatedReviewIndices": [
+        7991,
+        7993,
+        7995,
+        8004
+      ],
+      "proposedFullTarget": "तो फिर दफ़ा हो जाइए",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 8053,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455194091531",
+      "collection": "Dialogs",
+      "key": "line:Doctor_Asking_1_3_095c848",
+      "nodeNames": [
+        "Doctor_Asking_1_3"
+      ],
+      "source": "Doctor: Я… хотел продолжать помогать людям. Это моё призвание. Я не мог просто так отказаться от этого.",
+      "currentTarget": "Doctor: मैं... लोगों की मदद करते रहना चाहता था। यही मेरा काम है। इसे यूँ ही छोड़ नहीं सकता था।",
+      "targetFile": "Translations/hi/dialogue-batch-267.json",
+      "objectiveReason": "Это моё призвание names the doctor’s vocation or calling; यही मेरा काम है reduces this motivation to a job and loses the stated reason he cannot give it up.",
+      "relatedReviewIndices": [
+        8054,
+        8055,
+        8056,
+        8057
+      ],
+      "proposedFullTarget": "Doctor: मैं... लोगों की मदद करते रहना चाहता था। यही मेरे जीवन का उद्देश्य है। इसे यूँ ही छोड़ नहीं सकता था।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 8159,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455156342795",
+      "collection": "Dialogs",
+      "key": "line:Wolfhound_Asking_2_3_05611fd",
+      "nodeNames": [
+        "Wolfhound_Asking_2_3"
+      ],
+      "source": "Wolfhound: Придётся их убить. Провести показательные казни.",
+      "currentTarget": "Wolfhound: उन्हें मारना पड़ेगा। सबके सामने सज़ा देनी होगी।",
+      "targetFile": "Translations/hi/dialogue-batch-237.json",
+      "objectiveReason": "показательные казни means demonstrative public executions; सबके सामने सज़ा देनी होगी says only public punishment and omits killing, despite the preceding threat.",
+      "relatedReviewIndices": [
+        8157,
+        8158,
+        8160,
+        8161,
+        8162
+      ],
+      "proposedFullTarget": "Wolfhound: उन्हें मारना पड़ेगा। सबके सामने मिसाल बनाकर उनकी हत्या करनी होगी।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 8756,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454955016199",
+      "collection": "Dialogs",
+      "key": "line:Couple_Asking_3_068e515",
+      "nodeNames": [
+        "Couple_Asking_3"
+      ],
+      "source": "Couple: Понимаете, жена моя, глупышка, собиралась, блин, три часа, уже выходить было поздно.",
+      "currentTarget": "Couple: समझिए, मेरी भोली पत्नी तैयारी में पूरे तीन घंटे लगा बैठी। फिर निकलने में देर हो गई।",
+      "targetFile": "Translations/hi/dialogue-batch-282.json",
+      "objectiveReason": "глупышка condescends to and belittles the wife as foolish; भोली presents her as innocent or naive, softening the husband’s abusive characterization in this repeated-delay scene.",
+      "relatedReviewIndices": [
+        8752,
+        8753,
+        8754,
+        8758,
+        8760,
+        8737
+      ],
+      "proposedFullTarget": "Couple: समझिए, मेरी नासमझ पत्नी तैयारी में पूरे तीन घंटे लगा बैठी। फिर निकलने में देर हो गई।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 8761,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454955016194",
+      "collection": "Dialogs",
+      "key": "line:Couple_Asking_2_2_0128751",
+      "nodeNames": [
+        "Couple_Asking_2_2"
+      ],
+      "source": "Couple: Но это ничего страшного, главное же идти, правильно?",
+      "currentTarget": "Couple: मगर यह बड़ी बात नहीं, पहुँचना ज़रूरी है, है न?",
+      "targetFile": "Translations/hi/dialogue-batch-282.json",
+      "objectiveReason": "главное же идти says the main thing is to keep going; पहुँचना ज़रूरी है says reaching the destination is what matters, reversing the husband’s excuse for the slow, repeatedly postponed journey.",
+      "relatedReviewIndices": [
+        8755,
+        8756,
+        8760,
+        8762,
+        8771,
+        8772
+      ],
+      "proposedFullTarget": "Couple: मगर कोई बड़ी बात नहीं, बस चलते रहना ज़रूरी है, है न?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 9142,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454812409860",
+      "collection": "Dialogs",
+      "key": "line:Fatman_Asking_1_2_070097e",
+      "nodeNames": [
+        "Fatman_Asking_1_2"
+      ],
+      "source": "Fatman: Что значит нет? Думаешь, неподкупный? Да всë что угодно можно купить: любовь, вещи, людей…",
+      "currentTarget": "Fatman: ओह, अच्छा हुआ पूछा! एक कश लगाना है। कोई फ़ालतू सिगरेट है?",
+      "targetFile": "Translations/hi/dialogue-batch-272.json",
+      "objectiveReason": "The target is an unrelated copied cigarette request from the later Fatman branch; the Russian instead challenges refusal, asks whether the player is incorruptible, and claims money can buy love, things, and people.",
+      "relatedReviewIndices": [
+        9135,
+        9139,
+        9141,
+        9146,
+        9155
+      ],
+      "proposedFullTarget": "Fatman: ‘नहीं’ का क्या मतलब? सोचता है तुझे रिश्वत नहीं दी जा सकती? पैसे से कुछ भी ख़रीदा जा सकता है: प्यार, चीज़ें, लोग…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 9337,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454741106692",
+      "collection": "Dialogs",
+      "key": "line:Bestson_Asking_2_027669c",
+      "nodeNames": [
+        "Bestson_Asking_2"
+      ],
+      "source": "Bestson: Я ПРОПАДУ БЕЗ НИХ. ПОЧЕМУ ОНИ НЕ ВЗЯЛИ МЕНЯ С СОБОЙ?",
+      "currentTarget": "Bestson: उनके बिना मेरा क्या होगा? वे मुझे साथ क्यों नहीं ले गए?",
+      "targetFile": "Translations/hi/dialogue-batch-229.json",
+      "objectiveReason": "Я ПРОПАДУ БЕЗ НИХ emphatically asserts that he will be ruined without his parents; उनके बिना मेरा क्या होगा? changes this into an open question and loses his panic and certainty.",
+      "relatedReviewIndices": [
+        9338,
+        9348,
+        9349
+      ],
+      "proposedFullTarget": "Bestson: उनके बिना मैं बरबाद हो जाऊँगा! वे मुझे साथ क्यों नहीं ले गए?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 9358,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454732718088",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Asking_3_1_05a90c5",
+      "nodeNames": [
+        "Fugitive_Asking_3_1"
+      ],
+      "source": "Fugitive: Но хочется верить, что до него добрался кто-то другой. Да хоть тот бледный тощий Гость.",
+      "currentTarget": "Fugitive: मगर उम्मीद है कि उसे किसी और ने पकड़ लिया होगा। चाहे वह पीला, दुबला अतिथि ही क्यों न हो।",
+      "targetFile": "Translations/hi/dialogue-batch-086.json",
+      "objectiveReason": "бледный conflicts with the approved pale-visitor term फीका अतिथि when rendered पीला अतिथि; добрался до него says someone got to the armed man, while पकड़ लिया asserts a capture not present in the source.",
+      "relatedReviewIndices": [
+        9357,
+        9359,
+        9363,
+        9365
+      ],
+      "proposedFullTarget": "Fugitive: मगर उम्मीद है कि कोई और उस तक पहुँच गया होगा। चाहे वह फीका, दुबला अतिथि ही क्यों न हो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 9731,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454602694666",
+      "collection": "Dialogs",
+      "key": "line:Alkonost_Asking_3_0364c69",
+      "nodeNames": [
+        "Alkonost_Asking_3"
+      ],
+      "source": "Alkonost: Ничего не может с ним произойти? Вряд ли у него проблемы?",
+      "currentTarget": "Alkonost: कहीं उसके साथ कुछ हुआ तो नहीं? कहीं वह मुसीबत में तो नहीं?",
+      "targetFile": "Translations/hi/dialogue-batch-093.json",
+      "objectiveReason": "The Russian negative questions seek reassurance that nothing has happened to her husband and he is unlikely to be in trouble; the Hindi asks whether something did happen and whether he is in trouble, reversing her denial in this scene.",
+      "relatedReviewIndices": [
+        9727,
+        9728,
+        9730,
+        9732,
+        9707,
+        9708
+      ],
+      "proposedFullTarget": "Alkonost: उसके साथ कुछ बुरा नहीं हुआ होगा, है न? शायद वह किसी मुसीबत में नहीं होगा?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 9938,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454531391498",
+      "collection": "Dialogs",
+      "key": "line:Daughter_Asking_1_1_0e0277d",
+      "nodeNames": [
+        "Daughter_Asking_1_1"
+      ],
+      "source": "Daughter: (Девочка безостановочно зовёт отца, истерика остановится нескоро)",
+      "currentTarget": "Daughter: (बच्ची बिना रुके पापा को पुकार रही है; उसका रोना जल्दी नहीं थमेगा।)",
+      "targetFile": "Translations/hi/dialogue-batch-014.json",
+      "objectiveReason": "The Russian narrator says the child is in sustained hysterics; “उसका रोना” reduces that state to crying and weakens the urgency of this grief scene.",
+      "relatedReviewIndices": [
+        9872,
+        9873,
+        9876,
+        9937,
+        9941,
+        9942
+      ],
+      "proposedFullTarget": "Daughter: (बच्ची बिना रुके पापा को पुकार रही है; उसकी बेकाबू चीख-पुकार जल्दी नहीं थमेगी।)",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 10077,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454476865541",
+      "collection": "Dialogs",
+      "key": "line:Scammer_Asking_2_3_08917de",
+      "nodeNames": [
+        "Scammer_Asking_2_3"
+      ],
+      "source": "Ты хочешь сдавать людей КЧС?",
+      "currentTarget": "तुम लोगों को आपात समिति के हवाले करना चाहते हो?",
+      "targetFile": "Translations/hi/dialogue-batch-292.json",
+      "objectiveReason": "In Scammer’s informant scene, “сдавать людей КЧС” means to report or inform on people to the Emergency Committee. “हवाले करना” instead indicates physically handing people over, changing the proposed action.",
+      "relatedReviewIndices": [
+        10061,
+        10070,
+        10079,
+        10080
+      ],
+      "proposedFullTarget": "क्या तुम आपात समिति से लोगों की मुखबिरी करना चाहते हो?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 10236,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454409756675",
+      "collection": "Dialogs",
+      "key": "line:Widow_Asking_2_012bb80",
+      "nodeNames": [
+        "Widow_Asking_2"
+      ],
+      "source": "Widow: Будто нечем плакать уже.",
+      "currentTarget": "Widow: जैसे रोने की कोई वजह ही नहीं बची।",
+      "targetFile": "Translations/hi/dialogue-batch-287.json",
+      "objectiveReason": "In Widow’s grief scene, “нечем плакать” means she has no tears left; “रोने की कोई वजह ही नहीं बची” says she has no reason to cry, changing her emotional meaning.",
+      "relatedReviewIndices": [
+        10234,
+        10235,
+        10237,
+        10238,
+        10239
+      ],
+      "proposedFullTarget": "Widow: जैसे रोने के लिए आँसू ही नहीं बचे।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 11139,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454086795266",
+      "collection": "Dialogs",
+      "key": "line:FunnyGuy_Armpit_0e19ce9",
+      "nodeNames": [
+        "FunnyGuy_Armpit"
+      ],
+      "source": "FunnyGuy: А теперь вот от сырости такой вишь чё вылезло? Мази не помогают! Ещё и брить заставляют!",
+      "currentTarget": "FunnyGuy: और अब इस नमी से यह निकल आया है, देखा? मरहम भी काम नहीं करते! ऊपर से दाढ़ी बनवाते हैं!",
+      "targetFile": "Translations/hi/dialogue-batch-202.json",
+      "objectiveReason": "In the armpit examination scene, the Russian says he is made to shave; the Hindi specifies beard shaving (“दाढ़ी”), a different body area from the inspected armpits and the preceding skin-irritation complaint.",
+      "relatedReviewIndices": [
+        11136,
+        11137,
+        11138,
+        11140,
+        11141,
+        11142
+      ],
+      "proposedFullTarget": "FunnyGuy: और अब इस नमी से यह निकल आया है, देखा? मरहम भी काम नहीं करते! ऊपर से बगल के बाल भी मुंडवाने को मजबूर करते हैं!",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 11529,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453948383235",
+      "collection": "Dialogs",
+      "key": "line:Tough_Ears_Gun_0a0fd7e",
+      "nodeNames": [
+        "Tough_Ears_Gun"
+      ],
+      "source": "Tough: Что ты такое там увидел? Серу? Или что?",
+      "currentTarget": "Tough: वहाँ तुम्हें क्या दिखा? गंधक? या क्या?",
+      "targetFile": "Translations/hi/dialogue-batch-188.json",
+      "objectiveReason": "In the ear inspection, “сера” means earwax; “गंधक” is the chemical sulfur, an unrelated substance.",
+      "relatedReviewIndices": [
+        11526,
+        11527,
+        11528,
+        11551,
+        11557
+      ],
+      "proposedFullTarget": "Tough: वहाँ तुम्हें क्या दिखा? कान का मैल? या क्या?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 11586,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453927411719",
+      "collection": "Dialogs",
+      "key": "line:Tough_Teeth_0e2d14a",
+      "nodeNames": [
+        "Tough_Teeth"
+      ],
+      "source": "Tough: При желании я и выдрать их могу какому-нибудь ублюдку.",
+      "currentTarget": "Tough: चाहूँ तो इनसे किसी हरामी को नोच भी सकती हूँ।",
+      "targetFile": "Translations/hi/dialogue-batch-188.json",
+      "objectiveReason": "The Russian threat says she could pull “them” (teeth/fangs) out of a bastard. The Hindi says she could claw a bastard with her own teeth, reversing the action and object.",
+      "relatedReviewIndices": [
+        11583,
+        11584,
+        11585,
+        11587,
+        11588,
+        11589
+      ],
+      "proposedFullTarget": "Tough: चाहूँ तो किसी हरामी के दाँत भी उखाड़ सकती हूँ।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 11876,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453822554114",
+      "collection": "Dialogs",
+      "key": "line:Unstable_Eyes_DontShoot_0b230a1",
+      "nodeNames": [
+        "Unstable_Eyes_DontShoot"
+      ],
+      "source": "Unstable: Чего-то я даже не заметил, когда у меня всё покрасилось само…",
+      "currentTarget": "Unstable: पता ही नहीं चला कि मेरी नज़र में सब अपने आप लाल कब हो गया...",
+      "targetFile": "Translations/hi/dialogue-batch-258.json",
+      "objectiveReason": "“Покрасилось” says his visual field became colored or changed color without specifying red. The Hindi adds “लाल”; adjacent lines ask what color and describe the surroundings as greenish, so the added red misstates the perception.",
+      "relatedReviewIndices": [
+        11875,
+        11877,
+        11878,
+        11933,
+        11934,
+        11935,
+        11939
+      ],
+      "proposedFullTarget": "Unstable: पता ही नहीं चला कि मेरी नज़र में हर चीज़ का रंग अपने आप कब बदल गया...",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 12641,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453281488898",
+      "collection": "Dialogs",
+      "key": "line:Intruder_Armpit_0c72e98",
+      "nodeNames": [
+        "Intruder_Armpit"
+      ],
+      "source": "Intruder: Ну что? Не очень?",
+      "currentTarget": "Intruder: तो? अच्छी नहीं आई?",
+      "targetFile": "Translations/hi/dialogue-batch-191.json",
+      "objectiveReason": "In Intruder_Armpit, “Не очень?” asks whether the inspected armpit looks bad. Hindi “अच्छी नहीं आई?” refers to something feminine coming out poorly, which reads as the photograph from the preceding Photo scene and changes the inspection object.",
+      "relatedReviewIndices": [
+        12639,
+        12640,
+        12642,
+        12643,
+        12630,
+        12638
+      ],
+      "proposedFullTarget": "Intruder: तो? कुछ ठीक नहीं दिखा?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13034,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504453075968002",
+      "collection": "Dialogs",
+      "key": "line:TaxiDriver_Teeth_Gun_0fd12b0",
+      "nodeNames": [
+        "TaxiDriver_Teeth_Gun"
+      ],
+      "source": "TaxiDriver: Зубы тогда… кое-что напомнили. Одного человека. Плохого.",
+      "currentTarget": "TaxiDriver: उन दाँतों ने तब… एक बात याद दिलाई। एक आदमी की। बुरे आदमी की।",
+      "targetFile": "Translations/hi/dialogue-batch-172.json",
+      "objectiveReason": "In TaxiDriver_Teeth_Gun, the following fragment “Одного человека. Плохого.” identifies the person whom the teeth recalled. Hindi “एक बात याद दिलाई। एक आदमी की।” changes the recalled referent into an unspecified thing about a man and breaks that continuation.",
+      "relatedReviewIndices": [
+        13005,
+        13006,
+        13008,
+        13009,
+        13010,
+        13011,
+        13032,
+        13033,
+        13035
+      ],
+      "proposedFullTarget": "TaxiDriver: उन दाँतों ने तब… किसी की याद दिलाई। एक आदमी की। बुरे आदमी की।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13328,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452929167368",
+      "collection": "Dialogs",
+      "key": "line:Wolfhound_Photo_DontShoot_02bdd9f",
+      "nodeNames": [
+        "Wolfhound_Photo_DontShoot"
+      ],
+      "source": "Wolfhound: Это уже не серьёзно.",
+      "currentTarget": "Wolfhound: अब यह मज़ाक नहीं रहा।",
+      "targetFile": "Translations/hi/dialogue-batch-238.json",
+      "objectiveReason": "Wolfhound describes the protagonist’s gun handling as no longer serious, i.e. ridiculous; Hindi says it is no longer a joke, reversing the assessment of its seriousness.",
+      "relatedReviewIndices": [
+        13326,
+        13327,
+        13331,
+        13332
+      ],
+      "proposedFullTarget": "Wolfhound: यह तो अब हास्यास्पद हो गया है।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13335,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452929167361",
+      "collection": "Dialogs",
+      "key": "line:Wolfhound_Hands_DontShoot_06119cc",
+      "nodeNames": [
+        "Wolfhound_Hands_DontShoot"
+      ],
+      "source": "Wolfhound: Я ведь могу быстрее тебя оказаться.",
+      "currentTarget": "Wolfhound: मैं तुमसे पहले वहाँ पहुँच सकता हूँ।",
+      "targetFile": "Translations/hi/dialogue-batch-238.json",
+      "objectiveReason": "The gun confrontation is about which man acts faster; Russian has no destination. Hindi inserts “वहाँ पहुँच” and changes the threat into reaching some place first.",
+      "relatedReviewIndices": [
+        13334,
+        13359,
+        13360
+      ],
+      "proposedFullTarget": "Wolfhound: मैं तुमसे ज़्यादा तेज़ भी निकल सकता हूँ।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13367,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452912390147",
+      "collection": "Dialogs",
+      "key": "line:Wolfhound_Ears_0e897a3",
+      "nodeNames": [
+        "Wolfhound_Ears"
+      ],
+      "source": "Wolfhound: Может, тебе смирительную рубашку надеть от греха подальше?",
+      "currentTarget": "Wolfhound: तुम्हें सीधे बाँधकर रखूँ क्या, ताकि मुसीबत न हो?",
+      "targetFile": "Translations/hi/dialogue-batch-238.json",
+      "objectiveReason": "Russian names a straightjacket as the specific restraint. Hindi replaces it with generic binding and removes the concrete object in Wolfhound’s taunt.",
+      "relatedReviewIndices": [
+        13369,
+        13331,
+        13339
+      ],
+      "proposedFullTarget": "Wolfhound: तुम्हें एहतियातन बाँधकर रखने वाली कमीज़ पहना दूँ क्या?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13656,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452765589511",
+      "collection": "Dialogs",
+      "key": "line:Widow_Photo_06bb696",
+      "nodeNames": [
+        "Widow_Photo"
+      ],
+      "source": "Widow: Делай что хочешь и не трогай меня.",
+      "currentTarget": "Widow: जो चाहो करो, मुझे मत छुओ।",
+      "targetFile": "Translations/hi/dialogue-batch-288.json",
+      "objectiveReason": "In the Widow_Photo scene, “не трогай меня” asks to be left alone after she tells the protagonist to leave; Hindi restricts the request to physical touching, leaving other harassment unaddressed.",
+      "relatedReviewIndices": [
+        13630,
+        13631,
+        13654,
+        13657,
+        13660,
+        13661
+      ],
+      "proposedFullTarget": "Widow: जो चाहो करो, बस मुझे अकेला छोड़ दो।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 13858,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452673314827",
+      "collection": "Dialogs",
+      "key": "line:Hunter_Hands_Gun_0a7ccd1",
+      "nodeNames": [
+        "Hunter_Hands_Gun"
+      ],
+      "source": "Hunter: Выдыхай давай, не нажми случайно на курок.",
+      "currentTarget": "Hunter: साँस लो, गलती से ट्रिगर मत दबा देना।",
+      "targetFile": "Translations/hi/dialogue-batch-248.json",
+      "objectiveReason": "In the Hunter_Hands_Gun confrontation, “Выдыхай” specifically means breathe out to steady oneself. Hindi “साँस लो” tells the player to breathe in, reversing the physical instruction.",
+      "relatedReviewIndices": [
+        13855,
+        13856,
+        13857,
+        13859
+      ],
+      "proposedFullTarget": "Hunter: साँस छोड़ो, गलती से ट्रिगर मत दबा देना।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14388,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452484571139",
+      "collection": "Dialogs",
+      "key": "line:Teacher_Photo_031997e",
+      "nodeNames": [
+        "Teacher_Photo"
+      ],
+      "source": "Teacher: Делайте свою фотографию, если так нужно…",
+      "currentTarget": "Teacher: ज़रूरी है तो अपनी तस्वीर खींच लीजिए…",
+      "targetFile": "Translations/hi/dialogue-batch-234.json",
+      "objectiveReason": "The kindergarten teacher consents to the player taking the requested inspection photo of her. Hindi “अपनी तस्वीर” directs the player to photograph themself instead.",
+      "relatedReviewIndices": [
+        14384,
+        14385,
+        14386,
+        14387,
+        14349,
+        14351
+      ],
+      "proposedFullTarget": "Teacher: ज़रूरी है तो तस्वीर खींच लीजिए…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14694,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452358742020",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Ears_DontShoot_0133b6a",
+      "nodeNames": [
+        "Buddy_Ears_DontShoot"
+      ],
+      "source": "Buddy: Как-то рядом с нами гремели фейерверки. А собачка моя начала трястись, жаться к полу и ко мне поближе. Страшно бедняжке стало.",
+      "currentTarget": "Buddy: एक बार हमारे पास आतिशबाज़ी हो रही थी। मेरी कुतिया काँपने लगी, ज़मीन से सट गई और मेरे करीब आ गई। बेचारी डर गई थी।",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14696,
+        14697,
+        14698,
+        14704,
+        14725,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: एक बार हमारे पास आतिशबाज़ी हो रही थी। मेरा कुत्ता काँपने लगा, ज़मीन से सट गया और मेरे करीब आ गया। बेचारा डर गया था।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14696,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452358742018",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Photo_DontShoot_0cf3fad",
+      "nodeNames": [
+        "Buddy_Photo_DontShoot"
+      ],
+      "source": "Buddy: Я вот собаку свою фотографировал часто. Всё не мог ей налюбоваться. Хотелось делиться с другими, показывать её.",
+      "currentTarget": "Buddy: मगर अपनी कुतिया की तस्वीरें अक्सर खींचता था। उससे मन ही नहीं भरता था। दूसरों को दिखाने का मन करता था।",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14697,
+        14698,
+        14704,
+        14725,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: मगर अपने कुत्ते की तस्वीरें अक्सर खींचता था। उससे मन ही नहीं भरता था। दूसरों को दिखाने का मन करता था।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14697,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452358742017",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Armpit_DontShoot_03069c6",
+      "nodeNames": [
+        "Buddy_Armpit_DontShoot"
+      ],
+      "source": "Buddy: Странно, да? Она ушла, а я до сих пор ношу на себе её следы, так сказать…",
+      "currentTarget": "Buddy: अजीब है न? वह चली गई, मगर उसके निशान अब भी मेरे शरीर पर हैं, कह सकते हो…",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14696,
+        14698,
+        14704,
+        14725,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: अजीब है न? वह चला गया, मगर उसके निशान अब भी मेरे शरीर पर हैं, कह सकते हो…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14698,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452358742016",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Armpit_DontShoot_085149d",
+      "nodeNames": [
+        "Buddy_Armpit_DontShoot"
+      ],
+      "source": "Buddy: Думал, может, согрею её, может, легче будет… Ну и вот, видимо, грибок на память оставила.",
+      "currentTarget": "Buddy: सोचा, शायद उसे गर्म रखूँ तो कुछ आराम मिले… और लगता है यादगार के तौर पर मुझे यह फफूँद दे गई।",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14696,
+        14697,
+        14704,
+        14725,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: सोचा, शायद उसे गर्म रखूँ तो कुछ आराम मिले… और लगता है यादगार के तौर पर मुझे यह फफूँद दे गया।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14704,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452354547715",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Hands_DontShoot_0a7c0e7",
+      "nodeNames": [
+        "Buddy_Hands_DontShoot"
+      ],
+      "source": "Buddy: Этими руками я когда-то держал собаку, когда она ещё живая была. Гладил её, а у неё была такая мягкая шерсть!",
+      "currentTarget": "Buddy: इन्हीं हाथों में कभी अपनी कुतिया को उठाया था, जब वह ज़िंदा थी। उसे सहलाता था, उसके बाल कितने मुलायम थे!",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14696,
+        14697,
+        14698,
+        14725,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: इन्हीं हाथों में कभी अपने कुत्ते को उठाया था, जब वह ज़िंदा था। उसे सहलाता था, उसके बाल कितने मुलायम थे!",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14725,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452346159109",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Hands_Gun_05caff7",
+      "nodeNames": [
+        "Buddy_Hands_Gun"
+      ],
+      "source": "Buddy: Ну, давай, корешок. Я хочу верить, что после смерти что-то есть, и мы где-то там увидимся с моей собачкой…",
+      "currentTarget": "Buddy: चलो फिर, दोस्त। मैं मानना चाहता हूँ कि मौत के बाद भी कुछ है और वहाँ अपनी कुतिया से फिर मिलूँगा…",
+      "targetFile": "Translations/hi/dialogue-batch-205.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14696,
+        14697,
+        14698,
+        14704,
+        14741
+      ],
+      "proposedFullTarget": "Buddy: चलो फिर, दोस्त। मैं मानना चाहता हूँ कि मौत के बाद भी कुछ है और वहाँ अपने कुत्ते से फिर मिलूँगा…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14741,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452341964800",
+      "collection": "Dialogs",
+      "key": "line:Buddy_Armpit_0240b62",
+      "nodeNames": [
+        "Buddy_Armpit"
+      ],
+      "source": "Buddy: Нечего тут смотреть, честное слово. Толстые, волосатые, да ещё и с грибком каким-то. Наверное, подцепил, когда с собакой ночевал на полу.",
+      "currentTarget": "Buddy: देखने लायक कुछ नहीं है, सच कह रहा हूँ। मोटे, बालों वाले, ऊपर से कोई फफूँद भी है। शायद तब लगी जब कुतिया के साथ फ़र्श पर सोया था।",
+      "targetFile": "Translations/hi/dialogue-batch-206.json",
+      "objectiveReason": "Buddy’s Russian uses generic “собака/собачка” with grammatical feminine agreement; the approved Hindi glossary describes his pet as “कुत्ते” and does not establish biological sex. Hindi “कुतिया” or feminine agreement explicitly makes the dog female. Keep the generic dog reference and its agreement consistent across this scene.",
+      "relatedReviewIndices": [
+        14694,
+        14696,
+        14697,
+        14698,
+        14704,
+        14725
+      ],
+      "proposedFullTarget": "Buddy: देखने लायक कुछ नहीं है, सच कह रहा हूँ। मोटे, बालों वाले, ऊपर से कोई फफूँद भी है। शायद तब लगी जब कुत्ते के साथ फ़र्श पर सोया था।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14880,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452291633153",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Death_020a6d6",
+      "nodeNames": [
+        "Fugitive_Death"
+      ],
+      "source": "Fugitive: Блять, сбежал от одних уродов, чтобы меня застрелил другой…",
+      "currentTarget": "Fugitive: साला, एक कमीने से बचकर भागा ताकि दूसरा मुझे गोली मार दे…",
+      "targetFile": "Translations/hi/dialogue-batch-087.json",
+      "objectiveReason": "Russian “от одних уродов” refers to a group of abusers from whom the fugitive escaped, followed by another individual who may shoot him. Hindi “एक कमीने से” changes that first group to one person.",
+      "relatedReviewIndices": [
+        14879,
+        14881,
+        14882,
+        14886,
+        14888
+      ],
+      "proposedFullTarget": "Fugitive: साला, कुछ कमीनों से बचकर भागा था, और अब दूसरा मुझे गोली मार देगा…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14926,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452274855940",
+      "collection": "Dialogs",
+      "key": "line:Fugitive_Armpit_0d4ef7d",
+      "nodeNames": [
+        "Fugitive_Armpit"
+      ],
+      "source": "Fugitive: Приятель, я неделю в бегах. Не до бритья, сам понимаешь.",
+      "currentTarget": "Fugitive: दोस्त, एक हफ़्ते से भाग रहा हूँ। दाढ़ी बनाने का समय कहाँ, समझता है न।",
+      "targetFile": "Translations/hi/dialogue-batch-087.json",
+      "objectiveReason": "In Fugitive_Armpit, “Не до бритья” refers to shaving in the armpit inspection. Hindi specifies beard shaving (“दाढ़ी”), changing the body area being inspected.",
+      "relatedReviewIndices": [
+        14924,
+        14925,
+        14927,
+        14928,
+        14929
+      ],
+      "proposedFullTarget": "Fugitive: दोस्त, एक हफ़्ते से भाग रहा हूँ। बगल के बाल मूँडने की फ़ुर्सत कहाँ, समझता है न।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 14967,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452258078727",
+      "collection": "Dialogs",
+      "key": "line:Nun_Hands_DontShoot_02581a6",
+      "nodeNames": [
+        "Nun_Hands_DontShoot"
+      ],
+      "source": "Nun: А мои – сплошное отторжение…",
+      "currentTarget": "Nun: और मेरी आँखों में… बस घृणा है।",
+      "targetFile": "Translations/hi/dialogue-batch-169.json",
+      "objectiveReason": "In the hands inspection, preceding line 14968 explicitly establishes hands as the topic; Hindi changes “мои” (my hands) to my eyes and changes rejection into hatred.",
+      "relatedReviewIndices": [
+        14968,
+        14966
+      ],
+      "proposedFullTarget": "Nun: और मेरे हाथ… मानो हर चीज़ को ठुकराते हैं…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 15098,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504452211941380",
+      "collection": "Dialogs",
+      "key": "line:Raskolnikov_Photo_011ce2e",
+      "nodeNames": [
+        "Raskolnikov_Photo"
+      ],
+      "source": "Raskolnikov: Эээй, не надо мне угрожать ружьём! Делай свой снимок. Что тут поделать…",
+      "currentTarget": "Raskolnikov: अरे, मुझे बंदूक से मत धमकाओ! अपनी तस्वीर ले लो। और किया भी क्या जा सकता है…",
+      "targetFile": "Translations/hi/dialogue-batch-160.json",
+      "objectiveReason": "In Raskolnikov_Photo, “Делай свой снимок” permits the player to take the requested inspection photo; Hindi “अपनी तस्वीर ले लो” instead requests a picture of the player.",
+      "relatedReviewIndices": [
+        15094,
+        15095,
+        15096,
+        15100,
+        15101
+      ],
+      "proposedFullTarget": "Raskolnikov: अरे, मुझे बंदूक से मत धमकाओ! जो तस्वीर चाहिए, खींच लो। और किया भी क्या जा सकता है…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 15824,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451935117317",
+      "collection": "Dialogs",
+      "key": "line:Anxiety_Photo_0a159f8",
+      "nodeNames": [],
+      "source": "Anxiety: (Когда фотография проявляется, вы видите размытое тело и четкий фон)",
+      "currentTarget": "Anxiety: (तस्वीर उभरने पर तुम्हें धुँधला शरीर और साफ़ पृष्ठभूमि दिखती है)",
+      "targetFile": "Translations/hi/dialogue-batch-299.json",
+      "objectiveReason": "Narrative parenthetical addresses the player with formal “вы”; Hindi switches to informal “तुम्हें”, unlike the nearby player-addressed photo narration.",
+      "relatedReviewIndices": [
+        15823,
+        15825
+      ],
+      "proposedFullTarget": "Anxiety: (तस्वीर उभरने पर आपको धुँधला शरीर और साफ़ पृष्ठभूमि दिखती है)",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 15825,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451935117316",
+      "collection": "Dialogs",
+      "key": "line:Anxiety_Photo_03974aa",
+      "nodeNames": [],
+      "source": "Anxiety: (Вы фотографируете собеседника)",
+      "currentTarget": "Anxiety: (तुम सामने वाले की तस्वीर लेते हो)",
+      "targetFile": "Translations/hi/dialogue-batch-299.json",
+      "objectiveReason": "Narrative parenthetical addresses the player with formal “Вы”; Hindi switches to informal “तुम”, unlike nearby photo narration.",
+      "relatedReviewIndices": [
+        15823,
+        15824
+      ],
+      "proposedFullTarget": "Anxiety: (आप सामने वाले की तस्वीर लेते हैं)",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 15930,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451893174277",
+      "collection": "Dialogs",
+      "key": "line:Fanatic_Photo_0a4e55d",
+      "nodeNames": [],
+      "source": "Fanatic: Тебе кто-то рассказал, что я здоровался с самим СОЛНЕЧНЫМ ЛИДЕРОМ?",
+      "currentTarget": "Fanatic: क्या किसी ने तुम्हें बताया कि मैंने ख़ुद सूर्य नेता से हाथ मिलाया था?",
+      "targetFile": "Translations/hi/dialogue-batch-278.json",
+      "objectiveReason": "“здоровался” says he greeted the Solar Leader; Hindi adds an unsupported handshake, changing the claimed encounter.",
+      "relatedReviewIndices": [
+        15929,
+        15931
+      ],
+      "proposedFullTarget": "Fanatic: क्या किसी ने तुम्हें बताया कि मैंने ख़ुद सूर्य नेता का अभिवादन किया था?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 15940,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451888979973",
+      "collection": "Dialogs",
+      "key": "line:Fanatic_Eyes_053fac8",
+      "nodeNames": [
+        "Fanatic_Eyes"
+      ],
+      "source": "Fanatic: ЗАГЛЯНИ В МОИ ТЁМНЫЕ ГЛАЗА!",
+      "currentTarget": "Fanatic: मेरी गहरी आँखों में झाँको!",
+      "targetFile": "Translations/hi/dialogue-batch-279.json",
+      "objectiveReason": "“тёмные глаза” states his eyes are dark; Hindi “गहरी आँखों” describes depth rather than color, losing the physical eye attribute.",
+      "relatedReviewIndices": [
+        15936,
+        15941,
+        15942
+      ],
+      "proposedFullTarget": "Fanatic: मेरी काली आँखों में झाँको!",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 16166,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451800899585",
+      "collection": "Dialogs",
+      "key": "line:Mother_Eyes_0dbb521",
+      "nodeNames": [
+        "Mother_Eyes"
+      ],
+      "source": "Mother: Видишь огроменные мешки? Это от недосыпа…",
+      "currentTarget": "Mother: आँखों के नीचे ये बड़े-बड़े घेरे दिख रहे हैं? नींद न मिलने से हैं…",
+      "targetFile": "Translations/hi/dialogue-batch-102.json",
+      "objectiveReason": "“мешки” are puffy bags under the eyes; Hindi “घेरे” denotes circles, a different visible sign.",
+      "relatedReviewIndices": [
+        16164,
+        16165,
+        16167
+      ],
+      "proposedFullTarget": "Mother: आँखों के नीचे ये बड़े-बड़े थैले दिख रहे हैं? नींद न मिलने से हैं…",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 16192,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451788316678",
+      "collection": "Dialogs",
+      "key": "line:Wheelchair_Ears_DontShoot_02cee3c",
+      "nodeNames": [],
+      "source": "Wheelchair: Если… если ты не доверяешь этому признаку, то как я могу им доверять?",
+      "currentTarget": "Wheelchair: अगर… अगर तुझे इस लक्षण पर भरोसा नहीं, तो मैं उस पर कैसे करूँ?",
+      "targetFile": "Translations/hi/dialogue-batch-181.json",
+      "objectiveReason": "Source “им” refers to the other signs as a plural set, established by the preceding branch question; Hindi singular “उस पर” refers back only to this sign.",
+      "relatedReviewIndices": [
+        16187,
+        16188,
+        16191
+      ],
+      "proposedFullTarget": "Wheelchair: अगर… अगर तुझे इस लक्षण पर भरोसा नहीं, तो मैं उन पर कैसे करूँ?",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 16274,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451754762242",
+      "collection": "Dialogs",
+      "key": "line:Wheelchair_Eyes_0b8d775",
+      "nodeNames": [
+        "Wheelchair_Eyes"
+      ],
+      "source": "Wheelchair: Ещё со времён, когда я газовал как следует, не успевал взглядом зацепиться за… ну, хоть что-то.",
+      "currentTarget": "Wheelchair: तब भी, जब मैं तेज़ रफ़्तार में भागता था, नज़र किसी… किसी भी चीज़ पर टिक नहीं पाती थी।",
+      "targetFile": "Translations/hi/dialogue-batch-115.json",
+      "objectiveReason": "In the racer/wheelchair scene, “газовал” means revving/driving fast; Hindi “भागता था” changes him to running on foot.",
+      "relatedReviewIndices": [
+        16273,
+        16275,
+        16288
+      ],
+      "proposedFullTarget": "Wheelchair: उन दिनों भी, जब मैं तेज़ रफ़्तार से गाड़ी दौड़ाता था, नज़र किसी… किसी भी चीज़ पर टिक नहीं पाती थी।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    },
+    {
+      "reviewIndex": 16333,
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504451729596421",
+      "collection": "Dialogs",
+      "key": "line:Firefighter_Ears_0174130",
+      "nodeNames": [
+        "Firefighter_Ears"
+      ],
+      "source": "Firefighter: Тут всё просто – обгорели до хрящей.",
+      "currentTarget": "Firefighter: बात सीधी है—कान नरम हड्डी तक जल गए।",
+      "targetFile": "Translations/hi/dialogue-batch-118.json",
+      "objectiveReason": "“хрящи” is cartilage exposed by burning; Hindi calls it soft bone, changing the anatomical injury.",
+      "relatedReviewIndices": [
+        16330,
+        16331,
+        16332
+      ],
+      "proposedFullTarget": "Firefighter: बात सीधी है—कान उपास्थि तक जल गए।",
+      "status": "proposed; pending one-batch adjudication and correction"
+    }
+  ]
+}

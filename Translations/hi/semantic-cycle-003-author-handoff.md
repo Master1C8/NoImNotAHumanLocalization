@@ -1,0 +1,36 @@
+# Hindi cycle 003 author handoff
+
+Game: No, I'm not a Human v1.3.19. Source: Russian. Scope: 16,538 accepted visible text IDs; images and textures excluded. This is an **author correction handoff**, not independent review, editorial acceptance or runtime readiness.
+
+## Reconciliation and correction
+
+Review02's final report (`e8d97f60c73e1ad80c74749017ab78f3e3350bea37c2908b9ec7af3fb8a3fc3b`), final per-ID decisions (`b3efb4abaabf219cda3b8329d947ec8c14311c56e4f8ea6e491894493b5dd68d`) and final coverage proof (`86dc86fad8642b2868e0dbbd84c0275b88d90b8c5fef076375c08fccaecb0fd4`) were used; provisional receipts were not treated as final decisions. Before application, all 693 Review02 pins matched. The Russian strings (`ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0`), static source (`3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc`), approved Hindi glossary (`80bfe4cf64f7dca7a6671081cbf27ee36e0beb1813822750bfbd4015a531023a`), compiled runtime binding (`dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c`), 16,538-ID alignment and exact-span manifest (`d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226`) remain pinned. The previous 5,133-ID closure and its exact independent review are reusable where targets and dependencies did not change; the universal first semantic pass is preserved without restart.
+
+All 17 final Review02 findings were accepted as complete-unit corrections. One bounded adjacent hotline line (`line:phone_psychics_7_01d9005`) also used कवकजाल for Russian мицелий, contrary to the approved माइसीलियम term. The source and current target were read with the compiled hotline branch and source/glossary context. An exhaustive authored-target search found exactly two कवकजाल uses and two गंधक uses, all four corrected in this batch. Exact source repetitions and bounded kinship, remarriage, exam agency, theft, firefighter timing, recovery, speaker reveal and vibration families were enumerated before application. Previously dismissed contextual candidates remain dismissed without new evidence.
+
+One **18-unit batch** changed only target values in 14 dialogue authored files. The full preflight checked source/current-value hashes, complete target replacements, scene facts and protected syntax before any authored edit. The 14 before/after authored files and validation sidecars are preserved in `semantic-cycle-003-before-files/` and `semantic-cycle-003-after-files/`. The static phrase map, credits map, 178-row static draft and three common-option authored expansion recipes were unchanged; their outputs therefore required no regeneration. The three expansion outputs verified at 2,593 + 245 + 45 rows.
+
+| Cycle 003 evidence | SHA-256 |
+| --- | --- |
+| `semantic-cycle-003-adjudication.json` | `ecc1da462fcf2932e8602d2d129331272d4296939702ddc3bd39599ab0a313ad` |
+| `semantic-cycle-003-preflight.json` | `2d0041cab8aecd43481647b018403e9a679dfece3e41f2e3b26a54d9d9be1ff4` |
+| `semantic-cycle-003-application-plan.json` | `7c270e46ffbbd1b2e2803cc7379d0711e3602e305bd4cf1630b3ca7cc911f9b4` |
+| `semantic-cycle-003-applied-evidence.json` | `d30afc4dd42fbf1ab38a23187a8b634de1190b1c713a036e2cda0807891330de` |
+| `semantic-cycle-003-structural-gate.json` | `00a8724fe13c355da90d29b4ea5d7fda937ed660cda191fa34a1095a5bcc962a` |
+| `semantic-cycle-003-closure.json` | `7cb5d3fdaf74d992aa1c47a9911204cd9e1b9b2d4cd5ddd99ae0d800f464202b` |
+| `semantic-cycle-003-review-delta.json` | `d84804bce21f2d2218af8b7138add83b1d58ee1f0e71b022332dc8b7f379fa07` |
+| `build-semantic-cycle-003-closure.py` | `bc54e9a8c3fc2c0a86ce34602f9a2a321feabb9af28313de4f42697d3aa08f52` |
+
+## Reproducible closure and distinct review delta
+
+The locale-owned selector explicitly includes both Russian TV earwax inflections `сера/серы`, the full psychic and mushroom мицелий family, changed scene node IDs, source repetitions, target echoes, bounded referent/concept families, prior runtime supplier dependencies and all 4,805 pinned source-risk catalog IDs. No other locale's wording or review decision was reused. The seven technical `GetCharacterOnPlace` supplier fragments remain separately pinned in `semantic-cycle-002-runtime-context.json` (`70988dba5941d0cbb1e46b7fe11a4ec914b56d434eecd3bbd4243ddcc04c480d`); translated raw UI labels remain accepted text, not technical exclusions. The revised closure contains **5,207** unique canonical accepted IDs, zero missing required catalog IDs and zero extra unaccepted IDs. Its LF-final-newline ID-list hash is `b78068c61672f4ae0bb4b8f66b2ec8d8fc06dc8f8659d0386740622dcbc31b65`.
+
+The prior independently reviewed closure has 5,133 IDs (`c0f35b5003032f11f7f65f44540488449d3dd13d14fe97663aa5a8980089ee6a`). The exact next independent delta is **141** canonical IDs (`6a7084bc935c9526290598ea910f542c2497d5da6ac8ac30e989eb0f169468c4`): 18 corrected (`c468a4e81b59c383da07e069a61baddb65a2bb5549a902de65094359bdb0b263`) ∪ 74 newly included (`7d26968cce3f458506e6463f619c315d4d9d9aab688d66d3e941fd0be00c48e3`) ∪ 51 explicitly invalidated prior scene/repetition/referent reads (`1a5dadecade8c7750d927513d2a12038513ab6551645a9f1272493900e4bef58`), after overlap removal. Invalidation uses only this cycle's 114 scene, 18 repetition and 44 glossary/referent dependencies; historical carried components do not independently invalidate a Review02 read. No prior closure IDs were retired. The two corrected units outside the previous closure are the adjacent TV earwax line and the psychic hotline line. The `changed` selector component is cumulative across cycles 002 and 003 (39 historical affected IDs); the exact **current corrected set is 18** in the delta and adjudication.
+
+## Gates and remaining limits
+
+All 14 affected `validate_game_text_batch.py` calls passed. The cycle003 builder's full 16,538-value preserve-exact pass, ID alignment, sidecar hashes, and before/after target-only checks passed and reproduced the 5,207/141 closure/delta under `--verify`. `Scripts/report_locale_readiness.py --exact --compact` reported Hindi **16,538/16,538 (100.000%)**, 16,538 validated, zero problems. All 665 untouched Review02 pins still matched after application. Common-option expansions verified with `Scripts/expand_exact_text_batch.py --verify`. These are structural/reproducibility checks, not a clean semantic verdict.
+
+Accepted Widow and Cultist ending duplicate rows still lack exact compiled line references; runtime reachability remains conditional. The Theorist acronym is an adaptation question, not a proven defect. The three plain psychic-service static fields have unproved visible use. Serialized default dynamic candidates do not establish every reachable game state. No game launch, visual/runtime QA, Git staging/commit, shared state, image/texture work or publication occurred.
+
+**Next action:** root assigns a distinct reviewer the exact 141-ID cycle003 delta, the current 5,207-ID closure, the complete 4,805-ID source-risk catalog, retained Review02 decisions and separately hashed technical supplier context. The reviewer must check the corrected units, invalidated scene/concept families and newly included IDs on current authored hashes. Author rereading cannot count as independent review or final editorial acceptance.

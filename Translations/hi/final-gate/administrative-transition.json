@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "result": "passed",
+  "semanticInputsChanged": 0,
+  "administrativePinsChanged": 1,
+  "onlyChangedPin": "Translations/hi/dialogue-batch-080.validation.json",
+  "before": {
+    "path": "Translations/hi/dialogue-batch-080.validation.json",
+    "sha256": "167d4457b8a359a3cd0a37965d94b27ffd33044ba19ed49c406241516f293968",
+    "archivePath": "Translations/hi/final-gate/preimages/dialogue-batch-080.validation.json",
+    "archiveSha256": "167d4457b8a359a3cd0a37965d94b27ffd33044ba19ed49c406241516f293968"
+  },
+  "after": {
+    "path": "Translations/hi/dialogue-batch-080.validation.json",
+    "sha256": "8d4c45c4d29abab96a1abc54187379925ee951bcd71e3cbf18b3628e4116bdfe",
+    "batchSha256": "6dd52df0410a6678f2afb0b71c86c3b41ecc48b18a8793dc28ace95c747be4cc",
+    "authoredRows": 19,
+    "structuralResult": "passed"
+  },
+  "validator": {
+    "path": "Scripts/validate_game_text_batch.py",
+    "sha256": "d5141beeb1dfd55476935a1828257603d7302f85bd5a2818bff223a476647253",
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python Scripts/validate_game_text_batch.py Translations/hi/dialogue-batch-080.json",
+    "exitCode": 0
+  },
+  "historicalPinApplicability": "Review04 and cycle004 sidecar pins refer to archived exact preimage. Current authored semantic inputs are byte-identical; current_text checks refreshed mutable sidecar; fresh cycle004 full corpus receipt remains applicable. No historic evidence rewritten."
+}

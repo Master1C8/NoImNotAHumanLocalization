@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "locale": "hi",
+  "gameVersion": "1.3.19",
+  "status": "cycle004 author correction and exact distinct-reviewer handoff; independent/editorial/runtime acceptance pending",
+  "acceptedUnits": 16538,
+  "textCoveragePercent": 100.0,
+  "review03": {
+    "finalReportPath": "Translations/hi/independent-review-03/final-report.md",
+    "finalReportSha256": "9dc3568c82a5767d28e4cab6f7a89a5514e4f93cb62e51834eb5090d31100e5f",
+    "consolidatedFinalFindingsSha256": "f3723bc029d72210f530d4928193e5d5fdd3ea8741bd96be68b7f6ff5c01a8ba",
+    "finalArtifactManifestSha256": "f3090cab563a8b43774e6f5990c60f426ba6950877f95f7e3a4f2881d1e845df",
+    "assignedDeltaFreshRead": 141,
+    "correctionsPassed": 18,
+    "objectiveTextFindingsOutsideDelta": 1,
+    "selectorFindings": 1,
+    "priorClosureApplicableDecisions": 5207
+  },
+  "correction": {
+    "count": 1,
+    "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449796",
+    "key": "line:Mushroom_end_2_0bbb282",
+    "before": "और मशरूम जितने ज़्यादा...",
+    "after": "और मशरूम जितने बड़े...",
+    "reason": "Russian nominative грибы and compiled growth sequence describe mushroom size, not mushroom count.",
+    "authoredFile": "Translations/hi/dialogue-batch-080.json",
+    "beforeSha256": "831cc09ea062ce320967e5e3517e329f413c18364a151b1c65c33b5910e5c497",
+    "afterSha256": "6dd52df0410a6678f2afb0b71c86c3b41ecc48b18a8793dc28ace95c747be4cc",
+    "historicalSidecarUnchangedSha256": "167d4457b8a359a3cd0a37965d94b27ffd33044ba19ed49c406241516f293968"
+  },
+  "selector": {
+    "sourceInflectionPattern": "(?i)\\bмицели(?:й|я|ю|и|ем)\\b",
+    "actualAcceptedMyceliumUses": 22,
+    "myceliumIdListSha256LfFinalNewline": "a84d8dcdea6d36890ba00da95458a22f2c843e5f30acf0fafbc4970d9f232030",
+    "previousClosureCount": 5207,
+    "currentClosureCount": 5216,
+    "currentClosureIdListSha256LfFinalNewline": "56c598f67861514ae98cc9df6d3d434d698d5289a80513fd57f645f9e9d23f27",
+    "mandatoryCatalogRequiredCount": 4805,
+    "mandatoryMissingCount": 0,
+    "extraUnacceptedCount": 0,
+    "technicalSupplierFragmentCount": 7,
+    "technicalContextPath": "Translations/hi/semantic-cycle-002-runtime-context.json",
+    "technicalContextSha256": "70988dba5941d0cbb1e46b7fe11a4ec914b56d434eecd3bbd4243ddcc04c480d"
+  },
+  "nextIndependentDelta": {
+    "count": 9,
+    "idListSha256LfFinalNewline": "e2d3e5d932da8ffdb9ed01c06cf4db62e39c23a6656dd2de7fc739a43b15a637",
+    "correctedCount": 1,
+    "newDependencyCount": 9,
+    "explicitInvalidatedPriorCount": 0,
+    "retiredPriorCount": 0,
+    "ids": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865035",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865027",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456976670726",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456972476419",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449797",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456108449796",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340931",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340930",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340929"
+    ],
+    "formula": "corrected union (current closure minus previous independently reviewed closure) union explicit invalidated prior",
+    "supplementalReview03Applicability": {
+      "exactFullUnitSourceTargetApplicableIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865035",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865027",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456976670726",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456972476419",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340931",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340929"
+      ],
+      "exactFullUnitApplicableCount": 6,
+      "sameNodeChangedContextIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340931",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340929"
+      ],
+      "sameNodeChangedContextCount": 2,
+      "contextUnchangedSupplementalIds": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865035",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865027",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456976670726",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456972476419"
+      ],
+      "contextUnchangedSupplementalCount": 4,
+      "interpretation": "All six clean supplemental complete-unit source/target decisions remain exact. Two Mushroom_end_2 neighbors require fresh scene-context judgment after the growth-size correction. The formal new-dependency delta includes all six because they were outside the previous independently reviewed closure."
+    }
+  },
+  "gates": {
+    "freshLocaleOnlyWholeCorpus": "passed 16,538 unique accepted IDs, full owning structure and exact spans",
+    "freshCorpusReceiptPath": "Translations/hi/semantic-cycle-004-full-corpus.json",
+    "freshCorpusReceiptSha256": "f5546c932dd41d548cf24f1ab3a31e2a7812da0b7d4561e2c6c3d72ab310e8cc",
+    "historicalSidecars": "unchanged",
+    "staticDraftRows": 178,
+    "commonOptionExpansionRows": [
+      2593,
+      245,
+      45
+    ],
+    "closureReproduction": "passed --verify"
+  },
+  "artifacts": {
+    "Translations/hi/semantic-cycle-004-pre-edit-snapshot.json": "835fffa740d179b75b2a7c4e8595ba4ec6037287fc8f298bcba760a5a2a362cf",
+    "Translations/hi/semantic-cycle-004-adjudication.json": "7518d04482315a514182e6e22cc65a6b68cbbb0f37b205b714aacb4600dfa622",
+    "Translations/hi/semantic-cycle-004-preflight.json": "5a209c739dacd9172a7f2db8ecdfe19d213fecbf65542a5ddd1fe0b7f83f96fa",
+    "Translations/hi/semantic-cycle-004-application-plan.json": "33d32354aa45584a436fa3c4d9fcde7cfc4fc85ea07c780e5e74a238d2680298",
+    "Translations/hi/semantic-cycle-004-applied-evidence.json": "15ab0f5419891ab0e95891c5030662ae3946f7dc298f4e79fc3b907bfc619ebf",
+    "Translations/hi/semantic-cycle-004-full-corpus.json": "f5546c932dd41d548cf24f1ab3a31e2a7812da0b7d4561e2c6c3d72ab310e8cc",
+    "Translations/hi/semantic-cycle-004-structural-gate.json": "e7ef72781a4a445c4b2da15260ae817990d5a9e97598e0abdaee3bf9cad72e60",
+    "Translations/hi/semantic-cycle-004-closure.json": "5181fcfbf91074aba9555f132ab6dd5e583119395c7a8777982b03d3ca24713c",
+    "Translations/hi/semantic-cycle-004-review-delta.json": "066098ad3c5cdc81a3aa79c12ee03ba96ce49d113cf600653d95d3c4d7ea7af7",
+    "Translations/hi/prepare-semantic-cycle-004.py": "4bc64b9726a81235064ed60dee4104c8e712eab5fa122accf1c8354ad85450b2",
+    "Translations/hi/apply-semantic-cycle-004.py": "b350511e96501dc42642cfdc23331db5629f57fb271d1f167c1ba786b9660fef",
+    "Translations/hi/build-semantic-cycle-004-closure.py": "f39d4c8b438be4b0e783948ec94e6d64b2a15ab6dcd76f2354d696fed92434fa"
+  },
+  "limits": [
+    "No game/runtime/visual/font/shaping test in this text-only assignment.",
+    "Accepted Widow and Cultist ending duplicate keys lack exact compiled references.",
+    "Theorist acronym remains an adaptation question without proven defect.",
+    "Plain psychic-service static fields have unproved visible use.",
+    "Serialized default dynamic candidates do not prove every reachable game state."
+  ],
+  "nextAction": "Root assigns a distinct reviewer the exact nine-ID cycle004 delta. Reuse prior 5,207 closure decisions only on exact unchanged source/target/glossary/runtime hashes; acknowledge six supplemental full-unit decisions, and recheck context for two Mushroom_end_2 neighbors. Do not claim author read as independent or final editorial acceptance."
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "findingId": "HI-R03-DEP-001",
+    "type": "dependency-selector-incompleteness",
+    "affectedRecipe": "Translations/hi/build-semantic-cycle-003-closure.py",
+    "currentPattern": "(?i)мицелий",
+    "reason": "The claimed complete mycelium concept family omits Russian genitive, dative and prepositional uses. An independent stem scan found 22 accepted source uses, six outside the 5207-ID closure. Literal lemma-only matching is incomplete; this blocks clean closure acceptance.",
+    "proposedRecipeCorrection": "Use an inflection-aware source predicate such as (?i)\\bмицели(?:й|я|ю|и|ем)\\b, reconcile all 22 accepted occurrences and retained compiled dependencies, then reproduce the ordinary next cycle. Preserve cycle003 evidence and apply the exact delta algorithm.",
+    "regression": "All 22 accepted мицелий/мицелия/мицелию/мицелии/мицелием source uses must occur in the closure, including all six listed full units; no fabricated translation IDs.",
+    "fullUnits": [
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865035",
+        "key": "line:entrance_mushroomeater_3_0a58437",
+        "source": "MushroomEater: Внутри мицелия такой беспорядок, что ритуал… не произвёл никакого эффекта…",
+        "target": "MushroomEater: माइसीलियम के भीतर इतनी अव्यवस्था है कि अनुष्ठान का… कोई असर ही नहीं हुआ…",
+        "authoredPath": "Translations/hi/dialogue-batch-301.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "entrance_mushroomeater_10"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456980865027",
+        "key": "line:MushroomEater_Entrance_2_4_0e89ef9",
+        "source": "MushroomEater: Они являются лишь частью мицелия.",
+        "target": "MushroomEater: वे तो बस माइसीलियम का एक हिस्सा हैं।",
+        "authoredPath": "Translations/hi/dialogue-batch-078.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "MushroomEater_Entrance_2_4"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456976670726",
+        "key": "line:MushroomEater_Entrance_2_3_07f08c5",
+        "source": "MushroomEater: Мы не можем говорить с грибами напрямую, так как не являемся частью мицелия.",
+        "target": "MushroomEater: हम मशरूमों से सीधे बात नहीं कर सकते, क्योंकि हम माइसीलियम का हिस्सा नहीं हैं।",
+        "authoredPath": "Translations/hi/dialogue-batch-078.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "MushroomEater_Entrance_2_3"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456972476419",
+        "key": "line:MushroomEater_Entrance_2_1_0778dd8",
+        "source": "MushroomEater: Я узнал это от мицелия.",
+        "target": "MushroomEater: यह मुझे माइसीलियम से पता चला।",
+        "authoredPath": "Translations/hi/dialogue-batch-078.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "MushroomEater_Entrance_2_1"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340931",
+        "key": "line:Mushroom_end_2_0699a5b",
+        "source": "Теперь, мицелию надо эту злобу куда-то деть...",
+        "target": "अब माइसीलियम को यह द्वेष कहीं निकालना होगा...",
+        "authoredPath": "Translations/hi/dialogue-batch-080.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "Mushroom_end_2"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      },
+      {
+        "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456041340929",
+        "key": "line:Mushroom_end_2_0f27bf6",
+        "source": "Тем больше комков злобы в мицелии.",
+        "target": "माइसीलियम में द्वेष की उतनी ही ज़्यादा गाँठें बनेंगी।",
+        "authoredPath": "Translations/hi/dialogue-batch-080.json",
+        "inCycle003Closure": false,
+        "nodeNames": [
+          "Mushroom_end_2"
+        ],
+        "semanticDecision": "No objective wording finding. Approved माइसीलियम term and complete source facts preserved.",
+        "replacementTarget": null,
+        "requiredAction": "Include this accepted ID in concept dependency closure and record applicable independent read."
+      }
+    ],
+    "assignedDeltaSemanticFindingCount": 0,
+    "boundedOutsideDeltaFullUnitsRead": 6,
+    "boundedFullNodeContextRowsRead": 31
+  }
+]
