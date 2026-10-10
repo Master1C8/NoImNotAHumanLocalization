@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "cycle": "003",
+  "status": "mandatory catalog membership verified; four current delta rows require separate independent semantic reread",
+  "catalogSha256": "a5f237d21646b519e7caeb332b2140a9209af81e395270bf4600fd32b5690c3c",
+  "priorReviewerSummarySha256": "f6fdb732d5ec67e922af0cc48f91b35cb719fa25c7e402996f00b10f14fda4f3",
+  "priorReviewedClosureSha256": "48983ef22062579bd85645e5c18485a587eaf67a24bbf35f65965075202f527e",
+  "currentAuthoredFileSetSha256": "03cef75a119be3a8f29276f8e8f4f4de19bc003120cd658303baf16df9b3dd83",
+  "currentClosureCount": 548,
+  "currentCatalogUnionCount": 548,
+  "reusedUnchangedPriorIds": 544,
+  "currentDeltaIds": {
+    "count": 4,
+    "idsSha256": "fe8d7d565c715ea04126ef42668ad6b7c720fb445405d7612224e5b63d3a381b",
+    "ids": [
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608707",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608706",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608705",
+      "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704"
+    ]
+  },
+  "perCatalog": [
+    {
+      "name": "allUiMenuSaveSettingsLanguageAndCreditsLabels",
+      "count": 259,
+      "idsSha256": "a786dc2726f3adc30fe338d65a9d8227290e0bbc578ec9c1aeb9e6d7229103f6",
+      "deltaIntersection": []
+    },
+    {
+      "name": "allSupplementalStaticIncludingCreditsAndLocationDisplays",
+      "count": 178,
+      "idsSha256": "f7a0099aa0ae7d19b16368e866734e7a795b39888c9abd7f4f53913733fb80a9",
+      "deltaIntersection": []
+    },
+    {
+      "name": "allFormatSlotAndDynamicJoinRows",
+      "count": 111,
+      "idsSha256": "645a5c7a5b882f2ec2763257f35af267af391e1a828c891b1e40eff467b20161",
+      "deltaIntersection": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704"
+      ]
+    },
+    {
+      "name": "allTmpMarkupRows",
+      "count": 11,
+      "idsSha256": "235b2b827c4ebf423d13a555843d3ec1f900a4a69a122dc94e9766384dcdcfad",
+      "deltaIntersection": []
+    },
+    {
+      "name": "checksDialogAndExactSymbol",
+      "count": 74,
+      "idsSha256": "17946294c84baee12427e391401bc767ba0ad53c19d8aa0f6f1a9b8b9fabaf3a",
+      "deltaIntersection": []
+    },
+    {
+      "name": "changedSceneSpeakerChoiceGenderAndAgency",
+      "count": 4,
+      "idsSha256": "fe8d7d565c715ea04126ef42668ad6b7c720fb445405d7612224e5b63d3a381b",
+      "deltaIntersection": [
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608707",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608706",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608705",
+        "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704"
+      ]
+    }
+  ],
+  "evidenceBoundary": "Previous cycle 002 closure held 604 independently covered IDs by completed reviews 01 and 02; 77 cycle002 delta rows were read by review02, while unchanged prior rows retained per-ID evidence. In cycle003 all 548 closure IDs are within that prior set. The 544 closure IDs outside this exact four-ID delta retain unchanged target text and dependencies under current selectors; the corrected Hunter line and three adjacent compiled rows require fresh independent context review. Membership/structural verification here is author work, not independent semantic acceptance.",
+  "protectedExact": "16,538 current units passed preserve-exact-cycle-003.json",
+  "unknowns": [
+    "Neighbour same-place label lacks pinned UI source value",
+    "13 slot rows lack matching compiled instructions",
+    "Runtime, fonts, visuals and packaging not tested"
+  ]
+}

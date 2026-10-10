@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "reviewerTask": "/root/sr_independent_review_03",
+  "attempts": [
+    {
+      "script": "Translations/sr/independent-review-03/produce_evidence.py",
+      "exitCode": 1,
+      "boundary": "retirement evidence schema predicate",
+      "observed": "KeyError: reason; actual field retirementReason",
+      "sideEffects": "New prior-evidence-applicability.jsonl created with 544 exact verified prior decisions; no other output or input mutation.",
+      "retained": "Original script and successful output preserved."
+    },
+    {
+      "script": "Translations/sr/independent-review-03/produce_evidence_attempt_02.py",
+      "exitCode": 0,
+      "changedHypothesis": "Use actual retirementReason field; equality-check already-created immutable output before continuing.",
+      "result": "Clean four-unit review evidence; all 16,538 preserve-exact checks passed, 786 pins unchanged.",
+      "sideEffects": "Remaining new review evidence written only in independent-review-03; first output checked equal without rewrite."
+    }
+  ],
+  "usage": "Exact request/session usage unavailable; no attempts excluded or estimated.",
+  "delegation": "none"
+}

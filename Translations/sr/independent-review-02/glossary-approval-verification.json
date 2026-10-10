@@ -1,0 +1,43 @@
+{
+  "result": "current canonical source and Serbian layer have matching canonical editorial acceptance and immutable independent review evidence",
+  "approvalPath": "Documentation/glossary-translations/canonical-reviews/sr.json",
+  "approvalSha256": "c26845a23b27c755ee4367fddf60fada5bfef5f6c9bd12953a03784dbbc8c8ab",
+  "acceptanceManifestPath": "Documentation/glossary-translations/acceptance-manifest.json",
+  "acceptanceManifestSha256": "74cfcc15f337097d4e18d849b71b2ed7790028341f05e78a4115d61a8add6346",
+  "sourceRawSha256": "14eb83652b636b36b3110ddedaf2eaf72127e7e46f23474cad816dbbe8dbf401",
+  "layerRawSha256": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+  "authoredRawSha256": "5f21917c5759515b8523a7edffb6487cb9c4e1d31245a7c80c6fab262f728eb7",
+  "independentReceiptSha256": "f02bb74328caea2b2c173ecca418c8d022bfa7ac5ca8d7b8285695baea0f101d",
+  "evidence": [
+    {
+      "historicalPath": "sr/final-self-audit-1.json",
+      "currentPath": "Documentation/glossary-translations/sr/final-self-audit-1.json",
+      "expectedSha256": "5054a05b7ac666a9276f43e9ce04300e8b537586d7fb9cb020008cd95f8a1c76",
+      "actualSha256": "5054a05b7ac666a9276f43e9ce04300e8b537586d7fb9cb020008cd95f8a1c76",
+      "result": "passed"
+    },
+    {
+      "historicalPath": "sr/final-self-audit-2.json",
+      "currentPath": "Documentation/glossary-translations/sr/final-self-audit-2.json",
+      "expectedSha256": "b8b39f46693a7ebd370f085eabc14291d7282cc697fc23d0a3fd12b1c04cf261",
+      "actualSha256": "b8b39f46693a7ebd370f085eabc14291d7282cc697fc23d0a3fd12b1c04cf261",
+      "result": "passed"
+    },
+    {
+      "historicalPath": "independent-reviews/sr/review-v1.json",
+      "currentPath": "Documentation/glossary-translations/canonical-reviews/independent/sr/review-v1.json",
+      "expectedSha256": "f02bb74328caea2b2c173ecca418c8d022bfa7ac5ca8d7b8285695baea0f101d",
+      "actualSha256": "f02bb74328caea2b2c173ecca418c8d022bfa7ac5ca8d7b8285695baea0f101d",
+      "result": "passed"
+    },
+    {
+      "historicalPath": "independent-reviews/sr/reviewed-layer-v1.json",
+      "currentPath": "Documentation/glossary-translations/canonical-reviews/independent/sr/reviewed-layer-v1.json",
+      "expectedSha256": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+      "actualSha256": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+      "result": "passed"
+    }
+  ],
+  "historicalAuthorStatus": "The older Documentation/glossary-translations/sr/review.json pending status is preserved author history. Canonical-reviews/sr.json plus acceptance-manifest.json establish the accepted current layer. The metadata limitation noted in this review summary is resolved by these existing receipts, with no source/layer changes and no new glossary audit.",
+  "cmsParity": "not rerun by this narrow independent text reviewer; no publication performed"
+}

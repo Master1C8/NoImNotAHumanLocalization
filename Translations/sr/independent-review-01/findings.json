@@ -1,0 +1,413 @@
+{
+  "status": "objective full-unit proposals; not applied",
+  "inputAuthoredFileSetSha256": "bb50536b941109550db6f9e8317553a4bb04bce6f2ef76bdf61ac1fe2be96091",
+  "closureSha256": "243bf0bbdacf698fe6199908086058a2923a72fb2a54b707bb8468d0d1979bfb",
+  "count": 15,
+  "closureFindings": 14,
+  "directContextFindings": 1,
+  "findings": [
+    {
+      "findingId": "SR-IR01-01",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+      "inClosure": true,
+      "source": "мечтательный студентик",
+      "sourceSha256": "86e1b8a7eacb510c203aabef12f1dc70a79fcda7ad89bb8ccd03d47d3b70ff1a",
+      "currentTarget": "сањиви студентчић",
+      "currentTargetSha256": "e80932a034aada080d716e686180423376d476de7f1f136e3a50d4c749ac2e3b",
+      "proposedTarget": "сањалачки студентчић",
+      "proposedTargetSha256": "ecae630ce110ed6e86ef82301c2096c01e76979a8ce6f47cbe5b6364d9b0c347",
+      "targetFile": "Translations/sr/ui-batch-008.json",
+      "key": "characterName_Fairytaller",
+      "nodeNames": [],
+      "category": "lexical meaning",
+      "objectiveReason": "Russian мечтательный means daydreaming/dreamy; Serbian сањиви means sleepy/drowsy. The approved fairytale-enjoyer term Сањалачки студент and this character’s fairy-tale context resolve the sense.",
+      "assembledCurrentExample": null,
+      "assembledProposedExample": null,
+      "inputLabel": null,
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-02",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "inClosure": true,
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "sourceSha256": "081bbe9e0fa6a652e9ef263a809bdae4b3ae0186fac3d02d8a016db0475e9935",
+      "currentTarget": "Alt: Добро. Да ли је {0} довољно?",
+      "currentTargetSha256": "fa86a09d76dc9f07e1f9c9de0b8f029d526195e8e804a66ae2ad9641a3197aa2",
+      "proposedTarget": "Alt: Добро. Да ли ти одговара ово: {0}?",
+      "proposedTargetSha256": "84e5ac32d884e5014ff5d827274d4e44f43e46595002662cf90c1869f34b87a9",
+      "targetFile": "Translations/sr/dialogue-batch-152.json",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "nodeNames": [
+        "Alt_Entrance_Bribe"
+      ],
+      "category": "dynamic item agreement",
+      "objectiveReason": "LocalizeItem returns the raw nominative label; actual deficit config includes Cigarette -> Цигарете. The singular је plus that plural label is malformed. Also подойдёт asks suitability, not whether a quantity is sufficient. The complete replacement preserves the offer and introduces the verbatim label as a list.",
+      "assembledCurrentExample": "Alt: Добро. Да ли је Цигарете довољно?",
+      "assembledProposedExample": "Alt: Добро. Да ли ти одговара ово: Цигарете?",
+      "inputLabel": "Цигарете",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-03",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "inClosure": true,
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "7437e13e9d82d0b896f96cd62660d7eb68057c89dad2bc00a42d9cf91f9932b5",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "currentTargetSha256": "1f45d64d3b2b3938f1fe241e02438645433e9344b53e207747802e8e0c10e8bf",
+      "proposedTarget": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+      "proposedTargetSha256": "104a20a920b7bbc5a6c03e9fad4c68c681bba5acbd914683a0d96fb16b7059ff",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "nodeNames": [
+        "Jacket_Entrance_Occupied_YesLet"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "assembledCurrentExample": "Jacket: Ево, имам Енержека. Није много, али надам се да ће вам користити.",
+      "assembledProposedExample": "Jacket: Ево шта имам: Енержека. Није много, али надам се да ће вам користити.",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-04",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+      "inClosure": true,
+      "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+      "sourceSha256": "4f8e7c87af46c1a50f56065ebcf64c72e173d3f66dbb50472ca01509ff2c4bad",
+      "currentTarget": "Jacket: Ако треба, имам {0}. Да ли вам то одговара?",
+      "currentTargetSha256": "53e3537d0f0982ef3ca07ae07620c76b0c74aa3792f95cf99c3891aab87b4526",
+      "proposedTarget": "Jacket: Ако треба, ево шта имам: {0}. Да ли вам то одговара?",
+      "proposedTargetSha256": "d02ebd0fa98570b8cbe34822db921483aa61dbb46fea60e1c4860a067f280e43",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "key": "line:Jacket_Entrance_Bribe_045fb4f",
+      "nodeNames": [
+        "Jacket_Entrance_Bribe"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "assembledCurrentExample": "Jacket: Ако треба, имам Енержека. Да ли вам то одговара?",
+      "assembledProposedExample": "Jacket: Ако треба, ево шта имам: Енержека. Да ли вам то одговара?",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-05",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "inClosure": true,
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "75b21083a8d659f721be9027f841b7a8f61044d9919194c902073a4cf6baf391",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "currentTargetSha256": "1f45d64d3b2b3938f1fe241e02438645433e9344b53e207747802e8e0c10e8bf",
+      "proposedTarget": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+      "proposedTargetSha256": "104a20a920b7bbc5a6c03e9fad4c68c681bba5acbd914683a0d96fb16b7059ff",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "nodeNames": [
+        "Jacket_Entrance_YesLet"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "assembledCurrentExample": "Jacket: Ево, имам Енержека. Није много, али надам се да ће вам користити.",
+      "assembledProposedExample": "Jacket: Ево шта имам: Енержека. Није много, али надам се да ће вам користити.",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-06",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+      "inClosure": true,
+      "source": "Unstable: Короче, есть {0}. Будешь?",
+      "sourceSha256": "1c9163f01a3eaf83242da2ce7414bbd1990b40d6fb49cecaa3446f20057e07ec",
+      "currentTarget": "Unstable: Укратко, имам {0}. Хоћеш?",
+      "currentTargetSha256": "3f9a241c24c170ee12f1ac7c85e319b134bc582061b4b60e1ac4b2deb1cb4f3c",
+      "proposedTarget": "Unstable: Укратко, ево шта имам: {0}. Хоћеш?",
+      "proposedTargetSha256": "7823d52b45b95bdf8e293ff5b42ecde59dc6910189be7f8dece1f9061f2b7614",
+      "targetFile": "Translations/sr/dialogue-batch-261.json",
+      "key": "line:Unstable_Entrance_Bribe_0a6a080",
+      "nodeNames": [
+        "Unstable_Entrance_Bribe"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "assembledCurrentExample": "Unstable: Укратко, имам Енержека. Хоћеш?",
+      "assembledProposedExample": "Unstable: Укратко, ево шта имам: Енержека. Хоћеш?",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-07",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "inClosure": true,
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "sourceSha256": "52f5a783bf7e4e2072e89c40a4c148a997f20c257f92cbc2f3f2db0ef90bca8a",
+      "currentTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "currentTargetSha256": "f45da7266143b407668b0dd52888978d27b19f79c161bc0b157625d8d95128a4",
+      "proposedTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "proposedTargetSha256": "16b54cd88ca43e62248df47696fcb2eb3b64d6fe2b199a3db4744b0f93bcae60",
+      "targetFile": "Translations/sr/dialogue-batch-117.json",
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "nodeNames": [
+        "Wheelchair_Entrance_Bribe"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "Ево governing an ordinary noun takes genitive (Енержеке / Чајне гљиве), whereas this consumer substitutes raw nominative Енержека / Чајна гљива. Recasting only the introducer as an inventory label retains the gesture, action sequence and joke.",
+      "assembledCurrentExample": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево Енержека, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "assembledProposedExample": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Енержека, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-08",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300481",
+      "inClosure": true,
+      "source": "Marauder: А! Нашёл – {0}. Забирай, хозяин, только дай до утра перекантоваться.",
+      "sourceSha256": "fc6142fd2b106a69537b8e6132f6a620797dad868507304aad3942321754f2f9",
+      "currentTarget": "Marauder: А! Нашао сам — {0}. Узми, домаћине, само ми дај да преноћим.",
+      "currentTargetSha256": "f54eb88f4508e85db9dbd8ba4debbd4ad3932f1dc667dd43e0295524ccef2530",
+      "proposedTarget": "Marauder: А! Нашао сам нешто: {0}. Узми, домаћине, само ми дај да преноћим.",
+      "proposedTargetSha256": "cb83fefb321aa0475121629501cf7b2872500f7535421d67b4f5564646961f10",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "key": "line:Marauder_Entrance_Bribe_0bd7240",
+      "nodeNames": [
+        "Marauder_Entrance_Bribe"
+      ],
+      "category": "dynamic item case",
+      "objectiveReason": "The bare object after нашао сам needs accusative, but LocalizeItem emits nominative Енержека. The replacement supplies нешто as the object, followed by the exact found-item label. The offer and request for overnight shelter are unchanged.",
+      "assembledCurrentExample": "Marauder: А! Нашао сам — Енержека. Узми, домаћине, само ми дај да преноћим.",
+      "assembledProposedExample": "Marauder: А! Нашао сам нешто: Енержека. Узми, домаћине, само ми дај да преноћим.",
+      "inputLabel": "Енержека",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-09",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "inClosure": true,
+      "source": "Hunter: У тебя тут уже {0}.",
+      "sourceSha256": "96fa74b6dbaf3e997b29c48060066c10feae338724f622e618688fb9b0b28113",
+      "currentTarget": "Hunter: Већ имаш {0} овде.",
+      "currentTargetSha256": "2d5ef5ffa5cfd6b9026836d1b68cb1987d42332f35f0daa48cca98d478f579a8",
+      "proposedTarget": "Hunter: Код тебе је већ {0}.",
+      "proposedTargetSha256": "bcff0a5586a6d96cdd4e532faa13ed649faa115e7bb72975e5bfe8347a4b9a48",
+      "targetFile": "Translations/sr/dialogue-batch-251.json",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "nodeNames": [
+        "Hunter_Entrance_Occupied"
+      ],
+      "category": "dynamic character case",
+      "objectiveReason": "имаш needs accusative жену с тарот картама, but GetCharacterOnPlace(Hunter) can select FortuneTeller and returns the raw label жена с тарот картама. An existential nominative construction preserves the original occupant statement.",
+      "assembledCurrentExample": "Hunter: Већ имаш жена с тарот картама овде.",
+      "assembledProposedExample": "Hunter: Код тебе је већ жена с тарот картама.",
+      "inputLabel": "жена с тарот картама",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-10",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+      "inClosure": true,
+      "source": "Ballerina: У тебя есть {0}?",
+      "sourceSha256": "0b906494728144019985de6cda7641d511232eebe8961e519bb181b9360532ec",
+      "currentTarget": "Ballerina: Имаш ли {0}?",
+      "currentTargetSha256": "8de81c451d35711553b3b5587f6e70bd61079a47b8aca3867b7088f9dc3e8c6a",
+      "proposedTarget": "Ballerina: Да ли је {0} код тебе?",
+      "proposedTargetSha256": "79c19e0a27980e967fdf14325d908ebf47bbd4f885a0f13404fe76fe13817537",
+      "targetFile": "Translations/sr/dialogue-batch-201.json",
+      "key": "line:Ballerina_Entrance_Occupied_0a88b7b",
+      "nodeNames": [
+        "Ballerina_Entrance_Occupied"
+      ],
+      "category": "dynamic character case",
+      "objectiveReason": "имаш needs accusative верницу, but GetCharacterOnPlace(Ballerina) can select Nun and returns raw верница. Every existing named same-place candidate is singular; the proposed existential question accepts the unchanged labels.",
+      "assembledCurrentExample": "Ballerina: Имаш ли верница?",
+      "assembledProposedExample": "Ballerina: Да ли је верница код тебе?",
+      "inputLabel": "верница",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-11",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888458",
+      "inClosure": true,
+      "source": "Wifefema: Что это за {0}?",
+      "sourceSha256": "b49a1946f62cfa7df9768589b6dbef8d2ff4e59fae96f3e1c3f93d75af772598",
+      "currentTarget": "Wifefema: Ко је тај {0}?",
+      "currentTargetSha256": "a4f9ebb3af89a5365cdc601643ece8d08ed978462437c3849d92551a01c42e2b",
+      "proposedTarget": "Wifefema: Ко је то код тебе — {0}?",
+      "proposedTargetSha256": "8aa28955121aeb44a8207c7fb3fc9745dd5f95f5bcd7747dbede85ff6dd93508",
+      "targetFile": "Translations/sr/dialogue-batch-134.json",
+      "key": "line:Wifefema_Entrance_Occupied_0662e7d",
+      "nodeNames": [
+        "Wifefema_Entrance_Occupied"
+      ],
+      "category": "dynamic character gender",
+      "objectiveReason": "GetCharacterOnPlace(Wifefema) can select Tough: жена у топу. Added masculine тај yields тај жена. The source Что это за identifies the occupant without male agreement. The replacement uses a neutral question followed by a nominative label.",
+      "assembledCurrentExample": "Wifefema: Ко је тај жена у топу?",
+      "assembledProposedExample": "Wifefema: Ко је то код тебе — жена у топу?",
+      "inputLabel": "жена у топу",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-12",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968842",
+      "inClosure": true,
+      "source": "Кем? Да вон, смотри, эта {0}.",
+      "sourceSha256": "bd8c01f6f742763df05b968a406fcb9f83356fad49c3a648f1ff2168fc5463b5",
+      "currentTarget": "Киме? Па ево, погледај, та {0}.",
+      "currentTargetSha256": "8945d17df7c7005e64996421224123bc5eeadcb88d962809afe4c67b9b24581d",
+      "proposedTarget": "Киме? Па ево, погледај — {0}.",
+      "proposedTargetSha256": "aea4edb122a08de653a0972564bc6ee1c517c5bf9026f512841d26cf912baef4",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "key": "line:Marauder_Entrance_Occupied_04aa8be",
+      "nodeNames": [
+        "Marauder_Entrance_Occupied"
+      ],
+      "category": "dynamic character gender",
+      "objectiveReason": "GetCharacterOnPlace(Marauder) can select Bald, whose label is ћелави. Fixed feminine та becomes та ћелави. The original source also uses a feminine default, but the target can preserve its pointing function without an agreement defect by retaining ево, погледај and the label.",
+      "assembledCurrentExample": "Киме? Па ево, погледај, та ћелави.",
+      "assembledProposedExample": "Киме? Па ево, погледај — ћелави.",
+      "inputLabel": "ћелави",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-13",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+      "inClosure": true,
+      "source": "Anger: У тебя тут {0}?",
+      "sourceSha256": "e58d7042a25e51cd128e09499e6746f5d45cf7101936e6fa37b7e812509e6513",
+      "currentTarget": "Anger: Код тебе је {0}?",
+      "currentTargetSha256": "4845f9a9d4baa7581339912f2f29f37c4c20e008f825beae01ef6c2baad6f547",
+      "proposedTarget": "Anger: Код тебе… {0}?",
+      "proposedTargetSha256": "de062d6e1b92b8bfa09fe51e6012ada945f00b3f5b622111d859fc335c9e7e9d",
+      "targetFile": "Translations/sr/dialogue-batch-217.json",
+      "key": "line:Anger_Entrance_Occupied_0ed7227",
+      "nodeNames": [
+        "Anger_Entrance_Occupied"
+      ],
+      "category": "dynamic character number",
+      "objectiveReason": "GetCharacterOnPlace(Anger) can select Sirin, whose literal UI label is две сестре. Inserted singular је makes Код тебе је две сестре. The source has no singular verb. The speaker’s terse question can preserve the literal label with an ellipsis.",
+      "assembledCurrentExample": "Anger: Код тебе је две сестре?",
+      "assembledProposedExample": "Anger: Код тебе… две сестре?",
+      "inputLabel": "две сестре",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-14",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "inClosure": true,
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "sourceSha256": "b43dd3ea10b35ea30af4447ecbba752ed8621c4b91cb726fa90e0b87d72b152f",
+      "currentTarget": "NotTrue: Јаој, боже мили! Па у фотељи ти већ седи {0}.",
+      "currentTargetSha256": "2048c1880e54907a6e1bd9bff2f3be15015e42525fa3d4bcc2f8dc64c7ce1126",
+      "proposedTarget": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — {0}.",
+      "proposedTargetSha256": "4d35e3e7374e60c0f1809fd9a398fdbc13472d004794457f9e3f36d15a099149",
+      "targetFile": "Translations/sr/dialogue-batch-158.json",
+      "key": "line:NotTrue_Entrance_Occupied_028412a",
+      "nodeNames": [
+        "NotTrue_Entrance_Occupied"
+      ],
+      "category": "dynamic character number",
+      "objectiveReason": "GetCharacterOnPlace(NotTrue) can select Sirin -> две сестре. Added singular седи produces седи две сестре. The replacement states that the armchair is occupied, then identifies its occupant with an unchanged display label; it preserves the chair, prior occupancy and exclamation.",
+      "assembledCurrentExample": "NotTrue: Јаој, боже мили! Па у фотељи ти већ седи две сестре.",
+      "assembledProposedExample": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — две сестре.",
+      "inputLabel": "две сестре",
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    },
+    {
+      "findingId": "SR-IR01-15",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+      "inClosure": false,
+      "source": "Ballerina: Эээ, мне сказали, что тут таких быть не должно. Давай, выгоняй.",
+      "sourceSha256": "57d6a75d9b631ee7f8fe9a54ff385ca7ffad9255e30e36b87bd6ce9840696c5c",
+      "currentTarget": "Ballerina: Еее, рекли су ми да овде не сме да буде таквих. Хајде, истерај га.",
+      "currentTargetSha256": "6d750f3c2044bbab116a01fc2c516fb8a222c4c29ef986303bf744976b09b322",
+      "proposedTarget": "Ballerina: Еее, рекли су ми да овде не сме да буде таквих. Хајде, истерај ту особу.",
+      "proposedTargetSha256": "c5982d56619111f9980aecea3017d0e52e1862ccbee36f1978d227793021e0d7",
+      "targetFile": "Translations/sr/dialogue-batch-201.json",
+      "key": "line:Ballerina_Entrance_Occupied_0df7f54",
+      "nodeNames": [
+        "Ballerina_Entrance_Occupied"
+      ],
+      "category": "dynamic character gender",
+      "objectiveReason": "This directly adjacent line follows GetCharacterOnPlace(Ballerina). Nun is a real same-place female input. Russian Давай, выгоняй has no male pronoun; target истерај га adds a male referent and contradicts that branch. ту особу permits either sex and preserves the expulsion demand.",
+      "assembledCurrentExample": null,
+      "assembledProposedExample": null,
+      "inputLabel": null,
+      "evidence": [
+        "runtime-consumers.json",
+        "yarn-context.json",
+        "Documentation/glossary-translations/sr/layer.json"
+      ],
+      "structuralProposalPreflight": "passed; full-unit replacement preserves existing speaker, slots, markup, numbers, line breaks, exact protected values"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "status": "offline final gate passed; root acceptance pending",
+  "acceptedUnits": 16538,
+  "firstSemanticPassUnits": 16538,
+  "independentReviewer": "/root/sr_independent_review_03",
+  "independentClean": true,
+  "unresolvedObjectiveFindings": 0,
+  "currentHashesUnchanged": true,
+  "authoredFileSetSha256": "03cef75a119be3a8f29276f8e8f4f4de19bc003120cd658303baf16df9b3dd83",
+  "review03Pins": 786,
+  "review03ManifestFiles": 15,
+  "structural": {
+    "rows": 16538,
+    "result": "passed",
+    "evidence": {
+      "path": "Translations/sr/final-gate/structural.json",
+      "sha256": "feef96a6e0635d18b49945c80851c565b1d1aaaca692eead73ffaa84abbc93d9"
+    }
+  },
+  "derivedStatic": {
+    "rows": 178,
+    "result": "passed"
+  },
+  "preserveExactReport": {
+    "path": "Translations/sr/final-gate/preserve-exact-current.json",
+    "sha256": "e1035c50fd5737004ed4f9bf181f8a07879feb864b56aa8bcafc34afec1b8b17"
+  },
+  "mandatoryRegression": {
+    "count": 548,
+    "freshReads": 4,
+    "reusedUnchangedIndependentDecisions": 544,
+    "result": "passed",
+    "evidence": {
+      "path": "Translations/sr/final-gate/closure-proof.json",
+      "sha256": "3bfd9f9acaf9719736fa10fed409f7d5c47cbe44ad457aeaed11205ba3b9f8bf"
+    }
+  },
+  "sourceGlossaryApplicability": {
+    "path": "Translations/sr/final-gate/source-glossary-applicability.json",
+    "sha256": "297cee44c114e22e15c79f0659b5c2c229ed39359d0695c4bf31eb6defa96e30"
+  },
+  "administrativeProgressChange": {
+    "path": "Translations/sr/final-gate/administrative-change.json",
+    "sha256": "63f4af0baa5f55a16af8e0cadc6eb559b0268654704332496ba0b19ccec926c4"
+  },
+  "limits": [
+    "13 accepted format-slot rows lack a pinned compiled instruction",
+    "Neighbour has no pinned UI display label",
+    "Static consumer/config evidence proves possible inputs, not executed reachability",
+    "Game runtime, Cyrillic glyphs/fonts, layout, build, install, release and integration not tested"
+  ],
+  "rootNextAction": "Independently verify this exact handoff and integration manifest before editorial acceptance/build."
+}

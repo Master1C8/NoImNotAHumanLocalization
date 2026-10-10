@@ -1,0 +1,3415 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "cycle": "002",
+  "status": "bounded risk inventory before correction; no runtime execution",
+  "baselineAuthoredFileSetSha256": "bb50536b941109550db6f9e8317553a4bb04bce6f2ef76bdf61ac1fe2be96091",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "glossaryFingerprint": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+  "reviewerFindingsSha256": "b1ccb58965a8e72d6ccda669ab73425f15a08f3cf3286f06d22e79de64dc5187",
+  "additionalFindingsSha256": "92516df7c7eeb7a23c67ef322d0bc3624518c96c252e1a64c198f822c8c3d448",
+  "runtimeConsumersSha256": "d7a89609550e98bfd590f51a8fabe11baccc93d8103b586774f4d0ec5fe4699b",
+  "yarnContextSha256": "949b4e6de98989c86574d2952b6451bcb130efac558fa582c9e22349fabb6ae5",
+  "acceptedFormatSlotRows": 111,
+  "acceptedFormatSlotIdsSha256": "645a5c7a5b882f2ec2763257f35af267af391e1a828c891b1e40eff467b20161",
+  "consumerCategoryCounts": {
+    "unboundInPinnedCompiledProgram": 13,
+    "GetPhoneNumber": 18,
+    "GetCharacterOnPlace": 55,
+    "LocalizeItem": 21,
+    "GetCourierOrder": 4
+  },
+  "rows": [
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:3668215154331650",
+      "key": "Common_GameName",
+      "source": "Нет, я не человек, я {0}",
+      "currentTarget": "Не, нисам човек, ја сам {0}",
+      "targetFile": "Translations/sr/ui-batch-001.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:45458898076553216",
+      "key": "Objects_Cigarettes",
+      "source": "Сигарета (x{0})",
+      "currentTarget": "Цигарета (x{0})",
+      "targetFile": "Translations/sr/ui-batch-002.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:73342396577599488",
+      "key": "object_kombucha",
+      "source": "Чайный гриб (x{0})",
+      "currentTarget": "Чајна гљива (x{0})",
+      "targetFile": "Translations/sr/ui-batch-003.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527090041180160",
+      "key": "message_got_item",
+      "source": "<color=#444444>Получено</color> x{0} <color=#225555>{1}</color>",
+      "currentTarget": "<color=#444444>Добијено</color> x{0} <color=#225555>{1}</color>",
+      "targetFile": "Translations/sr/ui-batch-004.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:101527150292357120",
+      "key": "message_given_item",
+      "source": "<color=#444444>Отдано</color> x{0} <color=#225555>{1}</color>",
+      "currentTarget": "<color=#444444>Предато</color> x{0} <color=#225555>{1}</color>",
+      "targetFile": "Translations/sr/ui-batch-004.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457945554944",
+      "key": "line:tv_7_extra2_0ae85cc",
+      "source": "TV: Теперь и в ассортименте доставки еды For Rest. Звоните по номеру: {0}.",
+      "currentTarget": "TV: Сада и у понуди доставе хране For Rest. Позовите број: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-074.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_7_extra2",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457786171400",
+      "key": "line:tv_4_extra1_043474e",
+      "source": "TV: Теперь и в ассортименте доставки еды For Rest. Звоните по номеру: {0}.",
+      "currentTarget": "TV: Сада и у понуди доставе хране For Rest. Позовите број: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-071.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_4_extra1",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 10
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457660342274",
+      "key": "line:tv_12_necessary_0f49580",
+      "source": "TV: Если у вас возникнут вопросы, как выявить Гостей, звоните по горячей линии: {0}.",
+      "currentTarget": "TV: Ако имате питања о томе како да препознате Госте, позовите дежурну линију: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-079.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_12_necessary",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 17
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457651953666",
+      "key": "line:tv_11_necessary_0e14c54",
+      "source": "TV: Если к вам придут культисты, немедленно свяжитесь с КЧС по горячей линии – {0}.",
+      "currentTarget": "TV: Ако вам дођу култисти, одмах позовите дежурну линију КВС — {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-078.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_11_necessary",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 10
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457643565064",
+      "key": "line:tv_10_necessary_080937a",
+      "source": "TV: {0}",
+      "currentTarget": "TV: {0}",
+      "targetFile": "Translations/sr/dialogue-batch-077.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_10_necessary",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 17
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457614204932",
+      "key": "line:tv_5_extra2_035b42d",
+      "source": "TV: Позвоните сегодня и вы получите набор плёнки совершенно бесплатно: {0}.",
+      "currentTarget": "TV: Позовите данас и добићете паковање фото-филма сасвим бесплатно: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-180.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457610010632",
+      "key": "line:tv_5_extra1_01f0686",
+      "source": "TV: {0}",
+      "currentTarget": "TV: {0}",
+      "targetFile": "Translations/sr/dialogue-batch-074.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_7_extra1",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 15
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457605816320",
+      "key": "line:tv_4_extra2_02d57d2",
+      "source": "TV: Теперь и в ассортименте доставки For Rest. Закажите еду по номеру: {0}.",
+      "currentTarget": "TV: Сада и у понуди доставе For Rest. Наручите храну на број: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-073.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_6_extra2",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457597427717",
+      "key": "line:tv_3_extra1_07ec00b",
+      "source": "TV: И если у вас возникнут сомнения, не Гость ли вы, звоните по горячей линии: {0}.",
+      "currentTarget": "TV: Ако се запитате да ли сте можда Гост, позовите дежурну линију: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-070.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_3_extra1",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 12
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457589039113",
+      "key": "line:tv_2_extra1_09b8a6a",
+      "source": "TV: Доставка продуктов For Rest. Звоните по номеру: {0} и еда придёт к вам уже следующим вечером.",
+      "currentTarget": "TV: Достава намирница For Rest. Позовите број: {0} и храна ће вам стићи већ следеће вечери.",
+      "targetFile": "Translations/sr/dialogue-batch-069.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "tv_2_extra1",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 6
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457542901763",
+      "key": "line:tv_3_extra_1_07ec00b",
+      "source": "TV: И если у вас возникнут сомнения, не Гость ли вы, звоните по горячей линии: {0}.",
+      "currentTarget": "TV: Ако се запитате да ли сте можда Гост, позовите дежурну линију: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-180.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347334",
+      "key": "line:Tourist_Entrance_Occupied_068c936",
+      "source": "Tourist: Здесь находится {0}. Я не уверен, что мы поладим.",
+      "currentTarget": "Tourist: Овде је {0}. Нисам сигуран да ћемо се слагати.",
+      "targetFile": "Translations/sr/dialogue-batch-146.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Tourist_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "target": "голи дебељко"
+        },
+        {
+          "enum": "FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "target": "мушкарац у униформи КВС"
+        },
+        {
+          "enum": "Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "target": "жена с лешом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "currentTarget": "Alt: Добро. Да ли је {0} довољно?",
+      "targetFile": "Translations/sr/dialogue-batch-152.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Alt_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-02",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457505153025",
+      "key": "line:Alt_Entrance_Occupied_06f0f99",
+      "source": "Alt: Опа, {0} здесь.",
+      "currentTarget": "Alt: Опа, {0} је овде.",
+      "targetFile": "Translations/sr/dialogue-batch-152.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Alt_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Dude",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+          "target": "растафаријанац с дредовима"
+        },
+        {
+          "enum": "Fan",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+          "target": "прљави жути тип"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457500958727",
+      "key": "line:FunnyGuy_Entrance_Bribe_08de7f4",
+      "source": "FunnyGuy: О, вот такое нашёл — {0}.",
+      "currentTarget": "FunnyGuy: О, нашао сам ово — {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-205.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "FunnyGuy_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 13
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457496764417",
+      "key": "line:FunnyGuy_Entrance_Occupied_08f1aa9",
+      "source": "FunnyGuy: Да вон, вот этот человек, {0}.",
+      "currentTarget": "FunnyGuy: Па ево, тај човек, {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-205.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "FunnyGuy_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "CultistOne",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+          "target": "култиста"
+        },
+        {
+          "enum": "Edgar",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+          "target": "уредан мушкарац с гангреном"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457492570115",
+      "key": "line:Fairytaller_Entrance_Occupied_0d170bf",
+      "source": "Fairytaller: Но боюсь, что мне будет некомфортно, пока в одном помещении со мной есть {0}.",
+      "currentTarget": "Fairytaller: Али бојим се да ми неће бити пријатно док је у истој просторији са мном {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-110.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Fairytaller_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 7
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "target": "жена с мачком"
+        },
+        {
+          "enum": "Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "target": "верница"
+        },
+        {
+          "enum": "WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "target": "ћелави бандит у оделу"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375816",
+      "key": "line:Leper_Entrance_Bribe_020a88c",
+      "source": "Leper: Ладно, а если я дам тебе кое-что? Вот {0}, например? Пустишь тогда?",
+      "currentTarget": "Leper: Добро, а ако ти дам нешто? Рецимо {0}? Хоћеш ли ме онда пустити?",
+      "targetFile": "Translations/sr/dialogue-batch-131.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Leper_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 7
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457488375810",
+      "key": "line:Leper_Entrance_Occupied_06e50d7",
+      "source": "Leper: Тут уже есть {0}, а именно этот человек чмырил меня за внешность.",
+      "currentTarget": "Leper: Код тебе је већ {0}, а баш та особа ме је понижавала због изгледа.",
+      "targetFile": "Translations/sr/dialogue-batch-131.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Leper_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "target": "без очију"
+        },
+        {
+          "enum": "FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "target": "жена с тарот картама"
+        },
+        {
+          "enum": "Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "target": "огроман брадати тип"
+        },
+        {
+          "enum": "Neighbour",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457484181504",
+      "key": "line:Nervous_Entrance_Occupied_03f5f29",
+      "source": "Nervous: А, тут есть {0}.",
+      "currentTarget": "Nervous: А, ту је {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-155.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Nervous_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Doc",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+          "target": "доктор"
+        },
+        {
+          "enum": "Foreigner",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+          "target": "момак са зашивеним устима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457479987203",
+      "key": "line:Bald_Entrance_Occupied_0b1927e",
+      "source": "Bald: Тут у тебя {0}. Давай, может, как-то вытурнем?",
+      "currentTarget": "Bald: Код тебе је {0}. Хајде да ту особу некако истерамо?",
+      "targetFile": "Translations/sr/dialogue-batch-125.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Bald_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Anxiety",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+          "target": "девојка са сколиозом"
+        },
+        {
+          "enum": "Marauder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+          "target": "бескућник"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457475792901",
+      "key": "line:Tough_Entrance_Occupied_08be726",
+      "source": "Tough: Кто это у тебя тут, {0}?",
+      "currentTarget": "Tough: Ко ти је то овде, {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-192.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Tough_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "target": "крупни гремлин"
+        },
+        {
+          "enum": "GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "target": "грбави тип"
+        },
+        {
+          "enum": "Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "target": "ратоборна жена с упадљивом шминком"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Jacket_Entrance_Occupied_YesLet",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-03",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323904",
+      "key": "line:Jacket_Entrance_Occupied_088628d",
+      "source": "Jacket: Ой… Извините, но у вас {0}. Я не очень доверяю таким людям…",
+      "currentTarget": "Jacket: Ох… Извините, али код вас је {0}. Не верујем баш таквим људима…",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Jacket_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "target": "огромна жена са шишкама"
+        },
+        {
+          "enum": "Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "target": "мушкарац у црном дуксу с капуљачом"
+        },
+        {
+          "enum": "Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "target": "мушкарац са зеленим качкетом"
+        },
+        {
+          "enum": "Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "target": "жена у плетеном џемперу и с наочарима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+      "key": "line:Jacket_Entrance_Bribe_045fb4f",
+      "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+      "currentTarget": "Jacket: Ако треба, имам {0}. Да ли вам то одговара?",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Jacket_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 7
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-04",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Jacket_Entrance_YesLet",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-05",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457366740994",
+      "key": "line:Experienced_Entrance_Occupied_0ec9683",
+      "source": "Experienced: Мне не по душе {0}.",
+      "currentTarget": "Experienced: Не свиђа ми се {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-266.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Experienced_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "target": "тинејџер с качкетом"
+        },
+        {
+          "enum": "Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "target": "брачни пар"
+        },
+        {
+          "enum": "Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "target": "девојчица која плаче"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457349963787",
+      "key": "line:Rocker_Entrance_Occupied_065994f",
+      "source": "Rocker: Да {0}, вот я про кого. Давай-ка нахер прогоним?",
+      "currentTarget": "Rocker: Да, {0}, на њега мислим. Ајде да га отерамо у пизду материну?",
+      "targetFile": "Translations/sr/dialogue-batch-101.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Rocker_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "target": "момак у мајици с бројем"
+        },
+        {
+          "enum": "Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "target": "дугајлија"
+        },
+        {
+          "enum": "TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "target": "таксиста с качкетом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380872",
+      "key": "line:Unstable_Entrance_Occupied_09de6e6",
+      "source": "Unstable: Опа, у тебя тут {0}.",
+      "currentTarget": "Unstable: Опа, ту је код тебе {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-261.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Unstable_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Wheelchair",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167156193599488",
+          "target": "момак без ногу"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+      "key": "line:Unstable_Entrance_Bribe_0a6a080",
+      "source": "Unstable: Короче, есть {0}. Будешь?",
+      "currentTarget": "Unstable: Укратко, имам {0}. Хоћеш?",
+      "targetFile": "Translations/sr/dialogue-batch-261.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Unstable_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 12
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-06",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457303826434",
+      "key": "line:Fanatic_Entrance_Bribe_0d7c335",
+      "source": "Fanatic: {0}. Пустив меня, ты получишь эту щедрую награду — от самого СОЛНЦЕЛИКОГО. Ну что, передумал?",
+      "currentTarget": "Fanatic: {0}. Ако ме пустиш, добићеш ову издашну награду — од самог СУНЦОЛИКОГ. Па, јеси ли се предомислио?",
+      "targetFile": "Translations/sr/dialogue-batch-050.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Fan_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 11
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457274466304",
+      "key": "line:CultistPriest_Entrance_Occupied_0fd5985",
+      "source": "CultistPriest: и {0}",
+      "currentTarget": "CultistPriest: и {0}",
+      "targetFile": "Translations/sr/dialogue-batch-055.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "CultistPriest_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 22
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Edgar",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+          "target": "уредан мушкарац с гангреном"
+        },
+        {
+          "enum": "FunnyGuy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+          "target": "крупни длакави тип"
+        },
+        {
+          "enum": "Fugitive",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+          "target": "мушкарац с раном на стомаку"
+        },
+        {
+          "enum": "Mother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+          "target": "жена с дететом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457270272010",
+      "key": "line:CultistPriest_Entrance_Occupied_097465b",
+      "source": "CultistPriest: это будет {0}",
+      "currentTarget": "CultistPriest: то ће бити {0}",
+      "targetFile": "Translations/sr/dialogue-batch-055.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "CultistPriest_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 10
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Edgar",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+          "target": "уредан мушкарац с гангреном"
+        },
+        {
+          "enum": "FunnyGuy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+          "target": "крупни длакави тип"
+        },
+        {
+          "enum": "Fugitive",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+          "target": "мушкарац с раном на стомаку"
+        },
+        {
+          "enum": "Mother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+          "target": "жена с дететом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457270272007",
+      "key": "line:Courier_Entrance_4_2_07ca266",
+      "source": "Courier: Держи: {0}.",
+      "currentTarget": "Courier: Ево ти: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-021.json",
+      "consumerCategory": "GetCourierOrder",
+      "compiledInstructions": [
+        {
+          "node": "Courier_Entrance_4_2",
+          "consumer": "GetCourierOrder",
+          "instructionIndex": 2
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457266077696",
+      "key": "line:Courier_Entrance_3_2_0192d49",
+      "source": "Courier: Вот ваш заказ: {0}.",
+      "currentTarget": "Courier: Ево ваше поруџбине: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-021.json",
+      "consumerCategory": "GetCourierOrder",
+      "compiledInstructions": [
+        {
+          "node": "Courier_Entrance_3_2",
+          "consumer": "GetCourierOrder",
+          "instructionIndex": 2
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457257689093",
+      "key": "line:Courier_Entrance_2_2_007eb91",
+      "source": "Courier: Вот ваш заказ: {0}.",
+      "currentTarget": "Courier: Ево ваше поруџбине: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-020.json",
+      "consumerCategory": "GetCourierOrder",
+      "compiledInstructions": [
+        {
+          "node": "Courier_Entrance_2_2",
+          "consumer": "GetCourierOrder",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457253494788",
+      "key": "line:Courier_Entrance_1_2_0ac208d",
+      "source": "Courier: Вот ваш заказ: {0}.",
+      "currentTarget": "Courier: Ево ваше поруџбине: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-020.json",
+      "consumerCategory": "GetCourierOrder",
+      "compiledInstructions": [
+        {
+          "node": "Courier_Entrance_1_2",
+          "consumer": "GetCourierOrder",
+          "instructionIndex": 2
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300486",
+      "key": "line:GraveDigger_Entrance_Bribe_082f2c9",
+      "source": "GraveDigger: {0}? Пойдёт?",
+      "currentTarget": "GraveDigger: {0}? Може?",
+      "targetFile": "Translations/sr/dialogue-batch-140.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "GraveDigger_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300481",
+      "key": "line:Marauder_Entrance_Bribe_0bd7240",
+      "source": "Marauder: А! Нашёл – {0}. Забирай, хозяин, только дай до утра перекантоваться.",
+      "currentTarget": "Marauder: А! Нашао сам — {0}. Узми, домаћине, само ми дај да преноћим.",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Marauder_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-08",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106180",
+      "key": "line:Wolfhound_Entrance_Occupied_0b92df6",
+      "source": "Wolfhound: У тебя {0} уже греет очаг? Сразу вижу, что это волчица в овечьей шкуре.",
+      "currentTarget": "Wolfhound: Код тебе {0} већ греје огњиште? Одмах видим да је то вучица у овчијој кожи.",
+      "targetFile": "Translations/sr/dialogue-batch-241.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Wolfhound_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "target": "жена с мачком"
+        },
+        {
+          "enum": "Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "target": "сањиви студентчић"
+        },
+        {
+          "enum": "Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "target": "верница"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106177",
+      "key": "line:Twins_Entrance_Bribe_0281102",
+      "source": "Twins: {0}. Возьмите, может, вам пригодится.",
+      "currentTarget": "Twins: {0}. Узмите, можда ће вам користити.",
+      "targetFile": "Translations/sr/dialogue-batch-093.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Twins_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911878",
+      "key": "line:Twins_Entrance_BothOccupied_0355e87",
+      "source": "Twins: Я вижу, что у вас в доме уже сидят люди: {0} и {1}.",
+      "currentTarget": "Twins: Видим да код вас у кући већ има људи: {0} и {1}.",
+      "targetFile": "Translations/sr/dialogue-batch-093.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Twins_Entrance_BothOccupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 6
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "target": "бесни дебељко с ранама"
+        },
+        {
+          "enum": "NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "target": "страшна баба"
+        },
+        {
+          "enum": "Twins",
+          "labelStableId": null,
+          "target": null
+        },
+        {
+          "enum": "Raskolnikov",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+          "target": "момак с љубичастом банданом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457240911872",
+      "key": "line:Twins_Entrance_SirinOccupied_0a2ff8b",
+      "source": "У вас тут {0}...",
+      "currentTarget": "Код вас је {0}...",
+      "targetFile": "Translations/sr/dialogue-batch-093.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Twins_Entrance_SirinOccupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "target": "бесни дебељко с ранама"
+        },
+        {
+          "enum": "NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "target": "страшна баба"
+        },
+        {
+          "enum": "Twins",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717575",
+      "key": "line:Twins_Entrance_AlkonostOccupied_0a0e768",
+      "source": "Twins: Боюсь, что у вас уже сидит {0}.",
+      "currentTarget": "Twins: Бојим се да код вас већ борави {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-093.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Twins_Entrance_AlkonostOccupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Raskolnikov",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+          "target": "момак с љубичастом банданом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457236717569",
+      "key": "line:Greatmother_Entrance_Occupied_00fa855",
+      "source": "Greatmother: Опа, это {0} сидит у тебя тут, что ли?  Вот так встреча!",
+      "currentTarget": "Greatmother: Опа, зар код тебе седи {0}? Какав сусрет!",
+      "targetFile": "Translations/sr/dialogue-batch-221.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Greatmother_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "target": "мушкарац у црном дуксу с капуљачом"
+        },
+        {
+          "enum": "Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "target": "младић у јакни"
+        },
+        {
+          "enum": "Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "target": "мушкарац са зеленим качкетом"
+        },
+        {
+          "enum": "Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "target": "жена у плетеном џемперу и с наочарима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457232523271",
+      "key": "line:Widow_Entrance_Occupied_0d12664",
+      "source": "Widow: У тебя тут {0}?",
+      "currentTarget": "Widow: Код тебе је {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-291.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Widow_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "target": "голи дебељко"
+        },
+        {
+          "enum": "FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "target": "мушкарац у униформи КВС"
+        },
+        {
+          "enum": "Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "target": "препланули момак"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457232523266",
+      "key": "line:Luka_Entrance_Bribe_02f450b",
+      "source": "Luka: {0}.",
+      "currentTarget": "Luka: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-103.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Luka_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328969",
+      "key": "line:Couple_Entrance_Bribe_0e437e0",
+      "source": "Couple: {0}? Я готов последнее отдать, лишь бы моя дорогая смогла передохнуть.",
+      "currentTarget": "Couple: {0}? Даћу и последње што имам, само да се моја драга одмори.",
+      "targetFile": "Translations/sr/dialogue-batch-286.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Couple_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 13
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "currentTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "targetFile": "Translations/sr/dialogue-batch-117.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Wheelchair_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 7
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-IR01-07",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134662",
+      "key": "line:Dude_Entrance_Bribe_06f56d2",
+      "source": "Dude: О, {0}! Это, короче, как в играх. Надо отношение наладить. Я всё понимаю, бро!",
+      "currentTarget": "Dude: О, {0}! То ти је, као, у игрицама. Мораш да поправиш однос. Све капирам, брате!",
+      "targetFile": "Translations/sr/dialogue-batch-213.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Dude_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134657",
+      "key": "line:Blind_Entrance_Bribe_038e372",
+      "source": "Blind: Кажется, это {0}. Можешь взять. Мне нужен хотя бы день, чтобы перевести дух. Но… какое там…",
+      "currentTarget": "Blind: Мислим да је ово {0}. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…",
+      "targetFile": "Translations/sr/dialogue-batch-161.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Blind_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-AUTH02-02",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457219940360",
+      "key": "line:Fatman_Entrance_Bribe_0405078",
+      "source": "Fatman: Вот тебе ПОДАРОЧЕК… от меня. {0}!",
+      "currentTarget": "Fatman: Ево ти ПОКЛОНЧИЋ… од мене. {0}!",
+      "targetFile": "Translations/sr/dialogue-batch-276.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Fatman_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457219940355",
+      "key": "line:Bestson_Entrance_Bribe_0f08bbd",
+      "source": "Bestson: Может, вы хотите что-то от меня? Может, {0}?",
+      "currentTarget": "Bestson: Можда нешто желите од мене? Можда {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-233.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Bestson_Entrance_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746057",
+      "key": "line:Day1_Fugitive_Bribe_01198fd",
+      "source": "Fugitive: Парень, я готов всё отдать, что у меня есть. А вот, смотри, — {0}. Нашёл по пути. Больше нихера на мне нет.",
+      "currentTarget": "Fugitive: Момче, спреман сам да ти дам све што имам. Ево, види — {0}. Нашао сам успут. Више ништа немам код себе, јеботе.",
+      "targetFile": "Translations/sr/dialogue-batch-047.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Day1_Fugitive_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551754",
+      "key": "line:Day1_Wifefema_Bribe_05364ea",
+      "source": "Wifefema: Давай по-простому: {0} — аванс тебе, а ты меня погреться пустишь, хех.",
+      "currentTarget": "Wifefema: Да поједноставимо: {0} ти је аванс, а ти ме пустиш унутра да се угрејем, хех.",
+      "targetFile": "Translations/sr/dialogue-batch-047.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Day1_Wifefema_Bribe",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 8
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": "SR-AUTH02-01",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551747",
+      "key": "line:Intruder_Entrance_Occupied_03d8ea0",
+      "source": "Спасибо, но я вижу, что кто-то уже занял моё место. Вот, {0}.",
+      "currentTarget": "Хвала, али видим да је неко већ заузео моје место. Ето, {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-195.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Intruder_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "target": "огромна жена са шишкама"
+        },
+        {
+          "enum": "Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "target": "младић у јакни"
+        },
+        {
+          "enum": "Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "target": "мушкарац са зеленим качкетом"
+        },
+        {
+          "enum": "Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "target": "жена у плетеном џемперу и с наочарима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457207357443",
+      "key": "line:FormerFema_Entrance_Occupied_02d91db",
+      "source": "FormerFema: О-ох… вижу, в ванной уже {0}.",
+      "currentTarget": "FormerFema: О-ох… видим да је у купатилу већ {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-229.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "FormerFema_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 5
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "target": "голи дебељко"
+        },
+        {
+          "enum": "Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "target": "препланули момак"
+        },
+        {
+          "enum": "Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "target": "жена с лешом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457203163141",
+      "key": "line:GraveDigger_Entrance_Occupied_0b2fe8b",
+      "source": "GraveDigger: Ё-маё, да у тебя тут уже {0}.",
+      "currentTarget": "GraveDigger: Јаој мени, па код тебе је већ {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-140.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "GraveDigger_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "target": "крупни гремлин"
+        },
+        {
+          "enum": "Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "target": "жена у топу"
+        },
+        {
+          "enum": "Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "target": "ратоборна жена с упадљивом шминком"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968842",
+      "key": "line:Marauder_Entrance_Occupied_04aa8be",
+      "source": "Кем? Да вон, смотри, эта {0}.",
+      "currentTarget": "Киме? Па ево, погледај, та {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Marauder_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Anxiety",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+          "target": "девојка са сколиозом"
+        },
+        {
+          "enum": "Bald",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+          "target": "ћелави"
+        }
+      ],
+      "findingId": "SR-IR01-12",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968834",
+      "key": "line:Provocateur_Entrance_Occupied_0b239f6",
+      "source": "Provocateur: Мда… вижу у вас уже в доме {0}.",
+      "currentTarget": "Provocateur: Хм… видим да код вас у кући већ борави {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-225.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Provocateur_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Scammer",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+          "target": "момак у мајици amogus"
+        },
+        {
+          "enum": "Theorist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+          "target": "онај с наочарима и брковима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457194774534",
+      "key": "line:TaxiDriver_Entrance_Occupied_02a5fb2",
+      "source": "TaxiDriver: Ты, как бы, не пойми меня неправильно, но у тебя дома {0}.",
+      "currentTarget": "TaxiDriver: Ти, овај, немој погрешно да ме схватиш, али код тебе у кући је {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-176.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "TaxiDriver_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "target": "момак у мајици с бројем"
+        },
+        {
+          "enum": "Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "target": "дугајлија"
+        },
+        {
+          "enum": "Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "target": "неки музичар"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457190580234",
+      "key": "line:Edgar_Entrance_Occupied_0801104",
+      "source": "Edgar: Я бы вошёл, но там уже {0}. Этот человек всё ещё тревожится о завтра…",
+      "currentTarget": "Edgar: Ушао бих, али тамо је већ {0}. Тај човек и даље стрепи од сутрашњег дана…",
+      "targetFile": "Translations/sr/dialogue-batch-137.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Edgar_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "CultistOne",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+          "target": "култиста"
+        },
+        {
+          "enum": "FunnyGuy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+          "target": "крупни длакави тип"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457190580230",
+      "key": "line:Foreigner_Entrance_Occupied_0b5a0dd",
+      "source": "Foreigner: (Похоже, ему не нравится {0}. Он указывает на него, потом на себя, потом опять на него).",
+      "currentTarget": "Foreigner: (Изгледа да му се не свиђа {0}. Показује на њега, па на себе, па опет на њега).",
+      "targetFile": "Translations/sr/dialogue-batch-114.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Foreigner_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Doc",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+          "target": "доктор"
+        },
+        {
+          "enum": "Nervous",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+          "target": "чудан момак у мајици"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385928",
+      "key": "line:Doctor_Entrance_Occupied_0d13a29",
+      "source": "Doctor: Хм, вижу у тебя тут {0} в доме.",
+      "currentTarget": "Doctor: Хм, видим да је код тебе у кући {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-271.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Doctor_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Foreigner",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+          "target": "момак са зашивеним устима"
+        },
+        {
+          "enum": "Nervous",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+          "target": "чудан момак у мајици"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "key": "line:NotTrue_Entrance_Occupied_028412a",
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "currentTarget": "NotTrue: Јаој, боже мили! Па у фотељи ти већ седи {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-158.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "NotTrue_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "target": "бесни дебељко с ранама"
+        },
+        {
+          "enum": "Sirin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+          "target": "две сестре"
+        },
+        {
+          "enum": "Twins",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": "SR-IR01-14",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457177997323",
+      "key": "line:Daughter_Entrance_Occupied_099f4da",
+      "source": "Daughter: Ой, {0} тут.",
+      "currentTarget": "Daughter: Јој, {0} је овде.",
+      "targetFile": "Translations/sr/dialogue-batch-015.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Daughter_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 5
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "target": "тинејџер с качкетом"
+        },
+        {
+          "enum": "Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "target": "брачни пар"
+        },
+        {
+          "enum": "Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "target": "го мушкарац"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457177997315",
+      "key": "line:Scammer_Entrance_Occupied_0145e70",
+      "source": "Scammer: Слышь, у тебя тут уже {0}. С такого ни денег не стрясти, ни историй каких прикольных.",
+      "currentTarget": "Scammer: Слушај, код тебе је већ {0}. Од таквог не можеш ни паре да извучеш ни неку занимљиву причу.",
+      "targetFile": "Translations/sr/dialogue-batch-296.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Scammer_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Provocateur",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+          "target": "агресивни тип с огромном главом"
+        },
+        {
+          "enum": "Theorist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+          "target": "онај с наочарима и брковима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457173803015",
+      "key": "line:Cold_Entrance_Occupied_06babc2",
+      "source": "Cold: Спасибо… А, у тебя уже тут кто-то есть. Я не зайду, пока здесь {0}.",
+      "currentTarget": "Cold: Хвала… А, већ је неко код тебе. Нећу ући док је овде {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-188.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Cold_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457173803009",
+      "key": "line:Esenin_Entrance_Occupied_0c50315",
+      "source": "Esenin: Пусть сперва свалит {0}, потом поговорим.",
+      "currentTarget": "Esenin: Нека прво оде {0}, па ћемо разговарати.",
+      "targetFile": "Translations/sr/dialogue-batch-256.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Esenin_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "target": "момак у мајици с бројем"
+        },
+        {
+          "enum": "Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "target": "неки музичар"
+        },
+        {
+          "enum": "TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "target": "таксиста с качкетом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608709",
+      "key": "line:Anxiety_Entrance_Occupied_067b023",
+      "source": "Anxiety: Т-там уже {0} какой-то.",
+      "currentTarget": "Anxiety: Т-тамо је већ неки {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-301.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Anxiety_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Bald",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+          "target": "ћелави"
+        },
+        {
+          "enum": "Marauder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+          "target": "бескућник"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "source": "Hunter: У тебя тут уже {0}.",
+      "currentTarget": "Hunter: Већ имаш {0} овде.",
+      "targetFile": "Translations/sr/dialogue-batch-251.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Hunter_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "target": "без очију"
+        },
+        {
+          "enum": "FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "target": "жена с тарот картама"
+        },
+        {
+          "enum": "Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "target": "тип с кожним проблемима"
+        },
+        {
+          "enum": "Neighbour",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": "SR-IR01-09",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457165414403",
+      "key": "line:Fanatic_Entrance_Occupied_01deafb",
+      "source": "Fanatic: Человек! СОЛНЦЕ велит не входить, покуда в доме таится {0}.",
+      "currentTarget": "Fanatic: Човече! СУНЦЕ заповеда да не уђем док се у кући крије {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-050.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Fan_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Alt",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+          "target": "девојка с тетоважом"
+        },
+        {
+          "enum": "Dude",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+          "target": "растафаријанац с дредовима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457161220105",
+      "key": "line:FortuneTeller_Entrance_Occupied_0ccd67c",
+      "source": "FortuneTeller: {0} — это тебе о чём-то говорит?",
+      "currentTarget": "FortuneTeller: {0} — говори ли ти то нешто?",
+      "targetFile": "Translations/sr/dialogue-batch-167.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "FortuneTeller_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "target": "без очију"
+        },
+        {
+          "enum": "Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "target": "огроман брадати тип"
+        },
+        {
+          "enum": "Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "target": "тип с кожним проблемима"
+        },
+        {
+          "enum": "Neighbour",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457157025800",
+      "key": "line:Luka_Entrance_Occupied_0cee69b",
+      "source": "Luka: С удовольствием вошёл бы, но сейчас там {0}.",
+      "currentTarget": "Luka: Радо бих ушао, али тамо је сад {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-103.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Luka_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "target": "огромна жена са шишкама"
+        },
+        {
+          "enum": "Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "target": "мушкарац у црном дуксу с капуљачом"
+        },
+        {
+          "enum": "Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "target": "младић у јакни"
+        },
+        {
+          "enum": "Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "target": "жена у плетеном џемперу и с наочарима"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457152831498",
+      "key": "line:Couple_Entrance_Occupied_03995e6",
+      "source": "Couple: Ох, мне, конечно, очень неудобно вас напрягать, но мы не сможем жить, когда рядом {0}…",
+      "currentTarget": "Couple: Ох, непријатно ми је да вас оптерећујем, али не можемо да живимо кад је поред нас {0}…",
+      "targetFile": "Translations/sr/dialogue-batch-286.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Couple_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 6
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "target": "тинејџер с качкетом"
+        },
+        {
+          "enum": "Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "target": "девојчица која плаче"
+        },
+        {
+          "enum": "Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "target": "го мушкарац"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+      "key": "line:Anger_Entrance_Occupied_0ed7227",
+      "source": "Anger: У тебя тут {0}?",
+      "currentTarget": "Anger: Код тебе је {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-217.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Anger_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "target": "страшна баба"
+        },
+        {
+          "enum": "Sirin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+          "target": "две сестре"
+        },
+        {
+          "enum": "Twins",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": "SR-IR01-13",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637185",
+      "key": "line:Mother_Entrance_Occupied_0515549",
+      "source": "Mother: Хм… У тебя тут {0}. Мой малыш и так всего набоялся…",
+      "currentTarget": "Mother: Хм… Код тебе је {0}. Моје дете се ионако већ свега преплашило…",
+      "targetFile": "Translations/sr/dialogue-batch-106.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Mother_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "CultistThree",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+          "target": "култиста"
+        },
+        {
+          "enum": "Fugitive",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+          "target": "мушкарац с раном на стомаку"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+      "key": "line:Ballerina_Entrance_Occupied_0a88b7b",
+      "source": "Ballerina: У тебя есть {0}?",
+      "currentTarget": "Ballerina: Имаш ли {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-201.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Ballerina_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "target": "сањиви студентчић"
+        },
+        {
+          "enum": "Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "target": "верница"
+        },
+        {
+          "enum": "WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "target": "ћелави бандит у оделу"
+        }
+      ],
+      "findingId": "SR-IR01-10",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457140248585",
+      "key": "line:Teacher_Entrance_Occupied_0183941",
+      "source": "Teacher: Простите, я вижу, у вас тут {0}?",
+      "currentTarget": "Teacher: Опростите, видим да је код вас овде {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-237.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Teacher_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "target": "огромна жена са шишкама"
+        },
+        {
+          "enum": "Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "target": "мушкарац у црном дуксу с капуљачом"
+        },
+        {
+          "enum": "Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "target": "младић у јакни"
+        },
+        {
+          "enum": "Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "target": "мушкарац са зеленим качкетом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457136054284",
+      "key": "line:Dude_Entrance_Occupied_04a10b7",
+      "source": "Dude: Хотя, погоди… Это чё за {0}?",
+      "currentTarget": "Dude: Мада, чекај… Откуд ту {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-213.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Dude_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Alt",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+          "target": "девојка с тетоважом"
+        },
+        {
+          "enum": "Fan",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+          "target": "прљави жути тип"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457136054274",
+      "key": "line:Blind_Entrance_Occupied_0fedfcd",
+      "source": "Blind: Я чувствую, что у тебя здесь {0}. Что-то не так с этим человеком.",
+      "currentTarget": "Blind: Осећам да је код тебе {0}. Нешто није у реду с том особом.",
+      "targetFile": "Translations/sr/dialogue-batch-161.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Blind_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "target": "жена с тарот картама"
+        },
+        {
+          "enum": "Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "target": "огроман брадати тип"
+        },
+        {
+          "enum": "Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "target": "тип с кожним проблемима"
+        },
+        {
+          "enum": "Neighbour",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859973",
+      "key": "line:Fatman_Entrance_Occupied_0be05e8",
+      "source": "Fatman: Бляха, у тебя тут… {0}. Гони к херам! Я не готов пиздиться… за ванну.",
+      "currentTarget": "Fatman: Јеботе, овде ти је… {0}. Терај дођавола! Нисам спреман да се бијем… због каде.",
+      "targetFile": "Translations/sr/dialogue-batch-276.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Fatman_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "target": "мушкарац у униформи КВС"
+        },
+        {
+          "enum": "Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "target": "препланули момак"
+        },
+        {
+          "enum": "Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "target": "жена с лешом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457131859968",
+      "key": "line:Buddy_Entrance_Occupied_0900d8b",
+      "source": "Buddy: О-о, корешок, гляжу у тебя уже {0} греет местечко.",
+      "currentTarget": "Buddy: Оо, ортаче, видим да се код тебе већ греје {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-209.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Buddy_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "target": "грбави тип"
+        },
+        {
+          "enum": "Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "target": "жена у топу"
+        },
+        {
+          "enum": "Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "target": "ратоборна жена с упадљивом шминком"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457127665668",
+      "key": "line:Bestson_Entrance_Occupied_0309a57",
+      "source": "Bestson: Я вижу, у тебя уже {0} на диване. Меня… ну… меня пугают такие мужчины.",
+      "currentTarget": "Bestson: Видим да је код тебе на каучу већ {0}. Мене… па… мене такви мушкарци плаше.",
+      "targetFile": "Translations/sr/dialogue-batch-233.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Bestson_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "target": "дугајлија"
+        },
+        {
+          "enum": "Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "target": "неки музичар"
+        },
+        {
+          "enum": "TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "target": "таксиста с качкетом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457123471364",
+      "key": "line:Fugitive_Entrance_Occupied_02bb908",
+      "source": "Fugitive: Не могу… Приятель, я, бывало, на таких людей натыкался. У тебя вот в доме  {0}.",
+      "currentTarget": "Fugitive: Не могу… Пријатељу, наилазио сам ја на такве људе. Ево, код тебе у кући  {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-089.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Fugitive_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "CultistThree",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+          "target": "култиста"
+        },
+        {
+          "enum": "Mother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+          "target": "жена с дететом"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277062",
+      "key": "line:Nun_Entrance_Occupied_08f7764",
+      "source": "Nun: Так, кто это тут у вас — {0}.",
+      "currentTarget": "Nun: Да видимо ко вам је овде — {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-173.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Nun_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "target": "жена с мачком"
+        },
+        {
+          "enum": "Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "target": "сањиви студентчић"
+        },
+        {
+          "enum": "WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "target": "ћелави бандит у оделу"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082760",
+      "key": "line:Raskolnikov_Entrance_Occupied_0729667",
+      "source": "Raskolnikov: Ты прости, я не хочу показаться грубым, но у тебя уже {0}.",
+      "currentTarget": "Raskolnikov: Опрости, не желим да испаднем груб, али код тебе је већ {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-164.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Raskolnikov_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Alkonost",
+          "labelStableId": null,
+          "target": null
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888458",
+      "key": "line:Wifefema_Entrance_Occupied_0662e7d",
+      "source": "Wifefema: Что это за {0}?",
+      "currentTarget": "Wifefema: Ко је тај {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-134.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Wifefema_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 4
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "target": "крупни гремлин"
+        },
+        {
+          "enum": "GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "target": "грбави тип"
+        },
+        {
+          "enum": "Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "target": "жена у топу"
+        }
+      ],
+      "findingId": "SR-IR01-11",
+      "riskDisposition": "proposed correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457106694154",
+      "key": "line:Theorist_Entrance_Occupied_02d4f9a",
+      "source": "Theorist: Этот… этот… {0}!",
+      "currentTarget": "Theorist: Тај… тај… {0}!",
+      "targetFile": "Translations/sr/dialogue-batch-143.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "Theorist_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Provocateur",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+          "target": "агресивни тип с огромном главом"
+        },
+        {
+          "enum": "Scammer",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+          "target": "момак у мајици amogus"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457102499850",
+      "key": "line:BigLebowski_Entrance_Occupied_053789b",
+      "source": "BigLebowski: Блин, не. У тебя на классном местечке уже {0}, короче.",
+      "currentTarget": "BigLebowski: Бре, не. На оном добром месту код тебе већ је {0}, значи.",
+      "targetFile": "Translations/sr/dialogue-batch-170.json",
+      "consumerCategory": "GetCharacterOnPlace",
+      "compiledInstructions": [
+        {
+          "node": "BigLebowski_Entrance_Occupied",
+          "consumer": "GetCharacterOnPlace",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "target": "брачни пар"
+        },
+        {
+          "enum": "Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "target": "девојчица која плаче"
+        },
+        {
+          "enum": "Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "target": "го мушкарац"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456913756162",
+      "key": "line:Courier_Entrance_5_3_0bad15a",
+      "source": "Courier: Держите. {0}.",
+      "currentTarget": "Courier: Изволите. {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-021.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456393662471",
+      "key": "line:Twins_Entrance_Occupied_0880fa9",
+      "source": "Twins: Пожалуй, нет, здесь {0}.",
+      "currentTarget": "Twins: Боље не, овде је {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-179.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456389468161",
+      "key": "line:NotTrue_Entrance_Occupied_0abf2b1",
+      "source": "NotTrue: Ой, дружочек… а что это у тебя тут, {0}?",
+      "currentTarget": "NotTrue: Јој, другарчићу… а шта је то код тебе овде, {0}?",
+      "targetFile": "Translations/sr/dialogue-batch-181.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079553",
+      "key": "line:Anger_Entrance_Occupied_076f124",
+      "source": "Anger: ...Ага. Понятно. Здесь уже {0}. Я только глянул — и сразу ясно: все тут тихо дышат, прогибаются, лишь бы не тронули. Таких я не переношу.",
+      "currentTarget": "Anger: ...Аха. Јасно. Овде је већ {0}. Само сам бацио поглед и одмах ми је јасно: сви овде ћуте и повијају се да их нико не дирне. Такве не подносим.",
+      "targetFile": "Translations/sr/dialogue-batch-217.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455932289031",
+      "key": "line:Tourist_Asking_3_5_X_0106850",
+      "source": "Tourist: Не знаю, пригодится ли вам это, но держите — {0}.",
+      "currentTarget": "Tourist: Не знам да ли ће вам ово користити, али изволите — {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-146.json",
+      "consumerCategory": "LocalizeItem",
+      "compiledInstructions": [
+        {
+          "node": "Tourist_Asking_3_5_X",
+          "consumer": "LocalizeItem",
+          "instructionIndex": 9
+        }
+      ],
+      "possibleRawLabels": [
+        {
+          "enum": "Enerjeka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+          "target": "Енержека"
+        },
+        {
+          "enum": "Cigarette",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+          "target": "Цигарете"
+        },
+        {
+          "enum": "Coffee",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+          "target": "Кафа"
+        },
+        {
+          "enum": "CatFood",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+          "target": "Храна за мачке"
+        },
+        {
+          "enum": "Kombucha",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+          "target": "Чајна гљива"
+        },
+        {
+          "enum": "Povistka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+          "target": "Јављање у КВС"
+        }
+      ],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607366",
+      "key": "line:Foreigner_Asking_4_X_092f1cf",
+      "source": "Foreigner: (Мужчина протяигвает вам бумажку с телефонным номером: {0})",
+      "currentTarget": "Foreigner: (Мушкарац вам пружа папирић с телефонским бројем: {0})",
+      "targetFile": "Translations/sr/dialogue-batch-115.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Foreigner_Asking_4_X",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 3
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607365",
+      "key": "line:Alkonost_Asking_3_095885f",
+      "source": "Alkonost: Можете позвонить ему, если вас не затруднит? {0}.",
+      "currentTarget": "Alkonost: Можете ли да га позовете, ако вам није тешко? {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-099.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Alkonost_Asking_3",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 21
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607363",
+      "key": "line:FortuneTeller_Asking_2_01fd0c9",
+      "source": "FortuneTeller: Я тебе запишу их номер: {0}.",
+      "currentTarget": "FortuneTeller: Записаћу ти њихов број: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-168.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "FortuneTeller_Asking_2",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 30
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455546413064",
+      "key": "line:Anger_Asking_4_086be4e",
+      "source": "Anger: Если будет связь – наберёшь, а? {0}.",
+      "currentTarget": "Anger: Ако буде везе, позваћеш је, а? {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-218.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Anger_Asking_4",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 31
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455546413061",
+      "key": "line:Mother_Asking_3_0d0aa56",
+      "source": "Mother: Слушайте, а, может, вы ему позвоните? {0}.",
+      "currentTarget": "Mother: Слушајте, можда бисте могли да га позовете? {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-107.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Mother_Asking_3",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 23
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455521247232",
+      "key": "line:Neighbour_Asking_5_0d5acc9",
+      "source": "Neighbour: {0}. Будем поддерживать связь по телефону.",
+      "currentTarget": "Neighbour: {0}. Бићемо у контакту телефоном.",
+      "targetFile": "Translations/sr/dialogue-batch-004.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Neighbour_Asking_5",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 12
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455311532034",
+      "key": "line:TaxiDriver_Asking_4_0a6f2e2",
+      "source": "TaxiDriver: Вот его номер: {0}.",
+      "currentTarget": "TaxiDriver: Ево његовог броја: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-176.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455097622528",
+      "key": "line:Daughter_Asking_3_009e901",
+      "source": "Daughter: Вроде бы это её номер телефона: {0}.",
+      "currentTarget": "Daughter: Мислим да је ово њен број телефона: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-014.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Daughter_Asking_3",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 20
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454745301001",
+      "key": "line:Bestson_Asking_3_0f27b90",
+      "source": "Bestson: Может, ты мог бы позвонить ей за меня?.. Вот номер – {0}.",
+      "currentTarget": "Bestson: Можда би могао да је позовеш уместо мене?.. Ево броја: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-234.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Bestson_Asking_3",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 31
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454665609223",
+      "key": "line:Wifefema_Asking_5_0f80f1d",
+      "source": "Wifefema: Позвони, а? По внутренней линии КЧС, у них там есть спецномер – {0}.",
+      "currentTarget": "Wifefema: Позови их, а? На интерни број КВС-а, имају посебан број — {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-134.json",
+      "consumerCategory": "GetPhoneNumber",
+      "compiledInstructions": [
+        {
+          "node": "Wifefema_Asking_5",
+          "consumer": "GetPhoneNumber",
+          "instructionIndex": 27
+        }
+      ],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "compiled known inputs checked; no objective correction"
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504454632054791",
+      "key": "line:Firefighter_Asking_2_0b208e4",
+      "source": "Firefighter: Слушай, приятель, если не трудно… Позвони им: {0}.",
+      "currentTarget": "Firefighter: Слушај, пријатељу, ако ти није тешко… Позови их: {0}.",
+      "targetFile": "Translations/sr/dialogue-batch-187.json",
+      "consumerCategory": "unboundInPinnedCompiledProgram",
+      "compiledInstructions": [],
+      "possibleRawLabels": [],
+      "findingId": null,
+      "riskDisposition": "accepted text; matching compiled instruction not established"
+    }
+  ],
+  "adjacentDirectContextFinding": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+  "limitations": [
+    "Thirteen accepted slot rows have no matching instruction in the pinned compiled program; their runtime consumer cannot be inferred.",
+    "Three same-place candidate enum keys lack a pinned UI label; no target label or reachability is invented.",
+    "Source gender/default inconsistencies and the dismissed Bestson resemblance candidate are retained as review evidence, not changes."
+  ]
+}

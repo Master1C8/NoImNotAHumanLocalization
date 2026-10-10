@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "acceptedUnits": 16538,
+  "sourceInventory": {
+    "path": "Source/localization-inventory-v3/strings.jsonl",
+    "sha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0"
+  },
+  "sourceStatic": {
+    "path": "Source/localization-inventory-v3/static-text.jsonl",
+    "sha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc"
+  },
+  "sourceAcceptance": {
+    "path": "Documentation/text-source-acceptance-v1.json",
+    "sha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce"
+  },
+  "preserveExactManifest": {
+    "path": "Source/preserve-exactly-v4.json",
+    "sha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226"
+  },
+  "glossaryLayer": {
+    "path": "Documentation/glossary-translations/sr/layer.json",
+    "sha256": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3"
+  },
+  "canonicalGlossaryReview": {
+    "path": "Documentation/glossary-translations/canonical-reviews/sr.json",
+    "sha256": "c26845a23b27c755ee4367fddf60fada5bfef5f6c9bd12953a03784dbbc8c8ab"
+  },
+  "review03GlossaryApplicability": {
+    "path": "Translations/sr/independent-review-03/glossary-approval-verification.json",
+    "sha256": "95c44767075279581df9696782eb218bc1b1ae3ea35281913865cae2da8c95b0"
+  },
+  "firstSemanticPass": {
+    "path": "Translations/sr/semantic-cycle-001-precorrection.json",
+    "sha256": "8192cc2a8556380e9a86bdd6c4d9c3be036f3d78c3f8d526363d4638992f32c9"
+  },
+  "correctionChain": [
+    {
+      "path": "Translations/sr/semantic-cycle-001-corrections.json",
+      "sha256": "c47767d05b48f90935bf1ac30db66cfefff4534c80231138fe9351257baf52d7"
+    },
+    {
+      "path": "Translations/sr/semantic-cycle-001-static-regeneration.json",
+      "sha256": "9d05cb9668024abae6370cb416723a8af30652e66d59542123cfbe85dc6d5878"
+    },
+    {
+      "path": "Translations/sr/semantic-cycle-002-corrections.json",
+      "sha256": "b5dffcfb6b3cbef18cbcb15b7aaf710bb8592f4e32a4e62cc0ef2fe3667098ad"
+    },
+    {
+      "path": "Translations/sr/semantic-cycle-003-corrections.json",
+      "sha256": "8c6423b9fa623b1fed75cb02206e3bb92e9aaffcd21aabbb91e73a2361f90302"
+    }
+  ],
+  "firstSemanticPassUnits": 16538,
+  "changedIdsByCycle": {
+    "001": 26,
+    "002": 17,
+    "003": 1
+  },
+  "result": "passed; no universal restart condition changed",
+  "scopeLimit": "Glossary CMS parity not rerun; immutable review03 approval/parity evidence reused."
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "cycle": "003",
+  "status": "one accepted complete-unit author correction, preflight passed; pending application",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "sourceAcceptanceSha256": "a70750766d64d031aa5ff67ac5c0eb6212014768764bbd66f667d1d9e1b971ce",
+  "glossaryFingerprint": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+  "canonicalGlossaryReviewSha256": "c26845a23b27c755ee4367fddf60fada5bfef5f6c9bd12953a03784dbbc8c8ab",
+  "priorAuthoredFileSetSha256": "7c81e49c9b15025fae69f10c22001ee551050b0f50ecd39cec3349d9b4e46dfe",
+  "priorClosureSha256": "48983ef22062579bd85645e5c18485a587eaf67a24bbf35f65965075202f527e",
+  "review02ReportSha256": "b42ef9c2299ca4342abe750432dcef338cfb0a8f2e427d140f541ccbc5f64ff6",
+  "review02FindingsSha256": "697c560a8c3bdadec331d0f759f64bbe979786cb084c99cfebb235b6101c3478",
+  "review02SummarySha256": "f6fdb732d5ec67e922af0cc48f91b35cb719fa25c7e402996f00b10f14fda4f3",
+  "review02ManifestSha256": "19bcf32cf1c47e914553c0cde5ff140a5f1f7270e45970b123951ba0244c1586",
+  "review02VerificationSha256": "e4476439314f4981fdaa38624e82b196d53bfc6229d918e47ce75a10257bc3e4",
+  "findingId": "SR-IR02-01",
+  "changedIds": [
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704"
+  ],
+  "changedIdsSha256": "2eed0af646299b5531bf360c20297b2d78594000239d0f695077c41488ad31cd",
+  "entries": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "targetFile": "Translations/sr/dialogue-batch-251.json",
+      "source": "Hunter: У тебя тут уже {0}.",
+      "sourceSha256": "96fa74b6dbaf3e997b29c48060066c10feae338724f622e618688fb9b0b28113",
+      "currentTarget": "Hunter: Код тебе је већ {0}.",
+      "currentTargetSha256": "bcff0a5586a6d96cdd4e532faa13ed649faa115e7bb72975e5bfe8347a4b9a48",
+      "acceptedTarget": "Hunter: Код тебе је већ неко — {0}.",
+      "acceptedTargetSha256": "32e8b574351984f3de646ee0e28be396386b664fbee8788469f6d6a86007935d",
+      "objectiveReason": "GetCharacterOnPlace(Hunter) can return Blind whose literal UI label is без очију. The corrected existential sentence assembles Код тебе је већ без очију: it has no resident subject, and без очију reads as a predicate saying an omitted person is already eyeless, rather than identifying the resident already present. The prior accusative problem is fixed for person-noun labels but not for this known prepositional label. Add an explicit indefinite occupant, then separate the verbatim display label; no source fact, identity or name is added."
+    }
+  ],
+  "consumerPreflight": {
+    "compiledNode": "Hunter_Entrance_Occupied",
+    "actualGetCharacterOnPlaceArgument": "Hunter",
+    "knownCases": [
+      {
+        "enum": "Blind",
+        "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+        "sourceLabel": "безглазый",
+        "targetLabel": "без очију",
+        "assembledCurrent": "Hunter: Код тебе је већ без очију.",
+        "assembledProposed": "Hunter: Код тебе је већ неко — без очију."
+      },
+      {
+        "enum": "FortuneTeller",
+        "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+        "sourceLabel": "женщина с картами таро",
+        "targetLabel": "жена с тарот картама",
+        "assembledCurrent": "Hunter: Код тебе је већ жена с тарот картама.",
+        "assembledProposed": "Hunter: Код тебе је већ неко — жена с тарот картама."
+      },
+      {
+        "enum": "Leper",
+        "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+        "sourceLabel": "мужик с проблемами кожи",
+        "targetLabel": "тип с кожним проблемима",
+        "assembledCurrent": "Hunter: Код тебе је већ тип с кожним проблемима.",
+        "assembledProposed": "Hunter: Код тебе је већ неко — тип с кожним проблемима."
+      }
+    ],
+    "unknownUiLabels": [
+      "Neighbour"
+    ],
+    "sourceContext": "Hunter identifies an already present occupant; the next compiled line refers to that person. The indefinite неко supplies the subject, while the dash introduces the literal display label without imposing case or gender.",
+    "comparableNeutralTemplates": [
+      "Nun: Да видимо ко вам је овде — {0}.",
+      "Intruder: Ето, {0}.",
+      "Tough: Ко ти је то овде, {0}?"
+    ],
+    "boundedImpact": "Only the Hunter occupied-place unit changes; every known Hunter slot input assembled; unknown Neighbour label remains unasserted."
+  },
+  "protectedSyntaxPreflight": "passed for complete proposed unit",
+  "fullCorpusInMemoryPreflight": "pending separate complete overlay before authored application",
+  "notAcceptance": "Author adjudication is not independent review, editorial acceptance, or runtime proof."
+}

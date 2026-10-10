@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "enum": "Blind",
+      "serializedName": "Blind",
+      "place": 10,
+      "room": 0,
+      "key": "characterName_Blind",
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+      "source": "безглазый",
+      "target": "без очију",
+      "scope": "possible occupant by actual same-place predicate; game state/reachability not executed",
+      "sourceAssembly": "Hunter: У тебя тут уже безглазый.",
+      "currentAssembly": "Hunter: Код тебе је већ неко — без очију.",
+      "semanticDecision": "passed: indefinite resident introduced; literal descriptor attached without case/gender coercion"
+    },
+    {
+      "enum": "FortuneTeller",
+      "serializedName": "FortuneTeller",
+      "place": 10,
+      "room": 0,
+      "key": "characterName_FortuneTeller",
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+      "source": "женщина с картами таро",
+      "target": "жена с тарот картама",
+      "scope": "possible occupant by actual same-place predicate; game state/reachability not executed",
+      "sourceAssembly": "Hunter: У тебя тут уже женщина с картами таро.",
+      "currentAssembly": "Hunter: Код тебе је већ неко — жена с тарот картама.",
+      "semanticDecision": "passed: indefinite resident introduced; literal descriptor attached without case/gender coercion"
+    },
+    {
+      "enum": "Leper",
+      "serializedName": "Leper",
+      "place": 10,
+      "room": 0,
+      "key": "characterName_Leper",
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+      "source": "мужик с проблемами кожи",
+      "target": "тип с кожним проблемима",
+      "scope": "possible occupant by actual same-place predicate; game state/reachability not executed",
+      "sourceAssembly": "Hunter: У тебя тут уже мужик с проблемами кожи.",
+      "currentAssembly": "Hunter: Код тебе је већ неко — тип с кожним проблемима.",
+      "semanticDecision": "passed: indefinite resident introduced; literal descriptor attached without case/gender coercion"
+    }
+  ],
+  "unknownUiLabels": [
+    "Neighbour"
+  ],
+  "substitutionSemantics": "Yarn ExpandSubstitutions iterates substitutions and String.Replace on the indexed slot. No Serbian case/number/gender morphology is applied. Static code inspection, not game execution.",
+  "placeDataSha256": "a46c18cadbc816961805eadf7c99269e7bba9fbec0df40c3c215896a50b27690",
+  "sourceDefault": "Following Russian этого человека / его uses masculine generic/default wording even for the admitted FortuneTeller candidate; current Serbian тог човека / га preserves that source construction and adds no new fixed-gender claim.",
+  "limits": "Static possible inputs and literal insertion only; no executed reachability; original config extraction registry limitation retained."
+}

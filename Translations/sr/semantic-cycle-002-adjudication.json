@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "gameVersion": "1.3.19",
+  "cycle": "002",
+  "status": "one accepted author correction batch; preflight only, not yet applied",
+  "sourceInventorySha256": "ecd96645c2ca6f23f8bf3ab2fcf65709e961478ae15a38e83d94cc335a408bf0",
+  "sourceStaticSha256": "3791c851b1c2282b2908ba288830df07110a9d9fcc75d7e86e710e8485024efc",
+  "glossaryFingerprint": "f0288e415e508e4d42f3a143fec7ffdc76da0a060317b152c9e4f5ee783eb5b3",
+  "preserveExactManifestSha256": "d431b758ca205925e637e2020ac60f47a290d9680299b1774387d951079fe226",
+  "priorAuthoredFileSetSha256": "bb50536b941109550db6f9e8317553a4bb04bce6f2ef76bdf61ac1fe2be96091",
+  "priorClosureSha256": "243bf0bbdacf698fe6199908086058a2923a72fb2a54b707bb8468d0d1979bfb",
+  "reviewerReportSha256": "ab7d203764ad95121a56bba050e4d212a53429d5d3f32666c122ec339c3e78e9",
+  "reviewerFindingsSha256": "b1ccb58965a8e72d6ccda669ab73425f15a08f3cf3286f06d22e79de64dc5187",
+  "reviewerSummarySha256": "b870aaad856c22d047f8656e2429e9d09a2dd0f362ea9ef4acffc6e0e43778f7",
+  "reviewerVerificationSha256": "f8ed2e6207ca6bddbbb27c31f11767c68ade8103067e49e04973ec2f11eb8921",
+  "dismissedCandidatesSha256": "a5eea91cbd60ce859789973b9c697d387215268f2672c11eefa3522e73cf12a2",
+  "additionalFindingsSha256": "92516df7c7eeb7a23c67ef322d0bc3624518c96c252e1a64c198f822c8c3d448",
+  "boundedDynamicRiskSha256": "a3c2684005e9980a117aeb7063d815ba5fea49f990c13e14a6e737214acce0ac",
+  "changedIds": [
+    "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300481",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134657",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551754",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968842",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+    "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888458"
+  ],
+  "changedIdsCount": 17,
+  "changedIdsSha256": "76c72e588d21e6894817f7988181faee7e57ae39b3f4497b054fd609dec2bf25",
+  "acceptedReviewerFindings": 15,
+  "acceptedAdditionalFindings": 2,
+  "dismissedBestsonAndPhoneCandidates": 2,
+  "fullCorpusInMemoryProtectedSyntaxPreflight": "passed: 16,538 units",
+  "structuralAndSemanticLimits": [
+    "The assembled examples verify literal insertion and expose case/number risks; no game launch or runtime reachability claim is made.",
+    "The 13 unmatched format-slot rows and three unknown same-place UI labels remain separately classified in the bounded risk inventory.",
+    "No independent review of these 17 new target values has occurred."
+  ],
+  "entries": [
+    {
+      "findingId": "SR-IR01-01",
+      "stableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+      "key": "characterName_Fairytaller",
+      "source": "мечтательный студентик",
+      "sourceSha256": "86e1b8a7eacb510c203aabef12f1dc70a79fcda7ad89bb8ccd03d47d3b70ff1a",
+      "currentTarget": "сањиви студентчић",
+      "currentTargetSha256": "e80932a034aada080d716e686180423376d476de7f1f136e3a50d4c749ac2e3b",
+      "acceptedTarget": "сањалачки студентчић",
+      "acceptedTargetSha256": "ecae630ce110ed6e86ef82301c2096c01e76979a8ce6f47cbe5b6364d9b0c347",
+      "targetFile": "Translations/sr/ui-batch-008.json",
+      "objectiveReason": "Russian мечтательный means daydreaming/dreamy; Serbian сањиви means sleepy/drowsy. The approved fairytale-enjoyer term Сањалачки студент and this character’s fairy-tale context resolve the sense.",
+      "consumerExamples": [],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-02",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+      "key": "line:Alt_Entrance_Bribe_09f4449",
+      "source": "Alt: Хорошо. {0} подойдёт?",
+      "sourceSha256": "081bbe9e0fa6a652e9ef263a809bdae4b3ae0186fac3d02d8a016db0475e9935",
+      "currentTarget": "Alt: Добро. Да ли је {0} довољно?",
+      "currentTargetSha256": "fa86a09d76dc9f07e1f9c9de0b8f029d526195e8e804a66ae2ad9641a3197aa2",
+      "acceptedTarget": "Alt: Добро. Да ли ти одговара ово: {0}?",
+      "acceptedTargetSha256": "84e5ac32d884e5014ff5d827274d4e44f43e46595002662cf90c1869f34b87a9",
+      "targetFile": "Translations/sr/dialogue-batch-152.json",
+      "objectiveReason": "LocalizeItem returns the raw nominative label; actual deficit config includes Cigarette -> Цигарете. The singular је plus that plural label is malformed. Also подойдёт asks suitability, not whether a quantity is sufficient. The complete replacement preserves the offer and introduces the verbatim label as a list.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Јављање у КВС?"
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Енержека?"
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Кафа?"
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Храна за мачке?"
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Цигарете?"
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Alt: Добро. Да ли ти одговара ово: Чајна гљива?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-03",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+      "key": "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+      "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "7437e13e9d82d0b896f96cd62660d7eb68057c89dad2bc00a42d9cf91f9932b5",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "currentTargetSha256": "1f45d64d3b2b3938f1fe241e02438645433e9344b53e207747802e8e0c10e8bf",
+      "acceptedTarget": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+      "acceptedTargetSha256": "104a20a920b7bbc5a6c03e9fad4c68c681bba5acbd914683a0d96fb16b7059ff",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Jacket: Ево шта имам: Јављање у КВС. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Jacket: Ево шта имам: Енержека. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Jacket: Ево шта имам: Кафа. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Jacket: Ево шта имам: Храна за мачке. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Jacket: Ево шта имам: Цигарете. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Jacket: Ево шта имам: Чајна гљива. Није много, али надам се да ће вам користити."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-04",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+      "key": "line:Jacket_Entrance_Bribe_045fb4f",
+      "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+      "sourceSha256": "4f8e7c87af46c1a50f56065ebcf64c72e173d3f66dbb50472ca01509ff2c4bad",
+      "currentTarget": "Jacket: Ако треба, имам {0}. Да ли вам то одговара?",
+      "currentTargetSha256": "53e3537d0f0982ef3ca07ae07620c76b0c74aa3792f95cf99c3891aab87b4526",
+      "acceptedTarget": "Jacket: Ако треба, ево шта имам: {0}. Да ли вам то одговара?",
+      "acceptedTargetSha256": "d02ebd0fa98570b8cbe34822db921483aa61dbb46fea60e1c4860a067f280e43",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Јављање у КВС. Да ли вам то одговара?"
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Енержека. Да ли вам то одговара?"
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Кафа. Да ли вам то одговара?"
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Храна за мачке. Да ли вам то одговара?"
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Цигарете. Да ли вам то одговара?"
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Jacket: Ако треба, ево шта имам: Чајна гљива. Да ли вам то одговара?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-05",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+      "key": "line:Jacket_Entrance_YesLet_0e9da2d",
+      "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+      "sourceSha256": "75b21083a8d659f721be9027f841b7a8f61044d9919194c902073a4cf6baf391",
+      "currentTarget": "Jacket: Ево, имам {0}. Није много, али надам се да ће вам користити.",
+      "currentTargetSha256": "1f45d64d3b2b3938f1fe241e02438645433e9344b53e207747802e8e0c10e8bf",
+      "acceptedTarget": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+      "acceptedTargetSha256": "104a20a920b7bbc5a6c03e9fad4c68c681bba5acbd914683a0d96fb16b7059ff",
+      "targetFile": "Translations/sr/dialogue-batch-128.json",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Jacket: Ево шта имам: Јављање у КВС. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Jacket: Ево шта имам: Енержека. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Jacket: Ево шта имам: Кафа. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Jacket: Ево шта имам: Храна за мачке. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Jacket: Ево шта имам: Цигарете. Није много, али надам се да ће вам користити."
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Jacket: Ево шта имам: Чајна гљива. Није много, али надам се да ће вам користити."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-06",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+      "key": "line:Unstable_Entrance_Bribe_0a6a080",
+      "source": "Unstable: Короче, есть {0}. Будешь?",
+      "sourceSha256": "1c9163f01a3eaf83242da2ce7414bbd1990b40d6fb49cecaa3446f20057e07ec",
+      "currentTarget": "Unstable: Укратко, имам {0}. Хоћеш?",
+      "currentTargetSha256": "3f9a241c24c170ee12f1ac7c85e319b134bc582061b4b60e1ac4b2deb1cb4f3c",
+      "acceptedTarget": "Unstable: Укратко, ево шта имам: {0}. Хоћеш?",
+      "acceptedTargetSha256": "7823d52b45b95bdf8e293ff5b42ecde59dc6910189be7f8dece1f9061f2b7614",
+      "targetFile": "Translations/sr/dialogue-batch-261.json",
+      "objectiveReason": "The actual deficit set includes Enerjeka -> Енержека and Kombucha -> Чајна гљива. имам takes an accusative object (Енержеку / Чајну гљиву), but LocalizeItem returns the unchanged nominative label. A colon-separated inventory list makes the template valid for every raw label while retaining possession and the offer.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Јављање у КВС. Хоћеш?"
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Енержека. Хоћеш?"
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Кафа. Хоћеш?"
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Храна за мачке. Хоћеш?"
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Цигарете. Хоћеш?"
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Unstable: Укратко, ево шта имам: Чајна гљива. Хоћеш?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-08",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300481",
+      "key": "line:Marauder_Entrance_Bribe_0bd7240",
+      "source": "Marauder: А! Нашёл – {0}. Забирай, хозяин, только дай до утра перекантоваться.",
+      "sourceSha256": "fc6142fd2b106a69537b8e6132f6a620797dad868507304aad3942321754f2f9",
+      "currentTarget": "Marauder: А! Нашао сам — {0}. Узми, домаћине, само ми дај да преноћим.",
+      "currentTargetSha256": "f54eb88f4508e85db9dbd8ba4debbd4ad3932f1dc667dd43e0295524ccef2530",
+      "acceptedTarget": "Marauder: А! Нашао сам нешто: {0}. Узми, домаћине, само ми дај да преноћим.",
+      "acceptedTargetSha256": "cb83fefb321aa0475121629501cf7b2872500f7535421d67b4f5564646961f10",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "objectiveReason": "The bare object after нашао сам needs accusative, but LocalizeItem emits nominative Енержека. The replacement supplies нешто as the object, followed by the exact found-item label. The offer and request for overnight shelter are unchanged.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Јављање у КВС. Узми, домаћине, само ми дај да преноћим."
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Енержека. Узми, домаћине, само ми дај да преноћим."
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Кафа. Узми, домаћине, само ми дај да преноћим."
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Храна за мачке. Узми, домаћине, само ми дај да преноћим."
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Цигарете. Узми, домаћине, само ми дај да преноћим."
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Marauder: А! Нашао сам нешто: Чајна гљива. Узми, домаћине, само ми дај да преноћим."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-07",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+      "key": "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+      "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+      "sourceSha256": "52f5a783bf7e4e2072e89c40a4c148a997f20c257f92cbc2f3f2db0ef90bca8a",
+      "currentTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "currentTargetSha256": "f45da7266143b407668b0dd52888978d27b19f79c161bc0b157625d8d95128a4",
+      "acceptedTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+      "acceptedTargetSha256": "16b54cd88ca43e62248df47696fcb2eb3b64d6fe2b199a3db4744b0f93bcae60",
+      "targetFile": "Translations/sr/dialogue-batch-117.json",
+      "objectiveReason": "Ево governing an ordinary noun takes genitive (Енержеке / Чајне гљиве), whereas this consumer substitutes raw nominative Енержека / Чајна гљива. Recasting only the introducer as an inventory label retains the gesture, action sequence and joke.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Јављање у КВС, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Енержека, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Кафа, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Храна за мачке, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Цигарете, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: Чајна гљива, узмеш, машеш тиме на улазу и — хоп! — невидљив си."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-AUTH02-02",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134657",
+      "key": "line:Blind_Entrance_Bribe_038e372",
+      "source": "Blind: Кажется, это {0}. Можешь взять. Мне нужен хотя бы день, чтобы перевести дух. Но… какое там…",
+      "sourceSha256": "44dec49326aa64f62b1af89311544a33c0b4614a93b75b8be1b996015ec252da",
+      "currentTarget": "Blind: Мислим да је ово {0}. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…",
+      "currentTargetSha256": "45f17b61872d706a36cfa43456c0ae8505933eb3a8c0a7648c23597f6909a9f9",
+      "acceptedTarget": "Blind: Чини ми се… {0}. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…",
+      "acceptedTargetSha256": "dae766d2ec9547aedf8bd5af25c1ce57a03589b257fe61c00f690461a521d99c",
+      "targetFile": "Translations/sr/dialogue-batch-161.json",
+      "objectiveReason": "The compiled branch passes a raw LocalizeItem nominative label into {0}. The pinned deficit set includes plural Цигарете; the Serbian copula in Мислим да је ово Цигарете disagrees with that plural predicate. The source's Кажется signals uncertainty, preserved by Чини ми се; the remaining offer, one-day request and self-correction remain complete.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Blind: Чини ми се… Јављање у КВС. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Blind: Чини ми се… Енержека. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Blind: Чини ми се… Кафа. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Blind: Чини ми се… Храна за мачке. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Blind: Чини ми се… Цигарете. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Blind: Чини ми се… Чајна гљива. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-AUTH02-01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551754",
+      "key": "line:Day1_Wifefema_Bribe_05364ea",
+      "source": "Wifefema: Давай по-простому: {0} — аванс тебе, а ты меня погреться пустишь, хех.",
+      "sourceSha256": "cee52e7a2b93cf13ec995669f911d57f51ad95b4503fa0609948f73221edf38c",
+      "currentTarget": "Wifefema: Да поједноставимо: {0} ти је аванс, а ти ме пустиш унутра да се угрејем, хех.",
+      "currentTargetSha256": "33c50ae3df95155d603316d0eccf3ddd256cdee0853e7a689be6731acaf81394",
+      "acceptedTarget": "Wifefema: Да поједноставимо: {0} — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех.",
+      "acceptedTargetSha256": "49855100c9e07bb981654bf21511b6c0615b0675f81e787da7c55444b7bb5e26",
+      "targetFile": "Translations/sr/dialogue-batch-047.json",
+      "objectiveReason": "The compiled branch passes a raw LocalizeItem nominative label into {0}. The pinned deficit set includes plural Цигарете; the added singular copula yields Цигарете ти је аванс. The source uses a dash without an agreeing verb. The replacement retains the advance payment and condition while accepting all raw labels.",
+      "consumerExamples": [
+        {
+          "rawLabel": "Јављање у КВС",
+          "assembledTarget": "Wifefema: Да поједноставимо: Јављање у КВС — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        },
+        {
+          "rawLabel": "Енержека",
+          "assembledTarget": "Wifefema: Да поједноставимо: Енержека — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        },
+        {
+          "rawLabel": "Кафа",
+          "assembledTarget": "Wifefema: Да поједноставимо: Кафа — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        },
+        {
+          "rawLabel": "Храна за мачке",
+          "assembledTarget": "Wifefema: Да поједноставимо: Храна за мачке — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        },
+        {
+          "rawLabel": "Цигарете",
+          "assembledTarget": "Wifefema: Да поједноставимо: Цигарете — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        },
+        {
+          "rawLabel": "Чајна гљива",
+          "assembledTarget": "Wifefema: Да поједноставимо: Чајна гљива — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-12",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968842",
+      "key": "line:Marauder_Entrance_Occupied_04aa8be",
+      "source": "Кем? Да вон, смотри, эта {0}.",
+      "sourceSha256": "bd8c01f6f742763df05b968a406fcb9f83356fad49c3a648f1ff2168fc5463b5",
+      "currentTarget": "Киме? Па ево, погледај, та {0}.",
+      "currentTargetSha256": "8945d17df7c7005e64996421224123bc5eeadcb88d962809afe4c67b9b24581d",
+      "acceptedTarget": "Киме? Па ево, погледај — {0}.",
+      "acceptedTargetSha256": "aea4edb122a08de653a0972564bc6ee1c517c5bf9026f512841d26cf912baef4",
+      "targetFile": "Translations/sr/dialogue-batch-149.json",
+      "objectiveReason": "GetCharacterOnPlace(Marauder) can select Bald, whose label is ћелави. Fixed feminine та becomes та ћелави. The original source also uses a feminine default, but the target can preserve its pointing function without an agreement defect by retaining ево, погледај and the label.",
+      "consumerExamples": [
+        {
+          "rawLabel": "девојка са сколиозом",
+          "assembledTarget": "Киме? Па ево, погледај — девојка са сколиозом."
+        },
+        {
+          "rawLabel": "ћелави",
+          "assembledTarget": "Киме? Па ево, погледај — ћелави."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-14",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+      "key": "line:NotTrue_Entrance_Occupied_028412a",
+      "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+      "sourceSha256": "b43dd3ea10b35ea30af4447ecbba752ed8621c4b91cb726fa90e0b87d72b152f",
+      "currentTarget": "NotTrue: Јаој, боже мили! Па у фотељи ти већ седи {0}.",
+      "currentTargetSha256": "2048c1880e54907a6e1bd9bff2f3be15015e42525fa3d4bcc2f8dc64c7ce1126",
+      "acceptedTarget": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — {0}.",
+      "acceptedTargetSha256": "4d35e3e7374e60c0f1809fd9a398fdbc13472d004794457f9e3f36d15a099149",
+      "targetFile": "Translations/sr/dialogue-batch-158.json",
+      "objectiveReason": "GetCharacterOnPlace(NotTrue) can select Sirin -> две сестре. Added singular седи produces седи две сестре. The replacement states that the armchair is occupied, then identifies its occupant with an unchanged display label; it preserves the chair, prior occupancy and exclamation.",
+      "consumerExamples": [
+        {
+          "rawLabel": "бесни дебељко с ранама",
+          "assembledTarget": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — бесни дебељко с ранама."
+        },
+        {
+          "rawLabel": "две сестре",
+          "assembledTarget": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — две сестре."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-09",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "source": "Hunter: У тебя тут уже {0}.",
+      "sourceSha256": "96fa74b6dbaf3e997b29c48060066c10feae338724f622e618688fb9b0b28113",
+      "currentTarget": "Hunter: Већ имаш {0} овде.",
+      "currentTargetSha256": "2d5ef5ffa5cfd6b9026836d1b68cb1987d42332f35f0daa48cca98d478f579a8",
+      "acceptedTarget": "Hunter: Код тебе је већ {0}.",
+      "acceptedTargetSha256": "bcff0a5586a6d96cdd4e532faa13ed649faa115e7bb72975e5bfe8347a4b9a48",
+      "targetFile": "Translations/sr/dialogue-batch-251.json",
+      "objectiveReason": "имаш needs accusative жену с тарот картама, but GetCharacterOnPlace(Hunter) can select FortuneTeller and returns the raw label жена с тарот картама. An existential nominative construction preserves the original occupant statement.",
+      "consumerExamples": [
+        {
+          "rawLabel": "без очију",
+          "assembledTarget": "Hunter: Код тебе је већ без очију."
+        },
+        {
+          "rawLabel": "жена с тарот картама",
+          "assembledTarget": "Hunter: Код тебе је већ жена с тарот картама."
+        },
+        {
+          "rawLabel": "тип с кожним проблемима",
+          "assembledTarget": "Hunter: Код тебе је већ тип с кожним проблемима."
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-13",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+      "key": "line:Anger_Entrance_Occupied_0ed7227",
+      "source": "Anger: У тебя тут {0}?",
+      "sourceSha256": "e58d7042a25e51cd128e09499e6746f5d45cf7101936e6fa37b7e812509e6513",
+      "currentTarget": "Anger: Код тебе је {0}?",
+      "currentTargetSha256": "4845f9a9d4baa7581339912f2f29f37c4c20e008f825beae01ef6c2baad6f547",
+      "acceptedTarget": "Anger: Код тебе… {0}?",
+      "acceptedTargetSha256": "de062d6e1b92b8bfa09fe51e6012ada945f00b3f5b622111d859fc335c9e7e9d",
+      "targetFile": "Translations/sr/dialogue-batch-217.json",
+      "objectiveReason": "GetCharacterOnPlace(Anger) can select Sirin, whose literal UI label is две сестре. Inserted singular је makes Код тебе је две сестре. The source has no singular verb. The speaker’s terse question can preserve the literal label with an ellipsis.",
+      "consumerExamples": [
+        {
+          "rawLabel": "две сестре",
+          "assembledTarget": "Anger: Код тебе… две сестре?"
+        },
+        {
+          "rawLabel": "страшна баба",
+          "assembledTarget": "Anger: Код тебе… страшна баба?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-15",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+      "key": "line:Ballerina_Entrance_Occupied_0df7f54",
+      "source": "Ballerina: Эээ, мне сказали, что тут таких быть не должно. Давай, выгоняй.",
+      "sourceSha256": "57d6a75d9b631ee7f8fe9a54ff385ca7ffad9255e30e36b87bd6ce9840696c5c",
+      "currentTarget": "Ballerina: Еее, рекли су ми да овде не сме да буде таквих. Хајде, истерај га.",
+      "currentTargetSha256": "6d750f3c2044bbab116a01fc2c516fb8a222c4c29ef986303bf744976b09b322",
+      "acceptedTarget": "Ballerina: Еее, рекли су ми да овде не сме да буде таквих. Хајде, истерај ту особу.",
+      "acceptedTargetSha256": "c5982d56619111f9980aecea3017d0e52e1862ccbee36f1978d227793021e0d7",
+      "targetFile": "Translations/sr/dialogue-batch-201.json",
+      "objectiveReason": "This directly adjacent line follows GetCharacterOnPlace(Ballerina). Nun is a real same-place female input. Russian Давай, выгоняй has no male pronoun; target истерај га adds a male referent and contradicts that branch. ту особу permits either sex and preserves the expulsion demand.",
+      "consumerExamples": [],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-10",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+      "key": "line:Ballerina_Entrance_Occupied_0a88b7b",
+      "source": "Ballerina: У тебя есть {0}?",
+      "sourceSha256": "0b906494728144019985de6cda7641d511232eebe8961e519bb181b9360532ec",
+      "currentTarget": "Ballerina: Имаш ли {0}?",
+      "currentTargetSha256": "8de81c451d35711553b3b5587f6e70bd61079a47b8aca3867b7088f9dc3e8c6a",
+      "acceptedTarget": "Ballerina: Да ли је {0} код тебе?",
+      "acceptedTargetSha256": "79c19e0a27980e967fdf14325d908ebf47bbd4f885a0f13404fe76fe13817537",
+      "targetFile": "Translations/sr/dialogue-batch-201.json",
+      "objectiveReason": "имаш needs accusative верницу, but GetCharacterOnPlace(Ballerina) can select Nun and returns raw верница. Every existing named same-place candidate is singular; the proposed existential question accepts the unchanged labels.",
+      "consumerExamples": [
+        {
+          "rawLabel": "верница",
+          "assembledTarget": "Ballerina: Да ли је верница код тебе?"
+        },
+        {
+          "rawLabel": "сањиви студентчић",
+          "assembledTarget": "Ballerina: Да ли је сањиви студентчић код тебе?"
+        },
+        {
+          "rawLabel": "ћелави бандит у оделу",
+          "assembledTarget": "Ballerina: Да ли је ћелави бандит у оделу код тебе?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    },
+    {
+      "findingId": "SR-IR01-11",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888458",
+      "key": "line:Wifefema_Entrance_Occupied_0662e7d",
+      "source": "Wifefema: Что это за {0}?",
+      "sourceSha256": "b49a1946f62cfa7df9768589b6dbef8d2ff4e59fae96f3e1c3f93d75af772598",
+      "currentTarget": "Wifefema: Ко је тај {0}?",
+      "currentTargetSha256": "a4f9ebb3af89a5365cdc601643ece8d08ed978462437c3849d92551a01c42e2b",
+      "acceptedTarget": "Wifefema: Ко је то код тебе — {0}?",
+      "acceptedTargetSha256": "8aa28955121aeb44a8207c7fb3fc9745dd5f95f5bcd7747dbede85ff6dd93508",
+      "targetFile": "Translations/sr/dialogue-batch-134.json",
+      "objectiveReason": "GetCharacterOnPlace(Wifefema) can select Tough: жена у топу. Added masculine тај yields тај жена. The source Что это за identifies the occupant without male agreement. The replacement uses a neutral question followed by a nominative label.",
+      "consumerExamples": [
+        {
+          "rawLabel": "грбави тип",
+          "assembledTarget": "Wifefema: Ко је то код тебе — грбави тип?"
+        },
+        {
+          "rawLabel": "жена у топу",
+          "assembledTarget": "Wifefema: Ко је то код тебе — жена у топу?"
+        },
+        {
+          "rawLabel": "крупни гремлин",
+          "assembledTarget": "Wifefema: Ко је то код тебе — крупни гремлин?"
+        }
+      ],
+      "adjudication": "accepted complete unit; protected syntax preflight passed"
+    }
+  ]
+}

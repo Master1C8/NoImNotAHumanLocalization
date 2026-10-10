@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457127665669",
+      "source": "Bestson: Однажды в парке на меня похожий мужик напал. Я с того момента в этот парк ни ногой!",
+      "target": "Bestson: Једном ме је у парку напао мушкарац који личи на мене. Од тада нећу ни да привирим у тај парк!",
+      "nodeNames": [
+        "Bestson_Entrance_Occupied"
+      ],
+      "reason": "Russian на меня похожий мужик explicitly permits a man resembling me. The context also permits a similar man referring to the resident, but ambiguity does not establish the existing interpretation is a mistranslation. No objective replacement."
+    },
+    {
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504455550607364",
+      "collection": "Dialogs",
+      "source": "FortuneTeller: Скажи, что от меня. Обязательно!",
+      "target": "FortuneTeller: Реци да долазиш од мене. Обавезно!",
+      "sourceSha256": "6e69d00fc53e2bf2b4e067c6788ce904512fa93ec1cad9ae2b7b459021e34f13",
+      "targetSha256": "936d3d193b643b51a182990d1d5cb1e850509093c06c0c7de90065edd9dc1c4d",
+      "targetFile": "Translations/sr/dialogue-batch-168.json",
+      "key": "line:FortuneTeller_Asking_2_0c83e62",
+      "nodeNames": [
+        "FortuneTeller_Asking_2"
+      ],
+      "components": [
+        "sceneContextIds",
+        "mandatoryRegressionIds"
+      ],
+      "reason": "Phone referral context permits the metaphorical coming from someone formulation. More explicit на моју препоруку would be a preference, not an objective source/target error."
+    }
+  ],
+  "sourceInconsistencies": "Some source dialogue uses male/default referents where same-place data includes women, and Marauder source has feminine эта despite male Bald being a candidate. These source facts remain source facts; only avoidable target grammar/additional gender commitments are proposed as target corrections. Rocker and Foreigner male pronouns were checked against actual all-male supported label candidates, not guessed from a generic roster."
+}

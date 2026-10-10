@@ -1,0 +1,2726 @@
+{
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "bindingsSha256": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+  "nodes": {
+    "Alt_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Alt_Entrance_Bribe_0458411",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347328",
+          "source": "Alt: Я привыкла к такому подходу. И понимаю, куда клонишь.",
+          "target": "Alt: Навикла сам на такав приступ. И разумем на шта циљаш.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Alt_Entrance_Bribe_09f4449",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347329",
+          "source": "Alt: Хорошо. {0} подойдёт?",
+          "target": "Alt: Добро. Да ли ти одговара ово: {0}?",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:Alt_Entrance_Bribe_0cd1c9e",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347330",
+          "source": "Alt: Теперь мы договорились?",
+          "target": "Alt: Јесмо ли се сад договорили?",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 4,
+          "operands": [
+            "line:Alt_Entrance_Bribe_080c538",
+            "L2864shortcutoption_Alt_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347331",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 11,
+          "opcode": 4,
+          "operands": [
+            "line:Alt_Entrance_Bribe_00c807d",
+            "L2865shortcutoption_Alt_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457509347332",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 12,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 6,
+          "operands": [
+            "Alt_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 0,
+          "operands": [
+            "L2863group_end"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 6,
+          "operands": [
+            "Alt_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 19,
+          "opcode": 0,
+          "operands": [
+            "L2863group_end"
+          ]
+        },
+        {
+          "index": 20,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 21,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L2862": 0,
+        "L2864shortcutoption_Alt_Entrance_Bribe_1": 14,
+        "L2865shortcutoption_Alt_Entrance_Bribe_2": 17,
+        "L2863group_end": 20
+      }
+    },
+    "Anger_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "Anger"
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Anger_Entrance_Occupied_0ed7227",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637194",
+          "source": "Anger: У тебя тут {0}?",
+          "target": "Anger: Код тебе… {0}?",
+          "inDelta": true
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Anger_Entrance_Occupied_018aa8b",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457148637195",
+          "source": "Anger: Не, с таким уёбищем не буду под одной крышей. Тут я уже не сдержусь.",
+          "target": "Anger: Не, с таквим гадом нећу под исти кров. Ту већ нећу моћи да се обуздам.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "operands": [
+            "line:Anger_Entrance_Occupied_0367b5b",
+            "L668shortcutoption_Anger_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079556",
+          "source": "Я разберусь. Заходи",
+          "target": "Решићу то. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Anger_Entrance_Occupied_052ae53",
+            "L669shortcutoption_Anger_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504456381079557",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "Anger_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L667group_end"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Anger_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L667group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L666": 0,
+        "L668shortcutoption_Anger_Entrance_Occupied_1": 9,
+        "L669shortcutoption_Anger_Entrance_Occupied_2": 12,
+        "L667group_end": 15
+      }
+    },
+    "Ballerina_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "Ballerina"
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Ballerina_Entrance_Occupied_0a88b7b",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442885",
+          "source": "Ballerina: У тебя есть {0}?",
+          "target": "Ballerina: Да ли је {0} код тебе?",
+          "inDelta": true
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Ballerina_Entrance_Occupied_0df7f54",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442886",
+          "source": "Ballerina: Эээ, мне сказали, что тут таких быть не должно. Давай, выгоняй.",
+          "target": "Ballerina: Еее, рекли су ми да овде не сме да буде таквих. Хајде, истерај ту особу.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "operands": [
+            "line:Ballerina_Entrance_Occupied_0d0183c",
+            "L583shortcutoption_Ballerina_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442887",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Ballerina_Entrance_Occupied_097a8c1",
+            "L584shortcutoption_Ballerina_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457144442888",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "Ballerina_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L582group_end"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Ballerina_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L582group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L581": 0,
+        "L583shortcutoption_Ballerina_Entrance_Occupied_1": 9,
+        "L584shortcutoption_Ballerina_Entrance_Occupied_2": 12,
+        "L582group_end": 15
+      }
+    },
+    "Blind_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Blind_Entrance_Bribe_0f5bdb1",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134656",
+          "source": "Blind: Я… у меня что-то было при себе. Подожди, пожалуйста…",
+          "target": "Blind: Ја… имао сам нешто код себе. Сачекај, молим те…",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Blind_Entrance_Bribe_038e372",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134657",
+          "source": "Blind: Кажется, это {0}. Можешь взять. Мне нужен хотя бы день, чтобы перевести дух. Но… какое там…",
+          "target": "Blind: Чини ми се… {0}. Можеш да узмеш. Треба ми бар један дан да дођем до даха. Али… ма какви…",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 4,
+          "operands": [
+            "line:Blind_Entrance_Bribe_0db394a",
+            "L409shortcutoption_Blind_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134658",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 4,
+          "operands": [
+            "line:Blind_Entrance_Bribe_0c3afb9",
+            "L410shortcutoption_Blind_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134659",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 11,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 6,
+          "operands": [
+            "Blind_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 0,
+          "operands": [
+            "L408group_end"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 6,
+          "operands": [
+            "Blind_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 18,
+          "opcode": 0,
+          "operands": [
+            "L408group_end"
+          ]
+        },
+        {
+          "index": 19,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 20,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L407": 0,
+        "L409shortcutoption_Blind_Entrance_Bribe_1": 13,
+        "L410shortcutoption_Blind_Entrance_Bribe_2": 16,
+        "L408group_end": 19
+      }
+    },
+    "Day1_Wifefema_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_01faa9c",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551753",
+          "source": "Wifefema: Слушай, нюх у меня что надо. Ловко вычисляю и людей, и Гостей.",
+          "target": "Wifefema: Слушај, њух ми је одличан. Лако намиришем и људе и Госте.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_05364ea",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457211551754",
+          "source": "Wifefema: Давай по-простому: {0} — аванс тебе, а ты меня погреться пустишь, хех.",
+          "target": "Wifefema: Да поједноставимо: {0} — аванс за тебе, а ти ме пустиш унутра да се угрејем, хех.",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_0f84bb4",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746048",
+          "source": "Wifefema: Не захочешь?  Одно слово муженьку, и завтра люди в жёлтых комбинезонах устроят внеплановый рейдик: бумажки, собачки, да так хоть каждое утро.",
+          "target": "Wifefema: Нећеш? Једна реч мом мужићу и сутра ће ти људи у жутим комбинезонима приредити ванредни претрес: папири, пси, па тако ако треба сваког јутра.",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 2,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_092636d",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746049",
+          "source": "Wifefema: Подумай, что дешевле.",
+          "target": "Wifefema: Размисли шта ти је јефтиније.",
+          "inDelta": true
+        },
+        {
+          "index": 11,
+          "opcode": 4,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_098bd3d",
+            "L104shortcutoption_Day1_Wifefema_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746050",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 12,
+          "opcode": 4,
+          "operands": [
+            "line:Day1_Wifefema_Bribe_0860cbd",
+            "L105shortcutoption_Day1_Wifefema_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457215746051",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 13,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 6,
+          "operands": [
+            "Day1_Wifefema_AcceptBribe"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 17,
+          "opcode": 0,
+          "operands": [
+            "L103group_end"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 6,
+          "operands": [
+            "Wifefema_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 19,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 20,
+          "opcode": 0,
+          "operands": [
+            "L103group_end"
+          ]
+        },
+        {
+          "index": 21,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 22,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L102": 0,
+        "L104shortcutoption_Day1_Wifefema_Bribe_1": 15,
+        "L105shortcutoption_Day1_Wifefema_Bribe_2": 18,
+        "L103group_end": 21
+      }
+    },
+    "Hunter_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "Hunter"
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Hunter_Entrance_Occupied_0c765b9",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+          "source": "Hunter: У тебя тут уже {0}.",
+          "target": "Hunter: Код тебе је већ {0}.",
+          "inDelta": true
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Hunter_Entrance_Occupied_026bbc3",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608705",
+          "source": "Hunter: Чувствую кровь на руках этого человека. Не знаю, зачем ты его впустил к себе. Может, тебе нравится щекотать себе нервы?..",
+          "target": "Hunter: Осећам крв на рукама тог човека. Не знам зашто си га пустио код себе. Можда волиш да голицаш живце?..",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "operands": [
+            "line:Hunter_Entrance_Occupied_05c21ae",
+            "L1118shortcutoption_Hunter_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608706",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Hunter_Entrance_Occupied_023a69e",
+            "L1119shortcutoption_Hunter_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608707",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "Hunter_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L1117group_end"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Hunter_Entrance_NoLet"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L1117group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L1116": 0,
+        "L1118shortcutoption_Hunter_Entrance_Occupied_1": 9,
+        "L1119shortcutoption_Hunter_Entrance_Occupied_2": 12,
+        "L1117group_end": 15
+      }
+    },
+    "Jacket_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_Bribe_072e217",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129607",
+          "source": "Jacket: Нет, пожалуйста, позвольте мне войти.",
+          "target": "Jacket: Не, молим вас, пустите ме унутра.",
+          "inDelta": true
+        },
+        {
+          "index": 2,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_Bribe_0db6598",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129608",
+          "source": "Jacket: Я не хочу нарваться на патруль или того хуже – на Гостей.",
+          "target": "Jacket: Не желим да налетим на патролу или, још горе, на Госте.",
+          "inDelta": true
+        },
+        {
+          "index": 3,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_Bribe_045fb4f",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129609",
+          "source": "Jacket: Если надо, у меня есть {0}. Вас это устроит?",
+          "target": "Jacket: Ако треба, ево шта имам: {0}. Да ли вам то одговара?",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 4,
+          "operands": [
+            "line:Jacket_Entrance_Bribe_02f4f43",
+            "L2577shortcutoption_Jacket_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129610",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 4,
+          "operands": [
+            "line:Jacket_Entrance_Bribe_0a164a9",
+            "L2578shortcutoption_Jacket_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129611",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Jacket_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L2576group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 6,
+          "operands": [
+            "Jacket_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 17,
+          "opcode": 0,
+          "operands": [
+            "L2576group_end"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 19,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L2575": 0,
+        "L2577shortcutoption_Jacket_Entrance_Bribe_1": 12,
+        "L2578shortcutoption_Jacket_Entrance_Bribe_2": 15,
+        "L2576group_end": 18
+      }
+    },
+    "Jacket_Entrance_Occupied_YesLet": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Happy",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 8,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$acceptedBribe"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_Occupied_YesLet_03b51d2",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323907",
+          "source": "Jacket: Спасибо вам огромное.",
+          "target": "Jacket: Хвала вам од срца.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_Occupied_YesLet_00e8dfe",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457379323908",
+          "source": "Jacket: Вот, у меня есть {0}. Это немного, но, надеюсь, вам пригодится.",
+          "target": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 3,
+          "operands": [
+            "AggressiveLetIn Jacket",
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 13,
+          "operands": [
+            "$acceptedBribe"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 10,
+          "operands": [
+            "L2574skipclause"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Jacket_Entrance_BribeResult"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L2573endif"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L2572": 0,
+        "L2574skipclause": 15,
+        "L2573endif": 16
+      }
+    },
+    "Jacket_Entrance_YesLet": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Happy",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 8,
+          "operands": [
+            1
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$acceptedBribe"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_YesLet_07e43d7",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129605",
+          "source": "Jacket: Спасибо вам огромное.",
+          "target": "Jacket: Хвала вам од срца.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Jacket_Entrance_YesLet_0e9da2d",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457375129606",
+          "source": "Jacket: Вот, есть {0}. Это немного, но, надеюсь, вам пригодится.",
+          "target": "Jacket: Ево шта имам: {0}. Није много, али надам се да ће вам користити.",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 3,
+          "operands": [
+            "LetIn Jacket",
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 13,
+          "operands": [
+            "$acceptedBribe"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 10,
+          "operands": [
+            "L2563skipclause"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Jacket_Entrance_BribeResult"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L2562endif"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L2561": 0,
+        "L2563skipclause": 15,
+        "L2562endif": 16
+      }
+    },
+    "Marauder_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Marauder_Entrance_Bribe_0bd3e55",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106186",
+          "source": "Marauder: Ой, да не гони сразу… Дай-ка пороюсь в мешке.",
+          "target": "Marauder: Јој, немој одмах да ме тераш… Дај да претражим торбу.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:Marauder_Entrance_Bribe_0fb9222",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300480",
+          "source": "Marauder: Так, ножичек самому нужен, бинты тоже пригодятся… М-м, вот ещё старая фляга, но без воды толку мало…",
+          "target": "Marauder: Тако, ножић ми треба, завоји ће такође користити… М-м, ево и старе чутуре, али без воде не вреди много…",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 8,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:Marauder_Entrance_Bribe_0bd7240",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300481",
+          "source": "Marauder: А! Нашёл – {0}. Забирай, хозяин, только дай до утра перекантоваться.",
+          "target": "Marauder: А! Нашао сам нешто: {0}. Узми, домаћине, само ми дај да преноћим.",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 4,
+          "operands": [
+            "line:Marauder_Entrance_Bribe_063ab77",
+            "L1857shortcutoption_Marauder_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300482",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 11,
+          "opcode": 4,
+          "operands": [
+            "line:Marauder_Entrance_Bribe_0cdaf32",
+            "L1858shortcutoption_Marauder_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457249300483",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 12,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 6,
+          "operands": [
+            "Marauder_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 0,
+          "operands": [
+            "L1856group_end"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 6,
+          "operands": [
+            "Marauder_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 19,
+          "opcode": 0,
+          "operands": [
+            "L1856group_end"
+          ]
+        },
+        {
+          "index": 20,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 21,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L1855": 0,
+        "L1857shortcutoption_Marauder_Entrance_Bribe_1": 14,
+        "L1858shortcutoption_Marauder_Entrance_Bribe_2": 17,
+        "L1856group_end": 20
+      }
+    },
+    "Marauder_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Marauder_Entrance_Occupied_01c6521",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968841",
+          "source": "Ой, а у тебя тут уже уютный уголок занят.",
+          "target": "Јој, код тебе је удобан кутак већ заузет.",
+          "inDelta": true
+        },
+        {
+          "index": 1,
+          "opcode": 6,
+          "operands": [
+            "Marauder"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Marauder_Entrance_Occupied_04aa8be",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457198968842",
+          "source": "Кем? Да вон, смотри, эта {0}.",
+          "target": "Киме? Па ево, погледај — {0}.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "operands": [
+            "line:Marauder_Entrance_Occupied_0c5da17",
+            "L1845shortcutoption_Marauder_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457203163136",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Marauder_Entrance_Occupied_0ce7eec",
+            "L1846shortcutoption_Marauder_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457203163137",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "Marauder_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L1844group_end"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Marauder_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L1844group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L1843": 0,
+        "L1845shortcutoption_Marauder_Entrance_Occupied_1": 9,
+        "L1846shortcutoption_Marauder_Entrance_Occupied_2": 12,
+        "L1844group_end": 15
+      }
+    },
+    "NotTrue_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Sad",
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 6,
+          "operands": [
+            "NotTrue"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:NotTrue_Entrance_Occupied_028412a",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385920",
+          "source": "NotTrue: Ой, батюшки! Да у тебя тут в кресле уже {0}.",
+          "target": "NotTrue: Јаој, боже мили! Па фотеља ти је већ заузета — {0}.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:NotTrue_Entrance_Occupied_024bf21",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385921",
+          "source": "NotTrue: С такими людьми будет тяжко-тяженько…",
+          "target": "NotTrue: С таквим људима биће тешко, тешкице…",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "operands": [
+            "line:NotTrue_Entrance_Occupied_0c7c972",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385922",
+          "source": "NotTrue: Я бы, наверное, присела тут перед домом, чуть передохнула, а потом и дальше пошла бы, коли у тебя такие гости.",
+          "target": "NotTrue: Ваљда ћу сести овде испред куће, мало предахнути, па онда поћи даље кад су ти већ такви гости.",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 4,
+          "operands": [
+            "line:NotTrue_Entrance_Occupied_0d020ae",
+            "L1545shortcutoption_NotTrue_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385923",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 4,
+          "operands": [
+            "line:NotTrue_Entrance_Occupied_021731c",
+            "L1546shortcutoption_NotTrue_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457186385924",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 10,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 6,
+          "operands": [
+            "NotTrue_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 0,
+          "operands": [
+            "L1544group_end"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 6,
+          "operands": [
+            "NotTrue_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 0,
+          "operands": [
+            "L1544group_end"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 18,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L1543": 0,
+        "L1545shortcutoption_NotTrue_Entrance_Occupied_1": 11,
+        "L1546shortcutoption_NotTrue_Entrance_Occupied_2": 14,
+        "L1544group_end": 17
+      }
+    },
+    "Nun_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "Nun"
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Nun_Entrance_Occupied_08f7764",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277062",
+          "source": "Nun: Так, кто это тут у вас — {0}.",
+          "target": "Nun: Да видимо ко вам је овде — {0}.",
+          "inDelta": true
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Nun_Entrance_Occupied_0b1963d",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277063",
+          "source": "Nun: Да для отмаливания их грехов ни одной жизни не хватит! Побоялись бы Бога с такими водиться!",
+          "target": "Nun: Ни цео живот не би био довољан да се окају њихови греси! Побојте се Бога кад се с таквима дружите!",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:Nun_Entrance_Occupied_0bc4fcc",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277064",
+          "source": "Nun: Изгоняйте их яки демонов, и будет вам благодать!",
+          "target": "Nun: Истерајте их као демоне, па ће вас пратити Божја милост!",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Nun_Entrance_Occupied_0c6b1b6",
+            "L175shortcutoption_Nun_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277065",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 4,
+          "operands": [
+            "line:Nun_Entrance_Occupied_069c059",
+            "L176shortcutoption_Nun_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457119277066",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 10,
+          "opcode": 6,
+          "operands": [
+            "Nun_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 12,
+          "opcode": 0,
+          "operands": [
+            "L174group_end"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 6,
+          "operands": [
+            "Nun_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 15,
+          "opcode": 0,
+          "operands": [
+            "L174group_end"
+          ]
+        },
+        {
+          "index": 16,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 17,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L173": 0,
+        "L175shortcutoption_Nun_Entrance_Occupied_1": 10,
+        "L176shortcutoption_Nun_Entrance_Occupied_2": 13,
+        "L174group_end": 16
+      }
+    },
+    "Unstable_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Base",
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_0ad9aa9",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380866",
+          "source": "Unstable: Облом. Погоди, у меня тут всякое есть.",
+          "target": "Unstable: Штета. Чекај, имам ја свашта овде.",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_0d4ca7f",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380867",
+          "source": "Unstable: Энержеку возьмёшь? Хотя у меня ж не только Энержека!",
+          "target": "Unstable: Хоћеш Енержеку? Мада немам само Енержеку!",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_0642582",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380868",
+          "source": "Unstable: Или… подожди.",
+          "target": "Unstable: Или… чекај.",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 3,
+          "operands": [
+            "SetEmotion Unstable_1",
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 11,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 2,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_0a6a080",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380869",
+          "source": "Unstable: Короче, есть {0}. Будешь?",
+          "target": "Unstable: Укратко, ево шта имам: {0}. Хоћеш?",
+          "inDelta": true
+        },
+        {
+          "index": 13,
+          "opcode": 4,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_02b2967",
+            "L2468shortcutoption_Unstable_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380870",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 14,
+          "opcode": 4,
+          "operands": [
+            "line:Unstable_Entrance_Bribe_0a3eec2",
+            "L2469shortcutoption_Unstable_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457337380871",
+          "source": "Взяток не беру",
+          "target": "Не примам мито",
+          "inDelta": true
+        },
+        {
+          "index": 15,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 17,
+          "opcode": 6,
+          "operands": [
+            "Unstable_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 19,
+          "opcode": 0,
+          "operands": [
+            "L2467group_end"
+          ]
+        },
+        {
+          "index": 20,
+          "opcode": 6,
+          "operands": [
+            "Unstable_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 21,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 22,
+          "opcode": 0,
+          "operands": [
+            "L2467group_end"
+          ]
+        },
+        {
+          "index": 23,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 24,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L2466": 0,
+        "L2468shortcutoption_Unstable_Entrance_Bribe_1": 17,
+        "L2469shortcutoption_Unstable_Entrance_Bribe_2": 20,
+        "L2467group_end": 23
+      }
+    },
+    "Wheelchair_Entrance_Bribe": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 7,
+          "operands": [
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 12,
+          "operands": [
+            "PeekDeficitItem"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 14,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 4,
+          "opcode": 13,
+          "operands": [
+            "$deficitItem"
+          ]
+        },
+        {
+          "index": 5,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 6,
+          "opcode": 12,
+          "operands": [
+            "LocalizeItem"
+          ]
+        },
+        {
+          "index": 7,
+          "opcode": 2,
+          "operands": [
+            "line:Wheelchair_Entrance_Bribe_0ca4c5b",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134665",
+          "source": "Wheelchair: Не пускаешь? Щас исправим! Вот {0}, берёшь, машешь этим у входа и — хоп! — ты невидимый.",
+          "target": "Wheelchair: Не пушташ ме? Сад ћемо то средити! Ево шта имам: {0}, узмеш, машеш тиме на улазу и — хоп! — невидљив си.",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 2,
+          "operands": [
+            "line:Wheelchair_Entrance_Bribe_0a8fcff",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457224134666",
+          "source": "Wheelchair: Сработает сто пудов!",
+          "target": "Wheelchair: Упалиће сигурно!",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 2,
+          "operands": [
+            "line:Wheelchair_Entrance_Bribe_0e6539e",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328960",
+          "source": "Wheelchair: Вон, мои ноги – ходячий пруф! Видишь, нифига их нет, ха?",
+          "target": "Wheelchair: Ено, моје ноге су ходајући доказ! Видиш да их јебено нема, а?",
+          "inDelta": true
+        },
+        {
+          "index": 10,
+          "opcode": 4,
+          "operands": [
+            "line:Wheelchair_Entrance_Bribe_08e89c1",
+            "L530shortcutoption_Wheelchair_Entrance_Bribe_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328961",
+          "source": "Ладно, заходи",
+          "target": "У реду, уђи",
+          "inDelta": true
+        },
+        {
+          "index": 11,
+          "opcode": 4,
+          "operands": [
+            "line:Wheelchair_Entrance_Bribe_09d712a",
+            "L531shortcutoption_Wheelchair_Entrance_Bribe_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457228328962",
+          "source": "Тебе лучше уйти",
+          "target": "Боље да одеш",
+          "inDelta": true
+        },
+        {
+          "index": 12,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 6,
+          "operands": [
+            "Wheelchair_Entrance_AcceptBribe"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 0,
+          "operands": [
+            "L529group_end"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 6,
+          "operands": [
+            "Wheelchair_Entrance_FullRefuse"
+          ]
+        },
+        {
+          "index": 18,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 19,
+          "opcode": 0,
+          "operands": [
+            "L529group_end"
+          ]
+        },
+        {
+          "index": 20,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 21,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L528": 0,
+        "L530shortcutoption_Wheelchair_Entrance_Bribe_1": 14,
+        "L531shortcutoption_Wheelchair_Entrance_Bribe_2": 17,
+        "L529group_end": 20
+      }
+    },
+    "Wifefema_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 2,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_04d7d4d",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888457",
+          "source": "Wifefema: …",
+          "target": "Wifefema: …",
+          "inDelta": true
+        },
+        {
+          "index": 1,
+          "opcode": 6,
+          "operands": [
+            "Wifefema"
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_0662e7d",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888458",
+          "source": "Wifefema: Что это за {0}?",
+          "target": "Wifefema: Ко је то код тебе — {0}?",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 2,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_0701451",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457110888459",
+          "source": "Wifefema: Знаешь, я таких в своей жизни повидала много. Не знаю, зачем ты его впустил. Но такие мужики всегда принесут проблемы.",
+          "target": "Wifefema: Знаш, нагледала сам се таквих у животу. Не знам зашто си га пустио унутра. Такви мушкарци увек доносе проблеме.",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 2,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_0e0fee2",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082752",
+          "source": "Wifefema: Гони его в шею, пока не поздно!",
+          "target": "Wifefema: Истерај га напоље док није касно!",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 4,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_0578366",
+            "L92shortcutoption_Wifefema_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082753",
+          "source": "Я прогоню жильца. Заходи",
+          "target": "Отераћу станара. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 8,
+          "opcode": 4,
+          "operands": [
+            "line:Wifefema_Entrance_Occupied_038b96f",
+            "L93shortcutoption_Wifefema_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457115082754",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 9,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 10,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 6,
+          "operands": [
+            "Wifefema_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 13,
+          "opcode": 0,
+          "operands": [
+            "L91group_end"
+          ]
+        },
+        {
+          "index": 14,
+          "opcode": 6,
+          "operands": [
+            "Wifefema_Entrance_Occupied_NoLet"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 0,
+          "operands": [
+            "L91group_end"
+          ]
+        },
+        {
+          "index": 17,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 18,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L90": 0,
+        "L92shortcutoption_Wifefema_Entrance_Occupied_1": 11,
+        "L93shortcutoption_Wifefema_Entrance_Occupied_2": 14,
+        "L91group_end": 17
+      }
+    },
+    "Wolfhound_Entrance_Occupied": {
+      "instructions": [
+        {
+          "index": 0,
+          "opcode": 6,
+          "operands": [
+            "WolfHound"
+          ]
+        },
+        {
+          "index": 1,
+          "opcode": 7,
+          "operands": [
+            1.0
+          ]
+        },
+        {
+          "index": 2,
+          "opcode": 12,
+          "operands": [
+            "GetCharacterOnPlace"
+          ]
+        },
+        {
+          "index": 3,
+          "opcode": 2,
+          "operands": [
+            "line:Wolfhound_Entrance_Occupied_0b92df6",
+            1.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106180",
+          "source": "Wolfhound: У тебя {0} уже греет очаг? Сразу вижу, что это волчица в овечьей шкуре.",
+          "target": "Wolfhound: Код тебе {0} већ греје огњиште? Одмах видим да је то вучица у овчијој кожи.",
+          "inDelta": true
+        },
+        {
+          "index": 4,
+          "opcode": 2,
+          "operands": [
+            "line:Wolfhound_Entrance_Occupied_0a2edb5",
+            0.0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106181",
+          "source": "Wolfhound: Гони её к херам, если хочешь оставить дом за собой.",
+          "target": "Wolfhound: Отерај је дођавола ако хоћеш да задржиш кућу.",
+          "inDelta": true
+        },
+        {
+          "index": 5,
+          "opcode": 4,
+          "operands": [
+            "line:Wolfhound_Entrance_Occupied_0dfb502",
+            "L1642shortcutoption_Wolfhound_Entrance_Occupied_1",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106182",
+          "source": "Я разберусь. Заходи",
+          "target": "Решићу то. Уђи",
+          "inDelta": true
+        },
+        {
+          "index": 6,
+          "opcode": 4,
+          "operands": [
+            "line:Wolfhound_Entrance_Occupied_06d1d98",
+            "L1643shortcutoption_Wolfhound_Entrance_Occupied_2",
+            0.0,
+            0
+          ],
+          "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457245106183",
+          "source": "Лучше уйди",
+          "target": "Боље иди",
+          "inDelta": true
+        },
+        {
+          "index": 7,
+          "opcode": 5,
+          "operands": []
+        },
+        {
+          "index": 8,
+          "opcode": 1,
+          "operands": []
+        },
+        {
+          "index": 9,
+          "opcode": 6,
+          "operands": [
+            "Wolfhound_Entrance_Occupied_YesLet"
+          ]
+        },
+        {
+          "index": 10,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 11,
+          "opcode": 0,
+          "operands": [
+            "L1641group_end"
+          ]
+        },
+        {
+          "index": 12,
+          "opcode": 6,
+          "operands": [
+            "Wolfhound_Entrance_NoLet"
+          ]
+        },
+        {
+          "index": 13,
+          "opcode": 16,
+          "operands": []
+        },
+        {
+          "index": 14,
+          "opcode": 0,
+          "operands": [
+            "L1641group_end"
+          ]
+        },
+        {
+          "index": 15,
+          "opcode": 11,
+          "operands": []
+        },
+        {
+          "index": 16,
+          "opcode": 15,
+          "operands": []
+        }
+      ],
+      "labels": {
+        "L1640": 0,
+        "L1642shortcutoption_Wolfhound_Entrance_Occupied_1": 9,
+        "L1643shortcutoption_Wolfhound_Entrance_Occupied_2": 12,
+        "L1641group_end": 15
+      }
+    }
+  },
+  "scope": "Independently decoded serialized topology; exact prior topology reused only after equality checks; current targets bound by stable ID. No execution."
+}

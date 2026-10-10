@@ -1,0 +1,2876 @@
+{
+  "sourceDll": "/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Assembly-CSharp.dll",
+  "sourceDllSha256": "c674f171c61b644e6e746e0ced079ffa365abee2336d04ea9e67cbbc93e88213",
+  "enums": {
+    "EConsumable": {
+      "0": "Bobeer",
+      "1": "Cigarette",
+      "2": "Coffee",
+      "3": "Enerjeka",
+      "4": "Pills",
+      "5": "Mushroom",
+      "6": "CatFood",
+      "7": "Povistka",
+      "8": "Kombucha",
+      "9": "Photo",
+      "100": "Cockroach"
+    },
+    "ECharacterType": {
+      "0": "Sanya",
+      "1": "TV",
+      "2": "Courier",
+      "3": "Neighbour",
+      "4": "Esenin",
+      "5": "Anxiety",
+      "6": "Daughter",
+      "7": "Cold",
+      "8": "Fan",
+      "9": "Prophet",
+      "10": "SuperFake",
+      "11": "Widow",
+      "12": "Scammer",
+      "13": "Doc",
+      "14": "Gasmask",
+      "15": "WolfHound",
+      "16": "Hunter",
+      "17": "NotTrue",
+      "18": "Greatmother",
+      "19": "Sexy",
+      "20": "Phone",
+      "21": "Anger",
+      "22": "Luka",
+      "23": "FormerFema",
+      "24": "Foreigner",
+      "25": "Alkonost",
+      "26": "Blind",
+      "27": "Marauder",
+      "28": "Nun",
+      "29": "TaxiDriver",
+      "30": "Firefighter",
+      "31": "Fugitive",
+      "32": "Teacher",
+      "33": "Edgar",
+      "34": "Raskolnikov",
+      "35": "GraveDigger",
+      "36": "Provocateur",
+      "37": "Mother",
+      "38": "Wifefema",
+      "39": "Vigilante",
+      "40": "Theorist",
+      "41": "Buddy",
+      "42": "FortuneTeller",
+      "43": "Dude",
+      "44": "Bestson",
+      "45": "BigLebowski",
+      "46": "Couple",
+      "47": "Fatman",
+      "48": "Wheelchair",
+      "49": "CultistOne",
+      "50": "CultistTwo",
+      "51": "CultistThree",
+      "52": "CultistPriest",
+      "53": "Ballerina",
+      "54": "Intruder",
+      "55": "MushroomEater",
+      "56": "Miner",
+      "57": "Sirin",
+      "58": "Empty",
+      "59": "Twins",
+      "60": "Player",
+      "61": "Jacob",
+      "62": "StaticBoy",
+      "63": "Tourist",
+      "64": "Unstable",
+      "65": "Rocker",
+      "66": "Experienced",
+      "67": "Jacket",
+      "68": "Tough",
+      "69": "Bald",
+      "70": "Nervous",
+      "71": "Leper",
+      "72": "Fairytaller",
+      "73": "FunnyGuy",
+      "74": "Alt"
+    }
+  },
+  "methods": {
+    "ConsumablesController.GetDeficitItem": {
+      "rva": 184908,
+      "bodySha256": "a382cfe7c631e7f580c1752d7e98a6a6fa6c4e2381164f0d21c0d70818f33851",
+      "literalStrings": [],
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 13,
+          "opcode": "ldfld",
+          "operand": "token(0x04000C2D)"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "token(0x060009D0)"
+        },
+        {
+          "offset": 23,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 24,
+          "opcode": "ldftn",
+          "operand": "token(0x06000D06)"
+        },
+        {
+          "offset": 30,
+          "opcode": "newobj",
+          "operand": "token(0x0A00052B)"
+        },
+        {
+          "offset": 35,
+          "opcode": "call",
+          "operand": "token(0x2B00022D)"
+        },
+        {
+          "offset": 40,
+          "opcode": "ldsfld",
+          "operand": "token(0x04000C33)"
+        },
+        {
+          "offset": 45,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 46,
+          "opcode": "brtrue.s",
+          "operand": "71"
+        },
+        {
+          "offset": 48,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 49,
+          "opcode": "ldsfld",
+          "operand": "token(0x04000C32)"
+        },
+        {
+          "offset": 54,
+          "opcode": "ldftn",
+          "operand": "token(0x06000D09)"
+        },
+        {
+          "offset": 60,
+          "opcode": "newobj",
+          "operand": "token(0x0A00052C)"
+        },
+        {
+          "offset": 65,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 66,
+          "opcode": "stsfld",
+          "operand": "token(0x04000C33)"
+        },
+        {
+          "offset": 71,
+          "opcode": "call",
+          "operand": "token(0x2B00022E)"
+        },
+        {
+          "offset": 76,
+          "opcode": "call",
+          "operand": "token(0x2B00022F)"
+        },
+        {
+          "offset": 81,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    "DialogCommandsInstance.GetCourierOrder": {
+      "rva": 285104,
+      "bodySha256": "539f66f9e8ad309509e315d403b3586103a69b627dcf4e80dd5861ffd7f41066",
+      "literalStrings": [
+        "consumable_",
+        "_name",
+        "UI",
+        " (x{0})"
+      ],
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "ldsfld",
+          "operand": "token(0x040012A9)"
+        },
+        {
+          "offset": 17,
+          "opcode": "ldfld",
+          "operand": "token(0x040012D8)"
+        },
+        {
+          "offset": 22,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 23,
+          "opcode": "brtrue.s",
+          "operand": "29"
+        },
+        {
+          "offset": 25,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 26,
+          "opcode": "ldnull",
+          "operand": "None"
+        },
+        {
+          "offset": 27,
+          "opcode": "br.s",
+          "operand": "34"
+        },
+        {
+          "offset": 29,
+          "opcode": "callvirt",
+          "operand": "token(0x0A0006D9)"
+        },
+        {
+          "offset": 34,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 35,
+          "opcode": "brtrue.s",
+          "operand": "45"
+        },
+        {
+          "offset": 37,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 38,
+          "opcode": "ldc.i4.0",
+          "operand": "None"
+        },
+        {
+          "offset": 39,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 40,
+          "opcode": "newobj",
+          "operand": "token(0x0600122A)"
+        },
+        {
+          "offset": 45,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 46,
+          "opcode": "ldstr",
+          "operand": "consumable_"
+        },
+        {
+          "offset": 51,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 52,
+          "opcode": "callvirt",
+          "operand": "token(0x06001226)"
+        },
+        {
+          "offset": 57,
+          "opcode": "stloc.1",
+          "operand": "None"
+        },
+        {
+          "offset": 58,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 60,
+          "opcode": "constrained.",
+          "operand": "token(0x02000259)"
+        },
+        {
+          "offset": 66,
+          "opcode": "callvirt",
+          "operand": "token(0x0A00009A)"
+        },
+        {
+          "offset": 71,
+          "opcode": "callvirt",
+          "operand": "token(0x0A0001BF)"
+        },
+        {
+          "offset": 76,
+          "opcode": "ldstr",
+          "operand": "_name"
+        },
+        {
+          "offset": 81,
+          "opcode": "call",
+          "operand": "token(0x0A00006C)"
+        },
+        {
+          "offset": 86,
+          "opcode": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 91,
+          "opcode": "call",
+          "operand": "token(0x2B0000A3)"
+        },
+        {
+          "offset": 96,
+          "opcode": "call",
+          "operand": "token(0x06000511)"
+        },
+        {
+          "offset": 101,
+          "opcode": "ldstr",
+          "operand": " (x{0})"
+        },
+        {
+          "offset": 106,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 107,
+          "opcode": "callvirt",
+          "operand": "token(0x06001228)"
+        },
+        {
+          "offset": 112,
+          "opcode": "box",
+          "operand": "token(0x010000CD)"
+        },
+        {
+          "offset": 117,
+          "opcode": "call",
+          "operand": "token(0x0A0000A4)"
+        },
+        {
+          "offset": 122,
+          "opcode": "call",
+          "operand": "token(0x0A00009B)"
+        },
+        {
+          "offset": 127,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    "DialogCommandsInstance.GetCharacterOnPlace": {
+      "rva": 285340,
+      "bodySha256": "3478a8bdb6bd9e480a40e2577778931b3ff4f33fbdfdf886828a96b83785a08f",
+      "literalStrings": [
+        "characterName_",
+        "UI"
+      ],
+      "instructions": [
+        {
+          "offset": 12,
+          "opcode": "newobj",
+          "operand": "token(0x0600156C)"
+        },
+        {
+          "offset": 17,
+          "opcode": "stloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 18,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 19,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 20,
+          "opcode": "ldc.i4.1",
+          "operand": "None"
+        },
+        {
+          "offset": 21,
+          "opcode": "call",
+          "operand": "token(0x2B00030A)"
+        },
+        {
+          "offset": 26,
+          "opcode": "stfld",
+          "operand": "token(0x040012F0)"
+        },
+        {
+          "offset": 31,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 32,
+          "opcode": "ldsfld",
+          "operand": "token(0x040012A9)"
+        },
+        {
+          "offset": 37,
+          "opcode": "ldfld",
+          "operand": "token(0x040012A7)"
+        },
+        {
+          "offset": 42,
+          "opcode": "callvirt",
+          "operand": "token(0x060006CB)"
+        },
+        {
+          "offset": 47,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 48,
+          "opcode": "ldftn",
+          "operand": "token(0x0600156D)"
+        },
+        {
+          "offset": 54,
+          "opcode": "newobj",
+          "operand": "token(0x0A000453)"
+        },
+        {
+          "offset": 59,
+          "opcode": "call",
+          "operand": "token(0x2B000191)"
+        },
+        {
+          "offset": 64,
+          "opcode": "stfld",
+          "operand": "token(0x040012F1)"
+        },
+        {
+          "offset": 69,
+          "opcode": "ldstr",
+          "operand": "characterName_"
+        },
+        {
+          "offset": 74,
+          "opcode": "ldsfld",
+          "operand": "token(0x040012A9)"
+        },
+        {
+          "offset": 79,
+          "opcode": "ldfld",
+          "operand": "token(0x040012A6)"
+        },
+        {
+          "offset": 84,
+          "opcode": "callvirt",
+          "operand": "token(0x06001643)"
+        },
+        {
+          "offset": 89,
+          "opcode": "ldloc.0",
+          "operand": "None"
+        },
+        {
+          "offset": 90,
+          "opcode": "ldftn",
+          "operand": "token(0x0600156E)"
+        },
+        {
+          "offset": 96,
+          "opcode": "newobj",
+          "operand": "token(0x0A0004AC)"
+        },
+        {
+          "offset": 101,
+          "opcode": "call",
+          "operand": "token(0x2B00030B)"
+        },
+        {
+          "offset": 106,
+          "opcode": "stloc.1",
+          "operand": "None"
+        },
+        {
+          "offset": 107,
+          "opcode": "ldloca.s",
+          "operand": "local(0x0001)"
+        },
+        {
+          "offset": 109,
+          "opcode": "constrained.",
+          "operand": "token(0x0200037F)"
+        },
+        {
+          "offset": 115,
+          "opcode": "callvirt",
+          "operand": "token(0x0A00009A)"
+        },
+        {
+          "offset": 120,
+          "opcode": "call",
+          "operand": "token(0x0A00009B)"
+        },
+        {
+          "offset": 125,
+          "opcode": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 130,
+          "opcode": "call",
+          "operand": "token(0x2B0000A3)"
+        },
+        {
+          "offset": 135,
+          "opcode": "call",
+          "operand": "token(0x06000511)"
+        },
+        {
+          "offset": 140,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    "DialogCommandsInstance.PeekDeficitItem": {
+      "rva": 285527,
+      "bodySha256": "1138c83e852b37fb831564f8814ecd2f575756a80010f3c8b11b067d08eb95aa",
+      "literalStrings": [
+        ""
+      ],
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldsfld",
+          "operand": "token(0x040012A9)"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldfld",
+          "operand": "token(0x040012DD)"
+        },
+        {
+          "offset": 11,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 12,
+          "opcode": "brtrue.s",
+          "operand": "18"
+        },
+        {
+          "offset": 14,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 15,
+          "opcode": "ldnull",
+          "operand": "None"
+        },
+        {
+          "offset": 16,
+          "opcode": "br.s",
+          "operand": "23"
+        },
+        {
+          "offset": 18,
+          "opcode": "callvirt",
+          "operand": "token(0x0A0006DA)"
+        },
+        {
+          "offset": 23,
+          "opcode": "dup",
+          "operand": "None"
+        },
+        {
+          "offset": 24,
+          "opcode": "brtrue.s",
+          "operand": "32"
+        },
+        {
+          "offset": 26,
+          "opcode": "pop",
+          "operand": "None"
+        },
+        {
+          "offset": 27,
+          "opcode": "ldstr",
+          "operand": ""
+        },
+        {
+          "offset": 32,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    },
+    "DialogCommandsInstance.LocalizeItem": {
+      "rva": 285560,
+      "bodySha256": "6ec294a6763e71a7290c5b6fffba3b75a38c638e98f72d0108130017a9cf6101",
+      "literalStrings": [
+        "consumable_",
+        "_name",
+        "UI"
+      ],
+      "instructions": [
+        {
+          "offset": 1,
+          "opcode": "ldstr",
+          "operand": "consumable_"
+        },
+        {
+          "offset": 6,
+          "opcode": "ldarg.0",
+          "operand": "None"
+        },
+        {
+          "offset": 7,
+          "opcode": "callvirt",
+          "operand": "token(0x0A0001BF)"
+        },
+        {
+          "offset": 12,
+          "opcode": "ldstr",
+          "operand": "_name"
+        },
+        {
+          "offset": 17,
+          "opcode": "call",
+          "operand": "token(0x0A00006C)"
+        },
+        {
+          "offset": 22,
+          "opcode": "ldstr",
+          "operand": "UI"
+        },
+        {
+          "offset": 27,
+          "opcode": "call",
+          "operand": "token(0x2B0000A3)"
+        },
+        {
+          "offset": 32,
+          "opcode": "call",
+          "operand": "token(0x06000511)"
+        },
+        {
+          "offset": 37,
+          "opcode": "ret",
+          "operand": "None"
+        }
+      ]
+    }
+  },
+  "sourceAssetSha256": "dd43a6956cf938545636c2669b4bcb501d87aa5ad2dd4c00f948edc37a7315cb",
+  "compiledProgramSha256": "33de1e80e55e4eb8ec2093078028aa83fc45ac8b77acc05c5a4f9477ebe92827",
+  "bindingsSha256": "dc3c46bbf7c327826d70b559ac0c0d924c33848ea5e6f4629b92507e6daae56c",
+  "generatedSourceEvidence": [
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp__8.cpp",
+      "fileSha256": "fe1bea280e6eb9685240ac93c539d5fe4854dc50c5d28005b1c71351fd06d632",
+      "firstLine": 25458,
+      "lastLine": 25556,
+      "exactText": "IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DialogCommandsInstance_GetCourierOrder_m5CC66CA34909EE8F8EAC76EEAAF878D0472CDC8E (const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AF8929E950D7E95C5853A5249309E9DD060815C);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral711692D3BA735B1C1E63F88665BED52AA6D2004E);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC658CC52884D5215C8C048F9691199E286347ED6);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* V_0 = NULL;\n\tint32_t V_1 = 0;\n\tFunc_1_t9626FBB4E554A57B8EFA93B0E233354DB33C4866* G_B2_0 = NULL;\n\tFunc_1_t9626FBB4E554A57B8EFA93B0E233354DB33C4866* G_B1_0 = NULL;\n\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* G_B3_0 = NULL;\n\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* G_B5_0 = NULL;\n\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* G_B4_0 = NULL;\n\t{\n\t\tDialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7* L_0 = ((DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_StaticFields*)il2cpp_codegen_static_fields_for(DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var))->____instance;\n\t\tNullCheck(L_0);\n\t\tFunc_1_t9626FBB4E554A57B8EFA93B0E233354DB33C4866* L_1 = L_0->___GotCourierOrder;\n\t\tFunc_1_t9626FBB4E554A57B8EFA93B0E233354DB33C4866* L_2 = L_1;\n\t\tif (L_2)\n\t\t{\n\t\t\tG_B2_0 = L_2;\n\t\t\tgoto IL_0011;\n\t\t}\n\t\tG_B1_0 = L_2;\n\t}\n\t{\n\t\tG_B3_0 = ((DialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977*)(NULL));\n\t\tgoto IL_0016;\n\t}\n\nIL_0011:\n\t{\n\t\tNullCheck(G_B2_0);\n\t\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* L_3;\n\t\tL_3 = Func_1_Invoke_m6D80A34C1991EAE530F5ADA3FC6BC9A2A6AECAF8_inline(G_B2_0, NULL);\n\t\tG_B3_0 = L_3;\n\t}\n\nIL_0016:\n\t{\n\t\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* L_4 = G_B3_0;\n\t\tif (L_4)\n\t\t{\n\t\t\tG_B5_0 = L_4;\n\t\t\tgoto IL_0021;\n\t\t}\n\t\tG_B4_0 = L_4;\n\t}\n\t{\n\t\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* L_5 = (DialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977*)il2cpp_codegen_object_new(DialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977_il2cpp_TypeInfo_var);\n\t\tDialogCourierOrderData__ctor_m9FBFCF88A6EE6E56F55DEBAD0BAD86F484A69B3C(L_5, 0, 1, NULL);\n\t\tG_B5_0 = L_5;\n\t}\n\nIL_0021:\n\t{\n\t\tV_0 = G_B5_0;\n\t\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* L_6 = V_0;\n\t\tNullCheck(L_6);\n\t\tint32_t L_7;\n\t\tL_7 = DialogCourierOrderData_get_Consumable_mD91E60607C915B3215BB50A90E05BE3870191825_inline(L_6, NULL);\n\t\tV_1 = L_7;\n\t\tIl2CppFakeBox<int32_t> L_8(EConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_il2cpp_TypeInfo_var, (&V_1));\n\t\tString_t* L_9;\n\t\tL_9 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_8), NULL);\n\t\tNullCheck(L_9);\n\t\tString_t* L_10;\n\t\tL_10 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_9, NULL);\n\t\tString_t* L_11;\n\t\tL_11 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralC658CC52884D5215C8C048F9691199E286347ED6, L_10, _stringLiteral0AF8929E950D7E95C5853A5249309E9DD060815C, NULL);\n\t\tObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12;\n\t\tL_12 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\tString_t* L_13;\n\t\tL_13 = LocalizationExtension_GetLocalization_m34257247FBE67CB59C831E5E16FC1297021BC6A8(L_11, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, L_12, NULL);\n\t\tDialogCourierOrderData_t941BDA3A13806D6FCE55366C57FF0645A33AE977* L_14 = V_0;\n\t\tNullCheck(L_14);\n\t\tint32_t L_15;\n\t\tL_15 = DialogCourierOrderData_get_Count_m6303CE7A3E51647B5929F8211EFE558E7797B831_inline(L_14, NULL);\n\t\tint32_t L_16 = L_15;\n\t\tRuntimeObject* L_17 = Box(il2cpp_defaults.int32_class, &L_16);\n\t\tString_t* L_18;\n\t\tL_18 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral711692D3BA735B1C1E63F88665BED52AA6D2004E, L_17, NULL);\n\t\tString_t* L_19;\n\t\tL_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_13, L_18, NULL);\n\t\treturn L_19;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DialogCommandsInstance_IsCharacterPlaceEmpty_mDA77360698C03CCF1F7ACFEF14DD115E09CD72FA (String_t* ___0_characterRaw, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    },
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp__8.cpp",
+      "fileSha256": "fe1bea280e6eb9685240ac93c539d5fe4854dc50c5d28005b1c71351fd06d632",
+      "firstLine": 25613,
+      "lastLine": 25690,
+      "exactText": "IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DialogCommandsInstance_GetCharacterOnPlace_m70AEE67C007EDA40E33E291E99893ABCAB7FCBF6 (String_t* ___0_characterRaw, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_Parse_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_m6C7D74ED034070C813A8B1C9D1F86AA752130506_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_FirstOrDefault_TisCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0_m7D3B84C43FEEC1733557FC8571A3D13CA49CE137_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_FirstOrDefault_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_mA415A4605E106A7BB57108F50A58A408634DBA3E_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t68CAF726BCBCDD1E8077C0B2DC7ACFA710F84A04_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tD34C7E42CD5C1BDB30132DB2F6FA6C4AB9E0BDFB_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICharactersManager_t6EAD295E5069E1E0E5E21E78D343919C175671DA_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICharactersSODataProvider_t85AAF606E05E81692F77E0871B25B8D4E5ADFFD1_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__0_mB567BAE34D74A58655573C3E7338A2E565E1E0C3_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__1_m2287EBC0B86DEB68B9B87C966E71E88AF28C22B3_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6C37B200E3E4D940E0DBC8B87AB538475A653BA5);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* V_0 = NULL;\n\tint32_t V_1 = 0;\n\t{\n\t\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* L_0 = (U3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013_il2cpp_TypeInfo_var);\n\t\tU3CU3Ec__DisplayClass224_0__ctor_m91CAB181413E3859DF56FE3B134F78A829D64CCC(L_0, NULL);\n\t\tV_0 = L_0;\n\t\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* L_1 = V_0;\n\t\tString_t* L_2 = ___0_characterRaw;\n\t\til2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);\n\t\tint32_t L_3;\n\t\tL_3 = Enum_Parse_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_m6C7D74ED034070C813A8B1C9D1F86AA752130506(L_2, (bool)1, Enum_Parse_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_m6C7D74ED034070C813A8B1C9D1F86AA752130506_RuntimeMethod_var);\n\t\tNullCheck(L_1);\n\t\tL_1->___character = L_3;\n\t\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* L_4 = V_0;\n\t\tDialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7* L_5 = ((DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_StaticFields*)il2cpp_codegen_static_fields_for(DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var))->____instance;\n\t\tNullCheck(L_5);\n\t\tRuntimeObject* L_6 = L_5->____charactersSODataProvider;\n\t\tNullCheck(L_6);\n\t\tCharacterSODataU5BU5D_t9F3BF6462305BEDC3C5E0AC9A7B906C2FFD3106B* L_7;\n\t\tL_7 = InterfaceFuncInvoker0< CharacterSODataU5BU5D_t9F3BF6462305BEDC3C5E0AC9A7B906C2FFD3106B* >::Invoke(0, ICharactersSODataProvider_t85AAF606E05E81692F77E0871B25B8D4E5ADFFD1_il2cpp_TypeInfo_var, L_6);\n\t\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* L_8 = V_0;\n\t\tFunc_2_tD34C7E42CD5C1BDB30132DB2F6FA6C4AB9E0BDFB* L_9 = (Func_2_tD34C7E42CD5C1BDB30132DB2F6FA6C4AB9E0BDFB*)il2cpp_codegen_object_new(Func_2_tD34C7E42CD5C1BDB30132DB2F6FA6C4AB9E0BDFB_il2cpp_TypeInfo_var);\n\t\tFunc_2__ctor_m4836F417C14C89B8E72E870841B49016B579471A(L_9, L_8, (intptr_t)((void*)U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__0_mB567BAE34D74A58655573C3E7338A2E565E1E0C3_RuntimeMethod_var), NULL);\n\t\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* L_10;\n\t\tL_10 = Enumerable_FirstOrDefault_TisCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0_m7D3B84C43FEEC1733557FC8571A3D13CA49CE137((RuntimeObject*)L_7, L_9, Enumerable_FirstOrDefault_TisCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0_m7D3B84C43FEEC1733557FC8571A3D13CA49CE137_RuntimeMethod_var);\n\t\tNullCheck(L_4);\n\t\tL_4->___characterData = L_10;\n\t\tIl2CppCodeGenWriteBarrier((void**)(&L_4->___characterData), (void*)L_10);\n\t\tDialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7* L_11 = ((DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_StaticFields*)il2cpp_codegen_static_fields_for(DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var))->____instance;\n\t\tNullCheck(L_11);\n\t\tRuntimeObject* L_12 = L_11->____charactersManager;\n\t\tNullCheck(L_12);\n\t\tRuntimeObject* L_13;\n\t\tL_13 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(5, ICharactersManager_t6EAD295E5069E1E0E5E21E78D343919C175671DA_il2cpp_TypeInfo_var, L_12);\n\t\tU3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* L_14 = V_0;\n\t\tFunc_2_t68CAF726BCBCDD1E8077C0B2DC7ACFA710F84A04* L_15 = (Func_2_t68CAF726BCBCDD1E8077C0B2DC7ACFA710F84A04*)il2cpp_codegen_object_new(Func_2_t68CAF726BCBCDD1E8077C0B2DC7ACFA710F84A04_il2cpp_TypeInfo_var);\n\t\tFunc_2__ctor_mA4C09BCFD8373103E2BC8B93C63CC72B6FE1E8F7(L_15, L_14, (intptr_t)((void*)U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__1_m2287EBC0B86DEB68B9B87C966E71E88AF28C22B3_RuntimeMethod_var), NULL);\n\t\tint32_t L_16;\n\t\tL_16 = Enumerable_FirstOrDefault_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_mA415A4605E106A7BB57108F50A58A408634DBA3E(L_13, L_15, Enumerable_FirstOrDefault_TisECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_mA415A4605E106A7BB57108F50A58A408634DBA3E_RuntimeMethod_var);\n\t\tV_1 = L_16;\n\t\tIl2CppFakeBox<int32_t> L_17(ECharacterType_tBD6A4A6F723FE63FA54800FFDF7A9115638FC964_il2cpp_TypeInfo_var, (&V_1));\n\t\tString_t* L_18;\n\t\tL_18 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_17), NULL);\n\t\tString_t* L_19;\n\t\tL_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6C37B200E3E4D940E0DBC8B87AB538475A653BA5, L_18, NULL);\n\t\tObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20;\n\t\tL_20 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\tString_t* L_21;\n\t\tL_21 = LocalizationExtension_GetLocalization_m34257247FBE67CB59C831E5E16FC1297021BC6A8(L_19, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, L_20, NULL);\n\t\treturn L_21;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DialogCommandsInstance_GetEnergy_mFAC9E61D7FBD9BF58800C7F5554BCCD8A1192DC3 (const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    },
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp__8.cpp",
+      "fileSha256": "fe1bea280e6eb9685240ac93c539d5fe4854dc50c5d28005b1c71351fd06d632",
+      "firstLine": 25813,
+      "lastLine": 25841,
+      "exactText": "IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DialogCommandsInstance_LocalizeItem_mB0D4D4B6D6BAFAFB0C14C6748A73C9CFD710EA11 (String_t* ___0_rawItem, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AF8929E950D7E95C5853A5249309E9DD060815C);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC658CC52884D5215C8C048F9691199E286347ED6);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\t{\n\t\tString_t* L_0 = ___0_rawItem;\n\t\tNullCheck(L_0);\n\t\tString_t* L_1;\n\t\tL_1 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_0, NULL);\n\t\tString_t* L_2;\n\t\tL_2 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralC658CC52884D5215C8C048F9691199E286347ED6, L_1, _stringLiteral0AF8929E950D7E95C5853A5249309E9DD060815C, NULL);\n\t\tObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;\n\t\tL_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);\n\t\tString_t* L_4;\n\t\tL_4 = LocalizationExtension_GetLocalization_m34257247FBE67CB59C831E5E16FC1297021BC6A8(L_2, _stringLiteralB93F5E13E0AD8E8044D7D80E771F9A55F393D87F, L_3, NULL);\n\t\treturn L_4;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DialogCommandsInstance_IsAlive_m94838E32959DE8844075F06485702DBC3D4F5472 (String_t* ___0_characterRaw, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    },
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp__8.cpp",
+      "fileSha256": "fe1bea280e6eb9685240ac93c539d5fe4854dc50c5d28005b1c71351fd06d632",
+      "firstLine": 26662,
+      "lastLine": 26746,
+      "exactText": "IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__0_mB567BAE34D74A58655573C3E7338A2E565E1E0C3 (U3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* __this, CharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* ___0_x, const RuntimeMethod* method) \n{\n\t{\n\t\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* L_0 = ___0_x;\n\t\tNullCheck(L_0);\n\t\tint32_t L_1;\n\t\tL_1 = CharacterSOData_get_CharacterType_m39E7CD6D4CC62DAB27E15D1B9B3BE58B682D4AA4_inline(L_0, NULL);\n\t\tint32_t L_2 = __this->___character;\n\t\treturn (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass224_0_U3CGetCharacterOnPlaceU3Eb__1_m2287EBC0B86DEB68B9B87C966E71E88AF28C22B3 (U3CU3Ec__DisplayClass224_0_tD5BB4CEF9DFA3F0F154C946D948D9C209167A013* __this, int32_t ___0_x, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICharactersManager_t6EAD295E5069E1E0E5E21E78D343919C175671DA_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_mB70CD2BBD446797F3FEE73B8D3DA872A83AD8842_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mED9EBE17ACB94064ECC5D3B2BFA20813F4AF37B9_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_m67C2824DFF1AB81D37DCAB569A702C9129B7E059_RuntimeMethod_var);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\tNullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD V_0;\n\tmemset((&V_0), 0, sizeof(V_0));\n\tNullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD V_1;\n\tmemset((&V_1), 0, sizeof(V_1));\n\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* G_B2_0 = NULL;\n\tint32_t G_B2_1 = 0;\n\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* G_B1_0 = NULL;\n\tint32_t G_B1_1 = 0;\n\tNullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD G_B3_0;\n\tmemset((&G_B3_0), 0, sizeof(G_B3_0));\n\tint32_t G_B3_1 = 0;\n\t{\n\t\tDialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7* L_0 = ((DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_StaticFields*)il2cpp_codegen_static_fields_for(DialogCommandsInstance_tD25D0FDCAD693526709231C5E0248B00F2A370E7_il2cpp_TypeInfo_var))->____instance;\n\t\tNullCheck(L_0);\n\t\tRuntimeObject* L_1 = L_0->____charactersManager;\n\t\tint32_t L_2 = ___0_x;\n\t\tNullCheck(L_1);\n\t\tint32_t L_3;\n\t\tL_3 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(32, ICharactersManager_t6EAD295E5069E1E0E5E21E78D343919C175671DA_il2cpp_TypeInfo_var, L_1, L_2);\n\t\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* L_4 = __this->___characterData;\n\t\tCharacterSOData_t3D06F9B71984DAC4FC62730D95DD88111C6A26C0* L_5 = L_4;\n\t\tif (L_5)\n\t\t{\n\t\t\tG_B2_0 = L_5;\n\t\t\tG_B2_1 = L_3;\n\t\t\tgoto IL_0025;\n\t\t}\n\t\tG_B1_0 = L_5;\n\t\tG_B1_1 = L_3;\n\t}\n\t{\n\t\til2cpp_codegen_initobj((&V_1), sizeof(Nullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD));\n\t\tNullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD L_6 = V_1;\n\t\tG_B3_0 = L_6;\n\t\tG_B3_1 = G_B1_1;\n\t\tgoto IL_002f;\n\t}\n\nIL_0025:\n\t{\n\t\tNullCheck(G_B2_0);\n\t\tint32_t L_7;\n\t\tL_7 = CharacterSOData_get_Place_m777AA313B293A29D16A10544AC0944FCDF7E028C_inline(G_B2_0, NULL);\n\t\tNullable_1_t0ECD28D8D63D52684D6BE0660E9C5814B7D41DFD L_8;\n\t\tmemset((&L_8), 0, sizeof(L_8));\n\t\tNullable_1__ctor_mED9EBE17ACB94064ECC5D3B2BFA20813F4AF37B9((&L_8), L_7, Nullable_1__ctor_mED9EBE17ACB94064ECC5D3B2BFA20813F4AF37B9_RuntimeMethod_var);\n\t\tG_B3_0 = L_8;\n\t\tG_B3_1 = G_B2_1;\n\t}\n\nIL_002f:\n\t{\n\t\tV_0 = G_B3_0;\n\t\tint32_t L_9;\n\t\tL_9 = Nullable_1_GetValueOrDefault_mB70CD2BBD446797F3FEE73B8D3DA872A83AD8842_inline((&V_0), Nullable_1_GetValueOrDefault_mB70CD2BBD446797F3FEE73B8D3DA872A83AD8842_RuntimeMethod_var);\n\t\tbool L_10;\n\t\tL_10 = Nullable_1_get_HasValue_m67C2824DFF1AB81D37DCAB569A702C9129B7E059_inline((&V_0), Nullable_1_get_HasValue_m67C2824DFF1AB81D37DCAB569A702C9129B7E059_RuntimeMethod_var);\n\t\treturn (bool)((int32_t)(((((int32_t)G_B3_1) == ((int32_t)L_9))? 1 : 0)&(int32_t)L_10));\n\t}\n}\n#ifdef __clang__\n#pragma clang diagnostic pop\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    },
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Assembly-CSharp__5.cpp",
+      "fileSha256": "6b8fb99b92c02dc0e8610d0ee6a3df99737f35b77b337d7d4a31f043b7a48516",
+      "firstLine": 22933,
+      "lastLine": 23008,
+      "exactText": "\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConsumablesController_U3CGetDeficitItemU3Eb__16_0_m4629518E37C42657DDDCADC84F31D5580F45B37C_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m9E7F37DE05AE9AAA1D3E871179BDF62AA0B81C0C_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_m206F87633C9010D5D2550CACA91D60B486AC504A_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF55E8BB5D6D310B9F2B02CF722EEA1E01773F590_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RandomElementFromCollectionExtension_GetRandomElement_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m50549DD9AB0B002237B40523988001710D351A03_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGetDeficitItemU3Eb__16_1_m99BA35C834AAB3D2684D26FD270A47F7C220D4BD_RuntimeMethod_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* G_B2_0 = NULL;\n\tRuntimeObject* G_B2_1 = NULL;\n\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* G_B1_0 = NULL;\n\tRuntimeObject* G_B1_1 = NULL;\n\t{\n\t\tOtherGameSOData_t9FA2821F964E61187573765F7A2AEDDF84C60E97* L_0 = __this->____otherGameSoData;\n\t\tNullCheck(L_0);\n\t\tDictionary_2_t49801B7E31BBDE91C93EE0A7B952DE6317095049* L_1;\n\t\tL_1 = OtherGameSOData_get_DeficitConsumables_mC381171DDE5DEEC87CD963912CD4AFB593088DC1_inline(L_0, NULL);\n\t\tFunc_2_tF55E8BB5D6D310B9F2B02CF722EEA1E01773F590* L_2 = (Func_2_tF55E8BB5D6D310B9F2B02CF722EEA1E01773F590*)il2cpp_codegen_object_new(Func_2_tF55E8BB5D6D310B9F2B02CF722EEA1E01773F590_il2cpp_TypeInfo_var);\n\t\tFunc_2__ctor_mF6B6C5B15B2E07E828D226AE9900ACA06361029C(L_2, __this, (intptr_t)((void*)ConsumablesController_U3CGetDeficitItemU3Eb__16_0_m4629518E37C42657DDDCADC84F31D5580F45B37C_RuntimeMethod_var), NULL);\n\t\tRuntimeObject* L_3;\n\t\tL_3 = Enumerable_Where_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_m206F87633C9010D5D2550CACA91D60B486AC504A(L_1, L_2, Enumerable_Where_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_m206F87633C9010D5D2550CACA91D60B486AC504A_RuntimeMethod_var);\n\t\til2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var);\n\t\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* L_4 = ((U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var))->___U3CU3E9__16_1;\n\t\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* L_5 = L_4;\n\t\tif (L_5)\n\t\t{\n\t\t\tG_B2_0 = L_5;\n\t\t\tG_B2_1 = L_3;\n\t\t\tgoto IL_003b;\n\t\t}\n\t\tG_B1_0 = L_5;\n\t\tG_B1_1 = L_3;\n\t}\n\t{\n\t\til2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var);\n\t\tU3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B* L_6 = ((U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var))->___U3CU3E9;\n\t\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* L_7 = (Func_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7*)il2cpp_codegen_object_new(Func_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7_il2cpp_TypeInfo_var);\n\t\tFunc_2__ctor_m1AD1BE382938298BDFD647F54024F7467CF2E0A9(L_7, L_6, (intptr_t)((void*)U3CU3Ec_U3CGetDeficitItemU3Eb__16_1_m99BA35C834AAB3D2684D26FD270A47F7C220D4BD_RuntimeMethod_var), NULL);\n\t\tFunc_2_t0DB0DF6344D6F2FC5518D946647A0DA16FE448A7* L_8 = L_7;\n\t\t((U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var))->___U3CU3E9__16_1 = L_8;\n\t\tIl2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE9B97887147B771D87C48F7C45009A895825545B_il2cpp_TypeInfo_var))->___U3CU3E9__16_1), (void*)L_8);\n\t\tG_B2_0 = L_8;\n\t\tG_B2_1 = G_B1_1;\n\t}\n\nIL_003b:\n\t{\n\t\tRuntimeObject* L_9;\n\t\tL_9 = Enumerable_Select_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m9E7F37DE05AE9AAA1D3E871179BDF62AA0B81C0C(G_B2_1, G_B2_0, Enumerable_Select_TisKeyValuePair_2_t9C2DCE76370E05BE99A8AF998F10BB0DF27FDA82_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m9E7F37DE05AE9AAA1D3E871179BDF62AA0B81C0C_RuntimeMethod_var);\n\t\tint32_t L_10;\n\t\tL_10 = RandomElementFromCollectionExtension_GetRandomElement_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m50549DD9AB0B002237B40523988001710D351A03(L_9, RandomElementFromCollectionExtension_GetRandomElement_TisEConsumable_tD04801A0F68EF00196B72B777502E64CDE9AB814_m50549DD9AB0B002237B40523988001710D351A03_RuntimeMethod_var);\n\t\treturn L_10;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsumablesController_UpdateDeficitDay_m5A5D595C012E0E7821E7FE5453BC670E39E794CA (ConsumablesController_t9971FF560EA2EF8F1320242A78A9BC8334B6E90B* __this, const RuntimeMethod* method) \n{\n\t{\n\t\tConsumablesSaveData_t671522BAC996CBAE6EF7779615BB622E8B7D9331* L_0 = __this->____saveData;\n\t\tFunc_1_tC288CCB64EFD1F5FD49C3F8DE91FE62905E44BCD* L_1 = __this->____getDay;\n\t\tNullCheck(L_1);\n\t\tint32_t L_2;\n\t\tL_2 = Func_1_Invoke_mA967B67675F9F5475EF2DA67722E3876436BF72E_inline(L_1, NULL);\n\t\tOtherGameSOData_t9FA2821F964E61187573765F7A2AEDDF84C60E97* L_3 = __this->____otherGameSoData;\n\t\tNullCheck(L_3);\n\t\tint32_t L_4;\n\t\tL_4 = OtherGameSOData_get_GetDeficitRandomDaysCount_m2A0930662F4A078F576247E31288840FB98A1051(L_3, NULL);\n\t\tNullCheck(L_0);\n\t\tConsumablesSaveData_set_DeficitItemDay_m17F95B45E70D813ACB210D72F407E6065C5CB0BC_inline(L_0, ((int32_t)il2cpp_codegen_add(L_2, L_4)), NULL);\n\t\treturn;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConsumablesController_get_PovistaskUsedCount_mFFAB5326B30D08377FB52799C2638283AB97D776 (ConsumablesController_t9971FF560EA2EF8F1320242A78A9BC8334B6E90B* __this, const RuntimeMethod* method) \n{\n\t{\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    },
+    {
+      "path": "/Users/antonkrutov/Desktop/no I'm not a human/runtime/No Human Probe.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human/NoImNotAHuman_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/YarnSpinner.cpp",
+      "fileSha256": "fd8609206ffe846fe4c2e0e2d7e7f3a70127771bd06bfb4eaf7f7f5329422e1c",
+      "firstLine": 15317,
+      "lastLine": 15408,
+      "exactText": "IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Dialogue_ExpandSubstitutions_m26DA9EDF52F86B04F868DC9FAFC6AFF4280AA910 (String_t* ___0_text, RuntimeObject* ___1_substitutions, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ICollection_1_t5C03FBFD5ECBDE4EAB8C4ED582DDFCF702EB5DC7_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IList_1_t97B3B39CDB830632CF9A846DD5FD149D333D9EDB_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);\n\t\ts_Il2CppMethodInitialized = true;\n\t}\n\tint32_t V_0 = 0;\n\tString_t* V_1 = NULL;\n\t{\n\t\tRuntimeObject* L_0 = ___1_substitutions;\n\t\tif (L_0)\n\t\t{\n\t\t\tgoto IL_0005;\n\t\t}\n\t}\n\t{\n\t\tString_t* L_1 = ___0_text;\n\t\treturn L_1;\n\t}\n\nIL_0005:\n\t{\n\t\tString_t* L_2 = ___0_text;\n\t\tif (L_2)\n\t\t{\n\t\t\tgoto IL_0013;\n\t\t}\n\t}\n\t{\n\t\tArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_3 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));\n\t\tArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral312EBA219C33569D8698DA5D8D3E2995AFD30B7E)), NULL);\n\t\tIL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Dialogue_ExpandSubstitutions_m26DA9EDF52F86B04F868DC9FAFC6AFF4280AA910_RuntimeMethod_var)));\n\t}\n\nIL_0013:\n\t{\n\t\tV_0 = 0;\n\t\tgoto IL_0042;\n\t}\n\nIL_0017:\n\t{\n\t\tRuntimeObject* L_4 = ___1_substitutions;\n\t\tint32_t L_5 = V_0;\n\t\tNullCheck(L_4);\n\t\tString_t* L_6;\n\t\tL_6 = InterfaceFuncInvoker1< String_t*, int32_t >::Invoke(0, IList_1_t97B3B39CDB830632CF9A846DD5FD149D333D9EDB_il2cpp_TypeInfo_var, L_4, L_5);\n\t\tV_1 = L_6;\n\t\tString_t* L_7 = ___0_text;\n\t\tString_t* L_8;\n\t\tL_8 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);\n\t\tString_t* L_9;\n\t\tL_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A, L_8, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30, NULL);\n\t\tString_t* L_10 = V_1;\n\t\tNullCheck(L_7);\n\t\tString_t* L_11;\n\t\tL_11 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_7, L_9, L_10, NULL);\n\t\t___0_text = L_11;\n\t\tint32_t L_12 = V_0;\n\t\tV_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));\n\t}\n\nIL_0042:\n\t{\n\t\tint32_t L_13 = V_0;\n\t\tRuntimeObject* L_14 = ___1_substitutions;\n\t\tNullCheck(L_14);\n\t\tint32_t L_15;\n\t\tL_15 = InterfaceFuncInvoker0< int32_t >::Invoke(0, ICollection_1_t5C03FBFD5ECBDE4EAB8C4ED582DDFCF702EB5DC7_il2cpp_TypeInfo_var, L_14);\n\t\tif ((((int32_t)L_13) < ((int32_t)L_15)))\n\t\t{\n\t\t\tgoto IL_0017;\n\t\t}\n\t}\n\t{\n\t\tString_t* L_16 = ___0_text;\n\t\treturn L_16;\n\t}\n}\nIL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Dialogue_Yarn_Markup_IAttributeMarkerProcessor_ReplacementTextForMarker_m33E10DE5762882705E6A247AD3130C4B4910705C (Dialogue_tC5433E7E555DAD61E17EF894651045D50CCA7DA6* __this, MarkupAttributeMarker_t74CF87E0C53A4129186582299CE31048BAC2D595 ___0_marker, const RuntimeMethod* method) \n{\n\tstatic bool s_Il2CppMethodInitialized;\n\tif (!s_Il2CppMethodInitialized)\n\t{\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dialogue_tC5433E7E555DAD61E17EF894651045D50CCA7DA6_il2cpp_TypeInfo_var);\n\t\til2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PluralCase_tED91AFF8465887A79031582870726BDEF1E5ADD6_il2cpp_TypeInfo_var);\n",
+      "scope": "read-only fixture generated source, corroborated by original shipped managed DLL for game methods"
+    }
+  ],
+  "samePlaceLabelCandidates": [
+    {
+      "node": "Alt_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Alt",
+      "place": 40,
+      "possibleLabels": [
+        {
+          "enum": "Dude",
+          "serializedName": "Dude",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Dude",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+          "source": "растаман с дредами",
+          "target": "растафаријанац с дредовима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Fan",
+          "serializedName": "Fan",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Fan",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+          "source": "грязный жёлтый мужик",
+          "target": "прљави жути тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Anger_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Anger",
+      "place": 32,
+      "possibleLabels": [
+        {
+          "enum": "NotTrue",
+          "serializedName": "NotTrue",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "source": "страшная бабка",
+          "target": "страшна баба",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Sirin",
+          "serializedName": "Sirin",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Sirin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+          "source": "две сестры",
+          "target": "две сестре",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Twins",
+          "serializedName": "Twins",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Twins",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Anxiety_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Anxiety",
+      "place": 51,
+      "possibleLabels": [
+        {
+          "enum": "Bald",
+          "serializedName": "Bald",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Bald",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+          "source": "лысый",
+          "target": "ћелави",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Marauder",
+          "serializedName": "Marauder",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Marauder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+          "source": "бомж",
+          "target": "бескућник",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Bald_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Bald",
+      "place": 51,
+      "possibleLabels": [
+        {
+          "enum": "Anxiety",
+          "serializedName": "Anxiety",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Anxiety",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+          "source": "девушка со скалиозом",
+          "target": "девојка са сколиозом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Marauder",
+          "serializedName": "Marauder",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Marauder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055102674374656",
+          "source": "бомж",
+          "target": "бескућник",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Ballerina_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Ballerina",
+      "place": 33,
+      "possibleLabels": [
+        {
+          "enum": "Fairytaller",
+          "serializedName": "Fairytaller",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "source": "мечтательный студентик",
+          "target": "сањиви студентчић",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Nun",
+          "serializedName": "Nun",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "source": "верующая",
+          "target": "верница",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "WolfHound",
+          "serializedName": "WolfHound",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "source": "лысый бандит в костюме",
+          "target": "ћелави бандит у оделу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Bestson_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Bestson",
+      "place": 30,
+      "possibleLabels": [
+        {
+          "enum": "Esenin",
+          "serializedName": "Esenin",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "source": "длиннющий",
+          "target": "дугајлија",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Rocker",
+          "serializedName": "Rocker",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "source": "музыкант какой-то",
+          "target": "неки музичар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "TaxiDriver",
+          "serializedName": "TaxiDriver",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "source": "таксист в кепке",
+          "target": "таксиста с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "BigLebowski_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "BigLebowski",
+      "place": 12,
+      "possibleLabels": [
+        {
+          "enum": "Couple",
+          "serializedName": "Couple",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "source": "семейная пара",
+          "target": "брачни пар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Daughter",
+          "serializedName": "Daughter",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "source": "плачущая девочка",
+          "target": "девојчица која плаче",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Experienced",
+          "serializedName": "Experienced",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "source": "голый мужчина",
+          "target": "го мушкарац",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Blind_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Blind",
+      "place": 10,
+      "possibleLabels": [
+        {
+          "enum": "FortuneTeller",
+          "serializedName": "FortuneTeller",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "source": "женщина с картами таро",
+          "target": "жена с тарот картама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Hunter",
+          "serializedName": "Hunter",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "source": "огромный бородатый мужик",
+          "target": "огроман брадати тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Leper",
+          "serializedName": "Leper",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "source": "мужик с проблемами кожи",
+          "target": "тип с кожним проблемима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Neighbour",
+          "serializedName": "Neighbour",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Neighbour",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Buddy_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Buddy",
+      "place": 65,
+      "possibleLabels": [
+        {
+          "enum": "GraveDigger",
+          "serializedName": "GraveDigger",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "source": "горбатый мужик",
+          "target": "грбави тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tough",
+          "serializedName": "Tough",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "source": "женщина в топике",
+          "target": "жена у топу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Wifefema",
+          "serializedName": "Wifefema",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "source": "боевая баба с ярким макияжем",
+          "target": "ратоборна жена с упадљивом шминком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Cold_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Cold",
+      "place": 31,
+      "possibleLabels": []
+    },
+    {
+      "node": "Couple_Entrance_Occupied",
+      "instructionIndex": 5,
+      "argument": "Couple",
+      "place": 12,
+      "possibleLabels": [
+        {
+          "enum": "BigLebowski",
+          "serializedName": "BigLebowski",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "source": "подросток в кепке",
+          "target": "тинејџер с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Daughter",
+          "serializedName": "Daughter",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "source": "плачущая девочка",
+          "target": "девојчица која плаче",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Experienced",
+          "serializedName": "Experienced",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "source": "голый мужчина",
+          "target": "го мушкарац",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "CultistPriest_Entrance_Occupied",
+      "instructionIndex": 9,
+      "argument": "CultistOne",
+      "place": 21,
+      "possibleLabels": [
+        {
+          "enum": "Edgar",
+          "serializedName": "Edgar",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_Edgar",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+          "source": "опрятный мужчина с гангреной",
+          "target": "уредан мушкарац с гангреном",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FunnyGuy",
+          "serializedName": "FunnyGuy",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_FunnyGuy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+          "source": "волосатый здоровяк",
+          "target": "крупни длакави тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "CultistPriest_Entrance_Occupied",
+      "instructionIndex": 21,
+      "argument": "CultistThree",
+      "place": 22,
+      "possibleLabels": [
+        {
+          "enum": "Fugitive",
+          "serializedName": "Fugitive",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_Fugitive",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+          "source": "мужчина с раной в животе",
+          "target": "мушкарац с раном на стомаку",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Mother",
+          "serializedName": "Mother",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_Mother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+          "source": "женщина с ребёнком",
+          "target": "жена с дететом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Daughter_Entrance_Occupied",
+      "instructionIndex": 4,
+      "argument": "Daughter",
+      "place": 12,
+      "possibleLabels": [
+        {
+          "enum": "BigLebowski",
+          "serializedName": "BigLebowski",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "source": "подросток в кепке",
+          "target": "тинејџер с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Couple",
+          "serializedName": "Couple",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "source": "семейная пара",
+          "target": "брачни пар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Experienced",
+          "serializedName": "Experienced",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Experienced",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766913",
+          "source": "голый мужчина",
+          "target": "го мушкарац",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Doctor_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Doc",
+      "place": 50,
+      "possibleLabels": [
+        {
+          "enum": "Foreigner",
+          "serializedName": "Foreigner",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Foreigner",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+          "source": "парень с зашитым ртом",
+          "target": "момак са зашивеним устима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Nervous",
+          "serializedName": "Nervous",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Nervous",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+          "source": "чудной парень в майке",
+          "target": "чудан момак у мајици",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Dude_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Dude",
+      "place": 40,
+      "possibleLabels": [
+        {
+          "enum": "Alt",
+          "serializedName": "Alt",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Alt",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+          "source": "девушка с тату",
+          "target": "девојка с тетоважом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Fan",
+          "serializedName": "Fan",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Fan",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054920968736768",
+          "source": "грязный жёлтый мужик",
+          "target": "прљави жути тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Edgar_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Edgar",
+      "place": 21,
+      "possibleLabels": [
+        {
+          "enum": "CultistOne",
+          "serializedName": "CultistOne",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_CultistOne",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+          "source": "культист",
+          "target": "култиста",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FunnyGuy",
+          "serializedName": "FunnyGuy",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_FunnyGuy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766920",
+          "source": "волосатый здоровяк",
+          "target": "крупни длакави тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Esenin_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Esenin",
+      "place": 30,
+      "possibleLabels": [
+        {
+          "enum": "Bestson",
+          "serializedName": "Bestson",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "source": "парень в футболке с номером",
+          "target": "момак у мајици с бројем",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Rocker",
+          "serializedName": "Rocker",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "source": "музыкант какой-то",
+          "target": "неки музичар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "TaxiDriver",
+          "serializedName": "TaxiDriver",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "source": "таксист в кепке",
+          "target": "таксиста с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Experienced_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Experienced",
+      "place": 12,
+      "possibleLabels": [
+        {
+          "enum": "BigLebowski",
+          "serializedName": "BigLebowski",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_BigLebowski",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054037149192192",
+          "source": "подросток в кепке",
+          "target": "тинејџер с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Couple",
+          "serializedName": "Couple",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Couple",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054039049211904",
+          "source": "семейная пара",
+          "target": "брачни пар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Daughter",
+          "serializedName": "Daughter",
+          "place": 12,
+          "room": 0,
+          "key": "characterName_Daughter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046928026210304",
+          "source": "плачущая девочка",
+          "target": "девојчица која плаче",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Fairytaller_Entrance_Occupied",
+      "instructionIndex": 6,
+      "argument": "Fairytaller",
+      "place": 33,
+      "possibleLabels": [
+        {
+          "enum": "Ballerina",
+          "serializedName": "Ballerina",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "source": "женщина с котом",
+          "target": "жена с мачком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Nun",
+          "serializedName": "Nun",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "source": "верующая",
+          "target": "верница",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "WolfHound",
+          "serializedName": "WolfHound",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "source": "лысый бандит в костюме",
+          "target": "ћелави бандит у оделу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Fan_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Fan",
+      "place": 40,
+      "possibleLabels": [
+        {
+          "enum": "Alt",
+          "serializedName": "Alt",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Alt",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766921",
+          "source": "девушка с тату",
+          "target": "девојка с тетоважом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Dude",
+          "serializedName": "Dude",
+          "place": 40,
+          "room": 3,
+          "key": "characterName_Dude",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054924097687552",
+          "source": "растаман с дредами",
+          "target": "растафаријанац с дредовима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Fatman_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Fatman",
+      "place": 41,
+      "possibleLabels": [
+        {
+          "enum": "FormerFema",
+          "serializedName": "FormerFema",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "source": "мужчина в костюме КЧС",
+          "target": "мушкарац у униформи КВС",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tourist",
+          "serializedName": "Tourist",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "source": "парень с загаром",
+          "target": "препланули момак",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Widow",
+          "serializedName": "Widow",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "source": "женщина с трупом",
+          "target": "жена с лешом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Foreigner_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Foreigner",
+      "place": 50,
+      "possibleLabels": [
+        {
+          "enum": "Doc",
+          "serializedName": "Doc",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Doc",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+          "source": "доктор",
+          "target": "доктор",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Nervous",
+          "serializedName": "Nervous",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Nervous",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766917",
+          "source": "чудной парень в майке",
+          "target": "чудан момак у мајици",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "FormerFema_Entrance_Occupied",
+      "instructionIndex": 4,
+      "argument": "FormerFema",
+      "place": 41,
+      "possibleLabels": [
+        {
+          "enum": "Fatman",
+          "serializedName": "Fatman",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "source": "голый жирдяй",
+          "target": "голи дебељко",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tourist",
+          "serializedName": "Tourist",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "source": "парень с загаром",
+          "target": "препланули момак",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Widow",
+          "serializedName": "Widow",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "source": "женщина с трупом",
+          "target": "жена с лешом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "FortuneTeller_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "FortuneTeller",
+      "place": 10,
+      "possibleLabels": [
+        {
+          "enum": "Blind",
+          "serializedName": "Blind",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "source": "безглазый",
+          "target": "без очију",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Hunter",
+          "serializedName": "Hunter",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "source": "огромный бородатый мужик",
+          "target": "огроман брадати тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Leper",
+          "serializedName": "Leper",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "source": "мужик с проблемами кожи",
+          "target": "тип с кожним проблемима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Neighbour",
+          "serializedName": "Neighbour",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Neighbour",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Fugitive_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Fugitive",
+      "place": 22,
+      "possibleLabels": [
+        {
+          "enum": "CultistThree",
+          "serializedName": "CultistThree",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_CultistThree",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+          "source": "культист",
+          "target": "култиста",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Mother",
+          "serializedName": "Mother",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_Mother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054567439241216",
+          "source": "женщина с ребёнком",
+          "target": "жена с дететом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "FunnyGuy_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "FunnyGuy",
+      "place": 21,
+      "possibleLabels": [
+        {
+          "enum": "CultistOne",
+          "serializedName": "CultistOne",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_CultistOne",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054563320434688",
+          "source": "культист",
+          "target": "култиста",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Edgar",
+          "serializedName": "Edgar",
+          "place": 21,
+          "room": 1,
+          "key": "characterName_Edgar",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564108963840",
+          "source": "опрятный мужчина с гангреной",
+          "target": "уредан мушкарац с гангреном",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "GraveDigger_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "GraveDigger",
+      "place": 65,
+      "possibleLabels": [
+        {
+          "enum": "Buddy",
+          "serializedName": "Buddy",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "source": "здоровый гремлин",
+          "target": "крупни гремлин",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tough",
+          "serializedName": "Tough",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "source": "женщина в топике",
+          "target": "жена у топу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Wifefema",
+          "serializedName": "Wifefema",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "source": "боевая баба с ярким макияжем",
+          "target": "ратоборна жена с упадљивом шминком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Greatmother_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Greatmother",
+      "place": 20,
+      "possibleLabels": [
+        {
+          "enum": "Intruder",
+          "serializedName": "Intruder",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "source": "мужчина в чёрном худи с капюшоном",
+          "target": "мушкарац у црном дуксу с капуљачом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Jacket",
+          "serializedName": "Jacket",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "source": "паренёк в куртке",
+          "target": "младић у јакни",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Luka",
+          "serializedName": "Luka",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "source": "мужчина в зелёной кепке",
+          "target": "мушкарац са зеленим качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Teacher",
+          "serializedName": "Teacher",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "source": "женщина в вязаном свитере и очках",
+          "target": "жена у плетеном џемперу и с наочарима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Hunter_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Hunter",
+      "place": 10,
+      "possibleLabels": [
+        {
+          "enum": "Blind",
+          "serializedName": "Blind",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "source": "безглазый",
+          "target": "без очију",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FortuneTeller",
+          "serializedName": "FortuneTeller",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "source": "женщина с картами таро",
+          "target": "жена с тарот картама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Leper",
+          "serializedName": "Leper",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Leper",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766918",
+          "source": "мужик с проблемами кожи",
+          "target": "тип с кожним проблемима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Neighbour",
+          "serializedName": "Neighbour",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Neighbour",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Intruder_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Intruder",
+      "place": 20,
+      "possibleLabels": [
+        {
+          "enum": "Greatmother",
+          "serializedName": "Greatmother",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "source": "огромная женщина с чёлкой",
+          "target": "огромна жена са шишкама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Jacket",
+          "serializedName": "Jacket",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "source": "паренёк в куртке",
+          "target": "младић у јакни",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Luka",
+          "serializedName": "Luka",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "source": "мужчина в зелёной кепке",
+          "target": "мушкарац са зеленим качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Teacher",
+          "serializedName": "Teacher",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "source": "женщина в вязаном свитере и очках",
+          "target": "жена у плетеном џемперу и с наочарима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Jacket_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Jacket",
+      "place": 20,
+      "possibleLabels": [
+        {
+          "enum": "Greatmother",
+          "serializedName": "Greatmother",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "source": "огромная женщина с чёлкой",
+          "target": "огромна жена са шишкама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Intruder",
+          "serializedName": "Intruder",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "source": "мужчина в чёрном худи с капюшоном",
+          "target": "мушкарац у црном дуксу с капуљачом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Luka",
+          "serializedName": "Luka",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "source": "мужчина в зелёной кепке",
+          "target": "мушкарац са зеленим качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Teacher",
+          "serializedName": "Teacher",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "source": "женщина в вязаном свитере и очках",
+          "target": "жена у плетеном џемперу и с наочарима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Leper_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Leper",
+      "place": 10,
+      "possibleLabels": [
+        {
+          "enum": "Blind",
+          "serializedName": "Blind",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Blind",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+          "source": "безглазый",
+          "target": "без очију",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FortuneTeller",
+          "serializedName": "FortuneTeller",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_FortuneTeller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046924544937984",
+          "source": "женщина с картами таро",
+          "target": "жена с тарот картама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Hunter",
+          "serializedName": "Hunter",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Hunter",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:102986315954982912",
+          "source": "огромный бородатый мужик",
+          "target": "огроман брадати тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Neighbour",
+          "serializedName": "Neighbour",
+          "place": 10,
+          "room": 0,
+          "key": "characterName_Neighbour",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Luka_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Luka",
+      "place": 20,
+      "possibleLabels": [
+        {
+          "enum": "Greatmother",
+          "serializedName": "Greatmother",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "source": "огромная женщина с чёлкой",
+          "target": "огромна жена са шишкама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Intruder",
+          "serializedName": "Intruder",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "source": "мужчина в чёрном худи с капюшоном",
+          "target": "мушкарац у црном дуксу с капуљачом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Jacket",
+          "serializedName": "Jacket",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "source": "паренёк в куртке",
+          "target": "младић у јакни",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Teacher",
+          "serializedName": "Teacher",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Teacher",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054564863938560",
+          "source": "женщина в вязаном свитере и очках",
+          "target": "жена у плетеном џемперу и с наочарима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Marauder_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Marauder",
+      "place": 51,
+      "possibleLabels": [
+        {
+          "enum": "Anxiety",
+          "serializedName": "Anxiety",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Anxiety",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055100333953024",
+          "source": "девушка со скалиозом",
+          "target": "девојка са сколиозом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Bald",
+          "serializedName": "Bald",
+          "place": 51,
+          "room": 4,
+          "key": "characterName_Bald",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766916",
+          "source": "лысый",
+          "target": "ћелави",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Mother_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Mother",
+      "place": 22,
+      "possibleLabels": [
+        {
+          "enum": "CultistThree",
+          "serializedName": "CultistThree",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_CultistThree",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054565543415808",
+          "source": "культист",
+          "target": "култиста",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Fugitive",
+          "serializedName": "Fugitive",
+          "place": 22,
+          "room": 1,
+          "key": "characterName_Fugitive",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054566503911424",
+          "source": "мужчина с раной в животе",
+          "target": "мушкарац с раном на стомаку",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Nervous_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Nervous",
+      "place": 50,
+      "possibleLabels": [
+        {
+          "enum": "Doc",
+          "serializedName": "Doc",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Doc",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167011389448192",
+          "source": "доктор",
+          "target": "доктор",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Foreigner",
+          "serializedName": "Foreigner",
+          "place": 50,
+          "room": 4,
+          "key": "characterName_Foreigner",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104055103697784832",
+          "source": "парень с зашитым ртом",
+          "target": "момак са зашивеним устима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "NotTrue_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "NotTrue",
+      "place": 32,
+      "possibleLabels": [
+        {
+          "enum": "Anger",
+          "serializedName": "Anger",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "source": "злой толстяк с ранами",
+          "target": "бесни дебељко с ранама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Sirin",
+          "serializedName": "Sirin",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Sirin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538132623360",
+          "source": "две сестры",
+          "target": "две сестре",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Twins",
+          "serializedName": "Twins",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Twins",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Nun_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Nun",
+      "place": 33,
+      "possibleLabels": [
+        {
+          "enum": "Ballerina",
+          "serializedName": "Ballerina",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "source": "женщина с котом",
+          "target": "жена с мачком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Fairytaller",
+          "serializedName": "Fairytaller",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "source": "мечтательный студентик",
+          "target": "сањиви студентчић",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "WolfHound",
+          "serializedName": "WolfHound",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_WolfHound",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040013901824",
+          "source": "лысый бандит в костюме",
+          "target": "ћелави бандит у оделу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Provocateur_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Provocateur",
+      "place": 11,
+      "possibleLabels": [
+        {
+          "enum": "Scammer",
+          "serializedName": "Scammer",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Scammer",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+          "source": "парень в футболке amogus",
+          "target": "момак у мајици amogus",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Theorist",
+          "serializedName": "Theorist",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Theorist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+          "source": "этот в очках и с усами",
+          "target": "онај с наочарима и брковима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Raskolnikov_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Raskolnikov",
+      "place": 68,
+      "possibleLabels": [
+        {
+          "enum": "Alkonost",
+          "serializedName": "Alkonost",
+          "place": 68,
+          "room": 2,
+          "key": "characterName_Alkonost",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Rocker_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Rocker",
+      "place": 30,
+      "possibleLabels": [
+        {
+          "enum": "Bestson",
+          "serializedName": "Bestson",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "source": "парень в футболке с номером",
+          "target": "момак у мајици с бројем",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Esenin",
+          "serializedName": "Esenin",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "source": "длиннющий",
+          "target": "дугајлија",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "TaxiDriver",
+          "serializedName": "TaxiDriver",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_TaxiDriver",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043927187456",
+          "source": "таксист в кепке",
+          "target": "таксиста с качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Scammer_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Scammer",
+      "place": 11,
+      "possibleLabels": [
+        {
+          "enum": "Provocateur",
+          "serializedName": "Provocateur",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Provocateur",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+          "source": "агрессивный чел с огромной башкой",
+          "target": "агресивни тип с огромном главом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Theorist",
+          "serializedName": "Theorist",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Theorist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046927208321024",
+          "source": "этот в очках и с усами",
+          "target": "онај с наочарима и брковима",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "TaxiDriver_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "TaxiDriver",
+      "place": 30,
+      "possibleLabels": [
+        {
+          "enum": "Bestson",
+          "serializedName": "Bestson",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Bestson",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054043079938048",
+          "source": "парень в футболке с номером",
+          "target": "момак у мајици с бројем",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Esenin",
+          "serializedName": "Esenin",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Esenin",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054042379489280",
+          "source": "длиннющий",
+          "target": "дугајлија",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Rocker",
+          "serializedName": "Rocker",
+          "place": 30,
+          "room": 2,
+          "key": "characterName_Rocker",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766912",
+          "source": "музыкант какой-то",
+          "target": "неки музичар",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Teacher_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Teacher",
+      "place": 20,
+      "possibleLabels": [
+        {
+          "enum": "Greatmother",
+          "serializedName": "Greatmother",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Greatmother",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054558484402176",
+          "source": "огромная женщина с чёлкой",
+          "target": "огромна жена са шишкама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Intruder",
+          "serializedName": "Intruder",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Intruder",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054559545561088",
+          "source": "мужчина в чёрном худи с капюшоном",
+          "target": "мушкарац у црном дуксу с капуљачом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Jacket",
+          "serializedName": "Jacket",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Jacket",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766914",
+          "source": "паренёк в куртке",
+          "target": "младић у јакни",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Luka",
+          "serializedName": "Luka",
+          "place": 20,
+          "room": 1,
+          "key": "characterName_Luka",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560250204160",
+          "source": "мужчина в зелёной кепке",
+          "target": "мушкарац са зеленим качкетом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Theorist_Entrance_Occupied",
+      "instructionIndex": 8,
+      "argument": "Theorist",
+      "place": 11,
+      "possibleLabels": [
+        {
+          "enum": "Provocateur",
+          "serializedName": "Provocateur",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Provocateur",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046926415597568",
+          "source": "агрессивный чел с огромной башкой",
+          "target": "агресивни тип с огромном главом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Scammer",
+          "serializedName": "Scammer",
+          "place": 11,
+          "room": 0,
+          "key": "characterName_Scammer",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046925161500672",
+          "source": "парень в футболке amogus",
+          "target": "момак у мајици amogus",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Tough_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "Tough",
+      "place": 65,
+      "possibleLabels": [
+        {
+          "enum": "Buddy",
+          "serializedName": "Buddy",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "source": "здоровый гремлин",
+          "target": "крупни гремлин",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "GraveDigger",
+          "serializedName": "GraveDigger",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "source": "горбатый мужик",
+          "target": "грбави тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Wifefema",
+          "serializedName": "Wifefema",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Wifefema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054562557071360",
+          "source": "боевая баба с ярким макияжем",
+          "target": "ратоборна жена с упадљивом шминком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Tourist_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Tourist",
+      "place": 41,
+      "possibleLabels": [
+        {
+          "enum": "Fatman",
+          "serializedName": "Fatman",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "source": "голый жирдяй",
+          "target": "голи дебељко",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FormerFema",
+          "serializedName": "FormerFema",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "source": "мужчина в костюме КЧС",
+          "target": "мушкарац у униформи КВС",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Widow",
+          "serializedName": "Widow",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Widow",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054914303987712",
+          "source": "женщина с трупом",
+          "target": "жена с лешом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Twins_Entrance_AlkonostOccupied",
+      "instructionIndex": 2,
+      "argument": "Alkonost",
+      "place": 68,
+      "possibleLabels": [
+        {
+          "enum": "Raskolnikov",
+          "serializedName": "Raskolnikov",
+          "place": 68,
+          "room": 2,
+          "key": "characterName_Raskolnikov",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+          "source": "парень в фиолетовой бандане",
+          "target": "момак с љубичастом банданом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Twins_Entrance_BothOccupied",
+      "instructionIndex": 2,
+      "argument": "Sirin",
+      "place": 32,
+      "possibleLabels": [
+        {
+          "enum": "Anger",
+          "serializedName": "Anger",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "source": "злой толстяк с ранами",
+          "target": "бесни дебељко с ранама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "NotTrue",
+          "serializedName": "NotTrue",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "source": "страшная бабка",
+          "target": "страшна баба",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Twins",
+          "serializedName": "Twins",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Twins",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Twins_Entrance_BothOccupied",
+      "instructionIndex": 5,
+      "argument": "Alkonost",
+      "place": 68,
+      "possibleLabels": [
+        {
+          "enum": "Raskolnikov",
+          "serializedName": "Raskolnikov",
+          "place": 68,
+          "room": 2,
+          "key": "characterName_Raskolnikov",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054045562966016",
+          "source": "парень в фиолетовой бандане",
+          "target": "момак с љубичастом банданом",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Twins_Entrance_SirinOccupied",
+      "instructionIndex": 2,
+      "argument": "Sirin",
+      "place": 32,
+      "possibleLabels": [
+        {
+          "enum": "Anger",
+          "serializedName": "Anger",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Anger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:88154538115846144",
+          "source": "злой толстяк с ранами",
+          "target": "бесни дебељко с ранама",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "NotTrue",
+          "serializedName": "NotTrue",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_NotTrue",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:81558843359481856",
+          "source": "страшная бабка",
+          "target": "страшна баба",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Twins",
+          "serializedName": "Twins",
+          "place": 32,
+          "room": 2,
+          "key": "characterName_Twins",
+          "labelStableId": null,
+          "source": null,
+          "target": null,
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Unstable_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Unstable",
+      "place": 23,
+      "possibleLabels": [
+        {
+          "enum": "Wheelchair",
+          "serializedName": "Wheelchair",
+          "place": 23,
+          "room": 1,
+          "key": "characterName_Wheelchair",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:193167156193599488",
+          "source": "парень без ног",
+          "target": "момак без ногу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Widow_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Widow",
+      "place": 41,
+      "possibleLabels": [
+        {
+          "enum": "Fatman",
+          "serializedName": "Fatman",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Fatman",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054917168697344",
+          "source": "голый жирдяй",
+          "target": "голи дебељко",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "FormerFema",
+          "serializedName": "FormerFema",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_FormerFema",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054919215517696",
+          "source": "мужчина в костюме КЧС",
+          "target": "мушкарац у униформи КВС",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tourist",
+          "serializedName": "Tourist",
+          "place": 41,
+          "room": 3,
+          "key": "characterName_Tourist",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766922",
+          "source": "парень с загаром",
+          "target": "препланули момак",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Wifefema_Entrance_Occupied",
+      "instructionIndex": 3,
+      "argument": "Wifefema",
+      "place": 65,
+      "possibleLabels": [
+        {
+          "enum": "Buddy",
+          "serializedName": "Buddy",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Buddy",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054560921292800",
+          "source": "здоровый гремлин",
+          "target": "крупни гремлин",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "GraveDigger",
+          "serializedName": "GraveDigger",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_GraveDigger",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054561768542208",
+          "source": "горбатый мужик",
+          "target": "грбави тип",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Tough",
+          "serializedName": "Tough",
+          "place": 65,
+          "room": 1,
+          "key": "characterName_Tough",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766915",
+          "source": "женщина в топике",
+          "target": "жена у топу",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    },
+    {
+      "node": "Wolfhound_Entrance_Occupied",
+      "instructionIndex": 2,
+      "argument": "WolfHound",
+      "place": 33,
+      "possibleLabels": [
+        {
+          "enum": "Ballerina",
+          "serializedName": "Ballerina",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Ballerina",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054040768876544",
+          "source": "женщина с котом",
+          "target": "жена с мачком",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Fairytaller",
+          "serializedName": "Fairytaller",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Fairytaller",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:167520134505766919",
+          "source": "мечтательный студентик",
+          "target": "сањиви студентчић",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        },
+        {
+          "enum": "Nun",
+          "serializedName": "Nun",
+          "place": 33,
+          "room": 2,
+          "key": "characterName_Nun",
+          "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104054041620320256",
+          "source": "верующая",
+          "target": "верница",
+          "scope": "possible occupant by actual same-place predicate; game state/reachability not executed"
+        }
+      ]
+    }
+  ],
+  "deficitConfigSha256": "6383a23da3e530650af192f3cfca3746c1c0e06f5c8b0bd526e5c5c7db6a06db",
+  "deficitLabels": [
+    {
+      "enum": "Enerjeka",
+      "key": "consumable_enerjeka_name",
+      "threshold": 2,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208385776799744",
+      "source": "Энержека",
+      "target": "Енержека"
+    },
+    {
+      "enum": "Cigarette",
+      "key": "consumable_cigarette_name",
+      "threshold": 0,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77562143573790720",
+      "source": "Сигареты",
+      "target": "Цигарете"
+    },
+    {
+      "enum": "Coffee",
+      "key": "consumable_coffee_name",
+      "threshold": 1,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:80208677444505600",
+      "source": "Кофе",
+      "target": "Кафа"
+    },
+    {
+      "enum": "CatFood",
+      "key": "consumable_catfood_name",
+      "threshold": 0,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:128372071870750720",
+      "source": "Кошачий корм",
+      "target": "Храна за мачке"
+    },
+    {
+      "enum": "Kombucha",
+      "key": "consumable_kombucha_name",
+      "threshold": 1,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:77572569351049216",
+      "source": "Чайный гриб",
+      "target": "Чајна гљива"
+    },
+    {
+      "enum": "Povistka",
+      "key": "consumable_povistka_name",
+      "threshold": 0,
+      "labelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:127250467119947776",
+      "source": "Явка в КЧС",
+      "target": "Јављање у КВС"
+    }
+  ],
+  "substitutionSemantics": "Yarn ExpandSubstitutions iterates substitutions and String.Replace on the indexed slot. No Serbian case/number/gender morphology is applied. Static code inspection, not game execution.",
+  "phoneAndCourier": "Phone substitutions are number literals. Courier order joins LocalizeItem output with count suffix (x{0}); Serbian introducers retain colon-separated labels. Priest alternatives are individual RunLine instructions under the saved branch labels, not assumed concatenated sentences.",
+  "limitations": "Some same-place candidate enum keys (Twins, Neighbour, Alkonost) have no source UI label. No label or runtime reachability is invented. Managed reference registry excluded from header-verified config field extraction; no complete serialized object validation claimed."
+}

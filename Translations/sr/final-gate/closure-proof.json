@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "locale": "sr",
+  "result": "passed",
+  "closure": {
+    "path": "Translations/sr/semantic-cycle-003-closure.json",
+    "sha256": "8070b3f3ab6a015a65ec1eeb9706a5d43da6291c7c8bb2d9c4e659a33904a043"
+  },
+  "closureRows": {
+    "path": "Translations/sr/semantic-cycle-003-review-rows.jsonl",
+    "sha256": "0d0866d50ce7901b320574e7f9a358cdca2d2d2b5f9a98a45b2b05034f6c5189"
+  },
+  "deltaRows": {
+    "path": "Translations/sr/semantic-cycle-003-delta-review-rows.jsonl",
+    "sha256": "cb47b9adde84aad0fae7f742a6b24e5aaaacebb3394075dc073f252ffa5853b0"
+  },
+  "regressionCatalog": {
+    "path": "Translations/sr/semantic-cycle-003-regressions.json",
+    "sha256": "a5f237d21646b519e7caeb332b2140a9209af81e395270bf4600fd32b5690c3c"
+  },
+  "reproductionRecipe": {
+    "path": "Translations/sr/build_delta_review_003.py",
+    "sha256": "b7fe929ff94ac0076b8af45027848207e0363b08ed361706d4c8f2d045939121"
+  },
+  "reproductionResult": {
+    "result": "verified",
+    "changedIds": 1,
+    "closureIds": 548,
+    "newDependencies": 0,
+    "retiredDependencies": 56,
+    "invalidatedPrior": 3,
+    "deltaReviewIds": 4,
+    "closureSha256": "8070b3f3ab6a015a65ec1eeb9706a5d43da6291c7c8bb2d9c4e659a33904a043",
+    "deltaIdsSha256": "fe8d7d565c715ea04126ef42668ad6b7c720fb445405d7612224e5b63d3a381b",
+    "deltaRowsSha256": "cb47b9adde84aad0fae7f742a6b24e5aaaacebb3394075dc073f252ffa5853b0"
+  },
+  "currentClosureIds": 548,
+  "changedIds": 1,
+  "newDependencies": 0,
+  "explicitlyInvalidatedPriorIds": 3,
+  "retiredDependencies": 56,
+  "exactDeltaIds": 4,
+  "freshIndependentDecisions": 4,
+  "reusedExactUnchangedIndependentDecisions": 544,
+  "mandatoryRegressionCount": 548,
+  "priorEvidenceApplicability": {
+    "path": "Translations/sr/independent-review-03/prior-evidence-applicability.jsonl",
+    "sha256": "3774040a7f9700de7197166d673e56ca451a6b9eb17237d1efdab84917bec901"
+  },
+  "freshReadEvidence": {
+    "path": "Translations/sr/independent-review-03/read-evidence.jsonl",
+    "sha256": "ae049310ab4cc8d71b6a214b0e2a0a04c860d7b355d78039d480fa468cc0f750"
+  },
+  "independentSummary": {
+    "path": "Translations/sr/independent-review-03/summary.json",
+    "sha256": "199acf7c92f86cfd6639536ae0c47726287d3618643f058487542b14feaf47b1"
+  },
+  "independentFindings": {
+    "path": "Translations/sr/independent-review-03/findings.json",
+    "sha256": "1f7b1cec11c29e75fd55703aa54e2009b0d629b8417961ebc4924299348b30c8"
+  },
+  "unresolvedObjectiveFindings": 0
+}

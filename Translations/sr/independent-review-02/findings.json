@@ -1,0 +1,43 @@
+{
+  "status": "one consolidated full-unit objective proposal; not applied",
+  "count": 1,
+  "authoredFileSetSha256": "7c81e49c9b15025fae69f10c22001ee551050b0f50ecd39cec3349d9b4e46dfe",
+  "findings": [
+    {
+      "findingId": "SR-IR02-01",
+      "stableId": "string:444ff14f1967f5a4c8eb9e4cf4c913f1:110504457169608704",
+      "source": "Hunter: У тебя тут уже {0}.",
+      "sourceSha256": "96fa74b6dbaf3e997b29c48060066c10feae338724f622e618688fb9b0b28113",
+      "currentTarget": "Hunter: Код тебе је већ {0}.",
+      "currentTargetSha256": "bcff0a5586a6d96cdd4e532faa13ed649faa115e7bb72975e5bfe8347a4b9a48",
+      "proposedTarget": "Hunter: Код тебе је већ неко — {0}.",
+      "proposedTargetSha256": "32e8b574351984f3de646ee0e28be396386b664fbee8788469f6d6a86007935d",
+      "targetFile": "Translations/sr/dialogue-batch-251.json",
+      "key": "line:Hunter_Entrance_Occupied_0c765b9",
+      "nodeNames": [
+        "Hunter_Entrance_Occupied"
+      ],
+      "objectiveReason": "GetCharacterOnPlace(Hunter) can return Blind whose literal UI label is без очију. The corrected existential sentence assembles Код тебе је већ без очију: it has no resident subject, and без очију reads as a predicate saying an omitted person is already eyeless, rather than identifying the resident already present. The prior accusative problem is fixed for person-noun labels but not for this known prepositional label. Add an explicit indefinite occupant, then separate the verbatim display label; no source fact, identity or name is added.",
+      "newEvidenceAgainstAcceptedCorrection": "The previously saved example already contained без очију but neither initial review nor author adjudication addressed its non-noun syntactic category. Current full-domain assembled-output reading establishes that boundary failure from unchanged evidence.",
+      "inputLabel": "без очију",
+      "inputLabelStableId": "string:0cbd8a7a4f543344bb95659de87f67a5:104046912809275392",
+      "assembledCurrentExample": "Hunter: Код тебе је већ без очију.",
+      "assembledProposedExample": "Hunter: Код тебе је већ неко — без очију.",
+      "proposalSafety": "complete unit preserve-exact passed; all known candidate examples recorded below; unknown Neighbour label excluded",
+      "knownProposedCases": [
+        {
+          "enum": "Blind",
+          "assembledTarget": "Hunter: Код тебе је већ неко — без очију."
+        },
+        {
+          "enum": "FortuneTeller",
+          "assembledTarget": "Hunter: Код тебе је већ неко — жена с тарот картама."
+        },
+        {
+          "enum": "Leper",
+          "assembledTarget": "Hunter: Код тебе је већ неко — тип с кожним проблемима."
+        }
+      ]
+    }
+  ]
+}
