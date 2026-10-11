@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T19:13:37.752787+00:00",
+  "updatedAt": "2026-10-11T15:09:11.482609+00:00",
   "game": "No, I'm not a Human",
   "slug": "no-im-not-a-human",
   "gameVersion": "1.3.19",
@@ -2933,7 +2933,7 @@
     "packageAndRuntime": "not assessed by this draft scan"
   },
   "mechanicsRepair": {
-    "status": "development draft; local commit authorized; independent editorial and runtime acceptance pending",
+    "status": "Included in 0.2.1-preview; real IL2CPP model/table checks passed; independent editorial and full-game acceptance pending",
     "locales": [
       "th",
       "id",
@@ -2956,19 +2956,20 @@
     "policy": "Resources/Localization/mechanics-v1.json",
     "recipe": "Documentation/LOCALIZATION_MECHANICS.md",
     "evidenceRoot": "outputs/localization-mechanics-v1",
-    "rendererVersion": "0.4.0",
-    "runtimeInstalled": false,
+    "rendererVersion": "0.4.1",
+    "runtimeInstalled": true,
     "historicalAcceptance": "unchanged; stale for the repaired drafts",
     "commitAuthorized": true,
-    "publicationAuthorized": false,
-    "latestRendererArtifact": "outputs/radio-mechanics-build-v3/NoHuman.TextRenderer.dll",
-    "rendererSha256": "ab652a76934d668dd354aa820be3c1924d35b63ee732f82baebaae25fd5090c2",
+    "publicationAuthorized": true,
+    "latestRendererArtifact": "outputs/launcher-renderer-v2/bin/net6.0/NoHuman.TextRenderer.dll",
+    "rendererSha256": "019fde7ce62d3401b67939b79ba8360ba79daa9bda7cc2e81d400ae73aaa6053",
     "tests": {
       "python": "4 tests passed; actual guards and partial-write continuation",
       "radio": ".NET 6.0.36; 728 authored messages passed",
       "corpus": "14 x 16538 current rows passed",
       "historicalSidecars": "14 normal-loader stale rejections; historical evidence preserved",
-      "runtime": "not-run"
-    }
+      "runtime": "14 custom locales x 52 radio messages and 64 speech rows, actual IL2CPP RadioModel and shipping hooks; Russian original control; macOS wrapper; excludes radio TMP/timing/audio/input/full branches"
+    },
+    "releaseEvidence": "Documentation/LAUNCHER_PREVIEW_021.json"
   }
 }

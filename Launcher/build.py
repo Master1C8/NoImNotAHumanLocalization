@@ -46,7 +46,7 @@ def build(payload,out,zig):
         run(['swiftc','-parse-as-library','-O','-target',arch+'-apple-macos14','-module-cache-path','/private/tmp/nohuman-swift-cache',ROOT/'Launcher/macOS.swift','-o',out/('ui-'+arch)])
     for name,prefix in [('nohuman-engine','engine-'),('No Human Launcher','ui-')]:run(['lipo','-create',out/(prefix+'arm64'),out/(prefix+'x86_64'),'-output',mac/name])
     shutil.copytree(payload,res/'Payload');shutil.copy(ROOT/'Launcher/Icons/Game.icns',res/'App.icns')
-    info={'CFBundleName':'No Human Launcher','CFBundleDisplayName':'VN Revival — No, I’m not a Human','CFBundleExecutable':'No Human Launcher','CFBundleIdentifier':'fun.vnrevival.nohuman.launcher','CFBundleVersion':'2','CFBundleShortVersionString':'0.2.0','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'14.0','NSHighResolutionCapable':True,'CFBundleIconFile':'App.icns'}
+    info={'CFBundleName':'No Human Launcher','CFBundleDisplayName':'VN Revival — No, I’m not a Human','CFBundleExecutable':'No Human Launcher','CFBundleIdentifier':'fun.vnrevival.nohuman.launcher','CFBundleVersion':'3','CFBundleShortVersionString':'0.2.1','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'14.0','NSHighResolutionCapable':True,'CFBundleIconFile':'App.icns'}
     (app/'Contents/Info.plist').write_bytes(plistlib.dumps(info))
     for destination in [res,win/'Resources']:
         shutil.copytree(ROOT/'Launcher/Licenses',destination/'Licenses')
@@ -55,13 +55,13 @@ def build(payload,out,zig):
         provenance=json.loads((payload/'provenance.json').read_text())
         assert len(set(locales))==len(locales) and set(locales)=={p['locale'] for p in provenance['reviewedProfiles']}
         required=['Payload/'+line.split('\t')[0] for line in (payload/'inventory.tsv').read_text().splitlines()]+['Payload/inventory.tsv']
-        manifest={'schemaVersion':1,'gameSlug':'no-im-not-a-human','platform':'macos' if destination==res else 'windows','releaseVersion':'0.2.0-preview','locales':{locale:{'requiredPaths':required} for locale in locales}}
+        manifest={'schemaVersion':1,'gameSlug':'no-im-not-a-human','platform':'macos' if destination==res else 'windows','releaseVersion':'0.2.1-preview','locales':{locale:{'requiredPaths':required} for locale in locales}}
         (destination/'vnrevival-locales.json').write_text(json.dumps(manifest,indent=2)+'\n')
     run(['codesign','--force','--deep','--sign','-',app]);run(['codesign','--verify','--deep','--strict',app])
     # Delivery archives are generated only after compilation and signature validation.
     archives={}
     for platform,folder in [('macOS',app),('Windows',win)]:
-        target=out/('NoHuman-Launcher-'+platform+'-preview-v4.zip')
+        target=out/('NoHuman-Launcher-'+platform+'-preview-v5.zip')
         if platform=='macOS':run(['ditto','-c','-k','--sequesterRsrc','--keepParent',folder,target])
         else:
             with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:

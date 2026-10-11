@@ -126,3 +126,9 @@ unit; `18-8` and `451` must not stay readable at weakest signal; permanent gaps
 must remain at perfect tuning; Foreigner's understood word must remain readable
 between opaque parts; replacing the Bulgarian opaque body with fluent text must
 fail the shared mechanics guard.
+
+## Preview 0.2.1 integration
+
+The owner authorized including all existing fixes and republishing on October 11, 2026. `Documentation/LAUNCHER_PREVIEW_021.json` records the current boundary. The launcher now reads every current authored value with the shared structural/mechanics guard instead of silently republishing stale frozen tables. It preserves baseline assets and records exact per-locale deltas and input hashes. Renderer 0.4.1 merges the current radio/RTL hooks with the reviewed Hindi/Hebrew bindings. Historical development evidence above remains unchanged.
+
+The actual delivered DLL executed native RadioModel methods for all 728 custom radio messages and loaded all 896 repaired speech rows in the macOS wrapper. The Russian original implementation is a matching positive control. These tests use a task-owned model with null gameplay dependencies: they establish Harmony hook execution, tuning/noise and shipping table parity, but do not establish radio close-up TMP layout, gameplay timing/audio/input, all radio nodes or independent editorial acceptance. Preview publication must not be reported as full-game acceptance.

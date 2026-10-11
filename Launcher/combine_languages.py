@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Combine frozen accepted text into the verified native 32-locale catalog.
+"""Combine the reviewed baseline with current structurally checked preview text.
 
 Never translate or edit the owner's live translation/renderer checkout.
 """
@@ -12,6 +12,7 @@ from probe_assets import DEFAULT_GAME, EXPECTED_UNITY, digest, require
 from build_locale_probe import LANGUAGES, save_verified
 from unity_types import CheckedTypeTreeGenerator, generated_tree
 from addressables_catalog import Catalog, update_bundle
+from locale_text_inputs import current_text
 
 def build(out):
     require(out.is_relative_to(ROOT/'outputs') and not out.exists(),'Use a new canonical output directory')
@@ -53,6 +54,8 @@ def build(out):
     entries={};expected_tables={};provenance=[]
     for row in plan:
         loc=row['locale'];archive=ROOT/row['archive'];require(digest(archive)==row['archiveSha256'],'Frozen archive changed')
+        current,input_files=current_text(loc,require_sidecars=False)
+        changes=[]
         with zipfile.ZipFile(archive) as z:
             report=json.loads(z.read('report.json'))
             require(report['locale']==loc and len(report['artifacts'])==31,'Frozen archive scope differs')
@@ -64,12 +67,22 @@ def build(out):
                 for obj in selected:
                     title=obj.peek_name();target=objects[title];require(target.path_id==obj.path_id,'Stable table identity differs')
                     tree=obj.read_typetree()
+                    collection=title[:-(len(loc)+1)]
+                    targets={key:value for (c,key),value in current.items() if c==collection}
+                    present={v['m_Id'] for v in tree['m_TableData']}
+                    require(set(targets)<=present,'Current target IDs missing from frozen table')
+                    for value in tree['m_TableData']:
+                        key=value['m_Id']
+                        if key in targets:
+                            if value['m_Localized']!=targets[key]:
+                                changes.append({'collection':collection,'id':key,'before':value['m_Localized'],'after':targets[key]})
+                            value['m_Localized']=targets[key]
                     if title=='UI_'+loc:
                         ids=set(baseline['languageKeyIds'].values())
                         tree['m_TableData']=[v for v in tree['m_TableData'] if v['m_Id'] not in ids]
                         tree['m_TableData'].extend({'m_Id':baseline['languageKeyIds'][c],'m_Localized':label,'m_Metadata':{'m_Items':[]}} for c,(_,label) in LANGUAGES.items())
                         target.save_typetree(tree)
-                    else:target.set_raw_data(obj.get_raw_data())
+                    else:target.save_typetree(tree)
                     expected_tables[title]=tree
             by_file={}
             for stable in static_ids:
@@ -80,10 +93,13 @@ def build(out):
                 env=UnityPy.load(raw);source=UnityPy.load(str(DEFAULT_GAME/relative));source.typetree_generator=generator
                 for stable,pid in ids:
                     original,schema=generated_tree(source.file.objects[pid]);tree=env.file.objects[pid].read_typetree(nodes=schema)
-                    entry=entries.setdefault(stable,{'fallback':original['m_text'],'values':{}});entry['values'][loc]=tree['m_text']
+                    entry=entries.setdefault(stable,{'fallback':original['m_text'],'values':{}});entry['values'][loc]=current[('static',stable)]
+                    if tree['m_text']!=current[('static',stable)]:
+                        changes.append({'collection':'static','id':stable,'before':tree['m_text'],'after':current[('static',stable)]})
                     if 'originalText' in tree:require(tree['originalText']==tree['m_text'],'Frozen RTL source and display disagree')
-            provenance.append({'locale':loc,'archiveSha256':row['archiveSha256']})
-        print('Combined exact tables/static values:',loc,flush=True)
+            provenance.append({'locale':loc,'archiveSha256':row['archiveSha256'],'currentInputFiles':input_files,'changedRows':len(changes),'independentMechanicsReview':'pending'})
+        (out/(loc+'-preview-delta.json')).write_text(json.dumps(changes,ensure_ascii=False,indent=2)+'\n')
+        print('Combined current preview tables/static values:',loc,'changed:',len(changes),flush=True)
     checks={};catalog=(out/'NoImNotAHuman_Data/StreamingAssets/aa/catalog.bin').read_bytes()
     for name,env,original in [(string_name,string_env,string_original),(asset_name,asset_env,asset_original)]:
         allowed={o.path_id for o in env.objects if o.type.name=='MonoBehaviour' and o.peek_name() in expected_tables}
@@ -120,7 +136,9 @@ def build(out):
     # all generated inputs and output bytes for packaging and runtime review.
     artifacts={str(p.relative_to(out)):{'sha256':digest(p)} for p in sorted((out/'NoImNotAHuman_Data').rglob('*')) if p.is_file()}
     require(len(artifacts)==31,'Combined game artifact scope differs')
-    report={'schemaVersion':1,'mode':'all-native','locales':list(LANGUAGES),'nativeLocales':32,'artifacts':artifacts,'staticEntries':178,'staticValues':178*14,'tableObjects':len(expected_tables),'reviewedProfiles':provenance,'nativeBaseReportSha256':digest(base/'report.json'),'fullFontReceiptSha256':digest(fonts/'receipt.json'),'staticTextSha256':digest(out/'static-text.json'),'serializedChecks':checks,'authoredTranslationChanges':False,'runtime':'pending'}
+    for profile in provenance:
+        require(all(digest(ROOT/r['path'])==r['sha256'] for r in profile['currentInputFiles']),'Current authored input changed during build')
+    report={'schemaVersion':2,'mode':'all-native','locales':list(LANGUAGES),'nativeLocales':32,'artifacts':artifacts,'staticEntries':178,'staticValues':178*14,'tableObjects':len(expected_tables),'reviewedProfiles':provenance,'nativeBaseReportSha256':digest(base/'report.json'),'fullFontReceiptSha256':digest(fonts/'receipt.json'),'staticTextSha256':digest(out/'static-text.json'),'serializedChecks':checks,'authoredTranslationChanges':False,'scope':'Current authored preview corpus including Foreigner/radio corrections; independent mechanics review pending','runtime':'pending'}
     (out/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'nativeLocales':32,'artifacts':31,'staticValues':2492,'runtime':'pending'}),flush=True)
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);a=p.parse_args();build(a.out.resolve())

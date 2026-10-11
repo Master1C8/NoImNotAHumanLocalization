@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "0.2.1-preview",
+  "gameVersion": "1.3.19",
+  "scope": "Every current structurally checked authored input over frozen reviewed baseline; no owner diagnostic work included",
+  "changedAuthoredRows": 865,
+  "currentInputsAndDeltas": "outputs/launcher-combined-v5/report.json",
+  "renderer": {
+    "version": "0.4.1",
+    "sha256": "019fde7ce62d3401b67939b79ba8360ba79daa9bda7cc2e81d400ae73aaa6053",
+    "recipe": "Launcher/build_renderer.py",
+    "receipt": "outputs/launcher-renderer-v2/receipt.json",
+    "retains": "Reviewed Hindi/Hebrew font bindings and all current radio/RTL hooks"
+  },
+  "payloadInventorySha256": "c76639fa140856fa31eae0dca10fc1cf117a4248f1678f99274c9057d2a08f2c",
+  "buildReceipt": "outputs/launcher-build-v14/build.json",
+  "deliveryReceipt": "dist/NoHuman-Launcher-preview-v5-delivery.json",
+  "freshInstall": "outputs/launcher-engine-test-v11/report.json",
+  "changedContentUpgrade": "outputs/launcher-upgrade-test-v2/report.json",
+  "runtime": {
+    "macos": "outputs/launcher-publication-v2/macos-runtime/runtime-check.json",
+    "windows": "Actual new archive upgraded separate CrossOver installation and loaded shipping 0.4.1; owner took over after Thai radio probe; all-locale automation not completed",
+    "modelBoundary": "Actual native RadioModel methods + shipping Harmony hooks, task-owned model with null gameplay dependencies",
+    "nativeMessages": 728,
+    "nativeSpeechRows": 896,
+    "originalLocaleControl": "ru",
+    "visualReview": "Five settings screens hi/he/fa/th/nl inspected; no missing glyphs or clipping; Dutch sound label wraps across two lines",
+    "cleanup": "macOS task DLL/opt-in removed, functional settings/saves preserved; CrossOver task DLL removal waits for owner manual check"
+  },
+  "pending": [
+    "Independent editorial mechanics review",
+    "Actual radio close-up TMP layout, timing/audio/input and all 13 nodes",
+    "Full-game branch and linguistic acceptance",
+    "Physical Windows/Intel Mac execution"
+  ],
+  "publication": "Prepared; current user authorized replacement of both archives; site writes recorded separately"
+}

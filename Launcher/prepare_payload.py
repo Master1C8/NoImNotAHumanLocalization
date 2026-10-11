@@ -38,9 +38,10 @@ def compressor():
 def build(out):
     assert not out.exists(), 'Preserve previous payload'
     out.mkdir(parents=True); (out/'profiles').mkdir()
-    combined=ROOT/'outputs/launcher-combined-v4'
+    combined=ROOT/'outputs/launcher-combined-v5'
     report=json.loads((combined/'report.json').read_text())
     assert report['mode']=='all-native' and report['nativeLocales']==32 and set(report['locales'])==set(NAMES)
+    assert all(sha((ROOT/r['path']).read_bytes())==r['sha256'] for p in report['reviewedProfiles'] for r in p['currentInputFiles']), 'Current authored preview input changed'
     assert len(report['artifacts'])==31 and report['staticEntries']==178
     files={name:(combined/name).read_bytes() for name in report['artifacts']}
     assert all(sha(files[n])==a['sha256'] for n,a in report['artifacts'].items())
@@ -68,7 +69,7 @@ def build(out):
     files['BepInEx/plugins/NoHuman.NativeLanguages/NoHuman.NativeLanguages.dll']=module.read_bytes()
     text=(combined/'static-text.json').read_bytes();assert sha(text)==report['staticTextSha256']
     files['BepInEx/plugins/NoHuman.NativeLanguages/static-text.json']=text
-    renderer=ROOT/'outputs/launcher-renderer-v1';rr=json.loads((renderer/'receipt.json').read_text())
+    renderer=ROOT/'outputs/launcher-renderer-v2';rr=json.loads((renderer/'receipt.json').read_text())
     binary=(renderer/'bin/net6.0/NoHuman.TextRenderer.dll').read_bytes();assert sha(binary)==rr['binarySha256']
     files['BepInEx/plugins/NoHuman.TextRenderer/NoHuman.TextRenderer.dll']=binary
     pins=json.loads((ROOT/'Resources/VisualQA/capture-renderer-v1.json').read_text())['pluginFiles']
@@ -105,8 +106,14 @@ def build(out):
     (out/'game-version.tsv').write_text(''.join(name+'\t'+expected+'\n' for name,expected in game_version.items()))
     assert all(sha((GAME/name).read_bytes())==expected for name,expected in cache_pins.items()), 'Interop checkpoint changed during packaging'
     assert all(sha((ORIGINAL/name).read_bytes())==expected for name,expected in base_hashes.items())
-    receipt={'schemaVersion':2,'compression':'zstandard-1.5.7-level-19','version':'0.2.0','mode':'all-native','baseProject':'StardewTranslationInstaller','baseRevision':'d4154ff15c7c27c801d197750db36c39bc460aa8','reviewedProfiles':report['reviewedProfiles'],'combinedReportSha256':sha((combined/'report.json').read_bytes()),'rendererVersion':'0.3.4','nativeLocales':32,'staticEntries':178,'files':len(files),'logicalBytes':total,'compressedChunkBytes':(out/'chunks.bin').stat().st_size,'chunkCount':len(blobs),'gameVersion':'1.3.19','buildGuid':'c003ddc7de634775a85305fef3b9a0d3','gameCodePins':game_version,'interopCacheFiles':len(cache_pins),'interopAssemblyHash':interop_hash,'interopHashAlgorithm':'BE.788 ComputeHash; GameAssembly + generator 1.5.3.0 + Cpp2IL 2022.1.0.0, no generation-only base libraries','scope':'All 14 frozen reviewed translations installed simultaneously; selection/persistence in native game settings. Subsequent Foreigner/radio mechanics changes excluded.'}
+    receipt={'schemaVersion':2,'compression':'zstandard-1.5.7-level-19','version':'0.2.1','mode':'all-native','baseProject':'StardewTranslationInstaller','baseRevision':'d4154ff15c7c27c801d197750db36c39bc460aa8','reviewedProfiles':report['reviewedProfiles'],'combinedReportSha256':sha((combined/'report.json').read_bytes()),'rendererVersion':'0.4.1','nativeLocales':32,'staticEntries':178,'files':len(files),'logicalBytes':total,'compressedChunkBytes':(out/'chunks.bin').stat().st_size,'chunkCount':len(blobs),'gameVersion':'1.3.19','buildGuid':'c003ddc7de634775a85305fef3b9a0d3','gameCodePins':game_version,'interopCacheFiles':len(cache_pins),'interopAssemblyHash':interop_hash,'interopHashAlgorithm':'BE.788 ComputeHash; GameAssembly + generator 1.5.3.0 + Cpp2IL 2022.1.0.0, no generation-only base libraries','scope':'All 14 current structurally checked preview translations including Foreigner/radio corrections; native settings selection/persistence. Independent mechanics review and full-game acceptance pending.'}
     (out/'provenance.json').write_text(json.dumps(receipt,indent=2)+'\n')
+    previous=ROOT/'outputs/launcher-payload-v11'
+    assert sha((previous/'inventory.tsv').read_bytes())=='6f43e479accdcbaaea8ea89efb4665aabe50c9f87f83182456ff34ce5e6add16'
+    rows=dict(line.split('\t') for line in (previous/'inventory.tsv').read_text().splitlines())
+    profile=(previous/'profiles/all.tsv').read_bytes()
+    assert sha(profile)==rows['profiles/all.tsv']
+    (out/'previous-all.tsv').write_bytes(profile)
     (out/'inventory.tsv').write_text(''.join(str(p.relative_to(out))+'\t'+sha(p.read_bytes())+'\n' for p in sorted(out.rglob('*')) if p.is_file()))
     print(json.dumps(receipt),flush=True)
 

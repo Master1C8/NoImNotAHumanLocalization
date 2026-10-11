@@ -30,6 +30,39 @@ def upgrade(engine,payload,game,out):
             'legacyCacheFilesPreserved':len(before),'installedFilesVerified':len(rows),
             'boundary':'Real compression-only cache upgrade; identical target bytes, separate inventory-hash namespace, legacy cache retained.'}
     (out/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
+def changed_upgrade(engine,payload,previous_engine,previous_payload,out):
+    """Update a real previous install, including rollback and unknown edits."""
+    assert not out.exists();out.mkdir(parents=True);game=out/'game';game.mkdir()
+    for manifest in ['originals.tsv','game-version.tsv']:
+        for line in (payload/manifest).read_text().splitlines():
+            name,expected=line.split('\t');dest=game/name;dest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(ORIGINAL/name,dest);assert sha(dest)==expected
+    shutil.copyfile(ORIGINAL/'NoImNotAHuman_Data/boot.config',game/'NoImNotAHuman_Data/boot.config')
+    invoke(previous_engine,previous_payload,game,'all')
+    old=profile(previous_payload,'all');new=profile(payload,'all')
+    assert all(sha(game/r[0])==r[2] for r in old)
+    changed=[r for r in new if next(p[2] for p in old if p[0]==r[0])!=r[2]]
+    assert len(changed)>=3, 'Must exercise changed translation, catalog and DLL'
+    foreign=game/'BepInEx/plugins/OwnerMod/keep.txt';foreign.parent.mkdir(parents=True);foreign.write_text('Owner mod\n')
+    target=game/changed[0][0];saved=target.read_bytes();target.write_bytes(b'Owner modification\n')
+    invoke(engine,payload,game,'all','Unknown modification')
+    assert target.read_bytes()==b'Owner modification\n';target.write_bytes(saved)
+    boundary=next(i+1 for i,r in enumerate(new) if r[0]==changed[0][0])+1
+    invoke(engine,payload,game,'all','Injected interruption',dict(os.environ,NOHUMAN_FAIL_AFTER=str(boundary)))
+    assert all(sha(game/r[0])==r[2] for r in old)
+    assert (game/'VNRevival-NoHuman/active.txt').read_text()=='all\n'
+    result=subprocess.run([str(engine),str(payload),str(game),'all'],capture_output=True,text=True,env=dict(os.environ,NOHUMAN_CRASH_AFTER=str(boundary)))
+    assert result.returncode==75
+    invoke(engine,payload,game,'all',env=dict(os.environ,NOHUMAN_RECOVER_ONLY='1'))
+    assert all(sha(game/r[0])==r[2] for r in old)
+    invoke(engine,payload,game,'all');assert all(sha(game/r[0])==r[2] for r in new)
+    invoke(engine,payload,game,'all');assert all(sha(game/r[0])==r[2] for r in new)
+    assert foreign.read_text()=='Owner mod\n'
+    cache=game/'VNRevival-NoHuman/payload'/sha(previous_payload/'inventory.tsv')
+    for line in (previous_payload/'inventory.tsv').read_text().splitlines():
+        name,expected=line.split('\t');assert sha(cache/name)==expected
+    report={'oldInventorySha256':sha(previous_payload/'inventory.tsv'),'newInventorySha256':sha(payload/'inventory.tsv'),'changedFiles':len(changed),'checkedFiles':len(new),'checks':['real published install','unknown owner edit rejected','failed update rolls back prior files','fresh process continues from crashed update','changed target update succeeds','unchanged repeat','owner mod and previous cache retained'],'boundary':'Real previous and current payload reconstruction; no game runtime claim'}
+    (out/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 def test(engine,payload,out):
     assert not out.exists();out.mkdir(parents=True);game=out/'game';game.mkdir();start=time.time();checks=[]
     bad=out/'wrong-build';(bad/'NoImNotAHuman_Data').mkdir(parents=True);(bad/'NoImNotAHuman_Data/boot.config').write_text('build-guid=wrong\n')
@@ -83,6 +116,9 @@ def test(engine,payload,out):
     report={'nativeEngineSha256':sha(engine),'payloadInventorySha256':sha(payload/'inventory.tsv'),'locales':locales,'installedFiles':410,'checks':checks,'seconds':round(time.time()-start,2),'boundary':'Real file reconstruction, ownership and transactional replacement. No game/UI execution is mocked or claimed.'}
     (out/'report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report),flush=True)
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--engine',type=Path,required=True);p.add_argument('--payload',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--upgrade-game',type=Path);a=p.parse_args()
-    if a.upgrade_game:upgrade(a.engine.resolve(),a.payload.resolve(),a.upgrade_game.resolve(),a.out.resolve())
+    p=argparse.ArgumentParser();p.add_argument('--engine',type=Path,required=True);p.add_argument('--payload',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--upgrade-game',type=Path);p.add_argument('--previous-engine',type=Path);p.add_argument('--previous-payload',type=Path);a=p.parse_args()
+    if a.previous_engine:
+        assert a.previous_payload and not a.upgrade_game
+        changed_upgrade(a.engine.resolve(),a.payload.resolve(),a.previous_engine.resolve(),a.previous_payload.resolve(),a.out.resolve())
+    elif a.upgrade_game:upgrade(a.engine.resolve(),a.payload.resolve(),a.upgrade_game.resolve(),a.out.resolve())
     else:test(a.engine.resolve(),a.payload.resolve(),a.out.resolve())
