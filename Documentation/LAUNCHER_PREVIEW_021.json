@@ -25,7 +25,11 @@
     "nativeSpeechRows": 896,
     "originalLocaleControl": "ru",
     "visualReview": "Five settings screens hi/he/fa/th/nl inspected; no missing glyphs or clipping; Dutch sound label wraps across two lines",
-    "cleanup": "macOS task DLL/opt-in removed, functional settings/saves preserved; CrossOver task DLL removal waits for owner manual check"
+    "cleanup": "macOS and CrossOver task DLL/opt-in removed; latest owner settings and saves preserved after confirmed manual testing",
+    "cleanupReceipts": [
+      "outputs/launcher-publication-v2/macos-runtime/cleanup.json",
+      "outputs/launcher-publication-v2/windows-runtime/cleanup.json"
+    ]
   },
   "pending": [
     "Independent editorial mechanics review",
@@ -33,5 +37,61 @@
     "Full-game branch and linguistic acceptance",
     "Physical Windows/Intel Mac execution"
   ],
-  "publication": "Prepared; current user authorized replacement of both archives; site writes recorded separately"
+  "publication": {
+    "game": "no-im-not-a-human",
+    "version": "0.2.1-preview",
+    "publicUrl": "https://vnrevival.fun/nl/games/no-im-not-a-human",
+    "buildCommit": "5b82b38e9ae77ff950afca99957601f8268d9a76",
+    "siteRuntimeCommit": "9349a8b0267f66f4f47dc6de3cb30d251b224d4a",
+    "siteAuditCliCommit": "662838805d775537c5b7d87ccd326dc1b12b717b",
+    "integrityCapture": "2026-10-11T15:57:02.722Z",
+    "archives": [
+      {
+        "game": "no-im-not-a-human",
+        "platform": "windows",
+        "version": "0.2.1-preview",
+        "fileId": "33",
+        "filename": "no-im-not-a-human-windows-dda0f80630bc.zip",
+        "sizeBytes": 86416691,
+        "fileUpdatedAt": "2026-10-11T15:53:51.408Z",
+        "sha256": "dda0f80630bc9fddc1b8684bba1e3cb5c6f94862db7a49a8e719582ca9195514",
+        "sourceCommit": null
+      },
+      {
+        "game": "no-im-not-a-human",
+        "platform": "macos",
+        "version": "0.2.1-preview",
+        "fileId": "34",
+        "filename": "no-im-not-a-human-macos-5ed92b820d75.zip",
+        "sizeBytes": 87425790,
+        "fileUpdatedAt": "2026-10-11T15:55:25.865Z",
+        "sha256": "5ed92b820d756a163e479d9c531dd971a9c99fb8484120188adf36e2ec8ed9c8",
+        "sourceCommit": null
+      }
+    ],
+    "releaseIntegrityReceipt": "outputs/launcher-publication-v2/release-integrity-parsed.json",
+    "contentAuditReceipt": "outputs/launcher-publication-v2/content-audit-final.json",
+    "releaseContentChecks": "No release metadata, payload, manifest, archive locale or screenshot issues",
+    "outOfScopeContentIssues": [
+      "discord-publication",
+      "telegram-publication",
+      "youtube-video"
+    ],
+    "screenshots": "Existing 84 screenshots retained",
+    "writeBoundary": "Metadata and each platform archive are separate transactions; previous ModFiles 31 and 32 retained for recovery"
+  },
+  "measuredUsage": {
+    "records": 5,
+    "totalTokens": 155604150,
+    "cutoff": "2026-10-11T15:13:35.484Z",
+    "evidence": "outputs/launcher-publication-v2/usage-evidence.json",
+    "readback": "outputs/launcher-publication-v2/model-usage-final-readback.log",
+    "excluded": "Later publication/site-guard repairs, reporting and unreported platform overhead; confirmed monetary charge unavailable"
+  },
+  "publicationRecipe": {
+    "locking": "Serialize card-edit dry-runs for one game; project URL and release metadata edits use the same flock even when read-only",
+    "regression": "Concurrent same-game URL/version dry-runs may reject one at the lock boundary without writes; finish the existing job and retry that plan sequentially",
+    "releaseIdentity": "Current release metadata can advance while preserving the historical initial-testing changelog row; both Games hook and content audit must accept the same state",
+    "provenance": "Use the pinned build source hashes and archive bytes; later documentation or audit commits do not identify the build"
+  }
 }
