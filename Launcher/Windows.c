@@ -300,8 +300,13 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE previous, PWSTR commandLine, i
     windowClass.lpszClassName = L"VNRevivalNoHumanInstallerWindow";
     if (!RegisterClassExW(&windowClass)) return 1;
 
-    const int width = 590;
-    const int height = 320;
+    // Controls use client coordinates. Include the actual caption and border
+    // metrics instead of subtracting a fixed non-client height at high DPI.
+    const DWORD windowStyle = WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX;
+    RECT windowBounds = {0, 0, 590, 290};
+    if (!AdjustWindowRectEx(&windowBounds, windowStyle, FALSE, 0)) return 1;
+    const int width = windowBounds.right - windowBounds.left;
+    const int height = windowBounds.bottom - windowBounds.top;
     RECT desktop;
     SystemParametersInfoW(SPI_GETWORKAREA, 0, &desktop, 0);
     int x = desktop.left + (desktop.right - desktop.left - width) / 2;
@@ -310,7 +315,7 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE previous, PWSTR commandLine, i
         0,
         windowClass.lpszClassName,
         APP_TITLE,
-        WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX,
+        windowStyle,
         x,
         y,
         width,

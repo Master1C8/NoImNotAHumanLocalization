@@ -21,3 +21,20 @@ Every repeated test must change an input or test a changed hypothesis. Keep prio
 Changed-content upgrade regression: install the exact published previous payload, verify its first postcondition, then update with different table/catalog/renderer bytes. The new payload pins the previous `all.tsv` to establish old ownership. Reject an unknown same-name owner edit; inject a failure after actual changed promotions and verify old files/receipt; crash and recover in a fresh process before retrying; verify new target hashes, an unchanged repeat, old cache retention and unrelated mods. A successful clean installation or a compression-only upgrade does not replace this check.
 
 Radio runtime regression: execute the shipping renderer in the actual IL2CPP game; verify loader hook setup, localized logical text and weak/intermediate/perfect signal behavior, original-locale fallback, AM/FM multiplier and script handling. Logical .NET tests alone do not verify Harmony/TMP. Keep every probe in the task-only QA assembly, never the player payload.
+
+Windows layout regression: derive the outer window dimensions from the required
+590×290 client area with `AdjustWindowRectEx` and the exact creation styles.
+Do not use a fixed outer height: caption/border metrics at high DPI can clip the
+bottom hint. On October 12, 2026, the actual Windows ARM64 guest in Parallels
+26.4.1, Windows 11 25H2 build 26200.9457, retained its existing 200% scale
+(`LogPixels=192`). Visually checked installing, success and unsupported-build
+states: status text, progress, Retry/Choose game, Launch game and the complete
+bottom hint fit. The unsupported-build control used a verified absent test path;
+the positive control installed the supported 1.3.19 game in the same environment.
+The rebuilt Windows archive is `dist/NoHuman-Launcher-Windows-preview-v6.zip`,
+86,416,857 bytes, SHA-256
+`3fa3342afdf6eaabf789eb7c00f607c9ad9b9e68055c482b48ac77af85b4b696`.
+Every ZIP entry except the launcher EXE and PDB is identical to the published
+0.2.1-preview Windows package. This is a local UI repair; site publication is a
+separate action. Visual bounds do not establish guest mouse-input automation or
+untested scale/monitor transitions. Preserve the VM's existing scale.
