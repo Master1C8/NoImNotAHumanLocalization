@@ -21,8 +21,31 @@ Every initially stored term and meaning was verified against that accepted layer
 canonical CLI; see the [publication receipt](Documentation/glossary-translations/publication/2026-10-08/receipt.json).
 Public-page rendering was not checked. Rendering feasibility
 remains a separate incomplete gate. The accepted text-only inventory contains
-16,538 selected units per locale. No final multi-locale package or release
-exists yet. See [the shared checkpoint](Documentation/localization-state.json).
+16,538 selected units per locale. Published preview archives exist for Windows and macOS:
+the site labels them `0.2.1`, while each archive's `vnrevival-locales.json` records
+`0.2.1-preview`. Both include Thai, Indonesian, Czech, Hungarian, Dutch, Persian,
+Romanian, Hindi, Filipino, Greek, Bulgarian, Serbian, Swahili and Hebrew.
+The exact published archives were hashed through SiteForMods on 12 October 2026:
+
+- Windows: `3fa3342afdf6eaabf789eb7c00f607c9ad9b9e68055c482b48ac77af85b4b696`
+- macOS: `5ed92b820d756a163e479d9c531dd971a9c99fb8484120188adf36e2ec8ed9c8`
+
+The included README requires game 1.3.19, build GUID
+`c003ddc7de634775a85305fef3b9a0d3`, Windows x64 or macOS 14+ using the existing
+Sikarugir wrapper. These requirements are not an independent runtime QA result.
+Both archives describe a preview: independent editorial acceptance of the
+Foreigner/radio mechanics corrections and full-game linguistic/gameplay acceptance
+remain pending. Glossary readiness does not establish complete game readiness.
+No game source commit is recorded by either archive. The named Stardew installer
+base revision is not provenance for the whole game package.
+The current local work and older bounded QA reports must be assessed separately
+from these exact uploaded bytes. The matching macOS delivery receipt records 409
+installed files and bounded native radio/speech-hook checks in all 14 target locales;
+it excludes actual radio layout, timing/audio/input and full-game branches. The
+older Windows runtime receipt identifies different archive bytes and does not
+establish runtime QA for the current replacement. These historical checks were
+not rerun as part of the site documentation task.
+See [the shared checkpoint](Documentation/localization-state.json).
 
 ## Reproduce the bounded static checks
 
