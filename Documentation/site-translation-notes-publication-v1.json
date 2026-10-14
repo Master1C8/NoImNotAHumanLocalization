@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "game": "no-im-not-a-human",
+  "status": "published and verified: all 14 language attachments",
+  "manifest": "Documentation/site-translation-notes-v1.json",
+  "manifestSha256": "d70d921daa1aa86d6f194ac7b79bd2badb79f1a8c689986bfdc126e36b2b4517",
+  "siteNoteFormat": "Localized title and four plain-text paragraphs per language; no new images",
+  "locales": [
+    "th",
+    "id",
+    "cs",
+    "hu",
+    "nl",
+    "fa",
+    "ro",
+    "hi",
+    "fil",
+    "el",
+    "bg",
+    "sr",
+    "sw",
+    "he"
+  ],
+  "sourceEvidence": [
+    "Resources/Localization/mechanics-v1.json",
+    "Scripts/foreigner_mechanics.py",
+    "RuntimePlugin/RadioText.cs",
+    "RuntimePlugin/RadioHooks.cs",
+    "Documentation/LOCALIZATION_MECHANICS.md",
+    "Documentation/LAUNCHER_PREVIEW_021.json",
+    "outputs/launcher-publication-v2/macos-runtime/runtime-check.json"
+  ],
+  "checks": {
+    "jsonAndCliManifestSize": "passed",
+    "uniqueLocaleCoverageAndPolicyParity": "passed: 14/14",
+    "sourceBoundSpeechRecipes": "passed: 64 rows per locale",
+    "authoredRadioInventory": "passed: 52 entries per locale",
+    "copyReview": "all 14 authored notes reviewed against the shared implementation; limited engine-test scope stated explicitly",
+    "existingProductionNotes": "dry-run verified: none for all 14 locales",
+    "productionWrite": "passed: 14 additions in one guarded transaction; exact note read-back before commit; cache invalidated afterward",
+    "publicPageRendering": "passed: all 14 canonical HTTPS pages contain exact title and four paragraphs, correct locale/direction and collapsed note disclosure",
+    "deploymentPreflight": "not needed for data publication; the earlier deployment diagnostic is retained in attempts",
+    "visualScreenshotReview": "not run; HTML verification does not establish visual layout",
+    "repeatApplicationPlan": "passed: fresh dry-run reports No content changes."
+  },
+  "attempts": [
+    "Relative manifest path rejected locally because CLI changes to SiteForMods root; no production request.",
+    "Absolute-path dry run blocked by sandbox SSH isolation; no production request.",
+    "Escalated absolute-path dry run read runtime identity, then rejected package-lock.json mismatch before manifest transfer or game-content access.",
+    "CLI deploy dry-run with normal credential/network access rejected unrelated uncommitted OMORI checkout state: Commit the canonical checkout before cloud deployment. No cloud dispatch or production write.",
+    "First persistent guard repair was rejected by automatic approval review before execution. Owner subsequently explicitly authorized CLI changes; the reviewed repair was applied and committed.",
+    "Corrected CLI dry-run verified 42 source inputs against actual runtime; all original locked packages identical; only unused js-tiktoken dev tooling added.",
+    "Production dry-run planned exactly 14 new notes, all previous note values null; every after value matched the authored manifest.",
+    "Reviewed fingerprint applied once; transaction note read-back and cache invalidation passed.",
+    "Public HTTPS verification through the new CLI command passed all 14 language pages.",
+    "Fresh production dry-run read back identical note content and reported No content changes."
+  ],
+  "authorization": "Owner authorized publishing all 14 notes and explicitly authorized modifying the CLI. No production deployment was needed or started.",
+  "gitIntegration": "The authored manifest and publication receipt are the complete game-repository change; delivered on canonical main.",
+  "continuation": [
+    "For future note edits, change the canonical manifest, run absolute-path game edit dry-run, review all before/after values, apply the exact fingerprint, then run game translation-notes verify and a fresh unchanged dry-run.",
+    "Unrelated working-tree changes and unused additive dev tooling do not justify a deployment for game data writes; preserve the editor source/runtime-package guards."
+  ],
+  "siteCheckout": {
+    "preservedPaths": [
+      "data/games/omori/glossary-review/locales-compact-v2-2026-10-13/checkpoint.json",
+      "data/games/omori/glossary-review/locales-compact-v2-2026-10-13/remaining-locales-2026-10-14/nl/"
+    ],
+    "cliRepairCommit": "7e2985ae889e0aafda5562e3c81856678a8f1ccd",
+    "htmlVerifierCommit": "31b5e1d3ad83f42938dd7bc0091c57496396baf6",
+    "runningSiteRevision": "3a8fef3a4910f572c5597c6d49c33388d539ed8b",
+    "status": "Both CLI commits pushed to origin/main; unrelated OMORI changes preserved.",
+    "initialHead": "163691b2a476dac714d6b72fe677d28b1f001ef3"
+  },
+  "verifiedAtUtc": "2026-10-14T09:02:58.957166+00:00",
+  "priorBlockers": [
+    "Editor dependency differs from running revision: package-lock.json",
+    "Commit the canonical checkout before cloud deployment: unrelated OMORI checkpoint and Dutch review files"
+  ],
+  "lastSiteDeploymentWasUnrelated": {
+    "source": "73c337e73213f6708d99f768bb163416474df02f",
+    "run": "38280876181",
+    "state": "failed cloud build; no release created"
+  },
+  "publication": {
+    "applyFingerprint": "74bdf15fcb2e324919b1498570a1ab18b6871ea47d5e0a3291bd84130b1316f2",
+    "readbackFingerprint": "347d5a6b5cfd2ccb01452564d9cff9ec1eadb43663f567b225090cc98ed0938a",
+    "publicPages": [
+      {
+        "locale": "th",
+        "url": "https://vnrevival.fun/th/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "id",
+        "url": "https://vnrevival.fun/id/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "cs",
+        "url": "https://vnrevival.fun/cs/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "hu",
+        "url": "https://vnrevival.fun/hu/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "nl",
+        "url": "https://vnrevival.fun/nl/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "fa",
+        "url": "https://vnrevival.fun/fa/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "ro",
+        "url": "https://vnrevival.fun/ro/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "hi",
+        "url": "https://vnrevival.fun/hi/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "fil",
+        "url": "https://vnrevival.fun/fil/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "el",
+        "url": "https://vnrevival.fun/el/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "bg",
+        "url": "https://vnrevival.fun/bg/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "sr",
+        "url": "https://vnrevival.fun/sr/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "sw",
+        "url": "https://vnrevival.fun/sw/games/no-im-not-a-human",
+        "passed": true
+      },
+      {
+        "locale": "he",
+        "url": "https://vnrevival.fun/he/games/no-im-not-a-human",
+        "passed": true
+      }
+    ],
+    "evidence": [
+      "outputs/site-translation-notes-v1-dry-run.log",
+      "outputs/site-translation-notes-v1-apply.log",
+      "outputs/site-translation-notes-v1-readback.log",
+      "outputs/site-translation-notes-v1-public-verification.json"
+    ]
+  },
+  "verificationBoundaries": {
+    "lockfileTests": "Existing package version/integrity/deletion, runtime dependencies, existing dev dependencies, linked/new production packages, absent import inventory, and a newly imported dev tool reject; matching positive controls pass. Real esbuild snapshot verified separately.",
+    "contentTests": "Planner and launcher tests replace production transport/database with fixtures; actual production writer independently verified all note values transactionally.",
+    "publicHtmlTests": "Reader rejects wrong/duplicate/missing note, changed title/paragraph, wrong direction/language/canonical, script-only HTML and false data-lang; live checks use actual public HTTPS.",
+    "unrun": "Visual browser layout, unrelated game QA and deployment were not run."
+  }
+}
