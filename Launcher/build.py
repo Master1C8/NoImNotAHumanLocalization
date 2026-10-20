@@ -25,7 +25,8 @@ def windows_resources():
 def build(payload,out,zig):
     assert payload.is_relative_to(ROOT/'outputs') and out.is_relative_to(ROOT/'outputs')
     assert not out.exists(), 'Use a new versioned build directory'
-    assert subprocess.check_output(['git','-C',str(BASE),'rev-parse','HEAD'],text=True).strip()=='d4154ff15c7c27c801d197750db36c39bc460aa8'
+    # Adaptation provenance is historical; the base checkout may legitimately advance.
+    run(['git','-C',BASE,'cat-file','-e','d4154ff15c7c27c801d197750db36c39bc460aa8^{commit}'])
     expected='#pragma once\n#define NH_INVENTORY_SHA "'+sha(payload/'inventory.tsv')+'"\n'
     assert (ROOT/'Launcher/payload_pin.h').read_text()==expected, 'Update the reviewed payload pin before building'
     source_pins={str(p.relative_to(ROOT)):sha(p) for p in sorted((ROOT/'Launcher').rglob('*')) if p.is_file()}
@@ -55,14 +56,14 @@ def build(payload,out,zig):
         provenance=json.loads((payload/'provenance.json').read_text())
         assert len(set(locales))==len(locales) and set(locales)=={p['locale'] for p in provenance['reviewedProfiles']}
         required=['Payload/'+line.split('\t')[0] for line in (payload/'inventory.tsv').read_text().splitlines()]+['Payload/inventory.tsv']
-        manifest={'schemaVersion':1,'gameSlug':'no-im-not-a-human','platform':'macos' if destination==res else 'windows','releaseVersion':'0.2.1-preview','locales':{locale:{'requiredPaths':required} for locale in locales}}
+        manifest={'schemaVersion':1,'gameSlug':'no-im-not-a-human','platform':'macos' if destination==res else 'windows','releaseVersion':'0.2.1','locales':{locale:{'requiredPaths':required} for locale in locales}}
         (destination/'vnrevival-locales.json').write_text(json.dumps(manifest,indent=2)+'\n')
     run(['codesign','--force','--deep','--sign','-',app]);run(['codesign','--verify','--deep','--strict',app])
     # Delivery archives are generated only after compilation and signature validation.
     archives={}
     for platform,folder in [('macOS',app),('Windows',win)]:
-        target=out/('NoHuman-Launcher-'+platform+'-preview-v5.zip')
-        if platform=='macOS':run(['ditto','-c','-k','--sequesterRsrc','--keepParent',folder,target])
+        target=out/('NoHuman-Launcher-'+platform+'-0.2.1.zip')
+        if platform=='macOS':run(['ditto','-c','-k','--norsrc','--noextattr','--noqtn','--keepParent',folder,target])
         else:
             with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
                 for p in sorted(folder.rglob('*')):

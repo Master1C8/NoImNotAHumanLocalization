@@ -1,4 +1,4 @@
-# No Human Launcher preview 0.2.1
+# No Human Launcher 0.2.1
 
 Open the macOS application or extract the Windows archive and open `No Human Launcher.exe`. The launcher always installs all 14 languages together. Choose and switch languages in the game's own settings, alongside the 18 original languages. Your selected language and unrelated game settings are preserved; the launcher does not choose a language or replace saves.
 
@@ -8,7 +8,7 @@ Languages: Thai, Indonesian, Czech, Hungarian, Dutch, Persian, Romanian, Hindi, 
 
 The archives include `vnrevival-locales.json` for the site's locale audit. Each declared language comes from the pinned reviewed profile inventory and references the shared compressed payload. The launcher uses the installed game's original icon on each platform.
 
-This preview combines the frozen six-scene baseline with every current structurally checked authored table and static value, including the subsequent Foreigner/radio mechanics corrections in all 14 locales. It includes renderer 0.4.1 with complete-element radio noise, original signal quality and permanent authored gaps, while retaining the reviewed Hindi/Hebrew font bindings. Independent editorial acceptance of the mechanics corrections and full-game linguistic/gameplay acceptance remain pending. A native static-text adapter follows the game's selected locale for the 178 serialized static fields, preserves gameplay's dynamic replacements, and retains the original text for original locales. The Hindi and Hebrew bindings are combined from their exact reviewed renderer sources. The verified version-bound interop cache is bundled for first launch. Generation-only Unity base libraries are omitted; automatic regeneration is disabled because this installer accepts only the exact game and metadata hashes. GameAssembly and IL2CPP metadata hashes are checked before installation.
+The package contains renderer 0.4.1, including radio-noise handling and the retained Hindi/Hebrew font bindings. A native static-text adapter follows the game's selected locale for the 178 serialized static fields, preserves gameplay's dynamic replacements, and retains the original text for original locales. The Hindi and Hebrew bindings are combined from their exact reviewed renderer sources. The verified version-bound interop cache is bundled for first launch. Generation-only Unity base libraries are omitted; automatic regeneration is disabled because this installer accepts only the exact game and metadata hashes. GameAssembly and IL2CPP metadata hashes are checked before installation.
 
 ## Adaptation and provenance
 
@@ -34,3 +34,13 @@ Build recipes refuse to overwrite prior build directories. The macOS app is ad h
 ## Third-party software
 
 Bundled notices are in `Licenses/`. BepInEx build BE.788 source: https://github.com/BepInEx/BepInEx/tree/5b766a3 ; Zstandard 1.5.7 source: https://github.com/facebook/zstd/tree/v1.5.7 ; HarfBuzzSharp: https://github.com/mono/SkiaSharp ; Noto Devanagari: https://github.com/notofonts/devanagari . BepInEx's bundled .NET runtime and Unity interop dependencies retain their respective upstream licenses. No changes are made to those upstream libraries.
+
+## Local provenance builds
+
+The release recipe records this repository's exact clean source commit and the
+retained payload's complete file inventory. The original Stardew adaptation
+revision is historical provenance; it does not require Stardew's current HEAD
+to remain at that revision. No Stardew source is read into this build.
+Historical release notes and original acceptance statements remain in
+`Documentation/launcher-readme-history-20261020.md` and their original records.
+A new build record does not rewrite those historical dates or statuses.
