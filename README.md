@@ -21,9 +21,10 @@ published package and contains installation instructions for both platforms.
 
 The public release version is **0.2.1**. Legacy internal archive labels and bounded
 QA receipts are historical evidence, not a different public release identity.
-The existing published archives have verified SHA-256 values; their exact source
-commits remain unknown. An installer base revision does not establish provenance
-for the whole localization package.
+The [published Windows and macOS release](https://github.com/Master1C8/NoImNotAHumanLocalization/releases/tag/release-0.2.1-4b1fdd732a3e) includes exact source and payload evidence.
+Follow [release verification](Documentation/release-verification.md) for files,
+SHA-256 checks and the actual build commit. Earlier archives retain unknown exact
+source provenance; an installer base revision alone does not identify a package.
 
 ## Downloads and project links
 
