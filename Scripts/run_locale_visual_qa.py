@@ -74,7 +74,7 @@ def verify_live(run):
     return record, windows[0]
 
 
-def start(locale, run):
+def start(locale, run, archive=None):
     require(locale in LOCALES and not run.exists() and run.is_relative_to(ROOT / 'outputs'),
             'Choose a supported locale and a new canonical run directory')
     fixture_stopped()
@@ -83,8 +83,14 @@ def start(locale, run):
     require(SAVE.is_dir() and CLOUD_SAVE.is_dir() and
             SAVE.resolve().is_relative_to(FIXTURE.resolve()) and
             CLOUD_SAVE.resolve().is_relative_to(FIXTURE.resolve()), 'Save root escaped the fixture')
-    archive = ROOT / ('dist/NoImNotAHuman-' + locale + '-preview-v1.zip')
-    proof = json.loads((ROOT / ('Documentation/' + locale + '-delivery-proof-v1/archive.json')).read_text())
+    if archive is None:
+        archive = ROOT / ('dist/NoImNotAHuman-' + locale + '-preview-v1.zip')
+        proof_path = ROOT / ('Documentation/' + locale + '-delivery-proof-v1/archive.json')
+    else:
+        require(archive.is_relative_to(ROOT / 'dist'), 'Runtime archive escaped canonical dist')
+        proof_path = archive.with_suffix(archive.suffix + '.json')
+    proof = json.loads(proof_path.read_text())
+    require(proof['locale'] == locale, 'Archive proof locale differs')
     require(digest(archive) == proof['sha256'], 'Delivered archive changed')
     with ZipFile(archive) as zipped:
         require(zipped.testzip() is None and len(zipped.namelist()) == 33, 'Archive members or CRC differ')
@@ -230,6 +236,7 @@ if __name__ == '__main__':
     parser.add_argument('--action', choices=['start', 'capture', 'click', 'finish'], required=True)
     parser.add_argument('--run', type=Path, required=True)
     parser.add_argument('--locale', choices=LOCALES)
+    parser.add_argument('--archive', type=Path)
     parser.add_argument('--name')
     parser.add_argument('--reference', type=Path)
     parser.add_argument('--region', type=int, nargs=4)
@@ -238,7 +245,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     directory = args.run.resolve()
     require(directory.is_relative_to(ROOT / 'outputs'), 'Noncanonical run directory')
-    if args.action == 'start': start(args.locale, directory)
+    if args.action == 'start': start(args.locale, directory, args.archive.resolve() if args.archive else None)
     elif args.action == 'capture': capture(directory, args.name)
     elif args.action == 'click':
         require(args.reference and args.region and args.point and args.name, 'Complete reviewed click contract required')
