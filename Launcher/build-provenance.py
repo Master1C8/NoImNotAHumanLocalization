@@ -100,10 +100,24 @@ def main():
         subprocess.run(["python3", "Launcher/build.py", "--payload", str(payload),
                         "--out", str(build), "--zig", str(zig)], cwd=root,
                        stdout=log, stderr=subprocess.STDOUT, check=True)
+        # Fault injection is compiled only into the separate test executable.
+        subprocess.run(["clang", "-target", "arm64-apple-macos14", "-O2",
+                        "-DNOHUMAN_CLI", "-DNOHUMAN_TESTING", "-Wno-deprecated-declarations",
+                        "Launcher/engine.c", "Launcher/vendor/zstd/zstddeclib.c", "-o",
+                        str(build / "engine-testing-arm64")], cwd=root,
+                       stdout=log, stderr=subprocess.STDOUT, check=True)
         subprocess.run(["python3", "Launcher/test_engine.py", "--engine",
-                        str(build / "engine-arm64"), "--payload", str(payload),
+                        str(build / "engine-testing-arm64"), "--payload", str(payload),
                         "--out", str(build / "engine-checks")], cwd=root,
                        stdout=log, stderr=subprocess.STDOUT, check=True)
+        subprocess.run([str(build / "engine-arm64"), str(payload),
+                        str(build / "engine-checks/game"), "all"], cwd=root,
+                       stdout=log, stderr=subprocess.STDOUT, check=True)
+        (out / "production-engine-verification.json").write_text(json.dumps({
+            "status": "passed", "sha256": sha(build / "engine-arm64"),
+            "boundary": "Uninstrumented production engine verifies and reapplies the isolated installed fixture",
+            "faultInjectionBoundary": "Separate same-source executable compiled with NOHUMAN_TESTING",
+            "instrumentedSha256": sha(build / "engine-testing-arm64")}, indent=2) + "\n")
     if git(root, "rev-parse", "HEAD") != commit or git(root, "status", "--porcelain"):
         raise ValueError("Source changed during build")
     if inventory(payload) != materials or sha(origin) != origin_hash:
