@@ -44,3 +44,5 @@ to remain at that revision. No Stardew source is read into this build.
 Historical release notes and original acceptance statements remain in
 `Documentation/launcher-readme-history-20261020.md` and their original records.
 A new build record does not rewrite those historical dates or statuses.
+
+Native engine fixture checks accept installed originals or the installer-owned backup only after exact `originals.tsv` / `game-version.tsv` hash matching. Regression: an already localized game must use matching backup bytes, while changed or missing backups must fail before fixture installation. The installed game and its backups are read-only inputs.

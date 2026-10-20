@@ -5,6 +5,12 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 ORIGINAL=Path('/Volumes/KINGSTONMAC/Applications/No Im not a Human.app/Contents/SharedSupport/prefix/drive_c/KS Games/No Im not a Human')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def verified_original(name, expected):
+    """Read only hash-matching original bytes, including the installer's backup."""
+    for candidate in (ORIGINAL/name, ORIGINAL/'VNRevival-NoHuman/originals'/name):
+        if candidate.is_file() and sha(candidate)==expected:
+            return candidate
+    raise AssertionError(f'No verified original available: {name}')
 def profile(payload,locale):
     return [line.split('\t') for line in (payload/'profiles'/f'{locale}.tsv').read_text().splitlines()]
 def invoke(engine,payload,game,locale,expect=None,env=None):
@@ -68,9 +74,9 @@ def test(engine,payload,out):
     bad=out/'wrong-build';(bad/'NoImNotAHuman_Data').mkdir(parents=True);(bad/'NoImNotAHuman_Data/boot.config').write_text('build-guid=wrong\n')
     invoke(engine,payload,bad,'all','Unsupported game build');assert not (bad/'VNRevival-NoHuman').exists();checks.append('Unsupported build rejected before writes')
     for line in (payload/'originals.tsv').read_text().splitlines():
-        name,expected=line.split('\t');destination=game/name;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ORIGINAL/name,destination);assert sha(destination)==expected
+        name,expected=line.split('\t');destination=game/name;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(verified_original(name,expected),destination);assert sha(destination)==expected
     for line in (payload/'game-version.tsv').read_text().splitlines():
-        name,expected=line.split('\t');destination=game/name;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ORIGINAL/name,destination);assert sha(destination)==expected
+        name,expected=line.split('\t');destination=game/name;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(verified_original(name,expected),destination);assert sha(destination)==expected
     shutil.copyfile(ORIGINAL/'NoImNotAHuman_Data/boot.config',game/'NoImNotAHuman_Data/boot.config')
     code=game/'GameAssembly.dll'
     with code.open('r+b') as f: original_byte=f.read(1);f.seek(0);f.write(bytes([original_byte[0]^1]))
