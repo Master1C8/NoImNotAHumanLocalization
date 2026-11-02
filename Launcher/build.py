@@ -3,7 +3,6 @@
 import argparse, hashlib, json, os, plistlib, shutil, struct, subprocess, zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-BASE=Path('/Users/antonkrutov/Desktop/StardewTranslationInstaller')
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def run(args, **kw): subprocess.run([str(x) for x in args],check=True,**kw)
 def resource(kind, ident, data):
@@ -26,12 +25,13 @@ def build(payload,out,zig):
     assert payload.is_relative_to(ROOT/'outputs') and out.is_relative_to(ROOT/'outputs')
     assert not out.exists(), 'Use a new versioned build directory'
     # Adaptation provenance is historical; the base checkout may legitimately advance.
-    run(['git','-C',BASE,'cat-file','-e','d4154ff15c7c27c801d197750db36c39bc460aa8^{commit}'])
+    # The adaptation revision is provenance, not a build dependency. All
+    # adapted source is in this checkout; no sibling project is read.
     expected='#pragma once\n#define NH_INVENTORY_SHA "'+sha(payload/'inventory.tsv')+'"\n'
     assert (ROOT/'Launcher/payload_pin.h').read_text()==expected, 'Update the reviewed payload pin before building'
     source_pins={str(p.relative_to(ROOT)):sha(p) for p in sorted((ROOT/'Launcher').rglob('*')) if p.is_file()}
     out.mkdir(parents=True)
-    env=os.environ.copy();env.update(ZIG_GLOBAL_CACHE_DIR='/private/tmp/nohuman-zig-global',ZIG_LOCAL_CACHE_DIR='/private/tmp/nohuman-zig-local')
+    env=os.environ.copy();env.update(ZIG_GLOBAL_CACHE_DIR=str(out/'cache/zig-global'),ZIG_LOCAL_CACHE_DIR=str(out/'cache/zig-local'))
     flags=['-O2']
     c=[ROOT/'Launcher/engine.c',ROOT/'Launcher/vendor/zstd/zstddeclib.c']
     win=out/'No Human Launcher Windows';(win/'Resources').mkdir(parents=True)
@@ -44,7 +44,7 @@ def build(payload,out,zig):
     app=out/'No Human Launcher.app';mac=app/'Contents/MacOS';res=app/'Contents/Resources';mac.mkdir(parents=True);res.mkdir()
     for arch in ['arm64','x86_64']:
         run(['clang','-target',arch+'-apple-macos14',*flags,'-DNOHUMAN_CLI','-Wno-deprecated-declarations',*c,'-o',out/('engine-'+arch)])
-        run(['swiftc','-parse-as-library','-O','-target',arch+'-apple-macos14','-module-cache-path','/private/tmp/nohuman-swift-cache',ROOT/'Launcher/macOS.swift','-o',out/('ui-'+arch)])
+        run(['swiftc','-parse-as-library','-O','-target',arch+'-apple-macos14','-module-cache-path',out/'cache/swift',ROOT/'Launcher/macOS.swift','-o',out/('ui-'+arch)])
     for name,prefix in [('nohuman-engine','engine-'),('No Human Launcher','ui-')]:run(['lipo','-create',out/(prefix+'arm64'),out/(prefix+'x86_64'),'-output',mac/name])
     shutil.copytree(payload,res/'Payload');shutil.copy(ROOT/'Launcher/Icons/Game.icns',res/'App.icns')
     info={'CFBundleName':'No Human Launcher','CFBundleDisplayName':'VN Revival — No, I’m not a Human','CFBundleExecutable':'No Human Launcher','CFBundleIdentifier':'fun.vnrevival.nohuman.launcher','CFBundleVersion':'3','CFBundleShortVersionString':'0.2.1','CFBundlePackageType':'APPL','LSMinimumSystemVersion':'14.0','NSHighResolutionCapable':True,'CFBundleIconFile':'App.icns'}
