@@ -18,3 +18,10 @@ Authenticated cold restoration reproduced all nine exact payload files from the 
 For changed game resources follow `Launcher/README.md` with the matching original game, exact current authored inputs and the owning localization workflow. Historical prerequisite records can be inspected with `git show REV:path` or restored from the indexed revision. No historical model job is authorized by that record.
 
 After verification remove `.venv/`, `.build/`, `outputs/`, `dist/`, generated source-analysis textures and bytecode again. Preserve editable inputs, current source and normal Git metadata. `PreservedSaves/` is private owner data and remains protected locally; it is not uploaded or deleted by this archive.
+
+The earlier raw glossary-corpus-v2 export is reproducible extraction, not authored
+translation source. All 52,788 source rows were compared by stable ID and source
+SHA-256 against the retained canonical v3 inventory before retiring it. Recreate
+it with `Scripts/extract_glossary_corpus.py` and the matching original game; that
+extractor validates game/source hashes before writing. Old derived context exports
+and .NET obj caches are also disposable. No player saves are selected.
